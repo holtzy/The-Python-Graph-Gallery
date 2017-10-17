@@ -1,22 +1,23 @@
      	# ------------------------------------------------ #
-        # ------- THE PYTHON_GRAPH_GALLERY
+        #     THE PYTHON_GRAPH_GALLERY
         #               Hundreds of charts made with python
         #               www.python-graph-gallery.com
         #
-        #                   by Yan Holtz & Olivier Gaudard
+        #                   by Yan Holtz
         # ------------------------------------------------ #
  
   
-# Pour trouver des datasets
-sns.get_dataset_names()
-sns.load_dataset("planets")
-
+# Welcome to the Python Graph gallery 
+# All the graphics displayed online are initialy created here.
+# Charts are organized per section.
+# Feel free to use this file, but honestly, it is more convenient to visit the website I believe...
+#
+#   www.python-graph-gallery.com
+#
   
-# Pour se placer dans le bon repository
-import os
-os.chdir("/Users/y.holtz/Dropbox/Python_GG")
-cwd = os.getcwd()
-cwd
+
+
+
 
   
   
