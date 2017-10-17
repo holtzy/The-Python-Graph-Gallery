@@ -43,10 +43,12 @@ There are many people I would like to acknowledge:
 - People who already sent me some feedbacks / bug reports / proposition of improvement.
 - People who said me thank you! Without that I would not developp this resource...
 
-- [**Guillaume Gimzu Debreu**](https://www.linkedin.com/in/guillaume-debreu-7b360b125/) without who I would never have had the Idea to make the galleries.
+- My friend [**Guillaume Gimzu Debreu**](https://www.linkedin.com/in/guillaume-debreu-7b360b125/) without who I would never have had the Idea to make the galleries.
+- My friend [**Conor Healy**](www.conor.fr), best designer ever, who did the awesome set of Logo.
 - My friend **Jean-Phi** for his precious advices.
-- My wife **Mel Mulot** that bears me even when I code by night
-- All my english speaker friends who correct me with patience (Lou Papéou, Annie-Rose, Cherelle, Kath)
+- My wife **Mel Mulot** who bears me even when I code by night
+- All my english speaker friends who correct me with patience (Lou Papéou, Annie-Rose, Cherelle, Kath, Shenfa)
+
 
 
 
