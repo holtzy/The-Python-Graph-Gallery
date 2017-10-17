@@ -1,7 +1,7 @@
    The Python Graph Gallery
 ===================
 
-<img align="center" src="overviewPGG.png">
+<img align="center" src="overview_PGG.png">
 
 Overview
 --------
