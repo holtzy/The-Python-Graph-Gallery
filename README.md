@@ -44,7 +44,8 @@ There are many people I would like to acknowledge:
 - People who said me thank you! Without that I would not developp this resource...
 
 - **Guillaume Gimzu Debreu** without who I would never have had the Idea to make the galleries.
-- My wife Mel Mulot that bears me even when I code by night
+- My friend **Jean-Phi** for his precious advices.
+- My wife **Mel Mulot** that bears me even when I code by night
 - All my english speaker friends who correct me with patience (Lou Papéou, Annie-Rose, Cherelle, Kath)
 
 
