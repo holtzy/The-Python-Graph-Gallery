@@ -1,7 +1,7 @@
    The Python Graph Gallery
 ===================
 
-<img style="float: justify;" align="center" src="RESSOURCES/Logo_GenMap_Small.png">
+<img style="float: justify;" align="center" src="overview_PGG.png">
 
 Overview
 --------
