@@ -4385,6 +4385,120 @@ plt.show()
 
 
 
+# ———————————————————————————————————
+#  #134 BAD GRAPH: OVERPLOTTING
+
+# Overplotting=one of the most dangerous mistake in scatterplot.
+# Example:
+
+# libraries and data
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+import pandas as pd
+plt.style.use('seaborn')
+
+# Dataset:
+df=pd.DataFrame({'x': np.random.normal(10, 1.2, 20000), 'y': np.random.normal(10, 1.2, 20000), 'group': np.repeat('A',20000) })
+tmp1=pd.DataFrame({'x': np.random.normal(14.5, 1.2, 20000), 'y': np.random.normal(14.5, 1.2, 20000), 'group': np.repeat('B',20000) })
+tmp2=pd.DataFrame({'x': np.random.normal(9.5, 1.5, 20000), 'y': np.random.normal(15.5, 1.5, 20000), 'group': np.repeat('C',20000) })
+df=df.append(tmp1).append(tmp2)
+
+my_dpi=96
+plt.figure(figsize=(480/my_dpi, 480/my_dpi), dpi=my_dpi)
+
+# plot
+plt.plot( 'x', 'y', data=df, linestyle='', marker='o')
+plt.savefig('PNG/#134_Fighting_overplotting1.png')
+
+# How to fight it?
+# Be carefull outliers are harder to see
+
+# 1- Reduce dot size
+plt.plot( 'x', 'y', data=df, linestyle='', marker='o', markersize=0.07)
+plt.xlabel('Value of X')
+plt.ylabel('Value of Y')
+plt.title('Overplotting? Try to reduce the dot size', loc='left')
+
+# 2- Use transparency
+# Be carefull if you use several color on your chart: they can become hard to distinguish
+plt.plot( 'x', 'y', data=df, linestyle='', marker='o', markersize=3, alpha=0.05, color="purple")
+
+# 3- 2D density graph
+sns.kdeplot(df.x, df.y, cmap="Reds", shade=True)
+
+# 4- Sampling:
+# Pandas has an awesome function for that!
+df_sample=df.sample(1000)
+plt.plot( 'x', 'y', data=df_sample, linestyle='', marker='o')
+plt.xlabel('Value of X')
+plt.ylabel('Value of Y')
+
+# 5- Filtering
+df_filtered = df[ df['group'] == 'A']
+plt.plot( 'x', 'y', data=df, linestyle='', marker='o', markersize=1.5, color="grey", alpha=0.3, label='other group')
+plt.plot( 'x', 'y', data=df_filtered, linestyle='', marker='o', markersize=1.5, alpha=0.3, label='group A')
+plt.legend(markerscale=8)
+plt.xlabel('Value of X')
+plt.ylabel('Value of Y')
+
+
+# 6- Faceting
+
+# 7- Grouping
+
+# 8- Jitter
+
+# Dataset:
+a=np.concatenate([np.random.normal(2, 4, 1000), np.random.normal(4, 4, 1000), np.random.normal(1, 2, 500), np.random.normal(10, 2, 500), np.random.normal(8, 4, 1000), np.random.normal(10, 4, 1000)])
+df=pd.DataFrame({'x': np.repeat( range(1,6), 1000), 'y': a })
+
+# plot
+plt.plot( 'x', 'y', data=df, linestyle='', marker='o')
+
+# Correct
+sns.stripplot(df.x, df.y, jitter=0.2, size=2)
+plt.title('Overplotting? Use jitter when x data are not really continuous', loc='left')
+
+# 9- 3D plot
+
+# libraries
+from scipy.stats import kde
+from mpl_toolkits.mplot3d import Axes3D
+
+# Evaluate a gaussian kde on a regular grid of nbins x nbins over data extents
+nbins=300
+k = kde.gaussian_kde([df.x,df.y])
+xi, yi = np.mgrid[ df.x.min():df.x.max():nbins*1j,  df.y.min():df.y.max():nbins*1j]
+zi = k(np.vstack([xi.flatten(), yi.flatten()]))
+ 
+# Transform it in a dataframe
+data=pd.DataFrame({'x': xi.flatten(), 'y': yi.flatten(), 'z': zi  })
+
+
+# Make the plot
+fig = plt.figure()
+ax = fig.gca(projection='3d')
+ax.plot_trisurf(data.x, data.y, data.z, cmap=plt.cm.Spectral, linewidth=0.2)
+# Adapt angle, first number is up/down, second number is right/left
+ax.view_init(30, 80)   
+plt.show()
+
+
+# 10- Bonus: show marginal distribution
+sns.jointplot(x=df.x, y=df.y, kind='kde')
+
+
+# Litterature:
+- https://shapescience.xyz/blog/reducing-overplotting-in-scatterplots/
+
+
+
+
+
+
+
+
   -----------------------------------------
  |												|
  |												|
