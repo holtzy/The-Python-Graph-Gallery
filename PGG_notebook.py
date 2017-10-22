@@ -1236,7 +1236,6 @@ fig.savefig('PNG/#36_Boxplot_with_Jitter_Seaborn.png')
 # ———————————————————————————————————
 #  #38 Number of observation on boxplot
 
-
 # library & dataset
 import seaborn as sns, numpy as np
 df = sns.load_dataset("iris")
@@ -1259,6 +1258,67 @@ sns.plt.show()
 fig = ax.get_figure()
 fig.set_size_inches(4.8, 4.8)
 fig.savefig('PNG/#38_Number_of_obs_on_boxplot_seaborn.png')
+
+
+
+
+            
+            
+            
+            
+# ———————————————————————————————————
+#  #39 Bad Boxplot 1: not enough detail
+
+# REASON 1 = number of data
+# REASON 2 = structure of underlying data
+
+# libraries and data
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+import pandas as pd
+plt.style.use('seaborn')
+
+# Dataset:
+a = pd.DataFrame({ 'group' : np.repeat('A',500), 'value': np.random.normal(10, 5, 500) })
+b = pd.DataFrame({ 'group' : np.repeat('B',500), 'value': np.random.normal(13, 1.2, 500) })
+c = pd.DataFrame({ 'group' : np.repeat('B',500), 'value': np.random.normal(18, 1.2, 500) })
+d = pd.DataFrame({ 'group' : np.repeat('C',20), 'value': np.random.normal(25, 4, 20) })
+e = pd.DataFrame({ 'group' : np.repeat('D',100), 'value': np.random.uniform(12, size=100) })
+df=a.append(b).append(c).append(d).append(e)
+
+# Usual boxplot
+ax = sns.boxplot(x='group', y='value', data=df)
+ 
+# FIX IT
+
+# Add jitter with the swarmplot function.
+ax = sns.boxplot(x='group', y='value', data=df)
+ax = sns.stripplot(x='group', y='value', data=df, color="orange",  jitter=0.2, size=2.5)
+plt.title("Boxplot with jitter", loc="left")
+
+# Use violin plot
+sns.violinplot( x='group', y='value', data=df)
+plt.title("Violin plot", loc="left")
+
+
+# SHow number of data point. See graph #38
+sns.boxplot(x="group", y="value", data=df)
+
+# Calculate number of obs per group & median to position labels
+medians = df.groupby(['group'])['value'].median().values
+nobs = df.groupby("group").size().values
+nobs = [str(x) for x in nobs.tolist()]
+nobs = ["n: " + i for i in nobs]
+ 
+# Add it to the plot
+pos = range(len(nobs))
+for tick,label in zip(pos,ax.get_xticklabels()):
+   plt.text(pos[tick], medians[tick] + 0.4, nobs[tick], horizontalalignment='center', size='medium', color='w', weight='semibold')
+ 
+plt.title("Boxplot with number of observation", loc="left")
+
+
 
 
 
@@ -4409,23 +4469,33 @@ plt.figure(figsize=(480/my_dpi, 480/my_dpi), dpi=my_dpi)
 
 # plot
 plt.plot( 'x', 'y', data=df, linestyle='', marker='o')
-plt.savefig('PNG/#134_Fighting_overplotting1.png')
+plt.xlabel('Value of X')
+plt.ylabel('Value of Y')
+plt.title('Overplotting looks like that:', loc='left')
+plt.savefig('PNG/#134_Fighting_overplotting1.png', dpi=96, bbox_inches='tight')
 
 # How to fight it?
 # Be carefull outliers are harder to see
 
 # 1- Reduce dot size
-plt.plot( 'x', 'y', data=df, linestyle='', marker='o', markersize=0.07)
+plt.plot( 'x', 'y', data=df, linestyle='', marker='o', markersize=0.7)
 plt.xlabel('Value of X')
 plt.ylabel('Value of Y')
 plt.title('Overplotting? Try to reduce the dot size', loc='left')
+plt.savefig('PNG/#134_Fighting_overplotting2.png', dpi=96, bbox_inches='tight')
 
 # 2- Use transparency
 # Be carefull if you use several color on your chart: they can become hard to distinguish
 plt.plot( 'x', 'y', data=df, linestyle='', marker='o', markersize=3, alpha=0.05, color="purple")
+plt.xlabel('Value of X')
+plt.ylabel('Value of Y')
+plt.title('Overplotting? Try to use transparency', loc='left')
+plt.savefig('PNG/#134_Fighting_overplotting3.png', dpi=96, bbox_inches='tight')
 
 # 3- 2D density graph
 sns.kdeplot(df.x, df.y, cmap="Reds", shade=True)
+plt.title('Overplotting? Try 2D density graph', loc='left')
+plt.savefig('PNG/#134_Fighting_overplotting4.png', dpi=96, bbox_inches='tight')
 
 # 4- Sampling:
 # Pandas has an awesome function for that!
@@ -4433,6 +4503,8 @@ df_sample=df.sample(1000)
 plt.plot( 'x', 'y', data=df_sample, linestyle='', marker='o')
 plt.xlabel('Value of X')
 plt.ylabel('Value of Y')
+plt.title('Overplotting? Sample your data', loc='left')
+plt.savefig('PNG/#134_Fighting_overplotting5.png', dpi=96, bbox_inches='tight')
 
 # 5- Filtering
 df_filtered = df[ df['group'] == 'A']
@@ -4441,11 +4513,22 @@ plt.plot( 'x', 'y', data=df_filtered, linestyle='', marker='o', markersize=1.5, 
 plt.legend(markerscale=8)
 plt.xlabel('Value of X')
 plt.ylabel('Value of Y')
+plt.title('Overplotting? Show a specific group', loc='left')
+plt.savefig('PNG/#134_Fighting_overplotting6.png', dpi=96, bbox_inches='tight')
 
+# 6- Grouping
+sns.lmplot( x="x", y="y", data=df, fit_reg=False, hue='group', legend=False, palette="Accent", scatter_kws={"alpha":0.1,"s":15} )
+plt.legend(loc='lower right', markerscale=2)
+plt.xlabel('Value of X')
+plt.ylabel('Value of Y')
+plt.title('Overplotting? Show putative structure', loc='left')
+plt.savefig('PNG/#134_Fighting_overplotting7.png', dpi=96, bbox_inches='tight')
 
-# 6- Faceting
-
-# 7- Grouping
+# 7- Faceting
+g = sns.FacetGrid(df, col="group", hue="group")
+g = (g.map(plt.scatter, "x", "y", edgecolor="w"))
+plt.savefig('PNG/#134_Fighting_overplotting8.png', dpi=96, bbox_inches='tight')
+          
 
 # 8- Jitter
 
@@ -4455,10 +4538,12 @@ df=pd.DataFrame({'x': np.repeat( range(1,6), 1000), 'y': a })
 
 # plot
 plt.plot( 'x', 'y', data=df, linestyle='', marker='o')
+plt.savefig('PNG/#134_Fighting_overplotting11.png', dpi=96, bbox_inches='tight')
 
 # Correct
 sns.stripplot(df.x, df.y, jitter=0.2, size=2)
 plt.title('Overplotting? Use jitter when x data are not really continuous', loc='left')
+plt.savefig('PNG/#134_Fighting_overplotting12.png', dpi=96, bbox_inches='tight')
 
 # 9- 3D plot
 
@@ -4482,11 +4567,12 @@ ax = fig.gca(projection='3d')
 ax.plot_trisurf(data.x, data.y, data.z, cmap=plt.cm.Spectral, linewidth=0.2)
 # Adapt angle, first number is up/down, second number is right/left
 ax.view_init(30, 80)   
-plt.show()
+plt.savefig('PNG/#134_Fighting_overplotting9.png', dpi=96, bbox_inches='tight')
 
 
 # 10- Bonus: show marginal distribution
 sns.jointplot(x=df.x, y=df.y, kind='kde')
+plt.savefig('PNG/#134_Fighting_overplotting10.png', dpi=96, bbox_inches='tight')
 
 
 # Litterature:
