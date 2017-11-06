@@ -952,6 +952,20 @@ plt.savefig('PNG/#25_Histogram_of_several_variables2.png')
 
 
 
+# ———————————————————————————————————
+#  #26 Bad chart: control size of bins!
+
+# Import library and dataset
+# TODO
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Color of bars:
+sns.distplot( df["sepal_length"] , color="peru")
+sns.plt.show()
+
+
+
 
 
 
@@ -1277,8 +1291,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import pandas as pd
-plt.style.use('seaborn')
 
+my_dpi=96
+plt.figure(figsize=(480/my_dpi, 480/my_dpi))
+           
 # Dataset:
 a = pd.DataFrame({ 'group' : np.repeat('A',500), 'value': np.random.normal(10, 5, 500) })
 b = pd.DataFrame({ 'group' : np.repeat('B',500), 'value': np.random.normal(13, 1.2, 500) })
@@ -1288,18 +1304,21 @@ e = pd.DataFrame({ 'group' : np.repeat('D',100), 'value': np.random.uniform(12, 
 df=a.append(b).append(c).append(d).append(e)
 
 # Usual boxplot
-ax = sns.boxplot(x='group', y='value', data=df)
- 
+sns.boxplot(x='group', y='value', data=df)
+plt.savefig('PNG/#39_Bad_boxplot1.png', dpi=my_dpi, bbox_inches='tight')
+
 # FIX IT
 
 # Add jitter with the swarmplot function.
 ax = sns.boxplot(x='group', y='value', data=df)
 ax = sns.stripplot(x='group', y='value', data=df, color="orange",  jitter=0.2, size=2.5)
 plt.title("Boxplot with jitter", loc="left")
+plt.savefig('PNG/#39_Bad_boxplot2.png', dpi=my_dpi, bbox_inches='tight')
 
 # Use violin plot
 sns.violinplot( x='group', y='value', data=df)
 plt.title("Violin plot", loc="left")
+plt.savefig('PNG/#39_Bad_boxplot3.png', dpi=my_dpi, bbox_inches='tight')
 
 
 # SHow number of data point. See graph #38
@@ -1317,6 +1336,7 @@ for tick,label in zip(pos,ax.get_xticklabels()):
    plt.text(pos[tick], medians[tick] + 0.4, nobs[tick], horizontalalignment='center', size='medium', color='w', weight='semibold')
  
 plt.title("Boxplot with number of observation", loc="left")
+plt.savefig('PNG/#39_Bad_boxplot4.png', dpi=my_dpi, bbox_inches='tight')
 
 
 
