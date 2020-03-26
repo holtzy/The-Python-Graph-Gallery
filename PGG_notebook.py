@@ -8328,7 +8328,7 @@ df = pd.DataFrame({ 'from':['A', 'B', 'C','A'], 'to':['D', 'A', 'E','C']})
 df
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to') 
+G=nx.from_pandas_edgelist(df, 'from', 'to') 
 
 # Plot it
 nx.draw(G, with_labels=True)
@@ -8360,7 +8360,7 @@ df = pd.DataFrame({ 'from':['A', 'B', 'C','A'], 'to':['D', 'A', 'E','C']})
 df
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to') 
+G=nx.from_pandas_edgelist(df, 'from', 'to') 
 
 # Custom the nodes:
 #nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", node_shape="s", alpha=0.5, linewidths=40)
@@ -8403,7 +8403,7 @@ df = pd.DataFrame({ 'from':['A', 'B', 'C','A','E','F','E','G','G','D','F'], 'to'
 df
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to') 
+G=nx.from_pandas_edgelist(df, 'from', 'to') 
 
 # plot it
 # Other = shell_layout, 
@@ -8452,7 +8452,7 @@ df = pd.DataFrame({ 'from':['D', 'A', 'B', 'C','A'], 'to':['A', 'D', 'A', 'E','C
 df
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to', create_using=nx.DiGraph() ) 
+G=nx.from_pandas_edgelist(df, 'from', 'to', create_using=nx.DiGraph() ) 
 
 # Custom the nodes:
 plt.title("Directed")
@@ -8467,7 +8467,7 @@ df = pd.DataFrame({ 'from':['D', 'A', 'B', 'C','A'], 'to':['A', 'D', 'A', 'E','C
 df
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to', create_using=nx.Graph() ) 
+G=nx.from_pandas_edgelist(df, 'from', 'to', create_using=nx.Graph() ) 
 
 # Custom the nodes:
 nx.draw(G, with_labels=True, node_size=1500, alpha=0.3, arrows=True)
@@ -8503,7 +8503,7 @@ carac = pd.DataFrame({ 'ID':['A', 'B', 'C','D','E'], 'myvalue':['123','25','76',
 carac
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to', create_using=nx.Graph() ) 
+G=nx.from_pandas_edgelist(df, 'from', 'to', create_using=nx.Graph() ) 
 
 # The order of the node for networkX is the following order:
 G.nodes()
@@ -8539,7 +8539,7 @@ carac = pd.DataFrame({ 'ID':['A', 'B', 'C','D','E'], 'myvalue':['group1','group1
 carac
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to', create_using=nx.Graph() ) 
+G=nx.from_pandas_edgelist(df, 'from', 'to', create_using=nx.Graph() ) 
 
 # The order of the node for networkX is the following order:
 G.nodes()
@@ -8583,7 +8583,7 @@ df = pd.DataFrame({ 'from':['A', 'B', 'C','A'], 'to':['D', 'A', 'E','C'], 'value
 df
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to', create_using=nx.Graph() ) 
+G=nx.from_pandas_edgelist(df, 'from', 'to', create_using=nx.Graph() ) 
 
 # Custom the nodes:
 nx.draw(G, with_labels=True, node_color='skyblue', node_size=1500, edge_color=df['value'], width=10.0, edge_cmap=plt.cm.Blues)
@@ -8609,7 +8609,7 @@ df['value']=pd.Categorical(df['value'])
 df['value'].cat.codes
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to', ['value']) 
+G=nx.from_pandas_edgelist(df, 'from', 'to', ['value']) 
 G.nodes()
 G.edges()
 
@@ -8641,7 +8641,7 @@ df = pd.DataFrame({ 'from':['A', 'B', 'C','A'], 'to':['D', 'A', 'E','C'] })
 df
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to', create_using=nx.Graph() ) 
+G=nx.from_pandas_edgelist(df, 'from', 'to', create_using=nx.Graph() ) 
 
 # Custom the nodes:
 nx.draw(G, with_labels=True, node_color='skyblue', node_size=1500, edge_color='white')
@@ -8691,7 +8691,7 @@ links_filtered=links.loc[ (links['value'] > 0.8)  & (links['var1'] != links['var
 links_filtered
 
 # Build your graph
-G=nx.from_pandas_dataframe(links_filtered, 'var1', 'var2') 
+G=nx.from_pandas_edgelist(links_filtered, 'var1', 'var2') 
 
 # Custom the nodes:
 nx.draw(G, with_labels=True, node_color='orange', node_size=400, edge_color='black', linewidths=1,  font_size=15)
@@ -8750,7 +8750,7 @@ links_filtered=links.loc[ (links['value'] > 0.8)  & (links['var1'] != links['var
 links_filtered
 
 # Build your graph
-G=nx.from_pandas_dataframe(links_filtered, 'var1', 'var2') 
+G=nx.from_pandas_edgelist(links_filtered, 'var1', 'var2') 
 
 # Custom the nodes:
 nx.draw(G, with_labels=True, node_color='skyblue', node_size=400, edge_color='black', linewidths=1,  font_size=15)
@@ -8819,7 +8819,7 @@ links_filtered=links.loc[ (links['value'] > 0.85)  & (links['var1'] != links['va
 links_filtered
 
 # Build your graph
-G=nx.from_pandas_dataframe(links_filtered, 'var1', 'var2') 
+G=nx.from_pandas_edgelist(links_filtered, 'var1', 'var2') 
 
 # Custom the nodes:
 nx.draw(G, with_labels=True, node_color='skyblue', node_size=200, edge_color='black', linewidths=1,  font_size=5)
@@ -8864,7 +8864,7 @@ links_filtered=links.loc[ (links['value'] > 0.999)  & (links['var1'] != links['v
 links_filtered
 
 # Build your graph
-G=nx.from_pandas_dataframe(links_filtered, 'var1', 'var2') 
+G=nx.from_pandas_edgelist(links_filtered, 'var1', 'var2') 
 
 # Custom the nodes:
 nx.draw(G, with_labels=True, node_color='skyblue', node_size=1500, edge_color='black', pos=nx.fruchterman_reingold_layout(G))
@@ -8915,7 +8915,7 @@ links_filtered=links.loc[ (links['value'] > 0.2)  & (links['var1'] != links['var
 links_filtered
 
 # Build your graph
-G=nx.from_pandas_dataframe(links_filtered, 'var1', 'var2') 
+G=nx.from_pandas_edgelist(links_filtered, 'var1', 'var2') 
 
 # Custom the nodes:
 nx.draw(G, with_labels=True, node_color='skyblue', node_size=1500, edge_color='black', pos=nx.fruchterman_reingold_layout(G))
@@ -8953,7 +8953,7 @@ df = pd.DataFrame({ 'from':['A', 'B', 'C','A'], 'to':['D', 'A', 'E','C']})
 df
 
 # Build your graph
-G=nx.from_pandas_dataframe(df, 'from', 'to', create_using=nx.Graph() ) 
+G=nx.from_pandas_edgelist(df, 'from', 'to', create_using=nx.Graph() ) 
 
 # Calculate the number of connection per node:
 length = nx.shortest_path_length(G)
@@ -9043,13 +9043,13 @@ df = pd.DataFrame({ 'from':a, 'to':b, 'weigth':weigth})
 df
 
 # The default one is unweighted
-G=nx.from_pandas_dataframe(df=df, source='from', target='to', create_using=nx.Graph() ) 
+G=nx.from_pandas_edgelist(df=df, source='from', target='to', create_using=nx.Graph() ) 
 nx.draw(G, pos=nx.spring_layout(G), arrows=True, with_labels=True, node_size=82, node_color="skyblue", node_shape="o", alpha=0.8, linewidths=13)
 plt.show()
 
 
 # Unirected, weighted
-G=nx.from_pandas_dataframe(df=df, source='from', target='to', edge_attr=['weigth'] ) 
+G=nx.from_pandas_edgelist(df=df, source='from', target='to', edge_attr=['weigth'] ) 
 G['A']['B'] 
 'weight']
 nx.draw(G, pos=nx.spring_layout(G), arrows=True, with_labels=True, node_size=82, node_color="skyblue", node_shape="o", alpha=0.8, linewidths=13)
@@ -9137,7 +9137,7 @@ df[0] = a
 df['b'] = b
 df
 
-G=nx.from_pandas_dataframe(df, 0, 'b', ['weight', 'cost']) 
+G=nx.from_pandas_edgelist(df, 0, 'b', ['weight', 'cost']) 
 nx.draw(G, pos=nx.spring_layout(G), arrows=True, with_labels=True, node_size=82, node_color="skyblue", node_shape="o", alpha=0.8, linewidths=13)
 plt.show()
 
@@ -9168,22 +9168,22 @@ weigth= ['1', '1', '3', '1', '1']
 df = pd.DataFrame({ 'from':a, 'to':b, 'weigth':weigth}) 
 
 # Not directed, unweighted
-G=nx.from_pandas_dataframe(df=df, source='from', target='to', create_using=nx.Graph() ) 
+G=nx.from_pandas_edgelist(df=df, source='from', target='to', create_using=nx.Graph() ) 
 nx.draw(G, pos=nx.spring_layout(G), arrows=True, with_labels=True, node_size=82, node_color="skyblue", node_shape="o", alpha=0.8, linewidths=13)
 plt.show()
 
 # Directed, unweighted
-G=nx.from_pandas_dataframe(df=df, source='from', target='to', create_using=nx.DiGraph() ) 
+G=nx.from_pandas_edgelist(df=df, source='from', target='to', create_using=nx.DiGraph() ) 
 nx.draw(G, pos=nx.spring_layout(G), arrows=True, with_labels=True, node_size=82, node_color="skyblue", node_shape="o", alpha=0.8, linewidths=13)
 plt.show()
 
 # Unirected, weighted
-G=nx.from_pandas_dataframe(df=df, source='from', target='to', create_using=nx.MultiGraph(), edge_attr="weigth" ) 
+G=nx.from_pandas_edgelist(df=df, source='from', target='to', create_using=nx.MultiGraph(), edge_attr="weigth" ) 
 nx.draw(G, pos=nx.spring_layout(G), arrows=True, with_labels=True, node_size=82, node_color="skyblue", node_shape="o", alpha=0.8, linewidths=13)
 plt.show()
 
 # Directed, weighted
-G=nx.from_pandas_dataframe(df=df, source='from', target='to', create_using=nx.MultiDiGraph() ) 
+G=nx.from_pandas_edgelist(df=df, source='from', target='to', create_using=nx.MultiDiGraph() ) 
 nx.draw(G, pos=nx.spring_layout(G), arrows=True, with_labels=True, node_size=82, node_color="skyblue", node_shape="o", alpha=0.8, linewidths=13)
 plt.show()
 
