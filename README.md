@@ -11,7 +11,7 @@ The [**Python Graph Gallery**](https://www.python-graph-gallery.com/) is a websi
 
 The [**Python Graph Gallery**](https://www.python-graph-gallery.com/) is a work developed by Yan Holtz during its nights, weekends, and holidays. Thus, please be indulgent if you find any bug, inconsistency, or potential improvement. By definition, this project will never be finished (datavis possibilities are infinite!)
 
-
+#please use the images with good graphics for better user experience
 
 Contributing
 --------
