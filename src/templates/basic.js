@@ -43,9 +43,11 @@ export const query = graphql`
       html
       metadata {
           title
-          description
+          description,
+          seoDescription,
           family,
-          chartType
+          chartType,
+          keywords
       }
     }
   }

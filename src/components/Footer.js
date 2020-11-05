@@ -10,9 +10,9 @@ export default function Footer() {
             </div>
             <SocialMediaButtons />
             <div className="policy">
-                <a className="policyItem" href="">Pricacy policy</a>
-                <a className="policyItem" href="">Term policy</a>
-                <a className="policyItem" href="">Term of use</a>
+                <a className="policyItem" href="https://www.windguru.cz">Pricacy policy</a>
+                <a className="policyItem" href="https://www.windguru.cz">Term policy</a>
+                <a className="policyItem" href="https://www.windguru.cz">Term of use</a>
             </div >
         </div >
     )
