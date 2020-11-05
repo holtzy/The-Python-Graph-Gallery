@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/TabContext",
+  "private": true,
+  "main": "../cjs/TabContext.js",
+  "module": "../esm/TabContext.js",
+  "types": "../esm/TabContext.d.ts"
+}

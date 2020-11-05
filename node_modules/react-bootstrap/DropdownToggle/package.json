@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/DropdownToggle",
+  "private": true,
+  "main": "../cjs/DropdownToggle.js",
+  "module": "../esm/DropdownToggle.js",
+  "types": "../esm/DropdownToggle.d.ts"
+}

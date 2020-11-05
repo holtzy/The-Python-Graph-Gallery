@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/PopoverTitle",
+  "private": true,
+  "main": "../cjs/PopoverTitle.js",
+  "module": "../esm/PopoverTitle.js",
+  "types": "../esm/PopoverTitle.d.ts"
+}

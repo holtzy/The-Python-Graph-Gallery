@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/TabContainer",
+  "private": true,
+  "main": "../cjs/TabContainer.js",
+  "module": "../esm/TabContainer.js",
+  "types": "../esm/TabContainer.d.ts"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/ModalBody",
+  "private": true,
+  "main": "../cjs/ModalBody.js",
+  "module": "../esm/ModalBody.js",
+  "types": "../esm/ModalBody.d.ts"
+}

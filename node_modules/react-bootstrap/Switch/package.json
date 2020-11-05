@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Switch",
+  "private": true,
+  "main": "../cjs/Switch.js",
+  "module": "../esm/Switch.js",
+  "types": "../esm/Switch.d.ts"
+}

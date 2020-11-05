@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/OverlayTrigger",
+  "private": true,
+  "main": "../cjs/OverlayTrigger.js",
+  "module": "../esm/OverlayTrigger.js",
+  "types": "../esm/OverlayTrigger.d.ts"
+}

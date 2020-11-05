@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/TabContent",
+  "private": true,
+  "main": "../cjs/TabContent.js",
+  "module": "../esm/TabContent.js",
+  "types": "../esm/TabContent.d.ts"
+}

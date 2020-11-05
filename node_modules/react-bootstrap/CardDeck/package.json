@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/CardDeck",
+  "private": true,
+  "main": "../cjs/CardDeck.js",
+  "module": "../esm/CardDeck.js",
+  "types": "../esm/CardDeck.d.ts"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/NavLink",
+  "private": true,
+  "main": "../cjs/NavLink.js",
+  "module": "../esm/NavLink.js",
+  "types": "../esm/NavLink.d.ts"
+}

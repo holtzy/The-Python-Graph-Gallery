@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/ToggleButtonGroup",
+  "private": true,
+  "main": "../cjs/ToggleButtonGroup.js",
+  "module": "../esm/ToggleButtonGroup.js",
+  "types": "../esm/ToggleButtonGroup.d.ts"
+}

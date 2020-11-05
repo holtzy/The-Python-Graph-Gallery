@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/types",
+  "private": true,
+  "main": "../cjs/types.js",
+  "module": "../esm/types.js",
+  "types": "../esm/types.d.ts"
+}

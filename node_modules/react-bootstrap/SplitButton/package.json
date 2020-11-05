@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/SplitButton",
+  "private": true,
+  "main": "../cjs/SplitButton.js",
+  "module": "../esm/SplitButton.js",
+  "types": "../esm/SplitButton.d.ts"
+}

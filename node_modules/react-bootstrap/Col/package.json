@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Col",
+  "private": true,
+  "main": "../cjs/Col.js",
+  "module": "../esm/Col.js",
+  "types": "../esm/Col.d.ts"
+}

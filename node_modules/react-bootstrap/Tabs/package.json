@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Tabs",
+  "private": true,
+  "main": "../cjs/Tabs.js",
+  "module": "../esm/Tabs.js",
+  "types": "../esm/Tabs.d.ts"
+}

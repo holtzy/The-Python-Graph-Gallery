@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Row",
+  "private": true,
+  "main": "../cjs/Row.js",
+  "module": "../esm/Row.js",
+  "types": "../esm/Row.d.ts"
+}

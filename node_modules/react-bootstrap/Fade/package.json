@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Fade",
+  "private": true,
+  "main": "../cjs/Fade.js",
+  "module": "../esm/Fade.js",
+  "types": "../esm/Fade.d.ts"
+}

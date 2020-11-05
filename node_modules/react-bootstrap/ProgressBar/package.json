@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/ProgressBar",
+  "private": true,
+  "main": "../cjs/ProgressBar.js",
+  "module": "../esm/ProgressBar.js",
+  "types": "../esm/ProgressBar.d.ts"
+}

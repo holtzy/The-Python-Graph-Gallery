@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/ModalDialog",
+  "private": true,
+  "main": "../cjs/ModalDialog.js",
+  "module": "../esm/ModalDialog.js",
+  "types": "../esm/ModalDialog.d.ts"
+}

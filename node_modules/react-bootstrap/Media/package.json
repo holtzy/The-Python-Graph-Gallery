@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Media",
+  "private": true,
+  "main": "../cjs/Media.js",
+  "module": "../esm/Media.js",
+  "types": "../esm/Media.d.ts"
+}

@@ -1,0 +1,27 @@
+.socialMediaContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.socialShareIcon {
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: black !important;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+}
+
+.socialShareIcon:hover {
+    background-color: var(--python-gallery) !important;
+}
+
+.socialShareIcon.github {
+    color: black !important;
+    background-color: white !important;
+}

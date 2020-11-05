@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/CloseButton",
+  "private": true,
+  "main": "../cjs/CloseButton.js",
+  "module": "../esm/CloseButton.js",
+  "types": "../esm/CloseButton.d.ts"
+}

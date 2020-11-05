@@ -1,0 +1,199 @@
+// Copyright 2015 Palantir Technologies, Inc. All rights reserved.
+// Licensed under the Apache License, Version 2.0.
+
+@import "../../common/variables";
+@import "../../common/mixins";
+
+/*
+Tabs
+
+Markup:
+<div class="#{$ns}-tabs">
+    <ul class="#{$ns}-tab-list {{.modifier}}" role="tablist">
+        <li class="#{$ns}-tab" role="tab" aria-selected="true">Selected tab</li>
+        <li class="#{$ns}-tab" role="tab">Another tab</li>
+        <li class="#{$ns}-tab" role="tab" aria-disabled="true">Disabled tab</li>
+    </ul>
+    <div class="#{$ns}-tab-panel" role="tabpanel">Selected panel</div>
+    <div class="#{$ns}-tab-panel" role="tabpanel" aria-hidden="true">Another panel</div>
+    <div class="#{$ns}-tab-panel" role="tabpanel" aria-hidden="true">Disabled panel</div>
+</div>
+
+.#{$ns}-large - Large tabs
+
+Styleguide tabs
+*/
+
+$tab-color-selected: $pt-link-color !default;
+$dark-tab-color-selected: $pt-dark-link-color !default;
+
+$tab-indicator-width: 3px !default;
+
+.#{$ns}-tabs.#{$ns}-vertical {
+  display: flex;
+
+  // include '>' to ensure we're only modifying
+  // these tabs, not tabs that might be further
+  // down the DOM hierarchy (i.e. tabs in tabs)
+  > .#{$ns}-tab-list {
+    align-items: flex-start;
+    flex-direction: column;
+
+    .#{$ns}-tab {
+      border-radius: $pt-border-radius;
+      padding: 0 $pt-grid-size;
+      width: 100%;
+
+      &[aria-selected="true"] {
+        background-color: rgba($pt-intent-primary, 0.2);
+        box-shadow: none;
+      }
+    }
+
+    .#{$ns}-tab-indicator-wrapper .#{$ns}-tab-indicator {
+      background-color: rgba($pt-intent-primary, 0.2);
+      border-radius: $pt-border-radius;
+      bottom: 0;
+      height: auto;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  // same consideration here: avoid styling any
+  // other tabs that might be contained in this
+  // vertical tab component
+  > .#{$ns}-tab-panel {
+    margin-top: 0;
+    padding-left: $pt-grid-size * 2;
+  }
+}
+
+.#{$ns}-tab-list {
+  align-items: flex-end;
+  border: none;
+  display: flex;
+  flex: 0 0 auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  // this is fine.
+  /* stylelint-disable-next-line selector-no-universal */
+  > *:not(:last-child) {
+    margin-right: $pt-grid-size * 2;
+  }
+}
+
+.#{$ns}-tab {
+  @include overflow-ellipsis();
+  color: $pt-text-color;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: $pt-font-size;
+  line-height: $pt-button-height;
+  max-width: 100%;
+  position: relative;
+  vertical-align: top;
+
+  // support for links in tab titles #363
+  a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+  }
+
+  .#{$ns}-tab-indicator-wrapper ~ & {
+    // these properties are only for static markup, therefore
+    // we never want them if there's a tab indicator
+    /* stylelint-disable declaration-no-important */
+    background-color: transparent !important;
+    box-shadow: none !important;
+    /* stylelint-enable declaration-no-important */
+  }
+
+  &[aria-disabled="true"] {
+    color: $pt-text-color-disabled;
+    cursor: not-allowed;
+  }
+
+  &[aria-selected="true"] {
+    border-radius: 0;
+    box-shadow: inset 0 (-$tab-indicator-width) 0 $tab-color-selected;
+  }
+
+  &[aria-selected="true"],
+  &:not([aria-disabled="true"]):hover {
+    color: $tab-color-selected;
+  }
+
+  &:focus {
+    -moz-outline-radius: 0;
+  }
+
+  .#{$ns}-large > & {
+    font-size: $pt-font-size-large;
+    line-height: $pt-button-height-large;
+  }
+}
+
+.#{$ns}-tab-panel {
+  margin-top: $pt-grid-size * 2;
+
+  &[aria-hidden="true"] {
+    display: none;
+  }
+}
+
+.#{$ns}-tab-indicator-wrapper {
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transform: translateX(0), translateY(0);
+  transition: height, transform, width;
+  transition-duration: $pt-transition-duration * 2;
+  transition-timing-function: $pt-transition-ease;
+
+  .#{$ns}-tab-indicator {
+    background-color: $tab-color-selected;
+    bottom: 0;
+    height: $tab-indicator-width;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+
+  &.#{$ns}-no-animation {
+    transition: none;
+  }
+}
+
+.#{$ns}-dark {
+  .#{$ns}-tab {
+    color: $pt-dark-text-color;
+
+    &[aria-disabled="true"] {
+      color: $pt-dark-text-color-disabled;
+    }
+
+    &[aria-selected="true"] {
+      box-shadow: inset 0 (-$tab-indicator-width) 0 $dark-tab-color-selected;
+    }
+
+    &[aria-selected="true"],
+    &:not([aria-disabled="true"]):hover {
+      color: $dark-tab-color-selected;
+    }
+  }
+
+  .#{$ns}-tab-indicator {
+    background-color: $dark-tab-color-selected;
+  }
+}
+
+.#{$ns}-flex-expander {
+  flex: 1 1;
+}

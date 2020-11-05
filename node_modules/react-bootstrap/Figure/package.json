@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Figure",
+  "private": true,
+  "main": "../cjs/Figure.js",
+  "module": "../esm/Figure.js",
+  "types": "../esm/Figure.d.ts"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Form",
+  "private": true,
+  "main": "../cjs/Form.js",
+  "module": "../esm/Form.js",
+  "types": "../esm/Form.d.ts"
+}

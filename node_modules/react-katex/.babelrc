@@ -1,0 +1,12 @@
+{
+  "presets": ["react"],
+  "env": {
+    "production": {
+      "presets": ["es2015-rollup"]
+    },
+    "test": {
+      "presets": ["es2015"],
+      "plugins": ["istanbul"]
+    }
+  }
+}

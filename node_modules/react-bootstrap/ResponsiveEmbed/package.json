@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/ResponsiveEmbed",
+  "private": true,
+  "main": "../cjs/ResponsiveEmbed.js",
+  "module": "../esm/ResponsiveEmbed.js",
+  "types": "../esm/ResponsiveEmbed.d.ts"
+}

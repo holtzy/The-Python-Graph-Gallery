@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Badge",
+  "private": true,
+  "main": "../cjs/Badge.js",
+  "module": "../esm/Badge.js",
+  "types": "../esm/Badge.d.ts"
+}

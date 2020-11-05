@@ -1,0 +1,124 @@
+:root {
+    --distribution-color: yellow;
+    --light-grey:  #f8f9fa;
+    --medium-grey: #e5e5e5;
+    --dark-grey: #C8C8C8;
+    --python-gallery: #82a5d0;
+    --light-black: #484848;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto' !important;
+}
+
+/* ---------- Titles ----------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300 !important;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif !important;
+}
+
+h2 {
+    font-size: 22px !important;
+    width: 100%;
+    border-bottom: 1px solid var(--medium-grey);
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+p {
+    line-height: 1.75 !important;
+}
+
+
+/* ---------- Section ----------------- */
+.lightSection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+.greySection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--light-grey);
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+
+code {
+    background-color: var(--light-grey) !important;
+    padding: 5px;
+    border-radius: 4px,
+}
+
+.container {
+    padding-left: 150px  !important;
+    padding-right: 150px  !important;
+}
+
+a {
+    color: var(--python-gallery) !important;
+}
+
+a:hover {
+    color: #251667 !important;
+}
+
+/* Each section has a specific color */
+.distribution{
+    color: #e0ac2b
+}
+.correlation{
+    color: #7f7f7f;
+}
+.ranking{
+    color: #a4c969;
+}
+.partOfAWhole{
+    color: #e85252;
+}
+.evolution{
+    color: #6689c6;
+}
+.map{
+    color: #9a6fb0;
+}
+.flow{
+    color: #a53253;
+}
+
+
+/* ---------- Button ----------------- */
+.btn {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+    border-color: var(--python-gallery) !important;
+    color: var(--python-gallery) !important;
+    border-width: 2px !important;
+    background-color: transparent !important;
+    margin: 3px !important;
+  }
+
+  .btn-xl {
+    font-size: 18px !important;
+    padding: 20px 40px !important;
+  }
+
+  .btn:active, .btn:focus, .btn:hover {
+    background-color: var(--python-gallery) !important;
+    border-color: var(--python-gallery) !important;
+    color: white !important;
+  }
+
+.sectionTitle {
+    font-size: 20px;
+}

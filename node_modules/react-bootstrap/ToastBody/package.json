@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/ToastBody",
+  "private": true,
+  "main": "../cjs/ToastBody.js",
+  "module": "../esm/ToastBody.js",
+  "types": "../esm/ToastBody.d.ts"
+}

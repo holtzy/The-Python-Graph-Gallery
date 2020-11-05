@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/createWithBsPrefix",
+  "private": true,
+  "main": "../cjs/createWithBsPrefix.js",
+  "module": "../esm/createWithBsPrefix.js",
+  "types": "../esm/createWithBsPrefix.d.ts"
+}

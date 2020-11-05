@@ -1,0 +1,7 @@
+{
+  "name": "react-overlays/manageAriaHidden",
+  "private": true,
+  "main": "../cjs/manageAriaHidden.js",
+  "module": "../esm/manageAriaHidden.js",
+  "types": "../esm/manageAriaHidden.d.ts"
+}

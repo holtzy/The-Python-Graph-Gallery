@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/createChainedFunction",
+  "private": true,
+  "main": "../cjs/createChainedFunction.js",
+  "module": "../esm/createChainedFunction.js",
+  "types": "../esm/createChainedFunction.d.ts"
+}

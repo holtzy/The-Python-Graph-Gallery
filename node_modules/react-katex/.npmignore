@@ -1,0 +1,6 @@
+node_modules
+example
+*.log
+
+# don't ignore .npmignore files
+!.npmignore

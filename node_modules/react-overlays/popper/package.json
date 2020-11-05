@@ -1,0 +1,7 @@
+{
+  "name": "react-overlays/popper",
+  "private": true,
+  "main": "../cjs/popper.js",
+  "module": "../esm/popper.js",
+  "types": "../esm/popper.d.ts"
+}

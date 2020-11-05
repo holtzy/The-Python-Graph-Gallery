@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/CardImg",
+  "private": true,
+  "main": "../cjs/CardImg.js",
+  "module": "../esm/CardImg.js",
+  "types": "../esm/CardImg.d.ts"
+}

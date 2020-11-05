@@ -1,0 +1,30 @@
+.navbar {
+    width: 1000px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    background-color: white !important;
+}
+
+.navbar-collapse {
+    display: flex !important;
+    flex-grow: 0 !important;
+    justify-content:flex-end !important;
+}
+
+.navbar-brand {
+    color: var(--python-gallery) !important;
+    font-size: 15px !important;
+}
+
+.nav-link {
+    text-transform: uppercase!important;
+    color: black !important;
+    font-family: 'Montserrat' !important;
+    font-size: 13px !important;
+}
+
+.nav-link:hover {
+    color: var(--python-gallery) !important;
+    border-bottom: solid var(--python-gallery);
+}

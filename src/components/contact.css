@@ -1,0 +1,16 @@
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactSection .contactTitle {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Montserrat'
+}
+
+.contactSection .contactText {
+    max-width: 600px;
+    text-align: center;
+}

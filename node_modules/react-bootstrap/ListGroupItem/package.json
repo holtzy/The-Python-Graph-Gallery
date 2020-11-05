@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/ListGroupItem",
+  "private": true,
+  "main": "../cjs/ListGroupItem.js",
+  "module": "../esm/ListGroupItem.js",
+  "types": "../esm/ListGroupItem.d.ts"
+}

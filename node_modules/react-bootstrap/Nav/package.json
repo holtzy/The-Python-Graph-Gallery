@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Nav",
+  "private": true,
+  "main": "../cjs/Nav.js",
+  "module": "../esm/Nav.js",
+  "types": "../esm/Nav.d.ts"
+}

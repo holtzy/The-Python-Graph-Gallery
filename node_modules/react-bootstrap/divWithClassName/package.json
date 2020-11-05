@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/divWithClassName",
+  "private": true,
+  "main": "../cjs/divWithClassName.js",
+  "module": "../esm/divWithClassName.js",
+  "types": "../esm/divWithClassName.d.ts"
+}

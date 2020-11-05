@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/Breadcrumb",
+  "private": true,
+  "main": "../cjs/Breadcrumb.js",
+  "module": "../esm/Breadcrumb.js",
+  "types": "../esm/Breadcrumb.d.ts"
+}

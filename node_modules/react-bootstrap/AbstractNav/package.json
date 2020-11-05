@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/AbstractNav",
+  "private": true,
+  "main": "../cjs/AbstractNav.js",
+  "module": "../esm/AbstractNav.js",
+  "types": "../esm/AbstractNav.d.ts"
+}

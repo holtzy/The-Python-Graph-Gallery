@@ -1,0 +1,28 @@
+/* h1 is defined in main style.css sheet */
+.titleAndDescription {
+    padding-top: 150px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleAndDescription .description {
+    max-width: 600px;
+    text-align: center;
+}
+
+.smallHr {
+    border: 0;
+    border-top: 1px solid black;
+    width: 0;
+    animation: separator-width .3s ease-in-out forwards;
+  }
+  @keyframes separator-width {
+    0% {
+      width: 0;
+    }
+    100% {
+        width: 100px;
+    }
+  }

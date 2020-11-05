@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/CarouselItem",
+  "private": true,
+  "main": "../cjs/CarouselItem.js",
+  "module": "../esm/CarouselItem.js",
+  "types": "../esm/CarouselItem.d.ts"
+}

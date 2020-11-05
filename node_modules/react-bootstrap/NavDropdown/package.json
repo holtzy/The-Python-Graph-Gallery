@@ -1,0 +1,7 @@
+{
+  "name": "react-bootstrap/NavDropdown",
+  "private": true,
+  "main": "../cjs/NavDropdown.js",
+  "module": "../esm/NavDropdown.js",
+  "types": "../esm/NavDropdown.d.ts"
+}

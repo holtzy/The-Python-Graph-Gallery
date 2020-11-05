@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--light-grey);
+    padding: 40px;
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 13px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif !important;
+}
+
+.footer .policyItem {
+    margin-right: 4px;
+    margin-left: 4px;
+}

@@ -1,0 +1,10 @@
+.closeModalButton {
+    border-color: transparent;
+    color: pink;
+}
+
+.allFamiliesModal {
+    background-color: black;
+    width: 90%;
+}
+
