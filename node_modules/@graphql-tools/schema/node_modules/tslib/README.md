@@ -37,18 +37,24 @@ For the latest stable version, run:
 ## npm
 
 ```sh
-# TypeScript 2.3.3 or later
-npm install --save tslib
+# TypeScript 3.9.2 or later
+npm install tslib
+
+# TypeScript 3.8.4 or earlier
+npm install tslib@^1
 
 # TypeScript 2.3.2 or earlier
-npm install --save tslib@1.6.1
+npm install tslib@1.6.1
 ```
 
 ## yarn
 
 ```sh
-# TypeScript 2.3.3 or later
+# TypeScript 3.9.2 or later
 yarn add tslib
+
+# TypeScript 3.8.4 or earlier
+yarn add tslib@^1
 
 # TypeScript 2.3.2 or earlier
 yarn add tslib@1.6.1
@@ -57,8 +63,11 @@ yarn add tslib@1.6.1
 ## bower
 
 ```sh
-# TypeScript 2.3.3 or later
+# TypeScript 3.9.2 or later
 bower install tslib
+
+# TypeScript 3.8.4 or earlier
+bower install tslib@^1
 
 # TypeScript 2.3.2 or earlier
 bower install tslib@1.6.1
@@ -67,8 +76,11 @@ bower install tslib@1.6.1
 ## JSPM
 
 ```sh
-# TypeScript 2.3.3 or later
+# TypeScript 3.9.2 or later
 jspm install tslib
+
+# TypeScript 3.8.4 or earlier
+jspm install tslib@^1
 
 # TypeScript 2.3.2 or earlier
 jspm install tslib@1.6.1
@@ -118,7 +130,7 @@ For JSPM users:
         "importHelpers": true,
         "baseUrl": "./",
         "paths": {
-            "tslib" : ["jspm_packages/npm/tslib@2.0.1/tslib.d.ts"]
+            "tslib" : ["jspm_packages/npm/tslib@2.x.y/tslib.d.ts"]
         }
     }
 }

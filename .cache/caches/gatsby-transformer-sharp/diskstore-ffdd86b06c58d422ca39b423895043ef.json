@@ -1,1 +1,11 @@
-{"expireTime":9007200859334633000,"key":"514966bcdeabd912b8629a576973dd64{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUABQAPtFgqE+oJSOiKAgBABoJZwAALnUFTx8YkFXj5KIAAP701BJSIh5T8sM90EERxto24D6upBLk7cP4j8I8tog1jjmnt6VEAAAA","width":20,"height":20,"aspectRatio":1,"originalName":"197_matplotlib_color_palette5.png"}}
+{
+  "expireTime": 9007200859334633000,
+  "key": "514966bcdeabd912b8629a576973dd64{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUABQAPtFgqE+oJSOiKAgBABoJZwAALnUFTx8YkFXj5KIAAP701BJSIh5T8sM90EERxto24D6upBLk7cP4j8I8tog1jjmnt6VEAAAA",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "197_matplotlib_color_palette5.png"
+  }
+}

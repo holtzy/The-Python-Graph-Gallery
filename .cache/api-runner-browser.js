@@ -1,55 +1,55 @@
-const plugins = require(`./api-runner-browser-plugins`)
+const plugins = require(`./api-runner-browser-plugins`);
 const {
   getResourcesForPathname,
   getResourcesForPathnameSync,
   getResourceURLsForPathname,
   loadPage,
   loadPageSync,
-} = require(`./loader`).publicLoader
+} = require(`./loader`).publicLoader;
 
 exports.apiRunner = (api, args = {}, defaultReturn, argTransform) => {
   // Hooks for gatsby-cypress's API handler
   if (process.env.CYPRESS_SUPPORT) {
     if (window.___apiHandler) {
-      window.___apiHandler(api)
+      window.___apiHandler(api);
     } else if (window.___resolvedAPIs) {
-      window.___resolvedAPIs.push(api)
+      window.___resolvedAPIs.push(api);
     } else {
-      window.___resolvedAPIs = [api]
+      window.___resolvedAPIs = [api];
     }
   }
 
-  let results = plugins.map(plugin => {
+  let results = plugins.map((plugin) => {
     if (!plugin.plugin[api]) {
-      return undefined
+      return undefined;
     }
 
     // Deprecated April 2019. Use `loadPageSync` instead
-    args.getResourcesForPathnameSync = getResourcesForPathnameSync
+    args.getResourcesForPathnameSync = getResourcesForPathnameSync;
     // Deprecated April 2019. Use `loadPage` instead
-    args.getResourcesForPathname = getResourcesForPathname
-    args.getResourceURLsForPathname = getResourceURLsForPathname
-    args.loadPage = loadPage
-    args.loadPageSync = loadPageSync
+    args.getResourcesForPathname = getResourcesForPathname;
+    args.getResourceURLsForPathname = getResourceURLsForPathname;
+    args.loadPage = loadPage;
+    args.loadPageSync = loadPageSync;
 
-    const result = plugin.plugin[api](args, plugin.options)
+    const result = plugin.plugin[api](args, plugin.options);
     if (result && argTransform) {
-      args = argTransform({ args, result, plugin })
+      args = argTransform({ args, result, plugin });
     }
-    return result
-  })
+    return result;
+  });
 
   // Filter out undefined results.
-  results = results.filter(result => typeof result !== `undefined`)
+  results = results.filter((result) => typeof result !== `undefined`);
 
   if (results.length > 0) {
-    return results
+    return results;
   } else if (defaultReturn) {
-    return [defaultReturn]
+    return [defaultReturn];
   } else {
-    return []
+    return [];
   }
-}
+};
 
 exports.apiRunnerAsync = (api, args, defaultReturn) =>
   plugins.reduce(
@@ -58,4 +58,4 @@ exports.apiRunnerAsync = (api, args, defaultReturn) =>
         ? previous.then(() => next.plugin[api](args, next.options))
         : previous,
     Promise.resolve()
-  )
+  );

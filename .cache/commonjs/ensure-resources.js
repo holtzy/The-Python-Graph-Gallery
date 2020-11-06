@@ -16,43 +16,38 @@ var _shallowCompare = _interopRequireDefault(require("shallow-compare"));
 class EnsureResources extends _react.default.Component {
   constructor(props) {
     super();
-    const {
-      location,
-      pageResources
-    } = props;
+    const { location, pageResources } = props;
     this.state = {
-      location: { ...location
-      },
-      pageResources: pageResources || _loader.default.loadPageSync(location.pathname)
+      location: { ...location },
+      pageResources:
+        pageResources || _loader.default.loadPageSync(location.pathname),
     };
   }
 
-  static getDerivedStateFromProps({
-    location
-  }, prevState) {
+  static getDerivedStateFromProps({ location }, prevState) {
     if (prevState.location.href !== location.href) {
       const pageResources = _loader.default.loadPageSync(location.pathname);
 
       return {
         pageResources,
-        location: { ...location
-        }
+        location: { ...location },
       };
     }
 
     return {
-      location: { ...location
-      }
+      location: { ...location },
     };
   }
 
   loadResources(rawPath) {
-    _loader.default.loadPage(rawPath).then(pageResources => {
-      if (pageResources && pageResources.status !== _loader.PageResourceStatus.Error) {
+    _loader.default.loadPage(rawPath).then((pageResources) => {
+      if (
+        pageResources &&
+        pageResources.status !== _loader.PageResourceStatus.Error
+      ) {
         this.setState({
-          location: { ...window.location
-          },
-          pageResources
+          location: { ...window.location },
+          pageResources,
         });
       } else {
         window.history.replaceState({}, ``, location.href);
@@ -68,12 +63,13 @@ class EnsureResources extends _react.default.Component {
       return false;
     } // Check if the component or json have changed.
 
-
     if (this.state.pageResources !== nextState.pageResources) {
       return true;
     }
 
-    if (this.state.pageResources.component !== nextState.pageResources.component) {
+    if (
+      this.state.pageResources.component !== nextState.pageResources.component
+    ) {
       return true;
     }
 
@@ -82,8 +78,12 @@ class EnsureResources extends _react.default.Component {
     } // Check if location has changed on a page using internal routing
     // via matchPath configuration.
 
-
-    if (this.state.location.key !== nextState.location.key && nextState.pageResources.page && (nextState.pageResources.page.matchPath || nextState.pageResources.page.path)) {
+    if (
+      this.state.location.key !== nextState.location.key &&
+      nextState.pageResources.page &&
+      (nextState.pageResources.page.matchPath ||
+        nextState.pageResources.page.path)
+    ) {
       return true;
     }
 
@@ -99,7 +99,6 @@ Run \`gatsby clean\` to remove any cached elements.`);
 
     return this.props.children(this.state);
   }
-
 }
 
 var _default = EnsureResources;

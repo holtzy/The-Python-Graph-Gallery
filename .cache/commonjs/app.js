@@ -26,7 +26,10 @@ var _matchPaths = _interopRequireDefault(require("$virtual/match-paths.json"));
 
 // Generated during bootstrap
 window.___emitter = _emitter.default;
-const loader = new _devLoader.default(_syncRequires.default, _matchPaths.default);
+const loader = new _devLoader.default(
+  _syncRequires.default,
+  _matchPaths.default
+);
 (0, _loader.setLoader)(loader);
 loader.setApiRunner(_apiRunnerBrowser.apiRunner);
 window.___loader = _loader.publicLoader; // Let the site/plugins run code very early.
@@ -41,31 +44,50 @@ window.___loader = _loader.publicLoader; // Let the site/plugins run code very e
     });
   }
 
-  fetch(`/___services`).then(res => res.json()).then(services => {
-    if (services.developstatusserver) {
-      let isRestarting = false;
-      const parentSocket = (0, _socket.default)(`http://${window.location.hostname}:${services.developstatusserver.port}`);
-      parentSocket.on(`structured-log`, msg => {
-        if (!isRestarting && msg.type === `LOG_ACTION` && msg.action.type === `DEVELOP` && msg.action.payload === `RESTART_REQUIRED` && window.confirm(`The develop process needs to be restarted for the changes to ${msg.action.dirtyFile} to be applied.\nDo you want to restart the develop process now?`)) {
-          isRestarting = true;
-          parentSocket.emit(`develop:restart`, () => {
+  fetch(`/___services`)
+    .then((res) => res.json())
+    .then((services) => {
+      if (services.developstatusserver) {
+        let isRestarting = false;
+        const parentSocket = (0, _socket.default)(
+          `http://${window.location.hostname}:${services.developstatusserver.port}`
+        );
+        parentSocket.on(`structured-log`, (msg) => {
+          if (
+            !isRestarting &&
+            msg.type === `LOG_ACTION` &&
+            msg.action.type === `DEVELOP` &&
+            msg.action.payload === `RESTART_REQUIRED` &&
+            window.confirm(
+              `The develop process needs to be restarted for the changes to ${msg.action.dirtyFile} to be applied.\nDo you want to restart the develop process now?`
+            )
+          ) {
+            isRestarting = true;
+            parentSocket.emit(`develop:restart`, () => {
+              window.location.reload();
+            });
+          }
+
+          if (
+            isRestarting &&
+            msg.type === `LOG_ACTION` &&
+            msg.action.type === `SET_STATUS` &&
+            msg.action.payload === `SUCCESS`
+          ) {
+            isRestarting = false;
             window.location.reload();
-          });
-        }
+          }
+        }); // Prevents certain browsers spamming XHR 'ERR_CONNECTION_REFUSED'
+        // errors within the console, such as when exiting the develop process.
 
-        if (isRestarting && msg.type === `LOG_ACTION` && msg.action.type === `SET_STATUS` && msg.action.payload === `SUCCESS`) {
-          isRestarting = false;
-          window.location.reload();
-        }
-      }); // Prevents certain browsers spamming XHR 'ERR_CONNECTION_REFUSED'
-      // errors within the console, such as when exiting the develop process.
-
-      parentSocket.on(`disconnect`, () => {
-        console.warn(`[socket.io] Disconnected. Unable to perform health-check.`);
-        parentSocket.close();
-      });
-    }
-  });
+        parentSocket.on(`disconnect`, () => {
+          console.warn(
+            `[socket.io] Disconnected. Unable to perform health-check.`
+          );
+          parentSocket.close();
+        });
+      }
+    });
   /**
    * Service Workers are persistent by nature. They stick around,
    * serving a cached version of the site if they aren't removed.
@@ -76,21 +98,38 @@ window.___loader = _loader.publicLoader; // Let the site/plugins run code very e
    */
 
   if (`serviceWorker` in navigator) {
-    navigator.serviceWorker.getRegistrations().then(registrations => {
-      if (registrations.length > 0) console.warn(`Warning: found one or more service workers present.`, `If your site isn't behaving as expected, you might want to remove these.`, registrations);
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      if (registrations.length > 0)
+        console.warn(
+          `Warning: found one or more service workers present.`,
+          `If your site isn't behaving as expected, you might want to remove these.`,
+          registrations
+        );
     });
   }
 
   const rootElement = document.getElementById(`___gatsby`);
-  const renderer = (0, _apiRunnerBrowser.apiRunner)(`replaceHydrateFunction`, undefined, _reactDom.default.render)[0];
-  Promise.all([loader.loadPage(`/dev-404-page/`), loader.loadPage(`/404.html`), loader.loadPage(window.location.pathname)]).then(() => {
-    const preferDefault = m => m && m.default || m;
+  const renderer = (0, _apiRunnerBrowser.apiRunner)(
+    `replaceHydrateFunction`,
+    undefined,
+    _reactDom.default.render
+  )[0];
+  Promise.all([
+    loader.loadPage(`/dev-404-page/`),
+    loader.loadPage(`/404.html`),
+    loader.loadPage(window.location.pathname),
+  ]).then(() => {
+    const preferDefault = (m) => (m && m.default) || m;
 
     let Root = preferDefault(require(`./root`));
     (0, _domready.default)(() => {
-      renderer( /*#__PURE__*/_react.default.createElement(Root, null), rootElement, () => {
-        (0, _apiRunnerBrowser.apiRunner)(`onInitialClientRender`);
-      });
+      renderer(
+        /*#__PURE__*/ _react.default.createElement(Root, null),
+        rootElement,
+        () => {
+          (0, _apiRunnerBrowser.apiRunner)(`onInitialClientRender`);
+        }
+      );
     });
   });
 });

@@ -1,1 +1,11 @@
-{"expireTime":9007200859334634000,"key":"5becc57e581b53ca01edff2e46607fd4{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwBACdASoUABQAPtFcpk4oJSMiKAqpABoJZwAALnRi3n0CW5PJxy62+gAA/vTUSqvQ68SEO/GcYJGO6LrScyejDw1MsdmgZVzAAA==","width":20,"height":20,"aspectRatio":1,"originalName":"45_set_color_of_each_point_in_scatterplot_seaborn.png"}}
+{
+  "expireTime": 9007200859334634000,
+  "key": "5becc57e581b53ca01edff2e46607fd4{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwBACdASoUABQAPtFcpk4oJSMiKAqpABoJZwAALnRi3n0CW5PJxy62+gAA/vTUSqvQ68SEO/GcYJGO6LrScyejDw1MsdmgZVzAAA==",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "45_set_color_of_each_point_in_scatterplot_seaborn.png"
+  }
+}

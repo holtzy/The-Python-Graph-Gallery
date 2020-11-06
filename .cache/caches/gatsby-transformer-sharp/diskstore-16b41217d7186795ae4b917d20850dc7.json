@@ -1,1 +1,11 @@
-{"expireTime":9007200859334634000,"key":"7f1d24bbc6293a4b000f049604a7b387{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAADwBACdASoUABQAPtFcpU6oJSMiKAqpABoJaACuH3QDlVkQpEVe5qV378cFMq6tSuAA/u5mOf6neUtXNjpOlmshN6l4Gn6tez7b72bixU5AkEPl8jXlh5ZPgIYz0mWF6CMTKwBjatTol+i+Q8bP+Tx5vni5t5m8QKvd9zUZxxrWM0kzpZGUOX2LaQADUmHuDdnwbJI4tXNw+m8SYr61PdkdV5pf8NxLNXoiVngiHRAAzQUZRb9P7++H9CnwCghez9W9yOVfYAA=","width":20,"height":20,"aspectRatio":1,"originalName":"92_Control_color_heatmap3.png"}}
+{
+  "expireTime": 9007200859334634000,
+  "key": "7f1d24bbc6293a4b000f049604a7b387{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAADwBACdASoUABQAPtFcpU6oJSMiKAqpABoJaACuH3QDlVkQpEVe5qV378cFMq6tSuAA/u5mOf6neUtXNjpOlmshN6l4Gn6tez7b72bixU5AkEPl8jXlh5ZPgIYz0mWF6CMTKwBjatTol+i+Q8bP+Tx5vni5t5m8QKvd9zUZxxrWM0kzpZGUOX2LaQADUmHuDdnwbJI4tXNw+m8SYr61PdkdV5pf8NxLNXoiVngiHRAAzQUZRb9P7++H9CnwCghez9W9yOVfYAA=",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "92_Control_color_heatmap3.png"
+  }
+}

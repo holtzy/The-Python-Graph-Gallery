@@ -1,1 +1,11 @@
-{"expireTime":9007200859334636000,"key":"34a6cce43e926d4cf9a43e41676b4214{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRsABAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSMUAAAABgFtr29vk/SW7NnEGbwCldyCOgAfgMENqc2i9SGg51OrdkaGyvl/vQ9YKETEBkkppcFqFZ6ONrgr9LLQ+4c9qV0pSoSHkaGxHwJmUSg0h/GcObpS0Bhmbn8Y1Q2lMYP40DU+rA7LNP03NwSnRwplJRWP+bfMUuAXGboeZtbL5GBFtMvcbhP0fU3Pcrcj4L9tEXzuEsX+xmXOsQufUDTbYeM60kKRbqLONcw3Tngolae8BwECcJBWSUtLK/vjRvN8d9qVCAgBWUDgg1AAAANAFAJ0BKhQAFAA+0WCpT6glI6IoCAEAGglAF2Zs0f+2/xa2hWUL5nnW8i77gLD4v6jD7Kc7lAAA/uqXc0KhMNOdI3HL7ZeyRoNY+jKvKb9L9MecpMQopGdo0rL0W9vvRp23cQbWBbAlCkTkZvZ/Z9JDMc6DekYl+pf1tGd6erhGZtQH4U6LPVlID6/cuMIJBgndc5BAYKhF2gzh7GW242wwxRuq9c/cPp8/WcviKFXbDGXcVbTA5wtixdBJDC074BYHaBYz0TtQce9o97Y1w4CQAAAA","width":20,"height":20,"aspectRatio":1,"originalName":"BubbleMap150.png"}}
+{
+  "expireTime": 9007200859334636000,
+  "key": "34a6cce43e926d4cf9a43e41676b4214{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRsABAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSMUAAAABgFtr29vk/SW7NnEGbwCldyCOgAfgMENqc2i9SGg51OrdkaGyvl/vQ9YKETEBkkppcFqFZ6ONrgr9LLQ+4c9qV0pSoSHkaGxHwJmUSg0h/GcObpS0Bhmbn8Y1Q2lMYP40DU+rA7LNP03NwSnRwplJRWP+bfMUuAXGboeZtbL5GBFtMvcbhP0fU3Pcrcj4L9tEXzuEsX+xmXOsQufUDTbYeM60kKRbqLONcw3Tngolae8BwECcJBWSUtLK/vjRvN8d9qVCAgBWUDgg1AAAANAFAJ0BKhQAFAA+0WCpT6glI6IoCAEAGglAF2Zs0f+2/xa2hWUL5nnW8i77gLD4v6jD7Kc7lAAA/uqXc0KhMNOdI3HL7ZeyRoNY+jKvKb9L9MecpMQopGdo0rL0W9vvRp23cQbWBbAlCkTkZvZ/Z9JDMc6DekYl+pf1tGd6erhGZtQH4U6LPVlID6/cuMIJBgndc5BAYKhF2gzh7GW242wwxRuq9c/cPp8/WcviKFXbDGXcVbTA5wtixdBJDC074BYHaBYz0TtQce9o97Y1w4CQAAAA",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "BubbleMap150.png"
+  }
+}

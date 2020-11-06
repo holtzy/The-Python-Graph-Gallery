@@ -16,12 +16,6 @@ Via [Bower](http://bower.io/):
 bower install regenerate
 ```
 
-Via [Component](https://github.com/component/component):
-
-```bash
-component install mathiasbynens/regenerate
-```
-
 In a browser:
 
 ```html

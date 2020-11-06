@@ -13,26 +13,24 @@ var _loader = _interopRequireDefault(require("./loader"));
 
 var _pageRenderer = _interopRequireDefault(require("./page-renderer"));
 
-const ProdPageRenderer = ({
-  location
-}) => {
+const ProdPageRenderer = ({ location }) => {
   const pageResources = _loader.default.loadPageSync(location.pathname);
 
   if (!pageResources) {
     return null;
   }
 
-  return /*#__PURE__*/_react.default.createElement(_pageRenderer.default, {
+  return /*#__PURE__*/ _react.default.createElement(_pageRenderer.default, {
     location,
     pageResources,
-    ...pageResources.json
+    ...pageResources.json,
   });
 };
 
 ProdPageRenderer.propTypes = {
   location: _propTypes.default.shape({
-    pathname: _propTypes.default.string.isRequired
-  }).isRequired
+    pathname: _propTypes.default.string.isRequired,
+  }).isRequired,
 };
 var _default = ProdPageRenderer;
 exports.default = _default;

@@ -3,6 +3,11 @@
 History
 -------
 
+0.14.5
+-------------------
+- Fix circular dependency in mock_context (#154) -- thanks Jonathan Moody
+
+
 0.14.4
 -------------------
 - Add trace identifiers to the `SpanContext`

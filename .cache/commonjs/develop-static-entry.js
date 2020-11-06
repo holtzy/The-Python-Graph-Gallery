@@ -39,11 +39,13 @@ try {
 Html = Html && Html.__esModule ? Html.default : Html;
 
 var _default = (pagePath, callback) => {
-  let headComponents = [/*#__PURE__*/_react.default.createElement("meta", {
-    key: "environment",
-    name: "note",
-    content: "environment=development"
-  })];
+  let headComponents = [
+    /*#__PURE__*/ _react.default.createElement("meta", {
+      key: "environment",
+      name: "note",
+      content: "environment=development",
+    }),
+  ];
   let htmlAttributes = {};
   let bodyAttributes = {};
   let preBodyComponents = [];
@@ -51,45 +53,45 @@ var _default = (pagePath, callback) => {
   let bodyProps = {};
   let htmlStr;
 
-  const setHeadComponents = components => {
+  const setHeadComponents = (components) => {
     headComponents = headComponents.concat(components);
   };
 
-  const setHtmlAttributes = attributes => {
+  const setHtmlAttributes = (attributes) => {
     htmlAttributes = (0, _lodash.merge)(htmlAttributes, attributes);
   };
 
-  const setBodyAttributes = attributes => {
+  const setBodyAttributes = (attributes) => {
     bodyAttributes = (0, _lodash.merge)(bodyAttributes, attributes);
   };
 
-  const setPreBodyComponents = components => {
+  const setPreBodyComponents = (components) => {
     preBodyComponents = preBodyComponents.concat(components);
   };
 
-  const setPostBodyComponents = components => {
+  const setPostBodyComponents = (components) => {
     postBodyComponents = postBodyComponents.concat(components);
   };
 
-  const setBodyProps = props => {
+  const setBodyProps = (props) => {
     bodyProps = (0, _lodash.merge)({}, bodyProps, props);
   };
 
   const getHeadComponents = () => headComponents;
 
-  const replaceHeadComponents = components => {
+  const replaceHeadComponents = (components) => {
     headComponents = components;
   };
 
   const getPreBodyComponents = () => preBodyComponents;
 
-  const replacePreBodyComponents = components => {
+  const replacePreBodyComponents = (components) => {
     preBodyComponents = components;
   };
 
   const getPostBodyComponents = () => postBodyComponents;
 
-  const replacePostBodyComponents = components => {
+  const replacePostBodyComponents = (components) => {
     postBodyComponents = components;
   };
 
@@ -100,7 +102,7 @@ var _default = (pagePath, callback) => {
     setPreBodyComponents,
     setPostBodyComponents,
     setBodyProps,
-    pathname: pagePath
+    pathname: pagePath,
   });
   (0, _apiRunnerSsr.default)(`onPreRenderHTML`, {
     getHeadComponents,
@@ -109,26 +111,32 @@ var _default = (pagePath, callback) => {
     replacePreBodyComponents,
     getPostBodyComponents,
     replacePostBodyComponents,
-    pathname: pagePath
+    pathname: pagePath,
   });
 
-  const htmlElement = /*#__PURE__*/_react.default.createElement(Html, { ...bodyProps,
+  const htmlElement = /*#__PURE__*/ _react.default.createElement(Html, {
+    ...bodyProps,
     body: ``,
-    headComponents: headComponents.concat([/*#__PURE__*/_react.default.createElement("script", {
-      key: `io`,
-      src: "/socket.io/socket.io.js"
-    })]),
+    headComponents: headComponents.concat([
+      /*#__PURE__*/ _react.default.createElement("script", {
+        key: `io`,
+        src: "/socket.io/socket.io.js",
+      }),
+    ]),
     htmlAttributes,
     bodyAttributes,
     preBodyComponents,
-    postBodyComponents: postBodyComponents.concat([/*#__PURE__*/_react.default.createElement("script", {
-      key: `polyfill`,
-      src: "/polyfill.js",
-      noModule: true
-    }), /*#__PURE__*/_react.default.createElement("script", {
-      key: `commons`,
-      src: "/commons.js"
-    })])
+    postBodyComponents: postBodyComponents.concat([
+      /*#__PURE__*/ _react.default.createElement("script", {
+        key: `polyfill`,
+        src: "/polyfill.js",
+        noModule: true,
+      }),
+      /*#__PURE__*/ _react.default.createElement("script", {
+        key: `commons`,
+        src: "/commons.js",
+      }),
+    ]),
   });
 
   htmlStr = (0, _server.renderToStaticMarkup)(htmlElement);

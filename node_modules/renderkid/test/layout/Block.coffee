@@ -1,5 +1,6 @@
 Layout = require '../../src/Layout'
-{object} = require 'utila'
+merge = require 'lodash/merge'
+{cloneAndMergeDeep} = require '../../src/tools'
 
 {open, get, conf} = do ->
   show = (layout) ->
@@ -10,7 +11,7 @@ Layout = require '../../src/Layout'
     linePrependor: options: amount: 2
 
   c = (add = {}) ->
-    object.append defaultBlockConfig, add
+    cloneAndMergeDeep defaultBlockConfig, add
 
   ret = {}
 
@@ -29,22 +30,22 @@ Layout = require '../../src/Layout'
   ret.conf = (props) ->
     config = {}
     if props.left?
-      object.appendOnto config, linePrependor: options: amount: props.left
+      merge config, linePrependor: options: amount: props.left
 
     if props.right?
-      object.appendOnto config, lineAppendor:  options: amount: props.right
+      merge config, lineAppendor:  options: amount: props.right
 
     if props.top?
-      object.appendOnto config, blockPrependor: options: amount: props.top
+      merge config, blockPrependor: options: amount: props.top
 
     if props.bottom?
-      object.appendOnto config, blockAppendor:  options: amount: props.bottom
+      merge config, blockAppendor:  options: amount: props.bottom
 
     if props.width?
-      object.appendOnto config, width: props.width
+      merge config, width: props.width
 
     if props.bullet is yes
-      object.appendOnto config, linePrependor: options: bullet: {char: '-', alignment: 'left'}
+      merge config, linePrependor: options: bullet: {char: '-', alignment: 'left'}
 
     config
 

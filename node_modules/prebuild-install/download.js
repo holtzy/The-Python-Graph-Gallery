@@ -11,7 +11,7 @@ var zlib = require('zlib')
 var util = require('./util')
 var error = require('./error')
 var proxy = require('./proxy')
-var mkdirp = require('mkdirp')
+var mkdirp = require('mkdirp-classic')
 
 function downloadPrebuild (downloadUrl, opts, cb) {
   var cachedPrebuild = util.cachedPrebuild(downloadUrl)

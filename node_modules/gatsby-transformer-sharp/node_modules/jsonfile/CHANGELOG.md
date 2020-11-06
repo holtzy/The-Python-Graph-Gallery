@@ -1,3 +1,9 @@
+6.1.0 / 2020-10-31
+------------------
+
+- Add `finalEOL` option to disable writing final EOL ([#115](https://github.com/jprichardson/node-jsonfile/issues/115), [#137](https://github.com/jprichardson/node-jsonfile/pull/137))
+- Update dependency ([#138](https://github.com/jprichardson/node-jsonfile/pull/138))
+
 6.0.1 / 2020-03-07
 ------------------
 

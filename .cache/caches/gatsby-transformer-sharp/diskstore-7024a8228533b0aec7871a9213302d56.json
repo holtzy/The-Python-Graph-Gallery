@@ -1,1 +1,11 @@
-{"expireTime":9007200859334631000,"key":"b539b1e208bf860710b37cd2c2d97127{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":5}","val":{"src":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABZ0lEQVQY002QzSuDAQDG3/9A4eDARU7KcQcHh51ESq1FLPKRFq0wCofVaGULs9nmM98mUqZ8tbLFNh+rbazh5qikOKx3mu3dfowDTz31nH49/YRsNksu6XQaMSGSSUtEnx5xHKxx9RDC5TtldMPMxd01i6dOTMcLeCMBpg+WsLnXOb+9wrQ/x6bPhSRJCP+BoXCI1+cXhpfHEWoLaDH3Ix9qRFAU0WbWUqGrp2pdQ7O1lzJ9HVVLahqM3RTrvre5k7gY/wXmmslksM5YuY9EmXAtUj6mQD03QpOljwpjIx22QQaO7MzGzlDaNVhCh4z5nagcWqzhI9Q7Rt7i738PRVEkcBmATwnd1iRCdT5KfRe1hnaEmkJUhh5kUyrytJUox9XIHG2UDMhptWgpNSgo1chJfCT+gKlUimQy+bNzDtfcu9w8hDkOepjcm8cfDf54mjlcxRe9Yd67zYp7B38siOVkFafn1+EXM08nzszQ6hkAAAAASUVORK5CYII=","width":20,"height":5,"aspectRatio":4,"originalName":"86_2D_density_plot_explanation.png"}}
+{
+  "expireTime": 9007200859334631000,
+  "key": "b539b1e208bf860710b37cd2c2d97127{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":5}",
+  "val": {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABZ0lEQVQY002QzSuDAQDG3/9A4eDARU7KcQcHh51ESq1FLPKRFq0wCofVaGULs9nmM98mUqZ8tbLFNh+rbazh5qikOKx3mu3dfowDTz31nH49/YRsNksu6XQaMSGSSUtEnx5xHKxx9RDC5TtldMPMxd01i6dOTMcLeCMBpg+WsLnXOb+9wrQ/x6bPhSRJCP+BoXCI1+cXhpfHEWoLaDH3Ix9qRFAU0WbWUqGrp2pdQ7O1lzJ9HVVLahqM3RTrvre5k7gY/wXmmslksM5YuY9EmXAtUj6mQD03QpOljwpjIx22QQaO7MzGzlDaNVhCh4z5nagcWqzhI9Q7Rt7i738PRVEkcBmATwnd1iRCdT5KfRe1hnaEmkJUhh5kUyrytJUox9XIHG2UDMhptWgpNSgo1chJfCT+gKlUimQy+bNzDtfcu9w8hDkOepjcm8cfDf54mjlcxRe9Yd67zYp7B38siOVkFafn1+EXM08nzszQ6hkAAAAASUVORK5CYII=",
+    "width": 20,
+    "height": 5,
+    "aspectRatio": 4,
+    "originalName": "86_2D_density_plot_explanation.png"
+  }
+}

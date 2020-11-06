@@ -1,1 +1,11 @@
-{"expireTime":9007200859334634000,"key":"734cfbc87cf78b6d2e6902dc9360d3ed{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":14}","val":{"src":"data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoUAA4APtFUo0uoJKMhsAgBABoJZQAAW+wNvBOx1stvgAD+87aLj5ArlqDerBhX3urrN2dANEvr+YNe8k2Qj7aH/hDxGibLeA8CNVQjRwAAAA==","width":20,"height":14,"aspectRatio":1.4285714285714286,"originalName":"134_Fighting_overplotting12.png"}}
+{
+  "expireTime": 9007200859334634000,
+  "key": "734cfbc87cf78b6d2e6902dc9360d3ed{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":14}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoUAA4APtFUo0uoJKMhsAgBABoJZQAAW+wNvBOx1stvgAD+87aLj5ArlqDerBhX3urrN2dANEvr+YNe8k2Qj7aH/hDxGibLeA8CNVQjRwAAAA==",
+    "width": 20,
+    "height": 14,
+    "aspectRatio": 1.4285714285714286,
+    "originalName": "134_Fighting_overplotting12.png"
+  }
+}

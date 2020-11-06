@@ -1,1 +1,11 @@
-{"expireTime":9007200859334637000,"key":"33147e1e3474025006a743adc83bac88{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRhoBAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSEoAAAABZ6CgbRuGP+PumkZEBA6NDpjU2vbk+9VSI8nvd4T/Z+ndAEkRaEADAn6fRUf0fwKu50bfjwPplDX4LBmguv4BZchZAFn8NKLHCVZQOCCqAAAA0AQAnQEqFAAUAD7RWKRNKCUjIigNUQAaCWMAzjmLBE/qSbhkMwoS3sv6Xd0D8ygA/t6jtGW27RaZORDf20CTmk3aWt2kGWn493Sj3kGfKWWWkTPx56O1FK7aRaib/Eb677uXeU98zAfi/STbOCIjSujUR9ciz8rqz/KKMAWC544CaLT+GDhwN1Idh1FtjqCGdEHmRqApPlJVlox+tUaXz0wN1rKEb+65AAA=","width":20,"height":20,"aspectRatio":1,"originalName":"MatplotlibSmall.png"}}
+{
+  "expireTime": 9007200859334637000,
+  "key": "33147e1e3474025006a743adc83bac88{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRhoBAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSEoAAAABZ6CgbRuGP+PumkZEBA6NDpjU2vbk+9VSI8nvd4T/Z+ndAEkRaEADAn6fRUf0fwKu50bfjwPplDX4LBmguv4BZchZAFn8NKLHCVZQOCCqAAAA0AQAnQEqFAAUAD7RWKRNKCUjIigNUQAaCWMAzjmLBE/qSbhkMwoS3sv6Xd0D8ygA/t6jtGW27RaZORDf20CTmk3aWt2kGWn493Sj3kGfKWWWkTPx56O1FK7aRaib/Eb677uXeU98zAfi/STbOCIjSujUR9ciz8rqz/KKMAWC544CaLT+GDhwN1Idh1FtjqCGdEHmRqApPlJVlox+tUaXz0wN1rKEb+65AAA=",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "MatplotlibSmall.png"
+  }
+}

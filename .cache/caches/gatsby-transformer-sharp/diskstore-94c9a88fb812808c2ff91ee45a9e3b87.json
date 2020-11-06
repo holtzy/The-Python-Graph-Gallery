@@ -1,1 +1,11 @@
-{"expireTime":9007200859334630000,"key":"62f69006ab93d6188b89d28283b5c41c{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":10}","val":{"src":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACB0lEQVQoz3WSx3IbQQxE+f9fZR9s+aBQtCyRYlhyIzdO2tnE9AzS1sEHTxVqelBAAw3M7HK5MB3PDOPE+XzhKLjrR06nM9N0olEGaz1t26G1YRhucVfG8fgXS/70Bx+PJ2adBFbLmDLI0bWjLjTFLqQJ99SHhDzNqfMC1WiSKCA/FDSNIU4iDnmDMQPbZEuYJoSHSAhNSzPfiG0xkSRuFjTvL2i5y2hFsnwk384p0oD9+pEomAvpnnXwxD76oKob3sI5r7snNumK2U1a73q8bpn6idF7vNIMvmMcRqxWdzyNI85ovLMid5QRWJzVggda31KrGt93zFoJXki7UV6zr0qSyjCPU35lB6zIKcqWjUgLK8sqVbzGElc6goMViZZK9RzKTiSLUsEzJRW/79552C14zyKeopgvmzUvcSxENb+inOcwZZHVPGwzfgQZSyH+ti75+pHzkRp+bh3PK8MydCL5fKZxjkKkdSLF+J7atbh+EBsprLv7uuFI5TqUYC9+JbiS+XsZk3EDZSM5fpKldIMM2pNFLUYNaNNRZy2q6nC6l23bu8+aHhUreTcc3cj/zsxK8PrNsV05sthTxi3pi3QctOhAZvRYy7eRApmlfk4oxQYpdDvXy5Xr9V+b3T6lVtK+DNq3sslGZOWCZSG9dGVzS9t4BpFlcoWT5Zzkw98JheDz/sS/Abva83UhrMUqAAAAAElFTkSuQmCC","width":20,"height":10,"aspectRatio":2,"originalName":"BONUS_area_facet.png"}}
+{
+  "expireTime": 9007200859334630000,
+  "key": "62f69006ab93d6188b89d28283b5c41c{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":10}",
+  "val": {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACB0lEQVQoz3WSx3IbQQxE+f9fZR9s+aBQtCyRYlhyIzdO2tnE9AzS1sEHTxVqelBAAw3M7HK5MB3PDOPE+XzhKLjrR06nM9N0olEGaz1t26G1YRhucVfG8fgXS/70Bx+PJ2adBFbLmDLI0bWjLjTFLqQJ99SHhDzNqfMC1WiSKCA/FDSNIU4iDnmDMQPbZEuYJoSHSAhNSzPfiG0xkSRuFjTvL2i5y2hFsnwk384p0oD9+pEomAvpnnXwxD76oKob3sI5r7snNumK2U1a73q8bpn6idF7vNIMvmMcRqxWdzyNI85ovLMid5QRWJzVggda31KrGt93zFoJXki7UV6zr0qSyjCPU35lB6zIKcqWjUgLK8sqVbzGElc6goMViZZK9RzKTiSLUsEzJRW/79552C14zyKeopgvmzUvcSxENb+inOcwZZHVPGwzfgQZSyH+ti75+pHzkRp+bh3PK8MydCL5fKZxjkKkdSLF+J7atbh+EBsprLv7uuFI5TqUYC9+JbiS+XsZk3EDZSM5fpKldIMM2pNFLUYNaNNRZy2q6nC6l23bu8+aHhUreTcc3cj/zsxK8PrNsV05sthTxi3pi3QctOhAZvRYy7eRApmlfk4oxQYpdDvXy5Xr9V+b3T6lVtK+DNq3sslGZOWCZSG9dGVzS9t4BpFlcoWT5Zzkw98JheDz/sS/Abva83UhrMUqAAAAAElFTkSuQmCC",
+    "width": 20,
+    "height": 10,
+    "aspectRatio": 2,
+    "originalName": "BONUS_area_facet.png"
+  }
+}

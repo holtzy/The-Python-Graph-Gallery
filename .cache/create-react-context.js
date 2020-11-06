@@ -20,7 +20,7 @@
    b) or complicate babel-loader configuration with overwrite specifically for this file
 */
 
-const { createContext } = require(`react`)
+const { createContext } = require(`react`);
 
-module.exports = createContext
-module.exports.default = createContext
+module.exports = createContext;
+module.exports.default = createContext;

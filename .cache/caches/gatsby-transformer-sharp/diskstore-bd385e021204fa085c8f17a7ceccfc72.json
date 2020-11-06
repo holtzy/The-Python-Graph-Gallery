@@ -1,1 +1,11 @@
-{"expireTime":9007200859334629000,"key":"5b49a9b48d3a6f6578380c1ae2c46627{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":13}","val":{"src":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABbElEQVQ4y62TC2+DIBSF+///4JJl7Vrb9aGCvEHUnnFpdNZ1zZbsJideCXw5HGB1vV7xX0WsFTVd10FrDWstnHO/kk3y3kEoAy41+sSgysAYI4QQGTwMA/q+f6ouKflBrTxejgK7UiIG/wUMIWTgX7ZPUysdUOoWwobEmAHJmVIquxuzeCYq5SM+GpeAITtt50DKhHM+TV4uXvaXBNhUBsJFXGQA0wsgTTLGTA7xwBGVjz3eSo0DdzgKB2ZCgj8A0ukyxu5czItA3LQ4S58c+eyQvg+B42KC9v2AEdV2A+qUD22NtE7OCmZRqpCB55+A8wzHcm2XF76eFU7C557gI4zcEbCegO7+lCk7qTR0Orl9ymedHBGItlnpmwhGmv9zG3Pf2Pa7w6pmOBVHnDZbsGJ/0/6AcrtDtSsm0Xj5vs3j1NNYfSnh/CJD+sY2pCwNmqaB0irnKqTId1QqmZ8n3Yam4ZBSTqJHQa+N6hMwAvOHmWbWhgAAAABJRU5ErkJggg==","width":20,"height":13,"aspectRatio":1.5384615384615385,"originalName":"180_Basic_lolipop_plot2.png"}}
+{
+  "expireTime": 9007200859334629000,
+  "key": "5b49a9b48d3a6f6578380c1ae2c46627{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":13}",
+  "val": {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABbElEQVQ4y62TC2+DIBSF+///4JJl7Vrb9aGCvEHUnnFpdNZ1zZbsJideCXw5HGB1vV7xX0WsFTVd10FrDWstnHO/kk3y3kEoAy41+sSgysAYI4QQGTwMA/q+f6ouKflBrTxejgK7UiIG/wUMIWTgX7ZPUysdUOoWwobEmAHJmVIquxuzeCYq5SM+GpeAITtt50DKhHM+TV4uXvaXBNhUBsJFXGQA0wsgTTLGTA7xwBGVjz3eSo0DdzgKB2ZCgj8A0ukyxu5czItA3LQ4S58c+eyQvg+B42KC9v2AEdV2A+qUD22NtE7OCmZRqpCB55+A8wzHcm2XF76eFU7C557gI4zcEbCegO7+lCk7qTR0Orl9ymedHBGItlnpmwhGmv9zG3Pf2Pa7w6pmOBVHnDZbsGJ/0/6AcrtDtSsm0Xj5vs3j1NNYfSnh/CJD+sY2pCwNmqaB0irnKqTId1QqmZ8n3Yam4ZBSTqJHQa+N6hMwAvOHmWbWhgAAAABJRU5ErkJggg==",
+    "width": 20,
+    "height": 13,
+    "aspectRatio": 1.5384615384615385,
+    "originalName": "180_Basic_lolipop_plot2.png"
+  }
+}

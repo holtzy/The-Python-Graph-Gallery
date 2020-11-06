@@ -1,1 +1,11 @@
-{"expireTime":9007200859334636000,"key":"4d808c54172524e161d3436a4b016729{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":14}","val":{"src":"data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoUAA4APtFUo0uoJKMhsAgBABoJZQCdAYs23219hKxJFC3ABaAA/vURaCmvxkqjpIpyq+B0bkRbt0csGDpWqDP6qaqrtAQAf8vY+7arkmsYH5m8Nta0PIBuKGtcHJb2lggmyD1tkUsLuSKPAAA=","width":20,"height":14,"aspectRatio":1.4285714285714286,"originalName":"371_3D_Surface_plot_volcano_2.png"}}
+{
+  "expireTime": 9007200859334636000,
+  "key": "4d808c54172524e161d3436a4b016729{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":14}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoUAA4APtFUo0uoJKMhsAgBABoJZQCdAYs23219hKxJFC3ABaAA/vURaCmvxkqjpIpyq+B0bkRbt0csGDpWqDP6qaqrtAQAf8vY+7arkmsYH5m8Nta0PIBuKGtcHJb2lggmyD1tkUsLuSKPAAA=",
+    "width": 20,
+    "height": 14,
+    "aspectRatio": 1.4285714285714286,
+    "originalName": "371_3D_Surface_plot_volcano_2.png"
+  }
+}

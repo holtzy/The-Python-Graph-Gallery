@@ -15,4 +15,4 @@ export const RouteAnnouncerProps = {
   },
   "aria-live": `assertive`,
   "aria-atomic": `true`,
-}
+};

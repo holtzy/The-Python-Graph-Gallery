@@ -4,7 +4,7 @@ declare namespace stringifyEntities {
   interface StringifyEntitiesOptions {
     /**
      * Whether to only escape possibly dangerous characters (`boolean`, default: `false`).
-     * Those characters are `"`, `'`, `<`, `>` `&`, and `` ` ``.
+     * Those characters are `"`, `&`, `'`, `<`, `>`, and `` ` ``.
      */
     escapeOnly?: boolean
 
@@ -14,27 +14,27 @@ declare namespace stringifyEntities {
     subset?: string[]
 
     /**
-     * Whether to use named entities where possible (`boolean?`, default: `false`).
+     * Prefer named character references (`&amp;`) where possible (`boolean?`, default: `false`).
      */
     useNamedReferences?: boolean
 
     /**
-     * Whether to use named entities, where possible, if that results in less bytes (`boolean?`, default: `false`).
+     * Prefer the shortest possible reference, if that results in less bytes (`boolean?`, default: `false`).
      * **Note**: `useNamedReferences` can be omitted when using `useShortestReferences`.
      */
     useShortestReferences?: boolean
 
     /**
-     * Whether to omit semi-colons when possible (`boolean?`, default: `false`).
-     * **Note**: This creates parse errors, don’t use this except when building a minifier.
+     * Whether to omit semicolons when possible (`boolean?`, default: `false`).
+     * **Note**: This creates what HTML calls “parse errors” but is otherwise still valid HTML — don’t use this except when building a minifier.
      *
-     * Omitting semi-colons is possible for certain legacy named references, and numeric entities, in some cases.
+     * Omitting semicolons is possible for legacy named references in certain cases, and numeric references in some cases.
      */
     omitOptionalSemicolons?: boolean
 
     /**
      * Only needed when operating dangerously with `omitOptionalSemicolons: true`.
-     * Create entities which don’t fail in attributes (`boolean?`, default: `false`).
+     * Create character references which don’t fail in attributes (`boolean?`, default: `false`).
      */
     attribute?: boolean
   }

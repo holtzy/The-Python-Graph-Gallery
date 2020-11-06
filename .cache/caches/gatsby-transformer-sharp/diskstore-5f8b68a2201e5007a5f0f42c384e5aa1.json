@@ -1,1 +1,11 @@
-{"expireTime":9007200859334637000,"key":"4d120a8bcc099c38b05b1d22e95e2f71{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUABQAPtFYpUyoJSOiKA1RABoJYwCAAGS+nC0YplyB00XAAP7eWnsGGK7UdFFJUxr0BF99kju+50ijRK2c+QFu6K9J/imNJZfRSQgQbPYYxAWC2cui1yAlUxQKE6H/N5Ow98NVM9yC2hhggAA=","width":20,"height":20,"aspectRatio":1,"originalName":"PandasBig.png"}}
+{
+  "expireTime": 9007200859334637000,
+  "key": "4d120a8bcc099c38b05b1d22e95e2f71{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUABQAPtFYpUyoJSOiKA1RABoJYwCAAGS+nC0YplyB00XAAP7eWnsGGK7UdFFJUxr0BF99kju+50ijRK2c+QFu6K9J/imNJZfRSQgQbPYYxAWC2cui1yAlUxQKE6H/N5Ow98NVM9yC2hhggAA=",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "PandasBig.png"
+  }
+}

@@ -1,1 +1,11 @@
-{"expireTime":9007200859334636000,"key":"c77e6bc62a9210d43b17c8136e796d02{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRrgBAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSMUAAAABgFtr29vk/SW7NnEGbwCldyCOgAfgMENqc2i9SGg51OrdkaGyvl/vQ9YKETEBkkppcFqFZ6ONrgr9LLQ+4c9qV0pSoSHkaGxHwJmUSg0h/GcObpS0Bhmbn8Y1Q2lMYP40DU+rA7LNP03NwSnRwplJRWP+bfMUuAXGboeZtbL5GBFtMvcbhP0fU3Pcrcj4L9tEXzuEsX+xmXOsQufUDTbYeM60kKRbqLONcw3Tngolae8BwECcJBWSUtLK/vjRvN8d9qVCAgBWUDggzAAAAPAEAJ0BKhQAFAA+0WCpT6glI6IoCAEAGgljALEfZo7YeMgYXiDyalxAJ9g0REV8AAD+55OHYnjJr5g7XW1Ybr15Ykw48y4+3gX8gB/sM+MnEHE+V7EqcBTlkfdhOfJDKuM2O47t32bIYrGib5ynoRIzRjAb/PoS63AKvRxe7z8PekDAfCTJTsBjKZxyHIkAbHF7HjE7srymLppXRkdxQnytBcaJMJpeRHglt2jo6qZpN5saofmk2oHFgGvtkn7/a/8NEfxQed9WDSAAAA==","width":20,"height":20,"aspectRatio":1,"originalName":"ConnectedMap150.png"}}
+{
+  "expireTime": 9007200859334636000,
+  "key": "c77e6bc62a9210d43b17c8136e796d02{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRrgBAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSMUAAAABgFtr29vk/SW7NnEGbwCldyCOgAfgMENqc2i9SGg51OrdkaGyvl/vQ9YKETEBkkppcFqFZ6ONrgr9LLQ+4c9qV0pSoSHkaGxHwJmUSg0h/GcObpS0Bhmbn8Y1Q2lMYP40DU+rA7LNP03NwSnRwplJRWP+bfMUuAXGboeZtbL5GBFtMvcbhP0fU3Pcrcj4L9tEXzuEsX+xmXOsQufUDTbYeM60kKRbqLONcw3Tngolae8BwECcJBWSUtLK/vjRvN8d9qVCAgBWUDggzAAAAPAEAJ0BKhQAFAA+0WCpT6glI6IoCAEAGgljALEfZo7YeMgYXiDyalxAJ9g0REV8AAD+55OHYnjJr5g7XW1Ybr15Ykw48y4+3gX8gB/sM+MnEHE+V7EqcBTlkfdhOfJDKuM2O47t32bIYrGib5ynoRIzRjAb/PoS63AKvRxe7z8PekDAfCTJTsBjKZxyHIkAbHF7HjE7srymLppXRkdxQnytBcaJMJpeRHglt2jo6qZpN5saofmk2oHFgGvtkn7/a/8NEfxQed9WDSAAAA==",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "ConnectedMap150.png"
+  }
+}

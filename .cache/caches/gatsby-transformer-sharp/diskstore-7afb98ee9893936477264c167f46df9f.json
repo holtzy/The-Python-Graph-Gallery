@@ -1,1 +1,11 @@
-{"expireTime":9007200859334634000,"key":"f914d982b3c0549ac1d8c0793ff44eee{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":13}","val":{"src":"data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA0APtFUo0uoJKMhsAgBABoJZ0wAADc10SpkAAD+8TTXYuCSnfiKTls9r+6aQajdKZYbEftNXigAAAA=","width":20,"height":13,"aspectRatio":1.5384615384615385,"originalName":"401_custom_Dendrogram5.png"}}
+{
+  "expireTime": 9007200859334634000,
+  "key": "f914d982b3c0549ac1d8c0793ff44eee{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":13}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA0APtFUo0uoJKMhsAgBABoJZ0wAADc10SpkAAD+8TTXYuCSnfiKTls9r+6aQajdKZYbEftNXigAAAA=",
+    "width": 20,
+    "height": 13,
+    "aspectRatio": 1.5384615384615385,
+    "originalName": "401_custom_Dendrogram5.png"
+  }
+}

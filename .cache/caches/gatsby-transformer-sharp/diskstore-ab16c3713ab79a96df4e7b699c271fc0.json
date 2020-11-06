@@ -1,1 +1,11 @@
-{"expireTime":9007200859334636000,"key":"ba53f46be6e072e28b463defc220af30{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABQBQCdASoUABQAPtFgqE+oJSOiKAgBABoJZwDKtywA53OnQHph7wKxkKoLiybYSjfV5QAA/vCHJXj4p0OZwovqTxF4N+qrfWZ5+/EHUyBiNRXnw8txZAJZr0fb0T6dLlb7RqQni0YEozPbuwBh9TCKSR0h0kHCwrHigs7CulP5CeMe/i9qMie5NJBp7iLKw2lfp3XrmNvE1KMJLiegAAAA","width":20,"height":20,"aspectRatio":1,"originalName":"111_Correlogram_custom7.png"}}
+{
+  "expireTime": 9007200859334636000,
+  "key": "ba53f46be6e072e28b463defc220af30{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABQBQCdASoUABQAPtFgqE+oJSOiKAgBABoJZwDKtywA53OnQHph7wKxkKoLiybYSjfV5QAA/vCHJXj4p0OZwovqTxF4N+qrfWZ5+/EHUyBiNRXnw8txZAJZr0fb0T6dLlb7RqQni0YEozPbuwBh9TCKSR0h0kHCwrHigs7CulP5CeMe/i9qMie5NJBp7iLKw2lfp3XrmNvE1KMJLiegAAAA",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "111_Correlogram_custom7.png"
+  }
+}

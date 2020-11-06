@@ -14,79 +14,74 @@ visitParents.SKIP = SKIP
 visitParents.EXIT = EXIT
 
 function visitParents(tree, test, visitor, reverse) {
+  var step
   var is
 
-  if (func(test) && !func(visitor)) {
+  if (typeof test === 'function' && typeof visitor !== 'function') {
     reverse = visitor
     visitor = test
     test = null
   }
 
   is = convert(test)
+  step = reverse ? -1 : 1
 
-  one(tree, null, [])()
+  factory(tree, null, [])()
 
-  function one(child, index, parents) {
-    var value = object(child) ? child : {}
+  function factory(node, index, parents) {
+    var value = typeof node === 'object' && node !== null ? node : {}
     var name
 
-    if (string(value.type)) {
-      name = string(value.tagName)
-        ? value.tagName
-        : string(value.name)
-        ? value.name
-        : undefined
+    if (typeof value.type === 'string') {
+      name =
+        typeof value.tagName === 'string'
+          ? value.tagName
+          : typeof value.name === 'string'
+          ? value.name
+          : undefined
 
-      node.displayName =
+      visit.displayName =
         'node (' + color(value.type + (name ? '<' + name + '>' : '')) + ')'
     }
 
-    return node
+    return visit
 
-    function node() {
+    function visit() {
+      var grandparents = parents.concat(node)
       var result = []
       var subresult
+      var offset
 
-      if (!test || is(child, index, parents[parents.length - 1] || null)) {
-        result = toResult(visitor(child, parents))
+      if (!test || is(node, index, parents[parents.length - 1] || null)) {
+        result = toResult(visitor(node, parents))
 
         if (result[0] === EXIT) {
           return result
         }
       }
 
-      if (!child.children || result[0] === SKIP) {
-        return result
+      if (node.children && result[0] !== SKIP) {
+        offset = (reverse ? node.children.length : -1) + step
+
+        while (offset > -1 && offset < node.children.length) {
+          subresult = factory(node.children[offset], offset, grandparents)()
+
+          if (subresult[0] === EXIT) {
+            return subresult
+          }
+
+          offset =
+            typeof subresult[1] === 'number' ? subresult[1] : offset + step
+        }
       }
 
-      subresult = toResult(children(child.children, parents.concat(child)))
-      return subresult[0] === EXIT ? subresult : result
-    }
-  }
-
-  // Visit children in `parent`.
-  function children(children, parents) {
-    var min = -1
-    var step = reverse ? -1 : 1
-    var index = (reverse ? children.length : min) + step
-    var child
-    var result
-
-    while (index > min && index < children.length) {
-      child = children[index]
-      result = one(child, index, parents)()
-
-      if (result[0] === EXIT) {
-        return result
-      }
-
-      index = typeof result[1] === 'number' ? result[1] : index + step
+      return result
     }
   }
 }
 
 function toResult(value) {
-  if (object(value) && 'length' in value) {
+  if (value !== null && typeof value === 'object' && 'length' in value) {
     return value
   }
 
@@ -95,16 +90,4 @@ function toResult(value) {
   }
 
   return [value]
-}
-
-function func(d) {
-  return typeof d === 'function'
-}
-
-function string(d) {
-  return typeof d === 'string'
-}
-
-function object(d) {
-  return typeof d === 'object' && d !== null
 }

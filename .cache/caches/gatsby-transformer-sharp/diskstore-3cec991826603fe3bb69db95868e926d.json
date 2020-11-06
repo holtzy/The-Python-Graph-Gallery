@@ -1,1 +1,11 @@
-{"expireTime":9007200859334636000,"key":"a8b4ef7e0a972c14b3fff865d8698b7a{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRhoBAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSKMAAAABcFXbtqrs9+DPPYU0YdDEC7wOVJAQBNAU/ufudyPnPKxARChs27bJZMclAGB5gVC1mQI8NqAVc2Yka5kXpOLOlLxcSdYVYi+db6S5KCSdmZB5pkQj3VciSQHD3fqmpXE9zZVccVjwTZOGxz/HJ1+OU2PcYZ65u/ByfcLl9nYmcy3y+oLRmuSBXFtCalzxwwONl0ZPPdsF8ge8FgCJbG9U8UkBAFZQOCBQAAAAUAQAnQEqFAAUAD7RXqhPqCSjoigIAQAaCWUAuzNkAan8uNPNIVPCytWQAAD+77S6sZ/J3myNIcB2ZqhInGV2s7IyINy1impy5hHemAAAAAA=","width":20,"height":20,"aspectRatio":1,"originalName":"ColoursSmall.png"}}
+{
+  "expireTime": 9007200859334636000,
+  "key": "a8b4ef7e0a972c14b3fff865d8698b7a{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRhoBAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSKMAAAABcFXbtqrs9+DPPYU0YdDEC7wOVJAQBNAU/ufudyPnPKxARChs27bJZMclAGB5gVC1mQI8NqAVc2Yka5kXpOLOlLxcSdYVYi+db6S5KCSdmZB5pkQj3VciSQHD3fqmpXE9zZVccVjwTZOGxz/HJ1+OU2PcYZ65u/ByfcLl9nYmcy3y+oLRmuSBXFtCalzxwwONl0ZPPdsF8ge8FgCJbG9U8UkBAFZQOCBQAAAAUAQAnQEqFAAUAD7RXqhPqCSjoigIAQAaCWUAuzNkAan8uNPNIVPCytWQAAD+77S6sZ/J3myNIcB2ZqhInGV2s7IyINy1impy5hHemAAAAAA=",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "ColoursSmall.png"
+  }
+}

@@ -14,6 +14,7 @@
 ## Usage
 
 Change your package.json install script to:
+
 ```json
 {
   "scripts": {
@@ -27,6 +28,7 @@ Change your package.json install script to:
 You need to provide prebuilds made by [`prebuild`](https://github.com/prebuild/prebuild).
 
 ### Help
+
 ```
 prebuild-install [options]
 
@@ -69,22 +71,26 @@ Note that using a GitHub token uses the API to resolve the correct release meani
 
 To create a token:
 
-* Go to [this page](https://github.com/settings/tokens)
-* Click the `Generate new token` button
-* Give the token a name and click the `Generate token` button, see below
+- Go to [this page](https://github.com/settings/tokens)
+- Click the `Generate new token` button
+- Give the token a name and click the `Generate token` button, see below
 
 ![prebuild-token](https://cloud.githubusercontent.com/assets/13285808/20844584/d0b85268-b8c0-11e6-8b08-2b19522165a9.png)
 
 The default scopes should be fine.
 
 ### Custom binaries
+
 The end user can override binary download location through environment variables in their .npmrc file.
 The variable needs to meet the mask `% your package name %_binary_host` or `% your package name %_binary_host_mirror`. For example:
+
 ```
 leveldown_binary_host=http://overriden-host.com/overriden-path
 ```
+
 Note that the package version subpath and file name will still be appended.
 So if you are installing `leveldown@1.2.3` the resulting url will be:
+
 ```
 http://overriden-host.com/overriden-path/v1.2.3/leveldown-v1.2.3-node-v57-win32-x64.tar.gz
 ```
@@ -93,9 +99,9 @@ http://overriden-host.com/overriden-path/v1.2.3/leveldown-v1.2.3-node-v57-win32-
 
 All prebuilt binaries are cached to minimize traffic. So first `prebuild-install` picks binaries from the cache and if no binary could be found, it will be downloaded. Depending on the environment, the cache folder is determined in the following order:
 
-* `${npm_config_cache}/_prebuilds`
-* `${APP_DATA}/npm-cache/_prebuilds`
-* `${HOME}/.npm/_prebuilds`
+- `${npm_config_cache}/_prebuilds`
+- `${APP_DATA}/npm-cache/_prebuilds`
+- `${HOME}/.npm/_prebuilds`
 
 ## License
 

@@ -1,1 +1,11 @@
-{"expireTime":9007200859334636000,"key":"6618f6100a643dc0d097d6e69beefec4{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwBACdASoUABQAPtFgqU+oJSOiKAgBABoJQBmaAiOpmXVsW0/fva7+bh1HyyDuQAAA/vUddJoGu+lztpP2/za0cwUgDZKn6VAn0oAcj5Ub0ynMNA6H5dgKai7FTKL3Fjc2xJ8edoU1Bgzpu6vkthXYiMVZT5AA","width":20,"height":20,"aspectRatio":1,"originalName":"150_Parrallele_plot_with_pandas.png"}}
+{
+  "expireTime": 9007200859334636000,
+  "key": "6618f6100a643dc0d097d6e69beefec4{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwBACdASoUABQAPtFgqU+oJSOiKAgBABoJQBmaAiOpmXVsW0/fva7+bh1HyyDuQAAA/vUddJoGu+lztpP2/za0cwUgDZKn6VAn0oAcj5Ub0ynMNA6H5dgKai7FTKL3Fjc2xJ8edoU1Bgzpu6vkthXYiMVZT5AA",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "150_Parrallele_plot_with_pandas.png"
+  }
+}

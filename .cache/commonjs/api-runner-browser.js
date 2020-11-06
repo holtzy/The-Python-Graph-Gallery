@@ -7,7 +7,7 @@ const {
   getResourcesForPathnameSync,
   getResourceURLsForPathname,
   loadPage,
-  loadPageSync
+  loadPageSync,
 } = require(`./loader`).publicLoader;
 
 exports.apiRunner = (api, args = {}, defaultReturn, argTransform) => {
@@ -22,11 +22,10 @@ exports.apiRunner = (api, args = {}, defaultReturn, argTransform) => {
     }
   }
 
-  let results = plugins.map(plugin => {
+  let results = plugins.map((plugin) => {
     if (!plugin.plugin[api]) {
       return undefined;
     } // Deprecated April 2019. Use `loadPageSync` instead
-
 
     args.getResourcesForPathnameSync = getResourcesForPathnameSync; // Deprecated April 2019. Use `loadPage` instead
 
@@ -40,14 +39,14 @@ exports.apiRunner = (api, args = {}, defaultReturn, argTransform) => {
       args = argTransform({
         args,
         result,
-        plugin
+        plugin,
       });
     }
 
     return result;
   }); // Filter out undefined results.
 
-  results = results.filter(result => typeof result !== `undefined`);
+  results = results.filter((result) => typeof result !== `undefined`);
 
   if (results.length > 0) {
     return results;
@@ -58,4 +57,11 @@ exports.apiRunner = (api, args = {}, defaultReturn, argTransform) => {
   }
 };
 
-exports.apiRunnerAsync = (api, args, defaultReturn) => plugins.reduce((previous, next) => next.plugin[api] ? previous.then(() => next.plugin[api](args, next.options)) : previous, Promise.resolve());
+exports.apiRunnerAsync = (api, args, defaultReturn) =>
+  plugins.reduce(
+    (previous, next) =>
+      next.plugin[api]
+        ? previous.then(() => next.plugin[api](args, next.options))
+        : previous,
+    Promise.resolve()
+  );

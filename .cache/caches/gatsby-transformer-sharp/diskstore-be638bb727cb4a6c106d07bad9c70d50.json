@@ -1,1 +1,11 @@
-{"expireTime":9007200859334634000,"key":"881f4601366df64d42694eed2192a5f7{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":18}","val":{"src":"data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQBACdASoUABIAPtFepU6oJSMiKAqpABoJZQDKABEdFnjj5mKnWYdshGx+PAMYAAD+9gm1yGSd5ytRRk5RDjlc++/3ss4xKVljIV+XMgWHKPkZUAAAAA==","width":20,"height":18,"aspectRatio":1.1111111111111112,"originalName":"391_Several_indiv_Radarchart.png"}}
+{
+  "expireTime": 9007200859334634000,
+  "key": "881f4601366df64d42694eed2192a5f7{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":18}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQBACdASoUABIAPtFepU6oJSMiKAqpABoJZQDKABEdFnjj5mKnWYdshGx+PAMYAAD+9gm1yGSd5ytRRk5RDjlc++/3ss4xKVljIV+XMgWHKPkZUAAAAA==",
+    "width": 20,
+    "height": 18,
+    "aspectRatio": 1.1111111111111112,
+    "originalName": "391_Several_indiv_Radarchart.png"
+  }
+}

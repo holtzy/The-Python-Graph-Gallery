@@ -1,1 +1,11 @@
-{"expireTime":9007200859334628000,"key":"777b93ba86d3eba1e698d87ca7887cff{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB0ElEQVQ4y6VU207DMAzd/38LL7whJB54BYHEZRpMXIo2bbCu1zS9tyYnW7I0zRACS64TJz05dmJPSEjf92SLw/WjKIwJBkqbptEqtlDfdXLcGn6Xtm2rQScKmXNOaZpKm/OMbl4WtPIDKvKcsiw7qtjPGKOyLHcM8amqSoKZoV95n7Rl+a/CBUOAa8BcsIiiSFO3c3NMlSBsMB0wjJNEOu4XPj0sN3LcdT3Zl6bGMud7Am1TDwFBNwhD6VjHTKrNzpxD6qal09s5eX5E51OPeMaGDBPBsDFCtp+SCaosr2oq64ZWYTJkWBSFzGEnnknvCMsFNjiw74aAuIw4jgfvSTIXYZ1cz6ioGyfQIXzrUrCAkG1A2Kys9Lzb223KiQu/85YVGBgiZGdIBhjkcr6kt0282+t6NnVdy9fuYmiCv28iARSNDh0xBLtQPBuToWmV/3kd0Gy11YyPAsKB0ts1hTGzZZjS2aM3Ct8JiE8kGKbxISc2YCV+SHgh56gee30ECFl8+fQkQvqLICW6OaBKAt+n6esHXdzNKRclxFgmU4BNsLgw09prKAo0GAkIdFQKCrwtC7mA3oYfcBgs1pWV/VLsUS0PPljdYAf1Sv8TAH4DkBkinOwzV5UAAAAASUVORK5CYII=","width":20,"height":20,"aspectRatio":1,"originalName":"131_Custom_Matplotlib_Scatterplot4.png"}}
+{
+  "expireTime": 9007200859334628000,
+  "key": "777b93ba86d3eba1e698d87ca7887cff{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
+  "val": {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB0ElEQVQ4y6VU207DMAzd/38LL7whJB54BYHEZRpMXIo2bbCu1zS9tyYnW7I0zRACS64TJz05dmJPSEjf92SLw/WjKIwJBkqbptEqtlDfdXLcGn6Xtm2rQScKmXNOaZpKm/OMbl4WtPIDKvKcsiw7qtjPGKOyLHcM8amqSoKZoV95n7Rl+a/CBUOAa8BcsIiiSFO3c3NMlSBsMB0wjJNEOu4XPj0sN3LcdT3Zl6bGMud7Am1TDwFBNwhD6VjHTKrNzpxD6qal09s5eX5E51OPeMaGDBPBsDFCtp+SCaosr2oq64ZWYTJkWBSFzGEnnknvCMsFNjiw74aAuIw4jgfvSTIXYZ1cz6ioGyfQIXzrUrCAkG1A2Kys9Lzb223KiQu/85YVGBgiZGdIBhjkcr6kt0282+t6NnVdy9fuYmiCv28iARSNDh0xBLtQPBuToWmV/3kd0Gy11YyPAsKB0ts1hTGzZZjS2aM3Ct8JiE8kGKbxISc2YCV+SHgh56gee30ECFl8+fQkQvqLICW6OaBKAt+n6esHXdzNKRclxFgmU4BNsLgw09prKAo0GAkIdFQKCrwtC7mA3oYfcBgs1pWV/VLsUS0PPljdYAf1Sv8TAH4DkBkinOwzV5UAAAAASUVORK5CYII=",
+    "width": 20,
+    "height": 20,
+    "aspectRatio": 1,
+    "originalName": "131_Custom_Matplotlib_Scatterplot4.png"
+  }
+}

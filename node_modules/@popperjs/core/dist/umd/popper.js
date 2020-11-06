@@ -1,5 +1,5 @@
 /**
- * @popperjs/core v2.5.3 - MIT License
+ * @popperjs/core v2.5.4 - MIT License
  */
 
 (function (global, factory) {
@@ -553,7 +553,7 @@
     if (parent.contains(child)) {
       return true;
     } // then fallback to custom implementation with Shadow DOM support
-    else if (isShadowRoot(rootNode)) {
+    else if (rootNode && isShadowRoot(rootNode)) {
         var next = child;
 
         do {

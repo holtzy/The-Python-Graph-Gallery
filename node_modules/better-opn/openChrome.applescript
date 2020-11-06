@@ -11,11 +11,12 @@ property theProgram: "Google Chrome"
 
 on run argv
   set theURL to item 1 of argv
+  set matchURL to item 2 of argv
 
   -- Allow requested program to be optional,
   -- default to Google Chrome
-  if (count of argv) > 1 then
-    set theProgram to item 2 of argv
+  if (count of argv) > 2 then
+    set theProgram to item 3 of argv
   end if
 
   using terms from application "Google Chrome"
@@ -28,7 +29,7 @@ on run argv
       -- 1: Looking for tab running debugger
       -- then, Reload debugging tab if found
       -- then return
-      set found to my lookupTabWithUrl(theURL)
+      set found to my lookupTabWithUrl(matchURL)
       if found then
         set targetWindow's active tab index to targetTabIndex
         tell targetTab to reload
