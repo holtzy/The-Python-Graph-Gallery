@@ -65,6 +65,18 @@ code {
     padding-right: 150px  !important;
 }
 
+blockquote {
+    background: var(--light-grey);
+    border-left: 2px solid var(--python-gallery);
+    margin: 10px 50px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+blockquote p {
+    display: inline;
+}
+
+
 a {
     color: var(--python-gallery) !important;
 }
