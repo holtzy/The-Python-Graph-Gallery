@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334634000,
-  "key": "bb81f70bb73cf94e8a0bd36168f38d32{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":17}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAAAQBQCdASoUABEAPtFcpE6oJSMiKAqpABoJaACxHzQ+ABYzpkxKguBiNf+JK3Zw4tQAAPi1ANv0mHlAYaotKk9uHOoUZRnekMAYVbztBoQbkOnGvWiKNbtOBmuF9VXpxKebYDHfMjgI6AFtDqzAL+Y/9btYoegKofzrDkj2C4YQaokUKwaY8ZbMOf3l0WApCiHvUjrbOOzWDr3dLgdy2yqoOOsAcRPZqGW2jYAA",
-    "width": 20,
-    "height": 17,
-    "aspectRatio": 1.1764705882352942,
-    "originalName": "365_data_science_banner.jpg"
-  }
-}
+{"expireTime":9007200859597089000,"key":"bb81f70bb73cf94e8a0bd36168f38d32{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":17}","val":{"src":"data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAAAQBQCdASoUABEAPtFcpE6oJSMiKAqpABoJaACxHzQ+ABYzpkxKguBiNf+JK3Zw4tQAAPi1ANv0mHlAYaotKk9uHOoUZRnekMAYVbztBoQbkOnGvWiKNbtOBmuF9VXpxKebYDHfMjgI6AFtDqzAL+Y/9btYoegKofzrDkj2C4YQaokUKwaY8ZbMOf3l0WApCiHvUjrbOOzWDr3dLgdy2yqoOOsAcRPZqGW2jYAA","width":20,"height":17,"aspectRatio":1.1764705882352942,"originalName":"365_data_science_banner.jpg"}}

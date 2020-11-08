@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334628000,
-  "key": "0c76f33d607f093310f68f46d8363ea8{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
-  "val": {
-    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABc0lEQVQ4y62Vi46EIAxF5/9/VaPia+VRWC5abYkzY7JL0lAZeriUwrxSbjHG9NfGjBc76L33ykL1/c5CCCfjBM7znMZxTMuyFP+pYf40TWnbtkshVsEgEalthLyWf5ANKAS8AAExxqS+75X0slD+LdDep2OsNjQIglKVwymvYJ3nDCcqwCOArmB5gG+BUDgMQ7I+JJ4OZRQvIAlgDb9VuOaBLStkoFQlfanuo8K+75LPOQxn/i6AVBieKsQplZqKGoAm8/njSW3/FogThuHEXQ50pAMYiG8b9pP/CAQIClE2UUy8A3qKKqfYEapDAXFDuq47C7uusxqEPnBpHRdDAZ1zBSoLuz7JcKSCxxyJOpVAqMI9xNWrgSpPAlg3BQQE6lA69dW7FO6HAYP/9erxodSPg3oADrtrHF+AoKNk2rYt22bDilDOPnpjRuGb86lD/LquO1DmClvGZGttWZXfOfgI4F1gDEDEwG+aRj+w//EXwMBfJykqx/k7HucAAAAASUVORK5CYII=",
-    "width": 20,
-    "height": 20,
-    "aspectRatio": 1,
-    "originalName": "121_Custom_line_plot2.png"
-  }
-}
+{"expireTime":9007200859597083000,"key":"0c76f33d607f093310f68f46d8363ea8{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABc0lEQVQ4y62Vi46EIAxF5/9/VaPia+VRWC5abYkzY7JL0lAZeriUwrxSbjHG9NfGjBc76L33ykL1/c5CCCfjBM7znMZxTMuyFP+pYf40TWnbtkshVsEgEalthLyWf5ANKAS8AAExxqS+75X0slD+LdDep2OsNjQIglKVwymvYJ3nDCcqwCOArmB5gG+BUDgMQ7I+JJ4OZRQvIAlgDb9VuOaBLStkoFQlfanuo8K+75LPOQxn/i6AVBieKsQplZqKGoAm8/njSW3/FogThuHEXQ50pAMYiG8b9pP/CAQIClE2UUy8A3qKKqfYEapDAXFDuq47C7uusxqEPnBpHRdDAZ1zBSoLuz7JcKSCxxyJOpVAqMI9xNWrgSpPAlg3BQQE6lA69dW7FO6HAYP/9erxodSPg3oADrtrHF+AoKNk2rYt22bDilDOPnpjRuGb86lD/LquO1DmClvGZGttWZXfOfgI4F1gDEDEwG+aRj+w//EXwMBfJykqx/k7HucAAAAASUVORK5CYII=","width":20,"height":20,"aspectRatio":1,"originalName":"121_Custom_line_plot2.png"}}

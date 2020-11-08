@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334633000,
-  "key": "6e7531beac375fe8136ac92551dd66d8{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwBACdASoUABQAPtFgqE+oJSOiKAgBABoJZwDNwBEcSwxjsfe75sKQgAAA/vUPBiBcvvq9wV6IK0ku9tvHJ4NsvdaIIgiAAAA=",
-    "width": 20,
-    "height": 20,
-    "aspectRatio": 1,
-    "originalName": "124_Spaghetti_plot.png"
-  }
-}
+{"expireTime":9007200859597087000,"key":"6e7531beac375fe8136ac92551dd66d8{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwBACdASoUABQAPtFgqE+oJSOiKAgBABoJZwDNwBEcSwxjsfe75sKQgAAA/vUPBiBcvvq9wV6IK0ku9tvHJ4NsvdaIIgiAAAA=","width":20,"height":20,"aspectRatio":1,"originalName":"124_Spaghetti_plot.png"}}

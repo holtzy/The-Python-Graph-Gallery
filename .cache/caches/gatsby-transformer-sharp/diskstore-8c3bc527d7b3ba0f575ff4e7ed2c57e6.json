@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334636000,
-  "key": "e8d509d3e73a061d73d3715813e8b786{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":17}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACwBACdASoUABEAPtFWoUwoJKMiMBgMAQAaCWUAx+QQ75r8dSwar7l/GC3/WVsAAP7yiAsQEyY5i2kvTIgR2BVffwAJDRTxeMdAY1NhGpH2EaE9pll8+DlzMPC37miK+BawwnIjAinL+oqWJzIxOZPBAAA=",
-    "width": 20,
-    "height": 17,
-    "aspectRatio": 1.1764705882352942,
-    "originalName": "404_Dendro_and_heatmap12.png"
-  }
-}
+{"expireTime":9007200859597089000,"key":"e8d509d3e73a061d73d3715813e8b786{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":17}","val":{"src":"data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACwBACdASoUABEAPtFWoUwoJKMiMBgMAQAaCWUAx+QQ75r8dSwar7l/GC3/WVsAAP7yiAsQEyY5i2kvTIgR2BVffwAJDRTxeMdAY1NhGpH2EaE9pll8+DlzMPC37miK+BawwnIjAinL+oqWJzIxOZPBAAA=","width":20,"height":17,"aspectRatio":1.1764705882352942,"originalName":"404_Dendro_and_heatmap12.png"}}

@@ -1,8 +1,8 @@
-import React, { createElement } from "react";
-import PropTypes from "prop-types";
-import { publicLoader } from "./loader";
-import { apiRunner } from "./api-runner-browser";
-import { grabMatchParams } from "./find-path";
+import React, { createElement } from "react"
+import PropTypes from "prop-types"
+import { publicLoader } from "./loader"
+import { apiRunner } from "./api-runner-browser"
+import { grabMatchParams } from "./find-path"
 
 // Renders page
 class PageRenderer extends React.Component {
@@ -14,30 +14,30 @@ class PageRenderer extends React.Component {
         ...this.props.pageResources.json.pageContext.__params,
       },
       pathContext: this.props.pageContext,
-    };
+    }
 
     const [replacementElement] = apiRunner(`replaceComponentRenderer`, {
       props: this.props,
       loader: publicLoader,
-    });
+    })
 
     const pageElement =
       replacementElement ||
       createElement(this.props.pageResources.component, {
         ...props,
         key: this.props.path || this.props.pageResources.page.path,
-      });
+      })
 
     const wrappedPage = apiRunner(
       `wrapPageElement`,
       { element: pageElement, props },
       pageElement,
       ({ result }) => {
-        return { element: result, props };
+        return { element: result, props }
       }
-    ).pop();
+    ).pop()
 
-    return wrappedPage;
+    return wrappedPage
   }
 }
 
@@ -46,6 +46,6 @@ PageRenderer.propTypes = {
   pageResources: PropTypes.object.isRequired,
   data: PropTypes.object,
   pageContext: PropTypes.object.isRequired,
-};
+}
 
-export default PageRenderer;
+export default PageRenderer

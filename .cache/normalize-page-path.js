@@ -1,12 +1,12 @@
-export default (path) => {
+export default path => {
   if (path === undefined) {
-    return path;
+    return path
   }
   if (path === `/`) {
-    return `/`;
+    return `/`
   }
   if (path.charAt(path.length - 1) === `/`) {
-    return path.slice(0, -1);
+    return path.slice(0, -1)
   }
-  return path;
-};
+  return path
+}

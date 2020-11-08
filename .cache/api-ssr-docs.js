@@ -40,7 +40,7 @@
  *   replaceBodyHTMLString(inlinedHTML)
  * }
  */
-exports.replaceRenderer = true;
+exports.replaceRenderer = true
 
 /**
  * Called after every page Gatsby server renders while building HTML so you can
@@ -104,7 +104,7 @@ exports.replaceRenderer = true;
  *   setBodyAttributes(BodyAttributes)
  * }
  */
-exports.onRenderBody = true;
+exports.onRenderBody = true
 
 /**
  * Called after every page Gatsby server renders while building HTML so you can
@@ -143,7 +143,7 @@ exports.onRenderBody = true;
  *   replaceHeadComponents(headComponents)
  * }
  */
-exports.onPreRenderHTML = true;
+exports.onPreRenderHTML = true
 
 /**
  * Allow a plugin to wrap the page element.
@@ -170,7 +170,7 @@ exports.onPreRenderHTML = true;
  *   return <Layout {...props}>{element}</Layout>
  * }
  */
-exports.wrapPageElement = true;
+exports.wrapPageElement = true
 
 /**
  * Allow a plugin to wrap the root element.
@@ -201,4 +201,4 @@ exports.wrapPageElement = true;
  *   )
  * }
  */
-exports.wrapRootElement = true;
+exports.wrapRootElement = true

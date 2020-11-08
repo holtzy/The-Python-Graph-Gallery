@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334636000,
-  "key": "e0457a36f6d8f7f0763d93517af267a1{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":15}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABwAwCdASoUAA8APtFWpEuoJKOhsAgBABoJZQDMHB6QqNLP9IAA/vYT7k000+IRZryr4qeFWrIW70qQ9epS7hFHyWGjAXAOqVgaoAFM4/i3N9ef4ub4TGAX/JgAAA==",
-    "width": 20,
-    "height": 15,
-    "aspectRatio": 1.3333333333333333,
-    "originalName": "261_Custom_Wordcloud3.png"
-  }
-}
+{"expireTime":9007200859597089000,"key":"e0457a36f6d8f7f0763d93517af267a1{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":15}","val":{"src":"data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABwAwCdASoUAA8APtFWpEuoJKOhsAgBABoJZQDMHB6QqNLP9IAA/vYT7k000+IRZryr4qeFWrIW70qQ9epS7hFHyWGjAXAOqVgaoAFM4/i3N9ef4ub4TGAX/JgAAA==","width":20,"height":15,"aspectRatio":1.3333333333333333,"originalName":"261_Custom_Wordcloud3.png"}}

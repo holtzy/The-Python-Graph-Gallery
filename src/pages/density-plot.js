@@ -7,21 +7,60 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
+import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
+import { Col } from "react-bootstrap";
+import CodeChunk from "../components/CodeChunk"
+import ChartImage from "../components/ChartImage";
+import Scrollspy from "react-scrollspy";
+import TableOfContent from "../components/TableOfContent";
+import FunctionExploration from '../components/FunctionExploration'
 
 const chartDescription =
   "<p>Density plots allow to visualize the distribution of a numeric variable for one or several groups. They are very well adapted for large dataset, as stated in data-to-viz.com. Note that 2 approaches exist to build them in python, the first computing a kernel density estimate, the second building a high resolution histogram.</p>";
 
-export default function Violin() {
+const quickCode = `# library & dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Make default density plot
+sns.kdeplot(df['sepal_width'])
+`
+
+export default function DensityPlot() {
+
   return (
+
     <Layout title="Density chart">
       <TitleAndDescription
         title="Density chart"
         description={chartDescription}
       />
       <Container>
-        <h2>
-          Density charts with <code>Searborn</code>
-        </h2>
+
+        <Scrollspy onUpdate={(e) => console.log("yoooo", e)} offset={50} items={['Quick', 'Seaborn', 'Matplotlib', 'Related']} currentClassName="is-current">
+          <li><a href="#Quick">Quick</a></li>
+          <li><a href="#Seaborn">Seaborn</a></li>
+          <li><a href="#Matplotlib">Matplotlib</a></li>
+          <li><a href="#Related">Related</a></li>
+        </Scrollspy>
+
+        <h2 id="Quick">&#9201; Quick start</h2>
+        <Row className="align-items-center">
+          <Col md={6}>
+            <p>If you're in a rush, the most straightforward way to build a density chart is to use <code>Seaborn</code> and its <code>kdelplot()</code> function. You just need to provide it a numeric variable from your dataset. 🔥</p>
+          </Col>
+          <Col md={6}>
+            <Link to={"/70-basic-density-plot-with-seaborn"}>
+              <ChartImage imgName="70_Basic_density_plot_Seaborn"
+                caption="The most basic density plot one can make with python and seaborn" />
+            </Link>
+          </Col>
+        </Row>
+        <CodeChunk>{quickCode}</CodeChunk>
+        <br />
+
+
+        <h2 id="Seaborn"><Seaborn />Density charts with <code>Searborn</code></h2>
         <p>
           <code>Seaborn</code> is a python library allowing to make better
           charts easily. It is well adapted to build density charts thanks to
@@ -62,10 +101,16 @@ export default function Violin() {
             linkTo=""
           />
         </Row>
+      </Container>
 
-        <h2>
-          Density charts with <code>Matplotlib</code>
-        </h2>
+      <div className="greySection">
+        <Container>
+          <FunctionExploration functionName={"kdeplot"} />
+        </Container>
+      </div>
+
+      <Container>
+        <h2 id="Matplotlib"><Matplotlib /> Density charts with <code>Matplotlib</code></h2>
         <p>
           <code>Matplotlib</code> is the most commong way to make charts in
           python. It is a bit more verbose than <code>Seaborn</code> described
@@ -89,15 +134,19 @@ export default function Violin() {
             linkTo=""
           />
         </Row>
+        <br />
       </Container>
-      <div style={{ backgroundColor: "#f8f9fa", padding: "20px" }}>
+
+      <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="distribution" />
         </Container>
       </div>
-      <Continer>
+      <Container>
         <Contact />
-      </Continer>
-    </Layout>
+      </Container>
+
+
+    </Layout >
   );
 }

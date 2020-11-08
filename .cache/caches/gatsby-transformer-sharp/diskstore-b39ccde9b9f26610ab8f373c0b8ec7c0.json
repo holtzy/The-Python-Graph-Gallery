@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334629000,
-  "key": "7883ac81366ab77ae190df88799c81ef{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":5}",
-  "val": {
-    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA/klEQVQY01VQy04DMQzc//8M/gCVT+DAASROnBqqFlgtyjZ0Nw87j83gBBWEpSjxeGzPZIBErRWWArZtwzXa23pCLuUflqKV+w8rUvfe//YOVR5r8Hh8V5gWg1q2TmJmOQQikjxDYJA38IsSLHbOldc4Mf5gQyTGi/7Abv+Mh1HBOYcQAogjltV3YggE776Q5juwvhWVkgsniJA2zBgDrTWstTJQGrwoOV1mXIIDy4KSEz5ni/unIya9IkvO8iXpvANPN8g8g2OWZdyXK6UwjmNfPjSZwQeUlEFSTCmhfcPZLNgfZxzedLecSxW7r4juIGrXbi/n3Ac2281Zw74Bs0aB0mZ2ztAAAAAASUVORK5CYII=",
-    "width": 20,
-    "height": 5,
-    "aspectRatio": 4,
-    "originalName": "393_Faceting_and_Radarchart-300x80.png"
-  }
-}
+{"expireTime":9007200859597084000,"key":"7883ac81366ab77ae190df88799c81ef{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":5}","val":{"src":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA/klEQVQY01VQy04DMQzc//8M/gCVT+DAASROnBqqFlgtyjZ0Nw87j83gBBWEpSjxeGzPZIBErRWWArZtwzXa23pCLuUflqKV+w8rUvfe//YOVR5r8Hh8V5gWg1q2TmJmOQQikjxDYJA38IsSLHbOldc4Mf5gQyTGi/7Abv+Mh1HBOYcQAogjltV3YggE776Q5juwvhWVkgsniJA2zBgDrTWstTJQGrwoOV1mXIIDy4KSEz5ni/unIya9IkvO8iXpvANPN8g8g2OWZdyXK6UwjmNfPjSZwQeUlEFSTCmhfcPZLNgfZxzedLecSxW7r4juIGrXbi/n3Ac2281Zw74Bs0aB0mZ2ztAAAAAASUVORK5CYII=","width":20,"height":5,"aspectRatio":4,"originalName":"393_Faceting_and_Radarchart-300x80.png"}}

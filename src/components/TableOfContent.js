@@ -1,10 +1,10 @@
 import React from "react";
 import "./tableOfContent.css";
 
-export default function TableOfContent() {
+export default function TableOfContent({ children }) {
   return (
     <div className="tableOfContent">
-      <p>Hello</p>
+      {children}
     </div>
   );
 }

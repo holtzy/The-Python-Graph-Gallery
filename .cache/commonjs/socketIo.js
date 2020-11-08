@@ -13,9 +13,7 @@ var _socket = _interopRequireDefault(require("socket.io-client"));
 
 var _errorOverlayHandler = require("./error-overlay-handler");
 
-var _normalizePagePath = _interopRequireDefault(
-  require("./normalize-page-path")
-);
+var _normalizePagePath = _interopRequireDefault(require("./normalize-page-path"));
 
 let socket = null;
 const inFlightGetPageDataPromiseCache = {};
@@ -37,7 +35,7 @@ function socketIo() {
       try {
         // force websocket as transport
         socket = (0, _socket.default)({
-          transports: [`websocket`],
+          transports: [process.env.GATSBY_SOCKET_IO_DEFAULT_TRANSPORT]
         }); // when websocket fails, we'll try polling
 
         socket.on(`reconnect_attempt`, () => {
@@ -45,45 +43,33 @@ function socketIo() {
         });
 
         const didDataChange = (msg, queryData) => {
-          const id =
-            msg.type === `staticQueryResult`
-              ? msg.payload.id
-              : (0, _normalizePagePath.default)(msg.payload.id);
-          return (
-            !(id in queryData) ||
-            JSON.stringify(msg.payload.result) !== JSON.stringify(queryData[id])
-          );
+          const id = msg.type === `staticQueryResult` ? msg.payload.id : (0, _normalizePagePath.default)(msg.payload.id);
+          return !(id in queryData) || JSON.stringify(msg.payload.result) !== JSON.stringify(queryData[id]);
         };
 
         socket.on(`connect`, () => {
           // we might have disconnected so we loop over the page-data requests in flight
           // so we can get the data again
-          Object.keys(inFlightGetPageDataPromiseCache).forEach((pathname) => {
+          Object.keys(inFlightGetPageDataPromiseCache).forEach(pathname => {
             socket.emit(`getDataForPath`, pathname);
           });
         });
-        socket.on(`message`, (msg) => {
+        socket.on(`message`, msg => {
           if (msg.type === `staticQueryResult`) {
             if (didDataChange(msg, staticQueryData)) {
-              staticQueryData = {
-                ...staticQueryData,
-                [msg.payload.id]: msg.payload.result,
+              staticQueryData = { ...staticQueryData,
+                [msg.payload.id]: msg.payload.result
               };
             }
           } else if (msg.type === `pageQueryResult`) {
             if (didDataChange(msg, pageQueryData)) {
-              pageQueryData = {
-                ...pageQueryData,
-                [(0, _normalizePagePath.default)(msg.payload.id)]: msg.payload
-                  .result,
+              pageQueryData = { ...pageQueryData,
+                [(0, _normalizePagePath.default)(msg.payload.id)]: msg.payload.result
               };
             }
           } else if (msg.type === `overlayError`) {
             if (msg.payload.message) {
-              (0, _errorOverlayHandler.reportError)(
-                msg.payload.id,
-                msg.payload.message
-              );
+              (0, _errorOverlayHandler.reportError)(msg.payload.id, msg.payload.message);
             } else {
               (0, _errorOverlayHandler.clearError)(msg.payload.id);
             }
@@ -115,16 +101,13 @@ function getPageData(pathname) {
   if (inFlightGetPageDataPromiseCache[pathname]) {
     return inFlightGetPageDataPromiseCache[pathname];
   } else {
-    inFlightGetPageDataPromiseCache[pathname] = new Promise((resolve) => {
+    inFlightGetPageDataPromiseCache[pathname] = new Promise(resolve => {
       if (pageQueryData[pathname]) {
         delete inFlightGetPageDataPromiseCache[pathname];
         resolve(pageQueryData[pathname]);
       } else {
-        const onPageDataCallback = (msg) => {
-          if (
-            msg.type === `pageQueryResult` &&
-            (0, _normalizePagePath.default)(msg.payload.id) === pathname
-          ) {
+        const onPageDataCallback = msg => {
+          if (msg.type === `pageQueryResult` && (0, _normalizePagePath.default)(msg.payload.id) === pathname) {
             socket.off(`message`, onPageDataCallback);
             delete inFlightGetPageDataPromiseCache[pathname];
             resolve(pageQueryData[pathname]);
@@ -142,9 +125,11 @@ function getPageData(pathname) {
 // This will help the backend prioritize queries for this
 // path.
 
+
 function registerPath(path) {
   socket.emit(`registerPath`, path);
 } // Unregister the former path
+
 
 function unregisterPath(path) {
   socket.emit(`unregisterPath`, path);

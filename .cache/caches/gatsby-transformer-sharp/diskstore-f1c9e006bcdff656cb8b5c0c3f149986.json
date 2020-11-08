@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334633000,
-  "key": "af5c47b528ab12fa15147baf96c1fff1{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwBACdASoUABQAPslQoUunpKMht/VYAPAZCWIAAC30ZX6tCsC2sGY1HcAA/vYQm/g/P6z97si7aJ4F57fsi+iZP1jFYefjIpI3etafUDbaGXWGCET6f7mkIgJkq//ZCNAAAAAA",
-    "width": 20,
-    "height": 20,
-    "aspectRatio": 1,
-    "originalName": "173_elaborated_Venn_diagram.png"
-  }
-}
+{"expireTime":9007200859597087000,"key":"af5c47b528ab12fa15147baf96c1fff1{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwBACdASoUABQAPslQoUunpKMht/VYAPAZCWIAAC30ZX6tCsC2sGY1HcAA/vYQm/g/P6z97si7aJ4F57fsi+iZP1jFYefjIpI3etafUDbaGXWGCET6f7mkIgJkq//ZCNAAAAAA","width":20,"height":20,"aspectRatio":1,"originalName":"173_elaborated_Venn_diagram.png"}}

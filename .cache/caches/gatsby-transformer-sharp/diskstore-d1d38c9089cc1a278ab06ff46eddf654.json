@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334634000,
-  "key": "be42eb2a29aa0c60f1d20d83fcbbba55{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwBACdASoUABQAPs1OokunpCMht/VYAPAZiWIAxzAQ8OP9TZ7H7P8J6Uj+b70AAP72EI0kli0DyfdXgqmD21JvgRUmK3snVTUlMtvraGTkn030zio6eZiYSSozzSv4iot0fwRW/kEBqLgLKLiE/ZrvDKSsa9PASpmSkTQoCa7JlS+RiCrg9MMLq4w9zEMz6pkAAA==",
-    "width": 20,
-    "height": 20,
-    "aspectRatio": 1,
-    "originalName": "53_Custom_violinplot_color_Seaborn3.png"
-  }
-}
+{"expireTime":9007200859597088000,"key":"be42eb2a29aa0c60f1d20d83fcbbba55{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwBACdASoUABQAPs1OokunpCMht/VYAPAZiWIAxzAQ8OP9TZ7H7P8J6Uj+b70AAP72EI0kli0DyfdXgqmD21JvgRUmK3snVTUlMtvraGTkn030zio6eZiYSSozzSv4iot0fwRW/kEBqLgLKLiE/ZrvDKSsa9PASpmSkTQoCa7JlS+RiCrg9MMLq4w9zEMz6pkAAA==","width":20,"height":20,"aspectRatio":1,"originalName":"53_Custom_violinplot_color_Seaborn3.png"}}

@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334636000,
-  "key": "d038801c652f28ba74aaaebe7e71cfb7{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":17}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABwBQCdASoUABEAPtFcpU6oJSMiKAqpABoJbACxHxs8q0eE15ZqRb9tKl37fmQk0aFODxoAAP72EynfF4EWA3jDusUvJex+JghAUSUuZUlycioiuHC5CiEP7RH6gF9JLj3HvOHRnYMod323lFOOlDSr99nUyERdmWlTbLjbQdSNO5Y9eL5UX9gq8fRaLKahumRxbIG+RfG67ejpt6eCdwXPN9I+O3wUAjwAAA==",
-    "width": 20,
-    "height": 17,
-    "aspectRatio": 1.1764705882352942,
-    "originalName": "230_Chord_with_plotly.png"
-  }
-}
+{"expireTime":9007200859597089000,"key":"d038801c652f28ba74aaaebe7e71cfb7{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":17}","val":{"src":"data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABwBQCdASoUABEAPtFcpU6oJSMiKAqpABoJbACxHxs8q0eE15ZqRb9tKl37fmQk0aFODxoAAP72EynfF4EWA3jDusUvJex+JghAUSUuZUlycioiuHC5CiEP7RH6gF9JLj3HvOHRnYMod323lFOOlDSr99nUyERdmWlTbLjbQdSNO5Y9eL5UX9gq8fRaLKahumRxbIG+RfG67ejpt6eCdwXPN9I+O3wUAjwAAA==","width":20,"height":17,"aspectRatio":1.1764705882352942,"originalName":"230_Chord_with_plotly.png"}}

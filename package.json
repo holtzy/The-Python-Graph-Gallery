@@ -28,7 +28,8 @@
     "react": "^16.14.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.14.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-scrollspy": "^3.4.3"
   },
   "devDependencies": {
     "eslint": "^7.12.1",

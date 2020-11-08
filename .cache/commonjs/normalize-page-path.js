@@ -3,7 +3,7 @@
 exports.__esModule = true;
 exports.default = void 0;
 
-var _default = (path) => {
+var _default = path => {
   if (path === undefined) {
     return path;
   }

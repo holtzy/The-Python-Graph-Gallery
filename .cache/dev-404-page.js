@@ -1,22 +1,22 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql, Link, navigate } from "gatsby";
-import queryString from "query-string";
+import React from "react"
+import PropTypes from "prop-types"
+import { graphql, Link, navigate } from "gatsby"
+import queryString from "query-string"
 
 class Dev404Page extends React.Component {
   static propTypes = {
     data: PropTypes.object,
     custom404: PropTypes.element,
     location: PropTypes.object,
-  };
+  }
 
   constructor(props) {
-    super(props);
-    const { data, location } = this.props;
-    const pagePaths = data.allSitePage.nodes.map((node) => node.path);
-    const urlState = queryString.parse(location.search);
+    super(props)
+    const { data, location } = this.props
+    const pagePaths = data.allSitePage.nodes.map(node => node.path)
+    const urlState = queryString.parse(location.search)
 
-    const initialPagePathSearchTerms = urlState.filter ? urlState.filter : ``;
+    const initialPagePathSearchTerms = urlState.filter ? urlState.filter : ``
 
     this.state = {
       showCustom404: false,
@@ -26,66 +26,66 @@ class Dev404Page extends React.Component {
         pagePaths,
         initialPagePathSearchTerms
       ),
-    };
-    this.showCustom404 = this.showCustom404.bind(this);
-    this.handlePagePathSearch = this.handlePagePathSearch.bind(this);
-    this.handleSearchTermChange = this.handleSearchTermChange.bind(this);
+    }
+    this.showCustom404 = this.showCustom404.bind(this)
+    this.handlePagePathSearch = this.handlePagePathSearch.bind(this)
+    this.handleSearchTermChange = this.handleSearchTermChange.bind(this)
   }
 
   showCustom404() {
-    this.setState({ showCustom404: true });
+    this.setState({ showCustom404: true })
   }
 
   handleSearchTermChange(event) {
-    const searchValue = event.target.value;
+    const searchValue = event.target.value
 
-    this.setSearchUrl(searchValue);
+    this.setSearchUrl(searchValue)
 
     this.setState({
       pagePathSearchTerms: searchValue,
-    });
+    })
   }
 
   handlePagePathSearch(event) {
-    event.preventDefault();
-    const allPagePaths = [...this.state.initPagePaths];
+    event.preventDefault()
+    const allPagePaths = [...this.state.initPagePaths]
     this.setState({
       pagePaths: this.getFilteredPagePaths(
         allPagePaths,
         this.state.pagePathSearchTerms
       ),
-    });
+    })
   }
 
   getFilteredPagePaths(allPagePaths, pagePathSearchTerms) {
-    const searchTerm = new RegExp(`${pagePathSearchTerms}`);
-    return allPagePaths.filter((pagePath) => searchTerm.test(pagePath));
+    const searchTerm = new RegExp(`${pagePathSearchTerms}`)
+    return allPagePaths.filter(pagePath => searchTerm.test(pagePath))
   }
 
   setSearchUrl(searchValue) {
     const {
       location: { pathname, search },
-    } = this.props;
+    } = this.props
 
-    const searchMap = queryString.parse(search);
-    searchMap.filter = searchValue;
+    const searchMap = queryString.parse(search)
+    searchMap.filter = searchValue
 
-    const newSearch = queryString.stringify(searchMap);
+    const newSearch = queryString.stringify(searchMap)
 
     if (search !== `?${newSearch}`) {
-      navigate(`${pathname}?${newSearch}`, { replace: true });
+      navigate(`${pathname}?${newSearch}`, { replace: true })
     }
   }
 
   render() {
-    const { pathname } = this.props.location;
-    let newFilePath;
+    const { pathname } = this.props.location
+    let newFilePath
     if (pathname === `/`) {
-      newFilePath = `src/pages/index.js`;
+      newFilePath = `src/pages/index.js`
     } else if (pathname.slice(-1) === `/`) {
-      newFilePath = `src/pages${pathname.slice(0, -1)}.js`;
+      newFilePath = `src/pages${pathname.slice(0, -1)}.js`
     } else {
-      newFilePath = `src/pages${pathname}.js`;
+      newFilePath = `src/pages${pathname}.js`
     }
 
     return this.state.showCustom404 ? (
@@ -162,11 +162,11 @@ class Dev404Page extends React.Component {
           </div>
         )}
       </div>
-    );
+    )
   }
 }
 
-export default Dev404Page;
+export default Dev404Page
 
 export const pagesQuery = graphql`
   query PagesQuery {
@@ -176,4 +176,4 @@ export const pagesQuery = graphql`
       }
     }
   }
-`;
+`

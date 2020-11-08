@@ -9,37 +9,29 @@ var _utils = require("@reach/router/lib/utils");
 
 var _stripPrefix = _interopRequireDefault(require("./strip-prefix"));
 
-var _normalizePagePath = _interopRequireDefault(
-  require("./normalize-page-path")
-);
+var _normalizePagePath = _interopRequireDefault(require("./normalize-page-path"));
 
 const pathCache = new Map();
 let matchPaths = [];
 
-const trimPathname = (rawPathname) => {
+const trimPathname = rawPathname => {
   const pathname = decodeURIComponent(rawPathname); // Remove the pathPrefix from the pathname.
 
   const trimmedPathname = (0, _stripPrefix.default)(pathname, __BASE_PATH__) // Remove any hashfragment
-    .split(`#`)[0] // Remove search query
-    .split(`?`)[0];
+  .split(`#`)[0] // Remove search query
+  .split(`?`)[0];
   return trimmedPathname;
 };
 
 function absolutify(path) {
   // If it's already absolute, return as-is
-  if (
-    path.startsWith(`/`) ||
-    path.startsWith(`https://`) ||
-    path.startsWith(`http://`)
-  ) {
+  if (path.startsWith(`/`) || path.startsWith(`https://`) || path.startsWith(`http://`)) {
     return path;
   } // Calculate path relative to current location, adding a trailing slash to
   // match behavior of @reach/router
 
-  return new URL(
-    path,
-    window.location.href + (window.location.href.endsWith(`/`) ? `` : `/`)
-  ).pathname;
+
+  return new URL(path, window.location.href + (window.location.href.endsWith(`/`) ? `` : `/`)).pathname;
 }
 /**
  * Set list of matchPaths
@@ -47,7 +39,8 @@ function absolutify(path) {
  * @param {Array<{path: string, matchPath: string}>} value collection of matchPaths
  */
 
-const setMatchPaths = (value) => {
+
+const setMatchPaths = value => {
   matchPaths = value;
 };
 /**
@@ -59,14 +52,18 @@ const setMatchPaths = (value) => {
  * @return {string|null}
  */
 
+
 exports.setMatchPaths = setMatchPaths;
 
-const findMatchPath = (rawPathname) => {
+const findMatchPath = rawPathname => {
   const trimmedPathname = cleanPath(rawPathname);
-  const pickPaths = matchPaths.map(({ path, matchPath }) => {
+  const pickPaths = matchPaths.map(({
+    path,
+    matchPath
+  }) => {
     return {
       path: matchPath,
-      originalPath: path,
+      originalPath: path
     };
   });
   const path = (0, _utils.pick)(pickPaths, trimmedPathname);
@@ -87,14 +84,18 @@ const findMatchPath = (rawPathname) => {
  * @return {object}
  */
 
+
 exports.findMatchPath = findMatchPath;
 
-const grabMatchParams = (rawPathname) => {
+const grabMatchParams = rawPathname => {
   const trimmedPathname = cleanPath(rawPathname);
-  const pickPaths = matchPaths.map(({ path, matchPath }) => {
+  const pickPaths = matchPaths.map(({
+    path,
+    matchPath
+  }) => {
     return {
       path: matchPath,
-      originalPath: path,
+      originalPath: path
     };
   });
   const path = (0, _utils.pick)(pickPaths, trimmedPathname);
@@ -113,9 +114,10 @@ const grabMatchParams = (rawPathname) => {
 // Or if `match-paths.json` contains `{ "/foo*": "/page1", ...}`, then
 // `/foo?bar=far` => `/page1`
 
+
 exports.grabMatchParams = grabMatchParams;
 
-const findPath = (rawPathname) => {
+const findPath = rawPathname => {
   const trimmedPathname = trimPathname(absolutify(rawPathname));
 
   if (pathCache.has(trimmedPathname)) {
@@ -139,9 +141,10 @@ const findPath = (rawPathname) => {
  * @return {string}
  */
 
+
 exports.findPath = findPath;
 
-const cleanPath = (rawPathname) => {
+const cleanPath = rawPathname => {
   const trimmedPathname = trimPathname(absolutify(rawPathname));
   let foundPath = trimmedPathname;
 

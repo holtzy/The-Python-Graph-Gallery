@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334633000,
-  "key": "c245ec9384d1f2bb3f48a41d74bc562a{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoUABQAPtFao00oJSMiKA1RABoJZScBv9ZshY081L9AAAD+8YDxTWFhhrZGdUCdBke7972ry4ILuCy3x6RZRUy9r72gHtD1fwMNkGC9FTobfqTtMaKFncZ3bEBRAAAA",
-    "width": 20,
-    "height": 20,
-    "aspectRatio": 1,
-    "originalName": "131_Custom_Matplotlib_Scatterplot2.png"
-  }
-}
+{"expireTime":9007200859597087000,"key":"c245ec9384d1f2bb3f48a41d74bc562a{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoUABQAPtFao00oJSMiKA1RABoJZScBv9ZshY081L9AAAD+8YDxTWFhhrZGdUCdBke7972ry4ILuCy3x6RZRUy9r72gHtD1fwMNkGC9FTobfqTtMaKFncZ3bEBRAAAA","width":20,"height":20,"aspectRatio":1,"originalName":"131_Custom_Matplotlib_Scatterplot2.png"}}

@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334634000,
-  "key": "885721c264396ea36fa1130852cd45e8{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUABQAPtFiqk+oJaOiKAgBABoJZwAALnRbJHmBGo3duwAA/vYQi7O0Tcb+7XFqtSy13/SbrT7lAAAA",
-    "width": 20,
-    "height": 20,
-    "aspectRatio": 1,
-    "originalName": "46_add_text_annotation_scatterplot_seaborn1.png"
-  }
-}
+{"expireTime":9007200859597088000,"key":"885721c264396ea36fa1130852cd45e8{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUABQAPtFiqk+oJaOiKAgBABoJZwAALnRbJHmBGo3duwAA/vYQi7O0Tcb+7XFqtSy13/SbrT7lAAAA","width":20,"height":20,"aspectRatio":1,"originalName":"46_add_text_annotation_scatterplot_seaborn1.png"}}

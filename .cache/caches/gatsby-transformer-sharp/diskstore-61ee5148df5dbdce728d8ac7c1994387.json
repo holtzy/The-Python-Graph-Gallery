@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334636000,
-  "key": "f53b10e8926d388f13305f0eb09e61e0{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAACQBQCdASoUABQAPtFgqU+oJSOiKAgBABoJYgCdMoMs/0dI0E8LxrhYCh9RZmQ5SngBp4bAAAD+88llN02lwCRowfUzQBuilqQoEfwvmr/tNrf2GFPJH2uC9bbyvQacs1BafNTHVtx4Vv3Ih4zNG+fcsIgEx544Ah67R0VLL3HDyQQHz6GdjbvxFMGFwiCgmy+7ozsF6pJI4oLp3wu/afq+MFeDzztJXM2FAGn72JKon0r+yhIB/PMKoHHj2eRSa241MxM4a9DzmQqAAAA=",
-    "width": 20,
-    "height": 20,
-    "aspectRatio": 1,
-    "originalName": "Logo_PGG_light.jpg"
-  }
-}
+{"expireTime":9007200859597088000,"key":"f53b10e8926d388f13305f0eb09e61e0{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAACQBQCdASoUABQAPtFgqU+oJSOiKAgBABoJYgCdMoMs/0dI0E8LxrhYCh9RZmQ5SngBp4bAAAD+88llN02lwCRowfUzQBuilqQoEfwvmr/tNrf2GFPJH2uC9bbyvQacs1BafNTHVtx4Vv3Ih4zNG+fcsIgEx544Ah67R0VLL3HDyQQHz6GdjbvxFMGFwiCgmy+7ozsF6pJI4oLp3wu/afq+MFeDzztJXM2FAGn72JKon0r+yhIB/PMKoHHj2eRSa241MxM4a9DzmQqAAAA=","width":20,"height":20,"aspectRatio":1,"originalName":"Logo_PGG_light.jpg"}}

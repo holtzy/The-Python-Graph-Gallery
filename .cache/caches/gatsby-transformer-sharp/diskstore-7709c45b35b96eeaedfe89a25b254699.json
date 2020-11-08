@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334629000,
-  "key": "caa7023701647c5b754783d4cdef1703{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":12}",
-  "val": {
-    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACEklEQVQoz6WSWW/aUBCF+f9PraqkAWOz2YCqtFWapSEBYy6bbSCEAGYxZklUfgJRw8PpzLUTpOahD304utfWzDdn5k6sO3/CUcVDurVE0pogYY5wUrrD51IPH77c4uNXE0kxk1Lrc6hiLu9K1cPxlSvvWsPHUXWKyiBA7H65RdIcwmhMkLWGSFf6yFQHMNo+tJuOVLH7iIK7gt6YIm8HyIkx1J82lHMBreQiQzlK+R61BwL2g184vnSgXDQQP68jQWe6+oCM8JCxRsg1ZzCcFbL0rVy2SE3EfwipBMXzybmfvlswu17oUBVT6SB57VJADWqpI2XYS+Q7G+jtBbTbniz2CnpV/KxGhYfEmEGMNwQMttBoNsXek3R0cmbJpExtLJ3l3Q1y1CoDU+V+5LAWuiRYklo3Wj5SzQBitD4AC+TEcJbQyncSzM4YxmK37IaTlas21Jtu1H6Lis1QpFh+GDH+C5h311I8N3bEwfydppYYFif3PF/+p5OrrJjIcRQkcPEeGLa4ptkFcl7sSm8HKNA4svWJBIZFNlHcUnbD2/EOWJQOCchQrkhtps3Bm3O9NUeK1kM+FMdFsdyJdu1Ej7LmtaE9rPsEeYTuUCI/gr1CqjqSd51h0f83OeuD3LAzZljDFWKj1ZaW2sO3zgKnjo9T1w9Pe3a4/0Ocm29OYU/I4X6/x263w+75+f9EjN8vL/gDIEAWpKKOdEwAAAAASUVORK5CYII=",
-    "width": 20,
-    "height": 12,
-    "aspectRatio": 1.6666666666666667,
-    "originalName": "284_Basemap_Projections2.png"
-  }
-}
+{"expireTime":9007200859597084000,"key":"caa7023701647c5b754783d4cdef1703{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":12}","val":{"src":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACEklEQVQoz6WSWW/aUBCF+f9PraqkAWOz2YCqtFWapSEBYy6bbSCEAGYxZklUfgJRw8PpzLUTpOahD304utfWzDdn5k6sO3/CUcVDurVE0pogYY5wUrrD51IPH77c4uNXE0kxk1Lrc6hiLu9K1cPxlSvvWsPHUXWKyiBA7H65RdIcwmhMkLWGSFf6yFQHMNo+tJuOVLH7iIK7gt6YIm8HyIkx1J82lHMBreQiQzlK+R61BwL2g184vnSgXDQQP68jQWe6+oCM8JCxRsg1ZzCcFbL0rVy2SE3EfwipBMXzybmfvlswu17oUBVT6SB57VJADWqpI2XYS+Q7G+jtBbTbniz2CnpV/KxGhYfEmEGMNwQMttBoNsXek3R0cmbJpExtLJ3l3Q1y1CoDU+V+5LAWuiRYklo3Wj5SzQBitD4AC+TEcJbQyncSzM4YxmK37IaTlas21Jtu1H6Lis1QpFh+GDH+C5h311I8N3bEwfydppYYFif3PF/+p5OrrJjIcRQkcPEeGLa4ptkFcl7sSm8HKNA4svWJBIZFNlHcUnbD2/EOWJQOCchQrkhtps3Bm3O9NUeK1kM+FMdFsdyJdu1Ej7LmtaE9rPsEeYTuUCI/gr1CqjqSd51h0f83OeuD3LAzZljDFWKj1ZaW2sO3zgKnjo9T1w9Pe3a4/0Ocm29OYU/I4X6/x263w+75+f9EjN8vL/gDIEAWpKKOdEwAAAAASUVORK5CYII=","width":20,"height":12,"aspectRatio":1.6666666666666667,"originalName":"284_Basemap_Projections2.png"}}

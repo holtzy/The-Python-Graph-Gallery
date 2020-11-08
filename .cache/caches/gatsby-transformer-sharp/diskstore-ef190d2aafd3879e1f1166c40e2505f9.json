@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334629000,
-  "key": "251a4ae2089ef860405c850868273b8e{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":13}",
-  "val": {
-    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABXklEQVQ4y41Ty26DMBDk/7+k995yqnpqLlVV9VAVQXgFAn5hiNIQkkx3rUSKnCBqabTGLLMzuybAzTqfzw63+zlcc68r8An9hLnl5wZTCeM4YhgGigccDgR6Hj1MKnxkUwiBaCPxs1GwrYExBp21sIS2bV08nU7Tlm978rvbYZXlWOsO76XBZ2XQdx00kXQU7SXOKuSKbK8oCiRJQopaLHOF51DiLVNIhXbE5qLQd3ZHeDweUVUVoihCmqbY9j2EsQibFi+pwWKlEQtL5x16evdoMIFfoa5rhGGILMugtXbYthqvicLTt8TXWsIaDSmlG8ykwuuBUsrZLcvSkfGHjI9CknWBRUTDqg0aKhzH8d1gAl829ybPczdlJuQCHEvqX9porIVyMc4LrOJoXiHfPSbjXrL9pmkceM+Q9I7VsQPOeUjoq9zv9+6uceN9DHQLLE2a+zd7D//z2/l5fvwDUk3ybn0GXz4AAAAASUVORK5CYII=",
-    "width": 20,
-    "height": 13,
-    "aspectRatio": 1.5384615384615385,
-    "originalName": "370_3D_scatterplot.png"
-  }
-}
+{"expireTime":9007200859597084000,"key":"251a4ae2089ef860405c850868273b8e{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"png\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":13}","val":{"src":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABXklEQVQ4y41Ty26DMBDk/7+k995yqnpqLlVV9VAVQXgFAn5hiNIQkkx3rUSKnCBqabTGLLMzuybAzTqfzw63+zlcc68r8An9hLnl5wZTCeM4YhgGigccDgR6Hj1MKnxkUwiBaCPxs1GwrYExBp21sIS2bV08nU7Tlm978rvbYZXlWOsO76XBZ2XQdx00kXQU7SXOKuSKbK8oCiRJQopaLHOF51DiLVNIhXbE5qLQd3ZHeDweUVUVoihCmqbY9j2EsQibFi+pwWKlEQtL5x16evdoMIFfoa5rhGGILMugtXbYthqvicLTt8TXWsIaDSmlG8ykwuuBUsrZLcvSkfGHjI9CknWBRUTDqg0aKhzH8d1gAl829ybPczdlJuQCHEvqX9porIVyMc4LrOJoXiHfPSbjXrL9pmkceM+Q9I7VsQPOeUjoq9zv9+6uceN9DHQLLE2a+zd7D//z2/l5fvwDUk3ybn0GXz4AAAAASUVORK5CYII=","width":20,"height":13,"aspectRatio":1.5384615384615385,"originalName":"370_3D_scatterplot.png"}}

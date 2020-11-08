@@ -23,7 +23,10 @@
         {
           "name": "/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -55,7 +58,10 @@
         {
           "name": "/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -87,7 +93,10 @@
         {
           "name": "/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -119,7 +128,10 @@
         {
           "name": "/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -129,5 +141,8 @@
       }
     }
   },
-  "browserslist": [">0.25%", "not dead"]
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ]
 }

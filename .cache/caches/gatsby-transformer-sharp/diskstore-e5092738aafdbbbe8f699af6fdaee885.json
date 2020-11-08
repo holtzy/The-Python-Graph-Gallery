@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334636000,
-  "key": "04e80d070db8674b1bb743c026e7953b{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRnoBAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSNIAAAABkKJt27JF9/f/uG2ARobslWSV5DR2oNUlc5BYhUcSSZONS3V95b5GP2YJETEBkqpS99Zt5u3+UKGK/qyq6xTAwM2IVEhVTUKO2ThG2JaKqsYhGP9JiuypUCckbAAbB2akEwLmnybxtm2AZFPSBOZ2iJTCidNrsimXeRnwIzDv8//48IT8CGfe7BLtconzQVI5E1jRBRH/y2R+dGiUmPHfjH+wrIrWiQnb2OQfHOnPDQgx2zkFOKxVoUIae8k/Py9JFUmqqGn24Om796/O5tulQgJWUDggggAAABAEAJ0BKhQAFAA+0VqpTaglJCIoCqkAGgljAL84ERwdiNwf0eavZKoAAP7qgeAMomP6ALK5h++8ad6ac1VSdDYIbM2gyPJMkg5wm7L05bs+dpdNixDTiWVN2EBQ1kp2Ey2Bihr+2gM9nThVh2BMqBPUpOfrvXVdjz8v4URXR0HAAAA=",
-    "width": 20,
-    "height": 20,
-    "aspectRatio": 1,
-    "originalName": "ConfidenceSmall.png"
-  }
-}
+{"expireTime":9007200859597089000,"key":"04e80d070db8674b1bb743c026e7953b{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":20}","val":{"src":"data:image/webp;base64,UklGRnoBAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSNIAAAABkKJt27JF9/f/uG2ARobslWSV5DR2oNUlc5BYhUcSSZONS3V95b5GP2YJETEBkqpS99Zt5u3+UKGK/qyq6xTAwM2IVEhVTUKO2ThG2JaKqsYhGP9JiuypUCckbAAbB2akEwLmnybxtm2AZFPSBOZ2iJTCidNrsimXeRnwIzDv8//48IT8CGfe7BLtconzQVI5E1jRBRH/y2R+dGiUmPHfjH+wrIrWiQnb2OQfHOnPDQgx2zkFOKxVoUIae8k/Py9JFUmqqGn24Om796/O5tulQgJWUDggggAAABAEAJ0BKhQAFAA+0VqpTaglJCIoCqkAGgljAL84ERwdiNwf0eavZKoAAP7qgeAMomP6ALK5h++8ad6ac1VSdDYIbM2gyPJMkg5wm7L05bs+dpdNixDTiWVN2EBQ1kp2Ey2Bihr+2gM9nThVh2BMqBPUpOfrvXVdjz8v4URXR0HAAAA=","width":20,"height":20,"aspectRatio":1,"originalName":"ConfidenceSmall.png"}}

@@ -1,11 +1,1 @@
-{
-  "expireTime": 9007200859334636000,
-  "key": "150c181941a48b7cf2c971f52e838e33{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":10}",
-  "val": {
-    "src": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwBACdASoUAAoAPtFUo0uoJKMhsAgBABoJYgCdMoMljEJUpoMWF6tznQAA/t7sWou4w7FRfshzrP/QOtj3HVHqffkBMyQaDnvENOHG9oigeWgc2BMqHanv1epaMAAA",
-    "width": 20,
-    "height": 10,
-    "aspectRatio": 2,
-    "originalName": "292_Chloro_folium.png"
-  }
-}
+{"expireTime":9007200859597089000,"key":"150c181941a48b7cf2c971f52e838e33{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":10}","val":{"src":"data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwBACdASoUAAoAPtFUo0uoJKMhsAgBABoJYgCdMoMljEJUpoMWF6tznQAA/t7sWou4w7FRfshzrP/QOtj3HVHqffkBMyQaDnvENOHG9oigeWgc2BMqHanv1epaMAAA","width":20,"height":10,"aspectRatio":2,"originalName":"292_Chloro_folium.png"}}
