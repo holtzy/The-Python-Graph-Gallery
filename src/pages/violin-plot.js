@@ -15,14 +15,14 @@ import Scrollspy from "react-scrollspy";
 import FunctionExploration from '../components/FunctionExploration'
 
 const chartDescription =
-  "<p>Violinplots allow to visualize the distribution of a numeric variable for one or several groups. It is really close from a boxplot, but allows a deeper understanding of the density. Violins are particularly adapted when the amount of data is huge and showing individual observations gets impossible. Seaborn is particularly adapted to realize them through its violin function. Violinplots are a really convenient way to show the data and would probably deserve more attention compared to boxplot that can sometimes hide features of the data..</p>";
+  "<p>Violinplots allow to visualize the distribution of a numeric variable for one or several groups. It is really close from a boxplot, but allows a deeper understanding of the density. Violins are particularly adapted when the amount of data is huge and showing individual observations gets impossible. Seaborn is particularly adapted to realize them through its violin function. Violinplots are a really convenient way to show the data and would probably deserve more attention compared to boxplots that can sometimes hide features of the data..</p>";
 
 const quickCode = `# library & dataset
 import seaborn as sns
 df = sns.load_dataset('iris')
 
 # plot
-sns.violinplot( x=df["species"], y=df["sepal_length"] )
+sns.violinplot(x=df["species"], y=df["sepal_length"])
 `
 
 export default function ViolinPlot() {
@@ -39,7 +39,7 @@ export default function ViolinPlot() {
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p><code>Seaborn</code> is definitely the best library to quickly build a violin plot. It offers a dedicatde <code>violinplot()</code> function that roughly works as follow:🔥</p>
+            <p><code>Seaborn</code> is definitely the best library to quickly build a violin plot. It offers a dedicated <code>violinplot()</code> function that roughly works as follows:🔥</p>
           </Col>
           <Col md={6}>
             <Link to={"/50-basic-violinplot-and-input-formats"}>
@@ -64,7 +64,7 @@ export default function ViolinPlot() {
         <Row>
           <ChartImageContainer
             imgName="50_Basic_Violin_seaborn1"
-            caption="How to build a very basic violin. Shows example based on several different data input formats."
+            caption="How to build a very basic violin. Shows example based on different input formats."
             linkTo="/50-basic-violinplot-and-input-formats"
           />
           <ChartImageContainer
@@ -79,12 +79,12 @@ export default function ViolinPlot() {
           />
           <ChartImageContainer
             imgName="53_Custom_violinplot_color_Seaborn3"
-            caption="How to mange colors on a python violin plot"
+            caption="How to manage colors on a python violin plot"
             linkTo="/53-control-color-of-seaborn-violinplot"
           />
           <ChartImageContainer
             imgName="55_Specific_order_violinplot_Seaborn2"
-            caption="Control the group order, very useful if you wanna display them by increasing mean"
+            caption="Control the groups order, very useful if you want to display them by increasing mean"
             linkTo="/55-control-order-of-groups-in-violinplot-seaborn"
           />
           <ChartImageContainer
@@ -94,7 +94,7 @@ export default function ViolinPlot() {
           />
           <ChartImageContainer
             imgName="58_Number_of_obs_on_violinplot_seaborn"
-            caption="Show the number of observation per group"
+            caption="Show the number of observations per group"
             linkTo="/58-show-number-of-observation-on-violinplot"
           />
           <ChartImageContainer
