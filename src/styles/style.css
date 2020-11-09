@@ -76,6 +76,11 @@ blockquote p {
     display: inline;
 }
 
+/* To remove, test for table of content */
+.is-current{
+    color: red !important;
+    background-color: red;
+}
 
 a {
     color: var(--python-gallery) !important;

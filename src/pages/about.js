@@ -1,14 +1,17 @@
-import React from "react"
-import { Helmet } from "react-helmet"
-import { Link } from "gatsby"
-
+import React from "react";
+import { Helmet } from "react-helmet";
+import { Link } from "gatsby";
 
 export default function About() {
   return (
     <>
       <Helmet title="About the Python graph gallery">
         <title>the python graph gallery</title>
-        <link href="/logo/D3_single_small.png" rel="shortcut icon" type="image/x-icon" />
+        <link
+          href="/logo/D3_single_small.png"
+          rel="shortcut icon"
+          type="image/x-icon"
+        />
       </Helmet>
       <header></header>
       <main>
@@ -18,5 +21,5 @@ export default function About() {
         </div>
       </main>
     </>
-  )
+  );
 }

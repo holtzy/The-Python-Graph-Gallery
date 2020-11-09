@@ -1,11 +1,11 @@
-import * as opentracing from '../index';
+import {SpanContext} from '../span_context';
 import MockSpan from './mock_span';
 
 /**
  * OpenTracing Context implementation designed for use in
  * unit tests.
  */
-export class MockContext extends opentracing.SpanContext {
+export class MockContext extends SpanContext {
 
     //------------------------------------------------------------------------//
     // MockContext-specific

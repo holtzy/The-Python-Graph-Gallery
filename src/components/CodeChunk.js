@@ -1,27 +1,23 @@
-import React from "react"
-import Prism from "prismjs";
-import "prismjs/themes/prism-tomorrow.css";
+import React from "react";
+import Prism from "../prism/prism";
+import "../prism/prism.css";
 
-export default function CodeChunk({ children, setInput }) {
+export default function CodeChunk({ children }) {
+  React.useEffect(() => {
+    console.log("hhhhhh")
+    Prism.highlightAll();
+  }, []);
 
-    React.useEffect(() => {
-        Prism.highlightAll();
-    }, []);
-
-    return (
-        <div onChange={() => console.log("iii")} >
-            <pre>
-                <code
-                    style={{ outline: "0px solid transparent" }}
-                    contentEditable="false"
-                    className={`language-js`}
-                    onInput={function (e) {
-                        setInput(e.currentTarget.innerText);
-                    }}
-                >
-                    {children}
-                </code>
-            </pre>
-        </div>
-    )
+  return (
+    <div>
+      <pre>
+        <code
+          style={{ outline: "0px solid transparent" }}
+          className={`language-javascript`}
+        >
+          {children}
+        </code>
+      </pre>
+    </div>
+  );
 }

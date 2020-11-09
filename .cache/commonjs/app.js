@@ -44,7 +44,7 @@ window.___loader = _loader.publicLoader; // Let the site/plugins run code very e
   fetch(`/___services`).then(res => res.json()).then(services => {
     if (services.developstatusserver) {
       let isRestarting = false;
-      const parentSocket = (0, _socket.default)(`http://${window.location.hostname}:${services.developstatusserver.port}`);
+      const parentSocket = (0, _socket.default)(`${window.location.protocol}//${window.location.hostname}:${services.developstatusserver.port}`);
       parentSocket.on(`structured-log`, msg => {
         if (!isRestarting && msg.type === `LOG_ACTION` && msg.action.type === `DEVELOP` && msg.action.payload === `RESTART_REQUIRED` && window.confirm(`The develop process needs to be restarted for the changes to ${msg.action.dirtyFile} to be applied.\nDo you want to restart the develop process now?`)) {
           isRestarting = true;

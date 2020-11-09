@@ -28,14 +28,12 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
 };
 
 exports.onCreateNode = ({ node, actions }) => {
-  const { createNodeField } = actions
+  const { createNodeField } = actions;
   if (node.internal.type === "JupyterNotebook") {
     createNodeField({
       name: "slug",
       node,
       value: node.json.metadata.slug,
-    })
+    });
   }
-}
-
-
+};

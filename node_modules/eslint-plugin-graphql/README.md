@@ -56,28 +56,21 @@ There's an example on how to use a `.graphqlconfig` file further down.
 
 ### Identity template literal tag
 
-This plugin relies on GraphQL queries being prefixed with a special tag. In Relay and Apollo, this is always done, but other clients often take query strings without a tag. In this case, you can define an identity tag that doesn't do anything except for tell the linter this is a GraphQL query:
+This plugin relies on GraphQL queries being prefixed with a special tag. In Relay and Apollo this is done often, but some other clients take query strings without a tag. In this case, [`fake-tag`](https://npm.im/fake-tag) can be used to define an identity tag that doesn't do anything except for tell the linter this is a GraphQL query:
 
 ```js
-global.gql = (literals, ...substitutions) => {
-    let result = "";
+import gql from "fake-tag";
 
-    // run the loop only for the substitution count
-    for (let i = 0; i < substitutions.length; i++) {
-        result += literals[i];
-        result += substitutions[i];
+const QUERY_VIEWER_NAME = gql`
+  query ViewerName {
+    viewer {
+      name
     }
-
-    // add the last literal
-    result += literals[literals.length - 1];
-
-    return result;
-}
+  }
+`;
 ```
 
-Code snippet taken from:  <https://leanpub.com/understandinges6/read#leanpub-auto-multiline-strings>
-
-Note: The linter rule could be extended to identify calls to various specific APIs to eliminate the need for a template literal tag, but this might just make the implementation a lot more complex for little benefit.
+Fake tags won’t be necessary [once `/* GraphQL */` comment tags are supported](https://github.com/apollographql/eslint-plugin-graphql/issues/224).
 
 ### GraphQL literal files
 
