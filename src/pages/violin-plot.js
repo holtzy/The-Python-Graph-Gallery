@@ -52,7 +52,7 @@ export default function ViolinPlot() {
         <br />
 
 
-        <h2 id="Seaborn"><Seaborn />Violin charts with <code>Searborn</code></h2>
+        <h2 id="Seaborn"><Seaborn />Violin charts with <code>Seaborn</code></h2>
         <p>
           <code>Seaborn</code> is a python library allowing to make better
           charts easily. It is well adapted to build density charts thanks to

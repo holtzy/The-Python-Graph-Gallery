@@ -35,7 +35,7 @@ export default function FunctionExploration({ functionName }) {
             <h2>&#128270; <code>{functionName}</code> function parameters<a style={{ marginLeft: "15px", fontSize: "14px" }} href={functionInfo.docUrl}>&rarr; see full doc</a></h2>
             <ButtonGroup toggle>{allButtons}</ButtonGroup>
             <div>
-                <code>boolean</code>
+                <code>string</code>
                 <span>&rarr; {selectedParameterInfo.description}</span>
             </div>
             <div style={{ paddingLeft: "6px", fontSize: "14px" }}><Link to="">check a chart using it</Link></div>
