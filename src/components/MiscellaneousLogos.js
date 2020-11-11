@@ -4,12 +4,12 @@ import MatplotlibImg from "../img/MatplotlibSmall.png"
 
 export function Matplotlib() {
     return (
-        <img src={MatplotlibImg} />
+        <img src={MatplotlibImg} alt="Matplotlib logo" style={{ marginRight: "8px" }} />
     )
 }
 
 export function Seaborn() {
     return (
-        <img src={SeabornImg} />
+        <img src={SeabornImg} alt="Seaborn logo" style={{ marginRight: "8px" }} />
     )
 }

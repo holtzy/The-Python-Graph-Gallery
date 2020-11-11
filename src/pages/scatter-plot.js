@@ -128,7 +128,7 @@ export default function ViolinPlot() {
 
 
       <Container>
-        <h2 id="Seaborn">Other charts involving scatterplots and <code>Seaborn</code></h2>
+        <h2 id="Seaborn">&#128161; Other charts involving scatterplots and <code>Seaborn</code></h2>
         <p>If you are interested in scatterplots, some other chart could be useful to you.</p>
         <p>A scatterplot with <Link to="/82-marginal-plot-with-seaborn">marginal distribution</Link> allows to check the distribution of both the <code>x</code> and <code>y</code> variables. A <Link to="/111-custom-correlogram">correlogram</Link> allows to check the relationship between each pair of numeric variables in a dataset.</p>
         <Row>
@@ -151,6 +151,48 @@ export default function ViolinPlot() {
           <FunctionExploration functionName={"violin"} />
         </Container>
       </div>
+
+
+      <Container>
+        <h2 id="Matplotlib"><Matplotlib />Scatterplots with <code>Matplotlib</code></h2>
+        <p>
+          <code>Matplotlib</code> is another great alternative to build scatterplots with python. As often, it takes a bit more lines of code to get a decent chart, but allows more customization.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="130_Basic_Matplotlib_Scatterplot"
+            caption="Most basic scatterplot with Matplotlib"
+            linkTo="/130-basic-matplotlib-scatterplot"
+          />
+          <ChartImageContainer
+            imgName="131_Custom_Matplotlib_Scatterplot5"
+            caption="Customize marker features: size, color, stroke, type and more"
+            linkTo="/131-custom-a-matplotlib-scatterplot"
+          />
+          <ChartImageContainer
+            imgName="193_annotate6"
+            caption="Display a math equation on your matplotlib chart"
+            linkTo="/193-annotate-matplotlib-chart"
+          />
+          <ChartImageContainer
+            imgName="193_annotate5"
+            caption="Matplotlib: add horizontal and vertical ablines"
+            linkTo="/193-annotate-matplotlib-chart"
+          />
+          <ChartImageContainer
+            imgName="193_annotate2"
+            caption="Highlight a specific area of the chart with Matplotlib"
+            linkTo="/193-annotate-matplotlib-chart"
+          />
+          <ChartImageContainer
+            imgName="193_annotate1"
+            caption="Add an annotation to highlight a specific marker"
+            linkTo="/193-annotate-matplotlib-chart"
+          />
+
+        </Row>
+      </Container>
+
 
       <div className="greySection" id="related">
         <Container>
