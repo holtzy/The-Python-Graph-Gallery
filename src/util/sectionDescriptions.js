@@ -322,7 +322,7 @@ export const chartTypesInfo = [
   {
     id: "animation",
     family: "general",
-    logo: "anim150",
+    logo: "Interactive150",
     dataToVizURL: "",
     pythonURL: "https://python-graph-gallery.com/animation/",
     label: "Interactivity",

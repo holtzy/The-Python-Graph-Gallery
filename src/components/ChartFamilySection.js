@@ -17,13 +17,13 @@ const TITLES = {
   general: "General Knowledge",
 };
 
-export default function ChartFamilySection({ chartFamily, hasGreyBackground }) {
+export default function ChartFamilySection({ chartFamily }) {
   const allLogos = chartTypesInfo
     .filter((chart) => chart.family === chartFamily)
-    .map((chart) => {
+    .map((chart, id) => {
       const link = fullUrlToInternalLink(chart.pythonURL);
       return (
-        <Col xs={4} md={2}>
+        <Col key={id} xs={4} md={2}>
           <SectionLogoWithOverlay
             link={link}
             chartType={chart.logo}

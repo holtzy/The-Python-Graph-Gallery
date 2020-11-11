@@ -5,7 +5,7 @@ import SocialMediaButtons from "./SocialMediaButtons";
 export default function Footer() {
   return (
     <div className="footer">
-      <div className="copyright">Copyright © the d3 graph gallery 2018</div>
+      <div className="copyright">Copyright © the Python Graph Gallery 2018</div>
       <SocialMediaButtons />
       <div className="policy">
         <a className="policyItem" href="https://www.windguru.cz">
