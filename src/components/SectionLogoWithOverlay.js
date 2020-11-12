@@ -4,18 +4,14 @@ import React from "react";
 import SectionLogo from "./SectionLogo";
 import { chartTypesInfo } from "../util/sectionDescriptions";
 
-
 const generalList = chartTypesInfo
   .filter(info => info.family === "general")
   .map(info => info.logo)
-console.log(generalList)
 
 export default function SectionLogoWithOverlay({ chartType, caption, link }) {
 
   // If the logo is in the "general" family, do not display an overlay.
-  console.log("chartType", chartType)
   const isGeneralFamily = generalList.includes(chartType)
-  console.log("isGeneralFamily", isGeneralFamily)
 
   return (
     <>
