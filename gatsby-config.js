@@ -6,8 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: "The D3 Graph Gallery",
-    description: "A gallery of charts made with d3",
+    title: "The Python Graph Gallery",
+    description: "A gallery of charts made with Python",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
