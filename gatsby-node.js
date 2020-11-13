@@ -1,5 +1,7 @@
 const path = require(`path`);
 
+// This allows to render iframe
+// see https://github.com/gatsbyjs/gatsby/issues/17761
 const express = require('express')
 exports.onCreateDevServer = ({ app }) => {
   app.use(express.static('public'))
@@ -42,25 +44,3 @@ exports.onCreateNode = ({ node, actions }) => {
     });
   }
 };
-
-exports.onCreateWebpackConfig = ({
-  actions,
-}) => {
-  actions.setWebpackConfig({
-    module: {
-      rules: [
-        {
-          test: /\.md$/,
-          loaders: ['html-loader'],
-        },
-        {
-          test: /\.html$/,
-          loader: 'html-loader',
-          options: {
-            minimize: false,
-          },
-        },
-      ],
-    },
-  })
-}
