@@ -38,7 +38,7 @@ export default function FunctionExploration({ functionName }) {
                 <code>string</code>
                 <span>&rarr; {selectedParameterInfo.description}</span>
             </div>
-            <div style={{ paddingLeft: "6px", fontSize: "14px" }}><Link to="">check a chart using it</Link></div>
+            <div style={{ paddingLeft: "6px", fontSize: "14px" }}><Link to={selectedParameterInfo.relatedChart}>check a chart using it</Link></div>
             <br />
             <br />
         </>

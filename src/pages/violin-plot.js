@@ -56,10 +56,10 @@ export default function ViolinPlot() {
         <p>
           <code>Seaborn</code> is a python library allowing to make better
           charts easily. It is well adapted to build density charts thanks to
-          its <code>kdeplot</code> function. The following charts will guide you
+          its <code>violin</code> function. The following charts will guide you
           through its usage, going from a very{" "}
-          <Link to="">basic density plot</Link> to something much more{" "}
-          <Link to="">customized</Link>.
+          <Link to="/50-basic-violinplot-and-input-formats">basic violin plot</Link> to something much more{" "}
+          <Link to="/52-custom-seaborn-violinplot">customized</Link>.
         </p>
         <Row>
           <ChartImageContainer
