@@ -1,5 +1,10 @@
 const path = require(`path`);
 
+const express = require('express')
+exports.onCreateDevServer = ({ app }) => {
+  app.use(express.static('public'))
+}
+
 exports.createPages = async ({ graphql, actions: { createPage } }) => {
   const blogPostTemplate = path.resolve(`src/templates/basic.js`);
   const results = await graphql(

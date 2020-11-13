@@ -12,7 +12,7 @@ import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
 import FunctionExploration from '../components/FunctionExploration'
-import chart from '../interactiveCharts/test.html'
+import chart from '../interactiveCharts/plotly_ridgeline_fig.html'
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/caveat/ridgeline.html'>ridgeline</a> summarizes the distribution of a numeric variable for several groups. Each group is represented as a density chart, each density chart overlapping each other to use space more efficiently.</p>";
@@ -38,6 +38,9 @@ export default function RidgelinePlot() {
         <h2 id="Quick">Interactive ridgeline chart with <code>plotly</code></h2>
         <p>Plotly is a python library that makes the link with Javascript to build interactive charts that you can display in a browser.</p>
         <p>The following example is a ridgeline chart made with this library</p>
+        <div className="mx-auto">
+          <iframe src="/interactiveCharts/ridgeline-graph-plotly.html" title="ridgeline chart with plotly" style={{ border: "none", width: '800px', height: '500px' }}></iframe>
+        </div>
         <Link to="/ridgeline-graph-plotly">
           <Button size="sm">
             See code
@@ -45,10 +48,7 @@ export default function RidgelinePlot() {
         </Link>
       </Container>
 
-      <p>HEllllllo</p>
-      <div
-        dangerouslySetInnerHTML={{ __html: chart }}
-      />
+
 
       <div className="greySection" id="related">
         <Container>
