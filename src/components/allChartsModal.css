@@ -4,7 +4,7 @@
 }
 
 .allFamiliesModal {
-    background-color: black;
-    width: 90%;
+    background-color: black !important;
+    width: 100%;
 }
 
