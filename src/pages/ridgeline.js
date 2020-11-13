@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Seaborn } from "../components/MiscellaneousLogos"
+import { Animation, Seaborn } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
@@ -35,7 +35,7 @@ export default function RidgelinePlot() {
       />
       <Container>
 
-        <h2 id="Quick">Interactive ridgeline chart with <code>plotly</code></h2>
+        <h2 id="Quick"><Animation />Interactive ridgeline chart with <code>plotly</code></h2>
         <p>Plotly is a python library that makes the link with Javascript to build interactive charts that you can display in a browser.</p>
         <p>The following example is a ridgeline chart made with this library</p>
         <div className="mx-auto">
