@@ -40,8 +40,8 @@ export default function TopNavbar() {
 
             </NavDropdown>
 
-            <Nav.Link href="#link">All</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+            <Nav.Link href="/all-charts">All</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="#home">
               <svg
                 width="15"

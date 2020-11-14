@@ -5,6 +5,7 @@ exports.components = {
   "component---cache-dev-404-page-js": () => import("./../../dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-about-js": () => import("./../../../src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
+  "component---src-pages-all-charts-js": () => import("./../../../src/pages/all-charts.js" /* webpackChunkName: "component---src-pages-all-charts-js" */),
   "component---src-pages-boxplot-js": () => import("./../../../src/pages/boxplot.js" /* webpackChunkName: "component---src-pages-boxplot-js" */),
   "component---src-pages-density-plot-js": () => import("./../../../src/pages/density-plot.js" /* webpackChunkName: "component---src-pages-density-plot-js" */),
   "component---src-pages-histogram-js": () => import("./../../../src/pages/histogram.js" /* webpackChunkName: "component---src-pages-histogram-js" */),
