@@ -1,26 +1,31 @@
 import "./allChartsModal.css";
 import React from "react";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Row from "react-bootstrap/Row";
 
 import { Link } from "gatsby";
 import Modal from "react-bootstrap/Modal";
-import ModalDialog from "react-bootstrap/ModalDialog";
 import { chartTypesInfo } from "../util/sectionDescriptions";
 import SectionLogo from "./SectionLogo";
 import { fullUrlToInternalLink } from "../util/utils";
 
 export default function AllChartsModal({ show, handleClose }) {
+
+  const [name, setName] = React.useState('')
+
   const logoList = chartTypesInfo.map((chart, i) => {
     return (
-      <Col id={i} xs={1} md={1}>
+      <div
+        key={i}
+        className="menuModalLogo"
+        onMouseEnter={() => setName(chart.label)}
+        onMouseLeave={() => setName('')}
+      >
         <Link to={fullUrlToInternalLink(chart.pythonURL)}>
           <SectionLogo chartType={chart.logo} />
         </Link>
-      </Col>
+      </div>
     );
   });
+
 
   return (
     <Modal
@@ -29,15 +34,15 @@ export default function AllChartsModal({ show, handleClose }) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
       size="lg"
-      className="allFamiliesModal"
+      className="menuModal"
     >
-      <Button className="closeModalButton" onClick={handleClose}>
-        X
-      </Button>
-      <Modal.Body >
-
-        <Row>{logoList}</Row>
-      </Modal.Body>
+      <p className="menuModalCloseModalButton" onClick={handleClose}>
+        &#10005;
+      </p>
+      <div className="menuModalAllLogoContainer">
+        {logoList}
+      </div>
+      <p className="menuModalCharName">{name}</p>
     </Modal>
   );
 }
