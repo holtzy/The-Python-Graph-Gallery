@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import Contact from "../components/Contact";
 
 const siteDescription =
-  "<p>Welcome to the D3.js graph gallery: a collection of simple charts made with d3.js. D3.js is a JavaScript library for manipulating documents based on data.This gallery displays hundreds of chart, always providing reproducible & editable source code.If you're new to javascript and web development, this <a href='#'>online course</a> is probably the place to start &#128540;</p>";
+  "<p>Welcome to the Python Graph Gallery, a collection of hundreds of charts made with <code>Python</code>. Charts are organized in about 40 sections and always come with their associated reproducible code. They are mostly made with <code>Matplotlib</code> and <code>Seaborn</code> but other library like <code>Plotly</code> are sometimes used.</p>";
 
 export default function Home(props) {
   return (

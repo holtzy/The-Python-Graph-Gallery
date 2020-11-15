@@ -37,7 +37,7 @@ export default function DensityPlot() {
       />
       <Container>
 
-        <Scrollspy onUpdate={(e) => console.log("yoooo", e)} offset={50} items={['Quick', 'Seaborn', 'Matplotlib', 'Related']} currentClassName="is-current">
+        <Scrollspy onUpdate={undefined} offset={50} items={['Quick', 'Seaborn', 'Matplotlib', 'Related']} currentClassName="is-current">
           <li><a href="#Quick">Quick</a></li>
           <li><a href="#Seaborn">Seaborn</a></li>
           <li><a href="#Matplotlib">Matplotlib</a></li>

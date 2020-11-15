@@ -12,19 +12,36 @@
     justify-content:flex-end !important;
 }
 
+/* link to homepage on the topleft */
 .navbar-brand {
     color: var(--python-gallery) !important;
     font-size: 15px !important;
 }
 
+/* Main link in the navbar */
 .nav-link {
     text-transform: uppercase!important;
     color: black !important;
     font-family: 'Montserrat' !important;
     font-size: 13px !important;
 }
-
 .nav-link:hover {
     color: var(--python-gallery) !important;
     border-bottom: solid var(--python-gallery);
+}
+
+.dropdown-item {
+    font-size: 13px;
+    padding-left: 28px !important;
+    color: darkgrey !important;
+}
+.menuItemMain {
+    font-size: 15px;
+    color: black !important;
+    padding-left: 15px !important;
+    margin-right: 80px !important;
+    margin-bottom: 0px !important;
+}
+.menuItemLogo {
+    padding-left: 10px;
 }

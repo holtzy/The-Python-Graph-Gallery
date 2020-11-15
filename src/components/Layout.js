@@ -10,11 +10,6 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 // Layout component: add header + footer to content
 export default function Layout({ children, title }) {
-
-  React.useEffect(() => {
-    console.log("hello", children)
-  }, [])
-
   return (
     <>
       <Helmet>

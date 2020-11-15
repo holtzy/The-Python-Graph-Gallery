@@ -320,12 +320,20 @@ export const chartTypesInfo = [
     label: "Colors",
   },
   {
+    id: "interactivity",
+    family: "general",
+    logo: "Interactive150",
+    dataToVizURL: "",
+    pythonURL: "https://python-graph-gallery.com/interactivity/",
+    label: "Interactivity",
+  },
+  {
     id: "animation",
     family: "general",
     logo: "anim150",
     dataToVizURL: "",
     pythonURL: "https://python-graph-gallery.com/animation/",
-    label: "Interactivity",
+    label: "Animation",
   },
   {
     id: "cheatSheets",

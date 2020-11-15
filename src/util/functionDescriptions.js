@@ -16,8 +16,9 @@ export const functionDescriptions = {
         parameters: [
             { name: "width", description: 'color under the curve', type: 'boolean', relatedChart: '70_deffffed' },
             { name: "bw", description: 'controls something else', type: 'boolean', relatedChart: '70_deffffed' },
-            { name: "color", description: 'what what whaaat', type: 'boolean', relatedChart: '70_deffffed' }
+            { name: "color", description: 'what what whaaat the fuuuck', type: 'boolean', relatedChart: '70_deffffed' }
         ]
     }
 }
+
 

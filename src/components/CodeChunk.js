@@ -4,7 +4,6 @@ import "../prism/prism.css";
 
 export default function CodeChunk({ children }) {
   React.useEffect(() => {
-    console.log("hhhhhh")
     Prism.highlightAll();
   }, []);
 

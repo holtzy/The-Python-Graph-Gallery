@@ -1,25 +1,32 @@
 import React from "react";
-import { Helmet } from "react-helmet";
-import { Link } from "gatsby";
+import TitleAndDescription from "../components/TitleAndDescription";
+import Layout from "../components/Layout";
+import Container from "react-bootstrap/Container";
+import Contact from "../components/Contact";
+
+const chartDescription =
+  "<p>How and why this website has been created</p>";
+
 
 export default function About() {
+
   return (
-    <>
-      <Helmet title="About the Python graph gallery">
-        <title>the python graph gallery</title>
-        <link
-          href="/logo/D3_single_small.png"
-          rel="shortcut icon"
-          type="image/x-icon"
-        />
-      </Helmet>
-      <header></header>
-      <main>
-        <div className="container">
-          <div>Here is the about page!</div>
-          <Link to="/index">Go back home</Link>
-        </div>
-      </main>
-    </>
+    <Layout title="About">
+
+      <TitleAndDescription
+        title="About"
+        description={chartDescription}
+      />
+
+      <Container>
+        <h2 id="Quick">&#9201; Acknowlegment</h2>
+        <p>Some explanation</p>
+      </Container>
+
+      <Container>
+        <Contact />
+      </Container>
+
+    </Layout >
   );
 }

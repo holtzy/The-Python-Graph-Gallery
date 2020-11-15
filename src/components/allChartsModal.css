@@ -1,10 +1,39 @@
-.closeModalButton {
-    border-color: transparent;
-    color: pink;
+.menuModalCloseModalButton {
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: -40px;
+    right: -40px;
 }
 
-.allFamiliesModal {
+.menuModal {
+    background-color: black !important;
+    width: 100%;
+}
+
+.menuModalLogo {
+    width: 75px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menuModalAllLogoContainer {
+    background-color: black !important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menuModalCharName {
+    color: white;
+    font-size: 16px;
+    height: 30px;
     background-color: black;
-    width: 90%;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
 }
-

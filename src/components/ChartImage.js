@@ -4,9 +4,17 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
+const allGifs = ["animated_chart", "animated_gapminder.gif", "animated_volcano.gif"]
+
 // This component displays a logo representing a chart type of the gallery. Example: bar chart
 // Logo has a different size depending on the window size.
 export default function ChartImage({ imgName, caption }) {
+
+  if (allGifs.includes(imgName)) {
+    return (
+      <p>TODO</p>)
+  }
+
   const data = useStaticQuery(graphql`
     query MyQuery {
       allFile(filter: { relativeDirectory: { eq: "graph" } }) {

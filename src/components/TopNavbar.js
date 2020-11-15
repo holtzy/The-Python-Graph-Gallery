@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import AllChartsModal from "./AllChartsModal";
+import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
 
 export default function TopNavbar() {
   const [show, setShow] = React.useState(false);
@@ -19,19 +20,28 @@ export default function TopNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
+
             <Nav.Link onClick={handleShow}>Chart types</Nav.Link>
+
             <NavDropdown title="Quick" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Matplotlib</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Seaborn</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Pandas</NavDropdown.Item>
+
+              <NavDropdown.Item className="menuItemMain" href="#action/3.1">Matplotlib<span className="menuItemLogo"><Matplotlib /></span></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Axis</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Title</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Customization</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Annotation</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+
+              <NavDropdown.Item className="menuItemMain" href="#action/3.1">Seaborn<span className="menuItemLogo"><Seaborn /></span></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Axis</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Title</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Customization</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Annotation</NavDropdown.Item>
+
             </NavDropdown>
-            <Nav.Link href="#link">All</Nav.Link>
-            <Nav.Link href="#link">Quick</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+
+            <Nav.Link href="/all-charts">All</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="#home">
               <svg
                 width="15"
