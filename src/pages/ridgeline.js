@@ -3,16 +3,10 @@ import TitleAndDescription from "../components/TitleAndDescription";
 import Layout from "../components/Layout";
 import Container from "react-bootstrap/Container";
 import Contact from "../components/Contact";
-import Row from "react-bootstrap/Row";
-import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
 import { Animation, Seaborn } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk"
-import ChartImage from "../components/ChartImage";
-import FunctionExploration from '../components/FunctionExploration'
-import chart from '../interactiveCharts/plotly_ridgeline_fig.html'
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/caveat/ridgeline.html'>ridgeline</a> summarizes the distribution of a numeric variable for several groups. Each group is represented as a density chart, each density chart overlapping each other to use space more efficiently.</p>";
