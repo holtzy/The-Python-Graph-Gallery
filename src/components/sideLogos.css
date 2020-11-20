@@ -1,0 +1,40 @@
+.sideLogosContainer{
+    color: red;
+    position: fixed;
+    top: 3%;
+    height: 94%;
+    margin-left: 5px;
+    overflow: scroll;
+}
+
+@media only screen and (max-width: 1026px) {
+    .sideLogosContainer {
+        display: none;
+    }
+}
+
+.sideLogosLabelContainer{
+    display: flex;
+    align-items: flex-end;
+}
+
+.sideLogosImage {
+    width: 20px;
+    padding: 1px;
+}
+
+.sideLogosImage:hover {
+    width: 50px;
+}
+
+.sideLogosLabel {
+    display: none;
+    font-size: 10px;
+    color: grey;
+    padding-left: 5px;
+}
+
+.sideLogosImage:hover + .sideLogosLabel{
+    display: block;
+}
+

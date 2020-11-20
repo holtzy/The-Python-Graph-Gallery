@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 
 import Footer from "./Footer.js";
 import TopNavbar from "./TopNavbar.js";
+import SideLogos from "./SideLogos.js"
 
 // Import Styles = bootstrap + custom
 import "../styles/style.css";
@@ -30,6 +31,8 @@ export default function Layout({ children, title }) {
       </header>
 
       <main>{children}</main>
+
+      <SideLogos />
 
       <Footer />
     </>
