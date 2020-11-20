@@ -41,6 +41,11 @@ export default function TopNavbar() {
             </NavDropdown>
 
             <Nav.Link href="/all-charts">All</Nav.Link>
+            <NavDropdown title="Related" id="basic-nav-dropdown">
+              <NavDropdown.Item className="menuItemMain" href="https://www.r-graph-gallery.com">R Graph Gallery</NavDropdown.Item>
+              <NavDropdown.Item className="menuItemMain" href="https://www.python-graph-gallery.com">Python Graph Gallery</NavDropdown.Item>
+              <NavDropdown.Item className="menuItemMain" href="https://www.data-to-viz.com">Data To Viz</NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="#home">
               <svg

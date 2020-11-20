@@ -28,6 +28,7 @@
 .nav-link:hover {
     color: var(--python-gallery) !important;
     border-bottom: solid var(--python-gallery);
+    border-width: 1px;
 }
 
 .dropdown-item {
