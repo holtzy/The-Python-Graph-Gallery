@@ -7,13 +7,10 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
+import { Seaborn } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
-import Scrollspy from "react-scrollspy";
-import FunctionExploration from '../components/FunctionExploration'
-import Parralax from "../components/Parralax";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/heatmap.html'>heatmap</a> is a graphical representation of data where each value of a matrix is represented as a color. This page explains how to build a heatmap with <code>Python</code>, with an emphasis on the <code>Seaborn</code> library.</p>";
@@ -34,7 +31,7 @@ export default function Heatmap() {
 
   return (
 
-    <Layout title="Boxplot">
+    <Layout title="Heatmap">
       <TitleAndDescription
         title="Heatmap"
         description={chartDescription}
@@ -49,7 +46,7 @@ export default function Heatmap() {
           <Col md={6}>
             <Link to={"/90-heatmaps-with-various-input-format"}>
               <ChartImage imgName="90_Input_format_for_heatmap1"
-                caption="Basic boxplot with Python and Seaborn from various data input formats." />
+                caption="Basic heatmap with Python and Seaborn from various data input formats." />
             </Link>
           </Col>
         </Row>
@@ -153,7 +150,7 @@ export default function Heatmap() {
 
       <div className="greySection" id="related">
         <Container>
-          <ChartFamilySection chartFamily="distribution" />
+          <ChartFamilySection chartFamily="correlation" />
         </Container>
       </div>
       <Container>
