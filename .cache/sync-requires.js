@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-all-charts-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/all-charts.js"))),
   "component---src-pages-boxplot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/boxplot.js"))),
   "component---src-pages-bubble-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/bubble-plot.js"))),
+  "component---src-pages-connected-scatter-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/connected-scatter-plot.js"))),
   "component---src-pages-correlogram-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/correlogram.js"))),
   "component---src-pages-density-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/density-plot.js"))),
   "component---src-pages-heatmap-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/heatmap.js"))),
