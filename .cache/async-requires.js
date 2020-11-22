@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-about-js": () => import("./../../../src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-all-charts-js": () => import("./../../../src/pages/all-charts.js" /* webpackChunkName: "component---src-pages-all-charts-js" */),
   "component---src-pages-boxplot-js": () => import("./../../../src/pages/boxplot.js" /* webpackChunkName: "component---src-pages-boxplot-js" */),
+  "component---src-pages-bubble-plot-js": () => import("./../../../src/pages/bubble-plot.js" /* webpackChunkName: "component---src-pages-bubble-plot-js" */),
   "component---src-pages-correlogram-js": () => import("./../../../src/pages/correlogram.js" /* webpackChunkName: "component---src-pages-correlogram-js" */),
   "component---src-pages-density-plot-js": () => import("./../../../src/pages/density-plot.js" /* webpackChunkName: "component---src-pages-density-plot-js" */),
   "component---src-pages-heatmap-js": () => import("./../../../src/pages/heatmap.js" /* webpackChunkName: "component---src-pages-heatmap-js" */),
