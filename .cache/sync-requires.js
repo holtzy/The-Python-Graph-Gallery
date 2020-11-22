@@ -6,6 +6,7 @@ const preferDefault = m => (m && m.default) || m
 
 exports.components = {
   "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/.cache/dev-404-page.js"))),
+  "component---src-pages-2-d-density-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/2d-density-plot.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/404.js"))),
   "component---src-pages-about-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/about.js"))),
   "component---src-pages-all-charts-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/all-charts.js"))),

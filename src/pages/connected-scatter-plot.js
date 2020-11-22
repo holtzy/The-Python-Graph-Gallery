@@ -115,7 +115,7 @@ export default function Heatmap() {
         <br />
         <p>Cheatsheet: line customization with <code>Matplotlib</code> and the <code>linestyle</code> parameter.</p>
         <div style={{ maxWidth: '350px' }}>
-          <Link to={"/121-line-chart-customization.ipynb"}>
+          <Link to={"/121-line-chart-customization"}>
             <ChartImage imgName={"121_Custom_line_plot4"} caption={'Cheat sheet: line customization with matplotlib'} />
           </Link>
         </div>
