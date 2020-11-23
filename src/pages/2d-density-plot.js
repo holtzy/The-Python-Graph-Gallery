@@ -46,7 +46,7 @@ export default function Heatmap() {
           <a href='https://www.data-to-viz.com/graph/density2d.html'>
             <Button size="sm">More viz explanation</Button>
           </a>
-          <Link to='86-avoid-overlapping-in-scatterplot-with-2d-density.ipynb'>
+          <Link to='86-avoid-overlapping-in-scatterplot-with-2d-density'>
             <Button size="sm">Show me the code</Button>
           </Link>
         </Container>
@@ -77,40 +77,96 @@ export default function Heatmap() {
         </Row>
       </Container>
 
-
       <Container>
-        <h2 id="Matplotlib"><Matplotlib />Connected scatterplot with <code>Matplotlib</code></h2>
+        <h2 id="Seaborn"><Seaborn />2D histogram with <code>Seaborn</code></h2>
         <p>
-          As for <Link to='scattter-plot'>scatterplots</Link>, <code>Matplotlib</code> will help us build a bubble plot thanks to
-          the the <code>plt.scatter()</code> function. This function provides a <code>s</code> parameter allowing
-          to pass a third variable that will be mapped to the markers size.
+          Build a 2d histogram thanks to the <code>hist2d()</code> function of the <code>Seaborn</code> library. Do not
+          forget to play with the <code>bins</code> argument to find the value representing the best your data.
         </p>
         <Row>
           <ChartImageContainer
-            imgName="106_seaborn_style_on_plt1"
-            caption="Basic connected scatterplot with Python and Matplotlib"
-            linkTo="/106-seaborn-style-on-matplotlib-plot"
+            imgName="83_2D_Histogram_matplotlib_3"
+            caption="Basic 2D histogram with seaborn"
+            linkTo="/83-basic-2d-histograms-with-matplotlib"
           />
           <ChartImageContainer
-            imgName="194_matplotlib_subplot6"
-            caption="Connected scatterplot on a split window"
-            linkTo="/194-split-the-graphic-window-with-subplot"
+            imgName="83_2D_Histogram_matplotlib_5"
+            caption="Control the color in the 2d histogram."
+            linkTo="/83-basic-2d-histograms-with-matplotlib"
           />
           <ChartImageContainer
-            imgName="122_Multiple_line_plot"
-            caption="How to customize line and markers with Matplotlib"
-            linkTo="/122-multiple-lines-chart"
+            imgName="83_2D_Histogram_matplotlib_6"
+            caption="Black and white, color scale legend."
+            linkTo="/83-basic-2d-histograms-with-matplotlib"
           />
         </Row>
-        <br />
-        <p>Cheatsheet: line customization with <code>Matplotlib</code> and the <code>linestyle</code> parameter.</p>
-        <div style={{ maxWidth: '350px' }}>
-          <Link to={"/121-line-chart-customization.ipynb"}>
-            <ChartImage imgName={"121_Custom_line_plot4"} caption={'Cheat sheet: line customization with matplotlib'} />
-          </Link>
-        </div>
       </Container>
 
+      <Container>
+        <h2 id="Hexbin"><Matplotlib />Hexbin chart with <code>Matplotlib</code></h2>
+        <p>
+          Split the graph area in hexagones and you get a hexbin density chart. This time, it is <code>matplotlib</code> that gets you covered thanks to its <code>hexbin()</code> function.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="84_hexbin_matplotlib_1"
+            caption="Basic contourplot with seaborn."
+            linkTo="/83-basic-2d-histograms-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="84_hexbin_matplotlib_3"
+            caption="Basic contourplot with seaborn."
+            linkTo="/83-basic-2d-histograms-with-matplotlib"
+          />
+        </Row>
+      </Container>
+
+      <Container>
+        <h2 id="Density"><Matplotlib />2d density chart with <code>Matplotlib</code></h2>
+        <p>
+          2D densities are computed thanks to the <code>gaussian_kde()</code> function and plotted thanks with the <code>pcolormesh()</code> function of <code>matplotlib()</code>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="85_2D_density_plot_matplotlib_1"
+            caption="Basic 2d density chart."
+            linkTo="/85-density-plot-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="85_2D_density_plot_matplotlib_2"
+            caption="How to customize the 2d density chart."
+            linkTo="/85-density-plot-with-matplotlib"
+          />
+        </Row>
+      </Container>
+
+
+
+      <Container>
+        <h2 id="Density"><Matplotlib />2d density and marginal plots</h2>
+        <p>
+          2D densities often combined with marginal distributions. It helps to highlight the distribution
+          of both variables individually. It is pretty straightforward to add thanks to the <code>jointplot()</code> function
+          of the <code>Seaborn</code> library.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="82_seaborn_jointplot2"
+            caption="Marginal distribution and hexbin."
+            linkTo="/82-marginal-plot-with-seaborn"
+          />
+          <ChartImageContainer
+            imgName="82_seaborn_jointplot3"
+            caption="Marginal distribution and contour."
+            linkTo="/82-marginal-plot-with-seaborn"
+          />
+          <ChartImageContainer
+            imgName="82_seaborn_jointplot5"
+            caption="General customization."
+            linkTo="/82-marginal-plot-with-seaborn"
+          />
+        </Row>
+      </Container>
 
 
       <div className="greySection" id="related">

@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-about-js": () => import("./../../../src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-all-charts-js": () => import("./../../../src/pages/all-charts.js" /* webpackChunkName: "component---src-pages-all-charts-js" */),
+  "component---src-pages-barplot-js": () => import("./../../../src/pages/barplot.js" /* webpackChunkName: "component---src-pages-barplot-js" */),
   "component---src-pages-boxplot-js": () => import("./../../../src/pages/boxplot.js" /* webpackChunkName: "component---src-pages-boxplot-js" */),
   "component---src-pages-bubble-plot-js": () => import("./../../../src/pages/bubble-plot.js" /* webpackChunkName: "component---src-pages-bubble-plot-js" */),
   "component---src-pages-connected-scatter-plot-js": () => import("./../../../src/pages/connected-scatter-plot.js" /* webpackChunkName: "component---src-pages-connected-scatter-plot-js" */),
