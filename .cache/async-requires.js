@@ -16,6 +16,7 @@ exports.components = {
   "component---src-pages-heatmap-js": () => import("./../../../src/pages/heatmap.js" /* webpackChunkName: "component---src-pages-heatmap-js" */),
   "component---src-pages-histogram-js": () => import("./../../../src/pages/histogram.js" /* webpackChunkName: "component---src-pages-histogram-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
+  "component---src-pages-radar-chart-js": () => import("./../../../src/pages/radar-chart.js" /* webpackChunkName: "component---src-pages-radar-chart-js" */),
   "component---src-pages-ridgeline-js": () => import("./../../../src/pages/ridgeline.js" /* webpackChunkName: "component---src-pages-ridgeline-js" */),
   "component---src-pages-scatter-plot-js": () => import("./../../../src/pages/scatter-plot.js" /* webpackChunkName: "component---src-pages-scatter-plot-js" */),
   "component---src-pages-violin-plot-js": () => import("./../../../src/pages/violin-plot.js" /* webpackChunkName: "component---src-pages-violin-plot-js" */),
