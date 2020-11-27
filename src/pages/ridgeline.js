@@ -27,8 +27,8 @@ export default function RidgelinePlot() {
         title="Ridgeline chart"
         description={chartDescription}
       />
-      <Container>
 
+      <Container>
         <h2 id="Quick"><Animation />Interactive ridgeline chart with <code>plotly</code></h2>
         <p>Plotly is a python library that makes the link with Javascript to build interactive charts that you can display in a browser.</p>
         <p>The following example is a ridgeline chart made with this library</p>
@@ -41,8 +41,6 @@ export default function RidgelinePlot() {
           </Button>
         </Link>
       </Container>
-
-
 
       <div className="greySection" id="related">
         <Container>
