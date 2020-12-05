@@ -8,7 +8,7 @@ import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
 import { Seaborn, Matplotlib } from "../components/MiscellaneousLogos"
-import { Button, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
 

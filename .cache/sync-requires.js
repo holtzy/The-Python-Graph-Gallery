@@ -19,6 +19,7 @@ exports.components = {
   "component---src-pages-heatmap-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/heatmap.js"))),
   "component---src-pages-histogram-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/histogram.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/index.js"))),
+  "component---src-pages-lollipop-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/lollipop-plot.js"))),
   "component---src-pages-parallel-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/parallel-plot.js"))),
   "component---src-pages-radar-chart-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/radar-chart.js"))),
   "component---src-pages-ridgeline-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/ridgeline.js"))),
