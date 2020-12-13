@@ -14,6 +14,7 @@ exports.components = {
   "component---src-pages-connected-scatter-plot-js": () => import("./../../../src/pages/connected-scatter-plot.js" /* webpackChunkName: "component---src-pages-connected-scatter-plot-js" */),
   "component---src-pages-correlogram-js": () => import("./../../../src/pages/correlogram.js" /* webpackChunkName: "component---src-pages-correlogram-js" */),
   "component---src-pages-density-plot-js": () => import("./../../../src/pages/density-plot.js" /* webpackChunkName: "component---src-pages-density-plot-js" */),
+  "component---src-pages-donut-plot-js": () => import("./../../../src/pages/donut-plot.js" /* webpackChunkName: "component---src-pages-donut-plot-js" */),
   "component---src-pages-heatmap-js": () => import("./../../../src/pages/heatmap.js" /* webpackChunkName: "component---src-pages-heatmap-js" */),
   "component---src-pages-histogram-js": () => import("./../../../src/pages/histogram.js" /* webpackChunkName: "component---src-pages-histogram-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),

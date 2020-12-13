@@ -152,14 +152,6 @@ export const chartTypesInfo = [
     label: "Venn Diagram",
   },
   {
-    id: "stackedBar",
-    family: "partOfAWhole",
-    logo: "Stacked150",
-    dataToVizURL: "",
-    pythonURL: "https://python-graph-gallery.com/stacked-barplot/",
-    label: "Stacked & Grouped",
-  },
-  {
     id: "donut",
     family: "partOfAWhole",
     logo: "Doughnut150",
