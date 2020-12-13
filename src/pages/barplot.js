@@ -153,6 +153,38 @@ export default function Heatmap() {
       </Container>
 
 
+
+
+      <Container>
+        <h2 id="Matplotlib"><Matplotlib />Stacked and Grouped barplot with <code>Matplotlib</code></h2>
+        <p>
+          <u>Stacked</u> and <u>Grouped</u> barplots are a variation of the more simple barplot. They display
+          the value of a numeric variable for each group and subgroups of a dataset. Subgroups
+          can be stacked (stacked barplot) or set one beside the other (grouped barplot).
+        </p>
+        <p>The three examples below are in-depth tutorial explaining how to build them with Python.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="12_stacked_barplot"
+            caption="How to build a stacked barplot with Python."
+            linkTo="/11-grouped-barplot"
+          />
+          <ChartImageContainer
+            imgName="12_grouped_barplot"
+            caption="How to build a grouped barplot with Python."
+            linkTo="/12-stacked-barplot-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="12_stacked_barplot"
+            caption="How to build a percent stacked barplot with Python.."
+            linkTo="/13-percent-stacked-barplot"
+          />
+        </Row>
+      </Container>
+
+
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="ranking" />
