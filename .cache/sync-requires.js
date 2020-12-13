@@ -23,6 +23,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/index.js"))),
   "component---src-pages-lollipop-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/lollipop-plot.js"))),
   "component---src-pages-parallel-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/parallel-plot.js"))),
+  "component---src-pages-pie-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/pie-plot.js"))),
   "component---src-pages-radar-chart-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/radar-chart.js"))),
   "component---src-pages-ridgeline-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/ridgeline.js"))),
   "component---src-pages-scatter-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/scatter-plot.js"))),

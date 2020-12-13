@@ -20,6 +20,7 @@ exports.components = {
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-lollipop-plot-js": () => import("./../../../src/pages/lollipop-plot.js" /* webpackChunkName: "component---src-pages-lollipop-plot-js" */),
   "component---src-pages-parallel-plot-js": () => import("./../../../src/pages/parallel-plot.js" /* webpackChunkName: "component---src-pages-parallel-plot-js" */),
+  "component---src-pages-pie-plot-js": () => import("./../../../src/pages/pie-plot.js" /* webpackChunkName: "component---src-pages-pie-plot-js" */),
   "component---src-pages-radar-chart-js": () => import("./../../../src/pages/radar-chart.js" /* webpackChunkName: "component---src-pages-radar-chart-js" */),
   "component---src-pages-ridgeline-js": () => import("./../../../src/pages/ridgeline.js" /* webpackChunkName: "component---src-pages-ridgeline-js" */),
   "component---src-pages-scatter-plot-js": () => import("./../../../src/pages/scatter-plot.js" /* webpackChunkName: "component---src-pages-scatter-plot-js" */),
