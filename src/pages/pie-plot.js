@@ -63,52 +63,48 @@ export default function Donut() {
 
       <div className="greySection">
         <Container>
-          <h2 id="Warning">&#9888;&#65039; Mind the donut!</h2>
-          <p>As his friend the <Link to='pie-plot'>Pie chart</Link>, the Donut chart is often criticized. Humans
-          are pretty bad at reading angles, making it hard to rank the groups accurately. Most
-          of the time, it is better to display the
+          <h2 id="Warning">&#9888;&#65039; Mind the pie chart</h2>
+          <p>Pie chart is probably the most criticized chart type. Humans
+          are pretty bad at reading angles, making it hard to rank the groups
+          accurately. Most of the time, it is better to display the
             information as a <Link to='/barplot'>barchart</Link>, a <Link to='/treemap'>treemap</Link> or a <Link to='/lollipop-plot'>lollipop</Link> plot.</p>
           <p>Have a look to the 3 pie charts below, can you spot the pattern hidden in it?</p>
           <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-            <Link to='/173-elaborated-venn-diagram'>
-              <ChartImage imgName={'pieChartIssue'} caption={'The matplotlib-venn library allows a high level of customization. Here is an example taking advantage of it'} />
-            </Link>
+            <a href="https://www.data-to-viz.com/caveat/pie.html">
+              <ChartImage imgName={'pieChartIssue'} caption={"Can you spot the pattern hidden behind those 3 pie charts? Click to see the same info visualized as barplots: much more insightful isn't it?"} />
+            </a>
           </div>
           <a href='https://www.data-to-viz.com/caveat/pie.html'>
             <Button size="sm">See it as a barplot</Button>
           </a>
+          <p>Last but not least, please avoid the <code>explode</code> and <code>shadow</code> options of the pie() function, they
+            are killing all the most basic dataviz principles.
+          </p>
         </Container>
       </div>
 
 
       <Container>
-        <h2 id="Matplotlib"><Matplotlib />Donut plot with <code>Matplotlib</code></h2>
+        <h2 id="Matplotlib"><Matplotlib />Pie chart with <code>Matplotlib</code></h2>
         <p>
-          The example above is a good start but you probably need to go further. The blog posts linked below
-          explain common tasks like <Link to='/161-custom-matplotlib-donut-plot'>adding and
-          customizing labels</Link>, change section colors, add <Link to='/161-custom-matplotlib-donut-plot'>padding</Link> between each
-          and more.
+          The examples below should guide you through the <code>pie()</code> function
+          usage. It starts basics and then show how to add labels, customize colors and more.
         </p>
         <Row>
           <ChartImageContainer
-            imgName="161_custom_donut_plot5"
+            imgName="pie-plot-matplotlib-basic-add-labels"
             caption="Add and customize the labels"
-            linkTo="/161-custom-matplotlib-donut-plot"
+            linkTo="/pie-plot-matplotlib-basic"
           />
           <ChartImageContainer
-            imgName="161_custom_donut_plot3"
-            caption="Customize the donut section colors"
-            linkTo="/161-custom-matplotlib-donut-plot"
+            imgName="pie-plot-matplotlib-basic-add-padding"
+            caption="Customize the pie section colors"
+            linkTo="/pie-plot-matplotlib-basic"
           />
           <ChartImageContainer
-            imgName="161_custom_donut_plot6"
-            caption="Add blank space between each donut section."
-            linkTo="/161-custom-matplotlib-donut-plot"
-          />
-          <ChartImageContainer
-            imgName="162_Background_color_donut"
-            caption="How to make the rectangle colors relative to their values."
-            linkTo="/162-change-background-of-donut-plot"
+            imgName="pie-plot-matplotlib-basic-colors"
+            caption="Add blank space between each pie section."
+            linkTo="/pie-plot-matplotlib-basic"
           />
         </Row>
       </Container>
