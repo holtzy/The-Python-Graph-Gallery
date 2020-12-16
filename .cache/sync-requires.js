@@ -16,6 +16,7 @@ exports.components = {
   "component---src-pages-circular-barplot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/circular-barplot.js"))),
   "component---src-pages-connected-scatter-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/connected-scatter-plot.js"))),
   "component---src-pages-correlogram-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/correlogram.js"))),
+  "component---src-pages-dendrogram-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/dendrogram.js"))),
   "component---src-pages-density-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/density-plot.js"))),
   "component---src-pages-donut-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/donut-plot.js"))),
   "component---src-pages-heatmap-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/heatmap.js"))),
