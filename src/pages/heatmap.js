@@ -138,14 +138,38 @@ export default function Heatmap() {
         explain how the clusterization has been performed. Last but not least, it can be useful
         to compare the grouping we got with an expected structure, shown as an additional color.
         </p>
-        <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+        <Link to="/dendrogram">
+          <Button size="sm">Related: dendrogram section</Button>
+        </Link>
+        <Link to="/405-dendrogram-with-heatmap-and-coloured-leaves">
+          <Button size="sm">Code and explanation</Button>
+        </Link>
+        <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
           <Link to='/405-dendrogram-with-heatmap-and-coloured-leaves'>
             <ChartImage imgName={'405_Dendro_and_heatmap_and_rowcolor'} caption={'A seaborn heatmap with clusterization and dendrogram applied'} />
           </Link>
         </div>
-        <Link to="/405-dendrogram-with-heatmap-and-coloured-leaves">
-          <Button size="sm">Code and explanation</Button>
-        </Link>
+        <Row>
+          <ChartImageContainer
+            imgName="404_Dendro_and_heatmap3"
+            caption="Most basic heatmap with dendrogram with seaborn"
+            linkTo="/404-dendrogram-with-heat-map"
+          />
+          <ChartImageContainer
+            imgName="404_Dendro_and_heatmap9"
+            caption="Change color palette"
+            linkTo="/404-dendrogram-with-heat-map"
+          />
+          <ChartImageContainer
+            imgName="404_Dendro_and_heatmap11"
+            caption="Learn how to normalize data in the heatmap, avoiding that kind of result"
+            linkTo="/404-dendrogram-with-heat-map"
+          />
+        </Row>
+
+
+
+
       </Container>
 
       <div className="greySection" id="related">
