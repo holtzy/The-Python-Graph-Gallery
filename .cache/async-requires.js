@@ -19,6 +19,7 @@ exports.components = {
   "component---src-pages-heatmap-js": () => import("./../../../src/pages/heatmap.js" /* webpackChunkName: "component---src-pages-heatmap-js" */),
   "component---src-pages-histogram-js": () => import("./../../../src/pages/histogram.js" /* webpackChunkName: "component---src-pages-histogram-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
+  "component---src-pages-line-chart-js": () => import("./../../../src/pages/line-chart.js" /* webpackChunkName: "component---src-pages-line-chart-js" */),
   "component---src-pages-lollipop-plot-js": () => import("./../../../src/pages/lollipop-plot.js" /* webpackChunkName: "component---src-pages-lollipop-plot-js" */),
   "component---src-pages-parallel-plot-js": () => import("./../../../src/pages/parallel-plot.js" /* webpackChunkName: "component---src-pages-parallel-plot-js" */),
   "component---src-pages-pie-plot-js": () => import("./../../../src/pages/pie-plot.js" /* webpackChunkName: "component---src-pages-pie-plot-js" */),
