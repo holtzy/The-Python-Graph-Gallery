@@ -1,17 +1,18 @@
 .navbar {
+    justify-content: space-between !important;
+    align-items: center !important;
     background-color: white !important;
 }
 
-@media (min-width: 992px){
-    .navbar-expand-lg {
-        justify-content: space-between;
-    }
+#basic-navbar-nav {
+    flex-grow: inherit !important;
 }
 
 /* link to homepage on the topleft */
 .navbar-brand {
     color: var(--python-gallery) !important;
     font-size: 15px !important;
+    margin-bottom: 8px;
 }
 
 /* Main link in the navbar */
@@ -20,6 +21,9 @@
     color: black !important;
     font-family: 'Montserrat' !important;
     font-size: 13px !important;
+    border-width: 1px !important;
+    border-bottom: solid;
+    border-color: transparent;
 }
 .nav-link:hover {
     color: var(--python-gallery) !important;
