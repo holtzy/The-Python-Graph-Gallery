@@ -14,11 +14,11 @@
 }
 
 .policy {
-    text-align: center;
+    text-align: left;
     width: 33%
 }
 .copyright {
-    text-align: center;
+    text-align: right;
     width: 33%
 }
 
