@@ -7,17 +7,9 @@ export default function Footer() {
     <div className="footer">
       <div className="copyright">Copyright © the Python Graph Gallery 2018</div>
       <SocialMediaButtons />
-      <div className="policy">
-        <a className="policyItem" href="https://www.windguru.cz">
-          Pricacy policy
-        </a>
-        <a className="policyItem" href="https://www.windguru.cz">
-          Term policy
-        </a>
-        <a className="policyItem" href="https://www.windguru.cz">
-          Term of use
-        </a>
-      </div>
+      <a className="policy" href="https://www.windguru.cz">
+        Pricacy policy
+      </a>
     </div>
   );
 }
