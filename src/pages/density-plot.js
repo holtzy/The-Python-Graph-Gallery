@@ -11,9 +11,8 @@ import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
 import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
-import Scrollspy from "react-scrollspy";
-import TableOfContent from "../components/TableOfContent";
 import FunctionExploration from '../components/FunctionExploration'
+import TableOfContent from '../components/TableOfContent'
 
 const chartDescription =
   "<p>Density plots allow to visualize the distribution of a numeric variable for one or several groups. They are very well adapted for large dataset, as stated in data-to-viz.com. Note that 2 approaches exist to build them in python: the first one consists in computing a kernel density estimate, the second one in building a high resolution histogram.</p>";
@@ -37,17 +36,18 @@ export default function DensityPlot() {
       />
       <Container>
 
-        <Scrollspy onUpdate={undefined} offset={50} items={['Quick', 'Seaborn', 'Matplotlib', 'Related']} currentClassName="is-current">
+        <TableOfContent />
+        {/* <Scrollspy onUpdate={undefined} offset={50} items={['Quick', 'Seaborn', 'Matplotlib', 'Related']} currentClassName="is-current">
           <li><a href="#Quick">Quick</a></li>
           <li><a href="#Seaborn">Seaborn</a></li>
           <li><a href="#Matplotlib">Matplotlib</a></li>
           <li><a href="#Related">Related</a></li>
-        </Scrollspy>
+        </Scrollspy> */}
 
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p>If you're in a rush, the most straightforward way to build a density chart is to use <code>Seaborn</code> and its <code>kdeplot()</code> function. You just need to provide it with a numeric variable from your dataset. 🔥</p>
+            <p>If you are in a rush, the most straightforward way to build a density chart is to use <code>Seaborn</code> and its <code>kdeplot()</code> function. You just need to provide it with a numeric variable from your dataset. 🔥</p>
           </Col>
           <Col md={6}>
             <Link to={"/70-basic-density-plot-with-seaborn"}>
@@ -142,6 +142,7 @@ export default function DensityPlot() {
           <ChartFamilySection chartFamily="distribution" />
         </Container>
       </div>
+
       <Container>
         <Contact />
       </Container>

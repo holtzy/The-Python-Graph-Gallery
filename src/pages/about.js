@@ -19,8 +19,12 @@ export default function About() {
       />
 
       <Container>
-        <h2 id="Quick">&#9201; Acknowlegment</h2>
-        <p>Some explanation</p>
+        <h1 id="section 1">&#9201; Acknowlegment</h1>
+        <h1 id="section 2">&#9201; Acknowlegment</h1>
+        <h1 id="section 3">&#9201; Acknowlegment</h1>
+        <h1 id="section 4">&#9201; Acknowlegment</h1>
+        <h1 id="section 4">&#9201; Acknowlegment</h1>
+        <p>Some explanation here comming next</p>
       </Container>
 
       <Container>

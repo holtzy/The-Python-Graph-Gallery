@@ -1,7 +1,10 @@
-.tableOfContent {
+.table-of-content {
+    background-color: lightblue;
     position: fixed;
-    top: 200px;
-    right: 20px;;
-    width: 300px;
-    border: 3px solid #73AD21;
+    right: 1em;
+    top: 1em;
+}
+
+.active-toc-item {
+    color: red;
 }
