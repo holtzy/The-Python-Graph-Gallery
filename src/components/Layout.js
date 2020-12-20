@@ -1,16 +1,16 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-
 import Footer from "./Footer.js";
 import TopNavbar from "./TopNavbar.js";
 import SideLogos from "./SideLogos.js"
+import TableOfContent from '../components/TableOfContent'
 
 // Import Styles = bootstrap + custom
 import "../styles/style.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 // Layout component: add header + footer to content
-export default function Layout({ children, title }) {
+export default function Layout({ children, title, isTocEnabled }) {
   return (
     <>
       <Helmet>
@@ -35,6 +35,8 @@ export default function Layout({ children, title }) {
       <SideLogos />
 
       <Footer />
+
+      { isTocEnabled && <TableOfContent />}
     </>
   );
 }

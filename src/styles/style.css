@@ -40,15 +40,11 @@ p {
 
 /* ---------- Section ----------------- */
 .lightSection {
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding-top: 2px;
     padding-bottom: 10px;
 }
 
 .greySection {
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-color: var(--light-grey);
     padding-top: 2px;
     padding-bottom: 10px;

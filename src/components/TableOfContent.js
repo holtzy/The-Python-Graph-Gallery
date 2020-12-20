@@ -24,10 +24,11 @@ export default function TableOfContent() {
 
   // Read heading titles, depths and nodes from the DOM.
   useEffect(() => {
-    const selector = ["main h1", "main h2"]
+    const selector = ["main h2", "main h3"]
     const nodes = Array.from(document.querySelectorAll(selector))
+    console.log("nodes", nodes)
     const titles = nodes.map(node => ({
-      title: node.innerText,
+      title: node.id,
       depth: Number(node.nodeName[1])
     }))
     // Compute the minimum heading depth. Will be subtracted from each heading's
@@ -59,7 +60,7 @@ export default function TableOfContent() {
         <p
           key={title}
           depth={depth - headings.minDepth}
-          className={active === index ? "active-toc-item" : undefined}
+          className={active === index ? "toc-item active-toc-item" : "toc-item"}
           onClick={event => {
             event.preventDefault()
             headings.nodes[index].scrollIntoView({

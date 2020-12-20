@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import TitleAndDescription from "../components/TitleAndDescription";
 import ChartFamilySection from "../components/ChartFamilySection";
 import Contact from "../components/Contact";
+import Spacing from "../components/Spacing";
 
 export default function Template({ data }) {
   const {
@@ -16,26 +17,38 @@ export default function Template({ data }) {
     chartType,
   } = data.jupyterNotebook.metadata;
   return (
-    <Layout title={title}>
+    <Layout title={title} isTocEnabled>
+
       <TitleAndDescription
         title={title}
         description={description}
         chartType={chartType}
       />
+
+      {/* Blog content */}
       <Container>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: data.jupyterNotebook.html }}
         />
       </Container>
+
+      <Spacing />
+
       <div className="greySection">
         <Container>
           <ChartFamilySection chartFamily={family} hasGreyBackground />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
+
+      <Spacing />
+
     </Layout>
   );
 }

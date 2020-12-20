@@ -1,10 +1,30 @@
 .table-of-content {
-    background-color: lightblue;
     position: fixed;
-    right: 1em;
-    top: 1em;
+    right: 20px;
+    top: 40%;
+    width: 13%;
+    overflow: hidden;
 }
 
+@media (max-width: 1400px){
+    .table-of-content {
+        display: none;
+    }
+}
+
+.toc-item {
+    border-width: 1px;
+    border-left: solid;
+    border-left-color: transparent;
+    padding-left: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: lightgray;
+    font-weight: 100;
+}
 .active-toc-item {
-    color: red;
+    border-left-color: var(--python-gallery);
+    color: black;
 }

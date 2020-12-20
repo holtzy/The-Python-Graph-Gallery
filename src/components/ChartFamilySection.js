@@ -35,7 +35,7 @@ export default function ChartFamilySection({ chartFamily }) {
 
   return (
     <div>
-      <h2 className={"sectionTitle " + chartFamily}>{TITLES?.[chartFamily]}</h2>
+      <h2 id="Related charts" className={"sectionTitle " + chartFamily}>{TITLES?.[chartFamily]}</h2>
       <Row>{allLogos}</Row>
     </div>
   );
