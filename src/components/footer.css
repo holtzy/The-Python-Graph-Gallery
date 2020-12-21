@@ -13,7 +13,20 @@
     font-family: 'Montserrat', Helvetica, Arial, sans-serif !important;
 }
 
-.footer .policyItem {
-    margin-right: 4px;
-    margin-left: 4px;
+.policy {
+    text-align: left;
+    width: 33%
+}
+.copyright {
+    text-align: right;
+    width: 33%
+}
+
+@media (max-width: 650px){
+    .policy {
+        display: none
+    }
+    .copyright {
+        display: none
+    }
 }

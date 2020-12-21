@@ -40,20 +40,15 @@ p {
 
 /* ---------- Section ----------------- */
 .lightSection {
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding-top: 2px;
     padding-bottom: 10px;
 }
 
 .greySection {
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-color: var(--light-grey);
     padding-top: 2px;
     padding-bottom: 10px;
 }
-
 
 code {
     background-color: var(--light-grey) !important;
@@ -61,9 +56,12 @@ code {
     border-radius: 4px,
 }
 
-.container {
-    padding-left: 150px  !important;
-    padding-right: 150px  !important;
+/* Reduce the content width on big screen. I like it when it looks a bit more like newspaper */
+@media (min-width: 992px){
+    .container {
+        padding-left: 150px  !important;
+        padding-right: 150px  !important;
+    }
 }
 
 blockquote {

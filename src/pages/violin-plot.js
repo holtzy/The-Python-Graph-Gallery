@@ -7,11 +7,10 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
+import { Seaborn } from "../components/MiscellaneousLogos"
 import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
-import Scrollspy from "react-scrollspy";
 import FunctionExploration from '../components/FunctionExploration'
 
 const chartDescription =
@@ -29,14 +28,14 @@ export default function ViolinPlot() {
 
   return (
 
-    <Layout title="Violin plot">
+    <Layout title="Violin plot" isTocEnabled>
       <TitleAndDescription
         title="Violin plot"
         description={chartDescription}
       />
       <Container>
 
-        <h2 id="Quick">&#9201; Quick start</h2>
+        <h2 id="Quick start">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
             <p><code>Seaborn</code> is definitely the best library to quickly build a violin plot. It offers a dedicated <code>violinplot()</code> function that roughly works as follows:🔥</p>
