@@ -10,6 +10,7 @@ exports.components = {
   "component---src-pages-404-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/404.js"))),
   "component---src-pages-about-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/about.js"))),
   "component---src-pages-all-charts-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/all-charts.js"))),
+  "component---src-pages-area-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/area-plot.js"))),
   "component---src-pages-barplot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/barplot.js"))),
   "component---src-pages-boxplot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/boxplot.js"))),
   "component---src-pages-bubble-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/bubble-plot.js"))),
