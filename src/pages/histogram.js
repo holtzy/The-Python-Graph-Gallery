@@ -12,6 +12,7 @@ import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
 import FunctionExploration from '../components/FunctionExploration'
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>Histograms allow to visualize the distribution of a numeric variable for one or several groups. The values are split in bins, each bin is represented as a bar.</p>";
@@ -28,13 +29,14 @@ export default function ViolinPlot() {
 
   return (
 
-    <Layout title="Histogram">
+    <Layout title="Histogram" isTocEnabled>
+
       <TitleAndDescription
         title="Histogram"
         description={chartDescription}
       />
-      <Container>
 
+      <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
@@ -48,9 +50,11 @@ export default function ViolinPlot() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <br />
+      </Container>
 
+      <Spacing />
 
+      <Container>
         <h2 id="Seaborn"><Seaborn />Histogram charts with <code>Seaborn</code></h2>
         <p>
           <code>Seaborn</code> is a python library allowing to make better
@@ -119,21 +123,29 @@ export default function ViolinPlot() {
         </Row>
       </Container>
 
+      <Spacing />
+
       <div className="greySection">
         <Container>
           <FunctionExploration functionName={"violin"} />
         </Container>
       </div>
 
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="distribution" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

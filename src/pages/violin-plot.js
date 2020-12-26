@@ -12,6 +12,7 @@ import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
 import FunctionExploration from '../components/FunctionExploration'
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>Violinplots allow to visualize the distribution of a numeric variable for one or several groups. It is really close from a boxplot, but allows a deeper understanding of the density. Violins are particularly adapted when the amount of data is huge and showing individual observations gets impossible. Seaborn is particularly adapted to realize them through its violin function. Violinplots are a really convenient way to show the data and would probably deserve more attention compared to boxplots that can sometimes hide features of the data..</p>";
@@ -29,12 +30,13 @@ export default function ViolinPlot() {
   return (
 
     <Layout title="Violin plot" isTocEnabled>
+
       <TitleAndDescription
         title="Violin plot"
         description={chartDescription}
       />
-      <Container>
 
+      <Container>
         <h2 id="Quick start">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
@@ -48,9 +50,11 @@ export default function ViolinPlot() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <br />
+      </Container>
 
+      <Spacing />
 
+      <Container>
         <h2 id="Seaborn"><Seaborn />Violin charts with <code>Seaborn</code></h2>
         <p>
           <code>Seaborn</code> is a python library allowing to make better
@@ -104,21 +108,29 @@ export default function ViolinPlot() {
         </Row>
       </Container>
 
+      <Spacing />
+
       <div className="greySection">
         <Container>
           <FunctionExploration functionName={"violin"} />
         </Container>
       </div>
 
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="distribution" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );
