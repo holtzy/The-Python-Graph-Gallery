@@ -11,6 +11,7 @@ import { Seaborn } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/heatmap.html'>heatmap</a> is a graphical representation of data where each value of a matrix is represented as a color. This page explains how to build a heatmap with <code>Python</code>, with an emphasis on the <code>Seaborn</code> library.</p>";
@@ -31,7 +32,8 @@ export default function Heatmap() {
 
   return (
 
-    <Layout title="Heatmap">
+    <Layout title="Heatmap" isTocEnabled>
+
       <TitleAndDescription
         title="Heatmap"
         description={chartDescription}
@@ -54,6 +56,7 @@ export default function Heatmap() {
         <br />
       </Container>
 
+      <Spacing />
 
       <Container>
         <h2 id="Seaborn"><Seaborn />Heatmap with <code>Seaborn</code></h2>
@@ -98,6 +101,7 @@ export default function Heatmap() {
         </Row>
       </Container>
 
+      <Spacing />
 
       <div className="greySection">
         <Container>
@@ -128,9 +132,10 @@ export default function Heatmap() {
         </Container>
       </div>
 
+      <Spacing />
 
       <Container>
-        <h2 id="Seaborn">&#10052; Python, Heatmap and Clustering</h2>
+        <h2 id="Clustering">&#10052; Python, Heatmap and Clustering</h2>
         <p>It is very common to apply some <code>clustering</code> techniques on a heatmap. The idea is
         to group items that have the same kind of pattern for their numeric variables. &#128161;
         </p>
@@ -166,21 +171,23 @@ export default function Heatmap() {
             linkTo="/404-dendrogram-with-heat-map"
           />
         </Row>
-
-
-
-
       </Container>
+
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="correlation" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

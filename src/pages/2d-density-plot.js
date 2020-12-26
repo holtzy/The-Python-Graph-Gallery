@@ -8,19 +8,19 @@ import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
 import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
-import { Button, Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk"
+import { Button } from "react-bootstrap";
 import ChartImage from "../components/ChartImage";
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>This section explains how to build a <a href='https://www.data-to-viz.com/graph/density2d.html'>2d density chart</a> or a <a href='https://www.data-to-viz.com/graph/density2d.html'>2d histogram</a> with python. Those chart types allow to visualize the combined distribution of two quantitative variables. They can be build with <code>Matplotlib</code> or <code>Seaborn</code>.</p>";
-
 
 export default function Heatmap() {
 
   return (
 
-    <Layout title="Connected Scatterplot">
+    <Layout title="Connected Scatterplot" isTocEnabled>
+
       <TitleAndDescription
         title="2D Density Chart"
         description={chartDescription}
@@ -52,9 +52,10 @@ export default function Heatmap() {
         </Container>
       </div>
 
+      <Spacing />
 
       <Container>
-        <h2 id="Seaborn"><Seaborn />Contour plot with <code>Seaborn</code></h2>
+        <h2 id="Contour"><Seaborn />Contour plot with <code>Seaborn</code></h2>
         <p>
           The contour plot can be easily built thanks to the <code>kdeplot()</code> function of the Seaborn library.
         </p>
@@ -77,8 +78,10 @@ export default function Heatmap() {
         </Row>
       </Container>
 
+      <Spacing />
+
       <Container>
-        <h2 id="Seaborn"><Seaborn />2D histogram with <code>Seaborn</code></h2>
+        <h2 id="2d histogram"><Seaborn />2D histogram with <code>Seaborn</code></h2>
         <p>
           Build a 2d histogram thanks to the <code>hist2d()</code> function of the <code>Seaborn</code> library. Do not
           forget to play with the <code>bins</code> argument to find the value representing the best your data.
@@ -102,6 +105,8 @@ export default function Heatmap() {
         </Row>
       </Container>
 
+      <Spacing />
+
       <Container>
         <h2 id="Hexbin"><Matplotlib />Hexbin chart with <code>Matplotlib</code></h2>
         <p>
@@ -121,8 +126,10 @@ export default function Heatmap() {
         </Row>
       </Container>
 
+      <Spacing />
+
       <Container>
-        <h2 id="Density"><Matplotlib />2d density chart with <code>Matplotlib</code></h2>
+        <h2 id="2d density"><Matplotlib />2d density chart with <code>Matplotlib</code></h2>
         <p>
           2D densities are computed thanks to the <code>gaussian_kde()</code> function and plotted thanks with the <code>pcolormesh()</code> function of <code>matplotlib()</code>.
         </p>
@@ -140,10 +147,10 @@ export default function Heatmap() {
         </Row>
       </Container>
 
-
+      <Spacing />
 
       <Container>
-        <h2 id="Density"><Matplotlib />2d density and marginal plots</h2>
+        <h2 id="Marginal plot"><Matplotlib />2d density and marginal plots</h2>
         <p>
           2D densities often combined with marginal distributions. It helps to highlight the distribution
           of both variables individually. It is pretty straightforward to add thanks to the <code>jointplot()</code> function
@@ -168,16 +175,21 @@ export default function Heatmap() {
         </Row>
       </Container>
 
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="correlation" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );
