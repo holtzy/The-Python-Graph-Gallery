@@ -8,9 +8,10 @@ import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
 import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
-import { Button, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/bubble.html'>bubble plot</a> is a <a href='https://www.python-graph-gallery.com/scatter-plot'>scatterplot</a> where the circle size is mapped to the value of a third numeric variable. This section shows many bubble plots made with <code>Python</code>, using both the <code>Matplotlib</code> and <code>Seaborn</code> libraries.</p>";
@@ -31,11 +32,13 @@ export default function Heatmap() {
 
   return (
 
-    <Layout title="Bubble plot">
+    <Layout title="Bubble plot" isTocEnabled>
       <TitleAndDescription
         title="Bubble plot"
         description={chartDescription}
       />
+
+      <Spacing />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
@@ -54,6 +57,7 @@ export default function Heatmap() {
         <br />
       </Container>
 
+      <Spacing />
 
       <Container>
         <h2 id="Seaborn"><Seaborn />Bubble plot with <code>Seaborn</code></h2>
@@ -69,6 +73,7 @@ export default function Heatmap() {
         </Row>
       </Container>
 
+      <Spacing />
 
       <Container>
         <h2 id="Matplotlib"><Matplotlib />Bubble plot with <code>Matplotlib</code></h2>
@@ -117,17 +122,21 @@ export default function Heatmap() {
         </Row>
       </Container>
 
-
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="correlation" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

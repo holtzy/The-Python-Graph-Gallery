@@ -1,3 +1,16 @@
+2.1.1 / 2020-11-26
+=================
+  * [Fix] do not mutate the native function when present
+  * [Deps] update `es-abstract`; use `call-bind` where applicable
+  * [meta] remove unused Makefile and associated utilities
+  * [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape`, `functions-have-names`; add `aud`
+  * [actions] add Require Allow Edits workflow
+  * [actions] switch Automatic Rebase workflow to `pull_request_target` event
+  * [Tests] migrate tests to Github Actions
+  * [Tests] run `nyc` on all tests
+  * [Tests] add `implementation` test; run `es-shim-api` in postlint; use `tape` runner
+  * [Tests] only audit prod deps
+
 2.1.0 / 2019-12-12
 =================
   * [New] add auto entry point

@@ -14,7 +14,7 @@ module.exports = {
     DeclarationList: require('./DeclarationList'),
     Dimension: require('./Dimension'),
     Function: require('./Function'),
-    HexColor: require('./HexColor'),
+    Hash: require('./Hash'),
     Identifier: require('./Identifier'),
     IdSelector: require('./IdSelector'),
     MediaFeature: require('./MediaFeature'),

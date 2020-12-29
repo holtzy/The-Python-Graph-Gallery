@@ -1,16 +1,14 @@
-# global-dirs [![Build Status](https://travis-ci.org/sindresorhus/global-dirs.svg?branch=master)](https://travis-ci.org/sindresorhus/global-dirs)
+# global-dirs
 
 > Get the directory of globally installed packages and binaries
 
 Uses the same resolution logic as `npm` and `yarn`.
-
 
 ## Install
 
 ```
 $ npm install global-dirs
 ```
-
 
 ## Usage
 
@@ -29,7 +27,6 @@ console.log(globalDirectories.npm.binaries);
 console.log(globalDirectories.yarn.packages);
 //=> '/Users/sindresorhus/.config/yarn/global/node_modules'
 ```
-
 
 ## API
 
@@ -56,13 +53,11 @@ Directory with directories for packages and binaries. You probably want either o
 
 Equivalent to `npm prefix --global`.
 
-
 ## Related
 
 - [import-global](https://github.com/sindresorhus/import-global) - Import a globally installed module
 - [resolve-global](https://github.com/sindresorhus/resolve-global) - Resolve the path of a globally installed module
 - [is-installed-globally](https://github.com/sindresorhus/is-installed-globally) - Check if your package was installed globally
-
 
 ---
 

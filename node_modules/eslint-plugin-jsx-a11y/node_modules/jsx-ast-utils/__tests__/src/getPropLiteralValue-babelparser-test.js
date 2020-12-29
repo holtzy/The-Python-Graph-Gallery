@@ -518,5 +518,12 @@ describe('getLiteralPropValue', () => {
 
       assert.equal(actual, expected);
     });
+
+    it('should work with a this.props value', () => {
+      const prop = extractProp('<a href={this.props.href!}>Download</a>');
+      const expected = null;
+      const actual = getLiteralPropValue(prop);
+      assert.equal(actual, expected);
+    });
   });
 });

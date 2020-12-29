@@ -69,7 +69,7 @@ cs.get.rgb = function (string) {
 		}
 
 		if (hexAlpha) {
-			rgb[3] = Math.round((parseInt(hexAlpha, 16) / 255) * 100) / 100;
+			rgb[3] = parseInt(hexAlpha, 16) / 255;
 		}
 	} else if (match = string.match(abbr)) {
 		match = match[1];
@@ -80,7 +80,7 @@ cs.get.rgb = function (string) {
 		}
 
 		if (hexAlpha) {
-			rgb[3] = Math.round((parseInt(hexAlpha + hexAlpha, 16) / 255) * 100) / 100;
+			rgb[3] = parseInt(hexAlpha + hexAlpha, 16) / 255;
 		}
 	} else if (match = string.match(rgba)) {
 		for (i = 0; i < 3; i++) {

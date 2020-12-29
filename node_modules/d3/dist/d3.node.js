@@ -33,7 +33,7 @@ var d3Timer = require('d3-timer');
 var d3Transition = require('d3-transition');
 var d3Zoom = require('d3-zoom');
 
-var version = "6.2.0";
+var version = "6.3.1";
 
 Object.keys(d3Array).forEach(function (k) {
 	if (k !== 'default') Object.defineProperty(exports, k, {

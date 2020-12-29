@@ -11,6 +11,7 @@ import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/connectedscatter.html'>connected scatterplot</a> is a <a href='https://python-graph-gallery.com/line-chart/'>line chart</a> where each data point is shown by a circle or any type of marker. This section explains how to build a connected scatterplot with <code>Python</code>, using both the <code>Matplotlib</code> and the <code>Seaborn</code> libraries.</p>";
@@ -31,7 +32,8 @@ export default function Heatmap() {
 
   return (
 
-    <Layout title="Connected Scatterplot">
+    <Layout title="Connected Scatterplot" isTocEnabled>
+
       <TitleAndDescription
         title="Connected Scatterplot"
         description={chartDescription}
@@ -54,6 +56,7 @@ export default function Heatmap() {
         <br />
       </Container>
 
+      <Spacing />
 
       <div className="greySection">
         <Container>
@@ -70,6 +73,7 @@ export default function Heatmap() {
         </Container>
       </div>
 
+      <Spacing />
 
       <Container>
         <h2 id="Seaborn"><Seaborn />Connected scatterplot with <code>Seaborn</code></h2>
@@ -87,6 +91,7 @@ export default function Heatmap() {
         </Row>
       </Container>
 
+      <Spacing />
 
       <Container>
         <h2 id="Matplotlib"><Matplotlib />Connected scatterplot with <code>Matplotlib</code></h2>
@@ -121,17 +126,21 @@ export default function Heatmap() {
         </div>
       </Container>
 
-
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="correlation" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

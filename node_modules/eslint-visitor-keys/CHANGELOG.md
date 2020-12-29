@@ -1,3 +1,8 @@
+v2.0.0 - August 14, 2020
+
+* [`fb86ca3`](https://github.com/eslint/eslint-visitor-keys/commit/fb86ca315daafc84e23ed9005db40b0892b972a6) Breaking: drop support for Node <10 (#13) (Kai Cataldo)
+* [`69383b3`](https://github.com/eslint/eslint-visitor-keys/commit/69383b372915e33ada094880ecc6b6e8f8c7ca4e) Chore: move to GitHub Actions (#14) (Kai Cataldo)
+
 v1.3.0 - June 19, 2020
 
 * [`c92dd7f`](https://github.com/eslint/eslint-visitor-keys/commit/c92dd7ff96f0044dba12d681406a025b92b4c437) Update: add `ChainExpression` node (#12) (Toru Nagashima)

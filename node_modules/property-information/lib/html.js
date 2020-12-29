@@ -95,6 +95,7 @@ module.exports = create({
     lang: null,
     language: null,
     list: null,
+    loading: null,
     loop: boolean,
     low: number,
     manifest: null,

@@ -7,13 +7,12 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
+import { Seaborn } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
-import Scrollspy from "react-scrollspy";
 import FunctionExploration from '../components/FunctionExploration'
-import Parralax from "../components/Parralax";
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/caveat/boxplot.html'>boxplot</a> summarizes the distribution of a numeric variable for one or several groups. It allows to quickly get the median, quartiles and outliers but also hides the dataset individual data points. In python, boxplots are most of time done thanks to the <code>boxplot</code> function of the <code>Seaborn</code> library.</p>";
@@ -29,13 +28,14 @@ export default function ViolinPlot() {
 
   return (
 
-    <Layout title="Boxplot">
+    <Layout title="Boxplot" isTocEnabled>
+
       <TitleAndDescription
         title="Boxplot"
         description={chartDescription}
       />
-      <Container>
 
+      <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
@@ -49,9 +49,9 @@ export default function ViolinPlot() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <br />
-
       </Container>
+
+      <Spacing />
 
       <div className="greySection">
         <Container>
@@ -80,6 +80,8 @@ export default function ViolinPlot() {
           </Link>
         </Container>
       </div>
+
+      <Spacing />
 
       <Container>
         <h2 id="Seaborn"><Seaborn />Boxplots with <code>Seaborn</code></h2>
@@ -146,21 +148,29 @@ export default function ViolinPlot() {
         </Row>
       </Container>
 
+      <Spacing />
+
       <div className="greySection">
         <Container>
           <FunctionExploration functionName={"violin"} />
         </Container>
       </div>
 
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="distribution" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

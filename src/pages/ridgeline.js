@@ -5,24 +5,19 @@ import Container from "react-bootstrap/Container";
 import Contact from "../components/Contact";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Animation, Seaborn } from "../components/MiscellaneousLogos"
-import { Button, Col } from "react-bootstrap";
+import { Animation } from "../components/MiscellaneousLogos"
+import { Button } from "react-bootstrap";
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/caveat/ridgeline.html'>ridgeline</a> summarizes the distribution of a numeric variable for several groups. Each group is represented as a density chart, each density chart overlapping each other to use space more efficiently.</p>";
-
-const quickCode = `# library & dataset
-import seaborn as sns
-df = sns.load_dataset('iris')
-
-sns.boxplot( x=df["species"], y=df["sepal_length"] )
-`
 
 export default function RidgelinePlot() {
 
   return (
 
     <Layout title="Ridgeline">
+
       <TitleAndDescription
         title="Ridgeline chart"
         description={chartDescription}
@@ -42,15 +37,21 @@ export default function RidgelinePlot() {
         </Link>
       </Container>
 
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="distribution" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

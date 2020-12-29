@@ -7302,8 +7302,7 @@ span.bp3-popover-target{
     content:""; }
   .bp3-large .bp3-tag-remove{
     margin-right:-10px !important;
-    padding:5px;
-    padding-left:0; }
+    padding:0 5px 0 0; }
     .bp3-large .bp3-tag-remove:empty::before{
       font-family:"Icons20", sans-serif;
       font-size:20px;

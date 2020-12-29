@@ -187,6 +187,54 @@ List.prototype.eachRight = function(fn, context) {
 
 List.prototype.forEachRight = List.prototype.eachRight;
 
+List.prototype.reduce = function(fn, initialValue, context) {
+    var item;
+
+    if (context === undefined) {
+        context = this;
+    }
+
+    // push cursor
+    var cursor = allocateCursor(this, null, this.head);
+    var acc = initialValue;
+
+    while (cursor.next !== null) {
+        item = cursor.next;
+        cursor.next = item.next;
+
+        acc = fn.call(context, acc, item.data, item, this);
+    }
+
+    // pop cursor
+    releaseCursor(this);
+
+    return acc;
+};
+
+List.prototype.reduceRight = function(fn, initialValue, context) {
+    var item;
+
+    if (context === undefined) {
+        context = this;
+    }
+
+    // push cursor
+    var cursor = allocateCursor(this, this.tail, null);
+    var acc = initialValue;
+
+    while (cursor.prev !== null) {
+        item = cursor.prev;
+        cursor.prev = item.prev;
+
+        acc = fn.call(context, acc, item.data, item, this);
+    }
+
+    // pop cursor
+    releaseCursor(this);
+
+    return acc;
+};
+
 List.prototype.nextUntil = function(start, fn, context) {
     if (start === null) {
         return;

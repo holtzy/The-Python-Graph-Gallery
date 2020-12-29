@@ -13,6 +13,7 @@ describe('getPropValue', () => {
   beforeEach(() => {
     setParserName('flow');
   });
+
   it('should export a function', () => {
     const expected = 'function';
     const actual = typeof getPropValue;
@@ -947,6 +948,15 @@ describe('getPropValue', () => {
       const expected = 'bar';
       const actual = getPropValue(prop);
 
+      assert.equal(actual, expected);
+    });
+  });
+
+  describe('JSX empty expression', () => {
+    it('should work with an empty expression', () => {
+      const prop = extractProp('<div>\n{/* Hello there */}\n</div>', 'children');
+      const expected = undefined;
+      const actual = getPropValue(prop);
       assert.equal(actual, expected);
     });
   });

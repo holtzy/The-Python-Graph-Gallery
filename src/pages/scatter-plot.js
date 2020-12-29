@@ -11,6 +11,7 @@ import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
+import Spacing from "../components/Spacing";
 import FunctionExploration from '../components/FunctionExploration'
 
 const chartDescription =
@@ -28,14 +29,14 @@ export default function ViolinPlot() {
 
   return (
 
-    <Layout title="Scatterplot">
+    <Layout title="Scatterplot" isTocEnabled>
       <TitleAndDescription
         title="Scatterplot"
         description={chartDescription}
       />
-      <Container>
 
-        <h2 id="Quick">&#9201; Quick start</h2>
+      <Container>
+        <h2 id="Quick start">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
             <p>The <code>regplot()</code> function of the <code>Seaborn</code> library is definitely the best way to build a scatterplot in minutes. 🔥</p>
@@ -50,12 +51,13 @@ export default function ViolinPlot() {
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
         <br />
-
       </Container>
+
+      <Spacing />
 
       <div className="greySection">
         <Container>
-          <h2 id="Warning">&#9888;&#65039; Scatterplot and overplotting</h2>
+          <h2 id="Common caveats">&#9888;&#65039; Scatterplot and overplotting</h2>
           <p>The main danger with scatterplots is <a href="https://www.data-to-viz.com/caveat/overplotting.html">overplotting</a>. When the sample size gets big, circles tend to overlap, making the figure unreadable.</p>
           <p>Several workarounds exist to fix the issue, like using opacity or switching to another chart type:</p>
           <Row>
@@ -80,6 +82,8 @@ export default function ViolinPlot() {
           </Link>
         </Container>
       </div>
+
+      <Spacing />
 
       <Container>
         <h2 id="Seaborn"><Seaborn />Scatterplots with <code>Seaborn</code></h2>
@@ -126,9 +130,10 @@ export default function ViolinPlot() {
         </Row>
       </Container>
 
+      <Spacing />
 
       <Container>
-        <h2 id="Seaborn">&#128161; Other charts involving scatterplots and <code>Seaborn</code></h2>
+        <h2 id="Related to Seaborn ">&#128161; Other charts involving scatterplots and <code>Seaborn</code></h2>
         <p>If you are interested in scatterplots, some other chart could be useful to you.</p>
         <p>A scatterplot with <Link to="/82-marginal-plot-with-seaborn">marginal distribution</Link> allows to check the distribution of both the <code>x</code> and <code>y</code> variables. A <Link to="/111-custom-correlogram">correlogram</Link> allows to check the relationship between each pair of numeric variables in a dataset.</p>
         <Row>
@@ -145,6 +150,8 @@ export default function ViolinPlot() {
         </Row>
       </Container>
 
+      <Spacing />
+
 
       <div className="greySection">
         <Container>
@@ -152,6 +159,7 @@ export default function ViolinPlot() {
         </Container>
       </div>
 
+      <Spacing />
 
       <Container>
         <h2 id="Matplotlib"><Matplotlib />Scatterplots with <code>Matplotlib</code></h2>
@@ -189,20 +197,24 @@ export default function ViolinPlot() {
             caption="Add an annotation to highlight a specific marker"
             linkTo="/193-annotate-matplotlib-chart"
           />
-
         </Row>
       </Container>
 
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="distribution" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

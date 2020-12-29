@@ -11,6 +11,7 @@ import { Seaborn } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/correlogram.html'>correlogram</a> or <a href='https://www.data-to-viz.com/graph/correlogram.html'>correlation matrix</a> allows to analyse the relationship between each pair of numeric variables of a matrix. The correlation is visualised as a <a href='https://www.python-graph-gallery.com/scatter-plot'>scatterplot</a>. The diagonal represents the distribution of each variable with a <a href='https://www.python-graph-gallery.com/histogram'>histogram</a> or a <a href='https://www.python-graph-gallery.com/density'>density plot</a>.</p > ";
@@ -29,7 +30,8 @@ export default function Correlogram() {
 
   return (
 
-    <Layout title="Correlogram">
+    <Layout title="Correlogram" isTocEnabled>
+
       <TitleAndDescription
         title="Correlogram"
         description={chartDescription}
@@ -55,6 +57,7 @@ export default function Correlogram() {
         <br />
       </Container>
 
+      <Spacing />
 
       <Container>
         <h2 id="Seaborn"><Seaborn />Correlogram with <code>Seaborn</code></h2>
@@ -84,6 +87,7 @@ export default function Correlogram() {
         </Row>
       </Container>
 
+      <Spacing />
 
       <div className="greySection">
         <Container>
@@ -100,15 +104,21 @@ export default function Correlogram() {
         </Container>
       </div>
 
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="correlation" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

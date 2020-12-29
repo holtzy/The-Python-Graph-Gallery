@@ -24,7 +24,7 @@ var U = 0x0075;           // U+0075 LATIN SMALL LETTER U (u)
 module.exports = function defaultRecognizer(context) {
     switch (this.scanner.tokenType) {
         case HASH:
-            return this.HexColor();
+            return this.Hash();
 
         case COMMA:
             context.space = null;

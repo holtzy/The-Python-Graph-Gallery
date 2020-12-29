@@ -1,6 +1,6 @@
 # registry-auth-token
 
-[![npm version](http://img.shields.io/npm/v/registry-auth-token.svg?style=flat-square)](http://browsenpm.org/package/registry-auth-token)[![Build Status](http://img.shields.io/travis/rexxars/registry-auth-token/master.svg?style=flat-square)](https://travis-ci.org/rexxars/registry-auth-token)
+[![npm version](http://img.shields.io/npm/v/registry-auth-token.svg?style=flat-square)](http://browsenpm.org/package/registry-auth-token)[![Build Status](http://img.shields.io/travis/rexxars/registry-auth-token/main.svg?style=flat-square)](https://travis-ci.org/rexxars/registry-auth-token)
 
 Get the auth token set for an npm registry from `.npmrc`. Also allows fetching the configured registry URL for a given npm scope.
 

@@ -8,8 +8,8 @@ async function getJSONFromCDN (urlPath) {
   return JSON.parse(response.body)
 }
 
-async function fetchElectronVersions () {
-  return (await getJSONFromCDN('electron/releases/lite.json')).map(metadata => metadata.version)
+async function fetchElectronReleases () {
+  return (await getJSONFromCDN('electron/releases/lite.json'))
 }
 
 async function fetchNodeVersions () {
@@ -34,58 +34,78 @@ async function fetchNodeVersions () {
 }
 
 async function fetchAbiVersions () {
-  return (await getJSONFromCDN('nodejs/node/doc/abi_version_registry.json')).NODE_MODULE_VERSION
+  return (await getJSONFromCDN('nodejs/node/doc/abi_version_registry.json'))
+    .NODE_MODULE_VERSION
+    .filter(({ modules }) => modules > 66)
+}
+
+function electronReleasesToTargets (releases) {
+  const versions = releases.map(({ version }) => version)
+  const versionsByModules = releases
+    .filter(release => release.deps && Number(release.deps.modules) >= 70)
+    .map(({ version, deps: { modules } }) => ({
+      version,
+      modules,
+    }))
+    .reduce(
+      (acc, { modules, version }) => ({
+        ...acc,
+        [modules]: version,
+      }),
+      {}
+    )
+
+    return Object.entries(versionsByModules)
+      .map(
+        ([modules, version]) => ({
+          abi: modules,
+          future: !versions.find(
+            v => {
+              const major = version.split(".")[0]
+              return semver.satisfies(
+                v,
+                /^[0-9]/.test(major) ? `>= ${major}` : major
+              )
+            }
+          ),
+          lts: false,
+          runtime: 'electron',
+          target: version
+        })
+      )
+}
+
+function nodeVersionsToTargets (abiVersions, nodeVersions) {
+  return Object.values(
+    abiVersions
+      .filter(({ runtime }) => runtime === 'node')
+      .reduce(
+        (acc, abiVersion) => {
+          const { version: nodeVersion } = semver.coerce(abiVersion.versions)
+
+          return {
+            [nodeVersion]: {
+              ...nodeVersions[nodeVersion],
+              abi: abiVersion.modules.toString(),
+            },
+            ...acc,
+          };
+        },
+        {}
+      )
+  )
 }
 
 async function main () {
   const nodeVersions = await fetchNodeVersions()
   const abiVersions = await fetchAbiVersions()
-  const electronVersions = await fetchElectronVersions()
-
-  const abiVersionSet = new Set()
-  const supportedTargets = []
-  for (const abiVersion of abiVersions) {
-    if (abiVersion.modules <= 66) {
-      // Don't try to parse any ABI versions older than 60
-      break
-    } else if (abiVersion.runtime === 'electron' && abiVersion.modules < 70) {
-      // Don't try to parse Electron ABI versions below Electron 5
-      continue
-    }
-
-    let target
-    if (abiVersion.runtime === 'node') {
-      const nodeVersion = `${abiVersion.versions.replace('.0.0-pre', '')}.0.0`
-      target = nodeVersions[nodeVersion]
-      if (!target) {
-        continue
-      }
-    } else {
-      target = {
-        runtime: abiVersion.runtime === 'nw.js' ? 'node-webkit' : abiVersion.runtime,
-        target: abiVersion.versions,
-        lts: false,
-        future: false
-      }
-      if (target.runtime === 'electron') {
-        target.target = `${target.target}.0.0`
-        const constraint = /^[0-9]/.test(abiVersion.versions) ? `>= ${abiVersion.versions}` : abiVersion.versions
-        if (!electronVersions.find(electronVersion => semver.satisfies(electronVersion, constraint))) {
-          target.target = `${target.target}-beta.1`
-          target.future = true
-        }
-      }
-    }
-    target.abi = abiVersion.modules.toString()
-
-    const key = [target.runtime, target.target].join('-')
-    if (abiVersionSet.has(key)) {
-      continue
-    }
-
-    abiVersionSet.add(key)
-    supportedTargets.unshift(target)
-  }
+  const electronReleases = await fetchElectronReleases()
+  const electronTargets = electronReleasesToTargets(electronReleases)
+  const nodeTargets = nodeVersionsToTargets(abiVersions, nodeVersions)
+  const supportedTargets = [
+    ...nodeTargets,
+    ...electronTargets,
+  ]
 
   await writeFile(path.resolve(__dirname, '..', 'abi_registry.json'), JSON.stringify(supportedTargets, null, 2))
 }

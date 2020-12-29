@@ -19,7 +19,8 @@ module.exports = function(hljs) {
     contains: [
       {
         className: 'literal',
-        begin: '\\[(\\|\\|)?\\]|\\(\\)'
+        begin: /\[(\|\|)?\]|\(\)/,
+        relevance: 0
       },
       hljs.COMMENT(
         '\\(\\*',
@@ -34,7 +35,7 @@ module.exports = function(hljs) {
         /* the grammar is ambiguous on how 'a'b should be interpreted but not the compiler */
       },
       { /* polymorphic variant */
-        className: 'tag',
+        className: 'type',
         begin: '`[A-Z][\\w\']*'
       },
       { /* module or constructor */
@@ -45,7 +46,7 @@ module.exports = function(hljs) {
       { /* don't color identifiers, but safely catch all identifiers with '*/
         begin: '[a-z_]\\w*\'[\\w\']*'
       },
-      hljs.inherit(hljs.APOS_STRING_MODE, {className: 'char', relevance: 0}),
+      hljs.inherit(hljs.APOS_STRING_MODE, {className: 'string', relevance: 0}),
       hljs.inherit(hljs.QUOTE_STRING_MODE, {illegal: null}),
       {
         className: 'number',

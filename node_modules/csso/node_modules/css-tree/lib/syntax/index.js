@@ -18,3 +18,4 @@ module.exports = require('./create').create(
         require('./config/walker')
     )
 );
+module.exports.version = require('../../package.json').version;

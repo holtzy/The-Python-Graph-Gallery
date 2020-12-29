@@ -2,7 +2,13 @@
 
 const reportError = (message, err, reporter) => {
   if (reporter) {
-    reporter.error(message, err);
+    reporter.error({
+      id: `gatsby-plugin-sharp-20000`,
+      context: {
+        sourceMessage: message
+      },
+      error: err
+    });
   } else {
     console.error(message, err);
   }

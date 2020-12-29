@@ -2,53 +2,42 @@
 
 module.exports = parse
 
-var numberSign = 35 //  '#'
-var dot = 46 //  '.'
+var search = /[#.]/g
 
 // Create a hast element from a simple CSS selector.
 function parse(selector, defaultTagName) {
   var value = selector || ''
   var name = defaultTagName || 'div'
   var props = {}
-  var index = -1
-  var length = value.length
-  var className
-  var type
-  var code
+  var start = 0
   var subvalue
-  var lastIndex
+  var previous
+  var match
 
-  while (++index <= length) {
-    code = value.charCodeAt(index)
+  while (start < value.length) {
+    search.lastIndex = start
+    match = search.exec(value)
+    subvalue = value.slice(start, match ? match.index : value.length)
 
-    if (!code || code === dot || code === numberSign) {
-      subvalue = value.slice(lastIndex, index)
-
-      if (subvalue) {
-        if (type === dot) {
-          // eslint-disable-next-line max-depth
-          if (className) {
-            className.push(subvalue)
-          } else {
-            className = [subvalue]
-            props.className = className
-          }
-        } else if (type === numberSign) {
-          props.id = subvalue
-        } else {
-          name = subvalue
-        }
+    if (subvalue) {
+      if (!previous) {
+        name = subvalue
+      } else if (previous === '#') {
+        props.id = subvalue
+      } else if (props.className) {
+        props.className.push(subvalue)
+      } else {
+        props.className = [subvalue]
       }
 
-      lastIndex = index + 1
-      type = code
+      start += subvalue.length
+    }
+
+    if (match) {
+      previous = match[0]
+      start++
     }
   }
 
-  return {
-    type: 'element',
-    tagName: name,
-    properties: props,
-    children: []
-  }
+  return {type: 'element', tagName: name, properties: props, children: []}
 }
