@@ -28,6 +28,7 @@ exports.components = {
   "component---src-pages-ridgeline-js": () => import("./../../../src/pages/ridgeline.js" /* webpackChunkName: "component---src-pages-ridgeline-js" */),
   "component---src-pages-scatter-plot-js": () => import("./../../../src/pages/scatter-plot.js" /* webpackChunkName: "component---src-pages-scatter-plot-js" */),
   "component---src-pages-stacked-area-plot-js": () => import("./../../../src/pages/stacked-area-plot.js" /* webpackChunkName: "component---src-pages-stacked-area-plot-js" */),
+  "component---src-pages-streamchart-js": () => import("./../../../src/pages/streamchart.js" /* webpackChunkName: "component---src-pages-streamchart-js" */),
   "component---src-pages-treemap-js": () => import("./../../../src/pages/treemap.js" /* webpackChunkName: "component---src-pages-treemap-js" */),
   "component---src-pages-venn-diagram-js": () => import("./../../../src/pages/venn-diagram.js" /* webpackChunkName: "component---src-pages-venn-diagram-js" */),
   "component---src-pages-violin-plot-js": () => import("./../../../src/pages/violin-plot.js" /* webpackChunkName: "component---src-pages-violin-plot-js" */),

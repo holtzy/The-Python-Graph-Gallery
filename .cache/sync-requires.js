@@ -31,6 +31,7 @@ exports.components = {
   "component---src-pages-ridgeline-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/ridgeline.js"))),
   "component---src-pages-scatter-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/scatter-plot.js"))),
   "component---src-pages-stacked-area-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/stacked-area-plot.js"))),
+  "component---src-pages-streamchart-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/streamchart.js"))),
   "component---src-pages-treemap-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/treemap.js"))),
   "component---src-pages-venn-diagram-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/venn-diagram.js"))),
   "component---src-pages-violin-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/violin-plot.js"))),
