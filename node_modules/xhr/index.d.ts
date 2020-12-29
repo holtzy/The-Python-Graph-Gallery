@@ -20,7 +20,7 @@ export interface XhrHeaders {
 export interface XhrBaseConfig {
   useXDR?: boolean;
   sync?: boolean;
-  method?: 'DELETE' | 'GET' | 'HEAD' | 'OPTIONS' | 'POST' | 'PUT';
+  method?: 'DELETE' | 'GET' | 'HEAD' | 'OPTIONS' | 'POST' | 'PUT' | 'PATCH';
   timeout?: number;
   headers?: XhrHeaders;
   body?: string | any;

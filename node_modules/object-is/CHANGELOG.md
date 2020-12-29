@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.4](https://github.com/es-shims/object-is/compare/v1.1.3...v1.1.4) - 2020-11-26
+
+### Commits
+
+- [Tests] migrate tests to Github Actions [`958ab26`](https://github.com/es-shims/object-is/commit/958ab266fd68396781c076d8a5ee4ba292561362)
+- [Tests] add `shimmed` and `implementation` and `index` tests; run `es-shim-api` in postlint; use `tape` runner [`b918fb8`](https://github.com/es-shims/object-is/commit/b918fb849023032d2da61ead95f31b0a03371131)
+- [Tests] run `nyc` on all tests [`8f62816`](https://github.com/es-shims/object-is/commit/8f6281683ad58ffe9b5809c2a9e7bb65db344c9c)
+- [actions] add "Allow Edits" workflow [`aa419f0`](https://github.com/es-shims/object-is/commit/aa419f0ea2b497844365f9f51a746fa2a57bb6ee)
+- [Deps] use `call-bind` instead of `es-abstract` [`4991728`](https://github.com/es-shims/object-is/commit/49917288eddfce31949f5a3351f0e0bb67929a2b)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud` [`3ce2ef5`](https://github.com/es-shims/object-is/commit/3ce2ef5e834bf22566ea5741178cd76bb35f8a89)
+- [meta] ignore coverage output [`d778383`](https://github.com/es-shims/object-is/commit/d778383fde9222bc5349dd4adcaab9f5ef10254e)
+- [actions] switch Automatic Rebase workflow to `pull_request_target` event [`e0d9b41`](https://github.com/es-shims/object-is/commit/e0d9b41a73f51f1c8b9d9b402da5f754926bc280)
+
 ## [v1.1.3](https://github.com/es-shims/object-is/compare/v1.1.2...v1.1.3) - 2020-09-30
 
 ### Commits

@@ -4,43 +4,42 @@ module.exports = detab
 
 var repeat = require('repeat-string')
 
-var tab = 0x09
-var lineFeed = 0x0a
-var carriageReturn = 0x0d
+var search = /[\t\n\r]/g
 
 // Replace tabs with spaces, being smart about which column the tab is at and
 // which size should be used.
 function detab(value, size) {
-  var string = typeof value === 'string'
-  var length = string && value.length
-  var start = 0
-  var index = -1
-  var column = -1
   var tabSize = size || 4
-  var results = []
-  var code
+  var result = []
+  var start = 0
+  var index = 0
+  var column = -1
   var add
+  var match
+  var end
 
-  if (!string) {
+  if (typeof value !== 'string') {
     throw new Error('detab expected string')
   }
 
-  while (++index < length) {
-    code = value.charCodeAt(index)
+  while (index < value.length) {
+    search.lastIndex = index
+    match = search.exec(value)
+    end = match ? match.index : value.length
 
-    if (code === tab) {
-      add = tabSize - ((column + 1) % tabSize)
-      column += add
-      results.push(value.slice(start, index) + repeat(' ', add))
-      start = index + 1
-    } else if (code === lineFeed || code === carriageReturn) {
-      column = -1
+    if (value.charCodeAt(end) === 9) {
+      add = tabSize - ((column + end - index + 1) % tabSize)
+      result.push(value.slice(start, end), repeat(' ', add))
+      column += end - index + add
+      start = end + 1
     } else {
-      column++
+      column = -1
     }
+
+    index = end + 1
   }
 
-  results.push(value.slice(start))
+  result.push(value.slice(start))
 
-  return results.join('')
+  return result.join('')
 }

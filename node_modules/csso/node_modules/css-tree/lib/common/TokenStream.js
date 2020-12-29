@@ -187,22 +187,32 @@ TokenStream.prototype = {
         }
     },
 
-    dump: function() {
-        var offset = this.firstCharOffset;
-
-        return Array.prototype.slice.call(this.offsetAndType, 0, this.tokenCount).map(function(item, idx) {
+    forEachToken(fn) {
+        for (var i = 0, offset = this.firstCharOffset; i < this.tokenCount; i++) {
             var start = offset;
+            var item = this.offsetAndType[i];
             var end = item & OFFSET_MASK;
+            var type = item >> TYPE_SHIFT;
 
             offset = end;
 
-            return {
-                idx: idx,
-                type: NAME[item >> TYPE_SHIFT],
+            fn(type, start, end, i);
+        }
+    },
+
+    dump() {
+        var tokens = new Array(this.tokenCount);
+
+        this.forEachToken((type, start, end, index) => {
+            tokens[index] = {
+                idx: index,
+                type: NAME[type],
                 chunk: this.source.substring(start, end),
-                balance: this.balance[idx]
+                balance: this.balance[index]
             };
-        }, this);
+        });
+
+        return tokens;
     }
 };
 

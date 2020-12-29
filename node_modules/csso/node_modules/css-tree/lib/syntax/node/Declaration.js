@@ -7,6 +7,7 @@ var HASH = TYPE.Hash;
 var COLON = TYPE.Colon;
 var SEMICOLON = TYPE.Semicolon;
 var DELIM = TYPE.Delim;
+var WHITESPACE = TYPE.WhiteSpace;
 var EXCLAMATIONMARK = 0x0021; // U+0021 EXCLAMATION MARK (!)
 var NUMBERSIGN = 0x0023;      // U+0023 NUMBER SIGN (#)
 var DOLLARSIGN = 0x0024;      // U+0024 DOLLAR SIGN ($)
@@ -58,6 +59,8 @@ module.exports = {
         this.scanner.skipSC();
         this.eat(COLON);
 
+        const valueStart = this.scanner.tokenIndex;
+
         if (!customProperty) {
             this.scanner.skipSC();
         }
@@ -66,6 +69,19 @@ module.exports = {
             value = this.parseWithFallback(consumeValue, consumeRaw);
         } else {
             value = consumeRaw.call(this, this.scanner.tokenIndex);
+        }
+
+        if (customProperty && value.type === 'Value' && value.children.isEmpty()) {
+            for (let offset = valueStart - this.scanner.tokenIndex; offset <= 0; offset++) {
+                if (this.scanner.lookupType(offset) === WHITESPACE) {
+                    value.children.appendData({
+                        type: 'WhiteSpace',
+                        loc: null,
+                        value: ' '
+                    });
+                    break;
+                }
+            }
         }
 
         if (this.scanner.isDelim(EXCLAMATIONMARK)) {

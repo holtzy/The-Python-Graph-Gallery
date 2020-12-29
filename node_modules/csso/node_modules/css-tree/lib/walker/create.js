@@ -86,7 +86,7 @@ function createTypeIterator(config, reverse) {
         fields.reverse();
     }
 
-    return function(node, context, walk) {
+    return function(node, context, walk, walkReducer) {
         var prevContextValue;
 
         if (useContext) {
@@ -100,13 +100,15 @@ function createTypeIterator(config, reverse) {
 
             if (!field.nullable || ref) {
                 if (field.type === 'list') {
-                    if (reverse) {
-                        ref.forEachRight(walk);
-                    } else {
-                        ref.forEach(walk);
+                    var breakWalk = reverse
+                        ? ref.reduceRight(walkReducer, false)
+                        : ref.reduce(walkReducer, false);
+
+                    if (breakWalk) {
+                        return true;
                     }
-                } else {
-                    walk(ref);
+                } else if (walk(ref)) {
+                    return true;
                 }
             }
         }
@@ -145,6 +147,8 @@ module.exports = function createWalker(config) {
     var types = getTypesFromConfig(config);
     var iteratorsNatural = {};
     var iteratorsReverse = {};
+    var breakWalk = Symbol('break-walk');
+    var skipNode = Symbol('skip-node');
 
     for (var name in types) {
         if (hasOwnProperty.call(types, name) && types[name] !== null) {
@@ -158,19 +162,38 @@ module.exports = function createWalker(config) {
 
     var walk = function(root, options) {
         function walkNode(node, item, list) {
-            enter.call(context, node, item, list);
+            var enterRet = enter.call(context, node, item, list);
 
-            if (iterators.hasOwnProperty(node.type)) {
-                iterators[node.type](node, context, walkNode);
+            if (enterRet === breakWalk) {
+                debugger;
+                return true;
             }
 
-            leave.call(context, node, item, list);
+            if (enterRet === skipNode) {
+                return false;
+            }
+
+            if (iterators.hasOwnProperty(node.type)) {
+                if (iterators[node.type](node, context, walkNode, walkReducer)) {
+                    return true;
+                }
+            }
+
+            if (leave.call(context, node, item, list) === breakWalk) {
+                return true;
+            }
+
+            return false;
         }
 
+        var walkReducer = (ret, data, item, list) => ret || walkNode(data, item, list);
         var enter = noop;
         var leave = noop;
         var iterators = iteratorsNatural;
         var context = {
+            break: breakWalk,
+            skip: skipNode,
+
             root: root,
             stylesheet: null,
             atrule: null,
@@ -210,22 +233,19 @@ module.exports = function createWalker(config) {
             throw new Error('Neither `enter` nor `leave` walker handler is set or both aren\'t a function');
         }
 
-        // swap handlers in reverse mode to invert visit order
-        if (options.reverse) {
-            var tmp = enter;
-            enter = leave;
-            leave = tmp;
-        }
-
         walkNode(root);
     };
+
+    walk.break = breakWalk;
+    walk.skip = skipNode;
 
     walk.find = function(ast, fn) {
         var found = null;
 
         walk(ast, function(node, item, list) {
-            if (found === null && fn.call(this, node, item, list)) {
+            if (fn.call(this, node, item, list)) {
                 found = node;
+                return breakWalk;
             }
         });
 
@@ -238,8 +258,9 @@ module.exports = function createWalker(config) {
         walk(ast, {
             reverse: true,
             enter: function(node, item, list) {
-                if (found === null && fn.call(this, node, item, list)) {
+                if (fn.call(this, node, item, list)) {
                     found = node;
+                    return breakWalk;
                 }
             }
         });

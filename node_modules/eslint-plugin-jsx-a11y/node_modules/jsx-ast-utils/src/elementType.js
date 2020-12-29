@@ -12,6 +12,10 @@ function resolveMemberExpressions(object = {}, property = {}) {
 export default function elementType(node = {}) {
   const { name } = node;
 
+  if (node.type === 'JSXOpeningFragment') {
+    return '<>';
+  }
+
   if (!name) {
     throw new Error('The argument provided is not a JSXElement node.');
   }

@@ -14,14 +14,13 @@
 
 > This package contains some core modules and utilities used by both the [contentful.js](https://github.com/contentful/contentful.js) and [contentful-management.js](https://github.com/contentful/contentful-management.js) SDKs.
 
-
 ## About
 
 [Contentful](https://www.contentful.com) provides a content infrastructure for digital teams to power content in websites, apps, and devices. Unlike a CMS, Contentful was built to integrate with the modern software stack. It offers a central hub for structured content, powerful management and delivery APIs, and a customizable web app that enable developers and content creators to ship digital products faster.
 
 ## Pre-requisites
 
-* Make sure you use at least Node 4.7
+- Make sure you use at least Node 4.7
 
 ## Installation
 
@@ -45,6 +44,7 @@ For bundlers like webpack2 and rollup we support the `module` &
 ## Development
 
 ### Create the default and the es-modules build:
+
 ```
 npm run build
 ```
@@ -52,26 +52,31 @@ npm run build
 ### Run Tests:
 
 Run only the unit tests:
+
 ```
-npm run test:unit
+npm run test
 ```
 
 Run unit tests including coverage report:
+
 ```
 npm run test:cover
 ```
 
 Run unit tests with coverage report and display the result in your browser:
+
 ```
 npm run browser-coverage
 ```
 
 Emulate a CI test run:
+
 ```
 npm run test:ci-emulate
 ```
 
 Enable debug mode for tests:
+
 ```
 npm run test:debug
 ```

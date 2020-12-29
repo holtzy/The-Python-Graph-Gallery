@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/naugtur-xhr/Lobby](https://badges.gitter.im/naugtur-xhr/Lobby.svg)](https://gitter.im/naugtur-xhr/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/naugtur/xhr.svg)](https://greenkeeper.io/)
+
 
 A small XMLHttpRequest wrapper. Designed for use with [browserify](http://browserify.org/), [webpack](https://webpack.github.io/) etc.
 

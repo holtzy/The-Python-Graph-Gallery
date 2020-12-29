@@ -23,7 +23,11 @@ var _queryResultStore = require("./query-result-store");
 
 var _ensureResources = _interopRequireDefault(require("./ensure-resources"));
 
+var _fastRefreshOverlay = _interopRequireDefault(require("./fast-refresh-overlay"));
+
 var _errorOverlayHandler = require("./error-overlay-handler");
+
+var _loadingIndicator = require("./loading-indicator");
 
 // TODO: Remove entire block when we make fast-refresh the default
 // In fast-refresh, this logic is all moved into the `error-overlay-handler`
@@ -128,6 +132,16 @@ const WrappedRoot = (0, _apiRunnerBrowser.apiRunner)(`wrapRootElement`, {
   };
 }).pop();
 
-var _default = () => /*#__PURE__*/_react.default.createElement(_queryResultStore.StaticQueryStore, null, WrappedRoot);
+const ConditionalFastRefreshOverlay = ({
+  children
+}) => {
+  if (process.env.GATSBY_HOT_LOADER === `fast-refresh`) {
+    return /*#__PURE__*/_react.default.createElement(_fastRefreshOverlay.default, null, children);
+  }
+
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, children);
+};
+
+var _default = () => /*#__PURE__*/_react.default.createElement(ConditionalFastRefreshOverlay, null, /*#__PURE__*/_react.default.createElement(_queryResultStore.StaticQueryStore, null, WrappedRoot), process.env.GATSBY_EXPERIMENTAL_QUERY_ON_DEMAND && process.env.GATSBY_QUERY_ON_DEMAND_LOADING_INDICATOR === `true` && /*#__PURE__*/_react.default.createElement(_loadingIndicator.LoadingIndicatorEventHandler, null));
 
 exports.default = _default;

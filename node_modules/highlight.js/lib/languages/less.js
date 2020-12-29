@@ -15,13 +15,6 @@ module.exports = function(hljs) {
     className: name, begin: begin, relevance: relevance
   };};
 
-  var FUNCT_MODE = function(name, ident, obj) {
-    return hljs.inherit({
-        className: name, begin: ident + '\\(', end: '\\(',
-        returnBegin: true, excludeEnd: true, relevance: 0
-    }, obj);
-  };
-
   var PARENS_MODE = {
     // used only to properly balance nested parens inside mixin call, def. arg list
     begin: '\\(', end: '\\)', contains: VALUE, relevance: 0
@@ -34,17 +27,21 @@ module.exports = function(hljs) {
     STRING_MODE("'"),
     STRING_MODE('"'),
     hljs.CSS_NUMBER_MODE, // fixme: it does not include dot for numbers like .5em :(
-    IDENT_MODE('hexcolor', '#[0-9A-Fa-f]+\\b'),
-    FUNCT_MODE('function', '(url|data-uri)', {
+    {
+      begin: '(url|data-uri)\\(',
       starts: {className: 'string', end: '[\\)\\n]', excludeEnd: true}
-    }),
-    FUNCT_MODE('function', IDENT_RE),
+    },
+    IDENT_MODE('number', '#[0-9A-Fa-f]+\\b'),
     PARENS_MODE,
     IDENT_MODE('variable', '@@?' + IDENT_RE, 10),
     IDENT_MODE('variable', '@{'  + IDENT_RE + '}'),
     IDENT_MODE('built_in', '~?`[^`]*?`'), // inline javascript (or whatever host language) *multiline* string
     { // @media features (it’s here to not duplicate things in AT_RULE_MODE with extra PARENS_MODE overriding):
       className: 'attribute', begin: IDENT_RE + '\\s*:', end: ':', returnBegin: true, excludeEnd: true
+    },
+    {
+      className: 'meta',
+      begin: '!important'
     }
   );
 
@@ -60,15 +57,23 @@ module.exports = function(hljs) {
   /* Rule-Level Modes */
 
   var RULE_MODE = {
-    className: 'attribute',
-    begin: INTERP_IDENT_RE, end: ':', excludeEnd: true,
-    contains: [hljs.C_LINE_COMMENT_MODE, hljs.C_BLOCK_COMMENT_MODE],
-    illegal: /\S/,
-    starts: {end: '[;}]', returnEnd: true, contains: VALUE, illegal: '[<=$]'}
+    begin: INTERP_IDENT_RE + '\\s*:', returnBegin: true, end: '[;}]',
+    relevance: 0,
+    contains: [
+      {
+        className: 'attribute',
+        begin: INTERP_IDENT_RE, end: ':', excludeEnd: true,
+        starts: {
+          endsWithParent: true, illegal: '[<=$]',
+          relevance: 0,
+          contains: VALUE
+        }
+      }
+    ]
   };
 
   var AT_RULE_MODE = {
-    className: 'at_rule', // highlight only at-rule keyword
+    className: 'keyword',
     begin: '@(import|media|charset|font-face|(-[a-z]+-)?keyframes|supports|document|namespace|page|viewport|host)\\b',
     starts: {end: '[;{}]', returnEnd: true, contains: VALUE, relevance: 0}
   };
@@ -92,28 +97,26 @@ module.exports = function(hljs) {
     // then fall into the scary lookahead-discriminator variant.
     // this mode also handles mixin definitions and calls
     variants: [{
-      begin: '[\\.#:&\\[]', end: '[;{}]'  // mixin calls end with ';'
+      begin: '[\\.#:&\\[>]', end: '[;{}]'  // mixin calls end with ';'
       }, {
-      begin: INTERP_IDENT_RE + '[^;]*{',
-      end: '{'
+      begin: INTERP_IDENT_RE, end: '{'
     }],
     returnBegin: true,
     returnEnd:   true,
     illegal: '[<=\'$"]',
+    relevance: 0,
     contains: [
       hljs.C_LINE_COMMENT_MODE,
       hljs.C_BLOCK_COMMENT_MODE,
       MIXIN_GUARD_MODE,
       IDENT_MODE('keyword',  'all\\b'),
       IDENT_MODE('variable', '@{'  + IDENT_RE + '}'),     // otherwise it’s identified as tag
-      IDENT_MODE('tag',       INTERP_IDENT_RE + '%?', 0), // '%' for more consistent coloring of @keyframes "tags"
-      IDENT_MODE('id',       '#'   + INTERP_IDENT_RE),
-      IDENT_MODE('class',    '\\.' + INTERP_IDENT_RE, 0),
-      IDENT_MODE('keyword',  '&', 0),
-      FUNCT_MODE('pseudo',   ':not'),
-      FUNCT_MODE('keyword',  ':extend'),
-      IDENT_MODE('pseudo',   '::?' + INTERP_IDENT_RE),
-      {className: 'attr_selector', begin: '\\[', end: '\\]'},
+      IDENT_MODE('selector-tag',  INTERP_IDENT_RE + '%?', 0), // '%' for more consistent coloring of @keyframes "tags"
+      IDENT_MODE('selector-id', '#' + INTERP_IDENT_RE),
+      IDENT_MODE('selector-class', '\\.' + INTERP_IDENT_RE, 0),
+      IDENT_MODE('selector-tag',  '&', 0),
+      {className: 'selector-attr', begin: '\\[', end: '\\]'},
+      {className: 'selector-pseudo', begin: /:(:)?[a-zA-Z0-9\_\-\+\(\)"'.]+/},
       {begin: '\\(', end: '\\)', contains: VALUE_WITH_RULESETS}, // argument list of parametric mixins
       {begin: '!important'} // eat !important after mixin call or it will be colored as tag
     ]
@@ -124,8 +127,8 @@ module.exports = function(hljs) {
     hljs.C_BLOCK_COMMENT_MODE,
     AT_RULE_MODE,
     VAR_RULE_MODE,
-    SELECTOR_MODE,
-    RULE_MODE
+    RULE_MODE,
+    SELECTOR_MODE
   );
 
   return {

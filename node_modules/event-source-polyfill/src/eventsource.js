@@ -736,6 +736,7 @@
   function start(es, url, options) {
     url = String(url);
     var withCredentials = Boolean(options.withCredentials);
+    var lastEventIdQueryParameterName = options.lastEventIdQueryParameterName || "lastEventId";
 
     var initialRetry = clampDuration(1000);
     var heartbeatTimeout = parseDuration(options.heartbeatTimeout, 45000);
@@ -967,7 +968,7 @@
       var requestURL = url;
       if (url.slice(0, 5) !== "data:" && url.slice(0, 5) !== "blob:") {
         if (lastEventId !== "") {
-          requestURL += (url.indexOf("?") === -1 ? "?" : "&") + "lastEventId=" + encodeURIComponent(lastEventId);
+          requestURL += (url.indexOf("?") === -1 ? "?" : "&") + lastEventIdQueryParameterName +"=" + encodeURIComponent(lastEventId);
         }
       }
       var withCredentials = es.withCredentials;

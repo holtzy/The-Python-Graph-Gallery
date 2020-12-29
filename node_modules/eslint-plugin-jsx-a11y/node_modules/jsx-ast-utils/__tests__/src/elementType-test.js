@@ -82,4 +82,14 @@ describe('elementType tests', () => {
 
     assert.equal(actual, expected);
   });
+
+  it('should work with fragments', () => {
+    const code = '<>foo</>';
+    const node = getOpeningElement(code);
+
+    const expected = '<>';
+    const actual = elementType(node);
+
+    assert.equal(actual, expected);
+  });
 });

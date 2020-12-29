@@ -28,7 +28,6 @@ module.exports = function(hljs) {
     // contains defined later
   };
   var VAR = {
-    className: 'variable',
     variants: [
       {begin: /\$\d/},
       {begin: /[\$%@](\^\w\b|#\w+(::\w+)*|{\w+}|\w+(::\w*)*)/},
@@ -123,12 +122,12 @@ module.exports = function(hljs) {
       ]
     },
     {
-      className: 'sub',
-      beginKeywords: 'sub', end: '(\\s*\\(.*?\\))?[;{]',
-      relevance: 5
+      className: 'function',
+      beginKeywords: 'sub', end: '(\\s*\\(.*?\\))?[;{]', excludeEnd: true,
+      relevance: 5,
+      contains: [hljs.TITLE_MODE]
     },
     {
-      className: 'operator',
       begin: '-\\w\\b',
       relevance: 0
     },
@@ -149,7 +148,8 @@ module.exports = function(hljs) {
   METHOD.contains = PERL_DEFAULT_CONTAINS;
 
   return {
-    aliases: ['pl'],
+    aliases: ['pl', 'pm'],
+    lexemes: /[\w\.]+/,
     keywords: PERL_KEYWORDS,
     contains: PERL_DEFAULT_CONTAINS
   };

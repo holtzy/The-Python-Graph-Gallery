@@ -204,13 +204,20 @@ class ReaddirpStream extends Readable {
       return 'directory';
     }
     if (stats && stats.isSymbolicLink()) {
+      const full = entry.fullPath;
       try {
-        const entryRealPath = await realpath(entry.fullPath);
+        const entryRealPath = await realpath(full);
         const entryRealPathStats = await lstat(entryRealPath);
         if (entryRealPathStats.isFile()) {
           return 'file';
         }
         if (entryRealPathStats.isDirectory()) {
+          const len = entryRealPath.length;
+          if (full.startsWith(entryRealPath) && full.substr(len, 1) === sysPath.sep) {
+            return this._onError(new Error(
+              `Circular symlink detected: "${full}" points to "${entryRealPath}"`
+            ));
+          }
           return 'directory';
         }
       } catch (error) {

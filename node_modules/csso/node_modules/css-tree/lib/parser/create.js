@@ -4,13 +4,14 @@ var TokenStream = require('../common/TokenStream');
 var List = require('../common/List');
 var tokenize = require('../tokenizer');
 var constants = require('../tokenizer/const');
-var findWhiteSpaceStart = require('../tokenizer/utils').findWhiteSpaceStart;
+var { findWhiteSpaceStart, cmpStr } = require('../tokenizer/utils');
 var sequence = require('./sequence');
 var noop = function() {};
 
 var TYPE = constants.TYPE;
 var NAME = constants.NAME;
 var WHITESPACE = TYPE.WhiteSpace;
+var COMMENT = TYPE.Comment;
 var IDENT = TYPE.Ident;
 var FUNCTION = TYPE.Function;
 var URL = TYPE.Url;
@@ -255,6 +256,7 @@ module.exports = function createParser(config) {
         options = options || {};
 
         var context = options.context || 'default';
+        var onComment = options.onComment;
         var ast;
 
         tokenize(source, parser.scanner);
@@ -276,6 +278,19 @@ module.exports = function createParser(config) {
 
         if (!parser.context.hasOwnProperty(context)) {
             throw new Error('Unknown context `' + context + '`');
+        }
+
+        if (typeof onComment === 'function') {
+            parser.scanner.forEachToken((type, start, end) => {
+                if (type === COMMENT) {
+                    const loc = parser.getLocation(start, end);
+                    const value = cmpStr(source, end - 2, end, '*/')
+                        ? source.slice(start + 2, end - 2)
+                        : source.slice(start + 2, end);
+
+                    onComment(value, loc);
+                }
+            });
         }
 
         ast = parser.context[context].call(parser, options);

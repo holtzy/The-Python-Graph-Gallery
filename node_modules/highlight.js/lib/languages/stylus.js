@@ -6,9 +6,8 @@ module.exports = function(hljs) {
   };
 
   var HEX_COLOR = {
-    className: 'hexcolor',
-    begin: '#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})',
-    relevance: 10
+    className: 'number',
+    begin: '#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})'
   };
 
   var AT_KEYWORDS = [
@@ -325,13 +324,12 @@ module.exports = function(hljs) {
 
   // illegals
   var ILLEGAL = [
-    '\\{',
-    '\\}',
     '\\?',
     '(\\bReturn\\b)', // monkey
     '(\\bEnd\\b)', // monkey
     '(\\bend\\b)', // vbscript
-    ';', // sql
+    '(\\bdef\\b)', // gradle
+    ';', // a whole lot of languages
     '#\\s', // markdown
     '\\*\\s', // markdown
     '===\\s', // markdown
@@ -342,8 +340,8 @@ module.exports = function(hljs) {
   return {
     aliases: ['styl'],
     case_insensitive: false,
-    illegal: '(' + ILLEGAL.join('|') + ')',
     keywords: 'if else for in',
+    illegal: '(' + ILLEGAL.join('|') + ')',
     contains: [
 
       // strings
@@ -362,7 +360,7 @@ module.exports = function(hljs) {
         begin: '\\.[a-zA-Z][a-zA-Z0-9_-]*' + TAG_END,
         returnBegin: true,
         contains: [
-          {className: 'class', begin: '\\.[a-zA-Z][a-zA-Z0-9_-]*'}
+          {className: 'selector-class', begin: '\\.[a-zA-Z][a-zA-Z0-9_-]*'}
         ]
       },
 
@@ -371,7 +369,7 @@ module.exports = function(hljs) {
         begin: '\\#[a-zA-Z][a-zA-Z0-9_-]*' + TAG_END,
         returnBegin: true,
         contains: [
-          {className: 'id', begin: '\\#[a-zA-Z][a-zA-Z0-9_-]*'}
+          {className: 'selector-id', begin: '\\#[a-zA-Z][a-zA-Z0-9_-]*'}
         ]
       },
 
@@ -380,19 +378,17 @@ module.exports = function(hljs) {
         begin: '\\b(' + TAGS.join('|') + ')' + TAG_END,
         returnBegin: true,
         contains: [
-          {className: 'tag', begin: '\\b[a-zA-Z][a-zA-Z0-9_-]*'}
+          {className: 'selector-tag', begin: '\\b[a-zA-Z][a-zA-Z0-9_-]*'}
         ]
       },
 
       // psuedo selectors
       {
-        className: 'pseudo',
         begin: '&?:?:\\b(' + PSEUDO_SELECTORS.join('|') + ')' + TAG_END
       },
 
       // @ keywords
       {
-        className: 'at_rule',
         begin: '\@(' + AT_KEYWORDS.join('|') + ')\\b'
       },
 
@@ -409,7 +405,7 @@ module.exports = function(hljs) {
       //  - only from beginning of line + whitespace
       {
         className: 'function',
-        begin: '\\b[a-zA-Z][a-zA-Z0-9_\-]*\\(.*\\)',
+        begin: '^[a-zA-Z][a-zA-Z0-9_\-]*\\(.*\\)',
         illegal: '[\\n]',
         returnBegin: true,
         contains: [
@@ -435,7 +431,22 @@ module.exports = function(hljs) {
       //  - must have whitespace after it
       {
         className: 'attribute',
-        begin: '\\b(' + ATTRIBUTES.reverse().join('|') + ')\\b'
+        begin: '\\b(' + ATTRIBUTES.reverse().join('|') + ')\\b',
+        starts: {
+          // value container
+          end: /;|$/,
+          contains: [
+            HEX_COLOR,
+            VARIABLE,
+            hljs.APOS_STRING_MODE,
+            hljs.QUOTE_STRING_MODE,
+            hljs.CSS_NUMBER_MODE,
+            hljs.NUMBER_MODE,
+            hljs.C_BLOCK_COMMENT_MODE
+          ],
+          illegal: /\./,
+          relevance: 0
+        }
       }
     ]
   };

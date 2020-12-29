@@ -54,6 +54,16 @@ function areStringsEqualCaseInsensitive(testStr, referenceStr) {
     return true;
 }
 
+function isContextEdgeDelim(token) {
+    if (token.type !== TYPE.Delim) {
+        return false;
+    }
+
+    // Fix matching for unicode-range: U+30??, U+FF00-FF9F
+    // Probably we need to check out previous match instead
+    return token.value !== '?';
+}
+
 function isCommaContextStart(token) {
     if (token === null) {
         return true;
@@ -65,7 +75,7 @@ function isCommaContextStart(token) {
         token.type === TYPE.LeftParenthesis ||
         token.type === TYPE.LeftSquareBracket ||
         token.type === TYPE.LeftCurlyBracket ||
-        token.type === TYPE.Delim
+        isContextEdgeDelim(token)
     );
 }
 

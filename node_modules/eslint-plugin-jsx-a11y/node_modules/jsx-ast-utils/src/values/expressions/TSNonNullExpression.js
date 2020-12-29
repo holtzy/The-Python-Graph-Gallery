@@ -1,3 +1,5 @@
+const extractValueFromThisExpression = require('./ThisExpression').default;
+
 /**
  * Extractor function for a TSNonNullExpression type value node.
  * A TSNonNullExpression is accessing a TypeScript Non-Null Assertion
@@ -16,6 +18,10 @@ export default function extractValueFromTSNonNullExpression(value) {
   if (value.type === 'Identifier') {
     const { name } = value;
     return name;
+  }
+
+  if (value.type === 'ThisExpression') {
+    return extractValueFromThisExpression();
   }
 
   // does not contains properties & is not parenthesized
