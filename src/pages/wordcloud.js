@@ -7,13 +7,13 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Matplotlib } from "../components/MiscellaneousLogos"
 import { Col } from "react-bootstrap";
 import ChartImage from "../components/ChartImage";
 import SectionLogoWithOverlay from "../components/SectionLogoWithOverlay";
 import { chartTypesInfo } from "../util/sectionDescriptions"
 import { fullUrlToInternalLink } from "../util/utils";
 import CodeChunk from "../components/CodeChunk";
+import Spacing from "../components/Spacing";
 
 const logoToKeep = ['lollipop', 'barplot', 'treemap', 'circularPacking']
 const WordAlternativeLogos = () => {
@@ -63,7 +63,7 @@ export default function Wordcloud() {
 
   return (
 
-    <Layout title="Wordcloud">
+    <Layout title="Wordcloud" isTocEnabled>
       <TitleAndDescription
         title="Wordcloud"
         description={chartDescription}
@@ -84,9 +84,9 @@ export default function Wordcloud() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <br />
       </Container>
 
+      <Spacing />
 
       <div className="greySection" id="warning">
         <Container>
@@ -101,6 +101,8 @@ export default function Wordcloud() {
           <WordAlternativeLogos />
         </Container>
       </div>
+
+      <Spacing />
 
       <Container>
         <h2 id="Wordcloud">Wordclouds with.. the <code>wordcloud</code> library &#128512;</h2>
@@ -126,9 +128,10 @@ export default function Wordcloud() {
         </Row>
       </Container>
 
+      <Spacing />
 
       <Container>
-        <h2 id="Wordcloud">Wordclouds and custom shapes</h2>
+        <h2 id="Custom shapes">Wordclouds and custom shapes</h2>
         <p>
           It is a common need to apply a specific shape to the wordcloud.
           TODO. Make a bette image.
@@ -143,15 +146,21 @@ export default function Wordcloud() {
         </div>
       </Container>
 
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="ranking" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

@@ -11,6 +11,7 @@ import { Seaborn, Matplotlib } from "../components/MiscellaneousLogos"
 import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/barplot.html'>barplot</a> shows the relationship between a numeric and a categoric variable. Each entity of the categoric variable is represented as a bar. The size of the bar represents its numeric value. This section shows how to build a barplot with <code>Python</code>, using <code>Matplotlib</code> and <code>Seaborn</code>.";
@@ -38,7 +39,7 @@ export default function Heatmap() {
 
   return (
 
-    <Layout title="Barplot">
+    <Layout title="Barplot" isTocEnabled>
       <TitleAndDescription
         title="Barplot"
         description={chartDescription}
@@ -58,11 +59,9 @@ export default function Heatmap() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <br />
       </Container>
 
-
-
+      <Spacing />
 
       <Container>
         <h2 id="Matplotlib"><Matplotlib />Barplot with <code>Matplotlib</code></h2>
@@ -133,7 +132,7 @@ export default function Heatmap() {
         </Row>
       </Container>
 
-
+      <Spacing />
 
       <Container>
         <h2 id="Seaborn"><Seaborn />Barplot with <code>Seaborn</code></h2>
@@ -152,11 +151,10 @@ export default function Heatmap() {
         </Row>
       </Container>
 
-
-
+      <Spacing />
 
       <Container>
-        <h2 id="Matplotlib"><Matplotlib />Stacked and Grouped barplot with <code>Matplotlib</code></h2>
+        <h2 id="Stacked & Grouped"><Matplotlib />Stacked and Grouped barplot with <code>Matplotlib</code></h2>
         <p>
           <u>Stacked</u> and <u>Grouped</u> barplots are a variation of the more simple barplot. They display
           the value of a numeric variable for each group and subgroups of a dataset. Subgroups
@@ -183,17 +181,21 @@ export default function Heatmap() {
         </Row>
       </Container>
 
-
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="ranking" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

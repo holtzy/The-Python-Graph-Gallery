@@ -6,18 +6,11 @@ import Contact from "../components/Contact";
 import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
 import { Matplotlib } from "../components/MiscellaneousLogos"
-import ChartImage from "../components/ChartImage";
-import { Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk";
-
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/circularbarplot.html'>circular barplot</a> is pretty much the same as a <a href='https://www.python-graph-gallery.com/barplot'>barplot</a>, but using polar coordinates instead of cartesian coordinates. They are a bit tricky to build with <code>Python</code> and less accurate than usual barplot, but they come with an eye-catching effect that sometimes make them worth it.</p>";
-
-
-
 
 
 export default function Heatmap() {
@@ -25,11 +18,11 @@ export default function Heatmap() {
   return (
 
     <Layout title="Circular Barplot">
+
       <TitleAndDescription
         title="Circular Barplot"
         description={chartDescription}
       />
-
 
       <Container>
         <h2 id="Matplotlib"><Matplotlib />Circular barplot with <code>Matplotlib</code></h2>
@@ -47,17 +40,21 @@ export default function Heatmap() {
         </Row>
       </Container>
 
-
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="ranking" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

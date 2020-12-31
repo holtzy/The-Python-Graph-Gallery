@@ -7,13 +7,11 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Animation, Matplotlib } from "../components/MiscellaneousLogos"
+import { Animation } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import ChartImage from "../components/ChartImage";
-import SectionLogoWithOverlay from "../components/SectionLogoWithOverlay";
-import { chartTypesInfo } from "../util/sectionDescriptions"
-import { fullUrlToInternalLink } from "../util/utils";
 import CodeChunk from "../components/CodeChunk";
+import Spacing from "../components/Spacing";
 
 const quickCode = `# libraries
 import pandas
@@ -36,7 +34,7 @@ export default function Parallel() {
 
   return (
 
-    <Layout title="Parallel coordinate plot">
+    <Layout title="Parallel coordinate plot" isTocEnabled>
       <TitleAndDescription
         title="Parallel coordinate plot"
         description={chartDescription}
@@ -57,12 +55,12 @@ export default function Parallel() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <br />
       </Container>
 
+      <Spacing />
 
       <Container>
-        <h2 id="Wordcloud">Parallel coordinate chart with <code>Python</code> and <code>Pandas</code></h2>
+        <h2 id="Pandas">Parallel coordinate chart with <code>Python</code> and <code>Pandas</code></h2>
         <p>
           The following examples are dedicated to the <code>parallel_coordinates()</code> function
           of <code>Pandas</code>. It shows how to apply the most common types of customization.
@@ -77,9 +75,10 @@ export default function Parallel() {
         </Row>
       </Container>
 
+      <Spacing />
 
       <Container>
-        <h2 id="Quick"><Animation />Interactive parallel coordinate with <code>plotly</code></h2>
+        <h2 id="Plotly"><Animation />Interactive parallel coordinate with <code>plotly</code></h2>
         <p><code>Plotly</code> is a python library that makes the link with Javascript to build interactive charts that you can display in a browser.</p>
         <p>The following example is a parallel chart made with this library and the <code>parallel_coordinates()</code> function.</p>
         <div className="mx-auto">
@@ -92,17 +91,21 @@ export default function Parallel() {
         </Link>
       </Container>
 
-
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="ranking" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

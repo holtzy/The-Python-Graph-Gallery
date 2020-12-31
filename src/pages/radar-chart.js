@@ -13,6 +13,7 @@ import ChartImage from "../components/ChartImage";
 import SectionLogoWithOverlay from "../components/SectionLogoWithOverlay";
 import { chartTypesInfo } from "../util/sectionDescriptions"
 import { fullUrlToInternalLink } from "../util/utils";
+import Spacing from "../components/Spacing";
 
 const logoToKeep = ['lollipop', 'parallel', 'barplot', 'stackedBar']
 const SpiderAlternativeLogos = () => {
@@ -45,7 +46,7 @@ export default function Heatmap() {
 
   return (
 
-    <Layout title="Radar chart">
+    <Layout title="Radar chart" isTocEnabled>
       <TitleAndDescription
         title="Radar Chart"
         description={chartDescription}
@@ -65,6 +66,8 @@ export default function Heatmap() {
           <SpiderAlternativeLogos />
         </Container>
       </div>
+
+      <Spacing />
 
       <Container>
         <h2 id="Matplotlib"><Matplotlib /> Radar chart with <code>Matplotlib</code></h2>
@@ -95,17 +98,21 @@ export default function Heatmap() {
         </Link>
       </Container>
 
-
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="ranking" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

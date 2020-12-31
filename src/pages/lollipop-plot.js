@@ -11,6 +11,7 @@ import { Matplotlib } from "../components/MiscellaneousLogos"
 import ChartImage from "../components/ChartImage";
 import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk";
+import Spacing from "../components/Spacing";
 
 
 const chartDescription =
@@ -28,8 +29,6 @@ my_range=range(1,len(df.index)+1)
 # Make the plot
 plt.stem(ordered_df['values'])
 plt.xticks( my_range, ordered_df['group'])
-
-
 `
 
 
@@ -37,13 +36,12 @@ export default function Heatmap() {
 
   return (
 
-    <Layout title="Lollipop chart">
+    <Layout title="Lollipop chart" isTocEnabled>
+
       <TitleAndDescription
         title="Lollipop plot"
         description={chartDescription}
       />
-
-
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
@@ -63,11 +61,9 @@ export default function Heatmap() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <br />
       </Container>
 
-
-
+      <Spacing />
 
       <Container>
         <h2 id="Matplotlib"><Matplotlib />Lollipop plot with <code>Matplotlib</code></h2>
@@ -115,17 +111,21 @@ export default function Heatmap() {
         </Row>
       </Container>
 
-
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="ranking" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );
