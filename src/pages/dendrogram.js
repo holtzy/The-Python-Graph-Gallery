@@ -9,43 +9,27 @@ import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
 import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
 import ChartImage from "../components/ChartImage";
-import { Button, Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk";
-
+import { Button } from "react-bootstrap";
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/dendrogram.html'>dendrogram</a> is a network structure. It is constituted of a root node that gives birth to several nodes connected by edges or branches. It is used to represent a hierarchical structure or to display the result of a clustering algorithm.</p>";
-
-
-const quickCode = `# libraries
-import matplotlib.pyplot as plt
-import squarify    # pip install squarify (algorithm for treemap)
-import pandas as pd
-
-# Create a data frame with fake data
-df = pd.DataFrame({'nb_people':[8,3,4,2], 'group':["group A", "group B", "group C", "group D"] })
-
-# plot it
-squarify.plot(sizes=df['nb_people'], label=df['group'], alpha=.8 )
-plt.axis('off')
-plt.show()
-`
 
 
 export default function Dendrogram() {
 
   return (
 
-    <Layout title="Dendrogram">
+    <Layout title="Dendrogram" isTocEnabled>
+
       <TitleAndDescription
         title="Dendrogram"
         description={chartDescription}
       />
 
-
       <div className="greySection" id="related">
         <Container>
-          <h2 id="2_types">&#8505; &#65039; Two types of dendrogram</h2>
+          <h2 id="What is it?">&#8505; &#65039; Two types of dendrogram</h2>
           <p>It is important to understand that dendrograms are used in 2 very
             different conditions that are based on 2 different data inputs:</p>
           <ul>
@@ -59,9 +43,10 @@ export default function Dendrogram() {
         </Container>
       </div>
 
+      <Spacing />
 
       <Container>
-        <h2 id="Matplotlib"><Matplotlib />Dendrogram for clustering with <code>Matplotlib</code></h2>
+        <h2 id="Clustering & Matplotlib"><Matplotlib />Dendrogram for clustering with <code>Matplotlib</code></h2>
         <p>
           The <Link to='/400-basic-dendrogram'>first chart</Link> of this section explains how to build a basic dendrogram with Python and
           <code>matplotlib</code>. It starts from a numeric matrix, compute the similarity between each pair of item
@@ -92,15 +77,13 @@ export default function Dendrogram() {
             caption="Cut the dendrogram at a specific height"
             linkTo="/401-customised-dendrogram"
           />
-
         </Row>
       </Container>
 
-
-
+      <Spacing />
 
       <Container>
-        <h2 id="Seaborn"><Seaborn />Dendrogram, clustering and heatmaps with <code>Seaborn</code></h2>
+        <h2 id="Clustering & Seaborn"><Seaborn />Dendrogram, clustering and heatmaps with <code>Seaborn</code></h2>
         <p>
           It is very common to display the results of a clustering using a <Link to="/heatmap">heatmap</Link>
           with dendrograms around it. Fortunately the <code>Seaborn</code> library makes it a breeze.
@@ -136,8 +119,7 @@ export default function Dendrogram() {
         </Row>
       </Container>
 
-
-
+      <Spacing />
 
       <Container>
         <h2 id="Hierarchichal">Dendrogram for hierarchical datasets</h2>
@@ -148,7 +130,7 @@ export default function Dendrogram() {
         <p>TODO</p>
       </Container>
 
-
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
@@ -156,11 +138,13 @@ export default function Dendrogram() {
         </Container>
       </div>
 
+      <Spacing />
 
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

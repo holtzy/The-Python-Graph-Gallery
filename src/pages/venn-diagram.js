@@ -11,6 +11,7 @@ import { Matplotlib } from "../components/MiscellaneousLogos"
 import ChartImage from "../components/ChartImage";
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk";
+import Spacing from "../components/Spacing";
 
 
 const chartDescription =
@@ -31,13 +32,12 @@ export default function Venn() {
 
   return (
 
-    <Layout title="Venn Diagram">
+    <Layout title="Venn Diagram" isTocEnabled>
+
       <TitleAndDescription
         title="Venn Diagram"
         description={chartDescription}
       />
-
-
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
@@ -58,13 +58,13 @@ export default function Venn() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <br />
       </Container>
 
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
-          <h2 id="Matplotlib">&#8505; &#65039; A note on the <code>Matplotlib-venn</code> library</h2>
+          <h2 id="Matplotlib-venn pkg">&#8505; &#65039; A note on the <code>Matplotlib-venn</code> library</h2>
           <p>The <code>matplotlib-venn</code> library has been created
           by <a href="https://github.com/konstantint/matplotlib-venn">Konstantin Tretyakov</a>. Its official documentation
             is available on <a href="https://github.com/konstantint">github</a>. Take a minute to give him a ⭐ if you use it!
@@ -75,6 +75,7 @@ export default function Venn() {
         </Container>
       </div>
 
+      <Spacing />
 
       <Container>
         <h2 id="Matplotlib"><Matplotlib />Venn Diagram with <code>Matplotlib</code> and <code>matplotlib-venn</code></h2>
@@ -110,6 +111,7 @@ export default function Venn() {
         </div>
       </Container>
 
+      <Spacing />
 
       <Container>
         <h2 id="UpSet Chart">Upset plot as an alternative</h2>
@@ -123,17 +125,21 @@ export default function Venn() {
         </a>
       </Container>
 
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="partOfAWhole" />
         </Container>
       </div>
 
+      <Spacing />
 
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

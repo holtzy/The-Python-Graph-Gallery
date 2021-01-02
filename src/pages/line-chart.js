@@ -11,6 +11,7 @@ import { Matplotlib } from "../components/MiscellaneousLogos"
 import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
+import Spacing from "../components/Spacing";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/line.html'>line chart</a> displays the evolution of one or several numeric variables. It is one of the most common chart type, so it can be build using any python viz library, like <code>matplotlib</code>, <code>seaborn</code> or <code>plotly</code>.</p>";
@@ -30,13 +31,14 @@ export default function LinePlot() {
 
   return (
 
-    <Layout title="Line chart">
+    <Layout title="Line chart" isTocEnabled>
+
       <TitleAndDescription
         title="Line Chart"
         description={chartDescription}
       />
-      <Container>
 
+      <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
@@ -52,8 +54,11 @@ export default function LinePlot() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <br />
+      </Container>
 
+      <Spacing />
+
+      <Container>
         <h2 id="Matplotlib"><Matplotlib />Line chart with <code>Matplotlib</code></h2>
         <p>
           <code>Matplotlib</code> is a great fit to build line charts thanks to its <code>plot()</code> function. The <Link to='/120-line-chart-with-matplotlib'>first chart</Link> of
@@ -72,8 +77,12 @@ export default function LinePlot() {
             linkTo="/121-line-chart-customization"
           />
         </Row>
+      </Container>
 
-        <h2 id="Multiple"><Matplotlib />Line chart with several groups (<code>Matplotlib</code>)</h2>
+      <Spacing />
+
+      <Container>
+        <h2 id="Multiple groups"><Matplotlib />Line chart with several groups (<code>Matplotlib</code>)</h2>
         <p>
           A line chart with multiple groups allows to show the evolution of several items on the same figure. It
           is powerful but can quickly turn into a <a href='https://www.data-to-viz.com/caveat/spaghetti.html'>spaghetti chart</a>: when too many lines are displayed they get hard to
@@ -106,17 +115,23 @@ export default function LinePlot() {
             linkTo="/125-small-multiples-for-line-chart"
           />
         </Row>
-
       </Container>
+
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="evolution" />
         </Container>
       </div>
+
+      <Spacing />
+
       <Container>
         <Contact />
       </Container>
+
+      <Spacing />
 
     </Layout >
   );

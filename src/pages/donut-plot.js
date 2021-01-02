@@ -11,6 +11,7 @@ import { Matplotlib } from "../components/MiscellaneousLogos"
 import ChartImage from "../components/ChartImage";
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk";
+import Spacing from "../components/Spacing";
 
 
 const chartDescription =
@@ -38,13 +39,14 @@ export default function Donut() {
 
   return (
 
-    <Layout title="Donut plot">
+    <Layout title="Donut plot" isTocEnabled>
+
       <TitleAndDescription
         title="Donut Plot"
         description={chartDescription}
       />
 
-
+      <Spacing />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
@@ -64,9 +66,9 @@ export default function Donut() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <br />
       </Container>
 
+      <Spacing />
 
       <div className="greySection">
         <Container>
@@ -87,6 +89,7 @@ export default function Donut() {
         </Container>
       </div>
 
+      <Spacing />
 
       <Container>
         <h2 id="Matplotlib"><Matplotlib />Donut plot with <code>Matplotlib</code></h2>
@@ -120,7 +123,7 @@ export default function Donut() {
         </Row>
       </Container>
 
-
+      <Spacing />
 
       <div className="greySection" id="related">
         <Container>
@@ -128,11 +131,13 @@ export default function Donut() {
         </Container>
       </div>
 
+      <Spacing />
 
       <Container>
         <Contact />
       </Container>
 
+      <Spacing />
 
     </Layout >
   );

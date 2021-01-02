@@ -24,7 +24,7 @@ export default function TopNavbar() {
           <Nav.Link onClick={handleShow}>Chart types</Nav.Link>
 
           <NavDropdown title="Quick" id="basic-nav-dropdown">
-            <NavDropdown.Item className="menuItemMain" href="#action/3.1">Matplotlib<span className="menuItemLogo"><Matplotlib /></span></NavDropdown.Item>
+            <NavDropdown.Item className="menuItemMain" href="/matplotlib">Matplotlib<span className="menuItemLogo"><Matplotlib /></span></NavDropdown.Item>
             <NavDropdown.Item href="#action/3.1">Axis</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Title</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">Customization</NavDropdown.Item>
