@@ -9,7 +9,7 @@ import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
 import { Matplotlib } from "../components/MiscellaneousLogos"
-import { Col } from "react-bootstrap";
+import { ButtonGroup, Col, ToggleButton } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
@@ -31,7 +31,29 @@ plt.fill_between(x, y)
 plot.show()
 `
 
+const allStyle = ['seaborn-darkgrid', 'seaborn-notebook', 'classic', 'seaborn-ticks', 'grayscale', 'bmh', 'seaborn-talk', 'dark_background', 'ggplot', 'fivethirtyeight', '_classic_test', 'seaborn-colorblind', 'seaborn-deep', 'seaborn-whitegrid', 'seaborn-bright', 'seaborn-poster', 'seaborn-muted', 'seaborn-paper', 'seaborn-white', 'seaborn-pastel', 'seaborn-dark', 'seaborn', 'seaborn-dark-palette']
+
+
 export default function LinePlot() {
+
+  const [selectedParameter, setSelectedParameter] = React.useState(allStyle[0])
+
+  const allStyleButtons = allStyle.map(
+    (item, i) =>
+      <ToggleButton
+        type="radio"
+        active={true}
+        key={i}
+        className={"functionButton"}
+        variant="secondary"
+        size="sm"
+        value={item}
+        checked={selectedParameter === item}
+        onChange={(e) => setSelectedParameter(e.currentTarget.value)}
+      >
+        {item}
+      </ToggleButton>
+  )
 
   return (
 
@@ -118,25 +140,128 @@ export default function LinePlot() {
       <Container>
         <h2 id="Annotation"><Matplotlib />Annotation</h2>
         <p>
-          Annatation is a key part of a great visualization. It transforms a simple chart
+          Annotation is a key part of a great visualization. It transforms a simple chart
           in a whole piece of story telling. Before you share your graph with anyone,
-          make sure the key insight is explained.
+          make sure the key insight are highlighted with labels, shapes or color.
+        </p>
+        <p>
+          All those kind of annotation are built thanks to various matplotlib functions
+          like <code>annotate()</code> or <code>add_patch()</code>. The blogposts showcased below should get you started
+          with it.
         </p>
         <Row>
           <ChartImageContainer
-            imgName="191_Custom_axis1"
-            caption="Change the axis title and its appearance"
-            linkTo="/191-custom-axis-on-matplotlib-chart"
+            imgName="193_annotate1"
+            caption="Add a label with a segment"
+            linkTo="/193-annotate-matplotlib-chart"
           />
           <ChartImageContainer
-            imgName="191_Custom_axis2"
-            caption="Control axis labels and ticks look"
-            linkTo="/191-custom-axis-on-matplotlib-chart"
+            imgName="193_annotate2"
+            caption="Add a square to highlight an area"
+            linkTo="/193-annotate-matplotlib-chart"
           />
           <ChartImageContainer
-            imgName="191_Custom_axis6"
-            caption="Control axis limit with the xlim() function"
-            linkTo="/191-custom-axis-on-matplotlib-chart"
+            imgName="193_annotate3"
+            caption="Add a circle to highlight an area"
+            linkTo="/193-annotate-matplotlib-chart"
+          />
+          <ChartImageContainer
+            imgName="193_annotate4"
+            caption="Add a segment"
+            linkTo="/193-annotate-matplotlib-chart"
+          />
+          <ChartImageContainer
+            imgName="193_annotate5"
+            caption="Add vertical and horizontal ablines"
+            linkTo="/193-annotate-matplotlib-chart"
+          />
+          <ChartImageContainer
+            imgName="193_annotate6"
+            caption="Annotate with an equation"
+            linkTo="/193-annotate-matplotlib-chart"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Margin"><Matplotlib />Add margin around a <code>matplotlib</code> chart</h2>
+        <p>
+          It is a common struggle to deal with the margins around the chart. Fortunately this
+          is pretty straightforward thanks to the <code>subplots_adjust()</code> function as explained in the examples
+          below.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="192_increase_margin2"
+            caption="Increase the bottom margin of a matplotlib chart."
+            linkTo="/192-about-matplotlib-margins"
+          />
+          <ChartImageContainer
+            imgName="192_increase_margin4"
+            caption="Increase the top margin to fit a title"
+            linkTo="/192-about-matplotlib-margins"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Subplot"><Matplotlib />Split the figure in subplots</h2>
+        <p>
+          It can be really useful to split your graphic window in several
+          parts, in order to display several charts in the same time.
+          The <code>subplot()</code> function of <code>matplotlib</code> allows to
+          do it quickly with a great level of customization.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="194_matplotlib_subplot4"
+            caption="Split the figure in 4 charts of same size."
+            linkTo="/194-split-the-graphic-window-with-subplot"
+          />
+          <ChartImageContainer
+            imgName="194_matplotlib_subplot6"
+            caption="Split the figure with a custom layout"
+            linkTo="/192-about-matplotlib-margins"
+          />
+          <ChartImageContainer
+            imgName="194_matplotlib_subplot9"
+            caption="Manage chart size on subplots"
+            linkTo="/192-about-matplotlib-margins"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+
+      <Container>
+        <h2 id="Theme"><Matplotlib />Available style sheets</h2>
+        <p>
+          Matplotlib comes with a set of pre-built theme to style your chart easily.
+        </p>
+        <ButtonGroup size='sm' as='div' toggle>{allStyleButtons}</ButtonGroup>
+        <Link to='/199-matplotlib-style-sheets'>
+          <Button size="sm">Read more</Button>
+        </Link>
+        <Row>
+          <ChartImageContainer
+            imgName="194_matplotlib_subplot4"
+            caption="Split the figure in 4 charts of same size."
+            linkTo="/194-split-the-graphic-window-with-subplot"
+          />
+          <ChartImageContainer
+            imgName="194_matplotlib_subplot6"
+            caption="Split the figure with a custom layout"
+            linkTo="/192-about-matplotlib-margins"
+          />
+          <ChartImageContainer
+            imgName="194_matplotlib_subplot9"
+            caption="Manage chart size on subplots"
+            linkTo="/192-about-matplotlib-margins"
           />
         </Row>
       </Container>
