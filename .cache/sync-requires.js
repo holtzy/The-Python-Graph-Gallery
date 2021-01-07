@@ -28,6 +28,7 @@ exports.components = {
   "component---src-pages-lollipop-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/lollipop-plot.js"))),
   "component---src-pages-map-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/map.js"))),
   "component---src-pages-matplotlib-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/matplotlib.js"))),
+  "component---src-pages-network-chart-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/network-chart.js"))),
   "component---src-pages-parallel-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/parallel-plot.js"))),
   "component---src-pages-pie-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/pie-plot.js"))),
   "component---src-pages-radar-chart-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/radar-chart.js"))),

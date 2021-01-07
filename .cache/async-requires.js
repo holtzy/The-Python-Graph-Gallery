@@ -25,6 +25,7 @@ exports.components = {
   "component---src-pages-lollipop-plot-js": () => import("./../../../src/pages/lollipop-plot.js" /* webpackChunkName: "component---src-pages-lollipop-plot-js" */),
   "component---src-pages-map-js": () => import("./../../../src/pages/map.js" /* webpackChunkName: "component---src-pages-map-js" */),
   "component---src-pages-matplotlib-js": () => import("./../../../src/pages/matplotlib.js" /* webpackChunkName: "component---src-pages-matplotlib-js" */),
+  "component---src-pages-network-chart-js": () => import("./../../../src/pages/network-chart.js" /* webpackChunkName: "component---src-pages-network-chart-js" */),
   "component---src-pages-parallel-plot-js": () => import("./../../../src/pages/parallel-plot.js" /* webpackChunkName: "component---src-pages-parallel-plot-js" */),
   "component---src-pages-pie-plot-js": () => import("./../../../src/pages/pie-plot.js" /* webpackChunkName: "component---src-pages-pie-plot-js" */),
   "component---src-pages-radar-chart-js": () => import("./../../../src/pages/radar-chart.js" /* webpackChunkName: "component---src-pages-radar-chart-js" */),
