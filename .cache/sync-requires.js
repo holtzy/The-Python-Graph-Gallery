@@ -14,6 +14,7 @@ exports.components = {
   "component---src-pages-barplot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/barplot.js"))),
   "component---src-pages-boxplot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/boxplot.js"))),
   "component---src-pages-bubble-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/bubble-plot.js"))),
+  "component---src-pages-chord-diagram-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/chord-diagram.js"))),
   "component---src-pages-circular-barplot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/circular-barplot.js"))),
   "component---src-pages-connected-scatter-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/connected-scatter-plot.js"))),
   "component---src-pages-correlogram-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/correlogram.js"))),

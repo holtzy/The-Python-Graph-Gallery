@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-barplot-js": () => import("./../../../src/pages/barplot.js" /* webpackChunkName: "component---src-pages-barplot-js" */),
   "component---src-pages-boxplot-js": () => import("./../../../src/pages/boxplot.js" /* webpackChunkName: "component---src-pages-boxplot-js" */),
   "component---src-pages-bubble-plot-js": () => import("./../../../src/pages/bubble-plot.js" /* webpackChunkName: "component---src-pages-bubble-plot-js" */),
+  "component---src-pages-chord-diagram-js": () => import("./../../../src/pages/chord-diagram.js" /* webpackChunkName: "component---src-pages-chord-diagram-js" */),
   "component---src-pages-circular-barplot-js": () => import("./../../../src/pages/circular-barplot.js" /* webpackChunkName: "component---src-pages-circular-barplot-js" */),
   "component---src-pages-connected-scatter-plot-js": () => import("./../../../src/pages/connected-scatter-plot.js" /* webpackChunkName: "component---src-pages-connected-scatter-plot-js" */),
   "component---src-pages-correlogram-js": () => import("./../../../src/pages/correlogram.js" /* webpackChunkName: "component---src-pages-correlogram-js" */),
