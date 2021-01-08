@@ -110,6 +110,11 @@ export default function Chord() {
         <p>
           The <a href='https://graph-tool.skewed.de'>graph tool</a> library is a python library implemented in C++. It makes it highly efficient to draw networks containing many nodes. Graphics to come.
         </p>
+        <a href='https://graph-tool.skewed.de'>
+          <Button size="sm">
+            Official doc
+          </Button>
+        </a>
       </Container>
 
       <Spacing />
