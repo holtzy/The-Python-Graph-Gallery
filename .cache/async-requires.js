@@ -30,6 +30,7 @@ exports.components = {
   "component---src-pages-pie-plot-js": () => import("./../../../src/pages/pie-plot.js" /* webpackChunkName: "component---src-pages-pie-plot-js" */),
   "component---src-pages-radar-chart-js": () => import("./../../../src/pages/radar-chart.js" /* webpackChunkName: "component---src-pages-radar-chart-js" */),
   "component---src-pages-ridgeline-js": () => import("./../../../src/pages/ridgeline.js" /* webpackChunkName: "component---src-pages-ridgeline-js" */),
+  "component---src-pages-sankey-diagram-js": () => import("./../../../src/pages/sankey-diagram.js" /* webpackChunkName: "component---src-pages-sankey-diagram-js" */),
   "component---src-pages-scatter-plot-js": () => import("./../../../src/pages/scatter-plot.js" /* webpackChunkName: "component---src-pages-scatter-plot-js" */),
   "component---src-pages-stacked-area-plot-js": () => import("./../../../src/pages/stacked-area-plot.js" /* webpackChunkName: "component---src-pages-stacked-area-plot-js" */),
   "component---src-pages-streamchart-js": () => import("./../../../src/pages/streamchart.js" /* webpackChunkName: "component---src-pages-streamchart-js" */),

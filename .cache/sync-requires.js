@@ -33,6 +33,7 @@ exports.components = {
   "component---src-pages-pie-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/pie-plot.js"))),
   "component---src-pages-radar-chart-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/radar-chart.js"))),
   "component---src-pages-ridgeline-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/ridgeline.js"))),
+  "component---src-pages-sankey-diagram-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/sankey-diagram.js"))),
   "component---src-pages-scatter-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/scatter-plot.js"))),
   "component---src-pages-stacked-area-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/stacked-area-plot.js"))),
   "component---src-pages-streamchart-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/streamchart.js"))),
