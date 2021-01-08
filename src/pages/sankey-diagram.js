@@ -27,15 +27,15 @@ export default function Chord() {
       />
 
       <Container>
-        <h2 id="Chord library"><Plotly />Sankey with the <code>Chord</code> library</h2>
+        <h2 id="Plotly"><Plotly />Sankey diagram with <code>Plotly</code></h2>
         <p>
-          Chord diagram is not a very usual type of chart. The most common library like <code>Matplotlib</code> and
-          <code>Seaborn</code> will not be of any help to build one. Fortunately, the <code>chord</code> library wraps some functions
-          coming from javascript and the <a href='https://www.d3-graph-gallery.com'>d3.js library</a>.
+          <code>Plotly</code> is an awesome <code>Python</code> library for interactive data visualization. It is most probably
+          the best tool to create a Sankey Diagram. Its <code>Sankey()</code> function handles most of the business
+          logic for you, allowing to get a figure in a couple of lines of code.
         </p>
-        <p>
-          The examples below will guide you through a migration dataset already discussed in <a href='https://www.data-to-viz.com/graph/chord.html'>data-to-viz.com</a>. It starts
-          by describing the input dataset and the basic usage of the <code>Chord()</code> function.
+        <p>The examples below should quickly get you started with this <Link to='/sankey-diagram-with-python-and-plotly'>minimal starting example</Link>. They
+        then describes the most common of type of customization you probably want to apply to your figure
+        to make it appealing.
         </p>
         <Link to='/chord-diagram-python-chord'>
           <Button size="sm">
@@ -46,7 +46,7 @@ export default function Chord() {
           <ChartImageContainer
             imgName="chord-diagram-chord-library"
             caption="Most basic chord diagram example from a random matrix."
-            linkTo="/chord-diagram-python-chord"
+            linkTo="/sankey-diagram-with-python-and-plotly"
           />
         </Row>
       </Container>
@@ -54,44 +54,18 @@ export default function Chord() {
       <Spacing />
 
       <Container>
-        <h2 id="Bokeh">Chord diagram with <code>Bokeh</code></h2>
+        <h2 id="Matplotlib"><Matplotlib />Sankey diagram with <code>Matplotlib</code></h2>
         <p>
-          <a href='https://bokeh.org'>Bokeh</a> is a pretty neat python library for data visualization. It provides a <code>chord_from_df()</code> function
-          dedicated to chord diagram.
+          The <code>matplotlib</code> library offers a <code>Sankey()</code> function that also allows to build sankey diagrams.
+          It is a bit limited in my opinion, since it only allows to visualize flows passing through one unique group
+          as shown in the example below.
         </p>
-        <p>
-          The example below comes straight from their <a href='https://docs.bokeh.org/en/0.12.5/docs/gallery/chord_chart.html'>documentation</a>.
-          It represents the relationship between each character of the book <i>Les misérables</i>.
-        </p>
+        <p>The example below comes from the <a href='https://matplotlib.org/api/sankey_api.html'>official doc</a>. Have a look to the <a href='https://python-graph-gallery.com/220-sankey-diagram-with-matplotlib/'>code <here></here></a>.</p>
         <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
-          <Link to='/231-chord-diagram-with-bokeh'>
-            <ChartImage imgName={'231_Chord_Bokeh'} caption={'Simple chord diagram with the Bokeh python library'} />
+          <Link to='/220-sankey-diagram-with-matplotlib'>
+            <ChartImage imgName={'220_Sankey_Matplotlib'} caption={'Basic Sankey diagram with Matplotlib'} />
           </Link>
         </div>
-      </Container>
-
-      <Spacing />
-
-      <Container>
-        <h2 id="Plotly">Chord diagram with <code>Plotly</code></h2>
-        <p>
-          <code>plotly</code> is a powerful python library for data visualization and also allows
-          to build chord diagrams. The good part is that it builds interactive charts. However
-          if comes with a lot of code complexity so be ready to spend several hours before getting
-          your first figure. &#128542;
-        </p>
-        <p>The example below shows the relationship between several people on facebook. Have a look
-        to the <a href='https://plotly.com/python/v3/filled-chord-diagram/'>plotly doc</a> for explanation and
-        code. Hover over a connection to get names and flow value.
-        </p>
-        <div className="mx-auto">
-          <iframe src="/interactiveCharts/plotly_chord_diagram.html" title="chord diagram with plotly" style={{ border: "none", width: '800px', height: '500px' }}></iframe>
-        </div>
-        <a href='https://plotly.com/python/v3/filled-chord-diagram/'>
-          <Button size="sm">
-            See code
-          </Button>
-        </a>
       </Container>
 
       <Spacing />
