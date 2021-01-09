@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-about-js": () => import("./../../../src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-all-charts-js": () => import("./../../../src/pages/all-charts.js" /* webpackChunkName: "component---src-pages-all-charts-js" */),
+  "component---src-pages-arc-diagram-js": () => import("./../../../src/pages/arc-diagram.js" /* webpackChunkName: "component---src-pages-arc-diagram-js" */),
   "component---src-pages-area-plot-js": () => import("./../../../src/pages/area-plot.js" /* webpackChunkName: "component---src-pages-area-plot-js" */),
   "component---src-pages-barplot-js": () => import("./../../../src/pages/barplot.js" /* webpackChunkName: "component---src-pages-barplot-js" */),
   "component---src-pages-boxplot-js": () => import("./../../../src/pages/boxplot.js" /* webpackChunkName: "component---src-pages-boxplot-js" */),
