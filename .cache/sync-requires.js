@@ -23,6 +23,7 @@ exports.components = {
   "component---src-pages-density-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/density-plot.js"))),
   "component---src-pages-donut-plot-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/donut-plot.js"))),
   "component---src-pages-heatmap-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/heatmap.js"))),
+  "component---src-pages-hierarchical-edge-bundling-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/hierarchical-edge-bundling.js"))),
   "component---src-pages-histogram-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/histogram.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/index.js"))),
   "component---src-pages-line-chart-js": hot(preferDefault(require("/Users/yan.holtz/Desktop/The-Python-Graph-Gallery/src/pages/line-chart.js"))),

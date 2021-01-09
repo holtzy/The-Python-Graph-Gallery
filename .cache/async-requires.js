@@ -20,6 +20,7 @@ exports.components = {
   "component---src-pages-density-plot-js": () => import("./../../../src/pages/density-plot.js" /* webpackChunkName: "component---src-pages-density-plot-js" */),
   "component---src-pages-donut-plot-js": () => import("./../../../src/pages/donut-plot.js" /* webpackChunkName: "component---src-pages-donut-plot-js" */),
   "component---src-pages-heatmap-js": () => import("./../../../src/pages/heatmap.js" /* webpackChunkName: "component---src-pages-heatmap-js" */),
+  "component---src-pages-hierarchical-edge-bundling-js": () => import("./../../../src/pages/hierarchical-edge-bundling.js" /* webpackChunkName: "component---src-pages-hierarchical-edge-bundling-js" */),
   "component---src-pages-histogram-js": () => import("./../../../src/pages/histogram.js" /* webpackChunkName: "component---src-pages-histogram-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-line-chart-js": () => import("./../../../src/pages/line-chart.js" /* webpackChunkName: "component---src-pages-line-chart-js" */),
