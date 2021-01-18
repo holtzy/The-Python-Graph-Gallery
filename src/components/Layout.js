@@ -1,16 +1,19 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Footer from "./Footer.js";
-import TopNavbar from "./TopNavbar.js";
-import SideLogos from "./SideLogos.js"
+import PropTypes from 'prop-types';
+
+import Footer from "../components/Footer";
+import TopNavbar from "../components/TopNavbar";
+import SideLogos from "../components/SideLogos"
 import TableOfContent from '../components/TableOfContent'
 
 // Import Styles = bootstrap + custom
 import "../styles/style.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-// Layout component: add header + footer to content
-export default function Layout({ children, title, isTocEnabled }) {
+// Layout component: add header + footer + TOC to content
+export default function Layout({ children, title, isTocEnabled, chartType }) {
+
   return (
     <>
       <Helmet>
@@ -36,7 +39,14 @@ export default function Layout({ children, title, isTocEnabled }) {
 
       <Footer />
 
-      { isTocEnabled && <TableOfContent />}
+      { isTocEnabled && <TableOfContent chartType={chartType} />}
     </>
   );
 }
+
+Layout.propTypes = {
+  children: PropTypes.any,
+  title: PropTypes.string,
+  isTocEnabled: PropTypes.bool,
+  chartType: PropTypes.string
+};

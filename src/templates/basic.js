@@ -20,7 +20,7 @@ export default function Template({ data }) {
     slug
   } = data.jupyterNotebook.metadata;
   return (
-    <Layout title={title} isTocEnabled>
+    <Layout title={title} isTocEnabled chartType={chartType} >
 
       <TitleAndDescription
         title={title}

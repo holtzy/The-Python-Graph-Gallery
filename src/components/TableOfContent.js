@@ -2,6 +2,11 @@
 import './tableOfContent.css'
 
 import React, { useState, useEffect } from 'react'
+import PropTypes from 'prop-types';
+import { chartTypesInfo } from '../util/sectionDescriptions';
+import { fullUrlToInternalLink } from '../util/utils';
+import { Link } from 'gatsby';
+import SectionLogo from './SectionLogo';
 
 const accumulateOffsetTop = (el, totalOffset = 0) => {
   while (el) {
@@ -11,7 +16,23 @@ const accumulateOffsetTop = (el, totalOffset = 0) => {
   return totalOffset
 }
 
-export default function TableOfContent() {
+const ChartTypeLink = ({ chartType }) => {
+  const chartDescription = chartTypesInfo.filter(chart => chart.id === chartType)[0]
+  const url = fullUrlToInternalLink(chartDescription.pythonURL)
+  return (
+    <div style={{ width: "50px", marginLeft: "16px", marginTop: "25px" }}>
+      <Link to={url}>
+        <SectionLogo chartType={chartDescription.logo} />
+      </Link>
+    </div>
+  )
+}
+
+ChartTypeLink.propTypes = {
+  chartType: PropTypes.string
+};
+
+export default function TableOfContent({ chartType }) {
 
   const [headings, setHeadings] = useState({
     titles: [],
@@ -70,7 +91,13 @@ export default function TableOfContent() {
         >
           {title}
         </p>
-      ))}
-    </div>
+      ))
+      }
+      {chartType && <ChartTypeLink chartType={chartType} />}
+    </div >
   )
 }
+
+TableOfContent.propTypes = {
+  chartType: PropTypes.string
+};
