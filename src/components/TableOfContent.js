@@ -26,7 +26,6 @@ export default function TableOfContent() {
   useEffect(() => {
     const selector = ["main h2", "main h3"]
     const nodes = Array.from(document.querySelectorAll(selector))
-    console.log("nodes", nodes)
     const titles = nodes.map(node => ({
       title: node.id,
       depth: Number(node.nodeName[1])

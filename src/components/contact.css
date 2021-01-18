@@ -4,10 +4,13 @@
     align-items: center;
 }
 
+/* Override the usual h2 title here, but keep h2 to be included in TOC */
 .contactSection .contactTitle {
     text-transform: uppercase;
-    font-size: 40px;
-    font-family: 'Montserrat'
+    font-size: 40px !important;
+    font-family: 'Montserrat' !important;
+    width: inherit;
+    border: none !important;
 }
 
 .contactSection .contactText {

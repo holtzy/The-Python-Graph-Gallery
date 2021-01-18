@@ -2,6 +2,8 @@ import "./basic.css";
 
 import React from "react";
 import { graphql } from "gatsby";
+import PropTypes from 'prop-types';
+
 import Layout from "../components/Layout";
 import Container from "react-bootstrap/Container";
 import TitleAndDescription from "../components/TitleAndDescription";
@@ -15,6 +17,7 @@ export default function Template({ data }) {
     description,
     family,
     chartType,
+    slug
   } = data.jupyterNotebook.metadata;
   return (
     <Layout title={title} isTocEnabled>
@@ -44,7 +47,7 @@ export default function Template({ data }) {
       <Spacing />
 
       <Container>
-        <Contact />
+        <Contact pageSlug={slug} isNotebook />
       </Container>
 
       <Spacing />
@@ -52,6 +55,10 @@ export default function Template({ data }) {
     </Layout>
   );
 }
+
+Template.propTypes = {
+  data: PropTypes.object
+};
 
 export const query = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -64,6 +71,7 @@ export const query = graphql`
         family
         chartType
         keywords
+        slug
       }
     }
   }
