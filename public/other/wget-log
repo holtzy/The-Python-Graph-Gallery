@@ -1,11 +1,0 @@
---2020-11-06 22:15:47--  https://commons.wikimedia.org/w/index.php?title=File:Matplotlib_icon.svg
-Resolving commons.wikimedia.org (commons.wikimedia.org)... 91.198.174.192
-Connecting to commons.wikimedia.org (commons.wikimedia.org)|91.198.174.192|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [text/html]
-Saving to: ‘index.php?title=File:Matplotlib_icon.svg’
-
-           index.php?     [<=>                       ]       0  --.-KB/s               index.php?title=File:     [ <=>                      ]  48,47K  --.-KB/s    in 0,1s    
-
-2020-11-06 22:15:48 (437 KB/s) - ‘index.php?title=File:Matplotlib_icon.svg’ saved [49635]
-
