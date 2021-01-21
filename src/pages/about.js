@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Contact from "../components/Contact";
 
 const chartDescription =
-  "<p>How and why this website has been created</p>";
+  "<p>The Python Graph Gallery displays hundreds of charts made with Python, together with their reproducible code.</p>";
 
 
 export default function About() {

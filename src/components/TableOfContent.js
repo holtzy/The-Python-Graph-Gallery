@@ -47,8 +47,10 @@ export default function TableOfContent({ chartType }) {
   useEffect(() => {
     const selector = ["main h2", "main h3"]
     const nodes = Array.from(document.querySelectorAll(selector))
+
+    console.log("nodes", nodes)
     const titles = nodes.map(node => ({
-      title: node.id,
+      title: node.id || node.innerHTML,
       depth: Number(node.nodeName[1])
     }))
     // Compute the minimum heading depth. Will be subtracted from each heading's

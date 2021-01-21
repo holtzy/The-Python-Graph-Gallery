@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  // siteMetadata added here can now be used anywhere in the website thanks to a graphQL query
   siteMetadata: {
     title: "The Python Graph Gallery",
     description: "A gallery of charts made with Python",
