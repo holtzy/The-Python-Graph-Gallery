@@ -11,7 +11,7 @@ const chartDescription =
 export default function About() {
 
   return (
-    <Layout title="About">
+    <Layout title="About" isTocEnabled>
 
       <TitleAndDescription
         title="About"

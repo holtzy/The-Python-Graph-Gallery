@@ -14,20 +14,7 @@ import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
 
 const chartDescription =
-  "<p>This section is dedicated to background maps. It explains what are the main ways to build them with Python. It is the foundation of the next sections that will add some data on top of it.</p>";
-
-const quickCode = `# library
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Create data
-x=range(1,6)
-y=[1,4,6,8,4]
-
-# Area plot
-plt.fill_between(x, y)
-plot.show()
-`
+  "<p>The first step of any geo-spatial data analysis is to draw the background map of the area of interest. This section explains what are the main ways to build it with <code>Python</code>. It is the foundation of the next sections that will add some data on top of it.</p>";
 
 export default function BackgroundMap() {
 
@@ -40,55 +27,27 @@ export default function BackgroundMap() {
         description={chartDescription}
       />
 
-      <Container>
-        <h2 id="Quick">&#9201; Quick start</h2>
-        <Row className="align-items-center">
-          <Col md={6}>
-            <p>There are 2 main ways to build an area chart with Matplotlib. In both case it requires 2 numeric vectors of values as input.</p>
-            <ul>
-              <li>The <code>fill_between()</code> function</li>
-              <li>The <code>stackplot()</code> function that is more useful for <Link to='/stacked-area-plot'>stacked area</Link> charts</li>
-            </ul>
-          </Col>
-          <Col md={6}>
-            <Link to={"/240-basic-area-chart"}>
-              <ChartImage imgName="240_basic_area_chart"
-                caption="The most basic area chart one can make with python and matplotlib" />
-            </Link>
-          </Col>
-        </Row>
-        <CodeChunk>{quickCode}</CodeChunk>
-      </Container>
-
       <Spacing />
 
       <Container>
-        <h2 id="Folium">Area chart with <code>Folium</code></h2>
+        <h2 id="Intro">🔎 Input format and package overview</h2>
         <p>
-          <code>Folium</code> is a Python library wrapping the <code>Leaflet.js</code> library. It allows to easily manage your data with <code>python</code> and make interactive map using the power of <code>Javascript</code>. Click <Link to='/288-map-background-with-folium'>here</Link> to see the code of these 4 maps.
+          Geo-spatial data visualization is always performed in 2 main steps. You
+          have to pick the right option for each step depending on your needs:
         </p>
-        <Row>
-          <ChartImageContainer
-            imgName="240_basic_area_chart"
-            caption="The most basic area chart one can make with python and matplotlib"
-            linkTo="/240-basic-area-chart"
-          />
-          <ChartImageContainer
-            imgName="241_custom_area_chart1"
-            caption="Control chart color (Matplotlib)"
-            linkTo="/241-improve-area-chart"
-          />
-          <ChartImageContainer
-            imgName="241_custom_area_chart2"
-            caption="Control line color"
-            linkTo="/241-improve-area-chart"
-          />
-        </Row>
-        <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
-          <Link to='/243-area-chart-with-white-grid'>
-            <ChartImage imgName={'243_another_area_chart'} caption={'Area chart with custom grid'} />
-          </Link>
-        </div>
+        <ul>
+          <li>
+            <u>Find region boundaries</u>. This information can be retrieved using:
+            <ul>
+              <li>a <a href="#shape">shape file</a>. The <code>geopandas</code> library is the best way to read this file with Python.</li>
+              <li>a <u>geoJson file</u></li>
+              <li>a python library like <code>xxx</code> or <code>xxx</code> providing the information for specific areas</li>
+              <li><code>google map</code> or <code>open street map</code>.</li>
+            </ul>
+          </li>
+
+          <li><u>Manipulate and plot it</u></li>
+        </ul>
       </Container>
 
       <Spacing />
