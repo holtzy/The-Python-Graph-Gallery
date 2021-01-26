@@ -24,7 +24,7 @@ export default function Template({ data }) {
 
       <TitleAndDescription
         title={title}
-        description={description}
+        description={'<p>' + description + '</p>'}
         chartType={chartType}
       />
 

@@ -1,5 +1,7 @@
 import "./titleAndDescription.css";
 import React from "react";
+import PropTypes from 'prop-types';
+
 import SocialMediaButtons from "./SocialMediaButtons";
 import Button from "react-bootstrap/Button";
 import { Link } from "gatsby";
@@ -14,7 +16,7 @@ export default function TitleAndDescription({ title, description, chartType }) {
 
   return (
     <div className="titleAndDescription">
-      <h1>{title}</h1>
+      <h1 className="mainTitle">{title}</h1>
       <hr className="smallHr" />
       <SocialMediaButtons />
       <div
@@ -34,3 +36,9 @@ export default function TitleAndDescription({ title, description, chartType }) {
     </div>
   );
 }
+
+TitleAndDescription.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  chartType: PropTypes.string
+};

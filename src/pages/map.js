@@ -29,25 +29,69 @@ export default function BackgroundMap() {
 
       <Spacing />
 
-      <Container>
-        <h2 id="Intro">🔎 Input format and package overview</h2>
-        <p>
-          Geo-spatial data visualization is always performed in 2 main steps. You
-          have to pick the right option for each step depending on your needs:
+      <div className="greySection" id="related">
+        <Container>
+          <h2 id="Overview">🔎  Input format and package overview ⭐ </h2>
+          <p>
+            A map is basically a set of polygons displayed on a 2 dimensional canvas. There
+            are two problems you need to solve when building one:
         </p>
-        <ul>
-          <li>
-            <u>Find region boundaries</u>. This information can be retrieved using:
-            <ul>
-              <li>a <a href="#shape">shape file</a>. The <code>geopandas</code> library is the best way to read this file with Python.</li>
-              <li>a <u>geoJson file</u></li>
-              <li>a python library like <code>xxx</code> or <code>xxx</code> providing the information for specific areas</li>
-              <li><code>google map</code> or <code>open street map</code>.</li>
-            </ul>
-          </li>
+          <ul>
+            <li>
+              <u>Where to find polygon coordinates</u>. It can come from:
+              <ul>
+                <li>a <b>shape file</b> or a <b>geoJson file</b>. That's 2 different ways to store the information. The <code>geopandas</code> package is the best way to read those file formats with Python.</li>
+                <li>a <b>python library</b> like <code>geopandas</code> or <code>basemap</code> providing the information for common location like the US.</li>
+                <li><b>google map</b> or <b>open street map</b>.</li>
+              </ul>
+            </li>
 
-          <li><u>Manipulate and plot it</u></li>
-        </ul>
+            <br />
+
+            <li>
+              <u>How to plot those polygons?</u>
+              <ul>
+                <li>Once you get a <code>geodataframe</code> thanks to the <code>geopandas</code> package, <code>geoplot</code> is your best choice to build a static map</li>
+                <li>If you need an interactive map from a <code>geodataframe</code>, <code>plotly</code> is a good option.</li>
+                <li>If you want to use google map style maps, <code>folium</code> is the way to go.</li>
+              </ul>
+            </li>
+          </ul>
+        </Container>
+      </div>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Geopandas & Geoplot"><code>Geopandas</code> and <code>GeoPlot</code></h2>
+        <p>
+          <code>Seaborn</code> is another great alternative to build an area chart with <code>python</code>. The below examples
+          show how to start basic, apply usual customization, and use the small multiple technique
+          for when you have several groups to compare.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="map-read-geojson-with-python-geopandas"
+            caption="How to read a geoJson file with geopandas and transform it to a geodataframe."
+            linkTo="/map-read-geojson-with-python-geopandas"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Geopandas & Geoplot"><code>Folium</code> for google maps style maps</h2>
+        <p>
+          <code>Seaborn</code> is another great alternative to build an area chart with <code>python</code>. The below examples
+          show how to start basic, apply usual customization, and use the small multiple technique
+          for when you have several groups to compare.
+        </p>
+        <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
+          <Link to='/242-area-chart-and-faceting'>
+            <ChartImage imgName={'242_area_chart_and_faceting'} caption={'Area chart with small multiple, seaborn'} />
+          </Link>
+        </div>
       </Container>
 
       <Spacing />

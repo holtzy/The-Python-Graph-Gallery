@@ -47,8 +47,6 @@ export default function TableOfContent({ chartType }) {
   useEffect(() => {
     const selector = ["main h2", "main h3"]
     const nodes = Array.from(document.querySelectorAll(selector))
-
-    console.log("nodes", nodes)
     const titles = nodes.map(node => ({
       title: node.id || node.innerHTML,
       depth: Number(node.nodeName[1])
@@ -90,9 +88,8 @@ export default function TableOfContent({ chartType }) {
               block: `center`,
             })
           }}
-        >
-          {title}
-        </p>
+          dangerouslySetInnerHTML={{ __html: title }}
+        />
       ))
       }
       {chartType && <ChartTypeLink chartType={chartType} />}
