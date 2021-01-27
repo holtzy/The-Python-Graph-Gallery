@@ -1,4 +1,5 @@
 {
     "editor.formatOnSave": true,
-    "editor.wordWrapColumn": 150
+    "editor.wordWrapColumn": 150,
+    "jupyter.jupyterServerType": "local"
 }
