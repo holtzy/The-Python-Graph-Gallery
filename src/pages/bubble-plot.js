@@ -16,16 +16,19 @@ import Spacing from "../components/Spacing";
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/bubble.html'>bubble plot</a> is a <a href='https://www.python-graph-gallery.com/scatter-plot'>scatterplot</a> where the circle size is mapped to the value of a third numeric variable. This section shows many bubble plots made with <code>Python</code>, using both the <code>Matplotlib</code> and <code>Seaborn</code> libraries.</p>";
 
-const quickCode = `# library
+const quickCode = `# libraries
+import matplotlib.pyplot as plt
 import seaborn as sns
-import pandas as pd
-import numpy as np
+from gapminder import gapminder # data set
 
-# Create a dataset
-df = pd.DataFrame(np.random.random((5,5)), columns=["a","b","c","d","e"])
+# data
+data = gapminder.loc[gapminder.year == 2007]
 
-# Default heatmap
-p1 = sns.heatmap(df)
+# use the scatterplot function to build the bubble map
+sns.scatterplot(data=data, x="gdpPercap", y="lifeExp", size="pop", legend=False, sizes=(20, 2000))
+
+# show the graph
+plt.show()
 `
 
 export default function Heatmap() {
@@ -44,12 +47,14 @@ export default function Heatmap() {
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p>TODO.🔥</p>
+            <p>The <code>scatterplot()</code> function of <code>seaborn</code> also allows to build bubble charts.
+            Indeed, it has a <code>size</code> parameter that controls circle size according to a numeric
+            variable of the dataset.🔥</p>
           </Col>
           <Col md={6}>
-            <Link to={"/90-heatmaps-with-various-input-format"}>
-              <ChartImage imgName="90_Input_format_for_heatmap1"
-                caption="Basic heatmap with Python and Seaborn from various data input formats." />
+            <Link to={"/bubble-plot-with-seaborn"}>
+              <ChartImage imgName="bubble-plot-with-seaborn"
+                caption="Basic bubble chart with Python and Seaborn." />
             </Link>
           </Col>
         </Row>
@@ -62,13 +67,19 @@ export default function Heatmap() {
       <Container>
         <h2 id="Seaborn"><Seaborn />Bubble plot with <code>Seaborn</code></h2>
         <p>
-          TODO.
+          <code>Seaborn</code> is the best tool to quickly build a quality bubble chart. The example below are based on the
+          famous <code>gapminder</code> dataset that shows the relationship between gdp per capita, life expectancy and population
+          of world countries.
+        </p>
+        <p>
+          The examples below start simple by calling the <code>scatterplot()</code> function with the minimum set of parameters. It then show
+          how to change bubble colors to represent a fourth variable, improve general styling, tweak the legend and more.
         </p>
         <Row>
           <ChartImageContainer
-            imgName="90_Input_format_for_heatmap1"
-            caption="The heatmap() function and how to apply it to any kind of data input"
-            linkTo="/90-heatmaps-with-various-input-format"
+            imgName="bubble-plot-with-seaborn"
+            caption="Basic bubble chart with Python and Seaborn."
+            linkTo="/bubble-plot-with-seaborn"
           />
         </Row>
       </Container>
