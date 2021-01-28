@@ -236,7 +236,7 @@ export const chartTypesInfo = [
     family: "map",
     logo: "MapHexbin150",
     dataToVizURL: "https://www.data-to-viz.com/graph/hexbinmap.html",
-    pythonURL: "https://python-graph-gallery.com/boxplot/hexbin-map/",
+    pythonURL: "https://python-graph-gallery.com/hexbin-map/",
     label: "Hexbin",
   },
   {
