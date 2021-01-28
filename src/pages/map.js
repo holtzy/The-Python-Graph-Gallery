@@ -12,6 +12,7 @@ import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
+import { Button } from "react-bootstrap";
 
 const chartDescription =
   "<p>The first step of any geo-spatial data analysis is to draw the background map of the area of interest. This section explains what are the main ways to build it with <code>Python</code>. It is the foundation of the next sections that will add some data on top of it.</p>";
@@ -81,17 +82,27 @@ export default function BackgroundMap() {
       <Spacing />
 
       <Container>
-        <h2 id="Geopandas & Geoplot"><code>Folium</code> for google maps style maps</h2>
+        <h2 id="Folium"><code>Folium</code> for google maps style maps</h2>
         <p>
-          <code>Seaborn</code> is another great alternative to build an area chart with <code>python</code>. The below examples
-          show how to start basic, apply usual customization, and use the small multiple technique
-          for when you have several groups to compare.
+          <code>Folium</code> is a wrapper of the <code>leaflet.js</code> javascript library. It allows to
+          make all the data wrangling with python, and benefit the power of <code>javascript</code> for interactive
+          data visualization.
         </p>
-        <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
-          <Link to='/242-area-chart-and-faceting'>
-            <ChartImage imgName={'242_area_chart_and_faceting'} caption={'Area chart with small multiple, seaborn'} />
-          </Link>
+        <p>The map below has been created with folium... with 1 line of code only! 😍</p>
+        <div className="mx-auto">
+          <iframe src="/interactiveCharts/288_basic_folium_map.html" title="Basic map with folium" style={{ border: "none", width: '800px', height: '300px' }}></iframe>
         </div>
+        <Link to='/288-map-background-with-folium'>
+          <Button size="sm">See code</Button>
+        </Link>
+        <br /><br />
+        <p><code>Folium</code> allows different types of background tiles. Here is an example with a tile called <code>Stamen Toner</code>:</p>
+        <div className="mx-auto">
+          <iframe src="/interactiveCharts/288_basic_folium_map_toner.html" title="Folium and customized tile" style={{ border: "none", width: '800px', height: '300px' }}></iframe>
+        </div>
+        <Link to='/288-map-background-with-folium'>
+          <Button size="sm">See code</Button>
+        </Link>
       </Container>
 
       <Spacing />
@@ -108,6 +119,7 @@ export default function BackgroundMap() {
             <ChartImage imgName={'242_area_chart_and_faceting'} caption={'Area chart with small multiple, seaborn'} />
           </Link>
         </div>
+        <p></p>
       </Container>
 
       <Spacing />

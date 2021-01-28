@@ -15,7 +15,7 @@ import FunctionExploration from '../components/FunctionExploration'
 import Spacing from "../components/Spacing";
 
 const chartDescription =
-  "<p>Violinplots allow to visualize the distribution of a numeric variable for one or several groups. It is really close from a boxplot, but allows a deeper understanding of the density. Violins are particularly adapted when the amount of data is huge and showing individual observations gets impossible. Seaborn is particularly adapted to realize them through its violin function. Violinplots are a really convenient way to show the data and would probably deserve more attention compared to boxplots that can sometimes hide features of the data..</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/violin.html'>violint plot</a> allow to visualize the distribution of a numeric variable for one or several groups. <code>Seaborn</code> is particularly adapted to build it thanks to its <code>violin()</code> function. Violinplots deserve more attention compared to <a href='https://www.python-graph-gallery.com/boxplot'>boxplots</a> that can sometimes hide features of the data.</p>";
 
 const quickCode = `# library & dataset
 import seaborn as sns
