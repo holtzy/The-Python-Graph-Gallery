@@ -55,11 +55,23 @@ export default function HexbinMap() {
         </p>
         <Row>
           <ChartImageContainer
-            imgName="map-read-geojson-with-python-geopandas"
+            imgName="hexbin-map-from-geojson-python-1"
             caption="Most basic hexbin map from geoJson with python."
             linkTo="/hexbin-map-from-geojson-python"
           />
+          <ChartImageContainer
+            imgName="hexbin-map-from-geojson-python-2"
+            caption="Compute polygon centroid to add labels."
+            linkTo="/hexbin-map-from-geojson-python"
+          />
         </Row>
+        <br /><br />
+        <p>This is what you get with a bit of <code>matplotlib</code> tweaking:</p>
+        <div style={{ margin: "0 auto", padding: 0 }}>
+          <Link to='/hexbin-map-from-geojson-python'>
+            <ChartImage imgName={'hexbin-map-from-geojson-python-orig'} caption={'Clean hexbin map with python, geopandas and matplotlib'} />
+          </Link>
+        </div>
       </Container>
 
       <Spacing />
