@@ -95,6 +95,11 @@ export default function DensityPlot() {
             caption="Density chart with several displayed groups"
             linkTo="/74-density-plot-of-several-variables"
           />
+          <ChartImageContainer
+            imgName="density-mirror"
+            caption="Mirror density chart to compare the distribution of 2 variables"
+            linkTo="/density-mirror"
+          />
         </Row>
       </Container>
 

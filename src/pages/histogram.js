@@ -120,6 +120,11 @@ export default function ViolinPlot() {
             caption="Histogram can be added around a 2d density chart to show x and y variable distributions"
             linkTo="/82-marginal-plot-with-seaborn"
           />
+          <ChartImageContainer
+            imgName="density-mirror-histogram"
+            caption="Mirror density chart to compare the distribution of 2 variables"
+            linkTo="/density-mirror"
+          />
         </Row>
       </Container>
 
