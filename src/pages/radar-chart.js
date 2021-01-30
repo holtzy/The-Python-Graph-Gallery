@@ -92,7 +92,7 @@ export default function Heatmap() {
         <p>Radar charts are often used in combination with faceting. It allows to compare the features
         of several groups, what would be unreadable if plotted on the same chart.
           </p>
-        <Link to={"/1-basic-barplot"}>
+        <Link to={"/392-use-faceting-for-radar-chart"}>
           <ChartImage imgName="393_Faceting_and_Radarchart"
             caption="A polar chart with small multiple to compare 4 groups" />
         </Link>

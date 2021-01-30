@@ -100,6 +100,41 @@ export default function DensityPlot() {
 
       <Spacing />
 
+
+      <Container>
+        <h2 id="Multiple groups"><Seaborn />Density charts, <code>Seaborn</code> and multiple groups</h2>
+        <p>
+          It is a common use case to compare the density of several groups in a dataset. Several options
+          exist to do so. You can plot all items on the same chart, using transparency and annotation
+          to make the comparison possible. Or you can a technique called small multiples where the graph window
+          is split in individual charts, avoiding group overlaps that are sometimes hard to read.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="density-chart-multiple-groups-seaborn1"
+            caption="Density chart with multiple groups overlapped"
+            linkTo="/density-chart-multiple-groups-seaborn"
+          />
+          <ChartImageContainer
+            imgName="density-chart-multiple-groups-seaborn3"
+            caption="Density chart with multiple groups overlapped"
+            linkTo="/density-chart-multiple-groups-seaborn"
+          />
+          <ChartImageContainer
+            imgName="density-chart-multiple-groups-seaborn4"
+            caption="Density chart with multiple groups overlapped"
+            linkTo="/density-chart-multiple-groups-seaborn"
+          />
+        </Row>
+        <div style={{ margin: "0 auto", padding: 0 }}>
+          <Link to='/density-chart-multiple-groups-seaborn'>
+            <ChartImage imgName='density-chart-multiple-groups-seaborn5' caption={'A seaborn heatmap with clusterization and dendrogram applied'} />
+          </Link>
+        </div>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection">
         <Container>
           <FunctionExploration functionName={"kdeplot"} />
