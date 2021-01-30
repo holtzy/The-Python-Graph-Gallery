@@ -111,29 +111,24 @@ export default function DensityPlot() {
       <Container>
         <h2 id="Matplotlib"><Matplotlib /> Density charts with <code>Matplotlib</code></h2>
         <p>
-          <code>Matplotlib</code> is the most commong way to make charts in
-          python. It is a bit more verbose than <code>Seaborn</code> described
-          above, but sometimes allow more customization. Here are a few density
-          chart examples made with <code>Matplotlib</code>:
+          It is possible to build a density chart with <code>matplotlib</code>, but it is truely a
+          struggle compared to making it with <code>seaborn</code> as shown above. Here is an example
+          to prove it is doable, but I strongly advise to go for <code>seaborn</code>.
         </p>
         <Row>
           <ChartImageContainer
-            imgName="70_Basic_density_plot_Seaborn"
-            caption="learn how to build a very basic density chart"
-            linkTo=""
+            imgName="density-chart-matplotlib-vector"
+            caption="Basic density chart with python and matplotlib from a vector of data"
+            linkTo="/density-chart-matplotlib"
           />
           <ChartImageContainer
-            imgName="70_Basic_density_plot_Seaborn"
-            caption="learn how to build a very basic density chart"
-            linkTo=""
-          />
-          <ChartImageContainer
-            imgName="70_Basic_density_plot_Seaborn"
-            caption="learn how to build a very basic density chart"
-            linkTo=""
+            imgName="density-chart-matplotlib-csv"
+            caption="Read a csv file and plot the density of a column"
+            linkTo="/density-chart-matplotlib"
           />
         </Row>
       </Container>
+
 
       <Spacing />
 
