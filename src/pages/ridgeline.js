@@ -8,6 +8,9 @@ import { Link } from "gatsby";
 import { Animation } from "../components/MiscellaneousLogos"
 import { Button } from "react-bootstrap";
 import Spacing from "../components/Spacing";
+import ChartImageContainer from "../components/ChartImageContainer";
+import Row from "react-bootstrap/Row";
+import { Seaborn } from "../components/MiscellaneousLogos"
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/caveat/ridgeline.html'>ridgeline</a> summarizes the distribution of a numeric variable for several groups. Each group is represented as a density chart, each density chart overlapping each other to use space more efficiently.</p>";
@@ -16,15 +19,33 @@ export default function RidgelinePlot() {
 
   return (
 
-    <Layout title="Ridgeline">
+    <Layout title="Ridgeline" isTocEnabled>
 
       <TitleAndDescription
         title="Ridgeline chart"
         description={chartDescription}
       />
 
+
       <Container>
-        <h2 id="Quick"><Animation />Interactive ridgeline chart with <code>plotly</code></h2>
+        <h2 id="Seaborn"><Seaborn />Ridgeline charts with <code>Seaborn</code></h2>
+        <p>
+          <code>Seaborn</code> does not have a dedicated section to build ridgeline charts. It is still
+          possible to make one using some workarounds involving several call of the <code>kdeplot()</code> function.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="ridgeline-graph-seaborn"
+            caption="Ridgeline chart with python, matplotlib and seaborn."
+            linkTo="/ridgeline-graph-seaborn"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Plotly"><Animation />Interactive ridgeline chart with <code>plotly</code></h2>
         <p>Plotly is a python library that makes the link with Javascript to build interactive charts that you can display in a browser.</p>
         <p>The following example is a ridgeline chart made with this library</p>
         <div className="mx-auto">
