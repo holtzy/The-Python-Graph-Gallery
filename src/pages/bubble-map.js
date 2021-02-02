@@ -66,15 +66,14 @@ export default function BackgroundMap() {
       <Container>
         <h2 id="Folium"><code>Folium</code> for google maps style maps</h2>
         <p>
-          <code>Folium</code> is a wrapper of the <code>leaflet.js</code> javascript library. It allows to
-          make all the data wrangling with python, and benefit the power of <code>javascript</code> for interactive
-          data visualization.
+          <code>Folium</code> is a wrapper of the <code>leaflet.js</code> javascript library. Once you understood
+          how to <Link to="/map">initialize</Link> an interactive map with it, you can parse a data frame of coordinates
+          and add markers to the map with functions like <code>Circle()</code> and <code>..()</code>
         </p>
-        <p>The map below has been created with folium... with 1 line of code only! 😍</p>
         <div className="mx-auto">
-          <iframe src="/interactiveCharts/288_basic_folium_map.html" title="Basic map with folium" style={{ border: "none", width: '800px', height: '300px' }}></iframe>
+          <iframe src="/interactiveCharts/313-bubble-map-with-folium.html" title="Basic map with folium" style={{ border: "none", width: '800px', height: '300px' }}></iframe>
         </div>
-        <Link to='/288-map-background-with-folium'>
+        <Link to='/313-bubble-map-with-folium'>
           <Button size="sm">See code</Button>
         </Link>
         <br /><br />
