@@ -103,6 +103,20 @@ export default function BackgroundMap() {
         <Link to='/288-map-background-with-folium'>
           <Button size="sm">See code</Button>
         </Link>
+        <br /><br />
+        <p>It is also possible to add markers with associated popups on top of the map:</p>
+        <Row>
+          <ChartImageContainer
+            imgName="312-add-markers-on-folium-map1"
+            caption="How to read a geoJson file with geopandas and transform it to a geodataframe."
+            linkTo="/312-add-markers-on-folium-map"
+          />
+          <ChartImageContainer
+            imgName="312-add-markers-on-folium-map2"
+            caption="How to read a geoJson file with geopandas and transform it to a geodataframe."
+            linkTo="/312-add-markers-on-folium-map"
+          />
+        </Row>
       </Container>
 
       <Spacing />

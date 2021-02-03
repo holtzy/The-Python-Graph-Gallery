@@ -64,7 +64,7 @@ export default function BackgroundMap() {
       <Spacing />
 
       <Container>
-        <h2 id="Folium"><code>Folium</code> for google maps style maps</h2>
+        <h2 id="Folium">Bubble map with <code>Folium</code></h2>
         <p>
           <code>Folium</code> is a wrapper of the <code>leaflet.js</code> javascript library. Once you understood
           how to <Link to="/map">initialize</Link> an interactive map with it, you can parse a data frame of coordinates
@@ -77,19 +77,33 @@ export default function BackgroundMap() {
           <Button size="sm">See code</Button>
         </Link>
         <br /><br />
-        <p><code>Folium</code> allows different types of background tiles. Here is an example with a tile called <code>Stamen Toner</code>:</p>
+        <p>It is also possible to add any other kind of markers instead of circles. This is what you get with the default <code>folium.Marker()</code> function:</p>
         <div className="mx-auto">
-          <iframe src="/interactiveCharts/288_basic_folium_map_toner.html" title="Folium and customized tile" style={{ border: "none", width: '800px', height: '300px' }}></iframe>
+          <iframe src="/interactiveCharts/312-add-markers-on-folium-map.html" title="Folium and markers" style={{ border: "none", width: '800px', height: '300px' }}></iframe>
         </div>
-        <Link to='/288-map-background-with-folium'>
+        <Link to='/312-add-markers-on-folium-map'>
           <Button size="sm">See code</Button>
         </Link>
+        <br /><br />
+        <p>And this is what you can build by passing some <code>html</code> to the marker and popup parameters:</p>
+        <Row>
+          <ChartImageContainer
+            imgName="312-add-markers-on-folium-map1"
+            caption="How to read a geoJson file with geopandas and transform it to a geodataframe."
+            linkTo="/312-add-markers-on-folium-map"
+          />
+          <ChartImageContainer
+            imgName="312-add-markers-on-folium-map2"
+            caption="How to read a geoJson file with geopandas and transform it to a geodataframe."
+            linkTo="/312-add-markers-on-folium-map"
+          />
+        </Row>
       </Container>
 
       <Spacing />
 
       <Container>
-        <h2 id="Basemap">Background map with <code>Basemap</code></h2>
+        <h2 id="Basemap">Bubble map with <code>Basemap</code></h2>
         <p>
           <code>Seaborn</code> is another great alternative to build an area chart with <code>python</code>. The below examples
           show how to start basic, apply usual customization, and use the small multiple technique
