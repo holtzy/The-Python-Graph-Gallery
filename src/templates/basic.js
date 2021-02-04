@@ -12,6 +12,7 @@ import Contact from "../components/Contact";
 import Spacing from "../components/Spacing";
 
 export default function Template({ data }) {
+  console.log("data", data)
   const {
     title,
     description,
