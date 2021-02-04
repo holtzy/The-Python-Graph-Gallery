@@ -128,12 +128,38 @@ export default function BackgroundMap() {
           show how to start basic, apply usual customization, and use the small multiple technique
           for when you have several groups to compare.
         </p>
-        <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
-          <Link to='/242-area-chart-and-faceting'>
-            <ChartImage imgName={'242_area_chart_and_faceting'} caption={'Area chart with small multiple, seaborn'} />
-          </Link>
-        </div>
-        <p></p>
+        <Row>
+          <ChartImageContainer
+            imgName="281-basic-map-with-basemap1"
+            caption="Most basic map with python and the basemap library."
+            linkTo="/281-basic-map-with-basemap"
+          />
+          <ChartImageContainer
+            imgName="281-basic-map-with-basemap2"
+            caption="Select a specific location on the map."
+            linkTo="/281-basic-map-with-basemap"
+          />
+          <ChartImageContainer
+            imgName="281-basic-map-with-basemap3"
+            caption="Customize color and features of shapes."
+            linkTo="/281-basic-map-with-basemap"
+          />
+          <ChartImageContainer
+            imgName="281-basic-map-with-basemap4"
+            caption="List of available boundaries."
+            linkTo="/281-basic-map-with-basemap"
+          />
+          <ChartImageContainer
+            imgName="281-basic-map-with-basemap5"
+            caption="Change projection."
+            linkTo="/281-basic-map-with-basemap"
+          />
+          <ChartImageContainer
+            imgName="281-basic-map-with-basemap6"
+            caption="Use a background tile."
+            linkTo="/281-basic-map-with-basemap"
+          />
+        </Row>
       </Container>
 
       <Spacing />
