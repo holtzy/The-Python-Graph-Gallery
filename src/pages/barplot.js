@@ -144,9 +144,24 @@ export default function Heatmap() {
         to build the chart, but is slighlty more limited in term of customization</p>
         <Row>
           <ChartImageContainer
-            imgName="90_Input_format_for_heatmap1"
-            caption="The heatmap() function and how to apply it to any kind of data input"
-            linkTo="/90-heatmaps-with-various-input-format"
+            imgName="basic-barplot-with-seaborn1"
+            caption="Most basic barplot with Python and Seaborn"
+            linkTo="/basic-barplot-with-seaborn"
+          />
+          <ChartImageContainer
+            imgName="basic-barplot-with-seaborn2"
+            caption="Make your barplot vertical by swapping the x and y parameters"
+            linkTo="/basic-barplot-with-seaborn"
+          />
+          <ChartImageContainer
+            imgName="basic-barplot-with-seaborn3"
+            caption="Learn how to reorder groups in a seaborn barplot"
+            linkTo="/basic-barplot-with-seaborn"
+          />
+          <ChartImageContainer
+            imgName="error-bars-on-barplot"
+            caption="Add error bars on a seaborn barplot"
+            linkTo="/error-bars-on-barplot"
           />
         </Row>
       </Container>
@@ -179,6 +194,42 @@ export default function Heatmap() {
             linkTo="/13-percent-stacked-barplot"
           />
         </Row>
+      </Container>
+
+      <Spacing />
+
+
+      <Container>
+        <h2 id="Stacked & Grouped"><Seaborn />Stacked and Grouped barplot with <code>Seaborn</code></h2>
+        <p>
+          The <code>barplot()</code> function of <code>seaborn</code> allows to quickly build a grouped barplot. You just
+          have to pass the column used for subgrouping to the <code>hue</code> parameter.
+        </p>
+        <p>It gets a bit more tricky for stacked and percent stacked barplot, but the examples below should
+        hopefully help.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="grouped-barplot1"
+            caption="Grouped barplot with python and seaborn"
+            linkTo="/grouped-barplot"
+          />
+          <ChartImageContainer
+            imgName="stacked-barplot-seaborn"
+            caption="Stacked barchart with python and seaborn"
+            linkTo="/stacked-and-percent-stacked-barplot"
+          />
+          <ChartImageContainer
+            imgName="stacked-percent-barplot-seaborn"
+            caption="Percent stacked barchart with python and seaborn"
+            linkTo="/stacked-and-percent-stacked-barplot"
+          />
+        </Row>
+        <div style={{ margin: "0 auto" }}>
+          <Link to='/grouped-barplot'>
+            <ChartImage imgName={'grouped-barplot2'} caption={'Grouped barplot with small multiples to show 3 levels of grouping.'} />
+          </Link>
+        </div>
       </Container>
 
       <Spacing />
