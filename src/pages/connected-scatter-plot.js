@@ -128,6 +128,22 @@ export default function Heatmap() {
 
       <Spacing />
 
+
+      <Container>
+        <h2 id="Matplotlib"><Matplotlib />Connected scatterplot for 2 variables</h2>
+        <p>
+          As explained above, a connected scatterplot can also be base on 3 numeric variables. It allows to
+          study the evolution of 2 variables (placed on the X and on the Y axis).
+        </p>
+        <div style={{ maxWidth: '550px' }}>
+          <Link to={"/connected-scatterplot-for-evolution"}>
+            <ChartImage imgName={"connected-scatterplot-for-evolution"} caption={'Connected scatterplot to show the evolution of 2 variables'} />
+          </Link>
+        </div>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="correlation" />
