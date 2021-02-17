@@ -109,12 +109,11 @@ export default function BackgroundMap() {
           show how to start basic, apply usual customization, and use the small multiple technique
           for when you have several groups to compare.
         </p>
-        <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
-          <Link to='/242-area-chart-and-faceting'>
-            <ChartImage imgName={'242_area_chart_and_faceting'} caption={'Area chart with small multiple, seaborn'} />
+        <div style={{ margin: "0 auto" }}>
+          <Link to='/315-a-world-map-of-surf-tweets'>
+            <ChartImage imgName={'315_Tweet_Surf_Bubble_map1'} caption={'Bubble map with Python and the basemap library'} />
           </Link>
         </div>
-        <p></p>
       </Container>
 
       <Spacing />
