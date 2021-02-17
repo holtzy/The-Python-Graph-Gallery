@@ -49,7 +49,7 @@ export default function CircularPacking() {
         <p>
           <code>Circlify</code> can work without a hierarchical structure, i.e. with
           just a set of numeric varialbles that will be each displayed as a bubble. Note that the package
-          just compute the position and size of each bubble. Once that's done, <code>matplotlib</code> is used to make
+          just compute the position and size of each bubble. Once tha"t's done, <code>matplotlib</code> is used to make
           the chart itself with usual functions.
         </p>
         <Row>
