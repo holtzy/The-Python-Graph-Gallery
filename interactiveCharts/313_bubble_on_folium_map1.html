@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_8fbc48b4900e42f097aa34193ae4688f {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8fbc48b4900e42f097aa34193ae4688f" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_8fbc48b4900e42f097aa34193ae4688f = L.map(
+                                  'map_8fbc48b4900e42f097aa34193ae4688f',
+                                  {center: [20,0],
+                                  zoom: 2,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_ee2232749a58482fa6306ae2c0ce7814 = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+  "attribution": null, 
+  "detectRetina": false, 
+  "maxZoom": 18, 
+  "minZoom": 1, 
+  "noWrap": false, 
+  "subdomains": "abc"
+}
+                ).addTo(map_8fbc48b4900e42f097aa34193ae4688f);
+        
+    
+
+            var circle_5c3837018b4b4ee7965159ddc32a5f67 = L.circle(
+                [-34.0,-58.0],
+                {
+  "bubblingMouseEvents": true, 
+  "color": "crimson", 
+  "dashArray": null, 
+  "dashOffset": null, 
+  "fill": true, 
+  "fillColor": "crimson", 
+  "fillOpacity": 0.2, 
+  "fillRule": "evenodd", 
+  "lineCap": "round", 
+  "lineJoin": "round", 
+  "opacity": 1.0, 
+  "radius": 100000, 
+  "stroke": true, 
+  "weight": 3
+}
+                ).addTo(map_8fbc48b4900e42f097aa34193ae4688f);
+            
+    
+            var popup_2863d2b223064c729983125fa5e1fdb6 = L.popup({maxWidth: '300'});
+
+            
+                var html_400af50a70114b67bda3b2be9014a083 = $('<div id="html_400af50a70114b67bda3b2be9014a083" style="width: 100.0%; height: 100.0%;">Buenos Aires</div>')[0];
+                popup_2863d2b223064c729983125fa5e1fdb6.setContent(html_400af50a70114b67bda3b2be9014a083);
+            
+
+            circle_5c3837018b4b4ee7965159ddc32a5f67.bindPopup(popup_2863d2b223064c729983125fa5e1fdb6);
+
+            
+        
+    
+
+            var circle_325122b16a0d4048b56a8c20721835ea = L.circle(
+                [49.0,2.0],
+                {
+  "bubblingMouseEvents": true, 
+  "color": "crimson", 
+  "dashArray": null, 
+  "dashOffset": null, 
+  "fill": true, 
+  "fillColor": "crimson", 
+  "fillOpacity": 0.2, 
+  "fillRule": "evenodd", 
+  "lineCap": "round", 
+  "lineJoin": "round", 
+  "opacity": 1.0, 
+  "radius": 120000, 
+  "stroke": true, 
+  "weight": 3
+}
+                ).addTo(map_8fbc48b4900e42f097aa34193ae4688f);
+            
+    
+            var popup_628cea61575544fdac37cda670edce4b = L.popup({maxWidth: '300'});
+
+            
+                var html_e1e6025fca7248a6829615d5def6fc73 = $('<div id="html_e1e6025fca7248a6829615d5def6fc73" style="width: 100.0%; height: 100.0%;">Paris</div>')[0];
+                popup_628cea61575544fdac37cda670edce4b.setContent(html_e1e6025fca7248a6829615d5def6fc73);
+            
+
+            circle_325122b16a0d4048b56a8c20721835ea.bindPopup(popup_628cea61575544fdac37cda670edce4b);
+
+            
+        
+    
+
+            var circle_61e55bc05f124c86b0615eca69e3fa6b = L.circle(
+                [-38.0,145.0],
+                {
+  "bubblingMouseEvents": true, 
+  "color": "crimson", 
+  "dashArray": null, 
+  "dashOffset": null, 
+  "fill": true, 
+  "fillColor": "crimson", 
+  "fillOpacity": 0.2, 
+  "fillRule": "evenodd", 
+  "lineCap": "round", 
+  "lineJoin": "round", 
+  "opacity": 1.0, 
+  "radius": 400000, 
+  "stroke": true, 
+  "weight": 3
+}
+                ).addTo(map_8fbc48b4900e42f097aa34193ae4688f);
+            
+    
+            var popup_46317fbeb5b641e0ae95ce51cfb4ebc9 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c1bbdaedbb043f8827a0561f1c9e8b5 = $('<div id="html_2c1bbdaedbb043f8827a0561f1c9e8b5" style="width: 100.0%; height: 100.0%;">melbourne</div>')[0];
+                popup_46317fbeb5b641e0ae95ce51cfb4ebc9.setContent(html_2c1bbdaedbb043f8827a0561f1c9e8b5);
+            
+
+            circle_61e55bc05f124c86b0615eca69e3fa6b.bindPopup(popup_46317fbeb5b641e0ae95ce51cfb4ebc9);
+
+            
+        
+    
+
+            var circle_d85ac80c6e2b4fccad1496b46b089c0c = L.circle(
+                [59.93,30.32],
+                {
+  "bubblingMouseEvents": true, 
+  "color": "crimson", 
+  "dashArray": null, 
+  "dashOffset": null, 
+  "fill": true, 
+  "fillColor": "crimson", 
+  "fillOpacity": 0.2, 
+  "fillRule": "evenodd", 
+  "lineCap": "round", 
+  "lineJoin": "round", 
+  "opacity": 1.0, 
+  "radius": 700000, 
+  "stroke": true, 
+  "weight": 3
+}
+                ).addTo(map_8fbc48b4900e42f097aa34193ae4688f);
+            
+    
+            var popup_c03857c40aab46958d08992492527d78 = L.popup({maxWidth: '300'});
+
+            
+                var html_7348b7f9c659424fa9a8b2c45ebc05c6 = $('<div id="html_7348b7f9c659424fa9a8b2c45ebc05c6" style="width: 100.0%; height: 100.0%;">St Petersbourg</div>')[0];
+                popup_c03857c40aab46958d08992492527d78.setContent(html_7348b7f9c659424fa9a8b2c45ebc05c6);
+            
+
+            circle_d85ac80c6e2b4fccad1496b46b089c0c.bindPopup(popup_c03857c40aab46958d08992492527d78);
+
+            
+        
+    
+
+            var circle_14e3290955b1436398fa41d46e293f26 = L.circle(
+                [5.33,-4.03],
+                {
+  "bubblingMouseEvents": true, 
+  "color": "crimson", 
+  "dashArray": null, 
+  "dashOffset": null, 
+  "fill": true, 
+  "fillColor": "crimson", 
+  "fillOpacity": 0.2, 
+  "fillRule": "evenodd", 
+  "lineCap": "round", 
+  "lineJoin": "round", 
+  "opacity": 1.0, 
+  "radius": 230000, 
+  "stroke": true, 
+  "weight": 3
+}
+                ).addTo(map_8fbc48b4900e42f097aa34193ae4688f);
+            
+    
+            var popup_3e33dbcdec16490ea605ff56bb45e571 = L.popup({maxWidth: '300'});
+
+            
+                var html_7203eeb7bcdf4f099ea4431f25e8ecf2 = $('<div id="html_7203eeb7bcdf4f099ea4431f25e8ecf2" style="width: 100.0%; height: 100.0%;">Abidjan</div>')[0];
+                popup_3e33dbcdec16490ea605ff56bb45e571.setContent(html_7203eeb7bcdf4f099ea4431f25e8ecf2);
+            
+
+            circle_14e3290955b1436398fa41d46e293f26.bindPopup(popup_3e33dbcdec16490ea605ff56bb45e571);
+
+            
+        
+    
+
+            var circle_6f34a27cb12f4df988c25b386f939676 = L.circle(
+                [45.52,-73.57],
+                {
+  "bubblingMouseEvents": true, 
+  "color": "crimson", 
+  "dashArray": null, 
+  "dashOffset": null, 
+  "fill": true, 
+  "fillColor": "crimson", 
+  "fillOpacity": 0.2, 
+  "fillRule": "evenodd", 
+  "lineCap": "round", 
+  "lineJoin": "round", 
+  "opacity": 1.0, 
+  "radius": 430000, 
+  "stroke": true, 
+  "weight": 3
+}
+                ).addTo(map_8fbc48b4900e42f097aa34193ae4688f);
+            
+    
+            var popup_f87251f27cef48b2b9ba4eccdc014e83 = L.popup({maxWidth: '300'});
+
+            
+                var html_3593e723a6284699a0eb767b4639ab08 = $('<div id="html_3593e723a6284699a0eb767b4639ab08" style="width: 100.0%; height: 100.0%;">Montreal</div>')[0];
+                popup_f87251f27cef48b2b9ba4eccdc014e83.setContent(html_3593e723a6284699a0eb767b4639ab08);
+            
+
+            circle_6f34a27cb12f4df988c25b386f939676.bindPopup(popup_f87251f27cef48b2b9ba4eccdc014e83);
+
+            
+        
+    
+
+            var circle_1531617904c1483490f9ef3ac0430048 = L.circle(
+                [-1.29,36.82],
+                {
+  "bubblingMouseEvents": true, 
+  "color": "crimson", 
+  "dashArray": null, 
+  "dashOffset": null, 
+  "fill": true, 
+  "fillColor": "crimson", 
+  "fillOpacity": 0.2, 
+  "fillRule": "evenodd", 
+  "lineCap": "round", 
+  "lineJoin": "round", 
+  "opacity": 1.0, 
+  "radius": 1000000, 
+  "stroke": true, 
+  "weight": 3
+}
+                ).addTo(map_8fbc48b4900e42f097aa34193ae4688f);
+            
+    
+            var popup_8251a9fb40124550afcbec27690eae5c = L.popup({maxWidth: '300'});
+
+            
+                var html_7d83fa62ea234ac8a82b4136fcf7d7b6 = $('<div id="html_7d83fa62ea234ac8a82b4136fcf7d7b6" style="width: 100.0%; height: 100.0%;">Nairobi</div>')[0];
+                popup_8251a9fb40124550afcbec27690eae5c.setContent(html_7d83fa62ea234ac8a82b4136fcf7d7b6);
+            
+
+            circle_1531617904c1483490f9ef3ac0430048.bindPopup(popup_8251a9fb40124550afcbec27690eae5c);
+
+            
+        
+    
+
+            var circle_0f00b5d6350b4387ab2b4f4a95008686 = L.circle(
+                [-12.97,-38.5],
+                {
+  "bubblingMouseEvents": true, 
+  "color": "crimson", 
+  "dashArray": null, 
+  "dashOffset": null, 
+  "fill": true, 
+  "fillColor": "crimson", 
+  "fillOpacity": 0.2, 
+  "fillRule": "evenodd", 
+  "lineCap": "round", 
+  "lineJoin": "round", 
+  "opacity": 1.0, 
+  "radius": 430000, 
+  "stroke": true, 
+  "weight": 3
+}
+                ).addTo(map_8fbc48b4900e42f097aa34193ae4688f);
+            
+    
+            var popup_58689b12dc8b4a469558c841c6c6a423 = L.popup({maxWidth: '300'});
+
+            
+                var html_881ffbcca46d44999b80635f0f3ebbbc = $('<div id="html_881ffbcca46d44999b80635f0f3ebbbc" style="width: 100.0%; height: 100.0%;">Salvador</div>')[0];
+                popup_58689b12dc8b4a469558c841c6c6a423.setContent(html_881ffbcca46d44999b80635f0f3ebbbc);
+            
+
+            circle_0f00b5d6350b4387ab2b4f4a95008686.bindPopup(popup_58689b12dc8b4a469558c841c6c6a423);
+
+            
+        
+</script>

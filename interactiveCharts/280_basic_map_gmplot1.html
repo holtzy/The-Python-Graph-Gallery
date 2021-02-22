@@ -1,0 +1,27 @@
+<html>
+
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Google Maps - pygmaps </title>
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+	<script type="text/javascript">
+		function initialize() {
+			var centerlatlng = new google.maps.LatLng(37.428000, -120.000000);
+			var myOptions = {
+				zoom: 9,
+				center: centerlatlng,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+			var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		}
+	</script>
+</head>
+
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+
+</html>
