@@ -130,6 +130,11 @@ export default function Heatmap() {
             caption="A bubble chart width 4 dimensions: x, y, size & color"
             linkTo="/272-map-a-color-to-bubble-plot"
           />
+          <ChartImageContainer
+            imgName="bubble-plot-gapminder"
+            caption="Bubble plot of the gapminder dataset"
+            linkTo="/341-python-gapminder-animation"
+          />
         </Row>
       </Container>
 
