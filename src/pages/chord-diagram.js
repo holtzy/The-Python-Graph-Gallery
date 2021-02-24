@@ -7,7 +7,6 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Matplotlib } from "../components/MiscellaneousLogos"
 import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
 import { Button } from "react-bootstrap";
