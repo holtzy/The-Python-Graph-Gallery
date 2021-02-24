@@ -42,8 +42,8 @@ export default function TopNavbar() {
           <Nav.Link href="/all-charts">All</Nav.Link>
 
           <NavDropdown title="Related" id="basic-nav-dropdown">
-            <NavDropdown.Item className="menuItemMain" href="https://www.r-graph-gallery.com">R Graph Gallery</NavDropdown.Item>
-            <NavDropdown.Item className="menuItemMain" href="https://www.python-graph-gallery.com">Python Graph Gallery</NavDropdown.Item>
+            <NavDropdown.Item className="menuItemMain" href="https://www.r-graph-gallery.com"><code>R</code> Graph Gallery</NavDropdown.Item>
+            <NavDropdown.Item className="menuItemMain" href="https://www.d3-graph-gallery.com"><code>D3.js</code> Graph Gallery</NavDropdown.Item>
             <NavDropdown.Item className="menuItemMain" href="https://www.data-to-viz.com">Data To Viz</NavDropdown.Item>
           </NavDropdown>
 

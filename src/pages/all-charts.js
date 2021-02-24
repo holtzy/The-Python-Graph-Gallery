@@ -12,7 +12,7 @@ import { Button } from "react-bootstrap";
 import ChartImage from "../components/ChartImage";
 
 const chartDescription =
-    "<p>This page displays all the charts available in the python graph gallery. The vast majority of them are built using <code>matplotlib</code> and <code>seaborn</code>.</p>";
+    "<p>👋 This page displays all the charts available in the python graph gallery. The vast majority of them are built using <code>matplotlib</code>, <code>seaborn</code> and <code>plotly</code>. Click on a chart to get its code 😍!</p>";
 
 export default function AllCharts() {
 
@@ -31,28 +31,33 @@ export default function AllCharts() {
                     />
                     <ChartImageContainer
                         imgName="71_Shaded_density_plot_Seaborn"
-                        caption="learn how to build a very basic density chart"
-                        linkTo=""
+                        caption="seaborn densty chart with filled area"
+                        linkTo="/71-density-plot-with-shade-seaborn"
                     />
                     <ChartImageContainer
                         imgName="72_Horizontal_density_plot_Seaborn"
-                        caption="learn how to build a very basic density chart"
-                        linkTo=""
+                        caption="vertical seaborn density chart"
+                        linkTo="/72-horizontal-density-plot"
                     />
                     <ChartImageContainer
                         imgName="73_Control_bandwidth_densityplot_Seaborn1"
-                        caption="learn how to build a very basic density chart"
-                        linkTo=""
+                        caption="control density chart color"
+                        linkTo="/73-control-bandwidth-of-seaborn-density-plot"
                     />
                     <ChartImageContainer
                         imgName="73_Control_bandwidth_densityplot_Seaborn2"
-                        caption="learn how to build a very basic density chart"
-                        linkTo=""
+                        caption="Changed the bandwidth used to compute the density"
+                        linkTo="/73-control-bandwidth-of-seaborn-density-plot"
                     />
                     <ChartImageContainer
                         imgName="74_density_plot_multi_variables"
-                        caption="learn how to build a very basic density chart"
-                        linkTo=""
+                        caption="Density chart with several displayed groups"
+                        linkTo="/74-density-plot-of-several-variables"
+                    />
+                    <ChartImageContainer
+                        imgName="density-mirror"
+                        caption="Mirror density chart to compare the distribution of 2 variables"
+                        linkTo="/density-mirror"
                     />
                     <ChartImageContainer
                         imgName="80_bivariate_kernel_density_plot1"
