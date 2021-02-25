@@ -27,7 +27,6 @@ const ChartTypeLink = ({ chartType }) => {
     </div>
   )
 }
-
 ChartTypeLink.propTypes = {
   chartType: PropTypes.string
 };
@@ -41,7 +40,7 @@ export default function TableOfContent({ chartType }) {
   })
 
   // Controls which heading is currently highlighted as active.
-  const [active, setActive] = useState()
+  const [active, setActive] = useState(0)
 
   // Read heading titles, depths and nodes from the DOM.
   useEffect(() => {
@@ -61,14 +60,16 @@ export default function TableOfContent({ chartType }) {
   useEffect(() => {
     // Throttling the scrollHandler saves computation and hence battery life.
     const scrollHandler = () => {
-      const { titles, nodes } = headings
-      // Offsets need to be recomputed inside scrollHandler because
-      // lazily-loaded content increases offsets as user scrolls down.
+      const { nodes } = headings
       const offsets = nodes.map(el => accumulateOffsetTop(el))
+      const currentVisualizedLocation = window.scrollY + 150
+      const closest = offsets.reduce(function (prev, curr) {
+        return (Math.abs(curr - currentVisualizedLocation) < Math.abs(prev - currentVisualizedLocation) ? curr : prev);
+      }, 0);
       const activeIndex = offsets.findIndex(
-        offset => offset > window.scrollY + 0.8 * window.innerHeight
+        offset => offset === closest
       )
-      setActive(activeIndex === -1 ? titles.length - 1 : activeIndex - 1)
+      setActive(activeIndex === -1 ? 0 : activeIndex)
     }
     window.addEventListener(`scroll`, scrollHandler)
     return () => window.removeEventListener(`scroll`, scrollHandler)
@@ -85,7 +86,8 @@ export default function TableOfContent({ chartType }) {
             event.preventDefault()
             headings.nodes[index].scrollIntoView({
               behavior: `smooth`,
-              block: `center`,
+              block: `start`,
+              alignToTop: true
             })
           }}
           dangerouslySetInnerHTML={{ __html: title }}

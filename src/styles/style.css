@@ -21,6 +21,8 @@ h5,
 h6 {
   font-weight: 300 !important;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif !important;
+  /* scroll margin allows to add a bit of space around the title we're targeting with the table of content */
+  scroll-margin: 100px;
 }
 
 h2 {
