@@ -94,6 +94,49 @@ export default function SeabornLib() {
       <Spacing />
 
       <Container>
+        <h2 id="Title"><Seaborn />Customizing titles with Seaborn</h2>
+        <p>
+          Since <code>Seaborn</code> is built on top of <code>Matplotlib</code>, title customization
+          works pretty much the same. A seaborn chart (like the one you get with <code>sns.boxplot()</code>) actually
+          returns a <code>matplotlib</code> axes instance.
+        </p>
+        <p>This means that you will not be able to use the usual <code>pyplot</code> method <code>plt.title()</code>, but will have to use
+           the corresponding argument for an <code>axes</code> which is <code>ax.set_title()</code>. This is described more in depth in this dedicated post:
+           </p>
+        <Row>
+          <ChartImageContainer
+            imgName="seaborn-title-customization"
+            caption="Add a title on a seaborn chart"
+            linkTo="/seaborn-title-customization"
+          />
+        </Row>
+        <br /><br />
+        <p>
+          Once you've understood how to add a title, customizing it should work the same as for <code>matplotlib</code>:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="190_Custom_title6"
+            caption="Python chart with subtitle and custom color"
+            linkTo="/190-custom-matplotlib-title"
+          />
+          <ChartImageContainer
+            imgName="190_Custom_title7"
+            caption="Add a math formula in title with Matplotlib"
+            linkTo="/190-custom-matplotlib-title"
+          />
+          <ChartImageContainer
+            imgName="190_Custom_title5"
+            caption="Control the height of the matplotlib title"
+            linkTo="/190-custom-matplotlib-title"
+          />
+        </Row>
+      </Container>
+
+
+      <Spacing />
+
+      <Container>
         <h2 id="Themes">🌈 Seaborn built-in themes</h2>
         <p>
           Seaborn comes with a few built-in themes. Here is an overview of what's offered:
