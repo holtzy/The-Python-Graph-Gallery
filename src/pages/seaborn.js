@@ -89,6 +89,7 @@ export default function SeabornLib() {
           a glimpse of they're made for, what are their parameters and links to their official
           doc.
         </p>
+        <p><code>Todo</code> 😞</p>
       </Container>
 
       <Spacing />
@@ -133,14 +134,44 @@ export default function SeabornLib() {
         </Row>
       </Container>
 
+      <Spacing />
+
+
+      <Container>
+        <h2 id="Axis"><Seaborn />Customizing axis</h2>
+        <p>
+          The exact same concept than explained for titles above applies for axes. So please read the following blogpost about axis customization
+          with matplotlib and apply it to your seaborn chart.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="191_Custom_axis1"
+            caption="Change the axis title and its appearance"
+            linkTo="/191-custom-axis-on-matplotlib-chart"
+          />
+          <ChartImageContainer
+            imgName="191_Custom_axis2"
+            caption="Control axis labels and ticks look"
+            linkTo="/191-custom-axis-on-matplotlib-chart"
+          />
+          <ChartImageContainer
+            imgName="191_Custom_axis6"
+            caption="Control axis limit with the xlim() function"
+            linkTo="/191-custom-axis-on-matplotlib-chart"
+          />
+        </Row>
+      </Container>
+
 
       <Spacing />
+
 
       <Container>
         <h2 id="Themes">🌈 Seaborn built-in themes</h2>
         <p>
-          Seaborn comes with a few built-in themes. Here is an overview of what's offered:
+          Seaborn comes with a few built-in themes. Those themes are available through the <code>set_style()</code> function. Here is an overview of what is offered.
         </p>
+        <p><code>Todo</code> 😞</p>
       </Container>
 
       <Spacing />
