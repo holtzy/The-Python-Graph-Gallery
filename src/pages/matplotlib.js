@@ -28,7 +28,40 @@ y=[1,4,6,8,4]
 
 # Area plot
 plt.fill_between(x, y)
-plot.show()
+plt.show()
+`
+
+const pyplotAPI = `# import libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Create a data frame
+df = pd.DataFrame ({'Group':  ['A', 'B', 'C', 'D', 'E'], 'Value': [1,5,4,3,9]})
+
+# Create horizontal bars
+plt.barh(y=df.Group, width=df.Value);
+
+# Add title
+plt.title('A simple barplot');
+`
+const objOrientedAPI = `# import libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Create a data frame
+df = pd.DataFrame ({'Group':  ['A', 'B', 'C', 'D', 'E'], 'Value': [1,5,4,3,9]})
+
+# Initialize a Figure and an Axes
+fig, ax = plt.subplots()
+
+# Fig size
+fig.set_size_inches(9,9)
+
+# Create horizontal bars
+ax.barh(y=df.Group, width=df.Value);
+
+# Add title
+ax.set_title('A simple barplot');
 `
 
 const allStyle = ['seaborn-darkgrid', 'seaborn-notebook', 'classic', 'seaborn-ticks', 'grayscale', 'bmh', 'seaborn-talk', 'dark_background', 'ggplot', 'fivethirtyeight', '_classic_test', 'seaborn-colorblind', 'seaborn-deep', 'seaborn-whitegrid', 'seaborn-bright', 'seaborn-poster', 'seaborn-muted', 'seaborn-paper', 'seaborn-white', 'seaborn-pastel', 'seaborn-dark', 'seaborn', 'seaborn-dark-palette']
@@ -68,11 +101,9 @@ export default function LinePlot() {
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p>There are 2 main ways to build an area chart with Matplotlib. In both case it requires 2 numeric vectors of values as input.</p>
-            <ul>
-              <li>The <code>fill_between()</code> function</li>
-              <li>The <code>stackplot()</code> function that is more useful for <Link to='/stacked-area-plot'>stacked area</Link> charts</li>
-            </ul>
+            <p><code>Matplotlib</code> is the most famous python data visualization library. It is widely used and most of other viz libraries (like <code>seaborn</code>)
+            are actually built on top of it.</p>
+            <p>Once installed, matplotlib must be imported, usually using <code>import matplotlib.pyplot as plt</code>. You can then use use the functions available in the <code>plt</code> object.</p>
           </Col>
           <Col md={6}>
             <Link to={"/240-basic-area-chart"}>
@@ -102,6 +133,34 @@ export default function LinePlot() {
         <a href='https://matplotlib.org/faq/usage_faq.html#coding-styles'>
           <Button size="sm">Matplotlib doc</Button>
         </a>
+      </Container>
+
+      <Spacing />
+
+
+      <Container>
+        <h2 id="APIs"><Matplotlib />Two distinct APIs</h2>
+        <p>
+          There are 2 main ways to build a chart with matplotlib: the <code>pyplot API</code> and the <code>object-oriented API</code>.
+        </p>
+        <p>➡️ <code>pyplot API</code></p>
+        <p>Pyplot is a collection of functions, each function applying a change to a figure. For
+          instance, <code>plt.barh()</code> will build a barplot and <code>plt.title()</code> will
+          add a title to it.
+        </p>
+        <CodeChunk>{pyplotAPI}</CodeChunk>
+
+        <br /><br />
+        <p>➡️ <code>object oriented API</code></p>
+        <p>The object oriented API usually starts by initializing one <code>Figure</code> object and
+        one or more <code>Axes</code> object using the <code>subplot()</code> function. Then the methods of those objects
+        will be used to apply changes to the chart.</p>
+        <CodeChunk>{objOrientedAPI}</CodeChunk>
+
+        <br /><br />
+        <p>See how the syntax slightly differs between both options? (<code>plt.title</code> versus <code>ax.set_title()</code>. This
+        is pretty confusing and I advise to have a look to the <a href='https://matplotlib.org/stable/api/index.html#usage-patterns'>official documentation</a> for a
+        more thorough explanation. In the gallery, both APIs are used.</p>
       </Container>
 
       <Spacing />
