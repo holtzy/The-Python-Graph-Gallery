@@ -300,29 +300,19 @@ export default function LinePlot() {
       <Container>
         <h2 id="Theme"><Matplotlib />Available style sheets</h2>
         <p>
-          Matplotlib comes with a set of pre-built theme to style your chart easily.
+          <code>Matplotlib</code> comes with a set of 26 pre-built themes to style your chart easily. <Link to='/199-matplotlib-style-sheets'>This post</Link> is
+           dedicated to this feature, explaining how to use <code>plt.style.use()</code> to pick a theme up.
         </p>
-        <ButtonGroup size='sm' as='div' toggle>{allStyleButtons}</ButtonGroup>
-        <Link to='/199-matplotlib-style-sheets'>
-          <Button size="sm">Read more</Button>
-        </Link>
-        <Row>
-          <ChartImageContainer
-            imgName="194_matplotlib_subplot4"
-            caption="Split the figure in 4 charts of same size."
-            linkTo="/194-split-the-graphic-window-with-subplot"
-          />
-          <ChartImageContainer
-            imgName="194_matplotlib_subplot6"
-            caption="Split the figure with a custom layout"
-            linkTo="/192-about-matplotlib-margins"
-          />
-          <ChartImageContainer
-            imgName="194_matplotlib_subplot9"
-            caption="Manage chart size on subplots"
-            linkTo="/192-about-matplotlib-margins"
-          />
-        </Row>
+        <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
+          <Link to='/199-matplotlib-style-sheets'>
+            <ChartImage imgName={'199-matplotlib-style-sheets-538-full'} caption={'Customize a matplotlib chart with a preset theme'} />
+          </Link>
+        </div>
+
+
+
+
+
       </Container>
 
       <Spacing />
