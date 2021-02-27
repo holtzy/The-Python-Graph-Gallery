@@ -10,7 +10,6 @@ module.exports = {
     title: "The Python Graph Gallery",
     description: "A gallery of charts made with Python",
   },
-  pathPrefix: "/The-Python-Graph-Gallery",
   plugins: [
     "gatsby-plugin-react-helmet",
     `gatsby-plugin-sharp`,
