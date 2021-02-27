@@ -1,0 +1,1 @@
+export { default } from "../classStaticPrivateFieldSpecSet/_index.mjs"

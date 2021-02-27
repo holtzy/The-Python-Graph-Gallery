@@ -1,0 +1,1 @@
+export { default } from "../createClass/_index.mjs"

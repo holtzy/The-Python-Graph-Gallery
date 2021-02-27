@@ -1,0 +1,1 @@
+export { default } from "../taggedTemplateLiteral/_index.mjs"

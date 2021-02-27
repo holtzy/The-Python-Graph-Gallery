@@ -1,0 +1,1 @@
+export { default } from "../objectWithoutProperties/_index.mjs"

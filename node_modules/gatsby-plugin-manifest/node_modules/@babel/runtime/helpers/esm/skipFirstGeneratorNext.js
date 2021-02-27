@@ -1,0 +1,1 @@
+export { default } from "../skipFirstGeneratorNext/_index.mjs"

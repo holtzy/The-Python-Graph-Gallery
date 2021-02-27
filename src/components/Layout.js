@@ -19,11 +19,6 @@ export default function Layout({ children, title, isTocEnabled, chartType }) {
       <Helmet>
         <title>{title}</title>
         <link
-          href="/logo/D3_single_small.png"
-          rel="shortcut icon"
-          type="image/x-icon"
-        />
-        <link
           href="https://fonts.googleapis.com/css?family=Roboto|Montserrat"
           rel="stylesheet"
         />

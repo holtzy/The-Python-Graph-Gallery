@@ -1,0 +1,1 @@
+export { default } from "../decorate/_index.mjs"

@@ -1,0 +1,1 @@
+export { default } from "../newArrowCheck/_index.mjs"

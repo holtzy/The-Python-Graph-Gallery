@@ -38,5 +38,17 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `The Python Graph Gallery`,
+        short_name: `Python Graph Gallery`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#69b3a2`,
+        display: `standalone`,
+        icon: `static/logo/Home_single_big.png`
+      },
+    },
   ],
 };

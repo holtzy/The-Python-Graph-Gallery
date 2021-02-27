@@ -1,0 +1,1 @@
+export { default } from "../setPrototypeOf/_index.mjs"

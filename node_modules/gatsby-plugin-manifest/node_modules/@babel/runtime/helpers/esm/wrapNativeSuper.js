@@ -1,0 +1,1 @@
+export { default } from "../wrapNativeSuper/_index.mjs"

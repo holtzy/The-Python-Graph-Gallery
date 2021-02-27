@@ -1,0 +1,1 @@
+export { default } from "../interopRequireWildcard/_index.mjs"
