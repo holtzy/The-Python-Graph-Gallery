@@ -7,12 +7,9 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
-import { Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk"
+
 import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
-import { Button } from "react-bootstrap";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/hexbinmap.html'>hexbin map</a> is a specific type of map where each region is represented as a hexagone. This section explains how to build a hexbin map with python and libraries like <code>geopandas</code> and <code>geoplot</code>.</p>";
@@ -24,7 +21,7 @@ export default function HexbinMap() {
     <Layout title="Background Map" isTocEnabled>
 
       <TitleAndDescription
-        title="Background Map"
+        title="Hexbin Map"
         description={chartDescription}
       />
 
