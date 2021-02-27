@@ -52,7 +52,10 @@ export default function About() {
         <h2 id="Sponsoring">💵 Sponsoring</h2>
         <p>If you run a buisness that is highly related with python, data science or a closely
           related field, I would love to communicate about it in exchange of a few 💰. We all need to put some butter in the spinach (French expression, sorry) 🐸.</p>
-        <p>Here is a list of the companies that helped me building this website, thanks <u>so much</u> to them!</p>
+        <p>The python graph gallery is visited about <code>400,000 times per months</code> by students and professionals that are highly
+          interested in data science, from every country in the world</p>
+        <p>Here is a list of the companies that helped me building this
+          website, thanks <u>so much</u> to them!</p>
         <Row>
           <Col xs={6} md={3}>
             <SponsorImage imgName="data_society_logo" caption={"Data Society"} />

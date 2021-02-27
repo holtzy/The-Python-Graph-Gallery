@@ -1,0 +1,22 @@
+/* Reduce the content width on big screen. I like it when it looks a bit more like newspaper */
+
+.sponsorsBanner {
+    background-color: var(--light-grey);
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+@media (max-width: 1200px){
+    .sponsorsBanner {
+        display: none;
+    }
+}
+
+.sponsorsLink {
+    font-size: 12px;
+    margin-top: -17px;
+    margin-bottom: -10px;
+    width: 100%;
+    text-align: right;
+    opacity: .4;
+}
