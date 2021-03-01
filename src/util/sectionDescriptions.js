@@ -312,11 +312,11 @@ export const chartTypesInfo = [
     label: "Colors",
   },
   {
-    id: "interactivity",
+    id: "plotly",
     family: "general",
     logo: "Interactive150",
     dataToVizURL: "",
-    pythonURL: "https://python-graph-gallery.com/interactivity/",
+    pythonURL: "https://python-graph-gallery.com/plotly/",
     label: "Interactivity",
   },
   {

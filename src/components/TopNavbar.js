@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import AllChartsModal from "./AllChartsModal";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
+import { Matplotlib, Seaborn, Plotly } from "../components/MiscellaneousLogos"
 import { Container } from "react-bootstrap";
 
 export default function TopNavbar() {
@@ -23,7 +23,7 @@ export default function TopNavbar() {
 
           <Nav.Link onClick={handleShow}>Chart types</Nav.Link>
 
-          <NavDropdown title="Quick" id="basic-nav-dropdown">
+          <NavDropdown title="Tools" id="basic-nav-dropdown">
             <NavDropdown.Item className="menuItemMain" href="/matplotlib">Matplotlib<span className="menuItemLogo"><Matplotlib /></span></NavDropdown.Item>
             <NavDropdown.Item href="/matplotlib#Axis">Axis</NavDropdown.Item>
             <NavDropdown.Item href="/matplotlib#Title">Title</NavDropdown.Item>
@@ -35,6 +35,8 @@ export default function TopNavbar() {
             <NavDropdown.Item href="/seaborn#Title">Title</NavDropdown.Item>
             <NavDropdown.Item href="/seaborn#Axis">Axis</NavDropdown.Item>
             <NavDropdown.Item href="/seaborn#Theme">Theme</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item className="menuItemMain" href="/plotly">Plotly<span className="menuItemLogo"><Plotly /></span></NavDropdown.Item>
           </NavDropdown>
 
           <Nav.Link href="/all-charts">All</Nav.Link>
