@@ -19,7 +19,8 @@ export default function Heatmap() {
 
   return (
 
-    <Layout title="Connected Scatterplot" isTocEnabled>
+    <Layout title="2d density chart" isTocEnabled
+      seoDescription="A collection of 2d density chart examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="2D Density Chart"

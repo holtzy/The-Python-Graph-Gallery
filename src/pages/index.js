@@ -11,7 +11,7 @@ const siteDescription =
 
 export default function Home() {
   return (
-    <Layout title="Python Graph Gallery">
+    <Layout title="Python Graph Gallery" seoDescription="The Python Graph Gallery displays hundreds of charts made with Python, always with explanation and reproduciible code">
       <TitleAndDescription
         title="The Python Graph Gallery"
         description={siteDescription}

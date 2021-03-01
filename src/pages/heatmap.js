@@ -32,7 +32,7 @@ export default function Heatmap() {
 
   return (
 
-    <Layout title="Heatmap" isTocEnabled>
+    <Layout title="Heatmap" isTocEnabled seoDescription="A collection of heatmap examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Heatmap"

@@ -36,7 +36,7 @@ export default function StackedAreaPlot() {
 
   return (
 
-    <Layout title="Stacked area chart" isTocEnabled>
+    <Layout title="Stacked area chart" isTocEnabled seoDescription="A collection of stacked area chart examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Stacked area Chart"

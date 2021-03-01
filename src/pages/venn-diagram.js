@@ -32,7 +32,7 @@ export default function Venn() {
 
   return (
 
-    <Layout title="Venn Diagram" isTocEnabled>
+    <Layout title="Venn Diagram" isTocEnabled seoDescription="A collection of Venn Diagram examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Venn Diagram"

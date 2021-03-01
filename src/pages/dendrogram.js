@@ -20,7 +20,7 @@ export default function Dendrogram() {
 
   return (
 
-    <Layout title="Dendrogram" isTocEnabled>
+    <Layout title="Dendrogram" isTocEnabled seoDescription="A collection of dendrogram examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Dendrogram"

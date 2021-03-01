@@ -29,7 +29,7 @@ export default function ViolinPlot() {
 
   return (
 
-    <Layout title="Scatterplot" isTocEnabled>
+    <Layout title="Scatterplot" isTocEnabled seoDescription="A collection of scatterplot examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Scatterplot"
         description={chartDescription}

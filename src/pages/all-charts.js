@@ -17,7 +17,7 @@ const chartDescription =
 export default function AllCharts() {
 
     return (
-        <Layout title="All Charts">
+        <Layout title="All Charts" seoDescription="A list of more than 300 charts made with Python, coming together with code and explanation">
             <TitleAndDescription
                 title="All charts"
                 description={chartDescription}

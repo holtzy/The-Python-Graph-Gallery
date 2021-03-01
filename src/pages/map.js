@@ -21,7 +21,7 @@ export default function BackgroundMap() {
 
   return (
 
-    <Layout title="Background Map" isTocEnabled>
+    <Layout title="Background Map" isTocEnabled seoDescription="A collection of map examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Background Map"

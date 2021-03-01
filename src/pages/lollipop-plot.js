@@ -32,11 +32,11 @@ plt.xticks( my_range, ordered_df['group'])
 `
 
 
-export default function Heatmap() {
+export default function Lollipop() {
 
   return (
 
-    <Layout title="Lollipop chart" isTocEnabled>
+    <Layout title="Lollipop chart" isTocEnabled seoDescription="A collection of lollipop plot examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Lollipop plot"

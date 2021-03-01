@@ -28,11 +28,11 @@ df = pd.DataFrame(np.random.random((5,5)), columns=["a","b","c","d","e"])
 p1 = sns.heatmap(df)
 `
 
-export default function Heatmap() {
+export default function ConnectedScatter() {
 
   return (
 
-    <Layout title="Connected Scatterplot" isTocEnabled>
+    <Layout title="Connected Scatterplot" isTocEnabled seoDescription="A collection of connected scatterplot examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Connected Scatterplot"

@@ -28,7 +28,7 @@ export default function Correlogram() {
 
   return (
 
-    <Layout title="Animation" isTocEnabled>
+    <Layout title="Correlogram" isTocEnabled seoDescription="A collection of correlogram examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Animation"

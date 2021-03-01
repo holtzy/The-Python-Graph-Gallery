@@ -18,7 +18,7 @@ export default function HexbinMap() {
 
   return (
 
-    <Layout title="Background Map" isTocEnabled>
+    <Layout title="Background Map" isTocEnabled seoDescription="A collection of hexbin map examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Hexbin Map"

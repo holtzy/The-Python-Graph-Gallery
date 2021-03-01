@@ -29,7 +29,7 @@ export default function ViolinPlot() {
 
   return (
 
-    <Layout title="Violin plot" isTocEnabled>
+    <Layout title="Violin plot" isTocEnabled seoDescription="A collection of violin plot examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Violin plot"

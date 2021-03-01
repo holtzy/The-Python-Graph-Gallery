@@ -15,11 +15,11 @@ const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/circularbarplot.html'>circular barplot</a> is pretty much the same as a <a href='https://www.python-graph-gallery.com/barplot'>barplot</a>, but using polar coordinates instead of cartesian coordinates. They are a bit tricky to build with <code>Python</code> and less accurate than usual barplot, but they come with an eye-catching effect that sometimes make them worth it.</p>";
 
 
-export default function Heatmap() {
+export default function CircularBarplot() {
 
   return (
 
-    <Layout title="Circular Barplot">
+    <Layout title="Circular Barplot" isTocEnabled seoDescription="A collection of circular barplot examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Circular Barplot"

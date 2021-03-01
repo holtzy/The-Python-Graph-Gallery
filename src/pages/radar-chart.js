@@ -42,11 +42,11 @@ const SpiderAlternativeLogos = () => {
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/caveat/spider.html'>radar chart</a> (or <a href='https://www.data-to-viz.com/caveat/spider.html'>spider plot</a>, or <a href='https://www.data-to-viz.com/caveat/spider.html'>polar chart</a>) allows to visualize one or more series of values over multiple quantitative variables. Each variable has its own axis, all axes are joined in the center of the figure. This section shows how to build it with <code>Matplotlib</code>, but keep in mind they are some <a href='https://www.data-to-viz.com/caveat/spider.html'>caveats</a> associated with this chart type.</p>";
 
-export default function Heatmap() {
+export default function Radar() {
 
   return (
 
-    <Layout title="Radar chart" isTocEnabled>
+    <Layout title="Radar chart" isTocEnabled seoDescription="A collection of radar chart examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Radar Chart"
         description={chartDescription}

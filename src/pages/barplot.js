@@ -35,11 +35,11 @@ plt.xticks(y_pos, bars)
 plt.show()
 `
 
-export default function Heatmap() {
+export default function Barplot() {
 
   return (
 
-    <Layout title="Barplot" isTocEnabled>
+    <Layout title="Barplot" isTocEnabled seoDescription="A collection of barplot examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Barplot"
         description={chartDescription}

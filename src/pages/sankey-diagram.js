@@ -20,7 +20,7 @@ export default function Chord() {
 
   return (
 
-    <Layout title="Sankey diagram" isTocEnabled>
+    <Layout title="Sankey diagram" isTocEnabled seoDescription="A collection of sankey diagram examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Sankey diagram"
         description={chartDescription}

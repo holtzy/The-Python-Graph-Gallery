@@ -16,7 +16,7 @@ export default function Cartogram() {
 
   return (
 
-    <Layout title="Choropleth map" isTocEnabled>
+    <Layout title="Cartogram" isTocEnabled seoDescription="A collection of cartogram examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Cartogram"

@@ -12,7 +12,7 @@ import "../styles/style.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 // Layout component: add header + footer + TOC to content
-export default function Layout({ children, title, isTocEnabled, chartType, seoDescription }) {
+export default function Layout({ children, title, isTocEnabled, chartType, seoDescription, keywords }) {
 
   return (
     <>
@@ -23,6 +23,14 @@ export default function Layout({ children, title, isTocEnabled, chartType, seoDe
           rel="stylesheet"
         />
         <meta name="description" content={seoDescription || 'How to build a chart with Python'} />
+        <meta name="author" content="Yan Holtz" />
+        <meta name="keywords" content={keywords || 'python, chart, graph, code, viz, dataviz'} />
+
+        <meta property="og:site_name" content="The Python Graph Gallery" />
+        <meta property="og:title" content={title + " &#124; Python Graph Gallery"} />
+        <meta property="og:image" content="/static/overview_PGG.png" />
+        <meta property="og:description" content={seoDescription} />
+
       </Helmet>
 
       <header>
@@ -45,5 +53,6 @@ Layout.propTypes = {
   title: PropTypes.string,
   isTocEnabled: PropTypes.bool,
   chartType: PropTypes.string,
-  seoDescription: PropTypes.string
+  seoDescription: PropTypes.string,
+  keywords: PropTypes.string
 };

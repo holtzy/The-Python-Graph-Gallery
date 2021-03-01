@@ -18,7 +18,7 @@ export default function ConnectionMap() {
 
   return (
 
-    <Layout title="Connection Map" isTocEnabled>
+    <Layout title="Connection Map" isTocEnabled seoDescription="A collection of connection map examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Connection Map"

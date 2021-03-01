@@ -38,7 +38,8 @@ export default function ThreeD() {
 
   return (
 
-    <Layout title="Three-Dimensional plotting" isTocEnabled>
+    <Layout title="Three-Dimensional plotting" isTocEnabled seoDescription="A collection of 3d chart examples made with Python, coming with explanation and reproducible code">
+
 
       <TitleAndDescription
         title="Three-Dimensional plotting"

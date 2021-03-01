@@ -15,7 +15,7 @@ const chartDescription =
 export default function About() {
 
   return (
-    <Layout title="About" isTocEnabled>
+    <Layout title="About" isTocEnabled seoDescription="About page of the Python Graph Gallery">
 
       <TitleAndDescription
         title="About"

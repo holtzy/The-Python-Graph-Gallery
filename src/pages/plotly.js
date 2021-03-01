@@ -40,11 +40,11 @@ const embedCode = `<iframe
 </iframe>`
 
 
-export default function LinePlot() {
+export default function Plotlys() {
 
   return (
 
-    <Layout title="Plotly" isTocEnabled>
+    <Layout title="Plotly" isTocEnabled seoDescription="An overview of the plotly python library for interactive data visualization">
 
       <TitleAndDescription
         title="Plotly"

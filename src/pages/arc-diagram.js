@@ -16,7 +16,7 @@ export default function Arc() {
 
   return (
 
-    <Layout title="Arc Diagram" isTocEnabled>
+    <Layout title="Arc Diagram" isTocEnabled seoDescription="A collection of arc diagram examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Arc diagram"
         description={chartDescription}

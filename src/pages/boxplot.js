@@ -24,11 +24,11 @@ df = sns.load_dataset('iris')
 sns.boxplot( x=df["species"], y=df["sepal_length"] )
 `
 
-export default function ViolinPlot() {
+export default function Boxplot() {
 
   return (
 
-    <Layout title="Boxplot" isTocEnabled>
+    <Layout title="Boxplot" isTocEnabled seoDescription="A collection of boxplot examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Boxplot"

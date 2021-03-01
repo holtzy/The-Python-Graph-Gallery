@@ -9,8 +9,7 @@ import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
 import { Matplotlib } from "../components/MiscellaneousLogos"
 import ChartImage from "../components/ChartImage";
-import { Button, Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk";
+import { Button } from "react-bootstrap";
 import Spacing from "../components/Spacing";
 
 
@@ -22,7 +21,7 @@ export default function CircularPacking() {
 
   return (
 
-    <Layout title="Circular Packing" isTocEnabled>
+    <Layout title="Circular Packing" isTocEnabled seoDescription="A collection of circular packing examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Circular Packing"

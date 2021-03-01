@@ -21,7 +21,7 @@ export default function StackedAreaPlot() {
 
   return (
 
-    <Layout title="Streamgraph" isTocEnabled>
+    <Layout title="Streamgraph" isTocEnabled seoDescription="A collection of streamgraph examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Streamgraph"

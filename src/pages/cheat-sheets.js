@@ -5,13 +5,7 @@ import Container from "react-bootstrap/Container";
 import Contact from "../components/Contact";
 import Row from "react-bootstrap/Row";
 import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Matplotlib } from "../components/MiscellaneousLogos"
-import { Button } from "react-bootstrap";
 import Spacing from "../components/Spacing";
-import basicScatterGif from "../../static/graph/animated_chart.gif"
-import volcanoGif from "../../static/graph/animated_volcano.gif"
-import ChartImageContainer from "../components/ChartImageContainer";
 import ChartImage from "../components/ChartImage";
 import Col from "react-bootstrap/Col";
 
@@ -23,7 +17,7 @@ export default function CheatSheet() {
 
   return (
 
-    <Layout title="Animation" isTocEnabled>
+    <Layout title="Cheat sheets" isTocEnabled seoDescription="A collection of cheat sheets related with Python and data visualization">
 
       <TitleAndDescription
         title="Cheat Sheets"

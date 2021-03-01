@@ -39,7 +39,7 @@ export default function Donut() {
 
   return (
 
-    <Layout title="Donut plot" isTocEnabled>
+    <Layout title="Donut plot" isTocEnabled seoDescription="A collection of donut chart examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Donut Plot"

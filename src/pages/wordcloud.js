@@ -63,7 +63,7 @@ export default function Wordcloud() {
 
   return (
 
-    <Layout title="Wordcloud" isTocEnabled>
+    <Layout title="Wordcloud" isTocEnabled seoDescription="A collection of wordcloud examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Wordcloud"
         description={chartDescription}

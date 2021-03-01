@@ -19,7 +19,7 @@ export default function RidgelinePlot() {
 
   return (
 
-    <Layout title="Ridgeline" isTocEnabled>
+    <Layout title="Ridgeline" isTocEnabled seoDescription="A collection of ridgeline chart examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Ridgeline chart"

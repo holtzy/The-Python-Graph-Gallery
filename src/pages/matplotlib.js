@@ -9,7 +9,7 @@ import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
 import { Matplotlib } from "../components/MiscellaneousLogos"
-import { ButtonGroup, Col, ToggleButton } from "react-bootstrap";
+import { Col, ToggleButton } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
@@ -67,7 +67,7 @@ ax.set_title('A simple barplot');
 const allStyle = ['seaborn-darkgrid', 'seaborn-notebook', 'classic', 'seaborn-ticks', 'grayscale', 'bmh', 'seaborn-talk', 'dark_background', 'ggplot', 'fivethirtyeight', '_classic_test', 'seaborn-colorblind', 'seaborn-deep', 'seaborn-whitegrid', 'seaborn-bright', 'seaborn-poster', 'seaborn-muted', 'seaborn-paper', 'seaborn-white', 'seaborn-pastel', 'seaborn-dark', 'seaborn', 'seaborn-dark-palette']
 
 
-export default function LinePlot() {
+export default function Matplotlibs() {
 
   const [selectedParameter, setSelectedParameter] = React.useState(allStyle[0])
 
@@ -90,7 +90,7 @@ export default function LinePlot() {
 
   return (
 
-    <Layout title="Matplotlib" isTocEnabled>
+    <Layout title="Matplotlib" isTocEnabled seoDescription="A collection of charts, tips and tricks on the Matplotlib Python library.">
 
       <TitleAndDescription
         title="Matplotlib"

@@ -31,7 +31,7 @@ export default function LinePlot() {
 
   return (
 
-    <Layout title="Line chart" isTocEnabled>
+    <Layout title="Line chart" isTocEnabled seoDescription="A collection of line chart examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Line Chart"

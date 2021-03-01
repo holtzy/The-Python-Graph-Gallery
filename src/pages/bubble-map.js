@@ -14,11 +14,11 @@ import { Button } from "react-bootstrap";
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/bubblemap.html'>bubble map</a> uses circles of different size to represent a numeric value on a territory. It displays one bubble per geographic coordinate, or one bubble per region. As for <a href='https://python-graph-gallery.com/map/'>background maps</a>, several python libraries are useful to build them: <code>folium</code>, <code>geopandas</code>, <code>geoplot</code> and <code>basemap</code> are listed here.</p>";
 
-export default function BackgroundMap() {
+export default function BubbleMap() {
 
   return (
 
-    <Layout title="Bubble Map" isTocEnabled>
+    <Layout title="Bubble Map" isTocEnabled seoDescription="A collection of bubble map examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Bubble Map"

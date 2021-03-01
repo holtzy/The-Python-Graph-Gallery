@@ -9,7 +9,7 @@ import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
 import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
-import { ButtonGroup, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
@@ -32,7 +32,7 @@ export default function SeabornLib() {
 
   return (
 
-    <Layout title="Seaborn" isTocEnabled>
+    <Layout title="Seaborn" isTocEnabled seoDescription="A collection of chart examples made with Seaborn, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Seaborn"

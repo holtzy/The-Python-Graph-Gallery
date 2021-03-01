@@ -37,7 +37,7 @@ export default function Treemap() {
 
   return (
 
-    <Layout title="Treemap" isTocEnabled>
+    <Layout title="Treemap" isTocEnabled seoDescription="A collection of treemap examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Treemap"

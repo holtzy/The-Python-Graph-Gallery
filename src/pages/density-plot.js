@@ -29,7 +29,7 @@ export default function DensityPlot() {
 
   return (
 
-    <Layout title="Density chart" isTocEnabled>
+    <Layout title="Density chart" isTocEnabled seoDescription="A collection of density plot examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Density chart"

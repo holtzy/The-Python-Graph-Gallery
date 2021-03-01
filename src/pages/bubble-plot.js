@@ -31,11 +31,11 @@ sns.scatterplot(data=data, x="gdpPercap", y="lifeExp", size="pop", legend=False,
 plt.show()
 `
 
-export default function Heatmap() {
+export default function BubblePlot() {
 
   return (
 
-    <Layout title="Bubble plot" isTocEnabled>
+    <Layout title="Bubble plot" isTocEnabled seoDescription="A collection of bubble chart examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Bubble plot"
         description={chartDescription}

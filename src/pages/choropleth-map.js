@@ -16,7 +16,7 @@ export default function Choropleth() {
 
   return (
 
-    <Layout title="Choropleth map" isTocEnabled>
+    <Layout title="Choropleth map" isTocEnabled seoDescription="A collection of choropleth map examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Choropleth map"

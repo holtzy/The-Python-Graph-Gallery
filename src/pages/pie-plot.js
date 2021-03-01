@@ -29,11 +29,11 @@ plt.pie(size_of_groups)
 plt.show()
 `
 
-export default function Donut() {
+export default function Pie() {
 
   return (
 
-    <Layout title="Pie plot" isTocEnabled>
+    <Layout title="Pie plot" isTocEnabled seoDescription="A collection of Pie chart examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Pie Plot"
         description={chartDescription}

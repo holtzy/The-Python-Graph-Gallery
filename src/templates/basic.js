@@ -18,10 +18,11 @@ export default function Template({ data }) {
     family,
     chartType,
     slug,
-    seoDescription
+    seoDescription,
+    keywords
   } = data.jupyterNotebook.metadata;
   return (
-    <Layout title={title} isTocEnabled chartType={chartType} seoDescription={seoDescription} >
+    <Layout title={title} isTocEnabled chartType={chartType} seoDescription={seoDescription} keywords={keywords} >
 
       <TitleAndDescription
         title={title}

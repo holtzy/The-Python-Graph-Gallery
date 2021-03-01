@@ -7,18 +7,17 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
 import { Button } from "react-bootstrap";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/network.html'>Network diagram</a> (or chart, or graph) show interconnections between a set of entities. Each entity is represented by a node (or vertices). Connection between nodes are represented through links (or edges). This section mainly focuses on <code>NetworkX</code>, probably the best library for this kind of chart with <code>python</code>.";
 
-export default function Chord() {
+export default function Network() {
 
   return (
 
-    <Layout title="Network chart" isTocEnabled>
+    <Layout title="Network chart" isTocEnabled seoDescription="A collection of network chart examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Network chart"
         description={chartDescription}

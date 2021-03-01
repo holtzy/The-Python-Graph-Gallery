@@ -34,7 +34,7 @@ export default function Parallel() {
 
   return (
 
-    <Layout title="Parallel coordinate plot" isTocEnabled>
+    <Layout title="Parallel coordinate plot" isTocEnabled seoDescription="A collection of parallel coordinate chart examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Parallel coordinate plot"
         description={chartDescription}

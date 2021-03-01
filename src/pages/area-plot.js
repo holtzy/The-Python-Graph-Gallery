@@ -33,7 +33,7 @@ export default function LinePlot() {
 
   return (
 
-    <Layout title="Area chart" isTocEnabled>
+    <Layout title="Area chart" isTocEnabled seoDescription="A collection of area chart examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Area Chart"

@@ -19,7 +19,7 @@ export default function Chord() {
 
   return (
 
-    <Layout title="Chord diagram" isTocEnabled>
+    <Layout title="Chord diagram" isTocEnabled seoDescription="A collection of chord diagram examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Chord diagram"
         description={chartDescription}

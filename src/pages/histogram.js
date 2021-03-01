@@ -29,7 +29,7 @@ export default function ViolinPlot() {
 
   return (
 
-    <Layout title="Histogram" isTocEnabled>
+    <Layout title="Histogram" isTocEnabled seoDescription="A collection of histogram examples made with Python, coming with explanation and reproducible code">
 
       <TitleAndDescription
         title="Histogram"

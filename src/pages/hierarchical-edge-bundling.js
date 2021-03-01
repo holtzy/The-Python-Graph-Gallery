@@ -16,7 +16,7 @@ export default function Arc() {
 
   return (
 
-    <Layout title="Hierarchical Edge Bundling" isTocEnabled>
+    <Layout title="Hierarchical Edge Bundling" isTocEnabled seoDescription="A collection of hierarchical edge bundling examples made with Python, coming with explanation and reproducible code">
       <TitleAndDescription
         title="Hierarchical Edge Bundling"
         description={chartDescription}
