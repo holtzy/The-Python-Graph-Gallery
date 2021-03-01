@@ -12,7 +12,7 @@ import "../styles/style.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 // Layout component: add header + footer + TOC to content
-export default function Layout({ children, title, isTocEnabled, chartType }) {
+export default function Layout({ children, title, isTocEnabled, chartType, seoDescription }) {
 
   return (
     <>
@@ -22,6 +22,7 @@ export default function Layout({ children, title, isTocEnabled, chartType }) {
           href="https://fonts.googleapis.com/css?family=Roboto|Montserrat"
           rel="stylesheet"
         />
+        <meta name="description" content={seoDescription || 'How to build a chart with Python'} />
       </Helmet>
 
       <header>
@@ -34,7 +35,7 @@ export default function Layout({ children, title, isTocEnabled, chartType }) {
 
       <Footer />
 
-      { isTocEnabled && <TableOfContent chartType={chartType} />}
+      {isTocEnabled && <TableOfContent chartType={chartType} />}
     </>
   );
 }
@@ -43,5 +44,6 @@ Layout.propTypes = {
   children: PropTypes.any,
   title: PropTypes.string,
   isTocEnabled: PropTypes.bool,
-  chartType: PropTypes.string
+  chartType: PropTypes.string,
+  seoDescription: PropTypes.string
 };

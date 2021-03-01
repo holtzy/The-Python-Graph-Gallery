@@ -12,16 +12,16 @@ import Contact from "../components/Contact";
 import Spacing from "../components/Spacing";
 
 export default function Template({ data }) {
-  console.log("data", data)
   const {
     title,
     description,
     family,
     chartType,
-    slug
+    slug,
+    seoDescription
   } = data.jupyterNotebook.metadata;
   return (
-    <Layout title={title} isTocEnabled chartType={chartType} >
+    <Layout title={title} isTocEnabled chartType={chartType} seoDescription={seoDescription} >
 
       <TitleAndDescription
         title={title}
