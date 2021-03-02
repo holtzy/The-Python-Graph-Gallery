@@ -5,8 +5,8 @@ export const functionDescriptions = {
         basicUsage: '',
         parameters: [
             { name: "fill", description: 'color under the curve', type: 'boolean', relatedChart: '70_deffffed' },
-            { name: "bw", description: 'controls something else', type: 'boolean', relatedChart: '70_deffffed' },
-            { name: "color", description: 'what what whaaat', type: 'boolean', relatedChart: '70_deffffed' }
+            { name: "bw", description: 'control how density is computed', type: 'boolean', relatedChart: '70_deffffed' },
+            { name: "color", description: 'control the color', type: 'boolean', relatedChart: '70_deffffed' }
         ]
     },
     violin: {
@@ -15,8 +15,8 @@ export const functionDescriptions = {
         basicUsage: '',
         parameters: [
             { name: "width", description: 'color under the curve', type: 'boolean', relatedChart: '70_deffffed' },
-            { name: "bw", description: 'controls something else', type: 'boolean', relatedChart: '70_deffffed' },
-            { name: "color", description: 'what what whaaat the fuuuck', type: 'boolean', relatedChart: '70_deffffed' }
+            { name: "bw", description: 'control how density is computed', type: 'boolean', relatedChart: '70_deffffed' },
+            { name: "color", description: 'controls the color', type: 'string', relatedChart: '70_deffffed' }
         ]
     }
 }

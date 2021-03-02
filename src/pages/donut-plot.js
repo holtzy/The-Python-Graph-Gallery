@@ -73,7 +73,7 @@ export default function Donut() {
       <div className="greySection">
         <Container>
           <h2 id="Warning">&#9888;&#65039; Mind the donut!</h2>
-          <p>As his friend the <Link to='pie-plot'>Pie chart</Link>, the Donut chart is often criticized. Humans
+          <p>As his friend the <Link to='/pie-plot'>Pie chart</Link>, the Donut chart is often criticized. Humans
           are pretty bad at reading angles, making it hard to rank the groups accurately. Most
           of the time, it is better to display the
             information as a <Link to='/barplot'>barchart</Link>, a <Link to='/treemap'>treemap</Link> or a <Link to='/lollipop-plot'>lollipop</Link> plot.</p>

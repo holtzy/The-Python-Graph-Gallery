@@ -24,7 +24,7 @@ export default function Contact({ pageSlug, isNotebook }) {
         </blockquote>
       }
       <div>
-        <Button size="xl" href="https://github.com/holtzy/python-graph-gallery">
+        <Button size="xl" href="https://github.com/holtzy/The-Python-Graph-Gallery">
           GITHUB
         </Button>
         <Button size="xl" href="https://twitter.com/R_Graph_Gallery">
