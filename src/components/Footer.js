@@ -8,9 +8,17 @@ export default function Footer() {
     <div className="footer">
       <div className="copyright">Copyright © the Python Graph Gallery 2018</div>
       <SocialMediaButtons />
-      <Link className="policy" to="/about">
-        About
-      </Link>
+      <div className="policy">
+        <span>
+          <Link to="/about">
+            About
+          </Link>
+          <span> | </span>
+          <a href="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE">
+            License
+          </a>
+        </span>
+      </div>
     </div>
   );
 }
