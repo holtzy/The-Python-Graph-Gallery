@@ -13,7 +13,7 @@ import Row from "react-bootstrap/Row";
 import { Seaborn } from "../components/MiscellaneousLogos"
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/caveat/ridgeline.html'>ridgeline</a> summarizes the distribution of a numeric variable for several groups. Each group is represented as a density chart, each density chart overlapping each other to use space more efficiently.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/ridgeline.html'>ridgeline</a> summarizes the distribution of a numeric variable for several groups. Each group is represented as a density chart, each density chart overlapping each other to use space more efficiently.</p>";
 
 export default function RidgelinePlot() {
 

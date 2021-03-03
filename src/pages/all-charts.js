@@ -62,17 +62,17 @@ export default function AllCharts() {
                     <ChartImageContainer
                         imgName="80_bivariate_kernel_density_plot1"
                         caption="Basic contourplot with seaborn."
-                        linkTo="/contour-plot-seaborn"
+                        linkTo="/80-contour-plot-with-seaborn"
                     />
                     <ChartImageContainer
                         imgName="80_bivariate_kernel_density_plot2"
                         caption="Basic contourplot with seaborn."
-                        linkTo="/contour-plot-seaborn"
+                        linkTo="/80-contour-plot-with-seaborn"
                     />
                     <ChartImageContainer
                         imgName="80_bivariate_kernel_density_plot3"
                         caption="Basic contourplot with seaborn."
-                        linkTo="/contour-plot-seaborn"
+                        linkTo="/80-contour-plot-with-seaborn"
                     />
                     <ChartImageContainer
                         imgName="83_2D_Histogram_matplotlib_3"
