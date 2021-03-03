@@ -27,10 +27,10 @@ export default function Layout({ children, title, isTocEnabled, chartType, seoDe
         <meta name="keywords" content={keywords || 'python, chart, graph, code, viz, dataviz'} />
 
         <meta property="og:site_name" content="The Python Graph Gallery" />
-        <meta property="og:title" content={title + " &#124; Python Graph Gallery"} />
+        <meta property="og:title" content={title + " | The Python Graph Gallery"} />
         <meta property="og:image" content="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true" />
         <meta property="og:description" content={seoDescription} />
-
+        <meta name="twitter:image" content="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true" />
       </Helmet>
 
       <header>
