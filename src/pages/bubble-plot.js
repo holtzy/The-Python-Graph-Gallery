@@ -89,7 +89,7 @@ export default function BubblePlot() {
       <Container>
         <h2 id="Matplotlib"><Matplotlib />Bubble plot with <code>Matplotlib</code></h2>
         <p>
-          As for <Link to='/scattter-plot'>scatterplots</Link>, <code>Matplotlib</code> will help us build a bubble plot thanks to
+          As for <Link to='/scatter-plot'>scatterplots</Link>, <code>Matplotlib</code> will help us build a bubble plot thanks to
           the the <code>plt.scatter()</code> function. This function provides a <code>s</code> parameter allowing
           to pass a third variable that will be mapped to the markers size.
         </p>

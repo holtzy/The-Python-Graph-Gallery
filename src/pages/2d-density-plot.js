@@ -47,7 +47,7 @@ export default function Heatmap() {
           <a href='https://www.data-to-viz.com/graph/density2d.html'>
             <Button size="sm">More viz explanation</Button>
           </a>
-          <Link to='86-avoid-overlapping-in-scatterplot-with-2d-density'>
+          <Link to='/86-avoid-overlapping-in-scatterplot-with-2d-density'>
             <Button size="sm">Show me the code</Button>
           </Link>
         </Container>

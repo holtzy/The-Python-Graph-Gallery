@@ -102,7 +102,7 @@ export default function LinePlot() {
           <ChartImageContainer
             imgName="124_Spaghetti_plot"
             caption="Line chart with multiple groups"
-            linkTo="/124-spaghetti-plot.ipynb"
+            linkTo="/124-spaghetti-plot"
           />
           <ChartImageContainer
             imgName="125_Lineplot_small_multiple_v2"
