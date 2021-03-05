@@ -114,7 +114,7 @@ export default function ThreeD() {
         a PCA with python and check its result with a 3d scatterplot:
         </p>
         <div style={{ maxWidth: "450px" }}>
-          <Link to="372-3d-pca-result">
+          <Link to="/372-3d-pca-result">
             <ChartImage imgName={'372_3D_PCA_result'} caption={"PCA result shown as a 3D scatterplot with python"} />
           </Link>
         </div>

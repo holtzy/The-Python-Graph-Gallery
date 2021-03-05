@@ -322,7 +322,7 @@ export default function Matplotlibs() {
         <p>
           <code>Matplotlib</code> allows every kind of axis configuration. It is mainly done thanks
           to the <code>tick_params()</code>, <code>xticks()</code> and <code>xlabels()</code> functions.
-          The <Link to='191-custom-axis-on-matplotlib-chart'>post #191</Link> will guide you through all the possibilities.
+          The <Link to='/191-custom-axis-on-matplotlib-chart'>post #191</Link> will guide you through all the possibilities.
         </p>
         <Row>
           <ChartImageContainer
