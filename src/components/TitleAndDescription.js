@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "gatsby";
 import { chartTypesInfo } from "../util/sectionDescriptions";
 import { fullUrlToInternalLink } from "../util/utils";
-import Sponsors from "../components/Sponsors";
+// import Sponsors from "../components/Sponsors";
 
 // Note that the description received is a string that contains html.
 // It was not possible to pass JSX since it is sometimes passed directly from
@@ -36,7 +36,7 @@ export default function TitleAndDescription({ title, description, chartType }) {
           </div>
         )}
       </div>
-      <Sponsors />
+      {/* <Sponsors /> */}
     </>
   );
 }
