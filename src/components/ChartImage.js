@@ -46,6 +46,7 @@ export default function ChartImage({ imgName, caption }) {
     return null;
   }
 
+  // Note: alt tag looks to be ignored?
   return (
     <>
       <div className="chartImageContainer">
