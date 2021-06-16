@@ -50,7 +50,7 @@ export default function ChartImage({ imgName, caption }) {
     <>
       <div className="chartImageContainer">
         <Img
-          alt={imgName}
+          alt={caption}
           fluid={image.node.childImageSharp.fluid}
           className="chartImageImg"
         />
