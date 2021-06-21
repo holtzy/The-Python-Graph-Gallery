@@ -111,6 +111,26 @@ export default function Lollipop() {
         </Row>
       </Container>
 
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Publiication ready"><Matplotlib />Publication ready lollipop charts</h2>
+        <p>
+          This section displays lollipop charts built in real life. They have been written
+          by various authors that kindly accepted to share their work with the gallery. It
+          demos how much customization is possible to apply on a python graph... but goes with
+          quite a lot of code complexity.
+        </p>
+        <Row>
+          <Col xs={12} md={8}>
+            <Link to={"/web-lollipop-plot-with-python-mario-kart-64-world-records"}>
+              <ChartImage imgName={"web-lollipop-plot-with-python-mario-kart-64-world-records"} caption={"A highly customized lollipop chart made with Python and Matplotlib visualizing a Mario Kart Dataset"} />
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+
       <Spacing />
 
       <div className="greySection" id="related">
