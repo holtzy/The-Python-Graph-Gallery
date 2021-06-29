@@ -116,16 +116,17 @@ export default function Lollipop() {
 
       <Container>
         <h2 id="Publiication ready"><Matplotlib />Publication ready lollipop charts</h2>
-        <p>
-          This section displays lollipop charts built in real life. They have been written
-          by various authors that kindly accepted to share their work with the gallery. It
-          demos how much customization is possible to apply on a python graph... but goes with
-          quite a lot of code complexity.
+        <p>The web is full of astonishing charts made by awesome bloggers, (often
+          using <a href="https://www.r-graph-gallery.com">R</a>). The
+          <a href="https://www.python-graph-gallery.com">Python graph gallery</a> tries to
+          display (or translate from R) some of the best creations and explain how their source
+          code works. If you want to display your work here, please drop me a word or
+          even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
-          <Col xs={12} md={8}>
+          <Col xs={12} md={6}>
             <Link to={"/web-lollipop-plot-with-python-mario-kart-64-world-records"}>
-              <ChartImage imgName={"web-lollipop-plot-with-python-mario-kart-64-world-records"} caption={"A highly customized lollipop chart made with Python and Matplotlib visualizing a Mario Kart Dataset"} />
+              <ChartImage imgName={"web-lollipop-plot-with-python-mario-kart-64-world-records-square"} caption={"A highly customized lollipop chart made with Python and Matplotlib. A work by Cédric Scherer to visualize some Mario Kart World records."} />
             </Link>
           </Col>
         </Row>
