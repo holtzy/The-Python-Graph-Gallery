@@ -197,6 +197,11 @@ export default function ViolinPlot() {
             caption="Add an annotation to highlight a specific marker"
             linkTo="/193-annotate-matplotlib-chart"
           />
+          <ChartImageContainer
+            imgName="manhattan-plot-with-matplotlib"
+            caption="How to build a Manhattan plot with Python and Matplotlib"
+            linkTo="/manhattan-plot-with-matplotlib"
+          />
         </Row>
       </Container>
 
