@@ -140,6 +140,27 @@ export default function BubblePlot() {
 
       <Spacing />
 
+
+      <Container>
+        <h2 id="From the web"><Matplotlib />From the web</h2>
+        <p>The web is full of astonishing charts made by awesome bloggers, (often
+          using <a href="https://www.r-graph-gallery.com">R</a>).
+          The <a href="https://www.python-graph-gallery.com">Python graph gallery</a> tries to
+          display (or translate from R) some of the best creations and explain how their source
+          code works. If you want to display your work here, please drop me a word or
+          even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
+        </p>
+        <Row>
+          <Col xs={12} md={6}>
+            <Link to={"/web-text-repel-with-matplotlib"}>
+              <ChartImage imgName={"web-text-repel-with-matplotlib-square"} caption={"Learn how to use the adjustText library to add many labels with no overlaps."} />
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="correlation" />
