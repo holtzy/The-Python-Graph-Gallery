@@ -95,6 +95,33 @@ export default function Chord() {
 
       <Spacing />
 
+      <Container>
+        <h2 id="Chord library">Chord diagram with the <code>Mne</code> library</h2>
+        <p>
+          The <code>mne</code> library has been written for neuroscience purposes, but it comes with some handy functions when it comes to
+          build chord diagrams. Visit the examples below to learn the basics and more!
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="406-chord-diagram_mne1"
+            caption="Most basic chord diagram with the mne library."
+            linkTo="/406-chord-diagram_mne"
+          />
+          <ChartImageContainer
+            imgName="406-chord-diagram_mne2"
+            caption="Learn how to customize node, links, labels and more."
+            linkTo="/406-chord-diagram_mne"
+          />
+          <ChartImageContainer
+            imgName="406-chord-diagram_mne3"
+            caption="How to split nodes in groups."
+            linkTo="/406-chord-diagram_mne"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="flow" />
