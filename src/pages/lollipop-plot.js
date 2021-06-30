@@ -115,7 +115,7 @@ export default function Lollipop() {
       <Spacing />
 
       <Container>
-        <h2 id="Publiication ready"><Matplotlib />Publication ready lollipop charts</h2>
+        <h2 id="From the web"><Matplotlib />From the web</h2>
         <p>The web is full of astonishing charts made by awesome bloggers, (often
           using <a href="https://www.r-graph-gallery.com">R</a>).
           The <a href="https://www.python-graph-gallery.com">Python graph gallery</a> tries to
