@@ -33,22 +33,19 @@ export default function Chord() {
           the best tool to create a Sankey Diagram. Its <code>Sankey()</code> function handles most of the business
           logic for you, allowing to get a figure in a couple of lines of code.
         </p>
-        <p>The examples below should quickly get you started with this <Link to='/sankey-diagram-with-python-and-plotly'>minimal starting example</Link>. They
-        then describes the most common of type of customization you probably want to apply to your figure
-        to make it appealing.
+        <p>The blogpost linked below should quickly get you started with some <Link to='/sankey-diagram-with-python-and-plotly'>minimal starting example</Link>. It
+        also describes the most common of type of customization you probably want to apply to your Sankey diagram
+        to make it appealing, and ends up with the code for a real life Sankey diagram shown below.
         </p>
-        <Link to='/chord-diagram-python-chord'>
+        <div className="mx-auto">
+          <iframe src="/interactiveCharts/sankey-diagram-plotly-real.html" title="Sankey diagram with plotly" style={{ border: "none", width: '800px', height: '700px' }}></iframe>
+        </div>
+        <Link to='/sankey-diagram-with-python-and-plotly'>
           <Button size="sm">
-            Show me the code
+            See code
           </Button>
         </Link>
-        <Row>
-          <ChartImageContainer
-            imgName="chord-diagram-chord-library"
-            caption="Most basic chord diagram example from a random matrix."
-            linkTo="/sankey-diagram-with-python-and-plotly"
-          />
-        </Row>
+
       </Container>
 
       <Spacing />
