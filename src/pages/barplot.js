@@ -181,15 +181,15 @@ export default function Barplot() {
           <ChartImageContainer
             imgName="12_stacked_barplot"
             caption="How to build a stacked barplot with Python."
-            linkTo="/11-grouped-barplot"
+            linkTo="/12-stacked-barplot-with-matplotlib"
           />
           <ChartImageContainer
             imgName="12_grouped_barplot"
             caption="How to build a grouped barplot with Python."
-            linkTo="/12-stacked-barplot-with-matplotlib"
+            linkTo="/11-grouped-barplot"
           />
           <ChartImageContainer
-            imgName="12_stacked_barplot"
+            imgName="12_stacked_percent_barplot"
             caption="How to build a percent stacked barplot with Python.."
             linkTo="/13-percent-stacked-barplot"
           />
