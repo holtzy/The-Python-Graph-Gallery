@@ -242,6 +242,23 @@ export default function Matplotlibs() {
         </Row>
       </Container>
 
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Font"><Matplotlib />Custom fonts</h2>
+        <p>
+          Using custom fonts adds a nice touch to your graph and make it shine among all the other plots
+          using defaults. The blog-post below will guide you through the process: installing a font
+          and calling it with matplotlib functions.
+        </p>
+        <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
+          <Link to='/custom-fonts-in-matplotlib'>
+            <ChartImage imgName={'custom-fonts-in-matplotlib'} caption={'How to use custom fonts with matplotlib'} />
+          </Link>
+        </div>
+      </Container>
+
       <Spacing />
 
       <Container>
