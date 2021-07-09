@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Animation } from "../components/MiscellaneousLogos"
+import { Animation, Matplotlib } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import ChartImage from "../components/ChartImage";
 import CodeChunk from "../components/CodeChunk";
@@ -89,6 +89,26 @@ export default function Parallel() {
             See code
           </Button>
         </Link>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="From the web"><Matplotlib />From the web</h2>
+        <p>The web is full of astonishing charts made by awesome bloggers, (often
+          using <a href="https://www.r-graph-gallery.com">R</a>).
+          The <a href="https://www.python-graph-gallery.com">Python graph gallery</a> tries to
+          display (or translate from R) some of the best creations and explain how their source
+          code works. If you want to display your work here, please drop me a word or
+          even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
+        </p>
+        <Row>
+          <Col xs={12} md={6}>
+            <Link to={"/web-radar-chart-with-matplotlib"}>
+              <ChartImage imgName={"web-radar-chart-with-matplotlib-square"} caption={"A radar chart can be an alternative to a parallel coordinate plot."} />
+            </Link>
+          </Col>
+        </Row>
       </Container>
 
       <Spacing />
