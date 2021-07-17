@@ -129,6 +129,11 @@ export default function Lollipop() {
               <ChartImage imgName={"web-lollipop-plot-with-python-mario-kart-64-world-records-square"} caption={"A highly customized lollipop chart made with Python and Matplotlib. A work by Cédric Scherer to visualize some Mario Kart World records."} />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={"/web-lollipop-plot-with-python-the-office"}>
+              <ChartImage imgName={"web-lollipop-plot-with-python-the-office-square"} caption={"A highly customized lollipop chart made with Python and Matplotlib to display a timeseries."} />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
