@@ -123,6 +123,28 @@ export default function StackedAreaPlot() {
 
       <Spacing />
 
+      <div className="greySection" id="tip">
+        <Container>
+          <h2 id="Workaround">&#128161; The <code>baseline</code> parameter</h2>
+          <p>
+            It is important to note that the <code>stackplot()</code> function of <code>matplotlib</code> has a
+            <code>baseline</code> parameter. This parameter controls how groups are displayed around
+            the x axis, what allows to mimic a <Link to="/streamchart">streamgraph</Link>.
+          </p>
+          <Link to='/252-baseline-options-for-stacked-area-chart'>
+            <Button size="sm">Read more</Button>
+          </Link>
+          <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
+            <Link to='/252-baseline-options-for-stacked-area-chart'>
+              <ChartImage imgName={'252_baseline_and_stacked_area_chart'} caption={'It is hard to see how the green group evolves.'} />
+            </Link>
+          </div>
+        </Container>
+      </div>
+
+      <Spacing />
+
+
       <Container>
         <h2 id="Percent stacked"><Matplotlib />Percent Stacked Area chart with <code>Matplotlib</code></h2>
         <p>

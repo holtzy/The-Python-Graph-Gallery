@@ -9,7 +9,6 @@ import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
 import { Matplotlib } from "../components/MiscellaneousLogos"
 import { Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
 import { Button } from "react-bootstrap";
@@ -43,9 +42,24 @@ export default function StackedAreaPlot() {
         </Link>
         <Row>
           <ChartImageContainer
-            imgName="250_basic_stacked_area_chart"
-            caption="Most basic stacked area chart"
-            linkTo="/250-basic-stacked-area-chart"
+            imgName="streamchart-basic-matplotlib1"
+            caption="Everything starts with a stacked area chart with a custom baseline"
+            linkTo="/streamchart-basic-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="streamchart-basic-matplotlib2"
+            caption="Apply some smoothing to get a stream chart"
+            linkTo="/streamchart-basic-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="streamchart-basic-matplotlib3"
+            caption="Some more smoothing control using grids"
+            linkTo="/streamchart-basic-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="streamchart-basic-matplotlib4"
+            caption="Customize the color palette"
+            linkTo="/streamchart-basic-matplotlib"
           />
         </Row>
       </Container>
@@ -72,26 +86,6 @@ export default function StackedAreaPlot() {
 
       <Spacing />
 
-      <div className="greySection" id="tip">
-        <Container>
-          <h2 id="Workaround">&#128161; Stacked area chart as a workaround</h2>
-          <p>
-            It is important to note that the <code>stackplot()</code> function of <code>matplotlib</code> has a
-            <code>baseline</code> parameter. This parameter controls how groups are displayed around
-            the x axis, what allows to mimic a streamgraph.
-          </p>
-          <Link to='/252-baseline-options-for-stacked-area-chart'>
-            <Button size="sm">Read more</Button>
-          </Link>
-          <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
-            <Link to='/252-baseline-options-for-stacked-area-chart'>
-              <ChartImage imgName={'252_baseline_and_stacked_area_chart'} caption={'It is hard to see how the green group evolves.'} />
-            </Link>
-          </div>
-        </Container>
-      </div>
-
-      <Spacing />
 
 
       <Container>
@@ -104,7 +98,7 @@ export default function StackedAreaPlot() {
           even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={12}>
             <Link to={"/web-streamchart-with-matplotlib"}>
               <ChartImage imgName={"web-streamchart-with-matplotlib"} caption={"A streamchart made with Python, Matplotlib and the scipy.stats package."} />
             </Link>
