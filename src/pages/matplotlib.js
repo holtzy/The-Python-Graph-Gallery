@@ -242,6 +242,35 @@ export default function Matplotlibs() {
         </Row>
       </Container>
 
+      <Spacing />
+
+      <div className="greySection" id="related">
+        <Container>
+        <h2 id="Cheatsheets">✨ Cheatsheets</h2>
+          <p>
+            It's pretty hard to remember all the matplotlib associated vocabulary. The <Link to="/cheat-sheets">cheatsheet section</Link> is
+            here to help, with a few sheets that you'll probably want to use on a daily basis.
+          </p>
+          <Row>
+            <Col xs={12} md={4}>
+              <Link to="/cheat-sheets">
+                <ChartImage imgName={'matplotlib_cheat_sheet'} caption={'Matplotlib cheatsheet by Datacamp'} />
+              </Link>
+            </Col>
+            <Col xs={12} md={4}>
+              <Link to="/cheat-sheets">
+                <ChartImage imgName={'matplotlib-python-official-cheatsheet1'} caption={'Official Matplotlib cheatsheet (page 1)'} />
+              </Link>
+            </Col>
+            <Col xs={12} md={4}>
+              <Link to="/cheat-sheets">
+                <ChartImage imgName={'matplotlib-python-official-cheatsheet2'} caption={'Official Matplotlib cheatsheet (page 2)'} />
+              </Link>
+            </Col>
+          </Row>
+        <br/>
+        </Container>
+      </div>
 
       <Spacing />
 
@@ -361,6 +390,7 @@ export default function Matplotlibs() {
       </Container>
 
       <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="evolution" />
