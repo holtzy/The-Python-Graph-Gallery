@@ -133,7 +133,7 @@ export default function DensityPlot() {
         </Row>
         <div style={{ margin: "0 auto", padding: 0 }}>
           <Link to='/density-chart-multiple-groups-seaborn'>
-            <ChartImage imgName='density-chart-multiple-groups-seaborn5' caption={'A seaborn heatmap with clusterization and dendrogram applied'} />
+            <ChartImage imgName='density-chart-multiple-groups-seaborn5' caption={'A density chart with multiple groups displayed, transparency and clean annotation.'} />
           </Link>
         </div>
       </Container>
