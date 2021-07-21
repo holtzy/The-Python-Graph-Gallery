@@ -115,10 +115,17 @@ export default function Radar() {
               <ChartImage imgName={"web-radar-chart-with-matplotlib-square"} caption={"An appealing radar chart with several groups to compare some penguins populations ."} />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={"/web-circular-barplot-with-matplotlib"}>
+              <ChartImage imgName={"web-circular-barplot-with-matplotlib-square"} caption={"A circular barchart with several features per group made with Python and Matplotlib."} />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
       <Spacing />
+
+
 
       <div className="greySection" id="related">
         <Container>

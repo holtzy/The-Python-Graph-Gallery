@@ -10,6 +10,7 @@ import { Matplotlib } from "../components/MiscellaneousLogos"
 import Spacing from "../components/Spacing";
 import { Link } from "gatsby";
 import ChartImage from "../components/ChartImage";
+import { Col } from "react-bootstrap";
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/circularbarplot.html'>circular barplot</a> is pretty much the same as a <a href='https://www.python-graph-gallery.com/barplot'>barplot</a>, but using polar coordinates instead of cartesian coordinates. They are a bit tricky to build with <code>Python</code> and less accurate than usual barplot, but they come with an eye-catching effect that sometimes make them worth it.</p>";
@@ -58,6 +59,27 @@ export default function CircularBarplot() {
             <ChartImage imgName={'circular-barplot-basic3'} caption={'Circular barplot with labels'} />
           </Link>
         </div>
+      </Container>
+
+      <Spacing />
+
+
+      <Container>
+        <h2 id="From the web"><Matplotlib />From the web</h2>
+        <p>The web is full of astonishing charts made by awesome bloggers, (often
+          using <a href="https://www.r-graph-gallery.com">R</a>).
+          The <a href="https://www.python-graph-gallery.com">Python graph gallery</a> tries to
+          display (or translate from R) some of the best creations and explain how their source
+          code works. If you want to display your work here, please drop me a word or
+          even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
+        </p>
+        <Row>
+          <Col xs={12} md={6}>
+            <Link to={"/web-circular-barplot-with-matplotlib"}>
+              <ChartImage imgName={"web-circular-barplot-with-matplotlib-square"} caption={"A circular barchart with several features per group made with Python and Matplotlib."} />
+            </Link>
+          </Col>
+        </Row>
       </Container>
 
       <Spacing />
