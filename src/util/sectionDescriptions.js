@@ -216,6 +216,14 @@ export const chartTypesInfo = [
     label: "Streamgraph",
   },
   {
+    id: "timeseries",
+    family: "evolution",
+    logo: "time150",
+    dataToVizURL: "https://www.data-to-viz.com",
+    pythonURL: "https://python-graph-gallery.com/timeseries/",
+    label: "Timeseries",
+  },
+  {
     id: "map",
     family: "map",
     logo: "Map150",
