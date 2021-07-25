@@ -25,6 +25,19 @@ df = sns.load_dataset('iris')
 sns.regplot(x=df["sepal_length"], y=df["sepal_width"])
 `
 
+const quickCodeMatplotlib = `# libraries
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
+# Create a dataset:
+df=pd.DataFrame({'x_values': range(1,101), 'y_values': np.random.randn(100)*15+range(1,101) })
+
+# plot
+plt.plot( 'x_values', 'y_values', data=df, linestyle='none', marker='o')
+plt.show()
+`
+
 export default function ViolinPlot() {
 
   return (
@@ -36,7 +49,7 @@ export default function ViolinPlot() {
       />
 
       <Container>
-        <h2 id="Quick start">&#9201; Quick start</h2>
+        <h2 id="Quick start">&#9201; Quick start (Seaborn)</h2>
         <Row className="align-items-center">
           <Col md={6}>
             <p>The <code>regplot()</code> function of the <code>Seaborn</code> library is definitely the best way to build a scatterplot in minutes. 🔥</p>
@@ -88,8 +101,13 @@ export default function ViolinPlot() {
       <Container>
         <h2 id="Seaborn"><Seaborn />Scatterplots with <code>Seaborn</code></h2>
         <p>
-          <code>Seaborn</code> is a python library allowing to make better
-          charts easily. The <code>boxplot</code> function should get you started in minutes. The examples below aim at showcasing the various possibilities this function offers.
+          <Link to='/seaborn'>Seaborn</Link> is a python library allowing to make better
+          charts easily. The <code>regplot()</code> function should get you started in
+          minutes. The <Link to='/40-basic-scatterplot-seaborn'>first example</Link> below
+          explains how to build the most basic scatterplot with python. Then, several
+          types of customization are described: adding a <Link to='/42-custom-linear-regression-fit-seaborn'>regression</Link> line, tweaking <Link to='/41-control-marker-features'>markers</Link>
+          and <Link to='/44-control-axis-limits-of-plot-seaborn'>axis</Link>, adding <Link to='/46-add-text-annotation-on-scatterplot'>labels</Link> and more.
+
         </p>
         <Row>
           <ChartImageContainer
@@ -162,9 +180,36 @@ export default function ViolinPlot() {
       <Spacing />
 
       <Container>
+        <h2 id="Quick start">&#9201; Quick start (Matplotlib)</h2>
+        <Row className="align-items-center">
+          <Col md={6}>
+            <p><Link to='/matplotlib'>Matplotlib</Link> also requires only a few lines of code to draw a scatterplot thanks to its <code>plot()</code> function. The resulting chart
+          is not as good-looking, but the function probably offers more flexibility in term of customization.</p>
+          </Col>
+          <Col md={6}>
+            <Link to={"/130_Basic_Matplotlib_Scatterplot"}>
+              <ChartImage imgName="130_Basic_Matplotlib_Scatterplot"
+                caption="Most basic scatterplot with Matplotlib." />
+            </Link>
+          </Col>
+        </Row>
+        <CodeChunk>{quickCodeMatplotlib}</CodeChunk>
+        <br />
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Matplotlib"><Matplotlib />Scatterplots with <code>Matplotlib</code></h2>
         <p>
-          <code>Matplotlib</code> is another great alternative to build scatterplots with python. As often, it takes a bit more lines of code to get a decent chart, but allows more customization.
+          <code>Matplotlib</code> is another great alternative to build scatterplots
+          with python. As often, it takes a bit more lines of code to get a decent
+          chart, but allows more customization.
+        </p>
+        <p>
+          The examples below should get you covered
+          for all the most common problems: adding <Link to='/193-annotate-matplotlib-chart'>markers</Link>, adding
+          <Link to='/193-annotate-matplotlib-chart'>labels</Link>, changing <Link to='/131-custom-a-matplotlib-scatterplot'>shapes</Link> and more.
         </p>
         <Row>
           <ChartImageContainer
@@ -213,7 +258,12 @@ export default function ViolinPlot() {
           using <a href="https://www.r-graph-gallery.com">R</a>).
           The <a href="https://www.python-graph-gallery.com">Python graph gallery</a> tries to
           display (or translate from R) some of the best creations and explain how their source
-          code works. If you want to display your work here, please drop me a word or
+          code works.
+        </p>
+        <p>The <Link to='/web-text-repel-with-matplotlib'>first example</Link> below demos how to add clean labels on a scatterplot, automatically avoiding
+          overlapping. It also explains how to control background, fonts, titles and more.
+        </p>
+        <p>If you want to display your work here, please drop me a word or
           even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
