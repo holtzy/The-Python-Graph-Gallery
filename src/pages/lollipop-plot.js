@@ -134,6 +134,11 @@ export default function Lollipop() {
               <ChartImage imgName={"web-lollipop-plot-with-python-the-office-square"} caption={"A highly customized lollipop chart made with Python and Matplotlib to display a timeseries."} />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={"/web-circular-lollipop-plot-with-matplotlib"}>
+              <ChartImage imgName={"web-circular-lollipop-plot-with-matplotlib-square"} caption={"A circular lollipop plot with customized layout, great color palette and in circle legend."} />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
