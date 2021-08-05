@@ -79,6 +79,11 @@ export default function CircularBarplot() {
               <ChartImage imgName={"web-circular-barplot-with-matplotlib-square"} caption={"A circular barchart with several features per group made with Python and Matplotlib."} />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={"/web-circular-lollipop-plot-with-matplotlib"}>
+              <ChartImage imgName={"web-circular-lollipop-plot-with-matplotlib-square"} caption={"A circular lollipop plot with customized layout, great color palette and in circle legend."} />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
