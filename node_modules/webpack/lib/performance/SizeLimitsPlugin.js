@@ -2,15 +2,42 @@
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Sean Larkin @thelarkinn
 */
+
 "use strict";
-const EntrypointsOverSizeLimitWarning = require("./EntrypointsOverSizeLimitWarning");
+
+const { find } = require("../util/SetHelpers");
 const AssetsOverSizeLimitWarning = require("./AssetsOverSizeLimitWarning");
+const EntrypointsOverSizeLimitWarning = require("./EntrypointsOverSizeLimitWarning");
 const NoAsyncChunksWarning = require("./NoAsyncChunksWarning");
 
+/** @typedef {import("webpack-sources").Source} Source */
+/** @typedef {import("../../declarations/WebpackOptions").PerformanceOptions} PerformanceOptions */
+/** @typedef {import("../ChunkGroup")} ChunkGroup */
 /** @typedef {import("../Compiler")} Compiler */
 /** @typedef {import("../Entrypoint")} Entrypoint */
+/** @typedef {import("../WebpackError")} WebpackError */
+
+/**
+ * @typedef {Object} AssetDetails
+ * @property {string} name
+ * @property {number} size
+ */
+
+/**
+ * @typedef {Object} EntrypointDetails
+ * @property {string} name
+ * @property {number} size
+ * @property {string[]} files
+ */
+
+const isOverSizeLimitSet = new WeakSet();
+
+const excludeSourceMap = (name, source, info) => !info.development;
 
 module.exports = class SizeLimitsPlugin {
+	/**
+	 * @param {PerformanceOptions} options the plugin options
+	 */
 	constructor(options) {
 		this.hints = options.hints;
 		this.maxAssetSize = options.maxAssetSize;
@@ -19,37 +46,48 @@ module.exports = class SizeLimitsPlugin {
 	}
 
 	/**
-	 * @param {Compiler} compiler webpack compiler
+	 * @param {ChunkGroup | Source} thing the resource to test
+	 * @returns {boolean} true if over the limit
+	 */
+	static isOverSizeLimit(thing) {
+		return isOverSizeLimitSet.has(thing);
+	}
+
+	/**
+	 * Apply the plugin
+	 * @param {Compiler} compiler the compiler instance
 	 * @returns {void}
 	 */
 	apply(compiler) {
 		const entrypointSizeLimit = this.maxEntrypointSize;
 		const assetSizeLimit = this.maxAssetSize;
 		const hints = this.hints;
-		const assetFilter =
-			this.assetFilter || ((name, source, info) => !info.development);
+		const assetFilter = this.assetFilter || excludeSourceMap;
 
 		compiler.hooks.afterEmit.tap("SizeLimitsPlugin", compilation => {
+			/** @type {WebpackError[]} */
 			const warnings = [];
 
 			/**
 			 * @param {Entrypoint} entrypoint an entrypoint
 			 * @returns {number} the size of the entrypoint
 			 */
-			const getEntrypointSize = entrypoint =>
-				entrypoint.getFiles().reduce((currentSize, file) => {
+			const getEntrypointSize = entrypoint => {
+				let size = 0;
+				for (const file of entrypoint.getFiles()) {
 					const asset = compilation.getAsset(file);
 					if (
 						asset &&
 						assetFilter(asset.name, asset.source, asset.info) &&
 						asset.source
 					) {
-						return currentSize + (asset.info.size || asset.source.size());
+						size += asset.info.size || asset.source.size();
 					}
+				}
+				return size;
+			};
 
-					return currentSize;
-				}, 0);
-
+			/** @type {AssetDetails[]} */
 			const assetsOverSizeLimit = [];
 			for (const { name, source, info } of compilation.getAssets()) {
 				if (!assetFilter(name, source, info) || !source) {
@@ -62,7 +100,7 @@ module.exports = class SizeLimitsPlugin {
 						name,
 						size
 					});
-					/** @type {any} */ (source).isOverSizeLimit = true;
+					isOverSizeLimitSet.add(source);
 				}
 			}
 
@@ -71,6 +109,7 @@ module.exports = class SizeLimitsPlugin {
 				return asset && assetFilter(asset.name, asset.source, asset.info);
 			};
 
+			/** @type {EntrypointDetails[]} */
 			const entrypointsOverLimit = [];
 			for (const [name, entry] of compilation.entrypoints) {
 				const size = getEntrypointSize(entry);
@@ -81,7 +120,7 @@ module.exports = class SizeLimitsPlugin {
 						size: size,
 						files: entry.getFiles().filter(fileFilter)
 					});
-					/** @type {any} */ (entry).isOverSizeLimit = true;
+					isOverSizeLimitSet.add(entry);
 				}
 			}
 
@@ -105,11 +144,12 @@ module.exports = class SizeLimitsPlugin {
 				}
 
 				if (warnings.length > 0) {
-					const hasAsyncChunks =
-						compilation.chunks.filter(chunk => !chunk.canBeInitial()).length >
-						0;
+					const someAsyncChunk = find(
+						compilation.chunks,
+						chunk => !chunk.canBeInitial()
+					);
 
-					if (!hasAsyncChunks) {
+					if (!someAsyncChunk) {
 						warnings.push(new NoAsyncChunksWarning());
 					}
 

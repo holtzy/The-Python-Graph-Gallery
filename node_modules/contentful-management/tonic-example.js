@@ -7,11 +7,14 @@ var client = contentful.createClient({
 async function run() {
   // This API call will request a space with the specified ID
   var space = await client.getSpace('spaceId')
+
+  var environment = await space.getEnvironment('master')
+
   // Now that we have a space, we can get entries from that space
-  await space.getEntries()
+  await environment.getEntries()
 
   // let's get a content type
-  await space.getContentType('product').then((contentType) => {
+  await environment.getContentType('product').then((contentType) => {
     // and now let's update its name
     contentType.name = 'New Product'
     return contentType.update().then((updatedContentType) => {

@@ -1,3 +1,8 @@
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
 "use strict";
 
 // Simulations show these probabilities for a single change
@@ -39,21 +44,118 @@ const similarity = (a, b) => {
 /**
  * @param {string} a key
  * @param {string} b key
+ * @param {Set<string>} usedNames set of already used names
  * @returns {string} the common part and a single char for the difference
  */
-const getName = (a, b) => {
+const getName = (a, b, usedNames) => {
 	const l = Math.min(a.length, b.length);
-	let r = "";
-	for (let i = 0; i < l; i++) {
-		const ca = a.charAt(i);
-		const cb = b.charAt(i);
-		r += ca;
-		if (ca === cb) {
-			continue;
+	let i = 0;
+	while (i < l) {
+		if (a.charCodeAt(i) !== b.charCodeAt(i)) {
+			i++;
+			break;
 		}
-		return r;
+		i++;
 	}
+	while (i < l) {
+		const name = a.slice(0, i);
+		const lowerName = name.toLowerCase();
+		if (!usedNames.has(lowerName)) {
+			usedNames.add(lowerName);
+			return name;
+		}
+		i++;
+	}
+	// names always contain a hash, so this is always unique
+	// we don't need to check usedNames nor add it
 	return a;
+};
+
+/**
+ * @param {Record<string, number>} total total size
+ * @param {Record<string, number>} size single size
+ * @returns {void}
+ */
+const addSizeTo = (total, size) => {
+	for (const key of Object.keys(size)) {
+		total[key] = (total[key] || 0) + size[key];
+	}
+};
+
+/**
+ * @param {Record<string, number>} total total size
+ * @param {Record<string, number>} size single size
+ * @returns {void}
+ */
+const subtractSizeFrom = (total, size) => {
+	for (const key of Object.keys(size)) {
+		total[key] -= size[key];
+	}
+};
+
+/**
+ * @param {Iterable<Node>} nodes some nodes
+ * @returns {Record<string, number>} total size
+ */
+const sumSize = nodes => {
+	const sum = Object.create(null);
+	for (const node of nodes) {
+		addSizeTo(sum, node.size);
+	}
+	return sum;
+};
+
+const isTooBig = (size, maxSize) => {
+	for (const key of Object.keys(size)) {
+		const s = size[key];
+		if (s === 0) continue;
+		const maxSizeValue = maxSize[key];
+		if (typeof maxSizeValue === "number") {
+			if (s > maxSizeValue) return true;
+		}
+	}
+	return false;
+};
+
+const isTooSmall = (size, minSize) => {
+	for (const key of Object.keys(size)) {
+		const s = size[key];
+		if (s === 0) continue;
+		const minSizeValue = minSize[key];
+		if (typeof minSizeValue === "number") {
+			if (s < minSizeValue) return true;
+		}
+	}
+	return false;
+};
+
+const getTooSmallTypes = (size, minSize) => {
+	const types = new Set();
+	for (const key of Object.keys(size)) {
+		const s = size[key];
+		if (s === 0) continue;
+		const minSizeValue = minSize[key];
+		if (typeof minSizeValue === "number") {
+			if (s < minSizeValue) types.add(key);
+		}
+	}
+	return types;
+};
+
+const getNumberOfMatchingSizeTypes = (size, types) => {
+	let i = 0;
+	for (const key of Object.keys(size)) {
+		if (size[key] !== 0 && types.has(key)) i++;
+	}
+	return i;
+};
+
+const selectiveSizeSum = (size, types) => {
+	let sum = 0;
+	for (const key of Object.keys(size)) {
+		if (size[key] !== 0 && types.has(key)) sum += size[key];
+	}
+	return sum;
 };
 
 /**
@@ -63,7 +165,7 @@ class Node {
 	/**
 	 * @param {T} item item
 	 * @param {string} key key
-	 * @param {number} size size
+	 * @param {Record<string, number>} size size
 	 */
 	constructor(item, key, size) {
 		this.item = item;
@@ -79,31 +181,82 @@ class Group {
 	/**
 	 * @param {Node<T>[]} nodes nodes
 	 * @param {number[]} similarities similarities between the nodes (length = nodes.length - 1)
+	 * @param {Record<string, number>=} size size of the group
 	 */
-	constructor(nodes, similarities) {
+	constructor(nodes, similarities, size) {
 		this.nodes = nodes;
 		this.similarities = similarities;
-		this.size = nodes.reduce((size, node) => size + node.size, 0);
+		this.size = size || sumSize(nodes);
 		/** @type {string} */
 		this.key = undefined;
 	}
+
+	/**
+	 * @param {function(Node): boolean} filter filter function
+	 * @returns {Node[]} removed nodes
+	 */
+	popNodes(filter) {
+		const newNodes = [];
+		const newSimilarities = [];
+		const resultNodes = [];
+		let lastNode;
+		for (let i = 0; i < this.nodes.length; i++) {
+			const node = this.nodes[i];
+			if (filter(node)) {
+				resultNodes.push(node);
+			} else {
+				if (newNodes.length > 0) {
+					newSimilarities.push(
+						lastNode === this.nodes[i - 1]
+							? this.similarities[i - 1]
+							: similarity(lastNode.key, node.key)
+					);
+				}
+				newNodes.push(node);
+				lastNode = node;
+			}
+		}
+		if (resultNodes.length === this.nodes.length) return undefined;
+		this.nodes = newNodes;
+		this.similarities = newSimilarities;
+		this.size = sumSize(newNodes);
+		return resultNodes;
+	}
 }
+
+/**
+ * @param {Iterable<Node>} nodes nodes
+ * @returns {number[]} similarities
+ */
+const getSimilarities = nodes => {
+	// calculate similarities between lexically adjacent nodes
+	/** @type {number[]} */
+	const similarities = [];
+	let last = undefined;
+	for (const node of nodes) {
+		if (last !== undefined) {
+			similarities.push(similarity(last.key, node.key));
+		}
+		last = node;
+	}
+	return similarities;
+};
 
 /**
  * @template T
  * @typedef {Object} GroupedItems<T>
  * @property {string} key
  * @property {T[]} items
- * @property {number} size
+ * @property {Record<string, number>} size
  */
 
 /**
  * @template T
  * @typedef {Object} Options
- * @property {number} maxSize maximum size of a group
- * @property {number} minSize minimum size of a group (preferred over maximum size)
+ * @property {Record<string, number>} maxSize maximum size of a group
+ * @property {Record<string, number>} minSize minimum size of a group (preferred over maximum size)
  * @property {Iterable<T>} items a list of items
- * @property {function(T): number} getSize function to get size of an item
+ * @property {function(T): Record<string, number>} getSize function to get size of an item
  * @property {function(T): string} getKey function to get the key of an item
  */
 
@@ -132,8 +285,9 @@ module.exports = ({ maxSize, minSize, items, getSize, getKey }) => {
 	});
 
 	// return nodes bigger than maxSize directly as group
+	// But make sure that minSize is not violated
 	for (const node of nodes) {
-		if (node.size >= maxSize) {
+		if (isTooBig(node.size, maxSize) && !isTooSmall(node.size, minSize)) {
 			result.push(new Group([node], []));
 		} else {
 			initialNodes.push(node);
@@ -141,66 +295,118 @@ module.exports = ({ maxSize, minSize, items, getSize, getKey }) => {
 	}
 
 	if (initialNodes.length > 0) {
-		// calculate similarities between lexically adjacent nodes
-		/** @type {number[]} */
-		const similarities = [];
-		for (let i = 1; i < initialNodes.length; i++) {
-			const a = initialNodes[i - 1];
-			const b = initialNodes[i];
-			similarities.push(similarity(a.key, b.key));
-		}
+		const initialGroup = new Group(initialNodes, getSimilarities(initialNodes));
 
-		const initialGroup = new Group(initialNodes, similarities);
-
-		if (initialGroup.size < minSize) {
-			// We hit an edgecase where the working set is already smaller than minSize
-			// We merge it with the smallest result node to keep minSize intact
-			if (result.length > 0) {
-				const smallestGroup = result.reduce((min, group) =>
-					min.size > group.size ? group : min
+		const removeProblematicNodes = (group, consideredSize = group.size) => {
+			const problemTypes = getTooSmallTypes(consideredSize, minSize);
+			if (problemTypes.size > 0) {
+				// We hit an edge case where the working set is already smaller than minSize
+				// We merge problematic nodes with the smallest result node to keep minSize intact
+				const problemNodes = group.popNodes(
+					n => getNumberOfMatchingSizeTypes(n.size, problemTypes) > 0
 				);
-				for (const node of initialGroup.nodes) smallestGroup.nodes.push(node);
-				smallestGroup.nodes.sort((a, b) => {
-					if (a.key < b.key) return -1;
-					if (a.key > b.key) return 1;
-					return 0;
-				});
+				if (problemNodes === undefined) return false;
+				// Only merge it with result nodes that have the problematic size type
+				const possibleResultGroups = result.filter(
+					n => getNumberOfMatchingSizeTypes(n.size, problemTypes) > 0
+				);
+				if (possibleResultGroups.length > 0) {
+					const bestGroup = possibleResultGroups.reduce((min, group) => {
+						const minMatches = getNumberOfMatchingSizeTypes(min, problemTypes);
+						const groupMatches = getNumberOfMatchingSizeTypes(
+							group,
+							problemTypes
+						);
+						if (minMatches !== groupMatches)
+							return minMatches < groupMatches ? group : min;
+						if (
+							selectiveSizeSum(min.size, problemTypes) >
+							selectiveSizeSum(group.size, problemTypes)
+						)
+							return group;
+						return min;
+					});
+					for (const node of problemNodes) bestGroup.nodes.push(node);
+					bestGroup.nodes.sort((a, b) => {
+						if (a.key < b.key) return -1;
+						if (a.key > b.key) return 1;
+						return 0;
+					});
+				} else {
+					// There are no other nodes with the same size types
+					// We create a new group and have to accept that it's smaller than minSize
+					result.push(new Group(problemNodes, null));
+				}
+				return true;
 			} else {
-				// There are no other nodes
-				// We use all nodes and have to accept that it's smaller than minSize
-				result.push(initialGroup);
+				return false;
 			}
-		} else {
+		};
+
+		if (initialGroup.nodes.length > 0) {
 			const queue = [initialGroup];
 
 			while (queue.length) {
 				const group = queue.pop();
 				// only groups bigger than maxSize need to be splitted
-				if (group.size < maxSize) {
+				if (!isTooBig(group.size, maxSize)) {
 					result.push(group);
+					continue;
+				}
+				// If the group is already too small
+				// we try to work only with the unproblematic nodes
+				if (removeProblematicNodes(group)) {
+					// This changed something, so we try this group again
+					queue.push(group);
 					continue;
 				}
 
 				// find unsplittable area from left and right
 				// going minSize from left and right
 				// at least one node need to be included otherwise we get stuck
-				let left = 0;
-				let leftSize = 0;
-				while (leftSize <= minSize) {
-					leftSize += group.nodes[left].size;
+				let left = 1;
+				let leftSize = Object.create(null);
+				addSizeTo(leftSize, group.nodes[0].size);
+				while (left < group.nodes.length && isTooSmall(leftSize, minSize)) {
+					addSizeTo(leftSize, group.nodes[left].size);
 					left++;
 				}
-				let right = group.nodes.length - 1;
-				let rightSize = 0;
-				while (rightSize <= minSize) {
-					rightSize += group.nodes[right].size;
+				let right = group.nodes.length - 2;
+				let rightSize = Object.create(null);
+				addSizeTo(rightSize, group.nodes[group.nodes.length - 1].size);
+				while (right >= 0 && isTooSmall(rightSize, minSize)) {
+					addSizeTo(rightSize, group.nodes[right].size);
 					right--;
 				}
 
+				//      left v   v right
+				// [ O O O ] O O O [ O O O ]
+				// ^^^^^^^^^ leftSize
+				//       rightSize ^^^^^^^^^
+				// leftSize > minSize
+				// rightSize > minSize
+
+				// Perfect split: [ O O O ] [ O O O ]
+				//                right === left - 1
+
 				if (left - 1 > right) {
+					// We try to remove some problematic nodes to "fix" that
+					let prevSize;
+					if (right < group.nodes.length - left) {
+						subtractSizeFrom(rightSize, group.nodes[right + 1].size);
+						prevSize = rightSize;
+					} else {
+						subtractSizeFrom(leftSize, group.nodes[left - 1].size);
+						prevSize = leftSize;
+					}
+					if (removeProblematicNodes(group, prevSize)) {
+						// This changed something, so we try this group again
+						queue.push(group);
+						continue;
+					}
 					// can't split group while holding minSize
 					// because minSize is preferred of maxSize we return
-					// the group here even while it's too big
+					// the problematic nodes as result here even while it's too big
 					// To avoid this make sure maxSize > minSize * 3
 					result.push(group);
 					continue;
@@ -210,38 +416,61 @@ module.exports = ({ maxSize, minSize, items, getSize, getKey }) => {
 					// we look for best split point
 					// we split at the minimum similarity
 					// here key space is separated the most
-					let best = left - 1;
-					let bestSimilarity = group.similarities[best];
-					for (let i = left; i <= right; i++) {
-						const similarity = group.similarities[i];
-						if (similarity < bestSimilarity) {
-							best = i;
+					// But we also need to make sure to not create too small groups
+					let best = -1;
+					let bestSimilarity = Infinity;
+					let pos = left;
+					let rightSize = sumSize(group.nodes.slice(pos));
+
+					//       pos v   v right
+					// [ O O O ] O O O [ O O O ]
+					// ^^^^^^^^^ leftSize
+					// rightSize ^^^^^^^^^^^^^^^
+
+					while (pos <= right + 1) {
+						const similarity = group.similarities[pos - 1];
+						if (
+							similarity < bestSimilarity &&
+							!isTooSmall(leftSize, minSize) &&
+							!isTooSmall(rightSize, minSize)
+						) {
+							best = pos;
 							bestSimilarity = similarity;
 						}
+						addSizeTo(leftSize, group.nodes[pos].size);
+						subtractSizeFrom(rightSize, group.nodes[pos].size);
+						pos++;
 					}
-					left = best + 1;
-					right = best;
+					if (best < 0) {
+						// This can't happen
+						// but if that assumption is wrong
+						// fallback to a big group
+						result.push(group);
+						continue;
+					}
+					left = best;
+					right = best - 1;
 				}
 
 				// create two new groups for left and right area
 				// and queue them up
 				const rightNodes = [group.nodes[right + 1]];
 				/** @type {number[]} */
-				const rightSimilaries = [];
+				const rightSimilarities = [];
 				for (let i = right + 2; i < group.nodes.length; i++) {
-					rightSimilaries.push(group.similarities[i - 1]);
+					rightSimilarities.push(group.similarities[i - 1]);
 					rightNodes.push(group.nodes[i]);
 				}
-				queue.push(new Group(rightNodes, rightSimilaries));
+				queue.push(new Group(rightNodes, rightSimilarities));
 
 				const leftNodes = [group.nodes[0]];
 				/** @type {number[]} */
-				const leftSimilaries = [];
+				const leftSimilarities = [];
 				for (let i = 1; i < left; i++) {
-					leftSimilaries.push(group.similarities[i - 1]);
+					leftSimilarities.push(group.similarities[i - 1]);
 					leftNodes.push(group.nodes[i]);
 				}
-				queue.push(new Group(leftNodes, leftSimilaries));
+				queue.push(new Group(leftNodes, leftSimilarities));
 			}
 		}
 	}
@@ -254,12 +483,17 @@ module.exports = ({ maxSize, minSize, items, getSize, getKey }) => {
 	});
 
 	// give every group a name
+	const usedNames = new Set();
 	for (let i = 0; i < result.length; i++) {
 		const group = result[i];
-		const first = group.nodes[0];
-		const last = group.nodes[group.nodes.length - 1];
-		let name = getName(first.key, last.key);
-		group.key = name;
+		if (group.nodes.length === 1) {
+			group.key = group.nodes[0].key;
+		} else {
+			const first = group.nodes[0];
+			const last = group.nodes[group.nodes.length - 1];
+			const name = getName(first.key, last.key, usedNames);
+			group.key = name;
+		}
 	}
 
 	// return the results

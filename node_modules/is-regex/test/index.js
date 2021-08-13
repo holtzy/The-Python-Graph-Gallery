@@ -1,7 +1,6 @@
 'use strict';
 
-var hasSymbols = require('has-symbols')();
-var hasToStringTag = hasSymbols && typeof Symbol.toStringTag === 'symbol';
+var hasToStringTag = require('has-tostringtag/shams')();
 var forEach = require('foreach');
 var test = require('tape');
 var isRegex = require('..');

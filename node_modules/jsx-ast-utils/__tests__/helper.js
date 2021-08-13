@@ -71,7 +71,8 @@ export function getOpeningElement(code) {
     body = parsedCode.body;
   }
   if (Array.isArray(body) && body[0] != null) {
-    return body[0].expression.openingElement;
+    const [{ expression }] = body;
+    return expression.type === 'JSXFragment' ? expression.openingFragment : expression.openingElement;
   }
 
   return null;

@@ -1,6 +1,5 @@
 # internal-slot <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
-[![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -41,9 +40,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 Please email [@ljharb](https://github.com/ljharb) or see https://tidelift.com/security if you have a potential security vulnerability to report.
 
 [package-url]: https://npmjs.org/package/internal-slot
-[npm-version-svg]: http://versionbadg.es/ljharb/internal-slot.svg
-[travis-svg]: https://travis-ci.org/ljharb/internal-slot.svg
-[travis-url]: https://travis-ci.org/ljharb/internal-slot
+[npm-version-svg]: https://versionbadg.es/ljharb/internal-slot.svg
 [deps-svg]: https://david-dm.org/ljharb/internal-slot.svg
 [deps-url]: https://david-dm.org/ljharb/internal-slot
 [dev-deps-svg]: https://david-dm.org/ljharb/internal-slot/dev-status.svg

@@ -59,7 +59,7 @@ export function pluralize(str: string): string {
   let found;
   // eslint-disable-next-line
   if (!~uncountables.indexOf(str.toLowerCase())) {
-    found = rules.filter(rule => str.match(rule[0]));
+    found = rules.filter((rule) => str.match(rule[0]));
     if (found[0]) {
       return str.replace(found[0][0], found[0][1]);
     }

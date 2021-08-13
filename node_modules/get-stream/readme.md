@@ -1,4 +1,4 @@
-# get-stream [![Build Status](https://travis-ci.com/sindresorhus/get-stream.svg?branch=master)](https://travis-ci.com/github/sindresorhus/get-stream)
+# get-stream
 
 > Get a stream as a string, buffer, or array
 

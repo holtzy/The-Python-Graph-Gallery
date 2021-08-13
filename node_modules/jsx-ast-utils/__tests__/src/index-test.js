@@ -13,7 +13,7 @@ describe('main export', () => {
     const expected = 'object';
     const actual = typeof core;
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
   src.filter((f) => f !== 'index').forEach((f) => {
@@ -29,7 +29,7 @@ describe('main export', () => {
       const expected = true;
       const actual = fs.statSync(path.join(path.resolve('.'), file)).isFile();
 
-      assert.equal(expected, actual);
+      assert.equal(actual, expected);
     });
   });
 });

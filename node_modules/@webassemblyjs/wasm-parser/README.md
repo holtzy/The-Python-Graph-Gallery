@@ -12,9 +12,11 @@ yarn add @webassemblyjs/wasm-parser
 
 ```js
 import { decode } from "@webassemblyjs/wasm-parser";
+import { readFileSync } from "fs";
+
+const binary = readFileSync("/path/to/module.wasm");
 
 const decoderOpts = {};
-
 const ast = decode(binary, decoderOpts);
 ```
 

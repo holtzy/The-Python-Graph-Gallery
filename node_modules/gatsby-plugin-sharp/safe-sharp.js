@@ -44,7 +44,7 @@ const getDetailedMessage = () => {
         return dependency.dependencies.sharp.version;
       }
 
-      for (let depName of Object.keys(dependency.dependencies)) {
+      for (const depName of Object.keys(dependency.dependencies)) {
         const v = findSharpVersion(dependency.dependencies[depName]);
 
         if (v) {
@@ -74,7 +74,7 @@ const getDetailedMessage = () => {
       latestVersion: undefined,
       topLevelPackages: {}
     });
-    let packagesToUpdate = []; // list top level dependencies
+    const packagesToUpdate = []; // list top level dependencies
 
     msg = msg.concat([`List of installed packages that depend on sharp:`, ...Object.keys(topLevelPackages).map(depName => {
       const sharpVersion = topLevelPackages[depName];

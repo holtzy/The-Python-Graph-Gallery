@@ -2,18 +2,19 @@
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
+
 "use strict";
 
 const asyncLib = require("neo-async");
-const PrefetchDependency = require("./dependencies/PrefetchDependency");
 const NormalModule = require("./NormalModule");
+const PrefetchDependency = require("./dependencies/PrefetchDependency");
 
 /** @typedef {import("./Compiler")} Compiler */
 
 class AutomaticPrefetchPlugin {
 	/**
 	 * Apply the plugin
-	 * @param {Compiler} compiler Webpack Compiler
+	 * @param {Compiler} compiler the compiler instance
 	 * @returns {void}
 	 */
 	apply(compiler) {
@@ -28,12 +29,16 @@ class AutomaticPrefetchPlugin {
 		);
 		let lastModules = null;
 		compiler.hooks.afterCompile.tap("AutomaticPrefetchPlugin", compilation => {
-			lastModules = compilation.modules
-				.filter(m => m instanceof NormalModule)
-				.map((/** @type {NormalModule} */ m) => ({
-					context: m.context,
-					request: m.request
-				}));
+			lastModules = [];
+
+			for (const m of compilation.modules) {
+				if (m instanceof NormalModule) {
+					lastModules.push({
+						context: m.context,
+						request: m.request
+					});
+				}
+			}
 		});
 		compiler.hooks.make.tapAsync(
 			"AutomaticPrefetchPlugin",
@@ -42,13 +47,16 @@ class AutomaticPrefetchPlugin {
 				asyncLib.forEach(
 					lastModules,
 					(m, callback) => {
-						compilation.prefetch(
+						compilation.addModuleChain(
 							m.context || compiler.context,
-							new PrefetchDependency(m.request),
+							new PrefetchDependency(`!!${m.request}`),
 							callback
 						);
 					},
-					callback
+					err => {
+						lastModules = null;
+						callback(err);
+					}
 				);
 			}
 		);

@@ -37,15 +37,22 @@ async function runStaticQueries({
   const activity = _reporter.default.createProgress(`run static queries`, staticQueryIds.length, 0, {
     id: `static-query-running`,
     parentSpan
-  });
+  }); // TODO: This is hacky, remove with a refactor of PQR itself
 
-  activity.start();
+
+  if (!process.env.GATSBY_EXPERIMENTAL_PARALLEL_QUERY_RUNNING) {
+    activity.start();
+  }
+
   await (0, _query.processStaticQueries)(staticQueryIds, {
     state,
     activity,
     graphqlRunner,
     graphqlTracing: program === null || program === void 0 ? void 0 : program.graphqlTracing
   });
-  activity.done();
+
+  if (!process.env.GATSBY_EXPERIMENTAL_PARALLEL_QUERY_RUNNING) {
+    activity.done();
+  }
 }
 //# sourceMappingURL=run-static-queries.js.map

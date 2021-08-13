@@ -1,12 +1,9 @@
 var url = require('url')
 var tunnel = require('tunnel-agent')
-var noop = Object.assign({
-  http: function () {},
-  silly: function () {}
-}, require('noop-logger'))
+var util = require('./util')
 
 function applyProxy (reqOpts, opts) {
-  var log = opts.log || noop
+  var log = opts.log || util.noopLogger
 
   var proxy = opts['https-proxy'] || opts.proxy
 

@@ -1,1 +1,1 @@
-export default function deepmerge(target: any, src: any): any;
+export function deepmerge(target: any, src: any): any;

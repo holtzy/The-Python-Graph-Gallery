@@ -14,6 +14,7 @@ const aliases = new Map([
 const validTargets = new Set([
   'android',
   'chrome',
+  'deno',
   'edge',
   'electron',
   'firefox',
@@ -23,6 +24,7 @@ const validTargets = new Set([
   'opera',
   'opera_mobile',
   'phantom',
+  'rhino',
   'safari',
   'samsung',
 ]);
@@ -36,7 +38,11 @@ module.exports = function (targets) {
   const list = Object.entries(rest);
 
   if (browsers) {
-    list.push(...browserslist(browsers).map(it => it.split(' ')));
+    if (typeof browsers === 'string' || Array.isArray(browsers)) {
+      list.push(...browserslist(browsers).map(it => it.split(' ')));
+    } else {
+      list.push(...Object.entries(browsers));
+    }
   }
   if (esmodules) {
     list.push(...Object.entries(external.modules));

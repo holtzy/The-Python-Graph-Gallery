@@ -8,7 +8,7 @@ export default function threshold() {
       n = 1;
 
   function scale(x) {
-    return x <= x ? range[bisect(domain, x, 0, n)] : unknown;
+    return x != null && x <= x ? range[bisect(domain, x, 0, n)] : unknown;
   }
 
   scale.domain = function(_) {

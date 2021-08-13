@@ -1,96 +1,85 @@
 /*!
  * global-prefix <https://github.com/jonschlinkert/global-prefix>
  *
- * Copyright (c) 2015-2017 Jon Schlinkert.
+ * Copyright (c) 2015-present Jon Schlinkert.
  * Licensed under the MIT license.
  */
 
 'use strict';
 
-var fs = require('fs');
-var path = require('path');
-var expand = require('expand-tilde');
-var homedir = require('homedir-polyfill');
-var ini = require('ini');
-var prefix;
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
+const ini = require('ini');
+let prefix;
 
-function getPrefix() {
-  if (process.env.PREFIX) {
-    prefix = process.env.PREFIX;
-  } else {
-    // Start by checking if the global prefix is set by the user
-    var home = homedir();
-    if (home) {
-      // homedir() returns undefined if $HOME not set; path.resolve requires strings
-      var userConfig = path.resolve(home, '.npmrc');
-      prefix = tryConfigPath(userConfig);
-    }
+const getPrefix = () => {
+  if (process.env.PREFIX) return process.env.PREFIX;
+  if (prefix) return prefix;
 
-    if (!prefix) {
-      // Otherwise find the path of npm
-      var npm = tryNpmPath();
-      if (npm) {
-        // Check the built-in npm config file
-        var builtinConfig = path.resolve(npm, '..', '..', 'npmrc');
-        prefix = tryConfigPath(builtinConfig);
+  // Start by checking if the global prefix is set by the user
+  let home = os.homedir();
 
-        if (prefix) {
-          // Now the global npm config can also be checked.
-          var globalConfig = path.resolve(prefix, 'etc', 'npmrc');
-          prefix = tryConfigPath(globalConfig) || prefix;
-        }
-      }
-
-      if (!prefix) fallback();
-    }
+  // os.homedir() returns undefined if $HOME is not set; path.resolve requires strings
+  if (home) {
+    prefix = tryConfigPath(path.resolve(home, '.npmrc'));
   }
 
   if (prefix) {
-    return expand(prefix);
+    return prefix;
   }
-}
 
-function fallback() {
-  var isWindows = require('is-windows');
-  if (isWindows()) {
+  // Otherwise find the path of npm
+  let npm = tryNpmPath();
+  if (npm) {
+    // Check the built-in npm config file
+    prefix = tryConfigPath(path.resolve(npm, '..', '..', 'npmrc'));
+
+    if (prefix) {
+      // Now the global npm config can also be checked.
+      prefix = tryConfigPath(path.resolve(prefix, 'etc', 'npmrc')) || prefix;
+    }
+  }
+
+  if (!prefix) {
+    let { APPDATA, DESTDIR, OSTYPE } = process.env;
+
     // c:\node\node.exe --> prefix=c:\node\
-    prefix = process.env.APPDATA
-      ? path.join(process.env.APPDATA, 'npm')
-      : path.dirname(process.execPath);
-  } else {
+    if (process.platform === 'win32' || OSTYPE === 'msys' || OSTYPE === 'cygwin') {
+      prefix = APPDATA ? path.join(APPDATA, 'npm') : path.dirname(process.execPath);
+      return prefix;
+    }
+
     // /usr/local/bin/node --> prefix=/usr/local
     prefix = path.dirname(path.dirname(process.execPath));
 
     // destdir only is respected on Unix
-    if (process.env.DESTDIR) {
-      prefix = path.join(process.env.DESTDIR, prefix);
+    if (DESTDIR) {
+      prefix = path.join(DESTDIR, prefix);
     }
   }
+
+  return prefix;
 }
 
 function tryNpmPath() {
   try {
     return fs.realpathSync(require('which').sync('npm'));
-  } catch (err) {}
-  return null;
+  } catch (err) { /* do nothing */ }
 }
 
 function tryConfigPath(configPath) {
   try {
-    var data = fs.readFileSync(configPath, 'utf-8');
-    var config = ini.parse(data);
-    if (config.prefix) return config.prefix;
-  } catch (err) {}
-  return null;
+    return ini.parse(fs.readFileSync(configPath, 'utf-8')).prefix;
+  } catch (err) { /* do nothing */ }
 }
 
 /**
  * Expose `prefix`
  */
 
-Object.defineProperty(module, 'exports', {
-  enumerable: true,
-  get: function() {
-    return prefix || (prefix = getPrefix());
+Reflect.defineProperty(module, 'exports', {
+  get() {
+    return getPrefix();
   }
 });

@@ -2,6 +2,7 @@
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
+
 "use strict";
 
 const WebpackError = require("./WebpackError");
@@ -24,8 +25,6 @@ class ChunkRenderError extends WebpackError {
 		this.details = error.stack;
 		this.file = file;
 		this.chunk = chunk;
-
-		Error.captureStackTrace(this, this.constructor);
 	}
 }
 

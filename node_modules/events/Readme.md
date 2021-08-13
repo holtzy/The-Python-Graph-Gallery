@@ -46,4 +46,5 @@ If there is a difference in behaviour between Node.js's `events` module and this
 ## License
 
 [MIT](./LICENSE)
+
 [node.js docs]: https://nodejs.org/dist/v11.13.0/docs/api/events.html

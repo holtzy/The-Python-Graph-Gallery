@@ -1,6 +1,5 @@
 import {Selection} from "./index.js";
 import {EnterNode} from "./enter.js";
-import array from "../array.js";
 import constant from "../constant.js";
 
 function bindIndex(parent, group, enter, update, exit, data) {
@@ -90,7 +89,7 @@ export default function(value, key) {
     var parent = parents[j],
         group = groups[j],
         groupLength = group.length,
-        data = array(value.call(parent, parent && parent.__data__, j, parents)),
+        data = arraylike(value.call(parent, parent && parent.__data__, j, parents)),
         dataLength = data.length,
         enterGroup = enter[j] = new Array(dataLength),
         updateGroup = update[j] = new Array(dataLength),
@@ -114,4 +113,16 @@ export default function(value, key) {
   update._enter = enter;
   update._exit = exit;
   return update;
+}
+
+// Given some data, this returns an array-like view of it: an object that
+// exposes a length property and allows numeric indexing. Note that unlike
+// selectAll, this isn’t worried about “live” collections because the resulting
+// array will only be used briefly while data is being bound. (It is possible to
+// cause the data to change while iterating by using a key function, but please
+// don’t; we’d rather avoid a gratuitous copy.)
+function arraylike(data) {
+  return typeof data === "object" && "length" in data
+    ? data // Array, TypedArray, NodeList, array-like
+    : Array.from(data); // Map, Set, iterable, string, or anything else
 }

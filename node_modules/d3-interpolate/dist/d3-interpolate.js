@@ -1,9 +1,9 @@
-// https://d3js.org/d3-interpolate/ v2.0.1 Copyright 2020 Mike Bostock
+// https://d3js.org/d3-interpolate/ v3.0.1 Copyright 2010-2021 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-color')) :
 typeof define === 'function' && define.amd ? define(['exports', 'd3-color'], factory) :
-(global = global || self, factory(global.d3 = global.d3 || {}, global.d3));
-}(this, function (exports, d3Color) { 'use strict';
+(global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.d3 = global.d3 || {}, global.d3));
+}(this, (function (exports, d3Color) { 'use strict';
 
 function basis(t1, v0, v1, v2, v3) {
   var t2 = t1 * t1, t3 = t2 * t1;
@@ -51,7 +51,7 @@ function exponential(a, b, y) {
   };
 }
 
-function hue(a, b) {
+function hue$1(a, b) {
   var d = b - a;
   return d ? linear(a, d > 180 || d < -180 ? d - 360 * Math.round(d / 360) : d) : constant(isNaN(a) ? b : a);
 }
@@ -271,8 +271,8 @@ function discrete(range) {
   };
 }
 
-function hue$1(a, b) {
-  var i = hue(+a, +b);
+function hue(a, b) {
+  var i = hue$1(+a, +b);
   return function(t) {
     var x = i(t);
     return x - 360 * Math.floor(x / 360);
@@ -478,7 +478,7 @@ function hsl(hue) {
   }
 }
 
-var hsl$1 = hsl(hue);
+var hsl$1 = hsl(hue$1);
 var hslLong = hsl(nogamma);
 
 function lab(start, end) {
@@ -511,7 +511,7 @@ function hcl(hue) {
   }
 }
 
-var hcl$1 = hcl(hue);
+var hcl$1 = hcl(hue$1);
 var hclLong = hcl(nogamma);
 
 function cubehelix(hue) {
@@ -538,7 +538,7 @@ function cubehelix(hue) {
   })(1);
 }
 
-var cubehelix$1 = cubehelix(hue);
+var cubehelix$1 = cubehelix(hue$1);
 var cubehelixLong = cubehelix(nogamma);
 
 function piecewise(interpolate, values) {
@@ -569,7 +569,7 @@ exports.interpolateHcl = hcl$1;
 exports.interpolateHclLong = hclLong;
 exports.interpolateHsl = hsl$1;
 exports.interpolateHslLong = hslLong;
-exports.interpolateHue = hue$1;
+exports.interpolateHue = hue;
 exports.interpolateLab = lab;
 exports.interpolateNumber = number;
 exports.interpolateNumberArray = numberArray;
@@ -587,4 +587,4 @@ exports.quantize = quantize;
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-}));
+})));

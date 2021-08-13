@@ -3,30 +3,22 @@
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 
 exports.__esModule = true;
-exports.default = void 0;
+exports.Style = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-function css(strings, ...keys) {
-  const lastIndex = strings.length - 1;
-  return strings.slice(0, lastIndex).reduce((p, s, i) => p + s + keys[i], ``) + strings[lastIndex];
-}
+var _cssToObject = require("../css-to-object");
 
 const Style = () => /*#__PURE__*/_react.default.createElement("style", {
   dangerouslySetInnerHTML: {
-    __html: css`
+    __html: (0, _cssToObject.css)`
         :host {
-          --purple-60: #663399;
-          --gatsby: var(--purple-60);
-          --purple-40: #b17acc;
-          --purple-20: #f1defa;
-          --dimmedWhite: rgba(255, 255, 255, 0.8);
-          --white: #ffffff;
-          --black: #000000;
-          --grey-90: #232129;
+          --spinnerColor: #663399;
+          --borderLeft: #b17acc;
+          --background: #ffffff;
+          --color: #232129;
           --radii: 4px;
-          --z-index-normal: 5;
-          --z-index-elevated: 10;
+          --z-index-indicator: 10000;
           --shadow: 0px 2px 4px rgba(46, 41, 51, 0.08),
             0px 4px 8px rgba(71, 63, 79, 0.16);
         }
@@ -35,15 +27,15 @@ const Style = () => /*#__PURE__*/_react.default.createElement("style", {
           font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
             Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
             "Segoe UI Symbol" !important;
-          background: var(--white);
-          color: var(--grey-90);
+          background: var(--background);
+          color: var(--color);
           position: fixed;
           bottom: 1.5em;
           left: 1.5em;
           box-shadow: var(--shadow);
           border-radius: var(--radii);
-          z-index: var(--z-index-elevated);
-          border-left: 0.25em solid var(--purple-40);
+          z-index: var(--z-index-indicator);
+          border-left: 0.25em solid var(--borderLeft);
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -71,7 +63,7 @@ const Style = () => /*#__PURE__*/_react.default.createElement("style", {
           animation: spin 1s linear infinite;
           height: 18px;
           width: 18px;
-          color: var(--gatsby);
+          color: var(--spinnerColor);
         }
 
         [data-gatsby-loading-indicator="text"] {
@@ -102,17 +94,14 @@ const Style = () => /*#__PURE__*/_react.default.createElement("style", {
         }
 
         @media (prefers-color-scheme: dark) {
-          [data-gatsby-loading-indicator="root"] {
-            background: var(--grey-90);
-            color: var(--white);
-          }
-          [data-gatsby-loading-indicator="spinner"] {
-            color: var(--purple-20);
+          :host {
+            --spinnerColor: #f1defa;
+            --background: #232129;
+            --color: #ffffff;
           }
         }
       `
   }
 });
 
-var _default = Style;
-exports.default = _default;
+exports.Style = Style;

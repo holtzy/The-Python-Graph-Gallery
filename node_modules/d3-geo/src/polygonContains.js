@@ -3,10 +3,7 @@ import {cartesian, cartesianCross, cartesianNormalizeInPlace} from "./cartesian.
 import {abs, asin, atan2, cos, epsilon, epsilon2, halfPi, pi, quarterPi, sign, sin, tau} from "./math.js";
 
 function longitude(point) {
-  if (abs(point[0]) <= pi)
-    return point[0];
-  else
-    return sign(point[0]) * ((abs(point[0]) + pi) % tau - pi);
+  return abs(point[0]) <= pi ? point[0] : sign(point[0]) * ((abs(point[0]) + pi) % tau - pi);
 }
 
 export default function(polygon, point) {

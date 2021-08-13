@@ -1,11 +1,8 @@
+import classApplyDescriptorGet from "./classApplyDescriptorGet.js";
+import classCheckPrivateStaticAccess from "./classCheckPrivateStaticAccess.js";
+import classCheckPrivateStaticFieldDescriptor from "./classCheckPrivateStaticFieldDescriptor.js";
 export default function _classStaticPrivateFieldSpecGet(receiver, classConstructor, descriptor) {
-  if (receiver !== classConstructor) {
-    throw new TypeError("Private static access of wrong provenance");
-  }
-
-  if (descriptor.get) {
-    return descriptor.get.call(receiver);
-  }
-
-  return descriptor.value;
+  classCheckPrivateStaticAccess(receiver, classConstructor);
+  classCheckPrivateStaticFieldDescriptor(descriptor, "get");
+  return classApplyDescriptorGet(receiver, descriptor);
 }

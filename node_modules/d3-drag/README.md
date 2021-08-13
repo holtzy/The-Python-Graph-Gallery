@@ -20,15 +20,27 @@ Best of all, the drag behavior automatically unifies mouse and touch input, and 
 
 ## Installing
 
-If you use NPM, `npm install d3-drag`. Otherwise, download the [latest release](https://github.com/d3/d3-drag/releases/latest). You can also load directly from [d3js.org](https://d3js.org), either as a [standalone library](https://d3js.org/d3-drag.v2.min.js) or as part of [D3](https://github.com/d3/d3). AMD, CommonJS, and vanilla environments are supported. In vanilla, a `d3` global is exported:
+If you use npm, `npm install d3-drag`. You can also download the [latest release on GitHub](https://github.com/d3/d3-drag/releases/latest). For vanilla HTML in modern browsers, import d3-drag from Skypack:
 
 ```html
-<script src="https://d3js.org/d3-dispatch.v2.min.js"></script>
-<script src="https://d3js.org/d3-selection.v2.min.js"></script>
-<script src="https://d3js.org/d3-drag.v2.min.js"></script>
+<script type="module">
+
+import {drag} from "https://cdn.skypack.dev/d3-drag@3";
+
+const handler = drag();
+
+</script>
+```
+
+For legacy environments, you can load d3-drag’s UMD bundle from an npm-based CDN such as jsDelivr; a `d3` global is exported:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/d3-dispatch@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-selection@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-drag@3"></script>
 <script>
 
-var drag = d3.drag();
+const handler = d3.drag();
 
 </script>
 ```
@@ -143,7 +155,7 @@ The default subject is the [datum](https://github.com/d3/d3-selection#selection_
 
 ```js
 function subject(event) {
-  var n = circles.length,
+  let n = circles.length,
       i,
       dx,
       dy,
@@ -221,7 +233,7 @@ Equivalent to [*drag*.on](#drag_on), but only applies to the current drag gestur
 
 ```js
 function started(event) {
-  var circle = d3.select(this).classed("dragging", true);
+  const circle = d3.select(this).classed("dragging", true);
 
   event.on("drag", dragged).on("end", ended);
 

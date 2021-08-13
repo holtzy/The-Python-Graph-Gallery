@@ -4,7 +4,7 @@ import getNodeName from "./getNodeName.js";
 import { isHTMLElement } from "./instanceOf.js";
 export default function getScrollParent(node) {
   if (['html', 'body', '#document'].indexOf(getNodeName(node)) >= 0) {
-    // $FlowFixMe: assume body is always available
+    // $FlowFixMe[incompatible-return]: assume body is always available
     return node.ownerDocument.body;
   }
 

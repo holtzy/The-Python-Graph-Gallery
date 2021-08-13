@@ -40,7 +40,7 @@ export class Adder {
   }
 }
 
-export default function(values, valueof) {
+export function fsum(values, valueof) {
   const adder = new Adder();
   if (valueof === undefined) {
     for (let value of values) {
@@ -57,4 +57,13 @@ export default function(values, valueof) {
     }
   }
   return +adder;
+}
+
+export function fcumsum(values, valueof) {
+  const adder = new Adder();
+  let index = -1;
+  return Float64Array.from(values, valueof === undefined
+      ? v => adder.add(+v || 0)
+      : v => adder.add(+valueof(v, ++index, values) || 0)
+  );
 }

@@ -2,10 +2,11 @@
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
+
 "use strict";
 
-const path = require("path");
 const ContextElementDependency = require("./dependencies/ContextElementDependency");
+const { join } = require("./util/fs");
 
 class ContextReplacementPlugin {
 	constructor(
@@ -83,7 +84,18 @@ class ContextReplacementPlugin {
 				if (!result) return;
 				if (resourceRegExp.test(result.resource)) {
 					if (newContentResource !== undefined) {
-						result.resource = path.resolve(result.resource, newContentResource);
+						if (
+							newContentResource.startsWith("/") ||
+							(newContentResource.length > 1 && newContentResource[1] === ":")
+						) {
+							result.resource = newContentResource;
+						} else {
+							result.resource = join(
+								compiler.inputFileSystem,
+								result.resource,
+								newContentResource
+							);
+						}
 					}
 					if (newContentRecursive !== undefined) {
 						result.recursive = newContentRecursive;
@@ -92,15 +104,25 @@ class ContextReplacementPlugin {
 						result.regExp = newContentRegExp;
 					}
 					if (typeof newContentCreateContextMap === "function") {
-						result.resolveDependencies = createResolveDependenciesFromContextMap(
-							newContentCreateContextMap
-						);
+						result.resolveDependencies =
+							createResolveDependenciesFromContextMap(
+								newContentCreateContextMap
+							);
 					}
 					if (typeof newContentCallback === "function") {
 						const origResource = result.resource;
 						newContentCallback(result);
-						if (result.resource !== origResource) {
-							result.resource = path.resolve(origResource, result.resource);
+						if (
+							result.resource !== origResource &&
+							!result.resource.startsWith("/") &&
+							(result.resource.length <= 1 || result.resource[1] !== ":")
+						) {
+							// When the function changed it to an relative path
+							result.resource = join(
+								compiler.inputFileSystem,
+								origResource,
+								result.resource
+							);
 						}
 					} else {
 						for (const d of result.dependencies) {
@@ -120,8 +142,10 @@ const createResolveDependenciesFromContextMap = createContextMap => {
 			if (err) return callback(err);
 			const dependencies = Object.keys(map).map(key => {
 				return new ContextElementDependency(
-					map[key] + options.resourceQuery,
-					key
+					map[key] + options.resourceQuery + options.resourceFragment,
+					key,
+					options.category,
+					options.referencedExports
 				);
 			});
 			callback(null, dependencies);

@@ -24,7 +24,7 @@
 				"Invoke",
 				"IsRegExp",
 				"MatchAllIterator",
-				"ObjectCreate",
+				"OrdinaryObjectCreate",
 				"RegExpExec",
 				"RequireObjectCoercible",
 				"Set",

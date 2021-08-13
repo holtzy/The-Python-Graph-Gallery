@@ -1,4 +1,4 @@
-var AsyncGenerator = require("./AsyncGenerator");
+var AsyncGenerator = require("./AsyncGenerator.js");
 
 function _wrapAsyncGenerator(fn) {
   return function () {
@@ -7,3 +7,4 @@ function _wrapAsyncGenerator(fn) {
 }
 
 module.exports = _wrapAsyncGenerator;
+module.exports["default"] = module.exports, module.exports.__esModule = true;

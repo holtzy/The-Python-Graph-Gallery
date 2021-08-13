@@ -20,19 +20,31 @@ For a longer introduction, see these recommended tutorials:
 
 ## Installing
 
-If you use NPM, `npm install d3-scale`. Otherwise, download the [latest release](https://github.com/d3/d3-scale/releases/latest). You can also load directly from [d3js.org](https://d3js.org), either as a [standalone library](https://d3js.org/d3-scale.v3.min.js) or as part of [D3](https://github.com/d3/d3). AMD, CommonJS, and vanilla environments are supported. In vanilla, a `d3` global is exported:
+If you use npm, `npm install d3-scale`. You can also download the [latest release on GitHub](https://github.com/d3/d3-scale/releases/latest). For vanilla HTML in modern browsers, import d3-scale from Skypack:
 
 ```html
-<script src="https://d3js.org/d3-array.v2.min.js"></script>
-<script src="https://d3js.org/d3-color.v2.min.js"></script>
-<script src="https://d3js.org/d3-format.v2.min.js"></script>
-<script src="https://d3js.org/d3-interpolate.v2.min.js"></script>
-<script src="https://d3js.org/d3-time.v2.min.js"></script>
-<script src="https://d3js.org/d3-time-format.v3.min.js"></script>
-<script src="https://d3js.org/d3-scale.v3.min.js"></script>
+<script type="module">
+
+import {scaleLinear} from "https://cdn.skypack.dev/d3-scale@4";
+
+const x = scaleLinear();
+
+</script>
+```
+
+For legacy environments, you can load d3-scale’s UMD bundle from an npm-based CDN such as jsDelivr; a `d3` global is exported:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/d3-array@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-color@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-format@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-interpolate@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-time@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-time-format@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-scale@4"></script>
 <script>
 
-var x = d3.scaleLinear();
+const x = d3.scaleLinear();
 
 </script>
 ```

@@ -5,11 +5,13 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 exports.__esModule = true;
 exports.cleanPath = exports.findPath = exports.grabMatchParams = exports.findMatchPath = exports.setMatchPaths = void 0;
 
-var _utils = require("@reach/router/lib/utils");
+var _utils = require("@gatsbyjs/reach-router/lib/utils");
 
 var _stripPrefix = _interopRequireDefault(require("./strip-prefix"));
 
 var _normalizePagePath = _interopRequireDefault(require("./normalize-page-path"));
+
+var _redirectUtils = require("./redirect-utils.js");
 
 const pathCache = new Map();
 let matchPaths = [];
@@ -17,7 +19,7 @@ let matchPaths = [];
 const trimPathname = rawPathname => {
   const pathname = decodeURIComponent(rawPathname); // Remove the pathPrefix from the pathname.
 
-  const trimmedPathname = (0, _stripPrefix.default)(pathname, __BASE_PATH__) // Remove any hashfragment
+  const trimmedPathname = (0, _stripPrefix.default)(pathname, decodeURIComponent(__BASE_PATH__)) // Remove any hashfragment
   .split(`#`)[0] // Remove search query
   .split(`?`)[0];
   return trimmedPathname;
@@ -122,6 +124,12 @@ const findPath = rawPathname => {
 
   if (pathCache.has(trimmedPathname)) {
     return pathCache.get(trimmedPathname);
+  }
+
+  const redirect = (0, _redirectUtils.maybeGetBrowserRedirect)(rawPathname);
+
+  if (redirect) {
+    return findPath(redirect.toPath);
   }
 
   let foundPath = findMatchPath(trimmedPathname);

@@ -1,6 +1,8 @@
 import GraphQLDate from './date';
 import GraphQLBuffer from './buffer';
-import GraphQLGeneric from './generic';
-import GraphQLJSON from './json';
+import { GraphQLScalarType } from '../graphql';
 
-export { GraphQLDate, GraphQLBuffer, GraphQLGeneric, GraphQLJSON };
+declare const GraphQLJSON: GraphQLScalarType;
+declare const GraphQLJSONObject: GraphQLScalarType;
+
+export { GraphQLDate, GraphQLBuffer, GraphQLJSON, GraphQLJSONObject };

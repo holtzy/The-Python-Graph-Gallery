@@ -65,5 +65,14 @@ test('set', function (t) {
 	channel.set(o, Infinity);
 	t.equal(channel.get(o), Infinity, 'value was set again');
 
+	var o2 = {};
+	channel.set(o2, 17);
+	t.equal(channel.get(o), Infinity, 'o is not modified');
+	t.equal(channel.get(o2), 17, 'o2 is set');
+
+	channel.set(o, 14);
+	t.equal(channel.get(o), 14, 'o is modified');
+	t.equal(channel.get(o2), 17, 'o2 is not modified');
+
 	t.end();
 });

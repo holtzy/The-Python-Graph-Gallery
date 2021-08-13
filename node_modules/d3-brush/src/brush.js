@@ -211,7 +211,7 @@ function brush(dim) {
         .style("-webkit-tap-highlight-color", "rgba(0,0,0,0)");
   }
 
-  brush.move = function(group, selection) {
+  brush.move = function(group, selection, event) {
     if (group.tween) {
       group
           .on("start.brush", function(event) { emitter(this, arguments).beforestart().start(event); })
@@ -244,13 +244,13 @@ function brush(dim) {
             interrupt(that);
             state.selection = selection1 === null ? null : selection1;
             redraw.call(that);
-            emit.start().brush().end();
+            emit.start(event).brush(event).end(event);
           });
     }
   };
 
-  brush.clear = function(group) {
-    brush.move(group, null);
+  brush.clear = function(group, event) {
+    brush.move(group, null, event);
   };
 
   function redraw() {
@@ -361,6 +361,9 @@ function brush(dim) {
           return t;
         });
 
+    interrupt(that);
+    var emit = emitter(that, arguments, true).beforestart();
+
     if (type === "overlay") {
       if (selection) moving = true;
       const pts = [points[0], points[1] || points[0]];
@@ -371,7 +374,7 @@ function brush(dim) {
           e0 = dim === Y ? E : max(pts[0][0], pts[1][0]),
           s0 = dim === X ? S : max(pts[0][1], pts[1][1])
         ]];
-      if (points.length > 1) move();
+      if (points.length > 1) move(event);
     } else {
       w0 = selection[0][0];
       n0 = selection[0][1];
@@ -389,9 +392,6 @@ function brush(dim) {
 
     var overlay = group.selectAll(".overlay")
         .attr("cursor", cursors[type]);
-
-    interrupt(that);
-    var emit = emitter(that, arguments, true).beforestart();
 
     if (event.touches) {
       emit.moved = moved;
@@ -518,7 +518,7 @@ function brush(dim) {
             if (signX) e0 = e1 - dx * signX, w0 = w1 + dx * signX;
             if (signY) s0 = s1 - dy * signY, n0 = n1 + dy * signY;
             mode = MODE_CENTER;
-            move();
+            move(event);
           }
           break;
         }
@@ -528,7 +528,7 @@ function brush(dim) {
             if (signY < 0) s0 = s1 - dy; else if (signY > 0) n0 = n1 - dy;
             mode = MODE_SPACE;
             overlay.attr("cursor", cursors.selection);
-            move();
+            move(event);
           }
           break;
         }
@@ -542,7 +542,7 @@ function brush(dim) {
         case 16: { // SHIFT
           if (shifting) {
             lockX = lockY = shifting = false;
-            move();
+            move(event);
           }
           break;
         }
@@ -551,7 +551,7 @@ function brush(dim) {
             if (signX < 0) e0 = e1; else if (signX > 0) w0 = w1;
             if (signY < 0) s0 = s1; else if (signY > 0) n0 = n1;
             mode = MODE_HANDLE;
-            move();
+            move(event);
           }
           break;
         }
@@ -567,7 +567,7 @@ function brush(dim) {
               mode = MODE_HANDLE;
             }
             overlay.attr("cursor", cursors[type]);
-            move();
+            move(event);
           }
           break;
         }

@@ -1,3 +1,7 @@
+# 8.0.0
+
+- Breaking: Updated PostCSS from v7.x to v8.x ([#125](https://github.com/postcss/postcss-calc/pull/125))
+
 # 7.0.5
 
 - Fixed: reduction

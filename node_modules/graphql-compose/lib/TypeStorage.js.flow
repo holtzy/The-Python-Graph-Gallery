@@ -89,13 +89,13 @@ export class TypeStorage<K, V> {
     return false;
   }
 
-  getOrSet(typeName: K, typeOrThunk: V | (() => V)): V {
+  getOrSet(typeName: K, typeOrThunk: V | ((schemaComposer: this) => V)): V {
     const existedType = (this.types.get(typeName): any);
     if (existedType) {
       return existedType;
     }
 
-    const gqType: any = isFunction(typeOrThunk) ? (typeOrThunk: any)() : typeOrThunk;
+    const gqType: any = isFunction(typeOrThunk) ? (typeOrThunk: any)(this) : typeOrThunk;
     if (gqType) {
       this.set(typeName, gqType);
     }

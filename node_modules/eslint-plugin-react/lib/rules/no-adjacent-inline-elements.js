@@ -5,6 +5,8 @@
 
 'use strict';
 
+const docsUrl = require('../util/docsUrl');
+
 // ------------------------------------------------------------------------------
 // Helpers
 // ------------------------------------------------------------------------------
@@ -64,21 +66,23 @@ function isInline(node) {
   return false;
 }
 
-const ERROR = 'Child elements which render as inline HTML elements should be separated by a space or wrapped in block level elements.';
-
 // ------------------------------------------------------------------------------
 // Rule Definition
 // ------------------------------------------------------------------------------
 
 module.exports = {
-  ERROR,
   meta: {
     docs: {
       description: 'Prevent adjacent inline elements not separated by whitespace.',
       category: 'Best Practices',
-      recommended: false
+      recommended: false,
+      url: docsUrl('no-adjacent-inline-elements')
     },
-    schema: []
+    schema: [],
+
+    messages: {
+      inlineElement: 'Child elements which render as inline HTML elements should be separated by a space or wrapped in block level elements.'
+    }
   },
   create(context) {
     function validate(node, children) {
@@ -92,7 +96,7 @@ module.exports = {
         if (previousIsInline && currentIsInline) {
           context.report({
             node,
-            message: ERROR
+            messageId: 'inlineElement'
           });
           return;
         }

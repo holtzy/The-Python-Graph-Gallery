@@ -47,7 +47,7 @@ xhr.onreadystatechange = function() {
     assert.equal("", this.getAllResponseHeaders());
     assert.equal(null, this.getResponseHeader("Connection"));
 
-    sys.puts("done");
+    console.log("done");
   }
 };
 

@@ -22,30 +22,31 @@ var piyg = d3.scaleSequential(d3.interpolatePiYG);
 
 ## Installing
 
-If you use NPM, `npm install d3-scale-chromatic`. Otherwise, download the [latest release](https://github.com/d3/d3-scale-chromatic/releases/latest) or load directly from [d3js.org](https://d3js.org) as a [standalone library](https://d3js.org/d3-scale-chromatic.v1.min.js). AMD, CommonJS, and vanilla environments are supported. In vanilla, a `d3` global is exported:
+If you use npm, `npm install d3-scale-chromatic`. You can also download the [latest release on GitHub](https://github.com/d3/d3-scale-chromatic/releases/latest). For vanilla HTML in modern browsers, import d3-scale-chromatic from Skypack:
 
 ```html
-<script src="https://d3js.org/d3-color.v2.min.js"></script>
-<script src="https://d3js.org/d3-interpolate.v2.min.js"></script>
-<script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script>
-<script>
+<script type="module">
 
-var yellow = d3.interpolateYlGn(0), // "rgb(255, 255, 229)"
-    yellowGreen = d3.interpolateYlGn(0.5), // "rgb(120, 197, 120)"
-    green = d3.interpolateYlGn(1); // "rgb(0, 69, 41)"
+import {interpolateYlGn} from "https://cdn.skypack.dev/d3-scale-chromatic@3";
+
+const yellow = interpolateYlGn(0); // "rgb(255, 255, 229)"
+const yellowGreen = interpolateYlGn(0.5); // "rgb(120, 197, 120)"
+const green = interpolateYlGn(1); // "rgb(0, 69, 41)"
 
 </script>
 ```
 
-Or, as part of the [D3 default bundle](https://github.com/d3/d3):
+For legacy environments, you can load d3-scale-chromatic’s UMD bundle from an npm-based CDN such as jsDelivr; a `d3` global is exported:
 
 ```html
-<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-color@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-interpolate@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-scale-chromatic@3"></script>
 <script>
 
-var yellow = d3.interpolateYlGn(0), // "rgb(255, 255, 229)"
-    yellowGreen = d3.interpolateYlGn(0.5), // "rgb(120, 197, 120)"
-    green = d3.interpolateYlGn(1); // "rgb(0, 69, 41)"
+const yellow = d3.interpolateYlGn(0); // "rgb(255, 255, 229)"
+const yellowGreen = d3.interpolateYlGn(0.5); // "rgb(120, 197, 120)"
+const green = d3.interpolateYlGn(1); // "rgb(0, 69, 41)"
 
 </script>
 ```

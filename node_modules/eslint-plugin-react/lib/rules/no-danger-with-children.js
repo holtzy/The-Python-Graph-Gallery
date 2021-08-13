@@ -16,10 +16,15 @@ module.exports = {
   meta: {
     docs: {
       description: 'Report when a DOM element is using both children and dangerouslySetInnerHTML',
-      category: '',
+      category: 'Possible Errors',
       recommended: true,
       url: docsUrl('no-danger-with-children')
     },
+
+    messages: {
+      dangerWithChildren: 'Only set one of `children` or `props.dangerouslySetInnerHTML`'
+    },
+
     schema: [] // no options
   },
   create(context) {
@@ -104,7 +109,7 @@ module.exports = {
         ) {
           context.report({
             node,
-            message: 'Only set one of `children` or `props.dangerouslySetInnerHTML`'
+            messageId: 'dangerWithChildren'
           });
         }
       },
@@ -139,7 +144,7 @@ module.exports = {
           if (dangerously && hasChildren) {
             context.report({
               node,
-              message: 'Only set one of `children` or `props.dangerouslySetInnerHTML`'
+              messageId: 'dangerWithChildren'
             });
           }
         }

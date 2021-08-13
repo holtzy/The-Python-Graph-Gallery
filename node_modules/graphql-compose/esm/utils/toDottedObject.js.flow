@@ -12,13 +12,13 @@
  * @param {Object} target target object
  * @param {Array} path path array (internal)
  */
-function toDottedObject(
+export function toDottedObject(
   obj: Object,
   target?: Object = {},
   path?: string[] = []
 ): { [dottedPath: string]: mixed } {
   /* eslint-disable */
-  Object.keys(obj).forEach((key) => {
+  Object.keys(obj).forEach(key => {
     if (Object(obj[key]) === obj[key]) {
       return toDottedObject(obj[key], target, path.concat(key));
     } else {
@@ -28,5 +28,3 @@ function toDottedObject(
   return target;
   /* eslint-enable */
 }
-
-export default toDottedObject;

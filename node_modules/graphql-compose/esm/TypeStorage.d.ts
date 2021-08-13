@@ -34,5 +34,5 @@ export class TypeStorage<K, V> {
 
   public hasInstance(key: K, ClassObj: any): boolean;
 
-  public getOrSet(key: K, typeOrThunk: V | (() => V)): V;
+  public getOrSet(key: K, typeOrThunk: V | ((schemaComposer: this) => V)): V;
 }

@@ -1,3 +1,25 @@
+1.2.4 / 2021-08-05
+=================
+  * [Fix] use `has-tostringtag` approach to behave correctly in the presence of symbol shams
+  * [readme] fix repo URLs
+  * [readme] add actions and codecov badges
+  * [readme] remove defunct badges
+  * [meta] ignore eclint checking coverage output
+  * [meta] use `prepublishOnly` script for npm 7+
+  * [actions] use `node/install` instead of `node/run`; use `codecov` action
+  * [actions] remove unused workflow file
+  * [Tests] run `nyc` on all tests; use `tape` runner
+  * [Tests] use `available-typed-arrays`, `for-each`, `has-symbols`, `object-inspect`
+  * [Dev Deps] update `available-typed-arrays`, `eslint`, `@ljharb/eslint-config`, `aud`, `object-inspect`, `tape`
+
+1.2.3 / 2021-01-31
+=================
+  * [Fix] `document.all` is callable (do not use `document.all`!)
+  * [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `tape`
+  * [Tests] migrate tests to Github Actions
+  * [actions] add "Allow Edits" workflow
+  * [actions] switch Automatic Rebase workflow to `pull_request_target` event
+
 1.2.2 / 2020-09-21
 =================
   * [Fix] include actual fix from 579179e

@@ -1,3 +1,14 @@
+1.2.4 / 2020-11-18
+=================
+  * [Deps] update `es-abstract`; use `call-bind` where applicable
+  * [meta] do not publish github action workflows
+  * [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `object-inspect`, `tape`; add `aud`
+  * [Tests] migrate tests to Github Actions
+  * [Tests] run `nyc` on all tests
+  * [Tests] add `implementation` test; run `es-shim-api` in postlint; use `tape` runner
+  * [actions] add "Allow Edits" workflow
+  * [actions] switch Automatic Rebase workflow to `pull_request_target` event
+
 1.2.3 / 2019-12-12
 =================
   * [Refactor] use split-up `es-abstract` (65% bundle size decrease)

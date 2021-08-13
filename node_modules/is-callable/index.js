@@ -45,10 +45,13 @@ var tryFunctionObject = function tryFunctionToStr(value) {
 var toStr = Object.prototype.toString;
 var fnClass = '[object Function]';
 var genClass = '[object GeneratorFunction]';
-var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag === 'symbol';
+var hasToStringTag = typeof Symbol === 'function' && !!Symbol.toStringTag; // better: use `has-tostringtag`
+/* globals document: false */
+var documentDotAll = typeof document === 'object' && typeof document.all === 'undefined' && document.all !== undefined ? document.all : {};
 
 module.exports = reflectApply
 	? function isCallable(value) {
+		if (value === documentDotAll) { return true; }
 		if (!value) { return false; }
 		if (typeof value !== 'function' && typeof value !== 'object') { return false; }
 		if (typeof value === 'function' && !value.prototype) { return true; }
@@ -60,6 +63,7 @@ module.exports = reflectApply
 		return !isES6ClassFn(value);
 	}
 	: function isCallable(value) {
+		if (value === documentDotAll) { return true; }
 		if (!value) { return false; }
 		if (typeof value !== 'function' && typeof value !== 'object') { return false; }
 		if (typeof value === 'function' && !value.prototype) { return true; }

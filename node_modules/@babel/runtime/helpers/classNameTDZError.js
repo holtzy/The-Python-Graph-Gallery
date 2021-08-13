@@ -3,3 +3,4 @@ function _classNameTDZError(name) {
 }
 
 module.exports = _classNameTDZError;
+module.exports["default"] = module.exports, module.exports.__esModule = true;

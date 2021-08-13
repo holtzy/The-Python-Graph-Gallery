@@ -17,7 +17,7 @@ on OS X and Linux, the order of files inside directories is [not guaranteed](htt
 var recursive = require("recursive-readdir");
 
 recursive("some/path", function (err, files) {
-  // `files` is an array of absolute file paths
+  // `files` is an array of file paths
   console.log(files);
 });
 ```
@@ -40,7 +40,7 @@ ignore a file:
 var recursive = require("recursive-readdir");
 
 function ignoreFunc(file, stats) {
-  // `file` is the absolute path to the file, and `stats` is an `fs.Stats`
+  // `file` is the path to the file, and `stats` is an `fs.Stats`
   // object returned from `fs.lstat()`.
   return stats.isDirectory() && path.basename(file) == "test";
 }

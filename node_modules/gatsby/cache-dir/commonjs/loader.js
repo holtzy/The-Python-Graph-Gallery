@@ -233,6 +233,13 @@ class BaseLoader {
       const page = this.pageDb.get(pagePath);
 
       if (process.env.BUILD_STAGE !== `develop` || !page.payload.stale) {
+        if (page.error) {
+          return {
+            error: page.error,
+            status: page.status
+          };
+        }
+
         return Promise.resolve(page.payload);
       }
     }
@@ -260,8 +267,9 @@ class BaseLoader {
         finalResult.createdAt = new Date();
         let pageResources;
 
-        if (!component) {
+        if (!component || component instanceof Error) {
           finalResult.status = PageResourceStatus.Error;
+          finalResult.error = component;
         } else {
           finalResult.status = PageResourceStatus.Success;
 
@@ -294,6 +302,8 @@ class BaseLoader {
             staticQueryHash,
             jsonPayload
           };
+        }).catch(() => {
+          throw new Error(`We couldn't load "${__PATH_PREFIX__}/page-data/sq/d/${staticQueryHash}.json"`);
         });
       })).then(staticQueryResults => {
         const staticQueryResultsMap = {};
@@ -322,10 +332,24 @@ class BaseLoader {
         }
 
         this.pageDb.set(pagePath, finalResult);
+
+        if (finalResult.error) {
+          return {
+            error: finalResult.error,
+            status: finalResult.status
+          };
+        }
+
         return payload;
+      }) // when static-query fail to load we throw a better error
+      .catch(err => {
+        return {
+          error: err,
+          status: PageResourceStatus.Error
+        };
       });
     });
-    inFlightPromise.then(response => {
+    inFlightPromise.then(() => {
       this.inFlightDb.delete(pagePath);
     }).catch(error => {
       this.inFlightDb.delete(pagePath);
@@ -333,15 +357,25 @@ class BaseLoader {
     });
     this.inFlightDb.set(pagePath, inFlightPromise);
     return inFlightPromise;
-  } // returns undefined if loading page ran into errors
+  } // returns undefined if the page does not exists in cache
 
 
-  loadPageSync(rawPath) {
+  loadPageSync(rawPath, options = {}) {
     const pagePath = (0, _findPath.findPath)(rawPath);
 
     if (this.pageDb.has(pagePath)) {
-      const pageData = this.pageDb.get(pagePath).payload;
-      return pageData;
+      const pageData = this.pageDb.get(pagePath);
+
+      if (pageData.payload) {
+        return pageData.payload;
+      }
+
+      if (options !== null && options !== void 0 && options.withErrorDetails) {
+        return {
+          error: pageData.error,
+          status: pageData.status
+        };
+      }
     }
 
     return undefined;
@@ -465,8 +499,14 @@ const createComponentUrls = componentChunkName => (window.___chunkMapping[compon
 
 class ProdLoader extends BaseLoader {
   constructor(asyncRequires, matchPaths) {
-    const loadComponent = chunkName => asyncRequires.components[chunkName] ? asyncRequires.components[chunkName]().then(preferDefault) // loader will handle the case when component is null
-    .catch(() => null) : Promise.resolve();
+    const loadComponent = chunkName => {
+      if (!asyncRequires.components[chunkName]) {
+        throw new Error(`We couldn't find the correct component chunk with the name ${chunkName}`);
+      }
+
+      return asyncRequires.components[chunkName]().then(preferDefault) // loader will handle the case when component is error
+      .catch(err => err);
+    };
 
     super(loadComponent, matchPaths);
   }
@@ -520,22 +560,12 @@ const setLoader = _loader => {
 
 exports.setLoader = setLoader;
 const publicLoader = {
-  // Deprecated methods. As far as we're aware, these are only used by
-  // core gatsby and the offline plugin, however there's a very small
-  // chance they're called by others.
-  getResourcesForPathname: rawPath => {
-    console.warn(`Warning: getResourcesForPathname is deprecated. Use loadPage instead`);
-    return instance.i.loadPage(rawPath);
-  },
-  getResourcesForPathnameSync: rawPath => {
-    console.warn(`Warning: getResourcesForPathnameSync is deprecated. Use loadPageSync instead`);
-    return instance.i.loadPageSync(rawPath);
-  },
   enqueue: rawPath => instance.prefetch(rawPath),
   // Real methods
   getResourceURLsForPathname: rawPath => instance.getResourceURLsForPathname(rawPath),
   loadPage: rawPath => instance.loadPage(rawPath),
-  loadPageSync: rawPath => instance.loadPageSync(rawPath),
+  // TODO add deprecation to v4 so people use withErrorDetails and then we can remove in v5 and change default behaviour
+  loadPageSync: (rawPath, options = {}) => instance.loadPageSync(rawPath, options),
   prefetch: rawPath => instance.prefetch(rawPath),
   isPageNotFound: rawPath => instance.isPageNotFound(rawPath),
   hovering: rawPath => instance.hovering(rawPath),

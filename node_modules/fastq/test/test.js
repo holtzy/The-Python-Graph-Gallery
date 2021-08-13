@@ -1,5 +1,7 @@
 'use strict'
 
+/* eslint-disable no-var */
+
 var test = require('tape')
 var buildQueue = require('../')
 

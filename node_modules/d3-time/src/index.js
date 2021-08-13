@@ -103,3 +103,10 @@ export {
   default as utcYear,
   utcYears as utcYears
 } from "./utcYear.js";
+
+export {
+  utcTicks,
+  utcTickInterval,
+  timeTicks,
+  timeTickInterval
+} from "./ticks.js";

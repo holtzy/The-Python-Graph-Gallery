@@ -1,30 +1,42 @@
 "use strict";
 
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-
 exports.__esModule = true;
-exports.default = void 0;
+exports.CodeFrame = CodeFrame;
 
-var _react = _interopRequireDefault(require("react"));
+var React = _interopRequireWildcard(require("react"));
 
-const CodeFrame = ({
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function CodeFrame({
   decoded
-}) => /*#__PURE__*/_react.default.createElement("pre", {
-  "data-gatsby-overlay": "pre"
-}, /*#__PURE__*/_react.default.createElement("code", {
-  "data-gatsby-overlay": "pre__code"
-}, decoded ? decoded.map((entry, index) => /*#__PURE__*/_react.default.createElement("span", {
-  key: `frame-${index}`,
-  "data-gatsby-overlay": "pre__code__span",
-  style: {
-    color: entry.fg ? `var(--color-${entry.fg})` : undefined,
-    ...(entry.decoration === `bold` ? {
-      fontWeight: 800
-    } : entry.decoration === `italic` ? {
-      fontStyle: `italic`
-    } : undefined)
+}) {
+  if (!decoded) {
+    return /*#__PURE__*/React.createElement("pre", {
+      "data-gatsby-overlay": "pre"
+    }, /*#__PURE__*/React.createElement("code", {
+      "data-gatsby-overlay": "pre__code"
+    }));
   }
-}, entry.content)) : null));
 
-var _default = CodeFrame;
-exports.default = _default;
+  return /*#__PURE__*/React.createElement("pre", {
+    "data-gatsby-overlay": "pre"
+  }, /*#__PURE__*/React.createElement("code", {
+    "data-gatsby-overlay": "pre__code"
+  }, decoded.map((entry, index) => {
+    const style = {
+      color: entry.fg ? `var(--color-${entry.fg})` : undefined,
+      ...(entry.decoration === `bold` ? {
+        fontWeight: 800
+      } : entry.decoration === `italic` ? {
+        fontStyle: `italic`
+      } : undefined)
+    };
+    return /*#__PURE__*/React.createElement("span", {
+      key: `frame-${index}`,
+      "data-gatsby-overlay": "pre__code__span",
+      style: style
+    }, entry.content);
+  })));
+}

@@ -1,3 +1,8 @@
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
 "use strict";
 
 /**
@@ -9,9 +14,9 @@ class Queue {
 	 */
 	constructor(items) {
 		/** @private @type {Set<T>} */
-		this.set = new Set(items);
+		this._set = new Set(items);
 		/** @private @type {Iterator<T>} */
-		this.iterator = this.set[Symbol.iterator]();
+		this._iterator = this._set[Symbol.iterator]();
 	}
 
 	/**
@@ -19,7 +24,7 @@ class Queue {
 	 * @returns {number} The number of elements in this queue.
 	 */
 	get length() {
-		return this.set.size;
+		return this._set.size;
 	}
 
 	/**
@@ -28,7 +33,7 @@ class Queue {
 	 * @returns {void}
 	 */
 	enqueue(item) {
-		this.set.add(item);
+		this._set.add(item);
 	}
 
 	/**
@@ -36,9 +41,9 @@ class Queue {
 	 * @returns {T | undefined} The head of the queue of `undefined` if this queue is empty.
 	 */
 	dequeue() {
-		const result = this.iterator.next();
+		const result = this._iterator.next();
 		if (result.done) return undefined;
-		this.set.delete(result.value);
+		this._set.delete(result.value);
 		return result.value;
 	}
 }

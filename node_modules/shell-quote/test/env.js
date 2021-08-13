@@ -10,6 +10,8 @@ test('expand environment variables', function (t) {
     t.same(parse('qrs"$zzz"wxy', { zzz: 'tuv' }), [ 'qrstuvwxy' ]);
     t.same(parse("qrs'$zzz'wxy", { zzz: 'tuv' }), [ 'qrs$zzzwxy' ]);
     t.same(parse("qrs${zzz}wxy"), [ 'qrswxy' ]);
+    t.same(parse("qrs$wxy $"), [ 'qrs', '$' ]);
+    t.same(parse('grep "xy$"'), [ 'grep', 'xy$' ]);
     t.same(parse("ab$x", { x: 'c' }), [ 'abc' ]);
     t.same(parse("ab\\$x", { x: 'c' }), [ 'ab$x' ]);
     t.same(parse("ab${x}def", { x: 'c' }), [ 'abcdef' ]);

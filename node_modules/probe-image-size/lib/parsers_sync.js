@@ -5,6 +5,7 @@ module.exports = {
   bmp:  require('./parse_sync/bmp'),
   gif:  require('./parse_sync/gif'),
   jpeg: require('./parse_sync/jpeg'),
+  ico:  require('./parse_sync/ico'),
   png:  require('./parse_sync/png'),
   psd:  require('./parse_sync/psd'),
   svg:  require('./parse_sync/svg'),

@@ -1,7 +1,7 @@
 import {dispatch} from "d3-dispatch";
 import {select, pointer} from "d3-selection";
 import nodrag, {yesdrag} from "./nodrag.js";
-import noevent, {nopropagation} from "./noevent.js";
+import noevent, {nonpassive, nonpassivecapture, nopropagation} from "./noevent.js";
 import constant from "./constant.js";
 import DragEvent from "./event.js";
 
@@ -41,7 +41,7 @@ export default function() {
         .on("mousedown.drag", mousedowned)
       .filter(touchable)
         .on("touchstart.drag", touchstarted)
-        .on("touchmove.drag", touchmoved)
+        .on("touchmove.drag", touchmoved, nonpassive)
         .on("touchend.drag touchcancel.drag", touchended)
         .style("touch-action", "none")
         .style("-webkit-tap-highlight-color", "rgba(0,0,0,0)");
@@ -51,7 +51,9 @@ export default function() {
     if (touchending || !filter.call(this, event, d)) return;
     var gesture = beforestart(this, container.call(this, event, d), event, d, "mouse");
     if (!gesture) return;
-    select(event.view).on("mousemove.drag", mousemoved, true).on("mouseup.drag", mouseupped, true);
+    select(event.view)
+      .on("mousemove.drag", mousemoved, nonpassivecapture)
+      .on("mouseup.drag", mouseupped, nonpassivecapture);
     nodrag(event.view);
     nopropagation(event);
     mousemoving = false;
@@ -140,7 +142,7 @@ export default function() {
       var p0 = p, n;
       switch (type) {
         case "start": gestures[identifier] = gesture, n = active++; break;
-        case "end": delete gestures[identifier], --active; // nobreak
+        case "end": delete gestures[identifier], --active; // falls through
         case "drag": p = pointer(touch || event, container), n = active; break;
       }
       dispatch.call(

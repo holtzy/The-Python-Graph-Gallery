@@ -4,8 +4,7 @@ import selectorAll from "../selectorAll.js";
 
 function arrayAll(select) {
   return function() {
-    var group = select.apply(this, arguments);
-    return group == null ? [] : array(group);
+    return array(select.apply(this, arguments));
   };
 }
 

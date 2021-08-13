@@ -1,7 +1,7 @@
 # Disallows returning any from a function (`no-unsafe-return`)
 
 Despite your best intentions, the `any` type can sometimes leak into your codebase.
-Returned `any` typed values not checked at all by TypeScript, so it creates a potential safety hole, and source of bugs in your codebase.
+Returned `any` typed values are not checked at all by TypeScript, so it creates a potential safety hole, and source of bugs in your codebase.
 
 ## Rule Details
 
@@ -67,6 +67,20 @@ function assignability1(): Set<string> {
 }
 type TAssign = () => Set<string>;
 const assignability2: TAssign = () => new Set(['foo']);
+```
+
+There are cases where the rule allows to return `any` to `unknown`.
+
+Examples of `any` to `unknown` return that are allowed.
+
+```ts
+function foo1(): unknown {
+  return JSON.parse(singleObjString); // Return type for JSON.parse is any.
+}
+
+function foo2(): unknown[] {
+  return [] as any[];
+}
 ```
 
 ## Related to

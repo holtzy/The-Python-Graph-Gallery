@@ -1,4 +1,4 @@
-import {extent, thresholdSturges, tickStep, range} from "d3-array";
+import {extent, thresholdSturges, ticks, tickStep} from "d3-array";
 import {slice} from "./array.js";
 import ascending from "./ascending.js";
 import area from "./area.js";
@@ -36,16 +36,13 @@ export default function() {
 
     // Convert number of thresholds into uniform thresholds.
     if (!Array.isArray(tz)) {
-      var domain = extent(values), start = domain[0], stop = domain[1];
-      tz = tickStep(start, stop, tz);
-      tz = range(Math.floor(start / tz) * tz, Math.floor(stop / tz) * tz, tz);
+      const e = extent(values), ts = tickStep(e[0], e[1], tz);
+      tz = ticks(Math.floor(e[0] / ts) * ts, Math.floor(e[1] / ts - 1) * ts, tz);
     } else {
       tz = tz.slice().sort(ascending);
     }
 
-    return tz.map(function(value) {
-      return contour(values, value);
-    });
+    return tz.map(value => contour(values, value));
   }
 
   // Accumulate, smooth contour rings, assign holes to exterior rings.

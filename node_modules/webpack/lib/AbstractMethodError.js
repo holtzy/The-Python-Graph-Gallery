@@ -1,3 +1,8 @@
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Ivan Kopeykin @vankop
+*/
+
 "use strict";
 
 const WebpackError = require("./WebpackError");
@@ -15,6 +20,7 @@ function createMessage(method) {
  * @constructor
  */
 function Message() {
+	/** @type {string} */
 	this.stack = undefined;
 	Error.captureStackTrace(this);
 	/** @type {RegExpMatchArray} */
@@ -28,7 +34,7 @@ function Message() {
  * @example
  * class FooClass {
  *     abstractMethod() {
- *         throw new AbstractMethodError(); // error message: Abstract method FooClass.abstractMethod. Must be overriden.
+ *         throw new AbstractMethodError(); // error message: Abstract method FooClass.abstractMethod. Must be overridden.
  *     }
  * }
  *

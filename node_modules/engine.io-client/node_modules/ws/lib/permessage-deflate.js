@@ -1,14 +1,12 @@
 'use strict';
 
-const Limiter = require('async-limiter');
 const zlib = require('zlib');
 
 const bufferUtil = require('./buffer-util');
+const Limiter = require('./limiter');
 const { kStatusCode, NOOP } = require('./constants');
 
 const TRAILER = Buffer.from([0x00, 0x00, 0xff, 0xff]);
-const EMPTY_BLOCK = Buffer.from([0x00]);
-
 const kPerMessageDeflate = Symbol('permessage-deflate');
 const kTotalLength = Symbol('total-length');
 const kCallback = Symbol('callback');
@@ -31,24 +29,26 @@ class PerMessageDeflate {
   /**
    * Creates a PerMessageDeflate instance.
    *
-   * @param {Object} options Configuration options
-   * @param {Boolean} options.serverNoContextTakeover Request/accept disabling
-   *     of server context takeover
-   * @param {Boolean} options.clientNoContextTakeover Advertise/acknowledge
-   *     disabling of client context takeover
-   * @param {(Boolean|Number)} options.serverMaxWindowBits Request/confirm the
+   * @param {Object} [options] Configuration options
+   * @param {Boolean} [options.serverNoContextTakeover=false] Request/accept
+   *     disabling of server context takeover
+   * @param {Boolean} [options.clientNoContextTakeover=false] Advertise/
+   *     acknowledge disabling of client context takeover
+   * @param {(Boolean|Number)} [options.serverMaxWindowBits] Request/confirm the
    *     use of a custom server window size
-   * @param {(Boolean|Number)} options.clientMaxWindowBits Advertise support
+   * @param {(Boolean|Number)} [options.clientMaxWindowBits] Advertise support
    *     for, or request, a custom client window size
-   * @param {Object} options.zlibDeflateOptions Options to pass to zlib on deflate
-   * @param {Object} options.zlibInflateOptions Options to pass to zlib on inflate
-   * @param {Number} options.threshold Size (in bytes) below which messages
-   *     should not be compressed
-   * @param {Number} options.concurrencyLimit The number of concurrent calls to
-   *     zlib
-   * @param {Boolean} isServer Create the instance in either server or client
-   *     mode
-   * @param {Number} maxPayload The maximum allowed message length
+   * @param {Object} [options.zlibDeflateOptions] Options to pass to zlib on
+   *     deflate
+   * @param {Object} [options.zlibInflateOptions] Options to pass to zlib on
+   *     inflate
+   * @param {Number} [options.threshold=1024] Size (in bytes) below which
+   *     messages should not be compressed
+   * @param {Number} [options.concurrencyLimit=10] The number of concurrent
+   *     calls to zlib
+   * @param {Boolean} [isServer=false] Create the instance in either server or
+   *     client mode
+   * @param {Number} [maxPayload=0] The maximum allowed message length
    */
   constructor(options, isServer, maxPayload) {
     this._maxPayload = maxPayload | 0;
@@ -66,7 +66,7 @@ class PerMessageDeflate {
         this._options.concurrencyLimit !== undefined
           ? this._options.concurrencyLimit
           : 10;
-      zlibLimiter = new Limiter({ concurrency });
+      zlibLimiter = new Limiter(concurrency);
     }
   }
 
@@ -133,8 +133,18 @@ class PerMessageDeflate {
     }
 
     if (this._deflate) {
+      const callback = this._deflate[kCallback];
+
       this._deflate.close();
       this._deflate = null;
+
+      if (callback) {
+        callback(
+          new Error(
+            'The deflate stream was closed while data was being processed'
+          )
+        );
+      }
     }
   }
 
@@ -233,7 +243,7 @@ class PerMessageDeflate {
   normalizeParams(configurations) {
     configurations.forEach((params) => {
       Object.keys(params).forEach((key) => {
-        var value = params[key];
+        let value = params[key];
 
         if (value.length > 1) {
           throw new Error(`Parameter "${key}" must have only a single value`);
@@ -284,7 +294,7 @@ class PerMessageDeflate {
   }
 
   /**
-   * Decompress data. Concurrency limited by async-limiter.
+   * Decompress data. Concurrency limited.
    *
    * @param {Buffer} data Compressed data
    * @param {Boolean} fin Specifies whether or not this is the last fragment
@@ -292,7 +302,7 @@ class PerMessageDeflate {
    * @public
    */
   decompress(data, fin, callback) {
-    zlibLimiter.push((done) => {
+    zlibLimiter.add((done) => {
       this._decompress(data, fin, (err, result) => {
         done();
         callback(err, result);
@@ -301,7 +311,7 @@ class PerMessageDeflate {
   }
 
   /**
-   * Compress data. Concurrency limited by async-limiter.
+   * Compress data. Concurrency limited.
    *
    * @param {Buffer} data Data to compress
    * @param {Boolean} fin Specifies whether or not this is the last fragment
@@ -309,7 +319,7 @@ class PerMessageDeflate {
    * @public
    */
   compress(data, fin, callback) {
-    zlibLimiter.push((done) => {
+    zlibLimiter.add((done) => {
       this._compress(data, fin, (err, result) => {
         done();
         callback(err, result);
@@ -335,9 +345,10 @@ class PerMessageDeflate {
           ? zlib.Z_DEFAULT_WINDOWBITS
           : this.params[key];
 
-      this._inflate = zlib.createInflateRaw(
-        Object.assign({}, this._options.zlibInflateOptions, { windowBits })
-      );
+      this._inflate = zlib.createInflateRaw({
+        ...this._options.zlibInflateOptions,
+        windowBits
+      });
       this._inflate[kPerMessageDeflate] = this;
       this._inflate[kTotalLength] = 0;
       this._inflate[kBuffers] = [];
@@ -365,12 +376,16 @@ class PerMessageDeflate {
         this._inflate[kTotalLength]
       );
 
-      if (fin && this.params[`${endpoint}_no_context_takeover`]) {
+      if (this._inflate._readableState.endEmitted) {
         this._inflate.close();
         this._inflate = null;
       } else {
         this._inflate[kTotalLength] = 0;
         this._inflate[kBuffers] = [];
+
+        if (fin && this.params[`${endpoint}_no_context_takeover`]) {
+          this._inflate.reset();
+        }
       }
 
       callback(null, data);
@@ -386,11 +401,6 @@ class PerMessageDeflate {
    * @private
    */
   _compress(data, fin, callback) {
-    if (!data || data.length === 0) {
-      process.nextTick(callback, null, EMPTY_BLOCK);
-      return;
-    }
-
     const endpoint = this._isServer ? 'server' : 'client';
 
     if (!this._deflate) {
@@ -400,9 +410,10 @@ class PerMessageDeflate {
           ? zlib.Z_DEFAULT_WINDOWBITS
           : this.params[key];
 
-      this._deflate = zlib.createDeflateRaw(
-        Object.assign({}, this._options.zlibDeflateOptions, { windowBits })
-      );
+      this._deflate = zlib.createDeflateRaw({
+        ...this._options.zlibDeflateOptions,
+        windowBits
+      });
 
       this._deflate[kTotalLength] = 0;
       this._deflate[kBuffers] = [];
@@ -417,31 +428,35 @@ class PerMessageDeflate {
       this._deflate.on('data', deflateOnData);
     }
 
+    this._deflate[kCallback] = callback;
+
     this._deflate.write(data);
     this._deflate.flush(zlib.Z_SYNC_FLUSH, () => {
       if (!this._deflate) {
         //
-        // This `if` statement is only needed for Node.js < 10.0.0 because as of
-        // commit https://github.com/nodejs/node/commit/5e3f5164, the flush
-        // callback is no longer called if the deflate stream is closed while
-        // data is being processed.
+        // The deflate stream was closed while data was being processed.
         //
         return;
       }
 
-      var data = bufferUtil.concat(
+      let data = bufferUtil.concat(
         this._deflate[kBuffers],
         this._deflate[kTotalLength]
       );
 
       if (fin) data = data.slice(0, data.length - 4);
 
+      //
+      // Ensure that the callback will not be called again in
+      // `PerMessageDeflate#cleanup()`.
+      //
+      this._deflate[kCallback] = null;
+
+      this._deflate[kTotalLength] = 0;
+      this._deflate[kBuffers] = [];
+
       if (fin && this.params[`${endpoint}_no_context_takeover`]) {
-        this._deflate.close();
-        this._deflate = null;
-      } else {
-        this._deflate[kTotalLength] = 0;
-        this._deflate[kBuffers] = [];
+        this._deflate.reset();
       }
 
       callback(null, data);

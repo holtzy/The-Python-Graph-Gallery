@@ -10,7 +10,7 @@ module.exports = assign.shim();
 
 delete assign.shim;
 
-},{"./":3,"object-keys":16}],2:[function(require,module,exports){
+},{"./":3,"object-keys":14}],2:[function(require,module,exports){
 'use strict';
 
 // modified from https://github.com/es-shims/es6-shim
@@ -19,7 +19,7 @@ var canBeObject = function (obj) {
 	return typeof obj !== 'undefined' && obj !== null;
 };
 var hasSymbols = require('has-symbols/shams')();
-var callBound = require('es-abstract/helpers/callBound');
+var callBound = require('call-bind/callBound');
 var toObject = Object;
 var $push = callBound('Array.prototype.push');
 var $propIsEnumerable = callBound('Object.prototype.propertyIsEnumerable');
@@ -54,11 +54,11 @@ module.exports = function assign(target, source1) {
 	return objTarget;
 };
 
-},{"es-abstract/helpers/callBound":7,"has-symbols/shams":11,"object-keys":16}],3:[function(require,module,exports){
+},{"call-bind/callBound":4,"has-symbols/shams":11,"object-keys":14}],3:[function(require,module,exports){
 'use strict';
 
 var defineProperties = require('define-properties');
-var callBind = require('es-abstract/helpers/callBind');
+var callBind = require('call-bind');
 
 var implementation = require('./implementation');
 var getPolyfill = require('./polyfill');
@@ -78,7 +78,59 @@ defineProperties(bound, {
 
 module.exports = bound;
 
-},{"./implementation":2,"./polyfill":18,"./shim":19,"define-properties":4,"es-abstract/helpers/callBind":6}],4:[function(require,module,exports){
+},{"./implementation":2,"./polyfill":16,"./shim":17,"call-bind":5,"define-properties":6}],4:[function(require,module,exports){
+'use strict';
+
+var GetIntrinsic = require('get-intrinsic');
+
+var callBind = require('./');
+
+var $indexOf = callBind(GetIntrinsic('String.prototype.indexOf'));
+
+module.exports = function callBoundIntrinsic(name, allowMissing) {
+	var intrinsic = GetIntrinsic(name, !!allowMissing);
+	if (typeof intrinsic === 'function' && $indexOf(name, '.prototype.') > -1) {
+		return callBind(intrinsic);
+	}
+	return intrinsic;
+};
+
+},{"./":5,"get-intrinsic":9}],5:[function(require,module,exports){
+'use strict';
+
+var bind = require('function-bind');
+var GetIntrinsic = require('get-intrinsic');
+
+var $apply = GetIntrinsic('%Function.prototype.apply%');
+var $call = GetIntrinsic('%Function.prototype.call%');
+var $reflectApply = GetIntrinsic('%Reflect.apply%', true) || bind.call($call, $apply);
+
+var $defineProperty = GetIntrinsic('%Object.defineProperty%', true);
+
+if ($defineProperty) {
+	try {
+		$defineProperty({}, 'a', { value: 1 });
+	} catch (e) {
+		// IE 8 has a broken defineProperty
+		$defineProperty = null;
+	}
+}
+
+module.exports = function callBind() {
+	return $reflectApply(bind, $call, arguments);
+};
+
+var applyBind = function applyBind() {
+	return $reflectApply(bind, $apply, arguments);
+};
+
+if ($defineProperty) {
+	$defineProperty(module.exports, 'apply', { value: applyBind });
+} else {
+	module.exports.apply = applyBind;
+}
+
+},{"function-bind":8,"get-intrinsic":9}],6:[function(require,module,exports){
 'use strict';
 
 var keys = require('object-keys');
@@ -138,7 +190,68 @@ defineProperties.supportsDescriptors = !!supportsDescriptors;
 
 module.exports = defineProperties;
 
-},{"object-keys":16}],5:[function(require,module,exports){
+},{"object-keys":14}],7:[function(require,module,exports){
+'use strict';
+
+/* eslint no-invalid-this: 1 */
+
+var ERROR_MESSAGE = 'Function.prototype.bind called on incompatible ';
+var slice = Array.prototype.slice;
+var toStr = Object.prototype.toString;
+var funcType = '[object Function]';
+
+module.exports = function bind(that) {
+    var target = this;
+    if (typeof target !== 'function' || toStr.call(target) !== funcType) {
+        throw new TypeError(ERROR_MESSAGE + target);
+    }
+    var args = slice.call(arguments, 1);
+
+    var bound;
+    var binder = function () {
+        if (this instanceof bound) {
+            var result = target.apply(
+                this,
+                args.concat(slice.call(arguments))
+            );
+            if (Object(result) === result) {
+                return result;
+            }
+            return this;
+        } else {
+            return target.apply(
+                that,
+                args.concat(slice.call(arguments))
+            );
+        }
+    };
+
+    var boundLength = Math.max(0, target.length - args.length);
+    var boundArgs = [];
+    for (var i = 0; i < boundLength; i++) {
+        boundArgs.push('$' + i);
+    }
+
+    bound = Function('binder', 'return function (' + boundArgs.join(',') + '){ return binder.apply(this,arguments); }')(binder);
+
+    if (target.prototype) {
+        var Empty = function Empty() {};
+        Empty.prototype = target.prototype;
+        bound.prototype = new Empty();
+        Empty.prototype = null;
+    }
+
+    return bound;
+};
+
+},{}],8:[function(require,module,exports){
+'use strict';
+
+var implementation = require('./implementation');
+
+module.exports = Function.prototype.bind || implementation;
+
+},{"./implementation":7}],9:[function(require,module,exports){
 'use strict';
 
 /* globals
@@ -172,7 +285,9 @@ if ($gOPD) {
 	}
 }
 
-var throwTypeError = function () { throw new $TypeError(); };
+var throwTypeError = function () {
+	throw new $TypeError();
+};
 var ThrowTypeError = $gOPD
 	? (function () {
 		try {
@@ -404,7 +519,18 @@ module.exports = function GetIntrinsic(name, allowMissing) {
 				if (!allowMissing && !(part in value)) {
 					throw new $TypeError('base intrinsic for ' + name + ' exists, but the property is not available.');
 				}
-				value = isOwn ? desc.get || desc.value : value[part];
+				// By convention, when a data property is converted to an accessor
+				// property to emulate a data property that does not suffer from
+				// the override mistake, that accessor's getter is marked with
+				// an `originalValue` property. Here, when we detect this, we
+				// uphold the illusion by pretending to see that original data
+				// property, i.e., returning the value rather than the getter
+				// itself.
+				if (isOwn && 'get' in desc && !('originalValue' in desc.get)) {
+					value = desc.get;
+				} else {
+					value = value[part];
+				}
 			} else {
 				isOwn = hasOwn(value, part);
 				value = value[part];
@@ -418,105 +544,8 @@ module.exports = function GetIntrinsic(name, allowMissing) {
 	return value;
 };
 
-},{"function-bind":9,"has":14,"has-symbols":10}],6:[function(require,module,exports){
-'use strict';
-
-var bind = require('function-bind');
-
-var GetIntrinsic = require('../GetIntrinsic');
-
-var $apply = GetIntrinsic('%Function.prototype.apply%');
-var $call = GetIntrinsic('%Function.prototype.call%');
-var $reflectApply = GetIntrinsic('%Reflect.apply%', true) || bind.call($call, $apply);
-
-module.exports = function callBind() {
-	return $reflectApply(bind, $call, arguments);
-};
-
-module.exports.apply = function applyBind() {
-	return $reflectApply(bind, $apply, arguments);
-};
-
-},{"../GetIntrinsic":5,"function-bind":9}],7:[function(require,module,exports){
-'use strict';
-
-var GetIntrinsic = require('../GetIntrinsic');
-
-var callBind = require('./callBind');
-
-var $indexOf = callBind(GetIntrinsic('String.prototype.indexOf'));
-
-module.exports = function callBoundIntrinsic(name, allowMissing) {
-	var intrinsic = GetIntrinsic(name, !!allowMissing);
-	if (typeof intrinsic === 'function' && $indexOf(name, '.prototype.')) {
-		return callBind(intrinsic);
-	}
-	return intrinsic;
-};
-
-},{"../GetIntrinsic":5,"./callBind":6}],8:[function(require,module,exports){
-'use strict';
-
-/* eslint no-invalid-this: 1 */
-
-var ERROR_MESSAGE = 'Function.prototype.bind called on incompatible ';
-var slice = Array.prototype.slice;
-var toStr = Object.prototype.toString;
-var funcType = '[object Function]';
-
-module.exports = function bind(that) {
-    var target = this;
-    if (typeof target !== 'function' || toStr.call(target) !== funcType) {
-        throw new TypeError(ERROR_MESSAGE + target);
-    }
-    var args = slice.call(arguments, 1);
-
-    var bound;
-    var binder = function () {
-        if (this instanceof bound) {
-            var result = target.apply(
-                this,
-                args.concat(slice.call(arguments))
-            );
-            if (Object(result) === result) {
-                return result;
-            }
-            return this;
-        } else {
-            return target.apply(
-                that,
-                args.concat(slice.call(arguments))
-            );
-        }
-    };
-
-    var boundLength = Math.max(0, target.length - args.length);
-    var boundArgs = [];
-    for (var i = 0; i < boundLength; i++) {
-        boundArgs.push('$' + i);
-    }
-
-    bound = Function('binder', 'return function (' + boundArgs.join(',') + '){ return binder.apply(this,arguments); }')(binder);
-
-    if (target.prototype) {
-        var Empty = function Empty() {};
-        Empty.prototype = target.prototype;
-        bound.prototype = new Empty();
-        Empty.prototype = null;
-    }
-
-    return bound;
-};
-
-},{}],9:[function(require,module,exports){
-'use strict';
-
-var implementation = require('./implementation');
-
-module.exports = Function.prototype.bind || implementation;
-
-},{"./implementation":8}],10:[function(require,module,exports){
-(function (global){
+},{"function-bind":8,"has":12,"has-symbols":10}],10:[function(require,module,exports){
+(function (global){(function (){
 'use strict';
 
 var origSymbol = global.Symbol;
@@ -531,7 +560,7 @@ module.exports = function hasNativeSymbols() {
 	return hasSymbolSham();
 };
 
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+}).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"./shams":11}],11:[function(require,module,exports){
 'use strict';
 
@@ -577,17 +606,13 @@ module.exports = function hasSymbols() {
 };
 
 },{}],12:[function(require,module,exports){
-arguments[4][8][0].apply(exports,arguments)
-},{"dup":8}],13:[function(require,module,exports){
-arguments[4][9][0].apply(exports,arguments)
-},{"./implementation":12,"dup":9}],14:[function(require,module,exports){
 'use strict';
 
 var bind = require('function-bind');
 
 module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
-},{"function-bind":13}],15:[function(require,module,exports){
+},{"function-bind":8}],13:[function(require,module,exports){
 'use strict';
 
 var keysShim;
@@ -711,7 +736,7 @@ if (!Object.keys) {
 }
 module.exports = keysShim;
 
-},{"./isArguments":17}],16:[function(require,module,exports){
+},{"./isArguments":15}],14:[function(require,module,exports){
 'use strict';
 
 var slice = Array.prototype.slice;
@@ -745,7 +770,7 @@ keysShim.shim = function shimObjectKeys() {
 
 module.exports = keysShim;
 
-},{"./implementation":15,"./isArguments":17}],17:[function(require,module,exports){
+},{"./implementation":13,"./isArguments":15}],15:[function(require,module,exports){
 'use strict';
 
 var toStr = Object.prototype.toString;
@@ -764,7 +789,7 @@ module.exports = function isArguments(value) {
 	return isArgs;
 };
 
-},{}],18:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 'use strict';
 
 var implementation = require('./implementation');
@@ -821,7 +846,7 @@ module.exports = function getPolyfill() {
 	return Object.assign;
 };
 
-},{"./implementation":2}],19:[function(require,module,exports){
+},{"./implementation":2}],17:[function(require,module,exports){
 'use strict';
 
 var define = require('define-properties');
@@ -837,4 +862,4 @@ module.exports = function shimAssign() {
 	return polyfill;
 };
 
-},{"./polyfill":18,"define-properties":4}]},{},[1]);
+},{"./polyfill":16,"define-properties":6}]},{},[1]);

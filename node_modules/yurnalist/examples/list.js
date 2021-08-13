@@ -3,8 +3,7 @@ const report = require('../dist');
 /* eslint-disable flowtype/require-return-type */
 const someList = ['bananas', 'tulips', 'eggs', 'bamischijf'];
 
-report.info('My grocery list');
-report.list('dunno', someList);
+report.list('My grocery list', someList);
 
 const hints = {
   bananas: 'for baking',
@@ -13,5 +12,4 @@ const hints = {
   bamischijf: 'if they have it',
 };
 
-report.info('The same list with hints');
-report.list('dunno', someList, hints);
+report.list('The same list with hints', someList, hints);

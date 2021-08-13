@@ -1,11 +1,8 @@
 #!/usr/bin/env node
 
-// @ts-ignore
-process.exitCode = 0;
-
 /**
  * @param {string} command process to run
- * @param {string[]} args commandline arguments
+ * @param {string[]} args command line arguments
  * @returns {Promise<void>} promise
  */
 const runCommand = (command, args) => {
@@ -35,13 +32,41 @@ const runCommand = (command, args) => {
  * @returns {boolean} is the package installed?
  */
 const isInstalled = packageName => {
-	try {
-		require.resolve(packageName);
-
+	if (process.versions.pnp) {
 		return true;
-	} catch (err) {
-		return false;
 	}
+
+	const path = require("path");
+	const fs = require("graceful-fs");
+
+	let dir = __dirname;
+
+	do {
+		try {
+			if (
+				fs.statSync(path.join(dir, "node_modules", packageName)).isDirectory()
+			) {
+				return true;
+			}
+		} catch (_error) {
+			// Nothing
+		}
+	} while (dir !== (dir = path.dirname(dir)));
+
+	return false;
+};
+
+/**
+ * @param {CliOption} cli options
+ * @returns {void}
+ */
+const runCli = cli => {
+	const path = require("path");
+	const pkgPath = require.resolve(`${cli.package}/package.json`);
+	// eslint-disable-next-line node/no-missing-require
+	const pkg = require(pkgPath);
+	// eslint-disable-next-line node/no-missing-require
+	require(path.resolve(path.dirname(pkgPath), pkg.bin[cli.binName]));
 };
 
 /**
@@ -49,64 +74,45 @@ const isInstalled = packageName => {
  * @property {string} name display name
  * @property {string} package npm package name
  * @property {string} binName name of the executable file
- * @property {string} alias shortcut for choice
  * @property {boolean} installed currently installed?
- * @property {boolean} recommended is recommended
  * @property {string} url homepage
- * @property {string} description description
  */
 
-/** @type {CliOption[]} */
-const CLIs = [
-	{
-		name: "webpack-cli",
-		package: "webpack-cli",
-		binName: "webpack-cli",
-		alias: "cli",
-		installed: isInstalled("webpack-cli"),
-		recommended: true,
-		url: "https://github.com/webpack/webpack-cli",
-		description: "The original webpack full-featured CLI."
-	},
-	{
-		name: "webpack-command",
-		package: "webpack-command",
-		binName: "webpack-command",
-		alias: "command",
-		installed: isInstalled("webpack-command"),
-		recommended: false,
-		url: "https://github.com/webpack-contrib/webpack-command",
-		description: "A lightweight, opinionated webpack CLI."
-	}
-];
+/** @type {CliOption} */
+const cli = {
+	name: "webpack-cli",
+	package: "webpack-cli",
+	binName: "webpack-cli",
+	installed: isInstalled("webpack-cli"),
+	url: "https://github.com/webpack/webpack-cli"
+};
 
-const installedClis = CLIs.filter(cli => cli.installed);
-
-if (installedClis.length === 0) {
+if (!cli.installed) {
 	const path = require("path");
-	const fs = require("fs");
+	const fs = require("graceful-fs");
 	const readLine = require("readline");
 
-	let notify =
-		"One CLI for webpack must be installed. These are recommended choices, delivered as separate packages:";
-
-	for (const item of CLIs) {
-		if (item.recommended) {
-			notify += `\n - ${item.name} (${item.url})\n   ${item.description}`;
-		}
-	}
+	const notify =
+		"CLI for webpack must be installed.\n" + `  ${cli.name} (${cli.url})\n`;
 
 	console.error(notify);
 
-	const isYarn = fs.existsSync(path.resolve(process.cwd(), "yarn.lock"));
+	let packageManager;
 
-	const packageManager = isYarn ? "yarn" : "npm";
-	const installOptions = [isYarn ? "add" : "install", "-D"];
+	if (fs.existsSync(path.resolve(process.cwd(), "yarn.lock"))) {
+		packageManager = "yarn";
+	} else if (fs.existsSync(path.resolve(process.cwd(), "pnpm-lock.yaml"))) {
+		packageManager = "pnpm";
+	} else {
+		packageManager = "npm";
+	}
+
+	const installOptions = [packageManager === "yarn" ? "add" : "install", "-D"];
 
 	console.error(
 		`We will use "${packageManager}" to install the CLI via "${packageManager} ${installOptions.join(
 			" "
-		)}".`
+		)} ${cli.package}".`
 	);
 
 	const question = `Do you want to install 'webpack-cli' (yes/no): `;
@@ -115,6 +121,11 @@ if (installedClis.length === 0) {
 		input: process.stdin,
 		output: process.stderr
 	});
+
+	// In certain scenarios (e.g. when STDIN is not in terminal mode), the callback function will not be
+	// executed. Setting the exit code here to ensure the script exits correctly in those cases. The callback
+	// function is responsible for clearing the exit code if the user wishes to install webpack-cli.
+	process.exitCode = 1;
 	questionInterface.question(question, answer => {
 		questionInterface.close();
 
@@ -125,47 +136,28 @@ if (installedClis.length === 0) {
 				"You need to install 'webpack-cli' to use webpack via CLI.\n" +
 					"You can also install the CLI manually."
 			);
-			process.exitCode = 1;
 
 			return;
 		}
-
-		const packageName = "webpack-cli";
+		process.exitCode = 0;
 
 		console.log(
-			`Installing '${packageName}' (running '${packageManager} ${installOptions.join(
-				" "
-			)} ${packageName}')...`
+			`Installing '${
+				cli.package
+			}' (running '${packageManager} ${installOptions.join(" ")} ${
+				cli.package
+			}')...`
 		);
 
-		runCommand(packageManager, installOptions.concat(packageName))
+		runCommand(packageManager, installOptions.concat(cli.package))
 			.then(() => {
-				require(packageName); //eslint-disable-line
+				runCli(cli);
 			})
 			.catch(error => {
 				console.error(error);
 				process.exitCode = 1;
 			});
 	});
-} else if (installedClis.length === 1) {
-	const path = require("path");
-	const pkgPath = require.resolve(`${installedClis[0].package}/package.json`);
-	// eslint-disable-next-line node/no-missing-require
-	const pkg = require(pkgPath);
-	// eslint-disable-next-line node/no-missing-require
-	require(path.resolve(
-		path.dirname(pkgPath),
-		pkg.bin[installedClis[0].binName]
-	));
 } else {
-	console.warn(
-		`You have installed ${installedClis
-			.map(item => item.name)
-			.join(
-				" and "
-			)} together. To work with the "webpack" command you need only one CLI package, please remove one of them or use them directly via their binary.`
-	);
-
-	// @ts-ignore
-	process.exitCode = 1;
+	runCli(cli);
 }

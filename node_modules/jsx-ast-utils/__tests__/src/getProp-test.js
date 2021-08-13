@@ -11,14 +11,14 @@ describe('getProp', () => {
     const expected = 'function';
     const actual = typeof getProp;
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
   it('should return undefined if no arguments are provided', () => {
     const expected = undefined;
     const actual = getProp();
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
   it('should return undefined if the attribute is absent', () => {
@@ -30,7 +30,7 @@ describe('getProp', () => {
     const expected = undefined;
     const actual = getProp(props, prop);
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
   it('should return the correct attribute if the attribute exists', () => {
@@ -42,7 +42,7 @@ describe('getProp', () => {
     const expected = 'id';
     const actual = getProp(props, prop).name.name;
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
   it('should return the correct attribute if the attribute exists in spread', () => {
@@ -54,7 +54,7 @@ describe('getProp', () => {
     const expected = 'id';
     const actual = getProp(props, prop).name.name;
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
   it('should return the correct attribute if the attribute exists in spread as an expression', () => {
@@ -68,8 +68,8 @@ describe('getProp', () => {
     const actualName = actual.name.name;
     const actualValue = actual.value.expression.name;
 
-    assert.equal(expected, actualName);
-    assert.equal(expected, actualValue);
+    assert.equal(actualName, expected);
+    assert.equal(actualValue, expected);
   });
 
   it('should return the correct attribute if the attribute exists in spread (case sensitive)', () => {
@@ -82,7 +82,7 @@ describe('getProp', () => {
     const expected = 'id';
     const actual = getProp(props, prop, options).name.name;
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
   it('should return undefined if the attribute does not exist in spread (case sensitive)', () => {
@@ -95,7 +95,7 @@ describe('getProp', () => {
     const expected = undefined;
     const actual = getProp(props, prop, options);
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
   it('should return undefined for key in spread', () => {
@@ -108,7 +108,7 @@ describe('getProp', () => {
     const expected = undefined;
     const actual = getProp(props, prop);
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
   it('should return undefined if the attribute may exist in spread', () => {
@@ -120,7 +120,7 @@ describe('getProp', () => {
     const expected = undefined;
     const actual = getProp(props, prop);
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
   it('should not crash if the spread contains a spread', () => {
@@ -144,6 +144,6 @@ describe('getProp', () => {
     const expected = undefined;
     const actual = getProp(props, prop, options);
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 });

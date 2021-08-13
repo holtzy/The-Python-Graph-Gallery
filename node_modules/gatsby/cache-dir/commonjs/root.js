@@ -9,7 +9,7 @@ var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends")
 
 var _react = _interopRequireDefault(require("react"));
 
-var _router = require("@reach/router");
+var _reachRouter = require("@gatsbyjs/reach-router");
 
 var _gatsbyReactRouterScroll = require("gatsby-react-router-scroll");
 
@@ -25,33 +25,7 @@ var _ensureResources = _interopRequireDefault(require("./ensure-resources"));
 
 var _fastRefreshOverlay = _interopRequireDefault(require("./fast-refresh-overlay"));
 
-var _errorOverlayHandler = require("./error-overlay-handler");
-
-var _loadingIndicator = require("./loading-indicator");
-
-// TODO: Remove entire block when we make fast-refresh the default
-// In fast-refresh, this logic is all moved into the `error-overlay-handler`
-if (window.__webpack_hot_middleware_reporter__ !== undefined && process.env.GATSBY_HOT_LOADER !== `fast-refresh`) {
-  const overlayErrorID = `webpack`; // Report build errors
-
-  window.__webpack_hot_middleware_reporter__.useCustomOverlay({
-    showProblems(type, obj) {
-      if (type !== `errors`) {
-        (0, _errorOverlayHandler.clearError)(overlayErrorID);
-        return;
-      }
-
-      (0, _errorOverlayHandler.reportError)(overlayErrorID, obj[0]);
-    },
-
-    clear() {
-      (0, _errorOverlayHandler.clearError)(overlayErrorID);
-    }
-
-  });
-}
-
-(0, _navigation.init)(); // In gatsby v2 if Router is used in page using matchPaths
+// In gatsby v2 if Router is used in page using matchPaths
 // paths need to contain full path.
 // For example:
 //   - page have `/app/*` matchPath
@@ -59,8 +33,7 @@ if (window.__webpack_hot_middleware_reporter__ !== undefined && process.env.GATS
 // Resetting `basepath`/`baseuri` keeps current behaviour
 // to not introduce breaking change.
 // Remove this in v3
-
-const RouteHandler = props => /*#__PURE__*/_react.default.createElement(_router.BaseContext.Provider, {
+const RouteHandler = props => /*#__PURE__*/_react.default.createElement(_reachRouter.BaseContext.Provider, {
   value: {
     baseuri: `/`,
     basepath: `/`
@@ -81,7 +54,7 @@ class LocationHandler extends _react.default.Component {
       }, /*#__PURE__*/_react.default.createElement(_gatsbyReactRouterScroll.ScrollContext, {
         location: location,
         shouldUpdateScroll: _navigation.shouldUpdateScroll
-      }, /*#__PURE__*/_react.default.createElement(_router.Router, {
+      }, /*#__PURE__*/_react.default.createElement(_reachRouter.Router, {
         basepath: __BASE_PATH__,
         location: location,
         id: "gatsby-focus-wrapper"
@@ -104,7 +77,7 @@ class LocationHandler extends _react.default.Component {
 
     return /*#__PURE__*/_react.default.createElement(_navigation.RouteUpdates, {
       location: location
-    }, /*#__PURE__*/_react.default.createElement(_router.Router, {
+    }, /*#__PURE__*/_react.default.createElement(_reachRouter.Router, {
       basepath: __BASE_PATH__,
       location: location,
       id: "gatsby-focus-wrapper"
@@ -118,10 +91,10 @@ class LocationHandler extends _react.default.Component {
 
 }
 
-const Root = () => /*#__PURE__*/_react.default.createElement(_router.Location, null, locationContext => /*#__PURE__*/_react.default.createElement(LocationHandler, locationContext)); // Let site, plugins wrap the site e.g. for Redux.
+const Root = () => /*#__PURE__*/_react.default.createElement(_reachRouter.Location, null, locationContext => /*#__PURE__*/_react.default.createElement(LocationHandler, locationContext)); // Let site, plugins wrap the site e.g. for Redux.
 
 
-const WrappedRoot = (0, _apiRunnerBrowser.apiRunner)(`wrapRootElement`, {
+const rootWrappedWithWrapRootElement = (0, _apiRunnerBrowser.apiRunner)(`wrapRootElement`, {
   element: /*#__PURE__*/_react.default.createElement(Root, null)
 }, /*#__PURE__*/_react.default.createElement(Root, null), ({
   result,
@@ -132,16 +105,9 @@ const WrappedRoot = (0, _apiRunnerBrowser.apiRunner)(`wrapRootElement`, {
   };
 }).pop();
 
-const ConditionalFastRefreshOverlay = ({
-  children
-}) => {
-  if (process.env.GATSBY_HOT_LOADER === `fast-refresh`) {
-    return /*#__PURE__*/_react.default.createElement(_fastRefreshOverlay.default, null, children);
-  }
+function RootWrappedWithOverlayAndProvider() {
+  return /*#__PURE__*/_react.default.createElement(_fastRefreshOverlay.default, null, /*#__PURE__*/_react.default.createElement(_queryResultStore.StaticQueryStore, null, rootWrappedWithWrapRootElement));
+}
 
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, children);
-};
-
-var _default = () => /*#__PURE__*/_react.default.createElement(ConditionalFastRefreshOverlay, null, /*#__PURE__*/_react.default.createElement(_queryResultStore.StaticQueryStore, null, WrappedRoot), process.env.GATSBY_EXPERIMENTAL_QUERY_ON_DEMAND && process.env.GATSBY_QUERY_ON_DEMAND_LOADING_INDICATOR === `true` && /*#__PURE__*/_react.default.createElement(_loadingIndicator.LoadingIndicatorEventHandler, null));
-
+var _default = RootWrappedWithOverlayAndProvider;
 exports.default = _default;

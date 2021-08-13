@@ -1,9 +1,17 @@
-'use strict';
+'use strict'
 
-module.exports = root;
+module.exports = root
 
-/* Stringify a root.
- * Adds a final newline to ensure valid POSIX files. */
+var lineFeed = '\n'
+
+// Stringify a root.
+// Adds a final newline to ensure valid POSIX files. */
 function root(node) {
-  return this.block(node) + '\n';
+  var doc = this.block(node)
+
+  if (doc.charAt(doc.length - 1) !== lineFeed) {
+    doc += lineFeed
+  }
+
+  return doc
 }

@@ -7,13 +7,12 @@
 
 'use strict';
 
-var path = require('path');
-var prefix = require('global-prefix');
-var isWindows = require('is-windows');
-var gm;
+const path = require('path');
+const prefix = require('global-prefix');
+let gm;
 
 function getPath() {
-  if (isWindows()) {
+  if (process.platform === 'win32' || process.env.OSTYPE === 'msys' || process.env.OSTYPE === 'cygwin') {
     return path.resolve(prefix, 'node_modules');
   }
   return path.resolve(prefix, 'lib/node_modules');
@@ -23,9 +22,8 @@ function getPath() {
  * Expose `global-modules` path
  */
 
-Object.defineProperty(module, 'exports', {
-  enumerable: true,
-  get: function() {
+Reflect.defineProperty(module, 'exports', {
+  get() {
     return gm || (gm = getPath());
   }
 });

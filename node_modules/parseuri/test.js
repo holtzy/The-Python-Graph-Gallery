@@ -25,6 +25,9 @@ describe('my suite', function(){
     expect(query.query).to.be('foo=bar');
     expect(query.path).to.be('/foo/bar');
     expect(query.relative).to.be('/foo/bar?foo=bar');
+    expect(query.queryKey.foo).to.be('bar');
+    expect(query.pathNames[0]).to.be('foo');
+    expect(query.pathNames[1]).to.be('bar');
     expect(localhost.protocol).to.be('');
     expect(localhost.host).to.be('localhost');
     expect(localhost.port).to.be('8080');

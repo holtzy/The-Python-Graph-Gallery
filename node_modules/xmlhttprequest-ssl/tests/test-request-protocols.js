@@ -24,7 +24,7 @@ var runSync = function() {
   xhr.onreadystatechange = function() {
     if (this.readyState == 4) {
       assert.equal("Hello World", this.responseText);
-      sys.puts("done");
+      console.log("done");
     }
   };
   xhr.open("GET", url, false);

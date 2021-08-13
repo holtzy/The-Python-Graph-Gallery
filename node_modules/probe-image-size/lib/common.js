@@ -3,14 +3,16 @@
 
 var Transform    = require('stream').Transform;
 var streamParser = require('stream-parser');
-var inherits     = require('util').inherits;
 
 
 function ParserStream() {
   Transform.call(this, { readableObjectMode: true });
 }
 
-inherits(ParserStream, Transform);
+// Inherit from Transform
+ParserStream.prototype = Object.create(Transform.prototype);
+ParserStream.prototype.constructor = ParserStream;
+
 streamParser(ParserStream.prototype);
 
 
@@ -77,7 +79,8 @@ function ProbeError(message, code, statusCode) {
 }
 
 // Inherit from Error
-require('inherits')(ProbeError, Error);
+ProbeError.prototype = Object.create(Error.prototype);
+ProbeError.prototype.constructor = ProbeError;
 
 
 exports.ProbeError = ProbeError;

@@ -2,20 +2,20 @@
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
+
 "use strict";
 
 const LocalModule = require("./LocalModule");
-const LocalModulesHelpers = exports;
 
 const lookup = (parent, mod) => {
 	if (mod.charAt(0) !== ".") return mod;
 
 	var path = parent.split("/");
-	var segs = mod.split("/");
+	var segments = mod.split("/");
 	path.pop();
 
-	for (let i = 0; i < segs.length; i++) {
-		const seg = segs[i];
+	for (let i = 0; i < segments.length; i++) {
+		const seg = segments[i];
 		if (seg === "..") {
 			path.pop();
 		} else if (seg !== ".") {
@@ -26,16 +26,16 @@ const lookup = (parent, mod) => {
 	return path.join("/");
 };
 
-LocalModulesHelpers.addLocalModule = (state, name) => {
+exports.addLocalModule = (state, name) => {
 	if (!state.localModules) {
 		state.localModules = [];
 	}
-	const m = new LocalModule(state.module, name, state.localModules.length);
+	const m = new LocalModule(name, state.localModules.length);
 	state.localModules.push(m);
 	return m;
 };
 
-LocalModulesHelpers.getLocalModule = (state, name, namedModule) => {
+exports.getLocalModule = (state, name, namedModule) => {
 	if (!state.localModules) return null;
 	if (namedModule) {
 		// resolve dependency name relative to the defining named module
@@ -48,5 +48,3 @@ LocalModulesHelpers.getLocalModule = (state, name, namedModule) => {
 	}
 	return null;
 };
-
-module.exports = LocalModulesHelpers;

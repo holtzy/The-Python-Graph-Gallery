@@ -10,7 +10,8 @@ class Event {
    * Create a new `Event`.
    *
    * @param {String} type The name of the event
-   * @param {Object} target A reference to the target to which the event was dispatched
+   * @param {Object} target A reference to the target to which the event was
+   *     dispatched
    */
   constructor(type, target) {
     this.target = target;
@@ -29,7 +30,8 @@ class MessageEvent extends Event {
    * Create a new `MessageEvent`.
    *
    * @param {(String|Buffer|ArrayBuffer|Buffer[])} data The received data
-   * @param {WebSocket} target A reference to the target to which the event was dispatched
+   * @param {WebSocket} target A reference to the target to which the event was
+   *     dispatched
    */
   constructor(data, target) {
     super('message', target);
@@ -48,9 +50,12 @@ class CloseEvent extends Event {
   /**
    * Create a new `CloseEvent`.
    *
-   * @param {Number} code The status code explaining why the connection is being closed
-   * @param {String} reason A human-readable string explaining why the connection is closing
-   * @param {WebSocket} target A reference to the target to which the event was dispatched
+   * @param {Number} code The status code explaining why the connection is being
+   *     closed
+   * @param {String} reason A human-readable string explaining why the
+   *     connection is closing
+   * @param {WebSocket} target A reference to the target to which the event was
+   *     dispatched
    */
   constructor(code, reason, target) {
     super('close', target);
@@ -71,7 +76,8 @@ class OpenEvent extends Event {
   /**
    * Create a new `OpenEvent`.
    *
-   * @param {WebSocket} target A reference to the target to which the event was dispatched
+   * @param {WebSocket} target A reference to the target to which the event was
+   *     dispatched
    */
   constructor(target) {
     super('open', target);
@@ -89,7 +95,8 @@ class ErrorEvent extends Event {
    * Create a new `ErrorEvent`.
    *
    * @param {Object} error The error that generated this event
-   * @param {WebSocket} target A reference to the target to which the event was dispatched
+   * @param {WebSocket} target A reference to the target to which the event was
+   *     dispatched
    */
   constructor(error, target) {
     super('error', target);
@@ -109,11 +116,16 @@ const EventTarget = {
   /**
    * Register an event listener.
    *
-   * @param {String} method A string representing the event type to listen for
+   * @param {String} type A string representing the event type to listen for
    * @param {Function} listener The listener to add
+   * @param {Object} [options] An options object specifies characteristics about
+   *     the event listener
+   * @param {Boolean} [options.once=false] A `Boolean`` indicating that the
+   *     listener should be invoked at most once after being added. If `true`,
+   *     the listener would be automatically removed when invoked.
    * @public
    */
-  addEventListener(method, listener) {
+  addEventListener(type, listener, options) {
     if (typeof listener !== 'function') return;
 
     function onMessage(data) {
@@ -132,36 +144,38 @@ const EventTarget = {
       listener.call(this, new OpenEvent(this));
     }
 
-    if (method === 'message') {
+    const method = options && options.once ? 'once' : 'on';
+
+    if (type === 'message') {
       onMessage._listener = listener;
-      this.on(method, onMessage);
-    } else if (method === 'close') {
+      this[method](type, onMessage);
+    } else if (type === 'close') {
       onClose._listener = listener;
-      this.on(method, onClose);
-    } else if (method === 'error') {
+      this[method](type, onClose);
+    } else if (type === 'error') {
       onError._listener = listener;
-      this.on(method, onError);
-    } else if (method === 'open') {
+      this[method](type, onError);
+    } else if (type === 'open') {
       onOpen._listener = listener;
-      this.on(method, onOpen);
+      this[method](type, onOpen);
     } else {
-      this.on(method, listener);
+      this[method](type, listener);
     }
   },
 
   /**
    * Remove an event listener.
    *
-   * @param {String} method A string representing the event type to remove
+   * @param {String} type A string representing the event type to remove
    * @param {Function} listener The listener to remove
    * @public
    */
-  removeEventListener(method, listener) {
-    const listeners = this.listeners(method);
+  removeEventListener(type, listener) {
+    const listeners = this.listeners(type);
 
-    for (var i = 0; i < listeners.length; i++) {
+    for (let i = 0; i < listeners.length; i++) {
       if (listeners[i] === listener || listeners[i]._listener === listener) {
-        this.removeListener(method, listeners[i]);
+        this.removeListener(type, listeners[i]);
       }
     }
   }

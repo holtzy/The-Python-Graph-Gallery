@@ -1,3 +1,10 @@
+4.1.2 / 2020-10-30
+==================
+  * [Refactor] use extracted `call-bind` instead of full `es-abstract`
+  * [Dev Deps] update `eslint`, `ses`, `browserify`
+  * [Tests] run tests in SES
+  * [Tests] ses-compat: show error stacks
+
 4.1.1 / 2020-09-11
 ==================
   * [Fix] avoid mutating `Object.assign` in modern engines

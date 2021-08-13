@@ -2,16 +2,19 @@
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
+
 "use strict";
 
-const AMDRequireItemDependency = require("./AMDRequireItemDependency");
-const AMDRequireContextDependency = require("./AMDRequireContextDependency");
-const ConstDependency = require("./ConstDependency");
+const RuntimeGlobals = require("../RuntimeGlobals");
 const AMDDefineDependency = require("./AMDDefineDependency");
 const AMDRequireArrayDependency = require("./AMDRequireArrayDependency");
-const LocalModuleDependency = require("./LocalModuleDependency");
+const AMDRequireContextDependency = require("./AMDRequireContextDependency");
+const AMDRequireItemDependency = require("./AMDRequireItemDependency");
+const ConstDependency = require("./ConstDependency");
 const ContextDependencyHelpers = require("./ContextDependencyHelpers");
-const LocalModulesHelpers = require("./LocalModulesHelpers");
+const DynamicExports = require("./DynamicExports");
+const LocalModuleDependency = require("./LocalModuleDependency");
+const { addLocalModule, getLocalModule } = require("./LocalModulesHelpers");
 
 const isBoundFunctionExpression = expr => {
 	if (expr.type !== "CallExpression") return false;
@@ -74,15 +77,11 @@ class AMDDefineDependencyParserPlugin {
 				} else if (["exports", "module"].includes(request)) {
 					identifiers[idx] = request;
 					dep = request;
-				} else if (
-					(localModule = LocalModulesHelpers.getLocalModule(
-						parser.state,
-						request
-					))
-				) {
+				} else if ((localModule = getLocalModule(parser.state, request))) {
+					localModule.flagUsed();
 					dep = new LocalModuleDependency(localModule, undefined, false);
 					dep.loc = expr.loc;
-					parser.state.current.addDependency(dep);
+					parser.state.module.addPresentationalDependency(dep);
 				} else {
 					dep = this.newRequireItemDependency(request);
 					dep.loc = expr.loc;
@@ -94,7 +93,7 @@ class AMDDefineDependencyParserPlugin {
 			const dep = this.newRequireArrayDependency(deps, param.range);
 			dep.loc = expr.loc;
 			dep.optional = !!parser.scope.inTry;
-			parser.state.current.addDependency(dep);
+			parser.state.module.addPresentationalDependency(dep);
 			return true;
 		}
 	}
@@ -110,23 +109,30 @@ class AMDDefineDependencyParserPlugin {
 		} else if (param.isString()) {
 			let dep, localModule;
 			if (param.string === "require") {
-				dep = new ConstDependency("__webpack_require__", param.range);
-			} else if (["require", "exports", "module"].includes(param.string)) {
-				dep = new ConstDependency(param.string, param.range);
+				dep = new ConstDependency("__webpack_require__", param.range, [
+					RuntimeGlobals.require
+				]);
+			} else if (param.string === "exports") {
+				dep = new ConstDependency("exports", param.range, [
+					RuntimeGlobals.exports
+				]);
+			} else if (param.string === "module") {
+				dep = new ConstDependency("module", param.range, [
+					RuntimeGlobals.module
+				]);
 			} else if (
-				(localModule = LocalModulesHelpers.getLocalModule(
-					parser.state,
-					param.string,
-					namedModule
-				))
+				(localModule = getLocalModule(parser.state, param.string, namedModule))
 			) {
+				localModule.flagUsed();
 				dep = new LocalModuleDependency(localModule, param.range, false);
 			} else {
 				dep = this.newRequireItemDependency(param.string, param.range);
+				dep.optional = !!parser.scope.inTry;
+				parser.state.current.addDependency(dep);
+				return true;
 			}
 			dep.loc = expr.loc;
-			dep.optional = !!parser.scope.inTry;
-			parser.state.current.addDependency(dep);
+			parser.state.module.addPresentationalDependency(dep);
 			return true;
 		}
 	}
@@ -137,7 +143,9 @@ class AMDDefineDependencyParserPlugin {
 			param,
 			expr,
 			this.options,
-			{},
+			{
+				category: "amd"
+			},
 			parser
 		);
 		if (!dep) return;
@@ -212,6 +220,7 @@ class AMDDefineDependencyParserPlugin {
 			default:
 				return;
 		}
+		DynamicExports.bailout(parser.state);
 		let fnParams = null;
 		let fnParamsOffset = 0;
 		if (fn) {
@@ -225,7 +234,7 @@ class AMDDefineDependencyParserPlugin {
 				}
 			}
 		}
-		let fnRenames = parser.scope.renames.createChild();
+		let fnRenames = new Map();
 		if (array) {
 			const identifiers = {};
 			const param = parser.evaluateExpression(array);
@@ -240,7 +249,7 @@ class AMDDefineDependencyParserPlugin {
 			if (fnParams) {
 				fnParams = fnParams.slice(fnParamsOffset).filter((param, idx) => {
 					if (identifiers[idx]) {
-						fnRenames.set(param.name, identifiers[idx]);
+						fnRenames.set(param.name, parser.getVariableInfo(identifiers[idx]));
 						return false;
 					}
 					return true;
@@ -251,7 +260,7 @@ class AMDDefineDependencyParserPlugin {
 			if (fnParams) {
 				fnParams = fnParams.slice(fnParamsOffset).filter((param, idx) => {
 					if (identifiers[idx]) {
-						fnRenames.set(param.name, identifiers[idx]);
+						fnRenames.set(param.name, parser.getVariableInfo(identifiers[idx]));
 						return false;
 					}
 					return true;
@@ -262,9 +271,15 @@ class AMDDefineDependencyParserPlugin {
 		if (fn && isUnboundFunctionExpression(fn)) {
 			inTry = parser.scope.inTry;
 			parser.inScope(fnParams, () => {
-				parser.scope.renames = fnRenames;
+				for (const [name, varInfo] of fnRenames) {
+					parser.setVariable(name, varInfo);
+				}
 				parser.scope.inTry = inTry;
 				if (fn.body.type === "BlockStatement") {
+					parser.detectMode(fn.body.body);
+					const prev = parser.prevStatement;
+					parser.preWalkStatement(fn.body);
+					parser.prevStatement = prev;
 					parser.walkStatement(fn.body);
 				} else {
 					parser.walkExpression(fn.body);
@@ -277,9 +292,15 @@ class AMDDefineDependencyParserPlugin {
 					i => !["require", "module", "exports"].includes(i.name)
 				),
 				() => {
-					parser.scope.renames = fnRenames;
+					for (const [name, varInfo] of fnRenames) {
+						parser.setVariable(name, varInfo);
+					}
 					parser.scope.inTry = inTry;
 					if (fn.callee.object.body.type === "BlockStatement") {
+						parser.detectMode(fn.callee.object.body.body);
+						const prev = parser.prevStatement;
+						parser.preWalkStatement(fn.callee.object.body);
+						parser.prevStatement = prev;
 						parser.walkStatement(fn.callee.object.body);
 					} else {
 						parser.walkExpression(fn.callee.object.body);
@@ -302,12 +323,9 @@ class AMDDefineDependencyParserPlugin {
 		);
 		dep.loc = expr.loc;
 		if (namedModule) {
-			dep.localModule = LocalModulesHelpers.addLocalModule(
-				parser.state,
-				namedModule
-			);
+			dep.localModule = addLocalModule(parser.state, namedModule);
 		}
-		parser.state.current.addDependency(dep);
+		parser.state.module.addPresentationalDependency(dep);
 		return true;
 	}
 

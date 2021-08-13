@@ -43,7 +43,7 @@ exports.run = function (args) {
 exports.success = function () {
   it('is successful', function () {
     expect(global.result.code).eql(0);
-    expect(global.result.error).falsy;
+    expect(global.result.error).not.ok;
   });
 };
 

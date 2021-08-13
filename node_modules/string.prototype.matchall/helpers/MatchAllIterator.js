@@ -1,12 +1,12 @@
 'use strict';
 
-var Get = require('es-abstract/2019/Get');
-var IsRegExp = require('es-abstract/2019/IsRegExp');
-var Set = require('es-abstract/2019/Set');
-var SpeciesConstructor = require('es-abstract/2019/SpeciesConstructor');
-var ToBoolean = require('es-abstract/2019/ToBoolean');
-var ToLength = require('es-abstract/2019/ToLength');
-var ToString = require('es-abstract/2019/ToString');
+var Get = require('es-abstract/2020/Get');
+var IsRegExp = require('es-abstract/2020/IsRegExp');
+var Set = require('es-abstract/2020/Set');
+var SpeciesConstructor = require('es-abstract/2020/SpeciesConstructor');
+var ToBoolean = require('es-abstract/2020/ToBoolean');
+var ToLength = require('es-abstract/2020/ToLength');
+var ToString = require('es-abstract/2020/ToString');
 var flagsGetter = require('regexp.prototype.flags');
 
 var RegExpStringIterator = require('./RegExpStringIterator');

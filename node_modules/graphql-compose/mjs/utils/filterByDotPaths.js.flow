@@ -20,7 +20,7 @@ export function filterByDotPaths(
   const paths = preparePathsFilter(pathsFilter);
   if (paths) {
     result = {};
-    paths.forEach(path => {
+    paths.forEach((path) => {
       result[path] = objectPath.get(obj, path);
     });
   } else {
@@ -30,7 +30,7 @@ export function filterByDotPaths(
   if (opts && opts.hideFields) {
     const hiddenFields = [];
     const optsHideFields = opts.hideFields;
-    Object.keys(optsHideFields).forEach(key => {
+    Object.keys(optsHideFields).forEach((key) => {
       const msg = optsHideFields[key];
       hiddenFields.push(...hideField(result, key, msg, pathsFilter));
     });
@@ -46,7 +46,7 @@ export function preparePathsFilter(pathsFilter: ?PathsFilter): string[] | null {
   if (!pathsFilter) return null;
   if (Array.isArray(pathsFilter)) return pathsFilter;
 
-  const tmp = pathsFilter.split(/\s|,/).filter(s => s !== '');
+  const tmp = pathsFilter.split(/\s|,/).filter((s) => s !== '');
   if (tmp.length > 0) return tmp;
   return null;
 }
@@ -120,7 +120,7 @@ export function hideField(
     const res = objectPath.get(result, k, result[k]);
 
     if (res && typeof res === 'object') {
-      Object.keys(res).forEach(kk => {
+      Object.keys(res).forEach((kk) => {
         if (res[kk] && !isPresentInDotFilter(`${k}.${kk}`, pathsFilter)) {
           const tmp = hideComplexValue(
             res[kk],

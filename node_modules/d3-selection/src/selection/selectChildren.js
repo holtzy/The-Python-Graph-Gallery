@@ -3,7 +3,7 @@ import {childMatcher} from "../matcher.js";
 var filter = Array.prototype.filter;
 
 function children() {
-  return this.children;
+  return Array.from(this.children);
 }
 
 function childrenFilter(match) {

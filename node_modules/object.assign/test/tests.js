@@ -159,7 +159,7 @@ module.exports = function (assign, t) {
 		st.end();
 	});
 
-	t.test('does not fail when symbols are not present', function (st) {
+	t.test('does not fail when symbols are not present', { skip: !Object.isFrozen || Object.isFrozen(Object) }, function (st) {
 		var getSyms;
 		if (hasSymbols) {
 			getSyms = Object.getOwnPropertySymbols;

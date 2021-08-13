@@ -14,7 +14,15 @@ var require = function(file) {
         t.on('end', function () { delete common.test; });
         common.test = t;
 
-        try { orig_require(file); } catch (err) { t.fail(err); }
+        try {
+          var exp = orig_require(file);
+          if (exp && exp.then) {
+            exp.then(function () { t.end(); }, t.fail);
+            return;
+          }
+        } catch (err) {
+          t.fail(err);
+        }
         t.end();
     });
 };

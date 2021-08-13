@@ -7,14 +7,14 @@ describe('read.files', function () {
 
   beforeEach(function (next) {
     read(['./test/read.js', './foo'], function (err, _res) {
-      expect(err).falsy;
+      expect(err).not.ok;
       res = _res;
       next();
     });
   });
 
   it('returns .files', function () {
-    expect(res.files).array;
+    expect(res.files).an('array');
     expect(res.files).have.length(2);
   });
 

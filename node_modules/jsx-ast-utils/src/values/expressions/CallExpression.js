@@ -10,5 +10,6 @@
 export default function extractValueFromCallExpression(value) {
   // eslint-disable-next-line global-require
   const getValue = require('./index.js').default;
-  return getValue(value.callee);
+  const args = Array.isArray(value.arguments) ? value.arguments.map((x) => getValue(x)).join(', ') : '';
+  return `${getValue(value.callee)}${value.optional ? '?.' : ''}(${args})`;
 }

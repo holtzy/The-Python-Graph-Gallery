@@ -6,7 +6,7 @@ var canBeObject = function (obj) {
 	return typeof obj !== 'undefined' && obj !== null;
 };
 var hasSymbols = require('has-symbols/shams')();
-var callBound = require('es-abstract/helpers/callBound');
+var callBound = require('call-bind/callBound');
 var toObject = Object;
 var $push = callBound('Array.prototype.push');
 var $propIsEnumerable = callBound('Object.prototype.propertyIsEnumerable');

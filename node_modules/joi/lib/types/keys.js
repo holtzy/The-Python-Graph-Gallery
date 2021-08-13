@@ -112,6 +112,10 @@ module.exports = Any.extend({
                         return { value, errors: result.errors };
                     }
 
+                    if (result.value !== undefined) {
+                        value[key] = result.value;
+                    }
+
                     errors.push(...result.errors);
                 }
                 else if (child.schema._flags.result === 'strip' ||
@@ -600,7 +604,7 @@ internals.dependency = function (schema, rel, key, peers, options) {
     const separator = Common.default(options.separator, '.');
     const paths = [];
     for (const peer of peers) {
-        Assert(typeof peer === 'string', rel, 'peers must be a string or a reference');
+        Assert(typeof peer === 'string', rel, 'peers must be strings');
         paths.push(Compile.ref(peer, { separator, ancestor: 0, prefix: false }));
     }
 

@@ -1,3 +1,26 @@
+# 3.3.0
+
+ - Support EventTarget emitters in `events.once` from Node.js 12.11.0.
+
+   Now you can use the `events.once` function with objects that implement the EventTarget interface. This interface is used widely in
+   the DOM and other web APIs.
+
+   ```js
+   var events = require('events');
+   var assert = require('assert');
+
+   async function connect() {
+     var ws = new WebSocket('wss://example.com');
+     await events.once(ws, 'open');
+     assert(ws.readyState === WebSocket.OPEN);
+   }
+
+   async function onClick() {
+     await events.once(document.body, 'click');
+     alert('you clicked the page!');
+   }
+   ```
+
 # 3.2.0
 
  - Add `events.once` from Node.js 11.13.0.

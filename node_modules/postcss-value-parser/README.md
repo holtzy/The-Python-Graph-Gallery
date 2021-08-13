@@ -183,6 +183,16 @@ whether the first character in the argument is a quotation mark.
 ] }
 ```
 
+### unicode-range
+
+The unicode-range CSS descriptor sets the specific range of characters to be 
+used from a font defined by @font-face and made available 
+for use on the current page (`unicode-range: U+0025-00FF`).
+
+Node-specific properties:
+
+- **value**: The "unicode-range" itself.
+
 ## API
 
 ```

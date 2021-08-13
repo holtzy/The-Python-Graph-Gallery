@@ -1,9 +1,15 @@
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
 "use strict";
 
 /**
  * intersect creates Set containing the intersection of elements between all sets
- * @param {Set[]} sets an array of sets being checked for shared elements
- * @returns {Set<TODO>} returns a new Set containing the intersecting items
+ * @template T
+ * @param {Set<T>[]} sets an array of sets being checked for shared elements
+ * @returns {Set<T>} returns a new Set containing the intersecting items
  */
 const intersect = sets => {
 	if (sets.length === 0) return new Set();
@@ -32,8 +38,9 @@ const intersect = sets => {
 
 /**
  * Checks if a set is the subset of another set
- * @param {Set<TODO>} bigSet a Set which contains the original elements to compare against
- * @param {Set<TODO>} smallSet the set whos elements might be contained inside of bigSet
+ * @template T
+ * @param {Set<T>} bigSet a Set which contains the original elements to compare against
+ * @param {Set<T>} smallSet the set whose elements might be contained inside of bigSet
  * @returns {boolean} returns true if smallSet contains all elements inside of the bigSet
  */
 const isSubset = (bigSet, smallSet) => {
@@ -44,5 +51,44 @@ const isSubset = (bigSet, smallSet) => {
 	return true;
 };
 
+/**
+ * @template T
+ * @param {Set<T>} set a set
+ * @param {function(T): boolean} fn selector function
+ * @returns {T | undefined} found item
+ */
+const find = (set, fn) => {
+	for (const item of set) {
+		if (fn(item)) return item;
+	}
+};
+
+/**
+ * @template T
+ * @param {Set<T>} set a set
+ * @returns {T | undefined} first item
+ */
+const first = set => {
+	const entry = set.values().next();
+	return entry.done ? undefined : entry.value;
+};
+
+/**
+ * @template T
+ * @param {Set<T>} a first
+ * @param {Set<T>} b second
+ * @returns {Set<T>} combined set, may be identical to a or b
+ */
+const combine = (a, b) => {
+	if (b.size === 0) return a;
+	if (a.size === 0) return b;
+	const set = new Set(a);
+	for (const item of b) set.add(item);
+	return set;
+};
+
 exports.intersect = intersect;
 exports.isSubset = isSubset;
+exports.find = find;
+exports.first = first;
+exports.combine = combine;

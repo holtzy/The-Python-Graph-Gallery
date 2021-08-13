@@ -31,14 +31,22 @@ export default function() {
 
   function density(data) {
     var values0 = new Float32Array(n * m),
-        values1 = new Float32Array(n * m);
+        values1 = new Float32Array(n * m),
+        pow2k = Math.pow(2, -k);
 
     data.forEach(function(d, i, data) {
-      var xi = (+x(d, i, data) + o) >> k,
-          yi = (+y(d, i, data) + o) >> k,
+      var xi = (x(d, i, data) + o) * pow2k,
+          yi = (y(d, i, data) + o) * pow2k,
           wi = +weight(d, i, data);
       if (xi >= 0 && xi < n && yi >= 0 && yi < m) {
-        values0[xi + yi * n] += wi;
+        var x0 = Math.floor(xi),
+            y0 = Math.floor(yi),
+            xt = xi - x0 - 0.5,
+            yt = yi - y0 - 0.5;
+        values0[x0 + y0 * n] += (1 - xt) * (1 - yt) * wi;
+        values0[x0 + 1 + y0 * n] += xt * (1 - yt) * wi;
+        values0[x0 + 1 + (y0 + 1) * n] += xt * yt * wi;
+        values0[x0 + (y0 + 1) * n] += (1 - xt) * yt * wi;
       }
     });
 

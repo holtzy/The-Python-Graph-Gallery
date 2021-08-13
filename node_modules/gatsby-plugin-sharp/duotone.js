@@ -2,6 +2,10 @@
 
 const sharp = require(`./safe-sharp`);
 
+const {
+  reportError
+} = require(`./report-error`);
+
 module.exports = async function duotone(duotone, format, pipeline) {
   const duotoneGradient = createDuotoneGradient(hexToRgb(duotone.highlight), hexToRgb(duotone.shadow));
   const options = {
@@ -10,33 +14,38 @@ module.exports = async function duotone(duotone, format, pipeline) {
     progressive: pipeline.options.jpegProgressive,
     quality: pipeline.options.jpegQuality
   };
-  const duotoneImage = await pipeline.raw().toBuffer({
-    resolveWithObject: true
-  }).then(({
-    data,
-    info
-  }) => {
-    for (let i = 0; i < data.length; i = i + info.channels) {
-      const r = data[i + 0];
-      const g = data[i + 1];
-      const b = data[i + 2]; // @see https://en.wikipedia.org/wiki/Relative_luminance
 
-      const avg = Math.round(0.2126 * r + 0.7152 * g + 0.0722 * b);
-      data[i + 0] = duotoneGradient[avg][0];
-      data[i + 1] = duotoneGradient[avg][1];
-      data[i + 2] = duotoneGradient[avg][2];
-    }
+  try {
+    const duotoneImage = await pipeline.raw().toBuffer({
+      resolveWithObject: true
+    }).then(({
+      data,
+      info
+    }) => {
+      for (let i = 0; i < data.length; i = i + info.channels) {
+        const r = data[i + 0];
+        const g = data[i + 1];
+        const b = data[i + 2]; // @see https://en.wikipedia.org/wiki/Relative_luminance
 
-    return sharp(data, {
-      raw: info
-    }).toFormat(format, { ...options
+        const avg = Math.round(0.2126 * r + 0.7152 * g + 0.0722 * b);
+        data[i + 0] = duotoneGradient[avg][0];
+        data[i + 1] = duotoneGradient[avg][1];
+        data[i + 2] = duotoneGradient[avg][2];
+      }
+
+      return sharp(data, {
+        raw: info
+      }).toFormat(format, { ...options
+      });
     });
-  });
 
-  if (duotone.opacity) {
-    return overlayDuotone(duotoneImage, pipeline, duotone.opacity, format, options);
-  } else {
-    return duotoneImage;
+    if (duotone.opacity) {
+      return overlayDuotone(duotoneImage, pipeline, duotone.opacity, format, options);
+    } else {
+      return duotoneImage;
+    }
+  } catch (err) {
+    return null;
   }
 }; // @see https://github.com/nagelflorian/react-duotone/blob/master/src/hex-to-rgb.js
 
@@ -63,28 +72,34 @@ async function overlayDuotone(duotoneImage, originalImage, opacity, format, opti
 
   const percentGrey = Math.round(opacity / 100 * 255);
   const percentTransparency = Buffer.alloc(info.width * info.height, percentGrey);
-  const duotoneWithTransparency = await duotoneImage.joinChannel(percentTransparency, {
-    raw: {
-      width: info.width,
-      height: info.height,
-      channels: 1
-    }
-  }).raw().toBuffer();
-  return await originalImage.composite([{
-    input: duotoneWithTransparency,
-    blend: `over`,
-    raw: {
-      width: info.width,
-      height: info.height,
-      channels: 4
-    }
-  }]).toBuffer({
-    resolveWithObject: true
-  }).then(({
-    data,
-    info
-  }) => sharp(data, {
-    raw: info
-  }).toFormat(format, { ...options
-  }));
+
+  try {
+    const duotoneWithTransparency = await duotoneImage.joinChannel(percentTransparency, {
+      raw: {
+        width: info.width,
+        height: info.height,
+        channels: 1
+      }
+    }).raw().toBuffer();
+    return await originalImage.composite([{
+      input: duotoneWithTransparency,
+      blend: `over`,
+      raw: {
+        width: info.width,
+        height: info.height,
+        channels: 4
+      }
+    }]).toBuffer({
+      resolveWithObject: true
+    }).then(({
+      data,
+      info
+    }) => sharp(data, {
+      raw: info
+    }).toFormat(format, { ...options
+    }));
+  } catch (err) {
+    reportError(`Failed to process image ${originalImage}`, err);
+    return originalImage;
+  }
 }

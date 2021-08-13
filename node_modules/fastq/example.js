@@ -1,5 +1,7 @@
 'use strict'
 
+/* eslint-disable no-var */
+
 var queue = require('./')(worker, 1)
 
 queue.push(42, function (err, result) {

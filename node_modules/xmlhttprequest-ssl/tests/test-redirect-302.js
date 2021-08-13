@@ -29,7 +29,7 @@ xhr.onreadystatechange = function() {
   if (this.readyState == 4) {
     assert.equal(xhr.getRequestHeader('Location'), '');
     assert.equal(xhr.responseText, "Hello World");
-    sys.puts("done");
+    console.log("done");
   }
 };
 

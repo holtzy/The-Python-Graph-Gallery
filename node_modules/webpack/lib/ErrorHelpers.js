@@ -2,6 +2,7 @@
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
+
 "use strict";
 
 const loaderFlag = "LOADER_EXECUTION";
@@ -28,13 +29,13 @@ exports.cutOffMultilineMessage = (stack, message) => {
 	stack = stack.split("\n");
 	message = message.split("\n");
 
-	return stack
-		.reduce(
-			(acc, line, idx) =>
-				line.includes(message[idx]) ? acc : acc.concat(line),
-			[]
-		)
-		.join("\n");
+	const result = [];
+
+	stack.forEach((line, idx) => {
+		if (!line.includes(message[idx])) result.push(line);
+	});
+
+	return result.join("\n");
 };
 
 exports.cutOffMessage = (stack, message) => {

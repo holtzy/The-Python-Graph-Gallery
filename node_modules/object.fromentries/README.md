@@ -1,6 +1,5 @@
 # object.fromentries <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
-[![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -33,15 +32,13 @@ assert.deepEqual(Object.fromEntries(Object.entries(obj)), obj);
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.com/package/object.fromentries
-[npm-version-svg]: http://versionbadg.es/es-shims/Object.fromEntries.svg
-[travis-svg]: https://travis-ci.org/es-shims/Object.fromEntries.svg
-[travis-url]: https://travis-ci.org/es-shims/Object.fromEntries
+[npm-version-svg]: https://versionbadg.es/es-shims/Object.fromEntries.svg
 [deps-svg]: https://david-dm.org/es-shims/Object.fromEntries.svg
 [deps-url]: https://david-dm.org/es-shims/Object.fromEntries
 [dev-deps-svg]: https://david-dm.org/es-shims/Object.fromEntries/dev-status.svg
 [dev-deps-url]: https://david-dm.org/es-shims/Object.fromEntries#info=devDependencies
 [npm-badge-png]: https://nodei.co/npm/object.fromentries.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/object.fromentries.svg
+[license-image]: https://img.shields.io/npm/l/object.fromentries.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/object.fromentries.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=object.fromentries
+[downloads-image]: https://img.shields.io/npm/dm/object.fromentries.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=object.fromentries

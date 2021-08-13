@@ -7,22 +7,40 @@
 
 const { LogType } = require("./Logger");
 
-/** @typedef {import("./Logger").LogTypeEnum} LogTypeEnum */
-/** @typedef {import("../../declarations/WebpackOptions").FilterTypes} FilterTypes */
 /** @typedef {import("../../declarations/WebpackOptions").FilterItemTypes} FilterItemTypes */
+/** @typedef {import("../../declarations/WebpackOptions").FilterTypes} FilterTypes */
+/** @typedef {import("./Logger").LogTypeEnum} LogTypeEnum */
 
 /** @typedef {function(string): boolean} FilterFunction */
+
+/**
+ * @typedef {Object} LoggerConsole
+ * @property {function(): void} clear
+ * @property {function(): void} trace
+ * @property {(...args: any[]) => void} info
+ * @property {(...args: any[]) => void} log
+ * @property {(...args: any[]) => void} warn
+ * @property {(...args: any[]) => void} error
+ * @property {(...args: any[]) => void=} debug
+ * @property {(...args: any[]) => void=} group
+ * @property {(...args: any[]) => void=} groupCollapsed
+ * @property {(...args: any[]) => void=} groupEnd
+ * @property {(...args: any[]) => void=} status
+ * @property {(...args: any[]) => void=} profile
+ * @property {(...args: any[]) => void=} profileEnd
+ * @property {(...args: any[]) => void=} logTime
+ */
 
 /**
  * @typedef {Object} LoggerOptions
  * @property {false|true|"none"|"error"|"warn"|"info"|"log"|"verbose"} level loglevel
  * @property {FilterTypes|boolean} debug filter for debug logging
- * @property {Console & { status?: Function, logTime?: Function }} console the console to log to
+ * @property {LoggerConsole} console the console to log to
  */
 
 /**
  * @param {FilterItemTypes} item an input item
- * @returns {FilterFunction} filter funtion
+ * @returns {FilterFunction} filter function
  */
 const filterToFunction = item => {
 	if (typeof item === "string") {
@@ -158,7 +176,7 @@ module.exports = ({ level = "info", debug = false, console }) => {
 			case LogType.time: {
 				if (!debug && loglevel > LogLevel.log) return;
 				const ms = args[1] * 1000 + args[2] / 1000000;
-				const msg = `[${name}] ${args[0]}: ${ms}ms`;
+				const msg = `[${name}] ${args[0]}: ${ms} ms`;
 				if (typeof console.logTime === "function") {
 					console.logTime(msg);
 				} else {

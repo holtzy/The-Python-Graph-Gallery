@@ -1,11 +1,13 @@
 'use strict';
 
-const crypto = require('crypto');
+const { randomFillSync } = require('crypto');
 
 const PerMessageDeflate = require('./permessage-deflate');
-const bufferUtil = require('./buffer-util');
-const validation = require('./validation');
-const constants = require('./constants');
+const { EMPTY_BUFFER } = require('./constants');
+const { isValidStatusCode } = require('./validation');
+const { mask: applyMask, toBuffer } = require('./buffer-util');
+
+const mask = Buffer.alloc(4);
 
 /**
  * HyBi Sender implementation.
@@ -15,7 +17,7 @@ class Sender {
    * Creates a Sender instance.
    *
    * @param {net.Socket} socket The connection socket
-   * @param {Object} extensions An object containing the negotiated extensions
+   * @param {Object} [extensions] An object containing the negotiated extensions
    */
   constructor(socket, extensions) {
     this._extensions = extensions || {};
@@ -35,17 +37,21 @@ class Sender {
    * @param {Buffer} data The data to frame
    * @param {Object} options Options object
    * @param {Number} options.opcode The opcode
-   * @param {Boolean} options.readOnly Specifies whether `data` can be modified
-   * @param {Boolean} options.fin Specifies whether or not to set the FIN bit
-   * @param {Boolean} options.mask Specifies whether or not to mask `data`
-   * @param {Boolean} options.rsv1 Specifies whether or not to set the RSV1 bit
+   * @param {Boolean} [options.readOnly=false] Specifies whether `data` can be
+   *     modified
+   * @param {Boolean} [options.fin=false] Specifies whether or not to set the
+   *     FIN bit
+   * @param {Boolean} [options.mask=false] Specifies whether or not to mask
+   *     `data`
+   * @param {Boolean} [options.rsv1=false] Specifies whether or not to set the
+   *     RSV1 bit
    * @return {Buffer[]} The framed data as a list of `Buffer` instances
    * @public
    */
   static frame(data, options) {
-    const merge = data.length < 1024 || (options.mask && options.readOnly);
-    var offset = options.mask ? 6 : 2;
-    var payloadLength = data.length;
+    const merge = options.mask && options.readOnly;
+    let offset = options.mask ? 6 : 2;
+    let payloadLength = data.length;
 
     if (data.length >= 65536) {
       offset += 8;
@@ -60,6 +66,8 @@ class Sender {
     target[0] = options.fin ? options.opcode | 0x80 : options.opcode;
     if (options.rsv1) target[0] |= 0x40;
 
+    target[1] = payloadLength;
+
     if (payloadLength === 126) {
       target.writeUInt16BE(data.length, 2);
     } else if (payloadLength === 127) {
@@ -67,57 +75,52 @@ class Sender {
       target.writeUInt32BE(data.length, 6);
     }
 
-    if (!options.mask) {
-      target[1] = payloadLength;
-      if (merge) {
-        data.copy(target, offset);
-        return [target];
-      }
+    if (!options.mask) return [target, data];
 
-      return [target, data];
-    }
+    randomFillSync(mask, 0, 4);
 
-    const mask = crypto.randomBytes(4);
-
-    target[1] = payloadLength | 0x80;
+    target[1] |= 0x80;
     target[offset - 4] = mask[0];
     target[offset - 3] = mask[1];
     target[offset - 2] = mask[2];
     target[offset - 1] = mask[3];
 
     if (merge) {
-      bufferUtil.mask(data, mask, target, offset, data.length);
+      applyMask(data, mask, target, offset, data.length);
       return [target];
     }
 
-    bufferUtil.mask(data, mask, data, 0, data.length);
+    applyMask(data, mask, data, 0, data.length);
     return [target, data];
   }
 
   /**
    * Sends a close message to the other peer.
    *
-   * @param {(Number|undefined)} code The status code component of the body
-   * @param {String} data The message component of the body
-   * @param {Boolean} mask Specifies whether or not to mask the message
-   * @param {Function} cb Callback
+   * @param {Number} [code] The status code component of the body
+   * @param {String} [data] The message component of the body
+   * @param {Boolean} [mask=false] Specifies whether or not to mask the message
+   * @param {Function} [cb] Callback
    * @public
    */
   close(code, data, mask, cb) {
-    var buf;
+    let buf;
 
     if (code === undefined) {
-      buf = constants.EMPTY_BUFFER;
-    } else if (
-      typeof code !== 'number' ||
-      !validation.isValidStatusCode(code)
-    ) {
+      buf = EMPTY_BUFFER;
+    } else if (typeof code !== 'number' || !isValidStatusCode(code)) {
       throw new TypeError('First argument must be a valid error code number');
     } else if (data === undefined || data === '') {
       buf = Buffer.allocUnsafe(2);
       buf.writeUInt16BE(code, 0);
     } else {
-      buf = Buffer.allocUnsafe(2 + Buffer.byteLength(data));
+      const length = Buffer.byteLength(data);
+
+      if (length > 123) {
+        throw new RangeError('The message must not be greater than 123 bytes');
+      }
+
+      buf = Buffer.allocUnsafe(2 + length);
       buf.writeUInt16BE(code, 0);
       buf.write(data, 2);
     }
@@ -133,8 +136,8 @@ class Sender {
    * Frames and sends a close message.
    *
    * @param {Buffer} data The message to send
-   * @param {Boolean} mask Specifies whether or not to mask `data`
-   * @param {Function} cb Callback
+   * @param {Boolean} [mask=false] Specifies whether or not to mask `data`
+   * @param {Function} [cb] Callback
    * @private
    */
   doClose(data, mask, cb) {
@@ -154,38 +157,31 @@ class Sender {
    * Sends a ping message to the other peer.
    *
    * @param {*} data The message to send
-   * @param {Boolean} mask Specifies whether or not to mask `data`
-   * @param {Function} cb Callback
+   * @param {Boolean} [mask=false] Specifies whether or not to mask `data`
+   * @param {Function} [cb] Callback
    * @public
    */
   ping(data, mask, cb) {
-    var readOnly = true;
+    const buf = toBuffer(data);
 
-    if (!Buffer.isBuffer(data)) {
-      if (data instanceof ArrayBuffer) {
-        data = Buffer.from(data);
-      } else if (ArrayBuffer.isView(data)) {
-        data = viewToBuffer(data);
-      } else {
-        data = Buffer.from(data);
-        readOnly = false;
-      }
+    if (buf.length > 125) {
+      throw new RangeError('The data size must not be greater than 125 bytes');
     }
 
     if (this._deflating) {
-      this.enqueue([this.doPing, data, mask, readOnly, cb]);
+      this.enqueue([this.doPing, buf, mask, toBuffer.readOnly, cb]);
     } else {
-      this.doPing(data, mask, readOnly, cb);
+      this.doPing(buf, mask, toBuffer.readOnly, cb);
     }
   }
 
   /**
    * Frames and sends a ping message.
    *
-   * @param {*} data The message to send
-   * @param {Boolean} mask Specifies whether or not to mask `data`
-   * @param {Boolean} readOnly Specifies whether `data` can be modified
-   * @param {Function} cb Callback
+   * @param {Buffer} data The message to send
+   * @param {Boolean} [mask=false] Specifies whether or not to mask `data`
+   * @param {Boolean} [readOnly=false] Specifies whether `data` can be modified
+   * @param {Function} [cb] Callback
    * @private
    */
   doPing(data, mask, readOnly, cb) {
@@ -205,38 +201,31 @@ class Sender {
    * Sends a pong message to the other peer.
    *
    * @param {*} data The message to send
-   * @param {Boolean} mask Specifies whether or not to mask `data`
-   * @param {Function} cb Callback
+   * @param {Boolean} [mask=false] Specifies whether or not to mask `data`
+   * @param {Function} [cb] Callback
    * @public
    */
   pong(data, mask, cb) {
-    var readOnly = true;
+    const buf = toBuffer(data);
 
-    if (!Buffer.isBuffer(data)) {
-      if (data instanceof ArrayBuffer) {
-        data = Buffer.from(data);
-      } else if (ArrayBuffer.isView(data)) {
-        data = viewToBuffer(data);
-      } else {
-        data = Buffer.from(data);
-        readOnly = false;
-      }
+    if (buf.length > 125) {
+      throw new RangeError('The data size must not be greater than 125 bytes');
     }
 
     if (this._deflating) {
-      this.enqueue([this.doPong, data, mask, readOnly, cb]);
+      this.enqueue([this.doPong, buf, mask, toBuffer.readOnly, cb]);
     } else {
-      this.doPong(data, mask, readOnly, cb);
+      this.doPong(buf, mask, toBuffer.readOnly, cb);
     }
   }
 
   /**
    * Frames and sends a pong message.
    *
-   * @param {*} data The message to send
-   * @param {Boolean} mask Specifies whether or not to mask `data`
-   * @param {Boolean} readOnly Specifies whether `data` can be modified
-   * @param {Function} cb Callback
+   * @param {Buffer} data The message to send
+   * @param {Boolean} [mask=false] Specifies whether or not to mask `data`
+   * @param {Boolean} [readOnly=false] Specifies whether `data` can be modified
+   * @param {Function} [cb] Callback
    * @private
    */
   doPong(data, mask, readOnly, cb) {
@@ -257,35 +246,27 @@ class Sender {
    *
    * @param {*} data The message to send
    * @param {Object} options Options object
-   * @param {Boolean} options.compress Specifies whether or not to compress `data`
-   * @param {Boolean} options.binary Specifies whether `data` is binary or text
-   * @param {Boolean} options.fin Specifies whether the fragment is the last one
-   * @param {Boolean} options.mask Specifies whether or not to mask `data`
-   * @param {Function} cb Callback
+   * @param {Boolean} [options.compress=false] Specifies whether or not to
+   *     compress `data`
+   * @param {Boolean} [options.binary=false] Specifies whether `data` is binary
+   *     or text
+   * @param {Boolean} [options.fin=false] Specifies whether the fragment is the
+   *     last one
+   * @param {Boolean} [options.mask=false] Specifies whether or not to mask
+   *     `data`
+   * @param {Function} [cb] Callback
    * @public
    */
   send(data, options, cb) {
-    var opcode = options.binary ? 2 : 1;
-    var rsv1 = options.compress;
-    var readOnly = true;
-
-    if (!Buffer.isBuffer(data)) {
-      if (data instanceof ArrayBuffer) {
-        data = Buffer.from(data);
-      } else if (ArrayBuffer.isView(data)) {
-        data = viewToBuffer(data);
-      } else {
-        data = Buffer.from(data);
-        readOnly = false;
-      }
-    }
-
+    const buf = toBuffer(data);
     const perMessageDeflate = this._extensions[PerMessageDeflate.extensionName];
+    let opcode = options.binary ? 2 : 1;
+    let rsv1 = options.compress;
 
     if (this._firstFragment) {
       this._firstFragment = false;
       if (rsv1 && perMessageDeflate) {
-        rsv1 = data.length >= perMessageDeflate._threshold;
+        rsv1 = buf.length >= perMessageDeflate._threshold;
       }
       this._compress = rsv1;
     } else {
@@ -301,22 +282,22 @@ class Sender {
         rsv1,
         opcode,
         mask: options.mask,
-        readOnly
+        readOnly: toBuffer.readOnly
       };
 
       if (this._deflating) {
-        this.enqueue([this.dispatch, data, this._compress, opts, cb]);
+        this.enqueue([this.dispatch, buf, this._compress, opts, cb]);
       } else {
-        this.dispatch(data, this._compress, opts, cb);
+        this.dispatch(buf, this._compress, opts, cb);
       }
     } else {
       this.sendFrame(
-        Sender.frame(data, {
+        Sender.frame(buf, {
           fin: options.fin,
           rsv1: false,
           opcode,
           mask: options.mask,
-          readOnly
+          readOnly: toBuffer.readOnly
         }),
         cb
       );
@@ -327,14 +308,19 @@ class Sender {
    * Dispatches a data message.
    *
    * @param {Buffer} data The message to send
-   * @param {Boolean} compress Specifies whether or not to compress `data`
+   * @param {Boolean} [compress=false] Specifies whether or not to compress
+   *     `data`
    * @param {Object} options Options object
    * @param {Number} options.opcode The opcode
-   * @param {Boolean} options.readOnly Specifies whether `data` can be modified
-   * @param {Boolean} options.fin Specifies whether or not to set the FIN bit
-   * @param {Boolean} options.mask Specifies whether or not to mask `data`
-   * @param {Boolean} options.rsv1 Specifies whether or not to set the RSV1 bit
-   * @param {Function} cb Callback
+   * @param {Boolean} [options.readOnly=false] Specifies whether `data` can be
+   *     modified
+   * @param {Boolean} [options.fin=false] Specifies whether or not to set the
+   *     FIN bit
+   * @param {Boolean} [options.mask=false] Specifies whether or not to mask
+   *     `data`
+   * @param {Boolean} [options.rsv1=false] Specifies whether or not to set the
+   *     RSV1 bit
+   * @param {Function} [cb] Callback
    * @private
    */
   dispatch(data, compress, options, cb) {
@@ -345,8 +331,26 @@ class Sender {
 
     const perMessageDeflate = this._extensions[PerMessageDeflate.extensionName];
 
+    this._bufferedBytes += data.length;
     this._deflating = true;
     perMessageDeflate.compress(data, options.fin, (_, buf) => {
+      if (this._socket.destroyed) {
+        const err = new Error(
+          'The socket was closed while data was being compressed'
+        );
+
+        if (typeof cb === 'function') cb(err);
+
+        for (let i = 0; i < this._queue.length; i++) {
+          const callback = this._queue[i][4];
+
+          if (typeof callback === 'function') callback(err);
+        }
+
+        return;
+      }
+
+      this._bufferedBytes -= data.length;
       this._deflating = false;
       options.readOnly = false;
       this.sendFrame(Sender.frame(buf, options), cb);
@@ -364,7 +368,7 @@ class Sender {
       const params = this._queue.shift();
 
       this._bufferedBytes -= params[1].length;
-      params[0].apply(this, params.slice(1));
+      Reflect.apply(params[0], this, params.slice(1));
     }
   }
 
@@ -383,13 +387,15 @@ class Sender {
    * Sends a frame.
    *
    * @param {Buffer[]} list The frame to send
-   * @param {Function} cb Callback
+   * @param {Function} [cb] Callback
    * @private
    */
   sendFrame(list, cb) {
     if (list.length === 2) {
+      this._socket.cork();
       this._socket.write(list[0]);
       this._socket.write(list[1], cb);
+      this._socket.uncork();
     } else {
       this._socket.write(list[0], cb);
     }
@@ -397,20 +403,3 @@ class Sender {
 }
 
 module.exports = Sender;
-
-/**
- * Converts an `ArrayBuffer` view into a buffer.
- *
- * @param {(DataView|TypedArray)} view The view to convert
- * @return {Buffer} Converted view
- * @private
- */
-function viewToBuffer(view) {
-  const buf = Buffer.from(view.buffer);
-
-  if (view.byteLength !== view.buffer.byteLength) {
-    return buf.slice(view.byteOffset, view.byteOffset + view.byteLength);
-  }
-
-  return buf;
-}

@@ -4,7 +4,13 @@ function getNextTarget (runtime, targets) {
   if (targets == null) targets = allTargets
   var latest = targets.filter(function (t) { return t.runtime === runtime }).slice(-1)[0]
   var increment = runtime === 'electron' ? 'minor' : 'major'
-  return semver.inc(latest.target, increment)
+  var next = semver.inc(latest.target, increment)
+  // Electron releases appear in the registry in their beta form, sometimes there is
+  // no active beta line.  During this time we need to double bump
+  if (runtime === 'electron' && semver.parse(latest.target).prerelease.length) {
+    next = semver.inc(next, 'major')
+  }
+  return next
 }
 
 function getAbi (target, runtime) {

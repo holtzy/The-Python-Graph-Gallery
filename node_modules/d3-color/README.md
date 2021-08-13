@@ -5,13 +5,13 @@ Even though your browser understands a lot about colors, it doesn’t offer much
 For example, take the color named “steelblue”:
 
 ```js
-var c = d3.color("steelblue"); // {r: 70, g: 130, b: 180, opacity: 1}
+const c = d3.color("steelblue"); // {r: 70, g: 130, b: 180, opacity: 1}
 ```
 
 Let’s try converting it to HSL:
 
 ```js
-var c = d3.hsl("steelblue"); // {h: 207.27…, s: 0.44, l: 0.4902…, opacity: 1}
+const c = d3.hsl("steelblue"); // {h: 207.27…, s: 0.44, l: 0.4902…, opacity: 1}
 ```
 
 Now rotate the hue by 90°, bump up the saturation, and format as a string for CSS:
@@ -53,13 +53,25 @@ To measure color differences, see:
 
 ## Installing
 
-If you use NPM, `npm install d3-color`. Otherwise, download the [latest release](https://github.com/d3/d3-color/releases/latest). You can also load directly from [d3js.org](https://d3js.org), either as a [standalone library](https://d3js.org/d3-color.v2.min.js) or as part of [D3](https://github.com/d3/d3). AMD, CommonJS, and vanilla environments are supported. In vanilla, a `d3` global is exported:
+If you use npm, `npm install d3-color`. You can also download the [latest release on GitHub](https://github.com/d3/d3-color/releases/latest). For vanilla HTML in modern browsers, import d3-color from Skypack:
 
 ```html
-<script src="https://d3js.org/d3-color.v2.min.js"></script>
+<script type="module">
+
+import {rgb} from "https://cdn.skypack.dev/d3-color@3";
+
+const steelblue = d3.rgb("steelblue");
+
+</script>
+```
+
+For legacy environments, you can load d3-color’s UMD bundle from an npm-based CDN such as jsDelivr; a `d3` global is exported:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/d3-color@3"></script>
 <script>
 
-var steelblue = d3.rgb("steelblue");
+const steelblue = d3.rgb("steelblue");
 
 </script>
 ```

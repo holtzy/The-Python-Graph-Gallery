@@ -1,9 +1,9 @@
 'use strict';
 
-
 module.exports = {
   bmp:  require('./parse_stream/bmp'),
   gif:  require('./parse_stream/gif'),
+  ico:  require('./parse_stream/ico'),
   jpeg: require('./parse_stream/jpeg'),
   png:  require('./parse_stream/png'),
   psd:  require('./parse_stream/psd'),

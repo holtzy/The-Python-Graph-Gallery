@@ -17,6 +17,7 @@ const initialState = {
   host: `localhost`,
   sitePackageJson: {},
   extensions: [],
+  browserslist: [],
   report: _reporter.reporter
 };
 

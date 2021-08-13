@@ -6,13 +6,25 @@ See the [d3-random collection on Observable](https://observablehq.com/collection
 
 ## Installing
 
-If you use NPM, `npm install d3-random`. Otherwise, download the [latest release](https://github.com/d3/d3-random/releases/latest). You can also load directly as a [standalone library](https://d3js.org/d3-random.v2.min.js) or as part of [D3](https://github.com/d3/d3). ES modules, AMD, CommonJS, and vanilla environments are supported. In vanilla, a `d3` global is exported:
+If you use npm, `npm install d3-random`. You can also download the [latest release on GitHub](https://github.com/d3/d3-random/releases/latest). For vanilla HTML in modern browsers, import d3-random from Skypack:
 
 ```html
-<script src="https://d3js.org/d3-random.v2.min.js"></script>
+<script type="module">
+
+import {randomUniform} from "https://cdn.skypack.dev/d3-random@3";
+
+const random = randomUniform(1, 10);
+
+</script>
+```
+
+For legacy environments, you can load d3-random’s UMD bundle from an npm-based CDN such as jsDelivr; a `d3` global is exported:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/d3-random@3"></script>
 <script>
 
-var random = d3.randomUniform(1, 10);
+const random = d3.randomUniform(1, 10);
 
 </script>
 ```
@@ -108,9 +120,10 @@ Returns a function for generating random numbers with a [Poisson distribution](h
 Returns the same type of function for generating random numbers but where the given random number generator *source* is used as the source of randomness instead of Math.random. The given random number generator must implement the same interface as Math.random and only return values in the range [0, 1). This is useful when a seeded random number generator is preferable to Math.random. For example:
 
 ```js
-const d3 = require("d3-random");
+import {randomLcg, randomNumber} from "d3-random";
+
 const seed = 0.44871573888282423; // any number in [0, 1)
-const random = d3.randomNormal.source(d3.randomLcg(seed))(0, 1);
+const random = randomNormal.source(randomLcg(seed))(0, 1);
 
 random(); // -0.6253955998897069
 ```

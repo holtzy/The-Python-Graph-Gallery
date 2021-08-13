@@ -1,15 +1,7 @@
-/**
- * Module dependencies
- */
-
-var XMLHttpRequest = require('xmlhttprequest-ssl');
-var XHR = require('./polling-xhr');
-var JSONP = require('./polling-jsonp');
-var websocket = require('./websocket');
-
-/**
- * Export transports.
- */
+const XMLHttpRequest = require("xmlhttprequest-ssl");
+const XHR = require("./polling-xhr");
+const JSONP = require("./polling-jsonp");
+const websocket = require("./websocket");
 
 exports.polling = polling;
 exports.websocket = websocket;
@@ -21,15 +13,15 @@ exports.websocket = websocket;
  * @api private
  */
 
-function polling (opts) {
-  var xhr;
-  var xd = false;
-  var xs = false;
-  var jsonp = false !== opts.jsonp;
+function polling(opts) {
+  let xhr;
+  let xd = false;
+  let xs = false;
+  const jsonp = false !== opts.jsonp;
 
-  if (typeof location !== 'undefined') {
-    var isSSL = 'https:' === location.protocol;
-    var port = location.port;
+  if (typeof location !== "undefined") {
+    const isSSL = "https:" === location.protocol;
+    let port = location.port;
 
     // some user agents have empty `location.port`
     if (!port) {
@@ -44,10 +36,10 @@ function polling (opts) {
   opts.xscheme = xs;
   xhr = new XMLHttpRequest(opts);
 
-  if ('open' in xhr && !opts.forceJSONP) {
+  if ("open" in xhr && !opts.forceJSONP) {
     return new XHR(opts);
   } else {
-    if (!jsonp) throw new Error('JSONP disabled');
+    if (!jsonp) throw new Error("JSONP disabled");
     return new JSONP(opts);
   }
 }

@@ -49,10 +49,21 @@ test('double operators', function (t) {
         [ 'beep&', { op: '&' }, 'boop', { op: '||' }, 'byte' ]
     );
     t.same(
-        parse('beep;;boop|&byte'),
-        [ 'beep', { op: ';;' }, 'boop', { op: '|&' }, 'byte' ]
+        parse('beep;;boop|&byte>>blip'),
+        [ 'beep', { op: ';;' }, 'boop', { op: '|&' }, 'byte', { op: '>>' }, 'blip' ]
     );
-    
+
+    t.same(parse('beep 2>&1'), [ 'beep', '2', { op: '>&' }, '1' ]);
+
+    t.same(
+        parse('beep<(boop)'),
+        [ 'beep', { op: '<(' }, 'boop', { op: ')' } ]
+    );
+    t.same(
+        parse('beep<<(boop)'),
+        [ 'beep', { op: '<' }, { op: '<(' }, 'boop', { op: ')' } ]
+    );
+
     t.end();
 });
 

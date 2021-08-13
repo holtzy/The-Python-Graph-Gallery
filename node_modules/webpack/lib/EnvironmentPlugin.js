@@ -5,14 +5,11 @@
 
 "use strict";
 
-/** @typedef {import("./Compiler")} Compiler */
-
-const WebpackError = require("./WebpackError");
 const DefinePlugin = require("./DefinePlugin");
+const WebpackError = require("./WebpackError");
 
-const needsEnvVarFix =
-	["8", "9"].indexOf(process.versions.node.split(".")[0]) >= 0 &&
-	process.platform === "win32";
+/** @typedef {import("./Compiler")} Compiler */
+/** @typedef {import("./DefinePlugin").CodeValue} CodeValue */
 
 class EnvironmentPlugin {
 	constructor(...keys) {
@@ -29,18 +26,14 @@ class EnvironmentPlugin {
 	}
 
 	/**
-	 * @param {Compiler} compiler webpack compiler instance
+	 * Apply the plugin
+	 * @param {Compiler} compiler the compiler instance
 	 * @returns {void}
 	 */
 	apply(compiler) {
-		const definitions = this.keys.reduce((defs, key) => {
-			// TODO remove once the fix has made its way into Node 8.
-			// Work around https://github.com/nodejs/node/pull/18463,
-			// affecting Node 8 & 9 by performing an OS-level
-			// operation that always succeeds before reading
-			// environment variables:
-			if (needsEnvVarFix) require("os").cpus();
-
+		/** @type {Record<string, CodeValue>} */
+		const definitions = {};
+		for (const key of this.keys) {
 			const value =
 				process.env[key] !== undefined
 					? process.env[key]
@@ -55,15 +48,13 @@ class EnvironmentPlugin {
 					);
 
 					error.name = "EnvVariableNotDefinedError";
-					compilation.warnings.push(error);
+					compilation.errors.push(error);
 				});
 			}
 
-			defs[`process.env.${key}`] =
+			definitions[`process.env.${key}`] =
 				value === undefined ? "undefined" : JSON.stringify(value);
-
-			return defs;
-		}, {});
+		}
 
 		new DefinePlugin(definitions).apply(compiler);
 	}

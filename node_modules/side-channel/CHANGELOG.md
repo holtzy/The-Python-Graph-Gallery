@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/ljharb/side-channel/compare/v1.0.3...v1.0.4) - 2020-12-29
+
+### Commits
+
+- [Tests] migrate tests to Github Actions [`10909cb`](https://github.com/ljharb/side-channel/commit/10909cbf8ce9c0bf96f604cf13d7ffd5a22c2d40)
+- [Refactor] Use a linked list rather than an array, and move accessed nodes to the beginning [`195613f`](https://github.com/ljharb/side-channel/commit/195613f28b5c1e6072ef0b61b5beebaf2b6a304e)
+- [meta] do not publish github action workflow files [`290ec29`](https://github.com/ljharb/side-channel/commit/290ec29cd21a60585145b4a7237ec55228c52c27)
+- [Tests] run `nyc` on all tests; use `tape` runner [`ea6d030`](https://github.com/ljharb/side-channel/commit/ea6d030ff3fe6be2eca39e859d644c51ecd88869)
+- [actions] add "Allow Edits" workflow [`d464d8f`](https://github.com/ljharb/side-channel/commit/d464d8fe52b5eddf1504a0ed97f0941a90f32c15)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog` [`02daca8`](https://github.com/ljharb/side-channel/commit/02daca87c6809821c97be468d1afa2f5ef447383)
+- [Refactor] use `call-bind` and `get-intrinsic` instead of `es-abstract` [`e09d481`](https://github.com/ljharb/side-channel/commit/e09d481528452ebafa5cdeae1af665c35aa2deee)
+- [Deps] update `object.assign` [`ee83aa8`](https://github.com/ljharb/side-channel/commit/ee83aa81df313b5e46319a63adb05cf0c179079a)
+- [actions] update rebase action to use checkout v2 [`7726b0b`](https://github.com/ljharb/side-channel/commit/7726b0b058b632fccea709f58960871defaaa9d7)
+
 ## [v1.0.3](https://github.com/ljharb/side-channel/compare/v1.0.2...v1.0.3) - 2020-08-23
 
 ### Commits

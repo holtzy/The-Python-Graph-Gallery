@@ -1,13 +1,8 @@
-'use strict';
+'use strict'
 
-module.exports = list;
-
-/* Which method to use based on `list.ordered`. */
-var ORDERED_MAP = {
-  true: 'visitOrderedItems',
-  false: 'visitUnorderedItems'
-};
+module.exports = list
 
 function list(node) {
-  return this[ORDERED_MAP[node.ordered]](node);
+  var fn = node.ordered ? this.visitOrderedItems : this.visitUnorderedItems
+  return fn.call(this, node)
 }

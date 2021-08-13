@@ -20,7 +20,7 @@ var server = http.createServer(function (req, res) {
   assert.equal(onreadystatechange, true);
   assert.equal(readystatechange, true);
   assert.equal(removed, true);
-  sys.puts("done");
+  console.log("done");
   this.close();
 }).listen(8000);
 

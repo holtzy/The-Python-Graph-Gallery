@@ -1,14 +1,14 @@
 /* @flow strict */
 /* eslint-disable no-use-before-define */
 
-import { ObjectTypeComposer, type ComposeOutputType } from '../ObjectTypeComposer';
-import { InputTypeComposer, type ComposeInputType } from '../InputTypeComposer';
+import { ObjectTypeComposer } from '../ObjectTypeComposer';
+import { InputTypeComposer } from '../InputTypeComposer';
 import { InterfaceTypeComposer } from '../InterfaceTypeComposer';
 import { Resolver } from '../Resolver';
-import type { SchemaComposer, AnyComposeType } from '../SchemaComposer';
-import { GraphQLNonNull, GraphQLList } from '../graphql';
+import type { NamedTypeComposer, ComposeOutputType, ComposeInputType } from './typeHelpers';
+import { unwrapTC } from './typeHelpers';
 
-type TypeInPath<TContext> = AnyComposeType<TContext> | Resolver<any, TContext, any>;
+export type TypeInPath<TContext> = NamedTypeComposer<TContext> | Resolver<any, TContext, any>;
 
 /**
  * fieldName
@@ -62,12 +62,12 @@ export function typeByPathTC<TContext>(
   }
 
   if (nextName && nextName.startsWith('@')) {
-    const argType = tc.getFieldArgType(name, nextName.substring(1));
-    return processType(argType, parts.slice(2), tc.schemaComposer);
+    const argTC = tc.getFieldArg(name, nextName.substring(1)).type;
+    return processType(argTC, parts.slice(2));
   }
 
-  const fieldType = tc.getFieldType(name);
-  return processType(fieldType, parts.slice(1), tc.schemaComposer);
+  const fieldTC = tc.getField(name).type;
+  return processType(fieldTC, parts.slice(1));
 }
 
 export function typeByPathITC<TContext>(
@@ -77,11 +77,11 @@ export function typeByPathITC<TContext>(
   if (!itc) return undefined;
   if (parts.length === 0) return itc;
 
-  const fieldType = itc.getFieldType(parts[0]);
-  return processType(fieldType, parts.slice(1), itc.schemaComposer);
+  const fieldTC = itc.getField(parts[0]).type;
+  return processType(fieldTC, parts.slice(1));
 }
 
-function typeByPathRSV<TContext>(
+export function typeByPathRSV<TContext>(
   rsv: Resolver<any, TContext, any>,
   parts: Array<string>
 ): TypeInPath<TContext> | Resolver<any, TContext, any> | void {
@@ -94,10 +94,11 @@ function typeByPathRSV<TContext>(
     const argName = name.substring(1);
     const arg = rsv.getArg(argName);
     if (!arg) return undefined;
-    return processType(rsv.getArgType(argName), parts.slice(1), rsv.schemaComposer);
+    const argTC = rsv.getArg(argName).type;
+    return processType(argTC, parts.slice(1));
   }
 
-  return processType(rsv.getType(), parts, rsv.schemaComposer);
+  return processType(rsv.type, parts);
 }
 
 export function typeByPathIFTC<TContext>(
@@ -117,35 +118,21 @@ export function typeByPathIFTC<TContext>(
   }
 
   if (nextName && nextName.startsWith('@')) {
-    const argType = tc.getFieldArgType(name, nextName.substring(1));
-    return processType(argType, parts.slice(2), tc.schemaComposer);
+    const argTC = tc.getFieldArg(name, nextName.substring(1)).type;
+    return processType(argTC, parts.slice(2));
   }
 
-  const fieldType = tc.getFieldType(name);
-  return processType(fieldType, parts.slice(1), tc.schemaComposer);
+  const fieldTC = tc.getField(name).type;
+  return processType(fieldTC, parts.slice(1));
 }
 
 export function processType<TContext>(
-  type: ComposeOutputType<any, TContext> | ComposeInputType | void | null,
-  restParts: Array<string>,
-  schema: SchemaComposer<TContext>
+  type: ComposeOutputType<TContext> | ComposeInputType | void | null,
+  restParts: Array<string>
 ): TypeInPath<TContext> | void {
   if (!type) return undefined;
 
-  let unwrappedType = type;
-  while (Array.isArray(unwrappedType)) {
-    unwrappedType = unwrappedType[0];
-  }
-  while (unwrappedType instanceof GraphQLList || unwrappedType instanceof GraphQLNonNull) {
-    unwrappedType = unwrappedType.ofType;
-  }
-
-  let tc;
-  if (typeof unwrappedType === 'string') {
-    tc = schema.createTempTC(unwrappedType);
-  } else {
-    tc = schema.getAnyTC((unwrappedType: any));
-  }
+  const tc = unwrapTC(type);
 
   if (tc instanceof ObjectTypeComposer) {
     if (restParts.length > 0) {
@@ -155,6 +142,11 @@ export function processType<TContext>(
   } else if (tc instanceof InputTypeComposer) {
     if (restParts.length > 0) {
       return typeByPathITC(tc, restParts);
+    }
+    return tc;
+  } else if (tc instanceof InterfaceTypeComposer) {
+    if (restParts.length > 0) {
+      return typeByPathIFTC(tc, restParts);
     }
     return tc;
   }

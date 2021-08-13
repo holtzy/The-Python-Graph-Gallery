@@ -65,8 +65,8 @@ Please take a moment to read our contributing guidelines if you haven't yet done
 [node-url]: https://nodejs.org
 [deps]: https://david-dm.org/webpack-contrib/null-loader.svg
 [deps-url]: https://david-dm.org/webpack-contrib/null-loader
-[tests]: https://dev.azure.com/webpack-contrib/null-loader/_apis/build/status/webpack-contrib.null-loader?branchName=master
-[tests-url]: https://dev.azure.com/webpack-contrib/null-loader/_build/latest?definitionId=9&branchName=master
+[tests]: https://github.com/webpack-contrib/null-loader/workflows/null-loader/badge.svg
+[tests-url]: https://github.com/webpack-contrib/null-loader/actions
 [cover]: https://codecov.io/gh/webpack-contrib/null-loader/branch/master/graph/badge.svg
 [cover-url]: https://codecov.io/gh/webpack-contrib/null-loader
 [chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg

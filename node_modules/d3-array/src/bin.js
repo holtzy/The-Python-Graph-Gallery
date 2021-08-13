@@ -77,7 +77,7 @@ export default function() {
     // Assign data to bins by value, ignoring any outside the domain.
     for (i = 0; i < n; ++i) {
       x = values[i];
-      if (x0 <= x && x <= x1) {
+      if (x != null && x0 <= x && x <= x1) {
         bins[bisect(tz, x, 0, m)].push(data[i]);
       }
     }

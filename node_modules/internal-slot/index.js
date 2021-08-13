@@ -1,6 +1,6 @@
 'use strict';
 
-var GetIntrinsic = require('es-abstract/GetIntrinsic');
+var GetIntrinsic = require('get-intrinsic');
 var has = require('has');
 var channel = require('side-channel')();
 

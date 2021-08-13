@@ -61,25 +61,22 @@ function actualTest(parserName, test) {
 
   assert.deepStrictEqual(
     adjustLocations(sourceResult, offset),
-    adjustRangeStartAndEnd(targetResult),
+    adjustRange(targetResult),
   );
 }
 
-function adjustRangeStartAndEnd({ name, value: { expression, ...value }, ...node }) {
+function adjustRange({ name, value: { expression, ...value }, ...node }) {
   return {
-    ...adjustNodeRangeStartAndEnd(node),
-    name: adjustNodeRangeStartAndEnd(name),
+    ...adjustNodeRange(node),
+    name: adjustNodeRange(name),
     value: {
-      ...adjustNodeRangeStartAndEnd(value),
-      ...(expression
-        ? { expression: adjustNodeRangeStartAndEndRecursively(expression) }
-        : {}
-      ),
+      ...adjustNodeRange(value),
+      ...(expression ? { expression: adjustNodeRangeRecursively(expression) } : {}),
     },
   };
 }
 
-function adjustNodeRangeStartAndEnd(node) {
+function adjustNodeRange(node) {
   if (!node.loc) {
     return node;
   }
@@ -87,19 +84,19 @@ function adjustNodeRangeStartAndEnd(node) {
   const [start, end] = node.range || [node.start, node.end];
   return {
     ...node,
-    end,
+    end: undefined,
     range: [start, end],
-    start,
+    start: undefined,
   };
 }
 
-function adjustNodeRangeStartAndEndRecursively(node) {
+function adjustNodeRangeRecursively(node) {
   if (Array.isArray(node)) {
-    return node.map(adjustNodeRangeStartAndEndRecursively);
+    return node.map(adjustNodeRangeRecursively);
   }
 
   if (node && typeof node === 'object') {
-    return adjustNodeRangeStartAndEnd(mapValues(node, adjustNodeRangeStartAndEndRecursively));
+    return adjustNodeRange(mapValues(node, adjustNodeRangeRecursively));
   }
 
   return node;
@@ -143,7 +140,7 @@ function adjustNodeLocations(node, { startOffset, endOffset }) {
   const [start, end] = node.range || [];
   return {
     ...node,
-    end: node.end + endOffset,
+    end: undefined,
     loc: {
       ...node.loc,
       start: {
@@ -156,7 +153,7 @@ function adjustNodeLocations(node, { startOffset, endOffset }) {
       },
     },
     range: [start + startOffset, end + endOffset],
-    start: node.start + startOffset,
+    start: undefined,
   };
 }
 

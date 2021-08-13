@@ -8,13 +8,25 @@ These easing types are largely based on work by [Robert Penner](http://robertpen
 
 ## Installing
 
-If you use NPM, `npm install d3-ease`. Otherwise, download the [latest release](https://github.com/d3/d3-ease/releases/latest). You can also load directly from [d3js.org](https://d3js.org), either as a [standalone library](https://d3js.org/d3-ease.v1.min.js) or as part of [D3](https://github.com/d3/d3). AMD, CommonJS, and vanilla environments are supported. In vanilla, a `d3` global is exported:
+If you use npm, `npm install d3-ease`. You can also download the [latest release on GitHub](https://github.com/d3/d3-ease/releases/latest). For vanilla HTML in modern browsers, import d3-ease from Skypack:
 
 ```html
-<script src="https://d3js.org/d3-ease.v2.min.js"></script>
+<script type="module">
+
+import {easeCubic} from "https://cdn.skypack.dev/d3-ease@3";
+
+const e = easeCubic(0.25);
+
+</script>
+```
+
+For legacy environments, you can load d3-ease’s UMD bundle from an npm-based CDN such as jsDelivr; a `d3` global is exported:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/d3-ease@3"></script>
 <script>
 
-var ease = d3.easeCubic;
+const e = d3.easeCubic(0.25);
 
 </script>
 ```
@@ -28,17 +40,17 @@ var ease = d3.easeCubic;
 Given the specified normalized time *t*, typically in the range [0,1], returns the “eased” time *tʹ*, also typically in [0,1]. 0 represents the start of the animation and 1 represents the end. A good implementation returns 0 if *t* = 0 and 1 if *t* = 1. See the [easing explorer](https://observablehq.com/@d3/easing) for a visual demonstration. For example, to apply [cubic](#easeCubic) easing:
 
 ```js
-var te = d3.easeCubic(t);
+const te = d3.easeCubic(t);
 ```
 
 Similarly, to apply custom [elastic](#easeElastic) easing:
 
 ```js
 // Before the animation starts, create your easing function.
-var customElastic = d3.easeElastic.period(0.4);
+const customElastic = d3.easeElastic.period(0.4);
 
 // During the animation, apply the easing function.
-var te = customElastic(t);
+const te = customElastic(t);
 ```
 
 <a name="easeLinear" href="#easeLinear">#</a> d3.<b>easeLinear</b>(<i>t</i>) [<>](https://github.com/d3/d3-ease/blob/master/src/linear.js "Source")
@@ -71,9 +83,9 @@ Symmetric polynomial easing; scales [polyIn](#easePolyIn) for *t* in [0, 0.5] an
 Returns a new polynomial easing with the specified exponent *e*. For example, to create equivalents of [linear](#easeLinear), [quad](#easeQuad), and [cubic](#easeCubic):
 
 ```js
-var linear = d3.easePoly.exponent(1),
-    quad = d3.easePoly.exponent(2),
-    cubic = d3.easePoly.exponent(3);
+const linear = d3.easePoly.exponent(1);
+const quad = d3.easePoly.exponent(2);
+const cubic = d3.easePoly.exponent(3);
 ```
 
 <a name="easeQuadIn" href="#easeQuadIn">#</a> d3.<b>easeQuadIn</b>(<i>t</i>) [<>](https://github.com/d3/d3-ease/blob/master/src/quad.js#L1 "Source")

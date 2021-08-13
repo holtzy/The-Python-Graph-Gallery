@@ -1,3 +1,4 @@
+import { max as mathMax, min as mathMin } from "./math.js";
 export default function within(min, value, max) {
-  return Math.max(min, Math.min(value, max));
+  return mathMax(min, mathMin(value, max));
 }

@@ -42,43 +42,37 @@ function propertyToJSXAttribute(node) {
     type: 'JSXAttribute',
     name: { type: 'JSXIdentifier', name: key.name, ...getBaseProps(key) },
     value: value.type === 'Literal'
-      ? adjustRangeStartAndEndOfNode(value)
-      : {
-        type: 'JSXExpressionContainer',
-        expression: adjustExpressionRangeStartAndEnd(value),
-        ...getBaseProps(value),
-      },
+      ? adjustRangeOfNode(value)
+      : { type: 'JSXExpressionContainer', expression: adjustExpressionRange(value), ...getBaseProps(value) },
     ...getBaseProps(node),
   };
 }
 
-function adjustRangeStartAndEndOfNode(node) {
+function adjustRangeOfNode(node) {
   const [start, end] = node.range || [node.start, node.end];
 
   return {
     ...node,
-    end,
+    end: undefined,
     range: [start, end],
-    start,
+    start: undefined,
   };
 }
 
-function adjustExpressionRangeStartAndEnd({ expressions, quasis, ...expression }) {
+function adjustExpressionRange({ expressions, quasis, ...expression }) {
   return {
-    ...adjustRangeStartAndEndOfNode(expression),
-    ...(expressions ? { expressions: expressions.map(adjustRangeStartAndEndOfNode) } : {}),
-    ...(quasis ? { quasis: quasis.map(adjustRangeStartAndEndOfNode) } : {}),
+    ...adjustRangeOfNode(expression),
+    ...(expressions ? { expressions: expressions.map(adjustRangeOfNode) } : {}),
+    ...(quasis ? { quasis: quasis.map(adjustRangeOfNode) } : {}),
   };
 }
 
 function getBaseProps({ loc, ...node }) {
-  const { end, range, start } = adjustRangeStartAndEndOfNode(node);
+  const { range } = adjustRangeOfNode(node);
 
   return {
-    end,
     loc: getBaseLocation(loc),
     range,
-    start,
   };
 }
 

@@ -24,7 +24,7 @@ var server = http.createServer(function (req, res) {
 
   if (curMethod == methods.length - 1) {
     this.close();
-    sys.puts("done");
+    console.log("done");
   }
 }).listen(8000);
 
@@ -47,7 +47,7 @@ function start(method) {
       curMethod++;
 
       if (curMethod < methods.length) {
-        sys.puts("Testing " + methods[curMethod]);
+        console.log("Testing " + methods[curMethod]);
         start(methods[curMethod]);
       }
     }
@@ -58,5 +58,5 @@ function start(method) {
   xhr.send();
 }
 
-sys.puts("Testing " + methods[curMethod]);
+console.log("Testing " + methods[curMethod]);
 start(methods[curMethod]);

@@ -8,7 +8,6 @@
 	"branches": 76.06,
 	"exclude": [
 		"coverage",
-		"operations",
 		"test"
 	]
 }

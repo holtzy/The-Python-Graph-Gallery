@@ -1,15 +1,11 @@
 var get = require('simple-get')
 var util = require('./util')
 var proxy = require('./proxy')
-var noop = Object.assign({
-  http: function () {},
-  silly: function () {}
-}, require('noop-logger'))
 
 function findAssetId (opts, cb) {
   var downloadUrl = util.getDownloadUrl(opts)
   var apiUrl = util.getApiUrl(opts)
-  var log = opts.log || noop
+  var log = opts.log || util.noopLogger
 
   log.http('request', 'GET ' + apiUrl)
   var reqOpts = proxy({

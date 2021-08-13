@@ -1,136 +1,182 @@
 "use strict";
 
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-
 exports.__esModule = true;
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var React = _interopRequireWildcard(require("react"));
 
-var _client = _interopRequireDefault(require("webpack-hot-middleware/client"));
+var _errorBoundary = require("./components/error-boundary");
 
-var _errorBoundary = _interopRequireDefault(require("./components/error-boundary"));
+var _shadowPortal = require("../shadow-portal");
 
-var _portal = _interopRequireDefault(require("./components/portal"));
+var _style = require("./style");
 
-var _style = _interopRequireDefault(require("./components/style"));
+var _buildError = require("./components/build-error");
 
-var _buildError = _interopRequireDefault(require("./components/build-error"));
+var _runtimeErrors = require("./components/runtime-errors");
 
-var _runtimeError = _interopRequireDefault(require("./components/runtime-error"));
+var _graphqlErrors = require("./components/graphql-errors");
 
-class FastRefreshOverlay extends _react.default.Component {
-  constructor(...args) {
-    super(...args);
-    this.state = {
-      errors: [],
-      buildError: null,
-      currentIndex: 0
-    };
-    this._isMounted = false;
+var _devSsrError = require("./components/dev-ssr-error");
 
-    this.dismiss = () => {
-      // eslint-disable-next-line no-invalid-this
-      this.setState({
-        errors: [],
-        currenIndex: 0,
-        buildError: null
-      });
-    };
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 
-    this.addBuildError = error => {
-      // eslint-disable-next-line no-invalid-this
-      this.setState({
-        buildError: error
-      });
-    };
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-    this.open = (file, lineNumber = 1) => {
-      window.fetch(`/__open-stack-frame-in-editor?fileName=` + window.encodeURIComponent(file) + `&lineNumber=` + window.encodeURIComponent(lineNumber));
-    };
-  }
-
-  componentDidMount() {
-    this._isMounted = true;
-
-    _client.default.useCustomOverlay({
-      showProblems: (type, data) => {
-        if (this._isMounted) {
-          this.addBuildError(data[0]);
-        }
-      },
-      // We rely on Fast Refresh notifying us on updates as HMR notification is "not at the right time"
-      clear: () => {
-        this.setState({
+const reducer = (state, event) => {
+  switch (event.action) {
+    case `CLEAR_COMPILE_ERROR`:
+      {
+        return { ...state,
           buildError: null
-        });
+        };
       }
-    }); // TODO: Maybe only do this? Investigate if third-party stuff should be visible
-    // window.addEventListener(`error`, error => {
-    //   setProblems(s =>
-    //     s.concat({
-    //       type: `RUNTIME_ERROR`,
-    //       error,
-    //     })
-    //   )
-    // })
-    // TODO: Add e2e test case, e.g. useEffect in a component to fetch invalid URL
-    // window.addEventListener(`unhandledrejection`, error => {
-    //   setProblems(s =>
-    //     s.concat({
-    //       type: `RUNTIME_ERROR`,
-    //       error: error.reason,
-    //     })
-    //   )
-    // })
 
-  }
+    case `CLEAR_RUNTIME_ERRORS`:
+      {
+        return { ...state,
+          errors: []
+        };
+      }
 
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
+    case `CLEAR_DEV_SSR_ERROR`:
+      {
+        return { ...state,
+          devSsrError: null
+        };
+      }
 
-  render() {
-    var _this$props$children;
+    case `SHOW_COMPILE_ERROR`:
+      {
+        return { ...state,
+          buildError: event.payload
+        };
+      }
 
-    const {
-      errors,
-      currentIndex,
-      buildError
-    } = this.state;
-    const error = errors[currentIndex];
-    const hasBuildError = buildError !== null;
-    const hasRuntimeError = Boolean(errors.length);
-    const hasErrors = hasBuildError || hasRuntimeError;
-    return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_errorBoundary.default, {
-      clearErrors: () => {
-        this.setState({
+    case `SHOW_DEV_SSR_ERROR`:
+      {
+        return { ...state,
+          devSsrError: event.payload
+        };
+      }
+
+    case `HANDLE_RUNTIME_ERROR`:
+    case `SHOW_RUNTIME_ERRORS`:
+      {
+        return { ...state,
+          errors: state.errors.concat(event.payload)
+        };
+      }
+
+    case `SHOW_GRAPHQL_ERRORS`:
+      {
+        return { ...state,
+          graphqlErrors: event.payload
+        };
+      }
+
+    case `CLEAR_GRAPHQL_ERRORS`:
+      {
+        return { ...state,
+          graphqlErrors: []
+        };
+      }
+
+    case `DISMISS`:
+      {
+        return { ...state,
+          buildError: null,
           errors: [],
-          buildError: null
-        });
-      },
-      onError: error => {
-        this.setState(prevState => {
-          const insertedError = {
-            type: `RUNTIME_ERROR`,
-            error
-          };
-          return {
-            errors: [...prevState.errors, insertedError]
-          };
-        });
+          graphqlErrors: []
+        };
       }
-    }, (_this$props$children = this.props.children) !== null && _this$props$children !== void 0 ? _this$props$children : null), hasErrors ? /*#__PURE__*/_react.default.createElement(_portal.default, null, /*#__PURE__*/_react.default.createElement(_style.default, null), hasBuildError ? /*#__PURE__*/_react.default.createElement(_buildError.default, {
-      error: buildError,
-      open: this.open,
-      dismiss: this.dismiss
-    }) : hasRuntimeError ? /*#__PURE__*/_react.default.createElement(_runtimeError.default, {
-      error: error,
-      open: this.open,
-      dismiss: this.dismiss
-    }) : undefined) : undefined);
-  }
 
+    default:
+      {
+        return state;
+      }
+  }
+};
+
+const initialState = {
+  errors: [],
+  buildError: null,
+  devSsrError: null,
+  graphqlErrors: []
+};
+
+function DevOverlay({
+  children
+}) {
+  const [state, dispatch] = React.useReducer(reducer, initialState);
+  React.useEffect(() => {
+    const gatsbyEvents = window._gatsbyEvents || [];
+    window._gatsbyEvents = {
+      push: ([channel, event]) => {
+        if (channel === `FAST_REFRESH`) {
+          dispatch(event);
+        }
+      }
+    };
+    gatsbyEvents.forEach(([channel, event]) => {
+      if (channel === `FAST_REFRESH`) {
+        dispatch(event);
+      }
+    });
+    return () => {
+      window._gatsbyEvents = [];
+    };
+  }, [dispatch]);
+
+  const dismiss = () => {
+    dispatch({
+      action: `DISMISS`
+    });
+    window._gatsbyEvents = [];
+  };
+
+  const hasBuildError = state.buildError !== null;
+  const hasRuntimeErrors = Boolean(state.errors.length);
+  const hasGraphqlErrors = Boolean(state.graphqlErrors.length);
+  const hasDevSsrError = state.devSsrError !== null;
+  const hasErrors = hasBuildError || hasRuntimeErrors || hasGraphqlErrors || hasDevSsrError; // This component has a deliberate order (priority)
+
+  const ErrorComponent = () => {
+    if (hasBuildError) {
+      return /*#__PURE__*/React.createElement(_buildError.BuildError, {
+        error: state.buildError
+      });
+    }
+
+    if (hasRuntimeErrors) {
+      return /*#__PURE__*/React.createElement(_runtimeErrors.RuntimeErrors, {
+        errors: state.errors,
+        dismiss: dismiss
+      });
+    }
+
+    if (hasGraphqlErrors) {
+      return /*#__PURE__*/React.createElement(_graphqlErrors.GraphqlErrors, {
+        errors: state.graphqlErrors,
+        dismiss: dismiss
+      });
+    }
+
+    if (hasDevSsrError) {
+      return /*#__PURE__*/React.createElement(_devSsrError.DevSsrError, {
+        error: state.devSsrError
+      });
+    }
+
+    return null;
+  };
+
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_errorBoundary.ErrorBoundary, {
+    hasErrors: hasErrors
+  }, children !== null && children !== void 0 ? children : null), hasErrors ? /*#__PURE__*/React.createElement(_shadowPortal.ShadowPortal, {
+    identifier: "gatsby-fast-refresh"
+  }, /*#__PURE__*/React.createElement(_style.Style, null), /*#__PURE__*/React.createElement(ErrorComponent, null)) : undefined);
 }
 
-exports.default = FastRefreshOverlay;
+var _default = DevOverlay;
+exports.default = _default;
