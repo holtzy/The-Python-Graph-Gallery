@@ -7,15 +7,14 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Seaborn } from "../components/MiscellaneousLogos"
+import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
 import { Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
-import FunctionExploration from '../components/FunctionExploration'
 import Spacing from "../components/Spacing";
 
 const chartDescription =
-  "<p>Histograms allow to visualize the distribution of a numeric variable for one or several groups. The values are split in bins, each bin is represented as a bar.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/histogram.html'>Histogram</a> represents the distribution of a numeric variable for one or several groups. The values are split in bins, each bin is represented as a bar. This page showcases many histograms built with python, using both the <code>seaborn</code> and the <code>matplotlib</code> libraries.</p>";
 
 const quickCode = `# library & dataset
 import seaborn as sns
@@ -23,6 +22,17 @@ df = sns.load_dataset('iris')
 
 # Plot the histogram thanks to the distplot function
 sns.distplot( a=df["sepal_length"], hist=True, kde=False, rug=False )
+`
+
+const quickCodeMatplotlib = `# library & dataset
+import matplotlib.pyplot as plt
+hours = [17, 20, 22, 25, 26, 27, 30, 31, 32, 38, 40, 40, 45, 55]
+
+# Initialize layout
+fig, ax = plt.subplots(figsize = (9, 9))
+
+#plot
+ax.hist(hours, bins=5, edgecolor="black");
 `
 
 export default function ViolinPlot() {
@@ -37,7 +47,7 @@ export default function ViolinPlot() {
       />
 
       <Container>
-        <h2 id="Quick">&#9201; Quick start</h2>
+        <h2 id="Quick (Seaborn)">&#9201; Quick start (Seaborn)</h2>
         <Row className="align-items-center">
           <Col md={6}>
             <p><code>Seaborn</code> is definitely the best library to quickly build a histogram thanks to its <code>distplot()</code>.</p><p>Note the importance of the <code>bins</code> parameter: try several values to see which represents your data the best. 🔥</p>
@@ -120,6 +130,52 @@ export default function ViolinPlot() {
             caption="Histogram can be added around a 2d density chart to show x and y variable distributions"
             linkTo="/82-marginal-plot-with-seaborn"
           />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Quick (matplotlib)"><Matplotlib/> Quick start (Matplotlib)</h2>
+        <Row className="align-items-center">
+          <Col md={6}>
+            <p><Link to="/matplotlib">Matplotlib</Link> can also build decent histograms easily. It provides a <code>hist()</code> function that
+            accept a vector of numeric values as input.</p>
+            <p>It also provides all the options you can think of to customize the binning and the genreral appearance.</p>
+          </Col>
+          <Col md={6}>
+            <Link to={"/basic-histogram-in-matplotlib"}>
+              <ChartImage imgName="basic-histogram-in-matplotlib"
+                caption="The most basic histogram one can make with python and matplotlib" />
+            </Link>
+          </Col>
+        </Row>
+        <CodeChunk>{quickCodeMatplotlib}</CodeChunk>
+      </Container>
+
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Matplotlib"><Matplotlib />Histograms with <code>Matplotlib</code></h2>
+        <p>
+          As usual <Link to="/matplotlib">matplotlib</Link> is perfectly skilled to build nice histogram, but require
+          some more work camparing to <Link to="/seaborn">seaborn</Link> to get a good looking figure.
+        </p>
+        <p>The examples below should help you to get started with matplotlib histograms. They go from
+          a very <Link to="/basic-histogram-in-matplotlib">basic version</Link> and then show how to customize it, like adding <Link to="/basic-histogram-in-matplotlib">annotation</Link>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="basic-histogram-in-matplotlib"
+            caption="The most basic histogram with matplotlib."
+            linkTo="/basic-histogram-in-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="basic-histogram-in-matplotlib2"
+            caption="Reduce chart opacity and add annotation (median represented in vertical line)"
+            linkTo="/basic-histogram-in-matplotlib"
+          />
           <ChartImageContainer
             imgName="density-mirror-histogram"
             caption="Mirror density chart to compare the distribution of 2 variables"
@@ -127,14 +183,6 @@ export default function ViolinPlot() {
           />
         </Row>
       </Container>
-
-      <Spacing />
-
-      <div className="greySection">
-        <Container>
-          <FunctionExploration functionName={"violin"} />
-        </Container>
-      </div>
 
       <Spacing />
 
