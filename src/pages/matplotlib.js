@@ -354,11 +354,6 @@ export default function Matplotlibs() {
             <ChartImage imgName={'199-matplotlib-style-sheets-538-full'} caption={'Customize a matplotlib chart with a preset theme'} />
           </Link>
         </div>
-
-
-
-
-
       </Container>
 
       <Spacing />
@@ -393,6 +388,53 @@ export default function Matplotlibs() {
           />
         </Row>
       </Container>
+
+
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Legend"><Matplotlib />Customizing the legend</h2>
+        <p>
+          If you have several colors or marker on your chart, you can't escape the hassle
+          of building a nice legend. The blogpost linked below should help for all the most
+          common use cases like positioning the legend, adding and customizing a title to it,
+          controling markers and labels and more.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="custom-legend-with-matplotlib1"
+            caption="How to add the default matplotlib legend"
+            linkTo="/custom-legend-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="custom-legend-with-matplotlib2"
+            caption="Legend location, learn how to add it anywhere including outside the plot area"
+            linkTo="/custom-legend-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="custom-legend-with-matplotlib3"
+            caption="Customize the legend label appearance"
+            linkTo="/custom-legend-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="custom-legend-with-matplotlib4"
+            caption="Add and customize the title of the legend"
+            linkTo="/custom-legend-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="custom-legend-with-matplotlib5"
+            caption="Customize the marker of each element item"
+            linkTo="/custom-legend-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="custom-legend-with-matplotlib6"
+            caption="Add a background, stroke and more legend customization"
+            linkTo="/custom-legend-with-matplotlib"
+          />
+        </Row>
+      </Container>
+
 
       <Spacing />
 

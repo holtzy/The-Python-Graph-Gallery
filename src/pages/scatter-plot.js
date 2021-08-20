@@ -170,15 +170,6 @@ export default function ViolinPlot() {
 
       <Spacing />
 
-
-      <div className="greySection">
-        <Container>
-          <FunctionExploration functionName={"violin"} />
-        </Container>
-      </div>
-
-      <Spacing />
-
       <Container>
         <h2 id="Quick start">&#9201; Quick start (Matplotlib)</h2>
         <Row className="align-items-center">
@@ -247,6 +238,16 @@ export default function ViolinPlot() {
             caption="How to build a Manhattan plot with Python and Matplotlib"
             linkTo="/manhattan-plot-with-matplotlib"
           />
+          <ChartImageContainer
+            imgName="custom-legend-with-matplotlib2"
+            caption="Scatterplot with grouping and legend"
+            linkTo="/custom-legend-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="custom-legend-with-matplotlib6"
+            caption="Legend customization: how to control location, add a background, customize labels and markers and more"
+            linkTo="/custom-legend-with-matplotlib"
+          />
         </Row>
       </Container>
 
@@ -279,7 +280,7 @@ export default function ViolinPlot() {
 
       <div className="greySection" id="related">
         <Container>
-          <ChartFamilySection chartFamily="distribution" />
+          <ChartFamilySection chartFamily="correlation" />
         </Container>
       </div>
 

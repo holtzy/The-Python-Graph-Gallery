@@ -136,6 +136,20 @@ export default function BubblePlot() {
             linkTo="/341-python-gapminder-animation"
           />
         </Row>
+        <p>
+          A very common task when it comes to bubble chart is to add a proper legend to explain what colors and sizes mean. The blogpost
+          below is a deep-dive into matplotlib legend and should be of great help for this
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="custom-legend-with-matplotlib6"
+            caption="Legend customization: how to control location, add a background, customize labels and markers and more"
+            linkTo="/custom-legend-with-matplotlib"
+          />
+        </Row>
+
+
+
       </Container>
 
       <Spacing />

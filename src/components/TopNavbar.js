@@ -27,6 +27,7 @@ export default function TopNavbar() {
             <NavDropdown.Item className="menuItemMain" href="/matplotlib">Matplotlib<span className="menuItemLogo"><Matplotlib /></span></NavDropdown.Item>
             <NavDropdown.Item href="/matplotlib#Axis">Axis</NavDropdown.Item>
             <NavDropdown.Item href="/matplotlib#Title">Title</NavDropdown.Item>
+            <NavDropdown.Item href="/matplotlib#Legend">Legend</NavDropdown.Item>
             <NavDropdown.Item href="/matplotlib#Subplot">Subplot</NavDropdown.Item>
             <NavDropdown.Item href="/matplotlib#Annotation">Annotation</NavDropdown.Item>
             <NavDropdown.Item href="/matplotlib#Font">Font</NavDropdown.Item>
