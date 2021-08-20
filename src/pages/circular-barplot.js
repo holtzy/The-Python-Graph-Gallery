@@ -28,7 +28,7 @@ export default function CircularBarplot() {
       />
 
       <Container>
-        <h2 id="Matplotlib"><Matplotlib />Circular barplot with <code>Matplotlib</code></h2>
+        <h2 id="Circular barplot"><Matplotlib />Circular barplot with <code>Matplotlib</code></h2>
         <p>
           <code>Matplotlib</code> allows to build circular barplots thanks to the <code>polar</code> Layout
           option of the <code>subplot()</code> function. Examples below should guide you from
@@ -57,6 +57,41 @@ export default function CircularBarplot() {
         <div style={{ maxWidth: "800px", margin: "0 auto", padding: 30 }}>
           <Link to='/circular-barplot-basic'>
             <ChartImage imgName={'circular-barplot-basic3'} caption={'Circular barplot with labels'} />
+          </Link>
+        </div>
+      </Container>
+
+      <Spacing />
+
+
+      <Container>
+        <h2 id="Grouped & circular"><Matplotlib />Grouped Circular barplot</h2>
+        <p>
+          This section extends the previous one by adding a grouping level to the circular barplot. It allows to check
+          for the values of several items split by groups, each item being sorted by value inside its group.
+          It requires quite a bit of matplotlib code but the step-by-step tutorial highlighted below
+          should help go through it.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="circular-barplot-with-groups1"
+            caption="How to add a gap in a circular barplot"
+            linkTo="/circular-barplot-with-groups"
+          />
+          <ChartImageContainer
+            imgName="circular-barplot-with-groups2"
+            caption="Group the circular barplot and add gaps between each group."
+            linkTo="/circular-barplot-with-groups"
+          />
+          <ChartImageContainer
+            imgName="circular-barplot-with-groups3"
+            caption="Reorder items inside each group."
+            linkTo="/circular-barplot-with-groups"
+          />
+        </Row>
+        <div style={{ maxWidth: "800px", margin: "0 auto", padding: 30 }}>
+          <Link to='/circular-barplot-basic'>
+            <ChartImage imgName={'circular-barplot-with-groups4big'} caption={'Final grouped circular barplot with labels, grid'} />
           </Link>
         </div>
       </Container>
