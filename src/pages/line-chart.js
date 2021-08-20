@@ -76,6 +76,11 @@ export default function LinePlot() {
             caption="How to customize the matplotlib line plot appearance: width, stroke, color, style.."
             linkTo="/121-line-chart-customization"
           />
+          <ChartImageContainer
+            imgName="basic-time-series-with-matplotlib"
+            caption="How to deal with the date format. How to represent those dates properly on the X axis."
+            linkTo="/basic-time-series-with-matplotlib"
+          />
         </Row>
       </Container>
 

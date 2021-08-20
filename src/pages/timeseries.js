@@ -110,6 +110,11 @@ export default function Pie() {
             caption="Line chart and small multiple (variation)"
             linkTo="/125-small-multiples-for-line-chart"
           />
+          <ChartImageContainer
+            imgName="basic-time-series-with-matplotlib"
+            caption="How to deal with the date format. How to represent those dates properly on the X axis."
+            linkTo="/basic-time-series-with-matplotlib"
+          />
         </Row>
       </Container>
 

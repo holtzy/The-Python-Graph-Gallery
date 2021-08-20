@@ -386,6 +386,11 @@ export default function Matplotlibs() {
             caption="Control axis limit with the xlim() function"
             linkTo="/191-custom-axis-on-matplotlib-chart"
           />
+          <ChartImageContainer
+            imgName="basic-time-series-with-matplotlib"
+            caption="How to deal with the date format. How to represent those dates properly on the X axis."
+            linkTo="/basic-time-series-with-matplotlib"
+          />
         </Row>
       </Container>
 
