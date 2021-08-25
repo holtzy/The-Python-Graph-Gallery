@@ -248,6 +248,11 @@ export default function ViolinPlot() {
             caption="Legend customization: how to control location, add a background, customize labels and markers and more"
             linkTo="/custom-legend-with-matplotlib"
           />
+          <ChartImageContainer
+            imgName="scatterplot-and-log-scale-in-matplotlib"
+            caption="How to use a log scale for the X or the Y axis."
+            linkTo="/scatterplot-and-log-scale-in-matplotlib"
+          />
         </Row>
       </Container>
 

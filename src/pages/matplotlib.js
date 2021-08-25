@@ -386,6 +386,11 @@ export default function Matplotlibs() {
             caption="How to deal with the date format. How to represent those dates properly on the X axis."
             linkTo="/basic-time-series-with-matplotlib"
           />
+          <ChartImageContainer
+            imgName="scatterplot-and-log-scale-in-matplotlib"
+            caption="How to use a log scale for the X or the Y axis."
+            linkTo="/scatterplot-and-log-scale-in-matplotlib"
+          />
         </Row>
       </Container>
 
