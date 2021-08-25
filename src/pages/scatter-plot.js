@@ -253,6 +253,11 @@ export default function ViolinPlot() {
             caption="How to use a log scale for the X or the Y axis."
             linkTo="/scatterplot-and-log-scale-in-matplotlib"
           />
+          <ChartImageContainer
+            imgName="scatterplot-with-regression-fit-in-matplotlib"
+            caption="How to compute and add a linear regression to a scatterplot with Python and matplotlib"
+            linkTo="/scatterplot-with-regression-fit-in-matplotlib"
+          />
         </Row>
       </Container>
 
