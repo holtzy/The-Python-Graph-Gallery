@@ -86,6 +86,11 @@ export default function LinePlot() {
             caption="How to build a dual Y axis line chart to display 2 series with different units."
             linkTo="/line-chart-dual-y-axis-with-matplotlib"
           />
+          <ChartImageContainer
+            imgName="area-fill-between-two-lines-in-matplotlib"
+            caption="Fill the gap between 2 line charts"
+            linkTo="/area-fill-between-two-lines-in-matplotlib"
+          />
         </Row>
       </Container>
 

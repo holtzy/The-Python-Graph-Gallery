@@ -84,6 +84,11 @@ export default function LinePlot() {
             caption="Control line color"
             linkTo="/241-improve-area-chart"
           />
+          <ChartImageContainer
+            imgName="area-fill-between-two-lines-in-matplotlib"
+            caption="Fill the gap between 2 line charts"
+            linkTo="/area-fill-between-two-lines-in-matplotlib"
+          />
         </Row>
         <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
           <Link to='/243-area-chart-with-white-grid'>
