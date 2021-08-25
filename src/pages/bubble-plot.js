@@ -170,6 +170,11 @@ export default function BubblePlot() {
               <ChartImage imgName={"web-text-repel-with-matplotlib-square"} caption={"Learn how to use the adjustText library to add many labels with no overlaps."} />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={"/web-scatterplot-text-annotation-and-regression-matplotlib"}>
+              <ChartImage imgName={"web-scatterplot-text-annotation-and-regression-matplotlib-square"} caption={"Scatterplot with regression fit, group colors and non-overlapping labels."} />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
