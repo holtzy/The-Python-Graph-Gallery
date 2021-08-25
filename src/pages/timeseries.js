@@ -115,6 +115,11 @@ export default function Pie() {
             caption="How to deal with the date format. How to represent those dates properly on the X axis."
             linkTo="/basic-time-series-with-matplotlib"
           />
+          <ChartImageContainer
+            imgName="line-chart-dual-y-axis-with-matplotlib1"
+            caption="How to build a dual Y axis line chart to display 2 series with different units."
+            linkTo="/line-chart-dual-y-axis-with-matplotlib"
+          />
         </Row>
       </Container>
 

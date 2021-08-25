@@ -63,7 +63,7 @@ export default function LinePlot() {
         <p>
           <code>Matplotlib</code> is a great fit to build line charts thanks to its <code>plot()</code> function. The <Link to='/120-line-chart-with-matplotlib'>first chart</Link> of
           this section explains how to use <code>plot()</code> from any kind of data input format. The <Link to='/121-line-chart-customization'>next one</Link> goes deep
-          into chart customization (line width, color aspect and more).
+          into chart customization (line width, color aspect and more). A common need is to build a <Link to="/line-chart-dual-y-axis-with-matplotlib">dual Y axis line chart</Link>, but be mindful of the <a href="https://www.data-to-viz.com/caveat/dual_axis.html">caveats</a> that go with it.
         </p>
         <Row>
           <ChartImageContainer
@@ -80,6 +80,11 @@ export default function LinePlot() {
             imgName="basic-time-series-with-matplotlib"
             caption="How to deal with the date format. How to represent those dates properly on the X axis."
             linkTo="/basic-time-series-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="line-chart-dual-y-axis-with-matplotlib1"
+            caption="How to build a dual Y axis line chart to display 2 series with different units."
+            linkTo="/line-chart-dual-y-axis-with-matplotlib"
           />
         </Row>
       </Container>
