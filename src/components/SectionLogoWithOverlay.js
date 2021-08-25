@@ -26,13 +26,13 @@ export default function SectionLogoWithOverlay({ chartType, caption, link }) {
         </div>
         <p className="distributionSection sectionLogoCaption">{caption}</p>
       </>) : (
-          <>
+        <div className="sectionLogoContainer">
             <Link to={link}>
               <SectionLogo chartType={chartType} />
             </Link>
             <p className="distributionSection sectionLogoCaption">{caption}</p>
-          </>
-        )}
+        </div>
+      )}
     </>
   );
 }

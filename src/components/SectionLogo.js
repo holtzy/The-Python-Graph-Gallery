@@ -13,11 +13,11 @@ export default function SectionLogo({ chartType }) {
 
   if (chartType === "anim150") {
     return (
-      <img src={anim150} alt="Animation with python" style={{ maxWidth: "114px", width: "100%" }} />)
+      <img src={anim150} alt="Animation with python" style={{ width: "100%" }} />)
   }
   if (chartType === "time150") {
     return (
-      <img src={time150} alt="Timeseries with python" style={{ maxWidth: "114px", width: "100%" }} />)
+      <img src={time150} alt="Timeseries with python" style={{ width: "100%" }} />)
   }
 
   const data = useStaticQuery(graphql`
