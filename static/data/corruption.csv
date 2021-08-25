@@ -1,0 +1,705 @@
+country,region,year,cpi,iso3c,hdi
+Denmark,Europe and Central Asia,2015,91,DNK,0.925
+New Zealand,Asia Pacific,2015,91,NZL,0.915
+Finland,Europe and Central Asia,2015,90,FIN,0.895
+Sweden,Europe and Central Asia,2015,89,SWE,0.913
+Switzerland,Europe and Central Asia,2015,86,CHE,0.939
+Norway,Europe and Central Asia,2015,88,NOR,0.949
+Singapore,Asia Pacific,2015,85,SGP,0.925
+Netherlands,Europe and Central Asia,2015,84,NLD,0.924
+Canada,Americas,2015,83,CAN,0.92
+Germany,Europe and Central Asia,2015,81,DEU,0.926
+Luxembourg,Europe and Central Asia,2015,85,LUX,0.898
+United Kingdom,Europe and Central Asia,2015,81,GBR,0.91
+Australia,Asia Pacific,2015,79,AUS,0.939
+Iceland,Europe and Central Asia,2015,79,ISL,0.921
+Belgium,Europe and Central Asia,2015,77,BEL,0.896
+Hong Kong,Asia Pacific,2015,75,HKG,0.917
+Austria,Europe and Central Asia,2015,76,AUT,0.893
+United States,Americas,2015,76,USA,0.92
+Ireland,Europe and Central Asia,2015,75,IRL,0.923
+Japan,Asia Pacific,2015,75,JPN,0.903
+Uruguay,Americas,2015,74,URY,0.795
+Estonia,Europe and Central Asia,2015,70,EST,0.865
+France,Europe and Central Asia,2015,70,FRA,0.897
+Bahamas,Americas,2015,NA,BHS,0.792
+Chile,Americas,2015,70,CHL,0.847
+United Arab Emirates,Middle East and North Africa,2015,70,ARE,0.84
+Bhutan,Asia Pacific,2015,65,BTN,0.607
+Israel,Middle East and North Africa,2015,61,ISR,0.899
+Poland,Europe and Central Asia,2015,63,POL,0.855
+Portugal,Europe and Central Asia,2015,64,PRT,0.843
+Barbados,Americas,2015,NA,BRB,0.795
+Qatar,Middle East and North Africa,2015,71,QAT,0.856
+Slovenia,Europe and Central Asia,2015,60,SVN,0.89
+Taiwan,Asia Pacific,2015,62,TWN,NA
+Botswana,Sub Saharan Africa,2015,63,BWA,0.698
+Saint Lucia,Americas,2015,NA,LCA,0.735
+Saint Vincent and the Grenadines,Americas,2015,NA,VCT,0.722
+Cape Verde,Sub Saharan Africa,2015,55,CPV,0.648
+Dominica,Americas,2015,NA,DMA,0.726
+Lithuania,Europe and Central Asia,2015,59,LTU,0.848
+Brunei,Asia Pacific,2015,NA,BRN,0.865
+Costa Rica,Americas,2015,55,CRI,0.776
+Spain,Europe and Central Asia,2015,58,ESP,0.884
+Georgia,Europe and Central Asia,2015,52,GEO,0.769
+Latvia,Europe and Central Asia,2015,56,LVA,0.83
+Grenada,Americas,2015,NA,GRD,0.754
+Cyprus,Europe and Central Asia,2015,61,CYP,0.856
+Czech Republic,Europe and Central Asia,2015,56,CZE,0.878
+Malta,Europe and Central Asia,2015,60,MLT,0.856
+Mauritius,Sub Saharan Africa,2015,53,MUS,0.781
+Rwanda,Sub Saharan Africa,2015,54,RWA,0.498
+Korea (South),Asia Pacific,2015,54,KOR,0.901
+Namibia,Sub Saharan Africa,2015,53,NAM,0.64
+Slovakia,Europe and Central Asia,2015,51,SVK,0.845
+Croatia,Europe and Central Asia,2015,51,HRV,0.827
+Malaysia,Asia Pacific,2015,50,MYS,0.789
+Hungary,Europe and Central Asia,2015,51,HUN,0.836
+Jordan,Middle East and North Africa,2015,53,JOR,0.742
+Romania,Europe and Central Asia,2015,46,ROU,0.802
+Cuba,Americas,2015,47,CUB,0.775
+Italy,Europe and Central Asia,2015,44,ITA,0.887
+Sao Tome and Principe,Sub Saharan Africa,2015,42,STP,0.574
+Saudi Arabia,Middle East and North Africa,2015,52,SAU,0.847
+Montenegro,Europe and Central Asia,2015,44,MNE,0.807
+Oman,Middle East and North Africa,2015,45,OMN,0.796
+Senegal,Sub Saharan Africa,2015,44,SEN,0.494
+South Africa,Sub Saharan Africa,2015,44,ZAF,0.666
+Suriname,Americas,2015,36,SUR,0.725
+Greece,Europe and Central Asia,2015,46,GRC,0.866
+Bahrain,Middle East and North Africa,2015,51,BHR,0.824
+Ghana,Sub Saharan Africa,2015,47,GHA,0.579
+Burkina Faso,Sub Saharan Africa,2015,38,BFA,0.402
+Serbia,Europe and Central Asia,2015,40,SRB,0.776
+Solomon Islands,Asia Pacific,2015,NA,SLB,0.515
+Bulgaria,Europe and Central Asia,2015,41,BGR,0.794
+Kuwait,Middle East and North Africa,2015,49,KWT,0.8
+Tunisia,Middle East and North Africa,2015,38,TUN,0.725
+Turkey,Europe and Central Asia,2015,42,TUR,0.767
+Belarus,Europe and Central Asia,2015,32,BLR,0.796
+Brazil,Americas,2015,38,BRA,0.754
+China,Asia Pacific,2015,37,CHN,0.738
+India,Asia Pacific,2015,38,IND,0.624
+Albania,Europe and Central Asia,2015,36,ALB,0.764
+Bosnia and Herzegovina,Europe and Central Asia,2015,38,BIH,0.75
+Jamaica,Americas,2015,41,JAM,0.73
+Lesotho,Sub Saharan Africa,2015,44,LSO,0.497
+Mongolia,Asia Pacific,2015,39,MNG,0.735
+Panama,Americas,2015,39,PAN,0.788
+Zambia,Sub Saharan Africa,2015,38,ZMB,0.579
+Colombia,Americas,2015,37,COL,0.727
+Indonesia,Asia Pacific,2015,36,IDN,0.689
+Liberia,Sub Saharan Africa,2015,37,LBR,0.427
+Morocco,Middle East and North Africa,2015,36,MAR,0.647
+The FYR of Macedonia,Europe and Central Asia,2015,42,MKD,0.748
+Argentina,Americas,2015,32,ARG,0.827
+Benin,Sub Saharan Africa,2015,37,BEN,0.485
+El Salvador,Americas,2015,39,SLV,0.68
+Kosovo,Europe and Central Asia,2015,33,NA,NA
+Maldives,Asia Pacific,2015,NA,MDV,0.701
+Sri Lanka,Asia Pacific,2015,37,LKA,0.766
+Gabon,Sub Saharan Africa,2015,34,GAB,0.697
+Niger,Sub Saharan Africa,2015,34,NER,0.353
+Peru,Americas,2015,36,PER,0.74
+Philippines,Asia Pacific,2015,35,PHL,0.682
+Thailand,Asia Pacific,2015,38,THA,0.74
+Timor-Leste,Asia Pacific,2015,28,TLS,0.606
+Trinidad and Tobago,Americas,2015,39,TTO,0.78
+Algeria,Middle East and North Africa,2015,36,DZA,0.745
+Côte d´Ivoire,Sub Saharan Africa,2015,32,CIV,0.474
+Egypt,Middle East and North Africa,2015,36,EGY,0.691
+Ethiopia,Sub Saharan Africa,2015,33,ETH,0.448
+Guyana,Americas,2015,29,GUY,0.638
+Armenia,Europe and Central Asia,2015,35,ARM,0.743
+Bolivia,Americas,2015,34,BOL,0.674
+Vietnam,Asia Pacific,2015,31,VNM,0.683
+Mali,Sub Saharan Africa,2015,35,MLI,0.442
+Pakistan,Asia Pacific,2015,30,PAK,0.55
+Tanzania,Sub Saharan Africa,2015,30,TZA,0.531
+Togo,Sub Saharan Africa,2015,32,TGO,0.487
+Dominican Republic,Americas,2015,33,DOM,0.722
+Ecuador,Americas,2015,32,ECU,0.739
+Malawi,Sub Saharan Africa,2015,31,MWI,0.476
+Azerbaijan,Europe and Central Asia,2015,29,AZE,0.759
+Djibouti,Sub Saharan Africa,2015,34,DJI,0.473
+Honduras,Americas,2015,31,HND,0.625
+Laos,Asia Pacific,2015,25,LAO,0.586
+Mexico,Americas,2015,31,MEX,0.762
+Moldova,Europe and Central Asia,2015,33,MDA,0.699
+Paraguay,Americas,2015,27,PRY,0.693
+Sierra Leone,Sub Saharan Africa,2015,29,SLE,0.42
+Iran,Middle East and North Africa,2015,27,IRN,0.774
+Kazakhstan,Europe and Central Asia,2015,28,KAZ,0.794
+Nepal,Asia Pacific,2015,27,NPL,0.558
+Russia,Europe and Central Asia,2015,29,RUS,0.804
+Ukraine,Europe and Central Asia,2015,27,UKR,0.743
+Guatemala,Americas,2015,28,GTM,0.64
+Kyrgyzstan,Europe and Central Asia,2015,28,KGZ,0.664
+Lebanon,Middle East and North Africa,2015,28,LBN,0.763
+Myanmar,Asia Pacific,2015,22,MMR,0.556
+Nigeria,Sub Saharan Africa,2015,26,NGA,0.527
+Papua New Guinea,Asia Pacific,2015,25,PNG,0.516
+Guinea,Sub Saharan Africa,2015,25,GIN,0.414
+Mauritania,Middle East and North Africa,2015,31,MRT,0.513
+Mozambique,Sub Saharan Africa,2015,31,MOZ,0.418
+Bangladesh,Asia Pacific,2015,25,BGD,0.579
+Cameroon,Sub Saharan Africa,2015,27,CMR,0.518
+Gambia,Sub Saharan Africa,2015,28,GMB,0.452
+Kenya,Sub Saharan Africa,2015,25,KEN,0.555
+Madagascar,Sub Saharan Africa,2015,28,MDG,0.512
+Nicaragua,Americas,2015,27,NIC,0.645
+Tajikistan,Europe and Central Asia,2015,26,TJK,0.627
+Uganda,Sub Saharan Africa,2015,25,UGA,0.493
+Comoros,Sub Saharan Africa,2015,26,COM,0.498
+Turkmenistan,Europe and Central Asia,2015,18,TKM,0.692
+Zimbabwe,Sub Saharan Africa,2015,21,ZWE,0.516
+Cambodia,Asia Pacific,2015,21,KHM,0.563
+Democratic Republic of Congo,Sub Saharan Africa,2015,22,COD,0.435
+Uzbekistan,Europe and Central Asia,2015,19,UZB,0.701
+Burundi,Sub Saharan Africa,2015,21,BDI,0.404
+Central African Republic,Sub Saharan Africa,2015,24,CAF,0.352
+Chad,Sub Saharan Africa,2015,22,TCD,0.396
+Haiti,Americas,2015,17,HTI,0.493
+Republic of Congo,Sub Saharan Africa,2015,23,COG,0.592
+Angola,Sub Saharan Africa,2015,15,AGO,0.533
+Eritrea,Sub Saharan Africa,2015,18,ERI,0.42
+Iraq,Middle East and North Africa,2015,16,IRQ,0.649
+Venezuela,Americas,2015,17,VEN,0.767
+Guinea-Bissau,Sub Saharan Africa,2015,17,GNB,0.424
+Afghanistan,Asia Pacific,2015,11,AFG,0.479
+Libya,Middle East and North Africa,2015,16,LBY,0.716
+Sudan,Middle East and North Africa,2015,12,SDN,0.49
+Yemen,Middle East and North Africa,2015,18,YEM,0.482
+Syria,Middle East and North Africa,2015,18,SYR,0.536
+Korea (North),Asia Pacific,2015,8,PRK,NA
+South Sudan,Sub Saharan Africa,2015,15,SSD,0.418
+Somalia,Sub Saharan Africa,2015,8,SOM,NA
+Denmark,Europe and Central Asia,2014,92,DNK,0.923
+New Zealand,Asia Pacific,2014,91,NZL,0.913
+Finland,Europe and Central Asia,2014,89,FIN,0.893
+Sweden,Europe and Central Asia,2014,87,SWE,0.909
+Switzerland,Europe and Central Asia,2014,86,CHE,0.938
+Norway,Europe and Central Asia,2014,86,NOR,0.948
+Singapore,Asia Pacific,2014,84,SGP,0.924
+Netherlands,Europe and Central Asia,2014,83,NLD,0.923
+Canada,Americas,2014,81,CAN,0.919
+Germany,Europe and Central Asia,2014,79,DEU,0.924
+Luxembourg,Europe and Central Asia,2014,82,LUX,0.896
+United Kingdom,Europe and Central Asia,2014,78,GBR,0.908
+Australia,Asia Pacific,2014,80,AUS,0.937
+Iceland,Europe and Central Asia,2014,79,ISL,0.919
+Belgium,Europe and Central Asia,2014,76,BEL,0.895
+Hong Kong,Asia Pacific,2014,74,HKG,0.916
+Austria,Europe and Central Asia,2014,72,AUT,0.892
+United States,Americas,2014,74,USA,0.918
+Ireland,Europe and Central Asia,2014,74,IRL,0.92
+Japan,Asia Pacific,2014,76,JPN,0.902
+Uruguay,Americas,2014,73,URY,0.794
+Estonia,Europe and Central Asia,2014,69,EST,0.863
+France,Europe and Central Asia,2014,69,FRA,0.894
+Bahamas,Americas,2014,71,BHS,0.79
+Chile,Americas,2014,73,CHL,0.845
+United Arab Emirates,Middle East and North Africa,2014,70,ARE,0.836
+Bhutan,Asia Pacific,2014,65,BTN,0.604
+Israel,Middle East and North Africa,2014,60,ISR,0.898
+Poland,Europe and Central Asia,2014,61,POL,0.852
+Portugal,Europe and Central Asia,2014,63,PRT,0.841
+Barbados,Americas,2014,74,BRB,0.794
+Qatar,Middle East and North Africa,2014,69,QAT,0.855
+Slovenia,Europe and Central Asia,2014,58,SVN,0.888
+Taiwan,Asia Pacific,2014,61,TWN,NA
+Botswana,Sub Saharan Africa,2014,63,BWA,0.698
+Saint Lucia,Americas,2014,71,LCA,0.735
+Saint Vincent and the Grenadines,Americas,2014,62,VCT,0.72
+Cape Verde,Sub Saharan Africa,2014,57,CPV,0.646
+Dominica,Americas,2014,58,DMA,0.724
+Lithuania,Europe and Central Asia,2014,58,LTU,0.846
+Brunei,Asia Pacific,2014,NA,BRN,0.864
+Costa Rica,Americas,2014,54,CRI,0.775
+Spain,Europe and Central Asia,2014,60,ESP,0.882
+Georgia,Europe and Central Asia,2014,52,GEO,0.768
+Latvia,Europe and Central Asia,2014,55,LVA,0.828
+Grenada,Americas,2014,NA,GRD,0.751
+Cyprus,Europe and Central Asia,2014,63,CYP,0.854
+Czech Republic,Europe and Central Asia,2014,51,CZE,0.875
+Malta,Europe and Central Asia,2014,55,MLT,0.853
+Mauritius,Sub Saharan Africa,2014,54,MUS,0.779
+Rwanda,Sub Saharan Africa,2014,49,RWA,0.493
+Korea (South),Asia Pacific,2014,55,KOR,0.899
+Namibia,Sub Saharan Africa,2014,49,NAM,0.637
+Slovakia,Europe and Central Asia,2014,50,SVK,0.842
+Croatia,Europe and Central Asia,2014,48,HRV,0.823
+Malaysia,Asia Pacific,2014,52,MYS,0.787
+Hungary,Europe and Central Asia,2014,54,HUN,0.834
+Jordan,Middle East and North Africa,2014,49,JOR,0.741
+Romania,Europe and Central Asia,2014,43,ROU,0.798
+Cuba,Americas,2014,46,CUB,0.773
+Italy,Europe and Central Asia,2014,43,ITA,0.881
+Sao Tome and Principe,Sub Saharan Africa,2014,42,STP,0.565
+Saudi Arabia,Middle East and North Africa,2014,49,SAU,0.845
+Montenegro,Europe and Central Asia,2014,42,MNE,0.804
+Oman,Middle East and North Africa,2014,45,OMN,0.795
+Senegal,Sub Saharan Africa,2014,43,SEN,0.491
+South Africa,Sub Saharan Africa,2014,44,ZAF,0.665
+Suriname,Americas,2014,36,SUR,0.723
+Greece,Europe and Central Asia,2014,43,GRC,0.865
+Bahrain,Middle East and North Africa,2014,49,BHR,0.823
+Ghana,Sub Saharan Africa,2014,48,GHA,0.575
+Burkina Faso,Sub Saharan Africa,2014,38,BFA,0.399
+Serbia,Europe and Central Asia,2014,41,SRB,0.775
+Solomon Islands,Asia Pacific,2014,NA,SLB,0.514
+Bulgaria,Europe and Central Asia,2014,43,BGR,0.792
+Kuwait,Middle East and North Africa,2014,44,KWT,0.799
+Tunisia,Middle East and North Africa,2014,40,TUN,0.723
+Turkey,Europe and Central Asia,2014,45,TUR,0.764
+Belarus,Europe and Central Asia,2014,31,BLR,0.798
+Brazil,Americas,2014,43,BRA,0.754
+China,Asia Pacific,2014,36,CHN,0.734
+India,Asia Pacific,2014,38,IND,0.615
+Albania,Europe and Central Asia,2014,33,ALB,0.762
+Bosnia and Herzegovina,Europe and Central Asia,2014,39,BIH,0.747
+Jamaica,Americas,2014,38,JAM,0.729
+Lesotho,Sub Saharan Africa,2014,49,LSO,0.495
+Mongolia,Asia Pacific,2014,39,MNG,0.733
+Panama,Americas,2014,37,PAN,0.785
+Zambia,Sub Saharan Africa,2014,38,ZMB,0.576
+Colombia,Americas,2014,37,COL,0.724
+Indonesia,Asia Pacific,2014,34,IDN,0.686
+Liberia,Sub Saharan Africa,2014,37,LBR,0.427
+Morocco,Middle East and North Africa,2014,39,MAR,0.645
+The FYR of Macedonia,Europe and Central Asia,2014,45,MKD,0.746
+Argentina,Americas,2014,34,ARG,0.826
+Benin,Sub Saharan Africa,2014,39,BEN,0.481
+El Salvador,Americas,2014,39,SLV,0.678
+Kosovo,Europe and Central Asia,2014,33,NA,NA
+Maldives,Asia Pacific,2014,NA,MDV,0.701
+Sri Lanka,Asia Pacific,2014,38,LKA,0.764
+Gabon,Sub Saharan Africa,2014,37,GAB,0.694
+Niger,Sub Saharan Africa,2014,35,NER,0.351
+Peru,Americas,2014,38,PER,0.737
+Philippines,Asia Pacific,2014,38,PHL,0.679
+Thailand,Asia Pacific,2014,38,THA,0.738
+Timor-Leste,Asia Pacific,2014,28,TLS,0.603
+Trinidad and Tobago,Americas,2014,38,TTO,0.779
+Algeria,Middle East and North Africa,2014,36,DZA,0.743
+Côte d´Ivoire,Sub Saharan Africa,2014,32,CIV,0.466
+Egypt,Middle East and North Africa,2014,37,EGY,0.688
+Ethiopia,Sub Saharan Africa,2014,33,ETH,0.441
+Guyana,Americas,2014,30,GUY,0.638
+Armenia,Europe and Central Asia,2014,37,ARM,0.741
+Bolivia,Americas,2014,35,BOL,0.671
+Vietnam,Asia Pacific,2014,31,VNM,0.678
+Mali,Sub Saharan Africa,2014,32,MLI,0.438
+Pakistan,Asia Pacific,2014,29,PAK,0.548
+Tanzania,Sub Saharan Africa,2014,31,TZA,0.519
+Togo,Sub Saharan Africa,2014,29,TGO,0.484
+Dominican Republic,Americas,2014,32,DOM,0.718
+Ecuador,Americas,2014,33,ECU,0.739
+Malawi,Sub Saharan Africa,2014,33,MWI,0.473
+Azerbaijan,Europe and Central Asia,2014,29,AZE,0.758
+Djibouti,Sub Saharan Africa,2014,34,DJI,0.47
+Honduras,Americas,2014,29,HND,0.623
+Laos,Asia Pacific,2014,25,LAO,0.582
+Mexico,Americas,2014,35,MEX,0.758
+Moldova,Europe and Central Asia,2014,35,MDA,0.701
+Paraguay,Americas,2014,24,PRY,0.692
+Sierra Leone,Sub Saharan Africa,2014,31,SLE,0.431
+Iran,Middle East and North Africa,2014,27,IRN,0.774
+Kazakhstan,Europe and Central Asia,2014,29,KAZ,0.793
+Nepal,Asia Pacific,2014,29,NPL,0.555
+Russia,Europe and Central Asia,2014,27,RUS,0.805
+Ukraine,Europe and Central Asia,2014,26,UKR,0.748
+Guatemala,Americas,2014,32,GTM,0.637
+Kyrgyzstan,Europe and Central Asia,2014,27,KGZ,0.662
+Lebanon,Middle East and North Africa,2014,27,LBN,0.763
+Myanmar,Asia Pacific,2014,21,MMR,0.552
+Nigeria,Sub Saharan Africa,2014,27,NGA,0.525
+Papua New Guinea,Asia Pacific,2014,25,PNG,0.515
+Guinea,Sub Saharan Africa,2014,25,GIN,0.414
+Mauritania,Middle East and North Africa,2014,30,MRT,0.513
+Mozambique,Sub Saharan Africa,2014,31,MOZ,0.414
+Bangladesh,Asia Pacific,2014,25,BGD,0.575
+Cameroon,Sub Saharan Africa,2014,27,CMR,0.514
+Gambia,Sub Saharan Africa,2014,29,GMB,0.45
+Kenya,Sub Saharan Africa,2014,25,KEN,0.55
+Madagascar,Sub Saharan Africa,2014,28,MDG,0.511
+Nicaragua,Americas,2014,28,NIC,0.642
+Tajikistan,Europe and Central Asia,2014,23,TJK,0.625
+Uganda,Sub Saharan Africa,2014,26,UGA,0.488
+Comoros,Sub Saharan Africa,2014,26,COM,0.498
+Turkmenistan,Europe and Central Asia,2014,17,TKM,0.688
+Zimbabwe,Sub Saharan Africa,2014,21,ZWE,0.507
+Cambodia,Asia Pacific,2014,21,KHM,0.558
+Democratic Republic of Congo,Sub Saharan Africa,2014,22,COD,0.425
+Uzbekistan,Europe and Central Asia,2014,18,UZB,0.697
+Burundi,Sub Saharan Africa,2014,20,BDI,0.406
+Central African Republic,Sub Saharan Africa,2014,24,CAF,0.347
+Chad,Sub Saharan Africa,2014,22,TCD,0.394
+Haiti,Americas,2014,19,HTI,0.49
+Republic of Congo,Sub Saharan Africa,2014,23,COG,0.59
+Angola,Sub Saharan Africa,2014,19,AGO,0.531
+Eritrea,Sub Saharan Africa,2014,18,ERI,0.418
+Iraq,Middle East and North Africa,2014,16,IRQ,0.649
+Venezuela,Americas,2014,19,VEN,0.769
+Guinea-Bissau,Sub Saharan Africa,2014,19,GNB,0.421
+Afghanistan,Asia Pacific,2014,12,AFG,0.479
+Libya,Middle East and North Africa,2014,18,LBY,0.719
+Sudan,Middle East and North Africa,2014,11,SDN,0.488
+Yemen,Middle East and North Africa,2014,19,YEM,0.499
+Syria,Middle East and North Africa,2014,20,SYR,0.553
+Korea (North),Asia Pacific,2014,8,PRK,NA
+South Sudan,Sub Saharan Africa,2014,15,SSD,0.421
+Somalia,Sub Saharan Africa,2014,8,SOM,NA
+Denmark,Europe and Central Asia,2013,91,DNK,0.926
+New Zealand,Asia Pacific,2013,91,NZL,0.91
+Finland,Europe and Central Asia,2013,89,FIN,0.89
+Sweden,Europe and Central Asia,2013,89,SWE,0.906
+Switzerland,Europe and Central Asia,2013,85,CHE,0.936
+Norway,Europe and Central Asia,2013,86,NOR,0.945
+Singapore,Asia Pacific,2013,86,SGP,0.922
+Netherlands,Europe and Central Asia,2013,83,NLD,0.923
+Canada,Americas,2013,81,CAN,0.912
+Germany,Europe and Central Asia,2013,78,DEU,0.92
+Luxembourg,Europe and Central Asia,2013,80,LUX,0.892
+United Kingdom,Europe and Central Asia,2013,76,GBR,0.904
+Australia,Asia Pacific,2013,81,AUS,0.936
+Iceland,Europe and Central Asia,2013,78,ISL,0.915
+Belgium,Europe and Central Asia,2013,75,BEL,0.89
+Hong Kong,Asia Pacific,2013,75,HKG,0.913
+Austria,Europe and Central Asia,2013,69,AUT,0.892
+United States,Americas,2013,73,USA,0.916
+Ireland,Europe and Central Asia,2013,72,IRL,0.91
+Japan,Asia Pacific,2013,74,JPN,0.899
+Uruguay,Americas,2013,73,URY,0.791
+Estonia,Europe and Central Asia,2013,68,EST,0.86
+France,Europe and Central Asia,2013,71,FRA,0.89
+Bahamas,Americas,2013,71,BHS,0.789
+Chile,Americas,2013,71,CHL,0.841
+United Arab Emirates,Middle East and North Africa,2013,69,ARE,0.832
+Bhutan,Asia Pacific,2013,63,BTN,0.596
+Israel,Middle East and North Africa,2013,61,ISR,0.895
+Poland,Europe and Central Asia,2013,60,POL,0.85
+Portugal,Europe and Central Asia,2013,62,PRT,0.837
+Barbados,Americas,2013,75,BRB,0.793
+Qatar,Middle East and North Africa,2013,68,QAT,0.854
+Slovenia,Europe and Central Asia,2013,57,SVN,0.888
+Taiwan,Asia Pacific,2013,61,TWN,NA
+Botswana,Sub Saharan Africa,2013,64,BWA,0.697
+Saint Lucia,Americas,2013,71,LCA,0.723
+Saint Vincent and the Grenadines,Americas,2013,62,VCT,0.72
+Cape Verde,Sub Saharan Africa,2013,58,CPV,0.643
+Dominica,Americas,2013,58,DMA,0.724
+Lithuania,Europe and Central Asia,2013,57,LTU,0.841
+Brunei,Asia Pacific,2013,60,BRN,0.863
+Costa Rica,Americas,2013,53,CRI,0.768
+Spain,Europe and Central Asia,2013,59,ESP,0.877
+Georgia,Europe and Central Asia,2013,49,GEO,0.759
+Latvia,Europe and Central Asia,2013,53,LVA,0.822
+Grenada,Americas,2013,NA,GRD,0.749
+Cyprus,Europe and Central Asia,2013,63,CYP,0.85
+Czech Republic,Europe and Central Asia,2013,48,CZE,0.871
+Malta,Europe and Central Asia,2013,56,MLT,0.847
+Mauritius,Sub Saharan Africa,2013,52,MUS,0.769
+Rwanda,Sub Saharan Africa,2013,53,RWA,0.488
+Korea (South),Asia Pacific,2013,55,KOR,0.896
+Namibia,Sub Saharan Africa,2013,48,NAM,0.632
+Slovakia,Europe and Central Asia,2013,47,SVK,0.841
+Croatia,Europe and Central Asia,2013,48,HRV,0.82
+Malaysia,Asia Pacific,2013,50,MYS,0.783
+Hungary,Europe and Central Asia,2013,54,HUN,0.834
+Jordan,Middle East and North Africa,2013,45,JOR,0.737
+Romania,Europe and Central Asia,2013,43,ROU,0.797
+Cuba,Americas,2013,46,CUB,0.772
+Italy,Europe and Central Asia,2013,43,ITA,0.877
+Sao Tome and Principe,Sub Saharan Africa,2013,42,STP,0.562
+Saudi Arabia,Middle East and North Africa,2013,46,SAU,0.841
+Montenegro,Europe and Central Asia,2013,44,MNE,0.803
+Oman,Middle East and North Africa,2013,47,OMN,0.796
+Senegal,Sub Saharan Africa,2013,41,SEN,0.483
+South Africa,Sub Saharan Africa,2013,42,ZAF,0.66
+Suriname,Americas,2013,36,SUR,0.722
+Greece,Europe and Central Asia,2013,40,GRC,0.862
+Bahrain,Middle East and North Africa,2013,48,BHR,0.82
+Ghana,Sub Saharan Africa,2013,46,GHA,0.576
+Burkina Faso,Sub Saharan Africa,2013,38,BFA,0.398
+Serbia,Europe and Central Asia,2013,42,SRB,0.771
+Solomon Islands,Asia Pacific,2013,NA,SLB,0.512
+Bulgaria,Europe and Central Asia,2013,41,BGR,0.787
+Kuwait,Middle East and North Africa,2013,43,KWT,0.787
+Tunisia,Middle East and North Africa,2013,41,TUN,0.722
+Turkey,Europe and Central Asia,2013,50,TUR,0.759
+Belarus,Europe and Central Asia,2013,29,BLR,0.796
+Brazil,Americas,2013,42,BRA,0.747
+China,Asia Pacific,2013,40,CHN,0.723
+India,Asia Pacific,2013,36,IND,0.607
+Albania,Europe and Central Asia,2013,31,ALB,0.761
+Bosnia and Herzegovina,Europe and Central Asia,2013,42,BIH,0.742
+Jamaica,Americas,2013,38,JAM,0.727
+Lesotho,Sub Saharan Africa,2013,49,LSO,0.491
+Mongolia,Asia Pacific,2013,38,MNG,0.729
+Panama,Americas,2013,35,PAN,0.78
+Zambia,Sub Saharan Africa,2013,38,ZMB,0.57
+Colombia,Americas,2013,36,COL,0.72
+Indonesia,Asia Pacific,2013,32,IDN,0.682
+Liberia,Sub Saharan Africa,2013,38,LBR,0.426
+Morocco,Middle East and North Africa,2013,37,MAR,0.64
+The FYR of Macedonia,Europe and Central Asia,2013,44,MKD,0.743
+Argentina,Americas,2013,34,ARG,0.825
+Benin,Sub Saharan Africa,2013,36,BEN,0.475
+El Salvador,Americas,2013,38,SLV,0.676
+Kosovo,Europe and Central Asia,2013,33,NA,NA
+Maldives,Asia Pacific,2013,NA,MDV,0.693
+Sri Lanka,Asia Pacific,2013,37,LKA,0.76
+Gabon,Sub Saharan Africa,2013,34,GAB,0.687
+Niger,Sub Saharan Africa,2013,34,NER,0.345
+Peru,Americas,2013,38,PER,0.735
+Philippines,Asia Pacific,2013,36,PHL,0.676
+Thailand,Asia Pacific,2013,35,THA,0.737
+Timor-Leste,Asia Pacific,2013,30,TLS,0.612
+Trinidad and Tobago,Americas,2013,38,TTO,0.778
+Algeria,Middle East and North Africa,2013,36,DZA,0.741
+Côte d´Ivoire,Sub Saharan Africa,2013,27,CIV,0.459
+Egypt,Middle East and North Africa,2013,32,EGY,0.686
+Ethiopia,Sub Saharan Africa,2013,33,ETH,0.435
+Guyana,Americas,2013,27,GUY,0.636
+Armenia,Europe and Central Asia,2013,36,ARM,0.739
+Bolivia,Americas,2013,34,BOL,0.666
+Vietnam,Asia Pacific,2013,31,VNM,0.675
+Mali,Sub Saharan Africa,2013,28,MLI,0.43
+Pakistan,Asia Pacific,2013,28,PAK,0.542
+Tanzania,Sub Saharan Africa,2013,33,TZA,0.512
+Togo,Sub Saharan Africa,2013,29,TGO,0.475
+Dominican Republic,Americas,2013,29,DOM,0.712
+Ecuador,Americas,2013,35,ECU,0.737
+Malawi,Sub Saharan Africa,2013,37,MWI,0.466
+Azerbaijan,Europe and Central Asia,2013,28,AZE,0.752
+Djibouti,Sub Saharan Africa,2013,36,DJI,0.467
+Honduras,Americas,2013,26,HND,0.618
+Laos,Asia Pacific,2013,26,LAO,0.573
+Mexico,Americas,2013,34,MEX,0.754
+Moldova,Europe and Central Asia,2013,35,MDA,0.696
+Paraguay,Americas,2013,24,PRY,0.688
+Sierra Leone,Sub Saharan Africa,2013,30,SLE,0.426
+Iran,Middle East and North Africa,2013,25,IRN,0.77
+Kazakhstan,Europe and Central Asia,2013,26,KAZ,0.789
+Nepal,Asia Pacific,2013,31,NPL,0.551
+Russia,Europe and Central Asia,2013,28,RUS,0.803
+Ukraine,Europe and Central Asia,2013,25,UKR,0.746
+Guatemala,Americas,2013,29,GTM,0.614
+Kyrgyzstan,Europe and Central Asia,2013,24,KGZ,0.656
+Lebanon,Middle East and North Africa,2013,28,LBN,0.763
+Myanmar,Asia Pacific,2013,21,MMR,0.547
+Nigeria,Sub Saharan Africa,2013,25,NGA,0.521
+Papua New Guinea,Asia Pacific,2013,25,PNG,0.511
+Guinea,Sub Saharan Africa,2013,24,GIN,0.412
+Mauritania,Middle East and North Africa,2013,30,MRT,0.509
+Mozambique,Sub Saharan Africa,2013,30,MOZ,0.409
+Bangladesh,Asia Pacific,2013,27,BGD,0.57
+Cameroon,Sub Saharan Africa,2013,25,CMR,0.507
+Gambia,Sub Saharan Africa,2013,28,GMB,0.449
+Kenya,Sub Saharan Africa,2013,27,KEN,0.546
+Madagascar,Sub Saharan Africa,2013,28,MDG,0.509
+Nicaragua,Americas,2013,28,NIC,0.636
+Tajikistan,Europe and Central Asia,2013,22,TJK,0.622
+Uganda,Sub Saharan Africa,2013,26,UGA,0.483
+Comoros,Sub Saharan Africa,2013,28,COM,0.497
+Turkmenistan,Europe and Central Asia,2013,17,TKM,0.683
+Zimbabwe,Sub Saharan Africa,2013,21,ZWE,0.498
+Cambodia,Asia Pacific,2013,20,KHM,0.553
+Democratic Republic of Congo,Sub Saharan Africa,2013,22,COD,0.419
+Uzbekistan,Europe and Central Asia,2013,17,UZB,0.69
+Burundi,Sub Saharan Africa,2013,21,BDI,0.404
+Central African Republic,Sub Saharan Africa,2013,25,CAF,0.345
+Chad,Sub Saharan Africa,2013,19,TCD,0.39
+Haiti,Americas,2013,19,HTI,0.487
+Republic of Congo,Sub Saharan Africa,2013,22,COG,0.581
+Angola,Sub Saharan Africa,2013,23,AGO,0.527
+Eritrea,Sub Saharan Africa,2013,20,ERI,0.416
+Iraq,Middle East and North Africa,2013,16,IRQ,0.658
+Venezuela,Americas,2013,20,VEN,0.771
+Guinea-Bissau,Sub Saharan Africa,2013,19,GNB,0.419
+Afghanistan,Asia Pacific,2013,8,AFG,0.476
+Libya,Middle East and North Africa,2013,15,LBY,0.73
+Sudan,Middle East and North Africa,2013,11,SDN,0.485
+Yemen,Middle East and North Africa,2013,18,YEM,0.5
+Syria,Middle East and North Africa,2013,17,SYR,0.575
+Korea (North),Asia Pacific,2013,8,PRK,NA
+South Sudan,Sub Saharan Africa,2013,14,SSD,0.421
+Somalia,Sub Saharan Africa,2013,8,SOM,NA
+Denmark,Europe and Central Asia,2012,90,DNK,0.924
+New Zealand,Asia Pacific,2012,90,NZL,0.908
+Finland,Europe and Central Asia,2012,90,FIN,0.887
+Sweden,Europe and Central Asia,2012,88,SWE,0.904
+Switzerland,Europe and Central Asia,2012,86,CHE,0.934
+Norway,Europe and Central Asia,2012,85,NOR,0.942
+Singapore,Asia Pacific,2012,87,SGP,0.92
+Netherlands,Europe and Central Asia,2012,84,NLD,0.922
+Canada,Americas,2012,84,CAN,0.909
+Germany,Europe and Central Asia,2012,79,DEU,0.919
+Luxembourg,Europe and Central Asia,2012,80,LUX,0.892
+United Kingdom,Europe and Central Asia,2012,74,GBR,0.899
+Australia,Asia Pacific,2012,85,AUS,0.933
+Iceland,Europe and Central Asia,2012,82,ISL,0.907
+Belgium,Europe and Central Asia,2012,75,BEL,0.889
+Hong Kong,Asia Pacific,2012,77,HKG,0.907
+Austria,Europe and Central Asia,2012,69,AUT,0.887
+United States,Americas,2012,73,USA,0.915
+Ireland,Europe and Central Asia,2012,69,IRL,0.902
+Japan,Asia Pacific,2012,74,JPN,0.894
+Uruguay,Americas,2012,72,URY,0.788
+Estonia,Europe and Central Asia,2012,64,EST,0.856
+France,Europe and Central Asia,2012,71,FRA,0.887
+Bahamas,Americas,2012,71,BHS,0.79
+Chile,Americas,2012,72,CHL,0.831
+United Arab Emirates,Middle East and North Africa,2012,68,ARE,0.829
+Bhutan,Asia Pacific,2012,63,BTN,0.589
+Israel,Middle East and North Africa,2012,60,ISR,0.891
+Poland,Europe and Central Asia,2012,58,POL,0.838
+Portugal,Europe and Central Asia,2012,63,PRT,0.827
+Barbados,Americas,2012,76,BRB,0.792
+Qatar,Middle East and North Africa,2012,68,QAT,0.843
+Slovenia,Europe and Central Asia,2012,61,SVN,0.878
+Taiwan,Asia Pacific,2012,61,TWN,NA
+Botswana,Sub Saharan Africa,2012,65,BWA,0.693
+Saint Lucia,Americas,2012,71,LCA,0.734
+Saint Vincent and the Grenadines,Americas,2012,62,VCT,0.717
+Cape Verde,Sub Saharan Africa,2012,60,CPV,0.643
+Dominica,Americas,2012,58,DMA,0.721
+Lithuania,Europe and Central Asia,2012,54,LTU,0.834
+Brunei,Asia Pacific,2012,55,BRN,0.86
+Costa Rica,Americas,2012,54,CRI,0.762
+Spain,Europe and Central Asia,2012,65,ESP,0.874
+Georgia,Europe and Central Asia,2012,52,GEO,0.755
+Latvia,Europe and Central Asia,2012,49,LVA,0.814
+Grenada,Americas,2012,NA,GRD,0.746
+Cyprus,Europe and Central Asia,2012,66,CYP,0.85
+Czech Republic,Europe and Central Asia,2012,49,CZE,0.865
+Malta,Europe and Central Asia,2012,57,MLT,0.828
+Mauritius,Sub Saharan Africa,2012,57,MUS,0.765
+Rwanda,Sub Saharan Africa,2012,53,RWA,0.485
+Korea (South),Asia Pacific,2012,56,KOR,0.891
+Namibia,Sub Saharan Africa,2012,48,NAM,0.625
+Slovakia,Europe and Central Asia,2012,46,SVK,0.838
+Croatia,Europe and Central Asia,2012,46,HRV,0.817
+Malaysia,Asia Pacific,2012,49,MYS,0.779
+Hungary,Europe and Central Asia,2012,55,HUN,0.824
+Jordan,Middle East and North Africa,2012,48,JOR,0.737
+Romania,Europe and Central Asia,2012,44,ROU,0.794
+Cuba,Americas,2012,48,CUB,0.773
+Italy,Europe and Central Asia,2012,42,ITA,0.876
+Sao Tome and Principe,Sub Saharan Africa,2012,42,STP,0.559
+Saudi Arabia,Middle East and North Africa,2012,44,SAU,0.83
+Montenegro,Europe and Central Asia,2012,41,MNE,0.799
+Oman,Middle East and North Africa,2012,47,OMN,0.796
+Senegal,Sub Saharan Africa,2012,36,SEN,0.474
+South Africa,Sub Saharan Africa,2012,43,ZAF,0.652
+Suriname,Americas,2012,37,SUR,0.719
+Greece,Europe and Central Asia,2012,36,GRC,0.86
+Bahrain,Middle East and North Africa,2012,51,BHR,0.815
+Ghana,Sub Saharan Africa,2012,45,GHA,0.57
+Burkina Faso,Sub Saharan Africa,2012,38,BFA,0.392
+Serbia,Europe and Central Asia,2012,39,SRB,0.766
+Solomon Islands,Asia Pacific,2012,NA,SLB,0.509
+Bulgaria,Europe and Central Asia,2012,41,BGR,0.781
+Kuwait,Middle East and North Africa,2012,44,KWT,0.796
+Tunisia,Middle East and North Africa,2012,41,TUN,0.72
+Turkey,Europe and Central Asia,2012,49,TUR,0.754
+Belarus,Europe and Central Asia,2012,31,BLR,0.796
+Brazil,Americas,2012,43,BRA,0.734
+China,Asia Pacific,2012,39,CHN,0.713
+India,Asia Pacific,2012,36,IND,0.599
+Albania,Europe and Central Asia,2012,33,ALB,0.759
+Bosnia and Herzegovina,Europe and Central Asia,2012,42,BIH,0.735
+Jamaica,Americas,2012,38,JAM,0.727
+Lesotho,Sub Saharan Africa,2012,45,LSO,0.484
+Mongolia,Asia Pacific,2012,36,MNG,0.72
+Panama,Americas,2012,38,PAN,0.773
+Zambia,Sub Saharan Africa,2012,37,ZMB,0.565
+Colombia,Americas,2012,36,COL,0.712
+Indonesia,Asia Pacific,2012,32,IDN,0.677
+Liberia,Sub Saharan Africa,2012,41,LBR,0.419
+Morocco,Middle East and North Africa,2012,37,MAR,0.634
+The FYR of Macedonia,Europe and Central Asia,2012,43,MKD,0.741
+Argentina,Americas,2012,35,ARG,0.823
+Benin,Sub Saharan Africa,2012,36,BEN,0.466
+El Salvador,Americas,2012,38,SLV,0.675
+Kosovo,Europe and Central Asia,2012,34,NA,NA
+Maldives,Asia Pacific,2012,NA,MDV,0.683
+Sri Lanka,Asia Pacific,2012,40,LKA,0.757
+Gabon,Sub Saharan Africa,2012,35,GAB,0.678
+Niger,Sub Saharan Africa,2012,33,NER,0.341
+Peru,Americas,2012,38,PER,0.731
+Philippines,Asia Pacific,2012,34,PHL,0.671
+Thailand,Asia Pacific,2012,37,THA,0.733
+Timor-Leste,Asia Pacific,2012,33,TLS,0.62
+Trinidad and Tobago,Americas,2012,39,TTO,0.773
+Algeria,Middle East and North Africa,2012,34,DZA,0.737
+Côte d´Ivoire,Sub Saharan Africa,2012,29,CIV,0.452
+Egypt,Middle East and North Africa,2012,32,EGY,0.681
+Ethiopia,Sub Saharan Africa,2012,33,ETH,0.427
+Guyana,Americas,2012,28,GUY,0.633
+Armenia,Europe and Central Asia,2012,34,ARM,0.736
+Bolivia,Americas,2012,34,BOL,0.661
+Vietnam,Asia Pacific,2012,31,VNM,0.668
+Mali,Sub Saharan Africa,2012,34,MLI,0.421
+Pakistan,Asia Pacific,2012,27,PAK,0.538
+Tanzania,Sub Saharan Africa,2012,35,TZA,0.513
+Togo,Sub Saharan Africa,2012,30,TGO,0.47
+Dominican Republic,Americas,2012,32,DOM,0.709
+Ecuador,Americas,2012,32,ECU,0.725
+Malawi,Sub Saharan Africa,2012,37,MWI,0.459
+Azerbaijan,Europe and Central Asia,2012,27,AZE,0.745
+Djibouti,Sub Saharan Africa,2012,36,DJI,0.464
+Honduras,Americas,2012,28,HND,0.614
+Laos,Asia Pacific,2012,21,LAO,0.563
+Mexico,Americas,2012,34,MEX,0.753
+Moldova,Europe and Central Asia,2012,36,MDA,0.686
+Paraguay,Americas,2012,25,PRY,0.679
+Sierra Leone,Sub Saharan Africa,2012,31,SLE,0.413
+Iran,Middle East and North Africa,2012,28,IRN,0.769
+Kazakhstan,Europe and Central Asia,2012,28,KAZ,0.782
+Nepal,Asia Pacific,2012,27,NPL,0.545
+Russia,Europe and Central Asia,2012,28,RUS,0.799
+Ukraine,Europe and Central Asia,2012,26,UKR,0.744
+Guatemala,Americas,2012,33,GTM,0.611
+Kyrgyzstan,Europe and Central Asia,2012,24,KGZ,0.647
+Lebanon,Middle East and North Africa,2012,30,LBN,0.766
+Myanmar,Asia Pacific,2012,15,MMR,0.54
+Nigeria,Sub Saharan Africa,2012,27,NGA,0.514
+Papua New Guinea,Asia Pacific,2012,25,PNG,0.506
+Guinea,Sub Saharan Africa,2012,24,GIN,0.406
+Mauritania,Middle East and North Africa,2012,31,MRT,0.501
+Mozambique,Sub Saharan Africa,2012,31,MOZ,0.405
+Bangladesh,Asia Pacific,2012,26,BGD,0.565
+Cameroon,Sub Saharan Africa,2012,26,CMR,0.501
+Gambia,Sub Saharan Africa,2012,34,GMB,0.445
+Kenya,Sub Saharan Africa,2012,27,KEN,0.541
+Madagascar,Sub Saharan Africa,2012,32,MDG,0.508
+Nicaragua,Americas,2012,29,NIC,0.63
+Tajikistan,Europe and Central Asia,2012,22,TJK,0.617
+Uganda,Sub Saharan Africa,2012,29,UGA,0.478
+Comoros,Sub Saharan Africa,2012,28,COM,0.49
+Turkmenistan,Europe and Central Asia,2012,17,TKM,0.678
+Zimbabwe,Sub Saharan Africa,2012,20,ZWE,0.488
+Cambodia,Asia Pacific,2012,22,KHM,0.546
+Democratic Republic of Congo,Sub Saharan Africa,2012,21,COD,0.412
+Uzbekistan,Europe and Central Asia,2012,17,UZB,0.681
+Burundi,Sub Saharan Africa,2012,19,BDI,0.398
+Central African Republic,Sub Saharan Africa,2012,26,CAF,0.37
+Chad,Sub Saharan Africa,2012,19,TCD,0.387
+Haiti,Americas,2012,19,HTI,0.483
+Republic of Congo,Sub Saharan Africa,2012,26,COG,0.576
+Angola,Sub Saharan Africa,2012,22,AGO,0.523
+Eritrea,Sub Saharan Africa,2012,25,ERI,0.414
+Iraq,Middle East and North Africa,2012,18,IRQ,0.659
+Venezuela,Americas,2012,19,VEN,0.77
+Guinea-Bissau,Sub Saharan Africa,2012,25,GNB,0.415
+Afghanistan,Asia Pacific,2012,8,AFG,0.47
+Libya,Middle East and North Africa,2012,21,LBY,0.735
+Sudan,Middle East and North Africa,2012,13,SDN,0.478
+Yemen,Middle East and North Africa,2012,23,YEM,0.498
+Syria,Middle East and North Africa,2012,26,SYR,0.635
+Korea (North),Asia Pacific,2012,8,PRK,NA
+South Sudan,Sub Saharan Africa,2012,NA,SSD,0.417
+Somalia,Sub Saharan Africa,2012,8,SOM,NA
