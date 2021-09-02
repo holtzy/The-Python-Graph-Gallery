@@ -49,7 +49,7 @@ export default function LinePlot() {
           <Col md={6}>
             <Link to={"/120-line-chart-with-matplotlib"}>
               <ChartImage imgName="120_Basic_lineplot2"
-                caption="The most basic histogram one can make with python and seaborn" />
+                caption="A basic line chart made with python and seaborn" />
             </Link>
           </Col>
         </Row>

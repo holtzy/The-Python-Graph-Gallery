@@ -16,16 +16,20 @@ import Spacing from "../components/Spacing";
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/connectedscatter.html'>connected scatterplot</a> is a <a href='https://python-graph-gallery.com/line-chart/'>line chart</a> where each data point is shown by a circle or any type of marker. This section explains how to build a connected scatterplot with <code>Python</code>, using both the <code>Matplotlib</code> and the <code>Seaborn</code> libraries.</p>";
 
-const quickCode = `# library
-import seaborn as sns
-import pandas as pd
-import numpy as np
+const quickCode = `# libraries
+  import matplotlib.pyplot as plt
+  import numpy as np
+  import pandas as pd
 
-# Create a dataset
-df = pd.DataFrame(np.random.random((5,5)), columns=["a","b","c","d","e"])
+  # data
+  df = pd.DataFrame({
+      'x_axis': range(1,10),
+      'y_axis': np.random.randn(9)*80+range(1,10)
+  })
 
-# Default heatmap
-p1 = sns.heatmap(df)
+  # plot
+  plt.plot('x_axis', 'y_axis', data=df, linestyle='-', marker='o')
+  plt.show()
 `
 
 export default function ConnectedScatter() {
@@ -43,7 +47,12 @@ export default function ConnectedScatter() {
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p>TODO.🔥</p>
+            <p>Building a connected scatterplot with Python and Matplotlib is a breeze thanks to
+              the <code>plot()</code> function. The 2 first argumenst are the X and Y values respectively, which
+              can be stored in a <code>pandas</code> data frame.</p>
+            <p>The <code>linestyle</code> and <code>marker</code> arguments allow to use line and circles to make it look like
+              a connected scatterplot. It means everything is very close to a <Link to="/line-chart">line chart</Link> or a <Link to="/scatter-plot">scatterplot</Link> that
+              are extensively described in the gallery.</p>
           </Col>
           <Col md={6}>
             <Link to={"/132-basic-connected-scatterplot"}>
@@ -82,13 +91,7 @@ export default function ConnectedScatter() {
           a line chart, so feel free to visit the related section. Here are a few examples to remind the
           basics and understand how to customize the markers.
         </p>
-        <Row>
-          <ChartImageContainer
-            imgName="132_Matplotlib-connected-scatterplot"
-            caption="Basic connected scatterplot with Python and Seaborn."
-            linkTo="/132-basic-connected-scatterplot"
-          />
-        </Row>
+        <p><i>Coming soon</i></p>
       </Container>
 
       <Spacing />
