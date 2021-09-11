@@ -44,6 +44,7 @@ plt.barh(y=df.Group, width=df.Value);
 # Add title
 plt.title('A simple barplot');
 `
+
 const objOrientedAPI = `# import libraries
 import pandas as pd
 import matplotlib.pyplot as plt

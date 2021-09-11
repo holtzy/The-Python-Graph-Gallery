@@ -14,7 +14,7 @@ import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/line.html'>line chart</a> displays the evolution of one or several numeric variables. It is one of the most common chart type, so it can be build using any python viz library, like <code>matplotlib</code>, <code>seaborn</code> or <code>plotly</code>.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/line.html'>line chart</a> displays the evolution of one or several numeric variables. It is one of the most common chart type, so it can be build using any python viz library, like <code>matplotlib</code>, <code>seaborn</code> or <code>plotly</code>. This kind of basic chart type can also be learned in this <a target='_blank' href='https://datacamp.pxf.io/YgNDbR'>online course</a>.</p>";
 
 const quickCode = `# libraries
 import matplotlib.pyplot as plt

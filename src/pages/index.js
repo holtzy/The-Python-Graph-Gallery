@@ -7,7 +7,7 @@ import Contact from "../components/Contact";
 import Spacing from "../components/Spacing";
 
 const siteDescription =
-  "<p>Welcome to the Python Graph Gallery, a collection of hundreds of charts made with <code>Python</code>. Charts are organized in about 40 sections and always come with their associated reproducible code. They are mostly made with <code>Matplotlib</code> and <code>Seaborn</code> but other library like <code>Plotly</code> are sometimes used.</p>";
+  "<p>Welcome to the Python Graph Gallery, a collection of hundreds of charts made with <code>Python</code>. Charts are organized in about 40 sections and always come with their associated reproducible code. They are mostly made with <code>Matplotlib</code> and <code>Seaborn</code> but other library like <code>Plotly</code> are sometimes used. If you're new to python, this <a target='_blank' href='https://datacamp.pxf.io/YgNDbR'>online course</a> can be a good starting point.</p>";
 
 export default function Home() {
   return (

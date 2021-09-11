@@ -12,7 +12,7 @@ import { Button } from "react-bootstrap";
 import ChartImage from "../components/ChartImage";
 
 const chartDescription =
-    "<p>👋 This page displays all the charts available in the python graph gallery. The vast majority of them are built using <code>matplotlib</code>, <code>seaborn</code> and <code>plotly</code>. Click on a chart to get its code 😍!</p>";
+    "<p>👋 This page displays all the charts available in the python graph gallery. The vast majority of them are built using <code>matplotlib</code>, <code>seaborn</code> and <code>plotly</code>. Click on a chart to get its code 😍! If you're new to python, this <a target='_blank' href='https://datacamp.pxf.io/YgNDbR'>online course</a> can be a good starting point to learn how to make them.</p>";
 
 export default function AllCharts() {
 
