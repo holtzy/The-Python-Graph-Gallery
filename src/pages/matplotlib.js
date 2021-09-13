@@ -438,6 +438,11 @@ export default function Matplotlibs() {
             caption="Add a background, stroke and more legend customization"
             linkTo="/custom-legend-with-matplotlib"
           />
+          <ChartImageContainer
+            imgName="how-to-use-rectangles-in-matplotlib-legends"
+            caption="How to customize the legend handle to have a different shape that the one used on the chart"
+            linkTo="/how-to-use-rectangles-in-matplotlib-legends"
+          />
         </Row>
       </Container>
 
