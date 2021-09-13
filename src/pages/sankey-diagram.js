@@ -45,8 +45,34 @@ export default function Chord() {
             See code
           </Button>
         </Link>
-
       </Container>
+
+
+      <Spacing />
+
+      <Container>
+        <h2 id="pySankey">Sankey diagrams with <code>pySankey</code></h2>
+        <p>
+          The <a target="_blank" href="https://github.com/anazalea/pySankey" rel="noreferrer">pySankey</a> python
+          library by <a target="_blank" href="https://github.com/anazalea" rel="noreferrer">anazalea</a> is another option
+          when it comes to build sankey diagrams. It is based on <Link to="/matplotlib">matplotlib</Link> and aims a building static
+          outputs only. The blogpost showcased below should help you to get started quickly, describing the various
+          accepted dataset and the customization offered by the library.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="basic-sankey-diagram-with-pysankey-1"
+            caption="How to build a basic sankey diagram with the pySankey library"
+            linkTo="/basic-sankey-diagram-with-pysankey"
+          />
+          <ChartImageContainer
+            imgName="basic-sankey-diagram-with-pysankey-2"
+            caption="Some explanation on the various data format that are accepted by the library."
+            linkTo="/basic-sankey-diagram-with-pysankey"
+          />
+        </Row>
+      </Container>
+
 
       <Spacing />
 
