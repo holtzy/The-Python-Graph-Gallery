@@ -154,6 +154,11 @@ export default function LinePlot() {
               <ChartImage imgName={"web-time-series-and-facetting-with-matplotlib-square"} caption={"Display 2 line charts and fill the area between both. Also uses faceting to split by groups."} />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={"/web-highlighted-lineplot-with-faceting"}>
+              <ChartImage imgName={"web-highlighted-lineplot-with-faceting"} caption={"A multipanel connected scatterplot, with several groups displayed and one highlighted per panel."} />
+            </Link>
+          </Col>
         </Row>
       </Container>
 

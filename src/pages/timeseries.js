@@ -161,6 +161,11 @@ export default function Pie() {
             caption="A highly customized lollipop chart made with Python and Matplotlib to display a timeseries."
             linkTo="/web-lollipop-plot-with-python-the-office"
           />
+          <ChartImageContainer
+            imgName="web-highlighted-lineplot-with-faceting-square"
+            caption="A multipanel connected scatterplot, with several groups displayed and one highlighted per panel."
+            linkTo="/web-highlighted-lineplot-with-faceting"
+          />
         </Row>
       </Container>
 
