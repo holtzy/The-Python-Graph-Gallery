@@ -183,7 +183,7 @@ export default function Heatmap() {
           the evolution of a temperature is displayed over the hour of the day (Y axis) and the day of the year (X axis) organized by month.
         </p>
         <div style={{ maxWidth: "800px", margin: "0 auto", padding: 30 }}>
-          <Link to='/heatmap-for-timeseries-matplotlib-square'>
+          <Link to='/heatmap-for-timeseries-matplotlib'>
             <ChartImage imgName={'heatmap-for-timeseries-matplotlib'} caption={'A heatmap for temporal data with Python and Matplotlib'} />
           </Link>
         </div>
