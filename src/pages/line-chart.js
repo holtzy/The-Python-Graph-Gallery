@@ -161,7 +161,12 @@ export default function LinePlot() {
           </Col>
           <Col xs={12} md={4}>
             <Link to={"/web-lineplots-and-area-chart-the-economist"}>
-              <ChartImage imgName={"web-lineplots-and-area-chart-the-economist-square1"} caption={"Learn how to mimick The Economist's style with a figure combining both a line and an area chart"} />
+              <ChartImage imgName={"web-lineplots-and-area-chart-the-economist-square1"} caption={"Learn how to mimick The Economist's style with a figure combining both a line and an area chart."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-multiple-lines-and-panels"}>
+              <ChartImage imgName={"web-multiple-lines-and-panels"} caption={"Multiple grouped line charts with a beautiful color palette and customized title and annotation."} />
             </Link>
           </Col>
         </Row>
