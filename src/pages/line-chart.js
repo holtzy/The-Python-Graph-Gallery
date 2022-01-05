@@ -14,7 +14,7 @@ import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/line.html'>line chart</a> displays the evolution of one or several numeric variables. It is one of the most common chart type, so it can be build using any python viz library, like <code>matplotlib</code>, <code>seaborn</code> or <code>plotly</code>.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/line.html'>line chart</a> displays the evolution of one or several numeric variables. It is one of the most common chart type, so it can be build using any python viz library, like <code>matplotlib</code>, <code>seaborn</code> or <code>plotly</code>. This kind of basic chart type can also be learned in this <a target='_blank' href='https://datacamp.pxf.io/YgNDbR'>online course</a>.</p>";
 
 const quickCode = `# libraries
 import matplotlib.pyplot as plt
@@ -49,7 +49,7 @@ export default function LinePlot() {
           <Col md={6}>
             <Link to={"/120-line-chart-with-matplotlib"}>
               <ChartImage imgName="120_Basic_lineplot2"
-                caption="The most basic histogram one can make with python and seaborn" />
+                caption="A basic line chart made with python and seaborn" />
             </Link>
           </Col>
         </Row>
@@ -144,14 +144,29 @@ export default function LinePlot() {
           even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-line-chart-with-labels-at-line-end"}>
               <ChartImage imgName={"web-line-chart-with-labels-at-line-end"} caption={"How to add labels at the end of each line with matplotlib. Definitely better than using a legend!"} />
             </Link>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-time-series-and-facetting-with-matplotlib"}>
               <ChartImage imgName={"web-time-series-and-facetting-with-matplotlib-square"} caption={"Display 2 line charts and fill the area between both. Also uses faceting to split by groups."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-highlighted-lineplot-with-faceting"}>
+              <ChartImage imgName={"web-highlighted-lineplot-with-faceting"} caption={"A multipanel connected scatterplot, with several groups displayed and one highlighted per panel."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-lineplots-and-area-chart-the-economist"}>
+              <ChartImage imgName={"web-lineplots-and-area-chart-the-economist-square1"} caption={"Learn how to mimick The Economist's style with a figure combining both a line and an area chart."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-multiple-lines-and-panels"}>
+              <ChartImage imgName={"web-multiple-lines-and-panels"} caption={"Multiple grouped line charts with a beautiful color palette and customized title and annotation."} />
             </Link>
           </Col>
         </Row>

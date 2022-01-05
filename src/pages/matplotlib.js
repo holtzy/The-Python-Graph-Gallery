@@ -44,6 +44,7 @@ plt.barh(y=df.Group, width=df.Value);
 # Add title
 plt.title('A simple barplot');
 `
+
 const objOrientedAPI = `# import libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -338,6 +339,14 @@ export default function Matplotlibs() {
             linkTo="/192-about-matplotlib-margins"
           />
         </Row>
+        <p>Additional note: how to remove some unused entries in a grid using the <code>ax.remove()</code> function:</p>
+        <Row>
+          <ChartImageContainer
+            imgName="how-to-remove-axis-in-matplotlib"
+            caption="How to remove some unused entries in a chart grid."
+            linkTo="/how-to-remove-axis-in-matplotlib"
+          />
+        </Row>
       </Container>
 
       <Spacing />
@@ -436,6 +445,11 @@ export default function Matplotlibs() {
             imgName="custom-legend-with-matplotlib6"
             caption="Add a background, stroke and more legend customization"
             linkTo="/custom-legend-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="how-to-use-rectangles-in-matplotlib-legends"
+            caption="How to customize the legend handle to have a different shape that the one used on the chart"
+            linkTo="/how-to-use-rectangles-in-matplotlib-legends"
           />
         </Row>
       </Container>

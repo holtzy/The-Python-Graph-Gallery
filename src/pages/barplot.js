@@ -14,7 +14,7 @@ import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/barplot.html'>barplot</a> shows the relationship between a numeric and a categoric variable. Each entity of the categoric variable is represented as a bar. The size of the bar represents its numeric value. This section shows how to build a barplot with <code>Python</code>, using <code>Matplotlib</code> and <code>Seaborn</code>.";
+  "<p>A <a href='https://www.data-to-viz.com/graph/barplot.html'>barplot</a> shows the relationship between a numeric and a categoric variable. Each entity of the categoric variable is represented as a bar. The size of the bar represents its numeric value. This section shows how to build a barplot with <code>Python</code>, using <code>Matplotlib</code> and <code>Seaborn</code>. Note that this <a target='_blank' href='https://datacamp.pxf.io/YgNDbR'>online course</a> has a chapter dedicated to barplots.";
 
 const quickCode = `# Libraries
 import numpy as np
@@ -244,9 +244,19 @@ export default function Barplot() {
           even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-circular-barplot-with-matplotlib"}>
               <ChartImage imgName={"web-circular-barplot-with-matplotlib-square"} caption={"A circular barchart with several features per group made with Python and Matplotlib."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-horizontal-barplot-with-labels-the-economist"}>
+              <ChartImage imgName={"web-horizontal-barplot-with-labels-the-economist-square"} caption={"Lear how to mimick the style of the Economist on this horizontal barplot."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-heatmap-and-radial-barchart-plastics"}>
+              <ChartImage imgName={"web-heatmap-and-radial-barchart-plastics-square2"} caption={"How to combine a heatmap with a radial barplot on the same figure with heaps of visual tweaks."} />
             </Link>
           </Col>
         </Row>

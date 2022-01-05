@@ -15,7 +15,7 @@ import FunctionExploration from '../components/FunctionExploration'
 import Spacing from "../components/Spacing";
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/caveat/boxplot.html'>boxplot</a> summarizes the distribution of a numeric variable for one or several groups. It allows to quickly get the median, quartiles and outliers but also hides the dataset individual data points. In python, boxplots are most of time done thanks to the <code>boxplot</code> function of the <code>Seaborn</code> library.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/caveat/boxplot.html'>boxplot</a> summarizes the distribution of a numeric variable for one or several groups. It allows to quickly get the median, quartiles and outliers but also hides the dataset individual data points. In python, boxplots are most of time done thanks to the <code>boxplot</code> function of the <code>Seaborn</code> library. Boxplots are also described in the <a target='_blank' href='https://datacamp.pxf.io/YgNDbR'>online course</a>.</p>";
 
 const quickCode = `# library & dataset
 import seaborn as sns

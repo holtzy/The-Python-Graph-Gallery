@@ -12,10 +12,9 @@ import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
-import FunctionExploration from '../components/FunctionExploration'
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/scatter.html'>scatter plot</a> displays the relationship between 2 numeric variables. Each data point is represented as a circle. Several tools allow to build one in python, this section provides code samples for <code>Seaborn</code>, <code>Matplotlib</code> and <code>Plotly</code> for interactive versions.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/scatter.html'>scatter plot</a> displays the relationship between 2 numeric variables. Each data point is represented as a circle. Several tools allow to build one in python, this section provides code samples for <code>Seaborn</code>, <code>Matplotlib</code> and <code>Plotly</code> for interactive versions.  Note that this <a target='_blank' href='https://datacamp.pxf.io/YgNDbR'>online course</a> has a chapter dedicated to scatterplots.</p>";
 
 const quickCode = `# library & dataset
 import seaborn as sns
@@ -278,14 +277,19 @@ export default function ViolinPlot() {
           even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-text-repel-with-matplotlib"}>
               <ChartImage imgName={"web-text-repel-with-matplotlib-square"} caption={"Learn how to use the adjustText library to add many labels with no overlaps."} />
             </Link>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-scatterplot-text-annotation-and-regression-matplotlib"}>
               <ChartImage imgName={"web-scatterplot-text-annotation-and-regression-matplotlib-square"} caption={"Scatterplot with regression fit, group colors and non-overlapping labels."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-scatterplot-astronaut"}>
+              <ChartImage imgName={"web-scatterplot-astronaut-square"} caption={"Dark mode scatterplot with custom annotations, title and explanations. All of that with a very good appearance!"} />
             </Link>
           </Col>
         </Row>

@@ -31,10 +31,9 @@ export default function CheatSheet() {
         <h2 id="Matplotlib"><Matplotlib />Matplotlib cheatsheet</h2>
         <p>
           <a
-            href="https://www.datacamp.com?tap_a=5644-dce66f&tap_s=230804-f65650"
+            href="https://datacamp.pxf.io/YgNDbR"
             title="Datacamp"
-            onClick="trackOutboundLink('https://www.datacamp.com?tap_a=5644-dce66f&tap_s=230804-f65650'); return false;"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             >
               Datacamp
             </a> provides a cheatsheet describing the basics of <code>matplotlib</code>. Matplotlib is the most widely
@@ -64,10 +63,9 @@ export default function CheatSheet() {
         <h2 id="Seaborn"><Seaborn />Seaborn cheatsheet</h2>
         <p>
           <a
-            href="https://www.datacamp.com?tap_a=5644-dce66f&tap_s=230804-f65650"
+            href="https://datacamp.pxf.io/YgNDbR"
             title="Datacamp"
-            onClick="trackOutboundLink('https://www.datacamp.com?tap_a=5644-dce66f&tap_s=230804-f65650'); return false;"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             >
               Datacamp
             </a> provides a cheatsheet describing the basics of <code>seaborn</code>. Seaborn is
@@ -88,10 +86,9 @@ export default function CheatSheet() {
         <h2 id="Pandas"><Pandas />Pandas cheatsheet</h2>
         <p>
           <a
-            href="https://www.datacamp.com?tap_a=5644-dce66f&tap_s=230804-f65650"
+            href="https://datacamp.pxf.io/YgNDbR"
             title="Datacamp"
-            onClick="trackOutboundLink('https://www.datacamp.com?tap_a=5644-dce66f&tap_s=230804-f65650'); return false;"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             >
               Datacamp
             </a> provides a cheatsheet describing the basics of <code>pandas</code>. Pandas is mainly

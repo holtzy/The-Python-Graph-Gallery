@@ -103,9 +103,14 @@ export default function Parallel() {
           even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-radar-chart-with-matplotlib"}>
               <ChartImage imgName={"web-radar-chart-with-matplotlib-square"} caption={"A radar chart can be an alternative to a parallel coordinate plot."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-lemurs-parallel-chart"}>
+              <ChartImage imgName={"web-lemurs-parallel-chart-square"} caption={"A parallel plot or slope chart with groups, legend, title and annotation."} />
             </Link>
           </Col>
         </Row>
