@@ -249,6 +249,11 @@ export default function Barplot() {
               <ChartImage imgName={"web-circular-barplot-with-matplotlib-square"} caption={"A circular barchart with several features per group made with Python and Matplotlib."} />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={"/web-horizontal-barplot-with-labels-the-economist"}>
+              <ChartImage imgName={"web-horizontal-barplot-with-labels-the-economist-square"} caption={"Lear how to mimick the style of the Economist on this horizontal barplot."} />
+            </Link>
+          </Col>
         </Row>
       </Container>
 

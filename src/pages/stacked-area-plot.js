@@ -194,11 +194,17 @@ export default function StackedAreaPlot() {
           even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
-          <Col xs={12} md={12}>
+          <Col xs={12} md={6}>
+            <Link to={"/web-lineplots-and-area-chart-the-economist"}>
+              <ChartImage imgName={"web-lineplots-and-area-chart-the-economist-square2"} caption={"Learn how to mimick The Economist's style with a figure combining both a line and an area chart"} />
+            </Link>
+          </Col>
+          <Col xs={12} md={6}>
             <Link to={"/web-line-chart-with-labels-at-line-end"}>
               <ChartImage imgName={"web-line-chart-with-labels-at-line-end"} caption={"Not a stacked area but a line chart. But shows how to add labels at the end of each group with matplotlib. Definitely better than using a legend!"} />
             </Link>
           </Col>
+
         </Row>
       </Container>
 

@@ -144,19 +144,24 @@ export default function LinePlot() {
           even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-line-chart-with-labels-at-line-end"}>
               <ChartImage imgName={"web-line-chart-with-labels-at-line-end"} caption={"How to add labels at the end of each line with matplotlib. Definitely better than using a legend!"} />
             </Link>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-time-series-and-facetting-with-matplotlib"}>
               <ChartImage imgName={"web-time-series-and-facetting-with-matplotlib-square"} caption={"Display 2 line charts and fill the area between both. Also uses faceting to split by groups."} />
             </Link>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-highlighted-lineplot-with-faceting"}>
               <ChartImage imgName={"web-highlighted-lineplot-with-faceting"} caption={"A multipanel connected scatterplot, with several groups displayed and one highlighted per panel."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-lineplots-and-area-chart-the-economist"}>
+              <ChartImage imgName={"web-lineplots-and-area-chart-the-economist-square1"} caption={"Learn how to mimick The Economist's style with a figure combining both a line and an area chart"} />
             </Link>
           </Col>
         </Row>
