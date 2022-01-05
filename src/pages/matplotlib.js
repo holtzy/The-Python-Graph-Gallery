@@ -339,6 +339,14 @@ export default function Matplotlibs() {
             linkTo="/192-about-matplotlib-margins"
           />
         </Row>
+        <p>Additional note: how to remove some unused entries in a grid using the <code>ax.remove()</code> function:</p>
+        <Row>
+          <ChartImageContainer
+            imgName="how-to-remove-axis-in-matplotlib"
+            caption="How to remove some unused entries in a chart grid."
+            linkTo="/how-to-remove-axis-in-matplotlib"
+          />
+        </Row>
       </Container>
 
       <Spacing />

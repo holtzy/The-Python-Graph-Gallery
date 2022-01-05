@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Seaborn } from "../components/MiscellaneousLogos"
+import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
@@ -83,6 +83,24 @@ export default function Correlogram() {
             imgName="111_Correlogram_custom7"
             caption="Customize the distributions displayed on the diagonal"
             linkTo="/111-custom-correlogram"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Matplotlib"><Matplotlib />Correlogram with <code>Matplotlib</code></h2>
+        <p>
+          As usual it is totally possible to build the chart with Matplotlib, but requires
+          to write a bit more code. Basically, it is done using the subplots() function to create the grid, and
+          next building a loop to add the charts one by one.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="how-to-remove-axis-in-matplotlib"
+            caption="How to remove some unused entries in a chart grid."
+            linkTo="/how-to-remove-axis-in-matplotlib"
           />
         </Row>
       </Container>
