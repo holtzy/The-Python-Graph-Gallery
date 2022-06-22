@@ -11,6 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        {<script src="//www.ezojs.com/ez.min.js" type="text/javascript"></script>}
         {<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3523953066677938"
      crossOrigin="anonymous"></script>}
 	{props.headComponents}

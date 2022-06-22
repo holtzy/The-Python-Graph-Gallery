@@ -119,6 +119,11 @@ export default function ConnectedScatter() {
             caption="How to customize line and markers with Matplotlib"
             linkTo="/122-multiple-lines-chart"
           />
+          <ChartImageContainer
+            imgName="132-basic-connected-scatterplot"
+            caption="Some more connected scatterplot examples with matplotlib"
+            linkTo="/132-basic-connected-scatterplot"
+          />
         </Row>
         <br />
         <p>Cheatsheet: line customization with <code>Matplotlib</code> and the <code>linestyle</code> parameter.</p>
@@ -157,12 +162,12 @@ export default function ConnectedScatter() {
           even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-text-repel-with-matplotlib"}>
               <ChartImage imgName={"web-text-repel-with-matplotlib-square"} caption={"Learn how to use the adjustText library to add many labels with no overlaps."} />
             </Link>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-highlighted-lineplot-with-faceting"}>
               <ChartImage imgName={"web-highlighted-lineplot-with-faceting"} caption={"A multipanel connected scatterplot, with several groups displayed and one highlighted per panel."} />
             </Link>

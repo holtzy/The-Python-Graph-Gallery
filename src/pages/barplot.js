@@ -244,9 +244,19 @@ export default function Barplot() {
           even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
         </p>
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <Link to={"/web-circular-barplot-with-matplotlib"}>
               <ChartImage imgName={"web-circular-barplot-with-matplotlib-square"} caption={"A circular barchart with several features per group made with Python and Matplotlib."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-horizontal-barplot-with-labels-the-economist"}>
+              <ChartImage imgName={"web-horizontal-barplot-with-labels-the-economist-square"} caption={"Lear how to mimick the style of the Economist on this horizontal barplot."} />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={"/web-heatmap-and-radial-barchart-plastics"}>
+              <ChartImage imgName={"web-heatmap-and-radial-barchart-plastics-square2"} caption={"How to combine a heatmap with a radial barplot on the same figure with heaps of visual tweaks."} />
             </Link>
           </Col>
         </Row>

@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Seaborn } from "../components/MiscellaneousLogos"
+import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
 import { Button, Col } from "react-bootstrap";
 import CodeChunk from "../components/CodeChunk"
 import ChartImage from "../components/ChartImage";
@@ -176,7 +176,7 @@ export default function Heatmap() {
       <Spacing />
 
 
-    <Container>
+      <Container>
         <h2 id="Timeseries">Heatmap for timeseries</h2>
         <p>
           A heatmap can be used to display some temporal data. Here is an example using <Link to="/matplotlib">matplotlib</Link> where
@@ -187,6 +187,27 @@ export default function Heatmap() {
             <ChartImage imgName={'heatmap-for-timeseries-matplotlib'} caption={'A heatmap for temporal data with Python and Matplotlib'} />
           </Link>
         </div>
+      </Container>
+
+      <Spacing />
+
+
+      <Container>
+        <h2 id="From the web"><Matplotlib />From the web</h2>
+        <p>The web is full of astonishing charts made by awesome bloggers, (often
+          using <a href="https://www.r-graph-gallery.com">R</a>).
+          The <a href="https://www.python-graph-gallery.com">Python graph gallery</a> tries to
+          display (or translate from R) some of the best creations and explain how their source
+          code works. If you want to display your work here, please drop me a word or
+          even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
+        </p>
+        <Row>
+          <Col xs={12} md={8}>
+            <Link to={"/web-heatmap-and-radial-barchart-plastics"}>
+              <ChartImage imgName={"web-heatmap-and-radial-barchart-plastics"} caption={"How to combine a heatmap with a radial barplot on the same figure with heaps of visual tweaks."} />
+            </Link>
+          </Col>
+        </Row>
       </Container>
 
       <Spacing />

@@ -166,6 +166,11 @@ export default function Pie() {
             caption="A multipanel connected scatterplot, with several groups displayed and one highlighted per panel."
             linkTo="/web-highlighted-lineplot-with-faceting"
           />
+          <ChartImageContainer
+            imgName="web-lineplots-and-area-chart-the-economist-square1"
+            caption="Learn how to mimick The Economist's style with a figure combining both a line and an area chart."
+            linkTo="/web-lineplots-and-area-chart-the-economist"
+          />
         </Row>
       </Container>
 
