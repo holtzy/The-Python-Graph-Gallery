@@ -54,14 +54,14 @@ export default function Radar() {
 
       <div className="greySection" id="warning">
         <Container>
-          <h2 id="Warning">&#9888;&#65039; Radar chart are criticized</h2>
+          <h2 id="Warning">&#9888;&#65039; Radar charts are criticized</h2>
           <p>Spider plots are somewhat criticized. The <u>variable order</u> has
-          a huge impact on the chart appearance, <u>scales</u> can be
-          skewed, <u>overplotting</u> makes it hard to
-          read and <u>over-evaluation</u> of differences are the main arguments.
+            a huge impact on the chart appearance, <u>scales</u> can be
+            skewed, <u>overplotting</u> makes it hard to
+            read and <u>over-evaluation</u> of differences are the main arguments.
           </p>
           <p>You should probably read <a href='https://www.data-to-viz.com/caveat/spider.html'>this article</a> that explains the issues more in depth before building one,
-          and consider switching to one of the alternative below:
+            and consider switching to one of the alternative below:
           </p>
           <SpiderAlternativeLogos />
         </Container>
@@ -90,8 +90,8 @@ export default function Radar() {
           />
         </Row>
         <p>Radar charts are often used in combination with faceting. It allows to compare the features
-        of several groups, what would be unreadable if plotted on the same chart.
-          </p>
+          of several groups, what would be unreadable if plotted on the same chart.
+        </p>
         <Link to={"/392-use-faceting-for-radar-chart"}>
           <ChartImage imgName="393_Faceting_and_Radarchart"
             caption="A polar chart with small multiple to compare 4 groups" />
