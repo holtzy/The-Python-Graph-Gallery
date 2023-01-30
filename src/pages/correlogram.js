@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 
 # Basic correlogram
 sns.pairplot(df)
-sns.plt.show()
+plt.show()
 `
 
 export default function Correlogram() {
