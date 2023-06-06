@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/FormGroup",
-  "private": true,
-  "main": "../cjs/FormGroup.js",
-  "module": "../esm/FormGroup.js",
-  "types": "../esm/FormGroup.d.ts"
-}

@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/ModalTitle",
-  "private": true,
-  "main": "../cjs/ModalTitle.js",
-  "module": "../esm/ModalTitle.js",
-  "types": "../esm/ModalTitle.d.ts"
-}

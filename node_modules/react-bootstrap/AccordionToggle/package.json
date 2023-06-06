@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/AccordionToggle",
-  "private": true,
-  "main": "../cjs/AccordionToggle.js",
-  "module": "../esm/AccordionToggle.js",
-  "types": "../esm/AccordionToggle.d.ts"
-}

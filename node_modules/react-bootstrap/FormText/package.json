@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/FormText",
-  "private": true,
-  "main": "../cjs/FormText.js",
-  "module": "../esm/FormText.js",
-  "types": "../esm/FormText.d.ts"
-}

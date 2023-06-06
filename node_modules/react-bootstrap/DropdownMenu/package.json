@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/DropdownMenu",
-  "private": true,
-  "main": "../cjs/DropdownMenu.js",
-  "module": "../esm/DropdownMenu.js",
-  "types": "../esm/DropdownMenu.d.ts"
-}

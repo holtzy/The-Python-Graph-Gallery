@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/NavbarToggle",
-  "private": true,
-  "main": "../cjs/NavbarToggle.js",
-  "module": "../esm/NavbarToggle.js",
-  "types": "../esm/NavbarToggle.d.ts"
-}

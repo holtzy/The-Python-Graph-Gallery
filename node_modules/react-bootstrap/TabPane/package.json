@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/TabPane",
-  "private": true,
-  "main": "../cjs/TabPane.js",
-  "module": "../esm/TabPane.js",
-  "types": "../esm/TabPane.d.ts"
-}

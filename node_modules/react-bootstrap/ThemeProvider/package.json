@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/ThemeProvider",
-  "private": true,
-  "main": "../cjs/ThemeProvider.js",
-  "module": "../esm/ThemeProvider.js",
-  "types": "../esm/ThemeProvider.d.ts"
-}

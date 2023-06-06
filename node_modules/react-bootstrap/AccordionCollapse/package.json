@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/AccordionCollapse",
-  "private": true,
-  "main": "../cjs/AccordionCollapse.js",
-  "module": "../esm/AccordionCollapse.js",
-  "types": "../esm/AccordionCollapse.d.ts"
-}

@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/FormCheck",
-  "private": true,
-  "main": "../cjs/FormCheck.js",
-  "module": "../esm/FormCheck.js",
-  "types": "../esm/FormCheck.d.ts"
-}

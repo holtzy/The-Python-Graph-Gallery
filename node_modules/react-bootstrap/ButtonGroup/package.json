@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/ButtonGroup",
-  "private": true,
-  "main": "../cjs/ButtonGroup.js",
-  "module": "../esm/ButtonGroup.js",
-  "types": "../esm/ButtonGroup.d.ts"
-}

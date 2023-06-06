@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/BootstrapModalManager",
-  "private": true,
-  "main": "../cjs/BootstrapModalManager.js",
-  "module": "../esm/BootstrapModalManager.js",
-  "types": "../esm/BootstrapModalManager.d.ts"
-}

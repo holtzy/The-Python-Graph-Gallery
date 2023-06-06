@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/ElementChildren",
-  "private": true,
-  "main": "../cjs/ElementChildren.js",
-  "module": "../esm/ElementChildren.js",
-  "types": "../esm/ElementChildren.d.ts"
-}

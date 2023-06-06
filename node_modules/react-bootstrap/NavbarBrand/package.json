@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/NavbarBrand",
-  "private": true,
-  "main": "../cjs/NavbarBrand.js",
-  "module": "../esm/NavbarBrand.js",
-  "types": "../esm/NavbarBrand.d.ts"
-}

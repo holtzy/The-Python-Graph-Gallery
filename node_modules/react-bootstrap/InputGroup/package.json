@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/InputGroup",
-  "private": true,
-  "main": "../cjs/InputGroup.js",
-  "module": "../esm/InputGroup.js",
-  "types": "../esm/InputGroup.d.ts"
-}

@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Button",
-  "private": true,
-  "main": "../cjs/Button.js",
-  "module": "../esm/Button.js",
-  "types": "../esm/Button.d.ts"
-}

@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/FormFile",
-  "private": true,
-  "main": "../cjs/FormFile.js",
-  "module": "../esm/FormFile.js",
-  "types": "../esm/FormFile.d.ts"
-}

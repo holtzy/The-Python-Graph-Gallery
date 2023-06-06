@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/DropdownButton",
-  "private": true,
-  "main": "../cjs/DropdownButton.js",
-  "module": "../esm/DropdownButton.js",
-  "types": "../esm/DropdownButton.d.ts"
-}

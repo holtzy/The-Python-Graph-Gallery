@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Container",
-  "private": true,
-  "main": "../cjs/Container.js",
-  "module": "../esm/Container.js",
-  "types": "../esm/Container.d.ts"
-}

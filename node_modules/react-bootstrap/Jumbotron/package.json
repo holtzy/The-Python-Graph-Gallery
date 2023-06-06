@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Jumbotron",
-  "private": true,
-  "main": "../cjs/Jumbotron.js",
-  "module": "../esm/Jumbotron.js",
-  "types": "../esm/Jumbotron.d.ts"
-}

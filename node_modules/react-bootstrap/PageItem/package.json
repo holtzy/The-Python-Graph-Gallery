@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/PageItem",
-  "private": true,
-  "main": "../cjs/PageItem.js",
-  "module": "../esm/PageItem.js",
-  "types": "../esm/PageItem.d.ts"
-}

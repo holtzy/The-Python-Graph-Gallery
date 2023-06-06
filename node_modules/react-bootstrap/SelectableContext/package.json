@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/SelectableContext",
-  "private": true,
-  "main": "../cjs/SelectableContext.js",
-  "module": "../esm/SelectableContext.js",
-  "types": "../esm/SelectableContext.d.ts"
-}

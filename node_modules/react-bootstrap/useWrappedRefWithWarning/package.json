@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/useWrappedRefWithWarning",
-  "private": true,
-  "main": "../cjs/useWrappedRefWithWarning.js",
-  "module": "../esm/useWrappedRefWithWarning.js",
-  "types": "../esm/useWrappedRefWithWarning.d.ts"
-}

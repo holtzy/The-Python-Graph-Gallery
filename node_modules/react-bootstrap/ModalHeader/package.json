@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/ModalHeader",
-  "private": true,
-  "main": "../cjs/ModalHeader.js",
-  "module": "../esm/ModalHeader.js",
-  "types": "../esm/ModalHeader.d.ts"
-}

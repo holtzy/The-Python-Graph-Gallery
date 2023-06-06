@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/FigureCaption",
-  "private": true,
-  "main": "../cjs/FigureCaption.js",
-  "module": "../esm/FigureCaption.js",
-  "types": "../esm/FigureCaption.d.ts"
-}

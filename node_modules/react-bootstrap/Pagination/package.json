@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Pagination",
-  "private": true,
-  "main": "../cjs/Pagination.js",
-  "module": "../esm/Pagination.js",
-  "types": "../esm/Pagination.d.ts"
-}

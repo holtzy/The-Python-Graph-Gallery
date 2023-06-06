@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Alert",
-  "private": true,
-  "main": "../cjs/Alert.js",
-  "module": "../esm/Alert.js",
-  "types": "../esm/Alert.d.ts"
-}
