@@ -30,7 +30,7 @@ module.exports = {
         },
       },
     },
-    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-react-helmet-async",
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
