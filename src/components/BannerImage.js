@@ -2,33 +2,24 @@ import "./chartImage.css";
 
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 // This component displays a logo representing a sponsor of the gallery.
 export default function BannerImage({ imgName, caption }) {
 
-  const data = useStaticQuery(graphql`
-    query MyQuery3 {
-      allFile(filter: { relativeDirectory: { eq: "banner" } }) {
-        edges {
-          node {
-            id
-            name
-            childImageSharp {
-              fluid {
-                aspectRatio
-                base64
-                sizes
-                src
-                srcWebp
-                srcSet
-              }
-            }
-          }
+  const data = useStaticQuery(graphql`query MyQuery3 {
+  allFile(filter: {relativeDirectory: {eq: "banner"}}) {
+    edges {
+      node {
+        id
+        name
+        childImageSharp {
+          gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
         }
       }
     }
-  `);
+  }
+}`);
 
   const image = data.allFile.edges.find((n) => {
     return n.node.name.includes(imgName);
@@ -38,20 +29,17 @@ export default function BannerImage({ imgName, caption }) {
     return null;
   }
 
-  return (
-    <>
-      <div className="chartImageContainer">
-        <Img
-          alt={imgName}
-          fluid={image.node.childImageSharp.fluid}
-          className="chartImageImg"
-        />
-        <div className="chartImageOverlay">
-          <div className="chartImageOverlayText">
-            <p>{caption}</p>
-          </div>
+  return <>
+    <div className="chartImageContainer">
+      <GatsbyImage
+        image={image.node.childImageSharp.gatsbyImageData}
+        alt={imgName}
+        className="chartImageImg" />
+      <div className="chartImageOverlay">
+        <div className="chartImageOverlayText">
+          <p>{caption}</p>
         </div>
       </div>
-    </>
-  );
+    </div>
+  </>;
 }

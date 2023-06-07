@@ -2,7 +2,7 @@ import "./sectionLogo.css";
 
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import anim150 from "../../static/section/anim150.gif"
 import time150 from "../../static/section/time150.gif"
@@ -20,33 +20,19 @@ export default function SectionLogo({ chartType }) {
       <img src={time150} alt="Timeseries with python" style={{ width: "100%" }} />)
   }
 
-  const data = useStaticQuery(graphql`
-    query ChartFiles {
-      allFile(
-        filter: {
-          relativeDirectory: { eq: "section" }
-          extension: {eq: "png"}
-        }
-      ) {
-        edges {
-          node {
-            id
-            name
-            childImageSharp {
-              fluid {
-                aspectRatio
-                base64
-                sizes
-                src
-                srcWebp
-                srcSet
-              }
-            }
-          }
+  const data = useStaticQuery(graphql`query ChartFiles {
+  allFile(filter: {relativeDirectory: {eq: "section"}, extension: {eq: "png"}}) {
+    edges {
+      node {
+        id
+        name
+        childImageSharp {
+          gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
         }
       }
     }
-  `);
+  }
+}`);
 
   const image = data.allFile.edges.find((n) => {
     return n.node.name === chartType;
@@ -57,10 +43,9 @@ export default function SectionLogo({ chartType }) {
   }
 
   return (
-    <Img
+    <GatsbyImage
+      image={image.node.childImageSharp.gatsbyImageData}
       alt={"todo"}
-      fluid={image.node.childImageSharp.fluid}
-      className="sectionLogoImg"
-    />
+      className="sectionLogoImg" />
   );
 }

@@ -2,7 +2,7 @@ import "./chartImage.css";
 
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const allGifs = ["animated_chart", "animated_gapminder.gif", "animated_volcano.gif"]
 
@@ -15,28 +15,19 @@ export default function ChartImage({ imgName, caption }) {
       <p>TODO</p>)
   }
 
-  const data = useStaticQuery(graphql`
-    query MyQuery {
-      allFile(filter: { relativeDirectory: { eq: "graph" } }) {
-        edges {
-          node {
-            id
-            name
-            childImageSharp {
-              fluid {
-                aspectRatio
-                base64
-                sizes
-                src
-                srcWebp
-                srcSet
-              }
-            }
-          }
+  const data = useStaticQuery(graphql`query MyQuery {
+  allFile(filter: {relativeDirectory: {eq: "graph"}}) {
+    edges {
+      node {
+        id
+        name
+        childImageSharp {
+          gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
         }
       }
     }
-  `);
+  }
+}`);
 
   const image = data.allFile.edges.find((n) => {
     return n.node.name.includes(imgName);
@@ -47,20 +38,17 @@ export default function ChartImage({ imgName, caption }) {
   }
 
   // Note: alt tag looks to be ignored?
-  return (
-    <>
-      <div className="chartImageContainer">
-        <Img
-          alt={caption}
-          fluid={image.node.childImageSharp.fluid}
-          className="chartImageImg"
-        />
-        <div className="chartImageOverlay">
-          <div className="chartImageOverlayText">
-            <p>{caption}</p>
-          </div>
+  return <>
+    <div className="chartImageContainer">
+      <GatsbyImage
+        image={image.node.childImageSharp.gatsbyImageData}
+        alt={caption}
+        className="chartImageImg" />
+      <div className="chartImageOverlay">
+        <div className="chartImageOverlayText">
+          <p>{caption}</p>
         </div>
       </div>
-    </>
-  );
+    </div>
+  </>;
 }
