@@ -15,6 +15,7 @@
     "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
+    "@andru/gatsby-transformer-ipynb": "github:andru/gatsby-transformer-ipynb#deps-update",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "bootstrap": "^5.3.0",
     "d3": "^7.8.5",

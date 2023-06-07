@@ -49,7 +49,7 @@ module.exports = {
       },
     },
     {
-      resolve: `@rafaelquintanilha/gatsby-transformer-ipynb`,
+      resolve: `@andru/gatsby-transformer-ipynb`,
       options: {
         notebookProps: {
           displayOrder: ["image/png", "text/html", "text/plain"],
