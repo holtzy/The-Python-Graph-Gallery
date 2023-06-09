@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/FormLabel",
-  "private": true,
-  "main": "../cjs/FormLabel.js",
-  "module": "../esm/FormLabel.js",
-  "types": "../esm/FormLabel.d.ts"
-}

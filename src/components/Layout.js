@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import PropTypes from 'prop-types';
 
 import Footer from "../components/Footer";
@@ -9,7 +9,7 @@ import TableOfContent from '../components/TableOfContent'
 
 // Import Styles = bootstrap + custom
 import "../styles/style.css";
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // Layout component: add header + footer + TOC to content
 export default function Layout({ children, title, isTocEnabled, chartType, seoDescription, keywords }) {

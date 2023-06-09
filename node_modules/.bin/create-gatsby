@@ -1,1 +1,0 @@
-../create-gatsby/cli.js

@@ -1,7 +1,0 @@
-{
-  "name": "@restart/hooks/useThrottledEventHandler",
-  "private": true,
-  "main": "../cjs/useThrottledEventHandler.js",
-  "module": "../esm/useThrottledEventHandler.js",
-  "types": "../esm/useThrottledEventHandler.d.ts"
-}

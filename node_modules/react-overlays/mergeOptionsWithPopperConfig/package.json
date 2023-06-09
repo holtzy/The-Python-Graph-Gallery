@@ -1,7 +1,0 @@
-{
-  "name": "react-overlays/mergeOptionsWithPopperConfig",
-  "private": true,
-  "main": "../cjs/mergeOptionsWithPopperConfig.js",
-  "module": "../esm/mergeOptionsWithPopperConfig.js",
-  "types": "../esm/mergeOptionsWithPopperConfig.d.ts"
-}

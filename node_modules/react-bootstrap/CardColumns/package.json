@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/CardColumns",
-  "private": true,
-  "main": "../cjs/CardColumns.js",
-  "module": "../esm/CardColumns.js",
-  "types": "../esm/CardColumns.d.ts"
-}

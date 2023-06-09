@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/CarouselCaption",
-  "private": true,
-  "main": "../cjs/CarouselCaption.js",
-  "module": "../esm/CarouselCaption.js",
-  "types": "../esm/CarouselCaption.d.ts"
-}

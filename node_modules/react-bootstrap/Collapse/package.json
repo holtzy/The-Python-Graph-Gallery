@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Collapse",
-  "private": true,
-  "main": "../cjs/Collapse.js",
-  "module": "../esm/Collapse.js",
-  "types": "../esm/Collapse.d.ts"
-}

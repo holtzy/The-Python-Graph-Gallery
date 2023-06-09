@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Overlay",
-  "private": true,
-  "main": "../cjs/Overlay.js",
-  "module": "../esm/Overlay.js",
-  "types": "../esm/Overlay.d.ts"
-}

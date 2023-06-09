@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/CardGroup",
-  "private": true,
-  "main": "../cjs/CardGroup.js",
-  "module": "../esm/CardGroup.js",
-  "types": "../esm/CardGroup.d.ts"
-}

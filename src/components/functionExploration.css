@@ -5,3 +5,11 @@
     padding: 1px 7px;
 }
 
+/* Hack for a bootstrap issue, which causes the !important on the .btn class to override 
+this :checked selector - this selector and css is copied from the bootstrap css, with !important
+appended to each rule to ensure that it overrides the .btn class */
+.btn-check:checked + .btn {
+color: var(--bs-btn-active-color) !important;
+background-color: var(--bs-btn-active-bg) !important;
+border-color: var(--bs-btn-active-border-color) !important;
+}

@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/ToastContext",
-  "private": true,
-  "main": "../cjs/ToastContext.js",
-  "module": "../esm/ToastContext.js",
-  "types": "../esm/ToastContext.d.ts"
-}

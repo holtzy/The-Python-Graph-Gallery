@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/NavbarCollapse",
-  "private": true,
-  "main": "../cjs/NavbarCollapse.js",
-  "module": "../esm/NavbarCollapse.js",
-  "types": "../esm/NavbarCollapse.d.ts"
-}

@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/ModalFooter",
-  "private": true,
-  "main": "../cjs/ModalFooter.js",
-  "module": "../esm/ModalFooter.js",
-  "types": "../esm/ModalFooter.d.ts"
-}

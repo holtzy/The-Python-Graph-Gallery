@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/FormControl",
-  "private": true,
-  "main": "../cjs/FormControl.js",
-  "module": "../esm/FormControl.js",
-  "types": "../esm/FormControl.d.ts"
-}

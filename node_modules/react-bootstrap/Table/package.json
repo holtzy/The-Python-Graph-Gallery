@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Table",
-  "private": true,
-  "main": "../cjs/Table.js",
-  "module": "../esm/Table.js",
-  "types": "../esm/Table.d.ts"
-}

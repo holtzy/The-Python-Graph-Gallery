@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Card",
-  "private": true,
-  "main": "../cjs/Card.js",
-  "module": "../esm/Card.js",
-  "types": "../esm/Card.d.ts"
-}

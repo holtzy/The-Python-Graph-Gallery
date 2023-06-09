@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Feedback",
-  "private": true,
-  "main": "../cjs/Feedback.js",
-  "module": "../esm/Feedback.js",
-  "types": "../esm/Feedback.d.ts"
-}

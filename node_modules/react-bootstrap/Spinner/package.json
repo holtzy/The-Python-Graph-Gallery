@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Spinner",
-  "private": true,
-  "main": "../cjs/Spinner.js",
-  "module": "../esm/Spinner.js",
-  "types": "../esm/Spinner.d.ts"
-}

@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/NavContext",
-  "private": true,
-  "main": "../cjs/NavContext.js",
-  "module": "../esm/NavContext.js",
-  "types": "../esm/NavContext.d.ts"
-}

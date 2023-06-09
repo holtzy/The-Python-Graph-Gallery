@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/ButtonToolbar",
-  "private": true,
-  "main": "../cjs/ButtonToolbar.js",
-  "module": "../esm/ButtonToolbar.js",
-  "types": "../esm/ButtonToolbar.d.ts"
-}

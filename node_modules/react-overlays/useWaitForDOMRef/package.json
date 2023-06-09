@@ -1,7 +1,0 @@
-{
-  "name": "react-overlays/useWaitForDOMRef",
-  "private": true,
-  "main": "../cjs/useWaitForDOMRef.js",
-  "module": "../esm/useWaitForDOMRef.js",
-  "types": "../esm/useWaitForDOMRef.d.ts"
-}

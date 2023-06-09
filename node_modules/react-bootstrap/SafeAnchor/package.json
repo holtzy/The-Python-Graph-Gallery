@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/SafeAnchor",
-  "private": true,
-  "main": "../cjs/SafeAnchor.js",
-  "module": "../esm/SafeAnchor.js",
-  "types": "../esm/SafeAnchor.d.ts"
-}

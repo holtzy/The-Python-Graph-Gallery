@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Navbar",
-  "private": true,
-  "main": "../cjs/Navbar.js",
-  "module": "../esm/Navbar.js",
-  "types": "../esm/Navbar.d.ts"
-}

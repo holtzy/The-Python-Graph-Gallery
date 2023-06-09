@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/FormCheckInput",
-  "private": true,
-  "main": "../cjs/FormCheckInput.js",
-  "module": "../esm/FormCheckInput.js",
-  "types": "../esm/FormCheckInput.d.ts"
-}

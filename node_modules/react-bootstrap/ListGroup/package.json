@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/ListGroup",
-  "private": true,
-  "main": "../cjs/ListGroup.js",
-  "module": "../esm/ListGroup.js",
-  "types": "../esm/ListGroup.d.ts"
-}

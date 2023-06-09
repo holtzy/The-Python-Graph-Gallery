@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/ToggleButton",
-  "private": true,
-  "main": "../cjs/ToggleButton.js",
-  "module": "../esm/ToggleButton.js",
-  "types": "../esm/ToggleButton.d.ts"
-}

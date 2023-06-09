@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/FormCheckLabel",
-  "private": true,
-  "main": "../cjs/FormCheckLabel.js",
-  "module": "../esm/FormCheckLabel.js",
-  "types": "../esm/FormCheckLabel.d.ts"
-}

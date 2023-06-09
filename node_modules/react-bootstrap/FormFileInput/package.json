@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/FormFileInput",
-  "private": true,
-  "main": "../cjs/FormFileInput.js",
-  "module": "../esm/FormFileInput.js",
-  "types": "../esm/FormFileInput.d.ts"
-}

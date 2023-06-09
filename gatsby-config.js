@@ -30,7 +30,8 @@ module.exports = {
         },
       },
     },
-    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-react-helmet-async",
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
@@ -48,7 +49,7 @@ module.exports = {
       },
     },
     {
-      resolve: `@rafaelquintanilha/gatsby-transformer-ipynb`,
+      resolve: `transform-ipynb`,
       options: {
         notebookProps: {
           displayOrder: ["image/png", "text/html", "text/plain"],
@@ -65,7 +66,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#69b3a2`,
         display: `standalone`,
-        icon: `static/logo/Home_single_big.png`
+        icon: `static/logo/Home_single_big.png`,
       },
     },
   ],

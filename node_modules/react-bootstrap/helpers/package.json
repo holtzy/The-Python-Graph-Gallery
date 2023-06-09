@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/helpers",
-  "private": true,
-  "main": "../cjs/helpers.js",
-  "module": "../esm/helpers.js",
-  "types": "../esm/helpers.d.ts"
-}

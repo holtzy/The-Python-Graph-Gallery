@@ -1,7 +1,0 @@
-{
-  "name": "react-overlays/isOverflowing",
-  "private": true,
-  "main": "../cjs/isOverflowing.js",
-  "module": "../esm/isOverflowing.js",
-  "types": "../esm/isOverflowing.d.ts"
-}

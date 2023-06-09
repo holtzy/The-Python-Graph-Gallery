@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/Image",
-  "private": true,
-  "main": "../cjs/Image.js",
-  "module": "../esm/Image.js",
-  "types": "../esm/Image.d.ts"
-}

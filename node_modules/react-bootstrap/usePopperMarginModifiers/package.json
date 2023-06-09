@@ -1,7 +1,0 @@
-{
-  "name": "react-bootstrap/usePopperMarginModifiers",
-  "private": true,
-  "main": "../cjs/usePopperMarginModifiers.js",
-  "module": "../esm/usePopperMarginModifiers.js",
-  "types": "../esm/usePopperMarginModifiers.d.ts"
-}

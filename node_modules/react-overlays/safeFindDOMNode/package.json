@@ -1,7 +1,0 @@
-{
-  "name": "react-overlays/safeFindDOMNode",
-  "private": true,
-  "main": "../cjs/safeFindDOMNode.js",
-  "module": "../esm/safeFindDOMNode.js",
-  "types": "../esm/safeFindDOMNode.d.ts"
-}
