@@ -10,7 +10,7 @@ export default function Footer() {
       <SocialMediaButtons />
       <div className="policy">
         <span>
-          <Link to="/about">About</Link>
+          <Link to="/privacy">Privacy</Link>
           <span> | </span>
           <a href="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE">
             License
