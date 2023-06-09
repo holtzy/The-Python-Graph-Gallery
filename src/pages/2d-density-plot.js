@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import ChartImageContainer from "../components/ChartImageContainer";
 import ChartFamilySection from "../components/ChartFamilySection";
 import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
+import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos";
 import { Button } from "react-bootstrap";
 import ChartImage from "../components/ChartImage";
 import Spacing from "../components/Spacing";
@@ -16,12 +16,12 @@ const chartDescription =
   "<p>This section explains how to build a <a href='https://www.data-to-viz.com/graph/density2d.html'>2d density chart</a> or a <a href='https://www.data-to-viz.com/graph/density2d.html'>2d histogram</a> with python. Those chart types allow to visualize the combined distribution of two quantitative variables. They can be build with <code>Matplotlib</code> or <code>Seaborn</code>.</p>";
 
 export default function Heatmap() {
-
   return (
-
-    <Layout title="2d density chart" isTocEnabled
-      seoDescription="A collection of 2d density chart examples made with Python, coming with explanation and reproducible code">
-
+    <Layout
+      title="2d density chart"
+      isTocEnabled
+      seoDescription="A collection of 2d density chart examples made with Python, coming with explanation and reproducible code"
+    >
       <TitleAndDescription
         title="2D Density Chart"
         description={chartDescription}
@@ -30,24 +30,39 @@ export default function Heatmap() {
       <div className="greySection">
         <Container>
           <h2 id="Warning">💡 What is a 2D density chart?</h2>
-          <p>There are several chart types allowing to visualize the distribution
-          of a combination of 2 numeric variables. They always have a variable represented on the X axis,
-          the other on the Y axis, like
-            for a <Link to='/scatter-plot'>scatterplot</Link> (left).</p>
-          <p>Then the number
-          of observations within a particular area of the 2D space is counted and represented
-          with a color gradient. The shape can vary: hexagones result in a <code>hexbin chart</code>, squares in a <code>2d histogram</code>.
-          A kernel density estimate can be used to get a <code>2d density plots</code> or a <code>contour plots</code></p>
-          <div style={{ maxWidth: '750px', margin: "auto" }}>
+          <p>
+            There are several chart types allowing to visualize the distribution
+            of a combination of 2 numeric variables. They always have a variable
+            represented on the X axis, the other on the Y axis, like for a{" "}
+            <Link to="/scatter-plot">scatterplot</Link> (left).
+          </p>
+          <p>
+            Then the number of observations within a particular area of the 2D
+            space is counted and represented with a color gradient. The shape
+            can vary: hexagones result in a <code>hexbin chart</code>, squares
+            in a <code>2d histogram</code>. A kernel density estimate can be
+            used to get a <code>2d density plots</code> or a{" "}
+            <code>contour plots</code>
+          </p>
+          <div style={{ maxWidth: "750px", margin: "auto" }}>
             <Link to={"/86-avoid-overlapping-in-scatterplot-with-2d-density"}>
-              <ChartImage imgName="86_2D_density_plot_explanation" caption={'Cheat sheet: line customization with matplotlib'} />
+              <ChartImage
+                imgName="86_2D_density_plot_explanation"
+                caption={"Cheat sheet: line customization with matplotlib"}
+              />
             </Link>
           </div>
-          <p>Confusing? Visit <a href='https://www.data-to-viz.com/graph/density2d.html'>data-to-viz</a> to clarify..</p>
-          <a href='https://www.data-to-viz.com/graph/density2d.html'>
+          <p>
+            Confusing? Visit{" "}
+            <a href="https://www.data-to-viz.com/graph/density2d.html">
+              data-to-viz
+            </a>{" "}
+            to clarify..
+          </p>
+          <a href="https://www.data-to-viz.com/graph/density2d.html">
             <Button size="sm">More viz explanation</Button>
           </a>
-          <Link to='/86-avoid-overlapping-in-scatterplot-with-2d-density'>
+          <Link to="/86-avoid-overlapping-in-scatterplot-with-2d-density">
             <Button size="sm">Show me the code</Button>
           </Link>
         </Container>
@@ -56,9 +71,13 @@ export default function Heatmap() {
       <Spacing />
 
       <Container>
-        <h2 id="Contour"><Seaborn />Contour plot with <code>Seaborn</code></h2>
+        <h2 id="Contour">
+          <Seaborn />
+          Contour plot with <code>Seaborn</code>
+        </h2>
         <p>
-          The contour plot can be easily built thanks to the <code>kdeplot()</code> function of the Seaborn library.
+          The contour plot can be easily built thanks to the{" "}
+          <code>kdeplot()</code> function of the Seaborn library.
         </p>
         <Row>
           <ChartImageContainer
@@ -82,10 +101,15 @@ export default function Heatmap() {
       <Spacing />
 
       <Container>
-        <h2 id="2d histogram"><Seaborn />2D histogram with <code>Seaborn</code></h2>
+        <h2 id="2d histogram">
+          <Seaborn />
+          2D histogram with <code>Seaborn</code>
+        </h2>
         <p>
-          Build a 2d histogram thanks to the <code>hist2d()</code> function of the <code>Seaborn</code> library. Do not
-          forget to play with the <code>bins</code> argument to find the value representing the best your data.
+          Build a 2d histogram thanks to the <code>hist2d()</code> function of
+          the <code>Seaborn</code> library. Do not forget to play with the{" "}
+          <code>bins</code> argument to find the value representing the best
+          your data.
         </p>
         <Row>
           <ChartImageContainer
@@ -109,9 +133,14 @@ export default function Heatmap() {
       <Spacing />
 
       <Container>
-        <h2 id="Hexbin"><Matplotlib />Hexbin chart with <code>Matplotlib</code></h2>
+        <h2 id="Hexbin">
+          <Matplotlib />
+          Hexbin chart with <code>Matplotlib</code>
+        </h2>
         <p>
-          Split the graph area in hexagones and you get a hexbin density chart. This time, it is <code>matplotlib</code> that gets you covered thanks to its <code>hexbin()</code> function.
+          Split the graph area in hexagones and you get a hexbin density chart.
+          This time, it is <code>matplotlib</code> that gets you covered thanks
+          to its <code>hexbin()</code> function.
         </p>
         <Row>
           <ChartImageContainer
@@ -130,9 +159,14 @@ export default function Heatmap() {
       <Spacing />
 
       <Container>
-        <h2 id="2d density"><Matplotlib />2d density chart with <code>Matplotlib</code></h2>
+        <h2 id="2d density">
+          <Matplotlib />
+          2d density chart with <code>Matplotlib</code>
+        </h2>
         <p>
-          2D densities are computed thanks to the <code>gaussian_kde()</code> function and plotted thanks with the <code>pcolormesh()</code> function of <code>matplotlib()</code>.
+          2D densities are computed thanks to the <code>gaussian_kde()</code>{" "}
+          function and plotted thanks with the <code>pcolormesh()</code>{" "}
+          function of <code>matplotlib()</code>.
         </p>
         <Row>
           <ChartImageContainer
@@ -151,11 +185,15 @@ export default function Heatmap() {
       <Spacing />
 
       <Container>
-        <h2 id="Marginal plot"><Matplotlib />2d density and marginal plots</h2>
+        <h2 id="Marginal plot">
+          <Matplotlib />
+          2d density and marginal plots
+        </h2>
         <p>
-          2D densities often combined with marginal distributions. It helps to highlight the distribution
-          of both variables individually. It is pretty straightforward to add thanks to the <code>jointplot()</code> function
-          of the <code>Seaborn</code> library.
+          2D densities often combined with marginal distributions. It helps to
+          highlight the distribution of both variables individually. It is
+          pretty straightforward to add thanks to the <code>jointplot()</code>{" "}
+          function of the <code>Seaborn</code> library.
         </p>
         <Row>
           <ChartImageContainer
@@ -191,7 +229,6 @@ export default function Heatmap() {
       </Container>
 
       <Spacing />
-
-    </Layout >
+    </Layout>
   );
 }

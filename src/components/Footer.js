@@ -6,13 +6,11 @@ import SocialMediaButtons from "./SocialMediaButtons";
 export default function Footer() {
   return (
     <div className="footer">
-      <div className="copyright">Copyright © the Python Graph Gallery 2018</div>
+      <div className="copyright">Copyright © the Python Graph Gallery 2023</div>
       <SocialMediaButtons />
       <div className="policy">
         <span>
-          <Link to="/about">
-            About
-          </Link>
+          <Link to="/about">About</Link>
           <span> | </span>
           <a href="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE">
             License
