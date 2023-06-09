@@ -1,15 +1,15 @@
 :root {
-    --distribution-color: yellow;
-    --light-grey:  #f8f9fa;
-    --medium-grey: #e5e5e5;
-    --dark-grey: #C8C8C8;
-    --python-gallery: #82a5d0;
-    --light-black: #484848;
+  --distribution-color: yellow;
+  --light-grey: #f8f9fa;
+  --medium-grey: #e5e5e5;
+  --dark-grey: #c8c8c8;
+  --python-gallery: #82a5d0;
+  --light-black: #484848;
 }
 
 body {
-    overflow-x: hidden;
-    font-family: 'Roboto' !important;
+  overflow-x: hidden;
+  font-family: "Roboto" !important;
 }
 
 /* ---------- Titles ----------------- */
@@ -20,139 +20,139 @@ h4,
 h5,
 h6 {
   font-weight: 300 !important;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif !important;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif !important;
   /* scroll margin allows to add a bit of space around the title we're targeting with the table of content */
   scroll-margin: 100px;
 }
 
 h2 {
-    font-size: 22px !important;
-    width: 100%;
-    border-bottom: 1px solid var(--medium-grey);
-    margin-top: 30px !important;
-    margin-bottom: 10px !important;
-    padding-bottom: 10px !important;
+  font-size: 22px !important;
+  width: 100%;
+  border-bottom: 1px solid var(--medium-grey);
+  margin-top: 30px !important;
+  margin-bottom: 10px !important;
+  padding-bottom: 10px !important;
 }
 
 h3 {
-    font-size: 20px !important;
-    width: 100%;
-    border-bottom: 1px solid var(--medium-grey);
-    margin-top: 30px !important;
-    margin-bottom: 10px !important;
-    padding-bottom: 10px !important;
+  font-size: 20px !important;
+  width: 100%;
+  border-bottom: 1px solid var(--medium-grey);
+  margin-top: 30px !important;
+  margin-bottom: 10px !important;
+  padding-bottom: 10px !important;
 }
 
 p {
-    line-height: 1.75 !important;
-    font-family: 'Roboto' !important;
+  line-height: 1.75 !important;
+  font-family: "Roboto" !important;
 }
-
 
 /* ---------- Section ----------------- */
 .lightSection {
-    padding-top: 2px;
-    padding-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 10px;
 }
 
 .greySection {
-    background-color: var(--light-grey);
-    padding-top: 2px;
-    padding-bottom: 10px;
+  background-color: var(--light-grey);
+  padding-top: 2px;
+  padding-bottom: 10px;
 }
 
 code {
-    background-color: var(--light-grey) !important;
-    padding: 4px;
-    border-radius: 4px,
+  background-color: var(--light-grey) !important;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 /* Reduce the content width on big screen. I like it when it looks a bit more like newspaper */
-@media (min-width: 992px){
-    .container {
-        padding-left: 150px  !important;
-        padding-right: 150px  !important;
-    }
+@media (min-width: 992px) {
+  .container {
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+  }
 }
 
 blockquote {
-    background: var(--light-grey);
-    border-left: 2px solid var(--python-gallery);
-    margin: 10px 50px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-  }
+  background: var(--light-grey);
+  border-left: 2px solid var(--python-gallery);
+  margin: 10px 50px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
 blockquote p {
-    display: inline;
+  display: inline;
 }
 
 /* To remove, test for table of content */
-.is-current{
-    color: red !important;
-    background-color: red;
+.is-current {
+  color: red !important;
+  background-color: red;
 }
 
 a {
-    color: var(--python-gallery) !important;
+  color: var(--python-gallery) !important;
 }
 
 a:hover {
-    color: #251667 !important;
+  color: #251667 !important;
 }
 
 /* Each section has a specific color */
-.distribution{
-    color: #e0ac2b
+.distribution {
+  color: #e0ac2b;
 }
-.correlation{
-    color: #7f7f7f;
+.correlation {
+  color: #7f7f7f;
 }
-.ranking{
-    color: #a4c969;
+.ranking {
+  color: #a4c969;
 }
-.partOfAWhole{
-    color: #e85252;
+.partOfAWhole {
+  color: #e85252;
 }
-.evolution{
-    color: #6689c6;
+.evolution {
+  color: #6689c6;
 }
-.map{
-    color: #9a6fb0;
+.map {
+  color: #9a6fb0;
 }
-.flow{
-    color: #a53253;
+.flow {
+  color: #a53253;
 }
-
 
 /* ---------- Button ----------------- */
 .btn {
-    font-family: 'Montserrat', sans-serif !important;
-    font-weight: 500 !important;
-    border-color: var(--python-gallery) !important;
-    color: var(--python-gallery) !important;
-    border-width: 2px !important;
-    background-color: transparent !important;
-    margin: 3px !important;
-  }
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500 !important;
+  border-color: var(--python-gallery) !important;
+  color: var(--python-gallery) !important;
+  border-width: 2px;
+  background-color: transparent !important;
+  margin: 3px !important;
+}
 
-  .btn-xl {
-    font-size: 18px !important;
-    padding: 20px 40px !important;
-  }
+.btn-xl {
+  font-size: 18px !important;
+  padding: 20px 40px !important;
+}
 
-  .btn:active, .btn:focus, .btn:hover {
-    background-color: var(--python-gallery) !important;
-    border-color: var(--python-gallery) !important;
-    color: white !important;
-  }
+.btn:active,
+.btn:focus,
+.btn:hover {
+  background-color: var(--python-gallery) !important;
+  border-color: var(--python-gallery) !important;
+  color: white !important;
+}
 
 .sectionTitle {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* Code appearance in notebooks: */
-pre.input{
-    line-height: 1.35em !important;
-    margin-bottom: 20px !important;
-    margin-top: 0px !important;
+pre.input {
+  line-height: 1.35em !important;
+  margin-bottom: 20px !important;
+  margin-top: 0px !important;
 }
