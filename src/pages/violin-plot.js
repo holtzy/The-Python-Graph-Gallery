@@ -15,7 +15,7 @@ import FunctionExploration from '../components/FunctionExploration'
 import Spacing from "../components/Spacing";
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/violin.html'>violint plot</a> allow to visualize the distribution of a numeric variable for one or several groups. <code>Seaborn</code> is particularly adapted to build it thanks to its <code>violin()</code> function. Violinplots deserve more attention compared to <a href='https://www.python-graph-gallery.com/boxplot'>boxplots</a> that can sometimes hide features of the data.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/violin.html'>violint plot</a> allows you to visualize the distribution of a numeric variable for one or several groups. <code>Seaborn</code> is particularly adapted to build it thanks to its <code>violin()</code> function. Violin plots deserve more attention than <a href='https://www.python-graph-gallery.com/boxplot'>boxplots</a>, which can sometimes hide features of the data.</p>";
 
 const quickCode = `# library & dataset
 import seaborn as sns
@@ -57,8 +57,8 @@ export default function ViolinPlot() {
       <Container>
         <h2 id="Seaborn"><Seaborn />Violin charts with <code>Seaborn</code></h2>
         <p>
-          <code>Seaborn</code> is a python library allowing to make better
-          charts easily. It is well adapted to build density charts thanks to
+          <code>Seaborn</code> is a python library that enables you to make better
+          visualizations. It is well adapted to build density charts thanks to
           its <code>violin</code> function. The following charts will guide you
           through its usage, going from a very{" "}
           <Link to="/50-basic-violinplot-and-input-formats">basic violin plot</Link> to something much more{" "}
