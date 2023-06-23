@@ -13,7 +13,9 @@ export default function HTML(props) {
         />
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes}>
+
+      {/* home added after Raptive asked */}
+      <body className="home" {...props.bodyAttributes}>
         {props.preBodyComponents}
         <div
           key={`body`}
