@@ -34,7 +34,7 @@ jobs:
             echo "::set-output name=changes::false"
           else
             echo "ads.txt has changed."
-            mv fetched_ads.txt ads.txt
+            mv static/fetched_ads.txt static/ads.txt
             echo "::set-output name=changes::false"
           fi
 
