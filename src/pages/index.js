@@ -14,6 +14,7 @@ export default function Home() {
     <Layout
       title="Python Graph Gallery"
       seoDescription="The Python Graph Gallery displays hundreds of charts made with Python, always with explanation and reproduciible code"
+      isHome
     >
       <TitleAndDescription
         title="The Python Graph Gallery"

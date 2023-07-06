@@ -19,6 +19,7 @@ export default function Layout({
   chartType,
   seoDescription,
   keywords,
+  isHome = false
 }) {
   return (
     <>
@@ -78,7 +79,7 @@ export default function Layout({
         <TopNavbar />
       </header>
 
-      <main>{children}</main>
+      <main className={isHome ? "home" : "not-home"}>{children}</main>
 
       <SideLogos />
 
@@ -96,4 +97,5 @@ Layout.propTypes = {
   chartType: PropTypes.string,
   seoDescription: PropTypes.string,
   keywords: PropTypes.string,
+  isHome: PropTypes.bool
 };
