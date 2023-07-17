@@ -57,6 +57,9 @@ module.exports = {
         },
       },
     },
+    // Progressive web app, Allow to have icon in home page of screens.
+    // I should probably remove this
+    // https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
