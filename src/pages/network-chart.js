@@ -65,6 +65,11 @@ export default function Network() {
             caption="Control the background color of a network chart"
             linkTo="/326-background-colour-of-network-chart"
           />
+          <ChartImageContainer
+            imgName="500-network-chart-with-edge-bundling"
+            caption="Bundles network edges together to reduce the figure visual clutter"
+            linkTo="/500-network-chart-with-edge-bundling"
+          />
         </Row>
         <br />
         <p>A common need when dealing with network charts is to map a numeric or categorical
