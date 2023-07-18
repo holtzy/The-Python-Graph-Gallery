@@ -1,19 +1,15 @@
 .contactSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Override the usual h2 title here, but keep h2 to be included in TOC */
 .contactSection .contactTitle {
-    text-transform: uppercase;
-    font-size: 40px !important;
-    font-family: 'Montserrat' !important;
-    width: inherit;
-    border: none !important;
+  width: inherit;
 }
 
 .contactSection .contactText {
-    max-width: 600px;
-    text-align: center;
+  max-width: 600px;
+  text-align: center;
 }
