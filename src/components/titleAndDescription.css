@@ -2,12 +2,6 @@
 .titleAndDescription {
     padding-top: 150px;
     padding-bottom: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
 
 .titleAndDescription .mainTitle {
@@ -15,21 +9,23 @@
 }
 
 .titleAndDescription .description {
-    max-width: 600px;
-    text-align: center;
+    max-width: 800px;
 }
 
+/* ---------- Horizontal separator ----------------- */
 .smallHr {
-    border: 0;
-    border-top: 1px solid black;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  border: 0;
+  border-top: 1px solid black;
+  width: 0;
+  animation: separator-width 2s ease-in-out forwards;
+}
+@keyframes separator-width {
+  0% {
     width: 0;
-    animation: separator-width .3s ease-in-out forwards;
   }
-  @keyframes separator-width {
-    0% {
-      width: 0;
-    }
-    100% {
-        width: 100px;
-    }
+  100% {
+    width: 200px;
   }
+}

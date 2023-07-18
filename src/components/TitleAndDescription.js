@@ -2,11 +2,11 @@ import "./titleAndDescription.css";
 import React from "react";
 import PropTypes from 'prop-types';
 
-import SocialMediaButtons from "./SocialMediaButtons";
 import Button from "react-bootstrap/Button";
 import { Link } from "gatsby";
 import { chartTypesInfo } from "../util/sectionDescriptions";
 import { fullUrlToInternalLink } from "../util/utils";
+import { Container } from "react-bootstrap";
 // import Sponsors from "../components/Sponsors";
 
 // Note that the description received is a string that contains html.
@@ -16,15 +16,23 @@ export default function TitleAndDescription({ title, description, chartType }) {
   const chartInfo = chartTypesInfo.filter((chart) => chart.id === chartType)[0];
 
   return (
-    <>
+    <Container>
       <div className="titleAndDescription">
         <h1 className="mainTitle">{title}</h1>
         <hr className="smallHr" />
-        <SocialMediaButtons />
-        <div
-          className="description"
-          dangerouslySetInnerHTML={{ __html: description }}
-        />
+        {typeof description === 'string' 
+        ? <div
+        className="description"
+        dangerouslySetInnerHTML={{ __html: description }}
+      /> 
+        : <div
+        className="description"
+      >{description}</div>
+      }
+
+
+        
+        
         {chartType && (
           <div style={{ marginTop: "10px" }}>
             <Link to={fullUrlToInternalLink(chartInfo.pythonURL)}>
@@ -36,13 +44,15 @@ export default function TitleAndDescription({ title, description, chartType }) {
           </div>
         )}
       </div>
-      {/* <Sponsors /> */}
-    </>
+    </Container>
   );
 }
 
 TitleAndDescription.propTypes = {
   title: PropTypes.string,
-  description: PropTypes.string,
+  description: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.element
+  ]),
   chartType: PropTypes.string
 };

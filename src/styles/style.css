@@ -29,6 +29,8 @@
   color: #a53253;
 }
 
+
+
 /* ---------- Global CSS ----------------- */
 body {
   overflow-x: hidden;
@@ -39,48 +41,75 @@ body {
   color: #333;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 /* I use the Container component of the react-bootstrap library. */
 /* But on wide screen I feel like the website is too wide. This restricts it a bit. */
 .container {
   max-width: 822px;
 }
 
+a {
+  color: var(--python-gallery);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 0.1px;
+}
+a:hover {
+  color: #251667;
+}
+
+
+
+
 
 /* ---------- Titles ----------------- */
+h1 {
+  font-size: 42px;
+  line-height: 54px;
+  font-family: "Bitter", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 44px;
+  font-family: "Bitter", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  width: 100%;
+  border-bottom: 1px solid var(--medium-grey);
+  margin-top: 100px !important;
+  margin-bottom: 10px !important;
+  padding-bottom: 10px !important;
+  /* scroll margin allows to add a bit of space around the title we're targeting with the table of content */
+  scroll-margin: 100px;
+}
+
+h3 {
+  font-family: "Bitter", sans-serif;
+  font-weight: bold;
+  line-height: 34px;
+  letter-spacing: 0.03em;
+  font-size: 22px;
+  width: 100%;
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   /* scroll margin allows to add a bit of space around the title we're targeting with the table of content */
   scroll-margin: 100px;
 }
 
-h2 {
-  font-size: 22px;
-  width: 100%;
-  border-bottom: 1px solid var(--medium-grey);
-  margin-top: 30px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}
-
-h3 {
-  font-size: 20px;
-  width: 100%;
-  border-bottom: 1px solid var(--medium-grey);
-  margin-top: 30px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}
-
-p {
-  line-height: 1.75;
-  font-family: "Roboto";
-}
 
 
 
@@ -126,13 +155,7 @@ pre.input {
   margin-top: 0px;
 }
 
-a {
-  color: var(--python-gallery);
-}
 
-a:hover {
-  color: #251667;
-}
 
 
 

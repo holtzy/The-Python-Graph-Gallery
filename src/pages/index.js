@@ -6,8 +6,19 @@ import Container from "react-bootstrap/Container";
 import Contact from "../components/Contact";
 import Spacing from "../components/Spacing";
 
-const siteDescription =
-  "<p>Welcome to the Python Graph Gallery, a collection of hundreds of charts made with <code>Python</code>. Charts are organized in about 40 sections and always come with their associated reproducible code. They are mostly made with <code>Matplotlib</code> and <code>Seaborn</code> but other libraries like <code>Plotly</code> are sometimes used.</p>";
+const siteDescription = (
+  <>
+    <p>
+      The Python Graph Gallery is a collection of hundreds of charts made with <code>Python</code>.
+    </p>
+    <p>
+      Graphs are dispatched in about 40 sections following the <a href='https://www.data-to-viz.com'>data-to-viz</a> classification.
+    </p>
+    <p>
+      Examples always come with their associated reproducible code. They are mostly made with <code>Matplotlib</code> and <code>Seaborn</code> but other libraries like <code>Plotly</code> are sometimes used.
+    </p>
+  </>
+);
 
 export default function Home() {
   return (
