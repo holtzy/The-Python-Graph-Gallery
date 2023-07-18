@@ -1,48 +1,47 @@
 .navbar {
-    justify-content: space-between !important;
-    align-items: center !important;
-    background-color: white !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  background-color: white !important;
 }
 
 #basic-navbar-nav {
-    flex-grow: inherit !important;
+  flex-grow: inherit !important;
 }
 
 /* link to homepage on the topleft */
 .navbar-brand {
-    color: var(--python-gallery) !important;
-    font-size: 15px !important;
-    margin-bottom: 8px;
+  color: var(--python-gallery) !important;
+  font-size: 17px !important;
 }
 
 /* Main link in the navbar */
 .nav-link {
-    text-transform: uppercase!important;
-    color: black !important;
-    font-family: 'Montserrat' !important;
-    font-size: 13px !important;
-    border-width: 1px !important;
-    border-bottom: solid;
-    border-color: transparent;
+  text-transform: uppercase !important;
+  color: black !important;
+  font-family: 'Montserrat' !important;
+  font-size: 13px !important;
+  border-width: 1px !important;
+  border-bottom: solid;
+  border-color: transparent;
 }
 .nav-link:hover {
-    color: var(--python-gallery) !important;
-    border-bottom: solid var(--python-gallery);
-    border-width: 1px;
+  color: var(--python-gallery) !important;
+  border-bottom: solid var(--python-gallery);
+  border-width: 1px;
 }
 
 .dropdown-item {
-    font-size: 13px;
-    padding-left: 28px !important;
-    color: darkgrey !important;
+  font-size: 13px;
+  padding-left: 28px !important;
+  color: darkgrey !important;
 }
 .menuItemMain {
-    font-size: 15px;
-    color: black !important;
-    padding-left: 15px !important;
-    margin-right: 80px !important;
-    margin-bottom: 0px !important;
+  font-size: 15px;
+  color: black !important;
+  padding-left: 15px !important;
+  margin-right: 80px !important;
+  margin-bottom: 0px !important;
 }
 .menuItemLogo {
-    padding-left: 10px;
+  padding-left: 10px;
 }

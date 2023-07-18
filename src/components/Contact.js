@@ -74,7 +74,7 @@ export default function Contact({ pageSlug, isNotebook }) {
         <Button
           size="md"
           href="https://datavizuniverse.substack.com/"
-          bsStyle="secondary"
+          bsStyle="primary"
         >
           Subscribe
         </Button>

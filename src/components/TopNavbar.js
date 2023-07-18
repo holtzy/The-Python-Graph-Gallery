@@ -1,15 +1,15 @@
-import "./topNavbar.css";
+import './topNavbar.css';
 
-import React from "react";
+import React from 'react';
 
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Container from "react-bootstrap/Container";
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from 'react-bootstrap/Container';
 
-import AllChartsModal from "./AllChartsModal";
-import { Matplotlib, Seaborn, Plotly } from "../components/MiscellaneousLogos";
-import { Button } from "react-bootstrap";
+import AllChartsModal from './AllChartsModal';
+import { Matplotlib, Seaborn, Plotly } from '../components/MiscellaneousLogos';
+import { Button } from 'react-bootstrap';
 
 export default function TopNavbar() {
   const [show, setShow] = React.useState(false);
