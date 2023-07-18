@@ -1,17 +1,18 @@
 /* h1 is defined in main style.css sheet */
 .titleAndDescription {
-    padding-top: 150px;
-    padding-bottom: 80px;
-}
-
-.titleAndDescription .mainTitle {
-  max-width: 800px;
+  padding-top: 150px;
+  padding-bottom: 80px;
 }
 
 .titleAndDescription .description {
-    max-width: 800px;
+  max-width: 800px;
 }
 
+.titleRow {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
 /* ---------- Horizontal separator ----------------- */
 .smallHr {
   margin-top: 23px;

@@ -1,18 +1,18 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import Row from "react-bootstrap/Row";
-import ChartImageContainer from "../components/ChartImageContainer";
-import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
-import { Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk"
-import ChartImage from "../components/ChartImage";
-import FunctionExploration from '../components/FunctionExploration'
-import Spacing from "../components/Spacing";
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import Row from 'react-bootstrap/Row';
+import ChartImageContainer from '../components/ChartImageContainer';
+import ChartFamilySection from '../components/ChartFamilySection';
+import { Link } from 'gatsby';
+import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Col } from 'react-bootstrap';
+import CodeChunk from '../components/CodeChunk';
+import ChartImage from '../components/ChartImage';
+import FunctionExploration from '../components/FunctionExploration';
+import Spacing from '../components/Spacing';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/violin.html'>violint plot</a> allows you to visualize the distribution of a numeric variable for one or several groups. <code>Seaborn</code> is particularly adapted to build it thanks to its <code>violin()</code> function. Violin plots deserve more attention than <a href='https://www.python-graph-gallery.com/boxplot'>boxplots</a>, which can sometimes hide features of the data.</p>";
@@ -23,29 +23,34 @@ df = sns.load_dataset('iris')
 
 # plot
 sns.violinplot(x=df["species"], y=df["sepal_length"])
-`
+`;
 
 export default function ViolinPlot() {
-
   return (
-
-    <Layout title="Violin plot" isTocEnabled seoDescription="A collection of violin plot examples made with Python, coming with explanation and reproducible code">
-
-      <TitleAndDescription
-        title="Violin plot"
-        description={chartDescription}
-      />
+    <Layout
+      title="Violin plot"
+      isTocEnabled
+      seoDescription="A collection of violin plot examples made with Python, coming with explanation and reproducible code"
+    >
+      <TitleAndDescription title="Violin plot" description={chartDescription} />
 
       <Container>
         <h2 id="Quick start">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p><code>Seaborn</code> is definitely the best library to quickly build a violin plot. It offers a dedicated <code>violinplot()</code> function that roughly works as follows:🔥</p>
+            <p>
+              <code>Seaborn</code> is definitely the best library to quickly
+              build a violin plot. It offers a dedicated{' '}
+              <code>violinplot()</code> function that roughly works as
+              follows:🔥
+            </p>
           </Col>
           <Col md={6}>
-            <Link to={"/50-basic-violinplot-and-input-formats"}>
-              <ChartImage imgName="50_Basic_Violin_seaborn2"
-                caption="The most basic violin plot one can make with python and seaborn" />
+            <Link to={'/50-basic-violinplot-and-input-formats'}>
+              <ChartImage
+                imgName="50_Basic_Violin_seaborn2"
+                caption="The most basic violin plot one can make with python and seaborn"
+              />
             </Link>
           </Col>
         </Row>
@@ -55,13 +60,19 @@ export default function ViolinPlot() {
       <Spacing />
 
       <Container>
-        <h2 id="Seaborn"><Seaborn />Violin charts with <code>Seaborn</code></h2>
+        <h2 id="Seaborn">
+          <Seaborn />
+          Violin charts with <code>Seaborn</code>
+        </h2>
         <p>
-          <code>Seaborn</code> is a python library that enables you to make better
-          visualizations. It is well adapted to build density charts thanks to
-          its <code>violin</code> function. The following charts will guide you
-          through its usage, going from a very{" "}
-          <Link to="/50-basic-violinplot-and-input-formats">basic violin plot</Link> to something much more{" "}
+          <code>Seaborn</code> is a python library that enables you to make
+          better visualizations. It is well adapted to build density charts
+          thanks to its <code>violin</code> function. The following charts will
+          guide you through its usage, going from a very{' '}
+          <Link to="/50-basic-violinplot-and-input-formats">
+            basic violin plot
+          </Link>{' '}
+          to something much more{' '}
           <Link to="/52-custom-seaborn-violinplot">customized</Link>.
         </p>
         <Row>
@@ -105,6 +116,11 @@ export default function ViolinPlot() {
             caption="If you have both groups and subgroups, you'll be interested in a grouped violin plot"
             linkTo="/54-grouped-violinplot"
           />
+          <ChartImageContainer
+            imgName="502-violinplot-and-swarmplot"
+            caption="Add a swarmplot on top of a violin chart to show individual data points"
+            linkTo="/502-violinplot-and-swarmplot"
+          />
         </Row>
       </Container>
 
@@ -112,25 +128,40 @@ export default function ViolinPlot() {
 
       <div className="greySection">
         <Container>
-          <FunctionExploration functionName={"violin"} />
+          <FunctionExploration functionName={'violin'} />
         </Container>
       </div>
 
       <Spacing />
 
       <Container>
-        <h2 id="From the web"><Matplotlib />From the web</h2>
-        <p>The web is full of astonishing charts made by awesome bloggers, (often
-          using <a href="https://www.r-graph-gallery.com">R</a>).
-          The <a href="https://www.python-graph-gallery.com">Python graph gallery</a> tries to
-          display (or translate from R) some of the best creations and explain how their source
-          code works. If you want to display your work here, please drop me a word or
-          even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
+        <h2 id="From the web">
+          <Matplotlib />
+          From the web
+        </h2>
+        <p>
+          The web is full of astonishing charts made by awesome bloggers, (often
+          using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
+          <a href="https://www.python-graph-gallery.com">
+            Python graph gallery
+          </a>{' '}
+          tries to display (or translate from R) some of the best creations and
+          explain how their source code works. If you want to display your work
+          here, please drop me a word or even better, submit a{' '}
+          <a href="https://github.com/holtzy/The-Python-Graph-Gallery">
+            Pull Request
+          </a>
+          !
         </p>
         <Row>
           <Col xs={12} md={6}>
-            <Link to={"/web-ggbetweenstats-with-matplotlib"}>
-              <ChartImage imgName={"web-ggbetweenstats-with-matplotlib-square"} caption={"A combination of a violin plot and a boxplot. Allows the comparison of several groups with statistical test results on top."} />
+            <Link to={'/web-ggbetweenstats-with-matplotlib'}>
+              <ChartImage
+                imgName={'web-ggbetweenstats-with-matplotlib-square'}
+                caption={
+                  'A combination of a violin plot and a boxplot. Allows the comparison of several groups with statistical test results on top.'
+                }
+              />
             </Link>
           </Col>
         </Row>
@@ -151,7 +182,6 @@ export default function ViolinPlot() {
       </Container>
 
       <Spacing />
-
-    </Layout >
+    </Layout>
   );
 }

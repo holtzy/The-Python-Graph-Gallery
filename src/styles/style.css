@@ -134,11 +134,17 @@ blockquote p {
   display: inline;
 }
 
-/* Code appearance in notebooks: */
+/* ---------- How code looks like in notebooks ----------------- */
 pre.input {
   line-height: 1.35em;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
   margin-top: 0px;
+}
+.nteract-display-area-stderr {
+  display: none;
+}
+.cell_display img {
+  margin-bottom: 30px;
 }
 
 /* ---------- Button ----------------- */

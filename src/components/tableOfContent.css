@@ -1,30 +1,33 @@
 .table-of-content {
-    position: fixed;
-    right: 20px;
-    top: 40%;
-    width: 13%;
-    overflow: hidden;
+  position: fixed;
+  right: 20px;
+  top: 40%;
+  width: 13%;
+  overflow: hidden;
 }
 
-@media (max-width: 1400px){
-    .table-of-content {
-        display: none;
-    }
+@media (max-width: 1400px) {
+  .table-of-content {
+    display: none;
+  }
 }
 
 .toc-item {
-    border-width: 1px;
-    border-left: solid;
-    border-left-color: transparent;
-    padding-left: 8px;
-    cursor: pointer;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    color: lightgray;
-    font-weight: 100;
+  border-width: 1px;
+  border-left: solid;
+  border-left-color: transparent;
+  padding-left: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: lightgray;
+  font-weight: 300;
+  margin-bottom: 5px;
+  font-size: 17px;
 }
 .active-toc-item {
-    border-left-color: var(--python-gallery);
-    color: black;
+  border-left-color: var(--python-gallery);
+  color: black;
+  font-weight: 400;
 }
