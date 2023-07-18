@@ -4,15 +4,15 @@ import PropTypes from "prop-types";
 
 import Footer from "../components/Footer";
 import TopNavbar from "../components/TopNavbar";
-import SideLogos from "../components/SideLogos";
 import TableOfContent from "../components/TableOfContent";
 
 // This is for ESLint, it does not understand that process is a global variable in a gatsby environment
 /*global process*/
 
 // Import Styles = bootstrap + custom
-import "../styles/style.css";
+// Custom must be AFTER bootstrap. It makes sure custom style are not overriden
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/style.css";
 
 // Layout component: add header + footer + TOC to content
 export default function Layout({
@@ -86,7 +86,7 @@ export default function Layout({
 
       <main className={isHome ? "home" : "not-home"}>{children}</main>
 
-      <SideLogos />
+      {/* <SideLogos /> */}
 
       <Footer />
 

@@ -1,102 +1,9 @@
 :root {
-  --distribution-color: yellow;
   --light-grey: #f8f9fa;
   --medium-grey: #e5e5e5;
   --dark-grey: #c8c8c8;
-  --python-gallery: #82a5d0;
+  --python-gallery: #cb1dd1;
   --light-black: #484848;
-}
-
-body {
-  overflow-x: hidden;
-  font-family: "Roboto" !important;
-}
-
-/* ---------- Titles ----------------- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 300 !important;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif !important;
-  /* scroll margin allows to add a bit of space around the title we're targeting with the table of content */
-  scroll-margin: 100px;
-}
-
-h2 {
-  font-size: 22px !important;
-  width: 100%;
-  border-bottom: 1px solid var(--medium-grey);
-  margin-top: 30px !important;
-  margin-bottom: 10px !important;
-  padding-bottom: 10px !important;
-}
-
-h3 {
-  font-size: 20px !important;
-  width: 100%;
-  border-bottom: 1px solid var(--medium-grey);
-  margin-top: 30px !important;
-  margin-bottom: 10px !important;
-  padding-bottom: 10px !important;
-}
-
-p {
-  line-height: 1.75 !important;
-  font-family: "Roboto" !important;
-}
-
-/* ---------- Section ----------------- */
-.lightSection {
-  padding-top: 2px;
-  padding-bottom: 10px;
-}
-
-.greySection {
-  background-color: var(--light-grey);
-  padding-top: 2px;
-  padding-bottom: 10px;
-}
-
-code {
-  background-color: var(--light-grey) !important;
-  padding: 4px;
-  border-radius: 4px;
-}
-
-/* Reduce the content width on big screen. I like it when it looks a bit more like newspaper */
-@media (min-width: 992px) {
-  .container {
-    padding-left: 150px !important;
-    padding-right: 150px !important;
-  }
-}
-
-blockquote {
-  background: var(--light-grey);
-  border-left: 2px solid var(--python-gallery);
-  margin: 10px 50px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-}
-blockquote p {
-  display: inline;
-}
-
-/* To remove, test for table of content */
-.is-current {
-  color: red !important;
-  background-color: red;
-}
-
-a {
-  color: var(--python-gallery) !important;
-}
-
-a:hover {
-  color: #251667 !important;
 }
 
 /* Each section has a specific color */
@@ -122,28 +29,90 @@ a:hover {
   color: #a53253;
 }
 
-/* ---------- Button ----------------- */
-.btn {
-  font-family: "Montserrat", sans-serif !important;
-  font-weight: 500 !important;
-  border-color: var(--python-gallery) !important;
-  color: var(--python-gallery) !important;
-  border-width: 2px;
-  background-color: transparent !important;
-  margin: 3px !important;
+/* ---------- Global CSS ----------------- */
+body {
+  overflow-x: hidden;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  color: #333;
 }
 
-.btn-xl {
-  font-size: 18px !important;
-  padding: 20px 40px !important;
+/* I use the Container component of the react-bootstrap library. */
+/* But on wide screen I feel like the website is too wide. This restricts it a bit. */
+.container {
+  max-width: 822px;
 }
 
-.btn:active,
-.btn:focus,
-.btn:hover {
-  background-color: var(--python-gallery) !important;
-  border-color: var(--python-gallery) !important;
-  color: white !important;
+
+/* ---------- Titles ----------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  /* scroll margin allows to add a bit of space around the title we're targeting with the table of content */
+  scroll-margin: 100px;
+}
+
+h2 {
+  font-size: 22px;
+  width: 100%;
+  border-bottom: 1px solid var(--medium-grey);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  width: 100%;
+  border-bottom: 1px solid var(--medium-grey);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  line-height: 1.75;
+  font-family: "Roboto";
+}
+
+
+
+
+
+/* ---------- Section ----------------- */
+.lightSection {
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+
+.greySection {
+  background-color: var(--light-grey);
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+
+code {
+  background-color: var(--light-grey);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+blockquote {
+  background: var(--light-grey);
+  border-left: 2px solid var(--python-gallery);
+  margin: 10px 50px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote p {
+  display: inline;
 }
 
 .sectionTitle {
@@ -152,7 +121,41 @@ a:hover {
 
 /* Code appearance in notebooks: */
 pre.input {
-  line-height: 1.35em !important;
-  margin-bottom: 20px !important;
-  margin-top: 0px !important;
+  line-height: 1.35em;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+a {
+  color: var(--python-gallery);
+}
+
+a:hover {
+  color: #251667;
+}
+
+
+
+/* ---------- Button ----------------- */
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  border-color: var(--python-gallery);
+  color: var(--python-gallery);
+  border-width: 2px;
+  background-color: transparent;
+  margin: 3px;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn:active,
+.btn:focus,
+.btn:hover {
+  background-color: var(--python-gallery);
+  border-color: var(--python-gallery);
+  color: white;
 }
