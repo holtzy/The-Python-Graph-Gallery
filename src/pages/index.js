@@ -40,6 +40,7 @@ const siteDescription = (
       advanced examples that demonstrate the potency of Python in the realm of
       data visualization.
     </p>
+    <br />
     <p>❤️ Love the project?</p>
     <p>
       You can contribute on{' '}
@@ -82,22 +83,23 @@ export default function Home() {
         title="The Python Graph Gallery"
         description={siteDescription}
       />
-      <Container>
-        <ChartFamilySection chartFamily="distribution" />
-        <ChartFamilySection chartFamily="correlation" />
-        <ChartFamilySection chartFamily="ranking" />
-        <ChartFamilySection chartFamily="partOfAWhole" />
-        <ChartFamilySection chartFamily="evolution" />
-        <ChartFamilySection chartFamily="map" />
-        <ChartFamilySection chartFamily="flow" />
-        <ChartFamilySection chartFamily="general" />
+      <div className="greySection">
+        <Container>
+          <ChartFamilySection chartFamily="distribution" />
+          <ChartFamilySection chartFamily="correlation" />
+          <ChartFamilySection chartFamily="ranking" />
+          <ChartFamilySection chartFamily="partOfAWhole" />
+          <ChartFamilySection chartFamily="evolution" />
+          <ChartFamilySection chartFamily="map" />
+          <ChartFamilySection chartFamily="flow" />
+          <ChartFamilySection chartFamily="general" />
+        </Container>
+      </div>
+      <Spacing />
 
-        <Spacing />
+      <Contact />
 
-        <Contact />
-
-        <Spacing />
-      </Container>
+      <Spacing />
     </Layout>
   );
 }

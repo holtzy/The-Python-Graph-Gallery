@@ -1,0 +1,11 @@
+.sectionTitle {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  width: 100%;
+  border-bottom: 1px solid var(--medium-grey);
+  margin-top: 16px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
