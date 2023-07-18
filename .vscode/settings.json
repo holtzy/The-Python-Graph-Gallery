@@ -1,5 +1,6 @@
 {
-    "editor.formatOnSave": true,
-    "editor.wordWrapColumn": 150,
-    "jupyter.jupyterServerType": "local"
+  "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 150,
+  "jupyter.jupyterServerType": "local",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
