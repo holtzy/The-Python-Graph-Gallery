@@ -1,20 +1,20 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import Row from "react-bootstrap/Row";
-import ChartImageContainer from "../components/ChartImageContainer";
-import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
-import { Button, Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk"
-import ChartImage from "../components/ChartImage";
-import Spacing from "../components/Spacing";
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import Row from 'react-bootstrap/Row';
+import ChartImageContainer from '../components/ChartImageContainer';
+import ChartFamilySection from '../components/ChartFamilySection';
+import { Link } from 'gatsby';
+import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Button, Col } from 'react-bootstrap';
+import CodeChunk from '../components/CodeChunk';
+import ChartImage from '../components/ChartImage';
+import Spacing from '../components/Spacing';
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/heatmap.html'>heatmap</a> is a graphical representation of data where each value of a matrix is represented as a color. This page explains how to build a heatmap with <code>Python</code>, with an emphasis on the <code>Seaborn</code> library. Note that this <a target='_blank' href='https://datacamp.pxf.io/YgNDbR'>online course</a> is another way to learn about heatmaps with python.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/heatmap.html'>heatmap</a> is a graphical representation of data where each value of a matrix is represented as a color. This page explains how to build a heatmap with <code>Python</code>, with an emphasis on the <code>Seaborn</code> library.</p>";
 
 const quickCode = `# library
 import seaborn as sns
@@ -26,29 +26,34 @@ df = pd.DataFrame(np.random.random((5,5)), columns=["a","b","c","d","e"])
 
 # Default heatmap
 p1 = sns.heatmap(df)
-`
+`;
 
 export default function Heatmap() {
-
   return (
-
-    <Layout title="Heatmap" isTocEnabled seoDescription="A collection of heatmap examples made with Python, coming with explanation and reproducible code">
-
-      <TitleAndDescription
-        title="Heatmap"
-        description={chartDescription}
-      />
+    <Layout
+      title="Heatmap"
+      isTocEnabled
+      seoDescription="A collection of heatmap examples made with Python, coming with explanation and reproducible code"
+    >
+      <TitleAndDescription title="Heatmap" description={chartDescription} />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p>If you're in a rush and want to make a heatmap with <code>Python</code> as quick as possible, have a look to this code snippet that uses the <code>heatmap()</code> function of <code>Seaborn</code>.🔥</p>
+            <p>
+              If you're in a rush and want to make a heatmap with{' '}
+              <code>Python</code> as quick as possible, have a look to this code
+              snippet that uses the <code>heatmap()</code> function of{' '}
+              <code>Seaborn</code>.🔥
+            </p>
           </Col>
           <Col md={6}>
-            <Link to={"/90-heatmaps-with-various-input-format"}>
-              <ChartImage imgName="90_Input_format_for_heatmap1"
-                caption="Basic heatmap with Python and Seaborn from various data input formats." />
+            <Link to={'/90-heatmaps-with-various-input-format'}>
+              <ChartImage
+                imgName="90_Input_format_for_heatmap1"
+                caption="Basic heatmap with Python and Seaborn from various data input formats."
+              />
             </Link>
           </Col>
         </Row>
@@ -59,13 +64,18 @@ export default function Heatmap() {
       <Spacing />
 
       <Container>
-        <h2 id="Seaborn"><Seaborn />Heatmap with <code>Seaborn</code></h2>
+        <h2 id="Seaborn">
+          <Seaborn />
+          Heatmap with <code>Seaborn</code>
+        </h2>
         <p>
           <code>Seaborn</code> is a python library allowing to make better
-          charts easily thanks to its <code>heatmap()</code> function. This section
-          starts with a post describing the basic usage of the function based on any kind of data input.
-          Next it will guide you through the different ways to customize the chart,
-          like <Link to=''>controling color</Link> and <Link to=''>data normalization</Link>.
+          charts easily thanks to its <code>heatmap()</code> function. This
+          section starts with a post describing the basic usage of the function
+          based on any kind of data input. Next it will guide you through the
+          different ways to customize the chart, like{' '}
+          <Link to="">controling color</Link> and{' '}
+          <Link to="">data normalization</Link>.
         </p>
         <Row>
           <ChartImageContainer
@@ -106,14 +116,26 @@ export default function Heatmap() {
       <div className="greySection">
         <Container>
           <h2 id="Warning">&#9888;&#65039; Python heatmap and normalization</h2>
-          <p>Consider the left heatmap below. The second column from the left (<code>variable 1</code>) has
-          very high values compared to others. As a result, the variation existing in other variables is hidden.</p>
-          <p>Highlighting the <code>variable 1</code> can be the main message of your chart. But
-          if you're interested in other variable variations as well, you probably want to apply some
-          normalization as shown on the right heatmap.</p>
-          <p>If you want to no more about normalization,
-            check <a href="https://www.data-to-viz.com/graph/heatmap.html">data-to-viz.com</a>. If
-            you want some python code to do it, <Link to='/94-use-normalization-on-seaborn-heatmap'>it's here</Link>.</p>
+          <p>
+            Consider the left heatmap below. The second column from the left (
+            <code>variable 1</code>) has very high values compared to others. As
+            a result, the variation existing in other variables is hidden.
+          </p>
+          <p>
+            Highlighting the <code>variable 1</code> can be the main message of
+            your chart. But if you're interested in other variable variations as
+            well, you probably want to apply some normalization as shown on the
+            right heatmap.
+          </p>
+          <p>
+            If you want to no more about normalization, check{' '}
+            <a href="https://www.data-to-viz.com/graph/heatmap.html">
+              data-to-viz.com
+            </a>
+            . If you want some python code to do it,{' '}
+            <Link to="/94-use-normalization-on-seaborn-heatmap">it's here</Link>
+            .
+          </p>
           <Row>
             <ChartImageContainer
               imgName="94_Heatmap_Normalization_Seaborn1"
@@ -136,12 +158,16 @@ export default function Heatmap() {
 
       <Container>
         <h2 id="Clustering">&#10052; Python, Heatmap and Clustering</h2>
-        <p>It is very common to apply some <code>clustering</code> techniques on a heatmap. The idea is
-        to group items that have the same kind of pattern for their numeric variables. &#128161;
+        <p>
+          It is very common to apply some <code>clustering</code> techniques on
+          a heatmap. The idea is to group items that have the same kind of
+          pattern for their numeric variables. &#128161;
         </p>
-        <p>Usually, it is recommended to display a <code>dendrogram</code> on top of the heatmap to
-        explain how the clusterization has been performed. Last but not least, it can be useful
-        to compare the grouping we got with an expected structure, shown as an additional color.
+        <p>
+          Usually, it is recommended to display a <code>dendrogram</code> on top
+          of the heatmap to explain how the clusterization has been performed.
+          Last but not least, it can be useful to compare the grouping we got
+          with an expected structure, shown as an additional color.
         </p>
         <Link to="/dendrogram">
           <Button size="sm">Related: dendrogram section</Button>
@@ -149,9 +175,14 @@ export default function Heatmap() {
         <Link to="/405-dendrogram-with-heatmap-and-coloured-leaves">
           <Button size="sm">Code and explanation</Button>
         </Link>
-        <div style={{ maxWidth: "600px", margin: "0 auto", padding: 30 }}>
-          <Link to='/405-dendrogram-with-heatmap-and-coloured-leaves'>
-            <ChartImage imgName={'405_Dendro_and_heatmap_and_rowcolor'} caption={'A seaborn heatmap with clusterization and dendrogram applied'} />
+        <div style={{ maxWidth: '600px', margin: '0 auto', padding: 30 }}>
+          <Link to="/405-dendrogram-with-heatmap-and-coloured-leaves">
+            <ChartImage
+              imgName={'405_Dendro_and_heatmap_and_rowcolor'}
+              caption={
+                'A seaborn heatmap with clusterization and dendrogram applied'
+              }
+            />
           </Link>
         </div>
         <Row>
@@ -175,36 +206,54 @@ export default function Heatmap() {
 
       <Spacing />
 
-
       <Container>
         <h2 id="Timeseries">Heatmap for timeseries</h2>
         <p>
-          A heatmap can be used to display some temporal data. Here is an example using <Link to="/matplotlib">matplotlib</Link> where
-          the evolution of a temperature is displayed over the hour of the day (Y axis) and the day of the year (X axis) organized by month.
+          A heatmap can be used to display some temporal data. Here is an
+          example using <Link to="/matplotlib">matplotlib</Link> where the
+          evolution of a temperature is displayed over the hour of the day (Y
+          axis) and the day of the year (X axis) organized by month.
         </p>
-        <div style={{ maxWidth: "800px", margin: "0 auto", padding: 30 }}>
-          <Link to='/heatmap-for-timeseries-matplotlib'>
-            <ChartImage imgName={'heatmap-for-timeseries-matplotlib'} caption={'A heatmap for temporal data with Python and Matplotlib'} />
+        <div style={{ maxWidth: '800px', margin: '0 auto', padding: 30 }}>
+          <Link to="/heatmap-for-timeseries-matplotlib">
+            <ChartImage
+              imgName={'heatmap-for-timeseries-matplotlib'}
+              caption={'A heatmap for temporal data with Python and Matplotlib'}
+            />
           </Link>
         </div>
       </Container>
 
       <Spacing />
 
-
       <Container>
-        <h2 id="From the web"><Matplotlib />From the web</h2>
-        <p>The web is full of astonishing charts made by awesome bloggers, (often
-          using <a href="https://www.r-graph-gallery.com">R</a>).
-          The <a href="https://www.python-graph-gallery.com">Python graph gallery</a> tries to
-          display (or translate from R) some of the best creations and explain how their source
-          code works. If you want to display your work here, please drop me a word or
-          even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
+        <h2 id="From the web">
+          <Matplotlib />
+          From the web
+        </h2>
+        <p>
+          The web is full of astonishing charts made by awesome bloggers, (often
+          using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
+          <a href="https://www.python-graph-gallery.com">
+            Python graph gallery
+          </a>{' '}
+          tries to display (or translate from R) some of the best creations and
+          explain how their source code works. If you want to display your work
+          here, please drop me a word or even better, submit a{' '}
+          <a href="https://github.com/holtzy/The-Python-Graph-Gallery">
+            Pull Request
+          </a>
+          !
         </p>
         <Row>
           <Col xs={12} md={8}>
-            <Link to={"/web-heatmap-and-radial-barchart-plastics"}>
-              <ChartImage imgName={"web-heatmap-and-radial-barchart-plastics"} caption={"How to combine a heatmap with a radial barplot on the same figure with heaps of visual tweaks."} />
+            <Link to={'/web-heatmap-and-radial-barchart-plastics'}>
+              <ChartImage
+                imgName={'web-heatmap-and-radial-barchart-plastics'}
+                caption={
+                  'How to combine a heatmap with a radial barplot on the same figure with heaps of visual tweaks.'
+                }
+              />
             </Link>
           </Col>
         </Row>
@@ -225,7 +274,6 @@ export default function Heatmap() {
       </Container>
 
       <Spacing />
-
-    </Layout >
+    </Layout>
   );
 }

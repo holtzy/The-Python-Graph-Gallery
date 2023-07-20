@@ -1,50 +1,54 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import Row from "react-bootstrap/Row";
-import ChartImageContainer from "../components/ChartImageContainer";
-import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
-import { Button, Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk"
-import ChartImage from "../components/ChartImage";
-import FunctionExploration from '../components/FunctionExploration'
-import Spacing from "../components/Spacing";
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import Row from 'react-bootstrap/Row';
+import ChartImageContainer from '../components/ChartImageContainer';
+import ChartFamilySection from '../components/ChartFamilySection';
+import { Link } from 'gatsby';
+import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Button, Col } from 'react-bootstrap';
+import CodeChunk from '../components/CodeChunk';
+import ChartImage from '../components/ChartImage';
+import FunctionExploration from '../components/FunctionExploration';
+import Spacing from '../components/Spacing';
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/caveat/boxplot.html'>boxplot</a> summarizes the distribution of a numeric variable for one or several groups. It allows to quickly get the median, quartiles and outliers but also hides the dataset individual data points. In python, boxplots are most of time done thanks to the <code>boxplot</code> function of the <code>Seaborn</code> library. Boxplots are also described in the <a target='_blank' href='https://datacamp.pxf.io/YgNDbR'>online course</a>.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/caveat/boxplot.html'>boxplot</a> summarizes the distribution of a numeric variable for one or several groups. It allows to quickly get the median, quartiles and outliers but also hides the dataset individual data points. In python, boxplots are most of time done thanks to the <code>boxplot</code> function of the <code>Seaborn</code> library.</p>";
 
 const quickCode = `# library & dataset
 import seaborn as sns
 df = sns.load_dataset('iris')
 
 sns.boxplot( x=df["species"], y=df["sepal_length"] )
-`
+`;
 
 export default function Boxplot() {
-
   return (
-
-    <Layout title="Boxplot" isTocEnabled seoDescription="A collection of boxplot examples made with Python, coming with explanation and reproducible code">
-
-      <TitleAndDescription
-        title="Boxplot"
-        description={chartDescription}
-      />
+    <Layout
+      title="Boxplot"
+      isTocEnabled
+      seoDescription="A collection of boxplot examples made with Python, coming with explanation and reproducible code"
+    >
+      <TitleAndDescription title="Boxplot" description={chartDescription} />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p><code>Seaborn</code> is definitely the best library to quickly build a boxplot. It offers a dedicated <code>boxplot()</code> function that roughly works as follows:🔥</p>
+            <p>
+              <code>Seaborn</code> is definitely the best library to quickly
+              build a boxplot. It offers a dedicated <code>boxplot()</code>{' '}
+              function that roughly works as follows:🔥
+            </p>
           </Col>
           <Col md={6}>
-            <Link to={"/30-basic-boxplot-with-seaborn"}>
-              <ChartImage imgName="30_Basic_Box_seaborn2"
-                caption="Basic boxplot with Python and Seaborn from various data input formats." />
+            <Link to={'/30-basic-boxplot-with-seaborn'}>
+              <ChartImage
+                imgName="30_Basic_Box_seaborn2"
+                caption="Basic boxplot with Python and Seaborn from various data input formats."
+              />
             </Link>
           </Col>
         </Row>
@@ -56,8 +60,19 @@ export default function Boxplot() {
       <div className="greySection">
         <Container>
           <h2 id="Warning">&#9888;&#65039; Mind the boxplot</h2>
-          <p>A boxplot is an awesome way to summarize the distribution of a variable. However it hides the real distribution and the sample size. Check the 3 charts below that are based on the exact same dataset.</p>
-          <p>To read more about this, visit <a href="https://www.data-to-viz.com/caveat/boxplot.html">data-to-viz.com</a> that has a dedicated article.</p>
+          <p>
+            A boxplot is an awesome way to summarize the distribution of a
+            variable. However it hides the real distribution and the sample
+            size. Check the 3 charts below that are based on the exact same
+            dataset.
+          </p>
+          <p>
+            To read more about this, visit{' '}
+            <a href="https://www.data-to-viz.com/caveat/boxplot.html">
+              data-to-viz.com
+            </a>{' '}
+            that has a dedicated article.
+          </p>
           <Row>
             <ChartImageContainer
               imgName="39_Bad_boxplot1"
@@ -84,10 +99,15 @@ export default function Boxplot() {
       <Spacing />
 
       <Container>
-        <h2 id="Seaborn"><Seaborn />Boxplots with <code>Seaborn</code></h2>
+        <h2 id="Seaborn">
+          <Seaborn />
+          Boxplots with <code>Seaborn</code>
+        </h2>
         <p>
           <code>Seaborn</code> is a python library allowing to make better
-          charts easily. The <code>boxplot</code> function should get you started in minutes. The examples below aim at showcasing the various possibilities this function offers.
+          charts easily. The <code>boxplot</code> function should get you
+          started in minutes. The examples below aim at showcasing the various
+          possibilities this function offers.
         </p>
         <Row>
           <ChartImageContainer
@@ -152,25 +172,40 @@ export default function Boxplot() {
 
       <div className="greySection">
         <Container>
-          <FunctionExploration functionName={"violin"} />
+          <FunctionExploration functionName={'violin'} />
         </Container>
       </div>
 
       <Spacing />
 
       <Container>
-        <h2 id="From the web"><Matplotlib />From the web</h2>
-        <p>The web is full of astonishing charts made by awesome bloggers, (often
-          using <a href="https://www.r-graph-gallery.com">R</a>).
-          The <a href="https://www.python-graph-gallery.com">Python graph gallery</a> tries to
-          display (or translate from R) some of the best creations and explain how their source
-          code works. If you want to display your work here, please drop me a word or
-          even better, submit a <a href="https://github.com/holtzy/The-Python-Graph-Gallery">Pull Request</a>!
+        <h2 id="From the web">
+          <Matplotlib />
+          From the web
+        </h2>
+        <p>
+          The web is full of astonishing charts made by awesome bloggers, (often
+          using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
+          <a href="https://www.python-graph-gallery.com">
+            Python graph gallery
+          </a>{' '}
+          tries to display (or translate from R) some of the best creations and
+          explain how their source code works. If you want to display your work
+          here, please drop me a word or even better, submit a{' '}
+          <a href="https://github.com/holtzy/The-Python-Graph-Gallery">
+            Pull Request
+          </a>
+          !
         </p>
         <Row>
           <Col xs={12} md={6}>
-            <Link to={"/web-ggbetweenstats-with-matplotlib"}>
-              <ChartImage imgName={"web-ggbetweenstats-with-matplotlib-square"} caption={"A combination of a violin plot and a boxplot. Allows the comparison of several groups with statistical test results on top."} />
+            <Link to={'/web-ggbetweenstats-with-matplotlib'}>
+              <ChartImage
+                imgName={'web-ggbetweenstats-with-matplotlib-square'}
+                caption={
+                  'A combination of a violin plot and a boxplot. Allows the comparison of several groups with statistical test results on top.'
+                }
+              />
             </Link>
           </Col>
         </Row>
@@ -191,7 +226,6 @@ export default function Boxplot() {
       </Container>
 
       <Spacing />
-
-    </Layout >
+    </Layout>
   );
 }
