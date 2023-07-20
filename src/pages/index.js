@@ -5,6 +5,7 @@ import ChartFamilySection from '../components/ChartFamilySection';
 import Container from 'react-bootstrap/Container';
 import Contact from '../components/Contact';
 import Spacing from '../components/Spacing';
+// import ImagePatchwork from '../components/ImagePatchwork';
 
 const siteDescription = (
   <>
@@ -83,6 +84,7 @@ export default function Home() {
         title="The Python Graph Gallery"
         description={siteDescription}
       />
+
       <div className="greySection">
         <Container>
           <ChartFamilySection chartFamily="distribution" />
@@ -95,7 +97,10 @@ export default function Home() {
           <ChartFamilySection chartFamily="general" />
         </Container>
       </div>
+
       <Spacing />
+
+      {/* <ImagePatchwork /> */}
 
       <Contact />
 
