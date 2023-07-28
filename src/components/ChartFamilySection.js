@@ -20,6 +20,7 @@ const TITLES = {
 export default function ChartFamilySection({ chartFamily }) {
   const allLogos = chartTypesInfo
     .filter((chart) => chart.family === chartFamily)
+    .filter((chart) => chart.id !== 'waffle') // Hide WAFFLE for now
     .map((chart, id) => {
       const link = fullUrlToInternalLink(chart.pythonURL);
       return (
