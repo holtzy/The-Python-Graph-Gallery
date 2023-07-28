@@ -1,17 +1,17 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import Row from "react-bootstrap/Row";
-import ChartImageContainer from "../components/ChartImageContainer";
-import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
-import { Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk"
-import ChartImage from "../components/ChartImage";
-import Spacing from "../components/Spacing";
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import Row from 'react-bootstrap/Row';
+import ChartImageContainer from '../components/ChartImageContainer';
+import ChartFamilySection from '../components/ChartFamilySection';
+import { Link } from 'gatsby';
+import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Col } from 'react-bootstrap';
+import CodeChunk from '../components/CodeChunk';
+import ChartImage from '../components/ChartImage';
+import Spacing from '../components/Spacing';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/histogram.html'>Histogram</a> represents the distribution of a numeric variable for one or several groups. The values are split in bins, each bin is represented as a bar. This page showcases many histograms built with python, using both the <code>seaborn</code> and the <code>matplotlib</code> libraries.</p>";
@@ -22,7 +22,7 @@ df = sns.load_dataset('iris')
 
 # Plot the histogram thanks to the distplot function
 sns.distplot( a=df["sepal_length"], hist=True, kde=False, rug=False )
-`
+`;
 
 const quickCodeMatplotlib = `# library & dataset
 import matplotlib.pyplot as plt
@@ -33,29 +33,36 @@ fig, ax = plt.subplots(figsize = (9, 9))
 
 #plot
 ax.hist(hours, bins=5, edgecolor="black");
-`
+`;
 
 export default function ViolinPlot() {
-
   return (
-
-    <Layout title="Histogram" isTocEnabled seoDescription="A collection of histogram examples made with Python, coming with explanation and reproducible code">
-
-      <TitleAndDescription
-        title="Histogram"
-        description={chartDescription}
-      />
+    <Layout
+      title="Histogram"
+      isTocEnabled
+      seoDescription="A collection of histogram examples made with Python, coming with explanation and reproducible code"
+    >
+      <TitleAndDescription title="Histogram" description={chartDescription} />
 
       <Container>
         <h2 id="Quick (Seaborn)">&#9201; Quick start (Seaborn)</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p><code>Seaborn</code> is definitely the best library to quickly build a histogram thanks to its <code>distplot()</code>.</p><p>Note the importance of the <code>bins</code> parameter: try several values to see which represents your data the best. 🔥</p>
+            <p>
+              <code>Seaborn</code> is definitely the best library to quickly
+              build a histogram thanks to its <code>distplot()</code>.
+            </p>
+            <p>
+              Note the importance of the <code>bins</code> parameter: try
+              several values to see which represents your data the best. 🔥
+            </p>
           </Col>
           <Col md={6}>
-            <Link to={"/20-basic-histogram-seaborn"}>
-              <ChartImage imgName="20_Basic_Histogram_seaborn2"
-                caption="The most basic histogram one can make with python and seaborn" />
+            <Link to={'/20-basic-histogram-seaborn'}>
+              <ChartImage
+                imgName="20_Basic_Histogram_seaborn2"
+                caption="The most basic histogram one can make with python and seaborn"
+              />
             </Link>
           </Col>
         </Row>
@@ -65,13 +72,16 @@ export default function ViolinPlot() {
       <Spacing />
 
       <Container>
-        <h2 id="Seaborn"><Seaborn />Histogram charts with <code>Seaborn</code></h2>
+        <h2 id="Seaborn">
+          <Seaborn />
+          Histogram charts with <code>Seaborn</code>
+        </h2>
         <p>
           <code>Seaborn</code> is a python library allowing to make better
-          charts easily. It is well adapted to build histogram thanks to
-          its <code>distplot</code> function. The following charts will guide you
-          through its usage, going from a very{" "}
-          <Link to="">basic histogram</Link> to something much more{" "}
+          charts easily. It is well adapted to build histogram thanks to its{' '}
+          <code>distplot</code> function. The following charts will guide you
+          through its usage, going from a very{' '}
+          <Link to="">basic histogram</Link> to something much more{' '}
           <Link to="">customized</Link>.
         </p>
         <Row>
@@ -136,34 +146,51 @@ export default function ViolinPlot() {
       <Spacing />
 
       <Container>
-        <h2 id="Quick (matplotlib)"><Matplotlib/> Quick start (Matplotlib)</h2>
+        <h2 id="Quick (matplotlib)">
+          <Matplotlib /> Quick start (Matplotlib)
+        </h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p><Link to="/matplotlib">Matplotlib</Link> can also build decent histograms easily. It provides a <code>hist()</code> function that
-            accept a vector of numeric values as input.</p>
-            <p>It also provides all the options you can think of to customize the binning and the genreral appearance.</p>
+            <p>
+              <Link to="/matplotlib">Matplotlib</Link> can also build decent
+              histograms easily. It provides a <code>hist()</code> function that
+              accept a vector of numeric values as input.
+            </p>
+            <p>
+              It also provides all the options you can think of to customize the
+              binning and the genreral appearance.
+            </p>
           </Col>
           <Col md={6}>
-            <Link to={"/basic-histogram-in-matplotlib"}>
-              <ChartImage imgName="basic-histogram-in-matplotlib"
-                caption="The most basic histogram one can make with python and matplotlib" />
+            <Link to={'/basic-histogram-in-matplotlib'}>
+              <ChartImage
+                imgName="basic-histogram-in-matplotlib"
+                caption="The most basic histogram one can make with python and matplotlib"
+              />
             </Link>
           </Col>
         </Row>
         <CodeChunk>{quickCodeMatplotlib}</CodeChunk>
       </Container>
 
-
       <Spacing />
 
       <Container>
-        <h2 id="Matplotlib"><Matplotlib />Histograms with <code>Matplotlib</code></h2>
+        <h2 id="Matplotlib">
+          <Matplotlib />
+          Histograms with <code>Matplotlib</code>
+        </h2>
         <p>
-          As usual <Link to="/matplotlib">matplotlib</Link> is perfectly skilled to build nice histogram, but require
-          some more work camparing to <Link to="/seaborn">seaborn</Link> to get a good looking figure.
+          As usual <Link to="/matplotlib">matplotlib</Link> is perfectly skilled
+          to build nice histogram, but require some more work camparing to{' '}
+          <Link to="/seaborn">seaborn</Link> to get a good looking figure.
         </p>
-        <p>The examples below should help you to get started with matplotlib histograms. They go from
-          a very <Link to="/basic-histogram-in-matplotlib">basic version</Link> and then show how to customize it, like adding <Link to="/basic-histogram-in-matplotlib">annotation</Link>.
+        <p>
+          The examples below should help you to get started with matplotlib
+          histograms. They go from a very{' '}
+          <Link to="/basic-histogram-in-matplotlib">basic version</Link> and
+          then show how to customize it, like adding{' '}
+          <Link to="/basic-histogram-in-matplotlib">annotation</Link>.
         </p>
         <Row>
           <ChartImageContainer
@@ -180,6 +207,11 @@ export default function ViolinPlot() {
             imgName="density-mirror-histogram"
             caption="Mirror density chart to compare the distribution of 2 variables"
             linkTo="/density-mirror"
+          />
+          <ChartImageContainer
+            imgName="504-histogram-with-colored-tails"
+            caption="A histogram with bars being colored differently based on thresholds"
+            linkTo="/504-histogram-with-colored-tails"
           />
         </Row>
       </Container>
@@ -199,7 +231,6 @@ export default function ViolinPlot() {
       </Container>
 
       <Spacing />
-
-    </Layout >
+    </Layout>
   );
 }
