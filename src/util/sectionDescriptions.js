@@ -40,6 +40,14 @@ export const chartTypesInfo = [
     label: 'Ridgeline',
   },
   {
+    id: 'beeswarm',
+    family: 'distribution',
+    logo: 'Beeswarm2Big',
+    dataToVizURL: 'https://www.data-to-viz.com/graph',
+    pythonURL: 'https://python-graph-gallery.com/beeswarm/',
+    label: 'Beeswarm',
+  },
+  {
     id: 'scatter',
     family: 'correlation',
     logo: 'ScatterPlot150',
