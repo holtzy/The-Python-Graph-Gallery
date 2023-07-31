@@ -148,9 +148,19 @@ export default function Beeswarm() {
         </p>
         <Row>
           <ChartImageContainer
-            imgName="30_Basic_Box_seaborn2"
-            caption="Let's start basic. The most simple boxplot, based on 3 differents input formats"
-            linkTo="/30-basic-boxplot-with-seaborn"
+            imgName="505-Introduction-to-swarm-plot-in-seaborn-1"
+            caption="Most basic beeswarm plot built with Python and Seaborn"
+            linkTo="/505-Introduction-to-swarm-plot-in-seaborn"
+          />
+          <ChartImageContainer
+            imgName="505-Introduction-to-swarm-plot-in-seaborn-2"
+            caption="Make your beeswarm plot horizontal by swapping axes"
+            linkTo="/505-Introduction-to-swarm-plot-in-seaborn"
+          />
+          <ChartImageContainer
+            imgName="505-Introduction-to-swarm-plot-in-seaborn-3"
+            caption="Build a beeswarm plot for several groups in the dataset"
+            linkTo="/505-Introduction-to-swarm-plot-in-seaborn"
           />
         </Row>
       </Container>
