@@ -213,6 +213,11 @@ export default function ViolinPlot() {
             caption="A histogram with bars being colored differently based on thresholds"
             linkTo="/504-histogram-with-colored-tails"
           />
+          <ChartImageContainer
+            imgName="506-histogram-with-small-mutliples"
+            caption="Use small multiple to compare the distribution of several groups or several variables"
+            linkTo="/506-histogram-with-small-mutliples"
+          />
         </Row>
       </Container>
 
