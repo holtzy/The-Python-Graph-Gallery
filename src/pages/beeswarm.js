@@ -87,10 +87,10 @@ export default function Beeswarm() {
             </p>
           </Col>
           <Col md={6}>
-            <Link to={'/30-basic-bo<code>x</code>plot-with-seaborn'}>
+            <Link to={'/505-Introduction-to-swarm-plot-in-seaborn'}>
               <ChartImage
-                imgName="30_Basic_Box_seaborn2"
-                caption="Basic boxplot with Python and Seaborn from various data input formats."
+                imgName="505-Introduction-to-swarm-plot-in-seaborn-1"
+                caption="Most basic beeswarm plot built with Python and Seaborn"
               />
             </Link>
           </Col>

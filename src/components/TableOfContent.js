@@ -24,7 +24,7 @@ export default function TableOfContent({ chartType }) {
 
   // Read heading titles, depths and nodes from the DOM.
   useEffect(() => {
-    const selector = ['main h2', 'main h3'];
+    const selector = ['main h2'];
     const nodes = Array.from(document.querySelectorAll(selector));
     const titles = nodes.map((node) => ({
       title: node.id || node.innerHTML,
