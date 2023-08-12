@@ -115,9 +115,14 @@ export default function ConnectedScatter() {
         </h2>
         <p>
           Building a connected scatterplot with <code>Seaborn</code> looks
-          pretty much the same as for a line chart, so feel free to visit the
-          related section. Here are a few examples to remind the basics and
-          understand how to customize the markers.
+          pretty much the same as for a <Link to="/line-chart">line chart</Link>
+          . It is made thanks to the <code>lineplot()</code> function.
+        </p>
+        <p>
+          Click the following images to get a long form tutorial on how to
+          create a <b>basic connected scatterplot</b> with Seaborn, how to draw{' '}
+          <b>multiple groups</b> and how to <b>customize the lines</b> and the{' '}
+          <b>markers</b>.
         </p>
         <Row>
           <ChartImageContainer
