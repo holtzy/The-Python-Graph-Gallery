@@ -5,6 +5,7 @@ import ChartFamilySection from '../components/ChartFamilySection';
 import Container from 'react-bootstrap/Container';
 import Contact from '../components/Contact';
 import Spacing from '../components/Spacing';
+import ImagePatchwork from '../components/ImagePatchwork';
 // import ImagePatchwork from '../components/ImagePatchwork';
 
 const siteDescription = (
@@ -100,7 +101,7 @@ export default function Home() {
 
       <Spacing />
 
-      {/* <ImagePatchwork /> */}
+      <ImagePatchwork />
 
       <Contact />
 
