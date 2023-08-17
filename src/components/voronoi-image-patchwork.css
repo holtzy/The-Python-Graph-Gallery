@@ -5,8 +5,8 @@
 
 .voronoi-cell {
   cursor: pointer;
-  filter: grayscale(50%);
-  opacity: 0.8;
+  filter: grayscale(0%);
+  opacity: 1;
   transition: opacity, filter;
   transition-delay: 0s;
   transition-duration: 0.5s;

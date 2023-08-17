@@ -13,7 +13,7 @@ import { Link } from 'gatsby';
 // If zoom is too strong, img will be blurry
 // If zoom  is not strong enough, img will be duplicated
 const IMG_ZOOM = 400;
-const NUMBER_OF_CELLS = 15;
+const NUMBER_OF_CELLS = 21;
 const PADDING_BETWEEN_CELLS = 7;
 const HEIGHT = 400;
 

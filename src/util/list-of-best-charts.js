@@ -178,4 +178,12 @@ export const listOfBestCharts = [
     alt: 'Timeseries chart with filled areas and faceting',
     author: 'G. Karamanis',
   },
+  {
+    link: 'heatmap-for-timeseries-matplotlib',
+    title: 'Hourly heatmap',
+    description: 'A very clean heatmap used as a timeseries',
+    img: 'heatmap-for-timeseries-matplotlib-square.png',
+    alt: 'A very clean heatmap used as a timeseries',
+    author: 'J. MacKintosh',
+  },
 ];
