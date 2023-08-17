@@ -28,6 +28,7 @@
   justify-content: center;
   line-height: 18px;
   margin-top: 19px;
+  padding-top: 6px;
   font-size: 15px;
   color: #484848;
   border-left: solid var(--python-gallery);

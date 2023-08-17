@@ -119,9 +119,9 @@ const VoronoiImagePatchwork = ({ width, height }) => {
         {allCells}
       </svg>
       <Container>
-        <div style={{ height: 100 }} className="cell-caption">
+        <div style={{ height: 100, display: 'flex' }}>
           {hovered && (
-            <>
+            <div className="cell-caption">
               <p>
                 <span className="cell-caption-title">
                   <b>{hovered.title}</b>
@@ -140,7 +140,7 @@ const VoronoiImagePatchwork = ({ width, height }) => {
                   <i>Click to read code</i>
                 </span>
               </p>
-            </>
+            </div>
           )}
         </div>
       </Container>
