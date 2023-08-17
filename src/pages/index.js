@@ -5,7 +5,7 @@ import ChartFamilySection from '../components/ChartFamilySection';
 import Container from 'react-bootstrap/Container';
 import Contact from '../components/Contact';
 import Spacing from '../components/Spacing';
-import { ImagePatchworkResponsive } from '../components/ImagePatchwork';
+import { VoronoiImagePatchworkResponsive } from '../components/VoronoiImagePatchwork';
 
 const siteDescription = (
   <>
@@ -100,7 +100,7 @@ export default function Home() {
 
       <Spacing />
 
-      <ImagePatchworkResponsive />
+      <VoronoiImagePatchworkResponsive />
 
       <Contact />
 
