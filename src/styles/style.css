@@ -170,3 +170,12 @@ pre.input {
   border-color: var(--python-gallery);
   color: white;
 }
+
+/* ---------- IMG in markdown cells ----------------- */
+/* There is a bug when I transform the jupyter notebooks to html:
+If I insert some html in the notebook, it is basically removed.
+As a result, it is impossible to size images properly using the <img> tag.
+With this code, I make sure the img never goes above the container content area */
+.markdown img {
+  max-width: 90%;
+}
