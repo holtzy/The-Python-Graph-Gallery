@@ -2,3 +2,45 @@
   width: 100%;
   /* background-color: aquamarine; */
 }
+
+.voronoi-cell {
+  cursor: pointer;
+  filter: grayscale(50%);
+  opacity: 0.8;
+  transition: opacity, filter;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+}
+
+.voronoi-cell.dimmed {
+  opacity: 0.3;
+  filter: grayscale(100%);
+}
+
+.voronoi-cell:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.cell-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 18px;
+  margin-top: 19px;
+  font-size: 15px;
+  color: #484848;
+  border-left: solid var(--python-gallery);
+  padding-left: 10px;
+}
+
+.cell-caption-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cell-caption-author {
+  padding-left: 4px;
+}
+.cell-caption-click {
+  color: var(--python-gallery);
+}

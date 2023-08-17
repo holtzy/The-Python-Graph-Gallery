@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './voronoi-image-patchwork.css';
 import { useMemo } from 'react';
 import * as d3 from 'd3';
@@ -6,13 +6,14 @@ import { Delaunay } from 'd3';
 import { useDimensions } from '../util/use-dimensions';
 import { listOfBestCharts } from '../util/list-of-best-charts';
 import PropTypes from 'prop-types';
+import { Container } from 'react-bootstrap';
 
 // All images in cells can be more or less zoomed in
 // If zoom is too strong, img will be blurry
 // If zoom  is not strong enough, img will be duplicated
 const IMG_ZOOM = 400;
 const NUMBER_OF_CELLS = 15;
-const PADDING_BETWEEN_CELLS = 13;
+const PADDING_BETWEEN_CELLS = 7;
 const HEIGHT = 400;
 
 // Arbitrary data.
@@ -47,6 +48,11 @@ const VoronoiImagePatchwork = ({ width, height }) => {
 
   const xScale = d3.scaleLinear().domain([0, 1000]).range([0, width]);
   const yScale = d3.scaleLinear().domain([0, 800]).range([0, height]);
+
+  //
+  // State
+  //
+  const [hovered, setHovered] = useState(undefined);
 
   //
   // Delaunay triangulation
@@ -95,6 +101,9 @@ const VoronoiImagePatchwork = ({ width, height }) => {
           </pattern>
         </defs>
         <path
+          className={hovered ? 'voronoi-cell dimmed' : 'voronoi-cell'}
+          onMouseEnter={() => setHovered(imgInfo)}
+          onMouseLeave={() => setHovered(undefined)}
           d={cellPath}
           stroke="#f8f9fa"
           strokeWidth={PADDING_BETWEEN_CELLS}
@@ -105,9 +114,37 @@ const VoronoiImagePatchwork = ({ width, height }) => {
   });
 
   return (
-    <svg width={width} height={height}>
-      {allCells}
-    </svg>
+    <>
+      <svg width={width} height={height}>
+        {allCells}
+      </svg>
+      <Container>
+        <div style={{ height: 100 }} className="cell-caption">
+          {hovered && (
+            <>
+              <p>
+                <span className="cell-caption-title">
+                  <b>{hovered.title}</b>
+                </span>
+                <span className="cell-caption-author">
+                  <i>{'by ' + hovered.author}</i>
+                </span>
+              </p>
+              <p>
+                <span className="cell-caption-description">
+                  {hovered.description}
+                </span>
+              </p>
+              <p>
+                <span className="cell-caption-click">
+                  <i>Click to read code</i>
+                </span>
+              </p>
+            </>
+          )}
+        </div>
+      </Container>
+    </>
   );
 };
 

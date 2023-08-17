@@ -6,6 +6,7 @@ export const listOfBestCharts = [
       'A circular barchart with several features per group made with Python and Matplotlib',
     img: 'web-circular-barplot-with-matplotlib-square.png',
     alt: 'clean circular barplot made with Python and Matplotlib',
+    author: 'T. Stadler',
   },
   {
     link: 'web-circular-lollipop-plot-with-matplotlib',
@@ -14,6 +15,7 @@ export const listOfBestCharts = [
       'A circular lollipop plot with customized layout, great color palette and in circle legend',
     img: 'web-circular-lollipop-plot-with-matplotlib-square.png',
     alt: 'circular lollipop plot made with Python and Matplotlib',
+    author: 'C. Scherer',
   },
   {
     link: 'web-ggbetweenstats-with-matplotlib',
@@ -22,48 +24,60 @@ export const listOfBestCharts = [
       'Allows the comparison of several groups with statistical test results on top',
     img: 'web-ggbetweenstats-with-matplotlib-square.png',
     alt: 'Combination of a violin and a boxplot made with Python and Matplotlib',
+    author: 'T. Wang',
   },
   {
-    link: '',
-    title: '',
-    description: '',
+    link: 'web-heatmap-and-radial-barchart-plastics',
+    title: 'Circle Heatmap',
+    description:
+      'A heatmap where each cell is filled by a circle with varying size',
     img: 'web-heatmap-and-radial-barchart-plastics-square1.png',
-    alt: '',
+    alt: 'Heatmap with varying circle in cells',
+    author: 'M. Siple',
   },
   {
-    link: '',
-    title: '',
-    description: '',
+    link: 'web-heatmap-and-radial-barchart-plastics',
+    title: 'Circular barplot',
+    description: 'A circular barplot with small multiples',
     img: 'web-heatmap-and-radial-barchart-plastics-square2.png',
-    alt: '',
+    alt: 'Circular barplot with small multiple',
+    author: 'M. Siple',
   },
   {
-    link: '',
-    title: '',
-    description: '',
+    link: 'web-highlighted-lineplot-with-faceting',
+    title: 'Line chart with faceting',
+    description:
+      'Several highlighted lineplots arranged in a multi panel layout to explore the evolution of the water source installation rankings by country',
     img: 'web-highlighted-lineplot-with-faceting-square.png',
-    alt: '',
+    alt: 'multi panel layout with Python line charts',
+    author: 'A. Madjid',
   },
   {
-    link: '',
-    title: '',
-    description: '',
+    link: 'web-horizontal-barplot-with-labels-the-economist',
+    title: 'Horizontal Barplot',
+    description:
+      'A reproduction of an horizontal barplot made by The Economist to showcase the power of Python for dataviz',
     img: 'web-horizontal-barplot-with-labels-the-economist-square.png',
-    alt: '',
+    alt: "Horizonal barplot with the Economist's style",
+    author: 'The Economist',
   },
   {
-    link: '',
-    title: '',
-    description: '',
+    link: 'web-lemurs-parallel-chart',
+    title: 'Parallel chart',
+    description:
+      'A parallel coordinate chart to explore the maximum ages recorded for different species of lemurs with Python and Matplotlib.',
     img: 'web-lemurs-parallel-chart-square.png',
-    alt: '',
+    alt: 'Parallel chart made with Python',
+    author: 'G. Karamanis',
   },
   {
-    link: '',
-    title: '',
-    description: '',
+    link: 'web-line-chart-with-labels-at-line-end',
+    title: 'Inline labels',
+    description:
+      'Good looking line chart with inline labels at the end of each line',
     img: 'web-line-chart-with-labels-at-line-end-square.png',
-    alt: '',
+    alt: 'Line chart with inline labels',
+    author: 'C. Scherer',
   },
   {
     link: '',
@@ -71,6 +85,7 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-lineplots-and-area-chart-the-economist-square1.png',
     alt: '',
+    author: '',
   },
   {
     link: '',
@@ -78,6 +93,7 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-lineplots-and-area-chart-the-economist-square2.png',
     alt: '',
+    author: '',
   },
   {
     link: '',
@@ -85,6 +101,7 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-lollipop-plot-with-python-mario-kart-64-world-records-square.png',
     alt: '',
+    author: '',
   },
   {
     link: '',
@@ -92,6 +109,7 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-multiple-lines-and-panels-square.png',
     alt: '',
+    author: '',
   },
   {
     link: '',
@@ -99,6 +117,7 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-radar-chart-with-matplotlib-square.png',
     alt: '',
+    author: '',
   },
   {
     link: '',
@@ -106,6 +125,7 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-scatterplot-astronaut-square.png',
     alt: '',
+    author: '',
   },
   {
     link: '',
@@ -113,6 +133,7 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-scatterplot-text-annotation-and-regression-matplotlib-square.png',
     alt: '',
+    author: '',
   },
   {
     link: '',
@@ -120,6 +141,7 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-stacked-line-chart-with-labels-square.png',
     alt: '',
+    author: '',
   },
   {
     link: '',
@@ -127,6 +149,7 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-streamchart-with-matplotlib.png',
     alt: '',
+    author: '',
   },
   {
     link: '',
@@ -134,6 +157,7 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-text-repel-with-matplotlib-square.png',
     alt: '',
+    author: '',
   },
   {
     link: '',
@@ -141,5 +165,6 @@ export const listOfBestCharts = [
     description: '',
     img: 'web-time-series-and-facetting-with-matplotlib-square.png',
     alt: '',
+    author: '',
   },
 ];
