@@ -222,7 +222,7 @@ export default function ViolinPlot() {
             </p>
           </Col>
           <Col md={6}>
-            <Link to={'/130_Basic_Matplotlib_Scatterplot'}>
+            <Link to={'/130-basic-matplotlib-scatterplot'}>
               <ChartImage
                 imgName="130_Basic_Matplotlib_Scatterplot"
                 caption="Most basic scatterplot with Matplotlib."

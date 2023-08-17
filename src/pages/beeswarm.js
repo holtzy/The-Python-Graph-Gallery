@@ -31,10 +31,10 @@ const chartDescription = (
     </p>
     <p>
       This section provides many beeswarm chart examples made with Python, using{' '}
-      <a href="http://localhost:8000/seaborn/">seaborn</a> or{' '}
-      <a href="http://localhost:8000/matplotlib/">matplotlib</a>. Examples cover
-      the most common use-cases, but also show how far in term of customiwzation
-      it is possible to go.
+      <Link href="/seaborn/">seaborn</Link> or{' '}
+      <Link href="/matplotlib/">matplotlib</Link>. Examples cover the most
+      common use-cases, but also show how far in term of customiwzation it is
+      possible to go.
     </p>
   </>
 );
