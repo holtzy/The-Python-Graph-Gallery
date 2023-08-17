@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Contact from '../components/Contact';
 import Spacing from '../components/Spacing';
 import { VoronoiImagePatchworkResponsive } from '../components/VoronoiImagePatchwork';
+import { Button } from 'react-bootstrap';
 
 const siteDescription = (
   <>
@@ -87,6 +88,16 @@ export default function Home() {
 
       <div className="greySection">
         <Container>
+          <h2 style={{ borderBottom: 'none' }}>
+            The biggest list of python chart examples
+          </h2>
+          <p>
+            Boasting the largest collection of chart examples online, our
+            gallery leaves no stone unturned. Whether you're a novice or an
+            expert, explore the exhaustive spectrum of visualization techniques
+            available, ensuring you find every chart type imaginable.
+          </p>
+          <br />
           <ChartFamilySection chartFamily="distribution" />
           <ChartFamilySection chartFamily="correlation" />
           <ChartFamilySection chartFamily="ranking" />
@@ -98,7 +109,31 @@ export default function Home() {
         </Container>
       </div>
 
-      <Spacing />
+      <Container>
+        <h2 style={{ borderBottom: 'none' }}>
+          Hunting the most beautiful Python charts
+        </h2>
+        <p>
+          Explore our curated collection of the <b>finest Python charts</b>,
+          handpicked for their superior <b>design</b> and <b>accuracy</b>. Go
+          beyond the defaults with chart examples that are both visually
+          stunning and instructive.
+        </p>
+        <p>
+          Accompanied by in-depth tutorials, this section will please seasoned
+          professionals aspiring to <b>elevate their craft</b>. Featuring the
+          finest charts on the web, we stay ahead of the curve, showcasing the
+          latest tips, tricks, and <b>advanced techniques</b> in data
+          visualization.
+        </p>
+        <a href="https://www.data-to-viz.com/graph/density2d.html">
+          <Button size="sm" style={{ borderWidth: 1, marginLeft: 0 }}>
+            Check the best Examples
+          </Button>
+        </a>
+        <br />
+        <br />
+      </Container>
 
       <VoronoiImagePatchworkResponsive />
 

@@ -5,19 +5,31 @@ import * as d3 from 'd3';
 import { Delaunay } from 'd3';
 import { useDimensions } from '../util/use-dimensions';
 import { listOfBestCharts } from '../util/list-of-best-charts';
+import PropTypes from 'prop-types';
 
-const data = [
-  { x: 110, y: 10 },
-  { x: 224, y: 4 },
-  { x: 135, y: 90 },
-  { x: 67, y: 34 },
-  { x: 267, y: 34 },
-  { x: 367, y: 34 },
-  { x: 667, y: 234 },
-  { x: 867, y: 134 },
-  { x: 367, y: 340 },
-  { x: 767, y: 34 },
-];
+// All images in cells can be more or less zoomed in
+// If zoom is too strong, img will be blurry
+// If zoom  is not strong enough, img will be duplicated
+const IMG_ZOOM = 400;
+const NUMBER_OF_CELLS = 15;
+const PADDING_BETWEEN_CELLS = 13;
+const HEIGHT = 400;
+
+// Arbitrary data.
+// Each data point is the circumcenter of a cell in the voronoi diagram
+// x goes from 0 to 800 and y from 0 to 400
+// const data = [
+//   { x: 110, y: 10 },
+//   { x: 224, y: 4 },
+//   { x: 135, y: 90 },
+//   { x: 67, y: 34 },
+//   { x: 267, y: 34 },
+//   { x: 367, y: 34 },
+//   { x: 667, y: 234 },
+//   { x: 867, y: 134 },
+//   { x: 367, y: 340 },
+//   { x: 767, y: 34 },
+// ];
 
 export const VoronoiImagePatchworkResponsive = () => {
   const chartRef = useRef(null);
@@ -25,17 +37,16 @@ export const VoronoiImagePatchworkResponsive = () => {
 
   return (
     <div ref={chartRef} className="patchwork-container">
-      <VoronoiImagePatchwork
-        height={chartSize.height}
-        width={chartSize.width}
-      />
+      <VoronoiImagePatchwork height={HEIGHT} width={chartSize.width} />
     </div>
   );
 };
 
 const VoronoiImagePatchwork = ({ width, height }) => {
-  const xScale = d3.scaleLinear().domain([0, 800]).range([0, width]);
-  const yScale = d3.scaleLinear().domain([0, 300]).range([0, height]);
+  const data = generateRandomData(NUMBER_OF_CELLS);
+
+  const xScale = d3.scaleLinear().domain([0, 1000]).range([0, width]);
+  const yScale = d3.scaleLinear().domain([0, 800]).range([0, height]);
 
   //
   // Delaunay triangulation
@@ -52,57 +63,46 @@ const VoronoiImagePatchwork = ({ width, height }) => {
     return delaunay.voronoi([0, 0, width, height]);
   }, [data, width, height]);
 
-  // // Render all path in what shot as a string
-  // const allPath = voronoi.render();
-  // console.log({ allPath });
-
-  // // Render a specific cell, but as an array of coordinates
-  // const singlePath = voronoi.cellPolygon(3);
-  // console.log({ singlePath });
-
-  // Render cell
+  //
+  // Draw cells with images in it
+  //
   const allCells = data.map((cell, i) => {
     const key = 'img' + i;
     const cellPath = voronoi.renderCell(i);
 
-    const imgInfo = listOfBestCharts[i];
+    const imgInfo = listOfBestCharts[i % listOfBestCharts.length];
     const imgUrl =
       'https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/' +
       imgInfo.img +
       '?raw=true';
-    console.log({ cellPath });
 
     return (
       <g key={key}>
         <defs>
           <pattern
             id={'img' + i}
-            patternUnits="userSpaceOnUse"
-            width="300"
-            height="300"
+            patternUnits="objectBoundingBox"
+            width={1}
+            height={1}
           >
-            <image href={imgUrl} x="0" y="0" width="300" height="300" />
+            <image
+              href={imgUrl}
+              x={-100} // the -100 here allows to center the image a bit
+              y={-100}
+              width={IMG_ZOOM}
+              height={IMG_ZOOM}
+            />
           </pattern>
         </defs>
         <path
           d={cellPath}
-          stroke="black"
-          strokeWidth={5}
+          stroke="#f8f9fa"
+          strokeWidth={PADDING_BETWEEN_CELLS}
           fill={'url(#' + key + ')'}
         />
       </g>
     );
   });
-  //
-  // Images with clip ?
-  //
-
-  // Loop through all images
-  // For each, render image centered on the voronoi cell baricenter
-  // Use the cell coordinates to crop using a mask
-  // voronoi.cellPolygons().map((cell, i) => {
-  //   console.log(i, cell);
-  // });
 
   return (
     <svg width={width} height={height}>
@@ -110,3 +110,21 @@ const VoronoiImagePatchwork = ({ width, height }) => {
     </svg>
   );
 };
+
+VoronoiImagePatchwork.propTypes = {
+  width: PropTypes.number,
+  height: PropTypes.number,
+};
+
+function generateRandomData(n) {
+  const dataArray = [];
+
+  for (let i = 0; i < n; i++) {
+    const x = Math.random() * 1000; // Uniform distribution between 0 and 1000
+    const y = Math.random() * 800; // Uniform distribution between 0 and 800
+
+    dataArray.push({ x, y });
+  }
+
+  return dataArray;
+}
