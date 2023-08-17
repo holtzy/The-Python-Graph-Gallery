@@ -7,6 +7,7 @@ import { useDimensions } from '../util/use-dimensions';
 import { listOfBestCharts } from '../util/list-of-best-charts';
 import PropTypes from 'prop-types';
 import { Container } from 'react-bootstrap';
+import { Link } from 'gatsby';
 
 // All images in cells can be more or less zoomed in
 // If zoom is too strong, img will be blurry
@@ -100,15 +101,17 @@ const VoronoiImagePatchwork = ({ width, height }) => {
             />
           </pattern>
         </defs>
-        <path
-          className={hovered ? 'voronoi-cell dimmed' : 'voronoi-cell'}
-          onMouseEnter={() => setHovered(imgInfo)}
-          onMouseLeave={() => setHovered(undefined)}
-          d={cellPath}
-          stroke="#f8f9fa"
-          strokeWidth={PADDING_BETWEEN_CELLS}
-          fill={'url(#' + key + ')'}
-        />
+        <Link href={imgInfo.link}>
+          <path
+            className={hovered ? 'voronoi-cell dimmed' : 'voronoi-cell'}
+            onMouseEnter={() => setHovered(imgInfo)}
+            onMouseLeave={() => setHovered(undefined)}
+            d={cellPath}
+            stroke="#f8f9fa"
+            strokeWidth={PADDING_BETWEEN_CELLS}
+            fill={'url(#' + key + ')'}
+          />
+        </Link>
       </g>
     );
   });
