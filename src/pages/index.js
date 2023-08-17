@@ -92,10 +92,19 @@ export default function Home() {
             The biggest list of python chart examples
           </h2>
           <p>
-            Boasting the largest collection of chart examples online, our
-            gallery leaves no stone unturned. Whether you're a novice or an
-            expert, explore the exhaustive spectrum of visualization techniques
-            available, ensuring you find every chart type imaginable.
+            Within our collection, we cover <b>every chart type</b> imaginable
+            to ensure we fullfil your data visualization needs. To streamline
+            the process of finding your required chart, we meticulously{' '}
+            <b>classified</b> all the examples under their respective chart
+            types.
+          </p>
+          <p>
+            For each chart type, we kick off with a <b>foundational tutorial</b>{' '}
+            that introduces its basic structure and utility. After mastering the
+            basics, users can delve into our step-by-step guides on the most
+            elementary <b>customizations</b>, ensuring your chart not only
+            presents data but does so with an individual touch that caters to
+            your specific requirements.
           </p>
           <br />
           <ChartFamilySection chartFamily="distribution" />
