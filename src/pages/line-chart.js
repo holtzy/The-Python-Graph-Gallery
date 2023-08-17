@@ -7,14 +7,32 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib } from '../components/MiscellaneousLogos';
+import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 
-const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/line.html'>line chart</a> displays the evolution of one or several numeric variables. It is one of the most common chart type, so it can be build using any python viz library, like <code>matplotlib</code>, <code>seaborn</code> or <code>plotly</code>.</p>";
+const chartDescription = (
+  <>
+    <p>
+      A <a href="https://www.data-to-viz.com/graph/line.html">line chart</a>{' '}
+      displays the <b>evolution</b> of one or several <b>numeric variables</b>.
+      It is often used to represend <Link href="/timeseries">time series</Link>.
+    </p>
+    <p>
+      The line chart is one of the <b>most common</b> chart type. As a result,
+      all the most common python data visualization libraries like{' '}
+      <code>matplotlib</code>, <code>seaborn</code> or <code>plotly</code> allow
+      to build it.
+    </p>
+    <p>
+      This page displays many line chart examples made with those tools. It goes
+      from <b>basic line chart tutorials</b> to highly customized,{' '}
+      <b>polished examples</b> 🔥.
+    </p>
+  </>
+);
 
 const quickCode = `# libraries
 import matplotlib.pyplot as plt
@@ -57,7 +75,7 @@ export default function LinePlot() {
             <Link to={'/120-line-chart-with-matplotlib'}>
               <ChartImage
                 imgName="120_Basic_lineplot2"
-                caption="A basic line chart made with python and seaborn"
+                caption="A basic line chart made with python and matplotlib"
               />
             </Link>
           </Col>
@@ -74,13 +92,17 @@ export default function LinePlot() {
         </h2>
         <p>
           <code>Matplotlib</code> is a great fit to build line charts thanks to
-          its <code>plot()</code> function. The{' '}
-          <Link to="/120-line-chart-with-matplotlib">first chart</Link> of this
-          section explains how to use <code>plot()</code> from any kind of data
-          input format. The{' '}
+          its <code>plot()</code> function.{' '}
+        </p>
+        <p>
+          The <Link to="/120-line-chart-with-matplotlib">first chart</Link> of
+          this section explains how to use <code>plot()</code> from any kind of
+          data input format. The{' '}
           <Link to="/121-line-chart-customization">next one</Link> goes deep
-          into chart customization (line width, color aspect and more). A common
-          need is to build a{' '}
+          into chart customization (line width, color aspect and more).{' '}
+        </p>
+        <p>
+          Another common need is to build a{' '}
           <Link to="/line-chart-dual-y-axis-with-matplotlib">
             dual Y axis line chart
           </Link>
@@ -127,15 +149,23 @@ export default function LinePlot() {
           Line chart with several groups (<code>Matplotlib</code>)
         </h2>
         <p>
-          A line chart with multiple groups allows to show the evolution of
-          several items on the same figure. It is powerful but can quickly turn
-          into a{' '}
+          A line chart with multiple groups allows to show the evolution of{' '}
+          <b>several items</b> on the same figure.{' '}
+        </p>
+        <p>
+          It is powerful but can quickly turn into a{' '}
           <a href="https://www.data-to-viz.com/caveat/spaghetti.html">
             spaghetti chart
           </a>
-          : when too many lines are displayed they get hard to read. The
-          examples below explain how to build one, and what are the alternative
-          to show your data a better way.
+          : when too many lines are displayed they get cluttered and{' '}
+          <b>hard to read</b>. Moreover, make sure to use{' '}
+          <Link href="/123-highlight-a-line-in-line-plot">inline labeling</Link>{' '}
+          instead of a side legend that is very annoying to read.
+        </p>
+        <p>
+          The examples below explain how to build a line chart with multiple
+          groups, and what are the <b>alternatives</b> to show your data a
+          better way.
         </p>
         <Row>
           <ChartImageContainer
@@ -162,6 +192,28 @@ export default function LinePlot() {
             imgName="125_Lineplot_small_multiple"
             caption="Line chart and small multiple (variation)"
             linkTo="/125-small-multiples-for-line-chart"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="seaborn">
+          <Seaborn />
+          Line chart with Seaborn
+        </h2>
+        <p>
+          <Link href="/seaborn">Seaborn</Link> is another very good alternative
+          when it comes to create line charts in Python. It comes with a
+          powerful <code>lineplot()</code> function that does most of the work
+          for us.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="122_Multiple_line_plot"
+            caption="Line chart with multiple groups"
+            linkTo="/122-multiple-lines-chart"
           />
         </Row>
       </Container>

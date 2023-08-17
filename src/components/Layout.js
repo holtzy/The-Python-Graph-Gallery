@@ -1,18 +1,18 @@
-import React from "react";
-import { Helmet } from "react-helmet-async";
-import PropTypes from "prop-types";
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import PropTypes from 'prop-types';
 
-import Footer from "../components/Footer";
-import TopNavbar from "../components/TopNavbar";
-import TableOfContent from "../components/TableOfContent";
+import Footer from '../components/Footer';
+import TopNavbar from '../components/TopNavbar';
+import TableOfContent from '../components/TableOfContent';
 
 // This is for ESLint, it does not understand that process is a global variable in a gatsby environment
 /*global process*/
 
 // Import Styles = bootstrap + custom
 // Custom must be AFTER bootstrap. It makes sure custom style are not overriden
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/style.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/style.css';
 
 // Layout component: add header + footer + TOC to content
 export default function Layout({
@@ -22,7 +22,7 @@ export default function Layout({
   chartType,
   seoDescription,
   keywords,
-  isHome = false
+  isHome = false,
 }) {
   return (
     <>
@@ -38,18 +38,18 @@ export default function Layout({
         />
         <meta
           name="description"
-          content={seoDescription || "How to build a chart with Python"}
+          content={seoDescription || 'How to build a chart with Python'}
         />
         <meta name="author" content="Yan Holtz" />
         <meta
           name="keywords"
-          content={keywords || "python, chart, graph, code, viz, dataviz"}
+          content={keywords || 'python, chart, graph, code, viz, dataviz'}
         />
 
         <meta property="og:site_name" content="The Python Graph Gallery" />
         <meta
           property="og:title"
-          content={title + " | The Python Graph Gallery"}
+          content={title + ' | The Python Graph Gallery'}
         />
         <meta
           property="og:image"
@@ -60,7 +60,7 @@ export default function Layout({
           name="twitter:image"
           content="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"
         />
-        {process.env.NODE_ENV === 'production' && 
+        {process.env.NODE_ENV === 'production' && (
           <script>
             {`(function (w, d) {
               w.adthrive = w.adthrive || {};
@@ -81,14 +81,14 @@ export default function Layout({
               n.parentNode.insertBefore(s, n);
             })(window, document);`}
           </script>
-        }
+        )}
       </Helmet>
 
       <header>
         <TopNavbar />
       </header>
 
-      <main className={isHome ? "home" : "not-home"}>{children}</main>
+      <main className={isHome ? 'home' : 'not-home'}>{children}</main>
 
       {/* <SideLogos /> */}
 
@@ -106,5 +106,5 @@ Layout.propTypes = {
   chartType: PropTypes.string,
   seoDescription: PropTypes.string,
   keywords: PropTypes.string,
-  isHome: PropTypes.bool
+  isHome: PropTypes.bool,
 };
