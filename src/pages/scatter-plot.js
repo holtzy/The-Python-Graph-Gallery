@@ -7,14 +7,35 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Matplotlib, Plotly, Seaborn } from '../components/MiscellaneousLogos';
 import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 
-const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/scatter.html'>scatter plot</a> displays the relationship between 2 numeric variables. Each data point is represented as a circle. Several tools allow to build one in python, this section provides code samples for <code>Seaborn</code>, <code>Matplotlib</code> and <code>Plotly</code> for interactive versions.</p>";
+const chartDescription = (
+  <>
+    <p>
+      A{' '}
+      <a href="https://www.data-to-viz.com/graph/scatter.html">scatter plot</a>{' '}
+      displays the relationship between 2 numeric variables, one being displayed
+      on the X axis (horizontal) and the other on the Y axis (vertical). Each
+      data point is represented as a <b>circle</b>.
+    </p>
+    <p>
+      Several tools allow to build scatterplots in python.{' '}
+      <Link href="/seaborn">Seaborn</Link> is probably the most straightforward
+      library for the job, but <Link href="/matplotlib">matplotlib</Link> allows
+      a greater level of customization. If you are looking for an interactive
+      chart, <Link href="/plotly">plotly</Link> is definitely the way to go.
+    </p>
+    <p>
+      This page provides many examples of scatterplots made with those Python
+      tools, going from <b>simple examples</b> to <b>highly customized</b>{' '}
+      versions.
+    </p>
+  </>
+);
 
 const quickCode = `# library & dataset
 import seaborn as sns
@@ -37,7 +58,7 @@ plt.plot( 'x_values', 'y_values', data=df, linestyle='none', marker='o')
 plt.show()
 `;
 
-export default function ViolinPlot() {
+export default function ScatterPlot() {
   return (
     <Layout
       title="Scatterplot"
@@ -131,7 +152,7 @@ export default function ViolinPlot() {
           explains how to build the most basic scatterplot with python. Then,
           several types of customization are described: adding a{' '}
           <Link to="/42-custom-linear-regression-fit-seaborn">regression</Link>{' '}
-          line, tweaking <Link to="/41-control-marker-features">markers</Link>
+          line, tweaking <Link to="/41-control-marker-features">markers</Link>{' '}
           and <Link to="/44-control-axis-limits-of-plot-seaborn">axis</Link>,
           adding <Link to="/46-add-text-annotation-on-scatterplot">labels</Link>{' '}
           and more.
@@ -315,6 +336,45 @@ export default function ViolinPlot() {
 
       <Spacing />
 
+      <Container>
+        <h2 id="Plotly">
+          <Plotly />
+          Scatterplots with <code>Plotly</code>
+        </h2>
+        <p>
+          If you are looking for an <b>interactive</b> scatterplot,{' '}
+          <Link href="/plotly">plotly</Link> is definitely the way to go.
+        </p>
+        <p>
+          Interactivity is a real plus for scatterplots. It is very useful to
+          have a <b>tooltip</b> associated to every markers to get some
+          additional information about it. <b>Zooming</b> on a specific area of
+          the scatterplot is also very valuable sometimes.
+        </p>
+        <p>
+          The examples below should help you get started quickly with the plotly
+          API:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="511-interactive-scatterplot-with-plotly-1"
+            caption="Most basic scatterplot with plotly"
+            linkTo="/511-interactive-scatterplot-with-plotly"
+          />
+          <ChartImageContainer
+            imgName="511-interactive-scatterplot-with-plotly-2"
+            caption="Plotly scatterplot with several levels of grouping"
+            linkTo="/511-interactive-scatterplot-with-plotly"
+          />
+          <ChartImageContainer
+            imgName="511-interactive-scatterplot-with-plotly-3"
+            caption="Plotly scatterplot with a trend line"
+            linkTo="/511-interactive-scatterplot-with-plotly"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
       <Container>
         <h2 id="From the web">
           <Matplotlib />
