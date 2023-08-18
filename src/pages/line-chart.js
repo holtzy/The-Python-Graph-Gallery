@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Matplotlib, Plotly, Seaborn } from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -214,6 +214,41 @@ export default function LinePlot() {
             imgName="122_Multiple_line_plot"
             caption="Line chart with multiple groups"
             linkTo="/122-multiple-lines-chart"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="plotly">
+          <Plotly />
+          Interactive line chart with plotly
+        </h2>
+        <p>
+          If you are looking for an <b>interactive</b> version of a line chart
+          with Python, <Link href="/plotly">plotly</Link> is definitely the
+          library you need.
+        </p>
+        <p>
+          Its API is very straightforward to understand, and the output allows
+          to <b>zoom</b> on the chart and have <b>tooltip</b> for markers:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="514-interactive-line-chart-plotly-1"
+            caption="Basic interactive line chart with plotly"
+            linkTo="/514-interactive-line-chart-plotly"
+          />
+          <ChartImageContainer
+            imgName="514-interactive-line-chart-plotly-2"
+            caption="How to customize the appearance of a plotly line chart"
+            linkTo="/514-interactive-line-chart-plotly"
+          />
+          <ChartImageContainer
+            imgName="514-interactive-line-chart-plotly-3"
+            caption="Interactive line chart with multiple groups"
+            linkTo="/514-interactive-line-chart-plotly"
           />
         </Row>
       </Container>

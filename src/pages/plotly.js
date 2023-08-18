@@ -128,6 +128,21 @@ export default function Plotlys() {
             caption="Plotly scatterplot with a trend line"
             linkTo="/511-interactive-scatterplot-with-plotly"
           />
+          <ChartImageContainer
+            imgName="514-interactive-line-chart-plotly-1"
+            caption="Basic interactive line chart with plotly"
+            linkTo="/514-interactive-line-chart-plotly"
+          />
+          <ChartImageContainer
+            imgName="514-interactive-line-chart-plotly-2"
+            caption="How to customize the appearance of a plotly line chart"
+            linkTo="/514-interactive-line-chart-plotly"
+          />
+          <ChartImageContainer
+            imgName="514-interactive-line-chart-plotly-3"
+            caption="Interactive line chart with multiple groups"
+            linkTo="/514-interactive-line-chart-plotly"
+          />
         </Row>
 
         <div className="mx-auto">
