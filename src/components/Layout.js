@@ -6,6 +6,15 @@ import Footer from '../components/Footer';
 import TopNavbar from '../components/TopNavbar';
 import TableOfContent from '../components/TableOfContent';
 
+// Every single page of this website has its content wrapped in this <Layout/> component
+// It allows to:
+// - import css files
+// - Add stuff in the Head of the html page for SEO
+// - Call the raptive script for ads
+// - Add the nabbar on top
+// - add the footer
+// - add the table of content
+
 // This is for ESLint, it does not understand that process is a global variable in a gatsby environment
 /*global process*/
 
@@ -14,7 +23,6 @@ import TableOfContent from '../components/TableOfContent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/style.css';
 
-// Layout component: add header + footer + TOC to content
 export default function Layout({
   children,
   title,
@@ -89,8 +97,6 @@ export default function Layout({
       </header>
 
       <main className={isHome ? 'home' : 'not-home'}>{children}</main>
-
-      {/* <SideLogos /> */}
 
       <Footer />
 
