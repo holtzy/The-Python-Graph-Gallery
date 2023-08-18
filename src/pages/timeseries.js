@@ -12,6 +12,7 @@ import ChartImage from '../components/ChartImage';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>Timeseries charts refer to all charts representing the evolution of a numeric value. <a href='https://www.python-graph-gallery.com/line-chart/'>Line chart</a>, <a href='https://www.python-graph-gallery.com/streamchart/'>streamgraph</a>, <a href='https://www.python-graph-gallery.com/barplot/'>barplot</a>, <a href='https://www.python-graph-gallery.com/area-plot/'>area chart</a>: they all can be used for timeseries visualization. This section displays many timeseries examples made with Python, Matplotlib and other libraries.</p>";
@@ -27,13 +28,16 @@ const quickCode = `# libraries
   plt.plot(values)
   `;
 
+export const Head = () => (
+  <SEO
+    title="Timeseries"
+    seoDescription="A collection of timeseries examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function Pie() {
   return (
-    <Layout
-      title="Timeseries"
-      isTocEnabled
-      seoDescription="A collection of timeseries examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Timeseries" description={chartDescription} />
 
       <Container>

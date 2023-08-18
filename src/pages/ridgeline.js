@@ -1,37 +1,46 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Animation } from "../components/MiscellaneousLogos"
-import { Button } from "react-bootstrap";
-import Spacing from "../components/Spacing";
-import ChartImageContainer from "../components/ChartImageContainer";
-import Row from "react-bootstrap/Row";
-import { Seaborn } from "../components/MiscellaneousLogos"
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import ChartFamilySection from '../components/ChartFamilySection';
+import { Link } from 'gatsby';
+import { Animation } from '../components/MiscellaneousLogos';
+import { Button } from 'react-bootstrap';
+import Spacing from '../components/Spacing';
+import ChartImageContainer from '../components/ChartImageContainer';
+import Row from 'react-bootstrap/Row';
+import { Seaborn } from '../components/MiscellaneousLogos';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/ridgeline.html'>ridgeline</a> summarizes the distribution of a numeric variable for several groups. Each group is represented as a density chart, each density chart overlapping each other to use space more efficiently.</p>";
 
+export const Head = () => (
+  <SEO
+    title="Ridgeline"
+    seoDescription="A collection of ridgeline chart examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function RidgelinePlot() {
-
   return (
-
-    <Layout title="Ridgeline" isTocEnabled seoDescription="A collection of ridgeline chart examples made with Python, coming with explanation and reproducible code">
-
+    <Layout isTocEnabled>
       <TitleAndDescription
         title="Ridgeline chart"
         description={chartDescription}
       />
 
-
       <Container>
-        <h2 id="Seaborn"><Seaborn />Ridgeline charts with <code>Seaborn</code></h2>
+        <h2 id="Seaborn">
+          <Seaborn />
+          Ridgeline charts with <code>Seaborn</code>
+        </h2>
         <p>
-          <code>Seaborn</code> does not have a dedicated section to build ridgeline charts. It is still
-          possible to make one using some workarounds involving several call of the <code>kdeplot()</code> function.
+          <code>Seaborn</code> does not have a dedicated section to build
+          ridgeline charts. It is still possible to make one using some
+          workarounds involving several call of the <code>kdeplot()</code>{' '}
+          function.
         </p>
         <Row>
           <ChartImageContainer
@@ -45,16 +54,24 @@ export default function RidgelinePlot() {
       <Spacing />
 
       <Container>
-        <h2 id="Plotly"><Animation />Interactive ridgeline chart with <code>plotly</code></h2>
-        <p>Plotly is a python library that makes the link with Javascript to build interactive charts that you can display in a browser.</p>
+        <h2 id="Plotly">
+          <Animation />
+          Interactive ridgeline chart with <code>plotly</code>
+        </h2>
+        <p>
+          Plotly is a python library that makes the link with Javascript to
+          build interactive charts that you can display in a browser.
+        </p>
         <p>The following example is a ridgeline chart made with this library</p>
         <div className="mx-auto">
-          <iframe src="/interactiveCharts/ridgeline-graph-plotly.html" title="ridgeline chart with plotly" style={{ border: "none", width: '800px', height: '500px' }}></iframe>
+          <iframe
+            src="/interactiveCharts/ridgeline-graph-plotly.html"
+            title="ridgeline chart with plotly"
+            style={{ border: 'none', width: '800px', height: '500px' }}
+          ></iframe>
         </div>
         <Link to="/ridgeline-graph-plotly">
-          <Button size="sm">
-            See code
-          </Button>
+          <Button size="sm">See code</Button>
         </Link>
       </Container>
 
@@ -73,7 +90,6 @@ export default function RidgelinePlot() {
       </Container>
 
       <Spacing />
-
-    </Layout >
+    </Layout>
   );
 }

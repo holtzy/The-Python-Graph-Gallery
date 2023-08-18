@@ -13,6 +13,7 @@ import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { Button } from 'react-bootstrap';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/stackedarea.html'>stacked area chart</a> displays the evolution of a numeric variable for several groups of a dataset. Each group is displayed on top of each other, making it easy to read the evolution of the total, but hard to read each group value accurately. In python, stacked area charts are mainly done thanks to the <code>stackplot()</code> function</p>";
@@ -32,13 +33,16 @@ plt.stackplot(x,y1, y2, y3, labels=['A','B','C'])
 plt.legend(loc='upper left')
 `;
 
+export const Head = () => (
+  <SEO
+    title="Stacked area chart"
+    seoDesciption="A collection of stacked area chart examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function StackedAreaPlot() {
   return (
-    <Layout
-      title="Stacked area chart"
-      isTocEnabled
-      seoDescription="A collection of stacked area chart examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription
         title="Stacked area Chart"
         description={chartDescription}

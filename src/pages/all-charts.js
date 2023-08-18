@@ -10,6 +10,7 @@ import { Link } from 'gatsby';
 import volcanoGif from '../../static/graph/animated_volcano.gif';
 import { Button } from 'react-bootstrap';
 import ChartImage from '../components/ChartImage';
+import { SEO } from '../components/SEO';
 
 const chartDescription = (
   <>
@@ -32,12 +33,16 @@ const chartDescription = (
   </>
 );
 
+export const Head = () => (
+  <SEO
+    title="All Charts"
+    seoDescription="A list of more than 300 charts made with Python, coming together with code and explanation"
+  />
+);
+
 export default function AllCharts() {
   return (
-    <Layout
-      title="All Charts"
-      seoDescription="A list of more than 300 charts made with Python, coming together with code and explanation"
-    >
+    <Layout>
       <TitleAndDescription title="All charts" description={chartDescription} />
       <Container>
         <Row>

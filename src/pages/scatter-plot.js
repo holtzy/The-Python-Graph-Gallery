@@ -12,6 +12,7 @@ import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/scatter.html'>scatter plot</a> displays the relationship between 2 numeric variables. Each data point is represented as a circle. Several tools allow to build one in python, this section provides code samples for <code>Seaborn</code>, <code>Matplotlib</code> and <code>Plotly</code> for interactive versions.</p>";
@@ -37,13 +38,16 @@ plt.plot( 'x_values', 'y_values', data=df, linestyle='none', marker='o')
 plt.show()
 `;
 
+export const Head = () => (
+  <SEO
+    title="Scatterplot"
+    seoDescription="A collection of scatterplot examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function ViolinPlot() {
   return (
-    <Layout
-      title="Scatterplot"
-      isTocEnabled
-      seoDescription="A collection of scatterplot examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Scatterplot" description={chartDescription} />
 
       <Container>

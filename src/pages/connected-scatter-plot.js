@@ -12,6 +12,7 @@ import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/connectedscatter.html'>connected scatterplot</a> is a <a href='https://python-graph-gallery.com/line-chart/'>line chart</a> where each data point is shown by a circle or any type of marker. This section explains how to build a connected scatterplot with <code>Python</code>, using both the <code>Matplotlib</code> and the <code>Seaborn</code> libraries.</p>";
@@ -32,13 +33,16 @@ const quickCode = `# libraries
   plt.show()
 `;
 
+export const Head = () => (
+  <SEO
+    title="Connected Scatterplot"
+    seoDesciption="A collection of connected scatterplot examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function ConnectedScatter() {
   return (
-    <Layout
-      title="Connected Scatterplot"
-      isTocEnabled
-      seoDescription="A collection of connected scatterplot examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription
         title="Connected Scatterplot"
         description={chartDescription}

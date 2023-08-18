@@ -1,17 +1,22 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import ChartFamilySection from "../components/ChartFamilySection";
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import ChartFamilySection from '../components/ChartFamilySection';
 
-import Spacing from "../components/Spacing";
+import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
-const chartDescription = "<p>About privacy.</p>";
+const chartDescription = '<p>About privacy.</p>';
+
+export const Head = () => (
+  <SEO title="Privacy" seoDescription="About privacy" />
+);
 
 export default function Privacy() {
   return (
-    <Layout title="Privacy" isTocEnabled seoDescription="About privacy">
+    <Layout isTocEnabled>
       <TitleAndDescription title="Privacy" description={chartDescription} />
 
       <Spacing />

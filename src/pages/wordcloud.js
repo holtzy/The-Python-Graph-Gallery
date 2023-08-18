@@ -1,21 +1,22 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import Row from "react-bootstrap/Row";
-import ChartImageContainer from "../components/ChartImageContainer";
-import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Col } from "react-bootstrap";
-import ChartImage from "../components/ChartImage";
-import SectionLogoWithOverlay from "../components/SectionLogoWithOverlay";
-import { chartTypesInfo } from "../util/sectionDescriptions"
-import { fullUrlToInternalLink } from "../util/utils";
-import CodeChunk from "../components/CodeChunk";
-import Spacing from "../components/Spacing";
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import Row from 'react-bootstrap/Row';
+import ChartImageContainer from '../components/ChartImageContainer';
+import ChartFamilySection from '../components/ChartFamilySection';
+import { Link } from 'gatsby';
+import { Col } from 'react-bootstrap';
+import ChartImage from '../components/ChartImage';
+import SectionLogoWithOverlay from '../components/SectionLogoWithOverlay';
+import { chartTypesInfo } from '../util/sectionDescriptions';
+import { fullUrlToInternalLink } from '../util/utils';
+import CodeChunk from '../components/CodeChunk';
+import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
-const logoToKeep = ['lollipop', 'barplot', 'treemap', 'circularPacking']
+const logoToKeep = ['lollipop', 'barplot', 'treemap', 'circularPacking'];
 const WordAlternativeLogos = () => {
   const allLogos = chartTypesInfo
     .filter((chart) => logoToKeep.includes(chart.id))
@@ -37,7 +38,7 @@ const WordAlternativeLogos = () => {
       <Row>{allLogos}</Row>
     </div>
   );
-}
+};
 
 const quickCode = `# Libraries
 from wordcloud import WordCloud
@@ -54,30 +55,37 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
 plt.margins(x=0, y=0)
 plt.show()
-`
+`;
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/wordcloud.html'>word cloud</a> (also called <a href='https://www.data-to-viz.com/graph/wordcloud.html'>tag cloud</a> or <a href='https://www.data-to-viz.com/graph/wordcloud.html'>weighted list</a>) is a visual representation of text data. Words are usually single words, and the importance of each is shown with font size or color. <code>Python</code> fortunately has a <code>wordcloud</code> library allowing to build them.</p>";
 
+export const Head = () => (
+  <SEO
+    title="Wordcloud"
+    seoDescription="A collection of wordcloud examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function Wordcloud() {
-
   return (
-
-    <Layout title="Wordcloud" isTocEnabled seoDescription="A collection of wordcloud examples made with Python, coming with explanation and reproducible code">
-      <TitleAndDescription
-        title="Wordcloud"
-        description={chartDescription}
-      />
+    <Layout isTocEnabled>
+      <TitleAndDescription title="Wordcloud" description={chartDescription} />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p>The <code>wordcloud</code> library is here to help you build a wordcloud in minutes. Here is a basic code snippets using the <code>WordCloud()</code> function to get you started.🔥</p>
+            <p>
+              The <code>wordcloud</code> library is here to help you build a
+              wordcloud in minutes. Here is a basic code snippets using the{' '}
+              <code>WordCloud()</code> function to get you started.🔥
+            </p>
           </Col>
           <Col md={6}>
-            <Link to={"/260-basic-wordcloud"}>
-              <ChartImage imgName="260_Basic_Wordcloud"
+            <Link to={'/260-basic-wordcloud'}>
+              <ChartImage
+                imgName="260_Basic_Wordcloud"
                 caption="Most basic wordcloud with python and the wordcloud library."
               />
             </Link>
@@ -91,12 +99,16 @@ export default function Wordcloud() {
       <div className="greySection" id="warning">
         <Container>
           <h2 id="Warning">&#9888;&#65039; The issue with wordclouds</h2>
-          <p>Wordclouds are aesthetically pleasing and people are used to it, what make sure
-          readers will understand them quick.
+          <p>
+            Wordclouds are aesthetically pleasing and people are used to it,
+            what make sure readers will understand them quick.
           </p>
-          <p>However, it is important to consider the caveats associated to them. For instance,
-          <u>longer words</u> will t<u>ake more space</u> on the figure by construction which distorts
-          reality. Moreover, it is impossible to <u>translate a font size</u> to an accurate value.
+          <p>
+            However, it is important to consider the caveats associated to them.
+            For instance,
+            <u>longer words</u> will t<u>ake more space</u> on the figure by
+            construction which distorts reality. Moreover, it is impossible to{' '}
+            <u>translate a font size</u> to an accurate value.
           </p>
           <WordAlternativeLogos />
         </Container>
@@ -105,9 +117,15 @@ export default function Wordcloud() {
       <Spacing />
 
       <Container>
-        <h2 id="Wordcloud">Wordclouds with.. the <code>wordcloud</code> library &#128512;</h2>
+        <h2 id="Wordcloud">
+          Wordclouds with.. the <code>wordcloud</code> library &#128512;
+        </h2>
         <p>
-          The <code>wordcloud</code> library takes as input a <code>string</code> containing all the words you want to display. It passes it to the <code>Wordcloud()</code> function that will compute the display an show it on the screen thanks to the <code>imshow()</code> function.
+          The <code>wordcloud</code> library takes as input a{' '}
+          <code>string</code> containing all the words you want to display. It
+          passes it to the <code>Wordcloud()</code> function that will compute
+          the display an show it on the screen thanks to the{' '}
+          <code>imshow()</code> function.
         </p>
         <Row>
           <ChartImageContainer
@@ -133,13 +151,14 @@ export default function Wordcloud() {
       <Container>
         <h2 id="Custom shapes">Wordclouds and custom shapes</h2>
         <p>
-          It is a common need to apply a specific shape to the wordcloud.
-          TODO. Make a bette image.
-          TODO: more proiminent link toward https://github.com/amueller/word_cloud
+          It is a common need to apply a specific shape to the wordcloud. TODO.
+          Make a bette image. TODO: more proiminent link toward
+          https://github.com/amueller/word_cloud
         </p>
-        <div style={{ maxWidth: '750px', margin: "auto" }}>
-          <Link to={"/262-worcloud-with-specific-shape"}>
-            <ChartImage imgName="262_Wordcloud_with_a_Mask"
+        <div style={{ maxWidth: '750px', margin: 'auto' }}>
+          <Link to={'/262-worcloud-with-specific-shape'}>
+            <ChartImage
+              imgName="262_Wordcloud_with_a_Mask"
               caption="Use a mask to get a wordcloud with specific shape."
             />
           </Link>
@@ -161,7 +180,6 @@ export default function Wordcloud() {
       </Container>
 
       <Spacing />
-
-    </Layout >
+    </Layout>
   );
 }

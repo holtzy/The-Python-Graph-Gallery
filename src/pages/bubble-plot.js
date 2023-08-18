@@ -1,17 +1,18 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import Row from "react-bootstrap/Row";
-import ChartImageContainer from "../components/ChartImageContainer";
-import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos";
-import { Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk";
-import ChartImage from "../components/ChartImage";
-import Spacing from "../components/Spacing";
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import Row from 'react-bootstrap/Row';
+import ChartImageContainer from '../components/ChartImageContainer';
+import ChartFamilySection from '../components/ChartFamilySection';
+import { Link } from 'gatsby';
+import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Col } from 'react-bootstrap';
+import CodeChunk from '../components/CodeChunk';
+import ChartImage from '../components/ChartImage';
+import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/bubble.html'>bubble plot</a> is a <a href='https://www.python-graph-gallery.com/scatter-plot'>scatterplot</a> where the circle size is mapped to the value of a third numeric variable. This section shows many bubble plots made with <code>Python</code>, using both the <code>Matplotlib</code> and <code>Seaborn</code> libraries.</p>";
@@ -31,13 +32,16 @@ sns.scatterplot(data=data, x="gdpPercap", y="lifeExp", size="pop", legend=False,
 plt.show()
 `;
 
+export const Head = () => (
+  <SEO
+    title="Bubble plot"
+    seoDescription="A collection of bubble chart examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function BubblePlot() {
   return (
-    <Layout
-      title="Bubble plot"
-      isTocEnabled
-      seoDescription="A collection of bubble chart examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Bubble plot" description={chartDescription} />
 
       <Spacing />
@@ -47,14 +51,14 @@ export default function BubblePlot() {
         <Row className="align-items-center">
           <Col md={6}>
             <p>
-              The <code>scatterplot()</code> function of <code>seaborn</code>{" "}
-              also allows to build bubble charts. Indeed, it has a{" "}
+              The <code>scatterplot()</code> function of <code>seaborn</code>{' '}
+              also allows to build bubble charts. Indeed, it has a{' '}
               <code>size</code> parameter that controls circle size according to
               a numeric variable of the dataset.🔥
             </p>
           </Col>
           <Col md={6}>
-            <Link to={"/bubble-plot-with-seaborn"}>
+            <Link to={'/bubble-plot-with-seaborn'}>
               <ChartImage
                 imgName="bubble-plot-with-seaborn"
                 caption="Basic bubble chart with Python and Seaborn."
@@ -75,12 +79,12 @@ export default function BubblePlot() {
         </h2>
         <p>
           <code>Seaborn</code> is the best tool to quickly build a quality
-          bubble chart. The example below are based on the famous{" "}
+          bubble chart. The example below are based on the famous{' '}
           <code>gapminder</code> dataset that shows the relationship between gdp
           per capita, life expectancy and population of world countries.
         </p>
         <p>
-          The examples below start simple by calling the{" "}
+          The examples below start simple by calling the{' '}
           <code>scatterplot()</code> function with the minimum set of
           parameters. It then show how to change bubble colors to represent a
           fourth variable, improve general styling, tweak the legend and more.
@@ -102,9 +106,9 @@ export default function BubblePlot() {
           Bubble plot with <code>Matplotlib</code>
         </h2>
         <p>
-          As for <Link to="/scatter-plot">scatterplots</Link>,{" "}
+          As for <Link to="/scatter-plot">scatterplots</Link>,{' '}
           <code>Matplotlib</code> will help us build a bubble plot thanks to the
-          the <code>plt.scatter()</code> function. This function provides a{" "}
+          the <code>plt.scatter()</code> function. This function provides a{' '}
           <code>s</code> parameter allowing to pass a third variable that will
           be mapped to the markers size.
         </p>
@@ -176,13 +180,13 @@ export default function BubblePlot() {
         </h2>
         <p>
           The web is full of astonishing charts made by awesome bloggers, (often
-          using <a href="https://www.r-graph-gallery.com">R</a>). The{" "}
+          using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
           <a href="https://www.python-graph-gallery.com">
             Python graph gallery
-          </a>{" "}
+          </a>{' '}
           tries to display (or translate from R) some of the best creations and
           explain how their source code works. If you want to display your work
-          here, please drop me a word or even better, submit a{" "}
+          here, please drop me a word or even better, submit a{' '}
           <a href="https://github.com/holtzy/The-Python-Graph-Gallery">
             Pull Request
           </a>
@@ -190,35 +194,35 @@ export default function BubblePlot() {
         </p>
         <Row>
           <Col xs={12} md={4}>
-            <Link to={"/web-text-repel-with-matplotlib"}>
+            <Link to={'/web-text-repel-with-matplotlib'}>
               <ChartImage
-                imgName={"web-text-repel-with-matplotlib-square"}
+                imgName={'web-text-repel-with-matplotlib-square'}
                 caption={
-                  "Learn how to use the adjustText library to add many labels with no overlaps."
+                  'Learn how to use the adjustText library to add many labels with no overlaps.'
                 }
               />
             </Link>
           </Col>
           <Col xs={12} md={4}>
             <Link
-              to={"/web-scatterplot-text-annotation-and-regression-matplotlib"}
+              to={'/web-scatterplot-text-annotation-and-regression-matplotlib'}
             >
               <ChartImage
                 imgName={
-                  "web-scatterplot-text-annotation-and-regression-matplotlib-square"
+                  'web-scatterplot-text-annotation-and-regression-matplotlib-square'
                 }
                 caption={
-                  "Scatterplot with regression fit, group colors and non-overlapping labels."
+                  'Scatterplot with regression fit, group colors and non-overlapping labels.'
                 }
               />
             </Link>
           </Col>
           <Col xs={12} md={4}>
-            <Link to={"/web-scatterplot-astronaut"}>
+            <Link to={'/web-scatterplot-astronaut'}>
               <ChartImage
-                imgName={"web-scatterplot-astronaut-square"}
+                imgName={'web-scatterplot-astronaut-square'}
                 caption={
-                  "Dark mode scatterplot with custom annotations, title and explanations. All of that with a very good appearance!"
+                  'Dark mode scatterplot with custom annotations, title and explanations. All of that with a very good appearance!'
                 }
               />
             </Link>

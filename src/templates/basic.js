@@ -1,15 +1,16 @@
-import "./basic.css";
+import './basic.css';
 
-import React from "react";
-import { graphql } from "gatsby";
+import React from 'react';
+import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import TitleAndDescription from "../components/TitleAndDescription";
-import ChartFamilySection from "../components/ChartFamilySection";
-import Contact from "../components/Contact";
-import Spacing from "../components/Spacing";
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import TitleAndDescription from '../components/TitleAndDescription';
+import ChartFamilySection from '../components/ChartFamilySection';
+import Contact from '../components/Contact';
+import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 export default function Template({ data }) {
   const {
@@ -19,11 +20,16 @@ export default function Template({ data }) {
     chartType,
     slug,
     seoDescription,
-    keywords
+    keywords,
   } = data.jupyterNotebook.metadata;
   return (
-    <Layout title={title} isTocEnabled chartType={chartType} seoDescription={seoDescription} keywords={keywords} >
-
+    <Layout
+      title={title}
+      isTocEnabled
+      chartType={chartType}
+      seoDescription={seoDescription}
+      keywords={keywords}
+    >
       <TitleAndDescription
         title={title}
         description={'<p>' + description + '</p>'}
@@ -53,13 +59,12 @@ export default function Template({ data }) {
       </Container>
 
       <Spacing />
-
     </Layout>
   );
 }
 
 Template.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
 };
 
 export const query = graphql`
@@ -78,3 +83,5 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = () => <SEO title={'toto'} seoDescription={'titi'} />;

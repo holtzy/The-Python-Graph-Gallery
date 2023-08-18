@@ -13,6 +13,7 @@ import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import FunctionExploration from '../components/FunctionExploration';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/caveat/boxplot.html'>boxplot</a> summarizes the distribution of a numeric variable for one or several groups. It allows to quickly get the median, quartiles and outliers but also hides the dataset individual data points. In python, boxplots are most of time done thanks to the <code>boxplot</code> function of the <code>Seaborn</code> library.</p>";
@@ -24,13 +25,16 @@ df = sns.load_dataset('iris')
 sns.boxplot( x=df["species"], y=df["sepal_length"] )
 `;
 
+export const Head = () => (
+  <SEO
+    title="Boxplot"
+    seoDescription="A collection of boxplot examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function Boxplot() {
   return (
-    <Layout
-      title="Boxplot"
-      isTocEnabled
-      seoDescription="A collection of boxplot examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Boxplot" description={chartDescription} />
 
       <Container>

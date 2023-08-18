@@ -1,19 +1,20 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import Row from "react-bootstrap/Row";
-import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Matplotlib } from "../components/MiscellaneousLogos"
-import { Button, Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk"
-import Spacing from "../components/Spacing";
-import ChartImage from "../components/ChartImage";
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import Row from 'react-bootstrap/Row';
+import ChartFamilySection from '../components/ChartFamilySection';
+import { Link } from 'gatsby';
+import { Matplotlib } from '../components/MiscellaneousLogos';
+import { Button, Col } from 'react-bootstrap';
+import CodeChunk from '../components/CodeChunk';
+import Spacing from '../components/Spacing';
+import ChartImage from '../components/ChartImage';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
-  "<p>A section about how to manage colors with Python. Coming soon.";
+  '<p>A section about how to manage colors with Python. Coming soon.';
 
 const quickCode = `# libraries
 from mpl_toolkits.mplot3d import Axes3D
@@ -30,30 +31,30 @@ ax = fig.add_subplot(111, projection='3d')
 ax.scatter(df['X'], df['Y'], df['Z'], c='skyblue', s=60)
 ax.view_init(30, 185)
 plt.show()
-`
+`;
+
+export const Head = () => (
+  <SEO
+    title="Tips about colors with Python"
+    seoDescription="How to manage colors in python charts"
+  />
+);
 
 export default function Colors() {
-
   return (
-
-    <Layout title="Tips about colors with Python" isTocEnabled seoDescription="How to manage colors in python charts">
-
-
-      <TitleAndDescription
-        title="Colors"
-        description={chartDescription}
-      />
+    <Layout isTocEnabled>
+      <TitleAndDescription title="Colors" description={chartDescription} />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
         <Row className="align-items-center">
+          <Col md={6}>Coming soon</Col>
           <Col md={6}>
-            Coming soon
-          </Col>
-          <Col md={6}>
-            <Link to={"/370-3d-scatterplot"}>
-              <ChartImage imgName="370_3D_scatterplot"
-                caption="Basic 3d scatterplot with Python & Matplotlib." />
+            <Link to={'/370-3d-scatterplot'}>
+              <ChartImage
+                imgName="370_3D_scatterplot"
+                caption="Basic 3d scatterplot with Python & Matplotlib."
+              />
             </Link>
           </Col>
         </Row>
@@ -66,10 +67,11 @@ export default function Colors() {
       <Spacing />
 
       <Container>
-        <h2 id="Soon"><Matplotlib />Oh No!</h2>
-        <p>
-          This section is not available yet! But it is coming soon.
-        </p>
+        <h2 id="Soon">
+          <Matplotlib />
+          Oh No!
+        </h2>
+        <p>This section is not available yet! But it is coming soon.</p>
       </Container>
 
       <Spacing />
@@ -87,7 +89,6 @@ export default function Colors() {
       </Container>
 
       <Spacing />
-
-    </Layout >
+    </Layout>
   );
 }

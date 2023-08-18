@@ -12,6 +12,7 @@ import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/histogram.html'>Histogram</a> represents the distribution of a numeric variable for one or several groups. The values are split in bins, each bin is represented as a bar. This page showcases many histograms built with python, using both the <code>seaborn</code> and the <code>matplotlib</code> libraries.</p>";
@@ -35,13 +36,16 @@ fig, ax = plt.subplots(figsize = (9, 9))
 ax.hist(hours, bins=5, edgecolor="black");
 `;
 
-export default function ViolinPlot() {
+export const Head = () => (
+  <SEO
+    title="Histogram"
+    seoDescription="A collection of histogram examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
+export default function Histogram() {
   return (
-    <Layout
-      title="Histogram"
-      isTocEnabled
-      seoDescription="A collection of histogram examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Histogram" description={chartDescription} />
 
       <Container>

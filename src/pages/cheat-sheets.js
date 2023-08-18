@@ -9,17 +9,21 @@ import ChartImage from '../components/ChartImage';
 import { Matplotlib, Pandas, Seaborn } from '../components/MiscellaneousLogos';
 import { Link } from 'gatsby';
 import { Col, Row } from 'react-bootstrap';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>This section provides a few cheat sheets related with <code>python</code>, data wrangling and data visualization. Even with a perfect understanding of <code>python</code> and its libraries, it's almost impossible to remember the syntax of each function of the ecosystem. That's where cheatsheets are useful 🔥!</p>";
 
+export const Head = () => (
+  <SEO
+    title="Cheat sheets"
+    seoDescription="A collection of cheat sheets related with Python and data visualization"
+  />
+);
+
 export default function CheatSheet() {
   return (
-    <Layout
-      title="Cheat sheets"
-      isTocEnabled
-      seoDescription="A collection of cheat sheets related with Python and data visualization"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription
         title="Cheat Sheets"
         description={chartDescription}

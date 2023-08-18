@@ -7,6 +7,7 @@ import Contact from '../components/Contact';
 import Spacing from '../components/Spacing';
 import { VoronoiImagePatchworkResponsive } from '../components/VoronoiImagePatchwork';
 import { Button } from 'react-bootstrap';
+import { SEO } from '../components/SEO';
 
 const siteDescription = (
   <>
@@ -74,13 +75,16 @@ const siteDescription = (
   </>
 );
 
+export const Head = () => (
+  <SEO
+    title="Python Graph Gallery"
+    seoDescription="The Python Graph Gallery displays hundreds of charts made with Python, always with explanation and reproduciible code"
+  />
+);
+
 export default function Home() {
   return (
-    <Layout
-      title="Python Graph Gallery"
-      seoDescription="The Python Graph Gallery displays hundreds of charts made with Python, always with explanation and reproduciible code"
-      isHome
-    >
+    <Layout isHome>
       <TitleAndDescription
         title="The Python Graph Gallery"
         description={siteDescription}

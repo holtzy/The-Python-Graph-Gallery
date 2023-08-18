@@ -12,6 +12,7 @@ import ChartImage from '../components/ChartImage';
 import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription = (
   <>
@@ -49,13 +50,16 @@ plt.figure(
 plt.show()
 `.trim();
 
-export default function Pie() {
+export const Head = () => (
+  <SEO
+    title="Waffle chart"
+    seoDescription="A collection of Waffle chart examples made with Python and the PyWaffle library, coming with explanation and reproducible code"
+  />
+);
+
+export default function Waffle() {
   return (
-    <Layout
-      title="Waffle chart"
-      isTocEnabled
-      seoDescription="A collection of Waffle chart examples made with Python and the PyWaffle library, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription
         title="Waffle chart"
         description={chartDescription}

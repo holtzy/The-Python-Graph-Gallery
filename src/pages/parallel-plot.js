@@ -12,6 +12,7 @@ import { Button, Col } from 'react-bootstrap';
 import ChartImage from '../components/ChartImage';
 import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const quickCode = `# libraries
 import pandas
@@ -30,13 +31,16 @@ plt.show()
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/parallel.html'>parallel plot</a> plot allows to compare the feature of several individual observations (series) on a set of numeric variables. Interestingly, <code>Pandas</code> is probably the best way to plot a parallel coordinate plot with python. <code>Plotly</code> is a good alternative to plot interactive versions though.</p>";
 
+export const Head = () => (
+  <SEO
+    title="Parallel coordinate plot"
+    seoDescription="A collection of parallel coordinate chart examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function Parallel() {
   return (
-    <Layout
-      title="Parallel coordinate plot"
-      isTocEnabled
-      seoDescription="A collection of parallel coordinate chart examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription
         title="Parallel coordinate plot"
         description={chartDescription}
