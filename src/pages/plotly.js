@@ -17,12 +17,18 @@ import ChartImageContainer from '../components/ChartImageContainer';
 const chartDescription = (
   <>
     <p>
-      <code>Plotly</code> is a javascript library for interactive data
-      visualization. It is based on the famous{' '}
-      <a href="https://www.d3-graph-gallery.com">d3.js</a> library, and provides
-      a python wrapper allowing to build stunning interactive charts directly
-      from <code>Python</code>. Most of the gallery sections provide{' '}
-      <code>plotly</code> examples, this post provides a few general tips.
+      <code>Plotly</code> is a library for making <b>interactive</b> graphs with
+      python. On a plotly chart it is possible to have <b>tooltips</b> for
+      interesting markers, <b>zoom</b> on interesting location, <b>save</b> the
+      chart as png and more.
+    </p>
+    <p>
+      Plotly is based on the famous{' '}
+      <a href="https://www.d3-graph-gallery.com">d3.js</a> javascript library,
+      and provides a python wrapper allowing to build stunning interactive
+      charts directly from <code>Python</code>. Most of the gallery sections
+      provide <code>plotly</code> examples, this post provides a few{' '}
+      <b>general tips</b>.
     </p>
   </>
 );
@@ -34,7 +40,11 @@ export default function Plotlys() {
       isTocEnabled
       seoDescription="An overview of the plotly python library for interactive data visualization"
     >
-      <TitleAndDescription title="Plotly" description={chartDescription} />
+      <TitleAndDescription
+        title="Interactive charts with Plotly"
+        description={chartDescription}
+        chartType={'plotly'}
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
@@ -67,25 +77,78 @@ export default function Plotlys() {
       <Spacing />
 
       <Container>
-        <h2 id="APIs">Two distinct APIs</h2>
+        <h2 id="APIs">
+          <code>{'</>'}</code> Two distinct APIs
+        </h2>
         <p>
           There are 2 main ways to use the <code>plotly</code> python library:{' '}
           <b>plotly express</b> and <b>plotly graph objects</b>.
         </p>
-        <h3>&rarr; Quick chart with plotly express</h3>
+        <h3>&rarr; Quick chart with plotly express 🏃🏿‍♀️</h3>
         <p>
-          This is the user-friendly, high-level API, that taps into Plotly's
-          graphical capabilities to facilitate the swift creation of a diverse
-          array of interactive visualizations. Its streamlined approach empowers
-          users to generate a variety of chart types with minimal code. This
-          abstraction shields users from intricate technical details, making it
-          an ideal choice for those seeking an efficient visualization solution
-          without compromising on sophistication.{' '}
+          This is the user-friendly, <b>high-level API</b>, that taps into
+          Plotly's graphical capabilities to facilitate the swift creation
+          graphs. Its streamlined approach empowers users to generate a variety
+          of chart types with <b>minimal code</b>.
         </p>
+        <Row className="align-items-center">
+          <Col md={6}>
+            <p>
+              This abstraction shields users from intricate technical details,
+              making it an ideal choice for those seeking an <b>efficient</b>{' '}
+              visualization solution.
+            </p>
+            <p>
+              In the following code, <b>just 2 lines of code</b> are needed to
+              create an interactive bar chart, using the function{' '}
+              <code>px.bar()</code>.
+            </p>
+          </Col>
+          <Col md={6}>
+            <div className="mx-auto">
+              <iframe
+                src="/interactiveCharts/barplot-plotly-express.html"
+                title="barplot with plotly"
+                style={{ border: 'none', width: '100%', height: '400px' }}
+              ></iframe>
+            </div>
+          </Col>
+        </Row>
+        <CodeChunk>{plotlyExpressCode}</CodeChunk>
+
+        <h3>&rarr; Fine control with Plotly Graph Objects 🎨</h3>
         <p>
-          In the following code, just 2 lines of code are needed to create an
-          interactive bar chart, using the function <code>px.bar()</code>.
+          In contrast, the Plotly Graph Objects API presents a{' '}
+          <b>finer level of control</b> and customization within the Plotly
+          framework.
         </p>
+        <Row className="align-items-center">
+          <Col md={6}>
+            <p>
+              <b>A bit more code</b> is required to build the same chart
+              compared to plotly express. But we believe that this API is still
+              very straightforward to use and offers more flexibility.
+            </p>
+          </Col>
+          <Col md={6}>
+            <div className="mx-auto">
+              <iframe
+                src="/interactiveCharts/barplot-plotly-go.html"
+                title="barplot with plotly"
+                style={{ border: 'none', width: '100%', height: '400px' }}
+              ></iframe>
+            </div>
+          </Col>
+        </Row>
+        <p>
+          In the following code the <code>Figure</code> is a dictionary or
+          instances of <code>plotly.graph_objects.Figure</code>. In the
+          following code, compared to the Express API, we need to initiate a
+          figure object (with a slightly more complex syntax) using the function{' '}
+          <code>go.Figure</code> and then change the layout of this figure using
+          the function <code>fig.update_layout()</code>.
+        </p>
+        <CodeChunk>{plotlyGoCode}</CodeChunk>
       </Container>
 
       <Spacing />
@@ -155,6 +218,21 @@ export default function Plotlys() {
             caption="Interactive line chart with multiple groups"
             linkTo="/514-interactive-line-chart-plotly"
           />
+          <ChartImageContainer
+            imgName="parallel-coordinate-plot-plotly"
+            caption="Interactive parallel chart with plotly"
+            linkTo="/parallel-coordinate-plot-plotly"
+          />
+          <ChartImageContainer
+            imgName="ridgeline-graph-plotly"
+            caption="Interactive ridgeline chart with plotly"
+            linkTo="/ridgeline-graph-plotly"
+          />
+          <ChartImageContainer
+            imgName="sankey-diagram-with-python-and-plotly"
+            caption="Interactive Sankey diagram with plotly"
+            linkTo="/sankey-diagram-with-python-and-plotly"
+          />
         </Row>
 
         <div className="mx-auto">
@@ -210,3 +288,39 @@ const embedCode = `<iframe
   title="chart name"
   style="border:none">
 </iframe>`;
+
+const plotlyExpressCode = `# import the plotly express library
+import plotly.express as px
+
+# Some dummy data
+categories = ['A', 'B', 'C', 'D', 'E']
+values = [15, 22, 18, 12, 28]
+
+# Plot
+fig = px.bar(
+  x=categories, 
+  y=values, 
+)
+
+fig.show()
+`;
+
+const plotlyGoCode = `# import the plotly graph objects lib
+import plotly.graph_objects as go
+
+# Some dummy data
+categories = ['A', 'B', 'C', 'D', 'E']
+values = [15, 22, 18, 12, 28]
+
+# Create a bar chart using the Graph Object API
+fig = go.Figure(data=[go.Bar(x=categories, y=values)])
+
+# Update layout
+fig.update_layout(
+  title="Simple Bar Chart", 
+  xaxis_title="Categories", 
+  yaxis_title="Values")
+
+
+fig.show()
+`;
