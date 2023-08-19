@@ -233,6 +233,11 @@ export default function Plotlys() {
             caption="Interactive Sankey diagram with plotly"
             linkTo="/sankey-diagram-with-python-and-plotly"
           />
+          <ChartImageContainer
+            imgName="520-interactive-barplot-with-plotly"
+            caption="Interactive Barplot with plotly"
+            linkTo="/520-interactive-barplot-with-plotly"
+          />
         </Row>
 
         <div className="mx-auto">
