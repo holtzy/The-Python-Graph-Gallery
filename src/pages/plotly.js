@@ -14,30 +14,18 @@ import Spacing from '../components/Spacing';
 import { Button } from 'react-bootstrap';
 import ChartImageContainer from '../components/ChartImageContainer';
 
-const chartDescription =
-  "<p><code>Plotly</code> is a javascript library for data visualization. It is based on the famous <a href='https://www.d3-graph-gallery.com'>d3.js</a> library, and provides a python wrapper allowing to build stunning interactive charts directly from <code>Python</code>. Most of the gallery sections provide <code>plotly</code> examples, this post provides a few general tips.</p>";
-
-const quickCode = `# library
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Create data
-x=range(1,6)
-y=[1,4,6,8,4]
-
-# Area plot
-plt.fill_between(x, y)
-plt.show()
-`;
-
-const saveCode = `fig.write_html("the/path/to/chart-name.html")`;
-const embedCode = `<iframe
-  src="the/path/to/chart-name.html"
-  width="800"
-  height="600"
-  title="chart name"
-  style="border:none">
-</iframe>`;
+const chartDescription = (
+  <>
+    <p>
+      <code>Plotly</code> is a javascript library for interactive data
+      visualization. It is based on the famous{' '}
+      <a href="https://www.d3-graph-gallery.com">d3.js</a> library, and provides
+      a python wrapper allowing to build stunning interactive charts directly
+      from <code>Python</code>. Most of the gallery sections provide{' '}
+      <code>plotly</code> examples, this post provides a few general tips.
+    </p>
+  </>
+);
 
 export default function Plotlys() {
   return (
@@ -74,6 +62,30 @@ export default function Plotlys() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="APIs">Two distinct APIs</h2>
+        <p>
+          There are 2 main ways to use the <code>plotly</code> python library:{' '}
+          <b>plotly express</b> and <b>plotly graph objects</b>.
+        </p>
+        <h3>&rarr; Quick chart with plotly express</h3>
+        <p>
+          This is the user-friendly, high-level API, that taps into Plotly's
+          graphical capabilities to facilitate the swift creation of a diverse
+          array of interactive visualizations. Its streamlined approach empowers
+          users to generate a variety of chart types with minimal code. This
+          abstraction shields users from intricate technical details, making it
+          an ideal choice for those seeking an efficient visualization solution
+          without compromising on sophistication.{' '}
+        </p>
+        <p>
+          In the following code, just 2 lines of code are needed to create an
+          interactive bar chart, using the function <code>px.bar()</code>.
+        </p>
       </Container>
 
       <Spacing />
@@ -176,3 +188,25 @@ export default function Plotlys() {
     </Layout>
   );
 }
+
+const quickCode = `# library
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Create data
+x=range(1,6)
+y=[1,4,6,8,4]
+
+# Area plot
+plt.fill_between(x, y)
+plt.show()
+`;
+
+const saveCode = `fig.write_html("the/path/to/chart-name.html")`;
+const embedCode = `<iframe
+  src="the/path/to/chart-name.html"
+  width="800"
+  height="600"
+  title="chart name"
+  style="border:none">
+</iframe>`;
