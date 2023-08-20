@@ -154,7 +154,7 @@ export default function Plotlys() {
       <Spacing />
 
       <Container>
-        <h2 id="Save">&#9201; Saving a plotly chart</h2>
+        <h2 id="Save">Saving a plotly chart</h2>
         <p>
           Once you've created a <code>plotly</code> chart you probably want to
           save it as a standalone <code>html</code> file in order to share it or
@@ -171,12 +171,34 @@ export default function Plotlys() {
       <Spacing />
 
       <Container>
-        <h2 id="Embed">&#9201; Embeding a plotly chart</h2>
+        <h2 id="Embed">Embeding a plotly chart</h2>
         <p>
           Once the chart has been saved, you can embed it in a html document
           using:
         </p>
         <CodeChunk>{embedCode}</CodeChunk>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Embed">Title customization</h2>
+        <p>
+          The <code>fig.update_layout()</code> function provides everything you
+          need to customize the <b>title</b> of your chart.
+        </p>
+        <p>
+          Read the following tutorial to understand how the change the{' '}
+          <b>font</b>,<b>color</b>, <b>size</b> and <b>alignment</b> of your
+          title.
+        </p>
+        <div className="mx-auto">
+          <iframe
+            src="/interactiveCharts/plotly-customize-title-2.html"
+            title="plotly chart with customized title"
+            style={{ border: 'none', width: '500px', height: '500px' }}
+          ></iframe>
+        </div>
       </Container>
 
       <Spacing />
