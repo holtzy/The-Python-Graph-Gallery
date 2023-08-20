@@ -82,7 +82,7 @@ h2 {
   letter-spacing: 0.03em;
   width: 100%;
   border-bottom: 1px solid var(--medium-grey);
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 10px;
   padding-bottom: 10px;
   /* scroll margin allows to add a bit of space around the title we're targeting with the table of content */
