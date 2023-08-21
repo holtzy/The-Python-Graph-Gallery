@@ -186,4 +186,13 @@ export const listOfBestCharts = [
     alt: 'A very clean heatmap used as a timeseries',
     author: 'J. MacKintosh',
   },
+  {
+    link: 'web-line-chart-small-multiple',
+    title: 'Line chart & small multiple',
+    description:
+      'Small multiple is a dataviz technique allowing to study several groups on the same figure. Repeating all groups but faded out adds some useful context to each section.',
+    img: 'web-line-chart-small-multiple-square.png',
+    alt: 'Line chart with small multiple and all groups faded out',
+    author: 'G. Fontana',
+  },
 ];

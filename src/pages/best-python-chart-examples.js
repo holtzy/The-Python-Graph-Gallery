@@ -56,7 +56,9 @@ export default function Beeswarm() {
             <div key={i}>
               <Row>
                 <Col xs={4} md={6}>
-                  <ChartImage imgName={chart.img.replace('.png', '')} />
+                  <Link href={'/' + chart.link}>
+                    <ChartImage imgName={chart.img.replace('.png', '')} />
+                  </Link>
                 </Col>
                 <Col xs={4} md={6}>
                   <h2
