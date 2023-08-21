@@ -9,7 +9,6 @@ import { Link } from 'gatsby';
 import { Plotly } from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
-import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { Button } from 'react-bootstrap';
 import ChartImageContainer from '../components/ChartImageContainer';
@@ -20,15 +19,18 @@ const chartDescription = (
       <code>Plotly</code> is a library for making <b>interactive</b> graphs with
       python. On a plotly chart it is possible to have <b>tooltips</b> for
       interesting markers, <b>zoom</b> on interesting location, <b>save</b> the
-      chart as png and more.
+      chart as png and more 🔥.
     </p>
     <p>
       Plotly is based on the famous{' '}
       <a href="https://www.d3-graph-gallery.com">d3.js</a> javascript library,
       and provides a python wrapper allowing to build stunning interactive
-      charts directly from <code>Python</code>. Most of the gallery sections
-      provide <code>plotly</code> examples, this post provides a few{' '}
-      <b>general tips</b>.
+      charts directly from <code>Python</code>.
+    </p>
+    <p>
+      Most of the gallery sections provide <code>plotly</code> examples. This
+      post provides a few <b>general tips</b> relative to this mind blowing
+      library.
     </p>
   </>
 );
@@ -48,29 +50,23 @@ export default function Plotlys() {
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
-        <Row className="align-items-center">
-          <Col md={6}>
-            <p>
-              <code>Matplotlib</code> is the most famous python data
-              visualization library. It is widely used and most of other viz
-              libraries (like <code>seaborn</code>) are actually built on top of
-              it.
-            </p>
-            <p>
-              Once installed, matplotlib must be imported, usually using{' '}
-              <code>import matplotlib.pyplot as plt</code>. You can then use use
-              the functions available in the <code>plt</code> object.
-            </p>
-          </Col>
-          <Col md={6}>
-            <Link to={'/240-basic-area-chart'}>
-              <ChartImage
-                imgName="240_basic_area_chart"
-                caption="The most basic area chart one can make with python and matplotlib"
-              />
-            </Link>
-          </Col>
-        </Row>
+        <p>
+          Before using plotly you need to install it. This can easily be done
+          with <code>pip</code>:
+        </p>
+        <CodeChunk>{codeInstall}</CodeChunk>
+        <br />
+        <p>
+          Now, try to use the following code in a Jupyter Notebook. You will get
+          an interactive graph on which you can <b>zoom</b>, hover points to
+          show a <b>tooltip</b>, <b>save as png</b> and more.
+        </p>
+        <iframe
+          src="/interactiveCharts/plotly-add-annotation-0.html"
+          title="scatterplot with plotly"
+          style={{ border: 'none', width: '100%', height: '600px' }}
+        ></iframe>
+
         <CodeChunk>{quickCode}</CodeChunk>
       </Container>
 
@@ -84,7 +80,7 @@ export default function Plotlys() {
           There are 2 main ways to use the <code>plotly</code> python library:{' '}
           <b>plotly express</b> and <b>plotly graph objects</b>.
         </p>
-        <h3>&rarr; Quick chart with plotly express 🏃🏿‍♀️</h3>
+        <h3>1️⃣ Quick chart with plotly express 🏃🏿‍♀️</h3>
         <p>
           This is the user-friendly, <b>high-level API</b>, that taps into
           Plotly's graphical capabilities to facilitate the swift creation
@@ -115,8 +111,8 @@ export default function Plotlys() {
           </Col>
         </Row>
         <CodeChunk>{plotlyExpressCode}</CodeChunk>
-
-        <h3>&rarr; Fine control with Plotly Graph Objects 🎨</h3>
+        <br />
+        <h3>2️⃣ Fine control with Plotly Graph Objects 🎨</h3>
         <p>
           In contrast, the Plotly Graph Objects API presents a{' '}
           <b>finer level of control</b> and customization within the Plotly
@@ -140,15 +136,23 @@ export default function Plotlys() {
             </div>
           </Col>
         </Row>
+
         <p>
-          In the following code the <code>Figure</code> is a dictionary or
-          instances of <code>plotly.graph_objects.Figure</code>. In the
-          following code, compared to the Express API, we need to initiate a
-          figure object (with a slightly more complex syntax) using the function{' '}
+          Compared to the Express API, we need to initiate a figure object (with
+          a slightly more complex syntax) using the function{' '}
           <code>go.Figure</code> and then change the layout of this figure using
           the function <code>fig.update_layout()</code>.
         </p>
         <CodeChunk>{plotlyGoCode}</CodeChunk>
+        <br />
+        <br />
+        <p>
+          Interested in knowing more? You can check the{' '}
+          <Link href="/520-the-two-plotly-APIs">full post</Link> on the topic!
+        </p>
+        <Link href="/520-the-two-plotly-APIs">
+          <Button>Plotly APIs post</Button>
+        </Link>
       </Container>
 
       <Spacing />
@@ -188,17 +192,18 @@ export default function Plotlys() {
           need to customize the <b>title</b> of your chart.
         </p>
         <p>
-          Read the following tutorial to understand how the change the{' '}
-          <b>font</b>,<b>color</b>, <b>size</b> and <b>alignment</b> of your
-          title.
+          Read the plotly{' '}
+          <Link href="/522-plotly-customize-title">title tutorial</Link> to
+          understand how the change the <b>font</b>, <b>color</b>, <b>size</b>{' '}
+          and <b>alignment</b> of your title.
         </p>
-        <div className="mx-auto">
-          <iframe
-            src="/interactiveCharts/plotly-customize-title-2.html"
-            title="plotly chart with customized title"
-            style={{ border: 'none', width: '500px', height: '500px' }}
-          ></iframe>
-        </div>
+        <Row>
+          <ChartImageContainer
+            imgName="522-plotly-customize-title"
+            caption="How to add annotations on a plotly chart"
+            linkTo="/522-plotly-customize-title"
+          />
+        </Row>
       </Container>
 
       <Spacing />
@@ -286,7 +291,16 @@ export default function Plotlys() {
             linkTo="/520-interactive-barplot-with-plotly"
           />
         </Row>
-
+        <br />
+        <p>
+          Above images are <b>static</b>, but all linked blog posts provide the
+          interactive version of the chart. Here is an example with an
+          interactive{' '}
+          <Link href="/parallel-coordinate-plot-plotly.html">
+            parallel coordinate chart
+          </Link>
+          :
+        </p>
         <div className="mx-auto">
           <iframe
             src="/interactiveCharts/parallel-coordinate-plot-plotly.html"
@@ -319,18 +333,28 @@ export default function Plotlys() {
   );
 }
 
-const quickCode = `# library
-import numpy as np
-import matplotlib.pyplot as plt
+const quickCode = `# Load plotly
+import plotly.graph_objects as go
 
-# Create data
-x=range(1,6)
-y=[1,4,6,8,4]
+# Sample data
+x = [1.5, 2.9, 3, 4.2, 5.6]
+y = [2.2, 13.3, 4.4, 55.3, 52.1]
 
-# Area plot
-plt.fill_between(x, y)
-plt.show()
+# Initialize a figure
+fig = go.Figure()
+
+# Add the scatter trace
+fig.add_trace(go.Scatter( 
+    x=x, # Variable in the x-axis
+    y=y, # Variable in the y-axis
+    mode='markers', # This explicitly states that we want our observations to be represented by points
+))
+
+# Show
+fig.show()
 `;
+
+const codeInstall = `pip install plotly`;
 
 const saveCode = `fig.write_html("the/path/to/chart-name.html")`;
 const embedCode = `<iframe
