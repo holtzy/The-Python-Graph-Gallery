@@ -232,6 +232,7 @@ export default function Home() {
           <br />
         </Container>
       </div>
+      <Spacing />
 
       <Contact />
 
