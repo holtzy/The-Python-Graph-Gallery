@@ -8,7 +8,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 
 import AllChartsModal from './AllChartsModal';
-import { Matplotlib, Seaborn, Plotly } from '../components/MiscellaneousLogos';
+import {
+  Matplotlib,
+  Seaborn,
+  Plotly,
+  Pandas,
+} from '../components/MiscellaneousLogos';
 import { Button } from 'react-bootstrap';
 
 export default function TopNavbar() {
@@ -61,9 +66,18 @@ export default function TopNavbar() {
                 <Plotly />
               </span>
             </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item className="menuItemMain" href="/pandas">
+              Pandas
+              <span className="menuItemLogo">
+                <Pandas />
+              </span>
+            </NavDropdown.Item>
           </NavDropdown>
 
           <Nav.Link href="/all-charts">All</Nav.Link>
+
+          <Nav.Link href="/best-python-chart-examples">Best</Nav.Link>
 
           <NavDropdown title="Related" id="basic-nav-dropdown">
             <NavDropdown.Item
