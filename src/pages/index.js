@@ -148,11 +148,11 @@ export default function Home() {
           latest tips, tricks, and <b>advanced techniques</b> in data
           visualization.
         </p>
-        <a href="https://www.data-to-viz.com/graph/density2d.html">
+        <Link href="/best-python-chart-examples">
           <Button size="sm" style={{ borderWidth: 1, marginLeft: 0 }}>
             Check the best Examples
           </Button>
-        </a>
+        </Link>
         <br />
         <br />
       </Container>
