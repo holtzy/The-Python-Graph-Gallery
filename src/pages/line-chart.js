@@ -7,7 +7,12 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib, Plotly, Seaborn } from '../components/MiscellaneousLogos';
+import {
+  Matplotlib,
+  Pandas,
+  Plotly,
+  Seaborn,
+} from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -321,6 +326,16 @@ export default function LinePlot() {
                 imgName={'web-multiple-lines-and-panels'}
                 caption={
                   'Multiple grouped line charts with a beautiful color palette and customized title and annotation.'
+                }
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={'/web-line-chart-small-multiple'}>
+              <ChartImage
+                imgName={'web-line-chart-small-multiple-square'}
+                caption={
+                  'A beautiful line chart with small multiple made with Python and matplotlib'
                 }
               />
             </Link>
