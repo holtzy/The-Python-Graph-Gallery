@@ -204,6 +204,31 @@ export default function Plotlys() {
       <Spacing />
 
       <Container>
+        <h2 id="Annotation">Annotation</h2>
+        <p>
+          <b>Annotation</b> is a key part of a great data visualization.
+        </p>
+        <p>
+          Fortunately, plotly provides a <code>add_annotation()</code> function
+          allowing to add some powerful, custom annotation on charts.
+        </p>
+        <p>
+          Please read the dedicated{' '}
+          <Link href="/523-plotly-add-annotation">annotation tutorial</Link> to
+          learn how to use it.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="523-plotly-add-annotation"
+            caption="How to add annotations on a plotly chart"
+            linkTo="/523-plotly-add-annotation"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Gallery">
           <Plotly />
           Plotly graph gallery
