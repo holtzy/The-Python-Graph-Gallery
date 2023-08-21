@@ -6,7 +6,18 @@ import Container from 'react-bootstrap/Container';
 import Contact from '../components/Contact';
 import Spacing from '../components/Spacing';
 import { VoronoiImagePatchworkResponsive } from '../components/VoronoiImagePatchwork';
-import { Button } from 'react-bootstrap';
+import { Button, Col, Row } from 'react-bootstrap';
+import SeabornImg from '../img/SeabornSmall.png';
+import PandasImg from '../img/PandasSmallClean.png';
+import PlotlyImg from '../img/PlotlySmall.png';
+import MatplotlibImg from '../img/MatplotlibSmall.png';
+import {
+  Matplotlib,
+  Pandas,
+  Plotly,
+  Seaborn,
+} from '../components/MiscellaneousLogos';
+import { Link } from 'gatsby';
 
 const siteDescription = (
   <>
@@ -88,6 +99,7 @@ export default function Home() {
 
       <div className="greySection">
         <Container>
+          <br />
           <h2 style={{ borderBottom: 'none' }}>
             The biggest list of python chart examples
           </h2>
@@ -119,6 +131,7 @@ export default function Home() {
       </div>
 
       <Container>
+        <br />
         <h2 style={{ borderBottom: 'none' }}>
           Hunting the most beautiful Python charts
         </h2>
@@ -145,6 +158,80 @@ export default function Home() {
       </Container>
 
       <VoronoiImagePatchworkResponsive />
+
+      <Spacing />
+
+      <div className="greySection">
+        <Container>
+          <br />
+          <h2 style={{ borderBottom: 'none' }}>
+            Python Graphing with State-of-the-Art Libraries
+          </h2>
+          <p>
+            The python graph gallery relies on the <b>latest</b> and most{' '}
+            <b>powerful</b> charting libraries.
+          </p>
+          <Row>
+            <Col xs={12} md={6}>
+              <h3>
+                <Matplotlib />
+                Matplotlib
+              </h3>
+              <p>
+                The <b>foundation</b> of Python visualization. Offers a wide
+                array of customizable 2D plots and an{' '}
+                <b>extensive set of tools</b> for creating intricate figures and
+                charts.
+              </p>
+              <Link href="/matplotlib">Tutorial</Link>
+              <br />
+            </Col>
+            <Col xs={12} md={6}>
+              <h3>
+                <Seaborn />
+                Seaborn
+              </h3>
+              <p>
+                Built atop Matplotlib, Seaborn <b>elevates</b> data
+                visualization by providing a higher-level interface and stunning
+                default themes.
+              </p>
+              <Link href="/seaborn">Tutorial</Link>
+              <br />
+            </Col>
+            <Col xs={12} md={6}>
+              <h3>
+                <Pandas />
+                Pandas
+              </h3>
+              <p>
+                Beyond its powerful <b>data manipulation</b> capabilities,
+                Pandas offers convenient plotting methods, enabling users to
+                visualize data directly from DataFrame and Series objects.
+              </p>
+              <Link href="/pandas">Tutorial</Link>
+              <br />
+            </Col>
+            <Col xs={12} md={6}>
+              <h3>
+                <Plotly />
+                Plotly
+              </h3>
+              <p>
+                Delivering <b>interactive</b> and browser-based visualizations,
+                Plotly allows users to craft visually captivating charts,
+                bridging the gap between static graphs and{' '}
+                <b>web-based interactivity</b>.
+              </p>
+              <Link href="/plotly">Tutorial</Link>
+              <br />
+            </Col>
+          </Row>
+          <br />
+          <br />
+          <br />
+        </Container>
+      </div>
 
       <Contact />
 
