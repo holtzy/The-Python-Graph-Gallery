@@ -14,8 +14,23 @@ import ChartImage from '../components/ChartImage';
 import FunctionExploration from '../components/FunctionExploration';
 import Spacing from '../components/Spacing';
 
-const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/caveat/boxplot.html'>boxplot</a> summarizes the distribution of a numeric variable for one or several groups. It allows to quickly get the median, quartiles and outliers but also hides the dataset individual data points. In python, boxplots are most of time done thanks to the <code>boxplot</code> function of the <code>Seaborn</code> library.</p>";
+const chartDescription = (
+  <>
+    <p>
+      A <a href="https://www.data-to-viz.com/caveat/boxplot.html">boxplot</a>{' '}
+      summarizes the <b>distribution</b> of a numeric variable for one or
+      several groups. It allows to quickly get the <b>median</b>,{' '}
+      <b>quartiles</b> and <b>outliers</b> but also hides the dataset individual
+      data points.
+    </p>
+    <p>
+      In python, boxplots can be made with both{' '}
+      <Link href="/seaborn">seaborn</Link> and{' '}
+      <Link href="matplotlib">matplotlib</Link> as they both offer a{' '}
+      <code>boxplot()</code> function made for the job.
+    </p>
+  </>
+);
 
 const quickCode = `# library & dataset
 import seaborn as sns
@@ -170,19 +185,38 @@ export default function Boxplot() {
 
       <Spacing />
 
-      <div className="greySection">
+      <Container>
+        <h2 id="Seaborn">
+          <Matplotlib />
+          Boxplots with <code>Matplotlib</code>
+        </h2>
+        <p>
+          <Link href="/matplotlib">Matplotlib</Link> also has a{' '}
+          <code>boxplot()</code> function made to build boxplots.
+        </p>
+        <p>
+          The following tutorials will guide you from its basic usage to the
+          finest customization:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="509-introduction-to-swarm-plot-in-matplotlib-3"
+            caption="Beeswarm and boxplot combination"
+            linkTo="/509-introduction-to-swarm-plot-in-matplotlib"
+          />
+        </Row>
+      </Container>
+
+      {/* <div className="greySection">
         <Container>
           <FunctionExploration functionName={'violin'} />
         </Container>
-      </div>
+      </div> */}
 
       <Spacing />
 
       <Container>
-        <h2 id="From the web">
-          <Matplotlib />
-          From the web
-        </h2>
+        <h2 id="From the web">🎨 From the web</h2>
         <p>
           The web is full of astonishing charts made by awesome bloggers, (often
           using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}

@@ -33,7 +33,7 @@ const chartDescription = (
       This section provides many beeswarm chart examples made with Python, using{' '}
       <Link href="/seaborn/">seaborn</Link> or{' '}
       <Link href="/matplotlib/">matplotlib</Link>. Examples cover the most
-      common use-cases, but also show how far in term of customiwzation it is
+      common use-cases, but also show how far in term of customization it is
       possible to go.
     </p>
   </>
@@ -59,11 +59,7 @@ export default function Beeswarm() {
       isTocEnabled
       seoDescription="A collection of beeswarm chart examples made with Python, coming with explanation and reproducible code"
     >
-      <TitleAndDescription
-        title="Beeswarm"
-        description={chartDescription}
-        chartType={'beeswarm'}
-      />
+      <TitleAndDescription title="Beeswarm" description={chartDescription} />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
@@ -161,6 +157,47 @@ export default function Beeswarm() {
             imgName="505-Introduction-to-swarm-plot-in-seaborn-3"
             caption="Build a beeswarm plot for several groups in the dataset"
             linkTo="/505-Introduction-to-swarm-plot-in-seaborn"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Matplotlib">
+          <Matplotlib />
+          Beeswarm with <code>Matplotlib</code>
+        </h2>
+        <p>
+          Building a beeswarm plot with matplotlib requires more manual work
+          since <b>no built-in function exists for the job</b>.
+        </p>
+        <p>
+          The following blog-post explains how to build yours from scratch. The
+          function divides the data into <b>bins</b>, calculates the{' '}
+          <b>upper bounds</b> for each bin, and then arranges the data points in
+          each bin to create the <b>horizontal spread</b> in the plot, ensuring
+          they don't overlap.
+        </p>
+        <p>
+          Once the dot position is available, it is possible to render it using
+          <b>matplotlib</b>:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="509-introduction-to-swarm-plot-in-matplotlib-1"
+            caption="Most basic beeswarm plot built with Matplotlib"
+            linkTo="/509-introduction-to-swarm-plot-in-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="509-introduction-to-swarm-plot-in-matplotlib-2"
+            caption="Beeswarm chart with multiple groups"
+            linkTo="/509-introduction-to-swarm-plot-in-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="509-introduction-to-swarm-plot-in-matplotlib-3"
+            caption="Beeswarm and boxplot combination"
+            linkTo="/509-introduction-to-swarm-plot-in-matplotlib"
           />
         </Row>
       </Container>
