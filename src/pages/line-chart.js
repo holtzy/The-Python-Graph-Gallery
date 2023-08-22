@@ -143,6 +143,11 @@ export default function LinePlot() {
             caption="Fill the gap between 2 line charts"
             linkTo="/area-fill-between-two-lines-in-matplotlib"
           />
+          <ChartImageContainer
+            imgName="516-line-chart-with-annotations"
+            caption="Add annotation on top of a matplotlib line chart"
+            linkTo="/516-line-chart-with-annotations"
+          />
         </Row>
       </Container>
 
@@ -261,10 +266,7 @@ export default function LinePlot() {
       <Spacing />
 
       <Container>
-        <h2 id="From the web">
-          <Matplotlib />
-          From the web
-        </h2>
+        <h2 id="From the web">🎨 From the web</h2>
         <p>
           The web is full of astonishing charts made by awesome bloggers, (often
           using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
