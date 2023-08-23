@@ -70,15 +70,19 @@ export default function Pie() {
               to its <code>Waffle</code> class.
             </p>
             <p>
-              The input data you must provide is an array of numbers, where each
-              numbers will be mapped to one of the pie item.🔥
+              The input data is a <b>dictionary</b> with names as keys and
+              associated integer values.
+            </p>
+            <p>
+              The number of rows and columns can be set with the{' '}
+              <code>rows</code> and <code>columns</code> arguments:
             </p>
           </Col>
           <Col md={6}>
             <Link to={'/pie-plot-matplotlib-basic'}>
               <ChartImage
                 imgName="503-waffle-chart-introduction-1"
-                caption="Most basic donut chart with Python and Matplotlib"
+                caption="Most basic waffle chart with Python and the pyWaffle library."
               />
             </Link>
           </Col>
@@ -88,69 +92,31 @@ export default function Pie() {
 
       <Spacing />
 
-      <div className="greySection">
-        <Container>
-          <h2 id="Warning">&#9888;&#65039; Mind the pie chart</h2>
-          <p>
-            Pie chart is probably the most criticized chart type. Humans are
-            pretty bad at reading angles, making it hard to rank the groups
-            accurately. Most of the time, it is better to display the
-            information as a <Link to="/barplot">barchart</Link>, a{' '}
-            <Link to="/treemap">treemap</Link> or a{' '}
-            <Link to="/lollipop-plot">lollipop</Link> plot.
-          </p>
-          <p>
-            Have a look to the 3 pie charts below, can you spot the pattern
-            hidden in it?
-          </p>
-          <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-            <a href="https://www.data-to-viz.com/caveat/pie.html">
-              <ChartImage
-                imgName={'pieChartIssue'}
-                caption={
-                  "Can you spot the pattern hidden behind those 3 pie charts? Click to see the same info visualized as barplots: much more insightful isn't it?"
-                }
-              />
-            </a>
-          </div>
-          <a href="https://www.data-to-viz.com/caveat/pie.html">
-            <Button size="sm">See it as a barplot</Button>
-          </a>
-          <p>
-            Last but not least, please avoid the <code>explode</code> and{' '}
-            <code>shadow</code> options of the pie() function, they are killing
-            all the most basic dataviz principles.
-          </p>
-        </Container>
-      </div>
-
-      <Spacing />
-
       <Container>
         <h2 id="Matplotlib">
-          <Matplotlib />
-          Pie chart with <code>Matplotlib</code>
+          Pie chart with <code>PyWaffle</code>
         </h2>
         <p>
-          The examples below should guide you through the <code>pie()</code>{' '}
-          function usage. It starts basics and then show how to add labels,
-          customize colors and more.
+          The examples below should guide you through the <code>Waffle</code>{' '}
+          class usage. It starts with a very basic example and then provides
+          hints on how to apply usual customization like <b>using icons</b> or
+          showing <b>percentages</b> in the legend.
         </p>
         <Row>
           <ChartImageContainer
-            imgName="pie-plot-matplotlib-basic-add-labels"
-            caption="Add and customize the labels"
-            linkTo="/pie-plot-matplotlib-basic"
+            imgName="503-waffle-chart-introduction-1"
+            caption="Basic waffle chart"
+            linkTo="/503-waffle-chart-introduction"
           />
           <ChartImageContainer
-            imgName="pie-plot-matplotlib-basic-add-padding"
-            caption="Customize the pie section colors"
-            linkTo="/pie-plot-matplotlib-basic"
+            imgName="503-waffle-chart-introduction-2"
+            caption="Waffle chart with Icons instead of squares"
+            linkTo="/503-waffle-chart-introduction"
           />
           <ChartImageContainer
-            imgName="pie-plot-matplotlib-basic-colors"
-            caption="Add blank space between each pie section."
-            linkTo="/pie-plot-matplotlib-basic"
+            imgName="503-waffle-chart-introduction-3"
+            caption="Waffle chart with proportions in the legend."
+            linkTo="/503-waffle-chart-introduction"
           />
         </Row>
       </Container>
