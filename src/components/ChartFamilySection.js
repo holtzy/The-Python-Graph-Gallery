@@ -20,11 +20,10 @@ const TITLES = {
 export default function ChartFamilySection({ chartFamily }) {
   const allLogos = chartTypesInfo
     .filter((chart) => chart.family === chartFamily)
-    .filter((chart) => chart.id !== 'waffle') // Hide WAFFLE for now
     .map((chart, id) => {
       const link = fullUrlToInternalLink(chart.pythonURL);
       return (
-        <Col key={id} xs={4} md={2} className="g-3">
+        <Col key={id} xs={4} md={2} className="col-1-7">
           <SectionLogoWithOverlay
             link={link}
             chartType={chart.logo}

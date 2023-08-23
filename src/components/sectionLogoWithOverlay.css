@@ -37,5 +37,6 @@
   text-align: center;
   color: var(--light-black);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 18px;
+  padding-top: 6px;
 }
