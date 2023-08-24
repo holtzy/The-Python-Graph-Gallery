@@ -3,6 +3,7 @@ import './sectionLogo.css';
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
+import PropTypes from 'prop-types';
 
 import anim150 from '../../static/section/anim150.gif';
 import time150 from '../../static/section/time150.gif';
@@ -57,12 +58,17 @@ export default function SectionLogo({ chartType }) {
   if (!image) {
     return null;
   }
+  const chartName = chartType.replace('150', '').replace('Small', '');
 
   return (
     <GatsbyImage
       image={image.node.childImageSharp.gatsbyImageData}
-      alt={'todo'}
+      alt={'logo of a chart:' + chartName}
       className="sectionLogoImg"
     />
   );
 }
+
+SectionLogo.propTypes = {
+  chartType: PropTypes.string,
+};
