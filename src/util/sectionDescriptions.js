@@ -375,4 +375,12 @@ export const chartTypesInfo = [
     pythonURL: 'https://python-graph-gallery.com/3d/',
     label: '3D',
   },
+  {
+    id: 'statistics',
+    family: 'general',
+    logo: 'Stats150',
+    dataToVizURL: '',
+    pythonURL: 'https://python-graph-gallery.com/statistics/',
+    label: 'Statistics',
+  },
 ];
