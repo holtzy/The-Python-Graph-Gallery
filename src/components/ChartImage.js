@@ -3,6 +3,7 @@ import './chartImage.css';
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
+import PropTypes from 'prop-types';
 
 const allGifs = [
   'animated_chart',
@@ -61,3 +62,8 @@ export default function ChartImage({ imgName, caption }) {
     </>
   );
 }
+
+ChartImage.propTypes = {
+  imgName: PropTypes.string,
+  caption: PropTypes.string,
+};
