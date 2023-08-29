@@ -12,6 +12,7 @@ import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription = (
   <>
@@ -58,13 +59,16 @@ plt.plot( 'x_values', 'y_values', data=df, linestyle='none', marker='o')
 plt.show()
 `;
 
+export const Head = () => (
+  <SEO
+    title="Scatterplot"
+    seoDescription="A collection of scatterplot examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function ScatterPlot() {
   return (
-    <Layout
-      title="Scatterplot"
-      isTocEnabled
-      seoDescription="A collection of scatterplot examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Scatterplot" description={chartDescription} />
 
       <Container>

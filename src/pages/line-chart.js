@@ -17,6 +17,7 @@ import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription = (
   <>
@@ -50,13 +51,16 @@ values=np.cumsum(np.random.randn(1000,1))
 plt.plot(values)
 `;
 
+export const Head = () => (
+  <SEO
+    title="Line chart"
+    seoDescription="A collection of line chart examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function LinePlot() {
   return (
-    <Layout
-      title="Line chart"
-      isTocEnabled
-      seoDescription="A collection of line chart examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Line Chart" description={chartDescription} />
 
       <Container>

@@ -1,27 +1,31 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import Row from "react-bootstrap/Row";
-import ChartImageContainer from "../components/ChartImageContainer";
-import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos";
-import { Button } from "react-bootstrap";
-import ChartImage from "../components/ChartImage";
-import Spacing from "../components/Spacing";
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import Row from 'react-bootstrap/Row';
+import ChartImageContainer from '../components/ChartImageContainer';
+import ChartFamilySection from '../components/ChartFamilySection';
+import { Link } from 'gatsby';
+import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Button } from 'react-bootstrap';
+import ChartImage from '../components/ChartImage';
+import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>This section explains how to build a <a href='https://www.data-to-viz.com/graph/density2d.html'>2d density chart</a> or a <a href='https://www.data-to-viz.com/graph/density2d.html'>2d histogram</a> with python. Those chart types allow to visualize the combined distribution of two quantitative variables. They can be build with <code>Matplotlib</code> or <code>Seaborn</code>.</p>";
 
+export const Head = () => (
+  <SEO
+    title="2d density chart"
+    seoDescription="A collection of 2d density chart examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function Heatmap() {
   return (
-    <Layout
-      title="2d density chart"
-      isTocEnabled
-      seoDescription="A collection of 2d density chart examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription
         title="2D Density Chart"
         description={chartDescription}
@@ -33,7 +37,7 @@ export default function Heatmap() {
           <p>
             There are several chart types allowing to visualize the distribution
             of a combination of 2 numeric variables. They always have a variable
-            represented on the X axis, the other on the Y axis, like for a{" "}
+            represented on the X axis, the other on the Y axis, like for a{' '}
             <Link to="/scatter-plot">scatterplot</Link> (left).
           </p>
           <p>
@@ -41,22 +45,22 @@ export default function Heatmap() {
             space is counted and represented with a color gradient. The shape
             can vary: hexagones result in a <code>hexbin chart</code>, squares
             in a <code>2d histogram</code>. A kernel density estimate can be
-            used to get a <code>2d density plots</code> or a{" "}
+            used to get a <code>2d density plots</code> or a{' '}
             <code>contour plots</code>
           </p>
-          <div style={{ maxWidth: "750px", margin: "auto" }}>
-            <Link to={"/86-avoid-overlapping-in-scatterplot-with-2d-density"}>
+          <div style={{ maxWidth: '750px', margin: 'auto' }}>
+            <Link to={'/86-avoid-overlapping-in-scatterplot-with-2d-density'}>
               <ChartImage
                 imgName="86_2D_density_plot_explanation"
-                caption={"Cheat sheet: line customization with matplotlib"}
+                caption={'Cheat sheet: line customization with matplotlib'}
               />
             </Link>
           </div>
           <p>
-            Confusing? Visit{" "}
+            Confusing? Visit{' '}
             <a href="https://www.data-to-viz.com/graph/density2d.html">
               data-to-viz
-            </a>{" "}
+            </a>{' '}
             to clarify..
           </p>
           <a href="https://www.data-to-viz.com/graph/density2d.html">
@@ -76,7 +80,7 @@ export default function Heatmap() {
           Contour plot with <code>Seaborn</code>
         </h2>
         <p>
-          The contour plot can be easily built thanks to the{" "}
+          The contour plot can be easily built thanks to the{' '}
           <code>kdeplot()</code> function of the Seaborn library.
         </p>
         <Row>
@@ -107,7 +111,7 @@ export default function Heatmap() {
         </h2>
         <p>
           Build a 2d histogram thanks to the <code>hist2d()</code> function of
-          the <code>Seaborn</code> library. Do not forget to play with the{" "}
+          the <code>Seaborn</code> library. Do not forget to play with the{' '}
           <code>bins</code> argument to find the value representing the best
           your data.
         </p>
@@ -164,8 +168,8 @@ export default function Heatmap() {
           2d density chart with <code>Matplotlib</code>
         </h2>
         <p>
-          2D densities are computed thanks to the <code>gaussian_kde()</code>{" "}
-          function and plotted thanks with the <code>pcolormesh()</code>{" "}
+          2D densities are computed thanks to the <code>gaussian_kde()</code>{' '}
+          function and plotted thanks with the <code>pcolormesh()</code>{' '}
           function of <code>matplotlib()</code>.
         </p>
         <Row>
@@ -192,7 +196,7 @@ export default function Heatmap() {
         <p>
           2D densities often combined with marginal distributions. It helps to
           highlight the distribution of both variables individually. It is
-          pretty straightforward to add thanks to the <code>jointplot()</code>{" "}
+          pretty straightforward to add thanks to the <code>jointplot()</code>{' '}
           function of the <code>Seaborn</code> library.
         </p>
         <Row>

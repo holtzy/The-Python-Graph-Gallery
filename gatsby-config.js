@@ -12,6 +12,21 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Python Graph Gallery`,
+        short_name: `Python Graph Gallery`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#cb1dd1`,
+        display: `minimal-ui`,
+        icon: `static/logo/Home_single_big.png`,
+        // Yan, if you want to override with specific sized icons
+        // (e.g. to adjust line weight), see the docs here:
+        // https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest#hybrid-mode-configuration
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
@@ -26,11 +41,10 @@ module.exports = {
         // This object is used for configuration specific to this plugin
         pluginConfig: {
           // Puts tracking script in the head instead of the body
-          head: true,
+          head: false,
         },
       },
     },
-    'gatsby-plugin-react-helmet-async',
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,

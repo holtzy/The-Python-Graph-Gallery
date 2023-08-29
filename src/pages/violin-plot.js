@@ -13,6 +13,7 @@ import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import FunctionExploration from '../components/FunctionExploration';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/violin.html'>violint plot</a> allows you to visualize the distribution of a numeric variable for one or several groups. <code>Seaborn</code> is particularly adapted to build it thanks to its <code>violin()</code> function. Violin plots deserve more attention than <a href='https://www.python-graph-gallery.com/boxplot'>boxplots</a>, which can sometimes hide features of the data.</p>";
@@ -25,13 +26,16 @@ df = sns.load_dataset('iris')
 sns.violinplot(x=df["species"], y=df["sepal_length"])
 `;
 
+export const Head = () => (
+  <SEO
+    title="Violin plot"
+    seoDescription="A collection of violin plot examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function ViolinPlot() {
   return (
-    <Layout
-      title="Violin plot"
-      isTocEnabled
-      seoDescription="A collection of violin plot examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Violin plot" description={chartDescription} />
 
       <Container>

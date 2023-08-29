@@ -1,21 +1,22 @@
-import React from "react";
-import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import Contact from "../components/Contact";
-import Row from "react-bootstrap/Row";
-import ChartImageContainer from "../components/ChartImageContainer";
-import ChartFamilySection from "../components/ChartFamilySection";
-import { Link } from "gatsby";
-import { Matplotlib, Seaborn } from "../components/MiscellaneousLogos"
-import { Col } from "react-bootstrap";
-import CodeChunk from "../components/CodeChunk"
-import ChartImage from "../components/ChartImage";
-import FunctionExploration from '../components/FunctionExploration'
-import Spacing from "../components/Spacing";
+import React from 'react';
+import TitleAndDescription from '../components/TitleAndDescription';
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import Contact from '../components/Contact';
+import Row from 'react-bootstrap/Row';
+import ChartImageContainer from '../components/ChartImageContainer';
+import ChartFamilySection from '../components/ChartFamilySection';
+import { Link } from 'gatsby';
+import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Col } from 'react-bootstrap';
+import CodeChunk from '../components/CodeChunk';
+import ChartImage from '../components/ChartImage';
+import FunctionExploration from '../components/FunctionExploration';
+import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
-  "<p>Density plots allow you to visualize the distribution of a numeric variable for one or several groups. They are very well adapted for large datasets, as stated in data-to-viz.com. Note that 2 approaches exist to build them in python: the first one consists of computing a kernel density estimate, and the second one involves building a high resolution histogram.</p>";
+  '<p>Density plots allow you to visualize the distribution of a numeric variable for one or several groups. They are very well adapted for large datasets, as stated in data-to-viz.com. Note that 2 approaches exist to build them in python: the first one consists of computing a kernel density estimate, and the second one involves building a high resolution histogram.</p>';
 
 const quickCode = `# library & dataset
 import seaborn as sns
@@ -23,14 +24,18 @@ df = sns.load_dataset('iris')
 
 # Make default density plot
 sns.kdeplot(df['sepal_width'])
-`
+`;
+
+export const Head = () => (
+  <SEO
+    title="Density chart"
+    seoDescription="A collection of density plot examples made with Python, coming with explanation and reproducible code"
+  />
+);
 
 export default function DensityPlot() {
-
   return (
-
-    <Layout title="Density chart" isTocEnabled seoDescription="A collection of density plot examples made with Python, coming with explanation and reproducible code">
-
+    <Layout isTocEnabled>
       <TitleAndDescription
         title="Density chart"
         description={chartDescription}
@@ -40,12 +45,19 @@ export default function DensityPlot() {
         <h2 id="Quick start">&#9201; Quick start</h2>
         <Row className="align-items-center">
           <Col md={6}>
-            <p>If you are in a rush, the most straightforward way to build a density chart is to use <code>Seaborn</code> and its <code>kdeplot()</code> function. You just need to provide it with a numeric variable from your dataset. 🔥</p>
+            <p>
+              If you are in a rush, the most straightforward way to build a
+              density chart is to use <code>Seaborn</code> and its{' '}
+              <code>kdeplot()</code> function. You just need to provide it with
+              a numeric variable from your dataset. 🔥
+            </p>
           </Col>
           <Col md={6}>
-            <Link to={"/70-basic-density-plot-with-seaborn"}>
-              <ChartImage imgName="70_Basic_density_plot_Seaborn"
-                caption="The most basic density plot one can make with python and seaborn" />
+            <Link to={'/70-basic-density-plot-with-seaborn'}>
+              <ChartImage
+                imgName="70_Basic_density_plot_Seaborn"
+                caption="The most basic density plot one can make with python and seaborn"
+              />
             </Link>
           </Col>
         </Row>
@@ -55,13 +67,16 @@ export default function DensityPlot() {
       <Spacing />
 
       <Container>
-        <h2 id="Seaborn"><Seaborn />Density charts with <code>Seaborn</code></h2>
+        <h2 id="Seaborn">
+          <Seaborn />
+          Density charts with <code>Seaborn</code>
+        </h2>
         <p>
           <code>Seaborn</code> is a python library allowing to make better
           charts easily. It is well adapted to build density charts thanks to
           its <code>kdeplot</code> function. The following charts will guide you
-          through its usage, going from a very{" "}
-          <Link to="">basic density plot</Link> to something much more{" "}
+          through its usage, going from a very{' '}
+          <Link to="">basic density plot</Link> to something much more{' '}
           <Link to="">customized</Link>.
         </p>
         <Row>
@@ -105,14 +120,18 @@ export default function DensityPlot() {
 
       <Spacing />
 
-
       <Container>
-        <h2 id="Multiple groups"><Seaborn />Density charts, <code>Seaborn</code> and multiple groups</h2>
+        <h2 id="Multiple groups">
+          <Seaborn />
+          Density charts, <code>Seaborn</code> and multiple groups
+        </h2>
         <p>
-          It is a common use case to compare the density of several groups in a dataset. Several options
-          exist to do so. You can plot all items on the same chart, using transparency and annotation
-          to make the comparison possible. Or you can a technique called small multiples where the graph window
-          is split in individual charts, avoiding group overlaps that are sometimes hard to read.
+          It is a common use case to compare the density of several groups in a
+          dataset. Several options exist to do so. You can plot all items on the
+          same chart, using transparency and annotation to make the comparison
+          possible. Or you can a technique called small multiples where the
+          graph window is split in individual charts, avoiding group overlaps
+          that are sometimes hard to read.
         </p>
         <Row>
           <ChartImageContainer
@@ -131,9 +150,14 @@ export default function DensityPlot() {
             linkTo="/density-chart-multiple-groups-seaborn"
           />
         </Row>
-        <div style={{ margin: "0 auto", padding: 0 }}>
-          <Link to='/density-chart-multiple-groups-seaborn'>
-            <ChartImage imgName='density-chart-multiple-groups-seaborn5' caption={'A density chart with multiple groups displayed, transparency and clean annotation.'} />
+        <div style={{ margin: '0 auto', padding: 0 }}>
+          <Link to="/density-chart-multiple-groups-seaborn">
+            <ChartImage
+              imgName="density-chart-multiple-groups-seaborn5"
+              caption={
+                'A density chart with multiple groups displayed, transparency and clean annotation.'
+              }
+            />
           </Link>
         </div>
       </Container>
@@ -142,18 +166,21 @@ export default function DensityPlot() {
 
       <div className="greySection">
         <Container>
-          <FunctionExploration functionName={"kdeplot"} />
+          <FunctionExploration functionName={'kdeplot'} />
         </Container>
       </div>
 
       <Spacing />
 
       <Container>
-        <h2 id="Matplotlib"><Matplotlib /> Density charts with <code>Matplotlib</code></h2>
+        <h2 id="Matplotlib">
+          <Matplotlib /> Density charts with <code>Matplotlib</code>
+        </h2>
         <p>
-          It is possible to build a density chart with <code>matplotlib</code>, but it is truely a
-          struggle compared to making it with <code>seaborn</code> as shown above. Here is an example
-          to prove it is doable, but I strongly advise to go for <code>seaborn</code>.
+          It is possible to build a density chart with <code>matplotlib</code>,
+          but it is truely a struggle compared to making it with{' '}
+          <code>seaborn</code> as shown above. Here is an example to prove it is
+          doable, but I strongly advise to go for <code>seaborn</code>.
         </p>
         <Row>
           <ChartImageContainer
@@ -168,7 +195,6 @@ export default function DensityPlot() {
           />
         </Row>
       </Container>
-
 
       <Spacing />
 
@@ -185,7 +211,6 @@ export default function DensityPlot() {
       </Container>
 
       <Spacing />
-
-    </Layout >
+    </Layout>
   );
 }

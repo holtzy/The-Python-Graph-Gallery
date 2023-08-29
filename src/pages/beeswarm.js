@@ -8,11 +8,11 @@ import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
 import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
-import { Button, Col } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
-import FunctionExploration from '../components/FunctionExploration';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription = (
   <>
@@ -52,14 +52,21 @@ sns.swarmplot(y=my_variable)
 plt.show() # Display the chart
 `;
 
+export const Head = () => (
+  <SEO
+    title="Beeswarm"
+    seoDescription="A collection of beeswarm chart examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function Beeswarm() {
   return (
-    <Layout
-      title="Beeswarm"
-      isTocEnabled
-      seoDescription="A collection of beeswarm chart examples made with Python, coming with explanation and reproducible code"
-    >
-      <TitleAndDescription title="Beeswarm" description={chartDescription} />
+    <Layout isTocEnabled>
+      <TitleAndDescription
+        title="Beeswarm"
+        description={chartDescription}
+        chartType={'beeswarm'}
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>

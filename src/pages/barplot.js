@@ -12,6 +12,7 @@ import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription = (
   <>
@@ -54,13 +55,16 @@ plt.xticks(y_pos, bars)
 plt.show()
 `;
 
+export const Head = () => (
+  <SEO
+    title="Barplot"
+    seoDescription="A collection of barplot examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function Barplot() {
   return (
-    <Layout
-      title="Barplot"
-      isTocEnabled
-      seoDescription="A collection of barplot examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Barplot" description={chartDescription} />
 
       <Container>

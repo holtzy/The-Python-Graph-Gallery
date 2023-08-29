@@ -12,6 +12,7 @@ import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>An <a href='https://www.data-to-viz.com/graph/area.html'>area chart</a> is really similar to a <a href='http://python-graph-gallery.com/line-chart/'>line chart</a>, except that the area between the x axis and the line is filled in with color or shading. It represents the evolution of a numeric variable. This section starts by considering <code>matplotlib</code> and <code>seaborn</code> as tools to build area charts. It then shows a few other options for timeseries.</p>";
@@ -29,13 +30,16 @@ plt.fill_between(x, y)
 plot.show()
 `;
 
-export default function LinePlot() {
+export const Head = () => (
+  <SEO
+    title="Area chart"
+    seoDescription="A collection of area chart examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
+export default function AreaPlot() {
   return (
-    <Layout
-      title="Area chart"
-      isTocEnabled
-      seoDescription="A collection of area chart examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Area Chart" description={chartDescription} />
 
       <Container>

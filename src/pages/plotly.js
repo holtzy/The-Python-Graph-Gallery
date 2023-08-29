@@ -12,6 +12,7 @@ import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
 import { Button } from 'react-bootstrap';
 import ChartImageContainer from '../components/ChartImageContainer';
+import { SEO } from '../components/SEO';
 
 const chartDescription = (
   <>
@@ -35,13 +36,16 @@ const chartDescription = (
   </>
 );
 
+export const Head = () => (
+  <SEO
+    title="Plotly"
+    seoDescription="An overview of the plotly python library for interactive data visualization"
+  />
+);
+
 export default function Plotlys() {
   return (
-    <Layout
-      title="Plotly"
-      isTocEnabled
-      seoDescription="An overview of the plotly python library for interactive data visualization"
-    >
+    <Layout title="Plotly">
       <TitleAndDescription
         title="Interactive charts with Plotly"
         description={chartDescription}

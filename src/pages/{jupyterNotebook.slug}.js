@@ -1,17 +1,18 @@
-import "./basic.css";
+import '../styles/basic.css';
 
-import React from "react";
-import { graphql } from "gatsby";
+import React from 'react';
+import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
-import Layout from "../components/Layout";
-import Container from "react-bootstrap/Container";
-import TitleAndDescription from "../components/TitleAndDescription";
-import ChartFamilySection from "../components/ChartFamilySection";
-import Contact from "../components/Contact";
-import Spacing from "../components/Spacing";
+import Layout from '../components/Layout';
+import Container from 'react-bootstrap/Container';
+import TitleAndDescription from '../components/TitleAndDescription';
+import ChartFamilySection from '../components/ChartFamilySection';
+import Contact from '../components/Contact';
+import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
-export default function Template({ data }) {
+const JupyterNotebook = ({ data }) => {
   const {
     title,
     description,
@@ -19,11 +20,16 @@ export default function Template({ data }) {
     chartType,
     slug,
     seoDescription,
-    keywords
+    keywords,
   } = data.jupyterNotebook.metadata;
   return (
-    <Layout title={title} isTocEnabled chartType={chartType} seoDescription={seoDescription} keywords={keywords} >
-
+    <Layout
+      title={title}
+      isTocEnabled
+      chartType={chartType}
+      seoDescription={seoDescription}
+      keywords={keywords}
+    >
       <TitleAndDescription
         title={title}
         description={'<p>' + description + '</p>'}
@@ -53,18 +59,17 @@ export default function Template({ data }) {
       </Container>
 
       <Spacing />
-
     </Layout>
   );
-}
+};
 
-Template.propTypes = {
-  data: PropTypes.object
+JupyterNotebook.propTypes = {
+  data: PropTypes.object,
 };
 
 export const query = graphql`
-  query BlogPostBySlug($slug: String!) {
-    jupyterNotebook(fields: { slug: { eq: $slug } }) {
+  query NotebookQuery($slug: String!) {
+    jupyterNotebook(slug: { eq: $slug }) {
       html
       metadata {
         title
@@ -78,3 +83,12 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => (
+  <SEO
+    title={data.jupyterNotebook.metadata.title}
+    seoDescription={data.jupyterNotebook.metadata.seoDescription}
+    keywords={data.jupyterNotebook.metadata.keywords}
+  />
+);
+export default JupyterNotebook;

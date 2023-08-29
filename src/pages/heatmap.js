@@ -12,6 +12,7 @@ import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
+import { SEO } from '../components/SEO';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/heatmap.html'>heatmap</a> is a graphical representation of data where each value of a matrix is represented as a color. This page explains how to build a heatmap with <code>Python</code>, with an emphasis on the <code>Seaborn</code> library.</p>";
@@ -28,13 +29,16 @@ df = pd.DataFrame(np.random.random((5,5)), columns=["a","b","c","d","e"])
 p1 = sns.heatmap(df)
 `;
 
+export const Head = () => (
+  <SEO
+    title="Heatmap"
+    seoDescription="A collection of heatmap examples made with Python, coming with explanation and reproducible code"
+  />
+);
+
 export default function Heatmap() {
   return (
-    <Layout
-      title="Heatmap"
-      isTocEnabled
-      seoDescription="A collection of heatmap examples made with Python, coming with explanation and reproducible code"
-    >
+    <Layout isTocEnabled>
       <TitleAndDescription title="Heatmap" description={chartDescription} />
 
       <Container>
