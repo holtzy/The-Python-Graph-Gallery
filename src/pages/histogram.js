@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Matplotlib, Pandas, Seaborn } from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -239,26 +239,26 @@ export default function ViolinPlot() {
 
       <Container>
         <h2 id="Quick (pandas)">
-          <Matplotlib /> Quick start (Pandas)
+          <Pandas /> Quick start (Pandas)
         </h2>
         <Row className="align-items-center">
           <Col md={6}>
             <p>
-              <Link to="/pandas">Pandas</Link> can build decent
-              histograms easily. It provides different functions like
-              <code>hist()</code> and <code>plot()</code> that need a pandas
-              dataframe (or series) as input.
+              <Link to="/pandas">Pandas</Link> can build decent histograms
+              easily. It provides different functions like <code>hist()</code>{' '}
+              and <code>plot()</code> that need a pandas dataframe (or series)
+              as input.
             </p>
             <p>
-              Since it's based on <Link to="/matplotlib">matplotlib</Link>, it provides
-              all the options you can think of to customize the binning and the
-              genreral appearance.
+              Since it's based on <Link to="/matplotlib">matplotlib</Link>, it
+              provides all the options you can think of to customize the binning
+              and the genreral appearance.
             </p>
           </Col>
           <Col md={6}>
-            <Link to={'/basic-histogram-with-pandas'}>
+            <Link to={'/527-introduction-to-histogram-with-pandas'}>
               <ChartImage
-                imgName="basic-histogram-with-pandas"
+                imgName="527-introduction-to-histogram-with-pandas"
                 caption="The most basic histogram one can make with python and pandas"
               />
             </Link>
@@ -271,20 +271,25 @@ export default function ViolinPlot() {
 
       <Container>
         <h2 id="Pandas">
-          <Matplotlib />
+          <Pandas />
           Histograms with <code>Pandas</code>
         </h2>
         <p>
-          <Link to="/pandas">Pandas</Link> is not the most Python library to
-          build histograms, but it can be used to build decent ones. It provides
-          different functions like <code>hist()</code> and <code>plot()</code>{' '} from matplotlib.
+          <Link to="/pandas">Pandas</Link> is not the most common Python library
+          to build histograms, but it can be used to build decent ones. It
+          provides different functions like <code>hist()</code> and{' '}
+          <code>plot()</code> from matplotlib.
         </p>
         <p>
           The examples below should help you to get started with
-          <Link to="/527-introduction-to-histogram-with-pandas"> basic pandas histograms</Link>.
+          <Link to="/527-introduction-to-histogram-with-pandas">
+            {' '}
+            basic pandas histograms
+          </Link>
+          .
         </p>
         <Row>
-        <ChartImageContainer
+          <ChartImageContainer
             imgName="527-introduction-to-histogram-with-pandas"
             caption="The most basic histogram with pandas."
             linkTo="/527-introduction-to-histogram-with-pandas"

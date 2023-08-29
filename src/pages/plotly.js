@@ -225,7 +225,12 @@ export default function Plotlys() {
         <Row>
           <ChartImageContainer
             imgName="523-plotly-add-annotation"
-            caption="How to add annotations on a plotly chart"
+            caption="Add an arrow with text to annotate a scatterplot"
+            linkTo="/523-plotly-add-annotation"
+          />
+          <ChartImageContainer
+            imgName="523-plotly-add-annotation-2"
+            caption="Learn how to add a line, a square, emojis, links and more"
             linkTo="/523-plotly-add-annotation"
           />
         </Row>
