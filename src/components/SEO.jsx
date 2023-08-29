@@ -9,7 +9,11 @@
 import React from 'react';
 import { Script } from 'gatsby';
 
-function getAdThriveScriptUrl(w) {
+function getAdThriveScriptUrl() {
+  if (typeof window === 'undefined') {
+    return '';
+  }
+  const w = window;
   w.adthrive = w.adthrive || {};
   w.adthrive.cmd = w.adthrive.cmd || [];
   w.adthrive.plugin = 'adthrive-ads-manual';
@@ -60,11 +64,7 @@ export const SEO = ({ title, seoDescription, keywords }) => {
         name="twitter:image"
         content="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"
       />
-      <Script
-        id="adthrive"
-        strategy="idle"
-        src={getAdThriveScriptUrl(window)}
-      />
+      <Script id="adthrive" strategy="idle" src={getAdThriveScriptUrl()} />
     </>
   );
 };
