@@ -35,6 +35,20 @@ fig, ax = plt.subplots(figsize = (9, 9))
 ax.hist(hours, bins=5, edgecolor="black");
 `;
 
+const quickCodePandas = `# library & dataset
+import pandas as pd
+import matplotlib.pyplot as plt
+
+time = [17, 25, 42, 35, 26, 27, 20, 11, 22, 32, 35, 30, 45, 55]
+
+# Convert to a pandas format
+time = pd.Series(time)
+
+#plot
+time.hist()
+plt.show
+`;
+
 export default function ViolinPlot() {
   return (
     <Layout
@@ -217,6 +231,63 @@ export default function ViolinPlot() {
             imgName="506-histogram-with-small-mutliples"
             caption="Use small multiple to compare the distribution of several groups or several variables"
             linkTo="/506-histogram-with-small-mutliples"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Quick (pandas)">
+          <Matplotlib /> Quick start (Pandas)
+        </h2>
+        <Row className="align-items-center">
+          <Col md={6}>
+            <p>
+              <Link to="/pandas">Pandas</Link> can build decent
+              histograms easily. It provides different functions like
+              <code>hist()</code> and <code>plot()</code> that need a pandas
+              dataframe (or series) as input.
+            </p>
+            <p>
+              Since it's based on <Link to="/matplotlib">matplotlib</Link>, it provides
+              all the options you can think of to customize the binning and the
+              genreral appearance.
+            </p>
+          </Col>
+          <Col md={6}>
+            <Link to={'/basic-histogram-with-pandas'}>
+              <ChartImage
+                imgName="basic-histogram-with-pandas"
+                caption="The most basic histogram one can make with python and pandas"
+              />
+            </Link>
+          </Col>
+        </Row>
+        <CodeChunk>{quickCodePandas}</CodeChunk>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Pandas">
+          <Matplotlib />
+          Histograms with <code>Pandas</code>
+        </h2>
+        <p>
+          <Link to="/pandas">Pandas</Link> is not the most Python library to
+          build histograms, but it can be used to build decent ones. It provides
+          different functions like <code>hist()</code> and <code>plot()</code>{' '} from matplotlib.
+        </p>
+        <p>
+          The examples below should help you to get started with
+          <Link to="/527-introduction-to-histogram-with-pandas"> basic pandas histograms</Link>.
+        </p>
+        <Row>
+        <ChartImageContainer
+            imgName="527-introduction-to-histogram-with-pandas"
+            caption="The most basic histogram with pandas."
+            linkTo="/527-introduction-to-histogram-with-pandas"
           />
         </Row>
       </Container>

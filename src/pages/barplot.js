@@ -201,6 +201,11 @@ export default function Barplot() {
             caption="Add error bars on a seaborn barplot"
             linkTo="/error-bars-on-barplot"
           />
+          <ChartImageContainer
+            imgName="web-population-pyramid"
+            caption="Population pyramid of a marketing funnel"
+            linkTo="/web-population-pyramid"
+          />
         </Row>
       </Container>
 

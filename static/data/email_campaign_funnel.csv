@@ -1,0 +1,43 @@
+"Stage","Gender","Users"
+"Stage 01: Browsers","Male",-14927618.7065238
+"Stage 02: Unbounced Users","Male",-12862663.40577
+"Stage 03: Email Signups","Male",-11361896.414205
+"Stage 04: Email Confirmed","Male",-9411708.10306551
+"Stage 05: Campaign-Email Opens","Male",-8074316.61565254
+"Stage 06: Campaign-Email Clickthroughs","Male",-6958512.21751809
+"Stage 07: Buy Button Page","Male",-6045363.48273234
+"Stage 08: Buy Button Clickers","Male",-5029954.21439611
+"Stage 09: Cart Confirmation Page","Male",-4008034.11281016
+"Stage 10: Address Verification Page","Male",-3172555.22488748
+"Stage 11: Submit Order Page","Male",-2484808.19938415
+"Stage 12: Payment","Male",-1903727.48070039
+"Stage 13: Payment Successful","Male",-1490277.0164728
+"Stage 14: 1st Successful Purchase","Male",-1152003.96468187
+"Stage 15: 2nd Purchase","Male",-770748.058053054
+"Stage 16: 3rd Purchase","Male",-434430.028171115
+"Stage 17: 4th Purchase","Male",-195031.889918096
+"Stage 18: 5th Purchase","Male",-58570.2215626985
+"Stage 18: 5th Purchase","Male",-12215.4458488971
+"Stage 18: 5th Purchase","Male",888.495352178812
+"Stage 18: 5th Purchase","Male",-443.619050107896
+"Stage 01: Browsers","Female",14226434.2934762
+"Stage 02: Unbounced Users","Female",12276042.59423
+"Stage 03: Email Signups","Female",10850385.585795
+"Stage 04: Email Confirmed","Female",8999931.89693449
+"Stage 05: Campaign-Email Opens","Female",7732693.38434746
+"Stage 06: Campaign-Email Clickthroughs","Female",6666393.78248191
+"Stage 07: Buy Button Page","Female",5743259.51726766
+"Stage 08: Buy Button Clickers","Female",4723254.78560389
+"Stage 09: Cart Confirmation Page","Female",3680878.88718984
+"Stage 10: Address Verification Page","Female",3002640.77511252
+"Stage 11: Submit Order Page","Female",2467804.80061585
+"Stage 12: Payment","Female",1977277.51929961
+"Stage 13: Payment Successful","Female",1593649.9835272
+"Stage 14: 1st Successful Purchase","Female",1229651.03531813
+"Stage 15: 2nd Purchase","Female",828496.941946946
+"Stage 16: 3rd Purchase","Female",486621.971828885
+"Stage 17: 4th Purchase","Female",227106.110081904
+"Stage 18: 5th Purchase","Female",73466.7784373015
+"Stage 18: 5th Purchase","Female",12654.5541511029
+"Stage 18: 5th Purchase","Female",3425.49535217881
+"Stage 18: 5th Purchase","Female",-306.619050107896
