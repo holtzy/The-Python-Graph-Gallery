@@ -9,6 +9,7 @@ import { Button, Col } from 'react-bootstrap';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { listOfBestCharts } from '../util/list-of-best-charts';
+import { SEO } from '../components/SEO';
 
 const chartDescription = (
   <>
@@ -39,12 +40,16 @@ const chartDescription = (
   </>
 );
 
+export const Head = () => (
+  <SEO
+    title="Best Python Chart Examples"
+    seoDescription="A selection of the best graphs made with python, coming with in-depth tutorials and reproducible code."
+  />
+);
+
 export default function Beeswarm() {
   return (
-    <Layout
-      title="Best Python Chart Examples"
-      seoDescription="A selection of the best graphs made with python, coming with in-depth tutorials and reproducible code."
-    >
+    <Layout>
       <TitleAndDescription
         title="Best Python Chart Examples"
         description={chartDescription}

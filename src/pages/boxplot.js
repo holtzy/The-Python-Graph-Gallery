@@ -11,7 +11,6 @@ import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
 import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
-import FunctionExploration from '../components/FunctionExploration';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
 
