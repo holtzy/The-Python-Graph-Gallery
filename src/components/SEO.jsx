@@ -4,6 +4,7 @@
 // At the top of each page you will find a Head component export that calls this SEO component
 
 // The SEO component will add stuff like title, description, image, lang... in the head of the HTML page
+// AdThrive ads code is also added here
 
 import React from 'react';
 import { Script } from 'gatsby';
