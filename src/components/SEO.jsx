@@ -6,6 +6,22 @@
 // The SEO component will add stuff like title, description, image, lang... in the head of the HTML page
 
 import React from 'react';
+import { Script } from 'gatsby';
+
+function getAdThriveScriptUrl(w) {
+  w.adthrive = w.adthrive || {};
+  w.adthrive.cmd = w.adthrive.cmd || [];
+  w.adthrive.plugin = 'adthrive-ads-manual';
+  w.adthrive.host = 'ads.adthrive.com';
+  return (
+    'https://' +
+    w.adthrive.host +
+    '/sites/6434366c7ccf1c58d32ab68f/ads.min.js?referrer=' +
+    w.encodeURIComponent(w.location.href) +
+    '&cb=' +
+    (Math.floor(Math.random() * 100) + 1)
+  );
+}
 
 export const SEO = ({ title, seoDescription, keywords }) => {
   return (
@@ -42,6 +58,11 @@ export const SEO = ({ title, seoDescription, keywords }) => {
       <meta
         name="twitter:image"
         content="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"
+      />
+      <Script
+        id="adthrive"
+        strategy="idle"
+        src={getAdThriveScriptUrl(window)}
       />
     </>
   );

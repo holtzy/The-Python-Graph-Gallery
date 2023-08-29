@@ -1,4 +1,4 @@
-import './basic.css';
+import '../styles/basic.css';
 
 import React from 'react';
 import { graphql } from 'gatsby';
@@ -12,7 +12,7 @@ import Contact from '../components/Contact';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
 
-export default function Template({ data }) {
+const JupyterNotebook = ({ data }) => {
   const {
     title,
     description,
@@ -61,15 +61,15 @@ export default function Template({ data }) {
       <Spacing />
     </Layout>
   );
-}
+};
 
-Template.propTypes = {
+JupyterNotebook.propTypes = {
   data: PropTypes.object,
 };
 
 export const query = graphql`
-  query BlogPostBySlug($slug: String!) {
-    jupyterNotebook(fields: { slug: { eq: $slug } }) {
+  query NotebookQuery($slug: String!) {
+    jupyterNotebook(slug: { eq: $slug }) {
       html
       metadata {
         title
@@ -84,4 +84,11 @@ export const query = graphql`
   }
 `;
 
-export const Head = () => <SEO title={'toto'} seoDescription={'titi'} />;
+export const Head = ({ data }) => (
+  <SEO
+    title={data.jupyterNotebook.metadata.title}
+    seoDescription={data.jupyterNotebook.metadata.seoDescription}
+    keywords={data.jupyterNotebook.metadata.keywords}
+  />
+);
+export default JupyterNotebook;
