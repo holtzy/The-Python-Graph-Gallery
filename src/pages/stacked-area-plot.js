@@ -274,6 +274,14 @@ export default function StackedAreaPlot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/524-area-chart-over-flexible-baseline'}>
+              <ChartImage
+                imgName={'524-area-over-flexible-baseline_square'}
+                caption={'Plotly line chart with many customization'}
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 

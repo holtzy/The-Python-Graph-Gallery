@@ -1,6 +1,6 @@
 export const listOfBestCharts = [
   {
-    link: '524-area-over-flexible-baseline',
+    link: '524-area-chart-over-flexible-baseline',
     title: 'Area over flexible baseline chart',
     description:
       'An area over a flexible baseline to show deviations from a reference or baseline made with Python and Matplotlib or Plotly.',

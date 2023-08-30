@@ -299,6 +299,11 @@ export default function Plotlys() {
             caption="Interactive Barplot with plotly"
             linkTo="/520-interactive-barplot-with-plotly"
           />
+          <ChartImageContainer
+            imgName="524-area-over-flexible-baseline_square"
+            caption="Plotly line chart with many customization"
+            linkTo="/524-area-chart-over-flexible-baseline"
+          />
         </Row>
         <br />
         <p>
