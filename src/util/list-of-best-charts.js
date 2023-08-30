@@ -1,5 +1,14 @@
 export const listOfBestCharts = [
   {
+    link: '524-area-over-flexible-baseline',
+    title: 'Area over flexible baseline chart',
+    description:
+      'An area over a flexible baseline to show deviations from a reference or baseline made with Python and Matplotlib or Plotly.',
+    img: '524-area-over-flexible-baseline_square.png',
+    alt: 'Area over a flexible baseline made with Python and Matplotlib/Plotly',
+    author: 'J. Kühn',
+  },
+  {
     link: 'web-circular-barplot-with-matplotlib',
     title: 'Circular Barplot',
     description:

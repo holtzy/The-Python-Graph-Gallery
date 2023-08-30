@@ -169,8 +169,8 @@ export default function Pie() {
         </h2>
         <p>
           A set of publication ready charts for timeseries. They are made with
-          python and <Link href="/matplotlib">matplotlib</Link> and use a high
-          level of customization.
+          Python and libraries like <Link href="/matplotlib">Matplotlib</Link> or 
+          <Link href="/plotly">Plotly</Link> and use a high level of customization.
         </p>
         <p>
           The{' '}
@@ -181,7 +181,10 @@ export default function Pie() {
           for better readability. The{' '}
           <Link to="/web-lollipop-plot-with-python-the-office">second</Link>{' '}
           shows how to use lollipop to display the evolution of a deviation
-          around a trend.
+          around a trend. The{' '}
+          <Link to="/524-area-over-flexible-baseline">last one</Link>{' '}
+          shows how to use an area over a flexible baseline to display the deviation
+          around a historical reference period.
         </p>
         <Row>
           <ChartImageContainer
@@ -203,6 +206,11 @@ export default function Pie() {
             imgName="web-lineplots-and-area-chart-the-economist-square1"
             caption="Learn how to mimick The Economist's style with a figure combining both a line and an area chart."
             linkTo="/web-lineplots-and-area-chart-the-economist"
+          />
+          <ChartImageContainer
+            imgName="524-area-over-flexible-baseline_square"
+            caption="Learn how to how to build an area over flexible baseline chart to show deviations from a reference or baseline."
+            linkTo="/524-area-over-flexible-baseline"
           />
         </Row>
       </Container>
