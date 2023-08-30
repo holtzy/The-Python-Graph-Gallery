@@ -178,7 +178,7 @@ export default function Pie() {
           <Link to="/web-lollipop-plot-with-python-the-office">second</Link>{' '}
           shows how to use lollipop to display the evolution of a deviation
           around a trend. The{' '}
-          <Link to="/524-plotly-area-over-flexible-baseline">last one</Link>{' '}
+          <Link to="/524-area-over-flexible-baseline">last one</Link>{' '}
           shows how to use an area over a flexible baseline to display the deviation
           around a historical reference period.
         </p>
@@ -204,9 +204,9 @@ export default function Pie() {
             linkTo="/web-lineplots-and-area-chart-the-economist"
           />
           <ChartImageContainer
-            imgName="524-plotly-area-over-flexible-baseline_square"
+            imgName="524-area-over-flexible-baseline_square"
             caption="Learn how to how to build an area over flexible baseline chart to show deviations from a reference or baseline."
-            linkTo="/524-plotly-area-over-flexible-baseline"
+            linkTo="/524-area-over-flexible-baseline"
           />
         </Row>
       </Container>
