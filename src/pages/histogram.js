@@ -303,6 +303,11 @@ export default function Histogram() {
             caption="Customize title, labels and bins of histograms with pandas"
             linkTo="/528-customizing-histogram-with-pandas"
           />
+          <ChartImageContainer
+            imgName="529-multi-group-histogram-pandas"
+            caption="Show the distribution of several groups or variables on a single graph"
+            linkTo="/529-multi-group-histogram-pandas"
+          />
         </Row>
       </Container>
 
