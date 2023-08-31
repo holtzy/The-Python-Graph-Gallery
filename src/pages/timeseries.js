@@ -206,7 +206,7 @@ export default function Pie() {
           <ChartImageContainer
             imgName="524-area-over-flexible-baseline_square"
             caption="Learn how to how to build an area over flexible baseline chart to show deviations from a reference or baseline."
-            linkTo="/524-area-over-flexible-baseline"
+            linkTo="/524-area-chart-over-flexible-baseline"
           />
         </Row>
       </Container>
