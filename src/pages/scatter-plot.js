@@ -442,6 +442,16 @@ export default function ScatterPlot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={4}>
+            <Link to={'/web-selling-sunset-reproduction'}>
+              <ChartImage
+                imgName={'web-selling-sunset-reproduction'}
+                caption={
+                  'A scatter plot based on images for points'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
