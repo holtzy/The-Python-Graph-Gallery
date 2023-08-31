@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './contact.css';
-import Button from 'react-bootstrap/Button';
+import SubscribeButton from './SubscribeButton';
 
 // Component for the Contact & Edit section at the bottom of each page.
 // If a pageSlug prop is provided, a link to the according github page will be provided.
@@ -56,29 +56,7 @@ export default function Contact({ pageSlug, isNotebook }) {
 
       <br />
 
-      <div>
-        <Button
-          size="md"
-          href="https://github.com/holtzy/The-Python-Graph-Gallery"
-        >
-          Github
-        </Button>
-        <Button size="md" href="https://twitter.com/R_Graph_Gallery">
-          Twitter
-        </Button>
-        {pageSlug && (
-          <Button size="md" href={editPageUrl}>
-            Edit
-          </Button>
-        )}
-        <Button
-          size="md"
-          href="https://datavizuniverse.substack.com/"
-          bsStyle="primary"
-        >
-          Subscribe
-        </Button>
-      </div>
+      <SubscribeButton />
     </div>
   );
 }
