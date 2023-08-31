@@ -295,8 +295,13 @@ export default function Histogram() {
         <Row>
           <ChartImageContainer
             imgName="527-introduction-to-histogram-with-pandas"
-            caption="The most basic histogram with pandas."
+            caption="The most basic histogram with pandas"
             linkTo="/527-introduction-to-histogram-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="528-customizing-histogram-with-pandas"
+            caption="Customize title, labels and bins of histograms with pandas"
+            linkTo="/528-customizing-histogram-with-pandas"
           />
         </Row>
       </Container>
