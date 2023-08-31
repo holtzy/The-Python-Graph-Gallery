@@ -270,7 +270,10 @@ export default function LinePlot() {
       <Spacing />
 
       <Container>
-        <h2 id="From the web">🎨 From the web</h2>
+        <h2 id="Best">
+          <Matplotlib />
+          Best python line chart examples
+        </h2>
         <p>
           The web is full of astonishing charts made by awesome bloggers, (often
           using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}

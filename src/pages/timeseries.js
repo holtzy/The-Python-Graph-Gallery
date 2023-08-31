@@ -163,14 +163,16 @@ export default function Pie() {
       <Spacing />
 
       <Container>
-        <h2 id="From the web">
+        <h2 id="Best">
           <Matplotlib />
-          From the web
+          Best python timeseries examples
         </h2>
         <p>
           A set of publication ready charts for timeseries. They are made with
-          Python and libraries like <Link href="/matplotlib">Matplotlib</Link> or 
-          <Link href="/plotly">Plotly</Link> and use a high level of customization.
+          Python and libraries like <Link href="/matplotlib">Matplotlib</Link>{' '}
+          or
+          <Link href="/plotly">Plotly</Link> and use a high level of
+          customization.
         </p>
         <p>
           The{' '}
@@ -182,8 +184,8 @@ export default function Pie() {
           <Link to="/web-lollipop-plot-with-python-the-office">second</Link>{' '}
           shows how to use lollipop to display the evolution of a deviation
           around a trend. The{' '}
-          <Link to="/524-area-over-flexible-baseline">last one</Link>{' '}
-          shows how to use an area over a flexible baseline to display the deviation
+          <Link to="/524-area-over-flexible-baseline">last one</Link> shows how
+          to use an area over a flexible baseline to display the deviation
           around a historical reference period.
         </p>
         <Row>

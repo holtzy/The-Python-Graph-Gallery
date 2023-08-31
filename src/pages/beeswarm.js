@@ -212,9 +212,9 @@ export default function Beeswarm() {
       <Spacing />
 
       <Container>
-        <h2 id="From the web">
+        <h2 id="Best">
           <Matplotlib />
-          From the web
+          Best beeswarm examples
         </h2>
         <p>
           The web is full of astonishing charts made by awesome bloggers, (often
