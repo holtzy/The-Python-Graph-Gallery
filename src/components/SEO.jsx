@@ -64,7 +64,13 @@ export const SEO = ({ title, seoDescription, keywords }) => {
         name="twitter:image"
         content="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"
       />
-      <Script id="adthrive" strategy="idle" src={getAdThriveScriptUrl()} />
+      <Script
+        id="adthrive"
+        strategy="post-hydrate"
+        src={getAdThriveScriptUrl()}
+      />
     </>
   );
 };
+
+// Tried the idle strategy for AdThrive script put reported as unperformant by Raptive.
