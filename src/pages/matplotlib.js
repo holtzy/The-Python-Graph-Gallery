@@ -604,6 +604,11 @@ export default function Matplotlibs() {
             caption="A clean stacked area chart with images in the caption"
             linkTo="/web-stacked-line-chart-with-labels"
           />
+          <ChartImageContainer
+            imgName="web-scatterplot-with-images-in-circle"
+            caption="Use an image inside each scatterplot circle"
+            linkTo="/web-scatterplot-with-images-in-circles"
+          />
         </Row>
       </Container>
 

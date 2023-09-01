@@ -227,6 +227,16 @@ export default function BubblePlot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={4}>
+            <Link to={'/web-scatterplot-with-images-in-circles'}>
+              <ChartImage
+                imgName={'web-scatterplot-with-images-in-circles'}
+                caption={
+                  'A scatter plot with images inside each marker to provide additional context'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 

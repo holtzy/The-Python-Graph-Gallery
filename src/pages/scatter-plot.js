@@ -443,11 +443,11 @@ export default function ScatterPlot() {
             </Link>
           </Col>
           <Col xs={12} md={4}>
-            <Link to={'/web-selling-sunset-reproduction'}>
+            <Link to={'/web-scatterplot-with-images-in-circles'}>
               <ChartImage
-                imgName={'web-selling-sunset-reproduction'}
+                imgName={'web-scatterplot-with-images-in-circles'}
                 caption={
-                  'A scatter plot based on images for points'
+                  'A scatter plot with images inside each marker to provide additional context'
                 }
               />
             </Link>
