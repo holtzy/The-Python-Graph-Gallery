@@ -304,8 +304,13 @@ export default function Histogram() {
             linkTo="/528-customizing-histogram-with-pandas"
           />
           <ChartImageContainer
-            imgName="529-multi-group-histogram-pandas"
-            caption="Show the distribution of several groups or variables on a single graph"
+            imgName="529-multi-group-histogram-pandas-1"
+            caption="Show the distribution of 2 groups or variables on a single graph"
+            linkTo="/529-multi-group-histogram-pandas"
+          />
+          <ChartImageContainer
+            imgName="529-multi-group-histogram-pandas-2"
+            caption="Use small multiple to compare the distribution of several groups on the same chart"
             linkTo="/529-multi-group-histogram-pandas"
           />
         </Row>
