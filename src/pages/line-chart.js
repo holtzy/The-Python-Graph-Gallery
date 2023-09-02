@@ -270,6 +270,27 @@ export default function LinePlot() {
       <Spacing />
 
       <Container>
+        <h2 id="pandas">
+          <Plotly />
+          Line chart with Pandas
+        </h2>
+        <p>
+          If you are looking for easy-to-build line charts
+          with Python, <Link href="/pandas">pandas</Link> is the
+          library for you.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="530-introduction-to-linechart-with-pandas"
+            caption="Introduction to line chart with pandas"
+            linkTo="/530-introduction-to-linechart-with-pandas"
+          />
+          </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Best">
           <Matplotlib />
           Best python line chart examples
