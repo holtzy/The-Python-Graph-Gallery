@@ -297,6 +297,37 @@ export default function Barplot() {
       <Spacing />
 
       <Container>
+        <h2 id="Pandas">
+          <Seaborn /> 
+          Barplot with <code>Pandas</code>
+        </h2>
+        <p>
+          The <code>bar</code> function of <code>pandas</code> allows to
+          quickly build a barplot. You will find below examples of how to
+          create simple and grouped barcharts using <code>pandas</code>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="538-introduction-to-barplot-with-pandas"
+            caption="Introduction to barplot with pandas"
+            linkTo="/538-introduction-to-barplot-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="539-customizing-barplot-with-pandas"
+            caption="Customizing barplot with pandas"
+            linkTo="/539-customizing-barplot-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="540-barplots-grouped-by-color-with-pandas"
+            caption="Barplots grouped by color with pandas"
+            linkTo="/540-barplots-grouped-by-color-with-pandas"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Best">
           <Matplotlib />
           Best python barplot examples
