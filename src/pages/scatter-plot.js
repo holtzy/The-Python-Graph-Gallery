@@ -380,6 +380,40 @@ export default function ScatterPlot() {
 
       <Spacing />
       <Container>
+        <h2 id="Pandas">
+          <Plotly />
+          Scatterplots with <code>Pandas</code>
+        </h2>
+        <p>
+          <a href='https://python-graph-gallery.com/pandas/'>Pandas</a>,
+          a data analysis library, also offers functions to build scatterplots.
+          It uses matplotlib under the hood, but the <b>syntax is more concise</b>.
+        </p>
+        <p>The main difference is that we have to work with <b>Pandas objects</b> such
+          as <code>Series</code> and <code>DataFrame</code>. The examples below should help you get
+          started quickly with the pandas API:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="535-introduction-to-scatter-plot-with-pandas"
+            caption="Introduction to scatter plot with pandas"
+            linkTo="/535-introduction-to-scatter-plot-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="536-customizing-scatter-plots-with-pandas"
+            caption="Customize scatter plots with pandas"
+            linkTo="/536-customizing-scatter-plots-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="537-scatter-plots-grouped-by-color-with-pandas"
+            caption="Scatter plots grouped by color with pandas"
+            linkTo="/537-scatter-plots-grouped-by-color-with-pandas"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+      <Container>
         <h2 id="Best">
           <Matplotlib />
           Best python scatterplot examples
