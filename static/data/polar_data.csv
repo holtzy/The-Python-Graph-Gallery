@@ -1,0 +1,16 @@
+Country,Students_in_mil,Continent,Natives_in_mil,Students,Natives,Cont_code
+United States,8.08,North America,41.76,8080000.0,41760000.0,2
+Brazil,5.24,South America,0.46,5240000.0,460000.0,4
+France,3.34,Western Europe,0.27,3340000.0,270000.0,6
+United Kingdom,2.03,Western Europe,0.13,2029999.9999999998,130000.0,6
+Italy,0.9,Western Europe,3.83,900000.0,3830000.0,6
+Germany,0.82,Western Europe,2.1,820000.0,2100000.0,6
+Ivory Coast,0.57,West Africa,,570000.0,,5
+Benin,0.41,West Africa,,410000.0,,5
+Senegal,0.36,West Africa,,360000.0,,5
+Sweden,0.26,Northern Europe,0.06,260000.0,60000.0,3
+Cameroon,0.19,Central Africa,1.03,190000.0,1030000.0,0
+Gabon,0.17,Central Africa,,170000.0,,0
+Poland,0.15,Eastern Europe,,150000.0,,1
+Spain,0.13,Western Europe,43.27,130000.0,43270000.0,6
+Equatorial Guinea,0.13,Central Africa,1.08,130000.0,1080000.0,0
