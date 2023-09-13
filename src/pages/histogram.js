@@ -236,6 +236,11 @@ export default function Histogram() {
             caption="Use small multiple to compare the distribution of several groups or several variables"
             linkTo="/506-histogram-with-small-mutliples"
           />
+          <ChartImageContainer
+            imgName="web-histogram-with-annotations"
+            caption="Nice histogram with custom annotations"
+            linkTo="/web-histogram-with-annotations"
+          />
         </Row>
       </Container>
 
