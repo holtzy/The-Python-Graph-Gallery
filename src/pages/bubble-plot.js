@@ -237,6 +237,16 @@ export default function BubblePlot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={4}>
+            <Link to={'/web-bubble-plot-with-annotations-and-custom-features'}>
+              <ChartImage
+                imgName={'web-bubble-plot-with-annotations-and-custom-features'}
+                caption={
+                  'A scatter plot with custom annotations and colors, with some markers being circled'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
