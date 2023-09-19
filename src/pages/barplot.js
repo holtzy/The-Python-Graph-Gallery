@@ -164,6 +164,16 @@ export default function Barplot() {
             caption="Highly customized barplot with colors, legend, labels and more."
             linkTo="/10-barplot-with-number-of-observation"
           />
+          <ChartImageContainer
+            imgName="547-stacked-barplots-with-pandas-1"
+            caption="Stacked barplot with pandas"
+            linkTo="/547-stacked-barplots-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="547-stacked-barplots-with-pandas-2"
+            caption="Stacked 100% barplot with pandas"
+            linkTo="/547-stacked-barplots-with-pandas"
+          />
         </Row>
       </Container>
 
