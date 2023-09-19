@@ -207,6 +207,16 @@ export default function Boxplot() {
             caption="Beeswarm and boxplot combination"
             linkTo="/509-introduction-to-swarm-plot-in-matplotlib"
           />
+          <ChartImageContainer
+            imgName="545-boxplots-with-jitter-matplotlib"
+            caption="Boxplot with individual data points"
+            linkTo="/545-boxplots-with-jitter-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="546-grouped-boxplots-with-jitter-matplotlib"
+            caption="Grouped boxplot with individual data points"
+            linkTo="/546-grouped-boxplots-with-jitter-matplotlib"
+          />
         </Row>
       </Container>
 
