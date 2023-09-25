@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Seaborn, Matplotlib } from '../components/MiscellaneousLogos';
+import { Seaborn, Matplotlib, Pandas } from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -164,16 +164,6 @@ export default function Barplot() {
             caption="Highly customized barplot with colors, legend, labels and more."
             linkTo="/10-barplot-with-number-of-observation"
           />
-          <ChartImageContainer
-            imgName="547-stacked-barplots-with-pandas-1"
-            caption="Stacked barplot with pandas"
-            linkTo="/547-stacked-barplots-with-pandas"
-          />
-          <ChartImageContainer
-            imgName="547-stacked-barplots-with-pandas-2"
-            caption="Stacked 100% barplot with pandas"
-            linkTo="/547-stacked-barplots-with-pandas"
-          />
         </Row>
       </Container>
 
@@ -308,13 +298,13 @@ export default function Barplot() {
 
       <Container>
         <h2 id="Pandas">
-          <Seaborn /> 
+          <Pandas />
           Barplot with <code>Pandas</code>
         </h2>
         <p>
-          The <code>bar</code> function of <code>pandas</code> allows to
-          quickly build a barplot. You will find below examples of how to
-          create simple and grouped barcharts using <code>pandas</code>.
+          The <code>bar()</code> function of <code>pandas</code> allows to
+          quickly build a barplot. You will find below examples of how to create
+          simple and grouped barcharts using <code>pandas</code>.
         </p>
         <Row>
           <ChartImageContainer
@@ -331,6 +321,16 @@ export default function Barplot() {
             imgName="540-barplots-grouped-by-color-with-pandas"
             caption="Barplots grouped by color with pandas"
             linkTo="/540-barplots-grouped-by-color-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="547-stacked-barplots-with-pandas-1"
+            caption="Stacked barplot with pandas"
+            linkTo="/547-stacked-barplots-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="547-stacked-barplots-with-pandas-2"
+            caption="Stacked 100% barplot with pandas"
+            linkTo="/547-stacked-barplots-with-pandas"
           />
         </Row>
       </Container>

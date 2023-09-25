@@ -236,11 +236,6 @@ export default function Histogram() {
             caption="Use small multiple to compare the distribution of several groups or several variables"
             linkTo="/506-histogram-with-small-mutliples"
           />
-          <ChartImageContainer
-            imgName="web-histogram-with-annotations"
-            caption="Nice histogram with custom annotations"
-            linkTo="/web-histogram-with-annotations"
-          />
         </Row>
       </Container>
 
@@ -318,6 +313,39 @@ export default function Histogram() {
             caption="Use small multiple to compare the distribution of several groups on the same chart"
             linkTo="/529-multi-group-histogram-pandas"
           />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Best">
+          <Matplotlib />
+          Best python histogram examples
+        </h2>
+        <p>
+          The web is full of astonishing charts made by awesome bloggers, (often
+          using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
+          <a href="https://www.python-graph-gallery.com">
+            Python graph gallery
+          </a>{' '}
+          tries to display (or translate from R) some of the best creations and
+          explain how their source code works. If you want to display your work
+          here, please drop me a word or even better, submit a{' '}
+          <a href="https://github.com/holtzy/The-Python-Graph-Gallery">
+            Pull Request
+          </a>
+          !
+        </p>
+        <Row>
+          <Col xs={12} md={6}>
+            <Link to={'/web-histogram-with-annotations'}>
+              <ChartImage
+                imgName={'web-histogram-with-annotations'}
+                caption={'Nice histogram with custom annotations.'}
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
