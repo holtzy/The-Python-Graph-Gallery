@@ -124,7 +124,7 @@ export default function Waffle() {
           />
           <ChartImageContainer
             imgName="541-waffle-chart-with-additionnal-grouping"
-            caption="Waffle chart with additionnal grouping"
+            caption="Waffle chart with additionnal grouping and title"
             linkTo="/541-waffle-chart-with-additionnal-grouping"
           />
         </Row>
