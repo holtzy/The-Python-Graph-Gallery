@@ -1,11 +1,15 @@
-import "./socialMediaButtons.css";
+import './socialMediaButtons.css';
 
-import React from "react";
+import React from 'react';
 
 export default function SocialMediaButtons() {
   return (
     <div className="socialMediaContainer">
-      <a href="https://github.com/holtzy" className="socialShareIcon">
+      <a
+        href="https://github.com/holtzy"
+        className="socialShareIcon"
+        aria-label="Link to Yan Holtz Github profile"
+      >
         <svg
           className="github"
           width="21"
@@ -23,7 +27,11 @@ export default function SocialMediaButtons() {
           ></path>
         </svg>
       </a>
-      <a href="https://twitter.com/R_Graph_Gallery" className="socialShareIcon">
+      <a
+        href="https://twitter.com/R_Graph_Gallery"
+        className="socialShareIcon"
+        aria-label="Link to Yan Holtz Twitter profile"
+      >
         <svg
           width="15"
           aria-hidden="true"
@@ -44,6 +52,7 @@ export default function SocialMediaButtons() {
       <a
         href="https://www.linkedin.com/in/yan-holtz-2477534a/"
         className="socialShareIcon"
+        aria-label="Link to Yan Holtz LinkedIn profile"
       >
         <svg
           width="15"
@@ -62,7 +71,11 @@ export default function SocialMediaButtons() {
         </svg>
       </a>
 
-      <a href="https://www.yan-holtz.com" className="socialShareIcon">
+      <a
+        href="https://www.yan-holtz.com"
+        className="socialShareIcon"
+        aria-label="Link to Yan Holtz Homepage"
+      >
         <svg
           width="20"
           aria-hidden="true"
