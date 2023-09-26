@@ -65,7 +65,11 @@ export const Head = () => (
 export default function Barplot() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Barplot" description={chartDescription} />
+      <TitleAndDescription
+        title="Barplot"
+        description={chartDescription}
+        chartType={'barplot'}
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
