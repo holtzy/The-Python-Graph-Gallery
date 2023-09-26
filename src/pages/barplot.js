@@ -357,7 +357,7 @@ export default function Barplot() {
           !
         </p>
         <Row>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Link to={'/web-circular-barplot-with-matplotlib'}>
               <ChartImage
                 imgName={'web-circular-barplot-with-matplotlib-square'}
@@ -367,7 +367,7 @@ export default function Barplot() {
               />
             </Link>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Link to={'/web-horizontal-barplot-with-labels-the-economist'}>
               <ChartImage
                 imgName={
@@ -379,7 +379,7 @@ export default function Barplot() {
               />
             </Link>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Link to={'/web-heatmap-and-radial-barchart-plastics'}>
               <ChartImage
                 imgName={'web-heatmap-and-radial-barchart-plastics-square2'}
@@ -389,7 +389,7 @@ export default function Barplot() {
               />
             </Link>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Link to={'/web-ordered-mirror-barplot'}>
               <ChartImage
                 imgName={'web-ordered-mirror-barplot'}

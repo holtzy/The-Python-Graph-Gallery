@@ -1,5 +1,23 @@
 export const listOfBestCharts = [
   {
+    link: '532-customizing-circular-barplot-in-matplotlib',
+    title: 'Ordered & Mirrored barplot',
+    description:
+      'A highly customized circular barplot visualizing Star Wars data using Python and Matplotlib. It provides a step-by-step guide from a basic barplot to a fully customized version including fonts, y-axis scaling, annotations and legend.',
+    img: '532-episode1-each-line-anakin.png',
+    alt: 'Circular Barplot about star wars',
+    author: 'Lisa Hornung',
+  },
+  {
+    link: 'web-ordered-mirror-barplot',
+    title: 'Ordered & Mirrored barplot',
+    description:
+      'A mirror barplot with individual observations using the Matplotlib library to visualize data about the Erasmus Program in European countries.',
+    img: 'web-ordered-mirror-barplot.png',
+    alt: 'Ordered mirrored barplot made with matplotlib',
+    author: 'Benjamin Nowak',
+  },
+  {
     link: 'web-bubble-plot-with-annotations-and-custom-features',
     title: 'Scatterplot with grouping, highlighting and annotation',
     description:
