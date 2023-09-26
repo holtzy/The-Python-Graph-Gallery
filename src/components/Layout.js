@@ -21,6 +21,7 @@ import TableOfContent from '../components/TableOfContent';
 // Custom must be AFTER bootstrap. It makes sure custom style are not overriden
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/style.css';
+import AdInjector from './AdInjector';
 
 export default function Layout({
   children,
@@ -30,6 +31,8 @@ export default function Layout({
 }) {
   return (
     <>
+      <AdInjector siteId="6434366c7ccf1c58d32ab68f" />
+
       <header>
         <TopNavbar />
       </header>
