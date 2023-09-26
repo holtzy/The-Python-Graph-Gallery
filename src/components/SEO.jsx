@@ -12,6 +12,7 @@ export const SEO = ({ title, seoDescription, keywords }) => {
   return (
     <>
       <title>{title}</title>
+      <html lang="en" />
       <link
         href="https://fonts.googleapis.com/css?family=Roboto|Montserrat"
         rel="stylesheet"
