@@ -389,6 +389,16 @@ export default function Barplot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={4}>
+            <Link to={'/web-ordered-mirror-barplot'}>
+              <ChartImage
+                imgName={'web-ordered-mirror-barplot'}
+                caption={
+                  'Mirror barplot with data points and annotations on top.'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
