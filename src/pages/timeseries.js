@@ -163,6 +163,33 @@ export default function Pie() {
       <Spacing />
 
       <Container>
+        <h2 id="Line">Candlesticks</h2>
+        <p>
+          A <code>candlestick chart</code> is a style of financial chart used to describe
+          price movements. Each "candlestick" typically shows one day, with the <b>Open, High,
+          Low, and Close (OHLC)</b> values for each day.
+        </p>
+        <p>
+          Here are examples using <Link to="/matplotlib">mplfinance from matplotlib</Link> to
+          display the evolution of different prices.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="548-intro-candle-stick-matplotlib"
+            caption="How to make a candlestick chart with Matplotlib and mplfinance" 
+            linkTo="/548-intro-candle-stick-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="549-candle-stick-with-moving-average"
+            caption="How to add one or several moving averages to a candlestick chart"
+            linkTo="/549-candle-stick-with-moving-average"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Best">
           <Matplotlib />
           Best python timeseries examples
