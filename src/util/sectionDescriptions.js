@@ -232,6 +232,14 @@ export const chartTypesInfo = [
     label: 'Streamgraph',
   },
   {
+    id: 'candlestick',
+    family: 'evolution',
+    logo: 'CandleStick2Small',
+    dataToVizURL: 'https://www.data-to-viz.com',
+    pythonURL: 'https://python-graph-gallery.com/candlestick/',
+    label: 'Candlestick',
+  },
+  {
     id: 'timeseries',
     family: 'evolution',
     logo: 'time150',
