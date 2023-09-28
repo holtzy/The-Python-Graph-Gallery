@@ -7,7 +7,12 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib, Plotly, Seaborn } from '../components/MiscellaneousLogos';
+import {
+  Matplotlib,
+  Pandas,
+  Plotly,
+  Seaborn,
+} from '../components/MiscellaneousLogos';
 import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -380,6 +385,44 @@ export default function ScatterPlot() {
 
       <Spacing />
       <Container>
+        <h2 id="Pandas">
+          <Pandas />
+          Scatterplots with <code>Pandas</code>
+        </h2>
+        <p>
+          <a href="https://python-graph-gallery.com/pandas/">Pandas</a>, a data
+          analysis library, also offers functions to build scatterplots. It uses
+          matplotlib under the hood, but the <b>syntax is more concise</b>.
+        </p>
+        <p>
+          The main difference is that we have to work with <b>Pandas objects</b>{' '}
+          such as <code>Series</code> and <code>DataFrame</code>.
+        </p>
+        <p>
+          The examples below should help you get started quickly with the pandas
+          API:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="535-introduction-to-scatter-plot-with-pandas"
+            caption="Introduction to scatter plot with pandas"
+            linkTo="/535-introduction-to-scatter-plot-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="536-customizing-scatter-plots-with-pandas"
+            caption="Customize scatter plots with pandas"
+            linkTo="/536-customizing-scatter-plots-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="537-scatter-plots-grouped-by-color-with-pandas"
+            caption="Scatter plots grouped by color with pandas"
+            linkTo="/537-scatter-plots-grouped-by-color-with-pandas"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+      <Container>
         <h2 id="Best">
           <Matplotlib />
           Best python scatterplot examples
@@ -448,6 +491,16 @@ export default function ScatterPlot() {
                 imgName={'web-scatterplot-with-images-in-circles'}
                 caption={
                   'A scatter plot with images inside each marker to provide additional context'
+                }
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to={'/web-bubble-plot-with-annotations-and-custom-features'}>
+              <ChartImage
+                imgName={'web-bubble-plot-with-annotations-and-custom-features'}
+                caption={
+                  'A scatter plot with custom annotations and colors, with some markers being circled'
                 }
               />
             </Link>

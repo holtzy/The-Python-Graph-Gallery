@@ -29,6 +29,63 @@
   color: #a53253;
 }
 
+/* 
+FONT from https://gwfh.mranftl.com/fonts/bitter?subsets=latin 
+gatsby tutorial: https://www.gatsbyjs.com/docs/how-to/styling/using-local-fonts/
+*/
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/roboto-v30-latin/roboto-v30-latin-regular.woff2)
+    format('woff2');
+}
+/* roboto-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(/fonts/roboto-v30-latin/roboto-v30-latin-italic.woff2)
+    format('woff2');
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/fonts/roboto-v30-latin/roboto-v30-latin-700.woff2) format('woff2');
+}
+/* bitter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/bitter-v33-latin/bitter-v33-latin-regular.woff2)
+    format('woff2');
+}
+/* bitter-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Bitter';
+  font-style: italic;
+  font-weight: 400;
+  src: url(/fonts/bitter-v33-latin/bitter-v33-latin-italic.woff2)
+    format('woff2');
+}
+/* bitter-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/fonts/bitter-v33-latin/bitter-v33-latin-700.woff2) format('woff2');
+}
+
 /* ---------- Global CSS ----------------- */
 body {
   overflow-x: hidden;
@@ -149,8 +206,8 @@ pre.input {
 
 /* ---------- Button ----------------- */
 .btn {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   border-color: var(--python-gallery);
   color: var(--python-gallery);
   border-width: 2px;

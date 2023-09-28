@@ -152,6 +152,11 @@ export default function LinePlot() {
             caption="Add annotation on top of a matplotlib line chart"
             linkTo="/516-line-chart-with-annotations"
           />
+          <ChartImageContainer
+            imgName="525-line-chart-log-transform"
+            caption="How to apply a log transform to the Y scale of the line chart"
+            linkTo="/525-line-chart-log-transform"
+          />
         </Row>
       </Container>
 
@@ -290,7 +295,7 @@ export default function LinePlot() {
             caption="Customize your line charts with pandas"
             linkTo="/531-customizing-linecharts-with-pandas"
           />
-          </Row>
+         </Row>
       </Container>
 
       <Spacing />

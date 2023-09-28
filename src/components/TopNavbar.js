@@ -29,7 +29,7 @@ export default function TopNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav.Link onClick={handleShow}>Chart types</Nav.Link>
 
-          <NavDropdown title="Tools" id="basic-nav-dropdown">
+          <NavDropdown title="Tools" id="nav-dropdown-tools">
             <NavDropdown.Item className="menuItemMain" href="/matplotlib">
               Matplotlib
               <span className="menuItemLogo">
@@ -79,7 +79,7 @@ export default function TopNavbar() {
 
           <Nav.Link href="/best-python-chart-examples">Best</Nav.Link>
 
-          <NavDropdown title="Related" id="basic-nav-dropdown">
+          <NavDropdown title="Related" id="nav-dropdown-related">
             <NavDropdown.Item
               className="menuItemMain"
               href="https://www.data-to-viz.com"

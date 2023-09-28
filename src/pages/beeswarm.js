@@ -90,7 +90,7 @@ export default function Beeswarm() {
             </p>
           </Col>
           <Col md={6}>
-            <Link to={'/505-Introduction-to-swarm-plot-in-seaborn'}>
+            <Link to={'/505-introduction-to-swarm-plot-in-seaborn'}>
               <ChartImage
                 imgName="505-Introduction-to-swarm-plot-in-seaborn-1"
                 caption="Most basic beeswarm plot built with Python and Seaborn"
@@ -153,17 +153,17 @@ export default function Beeswarm() {
           <ChartImageContainer
             imgName="505-Introduction-to-swarm-plot-in-seaborn-1"
             caption="Most basic beeswarm plot built with Python and Seaborn"
-            linkTo="/505-Introduction-to-swarm-plot-in-seaborn"
+            linkTo="/505-introduction-to-swarm-plot-in-seaborn"
           />
           <ChartImageContainer
             imgName="505-Introduction-to-swarm-plot-in-seaborn-2"
             caption="Make your beeswarm plot horizontal by swapping axes"
-            linkTo="/505-Introduction-to-swarm-plot-in-seaborn"
+            linkTo="/505-introduction-to-swarm-plot-in-seaborn"
           />
           <ChartImageContainer
             imgName="505-Introduction-to-swarm-plot-in-seaborn-3"
             caption="Build a beeswarm plot for several groups in the dataset"
-            linkTo="/505-Introduction-to-swarm-plot-in-seaborn"
+            linkTo="/505-introduction-to-swarm-plot-in-seaborn"
           />
         </Row>
       </Container>

@@ -122,6 +122,11 @@ export default function Waffle() {
             caption="Waffle chart with proportions in the legend."
             linkTo="/503-waffle-chart-introduction"
           />
+          <ChartImageContainer
+            imgName="541-waffle-chart-with-additionnal-grouping"
+            caption="Waffle chart with additionnal grouping and title"
+            linkTo="/541-waffle-chart-with-additionnal-grouping"
+          />
         </Row>
       </Container>
 

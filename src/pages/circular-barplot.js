@@ -157,6 +157,26 @@ export default function CircularBarplot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-polar-chart'}>
+              <ChartImage
+                imgName={'web-polar-chart'}
+                caption={
+                  'Nice circular barplot with Matplotlib, showing data about Spanish learners in different countries'
+                }
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/532-customizing-circular-barplot-in-matplotlib'}>
+              <ChartImage
+                imgName={'532-episode1-each-line-anakin-square'}
+                caption={
+                  'A highly customized circular barplot visualizing Star Wars data using Python and Matplotlib'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
