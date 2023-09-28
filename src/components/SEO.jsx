@@ -12,14 +12,7 @@ export const SEO = ({ title, seoDescription, keywords }) => {
   return (
     <>
       <title>{title}</title>
-      <link
-        href="https://fonts.googleapis.com/css?family=Roboto|Montserrat"
-        rel="stylesheet"
-      />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet"
-      />
+      <html lang="en" />
       <meta
         name="description"
         content={seoDescription || 'How to build a chart with Python'}
@@ -44,29 +37,6 @@ export const SEO = ({ title, seoDescription, keywords }) => {
         name="twitter:image"
         content="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"
       />
-
-      <script>
-        {`(function (w, d) {
-               w.adthrive = w.adthrive || {};
-               w.adthrive.cmd = w.adthrive.cmd || [];
-               w.adthrive.plugin = "adthrive-ads-manual";
-               w.adthrive.host = "ads.adthrive.com";
-               var s = d.createElement("script");
-               s.async = true;
-               s.referrerpolicy = "no-referrer-when-downgrade";
-               s.src =
-                 "https://" +
-                 w.adthrive.host +
-                 "/sites/6434366c7ccf1c58d32ab68f/ads.min.js?referrer=" +
-                 w.encodeURIComponent(w.location.href) +
-                 "&cb=" +
-                 (Math.floor(Math.random() * 100) + 1);
-               var n = d.getElementsByTagName("script")[0];
-               n.parentNode.insertBefore(s, n);
-             })(window, document);`}
-      </script>
     </>
   );
 };
-
-// Tried the idle strategy for AdThrive script put reported as unperformant by Raptive.

@@ -9,6 +9,7 @@ module.exports = {
   siteMetadata: {
     title: 'The Python Graph Gallery',
     description: 'A gallery of charts made with Python',
+    siteUrl: `https://www.python-graph-gallery.com`,
   },
   plugins: [
     {
@@ -71,5 +72,6 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 };

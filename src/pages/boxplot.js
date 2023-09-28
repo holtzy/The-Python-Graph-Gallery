@@ -203,6 +203,21 @@ export default function Boxplot() {
         </p>
         <Row>
           <ChartImageContainer
+            imgName="533-introduction-boxplots-matplotlib"
+            caption="Simple boxplot with matplotlib"
+            linkTo="/533-introduction-boxplots-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="542-custom-boxplots-matplotlib"
+            caption="Flipped, notched and customized boxplot"
+            linkTo="/542-custom-boxplots-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="543-grouped-boxplots-matplotlib"
+            caption="Grouped boxplot"
+            linkTo="/543-grouped-boxplots-matplotlib"
+          />{' '}
+          <ChartImageContainer
             imgName="509-introduction-to-swarm-plot-in-matplotlib-3"
             caption="Beeswarm and boxplot combination"
             linkTo="/509-introduction-to-swarm-plot-in-matplotlib"

@@ -1,5 +1,41 @@
 export const listOfBestCharts = [
   {
+    link: '532-customizing-circular-barplot-in-matplotlib',
+    title: 'Ordered & Mirrored barplot',
+    description:
+      'A highly customized circular barplot visualizing Star Wars data using Python and Matplotlib. It provides a step-by-step guide from a basic barplot to a fully customized version including fonts, y-axis scaling, annotations and legend.',
+    img: '532-episode1-each-line-anakin.png',
+    alt: 'Circular Barplot about star wars',
+    author: 'Lisa Hornung',
+  },
+  {
+    link: 'web-ordered-mirror-barplot',
+    title: 'Ordered & Mirrored barplot',
+    description:
+      'A mirror barplot with individual observations using the Matplotlib library to visualize data about the Erasmus Program in European countries.',
+    img: 'web-ordered-mirror-barplot.png',
+    alt: 'Ordered mirrored barplot made with matplotlib',
+    author: 'Benjamin Nowak',
+  },
+  {
+    link: 'web-bubble-plot-with-annotations-and-custom-features',
+    title: 'Scatterplot with grouping, highlighting and annotation',
+    description:
+      'A scatter plot with custom annotations and colors, with some markers being circled.',
+    img: 'web-bubble-plot-with-annotations-and-custom-features.png',
+    alt: 'Polished scatterplot made with Python',
+    author: 'Data Wrapper',
+  },
+  {
+    link: 'web-histogram-with-annotations',
+    title: 'Histogram with clean color scale and annotation',
+    description:
+      'A clean and insightful histogram produced by the french institute of statistics showing the salary distribution in the country.',
+    img: 'web-histogram-with-annotations.png',
+    alt: 'Clean histogram reproduction in Python',
+    author: 'INSEE',
+  },
+  {
     link: '524-area-chart-over-flexible-baseline',
     title: 'Area over flexible baseline chart',
     description:
@@ -186,6 +222,15 @@ export const listOfBestCharts = [
     img: 'web-time-series-and-facetting-with-matplotlib-square.png',
     alt: 'Timeseries chart with filled areas and faceting',
     author: 'G. Karamanis',
+  },
+  {
+    link: 'web-polar-chart',
+    title: 'Polar bar chart',
+    description:
+      'A polar bar chart showing the number of spanish speakers per country',
+    img: 'web-polar-chart.png',
+    alt: 'Polar barchart with Python',
+    author: 'nyx-it-up',
   },
   {
     link: 'heatmap-for-timeseries-matplotlib',

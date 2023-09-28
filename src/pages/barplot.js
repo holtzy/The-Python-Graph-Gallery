@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Seaborn, Matplotlib } from '../components/MiscellaneousLogos';
+import { Seaborn, Matplotlib, Pandas } from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -65,7 +65,11 @@ export const Head = () => (
 export default function Barplot() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Barplot" description={chartDescription} />
+      <TitleAndDescription
+        title="Barplot"
+        description={chartDescription}
+        chartType={'barplot'}
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
@@ -297,6 +301,47 @@ export default function Barplot() {
       <Spacing />
 
       <Container>
+        <h2 id="Pandas">
+          <Pandas />
+          Barplot with <code>Pandas</code>
+        </h2>
+        <p>
+          The <code>bar()</code> function of <code>pandas</code> allows to
+          quickly build a barplot. You will find below examples of how to create
+          simple and grouped barcharts using <code>pandas</code>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="538-introduction-to-barplot-with-pandas"
+            caption="Introduction to barplot with pandas"
+            linkTo="/538-introduction-to-barplot-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="539-customizing-barplot-with-pandas"
+            caption="Customizing barplot with pandas"
+            linkTo="/539-customizing-barplot-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="540-barplots-grouped-by-color-with-pandas"
+            caption="Barplots grouped by color with pandas"
+            linkTo="/540-barplots-grouped-by-color-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="547-stacked-barplots-with-pandas-1"
+            caption="Stacked barplot with pandas"
+            linkTo="/547-stacked-barplots-with-pandas"
+          />
+          <ChartImageContainer
+            imgName="547-stacked-barplots-with-pandas-2"
+            caption="Stacked 100% barplot with pandas"
+            linkTo="/547-stacked-barplots-with-pandas"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Best">
           <Matplotlib />
           Best python barplot examples
@@ -316,7 +361,7 @@ export default function Barplot() {
           !
         </p>
         <Row>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Link to={'/web-circular-barplot-with-matplotlib'}>
               <ChartImage
                 imgName={'web-circular-barplot-with-matplotlib-square'}
@@ -326,7 +371,7 @@ export default function Barplot() {
               />
             </Link>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Link to={'/web-horizontal-barplot-with-labels-the-economist'}>
               <ChartImage
                 imgName={
@@ -338,12 +383,22 @@ export default function Barplot() {
               />
             </Link>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Link to={'/web-heatmap-and-radial-barchart-plastics'}>
               <ChartImage
                 imgName={'web-heatmap-and-radial-barchart-plastics-square2'}
                 caption={
                   'How to combine a heatmap with a radial barplot on the same figure with heaps of visual tweaks.'
+                }
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-ordered-mirror-barplot'}>
+              <ChartImage
+                imgName={'web-ordered-mirror-barplot'}
+                caption={
+                  'Mirror barplot with data points and annotations on top.'
                 }
               />
             </Link>
