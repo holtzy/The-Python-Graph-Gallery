@@ -14,8 +14,27 @@ import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
 
-const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/histogram.html'>Histogram</a> represents the distribution of a numeric variable for one or several groups. The values are split in bins, each bin is represented as a bar. This page showcases many histograms built with python, using both the <code>seaborn</code> and the <code>matplotlib</code> libraries.</p>";
+const chartDescription = (
+  <>
+    <p>
+      A <a href="https://www.data-to-viz.com/graph/histogram.html">Histogram</a>{' '}
+      represents the <b>distribution</b> of a numeric variable for one or
+      several groups. The values are split in <b>bins</b>, each bin is
+      represented as a <b>bar</b>.{' '}
+    </p>
+    <p>
+      This page showcases many histograms built with <b>python</b>, using the{' '}
+      most popular libraries like <code>seaborn</code> and{' '}
+      <code>matplotlib</code>.
+    </p>
+    <p>
+      Examples start with <b>very simple</b>, beginner-friendly histograms and
+      progressively increase in complexity. At the end of the page, some
+      <b>polished & publication-ready</b> histograms are provided, ready to be
+      used in your next project 🔥!
+    </p>
+  </>
+);
 
 const quickCode = `# library & dataset
 import seaborn as sns
@@ -235,6 +254,11 @@ export default function Histogram() {
             imgName="506-histogram-with-small-mutliples"
             caption="Use small multiple to compare the distribution of several groups or several variables"
             linkTo="/506-histogram-with-small-mutliples"
+          />
+          <ChartImageContainer
+            imgName="534-highly-customized-layout"
+            caption="Subplot, title, and margin customization"
+            linkTo="/534-highly-customized-layout"
           />
         </Row>
       </Container>
