@@ -189,7 +189,7 @@ export default function Boxplot() {
       <Spacing />
 
       <Container>
-        <h2 id="Seaborn">
+        <h2 id="matplotlib">
           <Matplotlib />
           Boxplots with <code>Matplotlib</code>
         </h2>

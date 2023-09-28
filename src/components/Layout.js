@@ -14,9 +14,6 @@ import TableOfContent from '../components/TableOfContent';
 // - add the footer
 // - add the table of content
 
-// This is for ESLint, it does not understand that process is a global variable in a gatsby environment
-/*global process*/
-
 // Import Styles = bootstrap + custom
 // Custom must be AFTER bootstrap. It makes sure custom style are not overriden
 import 'bootstrap/dist/css/bootstrap.min.css';

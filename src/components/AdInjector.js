@@ -1,7 +1,15 @@
 import React, { useEffect } from 'react';
 
+// This is for ESLint, it does not understand that process is a global variable in a gatsby environment
+/*global process*/
+
 const AdInjector = ({ siteId }) => {
   useEffect(() => {
+    // exit if dev mode
+    if (process.env.NODE_ENV === 'development') {
+      return;
+    }
+
     // Initialize AdThrive object
     window.adthrive = window.adthrive || {};
     window.adthrive.cmd = window.adthrive.cmd || [];
