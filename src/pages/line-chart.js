@@ -295,7 +295,12 @@ export default function LinePlot() {
             caption="Customize your line charts with pandas"
             linkTo="/531-customizing-linecharts-with-pandas"
           />
-         </Row>
+          <ChartImageContainer
+            imgName="532-linecharts-mutliple-groups-with-pandas"
+            caption="Line charts with multiple variables or groups with pandas"
+            linkTo="/532-linecharts-mutliple-groups-with-pandas"
+          />
+          </Row>
       </Container>
 
       <Spacing />
