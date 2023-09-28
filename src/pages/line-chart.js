@@ -290,7 +290,12 @@ export default function LinePlot() {
             caption="Introduction to line chart with pandas"
             linkTo="/530-introduction-to-linechart-with-pandas"
           />
-          </Row>
+          <ChartImageContainer
+            imgName="531-customizing-linecharts-with-pandas"
+            caption="Customize your line charts with pandas"
+            linkTo="/531-customizing-linecharts-with-pandas"
+          />
+         </Row>
       </Container>
 
       <Spacing />
