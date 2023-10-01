@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
+import { Matplotlib, Seaborn , Plotly} from '../components/MiscellaneousLogos';
 import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -126,6 +126,48 @@ export default function Boxplot() {
             imgName="549-candle-stick-with-moving-average"
             caption="How to add one or several moving averages to a candlestick chart"
             linkTo="/549-candle-stick-with-moving-average"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Plotly">
+          <Plotly />
+          Candlestick with <code>Plotly</code>
+        </h2>
+        <p>
+          <code>Plotly</code> is a library that allows you to create{' '}
+          <b>interactive</b> charts. You can find here its{' '}
+          <a href="https://plotly.com/python/candlestick-charts/">
+            official documentation</a> for candlestick charts.
+        </p>
+        <p>
+          Building a candlestick chart with Plotly is made easy thanks to its{' '}
+          <code>go.Candlestick()</code> function. It takes as input a{' '}
+          <code>fig</code> object that can be customized with a{' '}
+          <code>layout</code> object.
+        </p>
+        <p>
+          Check the example below to understand how to build it from your
+          dataset:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="553-intro-candle-stick-plotly"
+            caption="How to make a candlestick chart with Plotly"
+            linkTo="/553-intro-candle-stick-plotly"
+          />
+          <ChartImageContainer
+            imgName="554-custom-candle-stick-plotly"
+            caption="How to customize a candlestick chart with Plotly"
+            linkTo="/554-custom-candle-stick-plotly"
+          />
+          <ChartImageContainer
+            imgName="555-candle-stick-with-moving-average-plotly"
+            caption="How to add one or several moving averages to a candlestick chart"
+            linkTo="/555-candle-stick-with-moving-average-plotly"
           />
         </Row>
       </Container>
