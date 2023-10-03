@@ -125,6 +125,11 @@ export default function ViolinPlot() {
             caption="Add a swarmplot on top of a violin chart to show individual data points"
             linkTo="/502-violinplot-and-swarmplot"
           />
+          <ChartImageContainer
+            imgName="54_Grouped_violinplot_Seaborn2"
+            caption="If you have both groups and subgroups, you'll be interested in a grouped violin plot"
+            linkTo="/54-grouped-violinplot"
+          />
         </Row>
       </Container>
 
