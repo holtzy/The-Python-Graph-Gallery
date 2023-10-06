@@ -97,6 +97,38 @@ export default function ViolinPlot() {
 
       <Spacing />
 
+      <Container>
+        <h2 id="PCA">Linear Regression</h2>
+        <p>
+          <b>Linear regression</b> is a statistical technique that aims to model the
+          relationship between a dependent variable and one or more independent
+          variables by fitting a linear equation to observed data.
+        </p>
+        <p>
+          With <code>scikit-learn</code> you can easily run a linear regression
+          and visualize the results with <code>matplotlib</code>.
+        </p>
+        <p>
+          The following post teaches how to perform a linear regression with{' '}
+          <code>scikit-learn</code> and focus on how to build clean outputs
+          using <Link href="/matplotlib">matplotlib</Link>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="556-visualize-linear-regression-1"
+            caption="Linear regression with statistics on top of a scatterplot"
+            linkTo="/556-visualize-linear-regression"
+          />
+          <ChartImageContainer
+            imgName="556-visualize-linear-regression-2"
+            caption="Customized linear regression with statistics on top of a scatterplot"
+            linkTo="/556-visualize-linear-regression"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="general" />
