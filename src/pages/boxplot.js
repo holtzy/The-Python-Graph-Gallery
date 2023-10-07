@@ -222,6 +222,11 @@ export default function Boxplot() {
             caption="Beeswarm and boxplot combination"
             linkTo="/509-introduction-to-swarm-plot-in-matplotlib"
           />
+          <ChartImageContainer
+            imgName="557-anova-visualization-with-matplotlib-1"
+            caption="Boxplot and ANOVA results on top"
+            linkTo="/557-anova-visualization-with-matplotlib"
+          />
         </Row>
       </Container>
 

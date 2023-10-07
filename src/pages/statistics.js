@@ -92,6 +92,21 @@ export default function ViolinPlot() {
             caption="Use a scatterplot to check how samples are clusterized"
             linkTo="/515-intro-pca-graph-python"
           />
+          <ChartImageContainer
+            imgName="557-anova-visualization-with-matplotlib-1"
+            caption="Box plot with ANOVA results on top"
+            linkTo="/557-anova-visualization-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="557-anova-visualization-with-matplotlib-2"
+            caption="Violin plot with ANOVA results on top"
+            linkTo="/557-anova-visualization-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="557-anova-visualization-with-matplotlib-3"
+            caption="Customized violin plot with ANOVA results on top"
+            linkTo="/557-anova-visualization-with-matplotlib"
+          />
         </Row>
       </Container>
 
