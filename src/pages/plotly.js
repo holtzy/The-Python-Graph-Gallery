@@ -304,6 +304,21 @@ export default function Plotlys() {
             caption="Plotly line chart with many customization"
             linkTo="/524-area-chart-over-flexible-baseline"
           />
+          <ChartImageContainer
+            imgName="553-intro-candle-stick-plotly"
+            caption="How to make a candlestick chart with Plotly"
+            linkTo="/553-intro-candle-stick-plotly"
+          />
+          <ChartImageContainer
+            imgName="554-custom-candle-stick-plotly"
+            caption="How to customize a candlestick chart with Plotly"
+            linkTo="/554-custom-candle-stick-plotly"
+          />
+          <ChartImageContainer
+            imgName="555-candle-stick-with-moving-average-plotly"
+            caption="How to add one or several moving averages to a candlestick chart"
+            linkTo="/555-candle-stick-with-moving-average-plotly"
+          />
         </Row>
         <br />
         <p>
