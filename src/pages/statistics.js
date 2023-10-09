@@ -97,6 +97,36 @@ export default function ViolinPlot() {
 
       <Spacing />
 
+      <Container>
+        <h2 id="PCA">Hypothesis testing</h2>
+        <p>
+          <b>Statistical hypothesis testing</b> is a key technique in the realm of
+          data analysis.</p>
+        <p>
+          The posts below explain how to display the results of your hypothesis
+          tests <b>on your graphs</b>, so as to represent your results in the most elegant
+          way possible. 
+        </p>
+        <p>
+          We'll use the scipy library to run the tests and <Link href="/matplotlib">matplotlib</Link>
+          to display the results.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="551-student-t-test-visualization-1"
+            caption="Histograms with p-value and t statistic"
+            linkTo="/551-student-t-test-visualization"
+          />
+          <ChartImageContainer
+            imgName="551-student-t-test-visualization-2"
+            caption="Boxplots with p-value and t statistic"
+            linkTo="/551-student-t-test-visualization"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="general" />
