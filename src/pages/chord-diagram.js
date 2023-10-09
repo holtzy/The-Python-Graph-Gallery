@@ -142,17 +142,17 @@ export default function Chord() {
           <ChartImageContainer
             imgName="406-chord-diagram_mne1"
             caption="Most basic chord diagram with the mne library."
-            linkTo="/406-chord-diagram_mne"
+            linkTo="/406-chord-diagram-mne"
           />
           <ChartImageContainer
             imgName="406-chord-diagram_mne2"
             caption="Learn how to customize node, links, labels and more."
-            linkTo="/406-chord-diagram_mne"
+            linkTo="/406-chord-diagram-mne/"
           />
           <ChartImageContainer
             imgName="406-chord-diagram_mne3"
             caption="How to split nodes in groups."
-            linkTo="/406-chord-diagram_mne"
+            linkTo="/406-chord-diagram-mne"
           />
         </Row>
       </Container>
