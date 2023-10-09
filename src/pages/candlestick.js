@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib, Seaborn , Plotly} from '../components/MiscellaneousLogos';
+import { Matplotlib, Plotly } from '../components/MiscellaneousLogos';
 import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -138,11 +138,29 @@ export default function Boxplot() {
           Candlestick with <code>Plotly</code>
         </h2>
         <p>
-          <code>Plotly</code> is a library that allows you to create{' '}
-          <b>interactive</b> charts. You can find here its{' '}
-          <a href="https://plotly.com/python/candlestick-charts/">
-            official documentation</a> for candlestick charts.
+          <Link href="/plotly">Plotly</Link> is a python library made to create{' '}
+          <b>interactive</b> charts. It is particularly poweful when it comes to
+          create interactive candlestick graphs.
         </p>
+        <p>
+          On the clandlestick example below, you can <b>zoom</b> by selecting a
+          specific area on the chart or using the minimap. On top of that,
+          <b>hovering</b> a specific timestamp will give you all its price
+          details.{' '}
+        </p>
+        <Link to="/554-custom-candle-stick-plotly">
+          <Button size="sm">See code</Button>
+        </Link>
+        <br />
+        <div className="mx-auto">
+          <iframe
+            src="/interactiveCharts/candlestick-plotly-custom-2.html"
+            title="candlestick chart with Python and Plotly"
+            style={{ border: 'none', width: '900px', height: '500px' }}
+          ></iframe>
+        </div>
+
+        <br />
         <p>
           Building a candlestick chart with Plotly is made easy thanks to its{' '}
           <code>go.Candlestick()</code> function. It takes as input a{' '}
