@@ -355,6 +355,11 @@ export default function ScatterPlot() {
             caption="Subplot, title, and margin customization"
             linkTo="/534-highly-customized-layout"
           />
+          <ChartImageContainer
+            imgName="513-add-logo-matplotlib"
+            caption="How to add an img into a matplotlib chart"
+            linkTo="/513-add-logo-matplotlib"
+          />
         </Row>
       </Container>
 

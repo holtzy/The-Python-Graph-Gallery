@@ -152,9 +152,9 @@ export default function Plotlys() {
         <br />
         <p>
           Interested in knowing more? You can check the{' '}
-          <Link href="/520-the-two-plotly-APIs">full post</Link> on the topic!
+          <Link href="/520-the-two-plotly-apis">full post</Link> on the topic!
         </p>
-        <Link href="/520-the-two-plotly-APIs">
+        <Link href="/520-the-two-plotly-apis">
           <Button>Plotly APIs post</Button>
         </Link>
       </Container>
