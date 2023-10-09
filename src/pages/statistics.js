@@ -92,6 +92,33 @@ export default function ViolinPlot() {
             caption="Use a scatterplot to check how samples are clusterized"
             linkTo="/515-intro-pca-graph-python"
           />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="ANOVA">Analysis of Variance(ANOVA)</h2>
+        <p>
+          Analysis of Variance (<b>ANOVA</b>) is a statistical method used to
+          test the differences between two or more group means to determine if
+          they are <b>statistically significant</b>.
+        </p>
+        <p>
+          It helps to identify whether the independent variable has a{' '}
+          <b>significant impact</b> on the dependent variable across different
+          groups, thereby allowing for the comparison of multiple groups
+          simultaneously.
+        </p>
+        <p>
+          Anova results are usually represented as a{' '}
+          <Link href="/boxplot">boxplot</Link> or a{' '}
+          <Link href="/violin-plot">violin plot</Link>, with each box
+          representing a specific group. The following examples show how to
+          create such boxplots, adding the ANOVA results, and offering some
+          variations.
+        </p>
+        <Row>
           <ChartImageContainer
             imgName="557-anova-visualization-with-matplotlib-1"
             caption="Box plot with ANOVA results on top"
@@ -107,23 +134,30 @@ export default function ViolinPlot() {
             caption="Customized violin plot with ANOVA results on top"
             linkTo="/557-anova-visualization-with-matplotlib"
           />
+          <ChartImageContainer
+            imgName="web-ggbetweenstats-with-matplotlib-square"
+            caption="A combination of a violin plot and a boxplot. Allows the comparison of several groups with statistical test results on top."
+            linkTo="/web-ggbetweenstats-with-matplotlib"
+          />
         </Row>
       </Container>
 
       <Spacing />
 
       <Container>
-        <h2 id="PCA">Hypothesis testing</h2>
+        <h2 id="Hypothesis testing">Hypothesis testing</h2>
         <p>
-          <b>Statistical hypothesis testing</b> is a key technique in the realm of
-          data analysis.</p>
-        <p>
-          The posts below explain how to display the results of your hypothesis
-          tests <b>on your graphs</b>, so as to represent your results in the most elegant
-          way possible. 
+          <b>Statistical hypothesis testing</b> is a key technique in the realm
+          of data analysis.
         </p>
         <p>
-          We'll use the scipy library to run the tests and <Link href="/matplotlib">matplotlib</Link>
+          The posts below explain how to display the results of your hypothesis
+          tests <b>on your graphs</b>, so as to represent your results in the
+          most elegant way possible.
+        </p>
+        <p>
+          We'll use the scipy library to run the tests and{' '}
+          <Link href="/matplotlib">matplotlib</Link>
           to display the results.
         </p>
         <Row>
@@ -145,9 +179,9 @@ export default function ViolinPlot() {
       <Container>
         <h2 id="PCA">Linear Regression</h2>
         <p>
-          <b>Linear regression</b> is a statistical technique that aims to model the
-          relationship between a dependent variable and one or more independent
-          variables by fitting a linear equation to observed data.
+          <b>Linear regression</b> is a statistical technique that aims to model
+          the relationship between a dependent variable and one or more
+          independent variables by fitting a linear equation to observed data.
         </p>
         <p>
           With <code>scikit-learn</code> you can easily run a linear regression

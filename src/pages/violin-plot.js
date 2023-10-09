@@ -141,9 +141,11 @@ export default function ViolinPlot() {
           Violin charts with <code>Matplotlib</code>
         </h2>
         <p>
-          <code>Matplotlib</code> is a python library well adapted to make
-          density charts. 
+          <Link href="/matplotlib">Matplotlib</Link>, as usual, is another great
+          otion to build violin charts with python. It comes with a{' '}
+          <code>violinplot()</code> function that does all the hard work for us.
         </p>
+        <p>Here are a couple of examples:</p>
         <Row>
           <ChartImageContainer
             imgName="557-anova-visualization-with-matplotlib-2"

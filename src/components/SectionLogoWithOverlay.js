@@ -12,6 +12,7 @@ export default function SectionLogoWithOverlay({ chartType, caption, link }) {
   // If the logo is in the "general" family, do not display an overlay.
   const isGeneralFamily = generalList.includes(chartType);
 
+  console.log({ chartType });
   return (
     <>
       {!isGeneralFamily ? (

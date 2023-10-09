@@ -55,6 +55,10 @@ export default function SectionLogo({ chartType }) {
     return n.node.name === chartType;
   });
 
+  if (chartType === 'TableBig') {
+    console.log('kkkkkkkkkkkkk', image);
+  }
+
   if (!image) {
     return null;
   }
