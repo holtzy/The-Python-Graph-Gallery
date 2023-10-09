@@ -127,6 +127,21 @@ export default function Waffle() {
             caption="Waffle chart with additionnal grouping and title"
             linkTo="/541-waffle-chart-with-additionnal-grouping"
           />
+          <ChartImageContainer
+            imgName="558-waffle-bar-chart-1"
+            caption="Simple stacked waffle bar chart"
+            linkTo="/558-waffle-bar-chart"
+          />
+          <ChartImageContainer
+            imgName="558-waffle-bar-chart-2"
+            caption="Vertically stacked waffle bar chart"
+            linkTo="/558-waffle-bar-chart"
+          />
+          <ChartImageContainer
+            imgName="558-waffle-bar-chart-3"
+            caption="Custom stacked waffle bar chart: legend, icons and colors"
+            linkTo="/558-waffle-bar-chart"
+          />
         </Row>
       </Container>
 

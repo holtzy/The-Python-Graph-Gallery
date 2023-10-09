@@ -285,6 +285,11 @@ export default function Barplot() {
             caption="Percent stacked barchart with python and seaborn"
             linkTo="/stacked-and-percent-stacked-barplot"
           />
+          <ChartImageContainer
+            imgName="552-table-combined-with-plot"
+            caption="Stacked Barplot combined with a table"
+            linkTo="/552-table-combined-with-plot"
+          />
         </Row>
         <div style={{ margin: '0 auto' }}>
           <Link to="/grouped-barplot">

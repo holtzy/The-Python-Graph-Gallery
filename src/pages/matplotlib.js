@@ -265,6 +265,11 @@ export default function Matplotlibs() {
             caption="Control the height of the matplotlib title"
             linkTo="/190-custom-matplotlib-title"
           />
+          <ChartImageContainer
+            imgName="534-highly-customized-layout"
+            caption="Subplot, title, and margin customization"
+            linkTo="/534-highly-customized-layout"
+          />
         </Row>
       </Container>
 
@@ -316,6 +321,11 @@ export default function Matplotlibs() {
             imgName="193_annotate6"
             caption="Annotate with an equation"
             linkTo="/193-annotate-matplotlib-chart"
+          />
+          <ChartImageContainer
+            imgName="534-highly-customized-layout"
+            caption="Subplot, title, and margin customization"
+            linkTo="/534-highly-customized-layout"
           />
         </Row>
       </Container>
@@ -407,6 +417,11 @@ export default function Matplotlibs() {
             imgName="192_increase_margin4"
             caption="Increase the top margin to fit a title"
             linkTo="/192-about-matplotlib-margins"
+          />
+          <ChartImageContainer
+            imgName="534-highly-customized-layout"
+            caption="Subplot, title, and margin customization"
+            linkTo="/534-highly-customized-layout"
           />
         </Row>
       </Container>

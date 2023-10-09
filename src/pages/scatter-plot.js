@@ -340,6 +340,11 @@ export default function ScatterPlot() {
             caption="How to compute and add a linear regression to a scatterplot with Python and matplotlib"
             linkTo="/scatterplot-with-regression-fit-in-matplotlib"
           />
+          <ChartImageContainer
+            imgName="534-highly-customized-layout"
+            caption="Subplot, title, and margin customization"
+            linkTo="/534-highly-customized-layout"
+          />
         </Row>
       </Container>
 
