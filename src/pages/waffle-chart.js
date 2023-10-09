@@ -83,7 +83,7 @@ export default function Waffle() {
             </p>
           </Col>
           <Col md={6}>
-            <Link to={'/pie-plot-matplotlib-basic'}>
+            <Link to={'/503-waffle-chart-introduction'}>
               <ChartImage
                 imgName="503-waffle-chart-introduction-1"
                 caption="Most basic waffle chart with Python and the pyWaffle library."
