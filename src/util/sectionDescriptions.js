@@ -144,6 +144,14 @@ export const chartTypesInfo = [
     label: 'Circular Barplot',
   },
   {
+    id: 'table',
+    family: 'ranking',
+    logo: 'TableBig',
+    dataToVizURL: 'https://www.data-to-viz.com',
+    pythonURL: 'https://python-graph-gallery.com/table/',
+    label: 'Table',
+  },
+  {
     id: 'treemap',
     family: 'partOfAWhole',
     logo: 'Tree150',
