@@ -276,13 +276,18 @@ export default function LinePlot() {
 
       <Container>
         <h2 id="pandas">
-          <Plotly />
+          <Pandas />
           Line chart with Pandas
         </h2>
         <p>
-          If you are looking for easy-to-build line charts
-          with Python, <Link href="/pandas">pandas</Link> is the
-          library for you.
+          <Link href="/pandas">Pandas</Link> offers a simple and efficient way
+          to create line charts directly from <b>DataFrames</b>, eliminating the
+          need for complex data manipulation.
+        </p>
+        <p>
+          Its integration with <Link href="/matplotlib">Matplotlib</Link>
+          allows for extensive customization, making it a versatile choice for
+          quick data visualization tasks.
         </p>
         <Row>
           <ChartImageContainer
@@ -300,7 +305,7 @@ export default function LinePlot() {
             caption="Line charts with multiple variables or groups with pandas"
             linkTo="/532-linecharts-mutliple-groups-with-pandas"
           />
-          </Row>
+        </Row>
       </Container>
 
       <Spacing />

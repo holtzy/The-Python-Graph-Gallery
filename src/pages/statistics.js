@@ -92,6 +92,51 @@ export default function ViolinPlot() {
             caption="Use a scatterplot to check how samples are clusterized"
             linkTo="/515-intro-pca-graph-python"
           />
+          <ChartImageContainer
+            imgName="557-anova-visualization-with-matplotlib-1"
+            caption="Box plot with ANOVA results on top"
+            linkTo="/557-anova-visualization-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="557-anova-visualization-with-matplotlib-2"
+            caption="Violin plot with ANOVA results on top"
+            linkTo="/557-anova-visualization-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="557-anova-visualization-with-matplotlib-3"
+            caption="Customized violin plot with ANOVA results on top"
+            linkTo="/557-anova-visualization-with-matplotlib"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="PCA">Hypothesis testing</h2>
+        <p>
+          <b>Statistical hypothesis testing</b> is a key technique in the realm of
+          data analysis.</p>
+        <p>
+          The posts below explain how to display the results of your hypothesis
+          tests <b>on your graphs</b>, so as to represent your results in the most elegant
+          way possible. 
+        </p>
+        <p>
+          We'll use the scipy library to run the tests and <Link href="/matplotlib">matplotlib</Link>
+          to display the results.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="551-student-t-test-visualization-1"
+            caption="Histograms with p-value and t statistic"
+            linkTo="/551-student-t-test-visualization"
+          />
+          <ChartImageContainer
+            imgName="551-student-t-test-visualization-2"
+            caption="Boxplots with p-value and t statistic"
+            linkTo="/551-student-t-test-visualization"
+          />
         </Row>
       </Container>
 

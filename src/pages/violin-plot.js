@@ -135,6 +135,31 @@ export default function ViolinPlot() {
 
       <Spacing />
 
+      <Container>
+        <h2 id="Matplotlib">
+          <Matplotlib />
+          Violin charts with <code>Matplotlib</code>
+        </h2>
+        <p>
+          <code>Matplotlib</code> is a python library well adapted to make
+          density charts. 
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="557-anova-visualization-with-matplotlib-2"
+            caption="Violin plot with ANOVA results on top"
+            linkTo="/557-anova-visualization-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="557-anova-visualization-with-matplotlib-3"
+            caption="Customized violin plot with ANOVA results on top"
+            linkTo="/557-anova-visualization-with-matplotlib"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection">
         <Container>
           <FunctionExploration functionName={'violin'} />

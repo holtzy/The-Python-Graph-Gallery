@@ -350,6 +350,11 @@ export default function ScatterPlot() {
             caption="Customized linear regression with statistics on top of a scatterplot"
             linkTo="/556-visualize-linear-regression"
           />
+          <ChartImageContainer
+            imgName="534-highly-customized-layout"
+            caption="Subplot, title, and margin customization"
+            linkTo="/534-highly-customized-layout"
+          />
         </Row>
       </Container>
 
