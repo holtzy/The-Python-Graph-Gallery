@@ -97,6 +97,17 @@ export const listOfBestCharts = [
     alt: 'multi panel layout with Python line charts',
     author: 'A. Madjid',
   },
+
+  {
+    link: 'web-scatterplot-with-images-in-circles',
+    title: 'Scatterplot with images',
+    description:
+      'A scatter plot with images inside each marker to provide additional context',
+    img: 'web-scatterplot-with-images-in-circles.png',
+    alt: 'Scatterplot with images in python',
+    author: 'Tanya Shapiro',
+  },
+
   {
     link: 'web-horizontal-barplot-with-labels-the-economist',
     title: 'Horizontal Barplot',

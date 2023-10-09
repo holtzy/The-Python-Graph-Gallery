@@ -204,7 +204,7 @@ export default function Plotlys() {
         <Row>
           <ChartImageContainer
             imgName="522-plotly-customize-title"
-            caption="How to add annotations on a plotly chart"
+            caption="How to customize the title of a plotly chart"
             linkTo="/522-plotly-customize-title"
           />
         </Row>
