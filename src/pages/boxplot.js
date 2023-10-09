@@ -223,6 +223,12 @@ export default function Boxplot() {
             linkTo="/509-introduction-to-swarm-plot-in-matplotlib"
           />
           <ChartImageContainer
+
+            imgName="557-anova-visualization-with-matplotlib-1"
+            caption="Boxplot and ANOVA results on top"
+            linkTo="/557-anova-visualization-with-matplotlib"
+          />{' '}
+          <ChartImageContainer
             imgName="534-highly-customized-layout"
             caption="Subplot, title, and margin customization"
             linkTo="/534-highly-customized-layout"
