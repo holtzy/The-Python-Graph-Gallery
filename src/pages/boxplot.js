@@ -41,7 +41,7 @@ sns.boxplot( x=df["species"], y=df["sepal_length"] )
 
 export const Head = () => (
   <SEO
-    title="Boxplot"
+    title="Python Boxplot Gallery | Dozens of examples with code"
     seoDescription="A collection of boxplot examples made with Python, coming with explanation and reproducible code"
   />
 );
@@ -223,7 +223,6 @@ export default function Boxplot() {
             linkTo="/509-introduction-to-swarm-plot-in-matplotlib"
           />
           <ChartImageContainer
-
             imgName="557-anova-visualization-with-matplotlib-1"
             caption="Boxplot and ANOVA results on top"
             linkTo="/557-anova-visualization-with-matplotlib"

@@ -28,7 +28,7 @@ sns.violinplot(x=df["species"], y=df["sepal_length"])
 
 export const Head = () => (
   <SEO
-    title="Violin plot"
+    title="Python Violin plot Gallery | Dozens of examples with code"
     seoDescription="A collection of violin plot examples made with Python, coming with explanation and reproducible code"
   />
 );

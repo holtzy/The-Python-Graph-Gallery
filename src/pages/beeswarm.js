@@ -54,7 +54,7 @@ plt.show() # Display the chart
 
 export const Head = () => (
   <SEO
-    title="Beeswarm"
+    title="Python Beeswarm Gallery | Dozens of examples with code"
     seoDescription="A collection of beeswarm chart examples made with Python, coming with explanation and reproducible code"
   />
 );

@@ -28,7 +28,7 @@ sns.kdeplot(df['sepal_width'])
 
 export const Head = () => (
   <SEO
-    title="Density chart"
+    title="Python Density Chart Gallery | Dozens of examples with code"
     seoDescription="A collection of density plot examples made with Python, coming with explanation and reproducible code"
   />
 );

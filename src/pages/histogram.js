@@ -71,7 +71,7 @@ plt.show
 
 export const Head = () => (
   <SEO
-    title="Histogram"
+    title="Python Histogram Gallery | Dozens of examples with code"
     seoDescription="A collection of histogram examples made with Python, coming with explanation and reproducible code"
   />
 );

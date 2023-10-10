@@ -18,7 +18,7 @@ const chartDescription =
 
 export const Head = () => (
   <SEO
-    title="Ridgeline"
+    title="Python Ridgeline chart Gallery | Dozens of examples with code"
     seoDescription="A collection of ridgeline chart examples made with Python, coming with explanation and reproducible code"
   />
 );
