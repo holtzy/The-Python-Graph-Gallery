@@ -153,6 +153,11 @@ export default function Histogram() {
             linkTo="/21-control-rug-and-density-on-seaborn-histogram"
           />
           <ChartImageContainer
+            imgName="23-90degree-rotated-histogram"
+            caption="Flipping the histogram to display it horizontally"
+            linkTo="/23-90degree-rotated-histogram"
+          />
+          <ChartImageContainer
             imgName="24_Histogram_with_boxplot_on_top"
             caption="How to split the chart window to display a boxplot on top of the histogram"
             linkTo="/24-histogram-with-a-boxplot-on-top-seaborn"
