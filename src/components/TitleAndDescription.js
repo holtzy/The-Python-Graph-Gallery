@@ -43,6 +43,8 @@ export default function TitleAndDescription({ title, description, chartType }) {
           </div>
         )}
       </div>
+
+      <div className="raptive-video-player" style={{ minHeight: 300 }} />
     </Container>
   );
 }
