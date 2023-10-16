@@ -86,6 +86,85 @@ export default function Lollipop() {
 
       <Spacing />
 
+      <Container>
+        <h2 id="Matplotlib">
+          <Matplotlib /> Table with <code>Plottable</code>
+        </h2>
+        <p>
+        <a href='https://github.com/znstrider/plottable'> Plottable</a> is a python
+        library for plotting <b>nice table outputs</b>. You can custom style, colors,
+        add images and even more with a light python syntax!
+        </p>
+        <p>
+        <code>Plottable</code> is almost the <b>single python library</b> made
+        especially for creating nice output tables. According to the main author,
+        it's inspired from the <b>R</b> packages <code>gt</code> and <code>reactable</code>.
+        </p>
+        <p>
+          Here are a few examples where <code>plottable</code> and <code>matplotlib</code> is used to
+          create a table.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="560-introduction-plottable"
+            caption="Introduction to Plottable main features"
+            linkTo="/560-introduction-plottable"
+          />
+          <ChartImageContainer
+            imgName="561-control-colors-in-plottable-1"
+            caption="Color of a specific row"
+            linkTo="/561-control-colors-in-plottable"
+          />
+          <ChartImageContainer
+            imgName="561-control-colors-in-plottable-2"
+            caption="Color of a specific column"
+            linkTo="/561-control-colors-in-plottable"
+          />
+          <ChartImageContainer
+            imgName="561-control-colors-in-plottable-4"
+            caption="Gradient color in a column"
+            linkTo="/561-control-colors-in-plottable"
+          />
+          <ChartImageContainer
+            imgName="561-control-colors-in-plottable-5"
+            caption="Color rows based on if they are even or odd"
+            linkTo="/561-control-colors-in-plottable"
+          />
+          <ChartImageContainer
+            imgName="562-add-images-in-plottable-2"
+            caption="Add images in a column"
+            linkTo="/562-add-images-in-plottable"
+          />
+          <ChartImageContainer
+            imgName="563-graph-in-plottable-1"
+            caption="Star review in a column"
+            linkTo="/563-graph-in-plottable"
+          />
+          <ChartImageContainer
+            imgName="563-graph-in-plottable-2"
+            caption="Percentile bar in a column"
+            linkTo="/563-graph-in-plottable"
+          />
+          <ChartImageContainer
+            imgName="563-graph-in-plottable-3"
+            caption="Donut progress in a column"
+            linkTo="/563-graph-in-plottable"
+          />
+          <ChartImageContainer
+            imgName="563-graph-in-plottable-4"
+            caption="Progress bar in a column"
+            linkTo="/563-graph-in-plottable"
+          />
+          <ChartImageContainer
+            imgName="563-graph-in-plottable-5"
+            caption="Advanced custom graph with plottable"
+            linkTo="/563-graph-in-plottable"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="ranking" />
