@@ -146,7 +146,7 @@ export default function Barplot() {
           <ChartImageContainer
             imgName="6_change_texture"
             caption="Change bar texture."
-            linkTo="/3-control-color-of-barplots"
+            linkTo="/6-change-bars-texture"
           />
           <ChartImageContainer
             imgName="7_increase_margin"
