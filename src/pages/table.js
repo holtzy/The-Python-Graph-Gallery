@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib } from '../components/MiscellaneousLogos';
+import { Matplotlib, Pandas } from '../components/MiscellaneousLogos';
 
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
@@ -182,6 +182,33 @@ export default function Table() {
             imgName="552-table-combined-with-plot"
             caption="Stacked Barplot combined with a table"
             linkTo="/552-table-combined-with-plot"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Pandas">
+          <Pandas /> Table with <code>Pandas</code>
+        </h2>
+        <p>
+          <Link href="/pandas">Pandas</Link> has a whole section dedicated to
+          formatting table in its doc. It lists any features but I still advise
+          to use <code>plottable</code> as documented above.
+        </p>
+
+        <Row>
+          <ChartImageContainer
+            imgName="550-intro-table-with-pandas-1"
+            caption="Table with gradient color used to represent a numeric value"
+            linkTo="/550-intro-table-with-pandas"
+          />
+
+          <ChartImageContainer
+            imgName="550-intro-table-with-pandas-2"
+            caption="Table with gradient color used to represent a numeric value"
+            linkTo="/550-intro-table-with-pandas"
           />
         </Row>
       </Container>
