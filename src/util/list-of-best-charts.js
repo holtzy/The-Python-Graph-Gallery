@@ -1,5 +1,25 @@
 export const listOfBestCharts = [
   {
+    link: '564-publication-ready-table-with-plottable',
+    title: 'Polished table with bubbles',
+    description:
+      'Investigating the 10 best and worst countries to live in, with bubble in cells to represent the data. A good way to showcase the plottable library.',
+    img: '564-publication-ready-table-with-plottable.png',
+    alt: 'Clean table with plottable',
+    author: 'Fortune Uwha',
+  },
+
+  {
+    link: 'web-stacked-area-charts-on-a-map',
+    title: 'Mini stacked areas for US states',
+    description:
+      'This compendium of stacked area charts went viral. Read a translation in python of this work by Enrin, originally written in R.',
+    img: 'web-stacked-area-charts-on-a-map.png',
+    alt: 'Stacked area charts displayed on a map',
+    author: 'Erin',
+  },
+
+  {
     link: '532-customizing-circular-barplot-in-matplotlib',
     title: 'Ordered & Mirrored barplot',
     description:
