@@ -11,6 +11,8 @@ import { Matplotlib, Pandas } from '../components/MiscellaneousLogos';
 
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
+import { Col } from 'react-bootstrap';
+import ChartImage from '../components/ChartImage';
 
 const chartDescription = (
   <>
@@ -210,6 +212,38 @@ export default function Table() {
             caption="Table with gradient color used to represent a numeric value"
             linkTo="/550-intro-table-with-pandas"
           />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Best">Best python table examples</h2>
+        <p>
+          The web is full of astonishing charts made by awesome bloggers, (often
+          using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
+          <a href="https://www.python-graph-gallery.com">
+            Python graph gallery
+          </a>{' '}
+          tries to display (or translate from R) some of the best creations and
+          explain how their source code works. If you want to display your work
+          here, please drop me a word or even better, submit a{' '}
+          <a href="https://github.com/holtzy/The-Python-Graph-Gallery">
+            Pull Request
+          </a>
+          !
+        </p>
+        <Row>
+          <Col xs={12} md={9}>
+            <Link to={'/564-publication-ready-table-with-plottable'}>
+              <ChartImage
+                imgName={'564-publication-ready-table-with-plottable'}
+                caption={
+                  'The 10 best and worst countries to live in according to the EIU, presented in a beautiful table.'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
