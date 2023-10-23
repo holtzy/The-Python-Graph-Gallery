@@ -16,7 +16,7 @@ const chartDescription = (
   <>
     <p>
       👋 This page displays <b>all the charts</b> available in the{' '}
-      <a href="https://www.python-graph-gallery.com">python graph gallery</a>.
+      <a href="https://python-graph-gallery.com">python graph gallery</a>.
     </p>
     <p>
       The vast majority of them are built using <code>matplotlib</code>,{' '}
@@ -27,8 +27,8 @@ const chartDescription = (
       Click on an image to read the full tutorial with explanation and
       reproducible code 😍! If you are interested in a particular chart type,
       please check the{' '}
-      <a href="https://www.python-graph-gallery.com">classification</a> in the
-      front page.
+      <a href="https://python-graph-gallery.com">classification</a> in the front
+      page.
     </p>
   </>
 );

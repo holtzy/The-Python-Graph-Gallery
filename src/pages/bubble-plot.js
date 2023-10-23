@@ -15,7 +15,7 @@ import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/bubble.html'>bubble plot</a> is a <a href='https://www.python-graph-gallery.com/scatter-plot'>scatterplot</a> where the circle size is mapped to the value of a third numeric variable. This section shows many bubble plots made with <code>Python</code>, using both the <code>Matplotlib</code> and <code>Seaborn</code> libraries.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/bubble.html'>bubble plot</a> is a <a href='https://python-graph-gallery.com/scatter-plot'>scatterplot</a> where the circle size is mapped to the value of a third numeric variable. This section shows many bubble plots made with <code>Python</code>, using both the <code>Matplotlib</code> and <code>Seaborn</code> libraries.</p>";
 
 const quickCode = `# libraries
 import matplotlib.pyplot as plt
@@ -181,9 +181,7 @@ export default function BubblePlot() {
         <p>
           The web is full of astonishing charts made by awesome bloggers, (often
           using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
-          <a href="https://www.python-graph-gallery.com">
-            Python graph gallery
-          </a>{' '}
+          <a href="https://python-graph-gallery.com">Python graph gallery</a>{' '}
           tries to display (or translate from R) some of the best creations and
           explain how their source code works. If you want to display your work
           here, please drop me a word or even better, submit a{' '}

@@ -106,9 +106,7 @@ export default function StackedAreaPlot() {
         <p>
           The web is full of astonishing charts made by awesome bloggers, (often
           using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
-          <a href="https://www.python-graph-gallery.com">
-            Python graph gallery
-          </a>{' '}
+          <a href="https://python-graph-gallery.com">Python graph gallery</a>{' '}
           tries to display (or translate from R) some of the best creations and
           explain how their source code works. If you want to display your work
           here, please drop me a word or even better, submit a{' '}

@@ -15,7 +15,7 @@ import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
-  "<p>Timeseries charts refer to all charts representing the evolution of a numeric value. <a href='https://www.python-graph-gallery.com/line-chart/'>Line chart</a>, <a href='https://www.python-graph-gallery.com/streamchart/'>streamgraph</a>, <a href='https://www.python-graph-gallery.com/barplot/'>barplot</a>, <a href='https://www.python-graph-gallery.com/area-plot/'>area chart</a>: they all can be used for timeseries visualization. This section displays many timeseries examples made with Python, Matplotlib and other libraries.</p>";
+  "<p>Timeseries charts refer to all charts representing the evolution of a numeric value. <a href='https://python-graph-gallery.com/line-chart/'>Line chart</a>, <a href='https://python-graph-gallery.com/streamchart/'>streamgraph</a>, <a href='https://python-graph-gallery.com/barplot/'>barplot</a>, <a href='https://python-graph-gallery.com/area-plot/'>area chart</a>: they all can be used for timeseries visualization. This section displays many timeseries examples made with Python, Matplotlib and other libraries.</p>";
 
 const quickCode = `# libraries
   import matplotlib.pyplot as plt
@@ -165,18 +165,19 @@ export default function Pie() {
       <Container>
         <h2 id="Line">Candlesticks</h2>
         <p>
-          A <code>candlestick chart</code> is a style of financial chart used to describe
-          price movements. Each "candlestick" typically shows one day, with the <b>Open, High,
-          Low, and Close (OHLC)</b> values for each day.
+          A <code>candlestick chart</code> is a style of financial chart used to
+          describe price movements. Each "candlestick" typically shows one day,
+          with the <b>Open, High, Low, and Close (OHLC)</b> values for each day.
         </p>
         <p>
-          Here are examples using <Link to="/matplotlib">mplfinance from matplotlib</Link> to
-          display the evolution of different prices.
+          Here are examples using{' '}
+          <Link to="/matplotlib">mplfinance from matplotlib</Link> to display
+          the evolution of different prices.
         </p>
         <Row>
           <ChartImageContainer
             imgName="548-intro-candle-stick-matplotlib"
-            caption="How to make a candlestick chart with Matplotlib and mplfinance" 
+            caption="How to make a candlestick chart with Matplotlib and mplfinance"
             linkTo="/548-intro-candle-stick-matplotlib"
           />
           <ChartImageContainer

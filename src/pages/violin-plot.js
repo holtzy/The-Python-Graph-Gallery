@@ -16,7 +16,7 @@ import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/violin.html'>violint plot</a> allows you to visualize the distribution of a numeric variable for one or several groups. <code>Seaborn</code> is particularly adapted to build it thanks to its <code>violin()</code> function. Violin plots deserve more attention than <a href='https://www.python-graph-gallery.com/boxplot'>boxplots</a>, which can sometimes hide features of the data.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/violin.html'>violint plot</a> allows you to visualize the distribution of a numeric variable for one or several groups. <code>Seaborn</code> is particularly adapted to build it thanks to its <code>violin()</code> function. Violin plots deserve more attention than <a href='https://python-graph-gallery.com/boxplot'>boxplots</a>, which can sometimes hide features of the data.</p>";
 
 const quickCode = `# library & dataset
 import seaborn as sns
@@ -178,9 +178,7 @@ export default function ViolinPlot() {
         <p>
           The web is full of astonishing charts made by awesome bloggers, (often
           using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
-          <a href="https://www.python-graph-gallery.com">
-            Python graph gallery
-          </a>{' '}
+          <a href="https://python-graph-gallery.com">Python graph gallery</a>{' '}
           tries to display (or translate from R) some of the best creations and
           explain how their source code works. If you want to display your work
           here, please drop me a word or even better, submit a{' '}

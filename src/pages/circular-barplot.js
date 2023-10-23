@@ -14,7 +14,7 @@ import { Col } from 'react-bootstrap';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/circularbarplot.html'>circular barplot</a> is pretty much the same as a <a href='https://www.python-graph-gallery.com/barplot'>barplot</a>, but using polar coordinates instead of cartesian coordinates. They are a bit tricky to build with <code>Python</code> and less accurate than usual barplot, but they come with an eye-catching effect that sometimes make them worth it.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/circularbarplot.html'>circular barplot</a> is pretty much the same as a <a href='https://python-graph-gallery.com/barplot'>barplot</a>, but using polar coordinates instead of cartesian coordinates. They are a bit tricky to build with <code>Python</code> and less accurate than usual barplot, but they come with an eye-catching effect that sometimes make them worth it.</p>";
 
 export const Head = () => (
   <SEO
@@ -125,9 +125,7 @@ export default function CircularBarplot() {
         <p>
           The web is full of astonishing charts made by awesome bloggers, (often
           using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
-          <a href="https://www.python-graph-gallery.com">
-            Python graph gallery
-          </a>{' '}
+          <a href="https://python-graph-gallery.com">Python graph gallery</a>{' '}
           tries to display (or translate from R) some of the best creations and
           explain how their source code works. If you want to display your work
           here, please drop me a word or even better, submit a{' '}

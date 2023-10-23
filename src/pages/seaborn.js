@@ -16,7 +16,7 @@ import { Button } from 'react-bootstrap';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
-  "<p><code>Seaborn</code> is a python graphic library built on top of <a href='https://www.python-graph-gallery.com/matplotlib'>matplotlib</a>. It allows to make your charts prettier with less code. This page provides general seaborn tips. Visit individual chart sections if you need a specific type of plot. Note that most of the <a href='https://www.python-graph-gallery.com/matplotlib'>matplotlib customization options</a> also work for <code>seaborn</code>.</p > ";
+  "<p><code>Seaborn</code> is a python graphic library built on top of <a href='https://python-graph-gallery.com/matplotlib'>matplotlib</a>. It allows to make your charts prettier with less code. This page provides general seaborn tips. Visit individual chart sections if you need a specific type of plot. Note that most of the <a href='https://python-graph-gallery.com/matplotlib'>matplotlib customization options</a> also work for <code>seaborn</code>.</p > ";
 
 const quickCode = `# library & dataset
 import seaborn as sns

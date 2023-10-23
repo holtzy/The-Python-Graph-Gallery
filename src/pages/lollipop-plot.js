@@ -15,7 +15,7 @@ import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/lollipop.html'>lollipop chart</a> is an alernative to the more usual <a href='https://www.python-graph-gallery.com/barplot'>barplot</a>. <code>Python</code> allows to build lollipops thanks to the <code>matplotlib</code> library, as shown in the examples below. The strategy here is to use the <code>stem()</code> function or to hack the <code>vline()</code> function depending on your input format.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/lollipop.html'>lollipop chart</a> is an alernative to the more usual <a href='https://python-graph-gallery.com/barplot'>barplot</a>. <code>Python</code> allows to build lollipops thanks to the <code>matplotlib</code> library, as shown in the examples below. The strategy here is to use the <code>stem()</code> function or to hack the <code>vline()</code> function depending on your input format.</p>";
 
 const quickCode = `# Create a dataframe
 import pandas as pd
@@ -134,9 +134,7 @@ export default function Lollipop() {
         <p>
           The web is full of astonishing charts made by awesome bloggers, (often
           using <a href="https://www.r-graph-gallery.com">R</a>). The{' '}
-          <a href="https://www.python-graph-gallery.com">
-            Python graph gallery
-          </a>{' '}
+          <a href="https://python-graph-gallery.com">Python graph gallery</a>{' '}
           tries to display (or translate from R) some of the best creations and
           explain how their source code works. If you want to display your work
           here, please drop me a word or even better, submit a{' '}

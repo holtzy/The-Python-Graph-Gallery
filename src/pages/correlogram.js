@@ -15,7 +15,7 @@ import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/correlogram.html'>correlogram</a> or <a href='https://www.data-to-viz.com/graph/correlogram.html'>correlation matrix</a> allows to analyse the relationship between each pair of numeric variables of a matrix. The correlation is visualised as a <a href='https://www.python-graph-gallery.com/scatter-plot'>scatterplot</a>. The diagonal represents the distribution of each variable with a <a href='https://www.python-graph-gallery.com/histogram'>histogram</a> or a <a href='https://www.python-graph-gallery.com/density-plot'>density plot</a>.</p > ";
+  "<p>A <a href='https://www.data-to-viz.com/graph/correlogram.html'>correlogram</a> or <a href='https://www.data-to-viz.com/graph/correlogram.html'>correlation matrix</a> allows to analyse the relationship between each pair of numeric variables of a matrix. The correlation is visualised as a <a href='https://python-graph-gallery.com/scatter-plot'>scatterplot</a>. The diagonal represents the distribution of each variable with a <a href='https://python-graph-gallery.com/histogram'>histogram</a> or a <a href='https://python-graph-gallery.com/density-plot'>density plot</a>.</p > ";
 
 const quickCode = `# library & dataset
 import seaborn as sns
