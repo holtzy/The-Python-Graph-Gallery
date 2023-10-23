@@ -282,6 +282,14 @@ export default function StackedAreaPlot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-stacked-line-charts-on-a-map'}>
+              <ChartImage
+                imgName={'web-stacked-line-charts-on-a-map'}
+                caption={'Multiple stacked area charts on a map'}
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
