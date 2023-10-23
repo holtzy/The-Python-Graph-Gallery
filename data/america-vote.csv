@@ -1,0 +1,2442 @@
+year,state,party,pct
+1976,AK,democrat,0.171135028
+1976,AK,did not vote,0.52
+1976,AK,other,0.03092301
+1976,AK,republican,0.277941962
+1976,AL,democrat,0.258017255
+1976,AL,did not vote,0.537
+1976,AL,other,0.007675893
+1976,AL,republican,0.197306852
+1976,AR,democrat,0.331954431
+1976,AR,did not vote,0.489
+1976,AR,other,0.000684409
+1976,AR,republican,0.17836116
+1976,AZ,democrat,0.183477899
+1976,AZ,did not vote,0.539
+1976,AZ,other,0.017674215
+1976,AZ,republican,0.259847886
+1976,CA,democrat,0.241692302
+1976,CA,did not vote,0.496
+1976,CA,other,0.011576196
+1976,CA,republican,0.250731502
+1976,CO,democrat,0.250546482
+1976,CO,did not vote,0.412
+1976,CO,other,0.019770184
+1976,CO,republican,0.317683333
+1976,CT,democrat,0.293020305
+1976,CT,did not vote,0.373
+1976,CT,other,0.008683038
+1976,CT,republican,0.325296657
+1976,DC,democrat,0.26285255
+1976,DC,did not vote,0.678
+1976,DC,other,0.005986839
+1976,DC,republican,0.053160611
+1976,DE,democrat,0.297263187
+1976,DE,did not vote,0.428
+1976,DE,other,0.008255625
+1976,DE,republican,0.266481188
+1976,FL,democrat,0.254957182
+1976,FL,did not vote,0.509
+1976,FL,other,0.007028465
+1976,FL,republican,0.229014353
+1976,GA,democrat,0.281140838
+1976,GA,did not vote,0.58
+1976,GA,republican,0.138859162
+1976,HI,democrat,0.235758717
+1976,HI,did not vote,0.534
+1976,HI,other,0.006275701
+1976,HI,republican,0.223965582
+1976,IA,democrat,0.305773113
+1976,IA,did not vote,0.369
+1976,IA,other,0.013074735
+1976,IA,republican,0.312152152
+1976,ID,democrat,0.224938387
+1976,ID,did not vote,0.394
+1976,ID,other,0.018187181
+1976,ID,republican,0.362874432
+1976,IL,democrat,0.285759086
+1976,IL,did not vote,0.406
+1976,IL,other,0.010784463
+1976,IL,republican,0.297456451
+1976,IN,democrat,0.274659319
+1976,IN,did not vote,0.399
+1976,IN,other,0.005870975
+1976,IN,republican,0.320469706
+1976,KS,democrat,0.264225995
+1976,KS,did not vote,0.412
+1976,KS,other,0.015145599
+1976,KS,republican,0.308628406
+1976,KY,democrat,0.252692854
+1976,KY,did not vote,0.521
+1976,KY,other,0.008032842
+1976,KY,republican,0.218274304
+1976,LA,democrat,0.252144232
+1976,LA,did not vote,0.513
+1976,LA,other,0.010893024
+1976,LA,republican,0.223962744
+1976,MA,democrat,0.345647322
+1976,MA,did not vote,0.384
+1976,MA,other,0.021231749
+1976,MA,republican,0.249120929
+1976,MD,democrat,0.26146462
+1976,MD,did not vote,0.507
+1976,MD,republican,0.23153538
+1976,ME,democrat,0.305878327
+1976,ME,did not vote,0.364
+1976,ME,other,0.018921924
+1976,ME,republican,0.311199748
+1976,MI,democrat,0.273214636
+1976,MI,did not vote,0.412
+1976,MI,other,0.009844148
+1976,MI,republican,0.304941216
+1976,MN,democrat,0.392508555
+1976,MN,did not vote,0.285
+1976,MN,other,0.02203598
+1976,MN,republican,0.300455465
+1976,MO,democrat,0.292831568
+1976,MO,did not vote,0.427
+1976,MO,other,0.008145071
+1976,MO,republican,0.272023361
+1976,MS,democrat,0.238209659
+1976,MS,did not vote,0.52
+1976,MS,other,0.012627962
+1976,MS,republican,0.229162378
+1976,MT,democrat,0.287408504
+1976,MT,did not vote,0.367
+1976,MT,other,0.011114384
+1976,MT,republican,0.334477112
+1976,NC,democrat,0.237104811
+1976,NC,did not vote,0.571
+1976,NC,other,0.002193954
+1976,NC,republican,0.189701235
+1976,ND,democrat,0.30757469
+1976,ND,did not vote,0.328
+1976,ND,other,0.01705609
+1976,ND,republican,0.34736922
+1976,NE,democrat,0.216087156
+1976,NE,did not vote,0.438
+1976,NE,other,0.013186992
+1976,NE,republican,0.332725852
+1976,NH,democrat,0.248663799
+1976,NH,did not vote,0.428
+1976,NH,other,0.010184361
+1976,NH,republican,0.31315184
+1976,NJ,democrat,0.27652099
+1976,NJ,did not vote,0.423
+1976,NJ,other,0.011509673
+1976,NJ,republican,0.288969337
+1976,NM,democrat,0.257838719
+1976,NM,did not vote,0.466
+1976,NM,other,0.005156826
+1976,NM,republican,0.271004455
+1976,NV,democrat,0.202021236
+1976,NV,did not vote,0.559
+1976,NV,other,0.017746954
+1976,NV,republican,0.221231811
+1976,NY,democrat,0.246173214
+1976,NY,did not vote,0.494
+1976,NY,other,0.045391303
+1976,NY,republican,0.214435482
+1976,OH,democrat,0.269431764
+1976,OH,did not vote,0.449
+1976,OH,other,0.013387547
+1976,OH,republican,0.26818069
+1976,OK,democrat,0.267134767
+1976,OK,did not vote,0.452
+1976,OK,other,0.0070747
+1976,OK,republican,0.273790533
+1976,OR,democrat,0.291898725
+1976,OR,did not vote,0.387
+1976,OR,other,0.028182943
+1976,OR,republican,0.292918332
+1976,PA,democrat,0.272640625
+1976,PA,did not vote,0.459
+1976,PA,other,0.01012809
+1976,PA,republican,0.258231285
+1976,RI,democrat,0.330434347
+1976,RI,did not vote,0.404
+1976,RI,other,0.002466253
+1976,RI,republican,0.2630994
+1976,SC,democrat,0.225801461
+1976,SC,did not vote,0.598
+1976,SC,other,0.002818467
+1976,SC,republican,0.173380072
+1976,SD,democrat,0.313526723
+1976,SD,did not vote,0.359
+1976,SD,other,0.004487541
+1976,SD,republican,0.322985736
+1976,TN,democrat,0.271872037
+1976,TN,did not vote,0.514
+1976,TN,other,0.005430995
+1976,TN,republican,0.208696968
+1976,TX,democrat,0.23677337
+1976,TX,did not vote,0.537
+1976,TX,other,0.004123569
+1976,TX,republican,0.222103061
+1976,UT,democrat,0.230153543
+1976,UT,did not vote,0.316
+1976,UT,other,0.0267929
+1976,UT,republican,0.427053557
+1976,VA,democrat,0.224924031
+1976,VA,did not vote,0.531
+1976,VA,other,0.012890291
+1976,VA,republican,0.231185677
+1976,VT,democrat,0.235633577
+1976,VT,did not vote,0.443
+1976,VT,other,0.017315576
+1976,VT,republican,0.304050848
+1976,WA,democrat,0.275763277
+1976,WA,did not vote,0.402
+1976,WA,other,0.023250178
+1976,WA,republican,0.298986545
+1976,WI,democrat,0.329197368
+1976,WI,did not vote,0.335
+1976,WI,other,0.017759085
+1976,WI,republican,0.318043547
+1976,WV,democrat,0.331576951
+1976,WV,did not vote,0.429
+1976,WV,republican,0.239423049
+1976,WY,democrat,0.232884203
+1976,WY,did not vote,0.415
+1976,WY,other,0.005189839
+1976,WY,republican,0.346925958
+1980,AK,democrat,0.150789119
+1980,AK,did not vote,0.429
+1980,AK,other,0.109882679
+1980,AK,republican,0.310328202
+1980,AL,democrat,0.231075944
+1980,AL,did not vote,0.513
+1980,AL,other,0.018510971
+1980,AL,republican,0.237413085
+1980,AR,democrat,0.244741548
+1980,AR,did not vote,0.485
+1980,AR,other,0.02236695
+1980,AR,republican,0.247891502
+1980,AZ,democrat,0.125406395
+1980,AZ,did not vote,0.556
+1980,AZ,other,0.049490318
+1980,AZ,republican,0.269103287
+1980,CA,democrat,0.175646046
+1980,CA,did not vote,0.511
+1980,CA,other,0.055663164
+1980,CA,republican,0.257690789
+1980,CO,democrat,0.173681482
+1980,CO,did not vote,0.441
+1980,CO,other,0.077483172
+1980,CO,republican,0.307835346
+1980,CT,democrat,0.234985455
+1980,CT,did not vote,0.39
+1980,CT,other,0.081263208
+1980,CT,republican,0.293751338
+1980,DC,democrat,0.264372922
+1980,DC,did not vote,0.647
+1980,DC,other,0.041300974
+1980,DC,republican,0.047326105
+1980,DE,democrat,0.245461573
+1980,DE,did not vote,0.453
+1980,DE,other,0.043315656
+1980,DE,republican,0.258222771
+1980,FL,democrat,0.187496071
+1980,FL,did not vote,0.513
+1980,FL,other,0.029125607
+1980,FL,republican,0.270378322
+1980,GA,democrat,0.230437915
+1980,GA,did not vote,0.587
+1980,GA,other,0.013367109
+1980,GA,republican,0.169194976
+1980,HI,democrat,0.195337235
+1980,HI,did not vote,0.564
+1980,HI,other,0.053616067
+1980,HI,republican,0.187046698
+1980,IA,democrat,0.242820185
+1980,IA,did not vote,0.371
+1980,IA,other,0.063471353
+1980,IA,republican,0.322708461
+1980,ID,democrat,0.17104496
+1980,ID,did not vote,0.321
+1980,ID,other,0.056719025
+1980,ID,republican,0.451236014
+1980,IL,democrat,0.241120839
+1980,IL,did not vote,0.422
+1980,IL,other,0.049924975
+1980,IL,republican,0.286954186
+1980,IN,democrat,0.21725892
+1980,IN,did not vote,0.423
+1980,IN,other,0.036590835
+1980,IN,republican,0.323150244
+1980,KS,democrat,0.189073429
+1980,KS,did not vote,0.432
+1980,KS,other,0.050338228
+1980,KS,republican,0.328588343
+1980,KY,democrat,0.23779304
+1980,KY,did not vote,0.501
+1980,KY,other,0.016536445
+1980,KY,republican,0.244670516
+1980,LA,democrat,0.243380593
+1980,LA,did not vote,0.468
+1980,LA,other,0.016244199
+1980,LA,republican,0.272375208
+1980,MA,democrat,0.246323697
+1980,MA,did not vote,0.41
+1980,MA,other,0.096457587
+1980,MA,republican,0.247218716
+1980,MD,democrat,0.235690648
+1980,MD,did not vote,0.5
+1980,MD,other,0.043404527
+1980,MD,republican,0.220904825
+1980,ME,democrat,0.272937288
+1980,ME,did not vote,0.354
+1980,ME,other,0.078450912
+1980,ME,republican,0.2946118
+1980,MI,democrat,0.254984481
+1980,MI,did not vote,0.4
+1980,MI,other,0.051098428
+1980,MI,republican,0.293917091
+1980,MN,democrat,0.325510937
+1980,MN,did not vote,0.3
+1980,MN,other,0.076578427
+1980,MN,republican,0.297910636
+1980,MO,democrat,0.260752814
+1980,MO,did not vote,0.412
+1980,MO,other,0.026451297
+1980,MO,republican,0.30079589
+1980,MS,democrat,0.249842264
+1980,MS,did not vote,0.481
+1980,MS,other,0.012443196
+1980,MS,republican,0.25671454
+1980,MT,democrat,0.211123533
+1980,MT,did not vote,0.349
+1980,MT,other,0.069948801
+1980,MT,republican,0.369927666
+1980,NC,democrat,0.204773592
+1980,NC,did not vote,0.566
+1980,NC,other,0.015242815
+1980,NC,republican,0.213983592
+1980,ND,democrat,0.170414299
+1980,ND,did not vote,0.352
+1980,ND,other,0.060755111
+1980,ND,republican,0.41683059
+1980,NE,democrat,0.147548927
+1980,NE,did not vote,0.433
+1980,NE,other,0.047782468
+1980,NE,republican,0.371668605
+1980,NH,democrat,0.162166223
+1980,NH,did not vote,0.428
+1980,NH,other,0.079577104
+1980,NH,republican,0.330256673
+1980,NJ,democrat,0.211683376
+1980,NJ,did not vote,0.451
+1980,NJ,other,0.051983976
+1980,NJ,republican,0.285332647
+1980,NM,democrat,0.187234779
+1980,NM,did not vote,0.491
+1980,NM,other,0.041984074
+1980,NM,republican,0.279781147
+1980,NV,democrat,0.112435886
+1980,NV,did not vote,0.589
+1980,NV,other,0.037119393
+1980,NV,republican,0.261444721
+1980,NY,democrat,0.21116208
+1980,NY,did not vote,0.52
+1980,NY,other,0.064693391
+1980,NY,republican,0.204144529
+1980,OH,democrat,0.226640367
+1980,OH,did not vote,0.446
+1980,OH,other,0.041986332
+1980,OH,republican,0.285373301
+1980,OK,democrat,0.182531192
+1980,OK,did not vote,0.478
+1980,OK,other,0.023660324
+1980,OK,republican,0.315808484
+1980,OR,democrat,0.237432637
+1980,OR,did not vote,0.386
+1980,OR,other,0.079812163
+1980,OR,republican,0.296755199
+1980,PA,democrat,0.220874839
+1980,PA,did not vote,0.48
+1980,PA,other,0.041277264
+1980,PA,republican,0.257847897
+1980,RI,democrat,0.279417386
+1980,RI,did not vote,0.414
+1980,RI,other,0.08851556
+1980,RI,republican,0.218067053
+1980,SC,democrat,0.194764224
+1980,SC,did not vote,0.596
+1980,SC,other,0.009442576
+1980,SC,republican,0.1997932
+1980,SD,democrat,0.213285856
+1980,SD,did not vote,0.327
+1980,SD,other,0.052379334
+1980,SD,republican,0.407334809
+1980,TN,democrat,0.236229666
+1980,TN,did not vote,0.512
+1980,TN,other,0.014119761
+1980,TN,republican,0.237650572
+1980,TX,democrat,0.185975935
+1980,TX,did not vote,0.551
+1980,TX,other,0.014808104
+1980,TX,republican,0.248215961
+1980,UT,democrat,0.132873575
+1980,UT,did not vote,0.354
+1980,UT,other,0.042983478
+1980,UT,republican,0.470142947
+1980,VA,democrat,0.191466518
+1980,VA,did not vote,0.525
+1980,VA,other,0.031627686
+1980,VA,republican,0.251905795
+1980,VT,democrat,0.22207444
+1980,VT,did not vote,0.422
+1980,VT,other,0.099501554
+1980,VT,republican,0.256424006
+1980,WA,democrat,0.214194253
+1980,WA,did not vote,0.426
+1980,WA,other,0.074766854
+1980,WA,republican,0.285038892
+1980,WI,democrat,0.291035327
+1980,WI,did not vote,0.326
+1980,WI,other,0.060126934
+1980,WI,republican,0.32283774
+1980,WV,democrat,0.263001208
+1980,WV,did not vote,0.472
+1980,WV,other,0.025799687
+1980,WV,republican,0.239199105
+1980,WY,democrat,0.14936093
+1980,WY,did not vote,0.466
+1980,WY,other,0.050120387
+1980,WY,republican,0.334518683
+1984,AK,democrat,0.175025178
+1984,AK,did not vote,0.414
+1984,AK,other,0.020382486
+1984,AK,republican,0.390592336
+1984,AL,democrat,0.19255233
+1984,AL,did not vote,0.497
+1984,AL,other,0.005918928
+1984,AL,republican,0.304528743
+1984,AR,democrat,0.200260806
+1984,AR,did not vote,0.477
+1984,AR,other,0.006496652
+1984,AR,republican,0.316242542
+1984,AZ,democrat,0.147418174
+1984,AZ,did not vote,0.547
+1984,AZ,other,0.004692509
+1984,AZ,republican,0.300889317
+1984,CA,democrat,0.203450134
+1984,CA,did not vote,0.507
+1984,CA,other,0.005991338
+1984,CA,republican,0.283558528
+1984,CO,democrat,0.195634544
+1984,CO,did not vote,0.443
+1984,CO,other,0.007992648
+1984,CO,republican,0.353372809
+1984,CT,democrat,0.234144789
+1984,CT,did not vote,0.397
+1984,CT,other,0.002641542
+1984,CT,republican,0.366213669
+1984,DC,democrat,0.356908788
+1984,DC,did not vote,0.582
+1984,DC,other,0.003701479
+1984,DC,republican,0.057389733
+1984,DE,democrat,0.223220558
+1984,DE,did not vote,0.441
+1984,DE,other,0.001594182
+1984,DE,republican,0.33418526
+1984,FL,democrat,0.167408993
+1984,FL,did not vote,0.517
+1984,FL,other,0.000102261
+1984,FL,republican,0.315488746
+1984,GA,democrat,0.166700429
+1984,GA,did not vote,0.581
+1984,GA,other,0.00017764
+1984,GA,republican,0.252121931
+1984,HI,democrat,0.195857143
+1984,HI,did not vote,0.553
+1984,HI,other,0.004847382
+1984,HI,republican,0.246295475
+1984,IA,democrat,0.290465228
+1984,IA,did not vote,0.367
+1984,IA,other,0.005322302
+1984,IA,republican,0.33721247
+1984,ID,democrat,0.160464655
+1984,ID,did not vote,0.392
+1984,ID,other,0.00755815
+1984,ID,republican,0.439977195
+1984,IL,democrat,0.250687043
+1984,IL,did not vote,0.421
+1984,IL,other,0.003062072
+1984,IL,republican,0.325250885
+1984,IN,democrat,0.212530506
+1984,IN,did not vote,0.436
+1984,IN,other,0.00362636
+1984,IN,republican,0.347843134
+1984,KS,democrat,0.18711273
+1984,KS,did not vote,0.426
+1984,KS,other,0.006484797
+1984,KS,republican,0.380402473
+1984,KY,democrat,0.201734382
+1984,KY,did not vote,0.488
+1984,KY,other,0.003030097
+1984,KY,republican,0.307235521
+1984,LA,democrat,0.212255183
+1984,LA,did not vote,0.444
+1984,LA,other,0.005843006
+1984,LA,republican,0.33790181
+1984,MA,democrat,0.276072561
+1984,MA,did not vote,0.43
+1984,MA,other,0.001968978
+1984,MA,republican,0.29195846
+1984,MD,democrat,0.240253757
+1984,MD,did not vote,0.489
+1984,MD,other,0.002445424
+1984,MD,republican,0.268300819
+1984,ME,democrat,0.251688954
+1984,ME,did not vote,0.351
+1984,ME,other,0.002497941
+1984,ME,republican,0.394813105
+1984,MI,democrat,0.23336924
+1984,MI,did not vote,0.42
+1984,MI,other,0.003119802
+1984,MI,republican,0.343510958
+1984,MN,democrat,0.341071287
+1984,MN,did not vote,0.314
+1984,MN,other,0.005095184
+1984,MN,republican,0.339833528
+1984,MO,democrat,0.231056941
+1984,MO,did not vote,0.422
+1984,MO,republican,0.346943059
+1984,MS,democrat,0.197220694
+1984,MS,did not vote,0.473
+1984,MS,other,0.003659473
+1984,MS,republican,0.326119833
+1984,MT,democrat,0.251201909
+1984,MT,did not vote,0.342
+1984,MT,other,0.008875999
+1984,MT,republican,0.397922092
+1984,NC,democrat,0.179228988
+1984,NC,did not vote,0.527
+1984,NC,other,0.00099868
+1984,NC,republican,0.292772332
+1984,ND,democrat,0.214623427
+1984,ND,did not vote,0.365
+1984,ND,other,0.008644209
+1984,ND,republican,0.411732363
+1984,NE,democrat,0.16306362
+1984,NE,did not vote,0.434
+1984,NE,other,0.00361947
+1984,NE,republican,0.39931691
+1984,NH,democrat,0.164318847
+1984,NH,did not vote,0.469
+1984,NH,other,0.002057621
+1984,NH,republican,0.364623532
+1984,NJ,democrat,0.221466146
+1984,NJ,did not vote,0.435
+1984,NJ,other,0.004022418
+1984,NJ,republican,0.339511436
+1984,NM,democrat,0.203585184
+1984,NM,did not vote,0.481
+1984,NM,other,0.005549507
+1984,NM,republican,0.309865309
+1984,NV,democrat,0.133243509
+1984,NV,did not vote,0.589
+1984,NV,other,0.003331996
+1984,NV,republican,0.274424495
+1984,NY,democrat,0.224430249
+1984,NY,did not vote,0.491
+1984,NY,other,0.032080233
+1984,NY,republican,0.252489517
+1984,OH,democrat,0.232018557
+1984,OH,did not vote,0.42
+1984,OH,other,0.007529062
+1984,OH,republican,0.340452381
+1984,OK,democrat,0.162229206
+1984,OK,did not vote,0.471
+1984,OK,other,0.003819388
+1984,OK,republican,0.362951406
+1984,OR,democrat,0.273373008
+1984,OR,did not vote,0.375
+1984,OR,other,0.002215606
+1984,OR,republican,0.349411387
+1984,PA,democrat,0.249721229
+1984,PA,did not vote,0.457
+1984,PA,other,0.003636772
+1984,PA,republican,0.289641999
+1984,RI,democrat,0.266496374
+1984,RI,did not vote,0.445
+1984,RI,other,0.001761716
+1984,RI,republican,0.28674191
+1984,SC,democrat,0.145461551
+1984,SC,did not vote,0.591
+1984,SC,other,0.003602555
+1984,SC,republican,0.259935894
+1984,SD,democrat,0.233053743
+1984,SD,did not vote,0.362
+1984,SD,other,0.0029846
+1984,SD,republican,0.401961657
+1984,TN,democrat,0.205366912
+1984,TN,did not vote,0.506
+1984,TN,other,0.002904859
+1984,TN,republican,0.285728229
+1984,TX,democrat,0.171180115
+1984,TX,did not vote,0.526
+1984,TX,other,0.001305579
+1984,TX,republican,0.301514306
+1984,UT,democrat,0.151999352
+1984,UT,did not vote,0.384
+1984,UT,other,0.005069613
+1984,UT,republican,0.458931035
+1984,VA,democrat,0.188061198
+1984,VA,did not vote,0.493
+1984,VA,other,0.003142895
+1984,VA,republican,0.315795907
+1984,VT,democrat,0.246915088
+1984,VT,did not vote,0.395
+1984,VT,other,0.007650163
+1984,VT,republican,0.350434748
+1984,WA,democrat,0.249523589
+1984,WA,did not vote,0.414
+1984,WA,other,0.007778703
+1984,WA,republican,0.328697708
+1984,WI,democrat,0.28723845
+1984,WI,did not vote,0.362
+1984,WI,other,0.005009235
+1984,WI,republican,0.345752315
+1984,WV,democrat,0.234138631
+1984,WV,did not vote,0.475
+1984,WV,other,0.001522748
+1984,WV,republican,0.28933862
+1984,WY,democrat,0.155053395
+1984,WY,did not vote,0.451
+1984,WY,other,0.006847683
+1984,WY,republican,0.387098922
+1988,AK,democrat,0.196588619
+1988,AK,did not vote,0.458
+1988,AK,other,0.022428501
+1988,AK,republican,0.32298288
+1988,AL,democrat,0.186161603
+1988,AL,did not vote,0.533
+1988,AL,other,0.004537618
+1988,AL,republican,0.276300779
+1988,AR,democrat,0.203364149
+1988,AR,did not vote,0.518
+1988,AR,other,0.00694288
+1988,AR,republican,0.27169297
+1988,AZ,democrat,0.173959995
+1988,AZ,did not vote,0.551
+1988,AZ,other,0.005863303
+1988,AZ,republican,0.269176702
+1988,CA,democrat,0.221151408
+1988,CA,did not vote,0.535
+1988,CA,other,0.006110051
+1988,CA,republican,0.237738541
+1988,CO,democrat,0.259468177
+1988,CO,did not vote,0.427
+1988,CO,other,0.009504393
+1988,CO,republican,0.30402743
+1988,CT,democrat,0.268122251
+1988,CT,did not vote,0.428
+1988,CT,other,0.006566099
+1988,CT,republican,0.29731165
+1988,DC,democrat,0.317364372
+1988,DC,did not vote,0.616
+1988,DC,other,0.011706528
+1988,DC,republican,0.0549291
+1988,DE,democrat,0.221736557
+1988,DE,did not vote,0.49
+1988,DE,other,0.003275628
+1988,DE,republican,0.284987815
+1988,FL,democrat,0.171742188
+1988,FL,did not vote,0.554
+1988,FL,other,0.002770659
+1988,FL,republican,0.271487154
+1988,GA,democrat,0.154438855
+1988,GA,did not vote,0.609
+1988,GA,other,0.002927414
+1988,GA,republican,0.233633731
+1988,HI,democrat,0.239328231
+1988,HI,did not vote,0.559
+1988,HI,other,0.004319663
+1988,HI,republican,0.197352106
+1988,IA,democrat,0.326630186
+1988,IA,did not vote,0.403
+1988,IA,other,0.004725871
+1988,IA,republican,0.265643943
+1988,ID,democrat,0.215703742
+1988,ID,did not vote,0.401
+1988,ID,other,0.011446336
+1988,ID,republican,0.371849922
+1988,IL,democrat,0.26343669
+1988,IL,did not vote,0.458
+1988,IL,other,0.003832894
+1988,IL,republican,0.274730417
+1988,IN,democrat,0.212717966
+1988,IN,did not vote,0.464
+1988,IN,other,0.002524757
+1988,IN,republican,0.320757278
+1988,KS,democrat,0.23365245
+1988,KS,did not vote,0.451
+1988,KS,other,0.009044001
+1988,KS,republican,0.306303548
+1988,KY,democrat,0.214151942
+1988,KY,did not vote,0.512
+1988,KY,other,0.00290324
+1988,KY,republican,0.270944818
+1988,LA,democrat,0.238829899
+1988,LA,did not vote,0.458
+1988,LA,other,0.009001144
+1988,LA,republican,0.294168957
+1988,MA,democrat,0.301808722
+1988,MA,did not vote,0.433
+1988,MA,other,0.007914695
+1988,MA,republican,0.257276583
+1988,MD,democrat,0.233765316
+1988,MD,did not vote,0.515
+1988,MD,other,0.003362889
+1988,MD,republican,0.247871795
+1988,ME,democrat,0.269883764
+1988,ME,did not vote,0.385
+1988,ME,other,0.004803346
+1988,ME,republican,0.34031289
+1988,MI,democrat,0.247542665
+1988,MI,did not vote,0.458
+1988,MI,other,0.004120435
+1988,MI,republican,0.2903369
+1988,MN,democrat,0.350282957
+1988,MN,did not vote,0.338
+1988,MN,other,0.007887334
+1988,MN,republican,0.303829708
+1988,MO,democrat,0.265569993
+1988,MO,did not vote,0.445
+1988,MO,other,0.001764777
+1988,MO,republican,0.28766523
+1988,MS,democrat,0.200414452
+1988,MS,did not vote,0.487
+1988,MS,other,0.005350685
+1988,MS,republican,0.307234863
+1988,MT,democrat,0.294284614
+1988,MT,did not vote,0.363
+1988,MT,other,0.011019821
+1988,MT,republican,0.331695565
+1988,NC,democrat,0.181422455
+1988,NC,did not vote,0.565
+1988,NC,other,0.001415441
+1988,NC,republican,0.252162104
+1988,ND,democrat,0.271583047
+1988,ND,did not vote,0.368
+1988,ND,other,0.006299568
+1988,ND,republican,0.354117385
+1988,NE,democrat,0.2265242
+1988,NE,did not vote,0.422
+1988,NE,other,0.003734698
+1988,NE,republican,0.347741102
+1988,NH,democrat,0.200566432
+1988,NH,did not vote,0.448
+1988,NH,other,0.006483955
+1988,NH,republican,0.344949612
+1988,NJ,democrat,0.223640247
+1988,NJ,did not vote,0.475
+1988,NJ,other,0.006099178
+1988,NJ,republican,0.295260575
+1988,NM,democrat,0.23353
+1988,NM,did not vote,0.502
+1988,NM,other,0.006255242
+1988,NM,republican,0.258214758
+1988,NV,democrat,0.164407533
+1988,NV,did not vote,0.575
+1988,NV,other,0.005394045
+1988,NV,republican,0.255198422
+1988,NY,democrat,0.238426134
+1988,NY,did not vote,0.525
+1988,NY,other,0.028693424
+1988,NY,republican,0.207880442
+1988,OH,democrat,0.242807627
+1988,OH,did not vote,0.45
+1988,OH,other,0.004682702
+1988,OH,republican,0.30250967
+1988,OK,democrat,0.210123606
+1988,OK,did not vote,0.491
+1988,OK,other,0.004018847
+1988,OK,republican,0.294857548
+1988,OR,democrat,0.299976958
+1988,OR,did not vote,0.415
+1988,OR,other,0.012346546
+1988,OR,republican,0.272676497
+1988,PA,democrat,0.242901437
+1988,PA,did not vote,0.498
+1988,PA,other,0.004561573
+1988,PA,republican,0.25453699
+1988,RI,democrat,0.292098737
+1988,RI,did not vote,0.475
+1988,RI,other,0.002255068
+1988,RI,republican,0.230646196
+1988,SC,democrat,0.148069922
+1988,SC,did not vote,0.606
+1988,SC,other,0.003601111
+1988,SC,republican,0.242328967
+1988,SD,democrat,0.292523555
+1988,SD,did not vote,0.371
+1988,SD,other,0.004051439
+1988,SD,republican,0.332425006
+1988,TN,democrat,0.188202709
+1988,TN,did not vote,0.547
+1988,TN,other,0.002553411
+1988,TN,republican,0.26224388
+1988,TX,democrat,0.198106617
+1988,TX,did not vote,0.543
+1988,TX,other,0.003185623
+1988,TX,republican,0.25570776
+1988,UT,democrat,0.193880933
+1988,UT,did not vote,0.395
+1988,UT,other,0.010494329
+1988,UT,republican,0.400624737
+1988,VA,democrat,0.187918429
+1988,VA,did not vote,0.521
+1988,VA,other,0.004949967
+1988,VA,republican,0.286131604
+1988,VT,democrat,0.281672475
+1988,VT,did not vote,0.408
+1988,VT,other,0.007838901
+1988,VT,republican,0.302488624
+1988,WA,democrat,0.269256561
+1988,WA,did not vote,0.462
+1988,WA,other,0.00804785
+1988,WA,republican,0.260695589
+1988,WI,democrat,0.316710426
+1988,WI,did not vote,0.384
+1988,WI,other,0.004866764
+1988,WI,republican,0.294422809
+1988,WV,democrat,0.251072913
+1988,WV,did not vote,0.519
+1988,WV,other,0.001641837
+1988,WV,republican,0.22828525
+1988,WY,democrat,0.209453716
+1988,WY,did not vote,0.449
+1988,WY,other,0.008023863
+1988,WY,republican,0.333522421
+1992,AK,democrat,0.192626028
+1992,AK,did not vote,0.364
+1992,AK,other,0.192424284
+1992,AK,republican,0.250949688
+1992,AL,democrat,0.222796346
+1992,AL,did not vote,0.455
+1992,AL,other,0.062536204
+1992,AL,republican,0.25966745
+1992,AR,democrat,0.28253423
+1992,AR,did not vote,0.469
+1992,AR,other,0.06004892
+1992,AR,republican,0.18841685
+1992,AZ,democrat,0.187349922
+1992,AZ,did not vote,0.487
+1992,AZ,other,0.128282861
+1992,AZ,republican,0.197367217
+1992,CA,democrat,0.226812478
+1992,CA,did not vote,0.507
+1992,CA,other,0.105397202
+1992,CA,republican,0.16079032
+1992,CO,democrat,0.241972013
+1992,CO,did not vote,0.397
+1992,CO,other,0.1447376
+1992,CO,republican,0.216290387
+1992,CT,democrat,0.270621053
+1992,CT,did not vote,0.359
+1992,CT,other,0.141008371
+1992,CT,republican,0.229370576
+1992,DC,democrat,0.403737116
+1992,DC,did not vote,0.523
+1992,DC,other,0.029879049
+1992,DC,republican,0.043383835
+1992,DE,democrat,0.240687321
+1992,DE,did not vote,0.447
+1992,DE,other,0.116956388
+1992,DE,republican,0.195356291
+1992,FL,democrat,0.19573041
+1992,FL,did not vote,0.498
+1992,FL,other,0.100939055
+1992,FL,republican,0.205330535
+1992,GA,democrat,0.199521266
+1992,GA,did not vote,0.541
+1992,GA,other,0.062669388
+1992,GA,republican,0.196809346
+1992,HI,democrat,0.206798858
+1992,HI,did not vote,0.57
+1992,HI,other,0.065403844
+1992,HI,republican,0.157797298
+1992,IA,democrat,0.279193659
+1992,IA,did not vote,0.355
+1992,IA,other,0.125401046
+1992,IA,republican,0.240405295
+1992,ID,democrat,0.181314573
+1992,ID,did not vote,0.362
+1992,ID,other,0.188517504
+1992,ID,republican,0.268167923
+1992,IL,democrat,0.282247928
+1992,IL,did not vote,0.419
+1992,IL,other,0.099251388
+1992,IL,republican,0.199500684
+1992,IN,democrat,0.200526786
+1992,IN,did not vote,0.455
+1992,IN,other,0.110631263
+1992,IN,republican,0.233841952
+1992,KS,democrat,0.210190818
+1992,KS,did not vote,0.377
+1992,KS,other,0.170577283
+1992,KS,republican,0.242231898
+1992,KY,democrat,0.236121053
+1992,KY,did not vote,0.47
+1992,KY,other,0.074772282
+1992,KY,republican,0.219106665
+1992,LA,democrat,0.266213709
+1992,LA,did not vote,0.416
+1992,LA,other,0.07851626
+1992,LA,republican,0.239270032
+1992,MA,democrat,0.284297637
+1992,MA,did not vote,0.402
+1992,MA,other,0.140136523
+1992,MA,republican,0.17356584
+1992,MD,democrat,0.26749369
+1992,MD,did not vote,0.463
+1992,MD,other,0.078176418
+1992,MD,republican,0.191329892
+1992,ME,democrat,0.283385288
+1992,ME,did not vote,0.269
+1992,ME,other,0.225459235
+1992,ME,republican,0.222155476
+1992,MI,democrat,0.267457231
+1992,MI,did not vote,0.389
+1992,MI,other,0.121287561
+1992,MI,republican,0.222255209
+1992,MN,democrat,0.309610717
+1992,MN,did not vote,0.288
+1992,MN,other,0.175611351
+1992,MN,republican,0.226777932
+1992,MO,democrat,0.271481584
+1992,MO,did not vote,0.384
+1992,MO,other,0.135560856
+1992,MO,republican,0.20895756
+1992,MS,democrat,0.212809295
+1992,MS,did not vote,0.478
+1992,MS,other,0.049840775
+1992,MS,republican,0.25934993
+1992,MT,democrat,0.257773203
+1992,MT,did not vote,0.315
+1992,MT,other,0.186637696
+1992,MT,republican,0.240589101
+1992,NC,democrat,0.21198724
+1992,NC,did not vote,0.503
+1992,NC,other,0.069102
+1992,NC,republican,0.215910759
+1992,ND,democrat,0.212411134
+1992,ND,did not vote,0.34
+1992,ND,other,0.155763453
+1992,ND,republican,0.291825413
+1992,NE,democrat,0.184065623
+1992,NE,did not vote,0.374
+1992,NE,other,0.150234025
+1992,NE,republican,0.291700352
+1992,NH,democrat,0.250981078
+1992,NH,did not vote,0.355
+1992,NH,other,0.150909217
+1992,NH,republican,0.243109705
+1992,NJ,democrat,0.239253552
+1992,NJ,did not vote,0.443
+1992,NJ,other,0.091710091
+1992,NJ,republican,0.226036356
+1992,NM,democrat,0.231330187
+1992,NM,did not vote,0.496
+1992,NM,other,0.08448397
+1992,NM,republican,0.188185843
+1992,NV,democrat,0.184172721
+1992,NV,did not vote,0.507
+1992,NV,other,0.137624193
+1992,NV,republican,0.171203086
+1992,NY,democrat,0.237327061
+1992,NY,did not vote,0.498
+1992,NY,other,0.119897429
+1992,NY,republican,0.14477551
+1992,OH,democrat,0.241891309
+1992,OH,did not vote,0.398
+1992,OH,other,0.129262084
+1992,OH,republican,0.230846607
+1992,OK,democrat,0.200065456
+1992,OK,did not vote,0.412
+1992,OK,other,0.137177543
+1992,OK,republican,0.250757
+1992,OR,democrat,0.277386924
+1992,OR,did not vote,0.347
+1992,OR,other,0.163210377
+1992,OR,republican,0.212402699
+1992,PA,democrat,0.243337829
+1992,PA,did not vote,0.461
+1992,PA,other,0.100936507
+1992,PA,republican,0.194725665
+1992,RI,democrat,0.273819148
+1992,RI,did not vote,0.418
+1992,RI,other,0.139240193
+1992,RI,republican,0.168940659
+1992,SC,democrat,0.191576184
+1992,SC,did not vote,0.552
+1992,SC,other,0.045893577
+1992,SC,republican,0.210530238
+1992,SD,democrat,0.245501817
+1992,SD,did not vote,0.339
+1992,SD,other,0.146741237
+1992,SD,republican,0.268756946
+1992,TN,democrat,0.244840924
+1992,TN,did not vote,0.48
+1992,TN,other,0.054505583
+1992,TN,republican,0.220653493
+1992,TX,democrat,0.179088954
+1992,TX,did not vote,0.517
+1992,TX,other,0.108006144
+1992,TX,republican,0.195904902
+1992,UT,democrat,0.152364821
+1992,UT,did not vote,0.382
+1992,UT,other,0.197641749
+1992,UT,republican,0.26799343
+1992,VA,democrat,0.213888612
+1992,VA,did not vote,0.473
+1992,VA,other,0.076186067
+1992,VA,republican,0.236925321
+1992,VT,democrat,0.313112374
+1992,VT,did not vote,0.321
+1992,VT,other,0.159347648
+1992,VT,republican,0.206539977
+1992,WA,democrat,0.259593116
+1992,WA,did not vote,0.402
+1992,WA,other,0.147252564
+1992,WA,republican,0.19115432
+1992,WI,democrat,0.28051721
+1992,WI,did not vote,0.318
+1992,WI,other,0.150662143
+1992,WI,republican,0.250820647
+1992,WV,democrat,0.240137515
+1992,WV,did not vote,0.504
+1992,WV,other,0.08031306
+1992,WV,republican,0.175549425
+1992,WY,democrat,0.206644654
+1992,WY,did not vote,0.394
+1992,WY,other,0.158794411
+1992,WY,republican,0.240560935
+1996,AK,democrat,0.189622548
+1996,AK,did not vote,0.43
+1996,AK,other,0.090810281
+1996,AK,republican,0.289567172
+1996,AL,democrat,0.204991417
+1996,AL,did not vote,0.525
+1996,AL,other,0.031929828
+1996,AL,republican,0.238078755
+1996,AR,democrat,0.249874489
+1996,AR,did not vote,0.535
+1996,AR,other,0.044001523
+1996,AR,republican,0.171123988
+1996,AZ,democrat,0.191185141
+1996,AZ,did not vote,0.589
+1996,AZ,other,0.037764807
+1996,AZ,republican,0.182050052
+1996,CA,democrat,0.221769077
+1996,CA,did not vote,0.566
+1996,CA,other,0.04640204
+1996,CA,republican,0.165828883
+1996,CO,democrat,0.228352202
+1996,CO,did not vote,0.486
+1996,CO,other,0.050254006
+1996,CO,republican,0.235393792
+1996,CT,democrat,0.291102014
+1996,CT,did not vote,0.449
+1996,CT,other,0.068751653
+1996,CT,republican,0.191146333
+1996,DC,democrat,0.351834746
+1996,DC,did not vote,0.587
+1996,DC,other,0.022608418
+1996,DC,republican,0.038556836
+1996,DE,democrat,0.250846793
+1996,DE,did not vote,0.516
+1996,DE,other,0.05610654
+1996,DE,republican,0.177046667
+1996,FL,democrat,0.221397883
+1996,FL,did not vote,0.539
+1996,FL,other,0.044485947
+1996,FL,republican,0.19511617
+1996,GA,democrat,0.189783669
+1996,GA,did not vote,0.586
+1996,GA,other,0.029571416
+1996,GA,republican,0.194644916
+1996,HI,democrat,0.228853782
+1996,HI,did not vote,0.598
+1996,HI,other,0.045952266
+1996,HI,republican,0.127193952
+1996,IA,democrat,0.287995328
+1996,IA,did not vote,0.427
+1996,IA,other,0.056262487
+1996,IA,republican,0.228742185
+1996,ID,democrat,0.19245735
+1996,ID,did not vote,0.428
+1996,ID,other,0.081049551
+1996,ID,republican,0.298493099
+1996,IL,democrat,0.262342792
+1996,IL,did not vote,0.517
+1996,IL,other,0.042865135
+1996,IL,republican,0.177792073
+1996,IN,democrat,0.201967689
+1996,IN,did not vote,0.514
+1996,IN,other,0.054920343
+1996,IN,republican,0.229111968
+1996,KS,democrat,0.199548941
+1996,KS,did not vote,0.447
+1996,KS,other,0.053223483
+1996,KS,republican,0.300227576
+1996,KY,democrat,0.216833504
+1996,KY,did not vote,0.527
+1996,KY,other,0.043873588
+1996,KY,republican,0.212292908
+1996,LA,democrat,0.293336376
+1996,LA,did not vote,0.436
+1996,LA,other,0.045379016
+1996,LA,republican,0.225284608
+1996,MA,democrat,0.333178775
+1996,MA,did not vote,0.458
+1996,MA,other,0.056584308
+1996,MA,republican,0.152236917
+1996,MD,democrat,0.253369796
+1996,MD,did not vote,0.533
+1996,MD,other,0.03491165
+1996,MD,republican,0.178718553
+1996,ME,democrat,0.331425797
+1996,ME,did not vote,0.358
+1996,ME,other,0.113090677
+1996,ME,republican,0.197483526
+1996,MI,democrat,0.276050342
+1996,MI,did not vote,0.466
+1996,MI,other,0.052441924
+1996,MI,republican,0.205507734
+1996,MN,democrat,0.322445774
+1996,MN,did not vote,0.369
+1996,MN,other,0.087985464
+1996,MN,republican,0.220568761
+1996,MO,democrat,0.254336744
+1996,MO,did not vote,0.465
+1996,MO,other,0.06002182
+1996,MO,republican,0.220641436
+1996,MS,democrat,0.198364951
+1996,MS,did not vote,0.55
+1996,MS,other,0.030204664
+1996,MS,republican,0.221430385
+1996,MT,democrat,0.256987902
+1996,MT,did not vote,0.377
+1996,MT,other,0.091072599
+1996,MT,republican,0.274939499
+1996,NC,democrat,0.193756341
+1996,NC,did not vote,0.56
+1996,NC,other,0.031834238
+1996,NC,republican,0.21440942
+1996,ND,democrat,0.221906997
+1996,ND,did not vote,0.447
+1996,ND,other,0.071521701
+1996,ND,republican,0.259571301
+1996,NE,democrat,0.192578126
+1996,NE,did not vote,0.449
+1996,NE,other,0.062782839
+1996,NE,republican,0.295639035
+1996,NH,democrat,0.281560879
+1996,NH,did not vote,0.432
+1996,NH,other,0.06170146
+1996,NH,republican,0.224737661
+1996,NJ,democrat,0.268601464
+1996,NJ,did not vote,0.5
+1996,NJ,other,0.052082995
+1996,NJ,republican,0.179315541
+1996,NM,democrat,0.21886525
+1996,NM,did not vote,0.555
+1996,NM,other,0.039875017
+1996,NM,republican,0.186259733
+1996,NV,democrat,0.160357264
+1996,NV,did not vote,0.635
+1996,NV,other,0.048004034
+1996,NV,republican,0.156638702
+1996,NY,democrat,0.256755594
+1996,NY,did not vote,0.547
+1996,NY,other,0.073924404
+1996,NY,republican,0.122320002
+1996,OH,democrat,0.256776551
+1996,OH,did not vote,0.458
+1996,OH,other,0.062912001
+1996,OH,republican,0.222311447
+1996,OK,democrat,0.198200774
+1996,OK,did not vote,0.51
+1996,OK,other,0.055343375
+1996,OK,republican,0.236455852
+1996,OR,democrat,0.265465599
+1996,OR,did not vote,0.437
+1996,OR,other,0.077627033
+1996,OR,republican,0.219907368
+1996,PA,democrat,0.238746705
+1996,PA,did not vote,0.515
+1996,PA,other,0.052183669
+1996,PA,republican,0.194069626
+1996,RI,democrat,0.297995757
+1996,RI,did not vote,0.501
+1996,RI,other,0.067148462
+1996,RI,republican,0.133855781
+1996,SC,democrat,0.179545512
+1996,SC,did not vote,0.592
+1996,SC,other,0.025075969
+1996,SC,republican,0.203378519
+1996,SD,democrat,0.259453531
+1996,SD,did not vote,0.397
+1996,SD,other,0.063218673
+1996,SD,republican,0.280327796
+1996,TN,democrat,0.222234036
+1996,TN,did not vote,0.537
+1996,TN,other,0.029682424
+1996,TN,republican,0.211083541
+1996,TX,democrat,0.177080359
+1996,TX,did not vote,0.596
+1996,TX,other,0.029934325
+1996,TX,republican,0.196985316
+1996,UT,democrat,0.158825624
+1996,UT,did not vote,0.523
+1996,UT,other,0.058823376
+1996,UT,republican,0.259351
+1996,VA,democrat,0.213548958
+1996,VA,did not vote,0.527
+1996,VA,other,0.036646196
+1996,VA,republican,0.222804847
+1996,VT,democrat,0.310522803
+1996,VT,did not vote,0.418
+1996,VT,other,0.090532933
+1996,VT,republican,0.180944264
+1996,WA,democrat,0.270633763
+1996,WA,did not vote,0.457
+1996,WA,other,0.069819817
+1996,WA,republican,0.20254642
+1996,WI,democrat,0.27578188
+1996,WI,did not vote,0.435
+1996,WI,other,0.071820741
+1996,WI,republican,0.217397379
+1996,WV,democrat,0.234350461
+1996,WV,did not vote,0.545
+1996,WV,other,0.053403212
+1996,WV,republican,0.167246327
+1996,WY,democrat,0.220646809
+1996,WY,did not vote,0.401
+1996,WY,other,0.079978593
+1996,WY,republican,0.298374598
+2000,AK,democrat,0.179554545
+2000,AK,did not vote,0.351
+2000,AK,other,0.088995455
+2000,AK,republican,0.38045
+2000,AL,democrat,0.208663845
+2000,AL,did not vote,0.498
+2000,AL,other,0.009787703
+2000,AL,republican,0.283548452
+2000,AR,democrat,0.210975579
+2000,AR,did not vote,0.54
+2000,AR,other,0.013011312
+2000,AR,republican,0.236013109
+2000,AZ,democrat,0.179385686
+2000,AZ,did not vote,0.599
+2000,AZ,other,0.01701955
+2000,AZ,republican,0.204594764
+2000,CA,democrat,0.235713339
+2000,CA,did not vote,0.559
+2000,CA,other,0.02160356
+2000,CA,republican,0.183683101
+2000,CO,democrat,0.227229208
+2000,CO,did not vote,0.464
+2000,CO,other,0.036749641
+2000,CO,republican,0.272021151
+2000,CT,democrat,0.317007592
+2000,CT,did not vote,0.433
+2000,CT,other,0.032017178
+2000,CT,republican,0.21797523
+2000,DC,democrat,0.373830807
+2000,DC,did not vote,0.561
+2000,DC,other,0.025871111
+2000,DC,republican,0.039298082
+2000,DE,democrat,0.302927277
+2000,DE,did not vote,0.449
+2000,DE,other,0.017113975
+2000,DE,republican,0.230958749
+2000,FL,democrat,0.233444785
+2000,FL,did not vote,0.522
+2000,FL,other,0.011067384
+2000,FL,republican,0.233487831
+2000,GA,democrat,0.183214639
+2000,GA,did not vote,0.576
+2000,GA,other,0.007756786
+2000,GA,republican,0.233028575
+2000,HI,democrat,0.222050838
+2000,HI,did not vote,0.602
+2000,HI,other,0.026846944
+2000,HI,republican,0.149102217
+2000,IA,democrat,0.282207655
+2000,IA,did not vote,0.402
+2000,IA,other,0.035416228
+2000,IA,republican,0.280376117
+2000,ID,democrat,0.148140371
+2000,ID,did not vote,0.464
+2000,ID,other,0.027826074
+2000,ID,republican,0.360033556
+2000,IL,democrat,0.281172084
+2000,IL,did not vote,0.485
+2000,IL,other,0.014515784
+2000,IL,republican,0.219312132
+2000,IN,democrat,0.197678336
+2000,IN,did not vote,0.518
+2000,IN,other,0.011283695
+2000,IN,republican,0.273037969
+2000,KS,democrat,0.201087318
+2000,KS,did not vote,0.46
+2000,KS,other,0.0254877
+2000,KS,republican,0.313424982
+2000,KY,democrat,0.208959822
+2000,KY,did not vote,0.495
+2000,KY,other,0.010682437
+2000,KY,republican,0.285357741
+2000,LA,democrat,0.243224302
+2000,LA,did not vote,0.458
+2000,LA,other,0.013948936
+2000,LA,republican,0.284826762
+2000,MA,democrat,0.328149999
+2000,MA,did not vote,0.445
+2000,MA,other,0.048512389
+2000,MA,republican,0.178337612
+2000,MD,democrat,0.288090373
+2000,MD,did not vote,0.49
+2000,MD,other,0.016967246
+2000,MD,republican,0.204942381
+2000,ME,democrat,0.32691287
+2000,ME,did not vote,0.334
+2000,ME,other,0.046234603
+2000,ME,republican,0.292852528
+2000,MI,democrat,0.294346046
+2000,MI,did not vote,0.426
+2000,MI,other,0.014774682
+2000,MI,republican,0.264879273
+2000,MN,democrat,0.31905111
+2000,MN,did not vote,0.334
+2000,MN,other,0.043903235
+2000,MN,republican,0.303045655
+2000,MO,democrat,0.265084459
+2000,MO,did not vote,0.437
+2000,MO,other,0.014035087
+2000,MO,republican,0.283880454
+2000,MS,democrat,0.1949439
+2000,MS,did not vote,0.521
+2000,MS,other,0.008058623
+2000,MS,republican,0.275997477
+2000,MT,democrat,0.202859971
+2000,MT,did not vote,0.392
+2000,MT,other,0.049828111
+2000,MT,republican,0.355311918
+2000,NC,democrat,0.204510481
+2000,NC,did not vote,0.526
+2000,NC,other,0.004249754
+2000,NC,republican,0.265239765
+2000,ND,democrat,0.197670931
+2000,ND,did not vote,0.402
+2000,ND,other,0.037590753
+2000,ND,republican,0.362738316
+2000,NE,democrat,0.182891715
+2000,NE,did not vote,0.45
+2000,NE,other,0.024758794
+2000,NE,republican,0.342349491
+2000,NH,democrat,0.285031361
+2000,NH,did not vote,0.391
+2000,NH,other,0.031220452
+2000,NH,republican,0.292748187
+2000,NJ,democrat,0.281189301
+2000,NJ,did not vote,0.499
+2000,NJ,other,0.017951568
+2000,NJ,republican,0.201859132
+2000,NM,democrat,0.217504835
+2000,NM,did not vote,0.546
+2000,NM,other,0.019267915
+2000,NM,republican,0.21722725
+2000,NV,democrat,0.183765051
+2000,NV,did not vote,0.6
+2000,NV,other,0.018294592
+2000,NV,republican,0.197940357
+2000,NY,democrat,0.269602927
+2000,NY,did not vote,0.524
+2000,NY,other,0.051935946
+2000,NY,republican,0.154461127
+2000,OH,democrat,0.257279972
+2000,OH,did not vote,0.446
+2000,OH,other,0.019794963
+2000,OH,republican,0.276925065
+2000,OK,democrat,0.184833411
+2000,OK,did not vote,0.519
+2000,OK,other,0.00608582
+2000,OK,republican,0.290080769
+2000,OR,democrat,0.277533246
+2000,OR,did not vote,0.409
+2000,OR,other,0.038539927
+2000,OR,republican,0.274926827
+2000,PA,democrat,0.265186818
+2000,PA,did not vote,0.476
+2000,PA,other,0.015477366
+2000,PA,republican,0.243335817
+2000,RI,democrat,0.309817517
+2000,RI,did not vote,0.492
+2000,RI,other,0.036070543
+2000,RI,republican,0.16211194
+2000,SC,democrat,0.186919962
+2000,SC,did not vote,0.543
+2000,SC,other,0.01022808
+2000,SC,republican,0.259851958
+2000,SD,democrat,0.214116085
+2000,SD,did not vote,0.43
+2000,SD,other,0.012192311
+2000,SD,republican,0.343691604
+2000,TN,democrat,0.227440344
+2000,TN,did not vote,0.519
+2000,TN,other,0.00753223
+2000,TN,republican,0.246027427
+2000,TX,democrat,0.160663683
+2000,TX,did not vote,0.577
+2000,TX,other,0.011503242
+2000,TX,republican,0.250833076
+2000,UT,democrat,0.132250505
+2000,UT,did not vote,0.498
+2000,UT,other,0.034262177
+2000,UT,republican,0.335487318
+2000,VA,democrat,0.225732902
+2000,VA,did not vote,0.492
+2000,VA,other,0.015700554
+2000,VA,republican,0.266566544
+2000,VT,democrat,0.321530404
+2000,VT,did not vote,0.365
+2000,VT,other,0.055042625
+2000,VT,republican,0.258426971
+2000,WA,democrat,0.282390752
+2000,WA,did not vote,0.437
+2000,WA,other,0.02963146
+2000,WA,republican,0.250977788
+2000,WI,democrat,0.309478343
+2000,WI,did not vote,0.353
+2000,WI,other,0.029464489
+2000,WI,republican,0.308057168
+2000,WV,democrat,0.210182183
+2000,WV,did not vote,0.539
+2000,WV,other,0.011488653
+2000,WV,republican,0.239329164
+2000,WY,democrat,0.164979567
+2000,WY,did not vote,0.417
+2000,WY,other,0.01445184
+2000,WY,republican,0.403568592
+2004,AK,democrat,0.232990614
+2004,AK,did not vote,0.344
+2004,AK,other,0.022420822
+2004,AK,republican,0.400588564
+2004,AL,democrat,0.202275769
+2004,AL,did not vote,0.451
+2004,AL,other,0.003815044
+2004,AL,republican,0.342909187
+2004,AR,democrat,0.226747439
+2004,AR,did not vote,0.491
+2004,AR,other,0.005835229
+2004,AR,republican,0.276417332
+2004,AZ,democrat,0.211772893
+2004,AZ,did not vote,0.523
+2004,AZ,other,0.003499906
+2004,AZ,republican,0.261727201
+2004,CA,democrat,0.256865287
+2004,CA,did not vote,0.527
+2004,CA,other,0.006322811
+2004,CA,republican,0.209811902
+2004,CO,democrat,0.291164244
+2004,CO,did not vote,0.381
+2004,CO,other,0.007744076
+2004,CO,republican,0.32009168
+2004,CT,democrat,0.323166568
+2004,CT,did not vote,0.405
+2004,CT,other,0.010347128
+2004,CT,republican,0.261486304
+2004,DC,democrat,0.44235199
+2004,DC,did not vote,0.504
+2004,DC,other,0.00732277
+2004,DC,republican,0.04632524
+2004,DE,democrat,0.31527981
+2004,DE,did not vote,0.409
+2004,DE,other,0.005321032
+2004,DE,republican,0.270399158
+2004,FL,democrat,0.262768394
+2004,FL,did not vote,0.442
+2004,FL,other,0.004527465
+2004,FL,republican,0.290704141
+2004,GA,democrat,0.210184726
+2004,GA,did not vote,0.492
+2004,GA,other,0.00330351
+2004,GA,republican,0.294511764
+2004,HI,democrat,0.235481647
+2004,HI,did not vote,0.564
+2004,HI,other,0.003164715
+2004,HI,republican,0.197353637
+2004,IA,democrat,0.331338976
+2004,IA,did not vote,0.327
+2004,IA,other,0.005829599
+2004,IA,republican,0.335831425
+2004,ID,democrat,0.178260361
+2004,ID,did not vote,0.411
+2004,ID,other,0.007916974
+2004,ID,republican,0.402822665
+2004,IL,democrat,0.30810616
+2004,IL,did not vote,0.438
+2004,IL,other,0.003923957
+2004,IL,republican,0.249969883
+2004,IN,democrat,0.208093766
+2004,IN,did not vote,0.47
+2004,IN,other,0.00419898
+2004,IN,republican,0.317707255
+2004,KS,democrat,0.213878871
+2004,KS,did not vote,0.416
+2004,KS,other,0.008017882
+2004,KS,republican,0.362103247
+2004,KY,democrat,0.225819445
+2004,KY,did not vote,0.431
+2004,KY,other,0.004343821
+2004,KY,republican,0.338836734
+2004,LA,democrat,0.242741222
+2004,LA,did not vote,0.425
+2004,LA,other,0.006107155
+2004,LA,republican,0.326151623
+2004,MA,democrat,0.363538295
+2004,MA,did not vote,0.41
+2004,MA,other,0.010590134
+2004,MA,republican,0.215871571
+2004,MD,democrat,0.319598756
+2004,MD,did not vote,0.429
+2004,MD,other,0.00599562
+2004,MD,republican,0.245405624
+2004,ME,democrat,0.388403204
+2004,ME,did not vote,0.275
+2004,ME,other,0.01341748
+2004,ME,republican,0.323179316
+2004,MI,democrat,0.329925751
+2004,MI,did not vote,0.356
+2004,MI,other,0.006164592
+2004,MI,republican,0.307909657
+2004,MN,democrat,0.378574564
+2004,MN,did not vote,0.259
+2004,MN,other,0.009609151
+2004,MN,republican,0.352816285
+2004,MO,democrat,0.289971809
+2004,MO,did not vote,0.371
+2004,MO,other,0.003795144
+2004,MO,republican,0.335233047
+2004,MS,democrat,0.216870008
+2004,MS,did not vote,0.46
+2004,MS,other,0.004452372
+2004,MS,republican,0.31867762
+2004,MT,democrat,0.24411663
+2004,MT,did not vote,0.367
+2004,MT,other,0.014982024
+2004,MT,republican,0.373901346
+2004,NC,democrat,0.234477327
+2004,NC,did not vote,0.462
+2004,NC,other,0.002150152
+2004,NC,republican,0.301372522
+2004,ND,democrat,0.223642519
+2004,ND,did not vote,0.37
+2004,ND,other,0.010331071
+2004,ND,republican,0.39602641
+2004,NE,democrat,0.194785678
+2004,NE,did not vote,0.404
+2004,NE,other,0.00845842
+2004,NE,republican,0.392755902
+2004,NH,democrat,0.345387082
+2004,NH,did not vote,0.312
+2004,NH,other,0.006632638
+2004,NH,republican,0.33598028
+2004,NJ,democrat,0.29372492
+2004,NJ,did not vote,0.445
+2004,NJ,other,0.004649675
+2004,NJ,republican,0.256625405
+2004,NM,democrat,0.262890203
+2004,NM,did not vote,0.464
+2004,NM,other,0.00597584
+2004,NM,republican,0.267133957
+2004,NV,democrat,0.223590449
+2004,NV,did not vote,0.533
+2004,NV,other,0.007716091
+2004,NV,republican,0.23569346
+2004,NY,democrat,0.284020741
+2004,NY,did not vote,0.494
+2004,NY,other,0.031285417
+2004,NY,republican,0.190693842
+2004,OH,democrat,0.318054655
+2004,OH,did not vote,0.347
+2004,OH,other,0.003129766
+2004,OH,republican,0.331815579
+2004,OK,democrat,0.190051383
+2004,OK,did not vote,0.448
+2004,OK,republican,0.361948617
+2004,OR,democrat,0.344549529
+2004,OR,did not vote,0.329
+2004,OR,other,0.009786
+2004,OR,republican,0.316664471
+2004,PA,democrat,0.307579807
+2004,PA,did not vote,0.396
+2004,PA,other,0.003941249
+2004,PA,republican,0.292478944
+2004,RI,democrat,0.31375569
+2004,RI,did not vote,0.472
+2004,RI,other,0.010059121
+2004,RI,republican,0.204185188
+2004,SC,democrat,0.20696329
+2004,SC,did not vote,0.494
+2004,SC,other,0.005648045
+2004,SC,republican,0.293388665
+2004,SD,democrat,0.258725737
+2004,SD,did not vote,0.327
+2004,SD,other,0.011072347
+2004,SD,republican,0.403201916
+2004,TN,democrat,0.230487078
+2004,TN,did not vote,0.458
+2004,TN,other,0.003661857
+2004,TN,republican,0.307851065
+2004,TX,democrat,0.173920385
+2004,TX,did not vote,0.545
+2004,TX,other,0.003139121
+2004,TX,republican,0.277940494
+2004,UT,democrat,0.14505568
+2004,UT,did not vote,0.442
+2004,UT,other,0.013773731
+2004,UT,republican,0.399170589
+2004,VA,democrat,0.255400398
+2004,VA,did not vote,0.439
+2004,VA,other,0.004163326
+2004,VA,republican,0.301436276
+2004,VT,democrat,0.383682881
+2004,VT,did not vote,0.349
+2004,VT,other,0.014720556
+2004,VT,republican,0.252596563
+2004,WA,democrat,0.322209005
+2004,WA,did not vote,0.39
+2004,WA,other,0.009385275
+2004,WA,republican,0.27840572
+2004,WI,democrat,0.356843969
+2004,WI,did not vote,0.282
+2004,WI,other,0.007039354
+2004,WI,republican,0.354116677
+2004,WV,democrat,0.228987248
+2004,WV,did not vote,0.47
+2004,WV,other,0.003837947
+2004,WV,republican,0.297174805
+2004,WY,democrat,0.182555243
+2004,WY,did not vote,0.371
+2004,WY,other,0.014072869
+2004,WY,republican,0.432371888
+2008,AK,democrat,0.243628672
+2008,AK,did not vote,0.357
+2008,AK,other,0.017271667
+2008,AK,republican,0.382099661
+2008,AL,democrat,0.226244136
+2008,AL,did not vote,0.416
+2008,AL,other,0.005505092
+2008,AL,republican,0.352250772
+2008,AR,democrat,0.194323299
+2008,AR,did not vote,0.5
+2008,AR,other,0.012097179
+2008,AR,republican,0.293579522
+2008,AZ,democrat,0.221515882
+2008,AZ,did not vote,0.509
+2008,AZ,other,0.006135051
+2008,AZ,republican,0.263349067
+2008,CA,democrat,0.30201256
+2008,CA,did not vote,0.505
+2008,CA,other,0.010060889
+2008,CA,republican,0.182926551
+2008,CO,democrat,0.347181732
+2008,CO,did not vote,0.353
+2008,CO,other,0.0105606
+2008,CO,republican,0.289257668
+2008,CT,democrat,0.365956531
+2008,CT,did not vote,0.396
+2008,CT,other,0.00718583
+2008,CT,republican,0.230857638
+2008,DC,democrat,0.510363246
+2008,DC,did not vote,0.448
+2008,DC,other,0.005577037
+2008,DC,republican,0.036059717
+2008,DE,democrat,0.375372574
+2008,DE,did not vote,0.394
+2008,DE,other,0.006728403
+2008,DE,republican,0.223899023
+2008,FL,democrat,0.293951838
+2008,FL,did not vote,0.424
+2008,FL,other,0.004327923
+2008,FL,republican,0.277720238
+2008,GA,democrat,0.261265396
+2008,GA,did not vote,0.444
+2008,GA,other,0.004477484
+2008,GA,republican,0.29025712
+2008,HI,democrat,0.312963746
+2008,HI,did not vote,0.562
+2008,HI,other,0.009245689
+2008,HI,republican,0.115790564
+2008,IA,democrat,0.360778454
+2008,IA,did not vote,0.331
+2008,IA,other,0.011230641
+2008,IA,republican,0.296990905
+2008,ID,democrat,0.211493188
+2008,ID,did not vote,0.414
+2008,ID,other,0.014016656
+2008,ID,republican,0.360490156
+2008,IL,democrat,0.355409977
+2008,IL,did not vote,0.426
+2008,IL,other,0.007467527
+2008,IL,republican,0.211122495
+2008,IN,democrat,0.284691696
+2008,IN,did not vote,0.43
+2008,IN,other,0.006499033
+2008,IN,republican,0.278809271
+2008,KS,democrat,0.244913567
+2008,KS,did not vote,0.412
+2008,KS,other,0.010206377
+2008,KS,republican,0.332880056
+2008,KY,democrat,0.229306394
+2008,KY,did not vote,0.443
+2008,KY,other,0.007981058
+2008,KY,republican,0.319712548
+2008,LA,democrat,0.234406204
+2008,LA,did not vote,0.413
+2008,LA,other,0.008830622
+2008,LA,republican,0.343763174
+2008,MA,democrat,0.373701883
+2008,MA,did not vote,0.391
+2008,MA,other,0.017672215
+2008,MA,republican,0.217625902
+2008,MD,democrat,0.375231229
+2008,MD,did not vote,0.394
+2008,MD,other,0.009733182
+2008,MD,republican,0.221035589
+2008,ME,democrat,0.401631932
+2008,ME,did not vote,0.304
+2008,ME,other,0.013295301
+2008,ME,republican,0.281072768
+2008,MI,democrat,0.381356762
+2008,MI,did not vote,0.336
+2008,MI,other,0.010670792
+2008,MI,republican,0.271972446
+2008,MN,democrat,0.395721343
+2008,MN,did not vote,0.268
+2008,MN,other,0.015494802
+2008,MN,republican,0.320783855
+2008,MO,democrat,0.319909285
+2008,MO,did not vote,0.351
+2008,MO,other,0.008315492
+2008,MO,republican,0.320775223
+2008,MS,democrat,0.253279156
+2008,MS,did not vote,0.411
+2008,MS,other,0.004843091
+2008,MS,republican,0.330877753
+2008,MT,democrat,0.307717706
+2008,MT,did not vote,0.349
+2008,MT,other,0.020826039
+2008,MT,republican,0.322456256
+2008,NC,democrat,0.301701255
+2008,NC,did not vote,0.393
+2008,NC,other,0.005593717
+2008,NC,republican,0.299705028
+2008,ND,democrat,0.275308732
+2008,ND,did not vote,0.383
+2008,ND,other,0.013138149
+2008,ND,republican,0.328553119
+2008,NE,democrat,0.247093699
+2008,NE,did not vote,0.406
+2008,NE,other,0.011107092
+2008,NE,republican,0.335799209
+2008,NH,democrat,0.376723204
+2008,NH,did not vote,0.304
+2008,NH,other,0.009407654
+2008,NH,republican,0.309869142
+2008,NJ,democrat,0.333323838
+2008,NJ,did not vote,0.418
+2008,NJ,other,0.005959267
+2008,NJ,republican,0.242716895
+2008,NM,democrat,0.313560216
+2008,NM,did not vote,0.449
+2008,NM,other,0.007237302
+2008,NM,republican,0.230202482
+2008,NV,democrat,0.266909911
+2008,NV,did not vote,0.516
+2008,NV,other,0.010644171
+2008,NV,republican,0.206445917
+2008,NY,democrat,0.309206782
+2008,NY,did not vote,0.486
+2008,NY,other,0.043822619
+2008,NY,republican,0.160970599
+2008,OH,democrat,0.335292798
+2008,OH,did not vote,0.349
+2008,OH,other,0.010319337
+2008,OH,republican,0.305387865
+2008,OK,democrat,0.181393972
+2008,OK,did not vote,0.472
+2008,OK,republican,0.346606028
+2008,OR,democrat,0.355815015
+2008,OR,did not vote,0.373
+2008,OR,other,0.01787083
+2008,OR,republican,0.253314155
+2008,PA,democrat,0.333996287
+2008,PA,did not vote,0.387
+2008,PA,other,0.008259682
+2008,PA,republican,0.270744032
+2008,RI,democrat,0.358953466
+2008,RI,did not vote,0.429
+2008,RI,other,0.01186623
+2008,RI,republican,0.200180303
+2008,SC,democrat,0.248277977
+2008,SC,did not vote,0.447
+2008,SC,other,0.006800772
+2008,SC,republican,0.297921251
+2008,SD,democrat,0.283698713
+2008,SD,did not vote,0.366
+2008,SD,other,0.013273377
+2008,SD,republican,0.33702791
+2008,TN,democrat,0.227965532
+2008,TN,did not vote,0.455
+2008,TN,other,0.006946067
+2008,TN,republican,0.310088401
+2008,TX,democrat,0.198758203
+2008,TX,did not vote,0.545
+2008,TX,other,0.003933557
+2008,TX,republican,0.25230824
+2008,UT,democrat,0.178221763
+2008,UT,did not vote,0.482
+2008,UT,other,0.015593792
+2008,UT,republican,0.324184445
+2008,VA,democrat,0.325250124
+2008,VA,did not vote,0.382
+2008,VA,other,0.006427382
+2008,VA,republican,0.286322494
+2008,VT,democrat,0.445207509
+2008,VT,did not vote,0.34
+2008,VT,other,0.013827581
+2008,VT,republican,0.20096491
+2008,WA,democrat,0.34764694
+2008,WA,did not vote,0.397
+2008,WA,other,0.011280941
+2008,WA,republican,0.244072119
+2008,WI,democrat,0.389589261
+2008,WI,did not vote,0.307
+2008,WI,other,0.010177058
+2008,WI,republican,0.293233681
+2008,WV,democrat,0.209115674
+2008,WV,did not vote,0.509
+2008,WV,other,0.008346541
+2008,WV,republican,0.273537785
+2008,WY,democrat,0.197982817
+2008,WY,did not vote,0.391
+2008,WY,other,0.016910296
+2008,WY,republican,0.394106887
+2012,AK,democrat,0.225694005
+2012,AK,did not vote,0.447
+2012,AK,other,0.024253272
+2012,AK,republican,0.303052723
+2012,AL,democrat,0.214810585
+2012,AL,did not vote,0.44
+2012,AL,other,0.00613281
+2012,AL,republican,0.339056605
+2012,AR,democrat,0.175912784
+2012,AR,did not vote,0.523
+2012,AR,other,0.012182931
+2012,AR,republican,0.288904285
+2012,AZ,democrat,0.207342416
+2012,AZ,did not vote,0.535
+2012,AZ,other,0.008164004
+2012,AZ,republican,0.249493579
+2012,CA,democrat,0.271677706
+2012,CA,did not vote,0.549
+2012,CA,other,0.011909387
+2012,CA,republican,0.167412907
+2012,CO,democrat,0.332124861
+2012,CO,did not vote,0.355
+2012,CO,other,0.015355398
+2012,CO,republican,0.297519741
+2012,CT,democrat,0.322952674
+2012,CT,did not vote,0.444
+2012,CT,other,0.006504491
+2012,CT,republican,0.226542835
+2012,DC,democrat,0.504567782
+2012,DC,did not vote,0.445
+2012,DC,other,0.0100377
+2012,DC,republican,0.040394517
+2012,DE,democrat,0.338770089
+2012,DE,did not vote,0.422
+2012,DE,other,0.00813046
+2012,DE,republican,0.231099452
+2012,FL,democrat,0.275543337
+2012,FL,did not vote,0.449
+2012,FL,other,0.004744976
+2012,FL,republican,0.270711687
+2012,GA,democrat,0.238006629
+2012,GA,did not vote,0.477
+2012,GA,other,0.006081434
+2012,GA,republican,0.278911937
+2012,HI,democrat,0.27989025
+2012,HI,did not vote,0.601
+2012,HI,other,0.00865798
+2012,HI,republican,0.110451769
+2012,IA,democrat,0.348839591
+2012,IA,did not vote,0.329
+2012,IA,other,0.012306911
+2012,IA,republican,0.309853498
+2012,ID,democrat,0.181380175
+2012,ID,did not vote,0.444
+2012,ID,other,0.015834229
+2012,ID,republican,0.358785596
+2012,IL,democrat,0.307019381
+2012,IL,did not vote,0.467
+2012,IL,other,0.008875108
+2012,IL,republican,0.217105511
+2012,IN,democrat,0.232375432
+2012,IN,did not vote,0.471
+2012,IN,other,0.010300501
+2012,IN,republican,0.286324066
+2012,KS,democrat,0.203270952
+2012,KS,did not vote,0.465
+2012,KS,other,0.012273484
+2012,KS,republican,0.319455564
+2012,KY,democrat,0.201859091
+2012,KY,did not vote,0.466
+2012,KY,other,0.009107533
+2012,KY,republican,0.323033376
+2012,LA,democrat,0.231291543
+2012,LA,did not vote,0.43
+2012,LA,other,0.009336376
+2012,LA,republican,0.329372082
+2012,MA,democrat,0.363236616
+2012,MA,did not vote,0.398
+2012,MA,other,0.014102268
+2012,MA,republican,0.224661116
+2012,MD,democrat,0.368746435
+2012,MD,did not vote,0.405
+2012,MD,other,0.012662057
+2012,MD,republican,0.213591507
+2012,ME,democrat,0.370985929
+2012,ME,did not vote,0.33
+2012,ME,other,0.028820544
+2012,ME,republican,0.270193527
+2012,MI,democrat,0.336090866
+2012,MI,did not vote,0.38
+2012,MI,other,0.006701455
+2012,MI,republican,0.277207679
+2012,MN,democrat,0.375937445
+2012,MN,did not vote,0.286
+2012,MN,other,0.017061
+2012,MN,republican,0.321001556
+2012,MO,democrat,0.264525562
+2012,MO,did not vote,0.404
+2012,MO,other,0.011042541
+2012,MO,republican,0.320431897
+2012,MS,democrat,0.250475137
+2012,MS,did not vote,0.428
+2012,MS,other,0.00528982
+2012,MS,republican,0.316235043
+2012,MT,democrat,0.256860526
+2012,MT,did not vote,0.384
+2012,MT,other,0.018174016
+2012,MT,republican,0.340965458
+2012,NC,democrat,0.290589321
+2012,NC,did not vote,0.399
+2012,NC,other,0.007548364
+2012,NC,republican,0.302862315
+2012,ND,democrat,0.227153215
+2012,ND,did not vote,0.413
+2012,ND,other,0.017533728
+2012,ND,republican,0.342313057
+2012,NE,democrat,0.216375419
+2012,NE,did not vote,0.431
+2012,NE,other,0.012344417
+2012,NE,republican,0.340280163
+2012,NH,democrat,0.352422259
+2012,NH,did not vote,0.322
+2012,NH,other,0.010960001
+2012,NH,republican,0.31461774
+2012,NJ,democrat,0.310381328
+2012,NJ,did not vote,0.468
+2012,NJ,other,0.005501307
+2012,NJ,republican,0.216117365
+2012,NM,democrat,0.263903947
+2012,NM,did not vote,0.502
+2012,NM,other,0.020736286
+2012,NM,republican,0.213359767
+2012,NV,democrat,0.252357122
+2012,NV,did not vote,0.518
+2012,NV,other,0.009487856
+2012,NV,republican,0.220155021
+2012,NY,democrat,0.280108137
+2012,NY,did not vote,0.539
+2012,NY,other,0.036868099
+2012,NY,republican,0.144023764
+2012,OH,democrat,0.317680508
+2012,OH,did not vote,0.373
+2012,OH,other,0.010312968
+2012,OH,republican,0.299006524
+2012,OK,democrat,0.15384416
+2012,OK,did not vote,0.537
+2012,OK,republican,0.30915584
+2012,OR,democrat,0.318384847
+2012,OR,did not vote,0.413
+2012,OR,other,0.021195409
+2012,OR,republican,0.247419744
+2012,PA,democrat,0.297879626
+2012,PA,did not vote,0.428
+2012,PA,other,0.00710582
+2012,PA,republican,0.267014554
+2012,RI,democrat,0.33482312
+2012,RI,did not vote,0.466
+2012,RI,other,0.010975727
+2012,RI,republican,0.188201153
+2012,SC,democrat,0.236311859
+2012,SC,did not vote,0.464
+2012,SC,other,0.007240477
+2012,SC,republican,0.292447664
+2012,SD,democrat,0.229628971
+2012,SD,did not vote,0.424
+2012,SD,other,0.012928593
+2012,SD,republican,0.333442436
+2012,TN,democrat,0.193034526
+2012,TN,did not vote,0.506
+2012,TN,other,0.007140623
+2012,TN,republican,0.293824851
+2012,TX,democrat,0.172568604
+2012,TX,did not vote,0.583
+2012,TX,other,0.0060451
+2012,TX,republican,0.238386296
+2012,UT,democrat,0.127213282
+2012,UT,did not vote,0.486
+2012,UT,other,0.012643377
+2012,UT,republican,0.37414334
+2012,VA,democrat,0.310519693
+2012,VA,did not vote,0.393
+2012,VA,other,0.009471873
+2012,VA,republican,0.287008435
+2012,VT,democrat,0.39676048
+2012,VT,did not vote,0.404
+2012,VT,other,0.014642614
+2012,VT,republican,0.184596906
+2012,WA,democrat,0.329117514
+2012,WA,did not vote,0.414
+2012,WA,other,0.014896004
+2012,WA,republican,0.241986482
+2012,WI,democrat,0.36679433
+2012,WI,did not vote,0.305
+2012,WI,other,0.008934161
+2012,WI,republican,0.31927151
+2012,WV,democrat,0.161703834
+2012,WV,did not vote,0.545
+2012,WV,other,0.009850083
+2012,WV,republican,0.283446083
+2012,WY,democrat,0.15587215
+2012,WY,did not vote,0.436
+2012,WY,other,0.023516029
+2012,WY,republican,0.38461182
+2016,AK,democrat,0.209802001
+2016,AK,did not vote,0.426
+2016,AK,other,0.069842119
+2016,AK,republican,0.294355879
+2016,AL,democrat,0.193435235
+2016,AL,did not vote,0.437
+2016,AL,other,0.020036955
+2016,AL,republican,0.34952781
+2016,AR,democrat,0.166246433
+2016,AR,did not vote,0.506
+2016,AR,other,0.028517502
+2016,AR,republican,0.299236065
+2016,AZ,democrat,0.220674228
+2016,AZ,did not vote,0.511
+2016,AZ,other,0.030321567
+2016,AZ,republican,0.238004205
+2016,CA,democrat,0.290114078
+2016,CA,did not vote,0.53
+2016,CA,other,0.031285521
+2016,CA,republican,0.148600401
+2016,CO,democrat,0.311094093
+2016,CO,did not vote,0.354
+2016,CO,other,0.05550188
+2016,CO,republican,0.279404027
+2016,CT,democrat,0.318121535
+2016,CT,did not vote,0.417
+2016,CT,other,0.026274554
+2016,CT,republican,0.238603911
+2016,DC,democrat,0.501280717
+2016,DC,did not vote,0.446
+2016,DC,other,0.030169361
+2016,DC,republican,0.022549922
+2016,DE,democrat,0.315851754
+2016,DE,did not vote,0.408
+2016,DE,other,0.027965126
+2016,DE,republican,0.24818312
+2016,FL,democrat,0.272114667
+2016,FL,did not vote,0.431
+2016,FL,other,0.017950486
+2016,FL,republican,0.278934847
+2016,GA,democrat,0.240066312
+2016,GA,did not vote,0.474
+2016,GA,other,0.018876512
+2016,GA,republican,0.267057175
+2016,HI,democrat,0.233556457
+2016,HI,did not vote,0.617
+2016,HI,other,0.036689465
+2016,HI,republican,0.112754078
+2016,IA,democrat,0.271808863
+2016,IA,did not vote,0.349
+2016,IA,other,0.046126118
+2016,IA,republican,0.333065019
+2016,ID,democrat,0.151206076
+2016,ID,did not vote,0.45
+2016,ID,other,0.072856046
+2016,ID,republican,0.325937878
+2016,IL,democrat,0.313180307
+2016,IL,did not vote,0.439
+2016,IL,other,0.030366258
+2016,IL,republican,0.217453435
+2016,IN,democrat,0.203984134
+2016,IN,did not vote,0.46
+2016,IN,other,0.028539685
+2016,IN,republican,0.307476181
+2016,KS,democrat,0.194682802
+2016,KS,did not vote,0.46
+2016,KS,other,0.039382456
+2016,KS,republican,0.305934742
+2016,KY,democrat,0.183347077
+2016,KY,did not vote,0.439
+2016,KY,other,0.026917751
+2016,KY,republican,0.350735172
+2016,LA,democrat,0.218393535
+2016,LA,did not vote,0.432
+2016,LA,other,0.019662736
+2016,LA,republican,0.329943729
+2016,MA,democrat,0.360795898
+2016,MA,did not vote,0.389
+2016,MA,other,0.052935403
+2016,MA,republican,0.197268699
+2016,MD,democrat,0.358954864
+2016,MD,did not vote,0.405
+2016,MD,other,0.034229368
+2016,MD,republican,0.201815768
+2016,ME,democrat,0.321635786
+2016,ME,did not vote,0.306
+2016,ME,other,0.070636068
+2016,ME,republican,0.301728146
+2016,MI,democrat,0.293102092
+2016,MI,did not vote,0.38
+2016,MI,other,0.03241301
+2016,MI,republican,0.294484898
+2016,MN,democrat,0.322328536
+2016,MN,did not vote,0.306
+2016,MN,other,0.059890624
+2016,MN,republican,0.31178084
+2016,MO,democrat,0.227285976
+2016,MO,did not vote,0.404
+2016,MO,other,0.030350831
+2016,MO,republican,0.338363193
+2016,MS,democrat,0.213811821
+2016,MS,did not vote,0.467
+2016,MS,other,0.010362445
+2016,MS,republican,0.308825733
+2016,MT,democrat,0.21848613
+2016,MT,did not vote,0.392
+2016,MT,other,0.046199423
+2016,MT,republican,0.343314447
+2016,NC,democrat,0.277960654
+2016,NC,did not vote,0.398
+2016,NC,other,0.024074216
+2016,NC,republican,0.29996513
+2016,ND,democrat,0.161454565
+2016,ND,did not vote,0.407
+2016,ND,other,0.058218562
+2016,ND,republican,0.373326873
+2016,NE,democrat,0.198148687
+2016,NE,did not vote,0.412
+2016,NE,other,0.044416888
+2016,NE,republican,0.345434425
+2016,NH,democrat,0.323569475
+2016,NH,did not vote,0.309
+2016,NH,other,0.046401136
+2016,NH,republican,0.321029389
+2016,NJ,democrat,0.30887368
+2016,NJ,did not vote,0.443
+2016,NJ,other,0.017804666
+2016,NJ,republican,0.230321654
+2016,NM,democrat,0.242243349
+2016,NM,did not vote,0.498
+2016,NM,other,0.058743229
+2016,NM,republican,0.201013422
+2016,NV,democrat,0.236714049
+2016,NV,did not vote,0.506
+2016,NV,other,0.032512516
+2016,NV,republican,0.224773435
+2016,NY,democrat,0.278435267
+2016,NY,did not vote,0.504
+2016,NY,other,0.056907345
+2016,NY,republican,0.160657387
+2016,OH,democrat,0.265704265
+2016,OH,did not vote,0.39
+2016,OH,other,0.029001066
+2016,OH,republican,0.315294669
+2016,OK,democrat,0.141765233
+2016,OK,did not vote,0.51
+2016,OK,other,0.028152729
+2016,OK,republican,0.320082038
+2016,OR,democrat,0.308943327
+2016,OR,did not vote,0.383
+2016,OR,other,0.066846476
+2016,OR,republican,0.241210197
+2016,PA,democrat,0.291907059
+2016,PA,did not vote,0.39
+2016,PA,other,0.021767838
+2016,PA,republican,0.296325103
+2016,RI,democrat,0.297604138
+2016,RI,did not vote,0.453
+2016,RI,other,0.036623488
+2016,RI,republican,0.212772375
+2016,SC,democrat,0.220449935
+2016,SC,did not vote,0.458
+2016,SC,other,0.023778882
+2016,SC,republican,0.297771183
+2016,SD,democrat,0.179633843
+2016,SD,did not vote,0.434
+2016,SD,other,0.038102109
+2016,SD,republican,0.348264047
+2016,TN,democrat,0.168721377
+2016,TN,did not vote,0.514
+2016,TN,other,0.022169539
+2016,TN,republican,0.295109084
+2016,TX,democrat,0.18764102
+2016,TX,did not vote,0.566
+2016,TX,other,0.019660445
+2016,TX,republican,0.226698535
+2016,UT,democrat,0.144995498
+2016,UT,did not vote,0.472
+2016,UT,other,0.14254899
+2016,UT,republican,0.240455512
+2016,VA,democrat,0.302488225
+2016,VA,did not vote,0.392
+2016,VA,other,0.035391681
+2016,VA,republican,0.270120094
+2016,VT,democrat,0.347152683
+2016,VT,did not vote,0.377
+2016,VT,other,0.090446364
+2016,VT,republican,0.185400952
+2016,WA,democrat,0.306300505
+2016,WA,did not vote,0.417
+2016,WA,other,0.06196497
+2016,WA,republican,0.214734525
+2016,WI,democrat,0.30752443
+2016,WI,did not vote,0.338
+2016,WI,other,0.041891188
+2016,WI,republican,0.312584382
+2016,WV,democrat,0.130266486
+2016,WV,did not vote,0.508
+2016,WV,other,0.024071086
+2016,WV,republican,0.337662428
+2016,WY,democrat,0.123933602
+2016,WY,did not vote,0.427
+2016,WY,other,0.062873503
+2016,WY,republican,0.386192895
+2020,AK,democrat,0.279044217
+2020,AK,did not vote,0.3476
+2020,AK,other,0.028672357
+2020,AK,republican,0.344683427
+2020,AL,democrat,0.221394721
+2020,AL,did not vote,0.3946
+2020,AL,other,0.008465712
+2020,AL,republican,0.375539568
+2020,AR,democrat,0.181838799
+2020,AR,did not vote,0.4771
+2020,AR,other,0.01479393
+2020,AR,republican,0.326267271
+2020,AZ,democrat,0.288339158
+2020,AZ,did not vote,0.4159
+2020,AZ,other,0.009224857
+2020,AZ,republican,0.286535985
+2020,CA,democrat,0.360906238
+2020,CA,did not vote,0.4315
+2020,CA,other,0.012480448
+2020,CA,republican,0.195113314
+2020,CO,democrat,0.389863433
+2020,CO,did not vote,0.2913
+2020,CO,other,0.023988129
+2020,CO,republican,0.294848438
+2020,CT,democrat,0.3807502
+2020,CT,did not vote,0.3575
+2020,CT,other,0.009972565
+2020,CT,republican,0.251777235
+2020,DC,democrat,0.545157589
+2020,DC,did not vote,0.4084
+2020,DC,other,0.014511857
+2020,DC,republican,0.031930553
+2020,DE,democrat,0.379421074
+2020,DE,did not vote,0.3541
+2020,DE,other,0.009572997
+2020,DE,republican,0.256905929
+2020,FL,democrat,0.301957893
+2020,FL,did not vote,0.3691
+2020,FL,other,0.005796265
+2020,FL,republican,0.323145842
+2020,GA,democrat,0.299658299
+2020,GA,did not vote,0.3943
+2020,GA,other,0.007810322
+2020,GA,republican,0.298231379
+2020,HI,democrat,0.325535053
+2020,HI,did not vote,0.4845
+2020,HI,other,0.014928396
+2020,HI,republican,0.175036552
+2020,IA,democrat,0.309449971
+2020,IA,did not vote,0.3069
+2020,IA,other,0.017691859
+2020,IA,republican,0.36595817
+2020,ID,democrat,0.207293275
+2020,ID,did not vote,0.3731
+2020,ID,other,0.019409031
+2020,ID,republican,0.400197694
+2020,IL,democrat,0.353075536
+2020,IL,did not vote,0.3864
+2020,IL,other,0.01168849
+2020,IL,republican,0.248835974
+2020,IN,democrat,0.238274075
+2020,IN,did not vote,0.4183
+2020,IN,other,0.01173385
+2020,IN,republican,0.331692075
+2020,KS,democrat,0.256796481
+2020,KS,did not vote,0.3821
+2020,KS,other,0.013766402
+2020,KS,republican,0.347337117
+2020,KY,democrat,0.222006452
+2020,KY,did not vote,0.3859
+2020,KY,other,0.01081991
+2020,KY,republican,0.381273638
+2020,LA,democrat,0.240623096
+2020,LA,did not vote,0.3962
+2020,LA,other,0.010190096
+2020,LA,republican,0.352986808
+2020,MA,democrat,0.424862346
+2020,MA,did not vote,0.3476
+2020,MA,other,0.019368834
+2020,MA,republican,0.20816882
+2020,MD,democrat,0.41974619
+2020,MD,did not vote,0.3578
+2020,MD,other,0.015984638
+2020,MD,republican,0.206469172
+2020,ME,democrat,0.389687273
+2020,ME,did not vote,0.2581
+2020,ME,other,0.029106165
+2020,ME,republican,0.323106561
+2020,MI,democrat,0.356269319
+2020,MI,did not vote,0.2962
+2020,MI,other,0.010851829
+2020,MI,republican,0.336678852
+2020,MN,democrat,0.392124923
+2020,MN,did not vote,0.2516
+2020,MN,other,0.017362568
+2020,MN,republican,0.338912509
+2020,MO,democrat,0.261330822
+2020,MO,did not vote,0.3689
+2020,MO,other,0.011306551
+2020,MO,republican,0.358462628
+2020,MS,democrat,0.236656044
+2020,MS,did not vote,0.4236
+2020,MS,other,0.007720526
+2020,MS,republican,0.33202343
+2020,MT,democrat,0.288346566
+2020,MT,did not vote,0.2889
+2020,MT,other,0.0180062
+2020,MT,republican,0.404747235
+2020,NC,democrat,0.322272343
+2020,NC,did not vote,0.3367
+2020,NC,other,0.00981323
+2020,NC,republican,0.331214427
+2020,ND,democrat,0.196542602
+2020,ND,did not vote,0.3811
+2020,ND,other,0.01936655
+2020,ND,republican,0.402990848
+2020,NE,democrat,0.254857268
+2020,NE,did not vote,0.3493
+2020,NE,other,0.016978102
+2020,NE,republican,0.378864631
+2020,NH,democrat,0.380234252
+2020,NH,did not vote,0.2786
+2020,NH,other,0.013965692
+2020,NH,republican,0.327200056
+2020,NJ,democrat,0.375194984
+2020,NJ,did not vote,0.3456
+2020,NJ,other,0.008306164
+2020,NJ,republican,0.270898852
+2020,NM,democrat,0.306951622
+2020,NM,did not vote,0.4346
+2020,NM,other,0.01251821
+2020,NM,republican,0.245930168
+2020,NV,democrat,0.287025588
+2020,NV,did not vote,0.4266
+2020,NV,other,0.01305615
+2020,NV,republican,0.273318262
+2020,NY,democrat,0.338496513
+2020,NY,did not vote,0.4395
+2020,NY,other,0.012032935
+2020,NY,republican,0.209970552
+2020,OH,democrat,0.292969955
+2020,OH,did not vote,0.3524
+2020,OH,other,0.009645105
+2020,OH,republican,0.344984939
+2020,OK,democrat,0.166209225
+2020,OK,did not vote,0.4852
+2020,OK,other,0.012049171
+2020,OK,republican,0.336541603
+2020,OR,democrat,0.393536084
+2020,OR,did not vote,0.3029
+2020,OR,other,0.022163843
+2020,OR,republican,0.281400072
+2020,PA,democrat,0.339507677
+2020,PA,did not vote,0.3211
+2020,PA,other,0.007793041
+2020,PA,republican,0.331599282
+2020,RI,democrat,0.359117288
+2020,RI,did not vote,0.3962
+2020,RI,other,0.011190955
+2020,RI,republican,0.233491757
+2020,SC,democrat,0.265059799
+2020,SC,did not vote,0.3895
+2020,SC,other,0.0090945
+2020,SC,republican,0.336345701
+2020,SD,democrat,0.222924484
+2020,SD,did not vote,0.3739
+2020,SD,other,0.016437368
+2020,SD,republican,0.386738149
+2020,TN,democrat,0.212124924
+2020,TN,did not vote,0.4336
+2020,TN,other,0.01069517
+2020,TN,republican,0.343579906
+2020,TX,democrat,0.238437321
+2020,TX,did not vote,0.487
+2020,TX,other,0.007507173
+2020,TX,republican,0.267055506
+2020,UT,democrat,0.239090055
+2020,UT,did not vote,0.3649
+2020,UT,other,0.026827338
+2020,UT,republican,0.369182608
+2020,VA,democrat,0.358746099
+2020,VA,did not vote,0.337
+2020,VA,other,0.012563712
+2020,VA,republican,0.291690189
+2020,VT,democrat,0.47003796
+2020,VT,did not vote,0.2819
+2020,VT,other,0.029895669
+2020,VT,republican,0.218166371
+2020,WA,democrat,0.390372008
+2020,WA,did not vote,0.3266
+2020,WA,other,0.021971164
+2020,WA,republican,0.261056828
+2020,WI,democrat,0.35554217
+2020,WI,did not vote,0.281
+2020,WI,other,0.012424506
+2020,WI,republican,0.351033324
+2020,WV,democrat,0.165944161
+2020,WV,did not vote,0.4412
+2020,WV,other,0.009342727
+2020,WV,republican,0.383513112
+2020,WY,democrat,0.163050627
+2020,WY,did not vote,0.3821
+2020,WY,other,0.02541017
+2020,WY,republican,0.429439202
