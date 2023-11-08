@@ -60,7 +60,7 @@ export default function SeabornLib() {
             <Link to={'/40-basic-scatterplot-seaborn'}>
               <ChartImage
                 imgName="40_Basic_Scatterplot_seaborn"
-                caption="Basic boxplot with Python and Seaborn from various data input formats."
+                caption="Basic scatterplot with Python and Seaborn from various data input formats."
               />
             </Link>
           </Col>
