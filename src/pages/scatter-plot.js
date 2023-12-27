@@ -523,6 +523,16 @@ export default function ScatterPlot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={4}>
+            <Link to={'/web-scatterplot-with-categorical-zoom-facets'}>
+              <ChartImage
+                imgName={'web-scatterplot-with-categorical-zoom-facets'}
+                caption={
+                  'A lattice of scatter plots, with data excerpted by category from a main joint axes onto faceted zoom grids'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
