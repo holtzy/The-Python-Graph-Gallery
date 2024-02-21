@@ -1,13 +1,13 @@
 name: 'Update Ads.txt file'
 
-#  on:
-#   schedule:
-#     - cron: "0 0 * * *"
+ on:
+  schedule:
+    - cron: "0 0 * * *"
 
-on:
-  push:
-    branches:
-      - '*'
+# on:
+#   push:
+#     branches:
+#       - '*'
 
 jobs:
   update-ads-txt:
