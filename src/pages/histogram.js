@@ -40,8 +40,8 @@ const quickCode = `# library & dataset
 import seaborn as sns
 df = sns.load_dataset('iris')
 
-# Plot the histogram thanks to the distplot function
-sns.distplot( a=df["sepal_length"], hist=True, kde=False, rug=False )
+# Plot the histogram thanks to the displot function
+sns.displot( data=df["sepal_length"], kde=True )
 `;
 
 const quickCodeMatplotlib = `# library & dataset
@@ -87,7 +87,7 @@ export default function Histogram() {
           <Col md={6}>
             <p>
               <code>Seaborn</code> is definitely the best library to quickly
-              build a histogram thanks to its <code>distplot()</code>.
+              build a histogram thanks to its <code>displot()</code>.
             </p>
             <p>
               Note the importance of the <code>bins</code> parameter: try
@@ -116,7 +116,7 @@ export default function Histogram() {
         <p>
           <code>Seaborn</code> is a python library allowing to make better
           charts easily. It is well adapted to build histogram thanks to its{' '}
-          <code>distplot</code> function. The following charts will guide you
+          <code>displot</code> function. The following charts will guide you
           through its usage, going from a very{' '}
           <Link to="">basic histogram</Link> to something much more{' '}
           <Link to="">customized</Link>.
