@@ -168,6 +168,11 @@ export default function Barplot() {
             caption="Highly customized barplot with colors, legend, labels and more."
             linkTo="/10-barplot-with-number-of-observation"
           />
+          <ChartImageContainer
+            imgName="web-tornado-chart"
+            caption="Tornado chart with annotations"
+            linkTo="/web-tornado-chart"
+          />
         </Row>
       </Container>
 
