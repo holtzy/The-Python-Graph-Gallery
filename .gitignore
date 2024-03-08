@@ -158,3 +158,4 @@ dmypy.json
 # large datasets for geopandas that is too large to be tracked
 # download from https://www.naturalearthdata.com/downloads/110m-cultural-vectors/
 ne_110m_admin_0_countries/
+ne_110m_admin_0_countries.zip
