@@ -32,12 +32,14 @@ export default function Arc() {
             Python library to build arc diagrams: <code>arcplot</code>
           </h2>
           <p>
-            <a href='https://github.com/szkics/arcplot'>arcplot</a> is a Python library that offers a simple way to
-            build arc diagrams. It allows to build <b>static arc diagrams</b> with just
-            a few lines of code. It is a good choice if you are looking for a
-            simple and quick solution.
+            <a href="https://github.com/szkics/arcplot">Arcplot</a> is a Python
+            library that offers a simple way to build arc diagrams. It allows to
+            build <b>static arc diagrams</b> with just a few lines of code. It
+            is a good choice if you are looking for a simple and quick solution.
           </p>
-          <p><b>Warning</b>: you need Python 3.10 to use this library.</p>
+          <p>
+            <b>Warning</b>: you need Python 3.10 to use this library.
+          </p>
           <Row>
             <ChartImageContainer
               imgName="565-arc-diagram-with-arcplot-1"
