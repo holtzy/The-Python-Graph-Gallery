@@ -3,6 +3,8 @@ import TitleAndDescription from '../components/TitleAndDescription';
 import Layout from '../components/Layout';
 import Container from 'react-bootstrap/Container';
 import Contact from '../components/Contact';
+import Row from 'react-bootstrap/Row';
+import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import Spacing from '../components/Spacing';
 import { Button } from 'react-bootstrap';
@@ -24,31 +26,40 @@ export default function Arc() {
     <Layout isTocEnabled>
       <TitleAndDescription title="Arc diagram" description={chartDescription} />
 
-      <div className="greySection" id="related">
+      <div id="related">
         <Container>
           <h2 id="Python">
-            😞 Sadness and Despair for Arc diagrams with <code>Python</code>.
+            Python library to build arc diagrams: <code>arcplot</code>
           </h2>
           <p>
-            As far as I know, there isn't any proper way to build an arc diagram
-            with python 😞. If you're aware of any tip to build it, please let
-            me knwo! My contact is provided below 🙏🏽.
+            <a href='https://github.com/szkics/arcplot'>arcplot</a> is a Python library that offers a simple way to
+            build arc diagrams. It allows to build <b>static arc diagrams</b> with just
+            a few lines of code. It is a good choice if you are looking for a
+            simple and quick solution.
           </p>
-          <p>You now have 3 options!</p>
-          <ul>
-            <li>
-              Use an alternative chart type. See the <code>related chart</code>{' '}
-              section below.
-            </li>
-            <li>
-              Use <code>R</code> or <code>D3.js</code> instead of{' '}
-              <code>python</code>, links are provided below as well.
-            </li>
-            <li>
-              Build a Python library allowing to build them! I would love to
-              share it here! 😊
-            </li>
-          </ul>
+          <p><b>Warning</b>: you need Python 3.10 to use this library.</p>
+          <Row>
+            <ChartImageContainer
+              imgName="565-arc-diagram-with-arcplot-1"
+              caption="Most basic arc diagram"
+              linkTo="/565-arc-diagram-with-arcplot"
+            />
+            <ChartImageContainer
+              imgName="565-arc-diagram-with-arcplot-2"
+              caption="Custom theme and background color"
+              linkTo="/565-arc-diagram-with-arcplot"
+            />
+            <ChartImageContainer
+              imgName="565-arc-diagram-with-arcplot-3"
+              caption="Custom the width of the arcs"
+              linkTo="/565-arc-diagram-with-arcplot"
+            />
+            <ChartImageContainer
+              imgName="565-arc-diagram-with-arcplot-4"
+              caption="Custom the position of the arcs"
+              linkTo="/565-arc-diagram-with-arcplot"
+            />
+          </Row>
         </Container>
       </div>
       <Spacing />
