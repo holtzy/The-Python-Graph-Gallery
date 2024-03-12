@@ -406,6 +406,16 @@ export default function Barplot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-barplot-with-annotations-and-arrows'}>
+              <ChartImage
+                imgName={'web-barplot-with-annotations-and-arrows'}
+                caption={
+                  'Barplot with annotations and arrows to highlight specific bars.'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
