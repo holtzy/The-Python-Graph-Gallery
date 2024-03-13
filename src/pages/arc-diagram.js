@@ -40,8 +40,13 @@ export default function Arc() {
           <p><b>Warning</b>: you need Python 3.10 to use this library.</p>
           <Row>
             <ChartImageContainer
-              imgName="565-arc-diagram-with-arcplot-1"
+              imgName="565-arc-diagram-with-arcplot-0"
               caption="Most basic arc diagram"
+              linkTo="/565-arc-diagram-with-arcplot"
+            />
+            <ChartImageContainer
+              imgName="565-arc-diagram-with-arcplot-1"
+              caption="Custom edge color in arc diagram"
               linkTo="/565-arc-diagram-with-arcplot"
             />
             <ChartImageContainer
