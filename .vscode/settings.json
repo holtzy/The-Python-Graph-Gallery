@@ -2,5 +2,9 @@
   "editor.formatOnSave": true,
   "editor.wordWrapColumn": 150,
   "jupyter.jupyterServerType": "local",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "notebook.formatOnCellExecution": true,
+  "notebook.formatOnSave.enabled": true
 }
