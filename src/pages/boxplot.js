@@ -271,6 +271,16 @@ export default function Boxplot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/raincloud-plot-with-matplotlib-and-ptitprince'}>
+              <ChartImage
+                imgName={'raincloud-plot-with-matplotlib-and-ptitprince'}
+                caption={
+                  'Combining boxplot and density chart. A great way to display the distribution of a variable for several groups.'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 

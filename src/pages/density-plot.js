@@ -193,6 +193,11 @@ export default function DensityPlot() {
             caption="Read a csv file and plot the density of a column"
             linkTo="/density-chart-matplotlib"
           />
+          <ChartImageContainer
+            imgName="raincloud-plot-with-matplotlib-and-ptitprince"
+            caption="Combining density and boxplot"
+            linkTo="/raincloud-plot-with-matplotlib-and-ptitprince"
+          />
         </Row>
       </Container>
 
