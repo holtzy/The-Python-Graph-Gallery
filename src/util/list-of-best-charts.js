@@ -20,6 +20,16 @@ export const listOfBestCharts = [
   },
 
   {
+    link: 'web-map-europe-with-color-by-country',
+    title: 'Choropleth map with gradient color',
+    description:
+      'A choropleth map with a gradient color scale to visualize the number of people with cancer in European countries.',
+    img: 'web-map-europe-with-color-by-country.png',
+    alt: 'Choropleth map with gradient color',
+    author: 'Joseph Barbier',
+  },
+
+  {
     link: '532-customizing-circular-barplot-in-matplotlib',
     title: 'Ordered & Mirrored barplot',
     description:
