@@ -409,7 +409,7 @@ export default function Barplot() {
           <Col xs={12} md={6}>
             <Link to={'/web-barplot-with-annotations-and-arrows'}>
               <ChartImage
-                imgName={'web-barplot-with-annotations-and-arrows'}
+                imgName={'web-barplot-with-annotations-and-arrows-square'}
                 caption={
                   'Barplot with annotations and arrows to highlight specific bars.'
                 }
