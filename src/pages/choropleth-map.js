@@ -108,6 +108,33 @@ export default function Choropleth() {
 
       <Spacing />
 
+      <Container>
+        <h2 id="Matplotlib">
+          <code>Matplotlib</code> for static choropleth maps
+        </h2>
+        <p>
+          <a href='https://python-graph-gallery.com/matplotlib/'>Matplotlib</a> allows to build static choropleth maps with
+          the <code>geopandas</code> library. The below example shows how to
+          build a choropleth map of European countries with <code>geopandas</code>
+          and <code>matplotlib</code>.
+        </p>
+        <div style={{ margin: '0 auto', padding: 0 }}>
+          <Link to="/web-map-europe-with-color-by-country">
+            <ChartImage
+              imgName={'web-map-europe-with-color-by-country'}
+              caption={
+                'Choropleth map of European counties with Matplotlib and Geopandas'
+              }
+            />
+          </Link>
+        </div>
+        <Link to="/web-map-europe-with-color-by-country">
+          <Button size="xl">Read post</Button>
+        </Link>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="map" />
