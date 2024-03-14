@@ -168,6 +168,11 @@ export default function Barplot() {
             caption="Highly customized barplot with colors, legend, labels and more."
             linkTo="/10-barplot-with-number-of-observation"
           />
+          <ChartImageContainer
+            imgName="web-tornado-chart"
+            caption="Tornado chart with annotations"
+            linkTo="/web-tornado-chart"
+          />
         </Row>
       </Container>
 
@@ -402,6 +407,16 @@ export default function Barplot() {
                 imgName={'web-ordered-mirror-barplot'}
                 caption={
                   'Mirror barplot with data points and annotations on top.'
+                }
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-tornado-chart'}>
+              <ChartImage
+                imgName={'web-tornado-chart'}
+                caption={
+                  'Tornado with custom title and colors'
                 }
               />
             </Link>
