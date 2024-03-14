@@ -48,6 +48,11 @@ export default function RidgelinePlot() {
             caption="Ridgeline chart with python, matplotlib and seaborn."
             linkTo="/ridgeline-graph-seaborn"
           />
+          <ChartImageContainer
+            imgName="raincloud-plot-with-matplotlib-and-ptitprince"
+            caption="Combining multiple density charts with boxplots and raincloud plots"
+            linkTo="/raincloud-plot-with-matplotlib-and-ptitprince"
+          />
         </Row>
       </Container>
 
