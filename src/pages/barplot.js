@@ -412,15 +412,25 @@ export default function Barplot() {
             </Link>
           </Col>
           <Col xs={12} md={6}>
-            <Link to={'/web-tornado-chart'}>
+            <Link to={'/web-barplot-with-annotations-and-arrows'}>
               <ChartImage
-                imgName={'web-tornado-chart'}
+                imgName={'web-barplot-with-annotations-and-arrows-square'}
                 caption={
-                  'Tornado with custom title and colors'
+                  'Barplot with annotations and arrows to highlight specific bars.'
                 }
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+              <Link to={'/web-tornado-chart'}>
+                <ChartImage
+                  imgName={'web-tornado-chart'}
+                  caption={
+                    'Tornado with custom title and colors'
+                  }
+               />
+             </Link>
+           </Col>
         </Row>
       </Container>
 

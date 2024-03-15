@@ -290,4 +290,13 @@ export const listOfBestCharts = [
     alt: 'Line chart with small multiple and all groups faded out',
     author: 'G. Fontana',
   },
+  {
+    link: 'web-barplot-with-annotations-and-arrows',
+    title: 'Barplot with annotations and arrows',
+    description:
+      'A barplot with annotations and arrows to highlight the most important features of the data',
+    img: 'web-barplot-with-annotations-and-arrows-square.png',
+    alt: 'Line chart with small multiple and all groups faded out',
+    author: 'J. Barbier',
+  },
 ];
