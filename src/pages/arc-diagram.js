@@ -42,8 +42,13 @@ export default function Arc() {
           </p>
           <Row>
             <ChartImageContainer
-              imgName="565-arc-diagram-with-arcplot-1"
+              imgName="565-arc-diagram-with-arcplot-0"
               caption="Most basic arc diagram"
+              linkTo="/565-arc-diagram-with-arcplot"
+            />
+            <ChartImageContainer
+              imgName="565-arc-diagram-with-arcplot-1"
+              caption="Custom colors of edges"
               linkTo="/565-arc-diagram-with-arcplot"
             />
             <ChartImageContainer
