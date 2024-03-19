@@ -360,6 +360,11 @@ export default function ScatterPlot() {
             caption="How to add an img into a matplotlib chart"
             linkTo="/513-add-logo-matplotlib"
           />
+          <ChartImageContainer
+            imgName="how-to-custom-annotations-matplotlib"
+            caption="Link title and scatter plot with custom annotations"
+            linkTo="/how-to-custom-annotations-matplotlib"
+          />
         </Row>
       </Container>
 

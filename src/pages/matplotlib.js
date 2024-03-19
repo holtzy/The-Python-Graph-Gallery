@@ -332,6 +332,11 @@ export default function Matplotlibs() {
             caption="How to add an img into a matplotlib chart"
             linkTo="/513-add-logo-matplotlib"
           />
+          <ChartImageContainer
+            imgName="how-to-custom-annotations-matplotlib"
+            caption="How to customize color and style of the annotation"
+            linkTo="/how-to-custom-annotations-matplotlib"
+          />
         </Row>
       </Container>
 
