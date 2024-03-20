@@ -76,14 +76,12 @@ export default function Arc() {
           Arc diagram with <code>R</code> or <code>Javascript</code>
         </h2>
         <p>
-          Contrary to <code>python</code> that is not of much help to build an
-          arc diagram, <code>R</code> and <code>Javascript</code> both offer
-          built-in functions to make them. <code>R</code> will be more adapted
-          if you're a data analyst and are happy with a static version.{' '}
-          <code>Javascript</code> and the
-          <code>d3.js</code> library offers more customization and interactivity
-          options, but comes with a steeper learning curve and a lot of line of
-          code. Pick your flavor!
+          <code>Python</code> has only one library to build arc diagrams: 
+          <code>arcplot</code>. For other kind of static version, <code>R</code>
+          has built-in functions to make them. <code>Javascript</code> and the
+          <code>d3.js</code> library offers <b>more customization</b> and 
+          <b> interactivity</b> options, but comes with a steeper learning curve and a
+          lot of line of code. Pick your flavor!
         </p>
         <a href="https://www.data-to-viz.com/graph/arc.html">
           <Button size="sm">R code</Button>
