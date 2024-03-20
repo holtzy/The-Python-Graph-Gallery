@@ -72,6 +72,26 @@ export default function StackedAreaPlot() {
             caption="Customize the color palette"
             linkTo="/streamchart-basic-matplotlib"
           />
+          <ChartImageContainer
+            imgName="570-custom-streamchart"
+            caption="How to mix a streamchart with a line chart"
+            linkTo="/570-custom-streamchart"
+          />
+          <ChartImageContainer
+            imgName="570-custom-streamchart-2"
+            caption="Custom colormap in a streamchart with a line chart"
+            linkTo="/570-custom-streamchart"
+          />
+          <ChartImageContainer
+            imgName="570-custom-streamchart-3"
+            caption="Change order of the lines"
+            linkTo="/570-custom-streamchart"
+          />
+          <ChartImageContainer
+            imgName="570-custom-streamchart-4"
+            caption="Smooth the chart"
+            linkTo="/570-custom-streamchart"
+          />
         </Row>
       </Container>
 
