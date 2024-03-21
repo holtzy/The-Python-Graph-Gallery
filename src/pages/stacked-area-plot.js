@@ -142,6 +142,26 @@ export default function StackedAreaPlot() {
             caption="Area chart and small multiple"
             linkTo="/242-area-chart-and-faceting"
           />
+          <ChartImageContainer
+            imgName="570-custom-streamchart"
+            caption="Stacked area chart with lots of lines"
+            linkTo="/570-custom-streamchart"
+          />
+          <ChartImageContainer
+            imgName="570-custom-streamchart-2"
+            caption="Custom colormap in a stacked area chart"
+            linkTo="/570-custom-streamchart"
+          />
+          <ChartImageContainer
+            imgName="570-custom-streamchart-3"
+            caption="Change order of the lines"
+            linkTo="/570-custom-streamchart"
+          />
+          <ChartImageContainer
+            imgName="570-custom-streamchart-4"
+            caption="Smooth the chart to create a streamchart"
+            linkTo="/570-custom-streamchart"
+          />
         </Row>
       </Container>
 
