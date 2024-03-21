@@ -183,6 +183,11 @@ export default function Boxplot() {
             caption="If you have both groups and subgroups, you'll be interested in a grouped violin plot"
             linkTo="/54-grouped-violinplot"
           />
+          <ChartImageContainer
+            imgName="31-horizontal-boxplot-with-seaborn"
+            caption="Horizontal boxplot with seaborn"
+            linkTo="/31-horizontal-boxplot-with-seaborn"
+          />
         </Row>
       </Container>
 
