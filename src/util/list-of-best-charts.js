@@ -1,4 +1,15 @@
 export const listOfBestCharts = [
+
+  {
+    link: 'web-ridgeline-by-text',
+    title: 'Ridgeline with quantiles display',
+    description:
+      'A ridgeline plot with quantiles and annotations to visualize the price distribution of rents in San Francisco.',
+    img: 'web-ridgeline-by-text.png',
+    alt: 'ridgeline plot',
+    author: 'Ansgar Wolsing',
+  },
+
   {
     link: '564-publication-ready-table-with-plottable',
     title: 'Polished table with bubbles',

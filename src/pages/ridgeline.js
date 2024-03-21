@@ -53,6 +53,11 @@ export default function RidgelinePlot() {
             caption="Combining multiple density charts with boxplots and raincloud plots"
             linkTo="/raincloud-plot-with-matplotlib-and-ptitprince"
           />
+          <ChartImageContainer
+            imgName="web-ridgeline-by-text-square"
+            caption="Combining density charts with quantiles and annotations"
+            linkTo="/web-ridgeline-by-text"
+          />
         </Row>
       </Container>
 
