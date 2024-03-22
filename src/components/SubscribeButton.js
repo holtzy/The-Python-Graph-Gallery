@@ -7,8 +7,8 @@ export default function SubscribeButton() {
       <iframe
         title="signup button for the dataviz universe newsletter"
         src="https://datavizuniverse.substack.com/embed"
-        width="480"
-        height="70"
+        width="780"
+        height="170"
       />
     </div>
   );
