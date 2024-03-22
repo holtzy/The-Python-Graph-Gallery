@@ -65,13 +65,13 @@ export default function Plotlys() {
           an interactive graph on which you can <b>zoom</b>, hover points to
           show a <b>tooltip</b>, <b>save as png</b> and more.
         </p>
+        <CodeChunk>{quickCode}</CodeChunk>
         <iframe
           src="/interactiveCharts/plotly-add-annotation-0.html"
           title="scatterplot with plotly"
           style={{ border: 'none', width: '100%', height: '600px' }}
         ></iframe>
 
-        <CodeChunk>{quickCode}</CodeChunk>
       </Container>
 
       <Spacing />
@@ -318,6 +318,16 @@ export default function Plotlys() {
             imgName="555-candle-stick-with-moving-average-plotly"
             caption="How to add one or several moving averages to a candlestick chart"
             linkTo="/555-candle-stick-with-moving-average-plotly"
+          />
+          <ChartImageContainer
+            imgName="571-radar-chart-with-plotly-1"
+            caption="Most basic radar chart with plotly"
+            linkTo="/571-radar-chart-with-plotly"
+          />
+          <ChartImageContainer
+            imgName="571-radar-chart-with-plotly-2"
+            caption="Radar chart with several displayed values"
+            linkTo="/571-radar-chart-with-plotly"
           />
         </Row>
         <br />
