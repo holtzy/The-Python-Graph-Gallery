@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib } from '../components/MiscellaneousLogos';
+import { Matplotlib, Plotly } from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import ChartImage from '../components/ChartImage';
 import SectionLogoWithOverlay from '../components/SectionLogoWithOverlay';
@@ -111,6 +111,31 @@ export default function Radar() {
             caption="A polar chart with small multiple to compare 4 groups"
           />
         </Link>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Plotly">
+          <Plotly /> Radar chart with <code>Plotly</code>
+        </h2>
+        <p>
+          <code>Plotly</code> is a great library to build radar charts. It
+          offers a high level of interactivity and can be used with both
+          <code>plotly express</code> and <code>plotly graph objects</code>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="571-radar-chart-with-plotly-1"
+            caption="Most basic radar chart with plotly"
+            linkTo="/571-radar-chart-with-plotly"
+          />
+          <ChartImageContainer
+            imgName="571-radar-chart-with-plotly-2"
+            caption="Radar chart with several displayed values"
+            linkTo="/571-radar-chart-with-plotly"
+          />
+        </Row>
       </Container>
 
       <Spacing />
