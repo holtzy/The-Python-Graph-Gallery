@@ -337,6 +337,21 @@ export default function Matplotlibs() {
             caption="How to customize color and style of the annotation"
             linkTo="/how-to-custom-annotations-matplotlib"
           />
+          <ChartImageContainer
+            imgName="advanced-custom-annotations-matplotlib-1"
+            caption="Add a background to the annotation"
+            linkTo="/advanced-custom-annotations-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="advanced-custom-annotations-matplotlib-2"
+            caption="Add a path effect to the annotation"
+            linkTo="/advanced-custom-annotations-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="advanced-custom-annotations-matplotlib-3"
+            caption="Create one annotation for both title and subtitle"
+            linkTo="/advanced-custom-annotations-matplotlib"
+          />
         </Row>
       </Container>
 
