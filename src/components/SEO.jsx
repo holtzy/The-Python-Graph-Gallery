@@ -33,10 +33,8 @@ export const SEO = ({ title, seoDescription, keywords }) => {
         content="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"
       />
       <meta property="og:description" content={seoDescription} />
-      <meta
-        name="twitter:image"
-        content="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"
-      />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@R_Graph_Gallery" />
     </>
   );
 };
