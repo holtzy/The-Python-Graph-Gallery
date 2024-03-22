@@ -26,7 +26,7 @@ const chartDescription = (
     <p>
       In python, boxplots can be made with both{' '}
       <Link href="/seaborn">seaborn</Link> and{' '}
-      <Link href="matplotlib">matplotlib</Link> as they both offer a{' '}
+      <Link href="/matplotlib">matplotlib</Link> as they both offer a{' '}
       <code>boxplot()</code> function made for the job.
     </p>
   </>

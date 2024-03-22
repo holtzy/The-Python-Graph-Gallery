@@ -225,7 +225,7 @@ export default function SeabornLib() {
         <p>
           If you're interested in a specific type of chart like{' '}
           <Link to="/boxplot">boxplot</Link> or{' '}
-          <Link to="heatmap">heatmap</Link>, I suggest to visit the{' '}
+          <Link to="/heatmap">heatmap</Link>, I suggest to visit the{' '}
           <Link to="/">dedicated section</Link> of the gallery. In case you're
           interested in what <code>seaborn</code> can do, here is a glimpse of
           what's offered in the gallery 🧐.

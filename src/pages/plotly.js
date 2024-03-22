@@ -335,14 +335,14 @@ export default function Plotlys() {
           Above images are <b>static</b>, but all linked blog posts provide the
           interactive version of the chart. Here is an example with an
           interactive{' '}
-          <Link href="/parallel-coordinate-plot-plotly.html">
+          <Link href="/parallel-coordinate-plot-plotly">
             parallel coordinate chart
           </Link>
           :
         </p>
         <div className="mx-auto">
           <iframe
-            src="/interactiveCharts/parallel-coordinate-plot-plotly.html"
+            src="/interactiveCharts/parallel-coordinate-plot-plotly"
             title="parallel coordinate chart with plotly"
             style={{ border: 'none', width: '800px', height: '500px' }}
           ></iframe>

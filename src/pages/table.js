@@ -116,7 +116,7 @@ export default function Table() {
         <br />
         <p>
           Next, learn how to{' '}
-          <Link href="563-graph-in-plottable">insert graphs in cells</Link>:
+          <Link href="/563-graph-in-plottable">insert graphs in cells</Link>:
           barplot, donuts, stars and more. This can greatly improve the{' '}
           <b>readability</b> of your table, making it much more insightful.
         </p>
