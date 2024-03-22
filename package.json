@@ -39,7 +39,6 @@
     "react-dom": "^18.2.0",
     "react-katex": "^2.0.2",
     "react-markdown": "^4.3.1",
-    "react-scrollspy": "^3.4.3",
     "rehype-katex": "^1.1.1",
     "rehype-stringify": "^5.0.0",
     "remark": "^9.0.0",
