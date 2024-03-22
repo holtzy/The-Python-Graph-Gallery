@@ -4,6 +4,12 @@
   --dark-grey: #c8c8c8;
   --python-gallery: #cb1dd1;
   --light-black: #484848;
+  --enable-smooth-scroll: false;
+}
+
+/* Fix a bug where going to a new URL triggers a scroll animation to the top of the page https://github.com/holtzy/The-Python-Graph-Gallery/issues/108 */
+html {
+  scroll-behavior: auto !important; /* Override smooth scrolling */
 }
 
 /* Each section has a specific color */
