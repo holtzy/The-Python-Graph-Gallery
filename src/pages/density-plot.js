@@ -115,6 +115,11 @@ export default function DensityPlot() {
             caption="Mirror density chart to compare the distribution of 2 variables"
             linkTo="/density-mirror"
           />
+          <ChartImageContainer
+            imgName="575-distribution-plot-with-quantiles"
+            caption="Density chart with quantiles displayed"
+            linkTo="/575-distribution-plot-with-quantiles"
+          />
         </Row>
       </Container>
 
@@ -197,6 +202,11 @@ export default function DensityPlot() {
             imgName="raincloud-plot-with-matplotlib-and-ptitprince"
             caption="Combining density and boxplot"
             linkTo="/raincloud-plot-with-matplotlib-and-ptitprince"
+          />
+          <ChartImageContainer
+            imgName="575-distribution-plot-with-quantiles"
+            caption="Density chart with quantiles displayed"
+            linkTo="/575-distribution-plot-with-quantiles"
           />
         </Row>
       </Container>
