@@ -16,7 +16,7 @@ import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
-  '<p>Density plots allow you to visualize the distribution of a numeric variable for one or several groups. They are very well adapted for large datasets, as stated in data-to-viz.com. Note that 2 approaches exist to build them in python: the first one consists of computing a kernel density estimate, and the second one involves building a high resolution histogram.</p>';
+  "<p>Density plots allow you to visualize the <b>distribution of a numeric variable</b> for one or several groups. They are very well adapted for large datasets, as stated in <a href='https://data-to-viz.com'>data-to-viz.com</a>.<br><br>Note that <b>2 approaches</b> exist to build them in python: the first one consists of <i>computing a kernel density estimate</i>, and the second one involves building a <i>high resolution histogram</i>.</p>";
 
 const quickCode = `# library & dataset
 import seaborn as sns
