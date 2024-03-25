@@ -448,6 +448,61 @@ export default function ScatterPlot() {
 
       <Spacing />
       <Container>
+        <h2 id="Pandas">
+          <Pandas />
+          Scatterplots with <code>Plotnine</code>
+        </h2>
+        <p>
+          <a href="https://python-graph-gallery.com/plotnine/">Plotnine</a> is a
+          python library allowing to make charts using the grammar of graphics
+          principles. The <code>geom_point()</code> function should get you
+          started in minutes.
+        </p>
+        <p>
+          The examples below should help you get started quickly with the plotnine
+          API:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="573-introduction-scatterplot-plotnine-1"
+            caption="Most basic scatterplot with plotnine"
+            linkTo="/573-introduction-scatterplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="573-introduction-scatterplot-plotnine-2"
+            caption="Change color markers"
+            linkTo="/573-introduction-scatterplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="573-introduction-scatterplot-plotnine-3"
+            caption="Color by group"
+            linkTo="/573-introduction-scatterplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="574-custom-marker-scatter-plotnine-1"
+            caption="Change marker size"
+            linkTo="/574-custom-marker-scatter-plotnine"
+          />
+          <ChartImageContainer
+            imgName="574-custom-marker-scatter-plotnine-2"
+            caption="Changer marker shape"
+            linkTo="/574-custom-marker-scatter-plotnine"
+          />
+          <ChartImageContainer
+            imgName="574-custom-marker-scatter-plotnine-3"
+            caption="Changer marker transparency"
+            linkTo="/574-custom-marker-scatter-plotnine"
+          />
+          <ChartImageContainer
+            imgName="574-custom-marker-scatter-plotnine-4"
+            caption="Custom edge colors"
+            linkTo="/574-custom-marker-scatter-plotnine"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+      <Container>
         <h2 id="Best">
           <Matplotlib />
           Best python scatterplot examples
