@@ -352,6 +352,16 @@ export default function Matplotlibs() {
             caption="Create one annotation for both title and subtitle"
             linkTo="/advanced-custom-annotations-matplotlib"
           />
+          <ChartImageContainer
+            imgName="how-to-create-and-custom-arrows-matplotlib-1"
+            caption="How to create an arrow with an annotation"
+            linkTo="/how-to-create-and-custom-arrows-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="how-to-create-and-custom-arrows-matplotlib-2"
+            caption="How to create rounded arrows with matplotlib"
+            linkTo="/how-to-create-and-custom-arrows-matplotlib"
+          />
         </Row>
       </Container>
 
@@ -557,6 +567,21 @@ export default function Matplotlibs() {
             imgName="scatterplot-and-log-scale-in-matplotlib"
             caption="How to use a log scale for the X or the Y axis."
             linkTo="/scatterplot-and-log-scale-in-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="how-to-add-plot-inside-plot-1"
+            caption="Add an axis inside another axis"
+            linkTo="/how-to-add-plot-inside-plot"
+          />
+          <ChartImageContainer
+            imgName="how-to-add-plot-inside-plot-2"
+            caption="Add a plot inside another plot"
+            linkTo="/how-to-add-plot-inside-plot"
+          />
+          <ChartImageContainer
+            imgName="how-to-add-plot-inside-plot-3"
+            caption="Customize the axis of the inner plot"
+            linkTo="/how-to-add-plot-inside-plot"
           />
         </Row>
       </Container>
