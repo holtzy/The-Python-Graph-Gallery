@@ -11,6 +11,7 @@ import {
   Matplotlib,
   Pandas,
   Plotly,
+  Plotnine,
   Seaborn,
 } from '../components/MiscellaneousLogos';
 import { Button, Col } from 'react-bootstrap';
@@ -448,8 +449,8 @@ export default function ScatterPlot() {
 
       <Spacing />
       <Container>
-        <h2 id="Pandas">
-          <Pandas />
+        <h2 id="Plotnine">
+          <Plotnine />
           Scatterplots with <code>Plotnine</code>
         </h2>
         <p>
@@ -459,8 +460,8 @@ export default function ScatterPlot() {
           started in minutes.
         </p>
         <p>
-          The examples below should help you get started quickly with the plotnine
-          API:
+          The examples below should help you get started quickly with the
+          plotnine API:
         </p>
         <Row>
           <ChartImageContainer

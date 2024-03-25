@@ -18,9 +18,10 @@ import { SEO } from '../components/SEO';
 const chartDescription = (
   <>
     <p>
-      <code>Plotnine</code> is a library that allows to use the <b>grammar of
-      graphics</b> in <code>Python</code>. It is based on the famous <code>ggplot2</code>{' '}
-      library in <a href="https://r-graph-gallery.com">R</a>.
+      <code>Plotnine</code> is a library that allows to use the{' '}
+      <b>grammar of graphics</b> in <code>Python</code>. It is based on the
+      famous <code>ggplot2</code> library in{' '}
+      <a href="https://r-graph-gallery.com">R</a>.
     </p>
     <p>
       Plotnine is a great tool to create <b>beautiful</b> and <b>complex</b>{' '}
@@ -36,13 +37,12 @@ export const Head = () => (
   />
 );
 
-export default function Plotlys() {
+export default function Post() {
   return (
-    <Layout title="Plotly">
+    <Layout title="Plotnine">
       <TitleAndDescription
         title="Plotnine: ggplot in python"
         description={chartDescription}
-        chartType={'plotly'}
       />
 
       <Container>
@@ -57,16 +57,16 @@ export default function Plotlys() {
         <Row className="align-items-center">
           <Col md={7}>
             <p>
-              The <b>Grammar of Graphics</b> is a way of thinking about how to build
-              graphs. It is based on the idea that you can build a graph by
-              <b>adding layers</b> to it. In this example, we add a layer of points to
-              a graph.
+              The <b>Grammar of Graphics</b> is a way of thinking about how to
+              build graphs. It is based on the idea that you can build a graph
+              by <b>adding layers</b> to it. In this example, we add a layer of
+              points to a graph.
             </p>
             <p>
-              Once installed, you can either <b>import all the functions</b> from the
-              library with <code>from plotnine import *</code> or import only
-              the functions you need with <code>from plotnine import ggplot,
-              geom_point</code>.
+              Once installed, you can either <b>import all the functions</b>{' '}
+              from the library with <code>from plotnine import *</code> or
+              import only the functions you need with{' '}
+              <code>from plotnine import ggplot, geom_point</code>.
             </p>
           </Col>
           <Col md={5}>
@@ -89,9 +89,10 @@ export default function Plotlys() {
           Scatter plot with plotnine
         </h2>
         <p>
-          <a href='/scatter-plot'>Scatter plots</a> are a great way to visualize the relationship between two
-          numerical variables. The <code>plotnine</code> library makes it easy to
-          thanks to its <code>geom_point()</code> function.
+          <a href="/scatter-plot">Scatter plots</a> are a great way to visualize
+          the relationship between two numerical variables. The{' '}
+          <code>plotnine</code> library makes it easy to thanks to its{' '}
+          <code>geom_point()</code> function.
         </p>
         <Row>
           <ChartImageContainer
@@ -141,9 +142,9 @@ export default function Plotlys() {
           Change theme with plotnine
         </h2>
         <p>
-          <code>Plotnine</code> allows to <b>change the theme</b> of the chart. This
-          can easily be done by adding <code>theme_*</code> functions to the
-          chart.
+          <code>Plotnine</code> allows to <b>change the theme</b> of the chart.
+          This can easily be done by adding <code>theme_*</code> functions to
+          the chart.
         </p>
         <Row>
           <ChartImageContainer
@@ -193,7 +194,7 @@ x = [1,2,3,4,5,6,7,8,9,10]
 y = [10,9,8,7,6,5,4,3,2,1]
 df = pd.DataFrame({'x':x, 'y':y})
 
-
+# Create a chart
 (
 ggplot(df, aes(x='x', y='y')) +
     geom_point()

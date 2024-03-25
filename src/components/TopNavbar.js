@@ -13,6 +13,7 @@ import {
   Seaborn,
   Plotly,
   Pandas,
+  Plotnine,
 } from '../components/MiscellaneousLogos';
 import { Button } from 'react-bootstrap';
 
@@ -71,6 +72,13 @@ export default function TopNavbar() {
               Pandas
               <span className="menuItemLogo">
                 <Pandas />
+              </span>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item className="menuItemMain" href="/plotnine">
+              Plotnine
+              <span className="menuItemLogo">
+                <Plotnine />
               </span>
             </NavDropdown.Item>
           </NavDropdown>

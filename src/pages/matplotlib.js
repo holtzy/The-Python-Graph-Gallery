@@ -271,6 +271,20 @@ export default function Matplotlibs() {
             linkTo="/534-highly-customized-layout"
           />
         </Row>
+        <p>
+          <br />
+          An effective method in data visualization involves utilizing the title
+          as a <b>legend</b>, facilitated by the <code>highlight_text</code>{' '}
+          package. The subsequent two posts provide an introductory overview of
+          this package:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="how-to-custom-annotations-matplotlib"
+            caption="How to customize color and style of the annotation"
+            linkTo="/how-to-custom-annotations-matplotlib"
+          />
+        </Row>
       </Container>
 
       <Spacing />
@@ -332,11 +346,7 @@ export default function Matplotlibs() {
             caption="How to add an img into a matplotlib chart"
             linkTo="/513-add-logo-matplotlib"
           />
-          <ChartImageContainer
-            imgName="how-to-custom-annotations-matplotlib"
-            caption="How to customize color and style of the annotation"
-            linkTo="/how-to-custom-annotations-matplotlib"
-          />
+
           <ChartImageContainer
             imgName="advanced-custom-annotations-matplotlib-1"
             caption="Add a background to the annotation"

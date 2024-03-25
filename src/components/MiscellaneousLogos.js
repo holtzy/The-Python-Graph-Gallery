@@ -3,6 +3,7 @@ import SeabornImg from '../img/SeabornSmall.png';
 import PandasImg from '../img/PandasSmallClean.png';
 import PlotlyImg from '../img/PlotlySmall.png';
 import MatplotlibImg from '../img/MatplotlibSmall.png';
+import PlotnineImg from '../img/plotnine-small.png';
 import anim150 from '../../static/section/anim150.gif';
 
 export function Matplotlib() {
@@ -40,6 +41,16 @@ export function Plotly() {
     <img
       src={PlotlyImg}
       alt="Plotly logo"
+      style={{ marginRight: '8px', width: 30, height: 30 }}
+    />
+  );
+}
+
+export function Plotnine() {
+  return (
+    <img
+      src={PlotnineImg}
+      alt="Plotnine logo"
       style={{ marginRight: '8px', width: 30, height: 30 }}
     />
   );

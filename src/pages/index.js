@@ -12,6 +12,7 @@ import {
   Matplotlib,
   Pandas,
   Plotly,
+  Plotnine,
   Seaborn,
 } from '../components/MiscellaneousLogos';
 import { Link } from 'gatsby';
@@ -225,6 +226,23 @@ export default function Home() {
                 <b>web-based interactivity</b>.
               </p>
               <Link href="/plotly">Tutorial</Link>
+              <br />
+            </Col>
+            <Col xs={12} md={6}>
+              <h3>
+                <Plotnine />
+                Plotnine
+              </h3>
+              <p>
+                Plotnine is a Python library for creating statistical
+                visualizations with a simple <b>grammar of graphics</b>{' '}
+                interface, inspired by{' '}
+                <a href="https://r-graph-gallery.com/ggplot2-package.html">
+                  ggplot2
+                </a>{' '}
+                in R.
+              </p>
+              <Link href="/plotnine">Tutorial</Link>
               <br />
             </Col>
           </Row>
