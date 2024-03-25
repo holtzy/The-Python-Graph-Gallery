@@ -543,6 +543,21 @@ export default function Matplotlibs() {
             caption="How to use a log scale for the X or the Y axis."
             linkTo="/scatterplot-and-log-scale-in-matplotlib"
           />
+          <ChartImageContainer
+            imgName="how-to-add-plot-inside-plot-1"
+            caption="Add an axis inside another axis"
+            linkTo="/how-to-add-plot-inside-plot"
+          />
+          <ChartImageContainer
+            imgName="how-to-add-plot-inside-plot-2"
+            caption="Add a plot inside another plot"
+            linkTo="/how-to-add-plot-inside-plot"
+          />
+          <ChartImageContainer
+            imgName="how-to-add-plot-inside-plot-3"
+            caption="Customize the axis of the inner plot"
+            linkTo="/how-to-add-plot-inside-plot"
+          />
         </Row>
       </Container>
 
