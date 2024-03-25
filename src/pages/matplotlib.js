@@ -492,6 +492,9 @@ export default function Matplotlibs() {
           />
         </Row>
         <p>
+          <br />
+        </p>
+        <p>
           Additional note: how to remove some unused entries in a grid using the{' '}
           <code>ax.remove()</code> function:
         </p>
@@ -500,6 +503,32 @@ export default function Matplotlibs() {
             imgName="how-to-remove-axis-in-matplotlib"
             caption="How to remove some unused entries in a chart grid."
             linkTo="/how-to-remove-axis-in-matplotlib"
+          />
+        </Row>
+        <p>
+          <br />
+        </p>
+        <p>
+          Adding a secondary graph <b>within</b> the main graph area can be a
+          powerful technique to add context to you figure. This is totally
+          doable using the <code>inset_axes()</code> function as suggested in
+          the examples below:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="how-to-add-plot-inside-plot-1"
+            caption="Add an axis inside another axis"
+            linkTo="/how-to-add-plot-inside-plot"
+          />
+          <ChartImageContainer
+            imgName="how-to-add-plot-inside-plot-2"
+            caption="Add a plot inside another plot"
+            linkTo="/how-to-add-plot-inside-plot"
+          />
+          <ChartImageContainer
+            imgName="how-to-add-plot-inside-plot-3"
+            caption="Customize the axis of the inner plot"
+            linkTo="/how-to-add-plot-inside-plot"
           />
         </Row>
       </Container>
@@ -567,21 +596,6 @@ export default function Matplotlibs() {
             imgName="scatterplot-and-log-scale-in-matplotlib"
             caption="How to use a log scale for the X or the Y axis."
             linkTo="/scatterplot-and-log-scale-in-matplotlib"
-          />
-          <ChartImageContainer
-            imgName="how-to-add-plot-inside-plot-1"
-            caption="Add an axis inside another axis"
-            linkTo="/how-to-add-plot-inside-plot"
-          />
-          <ChartImageContainer
-            imgName="how-to-add-plot-inside-plot-2"
-            caption="Add a plot inside another plot"
-            linkTo="/how-to-add-plot-inside-plot"
-          />
-          <ChartImageContainer
-            imgName="how-to-add-plot-inside-plot-3"
-            caption="Customize the axis of the inner plot"
-            linkTo="/how-to-add-plot-inside-plot"
           />
         </Row>
       </Container>
