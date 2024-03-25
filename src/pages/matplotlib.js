@@ -337,6 +337,16 @@ export default function Matplotlibs() {
             caption="How to customize color and style of the annotation"
             linkTo="/how-to-custom-annotations-matplotlib"
           />
+          <ChartImageContainer
+            imgName="how-to-create-and-custom-arrows-matplotlib-1"
+            caption="How to create an arrow with an annotation"
+            linkTo="/how-to-create-and-custom-arrows-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="how-to-create-and-custom-arrows-matplotlib-2"
+            caption="How to create rounded arrows with matplotlib"
+            linkTo="/how-to-create-and-custom-arrows-matplotlib"
+          />
         </Row>
       </Container>
 
