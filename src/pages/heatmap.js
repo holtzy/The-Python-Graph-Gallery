@@ -248,12 +248,22 @@ export default function Heatmap() {
           !
         </p>
         <Row>
-          <Col xs={12} md={8}>
+          <Col xs={12} md={6}>
             <Link to={'/web-heatmap-and-radial-barchart-plastics'}>
               <ChartImage
                 imgName={'web-heatmap-and-radial-barchart-plastics'}
                 caption={
                   'How to combine a heatmap with a radial barplot on the same figure with heaps of visual tweaks.'
+                }
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-heatmap-comparison'}>
+              <ChartImage
+                imgName={'web-heatmap-comparison-5'}
+                caption={
+                  'A comparison heatmap with a lot of customization options.'
                 }
               />
             </Link>
