@@ -143,11 +143,6 @@ export default function StackedAreaPlot() {
             linkTo="/242-area-chart-and-faceting"
           />
           <ChartImageContainer
-            imgName="570-custom-streamchart"
-            caption="Stacked area chart with lots of lines"
-            linkTo="/570-custom-streamchart"
-          />
-          <ChartImageContainer
             imgName="570-custom-streamchart-2"
             caption="Custom colormap in a stacked area chart"
             linkTo="/570-custom-streamchart"
