@@ -1,6 +1,16 @@
 export const listOfBestCharts = [
 
   {
+    link: 'web-heatmap-comparison',
+    title: 'Double heatmap for comparison',
+    description:
+      'A double heatmap to compare normalized and non-normalized data about energy consumption in France',
+    img: 'web-heatmap-comparison-5.png',
+    alt: 'ridgeline plot',
+    author: 'Joseph Barbier',
+  },
+
+  {
     link: 'web-ridgeline-by-text',
     title: 'Ridgeline with quantiles display',
     description:
