@@ -364,7 +364,7 @@ export default function ScatterPlot() {
           <ChartImageContainer
             imgName="how-to-custom-annotations-matplotlib"
             caption="Link title and scatter plot with custom annotations"
-            linkTo="/how-to-custom-annotations-matplotlib"
+            linkTo="/how-to-custom-title-matplotlib"
           />
         </Row>
       </Container>
