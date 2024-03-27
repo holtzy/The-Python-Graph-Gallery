@@ -116,7 +116,7 @@ export default function DensityPlot() {
             linkTo="/density-mirror"
           />
           <ChartImageContainer
-            imgName="575-distribution-plot-with-quantiles"
+            imgName="575-distribution-plot-with-quantiles-2"
             caption="Density chart with quantiles displayed"
             linkTo="/575-distribution-plot-with-quantiles"
           />
@@ -204,7 +204,7 @@ export default function DensityPlot() {
             linkTo="/raincloud-plot-with-matplotlib-and-ptitprince"
           />
           <ChartImageContainer
-            imgName="575-distribution-plot-with-quantiles"
+            imgName="575-distribution-plot-with-quantiles-2"
             caption="Density chart with quantiles displayed"
             linkTo="/575-distribution-plot-with-quantiles"
           />
