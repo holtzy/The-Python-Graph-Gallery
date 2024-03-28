@@ -145,6 +145,23 @@ export default function BubbleMap() {
             />
           </Link>
         </div>
+        <Row>
+          <ChartImageContainer
+            imgName="310-basic-map-with-markers-1"
+            caption="Most simple bubble map"
+            linkTo="/310-basic-map-with-markers"
+          />
+          <ChartImageContainer
+            imgName="310-basic-map-with-markers-2"
+            caption="Bubble map with different bubble size"
+            linkTo="/310-basic-map-with-markers"
+          />
+          <ChartImageContainer
+            imgName="310-basic-map-with-markers-3"
+            caption="Bubble map with custom colors and size"
+            linkTo="/310-basic-map-with-markers"
+          />
+        </Row>
       </Container>
 
       <Spacing />
