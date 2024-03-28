@@ -213,9 +213,33 @@ export default function SeabornLib() {
           through the <code>set_style()</code> function. Here is an overview of
           what is offered.
         </p>
-        <p>
-          <code>Todo</code> 😞
-        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="104_seaborn_themes1-square"
+            caption="Control axis limit with the xlim() function"
+            linkTo="/104-seaborn-themes"
+          />
+          <ChartImageContainer
+            imgName="104_seaborn_themes2-square"
+            caption=" "
+            linkTo="/104-seaborn-themes"
+          />
+          <ChartImageContainer
+            imgName="104_seaborn_themes3-square"
+            caption=" "
+            linkTo="/104-seaborn-themes"
+          />
+          <ChartImageContainer
+            imgName="104_seaborn_themes4-square"
+            caption=" "
+            linkTo="/104-seaborn-themes"
+          />
+          <ChartImageContainer
+            imgName="104_seaborn_themes5-square"
+            caption=" "
+            linkTo="/104-seaborn-themes"
+          />
+        </Row>
       </Container>
 
       <Spacing />
