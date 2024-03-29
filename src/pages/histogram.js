@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib, Pandas, Seaborn } from '../components/MiscellaneousLogos';
+import { Matplotlib, Pandas, Seaborn, Plotnine } from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -29,7 +29,7 @@ const chartDescription = (
     </p>
     <p>
       Examples start with <b>very simple</b>, beginner-friendly histograms and
-      progressively increase in complexity. At the end of the page, some
+      progressively increase in complexity. At the end of the page, some{' '}
       <b>polished & publication-ready</b> histograms are provided, ready to be
       used in your next project 🔥!
     </p>
@@ -341,6 +341,52 @@ export default function Histogram() {
             imgName="529-multi-group-histogram-pandas-2"
             caption="Use small multiple to compare the distribution of several groups on the same chart"
             linkTo="/529-multi-group-histogram-pandas"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Plotnine">
+          <Plotnine />
+          Histograms with <code>Plotnine</code>
+        </h2>
+        <p>
+          <Link to="/plotnine">Plotnine</Link> allows us to use the{' '}
+          <b>grammar-of-graphics</b> to build histograms. It provides a{' '}
+          <code>geom_histogram()</code> function that can be used to
+          build histograms.
+        </p>
+        <p>
+          The examples below should help you to get started with
+          <b> basic plotnine histograms</b>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="578-introduction-histogram-plotnine-1"
+            caption="Most basic histogram with plotnine"
+            linkTo="/578-introduction-histogram-plotnine"
+          />
+          <ChartImageContainer
+            imgName="578-introduction-histogram-plotnine-2"
+            caption="Control bar color"
+            linkTo="/578-introduction-histogram-plotnine"
+          />
+          <ChartImageContainer
+            imgName="578-introduction-histogram-plotnine-3"
+            caption="Custom style with theme, colors and opacity"
+            linkTo="/578-introduction-histogram-plotnine"
+          />
+          <ChartImageContainer
+            imgName="579-multiple-histograms-plotnine-1"
+            caption="Split histogram by group"
+            linkTo="/579-multiple-histograms-plotnine"
+          />
+          <ChartImageContainer
+            imgName="579-multiple-histograms-plotnine-2"
+            caption="Mirror histogram to compare 2 variables"
+            linkTo="/579-multiple-histograms-plotnine"
           />
         </Row>
       </Container>

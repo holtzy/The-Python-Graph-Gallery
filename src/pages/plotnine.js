@@ -85,7 +85,6 @@ export default function Post() {
 
       <Container>
         <h2 id="Gallery">
-          <Plotly />
           Scatter plot with plotnine
         </h2>
         <p>
@@ -138,7 +137,103 @@ export default function Post() {
 
       <Container>
         <h2 id="Gallery">
-          <Plotly />
+          Bar plot with plotnine
+        </h2>
+        <p>
+          <a href="/bar-plot">Bar plots</a> are a great way to visualize
+          the relationship between a categorical variable and a numerical one. The{' '}
+          <code>plotnine</code> library makes it easy thanks to its{' '}
+          <code>geom_bar()</code> function.
+        </p>
+        <p>
+          The following examples show how to <b>create a basic bar plot</b> with plotnine and
+          how to <b>customize it</b>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="576-introduction-barplot-plotnine-1"
+            caption="Most simple barplot"
+            linkTo="/576-introduction-barplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="576-introduction-barplot-plotnine-2"
+            caption="Change color and edge color"
+            linkTo="/576-introduction-barplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="576-introduction-barplot-plotnine-3"
+            caption="Custom width of the bars"
+            linkTo="/576-introduction-barplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="577-customize-barplot-plotnine-1"
+            caption="Define one specific color per bar"
+            linkTo="/577-customize-barplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="577-customize-barplot-plotnine-2"
+            caption="Color bars according to a variable"
+            linkTo="/577-customize-barplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="577-customize-barplot-plotnine-3"
+            caption="Flip the x and y axis"
+            linkTo="/577-customize-barplot-plotnine"
+          />
+        </Row>
+        <br />
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Gallery">
+          Histogram with plotnine
+        </h2>
+        <p>
+          <a href="/histogram">Bar plots</a> are a great way to visualize
+          the distribution of a numerical variable. The{' '}
+          <code>plotnine</code> library makes it easy thanks to its{' '}
+          <code>geom_histogram()</code> function.
+        </p>
+        <p>
+          The following examples show how to <b>create a basic histogram</b> with plotnine and
+          how to <b>customize it</b>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="578-introduction-histogram-plotnine-1"
+            caption="Most basic histogram with plotnine"
+            linkTo="/578-introduction-histogram-plotnine"
+          />
+          <ChartImageContainer
+            imgName="578-introduction-histogram-plotnine-2"
+            caption="Control bar color"
+            linkTo="/578-introduction-histogram-plotnine"
+          />
+          <ChartImageContainer
+            imgName="578-introduction-histogram-plotnine-3"
+            caption="Custom style with theme, colors and opacity"
+            linkTo="/578-introduction-histogram-plotnine"
+          />
+          <ChartImageContainer
+            imgName="579-multiple-histograms-plotnine-1"
+            caption="Split histogram by group"
+            linkTo="/579-multiple-histograms-plotnine"
+          />
+          <ChartImageContainer
+            imgName="579-multiple-histograms-plotnine-2"
+            caption="Mirror histogram to compare 2 variables"
+            linkTo="/579-multiple-histograms-plotnine"
+          />
+        </Row>
+        <br />
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Gallery">
           Change theme with plotnine
         </h2>
         <p>

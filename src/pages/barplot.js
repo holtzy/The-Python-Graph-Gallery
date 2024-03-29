@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Seaborn, Matplotlib, Pandas } from '../components/MiscellaneousLogos';
+import { Seaborn, Matplotlib, Pandas, Plotnine } from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -345,6 +345,57 @@ export default function Barplot() {
             imgName="547-stacked-barplots-with-pandas-2"
             caption="Stacked 100% barplot with pandas"
             linkTo="/547-stacked-barplots-with-pandas"
+          />
+        </Row>
+      </Container>
+
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Plotnine">
+          <Plotnine />
+          Barplot with <code>Plotnine</code>
+        </h2>
+        <p>
+          The <a href='https://python-graph-gallery.com/plotnine/'>plotnine</a> library
+          is a great alternative to build barplots. It is based on the <b>grammar of graphics</b>,
+          like ggplot2 in <a href='https://r-graph-gallery.com/'>R</a>.
+        </p>
+        <p>
+          The examples below should get you started. They go from very
+          simple examples and how to customize them.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="576-introduction-barplot-plotnine-1"
+            caption="Most simple barplot"
+            linkTo="/576-introduction-barplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="576-introduction-barplot-plotnine-2"
+            caption="Change color and edge color"
+            linkTo="/576-introduction-barplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="576-introduction-barplot-plotnine-3"
+            caption="Custom width of the bars"
+            linkTo="/576-introduction-barplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="577-customize-barplot-plotnine-1"
+            caption="Define one specific color per bar"
+            linkTo="/577-customize-barplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="577-customize-barplot-plotnine-2"
+            caption="Color bars according to a variable"
+            linkTo="/577-customize-barplot-plotnine"
+          />
+          <ChartImageContainer
+            imgName="577-customize-barplot-plotnine-3"
+            caption="Flip the x and y axis"
+            linkTo="/577-customize-barplot-plotnine"
           />
         </Row>
       </Container>
