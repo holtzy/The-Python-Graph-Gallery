@@ -178,6 +178,16 @@ export default function Lollipop() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-dumbell-chart'}>
+              <ChartImage
+                imgName={'web-dumbell-chart'}
+                caption={
+                  'Advanced lollipop chart with a dumbell style.'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 

@@ -1,6 +1,15 @@
 export const listOfBestCharts = [
 
   {
+    link: 'web-dumbell-chart',
+    title: 'Dumbell chart',
+    description: 'Advanced dumbell chart about wins and losses in the Bundesliga.',
+    img: 'web-dumbell-chart.png',
+    alt: 'lollipop plot',
+    author: 'Cédric Scherer',
+  },
+
+  {
     link: 'web-heatmap-comparison',
     title: 'Double heatmap for comparison',
     description:
