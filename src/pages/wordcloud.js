@@ -151,12 +151,18 @@ export default function Wordcloud() {
       <Container>
         <h2 id="Custom shapes">Wordclouds and custom shapes</h2>
         <p>
-          It is a common need to apply a specific shape to the wordcloud. TODO.
-          Make a bette image. TODO: more proiminent link toward
-          https://github.com/amueller/word_cloud
+          It is a common need to apply a <b>specific shape</b> to the wordcloud.
+          It's an excellent way to make the wordcloud <b>more relevant</b> to
+          the data you are displaying. The <code>wordcloud</code> library allows
+          you to do it by using a mask, and it's quite easy to do!
+        </p>
+        <p>
+          You can find the official documentation{' '}
+          <Link to="https://github.com/amueller/word_cloud">here</Link> and some
+          examples of how to use it in practice below.
         </p>
         <div style={{ maxWidth: '750px', margin: 'auto' }}>
-          <Link to={'/262-worcloud-with-specific-shape'}>
+          <Link to={'/262-wordcloud-with-specific-shape'}>
             <ChartImage
               imgName="262_Wordcloud_with_a_Mask"
               caption="Use a mask to get a wordcloud with specific shape."
