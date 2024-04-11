@@ -1,3 +1,26 @@
-.blog-post-content h2{
-    padding-top: 100px;
+.blog-post-content h2 {
+  padding-top: 100px;
+}
+
+/* style for dataframe outputs */
+.dataframe {
+  color: #333;
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #333;
+}
+.dataframe th,
+.dataframe td {
+  border: 1px solid #666;
+  text-align: center !important;
+  vertical-align: middle;
+  font-size: 17px;
+}
+
+.dataframe th,
+.dataframe thead th {
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: bold;
 }
