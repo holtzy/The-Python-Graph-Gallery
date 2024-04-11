@@ -212,9 +212,9 @@ export default function Pie() {
           <Link to="/web-lollipop-plot-with-python-the-office">second</Link>{' '}
           shows how to use lollipop to display the evolution of a deviation
           around a trend. The{' '}
-          <Link to="/524-area-chart-over-flexible-baseline">last one</Link> shows how
-          to use an area over a flexible baseline to display the deviation
-          around a historical reference period.
+          <Link to="/524-area-chart-over-flexible-baseline">last one</Link>{' '}
+          shows how to use an area over a flexible baseline to display the
+          deviation around a historical reference period.
         </p>
         <Row>
           <ChartImageContainer
@@ -241,6 +241,11 @@ export default function Pie() {
             imgName="524-area-over-flexible-baseline_square"
             caption="Learn how to how to build an area over flexible baseline chart to show deviations from a reference or baseline."
             linkTo="/524-area-chart-over-flexible-baseline"
+          />
+          <ChartImageContainer
+            imgName="web-worcloud-with-line-chart-square"
+            caption="How to build a line chart on top of a wordcloud with Python and Matplotlib."
+            linkTo="/web-worcloud-with-line-chart"
           />
         </Row>
       </Container>

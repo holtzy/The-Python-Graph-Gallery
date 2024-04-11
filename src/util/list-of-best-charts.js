@@ -50,6 +50,16 @@ export const listOfBestCharts = [
   },
 
   {
+    link: 'web-worcloud-with-line-chart',
+    title: 'Line chart with word cloud',
+    description:
+      'Movie titles in the background of a line chart to visualize average ratings over time.',
+    img: 'web-worcloud-with-line-chart.png',
+    alt: 'Clean table with plottable',
+    author: 'Joseph Barbier',
+  },
+
+  {
     link: 'web-stacked-area-charts-on-a-map',
     title: 'Mini stacked areas for US states',
     description:
