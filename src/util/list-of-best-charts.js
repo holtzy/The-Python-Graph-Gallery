@@ -1,5 +1,14 @@
 export const listOfBestCharts = [
   {
+    link: 'web-map-usa-with-scatter-plot-on-top',
+    title: 'Map with scatter plot on top',
+    description:
+      'Path and duration of solar eclipses in the USA, in 2023 and 2024.',
+    img: 'web-map-usa-with-scatter-plot-on-top.png',
+    alt: 'bubble map',
+    author: 'Joseph Barbier',
+  },
+  {
     link: 'web-dumbell-chart',
     title: 'Dumbell chart',
     description:

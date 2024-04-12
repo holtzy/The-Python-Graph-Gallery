@@ -166,6 +166,24 @@ export default function BubbleMap() {
 
       <Spacing />
 
+      <Container>
+        <h2 id="Basemap">Best bubble map examples</h2>
+        <p>
+          The below examples show how to create <b>advanced bubble maps</b> with
+          python using real life data.
+        </p>
+        <Link to="//web-map-usa-with-scatter-plot-on-top">
+          <div style={{ margin: '0 auto' }}>
+            <ChartImage
+              imgName="web-map-usa-with-scatter-plot-on-top"
+              caption="Bubble map with a scatter plot on top of it"
+            />
+          </div>
+        </Link>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="map" />
