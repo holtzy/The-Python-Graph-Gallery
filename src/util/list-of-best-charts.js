@@ -1,9 +1,9 @@
 export const listOfBestCharts = [
-
   {
     link: 'web-dumbell-chart',
     title: 'Dumbell chart',
-    description: 'Advanced dumbell chart about wins and losses in the Bundesliga.',
+    description:
+      'Advanced dumbell chart about wins and losses in the Bundesliga.',
     img: 'web-dumbell-chart.png',
     alt: 'lollipop plot',
     author: 'Cédric Scherer',
@@ -37,6 +37,16 @@ export const listOfBestCharts = [
     img: '564-publication-ready-table-with-plottable.png',
     alt: 'Clean table with plottable',
     author: 'Fortune Uwha',
+  },
+
+  {
+    link: 'web-worcloud-with-line-chart',
+    title: 'Line chart with word cloud',
+    description:
+      'Movie titles in the background of a line chart to visualize average ratings over time.',
+    img: 'web-worcloud-with-line-chart.png',
+    alt: 'Clean table with plottable',
+    author: 'Joseph Barbier',
   },
 
   {

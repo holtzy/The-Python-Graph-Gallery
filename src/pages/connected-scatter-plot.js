@@ -262,6 +262,16 @@ export default function ConnectedScatter() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={8}>
+            <Link to={'/web-worcloud-with-line-chart'}>
+              <ChartImage
+                imgName={'web-worcloud-with-line-chart'}
+                caption={
+                  'A connected scatterplot with a word cloud for the background.'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
