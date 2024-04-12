@@ -85,7 +85,7 @@ export default function Wordcloud() {
           <Col md={6}>
             <Link to={'/260-basic-wordcloud'}>
               <ChartImage
-                imgName="260_Basic_Wordcloud"
+                imgName="260-basic-wordcloud"
                 caption="Most basic wordcloud with python and the wordcloud library."
               />
             </Link>
@@ -121,26 +121,35 @@ export default function Wordcloud() {
           Wordclouds with.. the <code>wordcloud</code> library &#128512;
         </h2>
         <p>
-          The <code>wordcloud</code> library takes as input a{' '}
-          <code>string</code> containing all the words you want to display. It
-          passes it to the <code>Wordcloud()</code> function that will compute
-          the display an show it on the screen thanks to the{' '}
-          <code>imshow()</code> function.
+          Thanks to the{' '}
+          <a href="https://github.com/amueller/word_cloud">wordcloud</a>{' '}
+          library, we have a <code>Wordcloud()</code> function. We just have to
+          pass a <b>large string</b> of text to it, and it will generate a
+          wordcloud for us.
+        </p>
+        <p>
+          Then, we just have to call the <code>imshow()</code> function from
+          matplotlib to <b>display the wordcloud</b>.
         </p>
         <Row>
           <ChartImageContainer
-            imgName="261_Custom_Wordcloud1"
-            caption="Wordcloud customization: word size."
+            imgName="261-custom-python-wordcloud-1"
+            caption="Simple wordcloud"
             linkTo="/261-custom-python-wordcloud"
           />
           <ChartImageContainer
-            imgName="261_Custom_Wordcloud4"
-            caption="Wordcloud customization: background color."
+            imgName="261-custom-python-wordcloud-2"
+            caption="Control the maximum number of words"
             linkTo="/261-custom-python-wordcloud"
           />
           <ChartImageContainer
-            imgName="261_Custom_Wordcloud5"
-            caption="Wordcloud customization: word color."
+            imgName="261-custom-python-wordcloud-3"
+            caption="Custom text color theme"
+            linkTo="/261-custom-python-wordcloud"
+          />
+          <ChartImageContainer
+            imgName="261-custom-python-wordcloud-4"
+            caption="Worcloud with a specific shape"
             linkTo="/261-custom-python-wordcloud"
           />
         </Row>
@@ -151,18 +160,28 @@ export default function Wordcloud() {
       <Container>
         <h2 id="Custom shapes">Wordclouds and custom shapes</h2>
         <p>
-          It is a common need to apply a specific shape to the wordcloud. TODO.
-          Make a bette image. TODO: more proiminent link toward
-          https://github.com/amueller/word_cloud
+          It is a common need to apply a <b>specific shape</b> to the wordcloud.
+          It's an excellent way to make the wordcloud <b>more relevant</b> to
+          the data you are displaying. The <code>wordcloud</code> library allows
+          you to do it by using a mask, and it's quite easy to do!
         </p>
-        <div style={{ maxWidth: '750px', margin: 'auto' }}>
-          <Link to={'/262-worcloud-with-specific-shape'}>
-            <ChartImage
-              imgName="262_Wordcloud_with_a_Mask"
-              caption="Use a mask to get a wordcloud with specific shape."
-            />
-          </Link>
-        </div>
+        <p>
+          You can find the official documentation{' '}
+          <Link to="https://github.com/amueller/word_cloud">here</Link> and some
+          examples of how to use it in practice below.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="262-wordcloud-with-specific-shape"
+            caption=""
+            linkTo="/262-wordcloud-with-specific-shape"
+          />
+          <ChartImageContainer
+            imgName="262-wordcloud-with-specific-shape-2"
+            caption=""
+            linkTo="/262-wordcloud-with-specific-shape"
+          />
+        </Row>
       </Container>
 
       <Spacing />
