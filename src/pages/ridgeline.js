@@ -87,6 +87,24 @@ export default function RidgelinePlot() {
 
       <Spacing />
 
+      <Container>
+        <h2>Best ridgeline chart examples</h2>
+        <p>
+          Ridgeline charts can be used to create <b>stunning visualizations</b>.
+          Here are some examples of the <b>best</b> ridgeline charts made with
+          Python.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="web-ridgeline-by-text-square"
+            caption="Ridgeline chart with annotations and quantiles"
+            linkTo="/web-ridgeline-by-text"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="distribution" />
