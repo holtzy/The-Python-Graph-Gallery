@@ -242,7 +242,7 @@ export default function ConnectedScatter() {
           !
         </p>
         <Row>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Link to={'/web-text-repel-with-matplotlib'}>
               <ChartImage
                 imgName={'web-text-repel-with-matplotlib-square'}
@@ -252,7 +252,7 @@ export default function ConnectedScatter() {
               />
             </Link>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Link to={'/web-highlighted-lineplot-with-faceting'}>
               <ChartImage
                 imgName={'web-highlighted-lineplot-with-faceting'}

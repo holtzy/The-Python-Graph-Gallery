@@ -73,11 +73,6 @@ export default function StackedAreaPlot() {
             linkTo="/streamchart-basic-matplotlib"
           />
           <ChartImageContainer
-            imgName="570-custom-streamchart"
-            caption="How to mix a streamchart with a line chart"
-            linkTo="/570-custom-streamchart"
-          />
-          <ChartImageContainer
             imgName="570-custom-streamchart-2"
             caption="Custom colormap in a streamchart with a line chart"
             linkTo="/570-custom-streamchart"
@@ -91,27 +86,6 @@ export default function StackedAreaPlot() {
             imgName="570-custom-streamchart-4"
             caption="Smooth the chart"
             linkTo="/570-custom-streamchart"
-          />
-        </Row>
-      </Container>
-
-      <Spacing />
-
-      <Container>
-        <h2 id="Altair">
-          Streamgraph with <code>Altair</code>
-        </h2>
-        <p>Altair is a lesser know python library for datavizualization.</p>
-        <p>
-          Fortunately, the <code>pandas</code> library has a{' '}
-          <code>divide()</code> function that allows to apply this normalization
-          easily.
-        </p>
-        <Row>
-          <ChartImageContainer
-            imgName="streamchart-basic-altair"
-            caption="Basic streamgraph with Altair and Python"
-            linkTo="/255-percentage-stacked-area-chart"
           />
         </Row>
       </Container>

@@ -116,11 +116,6 @@ export default function ViolinPlot() {
             linkTo="/58-show-number-of-observation-on-violinplot"
           />
           <ChartImageContainer
-            imgName="54_Grouped_violinplot_Seaborn"
-            caption="If you have both groups and subgroups, you'll be interested in a grouped violin plot"
-            linkTo="/54-grouped-violinplot"
-          />
-          <ChartImageContainer
             imgName="502-violinplot-and-swarmplot"
             caption="Add a swarmplot on top of a violin chart to show individual data points"
             linkTo="/502-violinplot-and-swarmplot"
