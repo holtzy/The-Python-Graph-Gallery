@@ -1,9 +1,8 @@
 name: 'Update Ads.txt file'
 
 on:
-  push:
-    branches:
-      - '*'
+  schedule:
+    - cron: '0 0 * * *' # Runs at midnight every day
 
 jobs:
   update-ads-txt:
