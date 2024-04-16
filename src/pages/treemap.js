@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib } from '../components/MiscellaneousLogos';
+import { Matplotlib, Plotly } from '../components/MiscellaneousLogos';
 import ChartImage from '../components/ChartImage';
 import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
@@ -116,6 +116,38 @@ export default function Treemap() {
             linkTo="/202-treemap-with-colors-mapped-on-values"
           />
         </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Plotly">
+          <Plotly />
+          Treemap with <code>Plotly</code>
+        </h2>
+        <p>
+          <code>Plotly</code> is a very powerful library to create interactive
+          graphics. It is known for its great interactivity and its ability to
+          handle large datasets.
+        </p>
+        <p>
+          It comes with <b>multiple functions</b> to create treemaps, for both
+          of its API: <code>plotly.graph_objects</code> and{' '}
+          <code>plotly.express</code>. Try to <b>hover and click</b> on the
+          following treemap to see how it reacts:
+        </p>
+        <iframe
+          src="../../interactiveCharts/580-simple-interactive-treemap-plotly-2.html"
+          width="800"
+          height="600"
+          title="most simple treemap"
+        ></iframe>
+        <a
+          className="btn btn-secondary btn-md text-uppercase"
+          href="/580-simple-interactive-treemap-plotly"
+        >
+          See code
+        </a>
       </Container>
 
       <Spacing />
