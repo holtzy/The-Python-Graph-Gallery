@@ -172,14 +172,32 @@ export default function Wordcloud() {
         </p>
         <Row>
           <ChartImageContainer
-            imgName="262-wordcloud-with-specific-shape"
-            caption=""
+            imgName="262-wordcloud-with-specific-shape-2"
+            caption="Create a wordcloud in the shape of the Linkedin Logo"
             linkTo="/262-wordcloud-with-specific-shape"
           />
           <ChartImageContainer
-            imgName="262-wordcloud-with-specific-shape-2"
-            caption=""
+            imgName="262-wordcloud-with-specific-shape-1"
+            caption="Create a wordcloud in the shape of the Twitter Logo"
             linkTo="/262-wordcloud-with-specific-shape"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2>Best wordcloud examples</h2>
+        <p>
+          Below are some of the <b>best wordcloud examples</b> that you can
+          find. They are all made with Python and the <code>wordcloud</code>{' '}
+          library.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="web-worcloud-with-line-chart"
+            caption="Combine wordcloud with a line chart"
+            linkTo="/web-worcloud-with-line-chart"
           />
         </Row>
       </Container>
