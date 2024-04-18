@@ -195,9 +195,9 @@ export default function Wordcloud() {
         </p>
         <Row>
           <ChartImageContainer
-            imgName="web-worcloud-with-line-chart"
+            imgName="web-stacked-charts"
             caption="Combine wordcloud with a line chart"
-            linkTo="/web-worcloud-with-line-chart"
+            linkTo="/web-stacked-charts"
           />
         </Row>
       </Container>

@@ -389,9 +389,9 @@ export default function LinePlot() {
             </Link>
           </Col>
           <Col xs={12} md={6}>
-            <Link to={'/web-worcloud-with-line-chart'}>
+            <Link to={'/web-stacked-charts'}>
               <ChartImage
-                imgName={'web-worcloud-with-line-chart'}
+                imgName={'web-stacked-charts'}
                 caption={'A wordcloud combined with a line chart'}
               />
             </Link>

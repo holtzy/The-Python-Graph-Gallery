@@ -49,11 +49,11 @@ export const listOfBestCharts = [
   },
 
   {
-    link: 'web-worcloud-with-line-chart',
+    link: 'web-stacked-charts',
     title: 'Line chart with word cloud',
     description:
       'Movie titles in the background of a line chart to visualize average ratings over time.',
-    img: 'web-worcloud-with-line-chart.png',
+    img: 'web-stacked-charts.png',
     alt: 'Clean table with plottable',
     author: 'Joseph Barbier',
   },
