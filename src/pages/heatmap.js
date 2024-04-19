@@ -112,6 +112,11 @@ export default function Heatmap() {
             caption="Color customization: how to select other color palettes and more"
             linkTo="/92-control-color-in-seaborn-heatmaps"
           />
+          <ChartImageContainer
+            imgName="92-control-color-in-seaborn-heatmaps-square"
+            caption="Customize colormaps"
+            linkTo="/92-control-color-in-seaborn-heatmaps"
+          />
         </Row>
       </Container>
 
@@ -132,7 +137,7 @@ export default function Heatmap() {
             right heatmap.
           </p>
           <p>
-            If you want to no more about normalization, check{' '}
+            If you want to know more about normalization, check{' '}
             <a href="https://www.data-to-viz.com/graph/heatmap.html">
               data-to-viz.com
             </a>
