@@ -118,7 +118,7 @@ export default function Wordcloud() {
 
       <Container>
         <h2 id="Wordcloud">
-          Wordclouds with.. the <code>wordcloud</code> library &#128512;
+          Wordclouds with... the <code>wordcloud</code> library &#128512;
         </h2>
         <p>
           Thanks to the{' '}
