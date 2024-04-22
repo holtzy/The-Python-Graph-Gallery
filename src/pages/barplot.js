@@ -7,7 +7,13 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Seaborn, Matplotlib, Pandas, Plotnine } from '../components/MiscellaneousLogos';
+import {
+  Seaborn,
+  Matplotlib,
+  Pandas,
+  Plotnine,
+  Plotly,
+} from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -349,6 +355,33 @@ export default function Barplot() {
         </Row>
       </Container>
 
+      <Spacing />
+
+      <Container>
+        <h2 id="Plotly">
+          <Plotly />
+          Barplot with <code>Plotly</code>
+        </h2>
+        <p>
+          The <code>Plotly</code> provides <b>2 ways</b> to build a barplot. The
+          first one is to use the <code>plotly express</code> module for fast
+          and interactive barplots. The second one is to use the{' '}
+          <code>graph objects</code> module for more advanced customization.
+        </p>
+        <p>The examples below explains both methods.</p>
+        <Row>
+          <ChartImageContainer
+            imgName="582-simple-barplot-plotly"
+            caption="Interactive Barplot with plotly"
+            linkTo="/582-simple-barplot-plotly"
+          />
+          <ChartImageContainer
+            imgName="583-stacked-barplot-plotly"
+            caption="Interactive Stacked Barplot with plotly"
+            linkTo="/583-stacked-barplot-plotly"
+          />
+        </Row>
+      </Container>
 
       <Spacing />
 
@@ -358,13 +391,14 @@ export default function Barplot() {
           Barplot with <code>Plotnine</code>
         </h2>
         <p>
-          The <a href='https://python-graph-gallery.com/plotnine/'>plotnine</a> library
-          is a great alternative to build barplots. It is based on the <b>grammar of graphics</b>,
-          like ggplot2 in <a href='https://r-graph-gallery.com/'>R</a>.
+          The <a href="https://python-graph-gallery.com/plotnine/">plotnine</a>{' '}
+          library is a great alternative to build barplots. It is based on the{' '}
+          <b>grammar of graphics</b>, like ggplot2 in{' '}
+          <a href="https://r-graph-gallery.com/">R</a>.
         </p>
         <p>
-          The examples below should get you started. They go from very
-          simple examples and how to customize them.
+          The examples below should get you started. They go from very simple
+          examples and how to customize them.
         </p>
         <Row>
           <ChartImageContainer
@@ -473,15 +507,13 @@ export default function Barplot() {
             </Link>
           </Col>
           <Col xs={12} md={6}>
-              <Link to={'/web-tornado-chart'}>
-                <ChartImage
-                  imgName={'web-tornado-chart'}
-                  caption={
-                    'Tornado with custom title and colors'
-                  }
-               />
-             </Link>
-           </Col>
+            <Link to={'/web-tornado-chart'}>
+              <ChartImage
+                imgName={'web-tornado-chart'}
+                caption={'Tornado with custom title and colors'}
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
