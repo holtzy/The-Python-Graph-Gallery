@@ -306,8 +306,8 @@ export default function Matplotlibs() {
           labels, shapes or color.
         </p>
         <p>
-          All those kind of annotation are built thanks to various matplotlib
-          functions like <code>annotate()</code> or <code>add_patch()</code>.
+          All those kind of annotation are built thanks to various <b>matplotlib
+          functions</b> like <code>annotate()</code> or <code>add_patch()</code>.
           The blogposts showcased below should get you started with it.
         </p>
         <Row>
@@ -351,17 +351,6 @@ export default function Matplotlibs() {
             caption="How to add an img into a matplotlib chart"
             linkTo="/513-add-logo-matplotlib"
           />
-
-          <ChartImageContainer
-            imgName="advanced-custom-annotations-matplotlib-1"
-            caption="Add a background to the annotation"
-            linkTo="/advanced-custom-annotations-matplotlib"
-          />
-          <ChartImageContainer
-            imgName="advanced-custom-annotations-matplotlib-2"
-            caption="Add a path effect to the annotation"
-            linkTo="/advanced-custom-annotations-matplotlib"
-          />
           <ChartImageContainer
             imgName="how-to-create-and-custom-arrows-matplotlib-1"
             caption="How to create an arrow with an annotation"
@@ -371,6 +360,35 @@ export default function Matplotlibs() {
             imgName="how-to-create-and-custom-arrows-matplotlib-2"
             caption="How to create rounded arrows with matplotlib"
             linkTo="/how-to-create-and-custom-arrows-matplotlib"
+          />
+        </Row>
+        <p>
+          <br />
+          The main problem with matplotlib annotations is that <b>you can't</b>{' '}
+          have different font styles (<i>color, weight, size...</i>) inside a same
+          annotation. And this is a big issue because highlighting text has a <b>major
+          role</b> in data visualization.
+        </p>
+        <p>
+          Fortunately for us, the <code>highlight_text</code> package exists! And it
+          makes the process of creating <b>beautiful annotations</b> much easier. Check
+          the examples below:
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="how-to-custom-annotations-matplotlib"
+            caption="How to customize color and style of the annotation"
+            linkTo="/how-to-custom-title-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="advanced-custom-annotations-matplotlib-1"
+            caption="Add a background to the annotation"
+            linkTo="/advanced-custom-annotations-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="advanced-custom-annotations-matplotlib-2"
+            caption="Add a path effect to the annotation"
+            linkTo="/advanced-custom-annotations-matplotlib"
           />
         </Row>
       </Container>

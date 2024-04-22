@@ -118,7 +118,7 @@ export default function Wordcloud() {
 
       <Container>
         <h2 id="Wordcloud">
-          Wordclouds with.. the <code>wordcloud</code> library &#128512;
+          Wordclouds with... the <code>wordcloud</code> library &#128512;
         </h2>
         <p>
           Thanks to the{' '}
@@ -195,9 +195,9 @@ export default function Wordcloud() {
         </p>
         <Row>
           <ChartImageContainer
-            imgName="web-worcloud-with-line-chart"
+            imgName="web-stacked-charts"
             caption="Combine wordcloud with a line chart"
-            linkTo="/web-worcloud-with-line-chart"
+            linkTo="/web-stacked-charts"
           />
         </Row>
       </Container>

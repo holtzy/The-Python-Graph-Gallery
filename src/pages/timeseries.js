@@ -243,9 +243,9 @@ export default function Pie() {
             linkTo="/524-area-chart-over-flexible-baseline"
           />
           <ChartImageContainer
-            imgName="web-worcloud-with-line-chart-square"
+            imgName="web-stacked-charts-square"
             caption="How to build a line chart on top of a wordcloud with Python and Matplotlib."
-            linkTo="/web-worcloud-with-line-chart"
+            linkTo="/web-stacked-charts"
           />
         </Row>
       </Container>
