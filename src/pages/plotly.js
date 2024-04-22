@@ -71,7 +71,6 @@ export default function Plotlys() {
           title="scatterplot with plotly"
           style={{ border: 'none', width: '100%', height: '600px' }}
         ></iframe>
-
       </Container>
 
       <Spacing />
@@ -295,9 +294,14 @@ export default function Plotlys() {
             linkTo="/sankey-diagram-with-python-and-plotly"
           />
           <ChartImageContainer
-            imgName="520-interactive-barplot-with-plotly"
+            imgName="582-simple-barplot-plotly"
             caption="Interactive Barplot with plotly"
-            linkTo="/520-interactive-barplot-with-plotly"
+            linkTo="/582-simple-barplot-plotly"
+          />
+          <ChartImageContainer
+            imgName="583-stacked-barplot-plotly"
+            caption="Interactive Stacked Barplot with plotly"
+            linkTo="/583-stacked-barplot-plotly"
           />
           <ChartImageContainer
             imgName="524-area-over-flexible-baseline_square"
