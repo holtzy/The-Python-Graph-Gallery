@@ -8,6 +8,17 @@ export const listOfBestCharts = [
     alt: 'bubble map',
     author: 'Joseph Barbier',
   },
+
+  {
+    link: 'web-multiple-maps',
+    title: 'Multiple choropleth map',
+    description:
+      'Combine multiple maps about happiness together, with a lollipop plot for the legend.',
+    img: 'web-multiple-maps.png',
+    alt: 'choropleth map',
+    author: 'Joseph Barbier',
+  },
+
   {
     link: 'web-dumbell-chart',
     title: 'Dumbell chart',

@@ -5,10 +5,13 @@ import Container from 'react-bootstrap/Container';
 import Contact from '../components/Contact';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
+import Row from 'react-bootstrap/Row';
+import { Col } from 'react-bootstrap';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import Button from 'react-bootstrap/Button';
 import { SEO } from '../components/SEO';
+import ChartImageContainer from '../components/ChartImageContainer';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/choropleth.html'>choropleth map</a> displays divided geographical areas or regions that are coloured in relation to a numeric variable. This section explains how to build static choropleth with <code>geopandas</code> and <code>geoplot</code>, and interactive versions with tools like <code>folium</code> and <code>plotly</code>.</p>";
@@ -113,24 +116,34 @@ export default function Choropleth() {
           <code>Matplotlib</code> for static choropleth maps
         </h2>
         <p>
-          <a href='https://python-graph-gallery.com/matplotlib/'>Matplotlib</a> allows to build static choropleth maps with
-          the <code>geopandas</code> library. The below example shows how to
-          build a choropleth map of European countries with <code>geopandas</code>
+          <a href="https://python-graph-gallery.com/matplotlib/">Matplotlib</a>{' '}
+          allows to build static choropleth maps with the <code>geopandas</code>{' '}
+          library. The below example shows how to build a choropleth map of
+          European countries with <code>geopandas</code>
           and <code>matplotlib</code>.
         </p>
-        <div style={{ margin: '0 auto', padding: 0 }}>
-          <Link to="/web-map-europe-with-color-by-country">
-            <ChartImage
-              imgName={'web-map-europe-with-color-by-country'}
-              caption={
-                'Choropleth map of European counties with Matplotlib and Geopandas'
-              }
-            />
-          </Link>
-        </div>
-        <Link to="/web-map-europe-with-color-by-country">
-          <Button size="xl">Read post</Button>
-        </Link>
+        <Row>
+          <Col xs={12} md={6}>
+            <Link to={'/web-multiple-maps'}>
+              <ChartImage
+                imgName={'web-multiple-maps'}
+                caption={
+                  'Combine multiple maps together, with a lollipop plot for the legend'
+                }
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-map-europe-with-color-by-country'}>
+              <ChartImage
+                imgName={'web-map-europe-with-color-by-country'}
+                caption={
+                  'Choropleth map of European counties with Matplotlib and Geopandas'
+                }
+              />
+            </Link>
+          </Col>
+        </Row>
       </Container>
 
       <Spacing />
