@@ -48,7 +48,7 @@
   "devDependencies": {
     "eslint": "^8.42.0",
     "eslint-plugin-react": "^7.32.2",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^5.0.0",
     "html-loader": "^2.1.2",
     "prettier": "^2.8.8",
     "raw-loader": "^4.0.2"
