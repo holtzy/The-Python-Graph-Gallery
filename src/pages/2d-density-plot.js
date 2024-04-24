@@ -36,22 +36,22 @@ export default function Heatmap() {
           <h2 id="Warning">💡 What is a 2D density chart?</h2>
           <p>
             There are several chart types allowing to visualize the distribution
-            of a combination of 2 numeric variables. They always have a variable
-            represented on the X axis, the other on the Y axis, like for a{' '}
-            <Link to="/scatter-plot">scatterplot</Link> (left).
+            of a combination of <b>2 numeric variables</b>. They always have a
+            variable represented on the X axis, the other on the Y axis, like
+            for a <Link to="/scatter-plot">scatterplot</Link> (left).
           </p>
           <p>
             Then the number of observations within a particular area of the 2D
-            space is counted and represented with a color gradient. The shape
-            can vary: hexagones result in a <code>hexbin chart</code>, squares
-            in a <code>2d histogram</code>. A kernel density estimate can be
-            used to get a <code>2d density plots</code> or a{' '}
+            space is counted and represented with a <b>color gradient</b>. The
+            shape can vary: hexagones result in a <code>hexbin chart</code>,
+            squares in a <code>2d histogram</code>. A kernel density estimate
+            can be used to get a <code>2d density plots</code> or a{' '}
             <code>contour plots</code>
           </p>
           <div style={{ maxWidth: '750px', margin: 'auto' }}>
             <Link to={'/86-avoid-overlapping-in-scatterplot-with-2d-density'}>
               <ChartImage
-                imgName="86_2D_density_plot_explanation"
+                imgName="what-is-density-chart"
                 caption={'Cheat sheet: line customization with matplotlib'}
               />
             </Link>
@@ -106,28 +106,28 @@ export default function Heatmap() {
 
       <Container>
         <h2 id="2d histogram">
-          <Seaborn />
-          2D histogram with <code>Seaborn</code>
+          <Matplotlib />
+          2D histogram with <code>Matplotlib</code>
         </h2>
         <p>
           Build a 2d histogram thanks to the <code>hist2d()</code> function of
-          the <code>Seaborn</code> library. Do not forget to play with the{' '}
+          the <code>Matplotlib</code> library. Do not forget to play with the{' '}
           <code>bins</code> argument to find the value representing the best
           your data.
         </p>
         <Row>
           <ChartImageContainer
-            imgName="83_2D_Histogram_matplotlib_3"
-            caption="Basic 2D histogram with seaborn"
+            imgName="83-basic-2d-histograms-with-matplotlib-1"
+            caption="Basic 2D histogram with bins customization"
             linkTo="/83-basic-2d-histograms-with-matplotlib"
           />
           <ChartImageContainer
-            imgName="83_2D_Histogram_matplotlib_5"
+            imgName="83-basic-2d-histograms-with-matplotlib-2"
             caption="Control the color in the 2d histogram."
             linkTo="/83-basic-2d-histograms-with-matplotlib"
           />
           <ChartImageContainer
-            imgName="83_2D_Histogram_matplotlib_6"
+            imgName="83-basic-2d-histograms-with-matplotlib-3"
             caption="Black and white, color scale legend."
             linkTo="/83-basic-2d-histograms-with-matplotlib"
           />
@@ -148,14 +148,19 @@ export default function Heatmap() {
         </p>
         <Row>
           <ChartImageContainer
-            imgName="84_hexbin_matplotlib_1"
-            caption="Basic contourplot with seaborn."
-            linkTo="/83-basic-2d-histograms-with-matplotlib"
+            imgName="84-hexbin-plot-with-matplotlib-1"
+            caption="Basic hexbin with bins customization"
+            linkTo="/84-hexbin-plot-with-matplotlib"
           />
           <ChartImageContainer
-            imgName="84_hexbin_matplotlib_3"
-            caption="Basic contourplot with seaborn."
-            linkTo="/83-basic-2d-histograms-with-matplotlib"
+            imgName="84-hexbin-plot-with-matplotlib-2"
+            caption="Control the color in the hexbin."
+            linkTo="/84-hexbin-plot-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="84-hexbin-plot-with-matplotlib-3"
+            caption="Black and white, color scale legend."
+            linkTo="/84-hexbin-plot-with-matplotlib"
           />
         </Row>
       </Container>
@@ -174,13 +179,18 @@ export default function Heatmap() {
         </p>
         <Row>
           <ChartImageContainer
-            imgName="85_2D_density_plot_matplotlib_1"
-            caption="Basic 2d density chart."
+            imgName="85-density-plot-with-matplotlib-1"
+            caption="Basic 2d density with bins customization"
             linkTo="/85-density-plot-with-matplotlib"
           />
           <ChartImageContainer
-            imgName="85_2D_density_plot_matplotlib_2"
-            caption="How to customize the 2d density chart."
+            imgName="85-density-plot-with-matplotlib-2"
+            caption="Control the color in the 2d density."
+            linkTo="/85-density-plot-with-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="85-density-plot-with-matplotlib-3"
+            caption="Black and white, color scale legend."
             linkTo="/85-density-plot-with-matplotlib"
           />
         </Row>
