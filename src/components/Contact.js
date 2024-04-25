@@ -54,8 +54,6 @@ export default function Contact({ pageSlug, isNotebook }) {
         </blockquote>
       )}
 
-      <br />
-
       <SubscribeButton />
     </div>
   );
