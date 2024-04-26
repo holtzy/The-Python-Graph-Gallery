@@ -164,7 +164,7 @@ export default function Matplotlibs() {
         <p>
           &#9888;&#65039; <u>Disclaimer</u>: this figure comes from the very
           complete{' '}
-          <a href="https://matplotlib.org/faq/usage_faq.html#coding-styles">
+          <a href="https://matplotlib.org/stable/users/explain/quick_start.html#parts-of-a-figure">
             matplotlib documentation
           </a>
           . Have a look at it for a thorough explanation on how this library
@@ -172,13 +172,13 @@ export default function Matplotlibs() {
         </p>
         <div style={{ maxWidth: '600px', margin: '0 auto', padding: 30 }}>
           <ChartImage
-            imgName={'matplotlib_vocabulary'}
+            imgName={'matplotlib_vocabulary_new'}
             caption={
               'Anatomy of a matplotlib chart: all the basic vocabulary you need to know to understand the documentation properly'
             }
           />
         </div>
-        <a href="https://matplotlib.org/faq/usage_faq.html#coding-styles">
+        <a href="https://matplotlib.org/stable">
           <Button size="sm">Matplotlib doc</Button>
         </a>
       </Container>
@@ -306,9 +306,10 @@ export default function Matplotlibs() {
           labels, shapes or color.
         </p>
         <p>
-          All those kind of annotation are built thanks to various <b>matplotlib
-          functions</b> like <code>annotate()</code> or <code>add_patch()</code>.
-          The blogposts showcased below should get you started with it.
+          All those kind of annotation are built thanks to various{' '}
+          <b>matplotlib functions</b> like <code>annotate()</code> or{' '}
+          <code>add_patch()</code>. The blogposts showcased below should get you
+          started with it.
         </p>
         <Row>
           <ChartImageContainer
@@ -364,15 +365,17 @@ export default function Matplotlibs() {
         </Row>
         <p>
           <br />
-          The main problem with matplotlib annotations is that <b>you can't</b>{' '}
-          have different font styles (<i>color, weight, size...</i>) inside a same
-          annotation. And this is a big issue because highlighting text has a <b>major
-          role</b> in data visualization.
+          The main problem with matplotlib annotations is that <b>
+            you can't
+          </b>{' '}
+          have different font styles (<i>color, weight, size...</i>) inside a
+          same annotation. And this is a big issue because highlighting text has
+          a <b>major role</b> in data visualization.
         </p>
         <p>
-          Fortunately for us, the <code>highlight_text</code> package exists! And it
-          makes the process of creating <b>beautiful annotations</b> much easier. Check
-          the examples below:
+          Fortunately for us, the <code>highlight_text</code> package exists!
+          And it makes the process of creating <b>beautiful annotations</b> much
+          easier. Check the examples below:
         </p>
         <Row>
           <ChartImageContainer
