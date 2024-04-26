@@ -35,15 +35,8 @@ export default function Contact({ pageSlug, isNotebook }) {
         >
           twitter
         </a>{' '}
-        or subscribe to the{' '}
-        <a
-          href="https://datavizuniverse.substack.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          newsletter
-        </a>{' '}
-        to know when new examples are published! 🔥
+        or subscribe to the newsletter to know when new examples are published!
+        🔥
       </p>
 
       {isNotebook && (

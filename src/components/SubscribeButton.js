@@ -8,6 +8,7 @@ export default function SubscribeButton() {
 
   return (
     <div
+      style={{ lineHeight: '14px' }}
       dangerouslySetInnerHTML={{
         __html: convertKitFormHTML,
       }}

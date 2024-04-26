@@ -17,6 +17,7 @@ import {
 } from '../components/MiscellaneousLogos';
 import { Link } from 'gatsby';
 import { SEO } from '../components/SEO';
+import SubscribeButton from '../components/SubscribeButton';
 
 const siteDescription = (
   <>
@@ -71,16 +72,12 @@ const siteDescription = (
       >
         twitter
       </a>{' '}
-      or subscribe to the{' '}
-      <a
-        href="https://datavizuniverse.substack.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        newsletter
-      </a>{' '}
-      to know when new examples are published! 🔥
+      or join 4000+ subscribers to the newsletter to know when new examples are
+      published! 🔥
     </p>
+    <div style={{ marginLeft: '-12px', marginTop: '-50px' }}>
+      <SubscribeButton />
+    </div>
   </>
 );
 

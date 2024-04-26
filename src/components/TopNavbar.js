@@ -16,11 +16,12 @@ import {
   Plotnine,
 } from '../components/MiscellaneousLogos';
 import { Button } from 'react-bootstrap';
+import SubscribeModal from './SubscribeModal';
 
 export default function TopNavbar() {
   const [show, setShow] = React.useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+
+  const [isSubscribeModalOpen, setIsSubscribeModalOpen] = React.useState(false);
 
   return (
     <Container>
@@ -28,7 +29,7 @@ export default function TopNavbar() {
         <Navbar.Brand href="/">&larr; Python Graph Gallery</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav.Link onClick={handleShow}>Chart types</Nav.Link>
+          <Nav.Link onClick={() => setShow(true)}>Chart types</Nav.Link>
 
           <NavDropdown title="Tools" id="nav-dropdown-tools">
             <NavDropdown.Item className="menuItemMain" href="/matplotlib">
@@ -125,14 +126,18 @@ export default function TopNavbar() {
 
           <Button
             size="sm"
-            href="https://datavizuniverse.substack.com/"
             style={{ borderWidth: 1, marginLeft: 10 }}
+            onClick={() => setIsSubscribeModalOpen(true)}
           >
             Subscribe
           </Button>
         </Navbar.Collapse>
       </Navbar>
-      <AllChartsModal show={show} handleClose={handleClose} />
+      <AllChartsModal show={show} handleClose={() => setShow(false)} />
+      <SubscribeModal
+        show={isSubscribeModalOpen}
+        handleClose={() => setIsSubscribeModalOpen(false)}
+      />
     </Container>
   );
 }

@@ -10,6 +10,7 @@ import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { listOfBestCharts } from '../util/list-of-best-charts';
 import { SEO } from '../components/SEO';
+import SubscribeButton from '../components/SubscribeButton';
 
 const chartDescription = (
   <>
@@ -37,6 +38,14 @@ const chartDescription = (
       to further showcase the versatility and power of matplotlib.
     </p>
     <p>Dive in and get inspired! 😍</p>
+    <br />
+    <p>
+      PS: don't miss new publications, I send them to 4000+ subscribers already
+      ⬇️
+    </p>
+    <div style={{ marginLeft: '-12px', marginTop: '-50px' }}>
+      <SubscribeButton />
+    </div>
   </>
 );
 
