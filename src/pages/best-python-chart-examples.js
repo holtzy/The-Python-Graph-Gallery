@@ -43,9 +43,7 @@ const chartDescription = (
       PS: don't miss new publications, I send them to 4000+ subscribers already
       ⬇️
     </p>
-    <div style={{ marginLeft: '-12px', marginTop: '-50px' }}>
-      <SubscribeButton />
-    </div>
+    <SubscribeButton />
   </>
 );
 

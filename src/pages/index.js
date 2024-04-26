@@ -75,9 +75,7 @@ const siteDescription = (
       or join 4000+ subscribers to the newsletter to know when new examples are
       published! 🔥
     </p>
-    <div style={{ marginLeft: '-12px', marginTop: '-50px' }}>
-      <SubscribeButton />
-    </div>
+    <SubscribeButton />
   </>
 );
 
