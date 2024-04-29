@@ -11,6 +11,7 @@ import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
 import gapminderGif from '../../static/graph/animated_gapminder.gif';
+import outerSpaceGIF from '../../static/animations/web-animation-with-text8.gif';
 import basicScatterGif from '../../static/graph/animated_chart.gif';
 import volcanoGif from '../../static/graph/animated_volcano.gif';
 import { SEO } from '../components/SEO';
@@ -93,6 +94,34 @@ export default function Correlogram() {
           <CodeChunk>{homebrewInstallCode}</CodeChunk>
         </Container>
       </div>
+
+      <Spacing />
+
+      <Container>
+        <h2>Advanced use case</h2>
+        <Row className="align-items-center">
+          <Col md={4}>
+            <p>
+              This <b>real life</b> example illustrates the power of animated
+              charts. The chart is a stacked area chart with a text that is
+              written <b>through the animation</b>.
+            </p>
+            <Link to="/web-animation-with-text">
+              <Button size="sm">See code</Button>
+            </Link>
+          </Col>
+          <Col md={8}>
+            <Link to={'/web-animation-with-text'}>
+              <img
+                src={outerSpaceGIF}
+                alt="Animation with python"
+                style={{ width: '100%' }}
+              />
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+
       <Spacing />
 
       <Container>
