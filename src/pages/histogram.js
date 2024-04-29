@@ -7,7 +7,12 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib, Pandas, Seaborn, Plotnine } from '../components/MiscellaneousLogos';
+import {
+  Matplotlib,
+  Pandas,
+  Seaborn,
+  Plotnine,
+} from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -265,6 +270,11 @@ export default function Histogram() {
             caption="Subplot, title, and margin customization"
             linkTo="/534-highly-customized-layout"
           />
+          <ChartImageContainer
+            imgName="584-introduction-hatch-matplotlib-3"
+            caption="Add patterns to your histogram bars"
+            linkTo="/584-introduction-hatch-matplotlib"
+          />
         </Row>
       </Container>
 
@@ -355,8 +365,8 @@ export default function Histogram() {
         <p>
           <Link to="/plotnine">Plotnine</Link> allows us to use the{' '}
           <b>grammar-of-graphics</b> to build histograms. It provides a{' '}
-          <code>geom_histogram()</code> function that can be used to
-          build histograms.
+          <code>geom_histogram()</code> function that can be used to build
+          histograms.
         </p>
         <p>
           The examples below should help you to get started with

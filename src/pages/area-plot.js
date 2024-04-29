@@ -101,6 +101,11 @@ export default function AreaPlot() {
             linkTo="/241-improve-area-chart"
           />
           <ChartImageContainer
+            imgName="584-introduction-hatch-matplotlib-2"
+            caption="Add patterns to your area chart"
+            linkTo="/584-introduction-hatch-matplotlib"
+          />
+          <ChartImageContainer
             imgName="area-fill-between-two-lines-in-matplotlib"
             caption="Fill the gap between 2 line charts"
             linkTo="/area-fill-between-two-lines-in-matplotlib"
