@@ -106,6 +106,7 @@ export default function Correlogram() {
               charts. The chart is a stacked area chart with a text that is
               written <b>through the animation</b>.
             </p>
+            <br />
             <Link to="/web-animation-with-text">
               <Button size="sm">See code</Button>
             </Link>
