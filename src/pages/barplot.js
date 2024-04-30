@@ -179,6 +179,11 @@ export default function Barplot() {
             caption="Tornado chart with annotations"
             linkTo="/web-tornado-chart"
           />
+          <ChartImageContainer
+            imgName="584-introduction-hatch-matplotlib-1"
+            caption="Add patterns to your barplot"
+            linkTo="/584-introduction-hatch-matplotlib"
+          />
         </Row>
       </Container>
 

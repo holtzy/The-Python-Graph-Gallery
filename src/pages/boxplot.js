@@ -237,6 +237,11 @@ export default function Boxplot() {
             caption="Subplot, title, and margin customization"
             linkTo="/534-highly-customized-layout"
           />
+          <ChartImageContainer
+            imgName="584-introduction-hatch-matplotlib-4"
+            caption="Add patterns to your boxplot"
+            linkTo="/584-introduction-hatch-matplotlib"
+          />
         </Row>
       </Container>
 

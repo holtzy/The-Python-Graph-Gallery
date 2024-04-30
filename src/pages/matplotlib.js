@@ -687,6 +687,39 @@ export default function Matplotlibs() {
       <Spacing />
 
       <Container>
+        <h2 id="Images">Patterns in charts</h2>
+        <p>
+          <b>Hatchs and patterns</b> are a great way to enhance the readability
+          of your chart. The post below will guide you through the process of
+          adding patterns to <b>different types</b> of charts.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="584-introduction-hatch-matplotlib-1"
+            caption="Patterns in barplot"
+            linkTo="/584-introduction-hatch-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="584-introduction-hatch-matplotlib-2"
+            caption="Patterns in area chart"
+            linkTo="/584-introduction-hatch-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="584-introduction-hatch-matplotlib-3"
+            caption="Patterns in histogram"
+            linkTo="/584-introduction-hatch-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="584-introduction-hatch-matplotlib-4"
+            caption="Patterns in boxplot"
+            linkTo="/584-introduction-hatch-matplotlib"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Images">Insert images in a matplotlib graph</h2>
         <p>
           It can be very useful to insert <b>one or several images</b> in a
