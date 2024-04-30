@@ -192,6 +192,14 @@ export default function AreaPlot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-overlapped-area-chart-with-zoom-outsets'}>
+              <ChartImage
+                imgName={'web-overlapped-area-chart-with-zoom-outsets'}
+                caption={'An area chart using overlaid fills to co-display two time series and zoom panels to expand areas of interest'}
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
