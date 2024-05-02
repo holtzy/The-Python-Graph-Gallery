@@ -1,5 +1,15 @@
 export const listOfBestCharts = [
   {
+    link: 'web-small-multiple-with-highlights',
+    title: 'Unemployment rate during COVID-19',
+    description:
+      'Evolution of unemployment rates between different regions across the world during the COVID-19 pandemic.',
+    img: 'web-small-multiple-with-highlights.png',
+    alt: 'bubble map',
+    author: 'Joseph Barbier',
+  },
+
+  {
     link: 'web-map-usa-with-scatter-plot-on-top',
     title: 'Map with scatter plot on top',
     description:

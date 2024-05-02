@@ -247,6 +247,11 @@ export default function Pie() {
             caption="How to build a line chart on top of a wordcloud with Python and Matplotlib."
             linkTo="/web-stacked-charts"
           />
+          <ChartImageContainer
+            imgName={'web-small-multiple-with-highlights'}
+            caption={'Multiple line charts with highlights'}
+            linkTo="/web-small-multiple-with-highlights"
+          />
         </Row>
       </Container>
 
