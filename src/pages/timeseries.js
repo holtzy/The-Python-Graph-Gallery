@@ -248,7 +248,7 @@ export default function Pie() {
             linkTo="/web-stacked-charts"
           />
           <ChartImageContainer
-            imgName={'web-small-multiple-with-highlights'}
+            imgName={'web-small-multiple-with-highlights-square'}
             caption={'Multiple line charts with highlights'}
             linkTo="/web-small-multiple-with-highlights"
           />
