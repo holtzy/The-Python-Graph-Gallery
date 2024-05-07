@@ -63,11 +63,11 @@ export default function Arc() {
           <code>Javascript</code>
         </h2>
         <p>
-          Contrary to <code>python</code> that is not of much help to build an
-          arc diagram, <code>R</code> and <code>Javascript</code> both offer
-          built-in functions to make them. <code>R</code> will be more adapted
-          if you're a data analyst and are happy with a static version.{' '}
-          <code>Javascript</code> and the
+          Contrary to <code>python</code> that is not of much help to build a
+          hierarchical edge bundling, <code>R</code> and <code>Javascript</code>{' '}
+          both offer built-in functions to make them. <code>R</code> will be
+          more adapted if you're a data analyst and are happy with a static
+          version. <code>Javascript</code> and the
           <code>d3.js</code> library offers more customization and interactivity
           options, but comes with a steeper learning curve and a lot of line of
           code. Pick your flavor!
@@ -79,7 +79,7 @@ export default function Arc() {
           <Button size="sm">Javascript code</Button>
         </a>
         <div style={{ maxWidth: '600px', margin: '0 auto', padding: 30 }}>
-          <a href="/405-dendrogram-with-heatmap-and-coloured-leaves">
+          <a href="https://r-graph-gallery.com/310-custom-hierarchical-edge-bundling.html">
             <ChartImage
               imgName={'hierarchical-edge-bundling-R'}
               caption={'Hierarchical edge bundling with R'}
