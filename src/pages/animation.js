@@ -17,12 +17,33 @@ import volcanoGif from '../../static/graph/animated_volcano.gif';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
-  '<p>An animated chart displays a sequence of static charts, often in a gif or movie format. It can be really useful to describe the evolution of a dataset, or to denote the difference between two states (going from one to another and backward). This page explains how to build an animated chart with <code>Python</code> and <code>Image Magick</code>.';
+  '<p>An animation is a sequence of <b>images displayed one after the other</b>. It is a powerful way to show a process or a <b>change over time</b>. This page shows how to build animated charts with Python and Matplotlib.</p>';
 
-const quickCode = `# Use image magick to transform a set of .png in a gif
-# (this is bash, not python)
-# (You have to be in a folder with several images called img1.png, img2.png, img3.png...)
-convert -delay 80 img*.png animation.gif
+const quickCode = `# libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
+
+# read the data (on the web)
+data = pd.read_csv('https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/gapminderData.csv')
+data['continent'] = pd.Categorical(data['continent'])
+
+# create animation
+fig, ax = plt.subplots(figsize=(10, 10), dpi=120)
+def update(frame):
+    ax.clear()
+    yearly_data = data.loc[data.year == frame, :]
+    ax.scatter(
+        x=yearly_data['lifeExp'], 
+        y=yearly_data['gdpPercap'], 
+        s=yearly_data['pop']/100000,
+        c=yearly_data['continent'].cat.codes, 
+        cmap="Accent",
+    )
+    return ax
+ani = FuncAnimation(fig, update, frames=data['year'].unique())
+ani.save('quick-anim.gif', writer='imagemagick', fps=1)
 `;
 const homebrewInstallCode = `brew install imagemagick`;
 
@@ -44,20 +65,19 @@ export default function Correlogram() {
           <Col md={6}>
             <p>
               An animated chart can be build with <code>python</code> using the
-              following process:
+              <code>FuncAnimation()</code> function from matplotlib. We follow
+              these steps:
             </p>
             <ul>
+              <li>Load libraries</li>
+              <li>Open a dataset</li>
               <li>
-                Make a loop that outputs each step of the animation as a single
-                chart
+                Define an <code>update</code> function used to build each frame
+                of the animation
               </li>
               <li>
-                Export each chart in its own file (like <code>png</code> or{' '}
-                <code>jpg</code>)
-              </li>
-              <li>
-                Use <a href="https://imagemagick.org/index.php">Image Magick</a>{' '}
-                to concatenate all those files into a unique <code>.gif</code>
+                Create the animation with <code>FuncAnimation()</code> and save
+                it with <code>save()</code>
               </li>
             </ul>
           </Col>
@@ -181,7 +201,7 @@ export default function Correlogram() {
             user is not a spectator anymore, but also an actor.
           </li>
         </ul>
-        <Link to="/scatter-plot">
+        <Link to="/plotly">
           <Button size="sm">Interactive Charts section</Button>
         </Link>
       </Container>
