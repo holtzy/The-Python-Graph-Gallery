@@ -1,5 +1,15 @@
 export const listOfBestCharts = [
   {
+    link: 'web-lollipop-with-background-image',
+    title: 'Lollipop about music genres',
+    description:
+      'A lollipop plot with a background image to visualize the popularity of music genres over time.',
+    img: 'web-lollipop-with-background-image.png',
+    alt: 'bubble map',
+    author: 'Joseph Barbier',
+  },
+
+  {
     link: 'web-map-usa-with-scatter-plot-on-top',
     title: 'Map with scatter plot on top',
     description:
