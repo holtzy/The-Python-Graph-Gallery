@@ -10,7 +10,7 @@ import { Matplotlib } from '../components/MiscellaneousLogos';
 import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
-import gapminderGif from '../../static/graph/animated_gapminder.gif';
+import gapminderGif from '../../static/animations/gapminder-2.gif';
 import outerSpaceGIF from '../../static/animations/web-animation-with-text8.gif';
 import basicScatterGif from '../../static/graph/animated_chart.gif';
 import volcanoGif from '../../static/graph/animated_volcano.gif';
