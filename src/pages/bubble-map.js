@@ -17,7 +17,7 @@ const chartDescription =
 
 export const Head = () => (
   <SEO
-    title="Bubble Map"
+    title="Bubble Map | Python Graph Gallery"
     seoDescription="A collection of bubble map examples made with Python, coming with explanation and reproducible code"
   />
 );

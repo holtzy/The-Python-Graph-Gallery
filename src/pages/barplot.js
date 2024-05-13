@@ -63,7 +63,7 @@ plt.show()
 
 export const Head = () => (
   <SEO
-    title="Barplot"
+    title="Python Barplot Examples with Code"
     seoDescription="A collection of barplot examples made with Python, coming with explanation and reproducible code"
   />
 );

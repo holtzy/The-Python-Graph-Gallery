@@ -36,7 +36,7 @@ plt.show()
 
 export const Head = () => (
   <SEO
-    title="Donut plot"
+    title="Donut plot | Python Graph Gallery"
     seoDescription="A collection of donut chart examples made with Python, coming with explanation and reproducible code"
   />
 );

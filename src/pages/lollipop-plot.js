@@ -32,7 +32,7 @@ plt.xticks( my_range, ordered_df['group'])
 
 export const Head = () => (
   <SEO
-    title="Lollipop chart"
+    title="Lollipop chart | Python & Matplotlib examples"
     seoDescription="A collection of lollipop plot examples made with Python, coming with explanation and reproducible code"
   />
 );

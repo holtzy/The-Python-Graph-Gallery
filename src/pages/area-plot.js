@@ -32,7 +32,7 @@ plot.show()
 
 export const Head = () => (
   <SEO
-    title="Area chart"
+    title="Python Area Chart Examples with Code"
     seoDescription="A collection of area chart examples made with Python, coming with explanation and reproducible code"
   />
 );
@@ -196,7 +196,9 @@ export default function AreaPlot() {
             <Link to={'/web-overlapped-area-chart-with-zoom-outsets'}>
               <ChartImage
                 imgName={'web-overlapped-area-chart-with-zoom-outsets'}
-                caption={'An area chart using overlaid fills to co-display two time series and zoom panels to expand areas of interest'}
+                caption={
+                  'An area chart using overlaid fills to co-display two time series and zoom panels to expand areas of interest'
+                }
               />
             </Link>
           </Col>

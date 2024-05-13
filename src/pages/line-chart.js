@@ -53,7 +53,7 @@ plt.plot(values)
 
 export const Head = () => (
   <SEO
-    title="Line chart"
+    title="Line chart | Python & Matplotlib examples"
     seoDescription="A collection of line chart examples made with Python, coming with explanation and reproducible code"
   />
 );

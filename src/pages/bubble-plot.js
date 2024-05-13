@@ -34,7 +34,7 @@ plt.show()
 
 export const Head = () => (
   <SEO
-    title="Bubble plot"
+    title="Python Bubble Chart Examples with Code"
     seoDescription="A collection of bubble chart examples made with Python, coming with explanation and reproducible code"
   />
 );

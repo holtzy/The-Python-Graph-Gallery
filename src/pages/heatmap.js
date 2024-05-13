@@ -31,7 +31,7 @@ p1 = sns.heatmap(df)
 
 export const Head = () => (
   <SEO
-    title="Heatmap"
+    title="Heatmap | Python Graph Gallery"
     seoDescription="A collection of heatmap examples made with Python, coming with explanation and reproducible code"
   />
 );
