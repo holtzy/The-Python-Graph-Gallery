@@ -396,6 +396,14 @@ export default function LinePlot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-small-multiple-with-highlights'}>
+              <ChartImage
+                imgName={'web-small-multiple-with-highlights'}
+                caption={'Multiple line charts with highlights'}
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
