@@ -5,7 +5,16 @@ export const listOfBestCharts = [
     description:
       'Evolution of unemployment rates between different regions across the world during the COVID-19 pandemic.',
     img: 'web-small-multiple-with-highlights.png',
-    alt: 'bubble map',
+    alt: 'Picture of a clean small multiple line chart made with matplotlib',
+    author: 'Joseph Barbier',
+  },
+  {
+    link: 'web-lollipop-with-background-image',
+    title: 'Lollipop about music genres',
+    description:
+      'A lollipop plot with a background image to visualize the popularity of music genres over time.',
+    img: 'web-lollipop-with-background-image.png',
+    alt: 'A diverging lollipop chart with an image in the background',
     author: 'Joseph Barbier',
   },
 
