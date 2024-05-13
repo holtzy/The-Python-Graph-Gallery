@@ -4,7 +4,7 @@ export const listOfBestCharts = [
     title: 'Unemployment rate during COVID-19',
     description:
       'Evolution of unemployment rates between different regions across the world during the COVID-19 pandemic.',
-    img: 'web-small-multiple-with-highlights.png',
+    img: 'web-small-multiple-with-highlights-square.png',
     alt: 'Picture of a clean small multiple line chart made with matplotlib',
     author: 'Joseph Barbier',
   },
@@ -13,7 +13,7 @@ export const listOfBestCharts = [
     title: 'Lollipop about music genres',
     description:
       'A lollipop plot with a background image to visualize the popularity of music genres over time.',
-    img: 'web-lollipop-with-background-image.png',
+    img: 'web-lollipop-with-background-image-square.png',
     alt: 'A diverging lollipop chart with an image in the background',
     author: 'Joseph Barbier',
   },
@@ -33,7 +33,7 @@ export const listOfBestCharts = [
     title: 'Multiple choropleth map',
     description:
       'Combine multiple maps about happiness together, with a lollipop plot for the legend.',
-    img: 'web-multiple-maps.png',
+    img: 'web-multiple-maps-square.png',
     alt: 'choropleth map',
     author: 'Joseph Barbier',
   },
