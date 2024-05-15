@@ -17,7 +17,7 @@ import volcanoGif from '../../static/animations/volcano.gif';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
-  '<p>An animation is a sequence of <b>images displayed one after the other</b>. It is a powerful way to show a process or a <b>change over time</b>. This page shows how to build animated charts with Python and Matplotlib.</p>';
+  '<p>An animation is a sequence of <b>images displayed one after the other</b>. It is a powerful way to show a process or a <b>change over time</b>.</p><p>This page shows how to build animated charts with Python and <a href="https://www.python-graph-gallery.com/matplotlib">Matplotlib</a>.</p>';
 
 const quickCode = `# libraries
 import matplotlib.pyplot as plt
@@ -40,12 +40,11 @@ def update(frame):
 ani = FuncAnimation(fig, update, frames=range(10))
 ani.save("my_animation.gif", fps=5)
 `;
-const homebrewInstallCode = `brew install imagemagick`;
 
 export const Head = () => (
   <SEO
     title="Animation"
-    seoDescription="A collection of correlogram examples made with Python, coming with explanation and reproducible code"
+    seoDescription="A collection of animated charts made with Python and Matplotlib, coming with explanation and reproducible code"
   />
 );
 
