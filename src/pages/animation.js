@@ -12,38 +12,33 @@ import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
 import gapminderGif from '../../static/animations/gapminder-2.gif';
 import outerSpaceGIF from '../../static/animations/web-animation-with-text8.gif';
-import basicScatterGif from '../../static/graph/animated_chart.gif';
-import volcanoGif from '../../static/graph/animated_volcano.gif';
+import basicScatterGif from '../../static/animations/scatter.gif';
+import volcanoGif from '../../static/animations/volcano.gif';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
   '<p>An animation is a sequence of <b>images displayed one after the other</b>. It is a powerful way to show a process or a <b>change over time</b>. This page shows how to build animated charts with Python and Matplotlib.</p>';
 
 const quickCode = `# libraries
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-# read the data (on the web)
-data = pd.read_csv('https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/gapminderData.csv')
-data['continent'] = pd.Categorical(data['continent'])
+# initiate figure
+fig, ax = plt.subplots(figsize=(10, 8), dpi=120)
 
-# create animation
-fig, ax = plt.subplots(figsize=(10, 10), dpi=120)
 def update(frame):
     ax.clear()
-    yearly_data = data.loc[data.year == frame, :]
     ax.scatter(
-        x=yearly_data['lifeExp'], 
-        y=yearly_data['gdpPercap'], 
-        s=yearly_data['pop']/100000,
-        c=yearly_data['continent'].cat.codes, 
-        cmap="Accent",
+      1+frame, 10+frame*10,
+      s=600, alpha=0.5,
+      edgecolors="black"
     )
-    return ax
-ani = FuncAnimation(fig, update, frames=data['year'].unique())
-ani.save('quick-anim.gif', writer='imagemagick', fps=1)
+    ax.set_xlim(0, 10)
+    ax.set_ylim(0, 100)
+    return fig, ax
+
+ani = FuncAnimation(fig, update, frames=range(10))
+ani.save("my_animation.gif", fps=5)
 `;
 const homebrewInstallCode = `brew install imagemagick`;
 
@@ -82,9 +77,9 @@ export default function Correlogram() {
             </ul>
           </Col>
           <Col md={6}>
-            <Link to={'/341-python-gapminder-animation'}>
+            <Link to={'/340-scatterplot-animation'}>
               <img
-                src={gapminderGif}
+                src={basicScatterGif}
                 alt="Animation with python"
                 style={{ width: '100%' }}
               />
@@ -92,7 +87,7 @@ export default function Correlogram() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-        <Link to="/341-python-gapminder-animation">
+        <Link to="/340-scatterplot-animation">
           <Button size="sm">See code</Button>
         </Link>
       </Container>
@@ -101,17 +96,30 @@ export default function Correlogram() {
 
       <div className="greySection">
         <Container>
-          <h2 id="Install">
-            How to install <code>Image Magick</code>
+          <h2 id="&#8800; interaction">
+            &#128161; Animation &#8800; Interaction
           </h2>
           <p>
-            Installing Image magick can be a nightmare. The official
-            documentation is{' '}
-            <a href="https://imagemagick.org/script/download.php">here</a>. The
-            best way to install it if you're on Mac OS is to use{' '}
-            <a href="https://brew.sh">Homebrew</a> as follow:
+            There is a common confusion between what animated and interactive
+            charts are:
           </p>
-          <CodeChunk>{homebrewInstallCode}</CodeChunk>
+          <ul>
+            <li>
+              <u>Animated</u> means a sequence of several static images is
+              displayed. The user can't do anything except watching those
+              images.
+            </li>
+            <li>
+              <u>Interactive</u> means the user can interact with the chart:
+              zoom in, hover over a shape to get a tooltip, click to have a
+              menu... The user is not a spectator anymore, but also an actor.
+            </li>
+          </ul>
+          <Link to="/plotly">
+            <Button size="sm">Interactive Charts section</Button>
+          </Link>
+          <br />
+          <br />
         </Container>
       </div>
 
@@ -148,28 +156,37 @@ export default function Correlogram() {
       <Container>
         <h2 id="Matplotlib">
           <Matplotlib />
-          <code>Matplotlib</code> and <code>Image Magick</code>
+          <code>Matplotlib</code> and <code>FuncAnimation()</code>
         </h2>
         <p>
-          Let's start with a ver basic animated scatter plot made with{' '}
-          <code>python</code>, <code>matplotlib</code>
-          and <code>image magick</code>. The <code>scatter()</code> function is
-          used to build a <Link to="/scatter-plot">scatterplot</Link> at each
-          iteration of a loop. <code>savefig()</code> is used to save each chart
-          at <code>.png</code> format. Finally,
-          <code>image magick builds</code> the gif.
+          The <code>FuncAnimation()</code> function, a component of the{' '}
+          <code>matplotlib.animation</code> module, facilitates the creation of
+          animations by <strong>repeatedly invoking a function</strong> that
+          updates the plot content with each iteration.
         </p>
-        <Link to={'/340-scatterplot-animation'}>
+        <p>
+          Typically, you start by{' '}
+          <strong>establishing a figure and an axis</strong>. Following this, an{' '}
+          <code>update()</code> function is defined to modify the plot's content
+          at every animation cycle.
+        </p>
+        <p>
+          To complete the process, you <strong>generate the animation</strong>{' '}
+          using <code>FuncAnimation()</code> and subsequently store it using the{' '}
+          <code>save()</code> function.
+        </p>
+        <Link to={'/341-python-gapminder-animation'}>
           <img
-            src={basicScatterGif}
+            src={gapminderGif}
             alt="Basic animated scatterplot with python"
-            style={{ maxWidth: '400px', width: '100%' }}
+            style={{ maxWidth: '900px', width: '100%' }}
           />
         </Link>
         <p>
-          The process is pretty much the same for a 3d chart. Here is an example
-          with an animated volcano plot. Each iteration of the loop changes the
-          camera angle, giving this feeling of travelling around the volcano.
+          The process is pretty much <b>the same</b> for a 3d chart. Here is an
+          example with an animated volcano plot. Each iteration of the loop
+          changes the <b>camera angle</b>, giving this feeling of travelling
+          around the volcano.
         </p>
         <Link to={'/342-animation-on-3d-plot'}>
           <img
@@ -181,30 +198,6 @@ export default function Correlogram() {
       </Container>
 
       <Spacing />
-
-      <Container>
-        <h2 id="&#8800; interaction">
-          &#128161; Animation &#8800; Interaction
-        </h2>
-        <p>
-          There is a common confusion between what animated and interactive
-          charts are:
-        </p>
-        <ul>
-          <li>
-            <u>Animated</u> means a sequence of several static images is
-            displayed. The user can't do anything except watching those images.
-          </li>
-          <li>
-            <u>Interactive</u> means the user can interact with the chart: zoom
-            in, hover over a shape to get a tooltip, click to have a menu... The
-            user is not a spectator anymore, but also an actor.
-          </li>
-        </ul>
-        <Link to="/plotly">
-          <Button size="sm">Interactive Charts section</Button>
-        </Link>
-      </Container>
 
       <Spacing />
 
