@@ -1,15 +1,14 @@
-import "./allChartsModal.css";
-import React from "react";
+import './allChartsModal.css';
+import React from 'react';
 
-import { Link } from "gatsby";
-import Modal from "react-bootstrap/Modal";
-import { chartTypesInfo } from "../util/sectionDescriptions";
-import SectionLogo from "./SectionLogo";
-import { fullUrlToInternalLink } from "../util/utils";
+import { Link } from 'gatsby';
+import Modal from 'react-bootstrap/Modal';
+import { chartTypesInfo } from '../util/sectionDescriptions';
+import SectionLogo from './SectionLogo';
+import { fullUrlToInternalLink } from '../util/utils';
 
 export default function AllChartsModal({ show, handleClose }) {
-
-  const [name, setName] = React.useState('')
+  const [name, setName] = React.useState('');
 
   const logoList = chartTypesInfo.map((chart, i) => {
     return (
@@ -26,7 +25,6 @@ export default function AllChartsModal({ show, handleClose }) {
     );
   });
 
-
   return (
     <Modal
       show={show}
@@ -39,9 +37,7 @@ export default function AllChartsModal({ show, handleClose }) {
       <p className="menuModalCloseModalButton" onClick={handleClose}>
         &#10005;
       </p>
-      <div className="menuModalAllLogoContainer">
-        {logoList}
-      </div>
+      <div className="menuModalAllLogoContainer">{logoList}</div>
       <p className="menuModalCharName">{name}</p>
     </Modal>
   );
