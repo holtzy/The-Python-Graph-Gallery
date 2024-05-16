@@ -12,7 +12,7 @@ import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
 import ChartImage from '../components/ChartImage';
 import ChartImageContainer from '../components/ChartImageContainer';
-import volcanoGif from '../../static/graph/animated_volcano.gif';
+import volcanoGif from '../../static/animations/volcano.gif';
 import { SEO } from '../components/SEO';
 
 const chartDescription =
