@@ -46,21 +46,39 @@ export default function Colors() {
       <TitleAndDescription title="Colors" description={chartDescription} />
 
       <Container>
-        <h2 id="Quick">&#9201; Quick start</h2>
+        <h2 id="Quick">Named colors</h2>
         <Row className="align-items-center">
-          <Col md={6}>Coming soon</Col>
           <Col md={6}>
-            <Link to={'/370-3d-scatterplot'}>
+            <p>
+              <a href="/matplotlib">Matplotlib</a> provides multiple ways of
+              managing colors. Basically, you can use:
+              <ul>
+                <li>
+                  <b>Named colors:</b> Use the name of the color. For example,
+                  'red', 'blue', 'green', etc.
+                </li>
+                <li>
+                  <b>RGB colors:</b> Use a tuple of 3 values between 0 and 1.
+                  For example, (1, 0, 0) for red.
+                </li>
+                <li>
+                  <b>Hexadecimal colors:</b> Use the hexadecimal code. For
+                  example, '#FF0000' for red.
+                </li>
+              </ul>
+            </p>
+          </Col>
+          <Col md={6}>
+            <Link to={'/available-colors-in-matplotlib'}>
               <ChartImage
-                imgName="370_3D_scatterplot"
-                caption="Basic 3d scatterplot with Python & Matplotlib."
+                imgName="color_names_matplotlib"
+                caption="Available colors in Matplotlib"
               />
             </Link>
           </Col>
         </Row>
-        <CodeChunk>{quickCode}</CodeChunk>
-        <Link to="/341-python-gapminder-animation">
-          <Button size="sm">See code</Button>
+        <Link to="/available-colors-in-matplotlib">
+          <Button size="sm">Learn more</Button>
         </Link>
       </Container>
 
@@ -69,9 +87,12 @@ export default function Colors() {
       <Container>
         <h2 id="Soon">
           <Matplotlib />
-          Oh No!
+          Pre-made color palettes
         </h2>
-        <p>This section is not available yet! But it is coming soon.</p>
+        <p>
+          Matplotlib provides a set of pre-made color palettes that can be used
+          to colorize your charts. These palettes are available in the{' '}
+        </p>
       </Container>
 
       <Spacing />
