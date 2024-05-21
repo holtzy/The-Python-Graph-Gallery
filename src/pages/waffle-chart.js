@@ -53,7 +53,7 @@ plt.show()
 export const Head = () => (
   <SEO
     title="Waffle chart"
-    seoDescription="A collection of Waffle chart examples made with Python and the PyWaffle library, coming with explanation and reproducible code"
+    seoDescription="A collection of waffle chart examples made with Python and the PyWaffle library, coming with explanation and reproducible code"
   />
 );
 

@@ -38,7 +38,7 @@ plt.show()
 export const Head = () => (
   <SEO
     title="Three-Dimensional plotting"
-    seoDescription="A collection of 2d density chart examples made with Python, coming with explanation and reproducible code"
+    seoDescription="A collection of 3d chart examples made with Python, coming with explanation and reproducible code"
   />
 );
 

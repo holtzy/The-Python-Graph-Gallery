@@ -29,7 +29,7 @@ plt.show()
 export const Head = () => (
   <SEO
     title="Venn Diagram"
-    seoDescription="A collection of Venn Diagram examples made with Python, coming with explanation and reproducible code"
+    seoDescription="A collection of venn diagram examples made with Python, coming with explanation and reproducible code"
   />
 );
 

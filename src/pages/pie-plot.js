@@ -31,7 +31,7 @@ plt.show()
 export const Head = () => (
   <SEO
     title="Pie plot | Python & Matplotlib examples"
-    seoDescription="A collection of Pie chart examples made with Python, coming with explanation and reproducible code"
+    seoDescription="A collection of pie chart examples made with Python, coming with explanation and reproducible code"
   />
 );
 
