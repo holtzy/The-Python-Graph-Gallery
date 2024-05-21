@@ -12,6 +12,7 @@ import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
 import gapminderGif from '../../static/animations/gapminder-2.gif';
 import outerSpaceGIF from '../../static/animations/web-animation-with-text8.gif';
+import plasticGIF from '../../static/animations/web-animated-line-chart-with-text-5.gif';
 import basicScatterGif from '../../static/animations/scatter.gif';
 import volcanoGif from '../../static/animations/volcano.gif';
 import { SEO } from '../components/SEO';
@@ -125,34 +126,6 @@ export default function Correlogram() {
       <Spacing />
 
       <Container>
-        <h2>Advanced use case</h2>
-        <Row className="align-items-center">
-          <Col md={4}>
-            <p>
-              This <b>real life</b> example illustrates the power of animated
-              charts. The chart is a stacked area chart with a text that is
-              written <b>through the animation</b>.
-            </p>
-            <br />
-            <Link to="/web-animated-line-chart-with-annotation">
-              <Button size="sm">See code</Button>
-            </Link>
-          </Col>
-          <Col md={8}>
-            <Link to={'/web-animated-line-chart-with-annotation'}>
-              <img
-                src={outerSpaceGIF}
-                alt="Animation with python"
-                style={{ width: '100%' }}
-              />
-            </Link>
-          </Col>
-        </Row>
-      </Container>
-
-      <Spacing />
-
-      <Container>
         <h2 id="Matplotlib">
           <Matplotlib />
           <code>Matplotlib</code> and <code>FuncAnimation()</code>
@@ -194,6 +167,63 @@ export default function Correlogram() {
             style={{ maxWidth: '900px', width: '100%' }}
           />
         </Link>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2>Advanced uses cases</h2>
+        <p>
+          Animated charts can be highly impactful when illustrating a
+          <b>process</b> or <b>change over time</b>. Here are a few examples
+          that demonstrate their effectiveness.
+        </p>
+        <Row className="align-items-center">
+          <Col md={4}>
+            <p>
+              This <b>real life</b> example illustrates the power of animated
+              charts. The chart is a{' '}
+              <a href="/stacked-area-plot">stacked area</a> chart with a text
+              that is written <b>through the animation</b>.
+            </p>
+            <br />
+            <Link to="/web-animated-line-chart-with-annotation">
+              <Button size="sm">See code</Button>
+            </Link>
+          </Col>
+          <Col md={8}>
+            <Link to={'/web-animated-line-chart-with-annotation'}>
+              <img
+                src={outerSpaceGIF}
+                alt="Animation with python"
+                style={{ width: '100%' }}
+              />
+            </Link>
+          </Col>
+        </Row>
+        <br />
+        <Row className="align-items-center">
+          <Col md={8}>
+            <Link to={'/web-animated-line-chart-with-text'}>
+              <img
+                src={plasticGIF}
+                alt="Animation with python"
+                style={{ width: '100%' }}
+              />
+            </Link>
+          </Col>
+          <Col md={4}>
+            <p>
+              This <a href="/line-chart">line chart</a>, or <b>race chart</b>,
+              shows the evolution of the of global plastic production over time
+              with a <b>smooth animation</b> and <b>highlighted text</b>.
+            </p>
+            <br />
+            <Link to="/web-animated-line-chart-with-text">
+              <Button size="sm">See code</Button>
+            </Link>
+          </Col>
+        </Row>
       </Container>
 
       <Spacing />
