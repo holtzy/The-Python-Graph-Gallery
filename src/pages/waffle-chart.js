@@ -98,7 +98,7 @@ export default function Waffle() {
 
       <Container>
         <h2 id="Matplotlib">
-          Pie chart with <code>PyWaffle</code>
+          Waffle chart with <code>PyWaffle</code>
         </h2>
         <p>
           The examples below should guide you through the <code>Waffle</code>{' '}
@@ -141,6 +141,11 @@ export default function Waffle() {
             imgName="558-waffle-bar-chart-3"
             caption="Custom stacked waffle bar chart: legend, icons and colors"
             linkTo="/558-waffle-bar-chart"
+          />
+          <ChartImageContainer
+            imgName="web-waffle-with-small-multiples-square"
+            caption="Small multiples of waffle charts with nice annotations"
+            linkTo="/web-waffle-with-small-multiples"
           />
         </Row>
       </Container>

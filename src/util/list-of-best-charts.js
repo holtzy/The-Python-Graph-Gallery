@@ -1,5 +1,14 @@
 export const listOfBestCharts = [
   {
+    link: 'web-waffle-with-small-multiples',
+    title: 'London recycling rates',
+    description:
+      'Repartition of London recycling rates by boroughs, with small multiples of waffle charts.',
+    img: 'web-waffle-with-small-multiples-square.png',
+    alt: 'Small multiples of waffle charts',
+    author: 'Lisa Hornung',
+  },
+  {
     link: 'web-small-multiple-with-highlights',
     title: 'Unemployment rate during COVID-19',
     description:
