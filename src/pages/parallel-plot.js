@@ -17,7 +17,7 @@ import { SEO } from '../components/SEO';
 const quickCode = `# libraries
 import pandas
 import matplotlib.pyplot as plt
-from pandas.tools.plotting import parallel_coordinates
+from pandas.plotting import parallel_coordinates
 
 # Take the iris dataset
 import seaborn as sns
