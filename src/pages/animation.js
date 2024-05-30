@@ -12,7 +12,7 @@ import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
 import gapminderGif from '../../static/animations/gapminder-2.gif';
 import outerSpaceGIF from '../../static/animations/web-animation-with-text8.gif';
-import plasticGIF from '../../static/animations/web-animated-line-chart-with-text-5.gif';
+import plasticGIF from '../../static/animations/web-animated-line-chart-with-text-6.gif';
 import basicScatterGif from '../../static/animations/scatter.gif';
 import volcanoGif from '../../static/animations/volcano.gif';
 import { SEO } from '../components/SEO';
