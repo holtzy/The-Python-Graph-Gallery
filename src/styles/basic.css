@@ -29,3 +29,11 @@ div.cell_display img {
   max-width: 790px;
   height: auto;
 }
+
+.dataframe th:first-child {
+  display: none;
+}
+
+.dataframe td:first-child {
+  display: none;
+}
