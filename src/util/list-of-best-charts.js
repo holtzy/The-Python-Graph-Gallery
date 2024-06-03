@@ -48,6 +48,16 @@ export const listOfBestCharts = [
   },
 
   {
+    link: 'web-scatter-with-customized-annotations',
+    title: 'Scatter plot with specific highlights',
+    description:
+      'Relationship between footprint and biocapacity of countries, with specific highlights on some countries.',
+    img: 'web-scatter-with-customized-annotations-square.png',
+    alt: 'choropleth map',
+    author: 'Joseph Barbier',
+  },
+
+  {
     link: 'web-dumbell-chart',
     title: 'Dumbell chart',
     description:
