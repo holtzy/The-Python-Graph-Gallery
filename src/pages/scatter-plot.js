@@ -584,6 +584,16 @@ export default function ScatterPlot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={4}>
+            <Link to={'/web-scatter-with-customized-annotations'}>
+              <ChartImage
+                imgName={'web-scatter-with-customized-annotations-square'}
+                caption={
+                  'A scatter plot with custom annotations and specific highlights'
+                }
+              />
+            </Link>
+          </Col>
           <Col xs={12} md={8}>
             <Link to={'/web-scatterplot-with-categorical-zoom-facets'}>
               <ChartImage
