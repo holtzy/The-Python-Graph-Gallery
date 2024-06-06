@@ -12,7 +12,12 @@ import SectionLogo from './SectionLogo';
 // Note that the description received is a string that contains html.
 // It was not possible to pass JSX since it is sometimes passed directly from
 // the python notebooks metadata
-export default function TitleAndDescription({ title, description, chartType }) {
+export default function TitleAndDescription({
+  title,
+  description,
+  chartType,
+  isRaptiveEnabled = true,
+}) {
   const chartInfo = chartTypesInfo.filter((chart) => chart.id === chartType)[0];
 
   return (
@@ -44,7 +49,9 @@ export default function TitleAndDescription({ title, description, chartType }) {
         )}
       </div>
 
-      <div className="raptive-video-player" style={{ minHeight: 300 }} />
+      {isRaptiveEnabled && (
+        <div className="raptive-video-player" style={{ minHeight: 300 }} />
+      )}
     </Container>
   );
 }
@@ -53,6 +60,7 @@ TitleAndDescription.propTypes = {
   title: PropTypes.string,
   description: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
   chartType: PropTypes.string,
+  isRaptiveEnabled: PropTypes.bool,
 };
 
 const ChartTypeLink = ({ chartType }) => {
