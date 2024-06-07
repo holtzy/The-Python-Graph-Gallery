@@ -1,14 +1,9 @@
 import React from 'react';
 import TitleAndDescription from '../components/TitleAndDescription';
-import Layout from '../components/Layout';
 import Container from 'react-bootstrap/Container';
 import Contact from '../components/Contact';
-import Row from 'react-bootstrap/Row';
 import ChartFamilySection from '../components/ChartFamilySection';
-import { Link } from 'gatsby';
-import { Button, Col } from 'react-bootstrap';
 import Spacing from '../components/Spacing';
-import ChartImage from '../components/ChartImage';
 import { SEO } from '../components/SEO';
 import Footer from '../components/Footer';
 import TopNavbar from '../components/TopNavbar';
@@ -27,7 +22,7 @@ const chartDescription = (
         target="_blank"
         rel="noreferrer"
       >
-        PyPalette
+        PyPalettes
       </a>{' '}
       package provides a <b>collection of 2500+ palettes</b> meticulously
       curated by hundreds of experts.
