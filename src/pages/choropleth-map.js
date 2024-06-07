@@ -92,10 +92,13 @@ export default function Choropleth() {
           <code>Plotly</code> for interactive choropleth maps
         </h2>
         <p>
-          <code>Seaborn</code> is another great alternative to build an area
-          chart with <code>python</code>. The below examples show how to start
-          basic, apply usual customization, and use the small multiple technique
-          for when you have several groups to compare.
+          <code>Plotly</code> is a powerful library for <b>interactive</b> data
+          visualization. It allows to build choropleth maps with the
+          <code>choropleth()</code> function.
+        </p>
+        <p>
+          Try to hover the map below to see the value of each country. You can
+          also zoom in and out, and move the map around.
         </p>
         <div className="mx-auto">
           <iframe
