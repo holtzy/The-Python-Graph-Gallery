@@ -48,7 +48,7 @@ export default function Colors() {
       <Container>
         <h2 id="Quick">Color maps</h2>
         <Row className="align-items-center">
-          <Col md={6}>
+          <Col md={4}>
             <p>
               <a href="/matplotlib">Matplotlib</a> provides a wide range of
               colormaps but also a specific way of working with them. This post
@@ -60,10 +60,10 @@ export default function Colors() {
               <Button size="sm">Learn more</Button>
             </Link>
           </Col>
-          <Col md={6}>
+          <Col md={8}>
             <Link to={'/587-how-to-use-colormap'}>
               <ChartImage
-                imgName="color_names_matplotlib"
+                imgName="587-how-to-use-colormap"
                 caption="Available colors in Matplotlib"
               />
             </Link>
