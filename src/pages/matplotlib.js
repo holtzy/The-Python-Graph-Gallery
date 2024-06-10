@@ -681,6 +681,31 @@ export default function Matplotlibs() {
             caption="How to customize the legend handle to have a different shape that the one used on the chart"
             linkTo="/how-to-use-rectangles-in-matplotlib-legends"
           />
+          <ChartImageContainer
+            imgName="585-legend-for-categorical-data-matplotlib-1"
+            caption="Learn how to use the default legend in matplotlib"
+            linkTo="/585-legend-for-categorical-data-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="585-legend-for-categorical-data-matplotlib-2"
+            caption="Map color text to colors in chart"
+            linkTo="/585-legend-for-categorical-data-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="585-legend-for-categorical-data-matplotlib-3"
+            caption="Put directly the legend on each line"
+            linkTo="/585-legend-for-categorical-data-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="585-legend-for-categorical-data-matplotlib-4"
+            caption="Use arrows to point to the legend"
+            linkTo="/585-legend-for-categorical-data-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="web-map-with-custom-legend-square"
+            caption="Advanced use case with a custom legend for a map"
+            linkTo="/web-map-with-custom-legend"
+          />
         </Row>
       </Container>
 

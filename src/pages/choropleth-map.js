@@ -146,6 +146,16 @@ export default function Choropleth() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={8}>
+            <Link to={'/web-map-with-custom-legend'}>
+              <ChartImage
+                imgName={'web-map-with-custom-legend'}
+                caption={
+                  'Choropleth map with customized legend, using Matplotlib and Geopandas'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
