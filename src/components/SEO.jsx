@@ -8,7 +8,7 @@
 
 import React from 'react';
 
-export const SEO = ({ title, seoDescription, keywords }) => {
+export const SEO = ({ title, seoDescription, keywords, image }) => {
   return (
     <>
       <title>{title}</title>
@@ -30,7 +30,10 @@ export const SEO = ({ title, seoDescription, keywords }) => {
       />
       <meta
         property="og:image"
-        content="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"
+        content={
+          image ||
+          'https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true'
+        }
       />
       <meta property="og:description" content={seoDescription} />
       <meta name="twitter:card" content="summary_large_image" />

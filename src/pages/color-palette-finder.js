@@ -43,6 +43,9 @@ export const Head = () => (
     title="Python Color Palette Finder"
     seoDescription="A tool to find the perfect color palette for your Python Chart (with its code)"
     isRaptiveEnabled={false}
+    image={
+      'https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/asset/palette-finder-overview.png?raw=true'
+    }
   />
 );
 
