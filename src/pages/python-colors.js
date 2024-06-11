@@ -46,6 +46,34 @@ export default function Colors() {
       <TitleAndDescription title="Colors" description={chartDescription} />
 
       <Container>
+        <h2 id="Quick">Color maps</h2>
+        <Row className="align-items-center">
+          <Col md={4}>
+            <p>
+              <a href="/matplotlib">Matplotlib</a> provides a wide range of
+              colormaps but also a specific way of working with them. This post
+              will show you how to use colormaps in{' '}
+              <a href="/matplotlib">Matplotlib</a> to enhance the readability of
+              your plots.
+            </p>
+            <Link to="/587-how-to-use-colormap">
+              <Button size="sm">Learn more</Button>
+            </Link>
+          </Col>
+          <Col md={8}>
+            <Link to={'/587-how-to-use-colormap'}>
+              <ChartImage
+                imgName="587-how-to-use-colormap"
+                caption="Available colors in Matplotlib"
+              />
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Quick">Named colors</h2>
         <Row className="align-items-center">
           <Col md={6}>
