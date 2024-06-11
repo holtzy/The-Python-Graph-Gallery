@@ -52,6 +52,41 @@ export default function Table() {
       />
 
       <Container>
+        <h2 id="great_tables">
+          Table with <code>great_tables</code>
+        </h2>
+        <p>
+          <a href="https://github.com/posit-dev/great-tables"> great_tables</a>{' '}
+          is a python library for plotting <b>nice table outputs</b> inspired by
+          the <b>R</b> packages <code>gt</code>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="585-introduction-great-tables-1"
+            caption="The most simple table with great_tables"
+            linkTo="/585-introduction-great-tables"
+          />
+          <ChartImageContainer
+            imgName="585-introduction-great-tables-2"
+            caption="Add a title to the table with great_tables"
+            linkTo="/585-introduction-great-tables"
+          />
+          <ChartImageContainer
+            imgName="585-introduction-great-tables-3"
+            caption="Add footer with markdown to the table with great_tables"
+            linkTo="/585-introduction-great-tables"
+          />
+          <ChartImageContainer
+            imgName="586-customization-great-tables"
+            caption="Highlight a specific cell with great_tables"
+            linkTo="/586-customization-great-tables"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Plottable">
           Table with <code>Plottable</code>
         </h2>
