@@ -289,6 +289,11 @@ export default function Matplotlibs() {
             caption="Create one annotation for both title and subtitle"
             linkTo="/advanced-custom-annotations-matplotlib"
           />
+          <ChartImageContainer
+            imgName="589-how-to-change-coordinate-system"
+            caption="How to change the coordinate system of the annotation"
+            linkTo="/589-how-to-change-coordinate-system"
+          />
         </Row>
       </Container>
 
@@ -361,6 +366,11 @@ export default function Matplotlibs() {
             imgName="how-to-create-and-custom-arrows-matplotlib-2"
             caption="How to create rounded arrows with matplotlib"
             linkTo="/how-to-create-and-custom-arrows-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="589-how-to-change-coordinate-system"
+            caption="How to change the coordinate system of a chart"
+            linkTo="/589-how-to-change-coordinate-system"
           />
         </Row>
         <p>
@@ -627,6 +637,11 @@ export default function Matplotlibs() {
             imgName="scatterplot-and-log-scale-in-matplotlib"
             caption="How to use a log scale for the X or the Y axis."
             linkTo="/scatterplot-and-log-scale-in-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="589-how-to-change-coordinate-system"
+            caption="How to change the coordinate system of a chart"
+            linkTo="/589-how-to-change-coordinate-system"
           />
         </Row>
       </Container>
