@@ -87,8 +87,8 @@ export default function Colors({ location }) {
           width="100%"
           height="1300px"
           src={targetUrl}
-          allow="clipboard-read clipboard-write"
-          sandbox="allow-same-origin allow-top-navigation allow-modals"
+          allow="clipboard-read clipboard-write allow-scripts"
+          sandbox="allow-same-origin allow-top-navigation allow-modals allow-scripts"
         ></iframe>
       </div>
 
