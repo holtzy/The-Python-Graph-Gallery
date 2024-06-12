@@ -41,7 +41,7 @@ const chartDescription = (
 export const Head = () => (
   <SEO
     title="Python Color Palette Finder"
-    seoDescription="A tool to find the perfect color palette for your Python Chart (with its code)"
+    seoDescription="Browse 2500+ color palette. Find the perfect match for your Python Chart. Get the matplotlib code."
     isRaptiveEnabled={false}
     image={
       'https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/asset/palette-finder-overview.png?raw=true'
