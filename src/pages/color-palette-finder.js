@@ -49,7 +49,10 @@ export const Head = () => (
   />
 );
 
-export default function Colors() {
+export default function Colors({ location }) {
+  const queryParams = new URLSearchParams(location.search);
+  const palette = queryParams.get('palette');
+
   return (
     <>
       <header>
@@ -68,7 +71,13 @@ export default function Colors() {
           title="Tool to find a color palette for a python chart"
           width="100%"
           height="1300px"
-          src="https://holtzy.github.io/dataviz-color-finder/"
+          src={
+            palette
+              ? 'https://holtzy.github.io/dataviz-color-finder/' +
+                '?palette=' +
+                palette
+              : 'https://holtzy.github.io/dataviz-color-finder/'
+          }
         ></iframe>
       </div>
 
