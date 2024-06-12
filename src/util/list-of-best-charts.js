@@ -5,7 +5,7 @@ export const listOfBestCharts = [
     description:
       'Choropleth map of CO2 consumption per capita in Europe, with a custom legend.',
     img: 'web-map-with-custom-legend.png',
-    alt: 'Small multiples of waffle charts',
+    alt: 'Choropleth map of CO2 consumption per capita in Europe',
     author: 'Joseph Barbier',
   },
   {
