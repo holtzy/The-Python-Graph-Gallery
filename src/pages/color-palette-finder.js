@@ -54,6 +54,8 @@ export default function Colors({ location }) {
 
   const palette = queryParams.get('palette');
 
+  console.log('palette', palette);
+
   const targetUrl = new String(
     'https://holtzy.github.io/dataviz-color-finder/' + '?palette=' + palette
   );
@@ -86,7 +88,7 @@ export default function Colors({ location }) {
           title="Tool to find a color palette for a python chart"
           width="100%"
           height="1300px"
-          src={targetUrl}
+          src={'https://holtzy.github.io/dataviz-color-finder/?palette=anemone'}
           allow="clipboard-read clipboard-write allow-scripts"
           sandbox="allow-same-origin allow-top-navigation allow-modals allow-scripts"
         ></iframe>
