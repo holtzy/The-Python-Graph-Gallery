@@ -54,6 +54,7 @@ export default function Colors({ location }) {
 
   const palette = queryParams.get('palette');
 
+  console.log('palette in URL is:', palette);
   return (
     <>
       <header>
