@@ -55,6 +55,13 @@ export default function Colors({ location }) {
   const palette = queryParams.get('palette');
 
   console.log('palette in URL is:', palette);
+
+  const targetUrl = palette
+    ? 'https://holtzy.github.io/dataviz-color-finder/' + '?palette=' + palette
+    : 'https://holtzy.github.io/dataviz-color-finder/';
+
+  console.log('targetUrl', targetUrl);
+
   return (
     <>
       <header>
@@ -73,13 +80,7 @@ export default function Colors({ location }) {
           title="Tool to find a color palette for a python chart"
           width="100%"
           height="1300px"
-          src={
-            palette
-              ? 'https://holtzy.github.io/dataviz-color-finder/' +
-                '?palette=' +
-                palette
-              : 'https://holtzy.github.io/dataviz-color-finder/'
-          }
+          src={targetUrl}
           allow="clipboard-read; clipboard-write"
         ></iframe>
       </div>
