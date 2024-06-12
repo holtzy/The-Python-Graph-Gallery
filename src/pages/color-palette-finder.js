@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import TitleAndDescription from '../components/TitleAndDescription';
 import Container from 'react-bootstrap/Container';
 import Contact from '../components/Contact';
@@ -54,18 +54,17 @@ export default function Colors({ location }) {
 
   const palette = queryParams.get('palette');
 
-  console.log('palette. Try with dollar!', palette);
-
-  const getTargetUrl = (palette) => {
-    return 'https://holtzy.github.io/dataviz-color-finder/?palette=' + palette;
-  };
+  console.log('palette. Try with useEffect', palette);
 
   const iframeRef = useRef(null);
+
+  const [src, setSrc] = useState('');
 
   useEffect(() => {
     if (iframeRef.current) {
       iframeRef.current.focus();
     }
+    setSrc('https://holtzy.github.io/dataviz-color-finder/?palette=' + palette);
   }, []);
 
   return (
@@ -87,7 +86,7 @@ export default function Colors({ location }) {
           title="Tool to find a color palette for a python chart"
           width="100%"
           height="1300px"
-          src={`https://holtzy.github.io/dataviz-color-finder/?palette=${palette}`}
+          src={src}
           allow="clipboard-read clipboard-write allow-scripts"
           sandbox="allow-same-origin allow-top-navigation allow-modals allow-scripts"
         ></iframe>
