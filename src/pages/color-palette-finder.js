@@ -80,8 +80,8 @@ export default function Colors({ location }) {
           title="Tool to find a color palette for a python chart"
           width="100%"
           height="1300px"
-          src={targetUrl}
-          allow="clipboard-read; clipboard-write"
+          src={'https://holtzy.github.io/dataviz-color-finder/?palette=bold'}
+          allow="clipboard-read; clipboard-write; allow-modals; allow-same-origin; allow-top-navigation"
         ></iframe>
       </div>
 
