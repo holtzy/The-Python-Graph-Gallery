@@ -51,6 +51,7 @@ export const Head = () => (
 
 export default function Colors({ location }) {
   const queryParams = new URLSearchParams(location.search);
+
   const palette = queryParams.get('palette');
 
   return (
