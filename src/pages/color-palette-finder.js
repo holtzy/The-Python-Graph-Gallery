@@ -54,8 +54,10 @@ export default function Colors({ location }) {
 
   const palette = queryParams.get('palette');
 
-  const targetUrl =
-    'https://holtzy.github.io/dataviz-color-finder/' + '?palette=' + palette;
+  const targetUrl = new String(
+    'https://holtzy.github.io/dataviz-color-finder/' + '?palette=' + palette
+  );
+  console.log('targetUrl', targetUrl);
 
   const iframeRef = useRef(null);
 
