@@ -78,6 +78,7 @@ export default function Colors({ location }) {
                 palette
               : 'https://holtzy.github.io/dataviz-color-finder/'
           }
+          allow="clipboard-read; clipboard-write"
         ></iframe>
       </div>
 
