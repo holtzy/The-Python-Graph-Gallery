@@ -115,6 +115,26 @@ export default function Treemap() {
             caption="How to make the rectangle colors relative to their values."
             linkTo="/202-treemap-with-colors-mapped-on-values"
           />
+          <ChartImageContainer
+            imgName="590-advanced-treemap-1"
+            caption="A simple treemap with labels"
+            linkTo="/590-advanced-treemap"
+          />
+          <ChartImageContainer
+            imgName="590-advanced-treemap-2"
+            caption="Color customization of a treemap"
+            linkTo="/590-advanced-treemap"
+          />
+          <ChartImageContainer
+            imgName="590-advanced-treemap-3"
+            caption="Label customization of a treemap"
+            linkTo="/590-advanced-treemap"
+          />
+          <ChartImageContainer
+            imgName="590-advanced-treemap-4"
+            caption="Color + Label + Legend customization of a treemap"
+            linkTo="/590-advanced-treemap"
+          />
         </Row>
       </Container>
 
