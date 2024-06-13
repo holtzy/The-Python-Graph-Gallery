@@ -54,18 +54,20 @@ export default function Colors({ location }) {
 
   const palette = queryParams.get('palette');
 
-  console.log('palette. Try with useEffect', palette);
-
   const iframeRef = useRef(null);
 
   const [src, setSrc] = useState('');
+
+  // Need a useEffect to update the src. Otherwise gatsby remove the url parameter no idea why.
+  useEffect(() => {
+    setSrc('https://holtzy.github.io/dataviz-color-finder/?palette=' + palette);
+  }, []);
 
   useEffect(() => {
     if (iframeRef.current) {
       iframeRef.current.focus();
     }
-    setSrc('https://holtzy.github.io/dataviz-color-finder/?palette=' + palette);
-  }, []);
+  }, [src]);
 
   return (
     <>
@@ -79,15 +81,14 @@ export default function Colors({ location }) {
         isRaptiveEnabled={false}
       />
 
-      <div style={{ height: '100%' }}>
+      <div style={{ height: '100%' }} ref={iframeRef}>
         <iframe
-          ref={iframeRef}
           id="color-tool"
           title="Tool to find a color palette for a python chart"
           width="100%"
           height="1300px"
           src={src}
-          allow="clipboard-read clipboard-write allow-scripts"
+          allow="clipboard-write" // If I do not put the ;, it breaks the feature no idea why
           sandbox="allow-same-origin allow-top-navigation allow-modals allow-scripts"
         ></iframe>
       </div>
