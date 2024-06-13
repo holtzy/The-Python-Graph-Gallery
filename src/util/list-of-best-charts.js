@@ -1,5 +1,14 @@
 export const listOfBestCharts = [
   {
+    link: 'web-map-with-custom-legend',
+    title: 'CO2 consumption in Europe',
+    description:
+      'Choropleth map of CO2 consumption per capita in Europe, with a custom legend.',
+    img: 'web-map-with-custom-legend.png',
+    alt: 'Choropleth map of CO2 consumption per capita in Europe',
+    author: 'Joseph Barbier',
+  },
+  {
     link: 'web-waffle-with-small-multiples',
     title: 'London recycling rates',
     description:

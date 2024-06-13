@@ -157,6 +157,11 @@ export default function LinePlot() {
             caption="How to apply a log transform to the Y scale of the line chart"
             linkTo="/525-line-chart-log-transform"
           />
+          <ChartImageContainer
+            imgName="585-legend-for-categorical-data-matplotlib-3"
+            caption="Add label on each line of a line chart with matplotlib"
+            linkTo="/585-legend-for-categorical-data-matplotlib"
+          />
         </Row>
       </Container>
 
