@@ -26,23 +26,19 @@ export default function Cartogram() {
       <TitleAndDescription title="Cartogram" description={chartDescription} />
 
       <Container>
-        <h2 id="Geoplot">
-          Cartogram with <code>GeoPlot</code>
+        <h2>
+          Cartogram with <code>Python</code>
         </h2>
-        <p>Oh no 😞, there is no example in this section yet 😞.</p>
-        <div style={{ margin: '0 auto', padding: 0 }}>
-          <Link to="/choropleth-map-geopandas-python">
-            <ChartImage
-              imgName={'choropleth-map-geopandas-python'}
-              caption={
-                'Choropleth map of US counties with Python, Geopandas and Geoplot'
-              }
-            />
-          </Link>
-        </div>
-        <Link to="/choropleth-map-geopandas-python">
-          <Button size="xl">Read post</Button>
-        </Link>
+        <p>
+          Unfortunately, there is <strong>no direct method</strong> to build cartograms in Python. However, if you need to create one, you can easily build <a href='https://r-graph-gallery.com/cartogram.html'>cartograms in R</a> using the <code>cartogram</code> package.
+        </p>
+        <p>
+          If you have implemented a cartogram algorithm in Python, please <strong>share your code</strong> with the community by opening an issue on the <a href="https://github.com/holtzy/The-Python-Graph-Gallery/issues">GitHub repository</a> of the gallery.
+        </p>
+        <p>
+          The gallery provides <strong>numerous map examples</strong> for you to explore. Browse the examples below:
+        </p>
+
       </Container>
 
       <Spacing />
