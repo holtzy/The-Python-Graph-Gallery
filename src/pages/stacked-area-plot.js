@@ -295,6 +295,14 @@ export default function StackedAreaPlot() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={12}>
+            <Link to={'/web-stacked-area-with-inflexion-arrows'}>
+              <ChartImage
+                imgName={'web-stacked-area-with-inflexion-arrows'}
+                caption={'Stacked area chart with inline labels and arrows'}
+              />
+            </Link>
+          </Col>
           <Col xs={12} md={6}>
             <Link to={'/web-stacked-area-charts-on-a-map'}>
               <ChartImage

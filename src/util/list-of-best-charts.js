@@ -9,6 +9,15 @@ export const listOfBestCharts = [
     author: 'Lisa Hornung',
   },
   {
+    link: 'web-stacked-area-with-inflexion-arrows',
+    title: 'Evolution of natural disasters',
+    description:
+      'Number of natural disasters over time per disaster type, with inflexion arrows for the legend.',
+    img: 'web-stacked-area-with-inflexion-arrows-square.png',
+    alt: 'Stacked area chart with labels',
+    author: 'Joseph Barbier',
+  },
+  {
     link: 'web-small-multiple-with-highlights',
     title: 'Unemployment rate during COVID-19',
     description:
