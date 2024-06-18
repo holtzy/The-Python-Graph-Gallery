@@ -1,0 +1,1145 @@
+Entity,Year,Disasters
+All disasters,1900,6
+All disasters excluding earthquakes,1900,5
+All disasters excluding extreme temperature,1900,6
+Drought,1900,2
+Earthquake,1900,1
+Extreme weather,1900,1
+Flood,1900,1
+Volcanic activity,1900,1
+All disasters,1901,1
+All disasters excluding extreme temperature,1901,1
+Earthquake,1901,1
+All disasters,1902,10
+All disasters excluding earthquakes,1902,6
+All disasters excluding extreme temperature,1902,10
+Earthquake,1902,4
+Extreme weather,1902,1
+Volcanic activity,1902,5
+All disasters,1903,12
+All disasters excluding earthquakes,1903,7
+All disasters excluding extreme temperature,1903,12
+Drought,1903,1
+Dry mass movement,1903,1
+Earthquake,1903,5
+Extreme weather,1903,2
+Flood,1903,2
+Volcanic activity,1903,1
+All disasters,1904,4
+All disasters excluding earthquakes,1904,1
+All disasters excluding extreme temperature,1904,4
+Earthquake,1904,3
+Extreme weather,1904,1
+All disasters,1905,7
+All disasters excluding earthquakes,1905,2
+All disasters excluding extreme temperature,1905,7
+Dry mass movement,1905,1
+Earthquake,1905,5
+Extreme weather,1905,1
+All disasters,1906,13
+All disasters excluding earthquakes,1906,7
+All disasters excluding extreme temperature,1906,13
+Drought,1906,1
+Earthquake,1906,6
+Extreme weather,1906,3
+Flood,1906,2
+Volcanic activity,1906,1
+All disasters,1907,4
+All disasters excluding earthquakes,1907,1
+All disasters excluding extreme temperature,1907,4
+Drought,1907,1
+Earthquake,1907,3
+All disasters,1908,3
+All disasters excluding earthquakes,1908,1
+All disasters excluding extreme temperature,1908,3
+Dry mass movement,1908,1
+Earthquake,1908,2
+All disasters,1909,15
+All disasters excluding earthquakes,1909,7
+All disasters excluding extreme temperature,1909,15
+Earthquake,1909,8
+Extreme weather,1909,5
+Flood,1909,1
+Wet mass movement,1909,1
+All disasters,1910,16
+All disasters excluding earthquakes,1910,12
+All disasters excluding extreme temperature,1910,16
+Drought,1910,9
+Earthquake,1910,4
+Extreme weather,1910,1
+Flood,1910,1
+Wet mass movement,1910,1
+All disasters,1911,19
+All disasters excluding earthquakes,1911,14
+All disasters excluding extreme temperature,1911,19
+Drought,1911,9
+Earthquake,1911,5
+Extreme weather,1911,2
+Flood,1911,1
+Volcanic activity,1911,1
+Wildfire,1911,1
+All disasters,1912,15
+All disasters excluding earthquakes,1912,14
+All disasters excluding extreme temperature,1912,15
+Drought,1912,9
+Earthquake,1912,1
+Extreme weather,1912,5
+All disasters,1913,14
+All disasters excluding earthquakes,1913,10
+All disasters excluding extreme temperature,1913,14
+Drought,1913,9
+Earthquake,1913,4
+Extreme weather,1913,1
+All disasters,1914,17
+All disasters excluding earthquakes,1914,11
+All disasters excluding extreme temperature,1914,17
+Drought,1914,9
+Earthquake,1914,6
+Extreme weather,1914,1
+Volcanic activity,1914,1
+All disasters,1915,7
+All disasters excluding earthquakes,1915,4
+All disasters excluding extreme temperature,1915,7
+Earthquake,1915,3
+Extreme weather,1915,2
+Flood,1915,1
+Wet mass movement,1915,1
+All disasters,1916,3
+All disasters excluding earthquakes,1916,1
+All disasters excluding extreme temperature,1916,3
+Earthquake,1916,2
+Extreme weather,1916,1
+All disasters,1917,7
+All disasters excluding earthquakes,1917,3
+All disasters excluding extreme temperature,1917,7
+Earthquake,1917,4
+Extreme weather,1917,2
+Flood,1917,1
+All disasters,1918,5
+All disasters excluding earthquakes,1918,2
+All disasters excluding extreme temperature,1918,5
+Earthquake,1918,3
+Extreme weather,1918,1
+Wildfire,1918,1
+All disasters,1919,4
+All disasters excluding earthquakes,1919,4
+All disasters excluding extreme temperature,1919,4
+Drought,1919,1
+Extreme weather,1919,2
+Volcanic activity,1919,1
+All disasters,1920,10
+All disasters excluding earthquakes,1920,5
+All disasters excluding extreme temperature,1920,10
+Drought,1920,3
+Earthquake,1920,5
+Extreme weather,1920,1
+Flood,1920,1
+All disasters,1921,2
+All disasters excluding earthquakes,1921,2
+All disasters excluding extreme temperature,1921,2
+Drought,1921,2
+All disasters,1922,8
+All disasters excluding earthquakes,1922,5
+All disasters excluding extreme temperature,1922,8
+Drought,1922,1
+Earthquake,1922,3
+Extreme weather,1922,2
+Wet mass movement,1922,1
+Wildfire,1922,1
+All disasters,1923,14
+All disasters excluding earthquakes,1923,8
+All disasters excluding extreme temperature,1923,14
+Drought,1923,1
+Earthquake,1923,6
+Extreme weather,1923,6
+Wet mass movement,1923,1
+All disasters,1924,8
+All disasters excluding earthquakes,1924,2
+All disasters excluding extreme temperature,1924,8
+Earthquake,1924,6
+Extreme weather,1924,2
+All disasters,1925,12
+All disasters excluding earthquakes,1925,4
+All disasters excluding extreme temperature,1925,12
+Earthquake,1925,8
+Extreme weather,1925,3
+Flood,1925,1
+All disasters,1926,14
+All disasters excluding earthquakes,1926,13
+All disasters excluding extreme temperature,1926,14
+Earthquake,1926,1
+Extreme weather,1926,7
+Flood,1926,3
+Volcanic activity,1926,1
+Wet mass movement,1926,2
+All disasters,1927,10
+All disasters excluding earthquakes,1927,6
+All disasters excluding extreme temperature,1927,10
+Earthquake,1927,4
+Extreme weather,1927,4
+Flood,1927,2
+All disasters,1928,17
+All disasters excluding earthquakes,1928,10
+All disasters excluding extreme temperature,1928,17
+Drought,1928,1
+Earthquake,1928,7
+Extreme weather,1928,7
+Flood,1928,2
+All disasters,1929,5
+All disasters excluding earthquakes,1929,3
+All disasters excluding extreme temperature,1929,5
+Earthquake,1929,2
+Extreme weather,1929,2
+Wildfire,1929,1
+All disasters,1930,21
+All disasters excluding earthquakes,1930,6
+All disasters excluding extreme temperature,1930,21
+Earthquake,1930,15
+Extreme weather,1930,4
+Volcanic activity,1930,1
+Wet mass movement,1930,1
+All disasters,1931,14
+All disasters excluding earthquakes,1931,8
+All disasters excluding extreme temperature,1931,14
+Drought,1931,1
+Earthquake,1931,6
+Extreme weather,1931,4
+Flood,1931,1
+Volcanic activity,1931,1
+Wet mass movement,1931,1
+All disasters,1932,13
+All disasters excluding earthquakes,1932,7
+All disasters excluding extreme temperature,1932,13
+Drought,1932,1
+Earthquake,1932,6
+Extreme weather,1932,5
+Wet mass movement,1932,1
+All disasters,1933,12
+All disasters excluding earthquakes,1933,7
+All disasters excluding extreme temperature,1933,12
+Drought,1933,2
+Earthquake,1933,5
+Extreme weather,1933,3
+Flood,1933,2
+All disasters,1934,10
+All disasters excluding earthquakes,1934,7
+All disasters excluding extreme temperature,1934,10
+Drought,1934,2
+Earthquake,1934,3
+Extreme weather,1934,4
+Wet mass movement,1934,1
+All disasters,1935,17
+All disasters excluding earthquakes,1935,10
+All disasters excluding extreme temperature,1935,17
+Drought,1935,2
+Earthquake,1935,7
+Extreme weather,1935,7
+Flood,1935,1
+All disasters,1936,22
+All disasters excluding earthquakes,1936,11
+All disasters excluding extreme temperature,1936,20
+Drought,1936,2
+Earthquake,1936,11
+Extreme temperature,1936,2
+Extreme weather,1936,5
+Flood,1936,1
+Wet mass movement,1936,1
+All disasters,1937,12
+All disasters excluding earthquakes,1937,9
+All disasters excluding extreme temperature,1937,12
+Drought,1937,2
+Dry mass movement,1937,1
+Earthquake,1937,3
+Extreme weather,1937,3
+Flood,1937,2
+Volcanic activity,1937,1
+All disasters,1938,8
+All disasters excluding earthquakes,1938,6
+All disasters excluding extreme temperature,1938,8
+Drought,1938,1
+Earthquake,1938,2
+Extreme weather,1938,2
+Flood,1938,2
+Wet mass movement,1938,1
+All disasters,1939,13
+All disasters excluding earthquakes,1939,6
+All disasters excluding extreme temperature,1939,13
+Drought,1939,1
+Earthquake,1939,7
+Extreme weather,1939,2
+Flood,1939,2
+Wildfire,1939,1
+All disasters,1940,21
+All disasters excluding earthquakes,1940,14
+All disasters excluding extreme temperature,1940,21
+Drought,1940,10
+Earthquake,1940,7
+Extreme weather,1940,3
+Flood,1940,1
+All disasters,1941,22
+All disasters excluding earthquakes,1941,14
+All disasters excluding extreme temperature,1941,22
+Drought,1941,9
+Earthquake,1941,8
+Extreme weather,1941,4
+Wet mass movement,1941,1
+All disasters,1942,21
+All disasters excluding earthquakes,1942,13
+All disasters excluding extreme temperature,1942,21
+Drought,1942,10
+Earthquake,1942,8
+Extreme weather,1942,3
+All disasters,1943,25
+All disasters excluding earthquakes,1943,16
+All disasters excluding extreme temperature,1943,25
+Drought,1943,10
+Earthquake,1943,9
+Extreme weather,1943,3
+Flood,1943,2
+Volcanic activity,1943,1
+All disasters,1944,23
+All disasters excluding earthquakes,1944,17
+All disasters excluding extreme temperature,1944,23
+Drought,1944,9
+Earthquake,1944,6
+Extreme weather,1944,5
+Volcanic activity,1944,1
+Wildfire,1944,2
+All disasters,1945,16
+All disasters excluding earthquakes,1945,8
+All disasters excluding extreme temperature,1945,16
+Earthquake,1945,8
+Extreme weather,1945,7
+Volcanic activity,1945,1
+All disasters,1946,17
+All disasters excluding earthquakes,1946,7
+All disasters excluding extreme temperature,1946,17
+Drought,1946,1
+Earthquake,1946,10
+Extreme weather,1946,5
+Volcanic activity,1946,1
+All disasters,1947,13
+All disasters excluding earthquakes,1947,10
+All disasters excluding extreme temperature,1947,13
+Drought,1947,1
+Earthquake,1947,3
+Extreme weather,1947,7
+Flood,1947,1
+Wildfire,1947,1
+All disasters,1948,25
+All disasters excluding earthquakes,1948,18
+All disasters excluding extreme temperature,1948,25
+Earthquake,1948,7
+Extreme weather,1948,10
+Flood,1948,5
+Volcanic activity,1948,1
+Wet mass movement,1948,2
+All disasters,1949,21
+All disasters excluding earthquakes,1949,14
+All disasters excluding extreme temperature,1949,21
+Earthquake,1949,7
+Extreme weather,1949,8
+Flood,1949,2
+Volcanic activity,1949,2
+Wet mass movement,1949,1
+Wildfire,1949,1
+All disasters,1950,26
+All disasters excluding earthquakes,1950,19
+All disasters excluding extreme temperature,1950,26
+Earthquake,1950,7
+Extreme weather,1950,7
+Flood,1950,10
+Volcanic activity,1950,1
+Wet mass movement,1950,1
+All disasters,1951,31
+All disasters excluding earthquakes,1951,24
+All disasters excluding extreme temperature,1951,29
+Earthquake,1951,7
+Extreme temperature,1951,2
+Extreme weather,1951,11
+Flood,1951,7
+Volcanic activity,1951,3
+Wet mass movement,1951,1
+All disasters,1952,29
+All disasters excluding earthquakes,1952,16
+All disasters excluding extreme temperature,1952,29
+Earthquake,1952,13
+Extreme weather,1952,9
+Flood,1952,4
+Fog,1952,1
+Volcanic activity,1952,1
+Wet mass movement,1952,1
+All disasters,1953,36
+All disasters excluding earthquakes,1953,27
+All disasters excluding extreme temperature,1953,33
+Earthquake,1953,9
+Extreme temperature,1953,3
+Extreme weather,1953,11
+Flood,1953,12
+Volcanic activity,1953,1
+All disasters,1954,33
+All disasters excluding earthquakes,1954,28
+All disasters excluding extreme temperature,1954,33
+Earthquake,1954,5
+Extreme weather,1954,10
+Flood,1954,9
+Volcanic activity,1954,1
+Wet mass movement,1954,8
+All disasters,1955,32
+All disasters excluding earthquakes,1955,26
+All disasters excluding extreme temperature,1955,31
+Dry mass movement,1955,1
+Earthquake,1955,6
+Extreme temperature,1955,1
+Extreme weather,1955,19
+Flood,1955,3
+Wet mass movement,1955,2
+All disasters,1956,36
+All disasters excluding earthquakes,1956,30
+All disasters excluding extreme temperature,1956,36
+Earthquake,1956,6
+Extreme weather,1956,14
+Flood,1956,9
+Volcanic activity,1956,1
+Wet mass movement,1956,5
+Wildfire,1956,1
+All disasters,1957,28
+All disasters excluding earthquakes,1957,21
+All disasters excluding extreme temperature,1957,28
+Earthquake,1957,7
+Extreme weather,1957,9
+Flood,1957,11
+Volcanic activity,1957,1
+All disasters,1958,24
+All disasters excluding earthquakes,1958,19
+All disasters excluding extreme temperature,1958,22
+Earthquake,1958,5
+Extreme temperature,1958,2
+Extreme weather,1958,13
+Flood,1958,3
+Wet mass movement,1958,1
+All disasters,1959,33
+All disasters excluding earthquakes,1959,30
+All disasters excluding extreme temperature,1959,33
+Earthquake,1959,3
+Extreme weather,1959,16
+Flood,1959,13
+Wet mass movement,1959,1
+All disasters,1960,40
+All disasters excluding earthquakes,1960,32
+All disasters excluding extreme temperature,1960,40
+Drought,1960,1
+Earthquake,1960,8
+Extreme weather,1960,20
+Flood,1960,8
+Volcanic activity,1960,1
+Wet mass movement,1960,2
+All disasters,1961,30
+All disasters excluding earthquakes,1961,27
+All disasters excluding extreme temperature,1961,29
+Drought,1961,1
+Earthquake,1961,3
+Extreme temperature,1961,1
+Extreme weather,1961,14
+Flood,1961,9
+Wet mass movement,1961,2
+All disasters,1962,29
+All disasters excluding earthquakes,1962,25
+All disasters excluding extreme temperature,1962,28
+Dry mass movement,1962,1
+Earthquake,1962,4
+Extreme temperature,1962,1
+Extreme weather,1962,13
+Flood,1962,8
+Wet mass movement,1962,2
+All disasters,1963,41
+All disasters excluding earthquakes,1963,38
+All disasters excluding extreme temperature,1963,39
+Drought,1963,1
+Dry mass movement,1963,1
+Earthquake,1963,3
+Extreme temperature,1963,2
+Extreme weather,1963,21
+Flood,1963,8
+Volcanic activity,1963,3
+Wet mass movement,1963,2
+All disasters,1964,61
+All disasters excluding earthquakes,1964,54
+All disasters excluding extreme temperature,1964,61
+Drought,1964,8
+Earthquake,1964,7
+Extreme weather,1964,22
+Flood,1964,22
+Volcanic activity,1964,1
+Wet mass movement,1964,1
+All disasters,1965,62
+All disasters excluding earthquakes,1965,54
+All disasters excluding extreme temperature,1965,61
+Drought,1965,7
+Earthquake,1965,8
+Extreme temperature,1965,1
+Extreme weather,1965,19
+Flood,1965,19
+Volcanic activity,1965,1
+Wet mass movement,1965,6
+Wildfire,1965,1
+All disasters,1966,82
+All disasters excluding earthquakes,1966,69
+All disasters excluding extreme temperature,1966,80
+Drought,1966,10
+Earthquake,1966,13
+Extreme temperature,1966,2
+Extreme weather,1966,27
+Flood,1966,23
+Volcanic activity,1966,2
+Wet mass movement,1966,4
+Wildfire,1966,1
+All disasters,1967,77
+All disasters excluding earthquakes,1967,62
+All disasters excluding extreme temperature,1967,77
+Drought,1967,8
+Earthquake,1967,15
+Extreme weather,1967,25
+Flood,1967,26
+Wet mass movement,1967,2
+Wildfire,1967,1
+All disasters,1968,80
+All disasters excluding earthquakes,1968,64
+All disasters excluding extreme temperature,1968,78
+Drought,1968,9
+Earthquake,1968,16
+Extreme temperature,1968,2
+Extreme weather,1968,25
+Flood,1968,20
+Volcanic activity,1968,2
+Wet mass movement,1968,4
+Wildfire,1968,2
+All disasters,1969,66
+All disasters excluding earthquakes,1969,55
+All disasters excluding extreme temperature,1969,66
+Drought,1969,12
+Earthquake,1969,11
+Extreme weather,1969,25
+Flood,1969,14
+Volcanic activity,1969,2
+Wet mass movement,1969,1
+Wildfire,1969,1
+All disasters,1970,83
+All disasters excluding earthquakes,1970,71
+All disasters excluding extreme temperature,1970,83
+Drought,1970,9
+Earthquake,1970,12
+Extreme weather,1970,24
+Flood,1970,31
+Wet mass movement,1970,6
+Wildfire,1970,1
+All disasters,1971,67
+All disasters excluding earthquakes,1971,61
+All disasters excluding extreme temperature,1971,66
+Drought,1971,14
+Earthquake,1971,6
+Extreme temperature,1971,1
+Extreme weather,1971,22
+Flood,1971,15
+Volcanic activity,1971,3
+Wet mass movement,1971,6
+All disasters,1972,69
+All disasters excluding earthquakes,1972,62
+All disasters excluding extreme temperature,1972,67
+Drought,1972,14
+Earthquake,1972,7
+Extreme temperature,1972,2
+Extreme weather,1972,26
+Flood,1972,15
+Wet mass movement,1972,5
+All disasters,1973,76
+All disasters excluding earthquakes,1973,68
+All disasters excluding extreme temperature,1973,73
+Drought,1973,15
+Earthquake,1973,8
+Extreme temperature,1973,3
+Extreme weather,1973,22
+Flood,1973,20
+Volcanic activity,1973,1
+Wet mass movement,1973,5
+Wildfire,1973,2
+All disasters,1974,75
+All disasters excluding earthquakes,1974,69
+All disasters excluding extreme temperature,1974,75
+Drought,1974,13
+Earthquake,1974,6
+Extreme weather,1974,28
+Flood,1974,18
+Wet mass movement,1974,10
+All disasters,1975,70
+All disasters excluding earthquakes,1975,65
+All disasters excluding extreme temperature,1975,67
+Drought,1975,12
+Earthquake,1975,5
+Extreme temperature,1975,3
+Extreme weather,1975,25
+Flood,1975,17
+Volcanic activity,1975,3
+Wet mass movement,1975,5
+All disasters,1976,88
+All disasters excluding earthquakes,1976,67
+All disasters excluding extreme temperature,1976,88
+Drought,1976,9
+Earthquake,1976,21
+Extreme weather,1976,30
+Flood,1976,16
+Volcanic activity,1976,5
+Wet mass movement,1976,6
+Wildfire,1976,1
+All disasters,1977,120
+All disasters excluding earthquakes,1977,106
+All disasters excluding extreme temperature,1977,119
+Drought,1977,20
+Earthquake,1977,14
+Extreme temperature,1977,1
+Extreme weather,1977,29
+Flood,1977,47
+Volcanic activity,1977,5
+Wet mass movement,1977,3
+Wildfire,1977,1
+All disasters,1978,115
+All disasters excluding earthquakes,1978,106
+All disasters excluding extreme temperature,1978,114
+Drought,1978,15
+Earthquake,1978,9
+Extreme temperature,1978,1
+Extreme weather,1978,38
+Flood,1978,47
+Volcanic activity,1978,2
+Wet mass movement,1978,2
+Wildfire,1978,1
+All disasters,1979,116
+All disasters excluding earthquakes,1979,94
+All disasters excluding extreme temperature,1979,112
+Drought,1979,14
+Earthquake,1979,22
+Extreme temperature,1979,4
+Extreme weather,1979,30
+Flood,1979,34
+Volcanic activity,1979,4
+Wet mass movement,1979,7
+Wildfire,1979,1
+All disasters,1980,124
+All disasters excluding earthquakes,1980,107
+All disasters excluding extreme temperature,1980,121
+Drought,1980,21
+Dry mass movement,1980,1
+Earthquake,1980,17
+Extreme temperature,1980,3
+Extreme weather,1980,36
+Flood,1980,39
+Volcanic activity,1980,2
+Wet mass movement,1980,4
+Wildfire,1980,1
+All disasters,1981,139
+All disasters excluding earthquakes,1981,124
+All disasters excluding extreme temperature,1981,137
+Drought,1981,23
+Earthquake,1981,15
+Extreme temperature,1981,2
+Extreme weather,1981,47
+Flood,1981,41
+Volcanic activity,1981,1
+Wet mass movement,1981,8
+Wildfire,1981,2
+All disasters,1982,164
+All disasters excluding earthquakes,1982,149
+All disasters excluding extreme temperature,1982,161
+Drought,1982,29
+Dry mass movement,1982,1
+Earthquake,1982,15
+Extreme temperature,1982,3
+Extreme weather,1982,51
+Flood,1982,48
+Volcanic activity,1982,3
+Wet mass movement,1982,12
+Wildfire,1982,2
+All disasters,1983,223
+All disasters excluding earthquakes,1983,197
+All disasters excluding extreme temperature,1983,221
+Drought,1983,54
+Dry mass movement,1983,3
+Earthquake,1983,26
+Extreme temperature,1983,2
+Extreme weather,1983,55
+Flood,1983,49
+Volcanic activity,1983,7
+Wet mass movement,1983,16
+Wildfire,1983,11
+All disasters,1984,164
+All disasters excluding earthquakes,1984,151
+All disasters excluding extreme temperature,1984,163
+Drought,1984,30
+Earthquake,1984,13
+Extreme temperature,1984,1
+Extreme weather,1984,54
+Flood,1984,46
+Volcanic activity,1984,7
+Wet mass movement,1984,6
+Wildfire,1984,7
+All disasters,1985,173
+All disasters excluding earthquakes,1985,156
+All disasters excluding extreme temperature,1985,165
+Drought,1985,20
+Dry mass movement,1985,2
+Earthquake,1985,17
+Extreme temperature,1985,8
+Extreme weather,1985,49
+Flood,1985,57
+Volcanic activity,1985,2
+Wet mass movement,1985,6
+Wildfire,1985,12
+All disasters,1986,147
+All disasters excluding earthquakes,1986,126
+All disasters excluding extreme temperature,1986,145
+Drought,1986,6
+Earthquake,1986,21
+Extreme temperature,1986,2
+Extreme weather,1986,53
+Flood,1986,49
+Volcanic activity,1986,2
+Wet mass movement,1986,9
+Wildfire,1986,5
+All disasters,1987,183
+All disasters excluding earthquakes,1987,168
+All disasters excluding extreme temperature,1987,178
+Drought,1987,16
+Dry mass movement,1987,1
+Earthquake,1987,15
+Extreme temperature,1987,5
+Extreme weather,1987,57
+Flood,1987,66
+Volcanic activity,1987,2
+Wet mass movement,1987,14
+Wildfire,1987,7
+All disasters,1988,199
+All disasters excluding earthquakes,1988,184
+All disasters excluding extreme temperature,1988,193
+Drought,1988,21
+Dry mass movement,1988,3
+Earthquake,1988,15
+Extreme temperature,1988,6
+Extreme weather,1988,60
+Flood,1988,75
+Volcanic activity,1988,4
+Wet mass movement,1988,15
+All disasters,1989,172
+All disasters excluding earthquakes,1989,153
+All disasters excluding extreme temperature,1989,167
+Drought,1989,9
+Dry mass movement,1989,3
+Earthquake,1989,19
+Extreme temperature,1989,5
+Extreme weather,1989,72
+Flood,1989,46
+Volcanic activity,1989,1
+Wet mass movement,1989,15
+Wildfire,1989,2
+All disasters,1990,278
+All disasters excluding earthquakes,1990,237
+All disasters excluding extreme temperature,1990,265
+Drought,1990,16
+Dry mass movement,1990,2
+Earthquake,1990,41
+Extreme temperature,1990,13
+Extreme weather,1990,135
+Flood,1990,60
+Volcanic activity,1990,2
+Wet mass movement,1990,5
+Wildfire,1990,4
+All disasters,1991,236
+All disasters excluding earthquakes,1991,207
+All disasters excluding extreme temperature,1991,228
+Drought,1991,27
+Dry mass movement,1991,3
+Earthquake,1991,29
+Extreme temperature,1991,8
+Extreme weather,1991,66
+Flood,1991,76
+Volcanic activity,1991,10
+Wet mass movement,1991,9
+Wildfire,1991,8
+All disasters,1992,220
+All disasters excluding earthquakes,1992,195
+All disasters excluding extreme temperature,1992,212
+Drought,1992,27
+Dry mass movement,1992,4
+Earthquake,1992,25
+Extreme temperature,1992,8
+Extreme weather,1992,76
+Flood,1992,59
+Volcanic activity,1992,5
+Wet mass movement,1992,8
+Wildfire,1992,8
+All disasters,1993,268
+All disasters excluding earthquakes,1993,248
+All disasters excluding extreme temperature,1993,264
+Drought,1993,18
+Dry mass movement,1993,2
+Earthquake,1993,20
+Extreme temperature,1993,4
+Extreme weather,1993,107
+Flood,1993,84
+Volcanic activity,1993,6
+Wet mass movement,1993,25
+Wildfire,1993,2
+All disasters,1994,252
+All disasters excluding earthquakes,1994,227
+All disasters excluding extreme temperature,1994,243
+Drought,1994,20
+Earthquake,1994,25
+Extreme temperature,1994,9
+Extreme weather,1994,80
+Flood,1994,88
+Volcanic activity,1994,6
+Wet mass movement,1994,11
+Wildfire,1994,13
+All disasters,1995,254
+All disasters excluding earthquakes,1995,228
+All disasters excluding extreme temperature,1995,241
+Drought,1995,14
+Earthquake,1995,26
+Extreme temperature,1995,13
+Extreme weather,1995,80
+Flood,1995,93
+Volcanic activity,1995,5
+Wet mass movement,1995,16
+Wildfire,1995,7
+All disasters,1996,231
+All disasters excluding earthquakes,1996,218
+All disasters excluding extreme temperature,1996,226
+Drought,1996,9
+Earthquake,1996,13
+Extreme temperature,1996,5
+Extreme weather,1996,76
+Flood,1996,95
+Volcanic activity,1996,5
+Wet mass movement,1996,24
+Wildfire,1996,4
+All disasters,1997,263
+All disasters excluding earthquakes,1997,240
+All disasters excluding extreme temperature,1997,250
+Drought,1997,20
+Earthquake,1997,23
+Extreme temperature,1997,13
+Extreme weather,1997,79
+Flood,1997,96
+Volcanic activity,1997,4
+Wet mass movement,1997,13
+Wildfire,1997,15
+All disasters,1998,300
+All disasters excluding earthquakes,1998,270
+All disasters excluding extreme temperature,1998,288
+Drought,1998,29
+Earthquake,1998,30
+Extreme temperature,1998,12
+Extreme weather,1998,89
+Flood,1998,96
+Volcanic activity,1998,4
+Wet mass movement,1998,22
+Wildfire,1998,18
+All disasters,1999,343
+All disasters excluding earthquakes,1999,310
+All disasters excluding extreme temperature,1999,335
+Drought,1999,29
+Earthquake,1999,33
+Extreme temperature,1999,8
+Extreme weather,1999,106
+Flood,1999,123
+Volcanic activity,1999,5
+Wet mass movement,1999,18
+Wildfire,1999,21
+All disasters,2000,424
+All disasters excluding earthquakes,2000,394
+All disasters excluding extreme temperature,2000,394
+Drought,2000,42
+Dry mass movement,2000,1
+Earthquake,2000,30
+Extreme temperature,2000,30
+Extreme weather,2000,102
+Flood,2000,156
+Volcanic activity,2000,5
+Wet mass movement,2000,28
+Wildfire,2000,30
+All disasters,2001,395
+All disasters excluding earthquakes,2001,370
+All disasters excluding extreme temperature,2001,372
+Drought,2001,42
+Earthquake,2001,25
+Extreme temperature,2001,23
+Extreme weather,2001,105
+Flood,2001,156
+Volcanic activity,2001,6
+Wet mass movement,2001,24
+Wildfire,2001,14
+All disasters,2002,438
+All disasters excluding earthquakes,2002,401
+All disasters excluding extreme temperature,2002,422
+Drought,2002,38
+Dry mass movement,2002,1
+Earthquake,2002,37
+Extreme temperature,2002,16
+Extreme weather,2002,123
+Flood,2002,173
+Volcanic activity,2002,7
+Wet mass movement,2002,20
+Wildfire,2002,23
+All disasters,2003,373
+All disasters excluding earthquakes,2003,333
+All disasters excluding extreme temperature,2003,346
+Drought,2003,23
+Earthquake,2003,40
+Extreme temperature,2003,27
+Extreme weather,2003,87
+Flood,2003,159
+Volcanic activity,2003,2
+Wet mass movement,2003,21
+Wildfire,2003,14
+All disasters,2004,368
+All disasters excluding earthquakes,2004,326
+All disasters excluding extreme temperature,2004,349
+Drought,2004,19
+Dry mass movement,2004,1
+Earthquake,2004,42
+Extreme temperature,2004,19
+Extreme weather,2004,124
+Flood,2004,134
+Volcanic activity,2004,5
+Wet mass movement,2004,16
+Wildfire,2004,8
+All disasters,2005,435
+All disasters excluding earthquakes,2005,410
+All disasters excluding extreme temperature,2005,405
+Drought,2005,25
+Earthquake,2005,25
+Extreme temperature,2005,30
+Extreme weather,2005,130
+Flood,2005,191
+Volcanic activity,2005,8
+Wet mass movement,2005,13
+Wildfire,2005,13
+All disasters,2006,430
+All disasters excluding earthquakes,2006,406
+All disasters excluding extreme temperature,2006,397
+Drought,2006,20
+Dry mass movement,2006,1
+Earthquake,2006,24
+Extreme temperature,2006,33
+Extreme weather,2006,77
+Flood,2006,232
+Volcanic activity,2006,12
+Wet mass movement,2006,20
+Wildfire,2006,11
+All disasters,2007,415
+All disasters excluding earthquakes,2007,394
+All disasters excluding extreme temperature,2007,390
+Drought,2007,12
+Earthquake,2007,21
+Extreme temperature,2007,25
+Extreme weather,2007,104
+Flood,2007,219
+Volcanic activity,2007,6
+Wet mass movement,2007,10
+Wildfire,2007,18
+All disasters,2008,367
+All disasters excluding earthquakes,2008,344
+All disasters excluding extreme temperature,2008,355
+Drought,2008,19
+Dry mass movement,2008,3
+Earthquake,2008,23
+Extreme temperature,2008,12
+Extreme weather,2008,112
+Flood,2008,174
+Volcanic activity,2008,7
+Wet mass movement,2008,12
+Wildfire,2008,5
+All disasters,2009,368
+All disasters excluding earthquakes,2009,346
+All disasters excluding extreme temperature,2009,341
+Drought,2009,31
+Dry mass movement,2009,1
+Earthquake,2009,22
+Extreme temperature,2009,27
+Extreme weather,2009,87
+Flood,2009,159
+Volcanic activity,2009,3
+Wet mass movement,2009,29
+Wildfire,2009,9
+All disasters,2010,415
+All disasters excluding earthquakes,2010,391
+All disasters excluding extreme temperature,2010,381
+Drought,2010,28
+Earthquake,2010,24
+Extreme temperature,2010,34
+Extreme weather,2010,94
+Flood,2010,189
+Volcanic activity,2010,6
+Wet mass movement,2010,33
+Wildfire,2010,7
+All disasters,2011,351
+All disasters excluding earthquakes,2011,321
+All disasters excluding extreme temperature,2011,333
+Drought,2011,25
+Earthquake,2011,30
+Extreme temperature,2011,18
+Extreme weather,2011,87
+Flood,2011,160
+Volcanic activity,2011,6
+Wet mass movement,2011,17
+Wildfire,2011,8
+All disasters,2012,364
+All disasters excluding earthquakes,2012,337
+All disasters excluding extreme temperature,2012,312
+Drought,2012,31
+Dry mass movement,2012,1
+Earthquake,2012,27
+Extreme temperature,2012,52
+Extreme weather,2012,91
+Flood,2012,141
+Volcanic activity,2012,1
+Wet mass movement,2012,13
+Wildfire,2012,7
+All disasters,2013,340
+All disasters excluding earthquakes,2013,311
+All disasters excluding extreme temperature,2013,323
+Drought,2013,15
+Dry mass movement,2013,1
+Earthquake,2013,29
+Extreme temperature,2013,17
+Extreme weather,2013,105
+Flood,2013,149
+Volcanic activity,2013,3
+Wet mass movement,2013,11
+Wildfire,2013,10
+All disasters,2014,329
+All disasters excluding earthquakes,2014,303
+All disasters excluding extreme temperature,2014,311
+Drought,2014,21
+Earthquake,2014,26
+Extreme temperature,2014,18
+Extreme weather,2014,99
+Flood,2014,139
+Volcanic activity,2014,7
+Wet mass movement,2014,15
+Wildfire,2014,4
+All disasters,2015,404
+All disasters excluding earthquakes,2015,381
+All disasters excluding extreme temperature,2015,390
+Drought,2015,39
+Dry mass movement,2015,1
+Earthquake,2015,23
+Extreme temperature,2015,14
+Extreme weather,2015,121
+Flood,2015,166
+Volcanic activity,2015,7
+Wet mass movement,2015,20
+Wildfire,2015,13
+All disasters,2016,349
+All disasters excluding earthquakes,2016,319
+All disasters excluding extreme temperature,2016,336
+Drought,2016,32
+Earthquake,2016,30
+Extreme temperature,2016,13
+Extreme weather,2016,86
+Flood,2016,164
+Volcanic activity,2016,1
+Wet mass movement,2016,13
+Wildfire,2016,10
+All disasters,2017,364
+All disasters excluding earthquakes,2017,342
+All disasters excluding extreme temperature,2017,353
+Drought,2017,28
+Dry mass movement,2017,1
+Earthquake,2017,22
+Extreme temperature,2017,11
+Extreme weather,2017,131
+Flood,2017,129
+Volcanic activity,2017,2
+Wet mass movement,2017,25
+Wildfire,2017,15
+All disasters,2018,323
+All disasters excluding earthquakes,2018,303
+All disasters excluding extreme temperature,2018,296
+Drought,2018,20
+Dry mass movement,2018,1
+Earthquake,2018,20
+Extreme temperature,2018,27
+Extreme weather,2018,96
+Flood,2018,128
+Volcanic activity,2018,9
+Wet mass movement,2018,12
+Wildfire,2018,10
+All disasters,2019,413
+All disasters excluding earthquakes,2019,382
+All disasters excluding extreme temperature,2019,390
+Drought,2019,28
+Earthquake,2019,31
+Extreme temperature,2019,23
+Extreme weather,2019,92
+Flood,2019,195
+Volcanic activity,2019,4
+Wet mass movement,2019,26
+Wildfire,2019,14
+All disasters,2020,407
+All disasters excluding earthquakes,2020,391
+All disasters excluding extreme temperature,2020,401
+Drought,2020,20
+Earthquake,2020,16
+Extreme temperature,2020,6
+Extreme weather,2020,126
+Flood,2020,206
+Volcanic activity,2020,4
+Wet mass movement,2020,19
+Wildfire,2020,10
+All disasters,2021,441
+All disasters excluding earthquakes,2021,413
+All disasters excluding extreme temperature,2021,438
+Drought,2021,25
+Earthquake,2021,28
+Extreme temperature,2021,3
+Extreme weather,2021,121
+Flood,2021,222
+Glacial lake outburst flood,2021,2
+Volcanic activity,2021,9
+Wet mass movement,2021,12
+Wildfire,2021,19
+All disasters,2022,440
+All disasters excluding earthquakes,2022,409
+All disasters excluding extreme temperature,2022,400
+Drought,2022,40
+Earthquake,2022,31
+Extreme temperature,2022,40
+Extreme weather,2022,109
+Flood,2022,181
+Glacial lake outburst flood,2022,1
+Volcanic activity,2022,5
+Wet mass movement,2022,17
+Wildfire,2022,16
+All disasters,2023,410
+All disasters excluding earthquakes,2023,378
+All disasters excluding extreme temperature,2023,400
+Drought,2023,17
+Earthquake,2023,32
+Extreme temperature,2023,10
+Extreme weather,2023,140
+Flood,2023,166
+Glacial lake outburst flood,2023,1
+Volcanic activity,2023,4
+Wet mass movement,2023,24
+Wildfire,2023,16
+All disasters,2024,83
+All disasters excluding earthquakes,2024,77
+All disasters excluding extreme temperature,2024,81
+Drought,2024,7
+Earthquake,2024,6
+Extreme temperature,2024,2
+Extreme weather,2024,24
+Flood,2024,31
+Volcanic activity,2024,1
+Wet mass movement,2024,7
+Wildfire,2024,5
