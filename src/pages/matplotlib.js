@@ -368,6 +368,16 @@ export default function Matplotlibs() {
             linkTo="/how-to-create-and-custom-arrows-matplotlib"
           />
           <ChartImageContainer
+            imgName="591-arrows-with-inflexion-point-1"
+            caption="How to create an arrow with an inflexion point"
+            linkTo="/591-arrows-with-inflexion-point"
+          />
+          <ChartImageContainer
+            imgName="591-arrows-with-inflexion-point-2"
+            caption="Arrow with an inflexion in a real life example"
+            linkTo="/591-arrows-with-inflexion-point"
+          />
+          <ChartImageContainer
             imgName="589-how-to-change-coordinate-system"
             caption="How to change the coordinate system of a chart"
             linkTo="/589-how-to-change-coordinate-system"
