@@ -1,5 +1,13 @@
 export const listOfBestCharts = [
   {
+    link: '592-non-contiguous-cartogram-in-python',
+    title: 'Density population in Asia',
+    description: 'Cartogram (non-contiguous) of population density in Asia ',
+    img: '592-non-contiguous-cartogram-in-python.png',
+    alt: 'Cartogram of Asia',
+    author: 'Joseph Barbier',
+  },
+  {
     link: 'web-map-with-custom-legend',
     title: 'CO2 consumption in Europe',
     description:

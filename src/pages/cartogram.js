@@ -31,13 +31,49 @@ export default function Cartogram() {
           😔 Cartogram with <code>Python</code>
         </h2>
         <p>
-          Unfortunately, there is <strong>no direct method</strong> to build cartograms in Python. However, if you need to create one, you can easily build <a href='https://r-graph-gallery.com/cartogram.html'>cartograms in R</a> using the <code>cartogram</code> package.
+          Unfortunately, there is <strong>no direct method</strong> to build
+          cartograms in Python. However, if you need to create one, you can
+          easily build{' '}
+          <a href="https://r-graph-gallery.com/cartogram.html">
+            cartograms in R
+          </a>{' '}
+          using the <code>cartogram</code> package.
         </p>
         <p>
-          If you have implemented a cartogram algorithm in Python, please <strong>share your code</strong> with the community by opening an issue on the <a href="https://github.com/holtzy/The-Python-Graph-Gallery/issues">GitHub repository</a> of the gallery.
+          If you have implemented a cartogram algorithm in Python, please{' '}
+          <strong>share your code</strong> with the community by opening an
+          issue on the{' '}
+          <a href="https://github.com/holtzy/The-Python-Graph-Gallery/issues">
+            GitHub repository
+          </a>{' '}
+          of the gallery.
         </p>
         <p>
-          The gallery provides <strong>numerous map examples</strong> for you to explore. Browse the examples below:
+          The only kind of cartogram implemented in Python is the{' '}
+          <code>non-contiguous cartogram</code> that preserves shape but change
+          size. And the good news is that we have a tuto on the Gallery!
+        </p>
+        <Row>
+          <Col xs={12} md={12}>
+            <Link to={'/592-non-contiguous-cartogram-in-python'}>
+              <ChartImage
+                imgName={'592-non-contiguous-cartogram-in-python'}
+                caption={
+                  'How to create a non-contiguous cartogram in Python using geoplot and geopandas'
+                }
+              />
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2>Other kind of maps</h2>
+        <p>
+          The gallery provides <strong>numerous map examples</strong> for you to
+          explore. Browse the examples below:
         </p>
         <Row>
           <Col xs={12} md={4}>
@@ -51,41 +87,25 @@ export default function Cartogram() {
             </Link>
           </Col>
           <Col xs={12} md={4}>
-            <Link
-              to={'/web-map-usa-with-scatter-plot-on-top'}
-            >
+            <Link to={'/web-map-usa-with-scatter-plot-on-top'}>
               <ChartImage
-                imgName={
-                  'web-map-usa-with-scatter-plot-on-top-square'
-                }
-                caption={
-                  'Bubble map of the USA with Matplotlib and Geopandas.'
-                }
+                imgName={'web-map-usa-with-scatter-plot-on-top-square'}
+                caption={'Bubble map of the USA with Matplotlib and Geopandas.'}
               />
             </Link>
           </Col>
           <Col xs={12} md={4}>
-            <Link
-              to={'/web-stacked-area-charts-on-a-map'}
-            >
+            <Link to={'/web-stacked-area-charts-on-a-map'}>
               <ChartImage
-                imgName={
-                  'web-stacked-area-charts-on-a-map'
-                }
-                caption={
-                  'Stacked area charts on a map, with a special grid.'
-                }
+                imgName={'web-stacked-area-charts-on-a-map'}
+                caption={'Stacked area charts on a map, with a special grid.'}
               />
             </Link>
           </Col>
           <Col xs={12} md={4}>
-            <Link
-              to={'/web-map-europe-with-color-by-country'}
-            >
+            <Link to={'/web-map-europe-with-color-by-country'}>
               <ChartImage
-                imgName={
-                  'web-map-europe-with-color-by-country'
-                }
+                imgName={'web-map-europe-with-color-by-country'}
                 caption={
                   'Choropleth map of European counties with Matplotlib and Geopandas'
                 }
@@ -93,13 +113,9 @@ export default function Cartogram() {
             </Link>
           </Col>
           <Col xs={12} md={4}>
-            <Link
-              to={'/web-multiple-maps'}
-            >
+            <Link to={'/web-multiple-maps'}>
               <ChartImage
-                imgName={
-                  'web-multiple-maps'
-                }
+                imgName={'web-multiple-maps'}
                 caption={
                   'Combine multiple maps together, with a lollipop plot for the legend'
                 }
@@ -107,13 +123,9 @@ export default function Cartogram() {
             </Link>
           </Col>
           <Col xs={12} md={4}>
-            <Link
-              to={'/web-waffle-with-small-multiples'}
-            >
+            <Link to={'/web-waffle-with-small-multiples'}>
               <ChartImage
-                imgName={
-                  'web-waffle-with-small-multiples'
-                }
+                imgName={'web-waffle-with-small-multiples'}
                 caption={
                   'Use waffle chart for building a map on London boroughs'
                 }
@@ -121,7 +133,6 @@ export default function Cartogram() {
             </Link>
           </Col>
         </Row>
-
       </Container>
 
       <Spacing />
