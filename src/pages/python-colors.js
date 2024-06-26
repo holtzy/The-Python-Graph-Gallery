@@ -206,6 +206,42 @@ export default function Colors() {
 
       <Spacing />
 
+      <Container>
+        <h2>
+          More colors? <code>PyPalettes</code>
+        </h2>
+        <Row>
+          <Col md={6}>
+            <p>
+              <a href="/how-to-use-pypalettes">PyPalettes</a> is a Python
+              library that provides 2500+ palettes,{' '}
+              <b>
+                including the ones from <code>matplotlib</code>
+              </b>
+              !
+            </p>
+            <p>
+              On this post, you will find how to use the super intuitive API
+              from <a href="/how-to-use-pypalettes">PyPalettes</a> to work with
+              all these palettes.
+            </p>
+            <Link to="/how-to-use-pypalettes">
+              <Button size="sm">Learn more</Button>
+            </Link>
+          </Col>
+          <Col md={6}>
+            <Link to="/how-to-use-pypalettes">
+              <ChartImage
+                imgName="pypalettes-preview"
+                caption="PyPalettes tutorial"
+              />
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="general" />
