@@ -11,6 +11,7 @@ import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
 import ChartImage from '../components/ChartImage';
 import { SEO } from '../components/SEO';
+import pypalettesGIF from '../../static/asset/pypalettes.gif';
 
 const chartDescription = (
   <>
@@ -229,40 +230,64 @@ export default function Colors() {
       <Spacing />
 
       <Container>
-        <h2 id="pypalettes">4️⃣ Need more palette options? Check pypalettes.</h2>
-
-        <p>What is pypalettes</p>
-        <p>How it works</p>
-        <p>How to choose the right one: GIF</p>
-
-        <Row>
-          <Col md={6}>
-            <p>
-              <a href="/how-to-use-pypalettes">PyPalettes</a> is a Python
-              library that provides 2500+ palettes,{' '}
-              <b>
-                including the ones from <code>matplotlib</code>
-              </b>
-              !
-            </p>
-            <p>
-              On this post, you will find how to use the super intuitive API
-              from <a href="/how-to-use-pypalettes">PyPalettes</a> to work with
-              all these palettes.
-            </p>
-            <Link to="/how-to-use-pypalettes">
-              <Button size="sm">Learn more</Button>
-            </Link>
-          </Col>
-          <Col md={6}>
-            <Link to="/how-to-use-pypalettes">
-              <ChartImage
-                imgName="pypalettes-preview"
-                caption="PyPalettes tutorial"
-              />
-            </Link>
-          </Col>
-        </Row>
+        <h2 id="pypalettes">
+          4️⃣ Need more palette options? Check <code>pypalettes</code>.
+        </h2>
+        <p>
+          <a href="/how-to-use-pypalettes">PyPalettes</a> is a Python library
+          that gives access to 2500+ palettes.
+        </p>
+        <p>
+          It's hosted on{' '}
+          <a href="https://github.com/JosephBARBIERDARNAL/pypalettes">github</a>
+          , you can install it with <code>PyPI</code>, and it's super easy to
+          use.
+        </p>
+        <h3>User-friendly API</h3>
+        <p>
+          <code>pypalettes</code> is pretty straightfoward to use. For instance,
+          this is how to use a palette called <code>Acadia</code> once the
+          library is installed:
+        </p>
+        <CodeChunk>{codePypalettes}</CodeChunk>
+        <p>
+          The pypalettes API is super intuitive, and we've written a{' '}
+          <a href="/how-to-use-pypalettes">digestible post</a> to explain how it
+          works.
+        </p>
+        <Link to="/how-to-use-pypalettes">
+          <Button size="sm">Access 2500+ colors with pypalettes</Button>
+        </Link>
+        <br />
+        <h3>Color palette finder</h3>
+        <p>
+          Last but not least, we've also built a{' '}
+          <a href="https://python-graph-gallery.com/color-palette-finder/">
+            color palette finder
+          </a>
+          .
+        </p>
+        <p>
+          It allows to quickly explore all the options, see them{' '}
+          <b>in action</b> on 7 different charts, export their code, simulate{' '}
+          <b>color blindness</b>, and so much more.
+        </p>
+        <p>
+          <br />
+        </p>
+        <a href="https://python-graph-gallery.com/color-palette-finder/">
+          <img
+            src={pypalettesGIF}
+            alt="Color palette finder demo"
+            style={{ maxWidth: '900px', width: '100%' }}
+          />
+        </a>
+        <p>
+          <br />
+        </p>
+        <a href="https://python-graph-gallery.com/color-palette-finder/">
+          <Button size="sm">Browse the palettes</Button>
+        </a>
       </Container>
 
       <Spacing />
@@ -329,4 +354,13 @@ color = (0.1, 0.2, 0.5, 0.4)
 # Use in a barplot
 fig, ax = plt.subplots()
 ax.bar(x, y, color=color)
+`;
+
+const codePypalettes = `# Import pypalettes
+from pypalettes import load_cmap
+
+# Load the palette called Acadia
+cmap = load_cmap("Acadia")
+
+# Use the color map anywhere!
 `;
