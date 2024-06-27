@@ -93,7 +93,6 @@ export default function Colors() {
 
       <Spacing />
 
-      {/* This section links to /categorical-color-palette.html */}
       <Container>
         <h2 id="Qualitative palette">
           2️⃣ Categorical / Qualitative color palettes
@@ -172,7 +171,6 @@ export default function Colors() {
 
       <Spacing />
 
-      {/* This section links to continuous-color-palette */}
       <Container>
         <h2 id="Continuous palette">3️⃣ Continuous color palettes</h2>
         <p>
