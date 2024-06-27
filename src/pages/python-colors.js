@@ -6,32 +6,35 @@ import Contact from '../components/Contact';
 import Row from 'react-bootstrap/Row';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { Matplotlib } from '../components/MiscellaneousLogos';
 import { Button, Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import Spacing from '../components/Spacing';
 import ChartImage from '../components/ChartImage';
 import { SEO } from '../components/SEO';
 
-const chartDescription =
-  "<p><a href='https://python-graph-gallery.com/matplotlib'>Matplotlib</a> is a <strong>powerful plotting library</strong> in Python that offers <strong>extensive customization</strong> of plots, including a <strong>wide variety of colors</strong>.<br /><br />Colors in Matplotlib can be specified in numerous ways, such as by <em>name</em> (e.g., <code>red</code>, <code>blue</code>), by <em>hexadecimal code</em> (e.g., <code>#FF5733</code>), or by <em>RGB/RGBA tuples</em> (e.g., <code>(1, 0, 0)</code> for red). This <strong>flexibility</strong> makes it easy to create <strong>visually appealing</strong> and <strong>informative plots</strong>.<br /> <br />Additionally, <a href='https://python-graph-gallery.com/matplotlib'>matplotlib</a> supports a <strong>range of colormaps</strong>, which can be particularly useful for <strong>representing data with a gradient of values</strong>, enhancing the <strong>interpretability</strong> of complex datasets.</p>";
-
-const quickCode = `# libraries
-from mpl_toolkits.mplot3d import Axes3D
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-
-# Dataset
-df=pd.DataFrame({'X': range(1,101), 'Y': np.random.randn(100)*15+range(1,101), 'Z': (np.random.randn(100)*15+range(1,101))*2 })
-
-# plot
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-ax.scatter(df['X'], df['Y'], df['Z'], c='skyblue', s=60)
-ax.view_init(30, 185)
-plt.show()
-`;
+const chartDescription = (
+  <>
+    <p>
+      <a href="https://python-graph-gallery.com/matplotlib">Matplotlib</a>{' '}
+      offers extensive customization of plots, including a wide range of
+      features for working with colors.
+    </p>
+    <p>
+      Dealing with colors in Matplotlib can be challenging. This page is here to
+      address all your needs. It begins with tips on how to apply a{' '}
+      <b>single color</b> to a chart, and then discusses accessing{' '}
+      <b>color palettes</b> for both continuous and categorical data.
+    </p>
+    <p>
+      Finally, it introduces <code>pypalettes</code>, a Python library that
+      provides access to 2,500+ color palettes. It also includes a{' '}
+      <a href="https://python-graph-gallery.com/color-palette-finder/">
+        color palette finder
+      </a>{' '}
+      tool that you are sure to love.
+    </p>
+  </>
+);
 
 export const Head = () => (
   <SEO
@@ -43,91 +46,96 @@ export const Head = () => (
 export default function Colors() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Colors" description={chartDescription} />
+      <TitleAndDescription
+        title="Dealing with colors in matplotlib"
+        description={chartDescription}
+      />
 
       <Container>
-        <h2 id="Quick">Color maps</h2>
-        <Row className="align-items-center">
-          <Col md={4}>
-            <p>
-              <a href="/matplotlib">Matplotlib</a> provides a wide range of
-              colormaps but also a specific way of working with them. This post
-              will show you how to use colormaps in{' '}
-              <a href="/matplotlib">Matplotlib</a> to enhance the readability of
-              your plots.
-            </p>
-            <Link to="/587-how-to-use-colormap">
-              <Button size="sm">Learn more</Button>
-            </Link>
-          </Col>
-          <Col md={8}>
-            <Link to={'/587-how-to-use-colormap'}>
-              <ChartImage
-                imgName="587-how-to-use-colormap"
-                caption="Available colors in Matplotlib"
-              />
-            </Link>
-          </Col>
-        </Row>
+        <h2 id="Single color">1️⃣ Applying a single Color</h2>
+        <p>
+          That's the most simple use-case. You just made a chart that has an
+          uniform default color and want to change it.
+        </p>
+        <p>
+          All <a href="/matplotlib">Matplotlib</a> plotting function have a{' '}
+          <b>color</b> argument allowing to control the color.
+        </p>
+        <br />
+        <p>The color can be provided in multiple ways:</p>
+        <ul>
+          <li>
+            <b>Named colors:</b> Use the name of the color. For example,{' '}
+            <code>red</code>,<code>blue</code>, <code>green</code>.
+          </li>
+          <li>
+            <b>RGB colors:</b> Use a tuple of 3 values between 0 and 1. For
+            example, <code>(1, 0, 0)</code> for red. Note that a 4th value can
+            be provided for the opacity.
+          </li>
+          <li>
+            <b>Hexadecimal colors:</b> Use the hexadecimal code. For example,{' '}
+            <code>#FF0000</code> for red.
+          </li>
+        </ul>
+        <p>Code would look like this:</p>
+        <CodeChunk>{codeSingleColor}</CodeChunk>
+        <br />
+        <p>
+          We wrote a post that goes in-depth in this topic. It also lists all
+          the premade-colors.
+        </p>
+        <Link to="/available-colors-in-matplotlib">
+          <Button size="md">Learn more about single color</Button>
+        </Link>
       </Container>
 
       <Spacing />
 
       <Container>
-        <h2 id="Quick">Named colors</h2>
-        <Row className="align-items-center">
-          <Col md={6}>
-            <p>
-              <a href="/matplotlib">Matplotlib</a> provides multiple ways of
-              managing colors. Basically, you can use:
-              <ul>
-                <li>
-                  <b>Named colors:</b> Use the name of the color. For example,
-                  'red', 'blue', 'green', etc.
-                </li>
-                <li>
-                  <b>RGB colors:</b> Use a tuple of 3 values between 0 and 1.
-                  For example, (1, 0, 0) for red.
-                </li>
-                <li>
-                  <b>Hexadecimal colors:</b> Use the hexadecimal code. For
-                  example, '#FF0000' for red.
-                </li>
-              </ul>
-            </p>
-            <Link to="/available-colors-in-matplotlib">
-              <Button size="sm">Learn more</Button>
-            </Link>
-          </Col>
-          <Col md={6}>
-            <Link to={'/available-colors-in-matplotlib'}>
-              <ChartImage
-                imgName="color_names_matplotlib"
-                caption="Available colors in Matplotlib"
-              />
-            </Link>
-          </Col>
-        </Row>
-      </Container>
-
-      <Spacing />
-
-      <Container>
-        <h2>Pre-made categorical palettes</h2>
+        <h2 id="Qualitative palette">
+          2️⃣ Categorical / Qualitative color palettes
+        </h2>
+        <p>
+          Qualitative color schemes represent categorical variables, where the
+          possible values of the variable are <b>discrete</b> and{' '}
+          <b>unordered</b>.
+        </p>
+        <p>
+          <u>Example</u>: you want to color <code>group A</code> in blue,{' '}
+          <code>group B</code> in red and so on.
+        </p>
+        <h3>Method 1: provide an array of colors</h3>
+        <p>
+          You can pick some colors manually, and provide them as an array to the{' '}
+          <code>color</code> argument of the matplotlib function you're using.
+        </p>
+        <p>
+          I strongly advise <b>not</b> doing this though. It's time consuming
+          and finding colors that go well together is a struggle.{' '}
+        </p>
+        <h3>Method 2: use a matplotlib pre-made palette</h3>
+        <p>
+          Matplotlib provides a set of{' '}
+          <Link to="/available-categoric-palettes">
+            pre-made categorical palettes
+          </Link>{' '}
+          that are ready to be used.
+        </p>
+        <br />
         <Row>
           <Col md={6}>
             <p>
-              <a href="/matplotlib">Matplotlib</a> provides a set of pre-made
-              categorical palettes. These palettes are <b>ready to use</b> and
-              can be used to colorize your categorical data.
+              Read <Link to="/available-categoric-palettes">this post</Link> to
+              find the entire list and to understand how to use those palettes.
             </p>
             <p>
-              On this post, you will find the entire list of <b>available</b>{' '}
-              categorical palettes in <a href="/matplotlib">matplotlib</a>, how
-              to use them, and how to create your <b>own</b>.
+              Basically, you will have to create a color map using the{' '}
+              <code>get_cmap()</code> function and pass this color map to the{' '}
+              <code>color</code> argument of the function you're using.
             </p>
             <Link to="/available-categoric-palettes">
-              <Button size="sm">Learn more</Button>
+              <Button size="md">Read now</Button>
             </Link>
           </Col>
           <Col md={6}>
@@ -139,26 +147,40 @@ export default function Colors() {
             </Link>
           </Col>
         </Row>
+
+        <h3>
+          Method 3: more palette with <code>pypalettes</code>
+        </h3>
+        <p>
+          Matplotlib only offers about a dozen{' '}
+          <Link to="/available-categoric-palettes">qualitative palettes</Link>.
+          So we've just created <code>pypalettes</code>, a python library that
+          offers 2500+ color palettes. The library is described in depth below.
+        </p>
+        <Link to="#pypalettes">
+          <Button size="md">More about pypalettes</Button>
+        </Link>
       </Container>
 
       <Spacing />
 
       <Container>
-        <h2>Pre-made continuous palettes</h2>
+        <h2 id="Continuous palette">3️⃣ Continuous color palettes</h2>
         <p>
           <a href="/matplotlib">Matplotlib</a> provides a set of pre-made
           continuous palettes that are split into 2 main categories:
-          <ul>
-            <li>
-              <b>Sequential:</b> Ideal for representing data that ranges from
-              low to high values.
-            </li>
-            <li>
-              <b>Diverging:</b> Ideal for representing data that ranges from
-              negative to positive values.
-            </li>
-          </ul>
         </p>
+        <ul>
+          <li>
+            <b>Sequential:</b> for representing data that ranges from low to
+            high values.
+          </li>
+          <li>
+            <b>Diverging:</b> for representing data that ranges from negative to
+            positive values.
+          </li>
+        </ul>
+        <br />
         <Row>
           <Col md={6}>
             <br />
@@ -207,9 +229,12 @@ export default function Colors() {
       <Spacing />
 
       <Container>
-        <h2>
-          More colors? <code>PyPalettes</code>
-        </h2>
+        <h2 id="pypalettes">4️⃣ Need more palette options? Check pypalettes.</h2>
+
+        <p>What is pypalettes</p>
+        <p>How it works</p>
+        <p>How to choose the right one: GIF</p>
+
         <Row>
           <Col md={6}>
             <p>
@@ -242,6 +267,36 @@ export default function Colors() {
 
       <Spacing />
 
+      <Container>
+        <h2 id="customization">
+          5️⃣ Deal with color maps for fine grain custommization
+        </h2>
+        <Row className="align-items-center">
+          <Col md={4}>
+            <p>
+              <a href="/matplotlib">Matplotlib</a> provides a wide range of
+              colormaps but also a specific way of working with them. This post
+              will show you how to use colormaps in{' '}
+              <a href="/matplotlib">Matplotlib</a> to enhance the readability of
+              your plots.
+            </p>
+            <Link to="/587-how-to-use-colormap">
+              <Button size="sm">Learn more</Button>
+            </Link>
+          </Col>
+          <Col md={8}>
+            <Link to={'/587-how-to-use-colormap'}>
+              <ChartImage
+                imgName="587-how-to-use-colormap"
+                caption="Available colors in Matplotlib"
+              />
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="general" />
@@ -258,3 +313,20 @@ export default function Colors() {
     </Layout>
   );
 }
+
+const codeSingleColor = `# Hexadecimal color code
+color = "#FF5733"
+
+# Pre-defined color names
+color = "skyblue"
+
+# RGB tuple
+color = (0.1, 0.2, 0.5)
+
+# RGBA tuple
+color = (0.1, 0.2, 0.5, 0.4)
+
+# Use in a barplot
+fig, ax = plt.subplots()
+ax.bar(x, y, color=color)
+`;
