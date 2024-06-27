@@ -32,7 +32,7 @@ const chartDescription = (
       <a href="https://python-graph-gallery.com/color-palette-finder/">
         color palette finder
       </a>{' '}
-      tool that you are sure to love.
+      tool that you are sure to love. 💜
     </p>
   </>
 );
@@ -51,7 +51,7 @@ export default function Colors() {
         title="Dealing with colors in matplotlib"
         description={chartDescription}
       />
-
+      {/* This section links to /available-colors-in-matplotlib */}
       <Container>
         <h2 id="Single color">1️⃣ Applying a single Color</h2>
         <p>
@@ -93,6 +93,7 @@ export default function Colors() {
 
       <Spacing />
 
+      {/* This section links to /categorical-color-palette.html */}
       <Container>
         <h2 id="Qualitative palette">
           2️⃣ Categorical / Qualitative color palettes
@@ -104,18 +105,14 @@ export default function Colors() {
         </p>
         <p>
           <u>Example</u>: you want to color <code>group A</code> in blue,{' '}
-          <code>group B</code> in red and so on.
+          <code>group B</code> in red and so on. This applies for{' '}
+          <Link href="/barplot">barplots</Link>,{' '}
+          <Link href="/pie-plot">pie</Link> charts,{' '}
+          <Link href="/scatter-plot">scatterplot</Link> or any other chart that
+          can be split by <b>group</b>.
         </p>
-        <h3>Method 1: provide an array of colors</h3>
-        <p>
-          You can pick some colors manually, and provide them as an array to the{' '}
-          <code>color</code> argument of the matplotlib function you're using.
-        </p>
-        <p>
-          I strongly advise <b>not</b> doing this though. It's time consuming
-          and finding colors that go well together is a struggle.{' '}
-        </p>
-        <h3>Method 2: use a matplotlib pre-made palette</h3>
+
+        <h3>Method 1: use a matplotlib pre-made palette</h3>
         <p>
           Matplotlib provides a set of{' '}
           <Link to="/available-categoric-palettes">
@@ -150,7 +147,7 @@ export default function Colors() {
         </Row>
 
         <h3>
-          Method 3: more palette with <code>pypalettes</code>
+          Method 2: more palette with <code>pypalettes</code>
         </h3>
         <p>
           Matplotlib only offers about a dozen{' '}
@@ -161,12 +158,34 @@ export default function Colors() {
         <Link to="#pypalettes">
           <Button size="md">More about pypalettes</Button>
         </Link>
+
+        <h3>Method 3: provide an array of colors</h3>
+        <p>
+          You can pick some colors manually, and provide them as an array to the{' '}
+          <code>color</code> argument of the matplotlib function you're using.
+        </p>
+        <p>
+          I strongly advise <b>not</b> doing this though. It's time consuming
+          and finding colors that go well together is a struggle.{' '}
+        </p>
       </Container>
 
       <Spacing />
 
+      {/* This section links to continuous-color-palette */}
       <Container>
         <h2 id="Continuous palette">3️⃣ Continuous color palettes</h2>
+        <p>
+          A continuous color palette is a <b>smooth gradient</b> of colors that
+          transitions seamlessly from one hue to another.
+        </p>
+        <p>
+          <u>Example</u>: you want to encode a value with a color. For instance,{' '}
+          <code>0</code> will be in light blue, and <code>100</code> will be in
+          dark blue. This applies for <Link href="/heatmap">heatmap</Link>,{' '}
+          <Link href="/choropleth-map">choropleth</Link> maps for example.
+        </p>
+        <h3>Method 1: use a matplotlib pre-made palette</h3>
         <p>
           <a href="/matplotlib">Matplotlib</a> provides a set of pre-made
           continuous palettes that are split into 2 main categories:
@@ -181,19 +200,10 @@ export default function Colors() {
             positive values.
           </li>
         </ul>
+
         <br />
+
         <Row>
-          <Col md={6}>
-            <br />
-            <p>
-              On this post, you will find the entire list of <b>available</b>{' '}
-              sequential palettes in <a href="/matplotlib">matplotlib</a>, how
-              to use them, and how to create your <b>own</b>.
-            </p>
-            <Link to="/available-continuous-palettes">
-              <Button size="sm">Sequential palettes</Button>
-            </Link>
-          </Col>
           <Col md={6}>
             <Link to="/available-continuous-palettes">
               <ChartImage
@@ -202,9 +212,6 @@ export default function Colors() {
               />
             </Link>
           </Col>
-        </Row>
-        <br />
-        <Row>
           <Col md={6}>
             <Link to="/available-continuous-palettes">
               <ChartImage
@@ -213,22 +220,35 @@ export default function Colors() {
               />
             </Link>
           </Col>
-          <Col md={6}>
-            <p>
-              Similar to the sequential palettes, you can find the entire list
-              of <b>available</b> diverging palettes in{' '}
-              <a href="/matplotlib">matplotlib</a>, how to use them, and how to
-              create your <b>own</b>.
-            </p>
-            <Link to="/available-continuous-palettes">
-              <Button size="sm">Diverging palettes</Button>
-            </Link>
-          </Col>
         </Row>
+        <br />
+        <p>
+          We've written <Link to="/available-continuous-palettes">a post</Link>{' '}
+          that will guide you through their usage, and provides an exhaustive
+          list of all the available continuous palettes.
+        </p>
+        <Link to="/available-continuous-palettes">
+          <Button size="md">Continuous palettes in Matplotlib</Button>
+        </Link>
+
+        {/* This section links to the pypalette tutorial*/}
+        <h3>
+          Method 2: more palette with <code>pypalettes</code>
+        </h3>
+        <p>
+          <code>pypalettes</code> is a python library that offers 2500+ color
+          palettes. The library is described in depth below and will be useful
+          if you're not satisfied with matplotlib built-in options.
+        </p>
+        <Link to="#pypalettes">
+          <Button size="md">More about pypalettes</Button>
+        </Link>
+
+        <h3>Method 3: create your own</h3>
+        <p>Strongly discouraged: you will struggle to build something great.</p>
+        <p>But definitely doable. See the last section of this page!</p>
       </Container>
-
       <Spacing />
-
       <Container>
         <h2 id="pypalettes">
           4️⃣ Need more palette options? Check <code>pypalettes</code>.
@@ -289,13 +309,9 @@ export default function Colors() {
           <Button size="sm">Browse the palettes</Button>
         </a>
       </Container>
-
       <Spacing />
-
       <Container>
-        <h2 id="customization">
-          5️⃣ Deal with color maps for fine grain custommization
-        </h2>
+        <h2 id="customization">5️⃣ How to work with color maps</h2>
         <Row className="align-items-center">
           <Col md={4}>
             <p>
@@ -319,21 +335,25 @@ export default function Colors() {
           </Col>
         </Row>
       </Container>
-
       <Spacing />
-
+      <Container>
+        <h2 id="customization">6️⃣ Creating your own palette</h2>
+        <p>
+          If you're not satisfied with the 2500+ options offered in the previous
+          sections, you can still create your own palette from scratch.
+        </p>
+        <p>We've built a full post on the topic, but here is a summary:</p>
+      </Container>
+      <Spacing />
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="general" />
         </Container>
       </div>
-
       <Spacing />
-
       <Container>
         <Contact />
       </Container>
-
       <Spacing />
     </Layout>
   );
