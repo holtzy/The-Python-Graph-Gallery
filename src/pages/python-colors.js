@@ -93,7 +93,6 @@ export default function Colors() {
 
       <Spacing />
 
-      {/* This section links to /categorical-color-palette.html */}
       <Container>
         <h2 id="Qualitative palette">
           2️⃣ Categorical / Qualitative color palettes
@@ -115,7 +114,7 @@ export default function Colors() {
         <h3>Method 1: use a matplotlib pre-made palette</h3>
         <p>
           Matplotlib provides a set of{' '}
-          <Link to="/available-categoric-palettes">
+          <Link to="/categorical-color-palette">
             pre-made categorical palettes
           </Link>{' '}
           that are ready to be used.
@@ -124,7 +123,7 @@ export default function Colors() {
         <Row>
           <Col md={6}>
             <p>
-              Read <Link to="/available-categoric-palettes">this post</Link> to
+              Read <Link to="/categorical-color-palette">this post</Link> to
               find the entire list and to understand how to use those palettes.
             </p>
             <p>
@@ -132,12 +131,12 @@ export default function Colors() {
               <code>get_cmap()</code> function and pass this color map to the{' '}
               <code>color</code> argument of the function you're using.
             </p>
-            <Link to="/available-categoric-palettes">
+            <Link to="/categorical-color-palette">
               <Button size="md">Read now</Button>
             </Link>
           </Col>
           <Col md={6}>
-            <Link to="/available-categoric-palettes">
+            <Link to="/categorical-color-palette">
               <ChartImage
                 imgName="categorical_palettes"
                 caption="Available categorical color palettes in Matplotlib"
@@ -151,8 +150,8 @@ export default function Colors() {
         </h3>
         <p>
           Matplotlib only offers about a dozen{' '}
-          <Link to="/available-categoric-palettes">qualitative palettes</Link>.
-          So we've just created <code>pypalettes</code>, a python library that
+          <Link to="/categorical-color-palette">qualitative palettes</Link>. So
+          we've just created <code>pypalettes</code>, a python library that
           offers 2500+ color palettes. The library is described in depth below.
         </p>
         <Link to="#pypalettes">
@@ -172,7 +171,6 @@ export default function Colors() {
 
       <Spacing />
 
-      {/* This section links to continuous-color-palette */}
       <Container>
         <h2 id="Continuous palette">3️⃣ Continuous color palettes</h2>
         <p>
@@ -205,7 +203,7 @@ export default function Colors() {
 
         <Row>
           <Col md={6}>
-            <Link to="/available-continuous-palettes">
+            <Link to="/continuous-color-palette">
               <ChartImage
                 imgName="sequential_palettes"
                 caption="Available sequential color palettes in Matplotlib"
@@ -213,7 +211,7 @@ export default function Colors() {
             </Link>
           </Col>
           <Col md={6}>
-            <Link to="/available-continuous-palettes">
+            <Link to="/continuous-color-palette">
               <ChartImage
                 imgName="diverging_palettes"
                 caption="Available diverging color palettes in Matplotlib"
@@ -223,11 +221,11 @@ export default function Colors() {
         </Row>
         <br />
         <p>
-          We've written <Link to="/available-continuous-palettes">a post</Link>{' '}
-          that will guide you through their usage, and provides an exhaustive
-          list of all the available continuous palettes.
+          We've written <Link to="/continuous-color-palette">a post</Link> that
+          will guide you through their usage, and provides an exhaustive list of
+          all the available continuous palettes.
         </p>
-        <Link to="/available-continuous-palettes">
+        <Link to="/continuous-color-palette">
           <Button size="md">Continuous palettes in Matplotlib</Button>
         </Link>
 
@@ -247,8 +245,13 @@ export default function Colors() {
         <h3>Method 3: create your own</h3>
         <p>Strongly discouraged: you will struggle to build something great.</p>
         <p>But definitely doable. See the last section of this page!</p>
+        <Link to="/create-your-own-color-maps">
+          <Button size="md">Create my own palette</Button>
+        </Link>
       </Container>
+
       <Spacing />
+
       <Container>
         <h2 id="pypalettes">
           4️⃣ Need more palette options? Check <code>pypalettes</code>.
