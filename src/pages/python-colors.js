@@ -245,8 +245,13 @@ export default function Colors() {
         <h3>Method 3: create your own</h3>
         <p>Strongly discouraged: you will struggle to build something great.</p>
         <p>But definitely doable. See the last section of this page!</p>
+        <Link to="/create-your-own-color-maps">
+          <Button size="md">Create my own palette</Button>
+        </Link>
       </Container>
+
       <Spacing />
+
       <Container>
         <h2 id="pypalettes">
           4️⃣ Need more palette options? Check <code>pypalettes</code>.
