@@ -66,8 +66,11 @@ export default function BestPackages() {
           <b>built on top</b> on them, meaning that they use those packages
           features to create new ones!
         </p>
+        <p>Here you can find them and learn:</p>
       </Container>
+
       <br />
+
       <div className="greySection">
         <Container>
           <Row className="justify-content-center">
