@@ -257,8 +257,8 @@ export default function Colors() {
           4️⃣ Need more palette options? Check <code>pypalettes</code>.
         </h2>
         <p>
-          <a href="/how-to-use-pypalettes">PyPalettes</a> is a Python library
-          that gives access to 2500+ palettes.
+          <a href="/introduction-to-pypalettes">PyPalettes</a> is a Python
+          library that gives access to 2500+ palettes.
         </p>
         <p>
           It's hosted on{' '}
@@ -275,10 +275,10 @@ export default function Colors() {
         <CodeChunk>{codePypalettes}</CodeChunk>
         <p>
           The pypalettes API is super intuitive, and we've written a{' '}
-          <a href="/how-to-use-pypalettes">digestible post</a> to explain how it
-          works.
+          <a href="/introduction-to-pypalettes">digestible post</a> to explain
+          how it works.
         </p>
-        <Link to="/how-to-use-pypalettes">
+        <Link to="/introduction-to-pypalettes">
           <Button size="sm">Access 2500+ colors with pypalettes</Button>
         </Link>
         <br />
