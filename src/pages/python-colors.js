@@ -167,6 +167,9 @@ export default function Colors() {
           I strongly advise <b>not</b> doing this though. It's time consuming
           and finding colors that go well together is a struggle.{' '}
         </p>
+        <Link to="#own_colors">
+          <Button size="md">Create my own palette</Button>
+        </Link>
       </Container>
 
       <Spacing />
@@ -245,7 +248,7 @@ export default function Colors() {
         <h3>Method 3: create your own</h3>
         <p>Strongly discouraged: you will struggle to build something great.</p>
         <p>But definitely doable. See the last section of this page!</p>
-        <Link to="/create-your-own-color-maps">
+        <Link to="#own_colors">
           <Button size="md">Create my own palette</Button>
         </Link>
       </Container>
@@ -338,16 +341,28 @@ export default function Colors() {
           </Col>
         </Row>
       </Container>
+
       <Spacing />
+
       <Container>
-        <h2 id="customization">6️⃣ Creating your own palette</h2>
+        <h2 id="own_colors">6️⃣ Creating your own palette</h2>
         <p>
-          If you're not satisfied with the 2500+ options offered in the previous
-          sections, you can still create your own palette from scratch.
+          If you're not satisfied with the <b>2500+ options</b> offered in the
+          previous sections, you can still create your own palette from scratch.
         </p>
-        <p>We've built a full post on the topic, but here is a summary:</p>
+        <p>We've built a full post on the topic, but here is a summary: </p>
+        <p>
+          <a href="/matplotlib">Matplotlib</a> provides a few tools that, based
+          on a <b>list of colors</b> create a colormap with it. You can create
+          <b>both</b> categorical and continuous palettes.
+        </p>
+        <a href="/create-your-own-color-maps">
+          <Button size="sm">Create my own palette</Button>
+        </a>
       </Container>
+
       <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <ChartFamilySection chartFamily="general" />
