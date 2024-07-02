@@ -1,8 +1,17 @@
 export const listOfBestCharts = [
   {
+    link: 'web-bubble-map-with-arrows',
+    title: 'Earthquakes around the world',
+    description:
+      'Repartition of earthquakes around the world, with description of extensive description and annotations.',
+    img: 'web-bubble-map-with-arrows.png',
+    alt: 'Cartogram of Asia',
+    author: 'Joseph Barbier',
+  },
+  {
     link: '592-non-contiguous-cartogram-in-python',
     title: 'Density population in Asia',
-    description: 'Cartogram (non-contiguous) of population density in Asia ',
+    description: 'Cartogram (non-contiguous) of population density in Asia.',
     img: '592-non-contiguous-cartogram-in-python.png',
     alt: 'Cartogram of Asia',
     author: 'Joseph Barbier',

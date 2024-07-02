@@ -3,6 +3,7 @@ import TitleAndDescription from '../components/TitleAndDescription';
 import Layout from '../components/Layout';
 import Container from 'react-bootstrap/Container';
 import Contact from '../components/Contact';
+import { Col } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
@@ -172,14 +173,24 @@ export default function BubbleMap() {
           The below examples show how to create <b>advanced bubble maps</b> with
           python using real life data.
         </p>
-        <Link to="//web-map-usa-with-scatter-plot-on-top">
-          <div style={{ margin: '0 auto' }}>
-            <ChartImage
-              imgName="web-map-usa-with-scatter-plot-on-top"
-              caption="Bubble map with a scatter plot on top of it"
-            />
-          </div>
-        </Link>
+        <Row>
+          <Col xs={12} md={6}>
+            <Link to={'/web-map-usa-with-scatter-plot-on-top'}>
+              <ChartImage
+                imgName={'web-map-usa-with-scatter-plot-on-top-square'}
+                caption={'Background map with a scatter plot on top of it'}
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-bubble-map-with-arrows'}>
+              <ChartImage
+                imgName={'web-bubble-map-with-arrows-square'}
+                caption={'Bubble map with arrows and nice annotations'}
+              />
+            </Link>
+          </Col>
+        </Row>
       </Container>
 
       <Spacing />
