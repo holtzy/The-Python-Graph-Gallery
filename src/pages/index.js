@@ -242,6 +242,13 @@ export default function Home() {
             </Col>
           </Row>
           <br />
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <Link href="/best-dataviz-packages">
+              <Button size="lg" style={{ borderWidth: 1, marginLeft: 0 }}>
+                Check the full list
+              </Button>
+            </Link>
+          </div>
           <br />
           <br />
         </Container>

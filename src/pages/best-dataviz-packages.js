@@ -13,8 +13,56 @@ import PlotnineImg from '../../static/logo/Other/plotnineLogoHighRes.png';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
 
+// Core
+// Matplotlib, Seabor, Plotnine,  pandas
+
+// Interactive
+// Plotly, Altair, Bokeh,
+
+// Matplotlib third party
+// Pypalettes, highlight_text, flexitext,
+
+// Geospatial
+// folium, geoplot, cartopy, basemap, geopandas
+
+// Specfic chart type
+// networkX, wordcloud, suqarify, pywaffle,
+
+// Tables
+// great_tables et autres
+
+// Themes?
+// To explore!
+
 const chartDescription =
   "<p>Python is very powerful when it comes to data visualization, especially thanks to its specialized packages that elevate its potential to unparalleled heights. Among these, <a href='/matplotlib'>matplotlib</a> stands out as a foundational tool, offering a versatile platform for creating a wide array of plots.<br/><br/>However, the real magic unfolds when you delve into <b>its extensions</b> and the plethora of other visualization packages available such as <a href='/seaborn'>seaborn</a>, <a href='/advanced-custom-annotations-matplotlib'>highlight_text</a> or <a href='/color-palette-finder'>pypalettes</a>. Together, they empower users to craft virtually <b>any type</b> of chart imaginable, showcasing the true versatility and power of Python in the realm of data visualization.<br/><br/>Python also comes with a set of great independant packages such as <a href='/plotly'>plotly</a>, that provides a simple way to create <b>interactive charts</b>, and <a href='/plotnine'>plotnine</a> that uses the <b>grammar of graphics</b> as a syntax, pretty much like the more than famous <a href='https://r-graph-gallery.com/ggplot2-package.html'>ggplot2</a>.</p>";
+
+const logoData = [
+  {
+    imgPath: MatplotlibImg,
+    url: '/matplotlib',
+    altText: 'Matplotlib logo',
+    name: 'Matplotlib',
+  },
+  {
+    imgPath: PlotlyImg,
+    url: '/plotly',
+    altText: 'Plotly logo',
+    name: 'Plotly',
+  },
+  {
+    imgPath: PlotnineImg,
+    url: '/plotnine',
+    altText: 'Plotnine logo',
+    name: 'Plotnine',
+  },
+  {
+    imgPath: SeabornImg,
+    url: '/seaborn',
+    altText: 'Seaborn logo',
+    name: 'Seaborn',
+  },
+];
 
 export const Head = () => (
   <SEO
@@ -24,33 +72,6 @@ export const Head = () => (
 );
 
 export default function BestPackages() {
-  const logoData = [
-    {
-      imgPath: MatplotlibImg,
-      url: '/matplotlib',
-      altText: 'Matplotlib logo',
-      name: 'Matplotlib',
-    },
-    {
-      imgPath: PlotlyImg,
-      url: '/plotly',
-      altText: 'Plotly logo',
-      name: 'Plotly',
-    },
-    {
-      imgPath: PlotnineImg,
-      url: '/plotnine',
-      altText: 'Plotnine logo',
-      name: 'Plotnine',
-    },
-    {
-      imgPath: SeabornImg,
-      url: '/seaborn',
-      altText: 'Seaborn logo',
-      name: 'Seaborn',
-    },
-  ];
-
   return (
     <Layout isTocEnabled>
       <TitleAndDescription
@@ -73,7 +94,7 @@ export default function BestPackages() {
 
       <div className="greySection">
         <Container>
-          <Row className="justify-content-center">
+          <Row className="justify-content-start py-4">
             {logoData.map((logo, index) => (
               <LogoLink key={index} {...logo} />
             ))}
