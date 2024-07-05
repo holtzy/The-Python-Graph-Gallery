@@ -66,7 +66,7 @@ const logoData = [
 
 export const Head = () => (
   <SEO
-    title="Best data visualization Python packages"
+    title="The best Python libraries for data visualization"
     seoDescription="All python data visualization packages and how to use them"
   />
 );
@@ -75,7 +75,7 @@ export default function BestPackages() {
   return (
     <Layout isTocEnabled>
       <TitleAndDescription
-        title="Best data visualization Python packages"
+        title="The best Python libraries for data visualization"
         description={chartDescription}
       />
 

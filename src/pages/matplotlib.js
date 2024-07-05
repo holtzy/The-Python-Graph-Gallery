@@ -737,7 +737,7 @@ export default function Matplotlibs() {
       <Spacing />
 
       <Container>
-        <h2 id="Images">Patterns in charts</h2>
+        <h2 id="Pattern">Patterns in charts</h2>
         <p>
           <b>Hatchs and patterns</b> are a great way to enhance the readability
           of your chart. The post below will guide you through the process of

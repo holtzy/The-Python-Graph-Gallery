@@ -26,7 +26,7 @@ export default function TopNavbar() {
   return (
     <Container>
       <Navbar className="container nav" expand="lg" fixed="top">
-        <Navbar.Brand href="/">&larr; Python Graph Gallery</Navbar.Brand>
+        <Navbar.Brand href="/">&larr; Graph Gallery</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav.Link onClick={() => setShow(true)}>Chart types</Nav.Link>
@@ -51,6 +51,9 @@ export default function TopNavbar() {
             </NavDropdown.Item>
             <NavDropdown.Item href="/matplotlib#Font">Font</NavDropdown.Item>
             <NavDropdown.Item href="/matplotlib#Theme">Theme</NavDropdown.Item>
+            <NavDropdown.Item href="/color-palette-finder">
+              Color
+            </NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item className="menuItemMain" href="/seaborn">
               Seaborn
@@ -82,11 +85,20 @@ export default function TopNavbar() {
                 <Plotnine />
               </span>
             </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item
+              className="menuItemMain"
+              href="/color-palette-finder"
+            >
+              Color Palette Finder
+            </NavDropdown.Item>
           </NavDropdown>
 
           <Nav.Link href="/all-charts">All</Nav.Link>
 
           <Nav.Link href="/best-python-chart-examples">Best</Nav.Link>
+
+          <Nav.Link href="/best-dataviz-packages">Libs</Nav.Link>
 
           <NavDropdown title="Related" id="nav-dropdown-related">
             <NavDropdown.Item
@@ -133,6 +145,7 @@ export default function TopNavbar() {
           </Button>
         </Navbar.Collapse>
       </Navbar>
+
       <AllChartsModal show={show} handleClose={() => setShow(false)} />
       <SubscribeModal
         show={isSubscribeModalOpen}
