@@ -111,8 +111,7 @@ export default function Colors({ location }) {
           does a great job of this. Now, the bridge is available for Python too.
         </p>
         <p>
-          Palettes come from <code>paleteer</code>,{' '}
-          <a href="www.coolors.co">coolors.co</a>, Matplotlib, and Seaborn.
+          Palettes come from <code>paleteer</code>, Matplotlib, and Seaborn.
         </p>
         <p>
           <u>Pro Tip</u>: Give a star to the GitHub{' '}
