@@ -49,7 +49,7 @@ export default function BubbleMap() {
 
       <Container>
         <h2 id="Geopandas & Geoplot">
-          <code>Geopandas</code> and <code>GeoPlot</code>
+          <code>GeoPlot</code> & <code>Cartopy</code>
         </h2>
         <p>
           <code>Seaborn</code> is another great alternative to build an area
@@ -59,9 +59,9 @@ export default function BubbleMap() {
         </p>
         <Row>
           <ChartImageContainer
-            imgName="map-read-geojson-with-python-geopandas"
-            caption="How to read a geoJson file with geopandas and transform it to a geodataframe."
-            linkTo="/map-read-geojson-with-python-geopandas"
+            imgName="web-bubble-map-with-arrows"
+            caption="How to create a bubble map using geoplot and cartopy"
+            linkTo="/web-bubble-map-with-arrows"
           />
         </Row>
       </Container>
@@ -123,6 +123,16 @@ export default function BubbleMap() {
             caption="How to read a geoJson file with geopandas and transform it to a geodataframe."
             linkTo="/312-add-markers-on-folium-map"
           />
+          <ChartImageContainer
+            imgName="593-customize-bubble-map-with-folium-1"
+            caption="Customize color, transparency and size of bubbles in folium bubble maps"
+            linkTo="/593-customize-bubble-map-with-folium"
+          />
+          <ChartImageContainer
+            imgName="593-customize-bubble-map-with-folium-2"
+            caption="How to automatically group bubbles when zooming in or out"
+            linkTo="/593-customize-bubble-map-with-folium"
+          />
         </Row>
       </Container>
 
@@ -168,7 +178,7 @@ export default function BubbleMap() {
       <Spacing />
 
       <Container>
-        <h2 id="Basemap">Best bubble map examples</h2>
+        <h2 id="Best examples">Best bubble map examples</h2>
         <p>
           The below examples show how to create <b>advanced bubble maps</b> with
           python using real life data.
