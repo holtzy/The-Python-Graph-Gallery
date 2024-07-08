@@ -515,7 +515,7 @@ export default function Matplotlibs() {
           <Col xs={12} md={4}>
             <Link to="/web-streamchart-with-matplotlib">
               <ChartImage
-                imgName={'web-streamchart-with-matplotlib'}
+                imgName={'web-streamchart-with-matplotlib-square'}
                 caption={'Bubble map with categorical palette'}
               />
             </Link>
