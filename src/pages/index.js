@@ -7,6 +7,7 @@ import Contact from '../components/Contact';
 import Spacing from '../components/Spacing';
 import { VoronoiImagePatchworkResponsive } from '../components/VoronoiImagePatchwork';
 import { Button, Col, Row } from 'react-bootstrap';
+import pypalettesGIF from '../../static/asset/pypalettes.gif';
 
 import {
   Matplotlib,
@@ -158,94 +159,41 @@ export default function Home() {
 
       <Spacing />
 
+      <Spacing />
+
       <div className="greySection">
         <Container>
           <br />
-          <h2 style={{ borderBottom: 'none' }}>
-            Python Graphing with State-of-the-Art Libraries
-          </h2>
+          <h2 style={{ borderBottom: 'none' }}>Palette color finder</h2>
           <p>
-            The python graph gallery relies on the <b>latest</b> and most{' '}
-            <b>powerful</b> charting libraries.
+            {' '}
+            Selecting <b>optimal chart colors</b> can be challenging and
+            time-intensive. The <a>pypalettes</a> library simplifies this
+            process by providing access to over <b>2,500 color palettes</b> with
+            a single line of code.{' '}
+          </p>{' '}
+          <p>
+            {' '}
+            Additionally, the Python Graph Gallery features a{' '}
+            <a href="/color-palette-finder">dedicated page</a> where you can
+            <b>browse all these palettes</b> and preview their appearance on
+            your charts.{' '}
           </p>
-          <Row>
-            <Col xs={12} md={6}>
-              <h3>
-                <Matplotlib />
-                Matplotlib
-              </h3>
-              <p>
-                The <b>foundation</b> of Python visualization. Offers a wide
-                array of customizable 2D plots and an{' '}
-                <b>extensive set of tools</b> for creating intricate figures and
-                charts.
-              </p>
-              <Link href="/matplotlib">Tutorial</Link>
-              <br />
-            </Col>
-            <Col xs={12} md={6}>
-              <h3>
-                <Seaborn />
-                Seaborn
-              </h3>
-              <p>
-                Built atop Matplotlib, Seaborn <b>elevates</b> data
-                visualization by providing a higher-level interface and stunning
-                default themes.
-              </p>
-              <Link href="/seaborn">Tutorial</Link>
-              <br />
-            </Col>
-            <Col xs={12} md={6}>
-              <h3>
-                <Pandas />
-                Pandas
-              </h3>
-              <p>
-                Beyond its powerful <b>data manipulation</b> capabilities,
-                Pandas offers convenient plotting methods, enabling users to
-                visualize data directly from DataFrame and Series objects.
-              </p>
-              <Link href="/pandas">Tutorial</Link>
-              <br />
-            </Col>
-            <Col xs={12} md={6}>
-              <h3>
-                <Plotly />
-                Plotly
-              </h3>
-              <p>
-                Delivering <b>interactive</b> and browser-based visualizations,
-                Plotly allows users to craft visually captivating charts,
-                bridging the gap between static graphs and{' '}
-                <b>web-based interactivity</b>.
-              </p>
-              <Link href="/plotly">Tutorial</Link>
-              <br />
-            </Col>
-            <Col xs={12} md={6}>
-              <h3>
-                <Plotnine />
-                Plotnine
-              </h3>
-              <p>
-                Plotnine is a Python library for creating statistical
-                visualizations with a simple <b>grammar of graphics</b>{' '}
-                interface, inspired by{' '}
-                <a href="https://r-graph-gallery.com/ggplot2-package.html">
-                  ggplot2
-                </a>{' '}
-                in R.
-              </p>
-              <Link href="/plotnine">Tutorial</Link>
-              <br />
-            </Col>
-          </Row>
+          <a href="/color-palette-finder">
+            <img
+              src={pypalettesGIF}
+              alt="Color palette finder demo"
+              style={{ maxWidth: '900px', width: '100%' }}
+            />
+          </a>
           <br />
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <Link href="/best-dataviz-packages">
-              <Button size="lg" style={{ borderWidth: 1, marginLeft: 0 }}>
-                Check the full list
+            <Link href="/color-palette-finder">
+              <Button
+                size="lg"
+                style={{ borderWidth: 1, marginLeft: 0, marginTop: 10 }}
+              >
+                Use the palette finder
               </Button>
             </Link>
           </div>
@@ -253,6 +201,101 @@ export default function Home() {
           <br />
         </Container>
       </div>
+
+      <Spacing />
+
+      <Spacing />
+
+      <Container>
+        <br />
+        <h2 style={{ borderBottom: 'none' }}>
+          Python Graphing with State-of-the-Art Libraries
+        </h2>
+        <p>
+          The python graph gallery relies on the <b>latest</b> and most{' '}
+          <b>powerful</b> charting libraries.
+        </p>
+        <Row>
+          <Col xs={12} md={6}>
+            <h3>
+              <Matplotlib />
+              Matplotlib
+            </h3>
+            <p>
+              The <b>foundation</b> of Python visualization. Offers a wide array
+              of customizable 2D plots and an <b>extensive set of tools</b> for
+              creating intricate figures and charts.
+            </p>
+            <Link href="/matplotlib">Tutorial</Link>
+            <br />
+          </Col>
+          <Col xs={12} md={6}>
+            <h3>
+              <Seaborn />
+              Seaborn
+            </h3>
+            <p>
+              Built atop Matplotlib, Seaborn <b>elevates</b> data visualization
+              by providing a higher-level interface and stunning default themes.
+            </p>
+            <Link href="/seaborn">Tutorial</Link>
+            <br />
+          </Col>
+          <Col xs={12} md={6}>
+            <h3>
+              <Pandas />
+              Pandas
+            </h3>
+            <p>
+              Beyond its powerful <b>data manipulation</b> capabilities, Pandas
+              offers convenient plotting methods, enabling users to visualize
+              data directly from DataFrame and Series objects.
+            </p>
+            <Link href="/pandas">Tutorial</Link>
+            <br />
+          </Col>
+          <Col xs={12} md={6}>
+            <h3>
+              <Plotly />
+              Plotly
+            </h3>
+            <p>
+              Delivering <b>interactive</b> and browser-based visualizations,
+              Plotly allows users to craft visually captivating charts, bridging
+              the gap between static graphs and <b>web-based interactivity</b>.
+            </p>
+            <Link href="/plotly">Tutorial</Link>
+            <br />
+          </Col>
+          <Col xs={12} md={6}>
+            <h3>
+              <Plotnine />
+              Plotnine
+            </h3>
+            <p>
+              Plotnine is a Python library for creating statistical
+              visualizations with a simple <b>grammar of graphics</b> interface,
+              inspired by{' '}
+              <a href="https://r-graph-gallery.com/ggplot2-package.html">
+                ggplot2
+              </a>{' '}
+              in R.
+            </p>
+            <Link href="/plotnine">Tutorial</Link>
+            <br />
+          </Col>
+        </Row>
+        <br />
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <Link href="/best-dataviz-packages">
+            <Button size="lg" style={{ borderWidth: 1, marginLeft: 0 }}>
+              Check the full list
+            </Button>
+          </Link>
+        </div>
+        <br />
+        <br />
+      </Container>
       <Spacing />
 
       <Contact />
