@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
+import pypalettesGIF from '../../static/asset/pypalettes.gif';
 import { Matplotlib } from '../components/MiscellaneousLogos';
 import { Col, ToggleButton } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
@@ -456,6 +457,93 @@ export default function Matplotlibs() {
           <br />
         </Container>
       </div>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Colors">
+          <Matplotlib />
+          Customize colors
+        </h2>
+        <p>
+          <a href="/python-colors">Colors</a> are probably one the{' '}
+          <b>most important aspects</b> of your charts. But{' '}
+          <a href="/color-palette-finder">finding the right color</a> can be
+          quite hard.
+        </p>
+        <Row>
+          <Col xs={12} md={4}>
+            <Link to="/web-map-with-custom-legend">
+              <ChartImage
+                imgName={'web-map-with-custom-legend'}
+                caption={'Choropleth map with continuous palette'}
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to="/web-stacked-area-with-inflexion-arrows">
+              <ChartImage
+                imgName={'web-stacked-area-with-inflexion-arrows'}
+                caption={'Stacked area chart with categorical palette'}
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to="/591-arrows-with-inflexion-point">
+              <ChartImage
+                imgName={'591-arrows-with-inflexion-point-2'}
+                caption={'Bubble map with categorical palette'}
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to="/web-stacked-line-chart-with-labels">
+              <ChartImage
+                imgName={'web-stacked-line-chart-with-labels'}
+                caption={'Stacked area chart with continuous palette'}
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to="/532-customizing-circular-barplot-in-matplotlib">
+              <ChartImage
+                imgName={'532-episode1-each-line-anakin'}
+                caption={'Circular barplot with custom palette'}
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to="/web-streamchart-with-matplotlib">
+              <ChartImage
+                imgName={'web-streamchart-with-matplotlib-square'}
+                caption={'Bubble map with categorical palette'}
+              />
+            </Link>
+          </Col>
+        </Row>
+        <Link to="/python-colors">
+          <Button size="md">Learn more about colors</Button>
+        </Link>
+        <br />
+        <br />
+        <p>
+          Use the <a href="/color-palette-finder">color palette finder</a> to
+          select the right chart colors. It's powered by the{' '}
+          <a href="/introduction-to-pypalettes">PyPalettes</a> library for{' '}
+          <b>easy color customization</b>.
+        </p>
+
+        <a href="/color-palette-finder">
+          <img
+            src={pypalettesGIF}
+            alt="Color palette finder demo"
+            style={{ maxWidth: '900px', width: '100%' }}
+          />
+        </a>
+        <Link to="/color-palette-finder">
+          <Button size="md">Discover palettes</Button>
+        </Link>
+      </Container>
 
       <Spacing />
 
