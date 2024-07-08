@@ -122,6 +122,16 @@ export default function BubbleMap() {
             caption="How to read a geoJson file with geopandas and transform it to a geodataframe."
             linkTo="/312-add-markers-on-folium-map"
           />
+          <ChartImageContainer
+            imgName="593-customize-bubble-map-with-folium-1"
+            caption="Customize color, transparency and size of bubbles in folium bubble maps"
+            linkTo="/593-customize-bubble-map-with-folium"
+          />
+          <ChartImageContainer
+            imgName="593-customize-bubble-map-with-folium-2"
+            caption="How to automatically group bubbles when zooming in or out"
+            linkTo="/593-customize-bubble-map-with-folium"
+          />
         </Row>
       </Container>
 
