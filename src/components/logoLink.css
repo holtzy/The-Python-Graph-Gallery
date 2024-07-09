@@ -1,0 +1,4 @@
+.disable-lib {
+  pointer-events: none;
+  filter: grayscale(1);
+}
