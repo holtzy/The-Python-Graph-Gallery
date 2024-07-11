@@ -214,7 +214,7 @@ export default function BestPackages() {
       />
 
       <Container>
-        <h2 id="Quick">Core packages</h2>
+        <h2 id="Core">Core packages</h2>
         <p>
           There is only a few <b>core</b> packages in python when it comes to
           data visualization. Most other packages are actually{' '}
@@ -239,7 +239,7 @@ export default function BestPackages() {
       <br />
 
       <Container>
-        <h2 id="Quick">Matplotlib extensions</h2>
+        <h2 id="Matplotlib extension">Matplotlib extensions</h2>
         <p>
           Matplotlib extensions are <b>specialized packages</b> that build upon
           the core functionality of Matplotlib. These extensions provide{' '}
@@ -263,7 +263,7 @@ export default function BestPackages() {
       <br />
 
       <Container>
-        <h2 id="Quick">Geospatial packages</h2>
+        <h2 id="Geospatial">Geospatial packages</h2>
         <p>
           Geospatial packages in Python are designed to handle and visualize{' '}
           <b>geographical data</b>. These packages offer tools for{' '}
@@ -312,7 +312,7 @@ export default function BestPackages() {
       <br />
 
       <Container>
-        <h2 id="Interactivity">Specific chart types</h2>
+        <h2 id="Chart type">Specific chart types</h2>
         <p>
           Some Python packages are designed to excel at creating{' '}
           <b>specific types of charts or visualizations</b>. These specialized
@@ -337,7 +337,7 @@ export default function BestPackages() {
       <br />
 
       <Container>
-        <h2 id="Interactivity">Tables</h2>
+        <h2 id="Table">Tables</h2>
         <p>
           Table visualization packages in Python provide tools for creating{' '}
           <b>attractive and informative tables</b> to display your data. These

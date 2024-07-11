@@ -346,7 +346,7 @@ export default function Plotlys() {
         </p>
         <div className="mx-auto">
           <iframe
-            src="/interactiveCharts/parallel-coordinate-plot-plotly"
+            src="/interactiveCharts/parallel-coordinate-plot-plotly.html"
             title="parallel coordinate chart with plotly"
             style={{ border: 'none', width: '800px', height: '500px' }}
           ></iframe>
@@ -387,7 +387,7 @@ y = [2.2, 13.3, 4.4, 55.3, 52.1]
 fig = go.Figure()
 
 # Add the scatter trace
-fig.add_trace(go.Scatter( 
+fig.add_trace(go.Scatter(
     x=x, # Variable in the x-axis
     y=y, # Variable in the y-axis
     mode='markers', # This explicitly states that we want our observations to be represented by points
@@ -417,8 +417,8 @@ values = [15, 22, 18, 12, 28]
 
 # Plot
 fig = px.bar(
-  x=categories, 
-  y=values, 
+  x=categories,
+  y=values,
 )
 
 fig.show()
@@ -436,8 +436,8 @@ fig = go.Figure(data=[go.Bar(x=categories, y=values)])
 
 # Update layout
 fig.update_layout(
-  title="Simple Bar Chart", 
-  xaxis_title="Categories", 
+  title="Simple Bar Chart",
+  xaxis_title="Categories",
   yaxis_title="Values")
 
 
