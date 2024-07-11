@@ -53,18 +53,15 @@ export default function Cartogram() {
           <code>non-contiguous cartogram</code> that preserves shape but change
           size. And the good news is that we have a tuto on the Gallery!
         </p>
-        <Row>
-          <Col xs={12} md={12}>
-            <Link to={'/592-non-contiguous-cartogram-in-python'}>
-              <ChartImage
-                imgName={'592-non-contiguous-cartogram-in-python'}
-                caption={
-                  'How to create a non-contiguous cartogram in Python using geoplot and geopandas'
-                }
-              />
-            </Link>
-          </Col>
-        </Row>
+
+        <br />
+
+        <Link to={'/592-non-contiguous-cartogram-in-python'}>
+          <img
+            src="/graph/592-non-contiguous-cartogram-in-python.png"
+            width="100%"
+          />
+        </Link>
       </Container>
 
       <Spacing />
