@@ -43,6 +43,7 @@ export const Head = () => (
   <SEO
     title="Python Boxplot Gallery | Dozens of examples with code"
     seoDescription="A collection of boxplot examples made with Python, coming with explanation and reproducible code"
+    isRaptiveEnabled={false}
   />
 );
 
