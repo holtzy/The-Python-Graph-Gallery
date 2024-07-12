@@ -14,6 +14,7 @@ import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { Button } from 'react-bootstrap';
 import { SEO } from '../components/SEO';
+import FunctionExploration from '../components/FunctionExploration';
 
 const chartDescription =
   "<p><code>Seaborn</code> is a python graphic library built on top of <a href='https://python-graph-gallery.com/matplotlib'>matplotlib</a>. It allows to make your charts prettier with less code. This page provides general seaborn tips. Visit individual chart sections if you need a specific type of plot. Note that most of the <a href='https://python-graph-gallery.com/matplotlib'>matplotlib customization options</a> also work for <code>seaborn</code>.</p > ";
@@ -107,19 +108,63 @@ export default function SeabornLib() {
 
       <Spacing />
 
-      <Container>
-        <h2 id="Main functions">
-          🧐 Main <code>seaborn</code> functions
-        </h2>
-        <p>
-          Here is an overview of the most common <code>seaborn</code> functions.
-          It provides a glimpse of they're made for, what are their parameters
-          and links to their official doc.
-        </p>
-        <p>
-          <code>Todo</code> 😞
-        </p>
-      </Container>
+      <div className="greySection">
+        <Container>
+          <h2 id="Main functions">
+            🧐 Main <code>seaborn</code> functions
+          </h2>
+          <p>
+            <code>Seaborn</code> is a wrapper of{' '}
+            <a href="/matplotlib">matplotlib</a>, meaning that when you call a
+            function in seaborn, it calls one or multiple matplotlib functions
+            under the hood.
+          </p>
+          <p>
+            Here is an overview of the <b>most common</b> <code>seaborn</code>{' '}
+            functions. It provides a glimpse of they're made for, what are their
+            parameters and links to their official doc.
+          </p>
+          <p>
+            <ul>
+              <li>
+                <code>relplot()</code> - High-level interface for creating
+                scatter and line plots.
+              </li>
+              <li>
+                <code>scatterplot()</code> - For creating scatter plots.
+              </li>
+              <li>
+                <code>lineplot()</code> - For creating line plots.
+              </li>
+              <li>
+                <code>displot()</code> - For creating distribution plots,
+                including histograms and KDE.
+              </li>
+              <li>
+                <code>histplot()</code> - For creating histograms.
+              </li>
+              <li>
+                <code>boxplot()</code> - For creating box plots.
+              </li>
+              <li>
+                <code>violinplot()</code> - For creating violin plots.
+              </li>
+              <li>
+                <code>heatmap()</code> - For creating heatmaps.
+              </li>
+              <li>
+                <code>pairplot()</code> - For creating a grid of scatter plots
+                for pairwise relationships.
+              </li>
+              <li>
+                <code>catplot()</code> - High-level interface for creating
+                various categorical plots.
+              </li>
+            </ul>
+          </p>
+          <br />
+        </Container>
+      </div>
 
       <Spacing />
 

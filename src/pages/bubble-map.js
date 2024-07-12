@@ -48,11 +48,11 @@ export default function BubbleMap() {
       <Spacing />
 
       <Container>
-        <h2 id="Geopandas & Geoplot">
+        <h2 id="Geoplot & Cartopy">
           <code>GeoPlot</code> & <code>Cartopy</code>
         </h2>
         <p>
-          <code>GeoPlot</code> is an extension of <code>Caryopy</code> and{' '}
+          <code>GeoPlot</code> is an extension of <code>Cartopy</code> and{' '}
           <a href="/matplotlib">Matplotlib</a> to create maps with minimal
           efforts.
         </p>
