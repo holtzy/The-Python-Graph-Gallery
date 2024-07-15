@@ -103,10 +103,10 @@ const logoMatplotExtension = [
 
 const logoMaps = [
   {
-    imgPath: FoliumImg,
-    url: '/288-map-background-with-folium',
-    altText: 'Folium logo',
-    name: 'Folium',
+    imgPath: GeoplotImg,
+    url: '/map-read-geojson-with-python-geopandas',
+    altText: 'Geoplot logo',
+    name: 'Geoplot',
     height: '115px',
   },
   {
@@ -117,17 +117,17 @@ const logoMaps = [
     height: '115px',
   },
   {
-    imgPath: GeoplotImg,
-    url: '/map-read-geojson-with-python-geopandas',
-    altText: 'Geoplot logo',
-    name: 'Geoplot',
-    height: '115px',
-  },
-  {
     imgPath: MatplotlibImg,
     url: '/281-basic-map-with-basemap',
     altText: 'Matplotlib logo',
     name: 'Basemap',
+  },
+  {
+    imgPath: FoliumImg,
+    url: '/288-map-background-with-folium',
+    altText: 'Folium logo',
+    name: 'Folium',
+    height: '115px',
   },
 ];
 

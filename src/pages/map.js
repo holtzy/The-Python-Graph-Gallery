@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
+import ChartImage from '../components/ChartImage';
 
 import Spacing from '../components/Spacing';
 import { Button } from 'react-bootstrap';
@@ -39,6 +40,14 @@ export default function BackgroundMap() {
             A map is basically a set of polygons displayed on a 2 dimensional
             canvas. There are two problems you need to solve when building one:
           </p>
+          <div style={{ maxWidth: '800px', margin: '0 auto', padding: 30 }}>
+            <ChartImage
+              imgName={'schema-spatial-plot'}
+              caption={
+                'Anatomy of a matplotlib chart: all the basic vocabulary you need to know to understand the documentation properly'
+              }
+            />
+          </div>
           <ul>
             <li>
               <u>Where to find polygon coordinates</u>. It can come from:
@@ -88,20 +97,29 @@ export default function BackgroundMap() {
       <Spacing />
 
       <Container>
-        <h2 id="Geopandas & Geoplot">
-          <code>Geopandas</code> and <code>GeoPlot</code>
+        <h2 id="Geoplot & Cartopy">
+          <code>GeoPlot</code> & <code>Cartopy</code>
         </h2>
         <p>
-          <code>Seaborn</code> is another great alternative to build an area
-          chart with <code>python</code>. The below examples show how to start
-          basic, apply usual customization, and use the small multiple technique
-          for when you have several groups to compare.
+          <code>GeoPlot</code> is an extension of <code>Cartopy</code> and{' '}
+          <a href="/matplotlib">Matplotlib</a> to create maps with minimal
+          efforts.
         </p>
         <Row>
           <ChartImageContainer
-            imgName="map-read-geojson-with-python-geopandas"
-            caption="How to read a geoJson file with geopandas and transform it to a geodataframe."
-            linkTo="/map-read-geojson-with-python-geopandas"
+            imgName="web-bubble-map-with-arrows-1"
+            caption="Initiate a background map"
+            linkTo="/web-bubble-map-with-arrows"
+          />
+          <ChartImageContainer
+            imgName="web-bubble-map-with-arrows-2"
+            caption="Add bubble on top of a background map"
+            linkTo="/web-bubble-map-with-arrows"
+          />
+          <ChartImageContainer
+            imgName="web-bubble-map-with-arrows-3"
+            caption="Customize style and colors in bubble maps"
+            linkTo="/web-bubble-map-with-arrows"
           />
         </Row>
       </Container>

@@ -118,7 +118,7 @@ export default function Colors({ location }) {
           <a href="https://github.com/JosephBARBIERDARNAL/pypalettes">repo</a>{' '}
           to help spread the word!
         </p>
-        <a href="https://github.com/JosephBARBIERDARNAL/pypalettes">
+        <a href="/introduction-to-pypalettes">
           <Button size="sm">Official Doc</Button>
         </a>
 
