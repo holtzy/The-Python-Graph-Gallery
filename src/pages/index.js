@@ -182,6 +182,8 @@ export default function Home() {
             />
           </a>
           <br />
+          <br />
+          <br />
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <Link href="/color-palette-finder">
               <Button
