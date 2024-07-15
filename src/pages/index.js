@@ -19,6 +19,7 @@ import {
 import { Link } from 'gatsby';
 import { SEO } from '../components/SEO';
 import SubscribeButton from '../components/SubscribeButton';
+import Parallax from '../components/Parallax';
 
 const siteDescription = (
   <>
@@ -94,7 +95,6 @@ export default function Home() {
         title="The Python Graph Gallery"
         description={siteDescription}
       />
-
       <div className="greySection">
         <Container>
           <br />
@@ -127,7 +127,6 @@ export default function Home() {
           <ChartFamilySection chartFamily="general" />
         </Container>
       </div>
-
       <Container>
         <br />
         <h2 style={{ borderBottom: 'none' }}>
@@ -154,13 +153,9 @@ export default function Home() {
         <br />
         <br />
       </Container>
-
       <VoronoiImagePatchworkResponsive />
-
       <Spacing />
-
       <Spacing />
-
       <div className="greySection">
         <Container>
           <br />
@@ -201,11 +196,8 @@ export default function Home() {
           <br />
         </Container>
       </div>
-
       <Spacing />
-
       <Spacing />
-
       <Container>
         <br />
         <h2 style={{ borderBottom: 'none' }}>
@@ -297,9 +289,41 @@ export default function Home() {
         <br />
       </Container>
       <Spacing />
+      <Parallax
+        imgLink="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/asset/dataviz-inspiration-overview.png?raw=true"
+        height={300}
+        opacity={0.3}
+      >
+        <div
+          style={{
+            position: 'relative',
+            height: '100%',
+            width: '100%',
+            backgroundColor: 'transparent',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div style={{ maxWidth: 600, textAlign: 'center' }}>
+            <h2 className="contactTitle">Love beautiful charts?</h2>
+            <p>
+              The Python Graph Gallery complements{' '}
+              <a href="https://www.dataviz-inspiration.com" target="_blank">
+                dataviz-Inspiration.com
+              </a>
+              , a website featuring hundreds of my favorite data visualization
+              projects.
+            </p>
+            <a href="https://www.dataviz-inspiration.com" target="_blank">
+              <Button size="md">Get some inspiration</Button>
+            </a>
+          </div>
+        </div>
+      </Parallax>
 
+      <Spacing />
       <Contact />
-
       <Spacing />
     </Layout>
   );
