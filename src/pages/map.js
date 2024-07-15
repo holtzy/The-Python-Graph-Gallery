@@ -154,11 +154,11 @@ export default function BackgroundMap() {
         <br />
         <p>
           <code>Folium</code> allows different types of background tiles. Here
-          is an example with a tile called <code>Stamen Toner</code>:
+          is an example with a tile called <code>Cartodb Dark Matter</code>:
         </p>
         <div className="mx-auto">
           <iframe
-            src="/interactiveCharts/288_basic_folium_map_toner.html"
+            src="/interactiveCharts/288_basic_folium_map_osm.html"
             title="Folium and customized tile"
             style={{ border: 'none', width: '800px', height: '300px' }}
           ></iframe>
