@@ -16,6 +16,7 @@ import Spacing from '../components/Spacing';
 import CartopyImg from '../../static/logo/Other/cartopy.png';
 import FoliumImg from '../../static/logo/Other/folium.png';
 import GeoplotImg from '../../static/logo/Other/geoplot.png';
+import GeopandasImg from '../../static/logo/Other/geopandas.png';
 import PypalettesImg from '../../static/logo/Other/pypalettes.png';
 import HighlighTextImg from '../../static/logo/Other/highlight_text.png';
 import FlexiTextImg from '../../static/logo/Other/flexitext.png';
@@ -102,6 +103,13 @@ const logoMatplotExtension = [
 ];
 
 const logoMaps = [
+  {
+    imgPath: GeopandasImg,
+    url: '/597-introduction-to-geopandas',
+    altText: 'Geopandas logo',
+    name: 'Geopandas',
+    height: '115px',
+  },
   {
     imgPath: GeoplotImg,
     url: '/map-read-geojson-with-python-geopandas',
