@@ -1,12 +1,13 @@
-import { Link } from "gatsby";
-import React, { useState } from "react";
-import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
-import ToggleButton from "react-bootstrap/ToggleButton";
-import { functionDescriptions } from "../util/functionDescriptions";
-import "./functionExploration.css";
+import { Link } from 'gatsby';
+import React, { useState } from 'react';
+import { functionDescriptions } from '../util/functionDescriptions';
+import { Button, Col, Row } from 'react-bootstrap';
+import ChartImage from './ChartImage';
+
+import './functionExploration.css';
 
 const capitalize = (s) => {
-  if (typeof s !== "string") return "";
+  if (typeof s !== 'string') return '';
   return s.charAt(0).toUpperCase() + s.slice(1);
 };
 
@@ -18,49 +19,73 @@ export default function FunctionExploration({ functionName }) {
   const [selectedParameter, setSelectedParameter] = useState(
     functionInfo.parameters[0].name
   );
-  const [someString, setSomeString] = useState("hello");
+
   const selectedParameterInfo = functionInfo.parameters.filter(
     (param) => param.name === selectedParameter
   )[0];
 
+  const argumentButtons = (
+    <div>
+      {functionInfo.parameters.map((item, i) => (
+        <Button
+          key={i}
+          value={item.name}
+          size="sm"
+          onClick={() => setSelectedParameter(item.name)}
+        >
+          {item.name}
+        </Button>
+      ))}
+    </div>
+  );
+
   return (
-    <>
-      <h2 id={capitalize(functionName + "()" + " details")}>
+    <div style={{ marginBottom: 70 }}>
+      <h2 id={capitalize(functionName + '()' + ' details')}>
         &#128270; <code>{functionName}</code> function parameters
         <a
-          style={{ marginLeft: "15px", fontSize: "14px" }}
+          style={{ marginLeft: '15px', fontSize: '14px' }}
           href={functionInfo.docUrl}
         >
           &rarr; see full doc
         </a>
       </h2>
 
-      <ToggleButtonGroup
-        type="radio"
-        size="sm"
-        name="functionParameter"
-        value={selectedParameter}
-        onChange={(value) => setSelectedParameter(value)}
+      <h3>&rarr; Description</h3>
+      <p>{functionInfo.description}</p>
+
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'start',
+          alignItems: 'baseline',
+          gap: 14,
+        }}
       >
-        {functionInfo.parameters.map((item, i) => (
-          <ToggleButton
-            key={i}
-            // variant="secondary"
-            className={"functionButton"}
-            id={`functionParameter-${item.name}`}
-            value={item.name}
-          >
-            {item.name}
-          </ToggleButton>
-        ))}
-      </ToggleButtonGroup>
-      <div>
-        <code>string</code>
-        <span>&rarr; {selectedParameterInfo.description}</span>
+        <h3 style={{ width: 'auto' }}>&rarr; Arguments</h3>
+        {argumentButtons}
       </div>
-      {/* <div style={{ paddingLeft: "6px", fontSize: "14px" }}><Link to={selectedParameterInfo.relatedChart}>check a chart using it</Link></div> */}
-      <br />
-      <br />
-    </>
+
+      <Row>
+        <Col md={8}>
+          <div style={{ fontSize: 16 }}>
+            <p className="little-pill">Description</p>
+            <p className="little-text">{selectedParameterInfo.description}</p>
+            <p className="little-pill">Type</p>
+            <p className="little-text">{selectedParameterInfo.type}</p>
+            <p className="little-pill">Code Example</p>
+            <div style={{ fontSize: 12, backgroundColor: 'white' }}>
+              {selectedParameterInfo.basicUsage}
+            </div>
+          </div>
+        </Col>
+        <Col md={4}>
+          <Link to={'/' + selectedParameterInfo.post}>
+            <ChartImage imgName={selectedParameterInfo.img} caption="TODO" />
+          </Link>
+        </Col>
+      </Row>
+    </div>
   );
 }

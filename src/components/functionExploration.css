@@ -1,15 +1,11 @@
-
-.functionButton {
-    border-width: 1px !important;
-    border-radius: 3px !important;
-    padding: 1px 7px;
+.little-pill {
+  margin: 0px;
+  padding: 0px;
+  color: grey;
+  font-size: 12px;
 }
 
-/* Hack for a bootstrap issue, which causes the !important on the .btn class to override 
-this :checked selector - this selector and css is copied from the bootstrap css, with !important
-appended to each rule to ensure that it overrides the .btn class */
-.btn-check:checked + .btn {
-color: var(--bs-btn-active-color) !important;
-background-color: var(--bs-btn-active-bg) !important;
-border-color: var(--bs-btn-active-border-color) !important;
+.little-text {
+  font-size: 16px;
+  line-height: 1.4;
 }
