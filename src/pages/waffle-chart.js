@@ -148,7 +148,7 @@ export default function Waffle() {
             linkTo="/web-waffle-with-small-multiples"
           />
           <ChartImageContainer
-            imgName="web-waffle-chart-as-share"
+            imgName="web-waffle-chart-as-share-square"
             caption="Horizontal waffle charts with custom fonts and colors"
             linkTo="/web-waffle-chart-as-share"
           />

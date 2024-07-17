@@ -13,7 +13,7 @@ export const listOfBestCharts = [
     title: 'Share of cereals used as animal feeds',
     description:
       'Breakdown by continent of the percentage of cereals used for animal feed.',
-    img: 'web-waffle-chart-as-share.png',
+    img: 'web-waffle-chart-as-share-square.png',
     alt: 'Waffle chart about cereals',
     author: 'Benjamin Nowak',
   },
