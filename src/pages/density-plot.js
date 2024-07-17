@@ -86,6 +86,11 @@ export default function DensityPlot() {
             linkTo="/70-basic-density-plot-with-seaborn"
           />
           <ChartImageContainer
+            imgName="70-basic-density-plot-with-seaborn-2"
+            caption="Cumulative version of the most basic density plot"
+            linkTo="/70-basic-density-plot-with-seaborn"
+          />
+          <ChartImageContainer
             imgName="71_Shaded_density_plot_Seaborn"
             caption="seaborn densty chart with filled area"
             linkTo="/71-density-plot-with-shade-seaborn"
