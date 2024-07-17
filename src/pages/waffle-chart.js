@@ -147,6 +147,11 @@ export default function Waffle() {
             caption="Small multiples of waffle charts with nice annotations"
             linkTo="/web-waffle-with-small-multiples"
           />
+          <ChartImageContainer
+            imgName="web-waffle-chart-as-share"
+            caption="Horizontal waffle charts with custom fonts and colors"
+            linkTo="/web-waffle-chart-as-share"
+          />
         </Row>
       </Container>
 
