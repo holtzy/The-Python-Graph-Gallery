@@ -14,6 +14,7 @@ import ChartImage from '../components/ChartImage';
 import FunctionExploration from '../components/FunctionExploration';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
+import { kdeplot } from '../functions/kdeplot';
 
 const chartDescription =
   "<p>Density plots allow you to visualize the <b>distribution of a numeric variable</b> for one or several groups. They are very well adapted for large datasets, as stated in <a href='https://data-to-viz.com'>data-to-viz.com</a>.<br><br>Note that <b>2 approaches</b> exist to build them in python: the first one consists of <i>computing a kernel density estimate</i>, and the second one involves building a <i>high resolution histogram</i>.</p>";
@@ -185,7 +186,7 @@ export default function DensityPlot() {
 
       <div className="greySection">
         <Container>
-          <FunctionExploration functionName={'kdeplot'} />
+          <FunctionExploration funDetails={kdeplot} />
         </Container>
       </div>
 

@@ -1,6 +1,5 @@
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
-import { functionDescriptions } from '../util/functionDescriptions';
 import { Button, Col, Row } from 'react-bootstrap';
 import ChartImage from './ChartImage';
 
@@ -11,22 +10,22 @@ const capitalize = (s) => {
   return s.charAt(0).toUpperCase() + s.slice(1);
 };
 
-export default function FunctionExploration({ functionName }) {
-  // Get the right function
-  const functionInfo = functionDescriptions[functionName];
-
-  // Get the right parameter
+export default function FunctionExploration({ funDetails }) {
   const [selectedParameter, setSelectedParameter] = useState(
-    functionInfo.parameters[0].name
+    funDetails.parameters[0].name
   );
 
-  const selectedParameterInfo = functionInfo.parameters.filter(
+  if (!funDetails) {
+    return null;
+  }
+
+  const selectedParameterInfo = funDetails.parameters.filter(
     (param) => param.name === selectedParameter
   )[0];
 
   const argumentButtons = (
     <div>
-      {functionInfo.parameters.map((item, i) => (
+      {funDetails.parameters.map((item, i) => (
         <Button
           key={i}
           value={item.name}
@@ -41,18 +40,18 @@ export default function FunctionExploration({ functionName }) {
 
   return (
     <div style={{ marginBottom: 70 }}>
-      <h2 id={capitalize(functionName + '()' + ' details')}>
-        &#128270; <code>{functionName}</code> function parameters
+      <h2 id={capitalize(funDetails.name + '()' + ' details')}>
+        &#128270; <code>{funDetails.name}</code> function parameters
         <a
           style={{ marginLeft: '15px', fontSize: '14px' }}
-          href={functionInfo.docUrl}
+          href={funDetails.docUrl}
         >
           &rarr; see full doc
         </a>
       </h2>
 
       <h3>&rarr; Description</h3>
-      <p>{functionInfo.description}</p>
+      <p>{funDetails.description}</p>
 
       <div
         style={{
@@ -72,8 +71,10 @@ export default function FunctionExploration({ functionName }) {
           <div style={{ fontSize: 16 }}>
             <p className="little-pill">Description</p>
             <p className="little-text">{selectedParameterInfo.description}</p>
-            <p className="little-pill">Type</p>
+
+            <p className="little-pill">Possible values</p>
             <p className="little-text">{selectedParameterInfo.type}</p>
+
             <p className="little-pill">Code Example</p>
             <div style={{ fontSize: 12, backgroundColor: 'white' }}>
               {selectedParameterInfo.basicUsage}
