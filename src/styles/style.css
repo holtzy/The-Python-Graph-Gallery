@@ -35,8 +35,8 @@ html {
   color: #a53253;
 }
 
-/* 
-FONT from https://gwfh.mranftl.com/fonts/bitter?subsets=latin 
+/*
+FONT from https://gwfh.mranftl.com/fonts/bitter?subsets=latin
 gatsby tutorial: https://www.gatsbyjs.com/docs/how-to/styling/using-local-fonts/
 */
 /* roboto-regular - latin */
@@ -229,6 +229,12 @@ pre.input {
 .btn:active,
 .btn:focus,
 .btn:hover {
+  background-color: var(--python-gallery);
+  border-color: var(--python-gallery);
+  color: white;
+}
+
+.isButtonSelected {
   background-color: var(--python-gallery);
   border-color: var(--python-gallery);
   color: white;

@@ -11,17 +11,13 @@ const capitalize = (s) => {
 };
 
 export default function FunctionExploration({ funDetails }) {
-  const [selectedParameter, setSelectedParameter] = useState(
-    funDetails.parameters[0].name
-  );
+  const [selectedParameter, setSelectedParameter] = useState(0);
 
   if (!funDetails) {
     return null;
   }
 
-  const selectedParameterInfo = funDetails.parameters.filter(
-    (param) => param.name === selectedParameter
-  )[0];
+  const selectedParameterInfo = funDetails.parameters[selectedParameter];
 
   const argumentButtons = (
     <div>
@@ -30,7 +26,8 @@ export default function FunctionExploration({ funDetails }) {
           key={i}
           value={item.name}
           size="sm"
-          onClick={() => setSelectedParameter(item.name)}
+          onClick={() => setSelectedParameter(i)}
+          className={selectedParameter === i ? 'isButtonSelected' : ''}
         >
           {item.name}
         </Button>
@@ -69,21 +66,31 @@ export default function FunctionExploration({ funDetails }) {
       <Row>
         <Col md={8}>
           <div style={{ fontSize: 16 }}>
-            <p className="little-pill">Description</p>
+            <p className="argumentSectionTitle">Description</p>
             <p className="little-text">{selectedParameterInfo.description}</p>
 
-            <p className="little-pill">Possible values</p>
-            <p className="little-text">{selectedParameterInfo.type}</p>
+            <p className="argumentSectionTitle">
+              Possible values &rarr; {'  '}
+              <span className="parameterTypePill">
+                {selectedParameterInfo.type}
+              </span>
+            </p>
+            <p className="little-text">{selectedParameterInfo.howToUse}</p>
 
-            <p className="little-pill">Code Example</p>
+            <p className="argumentSectionTitle">Code Example</p>
             <div style={{ fontSize: 12, backgroundColor: 'white' }}>
               {selectedParameterInfo.basicUsage}
             </div>
           </div>
         </Col>
+
         <Col md={4}>
+          <br />
           <Link to={'/' + selectedParameterInfo.post}>
-            <ChartImage imgName={selectedParameterInfo.img} caption="TODO" />
+            <ChartImage
+              imgName={selectedParameterInfo.img}
+              caption={'More about the ' + funDetails.name + ' function.'}
+            />
           </Link>
         </Col>
       </Row>

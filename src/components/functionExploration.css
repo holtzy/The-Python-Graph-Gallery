@@ -1,8 +1,21 @@
-.little-pill {
-  margin: 0px;
+.argumentSectionTitle {
+  margin-top: 20px;
+  margin-bottom: 0px;
   padding: 0px;
   color: grey;
   font-size: 12px;
+}
+
+.parameterTypePill {
+  color: grey;
+  font-size: 12px;
+  border: solid 1px grey;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  letter-spacing: 0.01rem;
 }
 
 .little-text {

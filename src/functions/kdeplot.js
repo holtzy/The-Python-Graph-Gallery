@@ -1,6 +1,7 @@
 import React from 'react';
 import CodeChunk from '../components/CodeChunk';
 
+const name = 'kdeplot';
 const description = (
   <>
     <p>
@@ -15,34 +16,51 @@ const description = (
 
 const docUrl = 'https://seaborn.pydata.org/generated/seaborn.kdeplot.html';
 
-const basicUsage = (
-  <CodeChunk>
-    {`
-# library
-import seaborn as sns
-
-# Data
-df = sns.load_dataset('iris')
-
-# Default density plot
-sns.kdeplot(data=df, x='sepal_width')
-`.trim()}
-  </CodeChunk>
-);
-
 //
 //
 //
 //
 //
 const param1 = {
-  name: 'fill',
+  name: 'color',
   description: (
     <p>
-      <code>fill</code> controls the color under the curve. You can provide a
-      name, some rgb, some hsl.
+      Adjusts the shape's color, affecting both its outline and the area beneath
+      it. See <code>fill</code> to draw the area or not.
     </p>
   ),
+  basicUsage: (
+    <CodeChunk hasWhiteBackground>
+      {`
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.kdeplot(data=df, x='sepal_width', color="purple")
+`.trim()}
+    </CodeChunk>
+  ),
+  type: 'string',
+  howToUse: (
+    <p>
+      Can be a color name, a Hex code, or an RGB value. Read{' '}
+      <a href="https://python-graph-gallery.com/python-colors/">this post</a> to
+      learn more.
+    </p>
+  ),
+  img: '71_Shaded_density_plot_Seaborn',
+  post: '71-density-plot-with-shade-seaborn',
+};
+
+//
+//
+//
+//
+//
+const param2 = {
+  name: 'fill',
+  description: <p>Controls the color of the area under the curve. See</p>,
   basicUsage: (
     <CodeChunk hasWhiteBackground>
       {`
@@ -60,7 +78,7 @@ sns.kdeplot(data=df, x='sepal_width', color="purple")
 //
 //
 //
-const param2 = {
+const param3 = {
   name: 'bw_adjust',
   description: (
     <p>
@@ -85,7 +103,7 @@ sns.kdeplot(data=df, x='sepal_width', bw_adjust=0.2)
 //
 //
 //
-const param3 = {
+const param4 = {
   name: 'cumulative',
   description: (
     <p>
@@ -110,7 +128,7 @@ sns.kdeplot(data=df, x='sepal_width', cumulative=True)
 //
 //
 //
-const param4 = {
+const param5 = {
   name: 'hue',
   description: (
     <p>
@@ -135,7 +153,7 @@ sns.kdeplot(data=df, x='sepal_width', hue='species')
 //
 //
 //
-const param5 = {
+const param6 = {
   name: 'multiple',
   description: (
     <p>Determines the method for displaying multiple subsets in a plot.</p>
@@ -173,8 +191,8 @@ sns.kdeplot(data=df, x='sepal_width', hue='species', multiple='stack')
 };
 
 export const kdeplot = {
+  name,
   description,
   docUrl,
-  basicUsage,
   parameters: [param1, param2, param3, param4, param5],
 };
