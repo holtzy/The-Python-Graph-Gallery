@@ -29,18 +29,14 @@ const param1 = {
       it. See <code>fill</code> to draw the area or not.
     </p>
   ),
-  basicUsage: (
-    <CodeChunk hasWhiteBackground>
-      {`
+  basicUsage: `
 # Library & Dataset
 import seaborn as sns
 df = sns.load_dataset('iris')
 
 # Plot
 sns.kdeplot(data=df, x='sepal_width', color="purple")
-`.trim()}
-    </CodeChunk>
-  ),
+`.trim(),
   type: 'string',
   howToUse: (
     <p>
@@ -60,15 +56,27 @@ sns.kdeplot(data=df, x='sepal_width', color="purple")
 //
 const param2 = {
   name: 'fill',
-  description: <p>Controls the color of the area under the curve. See</p>,
-  basicUsage: (
-    <CodeChunk hasWhiteBackground>
-      {`
-sns.kdeplot(data=df, x='sepal_width', color="purple")
-`.trim()}
-    </CodeChunk>
+  description: (
+    <p>
+      Control wether or not the area under the curve is filled with color. See
+      the <code>color</code> argument to control its color.
+    </p>
   ),
-  type: <p>string</p>,
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.kdeplot(data=df, x='sepal_width', color="purple")
+`.trim(),
+  type: 'boolean',
+  howToUse: (
+    <p>
+      Use <code>true</code> to fill the area, <code>false</code> to use a line
+      only.
+    </p>
+  ),
   img: '71_Shaded_density_plot_Seaborn',
   post: '71-density-plot-with-shade-seaborn',
 };
@@ -82,18 +90,26 @@ const param3 = {
   name: 'bw_adjust',
   description: (
     <p>
-      <code>bw_adjust</code> determines the smoothness of the graph. The higher
-      the value, the smoother the graph.
+      Determines the smoothness of the graph. It basically tweaks the kernel
+      density estimation model.
     </p>
   ),
-  basicUsage: (
-    <CodeChunk hasWhiteBackground>
-      {`
-sns.kdeplot(data=df, x='sepal_width', bw_adjust=0.2)
-`.trim()}
-    </CodeChunk>
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.kdeplot(data=df, x='sepal_width', color="purple")
+`.trim(),
+  type: 'number',
+  howToUse: (
+    <p>
+      A value close to <code>0</code> produces a very smooth graph, while a
+      value close to <code>1</code>
+      reveals more detailed variable density.
+    </p>
   ),
-  type: <p>float</p>,
   img: '73_Control_bandwidth_densityplot_Seaborn2',
   post: '73-control-bandwidth-of-seaborn-density-plot',
 };
@@ -103,6 +119,7 @@ sns.kdeplot(data=df, x='sepal_width', bw_adjust=0.2)
 //
 //
 //
+// JOSEPH TODO
 const param4 = {
   name: 'cumulative',
   description: (
@@ -111,13 +128,14 @@ const param4 = {
       function should be estimated.
     </p>
   ),
-  basicUsage: (
-    <CodeChunk hasWhiteBackground>
-      {`
-sns.kdeplot(data=df, x='sepal_width', cumulative=True)
-`.trim()}
-    </CodeChunk>
-  ),
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.kdeplot(data=df, x='sepal_width', color="purple")
+`.trim(),
   type: <p>bool</p>,
   img: '70-basic-density-plot-with-seaborn-2',
   post: '70-basic-density-plot-with-seaborn',
@@ -128,6 +146,7 @@ sns.kdeplot(data=df, x='sepal_width', cumulative=True)
 //
 //
 //
+// JODEPH TODO
 const param5 = {
   name: 'hue',
   description: (
@@ -136,13 +155,9 @@ const param5 = {
       into its categories.
     </p>
   ),
-  basicUsage: (
-    <CodeChunk hasWhiteBackground>
-      {`
+  basicUsage: `
 sns.kdeplot(data=df, x='sepal_width', hue='species')
-`.trim()}
-    </CodeChunk>
-  ),
+`.trim(),
   type: <p>string</p>,
   img: '74_density_plot_multi_variables',
   post: '70-basic-density-plot-with-seaborn',
@@ -155,37 +170,38 @@ sns.kdeplot(data=df, x='sepal_width', hue='species')
 //
 const param6 = {
   name: 'multiple',
-  description: (
-    <p>Determines the method for displaying multiple subsets in a plot.</p>
-  ),
-  basicUsage: (
-    <CodeChunk hasWhiteBackground>
-      {`
-sns.kdeplot(data=df, x='sepal_width', hue='species', multiple='stack')
-`.trim()}
-    </CodeChunk>
-  ),
-  type: (
-    <p>
-      A string that can takes 3 values:
-      <ul>
-        <i>
-          <code>layer</code>&rarr; Default value. The density estimation can
-          overlap.
-        </i>
-        <br />
-        <i>
-          <code>stack</code>&rarr; The density estimates will be one on top of
-          the other to avoid overlaps.
-        </i>
-        <br />
-        <i>
-          <code>fill</code>&rarr; The entire graph will be filled in to show the
-          breakdown by category.
-        </i>
-      </ul>
-    </p>
-  ),
+  description: <p>Determines how to display multiple groups on the chart.</p>,
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.kdeplot(data=df, x='sepal_width', multiple="paramgoeshere")
+`.trim(),
+  type: 'string',
+  options: [
+    {
+      name: 'layer',
+      explanation: <p>Groups are overlapping each other</p>,
+      isDefault: true,
+      img: 'density-chart-multiple-groups-seaborn4',
+    },
+    {
+      name: 'stack',
+      explanation: <p>Groups are stacked on top of each other</p>,
+      isDefault: true,
+      img: 'density-chart-multiple-groups-seaborn4',
+    },
+    {
+      name: 'fill',
+      explanation: (
+        <p>entire graph will be filled in to show the breakdown by category.</p>
+      ),
+      isDefault: true,
+      img: 'density-chart-multiple-groups-seaborn4',
+    },
+  ],
   img: 'density-chart-multiple-groups-seaborn4',
   post: 'density-chart-multiple-groups-seaborn',
 };
@@ -194,5 +210,5 @@ export const kdeplot = {
   name,
   description,
   docUrl,
-  parameters: [param1, param2, param3, param4, param5],
+  parameters: [param1, param2, param3, param4, param5, param6],
 };

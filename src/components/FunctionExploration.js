@@ -4,6 +4,7 @@ import { Button, Col, Row } from 'react-bootstrap';
 import ChartImage from './ChartImage';
 
 import './functionExploration.css';
+import CodeChunk from './CodeChunk';
 
 const capitalize = (s) => {
   if (typeof s !== 'string') return '';
@@ -12,6 +13,7 @@ const capitalize = (s) => {
 
 export default function FunctionExploration({ funDetails }) {
   const [selectedParameter, setSelectedParameter] = useState(0);
+  const [selectedOpt, setSelectedOpt] = useState(0);
 
   if (!funDetails) {
     return null;
@@ -76,10 +78,35 @@ export default function FunctionExploration({ funDetails }) {
               </span>
             </p>
             <p className="little-text">{selectedParameterInfo.howToUse}</p>
+            {selectedParameterInfo.options && (
+              <>
+                <div
+                  style={{ display: 'flex', gap: 2, alignItems: 'baseline' }}
+                >
+                  {selectedParameterInfo.options.map((opt, i) => {
+                    return (
+                      <Button
+                        size="sm"
+                        className={i === selectedOpt ? 'isButtonSelected' : ''}
+                        onClick={() => setSelectedOpt(i)}
+                      >
+                        {opt.name}
+                      </Button>
+                    );
+                  })}
+                </div>
+                <p>{selectedParameterInfo.options[selectedOpt].explanation}</p>
+              </>
+            )}
 
             <p className="argumentSectionTitle">Code Example</p>
             <div style={{ fontSize: 12, backgroundColor: 'white' }}>
-              {selectedParameterInfo.basicUsage}
+              <CodeChunk hasWhiteBackground>
+                {selectedParameterInfo.basicUsage.replace(
+                  'paramgoeshere',
+                  selectedParameterInfo.options[selectedOpt].name
+                )}
+              </CodeChunk>
             </div>
           </div>
         </Col>
