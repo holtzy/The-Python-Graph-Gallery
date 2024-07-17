@@ -102,10 +102,12 @@ export default function FunctionExploration({ funDetails }) {
             <p className="argumentSectionTitle">Code Example</p>
             <div style={{ fontSize: 12, backgroundColor: 'white' }}>
               <CodeChunk hasWhiteBackground>
-                {selectedParameterInfo.basicUsage.replace(
-                  'paramgoeshere',
-                  selectedParameterInfo.options[selectedOpt].name
-                )}
+                {selectedParameterInfo.options
+                  ? selectedParameterInfo.basicUsage.replace(
+                      'paramgoeshere',
+                      selectedParameterInfo.options[selectedOpt].name
+                    )
+                  : selectedParameterInfo.basicUsage}
               </CodeChunk>
             </div>
           </div>
