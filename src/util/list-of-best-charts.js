@@ -1,5 +1,14 @@
 export const listOfBestCharts = [
   {
+    link: 'web-waffle-chart-for-time-series',
+    title: 'Share of cereals used as animal feeds',
+    description:
+      'Change in the number of storms by storm type between 2010 and 2022.',
+    img: 'web-waffle-chart-for-time-series.png',
+    alt: 'Waffle chart about storms frequency',
+    author: 'Muhammad Azhar',
+  },
+  {
     link: 'web-waffle-chart-as-share',
     title: 'Share of cereals used as animal feeds',
     description:
@@ -13,7 +22,7 @@ export const listOfBestCharts = [
     title: 'Earthquakes around the world',
     description:
       'Repartition of earthquakes around the world, with description of extensive description and annotations.',
-    img: 'web-bubble-map-with-arrows.png',
+    img: 'web-bubble-map-with-arrows-square.png',
     alt: 'Cartogram of Asia',
     author: 'Joseph Barbier',
   },

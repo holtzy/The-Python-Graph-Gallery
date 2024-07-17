@@ -152,6 +152,11 @@ export default function Waffle() {
             caption="Horizontal waffle charts with custom fonts and colors"
             linkTo="/web-waffle-chart-as-share"
           />
+          <ChartImageContainer
+            imgName="web-waffle-chart-for-time-series"
+            caption="Waffle chart as a time series with nice style"
+            linkTo="/web-waffle-chart-for-time-series-square"
+          />
         </Row>
       </Container>
 
