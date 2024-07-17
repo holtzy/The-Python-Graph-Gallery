@@ -415,6 +415,28 @@ export default function Matplotlibs() {
             linkTo="/advanced-custom-annotations-matplotlib"
           />
         </Row>
+        <p>
+          <br />A similar tool to highlight_text is <code>flexitext</code>. The
+          core difference relies on the syntax used, where flexitext has
+          something more <b>similar to HTML</b> compared to highlight_text.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="594-introduction-flexitext"
+            caption="Introduction to string styling with flexitext"
+            linkTo="/594-introduction-flexitext"
+          />
+          <ChartImageContainer
+            imgName="595-advanced-flexitext-features-1"
+            caption="Dynamically change text size with flexitext"
+            linkTo="/595-advanced-flexitext-features"
+          />
+          <ChartImageContainer
+            imgName="595-advanced-flexitext-features-2"
+            caption="Dynamically change text opacity with flexitext"
+            linkTo="/595-advanced-flexitext-features"
+          />
+        </Row>
       </Container>
 
       <Spacing />

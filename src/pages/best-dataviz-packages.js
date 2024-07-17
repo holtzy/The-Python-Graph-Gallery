@@ -94,11 +94,10 @@ const logoMatplotExtension = [
   },
   {
     imgPath: FlexiTextImg,
-    url: '/',
+    url: '/594-introduction-flexitext',
     altText: 'Flexitext logo',
     name: 'Flexitext',
     height: '115px',
-    className: 'disable-lib',
   },
 ];
 
