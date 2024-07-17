@@ -8,10 +8,16 @@
   max-width: 800px;
 }
 
+.mainTitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .titleRow {
   display: flex;
   justify-content: start;
   align-items: center;
+  gap: 20px;
 }
 /* ---------- Horizontal separator ----------------- */
 .smallHr {

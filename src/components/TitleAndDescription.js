@@ -18,16 +18,22 @@ export default function TitleAndDescription({
   chartType,
   isRaptiveEnabled = true,
 }) {
-  const chartInfo = chartTypesInfo.filter((chart) => chart.id === chartType)[0];
-
+  const chartInfo = chartTypesInfo.find((chart) => chart.id === chartType);
+  console.log('chartInfo', chartInfo);
   return (
     <Container>
       <div className="titleAndDescription">
         <div className="titleRow">
-          <h1>{title}</h1>
-          {chartType && <ChartTypeLink chartType={chartType} />}
+          <h1 className="mainTitle">{title}</h1>
+          {chartInfo && (
+            <div style={{ width: 80 }}>
+              <SectionLogo chartType={chartInfo.logo} />
+            </div>
+          )}
         </div>
+
         <hr className="smallHr" />
+
         {typeof description === 'string' ? (
           <div
             className="description"
@@ -37,8 +43,8 @@ export default function TitleAndDescription({
           <div className="description">{description}</div>
         )}
 
-        {chartType && (
-          <div style={{ marginTop: '10px' }}>
+        {chartInfo && (
+          <div style={{ marginTop: '30px' }}>
             <Link to={fullUrlToInternalLink(chartInfo.pythonURL)}>
               <Button size="sm">{chartInfo.label + ' section'}</Button>
             </Link>
@@ -61,21 +67,4 @@ TitleAndDescription.propTypes = {
   description: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
   chartType: PropTypes.string,
   isRaptiveEnabled: PropTypes.bool,
-};
-
-const ChartTypeLink = ({ chartType }) => {
-  const chartDescription = chartTypesInfo.filter(
-    (chart) => chart.id === chartType
-  )[0];
-  const url = fullUrlToInternalLink(chartDescription.pythonURL);
-  return (
-    <div style={{ width: '80px', marginLeft: 40 }}>
-      <Link to={url}>
-        <SectionLogo chartType={chartDescription.logo} />
-      </Link>
-    </div>
-  );
-};
-ChartTypeLink.propTypes = {
-  chartType: PropTypes.string,
 };
