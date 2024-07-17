@@ -111,6 +111,41 @@ sns.kdeplot(data=df, x='sepal_width', hue='species')
         img: '74_density_plot_multi_variables',
         post: '70-basic-density-plot-with-seaborn',
       },
+      {
+        name: 'multiple',
+        description: (
+          <p>
+            <code>multiple</code> is a string that can takes 3 values: "layer",
+            "stack", "fill":
+            <ul>
+              <i>
+                <code>layer</code>&rarr; Default value. The density estimation
+                can overlap.
+              </i>
+              <br />
+              <i>
+                <code>stack</code>&rarr; The density estimates will be one on
+                top of the other to avoid overlaps.
+              </i>
+              <br />
+              <i>
+                <code>fill</code>&rarr; The entire graph will be filled in to
+                show the breakdown by category.
+              </i>
+            </ul>
+          </p>
+        ),
+        basicUsage: (
+          <CodeChunk hasWhiteBackground>
+            {`
+sns.kdeplot(data=df, x='sepal_width', hue='species', multiple='stack')
+`.trim()}
+          </CodeChunk>
+        ),
+        type: <p>string</p>,
+        img: 'density-chart-multiple-groups-seaborn4',
+        post: 'density-chart-multiple-groups-seaborn',
+      },
     ],
   },
   //
