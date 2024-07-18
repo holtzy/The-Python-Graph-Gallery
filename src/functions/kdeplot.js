@@ -45,7 +45,7 @@ sns.kdeplot(data=df, x='sepal_width', color="purple")
       learn more.
     </p>
   ),
-  img: '71_Shaded_density_plot_Seaborn',
+  img: '70_Basic_density_plot_Seaborn',
   post: '71-density-plot-with-shade-seaborn',
 };
 
@@ -68,7 +68,7 @@ import seaborn as sns
 df = sns.load_dataset('iris')
 
 # Plot
-sns.kdeplot(data=df, x='sepal_width', color="purple")
+sns.kdeplot(data=df, x='sepal_width', fill=True)
 `.trim(),
   type: 'boolean',
   howToUse: (
@@ -100,7 +100,7 @@ import seaborn as sns
 df = sns.load_dataset('iris')
 
 # Plot
-sns.kdeplot(data=df, x='sepal_width', color="purple")
+sns.kdeplot(data=df, x='sepal_width', bw_adjust=0.3)
 `.trim(),
   type: 'number',
   howToUse: (
@@ -134,9 +134,16 @@ import seaborn as sns
 df = sns.load_dataset('iris')
 
 # Plot
-sns.kdeplot(data=df, x='sepal_width', color="purple")
+sns.kdeplot(data=df, x='sepal_width', cumulative=True)
 `.trim(),
-  type: <p>bool</p>,
+  type: 'boolean',
+  howToUse: (
+    <p>
+      When to <code>False</code> (default), it estimates and display the density
+      function but you can switch to <code>True</code> to display the cumulative
+      distribution.
+    </p>
+  ),
   img: '70-basic-density-plot-with-seaborn-2',
   post: '70-basic-density-plot-with-seaborn',
 };
@@ -158,9 +165,16 @@ const param5 = {
   basicUsage: `
 sns.kdeplot(data=df, x='sepal_width', hue='species')
 `.trim(),
-  type: <p>string</p>,
+  type: 'string',
+  howToUse: (
+    <p>
+      When to <code>False</code> (default), it estimates and display the density
+      function but you can switch to <code>True</code> to display the cumulative
+      distribution.
+    </p>
+  ),
   img: '74_density_plot_multi_variables',
-  post: '70-basic-density-plot-with-seaborn',
+  post: '74-density-plot-of-several-variables',
 };
 
 //
@@ -170,14 +184,27 @@ sns.kdeplot(data=df, x='sepal_width', hue='species')
 //
 const param6 = {
   name: 'multiple',
-  description: <p>Determines how to display multiple groups on the chart.</p>,
+  description: (
+    <p>
+      Determines how to display multiple groups on the chart.
+      <br />
+      This parameter becomes interesting when using the <code>hue</code>{' '}
+      parameter as it dictates the behaviour in the case of{' '}
+      <b>multiple distributions</b> on a graph.
+    </p>
+  ),
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
 df = sns.load_dataset('iris')
 
 # Plot
-sns.kdeplot(data=df, x='sepal_width', multiple="paramgoeshere")
+sns.kdeplot(
+  data=df,
+  x='sepal_width',
+  multiple='paramgoeshere',
+  hue='species'
+)
 `.trim(),
   type: 'string',
   options: [
@@ -196,7 +223,7 @@ sns.kdeplot(data=df, x='sepal_width', multiple="paramgoeshere")
     {
       name: 'fill',
       explanation: (
-        <p>entire graph will be filled in to show the breakdown by category.</p>
+        <p>Entire graph will be filled in to show the breakdown by category.</p>
       ),
       isDefault: true,
       img: 'density-chart-multiple-groups-seaborn4',
