@@ -1,0 +1,25 @@
+.codeChunckCopyButton {
+  color: grey;
+  border: solid grey 1px;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 6px;
+  padding-left: 6px;
+  opacity: 0.5;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.codeChunckCopyButton:hover {
+  opacity: 1;
+}
+
+.copyButtonContainer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 4px;
+  margin-top: 4px;
+}

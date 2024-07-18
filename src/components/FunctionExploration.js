@@ -100,7 +100,7 @@ export default function FunctionExploration({ funDetails }) {
             )}
 
             <p className="argumentSectionTitle">Code Example</p>
-            <div style={{ fontSize: 12, backgroundColor: 'white' }}>
+            <div style={{ backgroundColor: 'white' }}>
               <CodeChunk hasWhiteBackground>
                 {selectedParameterInfo.options
                   ? selectedParameterInfo.basicUsage.replace(
