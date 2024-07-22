@@ -19,6 +19,8 @@ import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
+import { scatterplot } from '../functions/scatterplot';
+import FunctionExploration from '../components/FunctionExploration';
 
 const chartDescription = (
   <>
@@ -205,6 +207,14 @@ export default function ScatterPlot() {
           />
         </Row>
       </Container>
+
+      <Spacing />
+
+      <div className="greySection">
+        <Container>
+          <FunctionExploration funDetails={scatterplot} />
+        </Container>
+      </div>
 
       <Spacing />
 

@@ -119,7 +119,7 @@ sns.kdeplot(data=df, x='sepal_width', bw_adjust=0.3)
 //
 //
 //
-// JOSEPH TODO
+//
 const param4 = {
   name: 'cumulative',
   description: (
@@ -153,7 +153,7 @@ sns.kdeplot(data=df, x='sepal_width', cumulative=True)
 //
 //
 //
-// JODEPH TODO
+//
 const param5 = {
   name: 'hue',
   description: (
