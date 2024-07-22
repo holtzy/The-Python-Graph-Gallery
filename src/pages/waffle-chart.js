@@ -148,9 +148,14 @@ export default function Waffle() {
             linkTo="/web-waffle-with-small-multiples"
           />
           <ChartImageContainer
-            imgName="web-waffle-chart-as-share"
+            imgName="web-waffle-chart-as-share-square"
             caption="Horizontal waffle charts with custom fonts and colors"
             linkTo="/web-waffle-chart-as-share"
+          />
+          <ChartImageContainer
+            imgName="web-waffle-chart-for-time-series"
+            caption="Waffle chart as a time series with nice style"
+            linkTo="/web-waffle-chart-for-time-series-square"
           />
         </Row>
       </Container>
