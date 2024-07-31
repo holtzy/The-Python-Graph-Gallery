@@ -26,7 +26,11 @@ export const Head = () => (
 export default function BubbleMap() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Bubble Map" description={chartDescription} />
+      <TitleAndDescription
+        title="Bubble Map"
+        description={chartDescription}
+        chartType="bubbleMap"
+      />
 
       <div className="greySection" id="related">
         <Container>

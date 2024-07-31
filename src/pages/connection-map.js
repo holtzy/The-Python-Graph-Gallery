@@ -28,6 +28,7 @@ export default function ConnectionMap() {
       <TitleAndDescription
         title="Connection Map"
         description={chartDescription}
+        chartType="connection"
       />
 
       <Container>

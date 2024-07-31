@@ -48,6 +48,7 @@ export default function ThreeD() {
       <TitleAndDescription
         title="Three-Dimensional plotting"
         description={chartDescription}
+        chartType="3d"
       />
 
       <Container>

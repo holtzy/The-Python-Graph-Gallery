@@ -61,7 +61,11 @@ export const Head = () => (
 export default function LinePlot() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Line Chart" description={chartDescription} />
+      <TitleAndDescription
+        title="Line Chart"
+        description={chartDescription}
+        chartType="line"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>

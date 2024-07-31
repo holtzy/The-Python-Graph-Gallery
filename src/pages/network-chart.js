@@ -27,6 +27,7 @@ export default function Network() {
       <TitleAndDescription
         title="Network chart"
         description={chartDescription}
+        chartType="network"
       />
 
       <Container>

@@ -25,6 +25,7 @@ export default function Arc() {
       <TitleAndDescription
         title="Hierarchical Edge Bundling"
         description={chartDescription}
+        chartType="edgeBundling"
       />
 
       <div className="greySection" id="related">

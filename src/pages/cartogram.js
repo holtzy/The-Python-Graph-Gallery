@@ -24,7 +24,11 @@ export const Head = () => (
 export default function Cartogram() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Cartogram" description={chartDescription} />
+      <TitleAndDescription
+        title="Cartogram"
+        description={chartDescription}
+        chartType="cartogram"
+      />
 
       <Container>
         <h2>

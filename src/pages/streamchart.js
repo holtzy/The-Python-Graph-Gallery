@@ -27,7 +27,11 @@ export const Head = () => (
 export default function StackedAreaPlot() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Streamgraph" description={chartDescription} />
+      <TitleAndDescription
+        title="Streamgraph"
+        description={chartDescription}
+        chartType="stream"
+      />
 
       <Container>
         <h2 id="Matplotlib">

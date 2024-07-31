@@ -39,6 +39,7 @@ export default function Venn() {
       <TitleAndDescription
         title="Venn Diagram"
         description={chartDescription}
+        chartType="venn"
       />
 
       <Container>

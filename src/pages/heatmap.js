@@ -39,7 +39,11 @@ export const Head = () => (
 export default function Heatmap() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Heatmap" description={chartDescription} />
+      <TitleAndDescription
+        title="Heatmap"
+        description={chartDescription}
+        chartType="heatmap"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>

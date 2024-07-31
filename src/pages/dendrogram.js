@@ -26,7 +26,11 @@ export const Head = () => (
 export default function Dendrogram() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Dendrogram" description={chartDescription} />
+      <TitleAndDescription
+        title="Dendrogram"
+        description={chartDescription}
+        chartType="dendrogram"
+      />
 
       <div className="greySection" id="related">
         <Container>

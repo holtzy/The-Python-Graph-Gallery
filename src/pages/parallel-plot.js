@@ -44,6 +44,7 @@ export default function Parallel() {
       <TitleAndDescription
         title="Parallel coordinate plot"
         description={chartDescription}
+        chartType="parallel"
       />
 
       <Container>

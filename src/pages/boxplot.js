@@ -50,7 +50,11 @@ export const Head = () => (
 export default function Boxplot() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Boxplot" description={chartDescription} />
+      <TitleAndDescription
+        title="Boxplot"
+        description={chartDescription}
+        chartType="boxplot"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>

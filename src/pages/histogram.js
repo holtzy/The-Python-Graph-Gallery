@@ -84,7 +84,11 @@ export const Head = () => (
 export default function Histogram() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Histogram" description={chartDescription} />
+      <TitleAndDescription
+        title="Histogram"
+        description={chartDescription}
+        chartType="histogram"
+      />
 
       <Container>
         <h2 id="Quick (Seaborn)">&#9201; Quick start (Seaborn)</h2>

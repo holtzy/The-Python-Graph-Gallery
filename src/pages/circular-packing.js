@@ -29,6 +29,7 @@ export default function CircularPacking() {
       <TitleAndDescription
         title="Circular Packing"
         description={chartDescription}
+        chartType="circularPacking"
       />
 
       <div className="greySection" id="related">
@@ -62,8 +63,8 @@ export default function CircularPacking() {
           <code>Circlify</code> can work without a hierarchical structure, i.e.
           with just a set of numeric varialbles that will be each displayed as a
           bubble. Note that the package just compute the position and size of
-          each bubble. Once that's done, <code>matplotlib</code> is used to
-          make the chart itself with usual functions.
+          each bubble. Once that's done, <code>matplotlib</code> is used to make
+          the chart itself with usual functions.
         </p>
         <Row>
           <ChartImageContainer

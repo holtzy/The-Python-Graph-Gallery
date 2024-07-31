@@ -41,7 +41,11 @@ export const Head = () => (
 export default function Treemap() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Treemap" description={chartDescription} />
+      <TitleAndDescription
+        title="Treemap"
+        description={chartDescription}
+        chartType="treemap"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>

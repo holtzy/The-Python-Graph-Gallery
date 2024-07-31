@@ -53,7 +53,11 @@ export const Head = () => (
 export default function Radar() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Radar Chart" description={chartDescription} />
+      <TitleAndDescription
+        title="Radar Chart"
+        description={chartDescription}
+        chartType="radar"
+      />
 
       <div className="greySection" id="warning">
         <Container>

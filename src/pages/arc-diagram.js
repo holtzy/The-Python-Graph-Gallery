@@ -24,7 +24,11 @@ export const Head = () => (
 export default function Arc() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Arc diagram" description={chartDescription} />
+      <TitleAndDescription
+        title="Arc diagram"
+        description={chartDescription}
+        chartType="arc"
+      />
 
       <div id="related">
         <Container>
