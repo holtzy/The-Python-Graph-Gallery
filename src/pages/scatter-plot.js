@@ -50,8 +50,8 @@ const quickCode = `# library & dataset
 import seaborn as sns
 df = sns.load_dataset('iris')
 
-# use the function regplot to make a scatterplot
-sns.regplot(x=df["sepal_length"], y=df["sepal_width"])
+# use the function scatterplot() to make a scatterplot
+sns.scatterplot(x=df["sepal_length"], y=df["sepal_width"])
 `;
 
 const quickCodeMatplotlib = `# libraries
@@ -88,9 +88,9 @@ export default function ScatterPlot() {
         <Row className="align-items-center">
           <Col md={6}>
             <p>
-              The <code>regplot()</code> function of the <code>Seaborn</code>{' '}
-              library is definitely the best way to build a scatterplot in
-              minutes. 🔥
+              The <code>scatterplot()</code> function of the{' '}
+              <code>Seaborn</code> library is definitely the best way to build a
+              scatterplot in seconds. 🔥
             </p>
             <p>
               Simply pass a numeric column of a data frame to both the{' '}
