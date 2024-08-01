@@ -388,8 +388,14 @@ export default function ScatterPlot() {
         </h2>
         <p>
           If you are looking for an <b>interactive</b> scatterplot,{' '}
-          <Link href="/plotly">plotly</Link> is definitely the way to go.
+          <Link href="/plotly">plotly</Link> is definitely the way to go. Try
+          hovering over the graph below!
         </p>
+        <iframe
+          src="../../interactiveCharts/scatterplot-plotly-grouping.html"
+          width="850"
+          height="700"
+        ></iframe>
         <p>
           Interactivity is a real plus for scatterplots. It is very useful to
           have a <b>tooltip</b> associated to every markers to get some
@@ -418,7 +424,6 @@ export default function ScatterPlot() {
           />
         </Row>
       </Container>
-
       <Spacing />
       <Container>
         <h2 id="Pandas">
