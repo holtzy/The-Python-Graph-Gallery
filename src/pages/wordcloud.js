@@ -70,7 +70,11 @@ export const Head = () => (
 export default function Wordcloud() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Wordcloud" description={chartDescription} />
+      <TitleAndDescription
+        title="Wordcloud"
+        description={chartDescription}
+        chartType="wordcloud"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>

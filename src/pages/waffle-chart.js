@@ -63,6 +63,7 @@ export default function Waffle() {
       <TitleAndDescription
         title="Waffle chart"
         description={chartDescription}
+        chartType="waffle"
       />
 
       <Container>

@@ -46,6 +46,7 @@ export default function StackedAreaPlot() {
       <TitleAndDescription
         title="Stacked area Chart"
         description={chartDescription}
+        chartType="stackedArea"
       />
 
       <Container>

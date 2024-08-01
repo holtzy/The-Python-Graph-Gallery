@@ -46,6 +46,7 @@ export default function ConnectedScatter() {
       <TitleAndDescription
         title="Connected Scatterplot"
         description={chartDescription}
+        chartType="connectedScatter"
       />
 
       <Container>

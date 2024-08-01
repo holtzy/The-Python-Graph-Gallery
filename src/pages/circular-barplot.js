@@ -29,6 +29,7 @@ export default function CircularBarplot() {
       <TitleAndDescription
         title="Circular Barplot"
         description={chartDescription}
+        chartType="circularBarplot"
       />
 
       <Container>

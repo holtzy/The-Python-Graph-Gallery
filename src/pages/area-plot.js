@@ -40,7 +40,11 @@ export const Head = () => (
 export default function AreaPlot() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Area Chart" description={chartDescription} />
+      <TitleAndDescription
+        title="Area Chart"
+        description={chartDescription}
+        chartType="area"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>

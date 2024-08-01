@@ -29,6 +29,7 @@ export default function Chord() {
       <TitleAndDescription
         title="Sankey diagram"
         description={chartDescription}
+        chartType="sankey"
       />
 
       <Container>

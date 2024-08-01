@@ -44,7 +44,11 @@ export const Head = () => (
 export default function Donut() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Donut Plot" description={chartDescription} />
+      <TitleAndDescription
+        title="Donut Plot"
+        description={chartDescription}
+        chartType="donut"
+      />
 
       <Spacing />
 

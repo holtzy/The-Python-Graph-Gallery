@@ -25,7 +25,11 @@ export const Head = () => (
 export default function HexbinMap() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Hexbin Map" description={chartDescription} />
+      <TitleAndDescription
+        title="Hexbin Map"
+        description={chartDescription}
+        chartType="hexbin"
+      />
 
       <Spacing />
 

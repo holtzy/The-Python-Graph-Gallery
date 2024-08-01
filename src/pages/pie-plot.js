@@ -38,7 +38,11 @@ export const Head = () => (
 export default function Pie() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Pie Plot" description={chartDescription} />
+      <TitleAndDescription
+        title="Pie Plot"
+        description={chartDescription}
+        chartType="pie"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>

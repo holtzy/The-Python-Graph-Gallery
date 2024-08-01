@@ -27,6 +27,7 @@ export default function CheatSheet() {
       <TitleAndDescription
         title="Cheat Sheets"
         description={chartDescription}
+        chartType="cheatSheets"
       />
 
       <Spacing />

@@ -77,7 +77,11 @@ export const Head = () => (
 export default function ScatterPlot() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Scatterplot" description={chartDescription} />
+      <TitleAndDescription
+        title="Scatterplot"
+        description={chartDescription}
+        chartType="scatter"
+      />
 
       <Container>
         <h2 id="Quick start">&#9201; Quick start (Seaborn)</h2>

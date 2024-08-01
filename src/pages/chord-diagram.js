@@ -28,6 +28,7 @@ export default function Chord() {
       <TitleAndDescription
         title="Chord diagram"
         description={chartDescription}
+        chartType="chordDiagram"
       />
 
       <Container>

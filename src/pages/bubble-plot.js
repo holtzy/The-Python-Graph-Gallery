@@ -42,7 +42,11 @@ export const Head = () => (
 export default function BubblePlot() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Bubble plot" description={chartDescription} />
+      <TitleAndDescription
+        title="Bubble plot"
+        description={chartDescription}
+        chartType="bubble"
+      />
 
       <Spacing />
 

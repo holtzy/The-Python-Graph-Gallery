@@ -36,7 +36,11 @@ export const Head = () => (
 export default function ViolinPlot() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Violin plot" description={chartDescription} />
+      <TitleAndDescription
+        title="Violin plot"
+        description={chartDescription}
+        chartType="violin"
+      />
 
       <Container>
         <h2 id="Quick start">&#9201; Quick start</h2>

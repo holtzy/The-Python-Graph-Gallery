@@ -29,6 +29,7 @@ export default function RidgelinePlot() {
       <TitleAndDescription
         title="Ridgeline chart"
         description={chartDescription}
+        chartType="ridgeline"
       />
 
       <Container>

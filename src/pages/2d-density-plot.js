@@ -29,6 +29,7 @@ export default function Heatmap() {
       <TitleAndDescription
         title="2D Density Chart"
         description={chartDescription}
+        chartType="density2d"
       />
 
       <div className="greySection">

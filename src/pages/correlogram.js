@@ -37,7 +37,11 @@ export const Head = () => (
 export default function Correlogram() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Correlogram" description={chartDescription} />
+      <TitleAndDescription
+        title="Correlogram"
+        description={chartDescription}
+        chartType="correlogram"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>

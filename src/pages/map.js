@@ -29,6 +29,7 @@ export default function BackgroundMap() {
       <TitleAndDescription
         title="Background Map"
         description={chartDescription}
+        chartType="map"
       />
 
       <Spacing />

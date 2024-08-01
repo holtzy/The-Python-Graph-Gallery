@@ -50,6 +50,7 @@ export default function Colors() {
       <TitleAndDescription
         title="Dealing with colors in matplotlib"
         description={chartDescription}
+        chartType="colors"
       />
       {/* This section links to /available-colors-in-matplotlib */}
       <Container>

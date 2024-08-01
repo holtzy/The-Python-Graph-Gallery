@@ -43,6 +43,7 @@ export default function Lollipop() {
       <TitleAndDescription
         title="Lollipop plot"
         description={chartDescription}
+        chartType="lollipop"
       />
 
       <Container>

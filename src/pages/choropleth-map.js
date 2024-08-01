@@ -29,6 +29,7 @@ export default function Choropleth() {
       <TitleAndDescription
         title="Choropleth map"
         description={chartDescription}
+        chartType="choropleth"
       />
 
       <Container>

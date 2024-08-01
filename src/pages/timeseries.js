@@ -38,7 +38,11 @@ export const Head = () => (
 export default function Pie() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Timeseries" description={chartDescription} />
+      <TitleAndDescription
+        title="Timeseries"
+        description={chartDescription}
+        chartType="timeseries"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
