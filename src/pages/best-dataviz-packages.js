@@ -103,19 +103,17 @@ const logoMatplotExtension = [
   },
   {
     imgPath: pyfontsImg,
-    url: '/594-introduction-flexitext',
+    url: '/599-introduction-pyfonts',
     altText: 'pyfonts logo',
     name: 'PyFonts',
     height: '115px',
-    className: 'disable-lib',
   },
   {
     imgPath: drawarrowImg,
-    url: '/594-introduction-flexitext',
+    url: '/598-introduction-drawarrow',
     altText: 'drawarrow logo',
     name: 'DrawArrow',
     height: '115px',
-    className: 'disable-lib',
   },
 ];
 
