@@ -180,11 +180,6 @@ export default function ScatterPlot() {
             linkTo="/40-basic-scatterplot-seaborn"
           />
           <ChartImageContainer
-            imgName="42_Scatterplot_custom_linear_fit_seaborn"
-            caption="Add a regression thanks to the fit_reg parameter"
-            linkTo="/42-custom-linear-regression-fit-seaborn"
-          />
-          <ChartImageContainer
             imgName="41_Scatterplot_change_marker_shape_seaborn"
             caption="Customize markers: color, size, opacity, type and more"
             linkTo="/41-control-marker-features"
@@ -208,6 +203,43 @@ export default function ScatterPlot() {
             imgName="46_add_text_annotation_scatterplot_seaborn3"
             caption="Add labels manually on your scatterplot"
             linkTo="/46-add-text-annotation-on-scatterplot"
+          />
+        </Row>
+        <br />
+        <p>
+          A nice way to add info and highlight trend in a scatter plot is to add
+          a <b>regression line</b> on top of the dots. Thanks to its{' '}
+          <code>regplot()</code> and <code>lmplot()</code> function, it&apos;s
+          quite easy!
+        </p>
+        <p>
+          The main difference between those 2 functions are that:
+          <ul>
+            <li>
+              <code>regplot()</code> is used for simple scatter plot with a
+              trend line
+            </li>
+            <li>
+              <code>lmplot()</code> can also be used for <b>facetting</b>: e.g
+              creating multiple scatter plots
+            </li>
+          </ul>
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="42_Scatterplot_custom_linear_fit_seaborn"
+            caption="Add a regression thanks to the fit_reg parameter"
+            linkTo="/42-custom-linear-regression-fit-seaborn"
+          />
+          <ChartImageContainer
+            imgName="47-faceted-scatter-plot-with-seaborn-1"
+            caption="Split scatter plot by a category"
+            linkTo="/47-faceted-scatter-plot-with-seaborn"
+          />
+          <ChartImageContainer
+            imgName="47-faceted-scatter-plot-with-seaborn-2"
+            caption="Faceted scatter plot with regression line"
+            linkTo="/47-faceted-scatter-plot-with-seaborn"
           />
         </Row>
       </Container>
