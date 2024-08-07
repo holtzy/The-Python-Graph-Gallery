@@ -36,10 +36,10 @@ export default function BubbleMap() {
         <Container>
           <h2 id="Overview">🔎 Building maps with Python</h2>
           <p>
-            If you're new to geospatial analysis with python, I strongly advise
-            to check the <Link to="/map">background map section</Link> of the
-            gallery. It gives a great overview of the available tools, and help
-            you pick the right one.
+            If you&apos;re new to geospatial analysis with python, I strongly
+            advise to check the <Link to="/map">background map section</Link> of
+            the gallery. It gives a great overview of the available tools, and
+            help you pick the right one.
           </p>
           <Link to="/map">
             <Button size="sm">Background Map Section</Button>
@@ -77,6 +77,18 @@ export default function BubbleMap() {
             linkTo="/web-bubble-map-with-arrows"
           />
         </Row>
+        <p>
+          When creating maps, there are a large number of possible projections.
+          The article below explains how to modify them.
+        </p>
+        <Link to={'/588-change-map-projection-in-python'}>
+          <div style={{ maxWidth: '800px', margin: '0 auto', padding: 30 }}>
+            <ChartImage
+              imgName={'projection_maps'}
+              caption={'Change projection in maps'}
+            />
+          </div>
+        </Link>
       </Container>
 
       <Spacing />

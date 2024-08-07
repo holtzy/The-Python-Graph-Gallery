@@ -123,6 +123,18 @@ export default function BackgroundMap() {
             linkTo="/web-bubble-map-with-arrows"
           />
         </Row>
+        <p>
+          When creating maps, there are a large number of possible projections.
+          The article below explains how to modify them.
+        </p>
+        <Link to={'/588-change-map-projection-in-python'}>
+          <div style={{ maxWidth: '800px', margin: '0 auto', padding: 30 }}>
+            <ChartImage
+              imgName={'projection_maps'}
+              caption={'Change projection in maps'}
+            />
+          </div>
+        </Link>
       </Container>
 
       <Spacing />
