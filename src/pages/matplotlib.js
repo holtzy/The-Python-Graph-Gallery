@@ -120,7 +120,11 @@ export default function Matplotlibs() {
 
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Matplotlib" description={chartDescription} />
+      <TitleAndDescription
+        title="Matplotlib"
+        description={chartDescription}
+        chartType="matplotlib"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
