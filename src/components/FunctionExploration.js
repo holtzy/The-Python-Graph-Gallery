@@ -21,7 +21,6 @@ export default function FunctionExploration({ funDetails }) {
 
   const selectedParameterInfo = funDetails.parameters[selectedParameter];
   const selectedOptInfo = selectedParameterInfo.options?.[selectedOpt];
-  console.log('selectedOptInfo', selectedOptInfo);
 
   const argumentButtons = (
     <div>
