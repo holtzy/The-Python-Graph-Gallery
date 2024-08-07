@@ -25,6 +25,8 @@ import wordcloudImg from '../../static/logo/Other/wordcloud.png';
 import pywaffleImg from '../../static/logo/Other/pywaffle.png';
 import greatTablesImg from '../../static/logo/Other/great_tables.png';
 import plotTablesImg from '../../static/logo/Other/plottable.png';
+import pyfontsImg from '../../static/logo/Other/pyfonts.png';
+import drawarrowImg from '../../static/logo/Other/drawarrow.png';
 import { SEO } from '../components/SEO';
 
 // Core
@@ -97,6 +99,20 @@ const logoMatplotExtension = [
     url: '/594-introduction-flexitext',
     altText: 'Flexitext logo',
     name: 'Flexitext',
+    height: '115px',
+  },
+  {
+    imgPath: pyfontsImg,
+    url: '/599-introduction-pyfonts',
+    altText: 'pyfonts logo',
+    name: 'PyFonts',
+    height: '115px',
+  },
+  {
+    imgPath: drawarrowImg,
+    url: '/598-introduction-drawarrow',
+    altText: 'drawarrow logo',
+    name: 'DrawArrow',
     height: '115px',
   },
 ];
