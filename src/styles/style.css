@@ -199,9 +199,12 @@ blockquote p {
 
 /* ---------- How code looks like in notebooks ----------------- */
 pre.input {
-  line-height: 1.35em;
+  line-height: 1.25em !important;
   margin-bottom: 20px !important;
   margin-top: 0px;
+}
+pre code {
+  padding: 0px;
 }
 .nteract-display-area-stderr {
   display: none;

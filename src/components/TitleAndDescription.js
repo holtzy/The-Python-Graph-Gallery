@@ -19,7 +19,7 @@ export default function TitleAndDescription({
   isRaptiveEnabled = true,
 }) {
   const chartInfo = chartTypesInfo.find((chart) => chart.id === chartType);
-  console.log('chartInfo', chartInfo);
+
   return (
     <Container>
       <div className="titleAndDescription">
