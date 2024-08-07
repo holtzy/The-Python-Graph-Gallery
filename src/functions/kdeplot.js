@@ -212,13 +212,13 @@ sns.kdeplot(
       name: 'layer',
       explanation: <p>Groups are overlapping each other</p>,
       isDefault: true,
-      img: 'density-chart-multiple-groups-seaborn4',
+      img: 'density-chart-multiple-groups-seaborn1',
     },
     {
       name: 'stack',
       explanation: <p>Groups are stacked on top of each other</p>,
       isDefault: true,
-      img: 'density-chart-multiple-groups-seaborn4',
+      img: 'density-chart-multiple-groups-seaborn3',
     },
     {
       name: 'fill',

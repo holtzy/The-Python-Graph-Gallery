@@ -24,10 +24,7 @@ export const SEO = ({ title, seoDescription, keywords, image }) => {
       />
 
       <meta property="og:site_name" content="The Python Graph Gallery" />
-      <meta
-        property="og:title"
-        content={title + ' | The Python Graph Gallery'}
-      />
+      <meta property="og:title" content={title} />
       <meta
         property="og:image"
         content={

@@ -20,6 +20,8 @@ export default function FunctionExploration({ funDetails }) {
   }
 
   const selectedParameterInfo = funDetails.parameters[selectedParameter];
+  const selectedOptInfo = selectedParameterInfo.options?.[selectedOpt];
+  console.log('selectedOptInfo', selectedOptInfo);
 
   const argumentButtons = (
     <div>
@@ -117,7 +119,7 @@ export default function FunctionExploration({ funDetails }) {
           <br />
           <Link to={'/' + selectedParameterInfo.post}>
             <ChartImage
-              imgName={selectedParameterInfo.img}
+              imgName={selectedOptInfo?.img || selectedParameterInfo.img}
               caption={'More about the ' + funDetails.name + ' function.'}
             />
           </Link>
