@@ -361,7 +361,7 @@ export const chartTypesInfo = [
   },
   {
     id: 'matplotlib',
-    family: 'general',
+    family: 'package',
     logo: 'matplotlib',
     dataToVizURL: '',
     pythonURL: 'https://python-graph-gallery.com/matplotlib/',
@@ -369,7 +369,7 @@ export const chartTypesInfo = [
   },
   {
     id: 'seaborn',
-    family: 'general',
+    family: 'package',
     logo: 'seaborn',
     dataToVizURL: '',
     pythonURL: 'https://python-graph-gallery.com/seaborn/',
@@ -377,7 +377,7 @@ export const chartTypesInfo = [
   },
   {
     id: 'plotnine',
-    family: 'general',
+    family: 'package',
     logo: 'plotnine',
     dataToVizURL: '',
     pythonURL: 'https://python-graph-gallery.com/plotnine/',
@@ -385,11 +385,19 @@ export const chartTypesInfo = [
   },
   {
     id: 'pandas',
-    family: 'general',
+    family: 'package',
     logo: 'pandas',
     dataToVizURL: '',
     pythonURL: 'https://python-graph-gallery.com/pandas/',
     label: 'Pandas',
+  },
+  {
+    id: 'drawarrow',
+    family: 'package',
+    logo: 'drawarrow',
+    dataToVizURL: '',
+    pythonURL: 'https://python-graph-gallery.com/drawarrow/',
+    label: 'DrawArrow',
   },
   {
     id: 'animation',

@@ -1,5 +1,4 @@
 import React from 'react';
-import CodeChunk from '../components/CodeChunk';
 
 const name = 'kdeplot';
 const description = (

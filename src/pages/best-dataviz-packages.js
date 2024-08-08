@@ -110,7 +110,7 @@ const logoMatplotExtension = [
   },
   {
     imgPath: drawarrowImg,
-    url: '/598-introduction-drawarrow',
+    url: '/drawarrow',
     altText: 'drawarrow logo',
     name: 'DrawArrow',
     height: '115px',
