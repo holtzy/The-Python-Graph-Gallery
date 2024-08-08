@@ -22,11 +22,116 @@ const docUrl = 'https://seaborn.pydata.org/generated/seaborn.kdeplot.html';
 //
 //
 const param1 = {
+  name: 'data',
+  description: (
+    <p>
+      Dataframe-like (pandas, numpy, polars...) with the columns we want to
+      plot.
+    </p>
+  ),
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.kdeplot(data=df, x='sepal_width')
+`.trim(),
+  type: 'dataframe',
+  howToUse: (
+    <div>
+      <p>
+        It just has to be a <code>pandas.DataFrame</code> (columns are
+        variables),
+        <code>numpy.ndarray</code> (rows/columns are variables), or any
+        mapping/sequence (dictionaries/lists)
+      </p>
+      <p>
+        Supports both long-form (each variable in its own column) and wide-form
+        (variables in separate columns; reshaped internally).
+      </p>
+    </div>
+  ),
+  img: '70_Basic_density_plot_Seaborn',
+  post: '71-density-plot-with-shade-seaborn',
+};
+//
+//
+//
+//
+//
+const param2 = {
+  name: 'x',
+  description: <p>Variable name that specify which column to plot.</p>,
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.kdeplot(data=df, x='sepal_width')
+`.trim(),
+  type: 'string',
+  howToUse: (
+    <div>
+      <p>
+        Instead of specifying <code>x=&apos;col_name&apos;</code>, you can{' '}
+        <code>y=&apos;col_name&apos;</code> to plot the density on the y axis
+        instead.
+      </p>
+      <p>
+        If both <code>x</code> and <code>y</code> are provided, plots a 2
+        dimensional density plot.
+      </p>
+    </div>
+  ),
+  img: '70_Basic_density_plot_Seaborn',
+  post: '71-density-plot-with-shade-seaborn',
+};
+//
+//
+//
+//
+//
+const param3 = {
+  name: 'y',
+  description: <p>Variable name that specify which column to plot.</p>,
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.kdeplot(data=df, y='sepal_width')
+`.trim(),
+  type: 'string',
+  howToUse: (
+    <div>
+      <p>
+        Instead of specifying <code>x=&apos;col_name&apos;</code>, you can{' '}
+        <code>y=&apos;col_name&apos;</code> to plot the density on the y axis
+        instead.
+      </p>
+      <p>
+        If both <code>x</code> and <code>y</code> are provided, plots a 2
+        dimensional density plot.
+      </p>
+    </div>
+  ),
+  img: '72_Horizontal_density_plot_Seaborn',
+  post: '72-horizontal-density-plot',
+};
+//
+//
+//
+//
+//
+const param4 = {
   name: 'color',
   description: (
     <p>
-      Adjusts the shape's color, affecting both its outline and the area beneath
-      it. See <code>fill</code> to draw the area or not.
+      Adjusts the shape&apos;s color, affecting both its outline and the area
+      beneath it. See <code>fill</code> to draw the area or not.
     </p>
   ),
   basicUsage: `
@@ -54,7 +159,7 @@ sns.kdeplot(data=df, x='sepal_width', color="purple")
 //
 //
 //
-const param2 = {
+const param5 = {
   name: 'fill',
   description: (
     <p>
@@ -86,7 +191,7 @@ sns.kdeplot(data=df, x='sepal_width', fill=True)
 //
 //
 //
-const param3 = {
+const param6 = {
   name: 'bw_adjust',
   description: (
     <p>
@@ -120,7 +225,7 @@ sns.kdeplot(data=df, x='sepal_width', bw_adjust=0.3)
 //
 //
 //
-const param4 = {
+const param7 = {
   name: 'cumulative',
   description: (
     <p>
@@ -154,7 +259,7 @@ sns.kdeplot(data=df, x='sepal_width', cumulative=True)
 //
 //
 //
-const param5 = {
+const param8 = {
   name: 'hue',
   description: (
     <p>
@@ -163,6 +268,11 @@ const param5 = {
     </p>
   ),
   basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
 sns.kdeplot(data=df, x='sepal_width', hue='species')
 `.trim(),
   type: 'string',
@@ -182,7 +292,53 @@ sns.kdeplot(data=df, x='sepal_width', hue='species')
 //
 //
 //
-const param6 = {
+const param9 = {
+  name: 'palette',
+  description: (
+    <p>
+      Defines colors for the hue semantic. It can be a list of colors or a
+      matplotlib colormap.
+    </p>
+  ),
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+from pypalettes import get_hex
+df = sns.load_dataset('iris')
+
+palette = get_hex('Acadia')
+sns.kdeplot(
+  data=df,
+  x='sepal_width',
+  hue='species',
+  palette=palette
+)
+`.trim(),
+  type: 'list',
+  howToUse: (
+    <div>
+      <p>
+        This parameter is used <b>in combination</b> with the <code>hue</code>{' '}
+        parameter and will a assign a different color to each category in{' '}
+        <code>hue</code>.
+      </p>
+      <p>
+        Moreover, the <a href="/color-palette-finder">pypalettes library</a> can
+        help you find the best colors for your chart by providing access to
+        thousands of pre-made color palette.
+      </p>
+    </div>
+  ),
+  img: 'density-chart-multiple-groups-seaborn6',
+  post: 'density-chart-multiple-groups-seaborn',
+};
+
+//
+//
+//
+//
+//
+const param10 = {
   name: 'multiple',
   description: (
     <p>
@@ -212,13 +368,13 @@ sns.kdeplot(
       name: 'layer',
       explanation: <p>Groups are overlapping each other</p>,
       isDefault: true,
-      img: 'density-chart-multiple-groups-seaborn1',
+      img: '74_density_plot_multi_variables',
     },
     {
       name: 'stack',
       explanation: <p>Groups are stacked on top of each other</p>,
       isDefault: true,
-      img: 'density-chart-multiple-groups-seaborn3',
+      img: 'density-chart-multiple-groups-seaborn1',
     },
     {
       name: 'fill',
@@ -237,5 +393,16 @@ export const kdeplot = {
   name,
   description,
   docUrl,
-  parameters: [param1, param2, param3, param4, param5, param6],
+  parameters: [
+    param1,
+    param2,
+    param3,
+    param4,
+    param5,
+    param6,
+    param7,
+    param8,
+    param9,
+    param10,
+  ],
 };
