@@ -31,7 +31,11 @@ import matplotlib.pyplot as plt
 from drawarrow import fig_arrow
 
 fig, ax = plt.subplots()
-fig_arrow(tail_position=[0.3, 0.3], head_position=[0.8, 0.8], fig=fig)
+fig_arrow(
+  tail_position=[0.3, 0.3],
+  head_position=[0.8, 0.8],
+  fig=fig
+)
 
 plt.show()
 `.trim(),
@@ -63,7 +67,11 @@ import matplotlib.pyplot as plt
 from drawarrow import fig_arrow
 
 fig, ax = plt.subplots()
-fig_arrow(tail_position=[0.3, 0.3], head_position=[0.8, 0.8], fig=fig)
+fig_arrow(
+  tail_position=[0.3, 0.3],
+  head_position=[0.8, 0.8],
+  fig=fig
+)
 
 plt.show()
 `.trim(),
@@ -180,7 +188,7 @@ plt.show()
 //
 const param6 = {
   name: 'head_width',
-  description: <p>Width of the head of the arrow</p>,
+  description: <p>Width of the head of the arrow.</p>,
   basicUsage: `
 import matplotlib.pyplot as plt
 from drawarrow import fig_arrow
@@ -198,11 +206,43 @@ plt.show()
   type: 'number',
   howToUse: (
     <p>
+      Specify a value generally between 1 and 50 to modify the width of the head
+      of your arrow.
+    </p>
+  ),
+  img: 'tuto-drawarrow-5',
+  post: '',
+};
+//
+//
+//
+//
+//
+const param7 = {
+  name: 'head_length',
+  description: <p>Length of the head of the arrow</p>,
+  basicUsage: `
+import matplotlib.pyplot as plt
+from drawarrow import fig_arrow
+
+fig, ax = plt.subplots()
+fig_arrow(
+  tail_position=[0.3, 0.3],
+  head_position=[0.8, 0.8],
+  head_length=50,
+  fig=fig
+)
+
+plt.show()
+`.trim(),
+  type: 'number',
+  howToUse: (
+    <p>
       This can be any <a href="/python-colors">matplotlib color</a>, hexadecimal
       or rgb color.
     </p>
   ),
-  img: 'tuto-drawarrow-5',
+  img: 'tuto-drawarrow-6',
   post: '',
 };
 
@@ -210,5 +250,5 @@ export const fig_arrow = {
   name,
   description,
   docUrl,
-  parameters: [param1, param2, param3, param4, param5, param6],
+  parameters: [param1, param2, param3, param4, param5, param6, param7],
 };
