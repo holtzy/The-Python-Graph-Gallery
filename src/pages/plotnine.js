@@ -43,6 +43,7 @@ export default function Post() {
       <TitleAndDescription
         title="Plotnine: ggplot in python"
         description={chartDescription}
+        chartType="plotnine"
       />
 
       <Container>
@@ -84,9 +85,7 @@ export default function Post() {
       <Spacing />
 
       <Container>
-        <h2 id="Gallery">
-          Scatter plot with plotnine
-        </h2>
+        <h2 id="Gallery">Scatter plot with plotnine</h2>
         <p>
           <a href="/scatter-plot">Scatter plots</a> are a great way to visualize
           the relationship between two numerical variables. The{' '}
@@ -136,18 +135,16 @@ export default function Post() {
       <Spacing />
 
       <Container>
-        <h2 id="Gallery">
-          Bar plot with plotnine
-        </h2>
+        <h2 id="Gallery">Bar plot with plotnine</h2>
         <p>
-          <a href="/bar-plot">Bar plots</a> are a great way to visualize
-          the relationship between a categorical variable and a numerical one. The{' '}
+          <a href="/bar-plot">Bar plots</a> are a great way to visualize the
+          relationship between a categorical variable and a numerical one. The{' '}
           <code>plotnine</code> library makes it easy thanks to its{' '}
           <code>geom_bar()</code> function.
         </p>
         <p>
-          The following examples show how to <b>create a basic bar plot</b> with plotnine and
-          how to <b>customize it</b>.
+          The following examples show how to <b>create a basic bar plot</b> with
+          plotnine and how to <b>customize it</b>.
         </p>
         <Row>
           <ChartImageContainer
@@ -187,18 +184,16 @@ export default function Post() {
       <Spacing />
 
       <Container>
-        <h2 id="Gallery">
-          Histogram with plotnine
-        </h2>
+        <h2 id="Gallery">Histogram with plotnine</h2>
         <p>
-          <a href="/histogram">Bar plots</a> are a great way to visualize
-          the distribution of a numerical variable. The{' '}
-          <code>plotnine</code> library makes it easy thanks to its{' '}
-          <code>geom_histogram()</code> function.
+          <a href="/histogram">Bar plots</a> are a great way to visualize the
+          distribution of a numerical variable. The <code>plotnine</code>{' '}
+          library makes it easy thanks to its <code>geom_histogram()</code>{' '}
+          function.
         </p>
         <p>
-          The following examples show how to <b>create a basic histogram</b> with plotnine and
-          how to <b>customize it</b>.
+          The following examples show how to <b>create a basic histogram</b>{' '}
+          with plotnine and how to <b>customize it</b>.
         </p>
         <Row>
           <ChartImageContainer
@@ -233,9 +228,7 @@ export default function Post() {
       <Spacing />
 
       <Container>
-        <h2 id="Gallery">
-          Change theme with plotnine
-        </h2>
+        <h2 id="Gallery">Change theme with plotnine</h2>
         <p>
           <code>Plotnine</code> allows to <b>change the theme</b> of the chart.
           This can easily be done by adding <code>theme_*</code> functions to

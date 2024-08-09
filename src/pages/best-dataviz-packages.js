@@ -89,6 +89,20 @@ const logoMatplotExtension = [
     height: '120px',
   },
   {
+    imgPath: pyfontsImg,
+    url: '/599-introduction-pyfonts',
+    altText: 'pyfonts logo',
+    name: 'PyFonts',
+    height: '115px',
+  },
+  {
+    imgPath: drawarrowImg,
+    url: '/drawarrow',
+    altText: 'drawarrow logo',
+    name: 'DrawArrow',
+    height: '115px',
+  },
+  {
     imgPath: HighlighTextImg,
     url: '/advanced-custom-annotations-matplotlib',
     altText: 'Highlight Text logo',
@@ -99,20 +113,6 @@ const logoMatplotExtension = [
     url: '/594-introduction-flexitext',
     altText: 'Flexitext logo',
     name: 'Flexitext',
-    height: '115px',
-  },
-  {
-    imgPath: pyfontsImg,
-    url: '/599-introduction-pyfonts',
-    altText: 'pyfonts logo',
-    name: 'PyFonts',
-    height: '115px',
-  },
-  {
-    imgPath: drawarrowImg,
-    url: '/598-introduction-drawarrow',
-    altText: 'drawarrow logo',
-    name: 'DrawArrow',
     height: '115px',
   },
 ];

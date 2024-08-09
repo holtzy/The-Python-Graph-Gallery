@@ -68,7 +68,7 @@ export default function Pandass() {
       <TitleAndDescription
         title="Pandas for data visualization"
         description={chartDescription}
-        chartType={'plotly'}
+        chartType={'pandas'}
       />
 
       <Container>

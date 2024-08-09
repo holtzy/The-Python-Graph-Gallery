@@ -1,5 +1,4 @@
 import React from 'react';
-import CodeChunk from '../components/CodeChunk';
 
 const name = 'scatterplot';
 const description = (
@@ -21,7 +20,119 @@ const docUrl = 'https://seaborn.pydata.org/generated/seaborn.scatterplot.html';
 //
 //
 //
+
 const param1 = {
+  name: 'data',
+  description: (
+    <p>
+      Dataframe-like (pandas, numpy, polars...) with the columns we want to
+      plot.
+    </p>
+  ),
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.scatterplot(
+  data=df,
+  x='sepal_length',
+  y='sepal_width'
+)
+`.trim(),
+  type: 'dataframe',
+  howToUse: (
+    <div>
+      <p>
+        It just has to be a <code>pandas.DataFrame</code> (columns are
+        variables),
+        <code>numpy.ndarray</code> (rows/columns are variables), or any
+        mapping/sequence (dictionaries/lists)
+      </p>
+      <p>
+        Supports both long-form (each variable in its own column) and wide-form
+        (variables in separate columns; reshaped internally).
+      </p>
+    </div>
+  ),
+  img: '40_Basic_Scatterplot_seaborn',
+  post: '40-basic-scatterplot-seaborn',
+};
+//
+//
+//
+//
+//
+const param2 = {
+  name: 'x',
+  description: (
+    <p>Variable name that specify which column to plot on the x-axis.</p>
+  ),
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.scatterplot(
+  data=df,
+  x='sepal_length',
+  y='sepal_width',
+)
+`.trim(),
+  type: 'string',
+  howToUse: (
+    <p>
+      The simplest usage is to specify a column name (string) of a numerical
+      variable in <code>data</code>. Alternatively, you can omit{' '}
+      <code>data</code> and pass a vector-like object of numerical values to{' '}
+      <code>x</code>.
+    </p>
+  ),
+  img: '40_Basic_Scatterplot_seaborn',
+  post: '40-basic-scatterplot-seaborn',
+};
+//
+//
+//
+//
+//
+const param3 = {
+  name: 'y',
+  description: (
+    <p>Variable name that specify which column to plot on the y-axis.</p>
+  ),
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+
+# Plot
+sns.scatterplot(
+  data=df,
+  x='sepal_length',
+  y='sepal_width',
+)
+`.trim(),
+  type: 'string',
+  howToUse: (
+    <p>
+      The simplest usage is to specify a column name (string) of a numerical
+      variable in <code>data</code>. Alternatively, you can omit{' '}
+      <code>data</code> and pass a vector-like object of numerical values to{' '}
+      <code>y</code>.
+    </p>
+  ),
+  img: '40_Basic_Scatterplot_seaborn',
+  post: '40-basic-scatterplot-seaborn',
+};
+//
+//
+//
+//
+//
+const param4 = {
   name: 'color',
   description: (
     <p>
@@ -59,7 +170,7 @@ sns.scatterplot(
 //
 //
 //
-const param2 = {
+const param5 = {
   name: 'hue',
   description: (
     <p>
@@ -96,7 +207,7 @@ sns.scatterplot(
 //
 //
 //
-const param3 = {
+const param6 = {
   name: 'size',
   description: (
     <p>
@@ -133,7 +244,7 @@ sns.scatterplot(
 //
 //
 //
-const param4 = {
+const param7 = {
   name: 'style',
   description: (
     <p>
@@ -170,7 +281,7 @@ sns.scatterplot(
 //
 //
 //
-const param5 = {
+const param8 = {
   name: 'legend',
   description: (
     <p>
@@ -202,9 +313,64 @@ sns.scatterplot(
   post: '43-use-categorical-variable-to-color-scatterplot-seaborn',
 };
 
+const param9 = {
+  name: 'palette',
+  description: (
+    <p>
+      Defines colors for the hue semantic. It can be a list of colors or a
+      matplotlib colormap.
+    </p>
+  ),
+  basicUsage: `
+# Library & Dataset
+import seaborn as sns
+from pypalettes import get_hex
+df = sns.load_dataset('iris')
+
+# Load the 'Acadia' palette
+palette = get_hex('Acadia')
+
+# Plot
+sns.scatterplot(
+  data=df,
+  x='sepal_length',
+  y='sepal_width',
+  hue='species',
+  palette=palette
+)
+`.trim(),
+  type: 'list',
+  howToUse: (
+    <div>
+      <p>
+        This parameter is used <b>in combination</b> with the <code>hue</code>{' '}
+        parameter and will a assign a different color to each category in{' '}
+        <code>hue</code>.
+      </p>
+      <p>
+        Moreover, the <a href="/color-palette-finder">pypalettes library</a> can
+        help you find the best colors for your chart by providing access to
+        thousands of pre-made color palette.
+      </p>
+    </div>
+  ),
+  img: '43-use-categorical-variable-to-color-scatterplot-seaborn-pypalettes',
+  post: '43-use-categorical-variable-to-color-scatterplot-seaborn',
+};
+
 export const scatterplot = {
   name,
   description,
   docUrl,
-  parameters: [param1, param2, param3, param4, param5],
+  parameters: [
+    param1,
+    param2,
+    param3,
+    param4,
+    param5,
+    param6,
+    param7,
+    param8,
+    param9,
+  ],
 };
