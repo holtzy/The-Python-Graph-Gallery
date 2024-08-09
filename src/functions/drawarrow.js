@@ -47,7 +47,7 @@ plt.show()
     </p>
   ),
   img: 'introduction-drawarrow-1',
-  post: '',
+  post: 'drawarrow#Custom',
 };
 //
 //
@@ -83,7 +83,7 @@ plt.show()
     </p>
   ),
   img: 'introduction-drawarrow-1',
-  post: '',
+  post: 'drawarrow#Custom',
 };
 //
 //
@@ -115,7 +115,7 @@ plt.show()
     </p>
   ),
   img: 'tuto-drawarrow-1',
-  post: '',
+  post: 'drawarrow#Custom',
 };
 //
 //
@@ -147,7 +147,7 @@ plt.show()
     </p>
   ),
   img: 'tuto-drawarrow-2',
-  post: '',
+  post: 'drawarrow#Custom',
 };
 //
 //
@@ -179,7 +179,7 @@ plt.show()
     </p>
   ),
   img: 'tuto-drawarrow-4',
-  post: '',
+  post: 'drawarrow#Custom',
 };
 //
 //
@@ -211,7 +211,7 @@ plt.show()
     </p>
   ),
   img: 'tuto-drawarrow-5',
-  post: '',
+  post: 'drawarrow#Custom',
 };
 //
 //
@@ -243,12 +243,179 @@ plt.show()
     </p>
   ),
   img: 'tuto-drawarrow-6',
-  post: '',
+  post: 'drawarrow#Custom',
+};
+//
+//
+//
+//
+//
+const param8 = {
+  name: 'hatch',
+  description: <p>Symbol of the pattern to fill the arrow</p>,
+  basicUsage: `
+import matplotlib.pyplot as plt
+from drawarrow import fig_arrow
+
+fig, ax = plt.subplots(dpi=150, figsize=(10,10))
+fig_arrow(
+  tail_position=[0.3, 0.3],
+  head_position=[0.8, 0.8],
+  hatch='*',
+  mutation_scale=20,
+  edgecolor='red',
+  facecolor='black',
+  fig=fig
+)
+
+plt.show()
+`.trim(),
+  type: 'string',
+  howToUse: (
+    <p>
+      <a href="/matplotlib">Matplotlib</a> offers a variety of patterns:{' '}
+      <code>/</code>,<code>\\</code>, <code>|</code>, <code>-</code>,{' '}
+      <code>+</code>, <code>x</code>, <code>o</code>, <code>O</code>,{' '}
+      <code>.</code>, <code>*</code> that you can choose from.
+    </p>
+  ),
+  img: 'tuto-drawarrow-7',
+  post: 'drawarrow#Custom',
+};
+//
+//
+//
+//
+//
+const param9 = {
+  name: 'mutation_scale',
+  description: <p>Value used to scale the entire arrow (head and body)</p>,
+  basicUsage: `
+import matplotlib.pyplot as plt
+from drawarrow import fig_arrow
+
+fig, ax = plt.subplots(dpi=150, figsize=(10,10))
+
+fig_arrow(
+  tail_position=[0.3, 0.3],
+  head_position=[0.8, 0.8],
+  mutation_scale=2,
+  fig=fig
+)
+
+fig_arrow(
+  tail_position=[0.2, 0.3],
+  head_position=[0.6, 0.8],
+  mutation_scale=10,
+  fig=fig
+)
+
+plt.show()
+`.trim(),
+  type: 'number',
+  howToUse: (
+    <p>
+      This argument makes easier to change the size of the arrow by multiplying
+      all style properties by its value. If <code>mutation_scale=4</code>, the
+      arrow will be 4 times larger.
+    </p>
+  ),
+  img: 'tuto-drawarrow-8',
+  post: 'drawarrow#Custom',
+};
+//
+//
+//
+//
+//
+const param10 = {
+  name: 'alpha',
+  description: <p>Opacity of the arrow</p>,
+  basicUsage: `
+import matplotlib.pyplot as plt
+from drawarrow import fig_arrow
+
+fig, ax = plt.subplots(dpi=150, figsize=(10,10))
+
+fig_arrow(
+  tail_position=[0.2, 0.3],
+  head_position=[0.6, 0.8],
+  mutation_scale=10,
+  alpha=0.5,
+  fig=fig
+)
+
+plt.show()
+`.trim(),
+  type: 'number',
+  howToUse: (
+    <p>
+      This argument must be between 0 (completely transparent) and 1 (perfectly
+      opaque, default value).
+    </p>
+  ),
+  img: 'tuto-drawarrow-9',
+  post: 'drawarrow#Custom',
+};
+//
+//
+//
+//
+//
+const param11 = {
+  name: 'invert',
+  description: <p>Whether to invert to direction of the row</p>,
+  basicUsage: `
+import matplotlib.pyplot as plt
+from drawarrow import fig_arrow
+
+fig, ax = plt.subplots(dpi=150, figsize=(10,10))
+
+fig_arrow(
+  tail_position=[0.4, 0.3],
+  head_position=[0.8, 0.8],
+  mutation_scale=3,
+  radius=0.4,
+  fig=fig
+)
+
+fig_arrow(
+  tail_position=[0.4, 0.3],
+  head_position=[0.8, 0.8],
+  mutation_scale=3,
+  radius=0.4,
+  invert=True,
+  fig=fig
+)
+
+plt.show()
+`.trim(),
+  type: 'bool',
+  howToUse: (
+    <p>
+      The default value is <code>False</code> and the value <code>True</code>{' '}
+      modifies the direction of curvature of the arrow.
+    </p>
+  ),
+  img: 'tuto-drawarrow-10',
+  post: 'drawarrow#Custom',
 };
 
 export const fig_arrow = {
   name,
   description,
   docUrl,
-  parameters: [param1, param2, param3, param4, param5, param6, param7],
+  parameters: [
+    param1,
+    param2,
+    param3,
+    param4,
+    param5,
+    param6,
+    param7,
+    param8,
+    param9,
+    param10,
+    param11,
+  ],
 };

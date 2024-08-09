@@ -130,7 +130,7 @@ export default function Post() {
       <Spacing />
 
       <Container>
-        <h2 id="Axes">Draw an arrow on a figure</h2>
+        <h2 id="Figure">Draw an arrow on a figure</h2>
         <Row className="align-items-center">
           <Col md={5}>
             <ChartImage
@@ -153,7 +153,7 @@ export default function Post() {
       <Spacing />
 
       <Container>
-        <h2 id="Axes">Customize the arrow</h2>
+        <h2 id="Custom">Customize the arrow</h2>
         <Row className="align-items-center">
           <Col md={7}>
             <p>
