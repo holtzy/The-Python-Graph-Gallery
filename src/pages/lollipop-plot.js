@@ -187,11 +187,19 @@ export default function Lollipop() {
               />
             </Link>
           </Col>
-          <Col xs={12} md={10}>
+          <Col xs={12} md={6}>
             <Link to={'/web-lollipop-with-background-image'}>
               <ChartImage
                 imgName={'web-lollipop-with-background-image'}
                 caption={'Lollipop chart with a background image.'}
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-lollipop-with-colormap-and-arrow'}>
+              <ChartImage
+                imgName={'web-lollipop-with-colormap-and-arrow-square'}
+                caption={'Horizontal lollipop chart with nice annotations.'}
               />
             </Link>
           </Col>
