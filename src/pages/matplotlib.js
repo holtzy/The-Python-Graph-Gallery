@@ -7,6 +7,8 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
+import FunctionExploration from '../components/FunctionExploration';
+import { fig_arrow } from '../functions/drawarrow';
 import pypalettesGIF from '../../static/asset/pypalettes.gif';
 import {
   Matplotlib,
@@ -473,6 +475,13 @@ export default function Matplotlibs() {
           />
         </Row>
       </Container>
+      <div className="greySection">
+        <Container>
+          <Container>
+            <FunctionExploration funDetails={fig_arrow} />
+          </Container>
+        </Container>
+      </div>
 
       <Spacing />
 

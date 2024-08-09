@@ -114,7 +114,7 @@ plt.show()
       position.
     </p>
   ),
-  img: 'tuto-drawarrow-1',
+  img: 'tuto-drawarrow-1-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -146,7 +146,7 @@ plt.show()
       or rgb color.
     </p>
   ),
-  img: 'tuto-drawarrow-2',
+  img: 'tuto-drawarrow-2-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -178,7 +178,7 @@ plt.show()
       or rgb color.
     </p>
   ),
-  img: 'tuto-drawarrow-4',
+  img: 'tuto-drawarrow-4-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -210,7 +210,7 @@ plt.show()
       of your arrow.
     </p>
   ),
-  img: 'tuto-drawarrow-5',
+  img: 'tuto-drawarrow-5-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -242,7 +242,7 @@ plt.show()
       or rgb color.
     </p>
   ),
-  img: 'tuto-drawarrow-6',
+  img: 'tuto-drawarrow-6-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -279,7 +279,7 @@ plt.show()
       <code>.</code>, <code>*</code> that you can choose from.
     </p>
   ),
-  img: 'tuto-drawarrow-7',
+  img: 'tuto-drawarrow-7-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -320,7 +320,7 @@ plt.show()
       arrow will be 4 times larger.
     </p>
   ),
-  img: 'tuto-drawarrow-8',
+  img: 'tuto-drawarrow-8-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -354,7 +354,7 @@ plt.show()
       opaque, default value).
     </p>
   ),
-  img: 'tuto-drawarrow-9',
+  img: 'tuto-drawarrow-9-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -397,7 +397,7 @@ plt.show()
       modifies the direction of curvature of the arrow.
     </p>
   ),
-  img: 'tuto-drawarrow-10',
+  img: 'tuto-drawarrow-10-square',
   post: 'drawarrow#Custom',
 };
 
