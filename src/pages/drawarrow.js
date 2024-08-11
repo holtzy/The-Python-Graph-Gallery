@@ -6,7 +6,6 @@ import Contact from '../components/Contact';
 import Row from 'react-bootstrap/Row';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
-import { DrawArrow } from '../components/MiscellaneousLogos';
 import FunctionExploration from '../components/FunctionExploration';
 import { fig_arrow } from '../functions/drawarrow';
 import { Col } from 'react-bootstrap';
@@ -84,6 +83,14 @@ export default function Post() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
+      </Container>
+
+      <Container>
+        <iframe
+          src="https://drawarrow.streamlit.app?embed=true"
+          width={'100%'}
+          height={'1500px'}
+        ></iframe>
       </Container>
 
       <Spacing />
