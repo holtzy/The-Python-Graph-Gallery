@@ -18,6 +18,8 @@ import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
+import { hist } from '../functions/hist';
+import FunctionExploration from '../components/FunctionExploration';
 
 const chartDescription = (
   <>
@@ -226,6 +228,14 @@ export default function Histogram() {
 
       <Spacing />
 
+      <div className="greySection">
+        <Container>
+          <FunctionExploration funDetails={hist} />
+        </Container>
+      </div>
+
+      <Spacing />
+
       <Container>
         <h2 id="Matplotlib">
           <Matplotlib />
@@ -252,6 +262,11 @@ export default function Histogram() {
           <ChartImageContainer
             imgName="basic-histogram-in-matplotlib2"
             caption="Reduce chart opacity and add annotation (median represented in vertical line)"
+            linkTo="/basic-histogram-in-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="tuto-hist-3"
+            caption="Cumulative histogram"
             linkTo="/basic-histogram-in-matplotlib"
           />
           <ChartImageContainer
