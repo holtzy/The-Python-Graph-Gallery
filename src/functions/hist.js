@@ -38,7 +38,7 @@ plt.show()
       <a href="/python-colors">Learn more about colors.</a>
     </p>
   ),
-  img: 'tuto-hist-1',
+  img: 'tuto-hist-1-square',
   post: 'basic-histogram-in-matplotlib',
 };
 //
@@ -67,7 +67,7 @@ plt.show()
       &apos;sqrt&apos;).
     </p>
   ),
-  img: 'tuto-hist-2',
+  img: 'tuto-hist-2-square',
   post: 'basic-histogram-in-matplotlib',
 };
 //
@@ -99,7 +99,7 @@ plt.show()
       regular histogram.
     </p>
   ),
-  img: 'tuto-hist-3',
+  img: 'tuto-hist-3-square',
   post: 'basic-histogram-in-matplotlib',
 };
 //
@@ -125,7 +125,7 @@ plt.show()
       Values range from 0 (completely transparent) to 1 (completely opaque).
     </p>
   ),
-  img: 'tuto-hist-5',
+  img: 'tuto-hist-5-square',
   post: 'basic-histogram-in-matplotlib',
 };
 //
@@ -154,7 +154,7 @@ plt.show()
       <code>&apos;horizontal&apos;</code>
     </p>
   ),
-  img: 'tuto-hist-4',
+  img: 'tuto-hist-4-square',
   post: 'basic-histogram-in-matplotlib',
 };
 //
@@ -181,7 +181,7 @@ plt.show()
       <a href="/python-colors">Learn more about colors.</a>
     </p>
   ),
-  img: 'tuto-hist-6',
+  img: 'tuto-hist-6-square',
   post: 'basic-histogram-in-matplotlib',
 };
 //
