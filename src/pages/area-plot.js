@@ -197,11 +197,11 @@ export default function AreaPlot() {
             </Link>
           </Col>
           <Col xs={12} md={6}>
-            <Link to={'/web-overlapped-area-chart-with-zoom-outsets'}>
+            <Link to={'/web-minimalist-area-chart'}>
               <ChartImage
-                imgName={'web-overlapped-area-chart-with-zoom-outsets'}
+                imgName={'web-minimalist-area-chart-square'}
                 caption={
-                  'An area chart using overlaid fills to co-display two time series and zoom panels to expand areas of interest'
+                  'A minimalist area chart with clean annotations and style'
                 }
               />
             </Link>
