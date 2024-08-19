@@ -18,6 +18,8 @@ import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
+import { plot } from '../functions/plot';
+import FunctionExploration from '../components/FunctionExploration';
 
 const chartDescription = (
   <>
@@ -168,6 +170,14 @@ export default function LinePlot() {
           />
         </Row>
       </Container>
+
+      <Spacing />
+
+      <div className="greySection">
+        <Container>
+          <FunctionExploration funDetails={plot} />
+        </Container>
+      </div>
 
       <Spacing />
 
