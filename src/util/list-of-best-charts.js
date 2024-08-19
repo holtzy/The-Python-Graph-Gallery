@@ -1,5 +1,14 @@
 export const listOfBestCharts = [
   {
+    link: 'web-lollipop-with-colormap-and-arrow',
+    title: 'Evolution of temperature variation',
+    description:
+      'Temperature change compared to the average between 1951 and 1980.',
+    img: 'web-lollipop-with-colormap-and-arrow.png',
+    alt: 'Waffle chart about storms frequency',
+    author: 'Joseph Barbier',
+  },
+  {
     link: 'web-waffle-chart-for-time-series',
     title: 'Share of cereals used as animal feeds',
     description:
