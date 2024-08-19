@@ -37,7 +37,11 @@ export const Head = () => (
 export default function SeabornLib() {
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Seaborn" description={chartDescription} />
+      <TitleAndDescription
+        title="Seaborn"
+        description={chartDescription}
+        chartType="seaborn"
+      />
 
       <Container>
         <h2 id="Quick start">&#9201; Quick start</h2>

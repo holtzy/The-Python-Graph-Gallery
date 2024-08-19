@@ -7,8 +7,14 @@ import Row from 'react-bootstrap/Row';
 import ChartImageContainer from '../components/ChartImageContainer';
 import ChartFamilySection from '../components/ChartFamilySection';
 import { Link } from 'gatsby';
+import FunctionExploration from '../components/FunctionExploration';
+import { fig_arrow } from '../functions/drawarrow';
 import pypalettesGIF from '../../static/asset/pypalettes.gif';
-import { Matplotlib } from '../components/MiscellaneousLogos';
+import {
+  Matplotlib,
+  DrawArrow,
+  PyFonts,
+} from '../components/MiscellaneousLogos';
 import { Col, ToggleButton } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
@@ -19,13 +25,12 @@ import { SEO } from '../components/SEO';
 const chartDescription =
   "<p><code>Matplotlib</code> is the most famous library for data visualization with <code>python</code>. It allows to create literally every type of chart with a great level of customization. This page provides some general tips that can be applied on any kind of chart made with <code>matplotlib</code> like customizing titles or colors. If you're looking at creating a specific chart type, visit <a href='https://python-graph-gallery.com'>the gallery</a> instead.</p>";
 
-const quickCode = `# library
-import numpy as np
+const quickCode = `# Library
 import matplotlib.pyplot as plt
 
 # Create data
-x=range(1,6)
-y=[1,4,6,8,4]
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 6, 8, 4]
 
 # Area plot
 plt.fill_between(x, y)
@@ -120,7 +125,11 @@ export default function Matplotlibs() {
 
   return (
     <Layout isTocEnabled>
-      <TitleAndDescription title="Matplotlib" description={chartDescription} />
+      <TitleAndDescription
+        title="Matplotlib"
+        description={chartDescription}
+        chartType="matplotlib"
+      />
 
       <Container>
         <h2 id="Quick">&#9201; Quick start</h2>
@@ -319,11 +328,6 @@ export default function Matplotlibs() {
         </p>
         <Row>
           <ChartImageContainer
-            imgName="193_annotate1"
-            caption="Add a label with a segment"
-            linkTo="/193-annotate-matplotlib-chart"
-          />
-          <ChartImageContainer
             imgName="193_annotate2"
             caption="Add a square to highlight an area"
             linkTo="/193-annotate-matplotlib-chart"
@@ -359,26 +363,6 @@ export default function Matplotlibs() {
             linkTo="/513-add-logo-matplotlib"
           />
           <ChartImageContainer
-            imgName="how-to-create-and-custom-arrows-matplotlib-1"
-            caption="How to create an arrow with an annotation"
-            linkTo="/how-to-create-and-custom-arrows-matplotlib"
-          />
-          <ChartImageContainer
-            imgName="how-to-create-and-custom-arrows-matplotlib-2"
-            caption="How to create rounded arrows with matplotlib"
-            linkTo="/how-to-create-and-custom-arrows-matplotlib"
-          />
-          <ChartImageContainer
-            imgName="591-arrows-with-inflexion-point-1"
-            caption="How to create an arrow with an inflexion point"
-            linkTo="/591-arrows-with-inflexion-point"
-          />
-          <ChartImageContainer
-            imgName="591-arrows-with-inflexion-point-2"
-            caption="Arrow with an inflexion in a real life example"
-            linkTo="/591-arrows-with-inflexion-point"
-          />
-          <ChartImageContainer
             imgName="589-how-to-change-coordinate-system"
             caption="How to change the coordinate system of a chart"
             linkTo="/589-how-to-change-coordinate-system"
@@ -386,12 +370,11 @@ export default function Matplotlibs() {
         </Row>
         <p>
           <br />
-          The main problem with matplotlib annotations is that <b>
-            you can't
-          </b>{' '}
-          have different font styles (<i>color, weight, size...</i>) inside a
-          same annotation. And this is a big issue because highlighting text has
-          a <b>major role</b> in data visualization.
+          The main problem with matplotlib annotations is that{' '}
+          <b>you can&apos;t</b> have different font styles (
+          <i>color, weight, size...</i>) inside a same annotation. And this is a
+          big issue because highlighting text has a <b>major role</b> in data
+          visualization.
         </p>
         <p>
           Fortunately for us, the <code>highlight_text</code> package exists!
@@ -416,9 +399,10 @@ export default function Matplotlibs() {
           />
         </Row>
         <p>
-          <br />A similar tool to highlight_text is <code>flexitext</code>. The
-          core difference relies on the syntax used, where flexitext has
-          something more <b>similar to HTML</b> compared to highlight_text.
+          <br />A similar tool to highlight_text is{' '}
+          <a href="/594-introduction-flexitext">flexitext</a>. The core
+          difference relies on the syntax used, where flexitext has something
+          more <b>similar to HTML</b> compared to highlight_text.
         </p>
         <Row>
           <ChartImageContainer
@@ -438,6 +422,66 @@ export default function Matplotlibs() {
           />
         </Row>
       </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Arrow">
+          <DrawArrow />
+          Arrows
+        </h2>
+        <p>
+          Matplotlib offers built-in arrow functions like{' '}
+          <code>annotate()</code> and
+          <code>FancyArrowPatch()</code>. For full customization, though, the{' '}
+          <a href="/drawarrow">drawarrow</a> library is a more{' '}
+          <b>straightforward</b> option.
+        </p>
+        <p>
+          The following posts will guide you in creating{' '}
+          <b>any arrow you need</b> using both Matplotlib functions and those
+          from <a href="/drawarrow">drawarrow</a>.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="193_annotate1"
+            caption="Add a label with a segment"
+            linkTo="/193-annotate-matplotlib-chart"
+          />
+          <ChartImageContainer
+            imgName="introduction-drawarrow-1"
+            caption="use DrawArrow to make arrow easily"
+            linkTo="/drawarrow"
+          />
+          <ChartImageContainer
+            imgName="introduction-drawarrow-3"
+            caption="customize arrows with DrawArrow"
+            linkTo="/drawarrow"
+          />
+          <ChartImageContainer
+            imgName="how-to-create-and-custom-arrows-matplotlib-1"
+            caption="How to create an arrow with an annotation"
+            linkTo="/how-to-create-and-custom-arrows-matplotlib"
+          />
+          <ChartImageContainer
+            imgName="591-arrows-with-inflexion-point-1"
+            caption="How to create an arrow with an inflexion point"
+            linkTo="/591-arrows-with-inflexion-point"
+          />
+          <ChartImageContainer
+            imgName="591-arrows-with-inflexion-point-2"
+            caption="Arrow with an inflexion in a real life example"
+            linkTo="/591-arrows-with-inflexion-point"
+          />
+        </Row>
+      </Container>
+      <div className="greySection">
+        <Container>
+          <Container>
+            <FunctionExploration funDetails={fig_arrow} />
+          </Container>
+        </Container>
+      </div>
 
       <Spacing />
 
@@ -571,7 +615,7 @@ export default function Matplotlibs() {
 
       <Container>
         <h2 id="Font">
-          <Matplotlib />
+          <PyFonts />
           Custom fonts
         </h2>
         <p>
