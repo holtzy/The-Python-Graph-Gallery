@@ -13,6 +13,8 @@ import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
+import { scatterplot } from '../functions/scatterplot';
+import FunctionExploration from '../components/FunctionExploration';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/bubble.html'>bubble plot</a> is a <a href='https://python-graph-gallery.com/scatter-plot'>scatterplot</a> where the circle size is mapped to the value of a third numeric variable. This section shows many bubble plots made with <code>Python</code>, using both the <code>Matplotlib</code> and <code>Seaborn</code> libraries.</p>";
@@ -101,6 +103,14 @@ export default function BubblePlot() {
           />
         </Row>
       </Container>
+
+      <Spacing />
+
+      <div className="greySection">
+        <Container>
+          <FunctionExploration funDetails={scatterplot} />
+        </Container>
+      </div>
 
       <Spacing />
 
