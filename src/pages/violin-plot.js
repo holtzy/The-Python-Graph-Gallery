@@ -11,9 +11,10 @@ import { Matplotlib, Seaborn } from '../components/MiscellaneousLogos';
 import { Col } from 'react-bootstrap';
 import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
-import FunctionExploration from '../components/FunctionExploration';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
+import FunctionExploration from '../components/FunctionExploration';
+import { violinplot } from '../functions/violinplot';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/violin.html'>violint plot</a> allows you to visualize the distribution of a numeric variable for one or several groups. <code>Seaborn</code> is particularly adapted to build it thanks to its <code>violin()</code> function. Violin plots deserve more attention than <a href='https://python-graph-gallery.com/boxplot'>boxplots</a>, which can sometimes hide features of the data.</p>";
@@ -115,6 +116,11 @@ export default function ViolinPlot() {
             linkTo="/54-grouped-violinplot"
           />
           <ChartImageContainer
+            imgName="tuto-violinplot-2"
+            caption="Split subgroups on the same axis"
+            linkTo="/54-grouped-violinplot"
+          />
+          <ChartImageContainer
             imgName="58_Number_of_obs_on_violinplot_seaborn"
             caption="Show the number of observations per group"
             linkTo="/58-show-number-of-observation-on-violinplot"
@@ -131,6 +137,14 @@ export default function ViolinPlot() {
           />
         </Row>
       </Container>
+
+      <Spacing />
+
+      <div className="greySection">
+        <Container>
+          <FunctionExploration funDetails={violinplot} />
+        </Container>
+      </div>
 
       <Spacing />
 
