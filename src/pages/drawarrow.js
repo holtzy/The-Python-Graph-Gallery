@@ -22,7 +22,7 @@ const chartDescription = (
     </p>
     <p>
       It was created by <a href="https://barbierjoseph.com/">Joseph Barbier</a>{' '}
-      in to create curved, straight, thin, large or bizarre arrows in
+      in order to create curved, straight, thin, large or bizarre arrows in
       matplotlib, in <b>any color, width and style you like</b>.
     </p>
   </>

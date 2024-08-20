@@ -397,8 +397,8 @@ plt.show()
   type: 'bool',
   howToUse: (
     <p>
-      If set to True, the curvature of the arrow will be inverted. Another way
-      of doing so is to set the radius to a negative value.
+      If set to <code>True</code>, the curvature of the arrow will be inverted.
+      Another way of doing so is to set the radius to a negative value.
     </p>
   ),
   img: 'tuto-drawarrow-10-square',

@@ -62,7 +62,9 @@ export default function FunctionExploration({ funDetails }) {
           gap: 14,
         }}
       >
-        <h3 style={{ width: 'auto' }}>&rarr; Arguments</h3>
+        <h3 style={{ width: 'auto', flexWrap: 'nowrap', whiteSpace: 'nowrap' }}>
+          &rarr; Arguments
+        </h3>
         {argumentButtons}
       </div>
 
