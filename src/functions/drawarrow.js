@@ -1,6 +1,6 @@
 import React from 'react';
 
-const name = 'fig_arrow';
+const name = 'fig_arrow()';
 const description = (
   <>
     <p>
@@ -110,8 +110,7 @@ plt.show()
   type: 'number',
   howToUse: (
     <p>
-      The first value is the x-axis position, and the second value is the y-axis
-      position.
+      It can be any value, but in most cases you want it to be between -1 and 1.
     </p>
   ),
   img: 'tuto-drawarrow-1-square',
@@ -156,7 +155,7 @@ plt.show()
 //
 const param5 = {
   name: 'tail_width',
-  description: <p>Width of the arrow</p>,
+  description: <p>Specify the width of the tail of the arrow.</p>,
   basicUsage: `
 import matplotlib.pyplot as plt
 from drawarrow import fig_arrow
@@ -173,10 +172,15 @@ plt.show()
 `.trim(),
   type: 'number',
   howToUse: (
-    <p>
-      This can be any <a href="/python-colors">matplotlib color</a>, hexadecimal
-      or rgb color.
-    </p>
+    <div>
+      <p>
+        An arrow has 2 main parts: the head and the tail. Everything that is not
+        the head is the tail.
+      </p>
+      <p>
+        In most cases, you want the width of the tail to be between 1 and 50.
+      </p>
+    </div>
   ),
   img: 'tuto-drawarrow-4-square',
   post: 'drawarrow#Custom',
@@ -238,8 +242,8 @@ plt.show()
   type: 'number',
   howToUse: (
     <p>
-      This can be any <a href="/python-colors">matplotlib color</a>, hexadecimal
-      or rgb color.
+      The length of the head of the arrow is generally between 1 and 50. The
+      default value is 8.
     </p>
   ),
   img: 'tuto-drawarrow-6-square',
@@ -364,7 +368,7 @@ plt.show()
 //
 const param11 = {
   name: 'invert',
-  description: <p>Whether to invert to direction of the row</p>,
+  description: <p>Whether to invert the curvature of the arrow</p>,
   basicUsage: `
 import matplotlib.pyplot as plt
 from drawarrow import fig_arrow
@@ -393,8 +397,8 @@ plt.show()
   type: 'bool',
   howToUse: (
     <p>
-      The default value is <code>False</code> and the value <code>True</code>{' '}
-      modifies the direction of curvature of the arrow.
+      If set to True, the curvature of the arrow will be inverted. Another way
+      of doing so is to set the radius to a negative value.
     </p>
   ),
   img: 'tuto-drawarrow-10-square',
