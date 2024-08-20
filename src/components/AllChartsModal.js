@@ -10,20 +10,32 @@ import { fullUrlToInternalLink } from '../util/utils';
 export default function AllChartsModal({ show, handleClose }) {
   const [name, setName] = React.useState('');
 
-  const logoList = chartTypesInfo.map((chart, i) => {
-    return (
-      <div
-        key={i}
-        className="menuModalLogo"
-        onMouseEnter={() => setName(chart.label)}
-        onMouseLeave={() => setName('')}
-      >
-        <Link to={fullUrlToInternalLink(chart.pythonURL)}>
-          <SectionLogo chartType={chart.logo} />
-        </Link>
-      </div>
-    );
-  });
+  const logoList = chartTypesInfo
+    .filter(
+      (chart) =>
+        ![
+          'matplotlib',
+          'drawarrow',
+          'seaborn',
+          'plotnine',
+          'pypalettes',
+          'pandas',
+        ].includes(chart.id)
+    )
+    .map((chart, i) => {
+      return (
+        <div
+          key={i}
+          className="menuModalLogo"
+          onMouseEnter={() => setName(chart.label)}
+          onMouseLeave={() => setName('')}
+        >
+          <Link to={fullUrlToInternalLink(chart.pythonURL)}>
+            <SectionLogo chartType={chart.logo} />
+          </Link>
+        </div>
+      );
+    });
 
   return (
     <Modal
