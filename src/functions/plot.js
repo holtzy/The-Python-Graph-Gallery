@@ -162,7 +162,8 @@ plt.show()
   type: 'float',
   howToUse: (
     <p>
-      Values range from 0 (completely transparent) to 1 (completely opaque).
+      Values range from <code>0</code> (completely transparent) to{' '}
+      <code>1</code> (completely opaque).
     </p>
   ),
   img: 'tuto-plot-5-square',
