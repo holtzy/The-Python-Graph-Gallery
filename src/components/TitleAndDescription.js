@@ -26,7 +26,7 @@ export default function TitleAndDescription({
         <div className="titleRow">
           <h1 className="mainTitle">{title}</h1>
           {chartInfo && (
-            <div style={{ width: 80 }}>
+            <div style={{ width: 100, minWidth: 100 }}>
               <SectionLogo chartType={chartInfo.logo} />
             </div>
           )}

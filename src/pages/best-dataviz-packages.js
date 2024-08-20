@@ -86,7 +86,7 @@ const logoMatplotExtension = [
     url: '/color-palette-finder',
     altText: 'Pypalettes logo',
     name: 'PyPalettes',
-    height: '120px',
+    height: '115px',
   },
   {
     imgPath: pyfontsImg,
@@ -107,6 +107,7 @@ const logoMatplotExtension = [
     url: '/advanced-custom-annotations-matplotlib',
     altText: 'Highlight Text logo',
     name: 'Highlight Text',
+    height: '115px',
   },
   {
     imgPath: FlexiTextImg,
