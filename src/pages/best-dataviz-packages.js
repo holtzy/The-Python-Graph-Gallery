@@ -90,7 +90,7 @@ const logoMatplotExtension = [
   },
   {
     imgPath: pyfontsImg,
-    url: '/599-introduction-pyfonts',
+    url: '/pyfonts',
     altText: 'pyfonts logo',
     name: 'PyFonts',
     height: '115px',

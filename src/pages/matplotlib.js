@@ -620,9 +620,15 @@ export default function Matplotlibs() {
         </h2>
         <p>
           Using custom fonts adds a nice touch to your graph and make it shine
-          among all the other plots using defaults. The blog-post below will
-          guide you through the process: installing a font and calling it with
-          matplotlib functions.
+          among all the other plots using defaults. The <b>simplest way</b> to
+          customize your fonts is with the <a href="/pyfonts">PyFonts</a>{' '}
+          library, which lets you <b>load any font from the web</b> with just a
+          single line of code!
+        </p>
+        <p>
+          The blog post below will walk you through using{' '}
+          <a href="/pyfonts">PyFonts</a> or installing and applying a local font
+          with matplotlib functions.
         </p>
         <div style={{ maxWidth: '600px', margin: '0 auto', padding: 30 }}>
           <Link to="/custom-fonts-in-matplotlib">

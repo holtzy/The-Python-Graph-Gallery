@@ -4,7 +4,7 @@ export const listOfBestCharts = [
     title: 'Evolution of temperature variation',
     description:
       'Temperature change compared to the average between 1951 and 1980.',
-    img: 'web-lollipop-with-colormap-and-arrow.png',
+    img: 'web-lollipop-with-colormap-and-arrow-square.png',
     alt: 'Waffle chart about storms frequency',
     author: 'Joseph Barbier',
   },
@@ -30,7 +30,7 @@ export const listOfBestCharts = [
     link: 'web-minimalist-area-chart',
     title: "Japan's population evolution",
     description: "Evolution of Japan's population between 1952 and 2024.",
-    img: 'web-minimalist-area-chart.png',
+    img: 'web-minimalist-area-chart-square.png',
     alt: 'Area chart',
     author: 'Joseph Barbier',
   },

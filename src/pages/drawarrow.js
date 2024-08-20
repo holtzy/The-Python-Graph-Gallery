@@ -56,7 +56,17 @@ export default function Post() {
         <Row className="align-items-center">
           <Col md={7}>
             <p>
-              It provides <b>2 simple functions</b>:
+              Matplotlib graphs have <strong>two main components</strong>:
+            </p>
+            <ul>
+              <li>the figure (the overall graph)</li>
+              <li>the axes (all the sub-graphs)</li>
+            </ul>
+            <p>
+              &rarr; <a href="/matplotlib/#Lexicon">Learn more about it</a>
+            </p>
+            <p>
+              DrawArrow provides <b>2 simple functions</b>:
               <ul>
                 <li>
                   <code>fig_arrow()</code>: draw an arrow on a matplotlib{' '}
@@ -83,14 +93,6 @@ export default function Post() {
           </Col>
         </Row>
         <CodeChunk>{quickCode}</CodeChunk>
-      </Container>
-
-      <Container>
-        <iframe
-          src="https://drawarrow.streamlit.app?embed=true"
-          width={'100%'}
-          height={'1500px'}
-        ></iframe>
       </Container>
 
       <Spacing />
@@ -164,15 +166,18 @@ export default function Post() {
         <Row className="align-items-center">
           <Col md={7}>
             <p>
-              As the arrow displayed is in fact a <code>FancyArrowPatch</code>{' '}
-              (a special{' '}
+              The arrow displayed is a <code>FancyArrowPatch</code>, a
+              specialized{' '}
               <strong>
                 <a href="/matplotlib">matplotlib</a> object
               </strong>{' '}
-              that can be used to create complex arrow), you can pass all its
-              additional arguments to <code>fig_arrow()</code> and{' '}
-              <code>ax_arrow()</code>. The most useful of these are used in the
-              example below.
+              for creating complex arrows. You can pass any additional arguments
+              for this object to <code>fig_arrow()</code> and{' '}
+              <code>ax_arrow()</code>.
+            </p>
+            <br />
+            <p>
+              The example below demonstrates some of the most useful options.
             </p>
           </Col>
           <Col md={5}>
@@ -188,6 +193,42 @@ export default function Post() {
       <Spacing />
 
       <Container>
+        <h2>Gallery of examples</h2>
+        <p>
+          Here are some examples of what you can do with drawarrow. Click on the
+          images to see the code.
+        </p>
+        <Row>
+          <Col xs={12} md={4}>
+            <Link to="/web-map-with-custom-legend">
+              <ChartImage
+                imgName={'web-map-with-custom-legend'}
+                caption={'Choropleth map with continuous palette'}
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to="/web-lollipop-with-colormap-and-arrow">
+              <ChartImage
+                imgName={'web-lollipop-with-colormap-and-arrow-square'}
+                caption={'Lollipop chart with arrows'}
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={4}>
+            <Link to="/web-minimalist-area-chart">
+              <ChartImage
+                imgName={'web-minimalist-area-chart-square'}
+                caption={'Minimalist style area chart'}
+              />
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2>Going further</h2>
         <p>
           You might be interested in
@@ -197,7 +238,8 @@ export default function Post() {
               <a href="https://github.com/JosephBARBIERDARNAL/drawarrow">
                 {' '}
                 official github repo of drawarrow
-              </a>
+              </a>{' '}
+              (give it a star!)
             </li>
             <li>
               how to draw an{' '}
@@ -213,9 +255,7 @@ export default function Post() {
             </li>
             <li>
               how to work with{' '}
-              <a href="/599-introduction-pyfonts">
-                different fonts in matplotlib
-              </a>
+              <a href="/pyfonts">different fonts in matplotlib</a>
             </li>
           </ul>
         </p>
