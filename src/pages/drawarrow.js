@@ -255,9 +255,7 @@ export default function Post() {
             </li>
             <li>
               how to work with{' '}
-              <a href="/599-introduction-pyfonts">
-                different fonts in matplotlib
-              </a>
+              <a href="/pyfonts">different fonts in matplotlib</a>
             </li>
           </ul>
         </p>
