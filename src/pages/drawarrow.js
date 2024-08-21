@@ -216,9 +216,11 @@ export default function Post() {
             </Link>
           </Col>
           <Col xs={12} md={4}>
-            <Link to="/web-minimalist-area-chart">
+            <Link to="/web-area-chart-with-different-colors-for-positive-and-negative-values">
               <ChartImage
-                imgName={'web-minimalist-area-chart-square'}
+                imgName={
+                  'web-area-chart-with-different-colors-for-positive-and-negative-values-square'
+                }
                 caption={'Minimalist style area chart'}
               />
             </Link>
@@ -239,7 +241,7 @@ export default function Post() {
                 {' '}
                 official github repo of drawarrow
               </a>{' '}
-              (give it a star!)
+              (⭐ give it a star!)
             </li>
             <li>
               how to draw an{' '}
