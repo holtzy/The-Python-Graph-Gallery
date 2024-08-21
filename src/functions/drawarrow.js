@@ -1,4 +1,9 @@
 import React from 'react';
+import {
+  colorHowToUse,
+  hatchHowToUse,
+  alphaHowToUse,
+} from './paramDescription';
 
 const name = 'fig_arrow()';
 const description = (
@@ -139,12 +144,7 @@ fig_arrow(
 plt.show()
 `.trim(),
   type: 'string',
-  howToUse: (
-    <p>
-      This can be any <a href="/python-colors">matplotlib color</a>, hexadecimal
-      or rgb color.
-    </p>
-  ),
+  howToUse: <div>{colorHowToUse}</div>,
   img: 'tuto-drawarrow-2-square',
   post: 'drawarrow#Custom',
 };
@@ -275,14 +275,7 @@ fig_arrow(
 plt.show()
 `.trim(),
   type: 'string',
-  howToUse: (
-    <p>
-      <a href="/matplotlib">Matplotlib</a> offers a variety of patterns:{' '}
-      <code>/</code>,<code>\\</code>, <code>|</code>, <code>-</code>,{' '}
-      <code>+</code>, <code>x</code>, <code>o</code>, <code>O</code>,{' '}
-      <code>.</code>, <code>*</code> that you can choose from.
-    </p>
-  ),
+  howToUse: <div>{hatchHowToUse}</div>,
   img: 'tuto-drawarrow-7-square',
   post: 'drawarrow#Custom',
 };
@@ -352,12 +345,7 @@ fig_arrow(
 plt.show()
 `.trim(),
   type: 'number',
-  howToUse: (
-    <p>
-      This argument must be between 0 (completely transparent) and 1 (perfectly
-      opaque, default value).
-    </p>
-  ),
+  howToUse: <div>{alphaHowToUse}</div>,
   img: 'tuto-drawarrow-9-square',
   post: 'drawarrow#Custom',
 };

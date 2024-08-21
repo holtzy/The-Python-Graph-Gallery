@@ -1,6 +1,15 @@
 import React from 'react';
+import {
+  colorHowToUse,
+  hueDescription,
+  hueHowToUse,
+  dataDescription,
+  dataHowToUse,
+  paletteDescription,
+  paletteHowToUse,
+} from './paramDescription';
 
-const name = 'kdeplot';
+const name = 'kdeplot()';
 const description = (
   <>
     <p>
@@ -22,12 +31,7 @@ const docUrl = 'https://seaborn.pydata.org/generated/seaborn.kdeplot.html';
 //
 const param1 = {
   name: 'data',
-  description: (
-    <p>
-      Dataframe-like (pandas, numpy, polars...) with the columns we want to
-      plot.
-    </p>
-  ),
+  description: <div>{dataDescription}</div>,
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
@@ -37,20 +41,7 @@ df = sns.load_dataset('iris')
 sns.kdeplot(data=df, x='sepal_width')
 `.trim(),
   type: 'dataframe',
-  howToUse: (
-    <div>
-      <p>
-        It just has to be a <code>pandas.DataFrame</code> (columns are
-        variables),
-        <code>numpy.ndarray</code> (rows/columns are variables), or any
-        mapping/sequence (dictionaries/lists)
-      </p>
-      <p>
-        Supports both long-form (each variable in its own column) and wide-form
-        (variables in separate columns; reshaped internally).
-      </p>
-    </div>
-  ),
+  howToUse: <div>{dataHowToUse}</div>,
   img: '70_Basic_density_plot_Seaborn',
   post: '71-density-plot-with-shade-seaborn',
 };
@@ -142,13 +133,7 @@ df = sns.load_dataset('iris')
 sns.kdeplot(data=df, x='sepal_width', color="purple")
 `.trim(),
   type: 'string',
-  howToUse: (
-    <p>
-      Can be a color name, a Hex code, or an RGB value. Read{' '}
-      <a href="https://python-graph-gallery.com/python-colors/">this post</a> to
-      learn more.
-    </p>
-  ),
+  howToUse: <div>{colorHowToUse}</div>,
   img: '70_Basic_density_plot_Seaborn',
   post: '71-density-plot-with-shade-seaborn',
 };
@@ -260,12 +245,7 @@ sns.kdeplot(data=df, x='sepal_width', cumulative=True)
 //
 const param8 = {
   name: 'hue',
-  description: (
-    <p>
-      <code>hue</code> is the name of the variable used to split the estimate
-      into its categories.
-    </p>
-  ),
+  description: <div>{hueDescription}</div>,
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
@@ -275,13 +255,7 @@ df = sns.load_dataset('iris')
 sns.kdeplot(data=df, x='sepal_width', hue='species')
 `.trim(),
   type: 'string',
-  howToUse: (
-    <p>
-      When to <code>False</code> (default), it estimates and display the density
-      function but you can switch to <code>True</code> to display the cumulative
-      distribution.
-    </p>
-  ),
+  howToUse: <div>{hueHowToUse}</div>,
   img: '74_density_plot_multi_variables',
   post: '74-density-plot-of-several-variables',
 };
@@ -293,12 +267,7 @@ sns.kdeplot(data=df, x='sepal_width', hue='species')
 //
 const param9 = {
   name: 'palette',
-  description: (
-    <p>
-      Defines colors for the hue semantic. It can be a list of colors or a
-      matplotlib colormap.
-    </p>
-  ),
+  description: <div>{paletteDescription}</div>,
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
@@ -314,20 +283,7 @@ sns.kdeplot(
 )
 `.trim(),
   type: 'list',
-  howToUse: (
-    <div>
-      <p>
-        This parameter is used <b>in combination</b> with the <code>hue</code>{' '}
-        parameter and will a assign a different color to each category in{' '}
-        <code>hue</code>.
-      </p>
-      <p>
-        Moreover, the <a href="/color-palette-finder">pypalettes library</a> can
-        help you find the best colors for your chart by providing access to
-        thousands of pre-made color palette.
-      </p>
-    </div>
-  ),
+  howToUse: <div>{paletteHowToUse}</div>,
   img: 'density-chart-multiple-groups-seaborn6',
   post: 'density-chart-multiple-groups-seaborn',
 };

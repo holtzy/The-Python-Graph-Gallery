@@ -13,6 +13,8 @@ import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
+import { swarmplot } from '../functions/swarmplot';
+import FunctionExploration from '../components/FunctionExploration';
 
 const chartDescription = (
   <>
@@ -167,6 +169,14 @@ export default function Beeswarm() {
           />
         </Row>
       </Container>
+
+      <Spacing />
+
+      <div className="greySection">
+        <Container>
+          <FunctionExploration funDetails={swarmplot} />
+        </Container>
+      </div>
 
       <Spacing />
 
