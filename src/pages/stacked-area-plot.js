@@ -180,7 +180,7 @@ export default function StackedAreaPlot() {
 
       <Spacing />
 
-      <div className="greySection">
+      <div className="greySection" id="stackplotWidget">
         <Container>
           <FunctionExploration funDetails={stackplot} />
         </Container>
