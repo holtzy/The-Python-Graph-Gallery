@@ -14,6 +14,8 @@ import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { Button } from 'react-bootstrap';
 import { SEO } from '../components/SEO';
+import { stackplot } from '../functions/stackplot';
+import FunctionExploration from '../components/FunctionExploration';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/stackedarea.html'>stacked area chart</a> displays the evolution of a numeric variable for several groups of a dataset. Each group is displayed on top of each other, making it easy to read the evolution of the total, but hard to read each group value accurately. In python, stacked area charts are mainly done thanks to the <code>stackplot()</code> function</p>";
@@ -134,8 +136,23 @@ export default function StackedAreaPlot() {
             linkTo="/251-stacked-area-chart-with-seaborn-style"
           />
           <ChartImageContainer
-            imgName="253_color_and_stacked_area_chart2"
+            imgName="253-control-the-color-in-stacked-area-chart-1"
             caption="Control area colors"
+            linkTo="/253-control-the-color-in-stacked-area-chart"
+          />
+          <ChartImageContainer
+            imgName="253-control-the-color-in-stacked-area-chart-2"
+            caption="Add a border between areas"
+            linkTo="/253-control-the-color-in-stacked-area-chart"
+          />
+          <ChartImageContainer
+            imgName="253-control-the-color-in-stacked-area-chart-3"
+            caption="Reduce opacity of the areas"
+            linkTo="/253-control-the-color-in-stacked-area-chart"
+          />
+          <ChartImageContainer
+            imgName="253-control-the-color-in-stacked-area-chart-5"
+            caption="Customize pattern inside the areas"
             linkTo="/253-control-the-color-in-stacked-area-chart"
           />
           <ChartImageContainer
@@ -163,28 +180,9 @@ export default function StackedAreaPlot() {
 
       <Spacing />
 
-      <div className="greySection" id="tip">
+      <div className="greySection">
         <Container>
-          <h2 id="Workaround">
-            &#128161; The <code>baseline</code> parameter
-          </h2>
-          <p>
-            It is important to note that the <code>stackplot()</code> function
-            of <code>matplotlib</code> has a<code>baseline</code> parameter.
-            This parameter controls how groups are displayed around the x axis,
-            what allows to mimic a <Link to="/streamchart">streamgraph</Link>.
-          </p>
-          <Link to="/252-baseline-options-for-stacked-area-chart">
-            <Button size="sm">Read more</Button>
-          </Link>
-          <div style={{ maxWidth: '600px', margin: '0 auto', padding: 30 }}>
-            <Link to="/252-baseline-options-for-stacked-area-chart">
-              <ChartImage
-                imgName={'252_baseline_and_stacked_area_chart'}
-                caption={'It is hard to see how the green group evolves.'}
-              />
-            </Link>
-          </div>
+          <FunctionExploration funDetails={stackplot} />
         </Container>
       </div>
 

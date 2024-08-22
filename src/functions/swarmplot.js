@@ -1,6 +1,8 @@
 import React from 'react';
 import {
   colorHowToUse,
+  dataDescription,
+  dataHowToUse,
   hueDescription,
   hueHowToUse,
   paletteDescription,
@@ -67,7 +69,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 data = sns.load_dataset("tips")
-sns.swarmplot(x="day", y="total_bill", data=data)
+sns.swarmplot(x="total_bill", y="day", data=data)
 plt.show()
 `.trim(),
   type: 'string',
@@ -88,6 +90,27 @@ plt.show()
 //
 //
 const param3 = {
+  name: 'data',
+  description: <div>{dataDescription}</div>,
+  basicUsage: `
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+data = sns.load_dataset("tips")
+sns.swarmplot(x="total_bill", y="day", data=data)
+plt.show()
+`.trim(),
+  type: 'string',
+  howToUse: <div>{dataHowToUse}</div>,
+  img: '505-Introduction-to-swarm-plot-in-seaborn-2',
+  post: '505-introduction-to-swarm-plot-in-seaborn',
+};
+//
+//
+//
+//
+//
+const param4 = {
   name: 'hue',
   description: <div>{hueDescription}</div>,
   basicUsage: `
@@ -108,7 +131,7 @@ plt.show()
 //
 //
 //
-const param4 = {
+const param5 = {
   name: 'palette',
   description: <div>{paletteDescription}</div>,
   basicUsage: `
@@ -135,7 +158,7 @@ plt.show()
 //
 //
 //
-const param5 = {
+const param6 = {
   name: 'size',
   description: <p>Sets the size of the plot markers.</p>,
   basicUsage: `
@@ -161,7 +184,7 @@ plt.show()
 //
 //
 //
-const param6 = {
+const param7 = {
   name: 'edgecolor',
   description: (
     <p>
@@ -193,7 +216,7 @@ plt.show()
 //
 //
 //
-const param7 = {
+const param8 = {
   name: 'linewidth',
   description: <p>Width of the marker edges.</p>,
   basicUsage: `
@@ -220,5 +243,5 @@ export const swarmplot = {
   name,
   description,
   docUrl,
-  parameters: [param1, param2, param3, param4, param5, param6, param7],
+  parameters: [param1, param2, param3, param4, param5, param6, param7, param8],
 };
