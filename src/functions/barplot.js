@@ -40,7 +40,7 @@ plt.show()
 `.trim(),
   type: 'dataframe',
   howToUse: <div>{dataHowToUse}</div>,
-  img: 'basic-barplot-with-seaborn1',
+  img: 'basic-barplot-with-seaborn2',
   post: 'basic-barplot-with-seaborn',
 };
 //
@@ -49,9 +49,12 @@ plt.show()
 //
 //
 const param2 = {
-  name: 'x, y',
+  name: 'x',
   description: (
-    <p>Input data variables: x for categories, y for values to plot.</p>
+    <p>
+      If `<code>x</code>` includes categorical data, then `<code>y</code>` must
+      contain numerical values.
+    </p>
   ),
   basicUsage: `
 import seaborn as sns
@@ -61,7 +64,7 @@ tips = sns.load_dataset("tips")
 sns.barplot(x="day", y="total_bill", data=tips)
 plt.show()
 `.trim(),
-  type: 'vector, names of variables in data',
+  type: 'names of variables in data or array-like',
   howToUse: (
     <p>
       Can be vector data or column names from the <code>data</code> parameter.
@@ -76,6 +79,36 @@ plt.show()
 //
 //
 const param3 = {
+  name: 'y',
+  description: (
+    <p>
+      If `<code>y</code>` includes categorical data, then `<code>x</code>` must
+      contain numerical values.
+    </p>
+  ),
+  basicUsage: `
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+tips = sns.load_dataset("tips")
+sns.barplot(x="total_bill", y="day", data=tips)
+plt.show()
+`.trim(),
+  type: 'names of variables in data or array-like',
+  howToUse: (
+    <p>
+      Can be vector data or column names from the <code>data</code> parameter.
+    </p>
+  ),
+  img: 'basic-barplot-with-seaborn1',
+  post: 'basic-barplot-with-seaborn',
+};
+//
+//
+//
+//
+//
+const param4 = {
   name: 'hue',
   description: <div>{hueDescription}</div>,
   basicUsage: `
@@ -178,10 +211,42 @@ plt.show()
   img: 'tuto-barplot-3',
   post: 'basic-barplot-with-seaborn',
 };
+//
+//
+//
+//
+//
+const param8 = {
+  name: 'gap',
+  description: <div>Specifies the gap between bars.</div>,
+  basicUsage: `
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+tips = sns.load_dataset("tips")
+sns.barplot(
+   x="day",
+   hue="sex",
+   y="total_bill",   
+   data=tips,
+   gap=2.3,
+)
+plt.show()
+`.trim(),
+  type: 'number',
+  howToUse: (
+    <div>
+      It can be any value and adjusts the spacing between individual bars or
+      groups of bars.
+    </div>
+  ),
+  img: 'tuto-barplot-4-square',
+  post: 'basic-barplot-with-seaborn',
+};
 
 export const barplot = {
   name,
   description,
   docUrl,
-  parameters: [param1, param2, param3, param5, param6, param7],
+  parameters: [param1, param2, param3, param4, param5, param6, param7, param8],
 };
