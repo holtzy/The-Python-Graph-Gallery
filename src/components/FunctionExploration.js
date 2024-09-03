@@ -40,7 +40,7 @@ export default function FunctionExploration({ funDetails }) {
 
   return (
     <div style={{ marginBottom: 70 }}>
-      <h2 id={capitalize(funDetails.name + '()' + ' details')}>
+      <h2 id={capitalize(funDetails.name + ' details')}>
         &#128270; <code>{funDetails.name}</code> function parameters
         <a
           style={{ marginLeft: '15px', fontSize: '14px' }}

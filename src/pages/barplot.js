@@ -19,6 +19,8 @@ import CodeChunk from '../components/CodeChunk';
 import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { SEO } from '../components/SEO';
+import { barplot } from '../functions/barplot';
+import FunctionExploration from '../components/FunctionExploration';
 
 const chartDescription = (
   <>
@@ -232,6 +234,14 @@ export default function Barplot() {
           />
         </Row>
       </Container>
+
+      <Spacing />
+
+      <div className="greySection">
+        <Container>
+          <FunctionExploration funDetails={barplot} />
+        </Container>
+      </div>
 
       <Spacing />
 

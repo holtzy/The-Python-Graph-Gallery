@@ -1,6 +1,15 @@
 import React from 'react';
+import {
+  colorHowToUse,
+  hueDescription,
+  hueHowToUse,
+  paletteDescription,
+  paletteHowToUse,
+  linewidthDescription,
+  linewidthHowToUse,
+} from './paramDescription';
 
-const name = 'violinplot';
+const name = 'violinplot()';
 const description = (
   <>
     <p>
@@ -86,9 +95,7 @@ plt.show()
 //
 const param3 = {
   name: 'hue',
-  description: (
-    <p>Grouping variable that will produce violins with different colors.</p>
-  ),
+  description: <div>{hueDescription}</div>,
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
@@ -104,12 +111,7 @@ sns.violinplot(
 plt.show()
 `.trim(),
   type: 'string or vector',
-  howToUse: (
-    <p>
-      Should be a categorical variable. Each level of the hue variable will
-      produce violins with different colors.
-    </p>
-  ),
+  howToUse: <div>{hueHowToUse}</div>,
   img: '51_Horizontal_violinplot_Seaborn',
   post: '51-horizontal-violinplot',
 };
@@ -158,12 +160,7 @@ plt.show()
 //
 const param5 = {
   name: 'palette',
-  description: (
-    <p>
-      Defines colors for the hue semantic. It can be a list of colors or a
-      matplotlib colormap.
-    </p>
-  ),
+  description: <div>{paletteDescription}</div>,
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
@@ -179,20 +176,7 @@ sns.violinplot(
 plt.show()
 `.trim(),
   type: 'string, list, dict, or matplotlib colormap',
-  howToUse: (
-    <div>
-      <p>
-        This parameter is used <b>in combination</b> with the <code>hue</code>{' '}
-        parameter and will a assign a different color to each category in{' '}
-        <code>hue</code>.
-      </p>
-      <p>
-        Moreover, the <a href="/color-palette-finder">pypalettes library</a> can
-        help you find the best colors for your chart by providing access to
-        thousands of pre-made color palette.
-      </p>
-    </div>
-  ),
+  howToUse: <div>{paletteHowToUse}</div>,
   img: '54_Grouped_violinplot_Seaborn',
   post: '54-grouped-violinplot',
 };
@@ -203,7 +187,7 @@ plt.show()
 //
 const param6 = {
   name: 'linewidth',
-  description: <p>Defines the width of the lines</p>,
+  description: <div>{linewidthDescription}</div>,
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
@@ -219,11 +203,7 @@ sns.violinplot(
 plt.show()
 `.trim(),
   type: 'float',
-  howToUse: (
-    <div>
-      <p>In most cases, a value between 0.1 and 3 fits your need.</p>
-    </div>
-  ),
+  howToUse: <div>{linewidthHowToUse}</div>,
   img: '52_Custom_violinplot_Appearance_Seaborn1',
   post: '52-custom-seaborn-violinplot',
 };
@@ -252,15 +232,7 @@ sns.violinplot(
 plt.show()
 `.trim(),
   type: 'number',
-  howToUse: (
-    <p>
-      Can be a color name, a Hex code, or an RGB value. See matplotlib&apos;s{' '}
-      <a href="https://matplotlib.org/stable/tutorials/colors/colors.html">
-        color guide
-      </a>{' '}
-      for more details.
-    </p>
-  ),
+  howToUse: <div>{colorHowToUse}</div>,
   img: 'tuto-violinplot-3-square',
   post: '52-custom-seaborn-violinplot',
 };
@@ -271,7 +243,7 @@ plt.show()
 //
 const param8 = {
   name: 'saturation',
-  description: <p>Level of saturation of the colours used in the violin.</p>,
+  description: <p>Level of saturation of the colors used in the violin.</p>,
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
@@ -357,15 +329,7 @@ sns.violinplot(
 plt.show()
 `.trim(),
   type: 'bool',
-  howToUse: (
-    <p>
-      Can be a color name, a Hex code, or an RGB value. See matplotlib&apos;s{' '}
-      <a href="https://matplotlib.org/stable/tutorials/colors/colors.html">
-        color guide
-      </a>{' '}
-      for more details.
-    </p>
-  ),
+  howToUse: <div>{colorHowToUse}</div>,
   img: 'tuto-violinplot-6-square',
   post: '53-control-color-of-seaborn-violinplot',
 };
