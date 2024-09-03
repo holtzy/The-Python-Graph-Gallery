@@ -16,6 +16,7 @@ export default function AllChartsModal({ show, handleClose }) {
         ![
           'matplotlib',
           'drawarrow',
+          'pyfonts',
           'seaborn',
           'plotnine',
           'pypalettes',

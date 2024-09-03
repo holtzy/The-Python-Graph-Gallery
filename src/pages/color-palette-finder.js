@@ -78,6 +78,7 @@ export default function Colors({ location }) {
       <TitleAndDescription
         title="Python Color Palette Finder"
         description={chartDescription}
+        chartType={'pypalettes'}
         isRaptiveEnabled={false}
       />
 

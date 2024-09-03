@@ -400,6 +400,22 @@ export const chartTypesInfo = [
     label: 'DrawArrow',
   },
   {
+    id: 'pyfonts',
+    family: 'package',
+    logo: 'pyfonts',
+    dataToVizURL: '',
+    pythonURL: 'https://python-graph-gallery.com/pyfonts/',
+    label: 'PyFonts',
+  },
+  {
+    id: 'pypalettes',
+    family: 'package',
+    logo: 'pypalettes',
+    dataToVizURL: '',
+    pythonURL: 'https://python-graph-gallery.com/color-palette-finder/',
+    label: 'PyPalettes',
+  },
+  {
     id: 'animation',
     family: 'general',
     logo: 'anim150',

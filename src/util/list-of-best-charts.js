@@ -27,10 +27,10 @@ export const listOfBestCharts = [
     author: 'Benjamin Nowak',
   },
   {
-    link: 'web-minimalist-area-chart',
+    link: 'web-area-chart-with-different-colors-for-positive-and-negative-values',
     title: "Japan's population evolution",
     description: "Evolution of Japan's population between 1952 and 2024.",
-    img: 'web-minimalist-area-chart-square.png',
+    img: 'web-area-chart-with-different-colors-for-positive-and-negative-values-square.png',
     alt: 'Area chart',
     author: 'Joseph Barbier',
   },

@@ -197,9 +197,15 @@ export default function AreaPlot() {
             </Link>
           </Col>
           <Col xs={12} md={6}>
-            <Link to={'/web-minimalist-area-chart'}>
+            <Link
+              to={
+                '/web-area-chart-with-different-colors-for-positive-and-negative-values'
+              }
+            >
               <ChartImage
-                imgName={'web-minimalist-area-chart-square'}
+                imgName={
+                  'web-area-chart-with-different-colors-for-positive-and-negative-values-square'
+                }
                 caption={
                   'A minimalist area chart with clean annotations and style'
                 }
