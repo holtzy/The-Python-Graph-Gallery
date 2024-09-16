@@ -1,6 +1,11 @@
 import React from 'react';
+import {
+  alphaHowToUse,
+  colorHowToUse,
+  hatchHowToUse,
+} from './paramDescription';
 
-const name = 'hist';
+const name = 'hist()';
 const description = (
   <>
     <p>
@@ -32,12 +37,7 @@ ax.hist(data, color="purple")
 plt.show()
 `.trim(),
   type: 'string',
-  howToUse: (
-    <p>
-      Can be a color name, a Hex code, or an RGB value.{' '}
-      <a href="/python-colors">Learn more about colors.</a>
-    </p>
-  ),
+  howToUse: <div>{colorHowToUse}</div>,
   img: 'tuto-hist-1-square',
   post: 'basic-histogram-in-matplotlib',
 };
@@ -120,11 +120,7 @@ ax.hist(data, alpha=0.5)
 plt.show()
 `.trim(),
   type: 'float',
-  howToUse: (
-    <p>
-      Values range from 0 (completely transparent) to 1 (completely opaque).
-    </p>
-  ),
+  howToUse: <div>{alphaHowToUse}</div>,
   img: 'tuto-hist-5-square',
   post: 'basic-histogram-in-matplotlib',
 };
@@ -175,12 +171,7 @@ ax.hist(data, edgecolor='black')
 plt.show()
 `.trim(),
   type: 'str',
-  howToUse: (
-    <p>
-      Can be a color name, a Hex code, or an RGB value.{' '}
-      <a href="/python-colors">Learn more about colors.</a>
-    </p>
-  ),
+  howToUse: <div>{colorHowToUse}</div>,
   img: 'tuto-hist-6-square',
   post: 'basic-histogram-in-matplotlib',
 };
@@ -202,16 +193,7 @@ ax.hist(data, hatch='*')
 plt.show()
 `.trim(),
   type: 'str',
-  howToUse: (
-    <p>
-      It must be in one of: <code>&apos;/&apos;</code>,{' '}
-      <code>&apos;\&apos;</code>, <code>&apos;|&apos;</code>,
-      <code>&apos;-&apos;</code>, <code>&apos;+&apos;</code>,{' '}
-      <code>&apos;x&apos;</code>, <code>&apos;o&apos;</code>,{' '}
-      <code>&apos;O&apos;</code>,<code>&apos;.&apos;</code>,{' '}
-      <code>&apos;*&apos;</code>
-    </p>
-  ),
+  howToUse: <div>{hatchHowToUse}</div>,
   img: '584-introduction-hatch-matplotlib-3',
   post: '584-introduction-hatch-matplotlib',
 };

@@ -1,4 +1,4 @@
-# CafeMedia/AdThrive ads.txt v2.53-auto
+# CafeMedia/AdThrive ads.txt v2.54-auto
 managerdomain=cafemedia.com
 contact=info@adthrive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
@@ -78,7 +78,6 @@ indexexchange.com, 194341, RESELLER, 50b1c356f2c5c8fc #banner
 pubmatic.com, 160377, RESELLER, 5d62403b186f2ace #banner
 appnexus.com, 6979, RESELLER, f5ab79cb980f11d1 #banner
 concert.io, cbs-8cef0f0927, DIRECT #banner
-resetdigital.co, 118, DIRECT #banner
 gumgum.com, 15680, RESELLER, ffdef49475d318a9 #banner
 themediagrid.com, XSGC9R, RESELLER, 35d5010d7789b49d #video, banner
 onetag.com, 7d614f4ac7b0a56-OB, DIRECT #video, banner
@@ -89,6 +88,7 @@ yieldmo.com, 3306703141172355303, DIRECT #video, banner
 ogury.com, f48f1699-39f7-40c5-8aef-1e5255be6d5e, DIRECT #banner
 adform.com, 3063, DIRECT #video, banner
 onetag.com, 75804861b76a852, RESELLER #banner
+smaato.com, 1100057536 , DIRECT, 07bcf65f187117b4 #video, banner
 #UK Only
 aidem.com, 6532804884, DIRECT  #video, banner
 aidem.com, 1609823052, DIRECT  #video, banner

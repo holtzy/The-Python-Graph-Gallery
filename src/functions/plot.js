@@ -1,6 +1,16 @@
 import React from 'react';
+import {
+  alphaHowToUse,
+  colorHowToUse,
+  linestyleDescription,
+  linestyleHowToUse,
+  zorderDescription,
+  zorderHowToUse,
+  linewidthDescription,
+  linewidthHowToUse,
+} from './paramDescription';
 
-const name = 'plot';
+const name = 'plot()';
 const description = (
   <>
     <p>
@@ -21,6 +31,64 @@ const docUrl =
 //
 //
 const param1 = {
+  name: 'x',
+  description: <p>Positions of the data points along the x-axis.</p>,
+  basicUsage: `
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+fig, ax = plt.subplots()
+ax.plot(x=x, y=y)
+plt.show()
+`.trim(),
+  type: 'array-like',
+  howToUse: (
+    <p>
+      The <code>x</code> and <code>y</code> arrays must have the same length and
+      contain numerical values.
+    </p>
+  ),
+  img: '120_Basic_lineplot2',
+  post: '120-line-chart-with-matplotlib',
+};
+//
+//
+//
+//
+//
+const param2 = {
+  name: 'y',
+  description: <p>Positions of the data points along the y-axis.</p>,
+  basicUsage: `
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+fig, ax = plt.subplots()
+ax.plot(x=x, y=y)
+plt.show()
+`.trim(),
+  type: 'array-like',
+  howToUse: (
+    <p>
+      The <code>x</code> and <code>y</code> arrays must have the same length and
+      contain numerical values.
+    </p>
+  ),
+  img: '120_Basic_lineplot2',
+  post: '120-line-chart-with-matplotlib',
+};
+//
+//
+//
+//
+//
+const param3 = {
   name: 'color',
   description: <p>Sets the color of the line or markers in the plot.</p>,
   basicUsage: `
@@ -35,26 +103,18 @@ ax.plot(x, y, color="red")
 plt.show()
 `.trim(),
   type: 'string',
-  howToUse: (
-    <p>
-      Can be a color name, a Hex code, or an RGB value. See matplotlib's{' '}
-      <a href="https://matplotlib.org/stable/tutorials/colors/colors.html">
-        color guide
-      </a>{' '}
-      for more details.
-    </p>
-  ),
+  howToUse: <div>{colorHowToUse}</div>,
   img: 'tuto-plot-1-square',
-  post: 'matplotlib-line-plot',
+  post: '121-line-chart-customization',
 };
 //
 //
 //
 //
 //
-const param2 = {
+const param4 = {
   name: 'linestyle',
-  description: <p>Determines the style of the line in the plot.</p>,
+  description: <div>{linestyleDescription}</div>,
   basicUsage: `
 import matplotlib.pyplot as plt
 import numpy as np
@@ -67,21 +127,16 @@ ax.plot(x, y, linestyle="--")
 plt.show()
 `.trim(),
   type: 'string',
-  howToUse: (
-    <p>
-      Common values include '-' (solid), '--' (dashed), ':' (dotted), and '-.'
-      (dash-dot).
-    </p>
-  ),
+  howToUse: <div>{linestyleHowToUse}</div>,
   img: 'tuto-plot-2-square',
-  post: 'matplotlib-line-styles',
+  post: '121-line-chart-customization',
 };
 //
 //
 //
 //
 //
-const param3 = {
+const param5 = {
   name: 'marker',
   description: <p>Specifies the marker style for the data points.</p>,
   basicUsage: `
@@ -107,14 +162,14 @@ plt.show()
     </p>
   ),
   img: 'tuto-plot-3-square',
-  post: 'matplotlib-markers',
+  post: '121-line-chart-customization',
 };
 //
 //
 //
 //
 //
-const param4 = {
+const param6 = {
   name: 'label',
   description: <p>Sets the label for the plot, which is used in the legend.</p>,
   basicUsage: `
@@ -138,14 +193,14 @@ plt.show()
     </p>
   ),
   img: 'tuto-plot-4-square',
-  post: 'matplotlib-legend',
+  post: '585-legend-for-categorical-data-matplotlib',
 };
 //
 //
 //
 //
 //
-const param5 = {
+const param7 = {
   name: 'alpha',
   description: <p>Controls the transparency of the plot elements.</p>,
   basicUsage: `
@@ -160,23 +215,18 @@ ax.plot(x, y, alpha=0.5)
 plt.show()
 `.trim(),
   type: 'float',
-  howToUse: (
-    <p>
-      Values range from <code>0</code> (completely transparent) to{' '}
-      <code>1</code> (completely opaque).
-    </p>
-  ),
+  howToUse: <div>{alphaHowToUse}</div>,
   img: 'tuto-plot-5-square',
-  post: 'matplotlib-transparency',
+  post: '121-line-chart-customization',
 };
 //
 //
 //
 //
 //
-const param6 = {
+const param8 = {
   name: 'linewidth',
-  description: <p>Sets the width of the plotted line.</p>,
+  description: <div>{linewidthDescription}</div>,
   basicUsage: `
 import matplotlib.pyplot as plt
 import numpy as np
@@ -189,20 +239,18 @@ ax.plot(x, y, linewidth=6)
 plt.show()
 `.trim(),
   type: 'float',
-  howToUse: (
-    <p>Larger values create thicker lines. The default value is usually 1.</p>
-  ),
+  howToUse: <div>{linewidthHowToUse}</div>,
   img: 'tuto-plot-6-square',
-  post: 'matplotlib-line-width',
+  post: '121-line-chart-customization',
 };
 //
 //
 //
 //
 //
-const param7 = {
+const param9 = {
   name: 'zorder',
-  description: <p>Controls the drawing order of plot elements.</p>,
+  description: <div>{zorderDescription}</div>,
   basicUsage: `
 import matplotlib.pyplot as plt
 import numpy as np
@@ -217,19 +265,24 @@ ax.plot(x, y2, zorder=1)
 plt.show()
 `.trim(),
   type: 'int',
-  howToUse: (
-    <p>
-      Higher zorder values are drawn on top of lower values. This is useful when
-      you want certain elements to appear above others.
-    </p>
-  ),
+  howToUse: <div>{zorderHowToUse}</div>,
   img: 'tuto-plot-7-square',
-  post: 'matplotlib-zorder',
+  post: '121-line-chart-customization',
 };
 
 export const plot = {
   name,
   description,
   docUrl,
-  parameters: [param1, param2, param3, param4, param5, param6, param7],
+  parameters: [
+    param1,
+    param2,
+    param3,
+    param4,
+    param5,
+    param6,
+    param7,
+    param8,
+    param9,
+  ],
 };

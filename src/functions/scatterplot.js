@@ -1,6 +1,15 @@
 import React from 'react';
+import {
+  hueDescription,
+  hueHowToUse,
+  paletteDescription,
+  paletteHowToUse,
+  colorHowToUse,
+  dataDescription,
+  dataHowToUse,
+} from './paramDescription';
 
-const name = 'scatterplot';
+const name = 'scatterplot()';
 const description = (
   <>
     <p>
@@ -23,12 +32,7 @@ const docUrl = 'https://seaborn.pydata.org/generated/seaborn.scatterplot.html';
 
 const param1 = {
   name: 'data',
-  description: (
-    <p>
-      Dataframe-like (pandas, numpy, polars...) with the columns we want to
-      plot.
-    </p>
-  ),
+  description: <div>{dataDescription}</div>,
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
@@ -40,22 +44,10 @@ sns.scatterplot(
   x='sepal_length',
   y='sepal_width'
 )
+plt.show()
 `.trim(),
   type: 'dataframe',
-  howToUse: (
-    <div>
-      <p>
-        It just has to be a <code>pandas.DataFrame</code> (columns are
-        variables),
-        <code>numpy.ndarray</code> (rows/columns are variables), or any
-        mapping/sequence (dictionaries/lists)
-      </p>
-      <p>
-        Supports both long-form (each variable in its own column) and wide-form
-        (variables in separate columns; reshaped internally).
-      </p>
-    </div>
-  ),
+  howToUse: <div>{dataHowToUse}</div>,
   img: '40_Basic_Scatterplot_seaborn',
   post: '40-basic-scatterplot-seaborn',
 };
@@ -80,6 +72,7 @@ sns.scatterplot(
   x='sepal_length',
   y='sepal_width',
 )
+plt.show()
 `.trim(),
   type: 'string',
   howToUse: (
@@ -114,6 +107,7 @@ sns.scatterplot(
   x='sepal_length',
   y='sepal_width',
 )
+plt.show()
 `.trim(),
   type: 'string',
   howToUse: (
@@ -152,15 +146,10 @@ sns.scatterplot(
   y='sepal_width',
   color='purple'
 )
+plt.show()
 `.trim(),
   type: 'string',
-  howToUse: (
-    <p>
-      Can be a color name, a Hex code, or an RGB value. Read{' '}
-      <a href="https://python-graph-gallery.com/python-colors/">this post</a> to
-      learn more.
-    </p>
-  ),
+  howToUse: <div>{colorHowToUse}</div>,
   img: '40_Basic_Scatterplot_seaborn',
   post: '40-basic-scatterplot-seaborn',
 };
@@ -172,12 +161,7 @@ sns.scatterplot(
 //
 const param5 = {
   name: 'hue',
-  description: (
-    <p>
-      <code>hue</code> is the name of the variable that determines the color of
-      scatter points. It allows for grouping and differentiating data points.
-    </p>
-  ),
+  description: <div>{hueDescription}</div>,
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
@@ -192,12 +176,7 @@ sns.scatterplot(
 )
 `.trim(),
   type: 'string',
-  howToUse: (
-    <p>
-      Specify the column name in your dataset that you want to use for
-      color-coding the points.
-    </p>
-  ),
+  howToUse: <div>{hueHowToUse}</div>,
   img: '43_seaborn_map_color_to_a_avariable3',
   post: '43-use-categorical-variable-to-color-scatterplot-seaborn',
 };
@@ -227,6 +206,7 @@ sns.scatterplot(
   y='sepal_width',
   size='petal_length'
 )
+plt.show()
 `.trim(),
   type: 'string or number',
   howToUse: (
@@ -264,6 +244,7 @@ sns.scatterplot(
   y='sepal_width',
   style='species'
 )
+plt.show()
 `.trim(),
   type: 'string',
   howToUse: (
@@ -301,6 +282,7 @@ sns.scatterplot(
   hue='species',
   legend=True
 )
+plt.show()
 `.trim(),
   type: 'boolean',
   howToUse: (
@@ -315,12 +297,7 @@ sns.scatterplot(
 
 const param9 = {
   name: 'palette',
-  description: (
-    <p>
-      Defines colors for the hue semantic. It can be a list of colors or a
-      matplotlib colormap.
-    </p>
-  ),
+  description: <div>{paletteDescription}</div>,
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
@@ -338,22 +315,10 @@ sns.scatterplot(
   hue='species',
   palette=palette
 )
+plt.show()
 `.trim(),
   type: 'list',
-  howToUse: (
-    <div>
-      <p>
-        This parameter is used <b>in combination</b> with the <code>hue</code>{' '}
-        parameter and will a assign a different color to each category in{' '}
-        <code>hue</code>.
-      </p>
-      <p>
-        Moreover, the <a href="/color-palette-finder">pypalettes library</a> can
-        help you find the best colors for your chart by providing access to
-        thousands of pre-made color palette.
-      </p>
-    </div>
-  ),
+  howToUse: <div>{paletteHowToUse}</div>,
   img: '43-use-categorical-variable-to-color-scatterplot-seaborn-pypalettes',
   post: '43-use-categorical-variable-to-color-scatterplot-seaborn',
 };

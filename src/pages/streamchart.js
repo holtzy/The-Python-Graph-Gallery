@@ -13,6 +13,8 @@ import ChartImage from '../components/ChartImage';
 import Spacing from '../components/Spacing';
 import { Button } from 'react-bootstrap';
 import { SEO } from '../components/SEO';
+import { stackplot } from '../functions/stackplot';
+import FunctionExploration from '../components/FunctionExploration';
 
 const chartDescription =
   "<p>A <a href='https://www.data-to-viz.com/graph/streamgraph.html'>streamgraph</a> is a variation of the stacked area graph. It displays the evolution of a numeric value for several groups. Each group is displayed around a central axis and edges are rounded resulting in a flowing and organic shape.</p>";
@@ -93,6 +95,14 @@ export default function StackedAreaPlot() {
           />
         </Row>
       </Container>
+
+      <Spacing />
+
+      <div className="greySection" id="stackplotWidget">
+        <Container>
+          <FunctionExploration funDetails={stackplot} />
+        </Container>
+      </div>
 
       <Spacing />
 
