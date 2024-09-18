@@ -30,7 +30,7 @@ const chartDescription = (
 
 export const Head = () => (
   <SEO
-    title="DrawArrow"
+    title="DrawArrow: drawing arrows for matplotlib made easy"
     seoDescription="An overview of the drawarrow library in Python"
   />
 );
