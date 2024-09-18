@@ -46,7 +46,7 @@ plt.show()
       position.
     </p>
   ),
-  img: 'introduction-drawarrow-arg0',
+  img: 'introduction-drawarrow-arg0-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -82,7 +82,7 @@ plt.show()
       position.
     </p>
   ),
-  img: 'introduction-drawarrow-arg0',
+  img: 'introduction-drawarrow-arg0-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -112,7 +112,7 @@ plt.show()
       It can be any value, but in most cases you want it to be between -1 and 1.
     </p>
   ),
-  img: 'introduction-drawarrow-arg2',
+  img: 'introduction-drawarrow-arg2-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -138,7 +138,7 @@ plt.show()
 `.trim(),
   type: 'string',
   howToUse: <div>{colorHowToUse}</div>,
-  img: 'introduction-drawarrow-arg3',
+  img: 'introduction-drawarrow-arg3-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -164,7 +164,7 @@ plt.show()
 `.trim(),
   type: 'string',
   howToUse: <div>{colorHowToUse}</div>,
-  img: 'introduction-drawarrow-arg14',
+  img: 'introduction-drawarrow-arg14-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -190,7 +190,7 @@ plt.show()
 `.trim(),
   type: 'string',
   howToUse: <div>{colorHowToUse}</div>,
-  img: 'introduction-drawarrow-arg15',
+  img: 'introduction-drawarrow-arg15-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -222,7 +222,7 @@ plt.show()
       </p>
     </div>
   ),
-  img: 'introduction-drawarrow-arg4',
+  img: 'introduction-drawarrow-arg4-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -253,7 +253,7 @@ plt.show()
       of your arrow.
     </p>
   ),
-  img: 'introduction-drawarrow-arg5',
+  img: 'introduction-drawarrow-arg5-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -284,7 +284,7 @@ plt.show()
       default value is 8.
     </p>
   ),
-  img: 'introduction-drawarrow-arg6',
+  img: 'introduction-drawarrow-arg6-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -323,7 +323,7 @@ plt.show()
       arrow will be 4 times larger.
     </p>
   ),
-  img: 'introduction-drawarrow-arg7',
+  img: 'introduction-drawarrow-arg7-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -351,7 +351,7 @@ plt.show()
 `.trim(),
   type: 'number',
   howToUse: <div>{alphaHowToUse}</div>,
-  img: 'introduction-drawarrow-arg8',
+  img: 'introduction-drawarrow-arg8-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -392,7 +392,7 @@ plt.show()
       Another way of doing so is to set the radius to a negative value.
     </p>
   ),
-  img: 'introduction-drawarrow-arg9',
+  img: 'introduction-drawarrow-arg9-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -424,7 +424,7 @@ plt.show()
       filled, empty otherwise.
     </p>
   ),
-  img: 'introduction-drawarrow-arg10',
+  img: 'introduction-drawarrow-arg10-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -456,7 +456,7 @@ plt.show()
       will have a head at both the start and the end.
     </p>
   ),
-  img: 'introduction-drawarrow-arg11',
+  img: 'introduction-drawarrow-arg11-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -493,7 +493,7 @@ plt.show()
       second value is the y-axis position.
     </p>
   ),
-  img: 'introduction-drawarrow-arg12',
+  img: 'introduction-drawarrow-arg12-square',
   post: 'drawarrow#Custom',
 };
 //
@@ -530,7 +530,7 @@ plt.show()
       and <code>alpha</code>{' '}
     </p>
   ),
-  img: 'introduction-drawarrow-arg13',
+  img: 'introduction-drawarrow-arg13-square',
   post: 'drawarrow#Custom',
 };
 
