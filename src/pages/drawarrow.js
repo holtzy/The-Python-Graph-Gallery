@@ -84,7 +84,7 @@ export default function Post() {
             </p>
           </Col>
           <Col md={5}>
-            <Link to={'/573-introduction-scatterplot-plotnine'}>
+            <Link to={'/drawarrow#Quick'}>
               <ChartImage
                 imgName="introduction-drawarrow-1"
                 caption="Most basic arrow with drawarrow"
@@ -128,7 +128,7 @@ export default function Post() {
           </Col>
           <Col md={5}>
             <ChartImage
-              imgName="tuto-drawarrow-1"
+              imgName="introduction-drawarrow-2"
               caption="Most basic arrow with drawarrow"
             />
           </Col>
@@ -143,7 +143,7 @@ export default function Post() {
         <Row className="align-items-center">
           <Col md={5}>
             <ChartImage
-              imgName="tuto-drawarrow-2"
+              imgName="introduction-drawarrow-3"
               caption="Most basic arrow with drawarrow"
             />
           </Col>
@@ -171,7 +171,10 @@ export default function Post() {
               <strong>
                 <a href="/matplotlib">matplotlib</a> object
               </strong>{' '}
-              for creating complex arrows. You can pass any additional arguments
+              for creating complex arrows. You can pass{' '}
+              <a href="/drawarrow#Fig_arrow() details">
+                any additional arguments
+              </a>{' '}
               for this object to <code>fig_arrow()</code> and{' '}
               <code>ax_arrow()</code>.
             </p>
@@ -182,7 +185,7 @@ export default function Post() {
           </Col>
           <Col md={5}>
             <ChartImage
-              imgName="tuto-drawarrow-3"
+              imgName="introduction-drawarrow-4"
               caption="Most basic arrow with drawarrow"
             />
           </Col>
@@ -282,8 +285,7 @@ export default function Post() {
   );
 }
 
-const quickCode = `# Load drawarrow and matplotlib
-import matplotlib.pyplot as plt
+const quickCode = `import matplotlib.pyplot as plt
 from drawarrow import fig_arrow
 
 fig, ax = plt.subplots()
@@ -291,9 +293,13 @@ fig, ax = plt.subplots()
 ax.scatter(x=[1, 2, 3, 4, 5], y=[1, 2, 3, 4, 5], s=100)
 
 fig_arrow(
-  head_position=(0.5, 0.5),
-  tail_position=(0.2, 0.7),
-  color="red"
+    head_position=(0.5, 0.5),
+    tail_position=(0.2, 0.7),
+    width=2,
+    radius=0.3,
+    color="darkred",
+    fill_head=False,
+    mutation_scale=2,
 )
 
 plt.show()
@@ -302,7 +308,7 @@ plt.show()
 const axesCode = `import matplotlib.pyplot as plt
 from drawarrow import ax_arrow
 
-fig, ax = plt.subplots(figsize=(10,10))
+fig, ax = plt.subplots(figsize=(7,7))
 
 ax.scatter(x=[1, 5, 10], y=[5, 12, 3], s=300)
 ax_arrow(
@@ -310,9 +316,9 @@ ax_arrow(
    head_position=(9.5, 3),
    ax=ax,
    color="green",
-   tail_width=10,
-   head_width=30,
-   head_length=30,
+   width=5,
+   head_width=15,
+   head_length=20,
    radius=0.4
 )
 plt.show()
@@ -321,18 +327,17 @@ plt.show()
 const figCode = `import matplotlib.pyplot as plt
 from drawarrow import fig_arrow
 
-fig, ax = plt.subplots(figsize=(10,10))
+fig, ax = plt.subplots(figsize=(7,7))
 
 ax.scatter(x=[1, 5, 10], y=[5, 12, 3], s=300)
 fig_arrow(
    tail_position=(0.2, 0.8),
-   head_position=(0.5, 0.3),
-   fig=fig,
-   color="red",
-   tail_width=10,
-   head_width=30,
-   head_length=30,
-   radius=-0.4
+   head_position=(0.7, 0.3),
+   color="grey",
+   width=5,
+   head_width=15,
+   head_length=20,
+   radius=-0.2
 )
 plt.show()
 `;
@@ -342,22 +347,21 @@ from drawarrow import fig_arrow
 
 fig, ax = plt.subplots(figsize=(10,10))
 
-ax.scatter(x=[1, 2, 3, 4, 5], y=[1, 2, 3.2, 4, 5], s=300)
+ax.scatter(x=[1, 2, 3, 4, 5], y=[4.3, 2, 3.2, 4, 5], s=300)
 
 fig_arrow(
-   head_position=(0.48, 0.5),
    tail_position=(0.2, 0.7),
-   fig=fig,
-   facecolor="#003049",
-   edgecolor="#d62828",
-   linewidth=1,
-   radius=1.2,
-   alpha=0.9,
-   hatch="O",
-   tail_width=5,
-   head_width=20,
-   head_length=20,
-   mutation_scale=4
+   head_position=(0.5, 0.48),
+   inflection_position=(0.4, 0.8),
+   double_headed=True,
+   fill_head=False,
+   color="#003049",
+   radius=0.1,
+   alpha=0.8,
+   width=5,
+   head_width=10,
+   head_length=10,
+   mutation_scale=2
 )
 
 plt.show()
