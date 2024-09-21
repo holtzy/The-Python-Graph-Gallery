@@ -228,6 +228,16 @@ export default function Post() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to="/web-stacked-area-with-inflexion-arrows">
+              <ChartImage
+                imgName={'web-stacked-area-with-inflexion-arrows-square'}
+                caption={
+                  'Stacked area chart with arrows with an inflection point'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
