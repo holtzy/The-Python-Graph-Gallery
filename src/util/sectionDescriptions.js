@@ -395,7 +395,7 @@ export const chartTypesInfo = [
     id: 'drawarrow',
     family: 'package',
     logo: 'drawarrow',
-    dataToVizURL: '',
+    dataToVizURL: 'https://python-graph-gallery.com/matplotlib/#Arrow',
     pythonURL: 'https://python-graph-gallery.com/drawarrow/',
     label: 'DrawArrow',
   },

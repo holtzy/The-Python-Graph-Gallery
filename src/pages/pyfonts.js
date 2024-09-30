@@ -163,6 +163,29 @@ export default function Post() {
       <Spacing />
 
       <Container>
+        <h2>Locally stored font</h2>
+        <Row className="align-items-center">
+          <Col md={7}>
+            <p>
+              <code>PyFonts</code> also allows you to load a font file that you
+              have on your own computer. You just have to call the{' '}
+              <code>font_path</code> argument instead and give it the path to
+              your font
+            </p>
+          </Col>
+          <Col md={5}>
+            <ChartImage
+              imgName="usecase-pyfonts-3-square"
+              caption="Load a locally stored font with pyfonts"
+            />
+          </Col>
+        </Row>
+        <CodeChunk>{useFontCode3}</CodeChunk>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2>Gallery of examples</h2>
         <p>
           Here are some examples of what you can do with <code>PyFonts</code>.
@@ -273,30 +296,11 @@ ax.text(
 plt.show()
 `;
 
-const axesCode = `import matplotlib.pyplot as plt
-from pyfonts import ax_arrow
-
-fig, ax = plt.subplots(figsize=(10,10))
-
-ax.scatter(x=[1, 5, 10], y=[5, 12, 3], s=300)
-ax_arrow(
-   tail_position=(2, 8),
-   head_position=(9.5, 3),
-   ax=ax,
-   color="green",
-   tail_width=10,
-   head_width=30,
-   head_length=30,
-   radius=0.4
-)
-plt.show()
-`;
-
 const useFontCode = `import matplotlib.pyplot as plt
 from pyfonts import load_font
 
 font = load_font(
-  "https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Bold.ttf?raw=true"
+  font_url="https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Bold.ttf?raw=true"
 )
 
 fig, ax = plt.subplots(figsize=(10, 10), dpi=300)
@@ -315,10 +319,10 @@ const useFontCode2 = `import matplotlib.pyplot as plt
 from pyfonts import load_font
 
 font = load_font(
-   "https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Regular.ttf?raw=true"
+   font_url="https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Regular.ttf?raw=true"
 )
 bold_font = load_font(
-   "https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Bold.ttf?raw=true"
+   font_url="https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Bold.ttf?raw=true"
 )
 
 fig, ax = plt.subplots(figsize=(6, 6), dpi=300)
@@ -331,6 +335,25 @@ ax.text(
    ha="center",
 )
 ax.text(x=0.5, y=0.3, s=f"And now it's bold", font=bold_font, fontsize=25, ha="center")
+plt.show()
+`;
+
+const useFontCode3 = `import matplotlib.pyplot as plt
+from pyfonts import load_font
+
+font = load_font(
+   font_path="path/to/myfont/Ultra-Regular.ttf"
+)
+
+fig, ax = plt.subplots(figsize=(6, 6), dpi=300)
+ax.text(
+   x=0.5,
+   y=0.5,
+   s=f"Yet another way to load font",
+   font=font,
+   fontsize=18,
+   ha="center",
+)
 plt.show()
 `;
 
