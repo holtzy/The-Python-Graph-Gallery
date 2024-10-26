@@ -411,8 +411,8 @@ export const chartTypesInfo = [
     id: 'pypalettes',
     family: 'package',
     logo: 'pypalettes',
-    dataToVizURL: '',
-    pythonURL: 'https://python-graph-gallery.com/color-palette-finder/',
+    dataToVizURL: '/introduction-to-pypalettes',
+    pythonURL: '/introduction-to-pypalettes',
     label: 'PyPalettes',
   },
   {
