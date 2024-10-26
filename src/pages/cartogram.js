@@ -133,6 +133,14 @@ export default function Cartogram() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={4}>
+            <Link to={'/web-combine-choropleth-map-with-barplot'}>
+              <ChartImage
+                imgName={'web-combine-choropleth-map-with-barplot-square'}
+                caption={'Choropleth map combined with a barplot'}
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 

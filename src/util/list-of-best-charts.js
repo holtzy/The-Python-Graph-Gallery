@@ -1,5 +1,13 @@
 export const listOfBestCharts = [
   {
+    link: 'web-combine-choropleth-map-with-barplot',
+    title: 'HDI distribution in Sao Paulo',
+    description: 'Choropleth map with a barplot ',
+    img: 'web-combine-choropleth-map-with-barplot-square.png',
+    alt: 'choropleth map and a barplot together',
+    author: 'Vinicius Oike Reginatto',
+  },
+  {
     link: 'web-lollipop-with-colormap-and-arrow',
     title: 'Evolution of temperature variation',
     description:
