@@ -1,4 +1,4 @@
-# CafeMedia/AdThrive ads.txt v2.55-auto
+# CafeMedia/AdThrive ads.txt v2.56-auto
 managerdomain=cafemedia.com
 contact=info@adthrive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
@@ -44,12 +44,10 @@ themediagrid.com, CU6Y9O, DIRECT, 35d5010d7789b49d #video, banner
 openx.com, 540814319, DIRECT, 6a698e2ec38604c6 #video, banner
 pubmatic.com, 158458, DIRECT, 5d62403b186f2ace #video, banner
 triplelift.com, 5895-EB, DIRECT, 6c33edb13117fd86 #video, banner
-advertising.com, 28489, DIRECT, e1a5b5b6e3255540 #video, banner
 rubiconproject.com, 21552, DIRECT, 0bfd66d529a55807 #banner
 sonobi.com, 80fe169af3, DIRECT, d1a215d9eb5aee9e #video, banner
 lijit.com, 214800-eb, DIRECT, fafdf38b16bf6b2b #video, banner
 sharethrough.com, 2101b770, DIRECT, d53b998a7bd4ecd2 #video, banner
-yahoo.com, 55891, DIRECT, e1a5b5b6e3255540 #video, banner
 rhythmone.com, 2693636657, DIRECT, a670c89d4a324e47 #video, banner
 video.unrulymedia.com, 2693636657, DIRECT #video
 kargo.com, 8482, DIRECT #banner
@@ -59,7 +57,6 @@ yieldmo.com, 2529157218733858832, DIRECT #banner
 yahoo.com, 58409, DIRECT #video, banner
 yahoo.com, 58671, DIRECT #video, banner
 yieldmo.com, 2701511276000911507, DIRECT #video, banner
-advertising.com, 28493, DIRECT #video
 criteo.com, B-052202, DIRECT, 9fac4a4a87c2a44f #banner
 trustx.org, CU6Y9O, DIRECT, 1d2c8a747a749d25 #video, banner
 nativo.com, 5707, DIRECT, 59521ca7cc5e9fee #banner
@@ -78,7 +75,6 @@ indexexchange.com, 194341, RESELLER, 50b1c356f2c5c8fc #banner
 pubmatic.com, 160377, RESELLER, 5d62403b186f2ace #banner
 appnexus.com, 6979, RESELLER, f5ab79cb980f11d1 #banner
 concert.io, cbs-8cef0f0927, DIRECT #banner
-gumgum.com, 15680, RESELLER, ffdef49475d318a9 #banner
 themediagrid.com, XSGC9R, RESELLER, 35d5010d7789b49d #video, banner
 onetag.com, 7d614f4ac7b0a56-OB, DIRECT #video, banner
 sharethrough.com, 9zUewtvl, RESELLER, d53b998a7bd4ecd2 #banner
@@ -100,7 +96,6 @@ aidem.com, 1609823052, DIRECT  #video, banner
 the-ozone-project.com, OZONERAP0001, DIRECT #banner
 appnexus.com, 9979, RESELLER #video, banner
 openx.com, 540731760, RESELLER, 6a698e2ec38604c6 #video, banner
-improvedigital.com, 1451, RESELLER #video, banner
 adform.com, 2657, RESELLER, 9f5210a2f0999e32 #video, banner
 pubmatic.com, 160557, RESELLER, 5d62403b186f2ace #video, banner
 smartadserver.com, 4011, RESELLER #video, banner
