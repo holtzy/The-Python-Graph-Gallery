@@ -104,8 +104,8 @@ export const paletteHowToUse = (
       <code>hue</code>.
     </p>
     <p>
-      Moreover, the <a href="/color-palette-finder">pypalettes library</a> can
-      help you find the best colors for your chart by providing access to
+      Moreover, the <a href="/introduction-to-pypalettes">pypalettes library</a>{' '}
+      can help you find the best colors for your chart by providing access to
       thousands of pre-made color palette.
     </p>
   </div>

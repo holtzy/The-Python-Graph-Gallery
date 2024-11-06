@@ -102,7 +102,7 @@ export default function Colors({ location }) {
           <a href="https://github.com/JosephBARBIERDARNAL/pypalettes">
             pypalettes
           </a>{' '}
-          is a Python library developed by Joseph Barbier Darnal during his
+          is a Python library developed by Joseph Barbier during his
           collaboration with the Python Graph Gallery 😋.
         </p>
         <p>
