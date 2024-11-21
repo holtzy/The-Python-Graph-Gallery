@@ -1,4 +1,4 @@
-# CafeMedia/AdThrive ads.txt v2.56-auto
+# CafeMedia/AdThrive ads.txt v2.57-auto
 managerdomain=cafemedia.com
 contact=info@adthrive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
@@ -25,7 +25,6 @@ triplelift.com, 5895, DIRECT, 6c33edb13117fd86 #video, banner
 undertone.com, 2002, DIRECT #video, banner
 media.net, 8CUH2EUJ4, DIRECT #video, banner
 teads.tv, 17002, DIRECT, 15a9c44f6d26cbe1 #video, banner
-video.unrulymedia.com, UNRX-PUB-e1b123d0-0bf1-4c85-80ef-8d6ff2d77f8d, DIRECT #video
 triplelift.com, 5825, DIRECT, 6c33edb13117fd86 #banner
 triplelift.com, 6286, DIRECT, 6c33edb13117fd86 #banner
 triplelift.com, 6287, DIRECT, 6c33edb13117fd86 #banner
@@ -38,7 +37,6 @@ triplelift.com, 6293, DIRECT, 6c33edb13117fd86 #banner
 triplelift.com, 6294, DIRECT, 6c33edb13117fd86 #banner
 pubmatic.com, 157852, DIRECT, 5d62403b186f2ace #banner
 yieldmo.com, 2144304518241355475, DIRECT #video, banner
-indexexchange.com, 189263, RESELLER, 50b1c356f2c5c8fc #video, banner
 yahoo.com, 72409f4d-9858-41ac-bf45-be255b82de89, DIRECT, e1a5b5b6e3255540 #banner
 themediagrid.com, CU6Y9O, DIRECT, 35d5010d7789b49d #video, banner
 openx.com, 540814319, DIRECT, 6a698e2ec38604c6 #video, banner
@@ -80,7 +78,6 @@ onetag.com, 7d614f4ac7b0a56-OB, DIRECT #video, banner
 sharethrough.com, 9zUewtvl, RESELLER, d53b998a7bd4ecd2 #banner
 smartadserver.com, 4006-OB, RESELLER, 060d053dcf45cbf3 #banner
 improvedigital.com, 2250, DIRECT #video, banner
-yieldmo.com, 3306703141172355303, DIRECT #video, banner
 ogury.com, f48f1699-39f7-40c5-8aef-1e5255be6d5e, DIRECT #banner
 adform.com, 3063, DIRECT #video, banner
 onetag.com, 75804861b76a852, RESELLER #banner
@@ -90,6 +87,12 @@ xandr.com, 4009, DIRECT, f5ab79cb980f11d1 #video, banner
 smartadserver.com, 3050, DIRECT #video, banner
 rubiconproject.com, 17280, DIRECT, 0bfd66d529a55807 #video, banner
 pubmatic.com, 157743, DIRECT, 5d62403b186f2ace #video, banner
+risecodes.com, 670f50ccaaffbb00017d70d5, DIRECT #video, banner
+pubmatic.com, 160295, RESELLER, 5d62403b186f2ace #video, banner
+xandr.com, 14082, RESELLER #video, banner
+rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807 #video, banner
+sharethrough.com, 5926d422, RESELLER, d53b998a7bd4ecd2 #video, banner
+yieldmo.com, 2754490424016969782, RESELLER #video, banner
 #UK Only
 aidem.com, 6532804884, DIRECT  #video, banner
 aidem.com, 1609823052, DIRECT  #video, banner
