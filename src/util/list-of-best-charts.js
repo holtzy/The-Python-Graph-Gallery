@@ -1,5 +1,13 @@
 export const listOfBestCharts = [
   {
+    link: 'web-two-maps-with-different-granulaties',
+    title: 'Unemployment rates in the US',
+    description: 'Combine two choropleth maps with different granularities',
+    img: 'web-two-maps-with-different-granulaties.png',
+    alt: '2 choropleth maps next to each other with different granularities',
+    author: 'Joseph Barbier',
+  },
+  {
     link: 'web-combine-choropleth-map-with-barplot',
     title: 'HDI distribution in Sao Paulo',
     description: 'Choropleth map with a barplot ',

@@ -165,6 +165,14 @@ export default function Choropleth() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-two-maps-with-different-granulaties'}>
+              <ChartImage
+                imgName={'web-two-maps-with-different-granulaties'}
+                caption={'Two choropleth maps with different granularities'}
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
