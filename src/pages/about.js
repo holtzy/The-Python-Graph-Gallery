@@ -8,6 +8,7 @@ import SponsorImage from '../components/SponsorImage';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { SEO } from '../components/SEO';
+import { Button } from 'react-bootstrap';
 
 const chartDescription =
   "<p>👋 Hi! The Python Graph Gallery is a website brought to you by <a href='https://www.yan-holtz.com'>Yan Holtz</a>. It displays hundreds of charts made with <code>Python</code>, together with their reproducible code. Here are a few things you should know about it! 👇</p>";
@@ -71,7 +72,7 @@ export default function About() {
       </Container>
 
       <Spacing />
-
+      {/*
       <Container>
         <h2 id="Sponsoring">💵 Sponsoring</h2>
         <p>
@@ -143,7 +144,57 @@ export default function About() {
             <SponsorImage imgName="udemy" caption={'Udemy'} />
           </Col>
         </Row>
-      </Container>
+      </Container> */}
+
+      <section className="greySection">
+        <div
+          className="container"
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            paddingTop: 180,
+            paddingBottom: 180,
+          }}
+        >
+          <p
+            style={{
+              fontSize: 32,
+              marginBottom: 50,
+              fontFamily: 'Bitter',
+              fontWeight: 'bold',
+            }}
+          >
+            🚀 Going further 🔥
+          </p>
+          <a href="https://www.matplotlib-journey.com">
+            <img
+              src="/asset/matplotlib-journey-overview.png"
+              alt="overview of the matplotlib journey landing page"
+              width="100%"
+              style={{ border: 'solid grey 1px' }}
+            />
+          </a>
+          <p
+            style={{
+              maxWidth: 500,
+              textAlign: 'center',
+              fontSize: 16,
+              marginTop: 30,
+            }}
+          >
+            <a href="https://www.matplotlib-journey.com">Matplotlib Journey</a>{' '}
+            is an interactive online course crafted to transform you into a
+            Matplotlib <b>dataviz expert</b>. It provides a clear, big-picture
+            understanding of how data visualization works in Python, empowering
+            you to grasp any example from the gallery with ease.
+          </p>
+          <a href="https://www.dataviz-inspiration.com" target="_blank">
+            <Button size="md">Finally, Understand Matplotlib.</Button>
+          </a>
+        </div>
+      </section>
 
       <Spacing />
 

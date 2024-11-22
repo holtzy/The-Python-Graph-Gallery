@@ -132,6 +132,15 @@ export default function TopNavbar() {
             >
               <code>React</code> Graph Gallery
             </NavDropdown.Item>
+
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item
+              className="menuItemMain"
+              href="https://www.matplotlib-journey.com"
+            >
+              Matplotlib Journey
+            </NavDropdown.Item>
           </NavDropdown>
 
           <Nav.Link href="/about">About</Nav.Link>

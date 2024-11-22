@@ -77,7 +77,9 @@ const siteDescription = (
       or join 4000+ subscribers to the newsletter to know when new examples are
       published! 🔥
     </p>
-    <SubscribeButton />
+    <div style={{ display: 'block' }}>
+      <SubscribeButton />
+    </div>
   </>
 );
 
@@ -290,7 +292,9 @@ export default function Home() {
         <br />
         <br />
       </Container>
+
       <Spacing />
+
       <Parallax
         imgLink="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/asset/dataviz-inspiration-overview.png?raw=true"
         height={300}
@@ -323,6 +327,46 @@ export default function Home() {
           </div>
         </div>
       </Parallax>
+
+      <section className="greySection">
+        <div
+          className="container"
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            paddingTop: 180,
+            paddingBottom: 180,
+          }}
+        >
+          <a href="https://www.matplotlib-journey.com">
+            <img
+              src="/asset/matplotlib-journey-overview.png"
+              alt="overview of the matplotlib journey landing page"
+              width="100%"
+              style={{ border: 'solid grey 1px' }}
+            />
+          </a>
+          <p
+            style={{
+              maxWidth: 500,
+              textAlign: 'center',
+              fontSize: 16,
+              marginTop: 30,
+            }}
+          >
+            <a href="https://www.matplotlib-journey.com">Matplotlib Journey</a>{' '}
+            is an interactive online course crafted to transform you into a
+            Matplotlib <b>dataviz expert</b>. It provides a clear, big-picture
+            understanding of how data visualization works in Python, empowering
+            you to grasp any example from the gallery with ease.
+          </p>
+          <a href="https://www.dataviz-inspiration.com" target="_blank">
+            <Button size="md">Finally, Understand Matplotlib.</Button>
+          </a>
+        </div>
+      </section>
 
       <Spacing />
       <Contact />

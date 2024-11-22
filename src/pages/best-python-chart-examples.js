@@ -38,12 +38,6 @@ const chartDescription = (
       to further showcase the versatility and power of matplotlib.
     </p>
     <p>Dive in and get inspired! 😍</p>
-    <br />
-    <p>
-      PS: don't miss new publications, I send them to 4000+ subscribers already
-      ⬇️
-    </p>
-    <SubscribeButton />
   </>
 );
 
@@ -61,6 +55,29 @@ export default function Beeswarm() {
         title="Best Python Chart Examples"
         description={chartDescription}
       />
+
+      <section
+        className="greySection"
+        style={{ marginTop: 20, marginBottom: 80 }}
+      >
+        <div
+          className="container"
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            paddingTop: 60,
+            paddingBottom: 20,
+          }}
+        >
+          <p style={{ fontSize: 16, maxWidth: 500, marginBottom: -40 }}>
+            Love Python and Dataviz? I send my best tips once a week in my
+            "Dataviz Universe" newsletter. More than 8000 people love it!
+          </p>
+          <SubscribeButton />
+        </div>
+      </section>
 
       <Container>
         {listOfBestCharts.map((chart, i) => {
@@ -106,9 +123,50 @@ export default function Beeswarm() {
           Python! If you have any examples in mind that should be showcased
           here, please <b>let me know</b> 🙏.
         </p>
+
+        <Spacing />
       </Container>
 
-      <Spacing />
+      <section className="greySection">
+        <div
+          className="container"
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            paddingTop: 180,
+            paddingBottom: 180,
+          }}
+        >
+          <a href="https://www.matplotlib-journey.com">
+            <img
+              src="/asset/matplotlib-journey-overview.png"
+              alt="overview of the matplotlib journey landing page"
+              width="100%"
+              style={{ border: 'solid grey 1px' }}
+            />
+          </a>
+          <p
+            style={{
+              maxWidth: 500,
+              textAlign: 'center',
+              fontSize: 16,
+              marginTop: 30,
+            }}
+          >
+            If you like those examples, you will love{' '}
+            <a href="https://www.matplotlib-journey.com">Matplotlib Journey</a>.
+            It's an interactive online course crafted to transform you into a
+            Matplotlib <b>dataviz expert</b>. It provides a clear, big-picture
+            understanding of how data visualization works in Python, empowering
+            you to grasp any example from the gallery with ease.
+          </p>
+          <a href="https://www.dataviz-inspiration.com" target="_blank">
+            <Button size="md">Finally, Understand Matplotlib.</Button>
+          </a>
+        </div>
+      </section>
 
       <Container>
         <Contact />
