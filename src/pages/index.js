@@ -362,7 +362,7 @@ export default function Home() {
             understanding of how data visualization works in Python, empowering
             you to grasp any example from the gallery with ease.
           </p>
-          <a href="https://www.dataviz-inspiration.com" target="_blank">
+          <a href="https://www.matplotlib-journey.com" target="_blank">
             <Button size="md">Finally, Understand Matplotlib.</Button>
           </a>
         </div>
