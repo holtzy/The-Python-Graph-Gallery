@@ -174,9 +174,14 @@ export default function Waffle() {
             linkTo="/web-waffle-chart-as-share"
           />
           <ChartImageContainer
-            imgName="web-waffle-chart-for-time-series"
+            imgName="web-waffle-chart-for-time-series-square"
             caption="Waffle chart as a time series with nice style"
-            linkTo="/web-waffle-chart-for-time-series-square"
+            linkTo="/web-waffle-chart-for-time-series"
+          />
+          <ChartImageContainer
+            imgName="web-waffle-chart-with-groups-evolution-square"
+            caption="Waffle chart as a time series with clean labels and annotations"
+            linkTo="/web-waffle-chart-with-groups-evolution"
           />
         </Row>
       </Container>
