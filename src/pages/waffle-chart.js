@@ -178,6 +178,11 @@ export default function Waffle() {
             caption="Waffle chart as a time series with nice style"
             linkTo="/web-waffle-chart-for-time-series-square"
           />
+          <ChartImageContainer
+            imgName="web-waffle-chart-with-groups-evolution"
+            caption="Waffle chart as a time series with clean labels and annotations"
+            linkTo="/web-waffle-chart-with-groups-evolution-square"
+          />
         </Row>
       </Container>
 
