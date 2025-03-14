@@ -1,5 +1,14 @@
 export const listOfBestCharts = [
   {
+    link: 'web-waffle-chart-with-groups-evolution',
+    title: 'Animal adoption evolution',
+    description:
+      'Waffle chart about animal adoption evolution between 2017 and 2024.',
+    img: 'web-waffle-chart-with-groups-evolution-square.png',
+    alt: 'waffle chart about animal adoption',
+    author: 'Joseph Barbier',
+  },
+  {
     link: 'web-two-maps-with-different-granulaties',
     title: 'Unemployment rates in the US',
     description: 'Combine two choropleth maps with different granularities',
