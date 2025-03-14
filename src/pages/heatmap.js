@@ -235,6 +235,21 @@ export default function Heatmap() {
             />
           </Link>
         </div>
+        <p>
+          Calendar heatmap is also a great way to use heatmap to represent an
+          evolution. And it's quite easy to do thanks to the{' '}
+          <code>dayplot</code> library.
+        </p>
+        <div style={{ maxWidth: '800px', margin: '0 auto', padding: 20 }}>
+          <Link to="/calendar-heatmaps-with-python-and-matplotlib">
+            <ChartImage
+              imgName={'calendar-heatmap'}
+              caption={
+                'A calendar heatmap for temporal data with Python and Matplotlib'
+              }
+            />
+          </Link>
+        </div>
       </Container>
 
       <Spacing />
