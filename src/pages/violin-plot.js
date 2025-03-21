@@ -17,7 +17,7 @@ import FunctionExploration from '../components/FunctionExploration';
 import { violinplot } from '../functions/violinplot';
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/violin.html'>violint plot</a> allows you to visualize the distribution of a numeric variable for one or several groups. <code>Seaborn</code> is particularly adapted to build it thanks to its <code>violin()</code> function. Violin plots deserve more attention than <a href='https://python-graph-gallery.com/boxplot'>boxplots</a>, which can sometimes hide features of the data.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/violin.html'>violin plot</a> allows you to visualize the distribution of a numeric variable for one or several groups. <code>Seaborn</code> is particularly adapted to build it thanks to its <code>violin()</code> function. Violin plots deserve more attention than <a href='https://python-graph-gallery.com/boxplot'>boxplots</a>, which can sometimes hide features of the data.</p>";
 
 const quickCode = `# library & dataset
 import seaborn as sns
