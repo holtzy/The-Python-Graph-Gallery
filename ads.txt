@@ -1,4 +1,4 @@
-# CafeMedia/AdThrive ads.txt v2.58-auto
+# CafeMedia/AdThrive ads.txt v2.59-auto
 managerdomain=cafemedia.com
 contact=info@adthrive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
@@ -87,6 +87,7 @@ xandr.com, 4009, DIRECT, f5ab79cb980f11d1 #video, banner
 smartadserver.com, 3050, DIRECT #video, banner
 rubiconproject.com, 17280, DIRECT, 0bfd66d529a55807 #video, banner
 pubmatic.com, 157743, DIRECT, 5d62403b186f2ace #video, banner
+smartadserver.com, 5339, DIRECT, 060d053dcf45cbf4 #video, banner
 #UK Only
 aidem.com, 6532804884, DIRECT  #video, banner
 aidem.com, 1609823052, DIRECT  #video, banner
