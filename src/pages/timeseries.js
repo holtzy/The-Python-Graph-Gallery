@@ -167,6 +167,24 @@ export default function Pie() {
       <Spacing />
 
       <Container>
+        <h2 id="Calendar">Calendar Heatmap</h2>
+        <p>
+          A calendar heatmap is a great way to use heatmap to represent the
+          evolution of a variable measured daily. It's quite straightforward to
+          build thanks to the <code>dayplot</code> library.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="calendar-heatmap"
+            caption="Most basic calendar heatmap"
+            linkTo="/404-dendrogram-with-heat-map"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Line">Candlesticks</h2>
         <p>
           A <code>candlestick chart</code> is a style of financial chart used to

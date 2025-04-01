@@ -235,21 +235,24 @@ export default function Heatmap() {
             />
           </Link>
         </div>
+      </Container>
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Calendar">Calendar Heatmap</h2>
         <p>
-          Calendar heatmap is also a great way to use heatmap to represent an
-          evolution. And it's quite easy to do thanks to the{' '}
-          <code>dayplot</code> library.
+          A calendar heatmap is a great way to use heatmap to represent the
+          evolution of a variable measured daily. It's quite straightforward to
+          build thanks to the <code>dayplot</code> library.
         </p>
-        <div style={{ maxWidth: '800px', margin: '0 auto', padding: 20 }}>
-          <Link to="/calendar-heatmaps-with-python-and-matplotlib">
-            <ChartImage
-              imgName={'calendar-heatmap'}
-              caption={
-                'A calendar heatmap for temporal data with Python and Matplotlib'
-              }
-            />
-          </Link>
-        </div>
+        <Row>
+          <ChartImageContainer
+            imgName="calendar-heatmap"
+            caption="Most basic calendar heatmap"
+            linkTo="/404-dendrogram-with-heat-map"
+          />
+        </Row>
       </Container>
 
       <Spacing />
