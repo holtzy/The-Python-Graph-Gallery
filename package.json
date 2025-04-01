@@ -34,7 +34,7 @@
     "gatsby-transformer-sharp": "^5.10.0",
     "katex": "^0.16.21",
     "lucide-react": "^0.408.0",
-    "prismjs": "^1.29.0",
+    "prismjs": "^1.30.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
