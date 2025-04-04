@@ -27,6 +27,8 @@ import greatTablesImg from '../../static/logo/Other/great_tables.png';
 import plotTablesImg from '../../static/logo/Other/plottable.png';
 import pyfontsImg from '../../static/logo/Other/pyfonts.png';
 import drawarrowImg from '../../static/logo/Other/drawarrow.png';
+import dayplotImg from '../../static/logo/Other/dayplot.png';
+import morethemesImg from '../../static/logo/Other/morethemes.png';
 import { SEO } from '../components/SEO';
 
 // Core
@@ -103,6 +105,18 @@ const logoMatplotExtension = [
     height: '115px',
   },
   {
+    imgPath: dayplotImg,
+    url: '/calendar-heatmaps-with-python-and-matplotlib',
+    altText: 'DayPlot logo',
+    name: 'DayPlot',
+  },
+  {
+    imgPath: morethemesImg,
+    url: '/custom-matplotlib-theme-with-morethemes',
+    altText: 'morethemes logo',
+    name: 'MoreThemes',
+  },
+  {
     imgPath: HighlighTextImg,
     url: '/advanced-custom-annotations-matplotlib',
     altText: 'Highlight Text logo',
@@ -174,8 +188,13 @@ const logoSpecificChart = [
     altText: 'PyWaffle logo',
     name: 'PyWaffle',
   },
+  {
+    imgPath: dayplotImg,
+    url: '/calendar-heatmaps-with-python-and-matplotlib',
+    altText: 'DayPlot logo',
+    name: 'DayPlot',
+  },
 ];
-
 const logoTables = [
   {
     imgPath: greatTablesImg,
