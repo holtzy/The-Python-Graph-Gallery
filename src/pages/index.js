@@ -343,7 +343,7 @@ export default function Home() {
         >
           <a href="https://www.matplotlib-journey.com">
             <img
-              src="/asset/matplotlib-journey-overview.png"
+              src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/matplotlib-journey-overview.png"
               alt="overview of the matplotlib journey landing page"
               width="100%"
               style={{ border: 'solid grey 1px' }}

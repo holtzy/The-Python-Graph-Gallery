@@ -22,6 +22,7 @@ export default function Contact() {
         src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/poster_small.png"
         alt="handout Cheatsheet beginners"
         width="100%"
+        style={{ maxWidth: 900 }}
       />
     </div>
   );
