@@ -36,65 +36,63 @@ export default function CheatSheet() {
       <Spacing />
 
       <Container>
-        <h2 id="Matplotlib">
-          <Matplotlib />
-          Matplotlib cheatsheet
-        </h2>
+        <h2 id="matplotlib">Matplotlib</h2>
         <p>
-          <a
-            href="https://datacamp.pxf.io/YgNDbR"
-            title="Datacamp"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Datacamp
-          </a>{' '}
-          provides a cheatsheet describing the basics of <code>matplotlib</code>
-          . Matplotlib is the most widely used library for datavisualization
-          with python. You can read more about it on its{' '}
-          <Link href="/matplotlib">dedicated page</Link>.
+          There are several useful cheatsheets about{' '}
+          <Link href="/matplotlib">matplotlib</Link>.
         </p>
-        <Row>
-          <Col xs={12} md={12}>
-            <a href="https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf">
-              <ChartImage
-                imgName={'matplotlib_cheat_sheet'}
-                caption={'Matplotlib cheatsheet by Datacamp.'}
-              />
-            </a>
+        <p>
+          The Matplotlib organization itself provides several options, and
+          Datacamp is also a great contributor.
+        </p>
+        <p>
+          Note that if you want to truely understand how matplotlib works,
+          <a href="https://www.matplotlib-journey.com" target="_blank">
+            Matplotlib Journey
+          </a>{' '}
+          is what you truly need!
+        </p>
+        <p>
+          In any case, you can download all the available cheatsheets in a
+          single PDF:
+        </p>
+        <Button
+          size="md"
+          style={{ borderWidth: 1, marginLeft: 10 }}
+          onClick={() => setIsModalOpen(true)}
+        >
+          Download All
+        </Button>
+
+        <p>
+          <br />
+        </p>
+        <Row className="align-items-center">
+          <Col md={6} onClick={() => setIsModalOpen(true)}>
+            <ChartImage
+              imgName={'matplotlib_cheat_sheet'}
+              caption={'Matplotlib cheatsheet by Datacamp.'}
+            />
           </Col>
-        </Row>
-        <br />
-        <br />
-        <p>
-          The following 2 cheatsheets from the{' '}
-          <a href="https://github.com/matplotlib/cheatsheets">
-            official matplotlib repository
-          </a>{' '}
-          are also very handy:
-        </p>
-        <Row>
-          <Col xs={12} md={12}>
+          <Col md={6} onClick={() => setIsModalOpen(true)}>
             <ChartImage
               imgName={'matplotlib-python-official-cheatsheet1'}
               caption={'Matplotlib cheatsheet by matplotlib (page 1).'}
             />
           </Col>
-          <Col xs={12} md={12}>
+          <Col md={6} onClick={() => setIsModalOpen(true)}>
             <ChartImage
               imgName={'matplotlib-python-official-cheatsheet2'}
               caption={'Matplotlib cheatsheet by matplotlib (page 2).'}
             />
           </Col>
+          <Col md={6} onClick={() => setIsModalOpen(true)}>
+            <ChartImage
+              imgName={'handout-beginner'}
+              caption={'Handout Beginner'}
+            />
+          </Col>
         </Row>
-
-        <Button
-          size="sm"
-          style={{ borderWidth: 1, marginLeft: 10 }}
-          onClick={() => setIsModalOpen(true)}
-        >
-          Download
-        </Button>
       </Container>
 
       <Spacing />

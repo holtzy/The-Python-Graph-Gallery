@@ -21,8 +21,8 @@ export default function SubscribeModal({ show, handleClose }) {
       <div className="menuModalAllLogoContainer">
         <h2>Dataviz Universe</h2>
         <p>
-          My best Python tips and tricks directly delived in your Inbox. No Spam
-          ever. Subscribe anytime.
+          My best Python tips and tricks directly deliverd in your Inbox. No
+          Spam ever. Subscribe anytime.
         </p>
         <SubscribeButton />
       </div>

@@ -10,7 +10,6 @@ export default function CheatSheetModal({ show, handleClose }) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
       size="lg"
-      className="menuModal"
     >
       <p className="menuModalCloseModalButton" onClick={handleClose}>
         &#10005;
