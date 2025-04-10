@@ -87,9 +87,9 @@ export default function CheatSheet() {
             />
           </Col>
           <Col md={6} onClick={() => setIsModalOpen(true)}>
-            <ChartImage
-              imgName={'handout-beginner'}
-              caption={'Handout Beginner'}
+            <img
+              src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/public/graph/handout-beginner.webp"
+              alt="heandout Cheatsheet beginner"
             />
           </Col>
         </Row>
