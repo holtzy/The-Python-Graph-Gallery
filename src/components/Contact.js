@@ -1,7 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './contact.css';
-import SubscribeButtonCheatSheet from './SubscribeButtonCheatSheet';
+import SubscribeButtonPoster from './SubscribeButtonPoster';
 
 export default function Contact() {
   return (
@@ -16,11 +15,11 @@ export default function Contact() {
         download it for free!
       </p>
 
-      <SubscribeButtonCheatSheet />
+      <SubscribeButtonPoster />
 
       <img
         src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/poster_small.png"
-        alt="handout Cheatsheet beginners"
+        alt="dataviz decision tree poster"
         width="100%"
         style={{ maxWidth: 900 }}
       />
