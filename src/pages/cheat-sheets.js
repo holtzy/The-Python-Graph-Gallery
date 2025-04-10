@@ -88,8 +88,52 @@ export default function CheatSheet() {
           </Col>
           <Col md={6} onClick={() => setIsModalOpen(true)}>
             <img
-              src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/public/graph/handout-beginner.webp"
-              alt="heandout Cheatsheet beginner"
+              src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/handout-beginner.webp"
+              alt="handout Cheatsheet beginners"
+            />
+          </Col>
+          <Col md={6} onClick={() => setIsModalOpen(true)}>
+            <img
+              src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/handout-intermediate.webp"
+              alt="handout Cheatsheet beginners"
+            />
+          </Col>
+          <Col md={6} onClick={() => setIsModalOpen(true)}>
+            <img
+              src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/handout-tips.webp"
+              alt="handout Cheatsheet beginners"
+            />
+          </Col>
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Spacing />
+
+      <Container>
+        <h2 id="Seaborn">Seaborn</h2>
+        <p>
+          Seaborn is a dataviz library for Python built on top of Matplotlib. It
+          is unavoidable to build some chart types and provides much better
+          default than matplotlib. You cannot live without it!
+        </p>
+        <Button
+          size="md"
+          style={{ borderWidth: 1, marginLeft: 10 }}
+          onClick={() => setIsModalOpen(true)}
+        >
+          Download Cheatsheet
+        </Button>
+
+        <p>
+          <br />
+        </p>
+        <Row className="align-items-center">
+          <Col md={6} onClick={() => setIsModalOpen(true)}>
+            <ChartImage
+              imgName={'seaborn_cheat_sheet'}
+              caption={'Seaborn cheatsheet by Datacamp.'}
             />
           </Col>
         </Row>
@@ -98,32 +142,30 @@ export default function CheatSheet() {
       <Spacing />
 
       <Container>
-        <h2 id="Seaborn">
-          <Seaborn />
-          Seaborn cheatsheet
-        </h2>
+        <h2 id="data-to-viz">Chart type choice</h2>
+        <p>Wondering what chart type you should use for your dataset?</p>
         <p>
-          <a
-            href="https://datacamp.pxf.io/YgNDbR"
-            title="Datacamp"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Datacamp
-          </a>{' '}
-          provides a cheatsheet describing the basics of <code>seaborn</code>.
-          Seaborn is also a widely used library for datavisualization with
-          python. It allows to get very clean chart with less code. You can read
-          more about it on its <Link href="/seaborn">dedicated page</Link>.
+          Here is a decision tree coming from my Data to Viz project. You
+          describe your dataset format and it leads you to the most appropriate
+          chart type!
         </p>
-        <Row>
-          <Col xs={12} md={12}>
-            <a href="https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf">
-              <ChartImage
-                imgName={'seaborn_cheat_sheet'}
-                caption={'Seaborn cheatsheet by Datacamp.'}
-              />
-            </a>
+        <Button
+          size="md"
+          style={{ borderWidth: 1, marginLeft: 10 }}
+          onClick={() => setIsModalOpen(true)}
+        >
+          Download Decision Tree
+        </Button>
+
+        <p>
+          <br />
+        </p>
+        <Row className="align-items-center">
+          <Col md={12} onClick={() => setIsModalOpen(true)}>
+            <img
+              src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/poster_small.png"
+              alt="handout Cheatsheet beginners"
+            />
           </Col>
         </Row>
       </Container>
