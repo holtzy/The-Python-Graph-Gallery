@@ -64,19 +64,20 @@ const siteDescription = (
         target="_blank"
         rel="noreferrer"
       >
-        github
+        GitHub
       </a>
-      , send me a feedback on{' '}
+      , share your feedback on{' '}
       <a
-        href="https://twitter.com/R_Graph_Gallery"
+        href="https://www.linkedin.com/in/yan-holtz-2477534a/"
         target="_blank"
         rel="noreferrer"
       >
-        twitter
-      </a>{' '}
-      or join 4000+ subscribers to the newsletter to know when new examples are
-      published! 🔥
+        LinkedIn
+      </a>
+      , or join 10,000+ subscribers to the newsletter to get updates when new
+      examples are published! 🔥
     </p>
+
     <div style={{ display: 'block' }}>
       <SubscribeButton />
     </div>

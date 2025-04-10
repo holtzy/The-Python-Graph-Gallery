@@ -38,7 +38,7 @@ export const listOfBestCharts = [
     title: 'Share of cereals used as animal feeds',
     description:
       'Change in the number of storms by storm type between 2010 and 2022.',
-    img: 'web-waffle-chart-for-time-series.png',
+    img: 'web-waffle-chart-for-time-series-zoom.png',
     alt: 'Waffle chart about storms frequency',
     author: 'Muhammad Azhar',
   },
@@ -187,7 +187,7 @@ export const listOfBestCharts = [
     title: 'Polished table with bubbles',
     description:
       'Investigating the 10 best and worst countries to live in, with bubble in cells to represent the data. A good way to showcase the plottable library.',
-    img: '564-publication-ready-table-with-plottable.png',
+    img: '564-publication-ready-table-with-plottable-square.png',
     alt: 'Clean table with plottable',
     author: 'Fortune Uwha',
   },

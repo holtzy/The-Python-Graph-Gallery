@@ -195,6 +195,54 @@ export default function Matplotlibs() {
 
       <Spacing />
 
+      <section className="greySection">
+        <Container>
+          <h2 id="Quick">🤔 How to Learn Matplotlib</h2>
+          <p>
+            Matplotlib is a powerful library, but its syntax can be hard to
+            master. If you want a deep understanding of how it works—and stop
+            struggling to build your dream charts—check out my{' '}
+            <a href="https://www.matplotlib-journey.com">Matplotlib Journey</a>{' '}
+            project!
+          </p>
+          <p>
+            It is an interactive online course designed to turn you into a
+            Matplotlib <b>data visualization expert</b>. It offers a clear,
+            big-picture understanding of how plotting works in Python, making it
+            easy to understand and adapt any example from the gallery.
+          </p>
+        </Container>
+
+        <div
+          className="container"
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            paddingTop: 50,
+            paddingBottom: 110,
+          }}
+        >
+          <a href="https://www.matplotlib-journey.com">
+            <img
+              src="/asset/matplotlib-journey-overview.png"
+              alt="overview of the matplotlib journey landing page"
+              width="100%"
+              style={{ border: 'solid grey 1px' }}
+            />
+          </a>
+          <p>
+            <br />
+          </p>
+          <a href="https://www.matplotlib-journey.com" target="_blank">
+            <Button size="md">Finally, Understand Matplotlib.</Button>
+          </a>
+        </div>
+      </section>
+
+      <Spacing />
+
       <Container>
         <h2 id="APIs">
           <Matplotlib />

@@ -15,6 +15,8 @@ export default function Footer() {
           <a href="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE">
             License
           </a>
+          <span> | </span>
+          <Link to="/about">About</Link>
         </span>
       </div>
     </div>

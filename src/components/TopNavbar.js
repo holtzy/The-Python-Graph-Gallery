@@ -143,7 +143,9 @@ export default function TopNavbar() {
             </NavDropdown.Item>
           </NavDropdown>
 
-          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="https://www.matplotlib-journey.com" target="_blank">
+            Learn
+          </Nav.Link>
 
           <Button
             size="sm"

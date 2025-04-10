@@ -1,0 +1,25 @@
+.menuModalCloseModalButton {
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+
+.menuModal {
+  background-color: white !important;
+  width: 100%;
+}
+
+.menuModalAllLogoContainer {
+  background-color: white !important;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  opacity: 1;
+}

@@ -8,8 +8,9 @@ import Spacing from '../components/Spacing';
 import ChartImage from '../components/ChartImage';
 import { Matplotlib, Pandas, Seaborn } from '../components/MiscellaneousLogos';
 import { Link } from 'gatsby';
-import { Col, Row } from 'react-bootstrap';
+import { Button, Col, Row } from 'react-bootstrap';
 import { SEO } from '../components/SEO';
+import CheatSheetModal from '../components/cheatSheetModal';
 
 const chartDescription =
   "<p>This section provides a few cheat sheets related with <code>python</code>, data wrangling and data visualization. Even with a perfect understanding of <code>python</code> and its libraries, it's almost impossible to remember the syntax of each function of the ecosystem. That's where cheatsheets are useful 🔥!</p>";
@@ -22,6 +23,8 @@ export const Head = () => (
 );
 
 export default function CheatSheet() {
+  const [isModalOpen, setIsModalOpen] = React.useState(false);
+
   return (
     <Layout isTocEnabled>
       <TitleAndDescription
@@ -84,6 +87,14 @@ export default function CheatSheet() {
             />
           </Col>
         </Row>
+
+        <Button
+          size="sm"
+          style={{ borderWidth: 1, marginLeft: 10 }}
+          onClick={() => setIsModalOpen(true)}
+        >
+          Download
+        </Button>
       </Container>
 
       <Spacing />
@@ -164,6 +175,11 @@ export default function CheatSheet() {
       </Container>
 
       <Spacing />
+
+      <CheatSheetModal
+        show={isModalOpen}
+        handleClose={() => setIsModalOpen(false)}
+      />
     </Layout>
   );
 }
