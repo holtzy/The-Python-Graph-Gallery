@@ -36,7 +36,10 @@ export default function CheatSheet() {
       <Spacing />
 
       <Container>
-        <h2 id="matplotlib">Matplotlib</h2>
+        <h2 id="matplotlib">
+          <Matplotlib />
+          Matplotlib
+        </h2>
         <p>
           There are several useful cheatsheets about{' '}
           <Link href="/matplotlib">matplotlib</Link>.
@@ -89,18 +92,21 @@ export default function CheatSheet() {
           <Col md={6} onClick={() => setIsModalOpen(true)}>
             <img
               src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/handout-beginner.webp"
+              width="100%"
               alt="handout Cheatsheet beginners"
             />
           </Col>
           <Col md={6} onClick={() => setIsModalOpen(true)}>
             <img
               src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/handout-intermediate.webp"
+              width="100%"
               alt="handout Cheatsheet beginners"
             />
           </Col>
           <Col md={6} onClick={() => setIsModalOpen(true)}>
             <img
               src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/handout-tips.webp"
+              width="100%"
               alt="handout Cheatsheet beginners"
             />
           </Col>
@@ -112,7 +118,10 @@ export default function CheatSheet() {
       <Spacing />
 
       <Container>
-        <h2 id="Seaborn">Seaborn</h2>
+        <h2 id="Seaborn">
+          <Seaborn />
+          Seaborn
+        </h2>
         <p>
           Seaborn is a dataviz library for Python built on top of Matplotlib. It
           is unavoidable to build some chart types and provides much better
@@ -165,6 +174,7 @@ export default function CheatSheet() {
             <img
               src="https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/refs/heads/master/src/img/poster_small.png"
               alt="handout Cheatsheet beginners"
+              width="100%"
             />
           </Col>
         </Row>
@@ -175,23 +185,25 @@ export default function CheatSheet() {
       <Container>
         <h2 id="Pandas">
           <Pandas />
-          Pandas cheatsheet
+          Pandas
         </h2>
         <p>
-          <a
-            href="https://datacamp.pxf.io/YgNDbR"
-            title="Datacamp"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Datacamp
-          </a>{' '}
-          provides a cheatsheet describing the basics of <code>pandas</code>.
-          Pandas is mainly used for data manipulation with Python, but also
-          offers some dataviz helpers.
+          Last but not least, what would we do without Pandas for the data
+          wrangling part of our projects? 😀
         </p>
-        <Row>
-          <Col xs={12} md={12}>
+        <Button
+          size="md"
+          style={{ borderWidth: 1, marginLeft: 10 }}
+          onClick={() => setIsModalOpen(true)}
+        >
+          Download Cheatsheet
+        </Button>
+
+        <p>
+          <br />
+        </p>
+        <Row className="align-items-center">
+          <Col md={6} onClick={() => setIsModalOpen(true)}>
             <ChartImage
               imgName={'pandas_cheat_sheet'}
               caption={'Pandas cheatsheet by Datacamp.'}
