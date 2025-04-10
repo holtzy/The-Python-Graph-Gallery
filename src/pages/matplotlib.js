@@ -766,6 +766,12 @@ export default function Matplotlibs() {
             />
           </Link>
         </div>
+        <p>
+          We recommend you to use the{' '}
+          <a href="/custom-matplotlib-theme-with-morethemes">morethemes</a>{' '}
+          package if you want to use beautiful themes inspired by famous
+          journals.
+        </p>
       </Container>
 
       <Spacing />
