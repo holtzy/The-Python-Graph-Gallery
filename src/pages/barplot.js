@@ -186,6 +186,11 @@ export default function Barplot() {
             caption="Add patterns to your barplot"
             linkTo="/584-introduction-hatch-matplotlib"
           />
+          <ChartImageContainer
+            imgName="grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-square"
+            caption="Grouped barplot with the total of each group in the background"
+            linkTo="/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle"
+          />
         </Row>
       </Container>
 
@@ -275,6 +280,11 @@ export default function Barplot() {
             imgName="12_stacked_percent_barplot"
             caption="How to build a percent stacked barplot with Python.."
             linkTo="/13-percent-stacked-barplot"
+          />
+          <ChartImageContainer
+            imgName="grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-square"
+            caption="Grouped barplot with the total of each group in the background"
+            linkTo="/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle"
           />
         </Row>
       </Container>
