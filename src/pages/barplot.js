@@ -191,6 +191,11 @@ export default function Barplot() {
             caption="Grouped barplot with the total of each group in the background"
             linkTo="/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle"
           />
+          <ChartImageContainer
+            imgName="grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-2-square"
+            caption="Customized grouped barplot with the total of each group in the background"
+            linkTo="/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle"
+          />
         </Row>
       </Container>
 
@@ -284,6 +289,11 @@ export default function Barplot() {
           <ChartImageContainer
             imgName="grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-square"
             caption="Grouped barplot with the total of each group in the background"
+            linkTo="/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle"
+          />
+          <ChartImageContainer
+            imgName="grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-2-square"
+            caption="Customized grouped barplot with the total of each group in the background"
             linkTo="/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle"
           />
         </Row>
