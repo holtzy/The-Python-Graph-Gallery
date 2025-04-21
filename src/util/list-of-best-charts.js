@@ -1,5 +1,14 @@
 export const listOfBestCharts = [
   {
+    link: 'web-choropleth-map-with-barplot',
+    title: 'Unemployment rate in Belgium',
+    description:
+      'Breakdown and distribution of the unemployment rate in Belgium',
+    img: 'web-choropleth-map-with-barplot-square.png',
+    alt: 'waffle chart combined with barplot',
+    author: 'Koen Van den Eeckhout',
+  },
+  {
     link: 'web-waffle-chart-with-groups-evolution',
     title: 'Animal adoption evolution',
     description:
