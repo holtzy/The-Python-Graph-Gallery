@@ -1,57 +1,105 @@
 # The Python Graph Gallery
 
-This github repository is the source code of the [Python Graph Gallery](https://python-graph-gallery.com), a website that displays hundreds of
-chart made with Python.
+This GitHub repository contains the source code for the [Python Graph Gallery](https://python-graph-gallery.com), a website showcasing hundreds of charts made with Python.
 
-[Website](https://python-graph-gallery.com) | [About page](https://python-graph-gallery.com/about) | [Contribute](#contributing)
+[Website](https://python-graph-gallery.com) | [About](https://python-graph-gallery.com/about) | [Contribute](#contributing)
 
-<img align="center" src="static/overview_PGG2.png">
+<p align="center">
+  <img src="static/overview_PGG2.png" alt="Python Graph Gallery Overview">
+</p>
 
+<br>
 <br>
 
 ## Contributing
 
-## 🙇‍♂️ How to contribute
+All kinds of contributions are welcome: from correcting a typo to adding a new blog post!
 
-### Set up development environment
+### Set Up Development Environment
 
-Here are the steps to follow to install the website locally:
+To install the website locally, follow these steps:
 
-- If not already, install Git, Node.js, npm, and Gatsby. See [this page](https://www.gatsbyjs.com/docs/tutorial/getting-started/part-0/) for a dedicated tutorial.
-- Fork and Clone the [Github repo](https://github.com/holtzy/The-Python-Graph-Gallery).
+- Install Git, Node.js, npm, and Gatsby if you haven't already. Refer to [this tutorial](https://www.gatsbyjs.com/docs/tutorial/getting-started/part-0/).
+- Fork and clone the [GitHub repository](https://github.com/holtzy/The-Python-Graph-Gallery).
 - Create a new Git branch.
 - Run `npm install` to install dependencies.
-- Run `npm run develop` to build and view the site locally. It may take 1 to 2 minutes to build, and then open `http://localhost:8000` in your browser.
+- Run `npm run develop` to build and preview the site locally. It may take 1–2 minutes. Then visit `http://localhost:8000` in your browser.
 
-### Improve a blog post
+### Improve a Blog Post
 
-Let's say you want to improve the blog post at this URL: [`https://python-graph-gallery.com/20-basic-histogram-seaborn/`](https://python-graph-gallery.com/20-basic-histogram-seaborn/)
+To improve a blog post such as [`https://python-graph-gallery.com/20-basic-histogram-seaborn/`](https://python-graph-gallery.com/20-basic-histogram-seaborn/):
 
-- In your code editor, open the `20-basic-histogram-seaborn.ipynb` file.
-- Since it's just a Jupyter Notebook, you can make all the changes you want in this file.
-- Commit and push your changes, and then open a PR. Feel free to tag **@holtzy** on GitHub to ensure your PR gets a review.
+- Open the `20-basic-histogram-seaborn.ipynb` file in your code editor.
+- Make your changes directly in this Jupyter Notebook.
+- Commit and push your changes, then open a pull request (PR). Tag **@holtzy** for a review.
 
-### Create a blog post
+### Create a Blog Post
 
-The recommended way to create a new blog post is to duplicate an existing one and then update from it. The steps are:
+To create a new blog post, duplicate an existing one and edit it as follows:
 
-- Duplicate an existing `.ipynb` file stored in `src/notebooks/`
-- Rename it with the name of your blog post.
-  - Use only lowercase letters and the `-` symbol.
-  - Make sure it starts with a number not already taken, above 600.
-  - For example: `602-combine-boxplot-and-violintplot-using-seaborn.ipynb`
-- Open this file to change the `slug` metadata parameters. For this, you need to open it without Jupyter Notebooks.
-  - In VS Code, use `Open With > Text Editor` instead of the default Jupyter Notebook.
-  - The `slug` parameter is at the very end of the file.
-  - Use the exact same name as the file name (without the extension), e.g., `602-combine-boxplot-and-violintplot-using-seaborn`
-- You might need to re-run `npm run develop` to re-build the site. Once done, open:  
+#### Create File
+
+- Duplicate an existing `.ipynb` file in `src/notebooks/`.
+- Rename the file using lowercase letters and hyphens, starting with an unused number above 600.  
+  Example: `602-combine-boxplot-and-violintplot-using-seaborn.ipynb`
+- Open the file to update the `slug` metadata.
+  - Use VS Code’s `Open With > Text Editor` option (not Jupyter Notebook).
+  - The `slug` should match the filename (without the extension), e.g., `602-combine-boxplot-and-violintplot-using-seaborn`.
+
+#### Preview File
+
+- Re-run `npm run develop` to rebuild the site.
+- Preview your post at:  
   `http://localhost:8000/602-combine-boxplot-and-violintplot-using-seaborn`
-- Now you should be able to make modifications in the Jupyter Notebook that will automatically appear in your browser.
-- Once you've written your blog post, you need to **change the metadata** of the file. Again, open the notebook as a text file:
-  - `title`: the main title that will appear in big at the very top of the blog post
-  - `description`: the first chunk of text under the title. You can use HTML here, including links and formatting.
-  - `family`: must be one of: **evolution**, **ranking**, **distribution**, **general**, **correlation**, **partOfAWhole**, **flow**
-  - `chartType`: must be one of the IDs used in [this file](https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/src/util/sectionDescriptions.js)
-  - `slug`: already set previously
-  - `keywords`: will be passed to the HTML page header
-  - `seoDescription`: used for the description meta tag in the HTML page. Text only—think about what Google wants to know.
+
+#### Metadata
+
+At the end of the notebook (opened as a text file), update these metadata fields:
+
+- `title`: Appears as the main title.
+- `description`: Short intro text under the title (HTML allowed).
+- `family`: One of: **evolution**, **ranking**, **distribution**, **general**, **correlation**, **partOfAWhole**, **flow**
+- `chartType`: Must match an ID from [this file](https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/src/util/sectionDescriptions.js)
+- `slug`: Already defined above.
+- `keywords`: For the HTML header.
+- `seoDescription`: Plain-text description for meta tags. Think SEO!
+
+#### Add Links to Blog Post
+
+To link your post in the gallery:
+
+1. **Create a Screenshot**
+
+   - Take a screenshot of the plot (on Mac: `ctrl + cmd + 4`).
+   - Ensure it's square and at least 480×480 px.
+   - Move the file to `The-Python-Graph-Gallery/static/graph/`.
+
+2. **Format Image with [ImageMagick](https://imagemagick.org/index.php)**
+
+   - Open terminal, navigate to the `img` folder.
+   - Run:  
+     `./script_reformat_img.sh my-img-name.png`
+   - Image name must match the post filename, e.g., `602-combine-boxplot-and-violintplot-using-seaborn.png`.
+   - For multiple images:  
+     `-1.png`, `-2.png`, etc.
+
+3. **Update Section File**
+
+   - If your post features a violin chart, update `violin-plot.js` in `src/pages/`.
+   - Add:
+
+   ```js
+   <ChartImageContainer
+     imgName="602-combine-boxplot-and-violintplot-using-seaborn"
+     caption="Combine boxplot and violinplot with seaborn"
+     linkTo="/602-combine-boxplot-and-violintplot-using-seaborn"
+   />
+   ```
+
+#### Push Your Changes
+
+Before pushing, review the [New Post Checklist](https://github.com/holtzy/The-Python-Graph-Gallery/wiki/New-post-check-list).
+
+Once everything is ready, commit, push, and open a pull request on Github.
+
+**Congrats! 🎉**
