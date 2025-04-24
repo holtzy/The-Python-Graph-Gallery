@@ -15,7 +15,7 @@ import { SEO } from '../components/SEO';
 const chartDescription = (
   <>
     <p>
-      <a href="https://github.com/JosephBARBIERDARNAL/pyfonts">PyFonts</a> is a
+      <a href="https://josephbarbierdarnal.github.io/pyfonts/">PyFonts</a> is a
       library that allows to load easily any font from the web and use it in
       your matplotlib charts.
     </p>
@@ -55,9 +55,9 @@ export default function Post() {
         <Row className="align-items-center">
           <Col md={6}>
             <p>
-              pyfonts provides <b>1 simple function</b>:<code>load_font()</code>
-              : load a font from the web (Github) and return a matplotlib font
-              object.
+              pyfonts has <b>a main simple function</b>:
+              <code>load_google_font()</code>: load a font from Google font and
+              return a matplotlib font object.
             </p>
           </Col>
           <Col md={6}>
@@ -73,49 +73,65 @@ export default function Post() {
       <Spacing />
 
       <Container>
-        <h2>1- How to find fonts</h2>
-
+        <h2>How to find good fonts</h2>
         <p>
-          There are many fonts available on the web. The{' '}
-          <strong>easiest way</strong> to find one is to follow these steps:
+          The easiest way to find great is to
+          <ul>
+            <li>
+              browse{' '}
+              <a href="https://fonts.google.com/" target="_blank">
+                Google Font
+              </a>
+            </li>
+            <li>copy the name of the font you like</li>
+            <li>
+              pass it to <code>load_google_font("Font Name")</code>
+            </li>
+          </ul>
         </p>
-
-        <ul>
-          <li>
-            Browse <a href="https://fonts.google.com/">Google Font website</a>{' '}
-            to find a font that you like. Let's say you want to use{' '}
-            <a href="https://fonts.google.com/specimen/Amaranth?query=amaranth">
-              Amaranth
-            </a>
-            .
-          </li>
-          <li>
-            Go to the{' '}
-            <a href="https://github.com/google/fonts/tree/main/ofl">
-              Google font GitHub repository
-            </a>{' '}
-            and type the name of your desired font in the search bar. We find
-            that <i>Amaranth font file</i> in <strong>Bold</strong> is named{' '}
-            <code>
-              https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Bold.ttf
-            </code>
-            .
-          </li>
-          <li>
-            Copy the URL and add <code>?raw=true</code> at the end, which gives
-            us{' '}
-            <code>
-              https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Bold.ttf?raw=true
-            </code>
-            .
-          </li>
-        </ul>
+        <p>
+          Then you can use the <code>weight</code> argument to control is the
+          font should be <b>bold</b> or thin for example.
+        </p>
+        <p>
+          You can control if the font should be <i>italic</i> by specifying{' '}
+          <code>italic=True</code> (default to <code>False</code>).
+        </p>
       </Container>
 
       <Spacing />
 
       <Container>
-        <h2>2 - Load a font in matplotlib</h2>
+        <h2>Fonts that are not on Google font</h2>
+        <p>
+          Since not all fonts are available on Google fonts,{' '}
+          <code>pyfonts</code> provides a <code>load_font()</code> function that
+          allows to <b>load a font from any arbitrary url</b> that points to a
+          font file.
+        </p>
+        <p>
+          Most font files are on Github repositories. In order to load a font
+          from a Github repository, you have to:
+        </p>
+        <ul>
+          <li>
+            Copy the url of that font file. Here we'll use this url from pyfonts
+            Github repository:
+          </li>
+          <p>
+            <code>
+              https://github.com/JosephBARBIERDARNAL/pyfonts/blob/main/tests/Ultra-Regular.ttf
+            </code>
+          </p>
+          <li>
+            Then we add <code>?raw=true</code> at the end, which gives us:
+          </li>
+          <p>
+            <code>
+              https://github.com/JosephBARBIERDARNAL/pyfonts/blob/main/tests/Ultra-Regular.ttf?raw=true
+            </code>
+          </p>
+        </ul>
         <Row className="align-items-center">
           <Col md={6}>
             <p>
@@ -168,9 +184,8 @@ export default function Post() {
           <Col md={7}>
             <p>
               <code>PyFonts</code> also allows you to load a font file that you
-              have on your own computer. You just have to call the{' '}
-              <code>font_path</code> argument instead and give it the path to
-              your font
+              have on your own computer. You just have to give it the path to
+              your font.
             </p>
           </Col>
           <Col md={5}>
@@ -229,6 +244,16 @@ export default function Post() {
           You might be interested in
           <ul>
             <li>
+              The official{' '}
+              <a
+                href="https://josephbarbierdarnal.github.io/pyfonts/"
+                target="_blank"
+              >
+                pyfonts documentation
+              </a>
+              .
+            </li>
+            <li>
               The{' '}
               <a href="https://github.com/JosephBARBIERDARNAL/pyfonts">
                 {' '}
@@ -274,24 +299,18 @@ export default function Post() {
   );
 }
 
-const quickCode = `# Load pyfonts and matplotlib
-import matplotlib.pyplot as plt
-from pyfonts import load_font
+const quickCode = `import matplotlib.pyplot as plt
+from pyfonts import load_google_font
 
-# load font from Github
-font = load_font(
-   font_url="https://github.com/google/fonts/blob/main/apache/ultra/Ultra-Regular.ttf?raw=true"
-)
+font = load_google_font("Cascadia Mono", weight="bold", italic=True)
 
-# Create a plot with an annotation that uses the loaded font
-fig, ax = plt.subplots(figsize=(10, 6), dpi=300)
+fig, ax = plt.subplots()
 ax.text(
-   x=0.5,
-   y=0.5,
-   s=f"What an easy way to load fonts, isn't it?",
-   font=font,
-   fontsize=20,
-   ha="center",
+  x=0.2,
+  y=0.5,
+  s="Hey there!",
+  size=30,
+  font=font # we pass it to the 'font' argument
 )
 plt.show()
 `;
@@ -300,7 +319,7 @@ const useFontCode = `import matplotlib.pyplot as plt
 from pyfonts import load_font
 
 font = load_font(
-  font_url="https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Bold.ttf?raw=true"
+  "https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Bold.ttf?raw=true"
 )
 
 fig, ax = plt.subplots(figsize=(10, 10), dpi=300)
@@ -319,10 +338,10 @@ const useFontCode2 = `import matplotlib.pyplot as plt
 from pyfonts import load_font
 
 font = load_font(
-   font_url="https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Regular.ttf?raw=true"
+  "https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Regular.ttf?raw=true"
 )
 bold_font = load_font(
-   font_url="https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Bold.ttf?raw=true"
+  "https://github.com/google/fonts/blob/main/ofl/amaranth/Amaranth-Bold.ttf?raw=true"
 )
 
 fig, ax = plt.subplots(figsize=(6, 6), dpi=300)
@@ -341,9 +360,7 @@ plt.show()
 const useFontCode3 = `import matplotlib.pyplot as plt
 from pyfonts import load_font
 
-font = load_font(
-   font_path="path/to/myfont/Ultra-Regular.ttf"
-)
+font = load_font("path/to/myfont/Ultra-Regular.ttf")
 
 fig, ax = plt.subplots(figsize=(6, 6), dpi=300)
 ax.text(
