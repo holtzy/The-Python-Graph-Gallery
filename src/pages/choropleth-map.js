@@ -173,6 +173,16 @@ export default function Choropleth() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-choropleth-map-with-barplot'}>
+              <ChartImage
+                imgName={'web-choropleth-map-with-barplot-square'}
+                caption={
+                  'Choropleth map combined with a barplot for the legend'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 

@@ -1,0 +1,25 @@
+[project]
+name = "the-python-graph-gallery"
+version = "1.0.1"
+description = "Hundreds of chart made with python"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cartopy>=0.24.1",
+    "dayplot>=0.2.2",
+    "drawarrow>=0.0.3",
+    "geopandas>=1.0.1",
+    "highlight-text>=0.2",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "morethemes>=0.3.1",
+    "pandas>=2.2.3",
+    "pyfonts>=1.0.0",
+    "pypalettes>=0.1.5",
+    "pywaffle>=1.1.1",
+    "requests>=2.32.3",
+    "ruff>=0.9.9",
+    "seaborn>=0.13.2",
+    "squarify>=0.4.4",
+]
+line-length = 70

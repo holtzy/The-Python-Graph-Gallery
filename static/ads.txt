@@ -1,4 +1,4 @@
-# CafeMedia/AdThrive ads.txt v2.59-auto
+# CafeMedia/AdThrive ads.txt v2.60-auto
 managerdomain=cafemedia.com
 contact=info@adthrive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
@@ -46,7 +46,6 @@ rubiconproject.com, 21552, DIRECT, 0bfd66d529a55807 #banner
 sonobi.com, 80fe169af3, DIRECT, d1a215d9eb5aee9e #video, banner
 lijit.com, 214800-eb, DIRECT, fafdf38b16bf6b2b #video, banner
 sharethrough.com, 2101b770, DIRECT, d53b998a7bd4ecd2 #video, banner
-rhythmone.com, 2693636657, DIRECT, a670c89d4a324e47 #video, banner
 video.unrulymedia.com, 2693636657, DIRECT #video
 kargo.com, 8482, DIRECT #banner
 indexexchange.com, 192693, DIRECT, 50b1c356f2c5c8fc #video, banner
@@ -88,6 +87,9 @@ smartadserver.com, 3050, DIRECT #video, banner
 rubiconproject.com, 17280, DIRECT, 0bfd66d529a55807 #video, banner
 pubmatic.com, 157743, DIRECT, 5d62403b186f2ace #video, banner
 smartadserver.com, 5339, DIRECT, 060d053dcf45cbf4 #video, banner
+blis.com,1222,DIRECT,61453ae19a4b73f4 #video, banner
+connatix.com, 1972169786479849,DIRECT, 2af98acdee0e81ed #video
+emxdgt.com, 31, DIRECT, 1e1d41537f7cad7f  #video, banner
 #UK Only
 aidem.com, 6532804884, DIRECT  #video, banner
 aidem.com, 1609823052, DIRECT  #video, banner
