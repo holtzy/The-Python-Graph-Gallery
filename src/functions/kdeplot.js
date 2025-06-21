@@ -147,7 +147,7 @@ const param5 = {
   name: 'fill',
   description: (
     <p>
-      Control wether or not the area under the curve is filled with color. See
+      Control whether or not the area under the curve is filled with color. See
       the <code>color</code> argument to control its color.
     </p>
   ),
