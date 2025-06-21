@@ -26,7 +26,8 @@ line-length = 70
 
 [tool.codespell]
 # Ref: https://github.com/codespell-project/codespell#using-a-config-file
-skip = '.git*,*.svg,package-lock.json,*.css'
+skip = '.git*,*.svg,package-lock.json,*.css,*.csv'
 check-hidden = true
-ignore-regex = '^\s*"image/\S+": ".*'
+# ignore embedded images and super long lines
+ignore-regex = '^\s*"image/\S+": ".*|.{400,}'
 # ignore-words-list = ''
