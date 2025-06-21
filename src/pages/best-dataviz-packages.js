@@ -43,7 +43,7 @@ import { SEO } from '../components/SEO';
 // Geospatial
 // folium, geoplot, cartopy, basemap, geopandas
 
-// Specfic chart type
+// Specific chart type
 // networkX, wordcloud, suqarify, pywaffle,
 
 // Tables

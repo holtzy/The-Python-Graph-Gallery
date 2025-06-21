@@ -114,7 +114,7 @@ export default function Venn() {
           />
           <ChartImageContainer
             imgName="172_custom_venn_diagram3"
-            caption="Customize Venn Diagram: circles, lables and more."
+            caption="Customize Venn Diagram: circles, labels and more."
             linkTo="/172-custom-venn-diagram"
           />
           <ChartImageContainer

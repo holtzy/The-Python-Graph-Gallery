@@ -76,7 +76,7 @@ export default function About() {
       <Container>
         <h2 id="Sponsoring">💵 Sponsoring</h2>
         <p>
-          If you run a buisness that is highly related with python, data science
+          If you run a business that is highly related with python, data science
           or a closely related field, I would love to communicate about it in
           exchange of a few 💰. We all need to put some butter in the spinach
           (French expression, sorry) 🐸.
@@ -245,7 +245,7 @@ export default function About() {
         <ul>
           <li>
             <u>Improve</u> an existing page. It can be anything from correcting
-            an english mistake to a python code reformating.
+            an english mistake to a python code reformatting.
             <ul>
               <li>
                 👍🏽 Open an{' '}

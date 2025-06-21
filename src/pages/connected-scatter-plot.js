@@ -56,7 +56,7 @@ export default function ConnectedScatter() {
             <p>
               Building a connected scatterplot with Python and Matplotlib is a
               breeze thanks to the <code>plot()</code> function. The 2 first
-              argumenst are the X and Y values respectively, which can be stored
+              arguments are the X and Y values respectively, which can be stored
               in a <code>pandas</code> data frame.
             </p>
             <p>

@@ -15,7 +15,7 @@ import TableOfContent from '../components/TableOfContent';
 // - add the table of content
 
 // Import Styles = bootstrap + custom
-// Custom must be AFTER bootstrap. It makes sure custom style are not overriden
+// Custom must be AFTER bootstrap. It makes sure custom style are not overridden
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/style.css';
 import AdInjector from './AdInjector';

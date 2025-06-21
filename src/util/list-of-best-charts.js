@@ -165,7 +165,7 @@ export const listOfBestCharts = [
     link: 'web-dumbell-chart',
     title: 'Dumbell chart',
     description:
-      'Advanced dumbell chart about wins and losses in the Bundesliga.',
+      'Advanced dumbbell chart about wins and losses in the Bundesliga.',
     img: 'web-dumbell-chart.png',
     alt: 'lollipop plot',
     author: 'Cédric Scherer',
@@ -346,7 +346,7 @@ export const listOfBestCharts = [
     description:
       'A reproduction of an horizontal barplot made by The Economist to showcase the power of Python for dataviz',
     img: 'web-horizontal-barplot-with-labels-the-economist-square.png',
-    alt: "Horizonal barplot with the Economist's style",
+    alt: "Horizontal barplot with the Economist's style",
     author: 'The Economist',
   },
   {
@@ -425,7 +425,7 @@ export const listOfBestCharts = [
     link: 'web-scatterplot-text-annotation-and-regression-matplotlib',
     title: 'Scatterplot with regression fit',
     description:
-      'A custom scatterplot with an overlayed regression fit and auto-positioned labels to explore the relationship between the Corruption Perceptions Index and Human Development Index',
+      'A custom scatterplot with an overlaid regression fit and auto-positioned labels to explore the relationship between the Corruption Perceptions Index and Human Development Index',
     img: 'web-scatterplot-text-annotation-and-regression-matplotlib-square.png',
     alt: 'Scatterplot with regression fit',
     author: 'C. O. Wilke',

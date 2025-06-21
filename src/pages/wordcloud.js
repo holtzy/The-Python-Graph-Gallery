@@ -110,7 +110,7 @@ export default function Wordcloud() {
           <p>
             However, it is important to consider the caveats associated to them.
             For instance,
-            <u>longer words</u> will t<u>ake more space</u> on the figure by
+            <u>longer words</u> will t<u>ache more space</u> on the figure by
             construction which distorts reality. Moreover, it is impossible to{' '}
             <u>translate a font size</u> to an accurate value.
           </p>

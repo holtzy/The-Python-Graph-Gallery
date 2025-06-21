@@ -155,7 +155,7 @@ export default function ViolinPlot() {
         </h2>
         <p>
           <Link href="/matplotlib">Matplotlib</Link>, as usual, is another great
-          otion to build violin charts with python. It comes with a{' '}
+          option to build violin charts with python. It comes with a{' '}
           <code>violinplot()</code> function that does all the hard work for us.
         </p>
         <p>Here are a couple of examples:</p>

@@ -37,7 +37,7 @@ export default function Arc() {
           <p>
             As far as I know, there isn't any proper way to build a hierarchical
             edged bundling plot with python 😞. If you're aware of any tip to
-            build it, please let me knwo! My contact is provided below 🙏🏽.
+            build it, please let me know! My contact is provided below 🙏🏽.
           </p>
           <p>You now have 3 options!</p>
           <ul>

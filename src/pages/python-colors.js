@@ -272,7 +272,7 @@ export default function Colors() {
         </p>
         <h3>User-friendly API</h3>
         <p>
-          <code>pypalettes</code> is pretty straightfoward to use. For instance,
+          <code>pypalettes</code> is pretty straightforward to use. For instance,
           this is how to use a palette called <code>Acadia</code> once the
           library is installed:
         </p>

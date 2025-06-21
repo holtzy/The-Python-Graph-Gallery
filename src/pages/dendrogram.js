@@ -156,7 +156,7 @@ export default function Dendrogram() {
       <Spacing />
 
       <Container>
-        <h2 id="Hierarchichal">Dendrogram for hierarchical datasets</h2>
+        <h2 id="Hierarchical">Dendrogram for hierarchical datasets</h2>
         <p>
           Dendrogram can also be used to display a hierarchy. A hierarchy as a
           root node that gets divided in several children and so on.

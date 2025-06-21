@@ -84,7 +84,7 @@ export default function Treemap() {
           </h2>
           <p>
             The squarify library is a pure Python implementation of the squarify
-            treemap layout algorithm. It is a project developped by{' '}
+            treemap layout algorithm. It is a project developed by{' '}
             <a href="https://github.com/laserson">Uri Laserson</a> that has its
             documentation on{' '}
             <a href="https://github.com/laserson/squarify">github</a>.

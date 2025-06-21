@@ -49,7 +49,7 @@ export default function CheatSheet() {
           Datacamp is also a great contributor.
         </p>
         <p>
-          Note that if you want to truely understand how matplotlib works,
+          Note that if you want to truly understand how matplotlib works,
           <a href="https://www.matplotlib-journey.com" target="_blank">
             Matplotlib Journey
           </a>{' '}

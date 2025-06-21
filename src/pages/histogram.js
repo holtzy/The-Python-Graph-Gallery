@@ -243,7 +243,7 @@ export default function Histogram() {
         </h2>
         <p>
           As usual <Link to="/matplotlib">matplotlib</Link> is perfectly skilled
-          to build nice histogram, but require some more work camparing to{' '}
+          to build nice histogram, but require some more work comparing to{' '}
           <Link to="/seaborn">seaborn</Link> to get a good looking figure.
         </p>
         <p>
