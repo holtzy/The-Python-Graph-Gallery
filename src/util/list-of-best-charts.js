@@ -1,5 +1,13 @@
 export const listOfBestCharts = [
   {
+    link: 'web-choropleth-map-with-histogram',
+    title: 'Salary in the USA',
+    description: 'Average salary in the USA in 2025',
+    img: 'web-choropleth-map-with-histogram-square.png',
+    alt: 'waffle chart combined with histogram',
+    author: 'Joseph Barbier',
+  },
+  {
     link: 'web-choropleth-map-with-barplot',
     title: 'Unemployment rate in Belgium',
     description:
