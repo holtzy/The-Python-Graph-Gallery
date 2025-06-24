@@ -183,6 +183,16 @@ export default function Choropleth() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-choropleth-map-with-histogram'}>
+              <ChartImage
+                imgName={'web-choropleth-map-with-histogram-square'}
+                caption={
+                  'Choropleth map combined with a histogram for the legend'
+                }
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 
