@@ -193,6 +193,14 @@ export default function Choropleth() {
               />
             </Link>
           </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-polygon-map-to-compare-distances'}>
+              <ChartImage
+                imgName={'web-polygon-map-to-compare-distances-square'}
+                caption={'Beyond the choropleth: a polygon map'}
+              />
+            </Link>
+          </Col>
         </Row>
       </Container>
 

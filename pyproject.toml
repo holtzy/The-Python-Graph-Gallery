@@ -14,6 +14,7 @@ dependencies = [
     "matplotlib>=3.10.1",
     "morethemes>=0.3.1",
     "pandas>=2.2.3",
+    "pyarrow>=20.0.0",
     "pyfonts>=1.0.0",
     "pypalettes>=0.1.5",
     "pywaffle>=1.1.1",
