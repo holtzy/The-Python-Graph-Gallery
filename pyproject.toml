@@ -23,3 +23,11 @@ dependencies = [
     "squarify>=0.4.4",
 ]
 line-length = 70
+
+[tool.codespell]
+# Ref: https://github.com/codespell-project/codespell#using-a-config-file
+skip = '.git*,*.svg,package-lock.json,*.css,*.csv'
+check-hidden = true
+# ignore embedded images and super long lines
+ignore-regex = '^\s*"image/\S+": ".*|.{400,}'
+# ignore-words-list = ''

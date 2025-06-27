@@ -143,7 +143,7 @@ export default function Boxplot() {
         </h2>
         <p>
           <Link href="/plotly">Plotly</Link> is a python library made to create{' '}
-          <b>interactive</b> charts. It is particularly poweful when it comes to
+          <b>interactive</b> charts. It is particularly powerful when it comes to
           create interactive candlestick graphs.
         </p>
         <p>

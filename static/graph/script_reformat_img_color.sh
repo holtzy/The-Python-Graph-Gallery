@@ -7,7 +7,7 @@ COLOR=$2
 
 convert Screenshot*.png -resize 480x480 new.png
 
-# Image magick make me stuggle to provide a color. It needs to have a '' around
+# Image magick make me struggle to provide a color. It needs to have a '' around
 # the color name. The only way I found was to build the string and eval it later on
 myComand="convert -size 480x480 xc:'#"${COLOR}"' new.png  -gravity center -composite output.png"
 eval $myComand

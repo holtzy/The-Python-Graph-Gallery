@@ -198,7 +198,7 @@ export default function DensityPlot() {
         </h2>
         <p>
           It is possible to build a density chart with <code>matplotlib</code>,
-          but it is truely a struggle compared to making it with{' '}
+          but it is truly a struggle compared to making it with{' '}
           <code>seaborn</code> as shown above.
         </p>
         <p>

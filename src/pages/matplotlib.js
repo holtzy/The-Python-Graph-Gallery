@@ -304,7 +304,7 @@ export default function Matplotlibs() {
         <p>
           The <Link to="/190-custom-matplotlib-title">post #190</Link> goes in
           depth on how to customize the <code>matplotlib</code>
-          title. All the main types of change are descried: changing its color,
+          title. All the main types of change are described: changing its color,
           adding a subtitle, using math formulas and so on. Give it a go!
         </p>
         <Row>
@@ -881,7 +881,7 @@ export default function Matplotlibs() {
           If you have several colors or marker on your chart, you can't escape
           the hassle of building a nice legend. The blogpost linked below should
           help for all the most common use cases like positioning the legend,
-          adding and customizing a title to it, controling markers and labels
+          adding and customizing a title to it, controlling markers and labels
           and more.
         </p>
         <Row>

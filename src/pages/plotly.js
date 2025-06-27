@@ -178,7 +178,7 @@ export default function Plotlys() {
       <Spacing />
 
       <Container>
-        <h2 id="Embed">Embeding a plotly chart</h2>
+        <h2 id="Embed">Embedding a plotly chart</h2>
         <p>
           Once the chart has been saved, you can embed it in a html document
           using:

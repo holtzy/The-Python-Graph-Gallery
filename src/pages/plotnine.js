@@ -247,7 +247,7 @@ export default function Post() {
           />
           <ChartImageContainer
             imgName="575-custom-theme-plotnine-4"
-            caption="Theme withouth grid lines"
+            caption="Theme without grid lines"
             linkTo="/575-custom-theme-plotnine"
           />
         </Row>

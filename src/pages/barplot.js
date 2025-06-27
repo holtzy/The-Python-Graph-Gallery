@@ -218,7 +218,7 @@ export default function Barplot() {
         </p>
         <p>
           As often, note that the <code>Seaborn</code> alternative allows to
-          write less code to build the chart, but is slighlty more limited in
+          write less code to build the chart, but is slightly more limited in
           term of customization
         </p>
         <Row>
@@ -516,7 +516,7 @@ export default function Barplot() {
                   'web-horizontal-barplot-with-labels-the-economist-square'
                 }
                 caption={
-                  'Lear how to mimick the style of the Economist on this horizontal barplot.'
+                  'Lear how to mimic the style of the Economist on this horizontal barplot.'
                 }
               />
             </Link>

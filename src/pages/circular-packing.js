@@ -39,7 +39,7 @@ export default function CircularPacking() {
           </h2>
           <p>
             The <code>circlify</code> package is a pure Python implementation of
-            a circle packing layout algorithm. It has been developped by{' '}
+            a circle packing layout algorithm. It has been developed by{' '}
             <a href="https://github.com/elmotec">Jerome Lecomte</a> and lives on{' '}
             <a href="https://github.com/elmotec/circlify">github</a>. 🙏🙏{' '}
           </p>
@@ -61,7 +61,7 @@ export default function CircularPacking() {
         </h2>
         <p>
           <code>Circlify</code> can work without a hierarchical structure, i.e.
-          with just a set of numeric varialbles that will be each displayed as a
+          with just a set of numeric variables that will be each displayed as a
           bubble. Note that the package just compute the position and size of
           each bubble. Once that's done, <code>matplotlib</code> is used to make
           the chart itself with usual functions.

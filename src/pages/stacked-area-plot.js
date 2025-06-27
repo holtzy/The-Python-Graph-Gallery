@@ -121,7 +121,7 @@ export default function StackedAreaPlot() {
           <code>Matplotlib</code> is the most common way to build a stacked area
           chart with Python. The examples below start by explaining to basics of
           the <code>stackplot()</code> function. The also describe the most
-          common type of customization like changing colors, controling group
+          common type of customization like changing colors, controlling group
           order and more.
         </p>
         <Row>
@@ -271,7 +271,7 @@ export default function StackedAreaPlot() {
               <ChartImage
                 imgName={'web-lineplots-and-area-chart-the-economist-square2'}
                 caption={
-                  "Learn how to mimick The Economist's style with a figure combining both a line and an area chart"
+                  "Learn how to mimic The Economist's style with a figure combining both a line and an area chart"
                 }
               />
             </Link>

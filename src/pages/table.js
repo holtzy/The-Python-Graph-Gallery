@@ -25,7 +25,7 @@ const chartDescription = (
       clear, organized manner for quick comparison and interpretation.
     </p>
     <p>
-      Several strategies exist to build table wih Python. Tweaking{' '}
+      Several strategies exist to build table with Python. Tweaking{' '}
       <a href="/matplotlib">matplotlib</a> functions is doable but very verbose.{' '}
       <Link href="/pandas">pandas</Link> has a couple of utility functions. But{' '}
       <code>plottable</code> is definitely the best option. It is a powerful

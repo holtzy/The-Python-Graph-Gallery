@@ -82,7 +82,7 @@ export default function Heatmap() {
           section starts with a post describing the basic usage of the function
           based on any kind of data input. Next it will guide you through the
           different ways to customize the chart, like{' '}
-          <Link to="">controling color</Link> and{' '}
+          <Link to="">controlling color</Link> and{' '}
           <Link to="">data normalization</Link>.
         </p>
         <Row>

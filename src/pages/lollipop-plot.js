@@ -183,7 +183,7 @@ export default function Lollipop() {
             <Link to={'/web-dumbell-chart'}>
               <ChartImage
                 imgName={'web-dumbell-chart'}
-                caption={'Advanced lollipop chart with a dumbell style.'}
+                caption={'Advanced lollipop chart with a dumbbell style.'}
               />
             </Link>
           </Col>
