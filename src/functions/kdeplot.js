@@ -271,10 +271,10 @@ const param9 = {
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
-from pypalettes import get_hex
+from pypalettes import load_cmap
 df = sns.load_dataset('iris')
 
-palette = get_hex('Acadia')
+palette = load_cmap('Acadia').colors
 sns.kdeplot(
   data=df,
   x='sepal_width',

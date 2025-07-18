@@ -1,19 +1,27 @@
 export const listOfBestCharts = [
   {
-    link: 'web-choropleth-map-with-histogram',
+    link: '/web-polygon-map-to-compare-distances',
+    title: 'Beyond the choropleth: a polygon map',
+    description: 'Number of shops within a 20-minute round-trip walk',
+    img: 'web-polygon-map-to-compare-distances-square.png',
+    alt: 'polygon map to compare distances',
+    author: 'Sebastiaan Broekema',
+  },
+  {
+    link: '/web-choropleth-map-with-histogram',
     title: 'Salary in the USA',
     description: 'Average salary in the USA in 2025',
     img: 'web-choropleth-map-with-histogram-square.png',
-    alt: 'waffle chart combined with histogram',
+    alt: 'choropleth map combined with histogram',
     author: 'Joseph Barbier',
   },
   {
-    link: 'web-choropleth-map-with-barplot',
+    link: '/web-choropleth-map-with-barplot',
     title: 'Unemployment rate in Belgium',
     description:
       'Breakdown and distribution of the unemployment rate in Belgium',
     img: 'web-choropleth-map-with-barplot-square.png',
-    alt: 'waffle chart combined with barplot',
+    alt: 'choropleth map combined with barplot',
     author: 'Koen Van den Eeckhout',
   },
   {
