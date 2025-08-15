@@ -20,7 +20,7 @@ const chartDescription = (
     <p>
       Luckily, the all-new{' '}
       <a
-        href="https://github.com/JosephBARBIERDARNAL/pypalettes"
+        href="https://github.com/y-sunflower/pypalettes"
         target="_blank"
         rel="noreferrer"
       >
@@ -99,11 +99,9 @@ export default function Colors({ location }) {
           <code>pypalettes</code>: The Easiest Way to Access Colors
         </h2>
         <p>
-          <a href="https://github.com/JosephBARBIERDARNAL/pypalettes">
-            pypalettes
-          </a>{' '}
-          is a Python library developed by Joseph Barbier during his
-          collaboration with the Python Graph Gallery 😋.
+          <a href="https://github.com/y-sunflower/pypalettes">pypalettes</a> is
+          a Python library developed by Joseph Barbier during his collaboration
+          with the Python Graph Gallery 😋.
         </p>
         <p>
           While thousands of color palettes exist, quick access to them in
@@ -116,8 +114,8 @@ export default function Colors({ location }) {
         </p>
         <p>
           <u>Pro Tip</u>: Give a star to the GitHub{' '}
-          <a href="https://github.com/JosephBARBIERDARNAL/pypalettes">repo</a>{' '}
-          to help spread the word!
+          <a href="https://github.com/y-sunflower/pypalettes">repo</a> to help
+          spread the word!
         </p>
         <a href="/introduction-to-pypalettes">
           <Button size="sm">Official Doc</Button>
