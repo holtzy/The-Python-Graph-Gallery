@@ -168,6 +168,11 @@ export default function LinePlot() {
             caption="Add label on each line of a line chart with matplotlib"
             linkTo="/585-legend-for-categorical-data-matplotlib"
           />
+          <ChartImageContainer
+            imgName="web-minimalist-black-and-white-line-chart-square"
+            caption="Add a label on each data point of the line"
+            linkTo="/web-minimalist-black-and-white-line-chart"
+          />
         </Row>
       </Container>
 
@@ -420,6 +425,14 @@ export default function LinePlot() {
               <ChartImage
                 imgName={'web-small-multiple-with-highlights'}
                 caption={'Multiple line charts with highlights'}
+              />
+            </Link>
+          </Col>
+          <Col xs={12} md={6}>
+            <Link to={'/web-minimalist-black-and-white-line-chart'}>
+              <ChartImage
+                imgName={'web-minimalist-black-and-white-line-chart-square'}
+                caption={'Minimalist line chart with one label per data point'}
               />
             </Link>
           </Col>

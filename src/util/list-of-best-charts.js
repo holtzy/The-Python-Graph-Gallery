@@ -1,5 +1,14 @@
 export const listOfBestCharts = [
   {
+    link: 'web-minimalist-black-and-white-line-chart',
+    title: 'Salary evolution',
+    description:
+      'Minimalist black and white line chart about the salary evolution of a freelance data scientist',
+    img: 'web-minimalist-black-and-white-line-chart-square.png',
+    alt: 'minimalist black and white line chart',
+    author: 'Joseph Barbier',
+  },
+  {
     link: 'web-polygon-map-to-compare-distances',
     title: 'Beyond the choropleth: a polygon map',
     description: 'Number of shops within a 20-minute round-trip walk',
