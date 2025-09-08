@@ -266,9 +266,8 @@ export default function Colors() {
         </p>
         <p>
           It's hosted on{' '}
-          <a href="https://github.com/JosephBARBIERDARNAL/pypalettes">github</a>
-          , you can install it with <code>PyPI</code>, and it's super easy to
-          use.
+          <a href="https://github.com/y-sunflower/pypalettes">github</a>, you
+          can install it with <code>PyPI</code>, and it's super easy to use.
         </p>
         <h3>User-friendly API</h3>
         <p>

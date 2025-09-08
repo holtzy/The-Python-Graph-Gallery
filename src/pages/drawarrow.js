@@ -250,7 +250,7 @@ export default function Post() {
           <ul>
             <li>
               the{' '}
-              <a href="https://github.com/JosephBARBIERDARNAL/drawarrow">
+              <a href="https://github.com/y-sunflower/drawarrow">
                 {' '}
                 official github repo of drawarrow
               </a>{' '}

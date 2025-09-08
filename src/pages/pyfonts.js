@@ -15,9 +15,9 @@ import { SEO } from '../components/SEO';
 const chartDescription = (
   <>
     <p>
-      <a href="https://josephbarbierdarnal.github.io/pyfonts/">PyFonts</a> is a
-      library that allows to load easily any font from the web and use it in
-      your matplotlib charts.
+      <a href="https://y-sunflower.github.io/pyfonts/">PyFonts</a> is a library
+      that allows to load easily any font from the web and use it in your
+      matplotlib charts.
     </p>
     <p>
       It was created by <a href="https://barbierjoseph.com/">Joseph Barbier</a>{' '}
@@ -120,7 +120,7 @@ export default function Post() {
           </li>
           <p>
             <code>
-              https://github.com/JosephBARBIERDARNAL/pyfonts/blob/main/tests/Ultra-Regular.ttf
+              https://github.com/y-sunflower/pyfonts/blob/main/tests/Ultra-Regular.ttf
             </code>
           </p>
           <li>
@@ -128,7 +128,7 @@ export default function Post() {
           </li>
           <p>
             <code>
-              https://github.com/JosephBARBIERDARNAL/pyfonts/blob/main/tests/Ultra-Regular.ttf?raw=true
+              https://github.com/y-sunflower/pyfonts/blob/main/tests/Ultra-Regular.ttf?raw=true
             </code>
           </p>
         </ul>
@@ -245,17 +245,14 @@ export default function Post() {
           <ul>
             <li>
               The official{' '}
-              <a
-                href="https://josephbarbierdarnal.github.io/pyfonts/"
-                target="_blank"
-              >
+              <a href="https://y-sunflower.github.io/pyfonts/" target="_blank">
                 pyfonts documentation
               </a>
               .
             </li>
             <li>
               The{' '}
-              <a href="https://github.com/JosephBARBIERDARNAL/pyfonts">
+              <a href="https://github.com/y-sunflower/pyfonts">
                 {' '}
                 official github repo of pyfonts
               </a>{' '}

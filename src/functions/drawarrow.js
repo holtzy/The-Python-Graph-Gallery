@@ -12,7 +12,7 @@ const description = (
   </>
 );
 
-const docUrl = 'https://github.com/JosephBARBIERDARNAL/drawarrow';
+const docUrl = 'https://github.com/y-sunflower/drawarrow';
 
 //
 //
