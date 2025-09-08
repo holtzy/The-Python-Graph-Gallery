@@ -1,4 +1,4 @@
-#CafeMedia/AdThrive ads.txt v2.61-auto
+#CafeMedia/AdThrive ads.txt v2.62-auto
 managerdomain=cafemedia.com
 contact=info@adthrive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
@@ -56,24 +56,26 @@ emxdgt.com, 31, DIRECT, 1e1d41537f7cad7f #banner, video
 ogury.com, f48f1699-39f7-40c5-8aef-1e5255be6d5e, DIRECT #banner, video
 openx.com, 540814319, DIRECT, 6a698e2ec38604c6 #banner, video
 yieldmo.com, 2701511276000911507, DIRECT #banner, video
-Media.net, 8CUV4414Q, DIRECT #banner, video
+media.net, 8CUV4414Q, DIRECT #banner, video
 yahoo.com, 58671, DIRECT #banner, video
+smaato.com, 1100059363, DIRECT, 07bcf65f187117b4 #banner, video
 #OB
 indexexchange.com, 186035, DIRECT, 50b1c356f2c5c8fc #banner, video
 media.net, 8CUH2EUJ4, DIRECT #banner, video
 onetag.com, 7d614f4ac7b0a56-OB, DIRECT #banner, video
 pubmatic.com, 157333, DIRECT, 5d62403b186f2ace #banner, video
 sharethrough.com, 2101b770, DIRECT, d53b998a7bd4ecd2 #banner, video
-smaato.com, 1100057536 , DIRECT, 07bcf65f187117b4 #banner, video
+smaato.com, 1100057536, DIRECT, 07bcf65f187117b4 #banner, video
 smartadserver.com, 4006-OB, RESELLER, 060d053dcf45cbf3 #banner, video
-sonobi.com, 80fe169af3, DIRECT, d1a215d9eb5aee9e #banner, video
 lijit.com, 214800-eb, DIRECT, fafdf38b16bf6b2b #banner, video
+lijit.com, 214800, DIRECT, fafdf38b16bf6b2b #banner, video
 openx.com, 539404983, DIRECT, 6a698e2ec38604c6 #banner, video
 rubiconproject.com, 17698, DIRECT, 0bfd66d529a55807 #banner, video
 triplelift.com, 5895-EB, DIRECT, 6c33edb13117fd86 #banner, video
 video.unrulymedia.com, 2693636657, DIRECT #banner, video
 yieldmo.com, 2144304518241355475, DIRECT #banner, video
-triplelift.com, 1884-EB, DIRECT, 6c33edb13117fd86
+triplelift.com, 1884-EB, DIRECT, 6c33edb13117fd86 #banner, video
+inmobi.com, a3e9bcdb86b14e4eaec3069c153d1e00, DIRECT, 83e75a7ae333ca9d #banner, video
 #Blockthrough
 blockthrough.com, 5698917485248512, DIRECT #banner
 rubiconproject.com, 23718, RESELLER, 0bfd66d529a55807 #banner
@@ -81,7 +83,7 @@ indexexchange.com, 194341, RESELLER, 50b1c356f2c5c8fc #banner
 pubmatic.com, 160377, RESELLER, 5d62403b186f2ace #banner
 appnexus.com, 6979, RESELLER, f5ab79cb980f11d1 #banner
 sharethrough.com, 9zUewtvl, RESELLER, d53b998a7bd4ecd2 #banner
-onetag.com, 75804861b76a852, RESELLER #banner
+themediagrid.com, 7E2DLW, RESELLER, 35d5010d7789b49d #banner
 #UK/CA Only
 the-ozone-project.com, OZONERAP0001, DIRECT #banner, video
 appnexus.com, 9979, RESELLER #banner, video
