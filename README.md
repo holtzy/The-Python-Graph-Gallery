@@ -1,4 +1,4 @@
-# The Python Graph Gallery
+# The Python Graph Gallery.
 
 This GitHub repository contains the source code for the [Python Graph Gallery](https://python-graph-gallery.com), a website showcasing hundreds of charts made with Python.
 
