@@ -43,6 +43,8 @@ triplelift.com, 6292, DIRECT, 6c33edb13117fd86 #banner, video
 triplelift.com, 6293, DIRECT, 6c33edb13117fd86 #banner, video
 triplelift.com, 6294, DIRECT, 6c33edb13117fd86 #banner, video
 triplelift.com, 1884, DIRECT, 6c33edb13117fd86 #banner, video
+blis.com, 1240, DIRECT, 61453ae19a4b73f4 #banner, video
+chicoryapp.com, 491218d2c15bfc0107aa, DIRECT #banner
 #TAM
 aps.amazon.com, 4fbba76f-7987-4fa2-9733-c27eb3a2170b, DIRECT #banner, video
 blis.com,1222,DIRECT,61453ae19a4b73f4 #banner, video
@@ -66,7 +68,7 @@ onetag.com, 7d614f4ac7b0a56-OB, DIRECT #banner, video
 pubmatic.com, 157333, DIRECT, 5d62403b186f2ace #banner, video
 sharethrough.com, 2101b770, DIRECT, d53b998a7bd4ecd2 #banner, video
 smaato.com, 1100057536, DIRECT, 07bcf65f187117b4 #banner, video
-smartadserver.com, 4006-OB, RESELLER, 060d053dcf45cbf3 #banner, video
+smartadserver.com, 4006-OB, DIRECT, 060d053dcf45cbf3 #banner, video
 lijit.com, 214800-eb, DIRECT, fafdf38b16bf6b2b #banner, video
 lijit.com, 214800, DIRECT, fafdf38b16bf6b2b #banner, video
 openx.com, 539404983, DIRECT, 6a698e2ec38604c6 #banner, video
