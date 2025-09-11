@@ -1,4 +1,4 @@
-#CafeMedia/AdThrive ads.txt v2.62-auto
+#CafeMedia/AdThrive ads.txt v2.63-auto
 managerdomain=cafemedia.com
 contact=info@adthrive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
