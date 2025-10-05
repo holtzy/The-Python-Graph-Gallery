@@ -1,4 +1,4 @@
-#CafeMedia/AdThrive ads.txt v2.64-auto
+#CafeMedia/AdThrive ads.txt v2.65-auto
 managerdomain=cafemedia.com
 contact=info@adthrive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
@@ -62,6 +62,7 @@ yieldmo.com, 2701511276000911507, DIRECT #banner, video
 media.net, 8CUV4414Q, DIRECT #banner, video
 yahoo.com, 58671, DIRECT #banner, video
 smaato.com, 1100059363, DIRECT, 07bcf65f187117b4 #banner, video
+ssp.cadent.com, 31, DIRECT, 1e1d41537f7cad7f #banner, video
 #OB
 indexexchange.com, 186035, DIRECT, 50b1c356f2c5c8fc #banner, video
 media.net, 8CUH2EUJ4, DIRECT #banner, video
@@ -79,6 +80,7 @@ video.unrulymedia.com, 2693636657, DIRECT #banner, video
 yieldmo.com, 2144304518241355475, DIRECT #banner, video
 triplelift.com, 1884-EB, DIRECT, 6c33edb13117fd86 #banner, video
 inmobi.com, a3e9bcdb86b14e4eaec3069c153d1e00, DIRECT, 83e75a7ae333ca9d #banner, video
+nativo.com, 6075, DIRECT, 59521ca7cc5e9fee  #banner, video
 #Blockthrough
 blockthrough.com, 5698917485248512, DIRECT #banner
 rubiconproject.com, 23718, RESELLER, 0bfd66d529a55807 #banner
