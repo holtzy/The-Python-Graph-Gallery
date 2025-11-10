@@ -170,8 +170,8 @@ export default function Pie() {
         <h2 id="Calendar">Calendar Heatmap</h2>
         <p>
           A calendar heatmap is a great way to use heatmap to represent the
-          evolution of a variable measured daily. It's quite straightforward to
-          build thanks to the <code>dayplot</code> library.
+          evolution of a variable measured daily. It&apos;s quite
+          straightforward to build thanks to the <code>dayplot</code> library.
         </p>
         <Row>
           <ChartImageContainer
