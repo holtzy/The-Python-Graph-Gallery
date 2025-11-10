@@ -185,11 +185,37 @@ export default function Pie() {
       <Spacing />
 
       <Container>
+        <h2 id="Bumpchart">Bump Chart</h2>
+        <p>
+          Bump charts are useful when the focus is on comparing relative
+          rankings—who is ahead of whom—rather than the exact magnitude of the
+          differences.
+        </p>
+        <p>
+          It&apos;s easy to create using the{' '}
+          <Link href="https://y-sunflower.github.io/bumplot/" target="_blank">
+            bumplot
+          </Link>{' '}
+          package!
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="bump-chart-square"
+            caption="Simple bump chart"
+            linkTo="/601-bump-chart-with-bumplot"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
+      <Container>
         <h2 id="Line">Candlesticks</h2>
         <p>
           A <code>candlestick chart</code> is a style of financial chart used to
-          describe price movements. Each "candlestick" typically shows one day,
-          with the <b>Open, High, Low, and Close (OHLC)</b> values for each day.
+          describe price movements. Each &quot;candlestick&quot; typically shows
+          one day, with the <b>Open, High, Low, and Close (OHLC)</b> values for
+          each day.
         </p>
         <p>
           Here are examples using{' '}

@@ -5,6 +5,7 @@ description = "Hundreds of chart made with python"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "bumplot>=0.1.1",
     "cartopy>=0.24.1",
     "dayplot>=0.2.2",
     "drawarrow>=0.0.3",
@@ -15,6 +16,7 @@ dependencies = [
     "morethemes>=0.3.1",
     "pandas>=2.2.3",
     "plotnine>=0.15.1",
+    "polars>=1.35.2",
     "pyarrow>=20.0.0",
     "pyfonts>=1.0.0",
     "pypalettes>=0.1.5",
