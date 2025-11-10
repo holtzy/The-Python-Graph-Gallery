@@ -26,6 +26,7 @@ import pywaffleImg from '../../static/logo/Other/pywaffle.png';
 import greatTablesImg from '../../static/logo/Other/great_tables.png';
 import plotTablesImg from '../../static/logo/Other/plottable.png';
 import pyfontsImg from '../../static/logo/Other/pyfonts.png';
+import bumplotImg from '../../static/logo/Other/bumplot.png';
 import drawarrowImg from '../../static/logo/Other/drawarrow.png';
 import dayplotImg from '../../static/logo/Other/dayplot.png';
 import morethemesImg from '../../static/logo/Other/morethemes.png';
@@ -117,6 +118,12 @@ const logoMatplotExtension = [
     name: 'MoreThemes',
   },
   {
+    imgPath: bumplotImg,
+    url: 'https://y-sunflower.github.io/bumplot/',
+    altText: 'bumplot logo',
+    name: 'BumPlot',
+  },
+  {
     imgPath: HighlighTextImg,
     url: '/advanced-custom-annotations-matplotlib',
     altText: 'Highlight Text logo',
@@ -193,6 +200,12 @@ const logoSpecificChart = [
     url: '/calendar-heatmaps-with-python-and-matplotlib',
     altText: 'DayPlot logo',
     name: 'DayPlot',
+  },
+  {
+    imgPath: bumplotImg,
+    url: 'https://y-sunflower.github.io/bumplot/',
+    altText: 'bumplot logo',
+    name: 'BumPlot',
   },
 ];
 const logoTables = [
