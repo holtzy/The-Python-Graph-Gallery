@@ -301,11 +301,11 @@ const param9 = {
   basicUsage: `
 # Library & Dataset
 import seaborn as sns
-from pypalettes import load_cmap
+from pypalettes import load_palette
 df = sns.load_dataset('iris')
 
 # Load the 'Acadia' palette
-palette = load_cmap('Acadia').colors
+palette = load_palette('Acadia')
 
 # Plot
 sns.scatterplot(
