@@ -1,6 +1,6 @@
-#CafeMedia/AdThrive ads.txt v2.65-auto
+#Raptive ads.txt (CafeMedia/AdThrive) v2.66-auto
 managerdomain=cafemedia.com
-contact=info@adthrive.com
+contact=info@raptive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
 google.com, pub-8501674430909082, RESELLER, f08c47fec0942fa0 #video, banner
 #Prebid
