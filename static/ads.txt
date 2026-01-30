@@ -45,15 +45,13 @@ triplelift.com, 6294, DIRECT, 6c33edb13117fd86 #banner, video
 triplelift.com, 1884, DIRECT, 6c33edb13117fd86 #banner, video
 blis.com, 1240, DIRECT, 61453ae19a4b73f4 #banner, video
 chicoryapp.com, 274428d70684d8cfe3aa, DIRECT #banner
-Media.net, 8CUY56FQ6, DIRECT #banner, video
+media.net, 8CUY56FQ6, DIRECT #banner, video
 #TAM
 aps.amazon.com, 4fbba76f-7987-4fa2-9733-c27eb3a2170b, DIRECT #banner, video
 blis.com,1222,DIRECT,61453ae19a4b73f4 #banner, video
 indexexchange.com, 192693, DIRECT, 50b1c356f2c5c8fc #banner, video
 pubmatic.com, 158458, DIRECT, 5d62403b186f2ace #banner, video
 seedtag.com, 66572ee6dcb67000077aff23, DIRECT #banner, video
-xandr.com, 4009, DIRECT, f5ab79cb980f11d1 #banner, video
-rubiconproject.com, 17280, DIRECT, 0bfd66d529a55807 #banner, video
 sharethrough.com, Z0zLtt4t, DIRECT, d53b998a7bd4ecd2 #banner, video
 emxdgt.com, 31, DIRECT, 1e1d41537f7cad7f #banner, video
 ogury.com, f48f1699-39f7-40c5-8aef-1e5255be6d5e, DIRECT #banner, video
