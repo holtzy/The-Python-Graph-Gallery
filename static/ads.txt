@@ -1,4 +1,4 @@
-#Raptive ads.txt (CafeMedia/AdThrive) v2.67-auto
+#Raptive ads.txt (CafeMedia/AdThrive) v2.68-auto
 managerdomain=cafemedia.com
 contact=info@raptive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
@@ -46,6 +46,7 @@ triplelift.com, 1884, DIRECT, 6c33edb13117fd86 #banner, video
 blis.com, 1240, DIRECT, 61453ae19a4b73f4 #banner, video
 chicoryapp.com, 274428d70684d8cfe3aa, DIRECT #banner
 media.net, 8CUY56FQ6, DIRECT #banner, video
+sharethrough.com, 5339, DIRECT, d53b998a7bd4ecd2 #banner, video
 #TAM
 aps.amazon.com, 4fbba76f-7987-4fa2-9733-c27eb3a2170b, DIRECT #banner, video
 blis.com,1222,DIRECT,61453ae19a4b73f4 #banner, video
