@@ -1,10 +1,9 @@
-#Raptive ads.txt (CafeMedia/AdThrive) v2.68-auto
+#Raptive ads.txt (CafeMedia/AdThrive) v2.69-auto
 managerdomain=cafemedia.com
 contact=info@raptive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
 google.com, pub-8501674430909082, RESELLER, f08c47fec0942fa0 #video, banner
 #Prebid
-33across.com, 0013300001i0fyfAAA, DIRECT, bbea06d9c4d2853c #banner, video
 connatix.com, 1972169786479849,DIRECT, 2af98acdee0e81ed  #video
 conversantmedia.com, 100174, DIRECT, 03113cd04947736d #banner, video
 gumgum.com, 11685, DIRECT, ffdef49475d318a9 #banner, video
@@ -15,8 +14,8 @@ sharethrough.com, rn56Ocs3, DIRECT, d53b998a7bd4ecd2 #banner, video
 smartadserver.com, 5339, DIRECT, 060d053dcf45cbf4 #banner, video
 teads.tv, 17002, DIRECT, 15a9c44f6d26cbe1 #banner, video
 appnexus.com, 3561, DIRECT, f5ab79cb980f11d1 #banner, video
-themediagrid.com, 6FUJEI, DIRECT, 35d5010d7789b49d #banner, video
-themediagrid.com, CU6Y9O, DIRECT, 35d5010d7789b49d #banner, video
+themediagrid.com, 6FUJEI, DIRECT, 9fac4a4a87c2a44f #banner, video
+themediagrid.com, CU6Y9O, DIRECT, 9fac4a4a87c2a44f #banner, video
 nativo.com, 5707, DIRECT, 59521ca7cc5e9fee #banner, video
 openx.com, 537143229, DIRECT, 6a698e2ec38604c6 #banner, video
 rubiconproject.com, 9262, DIRECT, 0bfd66d529a55807 #banner, video
