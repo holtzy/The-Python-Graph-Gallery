@@ -1,4 +1,4 @@
-#Raptive ads.txt (CafeMedia/AdThrive) v2.70-auto
+#Raptive ads.txt (CafeMedia/AdThrive) v2.71-auto
 managerdomain=cafemedia.com
 contact=info@raptive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
@@ -15,11 +15,9 @@ smartadserver.com, 5339, DIRECT, 060d053dcf45cbf4 #banner, video
 teads.tv, 17002, DIRECT, 15a9c44f6d26cbe1 #banner, video
 appnexus.com, 3561, DIRECT, f5ab79cb980f11d1 #banner, video
 themediagrid.com, 6FUJEI, DIRECT, 9fac4a4a87c2a44f #banner, video
-themediagrid.com, CU6Y9O, DIRECT, 9fac4a4a87c2a44f #banner, video
 nativo.com, 5707, DIRECT, 59521ca7cc5e9fee #banner, video
 openx.com, 537143229, DIRECT, 6a698e2ec38604c6 #banner, video
 rubiconproject.com, 9262, DIRECT, 0bfd66d529a55807 #banner, video
-trustx.org, CU6Y9O, DIRECT, 1d2c8a747a749d25 #banner, video
 undertone.com, 2002, DIRECT #banner, video
 video.unrulymedia.com, 2634712030, DIRECT #banner, video
 yieldmo.com, 2529157218733858832, DIRECT #banner, video
@@ -48,6 +46,9 @@ media.net, 8CUY56FQ6, DIRECT #banner, video
 sharethrough.com, 5339, DIRECT, d53b998a7bd4ecd2 #banner, video
 sharethrough.com, 4006, DIRECT, d53b998a7bd4ecd2 #banner, video
 sharethrough.com, 4006-OB, DIRECT, d53b998a7bd4ecd2 #banner, video
+onetag.com, 7d614f4ac7b0a56, DIRECT #banner, #video
+smartadserver.com, 4006, DIRECT, 060d053dcf45cbf3 #banner, #video
+media.net, 8CANQT4AI, DIRECT #banner, #video
 #TAM
 aps.amazon.com, 4fbba76f-7987-4fa2-9733-c27eb3a2170b, DIRECT #banner, video
 blis.com,1222,DIRECT,61453ae19a4b73f4 #banner, video
