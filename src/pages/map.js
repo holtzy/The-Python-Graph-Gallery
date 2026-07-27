@@ -34,6 +34,24 @@ export default function BackgroundMap() {
 
       <Spacing />
 
+      <Container>
+        <h2 id="Tile-grid">State tile grid map</h2>
+        <p>
+          A tile grid map gives every state the same visual area. This makes it
+          useful for comparing categorical data without letting geographically
+          large states dominate the chart.
+        </p>
+        <Row>
+          <ChartImageContainer
+            imgName="602-us-state-tile-grid-matplotlib"
+            caption="Equal-area US state tile grid built with Matplotlib"
+            linkTo="/602-us-state-tile-grid-matplotlib"
+          />
+        </Row>
+      </Container>
+
+      <Spacing />
+
       <div className="greySection" id="related">
         <Container>
           <h2 id="Overview">🔎 Input format and package overview ⭐ </h2>
