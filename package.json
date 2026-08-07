@@ -47,7 +47,7 @@
     "remark-rehype": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.42.0",
+    "eslint": "^9.26.0",
     "eslint-plugin-react": "^7.32.2",
     "gh-pages": "^5.0.0",
     "html-loader": "^2.1.2",
