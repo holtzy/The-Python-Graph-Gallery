@@ -1,4 +1,4 @@
-#Raptive ads.txt (CafeMedia/AdThrive) v2.72-auto
+#Raptive ads.txt (CafeMedia/AdThrive) v2.73-auto
 managerdomain=cafemedia.com
 contact=info@raptive.com
 google.com, pub-8501674430909082, DIRECT, f08c47fec0942fa0 #video, banner
@@ -23,17 +23,6 @@ yieldmo.com, 2529157218733858832, DIRECT #banner, video
 yahoo.com, 58409, DIRECT #banner, video
 amxrtb.com, 105199880, DIRECT #banner, video
 triplelift.com, 4800, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 4801, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 4802, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 4803, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 4804, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 5895, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 5825, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 6287, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 6289, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 6291, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 6292, DIRECT, 6c33edb13117fd86 #banner, video
-triplelift.com, 6293, DIRECT, 6c33edb13117fd86 #banner, video
 triplelift.com, 1884, DIRECT, 6c33edb13117fd86 #banner, video
 blis.com, 1240, DIRECT, 61453ae19a4b73f4 #banner, video
 chicoryapp.com, 274428d70684d8cfe3aa, DIRECT #banner
@@ -58,6 +47,7 @@ yieldmo.com, 2701511276000911507, DIRECT #banner, video
 media.net, 8CUV4414Q, DIRECT #banner, video
 yahoo.com, 58671, DIRECT #banner, video
 ssp.cadent.com, 31, DIRECT, 1e1d41537f7cad7f #banner, video
+inmobi.com, 1ee0c4a8c13a4a7ca0becc62388f9b49, DIRECT, 83e75a7ae333ca9d #banner, video
 #OB
 indexexchange.com, 186035, DIRECT, 50b1c356f2c5c8fc #banner, video
 media.net, 8CUH2EUJ4, DIRECT #banner, video
