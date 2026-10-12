@@ -1,0 +1,154 @@
+{
+  "projections": [
+    {
+      "name": "PlateCarree",
+      "img": "projection-PlateCarree.png",
+      "feature": "most basic projection"
+    },
+    {
+      "name": "AzimuthalEquidistant",
+      "img": "projection-AzimuthalEquidistant.png",
+      "feature": "preserves distance from center"
+    },
+    {
+      "name": "LambertCylindrical",
+      "img": "projection-LambertCylindrical.png",
+      "feature": "equal-area cylindrical"
+    },
+    {
+      "name": "Mercator",
+      "img": "projection-Mercator.png",
+      "feature": "preserves direction, exaggerates poles"
+    },
+    {
+      "name": "Miller",
+      "img": "projection-Miller.png",
+      "feature": "compromise between Mercator and cylindrical"
+    },
+    {
+      "name": "Mollweide",
+      "img": "projection-Mollweide.png",
+      "feature": "equal-area, elliptical"
+    },
+    {
+      "name": "ObliqueMercator",
+      "img": "projection-ObliqueMercator.png",
+      "feature": "rotated Mercator for oblique aspects"
+    },
+    {
+      "name": "Orthographic",
+      "img": "projection-Orthographic.png",
+      "feature": "view from infinite distance"
+    },
+    {
+      "name": "Robinson",
+      "img": "projection-Robinson.png",
+      "feature": "pseudo-cylindrical, compromise"
+    },
+    {
+      "name": "Sinusoidal",
+      "img": "projection-Sinusoidal.png",
+      "feature": "equal-area, pseudo-cylindrical"
+    },
+    {
+      "name": "Stereographic",
+      "img": "projection-Stereographic.png",
+      "feature": "conformal, azimuthal"
+    },
+    {
+      "name": "TransverseMercator",
+      "img": "projection-TransverseMercator.png",
+      "feature": "Mercator rotated 90 degrees"
+    },
+    {
+      "name": "InterruptedGoodeHomolosine",
+      "img": "projection-InterruptedGoodeHomolosine.png",
+      "feature": "grid-based, preserves shape locally"
+    },
+    {
+      "name": "OSGB",
+      "img": "projection-OSGB.png",
+      "feature": "interrupted equal-area"
+    },
+    {
+      "name": "EuroPP",
+      "img": "projection-EuroPP.png",
+      "feature": "British National Grid"
+    },
+    {
+      "name": "Geostationary",
+      "img": "projection-Geostationary.png",
+      "feature": "Europe polar stereographic"
+    },
+    {
+      "name": "NearsidePerspective",
+      "img": "projection-NearsidePerspective.png",
+      "feature": "view from geostationary orbit"
+    },
+    {
+      "name": "EckertI",
+      "img": "projection-EckertI.png",
+      "feature": "view from finite distance"
+    },
+    {
+      "name": "EckertII",
+      "img": "projection-EckertII.png",
+      "feature": "pseudo-cylindrical, equal-area"
+    },
+    {
+      "name": "EckertIII",
+      "img": "projection-EckertIII.png",
+      "feature": "pseudo-cylindrical, equal-area"
+    },
+    {
+      "name": "EckertIV",
+      "img": "projection-EckertIV.png",
+      "feature": "pseudo-cylindrical, compromise"
+    },
+    {
+      "name": "EckertV",
+      "img": "projection-EckertV.png",
+      "feature": "pseudo-cylindrical, equal-area"
+    },
+    {
+      "name": "EckertVI",
+      "img": "projection-EckertVI.png",
+      "feature": "pseudo-cylindrical, compromise"
+    },
+    {
+      "name": "Aitoff",
+      "img": "projection-Aitoff.png",
+      "feature": "pseudo-cylindrical, equal-area"
+    },
+    {
+      "name": "EqualEarth",
+      "img": "projection-EqualEarth.png",
+      "feature": "modified azimuthal, compromise"
+    },
+    {
+      "name": "Gnomonic",
+      "img": "projection-Gnomonic.png",
+      "feature": "equal-area, pseudo-cylindrical"
+    },
+    {
+      "name": "Hammer",
+      "img": "projection-Hammer.png",
+      "feature": "straight great circles"
+    },
+    {
+      "name": "LambertAzimuthalEqualArea",
+      "img": "projection-LambertAzimuthalEqualArea.png",
+      "feature": "equal-area, elliptical"
+    },
+    {
+      "name": "OSNI",
+      "img": "projection-OSNI.png",
+      "feature": "equal-area, azimuthal"
+    },
+    {
+      "name": "SouthPolarStereo",
+      "img": "projection-SouthPolarStereo.png",
+      "feature": "Northern Ireland Grid"
+    }
+  ]
+}
