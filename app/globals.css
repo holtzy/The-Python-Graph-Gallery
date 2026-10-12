@@ -158,6 +158,13 @@
   width: 100%;
   grid-column: 1 / 4;
 }
+/* Links and buttons placed directly in the column keep their natural width (grid items stretch by default) */
+.wrapper > a,
+.wrapper > button,
+.narrowWrapper > a,
+.narrowWrapper > button {
+  justify-self: start;
+}
 
 /* ---------- TYPOGRAPHY (shadcn/ui typography defaults) ----------------- */
 main {

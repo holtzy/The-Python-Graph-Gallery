@@ -9,7 +9,7 @@ slug: "55-control-order-of-groups-in-violinplot-seaborn"
 ---
 
 ## Directly specyfing a list 
-Thanks to the 'order' parameter of the violinplot function, you can set the order in which you expect the distributions to appear on the figure.
+Thanks to the `order` parameter of the violinplot function, you can set the order in which you expect the distributions to appear on the figure.
 
 ```python
 # libraries & dataset
@@ -29,7 +29,7 @@ plt.show()
 :::
 
 ## Ordering by decreasing median 
-Instead of creating the list 'by hand' with various categories, you can also use the power of pandas operations (groupby, median or mean) in order to create a ranked list, which we stored in 'my_order' variable in the following example.
+Instead of creating the list 'by hand' with various categories, you can also use the power of pandas operations (groupby, median or mean) in order to create a ranked list, which we stored in `my_order` variable in the following example.
 
 ```python
 # libraries & dataset

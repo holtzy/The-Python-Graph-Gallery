@@ -26,7 +26,7 @@ export default function TitleAndDescription({ title, description, chartType }: T
         )}
       </div>
 
-      <div className="mt-6 text-lg leading-8 text-muted-foreground [&_a]:text-foreground [&_b]:text-foreground [&_strong]:text-foreground">
+      <div className="mt-6">
         {typeof description === 'string' ? <div dangerouslySetInnerHTML={{ __html: description }} /> : description}
       </div>
 

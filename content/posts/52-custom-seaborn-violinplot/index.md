@@ -10,7 +10,7 @@ slug: "52-custom-seaborn-violinplot"
 
 ## Change line width
 
-Depending on visual preferences, you may want to accentuate the distribution contour. This can be performed by setting the value of the 'linewidth' parameter.
+Depending on visual preferences, you may want to accentuate the distribution contour. This can be performed by setting the value of the `linewidth` parameter.
 
 ```python
 
@@ -33,7 +33,7 @@ plt.show()
 
 ## Change the general width
 
-In the case where you have multiple distributions to display on the same graph and you want to be sure that they do not overlap, you can also change the 'width' parameter.
+In the case where you have multiple distributions to display on the same graph and you want to be sure that they do not overlap, you can also change the `width` parameter.
 
 ```python
 # libraries & dataset

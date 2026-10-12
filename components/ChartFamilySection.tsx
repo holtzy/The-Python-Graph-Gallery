@@ -13,14 +13,24 @@ const TITLES: Record<string, string> = {
   general: 'General Knowledge',
 };
 
+type ChartFamilySectionProps = {
+  chartFamily: string;
+  // "related": a "Related chart types" section, used at the bottom of pages.
+  // "family": a small family title (e.g. "Distribution"), used on the home page to list all families.
+  variant?: 'related' | 'family';
+  hasGreyBackground?: boolean;
+};
+
 // Lists all the chart types of a family (e.g. all the "distribution" charts)
-export default function ChartFamilySection({ chartFamily }: { chartFamily: string; hasGreyBackground?: boolean }) {
+export default function ChartFamilySection({ chartFamily, variant = 'related' }: ChartFamilySectionProps) {
   const charts = chartTypesInfo.filter((chart) => chart.family === chartFamily);
   return (
     <div className="pb-4">
-      <h2 id="Related charts" className="!mt-8 !mb-0 !border-b-0 !pb-0 !text-sm !font-medium !tracking-normal text-muted-foreground">
-        {TITLES[chartFamily]}
-      </h2>
+      {variant === 'related' ? (
+        <h2 id="Related charts">Related chart types</h2>
+      ) : (
+        <h3 className="!mt-8 !mb-0 text-sm !font-medium !tracking-normal text-muted-foreground">{TITLES[chartFamily]}</h3>
+      )}
       <div className="grid grid-cols-4 gap-x-4 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7">
         {charts.map((chart) => (
           <SectionLogoWithOverlay

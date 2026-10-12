@@ -8,7 +8,7 @@ chartType: "lollipop"
 slug: "183-highlight-a-group-in-lollipop"
 ---
 
-The [previous post](http://python-graph-gallery.com/182-vertical-lollipop-plot/) explains how to create a horizontal lollipop plot using the `hlines()` function of [matplotlib](https://python-graph-gallery.com/matplotlib/). In the example below, "group B" is shown with different **color** and **marker size**. In order to do it, `my_color` variable is defined; 'orange' for group B and 'skyblue' for the remaining groups. This color variable is passed to the `hlines()` function as an argument. For changing the marker sizes, the `scatter()` function of matplotlib is used.
+The [previous post](http://python-graph-gallery.com/182-vertical-lollipop-plot/) explains how to create a horizontal lollipop plot using the `hlines()` function of [matplotlib](https://python-graph-gallery.com/matplotlib/). In the example below, "group B" is shown with different **color** and **marker size**. In order to do it, `my_color` variable is defined; `orange` for group B and `skyblue` for the remaining groups. This color variable is passed to the `hlines()` function as an argument. For changing the marker sizes, the `scatter()` function of matplotlib is used.
 
 ```python
 # libraries

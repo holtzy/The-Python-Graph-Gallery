@@ -40,7 +40,7 @@ In order to access one specific column, we use the `columns` attribute from the 
 - `set_facecolor()` function for the **background color**
 - `set_fontcolor()` function for the **text color**
 
-In our case, we change the background color of the *'Value'* column and the text color of the *'Score'* column
+In our case, we change the background color of the *`Value`* column and the text color of the *`Score`* column
 
 ```python
 # Init a figure 

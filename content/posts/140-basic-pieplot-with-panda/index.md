@@ -8,7 +8,7 @@ chartType: "pie"
 slug: "140-basic-pieplot-with-panda"
 ---
 
-You can easily plot a pie chart using the `plot()` function of pandas library. You should pass the plot type as 'pie' in the `kind` argument.
+You can easily plot a pie chart using the `plot()` function of pandas library. You should pass the plot type as `pie` in the `kind` argument.
 
 ```python
 # library

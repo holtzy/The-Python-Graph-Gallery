@@ -176,7 +176,7 @@ plt.show()
 
 ## Segment
 
-In the example below, a line segment is added to the scatterplot by using `plot()` function. The first function draws the scatterplot and the second one draws a line segment by passing 'solid' as a `linestyle` parameter.
+In the example below, a line segment is added to the scatterplot by using `plot()` function. The first function draws the scatterplot and the second one draws a line segment by passing `solid` as a `linestyle` parameter.
 
 ```python
 # Libraries

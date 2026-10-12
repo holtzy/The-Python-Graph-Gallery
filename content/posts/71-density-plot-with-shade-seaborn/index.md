@@ -30,7 +30,7 @@ df = sns.load_dataset('iris')
 
 ## Shade
 
-Adding a shade to the area under the curve is as simple as setting the 'shade' parameter to True.
+Adding a shade to the area under the curve is as simple as setting the `shade` parameter to True.
 
 ```python
 sns.set_theme(style="darkgrid")

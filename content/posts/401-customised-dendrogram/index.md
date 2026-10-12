@@ -143,7 +143,7 @@ plt.show()
 
 ## Orientation
 
-The direction to plot the dendrogram can be controlled with the `orientation` parameter of the `dendrogram()`function. The possible orientations are 'top', 'bottom', 'left', and 'right'.
+The direction to plot the dendrogram can be controlled with the `orientation` parameter of the `dendrogram()`function. The possible orientations are `top`, `bottom`, `left`, and `right`.
 
 ```python
 # Libraries

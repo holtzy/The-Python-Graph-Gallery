@@ -43,10 +43,10 @@ df = pd.DataFrame(data)
 
 The main thing to do is to have a column where **each cell is a name of a file** stored on your computer. Each file name will have the corresponding image at the end. 
 
-In our case, we **don't have the file extension** at the end of each cell in the *'Image'* column. To cover this case, we'll use the following code:
+In our case, we **don't have the file extension** at the end of each cell in the *`Image`* column. To cover this case, we'll use the following code:
 - we add a **`.png` extension** if the cell has not one, for all value in the column
 
-*Important: In your personal case, remember that you have to have **locally stored** the files on your computer! Fortunately, you can have them in a **different directory**. For example, if they are one directory 'above' your current directory you can juste add a `../` as a **prefix** in the cell.*
+*Important: In your personal case, remember that you have to have **locally stored** the files on your computer! Fortunately, you can have them in a **different directory**. For example, if they are one directory `above` your current directory you can juste add a `../` as a **prefix** in the cell.*
 
 ```python
 # Add a .png extension to each cell in the Image column

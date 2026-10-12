@@ -82,7 +82,7 @@ To our previous dataset, we add a **3rd variable** which will be categorical, na
  
 ### Specify your own colors
 
-You can use the `palette` parameter to specify **your own colors** for lines. If you want a specific color for each group, I recommend **using a dictionary** with *label as key* and *color as value* (which is what we do in the following example). But it's also possible to **make a list of colors** (however, it must be the same length as the number of distinct labels in 'z').
+You can use the `palette` parameter to specify **your own colors** for lines. If you want a specific color for each group, I recommend **using a dictionary** with *label as key* and *color as value* (which is what we do in the following example). But it's also possible to **make a list of colors** (however, it must be the same length as the number of distinct labels in `z`).
 
 ```python
 # Generate random numeric values, where y is a function of x

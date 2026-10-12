@@ -29,8 +29,8 @@ plt.show()
 
 ## By decreasing median
 
-In the example above, we directly specified the order in which we expected our distributions to appear (based on groups name). Not knowing beforehand, we could have decided to dispay the distributions by decreasing median. This can be achieved again by specifying the 'order' argument inside the boxplot() function.  
-Using pandas groupby, median and slicing in reverse order (thanks to .iloc[::-1]), we are able to define a list of groups ordered by decreasing median, which is then used as a value for the 'order' argument.
+In the example above, we directly specified the order in which we expected our distributions to appear (based on groups name). Not knowing beforehand, we could have decided to dispay the distributions by decreasing median. This can be achieved again by specifying the `order` argument inside the boxplot() function.  
+Using pandas groupby, median and slicing in reverse order (thanks to .iloc[::-1]), we are able to define a list of groups ordered by decreasing median, which is then used as a value for the `order` argument.
 
 ```python
 # libraries & dataset

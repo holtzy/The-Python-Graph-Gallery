@@ -105,7 +105,7 @@ export default function Page() {
         </p>
         <a
           href="https://www.d3-graph-gallery.com/arc.html"
-          className={buttonVariants({ variant: 'secondary', className: 'uppercase' })}
+          className={buttonVariants({ variant: 'secondary', })}
         >
           See code
         </a>

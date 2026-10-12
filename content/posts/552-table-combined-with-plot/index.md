@@ -91,7 +91,7 @@ plt.show()
 Using the same code as before, we add the following elements:
 
 - It adjusts the layout with `plt.subplots_adjust(left=0.1, bottom=0.1)` to make room for the table at the bottom of the chart
-- It **adds a table** at the bottom of the chart using `plt.table()`. This table includes the **text labels**, **row labels** (from the 'rows' column in the DataFrame), and column labels (from the DataFrame's columns)
+- It **adds a table** at the bottom of the chart using `plt.table()`. This table includes the **text labels**, **row labels** (from the `rows` column in the DataFrame), and column labels (from the DataFrame's columns)
 
 ```python
 values = np.arange(0, 2500, 500)

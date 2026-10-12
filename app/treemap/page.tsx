@@ -156,7 +156,7 @@ export default function Page() {
         </div>
         <a
           href="/580-simple-interactive-treemap-plotly"
-          className={buttonVariants({ variant: 'secondary', className: 'mt-4 uppercase' })}
+          className={buttonVariants({ variant: 'secondary', className: 'mt-4' })}
         >
           See code
         </a>

@@ -123,7 +123,7 @@ This code generates a pandas DataFrame called `df` with two columns: `Continuous
 
 The `Continuous_Variable` column contains 1000 randomly generated continuous values drawn from a normal distribution with a mean of 10 and a standard deviation of 5.
 
-The 'Categorical_Variable' column contains 1000 randomly chosen categories from a list of 16 different modalities, such as `Category_1`, `Category_2`, and so on.
+The `Categorical_Variable` column contains 1000 randomly chosen categories from a list of 16 different modalities, such as `Category_1`, `Category_2`, and so on.
 
 The resulting DataFrame `df` contains 1000 rows and 2 columns, where each row represents a data point with a continuous value and a corresponding categorical value.
 

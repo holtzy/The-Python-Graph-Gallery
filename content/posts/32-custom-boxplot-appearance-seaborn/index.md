@@ -10,7 +10,7 @@ slug: "32-custom-boxplot-appearance-seaborn"
 
 ## Custom linewidth
 
-Customizing your boxplot's linewidth is really straightforward and quickly done through the 'linewidth' argument.
+Customizing your boxplot's linewidth is really straightforward and quickly done through the `linewidth` argument.
 
 ```python
 # libraries & dataset

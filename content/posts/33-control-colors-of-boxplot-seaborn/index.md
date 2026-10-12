@@ -62,7 +62,7 @@ plt.show()
 
 ## Specifying a color for each distribution
 
-Specifying colors 'by hand' is quickly performed by creating a dictionnary composed of 'category': 'color' pairs as key:value, such as we did in the following example with my_pal.
+Specifying colors 'by hand' is quickly performed by creating a dictionnary composed of `category`: `color` pairs as key:value, such as we did in the following example with my_pal.
 
 ```python
 # libraries & dataset

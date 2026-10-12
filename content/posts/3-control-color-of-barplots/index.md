@@ -81,7 +81,7 @@ plt.show()
 
 ## Control color of border
 
-The `edgecolor` argument allows you to color the borders of barplots. You can either put a color name like 'blue' or put a **list of colors**.
+The `edgecolor` argument allows you to color the borders of barplots. You can either put a color name like `blue` or put a **list of colors**.
 
 We also specify `linewidth=3` in order to make the edges more visible (the default value is 1 and can be too thin).
 

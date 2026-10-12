@@ -39,9 +39,9 @@ plt.show()
 ## Ticks
 
 The `tick_params()` function of matplotlib makes it possible to customize x and y axis ticks. The parameters are:
-* `axis` : axis to apply the parameters to (possible options are: 'x', 'y', 'both')
+* `axis` : axis to apply the parameters to (possible options are: `x`, `y`, `both`)
 * `colors` : tick and label colors
-* `direction` : puts ticks inside the axes, outside the axes, or both (possible options are: 'in', 'out', 'inout')
+* `direction` : puts ticks inside the axes, outside the axes, or both (possible options are: `in`, `out`, `inout`)
 * `length` : tick length in points
 * `width` : tick width in points
 * `bottom` : whether to draw the respective ticks (True or False)

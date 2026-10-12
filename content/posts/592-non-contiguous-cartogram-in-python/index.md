@@ -215,7 +215,7 @@ plt.show()
 
 - `data_projected = data.to_crs(epsg=4326)`: This line is converting the geospatial data to a **common coordinate system** (WGS84, used by GPS) for easier manipulation.
 
-- `data_projected['centroid'] = data_projected.geometry.centroid`: This line is calculating the **centroid** (geometric center) of each geometry in the data and storing it in a new column 'centroid'.
+- `data_projected['centroid'] = data_projected.geometry.centroid`: This line is calculating the **centroid** (geometric center) of each geometry in the data and storing it in a new column `centroid`.
 
 - `data['centroid'] = data_projected['centroid'].to_crs(data.crs)`: This line is converting the centroids back to the original coordinate system of the data.
 

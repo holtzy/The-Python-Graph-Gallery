@@ -12,8 +12,8 @@ In the following example, we start from a simple boxplot and add annotations to 
 
 To do so we:
 
-- calculate the median sepal_length for each group and store them in a variable named 'medians'
-- we then create a 'nobs' list which stores the number of observations for each group
+- calculate the median sepal_length for each group and store them in a variable named `medians`
+- we then create a `nobs` list which stores the number of observations for each group
 - eventually, we add labels to our figure.
 
 To add labels, keep in mind that seaborn is built on top of matplotlib, thus seaborn objects can be stored in matplotlib axes or figures (here we store the boxplot in a matplotlib.axes object named ax). This enables us to use matplotlib.axes .get_xticklabels() as well as .text() functions and its various parameters (horizontalalignment, size, color, weight) to add text to our figure.

@@ -29,6 +29,10 @@ export type PostCell = {
   index: number;
   code: string;
   highlighted: string;
+  // true when the static output contains a chart (image)
+  hasChart?: boolean;
+  intro?: Element;
+  output?: Element;
 };
 
 // ---------- remark: handle directives
@@ -125,6 +129,27 @@ const isOutput = (node: ElementContent | undefined) =>
   ((node.properties.className as string[] | undefined) ?? []).includes('cell-output');
 
 // ---------- rehype: group each python code block with its output into a <notebook-cell>
+//
+// <notebook-cell data-index="3">
+//   <cell-intro>...</cell-intro>     the paragraphs right above the code, when the cell produces a chart:
+//                                    they are displayed next to the chart
+//   <cell-output>...</cell-output>   the static output (chart, table, text)
+// </notebook-cell>
+
+// Text before a chart is moved next to it only if it is short enough to sit in a column
+const INTRO_MAX_CHARS = 900;
+const INTRO_TAGS = new Set(['p', 'ul', 'ol', 'blockquote']);
+
+const hasImage = (node: Element | undefined): boolean => {
+  let found = false;
+  if (node) {
+    visit(node, 'element', (n: Element) => {
+      if (n.tagName === 'img') found = true;
+    });
+  }
+  return found;
+};
+
 const rehypeCells = (cells: PostCell[]) => () => async (tree: HastRoot) => {
   const children = tree.children as ElementContent[];
   const result: ElementContent[] = [];
@@ -142,10 +167,29 @@ const rehypeCells = (cells: PostCell[]) => () => async (tree: HastRoot) => {
     const output = isOutput(children[j]) ? (children[j] as Element) : undefined;
     if (output) i = j;
 
+    // When the cell produces a chart: take the paragraphs right above it (up to the previous heading
+    // or code cell), so that they are displayed next to the chart.
+    const intro: ElementContent[] = [];
+    if (hasImage(output)) {
+      let chars = 0;
+      while (result.length) {
+        const prev = result[result.length - 1];
+        if (prev.type === 'text' && !prev.value.trim()) {
+          result.pop();
+          continue;
+        }
+        if (prev.type !== 'element' || !INTRO_TAGS.has(prev.tagName)) break;
+        chars += getText(prev).length;
+        if (chars > INTRO_MAX_CHARS) break;
+        intro.unshift(result.pop()!);
+      }
+    }
+
     const cell: PostCell = {
       index: cells.length,
       code: getText(node).replace(/\n$/, ''),
       highlighted: '',
+      hasChart: hasImage(output),
     };
     cells.push(cell);
     pending.push(highlightCode(cell.code, 'python').then((html) => void (cell.highlighted = html)));
@@ -154,7 +198,10 @@ const rehypeCells = (cells: PostCell[]) => () => async (tree: HastRoot) => {
       type: 'element',
       tagName: 'notebook-cell',
       properties: { dataIndex: cell.index },
-      children: output ? output.children : [],
+      children: [
+        { type: 'element', tagName: 'cell-intro', properties: {}, children: intro },
+        { type: 'element', tagName: 'cell-output', properties: {}, children: output ? output.children : [] },
+      ],
     });
   }
   await Promise.all(pending);
@@ -212,21 +259,45 @@ export async function renderPost(
 
   const tree = (await processor.run(processor.parse(body))) as HastRoot;
 
-  const content = toJsxRuntime(tree, {
-    Fragment,
-    jsx: jsx as any,
-    jsxs: jsxs as any,
-    components: {
-      'notebook-cell': (props: any) => {
-        const cell = cells[Number(props['data-index'])];
-        return (
-          <CodeCell index={cell.index} code={cell.code} highlighted={cell.highlighted} interactive={interactive}>
-            {props.children}
-          </CodeCell>
-        );
-      },
-    },
+  // Detach the intro and output of each cell: they are rendered separately, in the cell layout
+  visit(tree, 'element', (node: Element) => {
+    if (node.tagName !== 'notebook-cell') return;
+    const cell = cells[Number(node.properties.dataIndex)];
+    for (const child of node.children) {
+      if (child.type !== 'element') continue;
+      if (child.tagName === 'cell-intro') cell.intro = child;
+      if (child.tagName === 'cell-output') cell.output = child;
+    }
+    node.children = [];
+    return SKIP;
   });
+
+  const toReact = (node: HastRoot | Element) =>
+    toJsxRuntime(node as HastRoot, {
+      Fragment,
+      jsx: jsx as any,
+      jsxs: jsxs as any,
+      components: {
+        'cell-intro': (props: any) => <>{props.children}</>,
+        'cell-output': (props: any) => <>{props.children}</>,
+        'notebook-cell': (props: any) => {
+          const cell = cells[Number(props['data-index'])];
+          return (
+            <CodeCell
+              index={cell.index}
+              code={cell.code}
+              highlighted={cell.highlighted}
+              interactive={interactive}
+              hasChart={cell.hasChart}
+              intro={cell.intro && cell.intro.children.length ? toReact(cell.intro) : undefined}
+              output={cell.output && cell.output.children.length ? toReact(cell.output) : undefined}
+            />
+          );
+        },
+      },
+    });
+
+  const content = toReact(tree);
 
   return { content, cells: cells.map((c) => c.code) };
 }

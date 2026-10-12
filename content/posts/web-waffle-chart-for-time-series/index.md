@@ -96,7 +96,7 @@ plt.show()
 
 ## Custom colors
 
-The colours are changed using the `colors` argument to `Waffle.make_waffle()`. We specify that the last colour is 'white' so that it is **confused with the background**.
+The colours are changed using the `colors` argument to `Waffle.make_waffle()`. We specify that the last colour is `white` so that it is **confused with the background**.
 
 ```python
 max_year_value = df[df["year"] == 2020]["n"].sum()
@@ -192,7 +192,7 @@ The legend is entirely manually defined, which implies some workaround. In pract
 
 - **Categories and Colors**:
 
-  - Extract unique categories from the 'status' column.
+  - Extract unique categories from the `status` column.
   - Define colors for each category.
 
 - **Rectangle Dimensions and Positioning**:

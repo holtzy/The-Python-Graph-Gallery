@@ -158,8 +158,8 @@ plt.show()
 
 Adding all the **stacked line charts** in each axe:
 - We filter data in a DataFrame `df` where the `state` column matches the `letters` in order to only get data about the right state
-- We **pivots the filtered data** into a new DataFrame called `state_data`. This means we rearrange the data so that `year` becomes the index, `'party'` becomes the columns (each distinct label in party becomes a new column), and `pct` values are placed in the corresponding cells. If a combination of 'year' and 'party' is missing, we **fill the cell with 0**
-- We **reset the index** of `state_data`, effectively making 'year' a regular column again
+- We **pivots the filtered data** into a new DataFrame called `state_data`. This means we rearrange the data so that `year` becomes the index, `'party'` becomes the columns (each distinct label in party becomes a new column), and `pct` values are placed in the corresponding cells. If a combination of `year` and `party` is missing, we **fill the cell with 0**
+- We **reset the index** of `state_data`, effectively making `year` a regular column again
 - We creates a stacked line chart: the chart is stacked, which means that **each line represents a party** (`republican`, `democrat`, `other`, `did not vote`) and the lines are stacked on top of each other for each year
 
 ```python
@@ -243,9 +243,9 @@ Thanks to the `text()` function, you can easily add **annotations of different s
 - we change the **text size** using the `fontsize` argument
 - we use a dictionnary of properties `font_params` for the title that defines the **font and other properties** to use
 
-To change the size of the 'AK' graph, we perform a **special case** in our loop at position (0,6) to apply the `set_position()` function. It specifies the **new position and dimensions** of the graph in question.
+To change the size of the `AK` graph, we perform a **special case** in our loop at position (0,6) to apply the `set_position()` function. It specifies the **new position and dimensions** of the graph in question.
 
-We also take the opportunity to apply a **different text size** for the letters 'AK' for this chart.
+We also take the opportunity to apply a **different text size** for the letters `AK` for this chart.
 
 ```python
 # colors for the charts

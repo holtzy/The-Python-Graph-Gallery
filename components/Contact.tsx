@@ -8,9 +8,9 @@ export default function Contact(_props: { pageSlug?: string; isNotebook?: boolea
         <h2 id="Edit this page" className="!mt-0 !border-b-0 !pb-0 !text-2xl">
           🚨 Grab the Data To Viz poster!
         </h2>
-        <p className="text-muted-foreground">
+        <p>
           Do you know all the chart types? Do you know which one you should pick? I made a{' '}
-          <b className="text-foreground">decision tree</b> that answers those questions. You can download it for free!
+          <b>decision tree</b> that answers those questions. You can download it for free!
         </p>
         <KitForm form="poster" buttonLabel="Get the poster" className="mt-6" />
       </div>

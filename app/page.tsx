@@ -151,14 +151,14 @@ export default function Home() {
           caters to your specific requirements.
         </p>
         <div className="mt-8">
-          <ChartFamilySection chartFamily="distribution" />
-          <ChartFamilySection chartFamily="correlation" />
-          <ChartFamilySection chartFamily="ranking" />
-          <ChartFamilySection chartFamily="partOfAWhole" />
-          <ChartFamilySection chartFamily="evolution" />
-          <ChartFamilySection chartFamily="map" />
-          <ChartFamilySection chartFamily="flow" />
-          <ChartFamilySection chartFamily="general" />
+          <ChartFamilySection chartFamily="distribution" variant="family" />
+          <ChartFamilySection chartFamily="correlation" variant="family" />
+          <ChartFamilySection chartFamily="ranking" variant="family" />
+          <ChartFamilySection chartFamily="partOfAWhole" variant="family" />
+          <ChartFamilySection chartFamily="evolution" variant="family" />
+          <ChartFamilySection chartFamily="map" variant="family" />
+          <ChartFamilySection chartFamily="flow" variant="family" />
+          <ChartFamilySection chartFamily="general" variant="family" />
         </div>
       </div>
 
@@ -223,7 +223,7 @@ export default function Home() {
                 {lib.logo}
                 {lib.name}
               </h3>
-              <p className="!mt-2 flex-1 text-base leading-7 text-muted-foreground">{lib.description}</p>
+              <p className="!mt-2 flex-1">{lib.description}</p>
               <Link
                 href={lib.href}
                 className={buttonVariants({ variant: 'outline', size: 'sm', className: 'mt-4 self-start' })}

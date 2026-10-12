@@ -10,7 +10,7 @@ slug: "53-control-color-of-seaborn-violinplot"
 
 ## Using a color palette
 
-Simply set the 'palette' parameter in the violinplot function. Doing so can add information on the groups order for example. Thus, keep in mind that adding a color palette to your graph can orientate the way readers will interpret it.
+Simply set the `palette` parameter in the violinplot function. Doing so can add information on the groups order for example. Thus, keep in mind that adding a color palette to your graph can orientate the way readers will interpret it.
 
 ```python
 # libraries & dataset
@@ -31,7 +31,7 @@ plt.show()
 
 ## Uniform color
 
-Setting a unique value for the 'color' parameter will fill all distribution areas with the same color.
+Setting a unique value for the `color` parameter will fill all distribution areas with the same color.
 
 ```python
 # libraries & dataset
@@ -52,7 +52,7 @@ plt.show()
 
 ## Specify a color for each distribution
 
-Rather than using a generic palette color, you can also instantiate a dictionary (here named my_pal) and set the 'palette' parameter to such dictionary.
+Rather than using a generic palette color, you can also instantiate a dictionary (here named my_pal) and set the `palette` parameter to such dictionary.
 
 ```python
 # libraries & dataset
