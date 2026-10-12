@@ -40,7 +40,7 @@ That's it! We now have an object called `g` that `networkX` knows how to read. W
 
 Let's start with a first simple network chart. The `Graph` function is pretty magical in the sense that it will output something for us using some **default** parameter. Unfortunately, the output is rather disappointing for now.
 
-```python
+```text
 %%capture --no-display
 # ^ Hide annoying warning for this cell
 

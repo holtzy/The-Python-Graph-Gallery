@@ -90,7 +90,7 @@ Now, let's save the graph in a HTML file and display it in this website using an
 fig.write_html("../../static/interactiveCharts/scatterplot-plotly-basic.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/scatterplot-plotly-basic.html" 
@@ -175,7 +175,7 @@ Save in HTML and display:
 fig.write_html("../../static/interactiveCharts/scatterplot-plotly-grouping.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/scatterplot-plotly-grouping.html" 
@@ -257,7 +257,7 @@ fig.update_layout(
 fig.write_html("../../static/interactiveCharts/scatterplot-plotly-trendline.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/scatterplot-plotly-trendline.html" 

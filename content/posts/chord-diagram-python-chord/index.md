@@ -144,7 +144,7 @@ matrix
 Chord(matrix, names).to_html("../../static/interactiveCharts/chord-diagram-chord-library.html")
 ```
 
-```python
+```html
 %%html
 <iframe src="../../interactiveCharts/chord-diagram-chord-library.html" width="800" height="600" title="Chord diagram with the chord library" style="border:none"></iframe>
 ```

@@ -89,7 +89,7 @@ Note that you can save this chart to a standalone file thanks to the `write.html
 fig.write_html("../../static/interactiveCharts/ridgeline-graph-plotly.html")
 ```
 
-```python
+```html
 %%html
 <iframe src="../../interactiveCharts/ridgeline-graph-plotly.html" width="800" height="600" title="ridgeline chart with plotly" style="border:none"></iframe>
 ```

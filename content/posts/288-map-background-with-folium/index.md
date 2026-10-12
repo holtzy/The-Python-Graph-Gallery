@@ -46,7 +46,7 @@ map.save('../../static/interactiveCharts/288_basic_folium_map.html')
 
 You can now embed this page in any html document using an `iframe`. Open your `.html` document and add this somewhere:
 
-```python
+```html
 %%html
 <iframe
    src="/interactiveCharts/288_basic_folium_map.html"

@@ -44,7 +44,7 @@ Note that you can save this chart to a standalone file thanks to the write.html(
 fig.write_html("../../static/interactiveCharts/sankey-diagram-plotly1.html")
 ```
 
-```python
+```html
 %%html
 <iframe src="../../interactiveCharts/sankey-diagram-plotly1.html" width="800" height="600" title="ridgeline chart with plotly" style="border:none"></iframe>
 ```
@@ -109,7 +109,7 @@ fig.write_html("../../static/interactiveCharts/sankey-diagram-plotly-real.html")
 
 Render it as an iframe
 
-```python
+```html
 %%html
 <iframe src="../../interactiveCharts/sankey-diagram-plotly-real.html" width="800" height="900" title="ridgeline chart with plotly" style="border:none"></iframe>
 ```

@@ -1490,7 +1490,7 @@ fig.write_html(
 )
 ```
 
-```python
+```html
 %%html
 <iframe src="../../interactiveCharts/524-area-chart-over-flexible-baseline.html" width="840" height="504" title="Area over flexible baseline" style="border:none"></iframe>
 ```

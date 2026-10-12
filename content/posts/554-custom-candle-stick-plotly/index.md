@@ -89,7 +89,7 @@ Now, let's save the graph in a HTML file and display it in this website using an
 fig.write_html("../../static/interactiveCharts/candlestick-plotly-custom.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/candlestick-plotly-custom.html" 
@@ -171,7 +171,7 @@ Now, let's save the graph in a HTML file and display it in this website using an
 fig.write_html("../../static/interactiveCharts/candlestick-plotly-custom-2.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/candlestick-plotly-custom-2.html" 

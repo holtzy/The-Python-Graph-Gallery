@@ -49,7 +49,7 @@ fig.update_layout(
 fig.write_html("../../static/interactiveCharts/plotly-customize-title-1.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/plotly-customize-title-1.html" 
@@ -99,7 +99,7 @@ fig.update_layout(
 fig.write_html("../../static/interactiveCharts/plotly-customize-title-2.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/plotly-customize-title-2.html" 

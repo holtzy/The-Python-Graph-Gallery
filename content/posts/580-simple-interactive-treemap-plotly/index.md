@@ -58,7 +58,7 @@ fig.write_html(
 )
 ```
 
-```python
+```html
 %%html
 
 <iframe
@@ -94,7 +94,7 @@ fig.write_html(
 )
 ```
 
-```python
+```html
 %%html
 
 <iframe

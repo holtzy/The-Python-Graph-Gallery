@@ -18,7 +18,7 @@ As a teaser, here is the plot we’re gonna try building:
 
 ![stacked area chart with python](https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-stacked-line-chart-with-labels.png?raw=true)
 
-![](final_chart.png)
+![Stacked line chart with labels](/graph/web-stacked-line-chart-with-labels.png)
 
 ## Libraries
 

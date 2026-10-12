@@ -93,7 +93,7 @@ Importantly, the `plotly.express` module leverages `plotly.graph_objects` intern
 
 Customizing titles in `Plotly` graph objects **is a straightforward way** to enhance the visual appeal and clarity of your data visualizations. With Plotly, you have the flexibility to modify various aspects of the title, such as its `text`, `font`, `color`, `alignment`, and `positioning`. Here's a brief guide on how to customize titles using Plotly graph objects:
 
-```python
+```text
 %%capture 
 
 # Add and change title style
@@ -113,7 +113,7 @@ Annotation is a key part of a **great visualization**. It transforms a simple ch
 
 With plotly, we will mainly need to use the `add_annotation()` function.
 
-```python
+```text
 %%capture
 
 # Add annotation to a specific point

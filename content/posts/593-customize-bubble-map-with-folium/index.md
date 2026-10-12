@@ -77,7 +77,7 @@ for idx, row in df.iterrows():
 m.save('../../static/interactiveCharts/593-customize-bubble-map-with-folium-1.html')
 ```
 
-```python
+```html
 %%html
 <iframe
   src="../../interactiveCharts/593-customize-bubble-map-with-folium-1.html"
@@ -132,7 +132,7 @@ for idx, row in df.iterrows():
 m.save('../../static/interactiveCharts/593-customize-bubble-map-with-folium-2.html')
 ```
 
-```python
+```html
 %%html
 <iframe
   src="../../interactiveCharts/593-customize-bubble-map-with-folium-2.html"
@@ -192,7 +192,7 @@ for idx, row in df.iterrows():
 m.save('../../static/interactiveCharts/593-customize-bubble-map-with-folium-3.html')
 ```
 
-```python
+```html
 %%html
 <iframe
   src="../../interactiveCharts/593-customize-bubble-map-with-folium-3.html"

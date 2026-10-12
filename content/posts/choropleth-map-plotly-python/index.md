@@ -79,7 +79,7 @@ fig.write_html("../../static/interactiveCharts/choropleth-map-plotly-python.html
 
 Include it in a jupyter notebook with an `iframe`:
 
-```python
+```html
 %%html
 <iframe src="../../interactiveCharts/choropleth-map-plotly-python.html" width="800" height="600" title="Choropleth map with plotly" style="border:none"></iframe>
 ```

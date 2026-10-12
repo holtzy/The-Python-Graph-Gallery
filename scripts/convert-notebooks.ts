@@ -65,7 +65,7 @@ let imageCount = 0;
 let htmlCount = 0;
 
 for (const file of fs.readdirSync(notebooksDir).sort()) {
-  if (!file.endsWith('.ipynb') || file.startsWith('_')) continue;
+  if (!file.endsWith('.ipynb')) continue;
   const nb = JSON.parse(fs.readFileSync(path.join(notebooksDir, file), 'utf8'));
   const meta = nb.metadata;
   const slug: string = meta.slug;
@@ -92,8 +92,9 @@ for (const file of fs.readdirSync(notebooksDir).sort()) {
       continue;
     }
 
-    // Code cell
-    if (source) parts.push(fence(source, 'python'));
+    // Code cell. Cells using a jupyter cell magic (e.g. %%html to embed an interactive chart)
+    // are not python: they are displayed but never run.
+    if (source) parts.push(fence(source, /^\s*%%html/.test(source) ? 'html' : /^\s*%%/.test(source) ? 'text' : 'python'));
 
     const rendered: string[] = [];
     for (const o of cell.outputs ?? []) {

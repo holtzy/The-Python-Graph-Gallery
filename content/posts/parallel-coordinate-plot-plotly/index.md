@@ -43,7 +43,7 @@ Note that you can save this chart to a standalone file thanks to the `write.html
 fig.write_html("../../static/interactiveCharts/parallel-coordinate-plot-plotly.html")
 ```
 
-```python
+```html
 %%html
 <iframe src="../../interactiveCharts/parallel-coordinate-plot-plotly.html" width="800" height="600" title="parallel coordinate chart with plotly" style="border:none"></iframe>
 ```

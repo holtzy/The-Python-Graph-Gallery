@@ -59,7 +59,7 @@ Once this is done, you can show the figure with `fig.show()`, or save the figure
 fig.write_html("../../static/interactiveCharts/barplot-plotly-express.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/barplot-plotly-express.html" 
@@ -97,7 +97,7 @@ Save in a html file and embed the chart:
 fig.write_html("../../static/interactiveCharts/barplot-plotly-go.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/barplot-plotly-go.html" 

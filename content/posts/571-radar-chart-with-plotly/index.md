@@ -51,7 +51,7 @@ fig.write_html("../../static/interactiveCharts/radarchart-plotly-express.html")
 
 Let's see the results:
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/radarchart-plotly-express.html" 
@@ -88,7 +88,7 @@ fig.write_html("../../static/interactiveCharts/radarchart-plotly-object.html")
 
 Let's see the results:
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/radarchart-plotly-object.html" 
@@ -133,7 +133,7 @@ fig.write_html("../../static/interactiveCharts/radarchart-plotly-object-2.html")
 
 Let's see the results:
 
-```python
+```text
 %%HTML
 <iframe
     src="../../interactiveCharts/radarchart-plotly-object-2.html"

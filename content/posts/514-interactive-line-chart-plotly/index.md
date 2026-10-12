@@ -96,7 +96,7 @@ fig.update_layout(
 fig.write_html("../../static/interactiveCharts/linechart-plotly-basic.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/linechart-plotly-basic.html" 
@@ -158,7 +158,7 @@ fig.update_layout(
 fig.write_html("../../static/interactiveCharts/linechart-plotly-custom.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/linechart-plotly-custom.html" 
@@ -253,7 +253,7 @@ fig.write_html(
     "../../static/interactiveCharts/linechart-plotly-multigroup.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/linechart-plotly-multigroup.html" 

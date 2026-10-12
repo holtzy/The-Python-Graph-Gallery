@@ -341,3 +341,8 @@ main li {
   padding: 12px 16px;
   overflow-x: auto;
 }
+
+/* CodeMirror (editable code cells) */
+.cm-editor.cm-focused {
+  outline: none !important;
+}

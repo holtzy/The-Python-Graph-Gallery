@@ -55,7 +55,7 @@ fig.add_trace(go.Scatter(
 fig.write_html("../../static/interactiveCharts/plotly-add-annotation-0.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/plotly-add-annotation-0.html" 
@@ -98,7 +98,7 @@ Save and embed the chart:
 fig.write_html("../../static/interactiveCharts/plotly-add-annotation-1.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/plotly-add-annotation-1.html" 
@@ -211,7 +211,7 @@ fig.add_annotation(
 fig.write_html("../../static/interactiveCharts/plotly-add-annotation-2.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/plotly-add-annotation-2.html" 

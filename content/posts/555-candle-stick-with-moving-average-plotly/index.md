@@ -105,7 +105,7 @@ Now, let's save the graph in a HTML file and display it in this website using an
 fig.write_html("../../static/interactiveCharts/candlestick-plotly-moving-average.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/candlestick-plotly-moving-average.html" 
@@ -158,7 +158,7 @@ Now, let's save the graph in a HTML file and display it in this website using an
 fig.write_html("../../static/interactiveCharts/candlestick-plotly-moving-average-2.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/candlestick-plotly-moving-average-2.html" 
@@ -233,7 +233,7 @@ Now, let's save the graph in a HTML file and display it in this website using an
 fig.write_html("../../static/interactiveCharts/candlestick-plotly-moving-average-3.html")
 ```
 
-```python
+```html
 %%html
 <iframe 
     src="../../interactiveCharts/candlestick-plotly-moving-average-3.html" 
