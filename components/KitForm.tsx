@@ -24,16 +24,20 @@ export default function KitForm({ form, buttonLabel = 'Subscribe', className }: 
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const form = e.currentTarget;
     setStatus('loading');
     try {
       const res = await fetch(`https://app.kit.com/forms/${id}/subscriptions`, {
         method: 'POST',
         headers: { Accept: 'application/json' },
-        body: new FormData(e.currentTarget),
+        body: new FormData(form),
       });
       setStatus(res.ok ? 'success' : 'error');
     } catch {
-      setStatus('error');
+      // The request was blocked (network, CORS...): fall back to a regular form submission on Kit
+      form.target = '_blank';
+      form.submit();
+      setStatus('idle');
     }
   };
 
