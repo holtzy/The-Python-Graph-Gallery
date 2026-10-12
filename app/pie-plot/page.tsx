@@ -65,7 +65,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Warning">&#9888;&#65039; Mind the pie chart</h2>
         <p>
           Pie chart is probably the most criticized chart type. Humans are pretty bad at reading angles, making it hard
@@ -123,7 +123,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <ChartFamilySection chartFamily="partOfAWhole" />
       </div>
 

@@ -1,4 +1,4 @@
-// Compares the SEO of the new build (out/) with a baseline build (the former Gatsby site).
+// Compares the SEO of the new build (out/) with a baseline build (e.g. the html currently deployed on the gh-pages branch).
 //
 // Usage: npx tsx scripts/seo-diff.ts <baseline-dir> [report.json]
 //   <baseline-dir>: folder containing the former site html (e.g. extracted from the gh-pages branch)

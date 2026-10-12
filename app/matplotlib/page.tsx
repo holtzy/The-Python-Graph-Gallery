@@ -134,7 +134,7 @@ export default function MatplotlibPage() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Quick">🤔 How to Learn Matplotlib</h2>
         <p>
           Matplotlib is a powerful library, but its syntax can be hard to master. If you want a deep understanding of
@@ -421,13 +421,13 @@ export default function MatplotlibPage() {
           />
         </ChartGrid>
       </div>
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <FunctionExploration funDetails={fig_arrow} />
       </div>
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <h2 id="Cheatsheets">✨ Cheatsheets</h2>
         <p>
           It&apos;s pretty hard to remember all the matplotlib associated vocabulary. The{' '}
@@ -846,7 +846,7 @@ export default function MatplotlibPage() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="evolution" />
       </div>
 

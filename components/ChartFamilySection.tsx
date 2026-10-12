@@ -18,13 +18,10 @@ export default function ChartFamilySection({ chartFamily }: { chartFamily: strin
   const charts = chartTypesInfo.filter((chart) => chart.family === chartFamily);
   return (
     <div className="pb-4">
-      <h2
-        id="Related charts"
-        className="!mt-4 !mb-0 !border-b !pb-1 !font-sans !text-xl !font-normal !tracking-normal"
-      >
+      <h2 id="Related charts" className="!mt-8 !mb-0 !border-b-0 !pb-0 !text-sm !font-medium !tracking-normal text-muted-foreground">
         {TITLES[chartFamily]}
       </h2>
-      <div className="grid grid-cols-4 gap-x-6 gap-y-4 pt-4 md:grid-cols-7 md:gap-x-2">
+      <div className="grid grid-cols-4 gap-x-4 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7">
         {charts.map((chart) => (
           <SectionLogoWithOverlay
             key={chart.id}

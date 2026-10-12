@@ -48,7 +48,7 @@ export default function Radar() {
         <TitleAndDescription title="Radar Chart" description={chartDescription} chartType="radar" />
       </div>
 
-      <div className="wrapper bg-muted py-10" id="warning">
+      <div className="wrapper" id="warning">
         <h2 id="Warning">&#9888;&#65039; Radar charts are criticized</h2>
         <p>
           Spider plots are somewhat criticized. The <u>variable order</u> has a huge impact on the chart appearance,{' '}
@@ -153,7 +153,7 @@ export default function Radar() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="ranking" />
       </div>
 

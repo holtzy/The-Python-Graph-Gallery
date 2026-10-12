@@ -86,7 +86,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="warning">
+      <div className="wrapper" id="warning">
         <h2 id="Warning">&#9888;&#65039; The issue with wordclouds</h2>
         <p>
           Wordclouds are aesthetically pleasing and people are used to it, what make sure readers will understand them
@@ -185,7 +185,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <ChartFamilySection chartFamily="ranking" />
       </div>
 

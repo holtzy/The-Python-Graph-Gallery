@@ -93,9 +93,9 @@ const logoInteractive: LogoLinkProps[] = [
   { imgPath: VegaImg, url: '/', altText: 'Vega-Altair logo', name: 'Vega-Altair', disabled: true },
 ];
 
-// Grey band with a grid of library logos
+// Grid of library logos
 const LogoGrid = ({ logos }: { logos: LogoLinkProps[] }) => (
-  <div className="wrapper my-6 bg-muted py-8">
+  <div className="wrapper my-6">
     <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
       {logos.map((logo, index) => (
         <LogoLink key={index} {...logo} />
@@ -179,7 +179,7 @@ export default function BestPackages() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="general" />
       </div>
 

@@ -7,7 +7,7 @@ import Spacing from '@/components/Spacing';
 import Parallax from '@/components/Parallax';
 import SubscribeButton from '@/components/SubscribeButton';
 import MatplotlibJourneyPromo from '@/components/MatplotlibJourneyPromo';
-import VoronoiImagePatchwork, { type PatchworkChart } from '@/components/VoronoiImagePatchwork';
+import ChartScrollStrip, { type StripChart } from '@/components/ChartScrollStrip';
 import { Matplotlib, Pandas, Plotly, Plotnine, Seaborn } from '@/components/MiscellaneousLogos';
 import { buttonVariants } from '@/components/ui/button';
 import { buildMetadata } from '@/lib/seo';
@@ -122,11 +122,11 @@ const libraries = [
 ];
 
 // Charts displayed in the voronoi patchwork (webp thumbnails of public/graph)
-const patchworkCharts: PatchworkChart[] = listOfBestCharts.map((chart) => ({
+const bestCharts: StripChart[] = listOfBestCharts.map((chart) => ({
   link: chart.link,
   title: chart.title,
-  description: chart.description,
   author: chart.author,
+  alt: chart.alt,
   src: getGraphImage(chart.img)?.thumb ?? '/graph/' + chart.img,
 }));
 
@@ -137,7 +137,7 @@ export default function Home() {
         <TitleAndDescription title="The Python Graph Gallery" description={siteDescription} />
       </div>
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 className="!mt-6 !border-b-0">The biggest list of python chart examples</h2>
         <p>
           Within our collection, we cover <b>every chart type</b> imaginable to ensure we fullfil your data
@@ -174,18 +174,17 @@ export default function Home() {
           <b>elevate their craft</b>. Featuring the finest charts on the web, we stay ahead of the curve, showcasing the
           latest tips, tricks, and <b>advanced techniques</b> in data visualization.
         </p>
-        <div className="mt-6 mb-10">
+        <div className="mt-6 mb-8">
           <Link href="/best-python-chart-examples" className={buttonVariants({ size: 'lg' })}>
             Check the best Examples
           </Link>
         </div>
+        <ChartScrollStrip charts={bestCharts} />
       </div>
-
-      <VoronoiImagePatchwork charts={patchworkCharts} />
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-16">
+      <div className="wrapper">
         <h2 className="!mt-0 !border-b-0">Palette color finder</h2>
         <p>
           Selecting <b>optimal chart colors</b> can be challenging and time-intensive. The <a>pypalettes</a> library

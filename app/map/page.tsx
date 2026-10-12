@@ -29,7 +29,7 @@ export default function BackgroundMap() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <h2 id="Overview">🔎 Input format and package overview ⭐ </h2>
         <p>
           A map is basically a set of polygons displayed on a 2 dimensional canvas. There are two problems you need to
@@ -213,7 +213,7 @@ export default function BackgroundMap() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="map" />
       </div>
 

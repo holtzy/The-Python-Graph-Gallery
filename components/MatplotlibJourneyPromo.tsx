@@ -9,22 +9,22 @@ type MatplotlibJourneyPromoProps = {
   buttonHref?: string;
 };
 
-// Grey band promoting the Matplotlib Journey course
+// Section promoting the Matplotlib Journey course
 export default function MatplotlibJourneyPromo({
   children,
   title,
   buttonHref = 'https://www.matplotlib-journey.com',
 }: MatplotlibJourneyPromoProps) {
   return (
-    <section className="wrapper bg-muted py-24 sm:py-36">
+    <section className="wrapper py-16">
       <div className="flex flex-col items-center">
-        {title && <p className="!mt-0 mb-12 font-heading text-3xl font-bold">{title}</p>}
+        {title && <p className="!mt-0 mb-8 text-3xl font-semibold tracking-tight">{title}</p>}
         <a href="https://www.matplotlib-journey.com" className="block w-full">
           <img
             src="/img/matplotlib-journey-overview.png"
             alt="overview of the matplotlib journey landing page"
             loading="lazy"
-            className="h-auto w-full rounded-md border shadow-sm"
+            className="h-auto w-full rounded-xl border"
           />
         </a>
         <p className="mt-8 max-w-[500px] text-center text-base leading-7">{children}</p>

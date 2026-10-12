@@ -37,16 +37,18 @@ export default function About() {
         <p>This website relies on the following stack:</p>
         <ul>
           <li>
-            <a href="https://www.gatsbyjs.com">Gatsby</a> makes the website blazing fast
+            <a href="https://nextjs.org">Next.js</a> makes the website blazing fast
           </li>
           <li>
             Code is hosted on <a href="https://github.com/holtzy/The-Python-Graph-Gallery">github</a>, you can edit it!
           </li>
           <li>
-            Every blog post is actually a <a href="https://jupyter.org">Jupyter notebook</a>
+            Every blog post is a markdown file. Its code runs in your browser thanks to{' '}
+            <a href="https://pyodide.org">Pyodide</a>: click "Edit code" on any example!
           </li>
           <li>
-            <a href="https://react-bootstrap.github.io">React bootstrap</a> is the css framework used here.
+            <a href="https://tailwindcss.com">Tailwind CSS</a> and <a href="https://ui.shadcn.com">shadcn/ui</a> are
+            used for the design.
           </li>
         </ul>
 

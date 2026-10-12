@@ -30,7 +30,7 @@ export default function Page() {
         <TitleAndDescription title="Circular Packing" description={chartDescription} chartType="circularPacking" />
       </div>
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Circlify">
           &#8505; &#65039; A note on the <code>Circlify</code> package
         </h2>
@@ -102,7 +102,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <ChartFamilySection chartFamily="partOfAWhole" />
       </div>
 

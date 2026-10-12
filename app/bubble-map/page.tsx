@@ -30,7 +30,7 @@ export default function BubbleMap() {
         <TitleAndDescription title="Bubble Map" description={chartDescription} chartType="bubbleMap" />
       </div>
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <h2 id="Overview">🔎 Building maps with Python</h2>
         <p>
           If you&apos;re new to geospatial analysis with python, I strongly advise to check the{' '}
@@ -197,7 +197,7 @@ export default function BubbleMap() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="map" />
       </div>
 

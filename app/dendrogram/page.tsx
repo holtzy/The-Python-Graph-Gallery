@@ -29,7 +29,7 @@ export default function Page() {
         <TitleAndDescription title="Dendrogram" description={chartDescription} chartType="dendrogram" />
       </div>
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="What is it?">&#8505; &#65039; Two types of dendrogram</h2>
         <p>
           It is important to understand that dendrograms are used in 2 very different conditions that are based on 2
@@ -151,7 +151,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <ChartFamilySection chartFamily="partOfAWhole" />
       </div>
 

@@ -58,9 +58,9 @@ export default function KitForm({ form, buttonLabel = 'Subscribe', className }: 
         required
         aria-label="Email Address"
         placeholder="Email Address"
-        className="h-10 flex-1 rounded-md border border-input bg-background px-3 text-base outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        className="h-9 flex-1 rounded-md border border-input bg-transparent px-3 text-sm shadow-xs outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
       />
-      <Button type="submit" disabled={status === 'loading'} className="bg-brand text-white hover:bg-brand/90">
+      <Button type="submit" size="lg" disabled={status === 'loading'}>
         {status === 'loading' ? '...' : buttonLabel}
       </Button>
       {status === 'error' && (

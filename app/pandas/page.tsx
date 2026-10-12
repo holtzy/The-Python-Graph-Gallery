@@ -216,7 +216,7 @@ export default function PandasPage() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="general" />
       </div>
 

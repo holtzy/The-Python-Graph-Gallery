@@ -28,7 +28,7 @@ export default function HexbinMap() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <h2 id="Overview">🔎 2 kinds of hexbin maps ⭐ </h2>
         <p>
           There are 2 different kinds of hexbin maps as explained in{' '}
@@ -81,7 +81,7 @@ export default function HexbinMap() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="map" />
       </div>
 

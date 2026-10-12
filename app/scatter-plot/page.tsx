@@ -103,7 +103,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Common caveats">&#9888;&#65039; Scatterplot and overplotting</h2>
         <p>
           The main danger with scatterplots is{' '}
@@ -229,7 +229,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <FunctionExploration funDetails={scatterplot} />
       </div>
 
@@ -612,7 +612,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="correlation" />
       </div>
 

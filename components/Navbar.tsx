@@ -12,13 +12,14 @@ import {
 } from './ui/dropdown-menu';
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from './ui/dialog';
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from './ui/sheet';
-import { Button, buttonVariants } from './ui/button';
+import { Button } from './ui/button';
 import AllChartsModal from './AllChartsModal';
 import KitForm from './KitForm';
 import { NavItem, RELATED_MENU, TOOLS_MENU, TOP_LINKS } from './nav-links';
 import { cn } from '@/lib/utils';
 
-const navLink = cn(buttonVariants({ variant: 'ghost', size: 'sm' }), 'font-normal text-[15px] cursor-pointer');
+const navLink =
+  'inline-flex h-8 cursor-pointer items-center rounded-md px-2.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none';
 
 const MenuLink = ({ item }: { item: NavItem }) => (
   <a href={item.href} className={cn('flex w-full items-center justify-between gap-4', item.isMain && 'font-medium')}>
@@ -30,7 +31,7 @@ const MenuLink = ({ item }: { item: NavItem }) => (
 const Dropdown = ({ label, groups }: { label: string; groups: NavItem[][] }) => (
   <DropdownMenu modal={false}>
     <DropdownMenuTrigger className={navLink}>
-      {label} <ChevronDown size={14} className="ml-1" />
+      {label} <ChevronDown size={14} className="ml-1 opacity-60" />
     </DropdownMenuTrigger>
     <DropdownMenuContent align="start" className="w-60">
       {groups.map((group, i) => (
@@ -52,14 +53,15 @@ export default function Navbar() {
   const [isSubscribeOpen, setIsSubscribeOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b bg-background/90 backdrop-blur">
-      <nav className="mx-auto flex h-14 max-w-[1100px] items-center justify-between px-4">
-        <Link href="/" className="font-[family-name:var(--font-bitter)] text-lg font-bold no-underline">
-          &larr; Graph Gallery
+    <header className="sticky top-0 z-40 w-full bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
+      <nav className="mx-auto flex h-14 max-w-5xl items-center justify-between px-5">
+        <Link href="/" className="flex items-center gap-2 text-[15px] font-semibold tracking-tight">
+          <img src="/favicon-32x32.png" alt="" width={20} height={20} className="h-5 w-5" />
+          Python Graph Gallery
         </Link>
 
         {/* Desktop */}
-        <div className="hidden items-center gap-1 lg:flex">
+        <div className="hidden items-center gap-0.5 lg:flex">
           <span className={navLink} onClick={() => setIsChartModalOpen(true)}>
             Chart types
           </span>
@@ -73,7 +75,7 @@ export default function Navbar() {
           <a href="https://www.matplotlib-journey.com" target="_blank" rel="noopener" className={navLink}>
             Learn
           </a>
-          <Button size="sm" className="ml-2" onClick={() => setIsSubscribeOpen(true)}>
+          <Button size="sm" className="ml-3" onClick={() => setIsSubscribeOpen(true)}>
             Subscribe
           </Button>
         </div>
@@ -83,7 +85,7 @@ export default function Navbar() {
           <SheetTrigger className="lg:hidden" aria-label="Open menu">
             <Menu />
           </SheetTrigger>
-          <SheetContent side="right" className="overflow-y-auto">
+          <SheetContent side="right" className="overflow-y-auto px-6 py-6">
             <SheetTitle>Python Graph Gallery</SheetTitle>
             <div className="mt-6 flex flex-col gap-1 text-base">
               <button className="text-left font-medium" onClick={() => setIsChartModalOpen(true)}>

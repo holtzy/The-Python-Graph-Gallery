@@ -86,7 +86,7 @@ export default function AnimationPage() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="&#8800; interaction">&#128161; Animation &#8800; Interaction</h2>
         <p>There is a common confusion between what animated and interactive charts are:</p>
         <ul>
@@ -201,7 +201,7 @@ export default function AnimationPage() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="general" />
       </div>
 

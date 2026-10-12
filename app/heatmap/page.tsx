@@ -117,7 +117,7 @@ export default function Heatmap() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Warning">&#9888;&#65039; Python heatmap and normalization</h2>
         <p>
           Consider the left heatmap below. The second column from the left (<code>variable 1</code>) has very high
@@ -267,7 +267,7 @@ export default function Heatmap() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="correlation" />
       </div>
 

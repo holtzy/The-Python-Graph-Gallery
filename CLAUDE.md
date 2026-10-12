@@ -6,7 +6,7 @@ Static website (https://python-graph-gallery.com) built with Next.js (App Router
 
 - `npm run dev`: prepare assets + dev server
 - `npm run build`: prepare assets + static build in `out/` + sitemap
-- `npm run seo-diff`: compares the SEO of the new build (`out/`) with the former Gatsby build
+- `npm run seo-diff`: compares the SEO of the new build (`out/`) with the build currently deployed (gh-pages branch)
 
 ## Structure
 
@@ -91,11 +91,11 @@ export default function Page() {
 }
 ```
 
-- `.wrapper` is the centered content column (max 1000px). `.narrowWrapper` is narrower. Children of a wrapper can use `full-bleed` to span the full width.
+- `.wrapper` is the centered content column (max 780px). `.narrowWrapper` is narrower. Children of a wrapper can use `full-bleed` to span the full width.
 - Images of `static/graph/` are displayed with `<ChartImage imgName="..." caption="..." />` (lazy loaded webp thumbnail). `<ChartImageContainer>` adds a link. Put them in a `<ChartGrid cols={3}>`.
 - Code: `<CodeChunk>{code}</CodeChunk>` (async server component, highlighted at build time).
 - Library logos next to titles: `components/MiscellaneousLogos.tsx`.
-- Style: plain shadcn/ui look. Use Tailwind utilities, shadcn components, the `brand` color (`text-brand`, `bg-brand`) sparingly.
+- Style: plain shadcn/ui defaults (Geist font, neutral colors, subtle borders). Use Tailwind utilities and shadcn components; avoid grey background bands. Chart images get a light border (built into `ChartImage`).
 - SEO: every page keeps its exact title, meta description, headings and links. Never change a url.
 
 ## Writing

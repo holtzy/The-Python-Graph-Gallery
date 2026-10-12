@@ -49,8 +49,8 @@ export default function BestPythonChartExamples() {
         <TitleAndDescription title="Best Python Chart Examples" description={chartDescription} />
       </div>
 
-      <section className="wrapper mt-5 mb-20 bg-muted py-14">
-        <div className="flex flex-col items-center">
+      <section className="wrapper mt-5 mb-16">
+        <div className="flex flex-col items-center rounded-xl border p-8 text-center">
           <p className="max-w-[500px] text-base leading-7">
             Love Python and Dataviz? I send my best tips once a week in my "Dataviz Universe" newsletter. More than
             8000 people love it!

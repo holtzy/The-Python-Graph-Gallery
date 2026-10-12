@@ -17,7 +17,7 @@ export default function AllChartsModal({ open, onOpenChange }: Props) {
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-4xl">
-        <DialogTitle className="font-[family-name:var(--font-bitter)]">All chart types</DialogTitle>
+        <DialogTitle>All chart types</DialogTitle>
         <div className="grid grid-cols-4 gap-3 sm:grid-cols-8">
           {chartTypesInfo
             .filter((chart) => !EXCLUDED.includes(chart.id))

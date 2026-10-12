@@ -21,7 +21,7 @@
     "@codemirror/lang-python": "^6.2.1",
     "@uiw/react-codemirror": "^4.25.12",
     "class-variance-authority": "^0.7.1",
-    "cn": "^0.4.0",
+    "clsx": "^2.1.1",
     "d3": "^7.9.0",
     "d3-voronoi": "^1.1.4",
     "gray-matter": "^4.0.3",
@@ -41,6 +41,7 @@
     "remark-rehype": "^11.1.2",
     "shadcn": "^4.21.4",
     "shiki": "^4.5.0",
+    "tailwind-merge": "^3.7.0",
     "unified": "^11.0.5",
     "unist-util-visit": "^5.1.0"
   },

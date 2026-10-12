@@ -219,7 +219,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <FunctionExploration funDetails={hist} />
       </div>
 
@@ -430,7 +430,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="distribution" />
       </div>
 

@@ -71,7 +71,7 @@ export default function Boxplot() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Warning">&#9888;&#65039; Mind the boxplot</h2>
         <p>
           A boxplot is an awesome way to summarize the distribution of a variable. However it hides the real
@@ -263,7 +263,7 @@ export default function Boxplot() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="distribution" />
       </div>
 

@@ -10,7 +10,7 @@ export default function SocialMediaButtons() {
   return (
     <div className="flex items-center gap-4">
       {links.map(({ href, label, viewBox, d }) => (
-        <a key={href} href={href} aria-label={label} className="text-muted-foreground hover:text-brand">
+        <a key={href} href={href} aria-label={label} className="text-muted-foreground hover:text-foreground">
           <svg viewBox={viewBox} width={18} height={18} aria-hidden="true" focusable="false">
             <path fill="currentColor" d={d} />
           </svg>

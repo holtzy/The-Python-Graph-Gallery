@@ -75,7 +75,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Warning">&#9888;&#65039; Mind the donut!</h2>
         <p>
           As his friend the <Link href="/pie-plot">Pie chart</Link>, the Donut chart is often criticized. Humans are
@@ -135,7 +135,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <ChartFamilySection chartFamily="partOfAWhole" />
       </div>
 

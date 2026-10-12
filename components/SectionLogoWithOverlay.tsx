@@ -16,12 +16,10 @@ export default function SectionLogoWithOverlay({ chartType, caption, link }: Pro
       <div className="relative">
         <SectionLogo chartType={chartType} />
         {!isGeneralFamily && (
-          <div className="absolute inset-0 flex items-center justify-center rounded-full bg-gray-500 text-6xl text-white opacity-0 transition-opacity duration-700 group-hover:opacity-70">
-            +
-          </div>
+          <div className="absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10" />
         )}
       </div>
-      <p className="!mt-1 text-center text-sm leading-5 text-muted-foreground">{caption}</p>
+      <p className="!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground">{caption}</p>
     </Link>
   );
 }

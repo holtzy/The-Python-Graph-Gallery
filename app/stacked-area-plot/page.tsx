@@ -74,7 +74,7 @@ export default function StackedAreaPlot() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="warning">
+      <div className="wrapper" id="warning">
         <h2 id="Warning">&#9888;&#65039; The issue with stacking</h2>
         <p>
           Stacked area charts must be used with care since they suffer a number of caveats. They are appropriate to
@@ -163,7 +163,7 @@ export default function StackedAreaPlot() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="stackplotWidget">
+      <div className="wrapper" id="stackplotWidget">
         <FunctionExploration funDetails={stackplot} />
       </div>
 
@@ -267,7 +267,7 @@ export default function StackedAreaPlot() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="evolution" />
       </div>
 

@@ -158,7 +158,7 @@ export default function Choropleth() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="map" />
       </div>
 

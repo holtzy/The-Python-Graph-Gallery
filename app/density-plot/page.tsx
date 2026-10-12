@@ -172,7 +172,7 @@ export default function DensityPlot() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <FunctionExploration funDetails={kdeplot} />
       </div>
 
@@ -215,7 +215,7 @@ export default function DensityPlot() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="distribution" />
       </div>
 

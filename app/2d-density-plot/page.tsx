@@ -29,7 +29,7 @@ export default function TwoDDensityPlot() {
         <TitleAndDescription title="2D Density Chart" description={chartDescription} chartType="density2d" />
       </div>
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Warning">💡 What is a 2D density chart?</h2>
         <p>
           There are several chart types allowing to visualize the distribution of a combination of{' '}
@@ -216,7 +216,7 @@ export default function TwoDDensityPlot() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="correlation" />
       </div>
 

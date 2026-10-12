@@ -79,7 +79,7 @@ export default function ConnectedScatter() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Warning">&#9888;&#65039; Two types of connected scatterplot</h2>
         <p>There are two types of connected scatterplot, and it often creates confusion.</p>
         <p>
@@ -242,7 +242,7 @@ export default function ConnectedScatter() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="correlation" />
       </div>
 

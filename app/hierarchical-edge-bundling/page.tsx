@@ -29,7 +29,7 @@ export default function Page() {
         />
       </div>
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Python">
           😞 Sadness and Despair for Hierarchical Edge Bundling with <code>Python</code>.
         </h2>
@@ -82,7 +82,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <ChartFamilySection chartFamily="flow" />
       </div>
 

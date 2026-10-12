@@ -6,9 +6,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-    --font-heading: var(--font-bitter);
-    --font-sans: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
-    --font-mono: var(--font-fira), ui-monospace, monospace;
+    --font-heading: var(--font-sans);
+    --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+    --font-mono: var(--font-geist-mono), ui-monospace, monospace;
     --color-brand: var(--brand);
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
@@ -136,23 +136,19 @@
     }
 }
 
-body {
-  font-size: 18px;
-}
-
 /* ---------- PAGE LAYOUT ----------------- */
-/* Inspired from https://www.joshwcomeau.com/css/full-bleed/ */
+/* Centered content column. Children can use .full-bleed to span the full width. */
 .wrapper {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   display: grid;
-  grid-template-columns: 1fr min(1000px, 100%) 1fr;
+  grid-template-columns: 1fr min(780px, 100%) 1fr;
 }
 .narrowWrapper {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   display: grid;
-  grid-template-columns: 1fr min(760px, 100%) 1fr;
+  grid-template-columns: 1fr min(680px, 100%) 1fr;
 }
 .wrapper > *,
 .narrowWrapper > * {
@@ -163,108 +159,59 @@ body {
   grid-column: 1 / 4;
 }
 
-/* ---------- TYPOGRAPHY ----------------- */
-p {
-  @apply leading-8;
+/* ---------- TYPOGRAPHY (shadcn/ui typography defaults) ----------------- */
+main {
+  font-size: 16px;
+  line-height: 1.75;
 }
-p:not(:first-child) {
-  @apply mt-5;
+main p:not(:first-child) {
+  margin-top: 1.25rem;
 }
 
-code:not([class]) {
-  padding: 0.15em 0.3em;
-  font-size: 88%;
-  background-color: var(--muted);
-  border-radius: 4px;
-  font-family: var(--font-fira), ui-monospace, monospace;
+main h1 {
+  @apply text-4xl font-extrabold tracking-tight text-balance lg:text-5xl;
+}
+main h2 {
+  @apply mt-14 mb-4 scroll-mt-20 border-b pb-2 text-3xl font-semibold tracking-tight;
+}
+main h3 {
+  @apply mt-10 mb-2 scroll-mt-20 text-xl font-semibold tracking-tight;
+}
+main h4,
+main h5 {
+  @apply mt-8 mb-2 text-lg font-semibold tracking-tight;
+}
+main h2 code,
+main h3 code {
+  background: none !important;
+  padding: 0 !important;
+  font-size: 0.9em !important;
+}
+
+/* inline code only (code blocks are <pre><code>) */
+main :not(pre) > code:not([class]) {
+  @apply rounded-sm bg-muted px-[0.3rem] py-[0.15rem] font-mono text-[0.875em];
 }
 
 main p a,
 main li a,
-.prose-gallery a {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 0.1px;
-}
-main a:hover {
-  color: var(--brand);
-}
-
-blockquote {
-  background: var(--muted);
-  border-left: 3px solid var(--brand);
-  padding: 0.5em 14px;
-  margin: 20px 0;
-}
-
-h1 {
-  font-size: 30px;
-  line-height: 38px;
-  font-family: var(--font-bitter);
-  font-weight: bold;
-  letter-spacing: 0.02em;
-}
-@media (min-width: 640px) {
-  h1 {
-    font-size: 42px;
-    line-height: 54px;
-  }
-}
-
-h2 {
-  font-size: 28px;
-  line-height: 38px;
-  font-family: var(--font-bitter);
-  font-weight: bold;
-  letter-spacing: 0.02em;
-  width: 100%;
-  border-bottom: 1px solid var(--border);
-  margin-top: 80px;
-  margin-bottom: 16px;
-  padding-bottom: 10px;
-  scroll-margin-top: 90px;
-}
-@media (min-width: 640px) {
-  h2 {
-    font-size: 32px;
-    line-height: 44px;
-  }
-}
-
-h3 {
-  font-family: var(--font-bitter);
-  font-weight: bold;
-  line-height: 32px;
-  letter-spacing: 0.02em;
-  font-size: 22px;
-  margin-top: 40px;
-  margin-bottom: 8px;
-  scroll-margin-top: 90px;
-}
-h4,
-h5 {
-  font-family: var(--font-bitter);
-  font-weight: bold;
-  font-size: 19px;
-  margin-top: 28px;
-  margin-bottom: 6px;
+main td a {
+  @apply font-medium underline underline-offset-4 decoration-muted-foreground/40 hover:decoration-foreground;
 }
 
 main ul {
-  list-style-type: disc;
-  padding-left: 28px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  @apply my-5 ml-6 list-disc [&>li]:mt-2;
 }
 main ol {
-  list-style-type: decimal;
-  padding-left: 28px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  @apply my-5 ml-6 list-decimal [&>li]:mt-2;
 }
-main li {
-  padding-bottom: 6px;
-  line-height: 1.7;
+
+main blockquote {
+  @apply mt-6 border-l-2 pl-6 italic;
+}
+
+main hr {
+  @apply my-8;
 }
 
 /* ---------- POST CONTENT (former notebooks) ----------------- */
@@ -286,7 +233,8 @@ main li {
 /* pandas dataframe outputs */
 .cell-output-html {
   overflow-x: auto;
-  font-size: 15px;
+  font-size: 13px;
+  line-height: 1.5;
 }
 .cell-output-html table.dataframe {
   border-collapse: collapse;
@@ -300,18 +248,44 @@ main li {
   white-space: nowrap;
 }
 .cell-output-html table.dataframe thead th {
-  background-color: var(--muted);
   font-weight: 600;
 }
 
 /* Shiki: code is highlighted at build time */
 .shiki {
   background-color: transparent !important;
+  font-size: 13.5px;
+  line-height: 1.65;
 }
 .shiki code {
-  font-family: var(--font-fira), ui-monospace, monospace;
-  font-size: 14.5px;
-  line-height: 1.6;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 13.5px;
+  line-height: 1.65;
+}
+
+/* text outputs of code cells, and ```text blocks */
+.plain-output {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: pre;
+  overflow-x: auto;
+  padding: 8px 0;
+  margin: 12px 0;
+  color: var(--muted-foreground);
+}
+.code-snippet {
+  margin: 20px 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: color-mix(in oklch, var(--muted) 50%, transparent);
+  padding: 12px 16px;
+  overflow-x: auto;
+}
+
+/* CodeMirror (editable code cells) */
+.cm-editor.cm-focused {
+  outline: none !important;
 }
 
 /* ---------- MISC ----------------- */
@@ -321,28 +295,4 @@ main li {
 .noScrollBar {
   -ms-overflow-style: none;
   scrollbar-width: none;
-}
-
-/* text outputs of code cells, and ```text blocks */
-.plain-output {
-  font-family: var(--font-fira), ui-monospace, monospace;
-  font-size: 13.5px;
-  line-height: 1.5;
-  white-space: pre;
-  overflow-x: auto;
-  padding: 8px 0;
-  margin: 12px 0;
-}
-.code-snippet {
-  margin: 20px 0;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  background: color-mix(in oklch, var(--muted) 60%, transparent);
-  padding: 12px 16px;
-  overflow-x: auto;
-}
-
-/* CodeMirror (editable code cells) */
-.cm-editor.cm-focused {
-  outline: none !important;
 }

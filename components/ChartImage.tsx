@@ -7,7 +7,7 @@ type ChartImageProps = {
   priority?: boolean;
 };
 
-// Displays a chart of public/graph (lightweight webp thumbnail) with its caption on hover.
+// Displays a chart of static/graph (lightweight webp thumbnail) with its caption on hover.
 export default function ChartImage({ imgName, caption, priority }: ChartImageProps) {
   const image = getGraphImage(imgName);
   if (!image) {
@@ -18,7 +18,7 @@ export default function ChartImage({ imgName, caption, priority }: ChartImagePro
   }
 
   return (
-    <div className="group relative overflow-hidden rounded-md">
+    <div className="group relative overflow-hidden rounded-lg border bg-white">
       <img
         src={image.thumb}
         alt={caption || imgName.replace(/[_-]/g, ' ')}
@@ -26,11 +26,11 @@ export default function ChartImage({ imgName, caption, priority }: ChartImagePro
         height={image.height}
         loading={priority ? 'eager' : 'lazy'}
         decoding="async"
-        className="h-auto w-full transition-transform duration-500 group-hover:scale-[1.02]"
+        className="h-auto w-full transition-transform duration-300 group-hover:scale-[1.02]"
       />
       {caption && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black/70 p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          <p className="!m-0 text-center text-sm leading-6 text-white">{caption}</p>
+        <div className="absolute inset-x-0 bottom-0 translate-y-full bg-background/95 px-3 py-2 backdrop-blur transition-transform duration-200 group-hover:translate-y-0">
+          <p className="!m-0 text-sm leading-5 text-foreground">{caption}</p>
         </div>
       )}
     </div>

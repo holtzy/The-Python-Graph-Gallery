@@ -100,7 +100,7 @@ export default function RidgelinePlot() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="distribution" />
       </div>
 

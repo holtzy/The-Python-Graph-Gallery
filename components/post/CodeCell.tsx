@@ -36,7 +36,7 @@ export default function CodeCell({ index, code, highlighted, children, interacti
 
   return (
     <div className="my-6">
-      <div className="group relative rounded-md border bg-muted/60">
+      <div className="group relative rounded-lg border bg-muted/40">
         <div className="absolute top-2 right-2 z-10 flex gap-1">
           <CopyButton text={currentCode} className="opacity-0 transition-opacity group-hover:opacity-100" />
           {interactive && !isEditing && (

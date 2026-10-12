@@ -16,26 +16,22 @@ export default function TitleAndDescription({ title, description, chartType }: T
   const chartInfo = chartTypesInfo.find((chart) => chart.id === chartType);
 
   return (
-    <div className="w-full pt-10 pb-10 sm:pt-20">
-      <div className="flex items-center justify-between gap-6">
+    <div className="w-full pt-12 pb-6 sm:pt-20">
+      <div className="flex items-start justify-between gap-6">
         <h1>{title}</h1>
         {chartInfo && (
-          <div className="w-20 min-w-20 sm:w-24 sm:min-w-24">
+          <div className="w-16 min-w-16 sm:w-20 sm:min-w-20">
             <SectionLogo chartType={chartInfo.logo} />
           </div>
         )}
       </div>
 
-      <hr className="my-6 w-24 border-t-2 border-brand" />
-
-      {typeof description === 'string' ? (
-        <div className="max-w-3xl" dangerouslySetInnerHTML={{ __html: description }} />
-      ) : (
-        <div className="max-w-3xl">{description}</div>
-      )}
+      <div className="mt-6 text-lg leading-8 text-muted-foreground [&_a]:text-foreground [&_b]:text-foreground [&_strong]:text-foreground">
+        {typeof description === 'string' ? <div dangerouslySetInnerHTML={{ __html: description }} /> : description}
+      </div>
 
       {chartInfo && (
-        <div className="mt-8 flex flex-wrap gap-2">
+        <div className="mt-6 flex flex-wrap gap-2">
           <Link
             href={fullUrlToInternalLink(chartInfo.pythonURL)}
             className={buttonVariants({ variant: 'outline', size: 'sm' })}
@@ -43,7 +39,7 @@ export default function TitleAndDescription({ title, description, chartType }: T
             {chartInfo.label + ' section'}
           </Link>
           {chartInfo.dataToVizURL && (
-            <a href={chartInfo.dataToVizURL} className={buttonVariants({ size: 'sm' })}>
+            <a href={chartInfo.dataToVizURL} className={buttonVariants({ variant: 'outline', size: 'sm' })}>
               About this chart
             </a>
           )}

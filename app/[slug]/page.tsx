@@ -57,7 +57,7 @@ export default async function PostPage({ params }: Props) {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <ChartFamilySection chartFamily={post.family} />
       </div>
 

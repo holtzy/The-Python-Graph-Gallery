@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Bitter, Fira_Mono, Roboto } from 'next/font/google';
+import { Geist, Geist_Mono } from 'next/font/google';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -7,9 +7,8 @@ import { SITE_URL } from '@/lib/site';
 import './globals.css';
 
 // Fonts are downloaded at build time and self hosted: no request to google from the browser
-const roboto = Roboto({ weight: ['400', '700'], style: ['normal', 'italic'], subsets: ['latin'], display: 'swap', variable: '--font-roboto' });
-const bitter = Bitter({ weight: ['400', '700'], subsets: ['latin'], display: 'swap', variable: '--font-bitter' });
-const fira = Fira_Mono({ weight: ['400', '500'], subsets: ['latin'], display: 'swap', variable: '--font-fira' });
+const geistSans = Geist({ subsets: ['latin'], display: 'swap', variable: '--font-geist-sans' });
+const geistMono = Geist_Mono({ subsets: ['latin'], display: 'swap', variable: '--font-geist-mono' });
 
 // Google Analytics. The UA tag is the one used historically: it is kept as is since GA4 may be
 // receiving its hits through a "connected site tag". Set NEXT_PUBLIC_GA4_ID (G-XXXXXXX) to also send hits to GA4 directly.
@@ -35,7 +34,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${roboto.variable} ${bitter.variable} ${fira.variable}`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
       <head>
         <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
       </head>

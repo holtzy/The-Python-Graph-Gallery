@@ -96,7 +96,7 @@ export default function SeabornPage() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Main functions">
           🧐 Main <code>seaborn</code> functions
         </h2>
@@ -333,7 +333,7 @@ export default function SeabornPage() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="evolution" />
       </div>
 

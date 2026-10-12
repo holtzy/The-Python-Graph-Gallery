@@ -7,7 +7,7 @@
 //    so they are served next to the page.
 // 2. Builds lib/generated/images.json: the size of every image in public/graph and public/section,
 //    and creates a lightweight webp thumbnail for each of them in public/thumbs/.
-//    This replaces what gatsby-plugin-image used to do (and is much faster: thumbnails are cached).
+//    Thumbnails are cached: only new or modified images are processed.
 
 import fs from 'node:fs';
 import path from 'node:path';

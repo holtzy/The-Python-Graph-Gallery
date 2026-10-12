@@ -116,7 +116,7 @@ export default function Correlogram() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Related">&#128161; Scatterplot and Histogram sections are related</h2>
         <p>
           Note that a correlogram is an aggregate of <Link href="/scatter-plot">scatterplots</Link> and{' '}
@@ -135,7 +135,7 @@ export default function Correlogram() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="correlation" />
       </div>
 

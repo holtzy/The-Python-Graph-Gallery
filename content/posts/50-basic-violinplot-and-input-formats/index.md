@@ -75,6 +75,6 @@ plt.show()
 
 ## Going further
 
-This post explains how to build a [violinplot](/violin-plot) with [/seaborn].
+This post explains how to build a [violinplot](/violin-plot) with [seaborn](/seaborn).
 
 You might be interested in how to create a [violin plot with boxplots on top of it](/web-ggbetweenstats-with-matplotlib) and how to [add a beeswarm plot](/502-violinplot-and-swarmplot).

@@ -79,7 +79,7 @@ export default function ThreeD() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Warning">&#9888;&#65039; Mind the 3d</h2>
         <p>
           Three dimensional objects are very popular but negatively affect the <u>accuracy</u> and <u>speed</u> at
@@ -202,7 +202,7 @@ export default function ThreeD() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="general" />
       </div>
 

@@ -93,7 +93,7 @@ export default function Beeswarm() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Warning">🤔 When to use a beeswarm chart?</h2>
         <p>
           The beeswarm chart is a very good alternative to the{' '}
@@ -144,7 +144,7 @@ export default function Beeswarm() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <FunctionExploration funDetails={swarmplot} />
       </div>
 
@@ -213,7 +213,7 @@ export default function Beeswarm() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="distribution" />
       </div>
 

@@ -68,7 +68,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <h2 id="Squarify">
           &#8505; &#65039; A note on the <code>Squarify</code> package
         </h2>
@@ -164,7 +164,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10">
+      <div className="wrapper">
         <ChartFamilySection chartFamily="partOfAWhole" />
       </div>
 

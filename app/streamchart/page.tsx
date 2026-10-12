@@ -89,7 +89,7 @@ export default function Streamchart() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="stackplotWidget">
+      <div className="wrapper" id="stackplotWidget">
         <FunctionExploration funDetails={stackplot} />
       </div>
 
@@ -118,7 +118,7 @@ export default function Streamchart() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="evolution" />
       </div>
 

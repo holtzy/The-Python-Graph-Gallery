@@ -9,7 +9,7 @@ import ChartGrid from '@/components/ChartGrid';
 import ChartImageContainer from '@/components/ChartImageContainer';
 import { buildMetadata } from '@/lib/seo';
 
-// The former Gatsby page had no <Head> export (so no title / meta description in the build).
+// This page historically had no title / meta description: these ones were added.
 // We use the title and description that were passed to its <Layout>.
 export const metadata: Metadata = buildMetadata({
   title: 'Visualizing statistics with Python',
@@ -182,7 +182,7 @@ export default function Page() {
 
       <Spacing />
 
-      <div className="wrapper bg-muted py-10" id="related">
+      <div className="wrapper" id="related">
         <ChartFamilySection chartFamily="general" />
       </div>
 

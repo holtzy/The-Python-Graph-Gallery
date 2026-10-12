@@ -1,5 +1,5 @@
 // Runs after `next build`. Writes, in out/:
-// - sitemap-index.xml + sitemap-0.xml: same file names and format as the former Gatsby sitemap
+// - sitemap-index.xml + sitemap-0.xml: same file names and format as the historical sitemap
 //   (they are registered in the Google Search Console)
 // - robots.txt
 // - .nojekyll: GitHub Pages would otherwise ignore the _next/ folder
