@@ -10,9 +10,9 @@ import './globals.css';
 const geistSans = Geist({ subsets: ['latin'], display: 'swap', variable: '--font-geist-sans' });
 const geistMono = Geist_Mono({ subsets: ['latin'], display: 'swap', variable: '--font-geist-mono' });
 
-// Google Analytics. The UA tag is the one used historically: it is kept as is since GA4 may be
-// receiving its hits through a "connected site tag". Set NEXT_PUBLIC_GA4_ID (G-XXXXXXX) to also send hits to GA4 directly.
-const GA_IDS = ['UA-79254642-2', process.env.NEXT_PUBLIC_GA4_ID].filter(Boolean) as string[];
+// Google Analytics 4 ("The Python Graph Gallery - GA4" stream).
+// The former UA-79254642-2 tag is not used anymore: keeping both would count every pageview twice.
+const GA4_ID = 'G-YJ2YPBMD3W';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -43,12 +43,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
 
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_IDS[0]}`} strategy="afterInteractive" />
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`} strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-${GA_IDS.map((id) => `gtag('config', '${id}', { anonymize_ip: false });`).join('\n')}`}
+gtag('config', '${GA4_ID}');`}
         </Script>
       </body>
     </html>
