@@ -5,6 +5,7 @@ seoDescription: "How to customize a candlestick chart with plotly"
 keywords: "candlestick, plotly, finance, plot, chart, customize"
 family: "evolution"
 chartType: "candlestick"
+interactive: false
 slug: "554-custom-candle-stick-plotly"
 ---
 

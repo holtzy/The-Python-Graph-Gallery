@@ -5,6 +5,7 @@ seoDescription: "How to change colors of labels in a dendrogram built with scipy
 keywords: "python, chart, plot, dendrogram, scipy"
 family: "partOfAWhole"
 chartType: "dendrogram"
+interactive: false
 slug: "402-color-dendrogram-labels"
 ---
 

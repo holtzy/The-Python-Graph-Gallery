@@ -5,6 +5,7 @@ seoDescription: "How to create a bubble map with custom colors, annotations and 
 keywords: "map, bubble, bubble map, seaborn, matplotlib, python, arrows, annotations, highlight_text"
 family: "map"
 chartType: "bubbleMap"
+interactive: false
 slug: "web-bubble-map-with-arrows"
 ---
 

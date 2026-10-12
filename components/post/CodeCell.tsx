@@ -19,12 +19,14 @@ type CodeCellProps = {
   highlighted: string;
   // The static output, rendered at build time
   children?: React.ReactNode;
+  // false: the code can not run in the browser, the "Edit code" button is hidden
+  interactive?: boolean;
 };
 
 // A code cell of a post.
 // By default it is 100% static html (code + chart image), great for SEO and performance.
 // "Edit code" turns it into an editor; "Run" executes it with Python in the browser (Pyodide).
-export default function CodeCell({ index, code, highlighted, children }: CodeCellProps) {
+export default function CodeCell({ index, code, highlighted, children, interactive = true }: CodeCellProps) {
   const { getCode, setCode, resetCode, run, runs } = usePostRuntime();
   const [isEditing, setIsEditing] = useState(false);
   const cellRun = runs[index];
@@ -37,7 +39,7 @@ export default function CodeCell({ index, code, highlighted, children }: CodeCel
       <div className="group relative rounded-md border bg-muted/60">
         <div className="absolute top-2 right-2 z-10 flex gap-1">
           <CopyButton text={currentCode} className="opacity-0 transition-opacity group-hover:opacity-100" />
-          {!isEditing && (
+          {interactive && !isEditing && (
             <Button variant="outline" size="xs" onClick={() => setIsEditing(true)}>
               <Pencil /> Edit code
             </Button>

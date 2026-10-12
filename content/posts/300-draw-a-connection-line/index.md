@@ -5,6 +5,7 @@ seoDescription: "How to build a connection map with Python and Basemap library."
 keywords: "python, chart, plot, seaborn, matplotlib, basemap, connection, links, great circles"
 family: "map"
 chartType: "connection"
+interactive: false
 slug: "300-draw-a-connection-line"
 ---
 

@@ -103,7 +103,8 @@ const read = (file: string): PageData => {
           .filter(Boolean) as string[]
       ),
     ],
-    words: norm(main.text()).split(' ').length,
+    // Count words made of letters / digits only: robust to markup differences (code highlighting spans...)
+    words: (main.text().match(/[\p{L}\p{N}_]+/gu) ?? []).length,
   };
 };
 

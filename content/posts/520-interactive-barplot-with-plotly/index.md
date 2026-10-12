@@ -5,6 +5,7 @@ seoDescription: "Learn how to build an interactive barplot with the python plotl
 keywords: "python, chart, plotly, plot, express, graph-objects, interactive, barplot"
 family: "general"
 chartType: "barplot"
+interactive: false
 slug: "520-interactive-barplot-with-plotly"
 ---
 

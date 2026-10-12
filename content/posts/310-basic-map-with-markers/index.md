@@ -5,6 +5,7 @@ seoDescription: "How to build a bubble map in Python with the basemap package an
 keywords: "python, chart, plot, seaborn, matplotlib, map, basemap, bubble"
 family: "bubbleMap"
 chartType: "map"
+interactive: false
 slug: "310-basic-map-with-markers"
 ---
 

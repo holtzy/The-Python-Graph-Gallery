@@ -5,6 +5,7 @@ seoDescription: "Uses the outset library to compose a scatterplot with faceted z
 keywords: "python, chart, scatter, matplotlib, facet, multiscale, faceted, outset, zoom"
 family: "correlation"
 chartType: "scatter"
+interactive: false
 slug: "web-scatterplot-with-categorical-zoom-facets"
 ---
 

@@ -1,5 +1,8 @@
 // Runs before `next dev` and `next build`.
 //
+// 0. Syncs static/ into public/. The static/ folder keeps its historical name in git because many
+//    notebooks and external websites load files from
+//    https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/...
 // 1. Copies the assets of each post (content/posts/<slug>/*.png, *.csv...) to public/posts/<slug>/
 //    so they are served next to the page.
 // 2. Builds lib/generated/images.json: the size of every image in public/graph and public/section,
@@ -8,6 +11,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 import sharp from 'sharp';
 
 const ROOT = process.cwd();
@@ -18,6 +22,9 @@ const THUMB_WIDTH = 640;
 
 const isNewer = (src: string, dest: string) =>
   !fs.existsSync(dest) || fs.statSync(src).mtimeMs > fs.statSync(dest).mtimeMs;
+
+// ---------- 0. static/ -> public/ (incremental)
+execFileSync('rsync', ['-a', path.join(ROOT, 'static') + '/', PUBLIC_DIR + '/']);
 
 // ---------- 1. Post assets
 let copied = 0;

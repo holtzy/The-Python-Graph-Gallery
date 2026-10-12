@@ -17,78 +17,54 @@ All kinds of contributions are welcome: from correcting a typo to adding a new b
 
 ### Set Up Development Environment
 
-To install the website locally, follow these steps:
+The website is built with [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com) and [shadcn/ui](https://ui.shadcn.com). It is a static site hosted on GitHub Pages.
 
-- Install Git, Node.js, npm, and Gatsby if you haven't already. Refer to [this tutorial](https://www.gatsbyjs.com/docs/tutorial/getting-started/part-0/).
-- Fork and clone the [GitHub repository](https://github.com/holtzy/The-Python-Graph-Gallery).
-- Create a new Git branch.
+- Install Git and Node.js (v20 or later).
+- Fork and clone the [GitHub repository](https://github.com/holtzy/The-Python-Graph-Gallery), then create a new Git branch.
 - Run `npm install` to install dependencies.
-- Run `npm run develop` to build and preview the site locally. It may take 1–2 minutes. Then visit `http://localhost:8000` in your browser.
+- Run `npm run dev`, then visit `http://localhost:3000`.
 
 ### Improve a Blog Post
 
-To improve a blog post such as [`https://python-graph-gallery.com/20-basic-histogram-seaborn/`](https://python-graph-gallery.com/20-basic-histogram-seaborn/):
+Each blog post is a folder in `content/posts/`, named after its url. To improve [`https://python-graph-gallery.com/20-basic-histogram-seaborn/`](https://python-graph-gallery.com/20-basic-histogram-seaborn/):
 
-- Open the `20-basic-histogram-seaborn.ipynb` file in your code editor.
-- Make your changes directly in this Jupyter Notebook.
+- Open `content/posts/20-basic-histogram-seaborn/index.md` in your code editor. It is plain markdown.
+- Make your changes. If you change some code, regenerate the charts with `uv run python scripts/render_post.py 20-basic-histogram-seaborn`.
 - Commit and push your changes, then open a pull request (PR). Tag **@holtzy** for a review.
 
 ### Create a Blog Post
 
-To create a new blog post, duplicate an existing one and edit it as follows:
-
-#### Create File
-
-- Duplicate an existing `.ipynb` file in `src/notebooks/`.
-- Rename the file using lowercase letters and hyphens, starting with an unused number above 600.  
-  Example: `602-combine-boxplot-and-violintplot-using-seaborn.ipynb`
-- Open the file to update the `slug` metadata.
-  - Use VS Code’s `Open With > Text Editor` option (not Jupyter Notebook).
-  - The `slug` should match the filename (without the extension), e.g., `602-combine-boxplot-and-violintplot-using-seaborn`.
-
-#### Preview File
-
-- Re-run `npm run develop` to rebuild the site.
-- Preview your post at:  
-  `http://localhost:8000/602-combine-boxplot-and-violintplot-using-seaborn`
-
-#### Metadata
-
-At the end of the notebook (opened as a text file), update these metadata fields:
-
-- `title`: Appears as the main title.
-- `description`: Short intro text under the title (HTML allowed).
-- `family`: One of: **evolution**, **ranking**, **distribution**, **general**, **correlation**, **partOfAWhole**, **flow**
-- `chartType`: Must match an ID from [this file](https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/src/util/sectionDescriptions.js)
-- `slug`: Already defined above.
-- `keywords`: For the HTML header.
-- `seoDescription`: Plain-text description for meta tags. Think SEO!
+- Duplicate an existing folder of `content/posts/`, e.g. `content/posts/1-basic-barplot/`.
+- Rename it using lowercase letters and hyphens, starting with an unused number above 600.
+  Example: `602-combine-boxplot-and-violintplot-using-seaborn`. This is the url of the post.
+- Edit the frontmatter at the top of `index.md`:
+  - `title`: appears as the main title.
+  - `description`: short intro text under the title (HTML allowed).
+  - `seoDescription`: plain-text description for meta tags. Think SEO!
+  - `keywords`: for the HTML header.
+  - `family`: one of **evolution**, **ranking**, **distribution**, **general**, **correlation**, **partOfAWhole**, **flow**, **map**.
+  - `chartType`: must match an id of [`lib/sectionDescriptions.ts`](lib/sectionDescriptions.ts).
+  - `slug`: the folder name.
+- Write the post in markdown. Code goes in ` ```python ` blocks: readers can edit and run them in their browser!
+- Run `uv run python scripts/render_post.py <slug>` to execute the code and create the chart images (`output-1.png`...).
+- If the post needs a dataset, either use a stable url (e.g. a file on GitHub) or put the csv file next to `index.md`.
+- Preview the post at `http://localhost:3000/<slug>/`.
 
 #### Add Links to Blog Post
-
-To link your post in the gallery:
 
 1. **Create a Screenshot**
 
    - Take a screenshot of the plot (on Mac: `ctrl + cmd + 4`).
-   - Ensure it's square and at least 480×480 px.
-   - Move the file to `The-Python-Graph-Gallery/static/graph/`.
+   - Ensure it's square and at least 480x480 px.
+   - Move the file to `static/graph/`, named like the post, e.g. `602-combine-boxplot-and-violintplot-using-seaborn.png`.
+   - For multiple images: `-1.png`, `-2.png`, etc.
 
-2. **Format Image with [ImageMagick](https://imagemagick.org/index.php)**
+2. **Update Section Page**
 
-   - Open terminal, navigate to the `img` folder.
-   - Run:  
-     `./script_reformat_img.sh my-img-name.png`
-   - Image name must match the post filename, e.g., `602-combine-boxplot-and-violintplot-using-seaborn.png`.
-   - For multiple images:  
-     `-1.png`, `-2.png`, etc.
-
-3. **Update Section File**
-
-   - If your post features a violin chart, update `violin-plot.js` in `src/pages/`.
+   - If your post features a violin chart, update `app/violin-plot/page.tsx`.
    - Add:
 
-   ```js
+   ```tsx
    <ChartImageContainer
      imgName="602-combine-boxplot-and-violintplot-using-seaborn"
      caption="Combine boxplot and violinplot with seaborn"
@@ -103,3 +79,7 @@ Before pushing, review the [New Post Checklist](https://github.com/holtzy/The-Py
 Once everything is ready, commit, push, and open a pull request on Github.
 
 **Congrats! 🎉**
+
+### Deploy
+
+`npm run deploy` builds the site and publishes the `out/` folder to the `gh-pages` branch. Before deploying a big change, `npm run seo-diff -- <folder-of-the-previous-build>` checks that urls, titles, descriptions, headings and links are unchanged.

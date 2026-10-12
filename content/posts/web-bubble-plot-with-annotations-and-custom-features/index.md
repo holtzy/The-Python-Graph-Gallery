@@ -5,6 +5,7 @@ seoDescription: "How to create a scatter plot with size of the markers based on 
 keywords: "bubble, scatter, plot, matplotlib, chart, annotations, custom"
 family: "correlation"
 chartType: "bubble"
+interactive: false
 slug: "web-bubble-plot-with-annotations-and-custom-features"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "Plotting 2D histograms using matplotlib"
 keywords: "python, chart, plot, seaborn, matplotlib, histogram, hist2D"
 family: "correlation"
 chartType: "density2d"
+interactive: false
 slug: "83-basic-2d-histograms-with-matplotlib"
 ---
 

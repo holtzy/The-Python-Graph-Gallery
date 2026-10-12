@@ -5,6 +5,7 @@ seoDescription: "How to build a waffle chart, with custom colors and fonts with 
 keywords: "python, chart, waffle chart, plot, waffle, matplotlib, font, time series, evolution"
 family: "partOfAWhole"
 chartType: "waffle"
+interactive: false
 slug: "web-waffle-chart-for-time-series"
 ---
 

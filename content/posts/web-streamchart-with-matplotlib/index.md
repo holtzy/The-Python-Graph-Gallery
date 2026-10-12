@@ -5,6 +5,7 @@ seoDescription: "This post explains how to build a highly customized streamchart
 keywords: "python, chart, plot, matplotlib, streamplot, streamchart, evolution, custom"
 family: "evolution"
 chartType: "stream"
+interactive: false
 slug: "web-streamchart-with-matplotlib"
 ---
 

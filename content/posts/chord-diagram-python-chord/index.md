@@ -5,6 +5,7 @@ seoDescription: "Code and explanation concerning the chord library that allows t
 keywords: "python, chart, plot, seaborn, matplotlib, chord, diagram"
 family: "flow"
 chartType: "chordDiagram"
+interactive: false
 slug: "chord-diagram-python-chord"
 ---
 

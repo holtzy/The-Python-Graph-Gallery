@@ -5,6 +5,7 @@ seoDescription: "How to create an animation of a stacked area chart with matplot
 keywords: "animation, gif, area, matplotlib, stacked, stack, color, plot, chart, background, text"
 family: "general"
 chartType: "animation"
+interactive: false
 slug: "web-animated-line-chart-with-annotation"
 ---
 

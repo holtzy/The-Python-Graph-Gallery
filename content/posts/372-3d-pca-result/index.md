@@ -5,6 +5,7 @@ seoDescription: "Showing a PCA result in 3D scatterplot using sklearn and matplo
 keywords: "python, chart, plot, seaborn, matplotlib, sklearn, 3D, scatterplot, PCA"
 family: "general"
 chartType: "3d"
+interactive: false
 slug: "372-3d-pca-result"
 ---
 

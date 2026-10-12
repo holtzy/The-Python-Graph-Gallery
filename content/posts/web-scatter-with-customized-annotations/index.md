@@ -5,6 +5,7 @@ seoDescription: "Scatter plot with specific highlight and annotations, and custo
 keywords: "scatter, bubble, chart, matplotlib, plot, python, data visualization, annotation, custom, features"
 family: "correlation"
 chartType: "scatter"
+interactive: false
 slug: "web-scatter-with-customized-annotations"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "How to draw a basic density plot with seaborn."
 keywords: "python, chart, plot, seaborn, matplotlib, kdeplot, density"
 family: "distribution"
 chartType: "density"
+interactive: false
 slug: "70-basic-density-plot-with-seaborn"
 ---
 

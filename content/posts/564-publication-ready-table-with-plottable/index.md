@@ -5,6 +5,7 @@ seoDescription: "A highly customized table built with Python and the plottable l
 keywords: "table, plottable, matplotlib, plot"
 family: "ranking"
 chartType: "table"
+interactive: false
 slug: "564-publication-ready-table-with-plottable"
 ---
 

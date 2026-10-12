@@ -5,6 +5,7 @@ seoDescription: "This post explains how to build a custom scatterplot with varyi
 keywords: "ridgeline, density, distribution, matplotlib, seaborn, python, annotation, quantiles, subchart"
 family: "distribution"
 chartType: "ridgeline"
+interactive: false
 slug: "web-ridgeline-by-text"
 ---
 

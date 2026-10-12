@@ -5,6 +5,7 @@ seoDescription: "This post explains how to build a custom lollipop plot in Pytho
 keywords: "lollipop, dumbell, seaborn, python, annotation, image, background, plot, chart"
 family: "distribution"
 chartType: "ridgeline"
+interactive: false
 slug: "web-lollipop-with-background-image"
 ---
 

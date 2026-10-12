@@ -5,6 +5,7 @@ seoDescription: "This post explains how to combine a choropleth map with a barpl
 keywords: "choropleth, barplot, combine chart, matplotlib, seaborn, geopandas, pypalettes, pyfonts, highlight_text"
 family: "map"
 chartType: "choropleth"
+interactive: false
 slug: "web-combine-choropleth-map-with-barplot"
 ---
 

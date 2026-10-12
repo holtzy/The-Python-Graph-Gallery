@@ -5,6 +5,7 @@ seoDescription: "How to create and customize a bubble map using Folium"
 keywords: "matplotlib, python, tutorial, seaborn, plot, folium, bubble, customize"
 family: "map"
 chartType: "bubbleMap"
+interactive: false
 slug: "593-customize-bubble-map-with-folium"
 ---
 

@@ -150,6 +150,8 @@ async function installImports(pyodide, code) {
   const extra = [];
   if (allCode.includes('.style')) extra.push('jinja2');
   if (allCode.includes('clustermap')) extra.push('scipy');
+  // pyfonts loads .woff2 fonts, which need brotli
+  if (allCode.includes('pyfonts') || allCode.includes('woff2')) extra.push('brotli');
   if (extra.length) await pyodide.loadPackage(extra);
 
   if (toLoad.includes('geopandas')) {

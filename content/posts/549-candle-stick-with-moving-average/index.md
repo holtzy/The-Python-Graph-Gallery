@@ -5,6 +5,7 @@ seoDescription: "How to create a candlestick chart with moving averages"
 keywords: "candle, stick, matplotlib, mplfinance, plot, chart"
 family: "evolution"
 chartType: "timeseries"
+interactive: false
 slug: "549-candle-stick-with-moving-average"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "How to custom a table with pandas"
 keywords: "table, pandas, customization, styler"
 family: "general"
 chartType: "table"
+interactive: false
 slug: "550-intro-table-with-pandas"
 ---
 

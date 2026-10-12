@@ -14,7 +14,7 @@ const EXCLUDED = new Set(['/404/', '/_not-found/']);
 const urls: string[] = [];
 const walk = (dir: string) => {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (!entry.isDirectory() || entry.name.startsWith('_next')) continue;
+    if (!entry.isDirectory() || entry.name.startsWith('_next') || entry.name === 'static') continue;
     const sub = path.join(dir, entry.name);
     if (fs.existsSync(path.join(sub, 'index.html'))) {
       urls.push('/' + path.relative(OUT, sub).split(path.sep).join('/') + '/');
@@ -24,6 +24,10 @@ const walk = (dir: string) => {
 };
 urls.push('/');
 walk(OUT);
+
+// Next.js also serves a root folder named "static" at /static/ (legacy feature). Nothing uses these
+// urls (the files are served at the root of the site): remove this duplicate.
+fs.rmSync(path.join(OUT, 'static'), { recursive: true, force: true });
 
 const pages = urls.filter((u) => !EXCLUDED.has(u)).sort();
 

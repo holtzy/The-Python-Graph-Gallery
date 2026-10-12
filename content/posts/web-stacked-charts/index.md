@@ -5,6 +5,7 @@ seoDescription: "How to add a line chart on top of a wordcloud in Python. Learn 
 keywords: "wordcloud, matplotlib, color, plot, chart, line, background"
 family: "ranking"
 chartType: "wordcloud"
+interactive: false
 slug: "web-stacked-charts"
 ---
 

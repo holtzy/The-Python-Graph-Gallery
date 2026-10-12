@@ -5,6 +5,7 @@ seoDescription: "How to create a stacked waffle bar chart with matplotlib"
 keywords: "waffle, stacked, chart, matplotlib, bar"
 family: "partOfAWhole"
 chartType: "waffle"
+interactive: false
 slug: "558-waffle-bar-chart"
 ---
 

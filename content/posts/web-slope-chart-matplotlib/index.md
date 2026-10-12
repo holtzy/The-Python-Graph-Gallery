@@ -5,6 +5,7 @@ seoDescription: "Plotting parallel plot and a slope chart, using Seaborn and Mat
 keywords: "python, chart, slope, plot, seaborn, matplotlib, parallel"
 family: "ranking"
 chartType: "parallel"
+interactive: false
 slug: "web-slope-chart-matplotlib"
 ---
 

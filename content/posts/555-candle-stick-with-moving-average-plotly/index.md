@@ -5,6 +5,7 @@ seoDescription: "How to create a candlestick chart with moving averages with plo
 keywords: "candlestick, plotly, moving, rolling, average, chart, finance"
 family: "evolution"
 chartType: "candlestick"
+interactive: false
 slug: "555-candle-stick-with-moving-average-plotly"
 ---
 

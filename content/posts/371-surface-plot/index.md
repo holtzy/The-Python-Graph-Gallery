@@ -5,6 +5,7 @@ seoDescription: "How to generate a 3D surface plot using matplotlib"
 keywords: "python, chart, plot, seaborn, matplotlib, 3d, surface"
 family: "general"
 chartType: "3d"
+interactive: false
 slug: "371-surface-plot"
 ---
 

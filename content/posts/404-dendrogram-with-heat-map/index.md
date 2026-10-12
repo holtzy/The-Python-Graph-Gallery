@@ -5,6 +5,7 @@ seoDescription: "Plotting a dendrogram with heatmap using the clustermap functio
 keywords: "python, chart, plot, seaborn, dendrogram, heatmap, clustermap"
 family: "partOfAWhole"
 chartType: "dendrogram"
+interactive: false
 slug: "404-dendrogram-with-heat-map"
 ---
 

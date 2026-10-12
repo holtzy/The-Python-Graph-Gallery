@@ -5,6 +5,7 @@ seoDescription: "How to create a polygon map to compare the distance to a certai
 keywords: "choropleth, polygon, distance, bubble, scatter, plot, matplotlib, chart, annotations, custom"
 family: "map"
 chartType: "choropleth"
+interactive: false
 slug: "web-polygon-map-to-compare-distances"
 ---
 

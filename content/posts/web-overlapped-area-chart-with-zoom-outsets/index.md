@@ -5,6 +5,7 @@ seoDescription: "Creating an multiscale overlapped area plot visualization of ti
 keywords: "python, chart, overlapped, area, matplotlib, line, multiscale, faceted, outset, zoom"
 family: "evolution"
 chartType: "area"
+interactive: false
 slug: "web-overlapped-area-chart-with-zoom-outsets"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "How to generate a wordcloud with a specific shape"
 keywords: "python, chart, plot, seaborn, matplotlib, wordcloud, text, shape, mask, text mining, dataviz, data visualization"
 family: "ranking"
 chartType: "wordcloud"
+interactive: false
 slug: "262-wordcloud-with-specific-shape"
 ---
 

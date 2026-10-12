@@ -5,6 +5,7 @@ seoDescription: "How to create a choropleth map combined with a histogram in Pyt
 keywords: "map, choropleth, choropleth map, seaborn, matplotlib, python, pyfonts, annotations, highlight_text, histogram, barplot"
 family: "map"
 chartType: "choropleth"
+interactive: false
 slug: "web-choropleth-map-with-histogram"
 ---
 

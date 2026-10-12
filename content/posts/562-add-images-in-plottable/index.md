@@ -5,6 +5,7 @@ seoDescription: "How to add an image in table with plottable"
 keywords: "table, plot, plottable, matplotlib"
 family: "ranking"
 chartType: "table"
+interactive: false
 slug: "562-add-images-in-plottable"
 ---
 

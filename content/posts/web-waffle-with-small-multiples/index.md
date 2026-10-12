@@ -5,6 +5,7 @@ seoDescription: "How to create a small multiple waffle chart with annotations, c
 keywords: "pywaffle, waffle, matplotlib, color, plot, chart, small multiple, grid, annotation, colormap, title, footer, source, subtitle, title font, label font, title color, value color, background color, grid color"
 family: "partOfAWhole"
 chartType: "waffle"
+interactive: false
 slug: "web-waffle-with-small-multiples"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "How to build an animated 3d density chart with python, matplotl
 keywords: "python, chart, plot, seaborn, matplotlib, kdeplot"
 family: "general"
 chartType: "animation"
+interactive: false
 slug: "342-animation-on-3d-plot"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "This post explains how to build a network chart with edge bundl
 keywords: "python, chart, plot, seaborn, matplotlib, network, bundling, networkX"
 family: "flow"
 chartType: "network"
+interactive: false
 slug: "500-network-chart-with-edge-bundling"
 ---
 

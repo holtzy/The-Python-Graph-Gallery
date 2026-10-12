@@ -5,6 +5,7 @@ seoDescription: "How to create a candlestick plot with plotly"
 keywords: "candlestick, plotly, finance, plot, chart"
 family: "evolution"
 chartType: "candlestick"
+interactive: false
 slug: "553-intro-candle-stick-plotly"
 ---
 

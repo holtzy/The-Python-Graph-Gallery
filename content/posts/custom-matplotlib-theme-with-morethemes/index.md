@@ -5,6 +5,7 @@ seoDescription: "How to change the theme in matplotlib"
 keywords: "python, chart, plot, matplotlib, theme, themes, morethemes, easy, simple"
 family: "general"
 chartType: "colors"
+interactive: false
 slug: "custom-matplotlib-theme-with-morethemes"
 ---
 

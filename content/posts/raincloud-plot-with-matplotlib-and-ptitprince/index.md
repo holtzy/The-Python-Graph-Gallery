@@ -5,6 +5,7 @@ seoDescription: "How to create a raincloud plot in Python with Matplotlib and Pt
 keywords: "python, chart, plot, seaborn, matplotlib, violinplot, raincloud plot, boxplot"
 family: "distribution"
 chartType: "violin"
+interactive: false
 slug: "raincloud-plot-with-matplotlib-and-ptitprince"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "How to create a chart with multiple choropleth maps and a lolli
 keywords: "maps, choropleth, matplotlib, color, plot, chart, background, lollipop"
 family: "map"
 chartType: "choropleth"
+interactive: false
 slug: "web-multiple-maps"
 ---
 

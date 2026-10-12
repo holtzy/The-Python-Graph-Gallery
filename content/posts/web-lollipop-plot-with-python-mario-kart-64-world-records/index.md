@@ -5,6 +5,7 @@ seoDescription: "This post explains how to build a highly customized lollipop pl
 keywords: "python, chart, plot, matplotlib, lollipop, custom"
 family: "ranking"
 chartType: "lollipop"
+interactive: false
 slug: "web-lollipop-plot-with-python-mario-kart-64-world-records"
 ---
 

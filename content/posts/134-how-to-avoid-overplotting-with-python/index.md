@@ -5,6 +5,7 @@ seoDescription: "What is an overplotting and how to avoid it in python"
 keywords: "python, chart, plot, seaborn, matplotlib, scatter, overplotting"
 family: "general"
 chartType: "caveats"
+interactive: false
 slug: "134-how-to-avoid-overplotting-with-python"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "This post explains how to build a custom scatterplot with varyi
 keywords: "line, chart, plot, matplotlib, seaborn, python, annotation, highlight, custom"
 family: "evolution"
 chartType: "line"
+interactive: false
 slug: "web-small-multiple-with-highlights"
 ---
 

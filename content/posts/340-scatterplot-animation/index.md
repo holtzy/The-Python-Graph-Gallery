@@ -5,6 +5,7 @@ seoDescription: "Very basic animated scatterplot with Python and Image magick"
 keywords: "python, chart, plot, seaborn, matplotlib, animation, scatter, image magick"
 family: "general"
 chartType: "animation"
+interactive: false
 slug: "340-scatterplot-animation"
 ---
 

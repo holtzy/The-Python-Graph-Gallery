@@ -5,6 +5,7 @@ seoDescription: "The mne library is a powerful library to plot chord diagrams wi
 keywords: "python, chart, plot, seaborn, matplotlib, kdeplot, chord, mne, neuroscience"
 family: "flow"
 chartType: "chordDiagram"
+interactive: false
 slug: "406-chord-diagram-mne"
 ---
 

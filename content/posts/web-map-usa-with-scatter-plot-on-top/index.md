@@ -5,6 +5,7 @@ seoDescription: "How to create a bubble map using the matplotlib and geopandas l
 keywords: "geopandas, matplotlib, map, color, plot, chart, bubble"
 family: "map"
 chartType: "bubbleMap"
+interactive: false
 slug: "web-map-usa-with-scatter-plot-on-top"
 ---
 

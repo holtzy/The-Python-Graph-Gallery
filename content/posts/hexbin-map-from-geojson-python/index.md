@@ -5,6 +5,7 @@ seoDescription: "How to build a hexbin map from a geoJson file with python and g
 keywords: "python, chart, plot, seaborn, matplotlib, map, hexbin, geojson"
 family: "map"
 chartType: "hexbin"
+interactive: false
 slug: "hexbin-map-from-geojson-python"
 ---
 

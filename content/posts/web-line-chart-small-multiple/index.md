@@ -5,6 +5,7 @@ seoDescription: "How to build a small multiple line chart, with annotations, bui
 keywords: "python, chart, linechart, plot, line, matplotlib, small, multiples, annotation"
 family: "evolution"
 chartType: "line"
+interactive: false
 slug: "web-line-chart-small-multiple"
 ---
 

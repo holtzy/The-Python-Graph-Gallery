@@ -5,6 +5,7 @@ seoDescription: "How do you create dual maps with different levels of granularit
 keywords: "map, choropleth, matplotlib, python, double map, annotations, pypalettes, pyfonts, geopandas"
 family: "map"
 chartType: "choropleth"
+interactive: false
 slug: "web-two-maps-with-different-granulaties"
 ---
 

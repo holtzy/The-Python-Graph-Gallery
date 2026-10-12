@@ -5,6 +5,7 @@ seoDescription: "This post shows how to create a basic time series plot with Mat
 keywords: "python, chart, plot, matplotlib, line, timeseries, evolution"
 family: "evolution"
 chartType: "line"
+interactive: false
 slug: "basic-time-series-with-matplotlib"
 ---
 

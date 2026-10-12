@@ -5,6 +5,7 @@ seoDescription: "How to create a candlestick plot with matplotlib and mplfinance
 keywords: "candle, stick, matplotlib, mplfinance, plot, time, series"
 family: "evolution"
 chartType: "timeseries"
+interactive: false
 slug: "548-intro-candle-stick-matplotlib"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "Selling Sunset personality analysis and visualization built wit
 keywords: "matplotlib, scatter, annotation, plot, chart"
 family: "correlation"
 chartType: "scatter"
+interactive: false
 slug: "web-scatterplot-with-images-in-circles"
 ---
 

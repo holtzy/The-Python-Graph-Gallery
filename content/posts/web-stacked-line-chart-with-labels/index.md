@@ -5,6 +5,7 @@ seoDescription: "Plotting basic and complex, highly customizable, stacked area c
 keywords: "python, chart, stacked, area, matplotlib, line, labels"
 family: "evolution"
 chartType: "stackedArea"
+interactive: false
 slug: "web-stacked-line-chart-with-labels"
 ---
 

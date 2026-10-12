@@ -5,6 +5,7 @@ seoDescription: "How to create a non-contiguous cartogram in Python using geoplo
 keywords: "matplotlib, python, tutorial, seaborn, plot, cartogram, contiguous, geoplot, geopandas"
 family: "map"
 chartType: "cartogram"
+interactive: false
 slug: "592-non-contiguous-cartogram-in-python"
 ---
 

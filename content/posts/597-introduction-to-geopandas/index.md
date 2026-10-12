@@ -5,6 +5,7 @@ seoDescription: "How to use the geopandas library in python to make plots"
 keywords: "table, plot, plottable, matplotlib"
 family: "map"
 chartType: "map"
+interactive: false
 slug: "597-introduction-to-geopandas"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "How to create an arc diagrams in Python with arcplot"
 keywords: "arc, diagram, arcplot, network, relationship, graph, python"
 family: "flow"
 chartType: "arc"
+interactive: false
 slug: "565-arc-diagram-with-arcplot"
 ---
 

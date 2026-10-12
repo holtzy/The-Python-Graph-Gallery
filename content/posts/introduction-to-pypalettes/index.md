@@ -5,6 +5,7 @@ seoDescription: "How to use the pypalettes python library and use new palettes f
 keywords: "python, chart, color, plot, seaborn, matplotlib, palette, pypalettes"
 family: "general"
 chartType: "colors"
+interactive: false
 slug: "introduction-to-pypalettes"
 ---
 

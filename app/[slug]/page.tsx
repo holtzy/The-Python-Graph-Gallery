@@ -38,7 +38,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function PostPage({ params }: Props) {
   const { slug } = await params;
   const post = getPost(slug);
-  const { content, cells } = await renderPost(post.body, { slug, dir: post.dir, title: post.title });
+  const { content, cells } = await renderPost(post.body, {
+    slug,
+    dir: post.dir,
+    title: post.title,
+    interactive: post.interactive !== false,
+  });
 
   return (
     <>

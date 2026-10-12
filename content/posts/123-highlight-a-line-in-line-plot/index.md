@@ -5,6 +5,7 @@ seoDescription: "How to highlight one line in a multi-line plot using matplotlib
 keywords: "python, chart, plot, seaborn, matplotlib, line"
 family: "evolution"
 chartType: "line"
+interactive: false
 slug: "123-highlight-a-line-in-line-plot"
 ---
 

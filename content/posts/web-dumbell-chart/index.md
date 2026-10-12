@@ -5,6 +5,7 @@ seoDescription: "How to create dumbelle, or lollipop, chart in Python with matpl
 keywords: "lollipop, chart, plot, matplotlib, python, dumbell"
 family: "ranking"
 chartType: "lollipop"
+interactive: false
 slug: "web-dumbell-chart"
 ---
 

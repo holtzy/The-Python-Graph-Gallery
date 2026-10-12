@@ -5,6 +5,7 @@ seoDescription: "How to build a bubble map with python and the basemap library"
 keywords: "python, chart, plot, seaborn, matplotlib, map, bubble, basemap"
 family: "map"
 chartType: "bubbleMap"
+interactive: false
 slug: "315-a-world-map-of-surf-tweets"
 ---
 

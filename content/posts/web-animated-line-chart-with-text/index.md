@@ -5,6 +5,7 @@ seoDescription: "How to create an animation of a line chart, or race chart, with
 keywords: "animation, gif, area, matplotlib, line, race, color, plot, chart, background, text"
 family: "general"
 chartType: "animation"
+interactive: false
 slug: "web-animated-line-chart-with-text"
 ---
 

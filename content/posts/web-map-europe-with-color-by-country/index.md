@@ -5,6 +5,7 @@ seoDescription: "How to create a choropleth map using the matplotlib and geopand
 keywords: "geopandas, matplotlib, map, color, plot, chart, choropleth"
 family: "map"
 chartType: "choropleth"
+interactive: false
 slug: "web-map-europe-with-color-by-country"
 ---
 

@@ -5,6 +5,7 @@ seoDescription: "same as description but shorter"
 keywords: "python, chart, plot, seaborn, matplotlib, kdeplot"
 family: "map"
 chartType: "choropleth"
+interactive: false
 slug: "292-choropleth-map-with-folium"
 ---
 

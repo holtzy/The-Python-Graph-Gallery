@@ -5,6 +5,7 @@ seoDescription: "How to make an animated bubble chart with Python and Image Magi
 keywords: "python, chart, plot, seaborn, matplotlib, gapminder, animation, bubble"
 family: "general"
 chartType: "animation"
+interactive: false
 slug: "341-python-gapminder-animation"
 ---
 

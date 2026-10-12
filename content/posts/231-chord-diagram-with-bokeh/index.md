@@ -5,6 +5,7 @@ seoDescription: "Drawing a chord chart using bokeh library of python"
 keywords: "python, chart, plot, seaborn, matplotlib, bokeh, chord"
 family: "flow"
 chartType: "chordDiagram"
+interactive: false
 slug: "231-chord-diagram-with-bokeh"
 ---
 

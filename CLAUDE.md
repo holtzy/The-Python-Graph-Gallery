@@ -15,7 +15,8 @@ Static website (https://python-graph-gallery.com) built with Next.js (App Router
 - `components/`: site components. `components/ui/`: shadcn/ui primitives (add new ones with `npx shadcn@latest add <name>`, do not hand edit them)
 - `components/post/`: code cells of posts and the Pyodide runtime ("Edit code" / "Run")
 - `lib/`: data (`sectionDescriptions.ts`, `functions/`...), SEO helpers, markdown rendering
-- `public/`: static files served as is (`/graph/*.png` chart images, `/data/`, `/section/` logos...)
+- `static/`: historical static files (`graph/*.png` chart images, `data/`, `section/` logos...), served at the root of the site. Never rename it: many notebooks and websites load files from `raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/...`. It is synced into `public/` by `scripts/prepare-assets.ts`.
+- `public/`: other static files (new assets, icons, the Pyodide worker)
 - `scripts/prepare-assets.ts`: copies post assets to `public/posts/` and builds webp thumbnails of `public/graph` and `public/section` (generated, git ignored)
 
 ## Writing a blog post
@@ -91,7 +92,7 @@ export default function Page() {
 ```
 
 - `.wrapper` is the centered content column (max 1000px). `.narrowWrapper` is narrower. Children of a wrapper can use `full-bleed` to span the full width.
-- Images of `public/graph/` are displayed with `<ChartImage imgName="..." caption="..." />` (lazy loaded webp thumbnail). `<ChartImageContainer>` adds a link. Put them in a `<ChartGrid cols={3}>`.
+- Images of `static/graph/` are displayed with `<ChartImage imgName="..." caption="..." />` (lazy loaded webp thumbnail). `<ChartImageContainer>` adds a link. Put them in a `<ChartGrid cols={3}>`.
 - Code: `<CodeChunk>{code}</CodeChunk>` (async server component, highlighted at build time).
 - Library logos next to titles: `components/MiscellaneousLogos.tsx`.
 - Style: plain shadcn/ui look. Use Tailwind utilities, shadcn components, the `brand` color (`text-brand`, `bg-brand`) sparingly.

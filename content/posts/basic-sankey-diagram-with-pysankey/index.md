@@ -5,6 +5,7 @@ seoDescription: "How to draw a sankey diagram in Python with the pySankey librar
 keywords: "python, chart, plot, seaborn, matplotlib, sankey, pysankey"
 family: "flow"
 chartType: "sankey"
+interactive: false
 slug: "basic-sankey-diagram-with-pysankey"
 ---
 
