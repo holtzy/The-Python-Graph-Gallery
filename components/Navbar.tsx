@@ -2,51 +2,56 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { ChevronDown, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from './ui/dropdown-menu';
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
+} from './ui/navigation-menu';
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from './ui/dialog';
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from './ui/sheet';
 import { Button } from './ui/button';
 import AllChartsModal from './AllChartsModal';
 import KitForm from './KitForm';
-import { NavItem, RELATED_MENU, TOOLS_MENU, TOP_LINKS } from './nav-links';
+import { LIBRARIES, MATPLOTLIB_TOPICS, RELATED, SEABORN_TOPICS, TOP_LINKS, type NavItem } from './nav-links';
 import { cn } from '@/lib/utils';
 
-const navLink =
-  'inline-flex h-8 cursor-pointer items-center rounded-md px-2.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none';
-
-const MenuLink = ({ item }: { item: NavItem }) => (
-  <a href={item.href} className={cn('flex w-full items-center justify-between gap-4', item.isMain && 'font-medium')}>
-    {item.label}
-    {item.logo && <img src={item.logo} alt="" width={20} height={20} className="h-5 w-5" />}
-  </a>
+// An entry of a menu panel: title (+ logo) and a short description
+const MenuEntry = ({ item }: { item: NavItem }) => (
+  <NavigationMenuLink asChild>
+    <a href={item.href} className="flex-row items-start gap-3">
+      {item.logo ? (
+        <img src={item.logo} alt="" width={20} height={20} className="mt-0.5 h-5 w-5 shrink-0" />
+      ) : (
+        <span className="mt-0.5 h-5 w-5 shrink-0" />
+      )}
+      <span className="flex flex-col gap-0.5">
+        <span className="text-sm leading-none font-medium">{item.label}</span>
+        {item.description && <span className="text-xs leading-snug text-muted-foreground">{item.description}</span>}
+      </span>
+    </a>
+  </NavigationMenuLink>
 );
 
-const Dropdown = ({ label, groups }: { label: string; groups: NavItem[][] }) => (
-  <DropdownMenu modal={false}>
-    <DropdownMenuTrigger className={navLink}>
-      {label} <ChevronDown size={14} className="ml-1 opacity-60" />
-    </DropdownMenuTrigger>
-    <DropdownMenuContent align="start" className="w-60">
-      {groups.map((group, i) => (
-        <div key={i}>
-          {i > 0 && <DropdownMenuSeparator />}
-          {group.map((item) => (
-            <DropdownMenuItem key={item.href + item.label} asChild className={cn(!item.isMain && 'pl-5 text-muted-foreground')}>
-              <MenuLink item={item} />
-            </DropdownMenuItem>
-          ))}
-        </div>
-      ))}
-    </DropdownMenuContent>
-  </DropdownMenu>
+// A small list of topics (e.g. "Matplotlib: Axis, Title, Legend...")
+const TopicList = ({ title, items }: { title: string; items: NavItem[] }) => (
+  <div>
+    <p className="px-2 pb-1 text-xs font-medium text-muted-foreground">{title}</p>
+    {items.map((item) => (
+      <NavigationMenuLink key={item.href + item.label} asChild>
+        <a href={item.href} className="px-2 py-1">
+          {item.label}
+        </a>
+      </NavigationMenuLink>
+    ))}
+  </div>
 );
+
+const plainLink = cn(navigationMenuTriggerStyle(), 'bg-transparent text-muted-foreground hover:text-foreground');
 
 export default function Navbar() {
   const [isChartModalOpen, setIsChartModalOpen] = useState(false);
@@ -54,28 +59,73 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-40 w-full bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
-      <nav className="mx-auto flex h-14 max-w-5xl items-center justify-between px-5">
-        <Link href="/" className="flex items-center gap-2 text-[15px] font-semibold tracking-tight">
-          <img src="/favicon-32x32.png" alt="" width={20} height={20} className="h-5 w-5" />
-          Python Graph Gallery
+      {/* Same width as the content column (.wrapper: 780px + 20px padding on each side) */}
+      <nav className="mx-auto flex h-14 max-w-[820px] items-center justify-between px-5">
+        <Link href="/" aria-label="Python Graph Gallery, home" className="shrink-0">
+          <img src="/logo-96.png" alt="Python Graph Gallery logo" width={28} height={28} className="h-7 w-7" />
         </Link>
 
         {/* Desktop */}
-        <div className="hidden items-center gap-0.5 lg:flex">
-          <span className={navLink} onClick={() => setIsChartModalOpen(true)}>
-            Chart types
-          </span>
-          <Dropdown label="Tools" groups={TOOLS_MENU} />
-          {TOP_LINKS.map((l) => (
-            <Link key={l.href} href={l.href} className={navLink}>
-              {l.label}
-            </Link>
-          ))}
-          <Dropdown label="Related" groups={RELATED_MENU} />
-          <a href="https://www.matplotlib-journey.com" target="_blank" rel="noopener" className={navLink}>
-            Learn
-          </a>
-          <Button size="sm" className="ml-3" onClick={() => setIsSubscribeOpen(true)}>
+        <div className="hidden items-center gap-2 lg:flex">
+          <NavigationMenu viewport={false}>
+            <NavigationMenuList className="gap-0">
+              <NavigationMenuItem>
+                <button className={plainLink} onClick={() => setIsChartModalOpen(true)}>
+                  Chart types
+                </button>
+              </NavigationMenuItem>
+
+              <NavigationMenuItem>
+                <NavigationMenuTrigger className="bg-transparent text-muted-foreground hover:text-foreground data-[state=open]:text-foreground">
+                  Tools
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <div className="grid w-[560px] grid-cols-[1fr_170px] gap-2 p-2">
+                    <div className="grid gap-0.5">
+                      {LIBRARIES.map((item) => (
+                        <MenuEntry key={item.href} item={item} />
+                      ))}
+                    </div>
+                    <div className="flex flex-col gap-4 border-l pl-2">
+                      <TopicList title="Matplotlib" items={MATPLOTLIB_TOPICS} />
+                      <TopicList title="Seaborn" items={SEABORN_TOPICS} />
+                    </div>
+                  </div>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+
+              {TOP_LINKS.map((l) => (
+                <NavigationMenuItem key={l.href}>
+                  <NavigationMenuLink asChild className={plainLink}>
+                    <Link href={l.href}>{l.label}</Link>
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+              ))}
+
+              <NavigationMenuItem>
+                <NavigationMenuTrigger className="bg-transparent text-muted-foreground hover:text-foreground data-[state=open]:text-foreground">
+                  Related
+                </NavigationMenuTrigger>
+                <NavigationMenuContent className="!right-0 !left-auto">
+                  <div className="grid w-[460px] grid-cols-2 gap-0.5 p-2">
+                    {RELATED.map((item) => (
+                      <MenuEntry key={item.href} item={item} />
+                    ))}
+                  </div>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+
+              <NavigationMenuItem>
+                <NavigationMenuLink asChild className={plainLink}>
+                  <a href="https://www.matplotlib-journey.com" target="_blank" rel="noopener">
+                    Learn
+                  </a>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+
+          <Button size="sm" onClick={() => setIsSubscribeOpen(true)}>
             Subscribe
           </Button>
         </div>
@@ -91,19 +141,19 @@ export default function Navbar() {
               <button className="text-left font-medium" onClick={() => setIsChartModalOpen(true)}>
                 Chart types
               </button>
-              {[...TOP_LINKS, { label: 'Learn', href: 'https://www.matplotlib-journey.com', isMain: true }].map((l) => (
+              {[...TOP_LINKS, { label: 'Learn', href: 'https://www.matplotlib-journey.com' }].map((l) => (
                 <a key={l.href} href={l.href} className="py-1 font-medium">
                   {l.label}
                 </a>
               ))}
               <p className="mt-4 text-sm uppercase text-muted-foreground">Tools</p>
-              {TOOLS_MENU.flat().filter((i) => i.isMain).map((i) => (
+              {LIBRARIES.map((i) => (
                 <a key={i.label} href={i.href} className="py-1">
                   {i.label}
                 </a>
               ))}
               <p className="mt-4 text-sm uppercase text-muted-foreground">Related</p>
-              {RELATED_MENU.flat().map((i) => (
+              {RELATED.map((i) => (
                 <a key={i.label} href={i.href} className="py-1">
                   {i.label}
                 </a>

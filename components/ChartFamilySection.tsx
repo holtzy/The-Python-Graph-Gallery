@@ -25,11 +25,13 @@ type ChartFamilySectionProps = {
 export default function ChartFamilySection({ chartFamily, variant = 'related' }: ChartFamilySectionProps) {
   const charts = chartTypesInfo.filter((chart) => chart.family === chartFamily);
   return (
-    <div className="pb-4">
+    <div className={variant === 'family' ? 'pb-2' : 'pb-4'}>
       {variant === 'related' ? (
         <h2 id="Related charts">Related chart types</h2>
       ) : (
-        <h3 className="!mt-8 !mb-0 text-sm !font-medium !tracking-normal text-muted-foreground">{TITLES[chartFamily]}</h3>
+        <h3 className="!mt-6 !mb-0 border-b pb-1.5 !text-base !font-medium !tracking-normal text-muted-foreground">
+          {TITLES[chartFamily]}
+        </h3>
       )}
       <div className="grid grid-cols-4 gap-x-4 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7">
         {charts.map((chart) => (
