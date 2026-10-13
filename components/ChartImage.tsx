@@ -26,11 +26,11 @@ export default function ChartImage({ imgName, caption, priority }: ChartImagePro
         height={image.height}
         loading={priority ? 'eager' : 'lazy'}
         decoding="async"
-        className="h-auto w-full transition-transform duration-300 group-hover:scale-[1.02]"
+        className="h-auto w-full transition duration-300 group-hover:scale-[1.02] group-hover:opacity-60 group-hover:grayscale-[40%]"
       />
       {caption && (
-        <div className="absolute inset-x-0 bottom-0 translate-y-full bg-background/95 px-3 py-2 backdrop-blur transition-transform duration-200 group-hover:translate-y-0">
-          <p className="!m-0 text-sm leading-5 text-foreground">{caption}</p>
+        <div className="absolute inset-x-0 bottom-0 translate-y-full bg-background/70 px-3 py-2 backdrop-blur-sm transition-transform duration-200 group-hover:translate-y-0">
+          <p className="!m-0 text-sm leading-5 font-medium text-foreground">{caption}</p>
         </div>
       )}
     </div>
