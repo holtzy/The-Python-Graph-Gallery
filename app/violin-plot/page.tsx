@@ -10,6 +10,7 @@ import FunctionExploration from '@/components/FunctionExploration';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { Matplotlib, Seaborn } from '@/components/MiscellaneousLogos';
 import { violinplot } from '@/lib/functions/violinplot';
 import { buildMetadata } from '@/lib/seo';
@@ -126,6 +127,12 @@ export default function ViolinPlot() {
             linkTo="/54-grouped-violinplot"
           />
         </ChartGrid>
+      </div>
+
+      <Spacing />
+
+      <div className="wrapper">
+        <LeadMagnetSpot chartType="violin" />
       </div>
 
       <Spacing />

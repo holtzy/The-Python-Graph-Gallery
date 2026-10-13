@@ -9,8 +9,8 @@ import path from 'node:path';
 
 const OUT = path.join(process.cwd(), 'out');
 const SITE_URL = 'https://python-graph-gallery.com';
-// Pages not listed in the sitemap (basic-template: the template of the posts, not indexed)
-const EXCLUDED = new Set(['/404/', '/_not-found/', '/basic-template/']);
+// Pages not listed in the sitemap (basic-template: the template of the posts; dataviz-caveats: sent to the subscribers of this lead magnet)
+const EXCLUDED = new Set(['/404/', '/_not-found/', '/basic-template/', '/dataviz-caveats/']);
 
 const urls: string[] = [];
 const walk = (dir: string) => {

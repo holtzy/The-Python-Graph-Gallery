@@ -9,7 +9,15 @@ export const KIT_FORMS = {
   newsletter: { id: '6500196', success: 'Success! Now check your email to confirm your subscription.' },
   cheatSheet: { id: '7902489', success: 'Success! Check your emails for confirmation now.' },
   poster: { id: '7902961', success: 'Poster sent! Check your spam folder just in case.' },
+  // TODO: id of the Kit form "Dataviz caveats" (lead magnet)
+  datavizCaveats: { id: 'TODO', success: 'Done! Check your emails: the link to the 25 cards is on its way.' },
 } as const;
+
+// Google Analytics event (gtag is loaded in app/layout.tsx)
+export const trackEvent = (name: string, params: Record<string, string>) => {
+  const w = window as unknown as { gtag?: (...args: unknown[]) => void };
+  w.gtag?.('event', name, params);
+};
 
 type KitFormProps = {
   form: keyof typeof KIT_FORMS;
@@ -18,8 +26,8 @@ type KitFormProps = {
 };
 
 // A lightweight email form posting to Kit. Replaces the heavy Kit embed script.
-export default function KitForm({ form, buttonLabel = 'Subscribe', className }: KitFormProps) {
-  const { id, success } = KIT_FORMS[form];
+export default function KitForm({ form: formName, buttonLabel = 'Subscribe', className }: KitFormProps) {
+  const { id, success } = KIT_FORMS[formName];
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -33,6 +41,7 @@ export default function KitForm({ form, buttonLabel = 'Subscribe', className }: 
         body: new FormData(form),
       });
       setStatus(res.ok ? 'success' : 'error');
+      if (res.ok) trackEvent('generate_lead', { form: formName });
     } catch {
       // The request was blocked (network, CORS...): fall back to a regular form submission on Kit
       form.target = '_blank';
@@ -58,7 +67,7 @@ export default function KitForm({ form, buttonLabel = 'Subscribe', className }: 
         required
         aria-label="Email Address"
         placeholder="Email Address"
-        className="h-9 flex-1 rounded-md border border-input bg-transparent px-3 text-sm shadow-xs outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
+        className="h-9 w-full rounded-md border border-input sm:flex-1 bg-transparent px-3 text-sm shadow-xs outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
       />
       <Button type="submit" size="lg" disabled={status === 'loading'}>
         {status === 'loading' ? '...' : buttonLabel}
