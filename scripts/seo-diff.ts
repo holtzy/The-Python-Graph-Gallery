@@ -19,7 +19,8 @@ if (!baselineDir) {
   console.error('Usage: npx tsx scripts/seo-diff.ts <baseline-dir> [report.json]');
   process.exit(1);
 }
-const NEW_DIR = path.join(process.cwd(), 'out');
+// The build to check: out/ by default, or e.g. a folder with the html downloaded from the live site
+const NEW_DIR = process.env.SEO_NEW_DIR || path.join(process.cwd(), 'out');
 const DOMAIN = 'https://python-graph-gallery.com';
 
 const listPages = (root: string): string[] => {
