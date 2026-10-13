@@ -51,7 +51,7 @@ export default function FunctionExploration({ funDetails }: { funDetails: Functi
   return (
     <div className="mb-16">
       <h2 id={capitalize(funDetails.name + ' details')}>
-        &#128270; <code>{funDetails.name}</code> function parameters
+        &#128270; <code>{funDetails.name}</code> function parameters{' '}
         <a className="ml-4 text-sm font-normal" href={funDetails.docUrl}>
           &rarr; see full doc
         </a>

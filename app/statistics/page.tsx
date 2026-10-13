@@ -29,7 +29,7 @@ const chartDescription = (
       (<b>PCA</b>), <b>linear modeling</b>, ANOVA, t-tests and more.
     </p>
     <p>
-      It does not focus on how to run the test, but on how to <b>make clean output</b>
+      It does not focus on how to run the test, but on how to <b>make clean output</b>{' '}
       to present your findings in a appealing manner.
     </p>
   </>
@@ -133,7 +133,7 @@ export default function Page() {
           represent your results in the most elegant way possible.
         </p>
         <p>
-          We&apos;ll use the scipy library to run the tests and <Link href="/matplotlib">matplotlib</Link>
+          We&apos;ll use the scipy library to run the tests and <Link href="/matplotlib">matplotlib</Link>{' '}
           to display the results.
         </p>
         <ChartGrid>

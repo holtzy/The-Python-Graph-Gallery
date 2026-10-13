@@ -105,7 +105,7 @@ export default function Radar() {
         </h2>
         <p>
           <code>Plotly</code> is a great library to build radar charts. It offers a high level of interactivity and can
-          be used with both
+          be used with both{' '}
           <code>plotly express</code> and <code>plotly graph objects</code>.
         </p>
         <ChartGrid>

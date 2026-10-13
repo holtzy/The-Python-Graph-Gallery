@@ -300,6 +300,25 @@ main hr {
 }
 
 /* ---------- MISC ----------------- */
+/* Short line under the page titles: grows from the left on page load */
+@keyframes title-underline-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.title-underline {
+  transform-origin: left;
+  animation: title-underline-grow 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .title-underline {
+    animation: none;
+  }
+}
+
 .noScrollBar::-webkit-scrollbar {
   display: none;
 }

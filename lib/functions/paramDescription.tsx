@@ -30,7 +30,7 @@ export const hatchHowToUse = (
     It must be in one of: <code>&apos;/&apos;</code>, <code>&apos;\&apos;</code>
     , <code>&apos;|&apos;</code>,<code>&apos;-&apos;</code>,{' '}
     <code>&apos;+&apos;</code>, <code>&apos;x&apos;</code>,{' '}
-    <code>&apos;o&apos;</code>, <code>&apos;O&apos;</code>,
+    <code>&apos;o&apos;</code>, <code>&apos;O&apos;</code>,{' '}
     <code>&apos;.&apos;</code>, <code>&apos;*&apos;</code>
   </p>
 );
@@ -52,7 +52,7 @@ export const hueHowToUse = (
 export const dataHowToUse = (
   <div>
     <p>
-      It just has to be a <code>pandas.DataFrame</code> (columns are variables),
+      It just has to be a <code>pandas.DataFrame</code> (columns are variables),{' '}
       <code>numpy.ndarray</code> (rows/columns are variables), or any
       mapping/sequence (dictionaries/lists)
     </p>

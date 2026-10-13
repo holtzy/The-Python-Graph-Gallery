@@ -24,7 +24,7 @@ const chartDescription = (
     <p>
       <code>Pandas</code> is a popular open-source Python library used for data manipulation and analysis. It provides{' '}
       <b>data structures</b> and functions that make working with structured data, such as tabular data (like{' '}
-      <code>Excel</code> spreadsheets or
+      <code>Excel</code> spreadsheets or{' '}
       <code>SQL</code> tables), easy and intuitive.
     </p>
     <p>
@@ -116,7 +116,7 @@ export default function PandasPage() {
         <p>
           The function name method is a bit more straightforward. We just have to call <b>the right function name</b>{' '}
           to create the chart we want. Matplotlib has various functions to create different types of charts. For
-          example, the
+          example, the{' '}
           <code>line</code> function is used to create line charts.
         </p>
 
@@ -127,7 +127,7 @@ export default function PandasPage() {
         </h3>
         <p>
           This method is a combination of the previous two. We use the <code>plot</code> method and need the{' '}
-          <code>function name</code>
+          <code>function name</code>{' '}
           right after it.
         </p>
 

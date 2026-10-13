@@ -17,7 +17,7 @@ export default function TitleAndDescription({ title, description, chartType }: T
 
   return (
     <div className="w-full pt-12 pb-6 sm:pt-20">
-      <div className="flex items-start justify-between gap-6">
+      <div className="flex items-center justify-between gap-6">
         <h1>{title}</h1>
         {chartInfo && (
           <div className="w-16 min-w-16 sm:w-20 sm:min-w-20">
@@ -25,6 +25,9 @@ export default function TitleAndDescription({ title, description, chartType }: T
           </div>
         )}
       </div>
+
+      {/* Short line under the title, growing on page load */}
+      <div className="title-underline mt-6 h-[2px] w-20 rounded-full bg-foreground/15" />
 
       <div className="mt-6">
         {typeof description === 'string' ? <div dangerouslySetInnerHTML={{ __html: description }} /> : description}

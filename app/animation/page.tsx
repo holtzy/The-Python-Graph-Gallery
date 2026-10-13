@@ -58,7 +58,7 @@ export default function AnimationPage() {
         <div className="grid items-center gap-6 md:grid-cols-2">
           <div>
             <p>
-              An animated chart can be build with <code>python</code> using the
+              An animated chart can be build with <code>python</code> using the{' '}
               <code>FuncAnimation()</code> function from matplotlib. We follow these steps:
             </p>
             <ul>
@@ -147,7 +147,7 @@ export default function AnimationPage() {
       <div className="wrapper">
         <h2>Advanced uses cases</h2>
         <p>
-          Animated charts can be highly impactful when illustrating a
+          Animated charts can be highly impactful when illustrating a{' '}
           <b>process</b> or <b>change over time</b>. Here are a few examples that demonstrate their effectiveness.
         </p>
         <div className="grid items-center gap-6 md:grid-cols-3">

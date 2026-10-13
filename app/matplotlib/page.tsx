@@ -217,7 +217,7 @@ export default function MatplotlibPage() {
         </p>
         <p>
           The <Link href="/190-custom-matplotlib-title">post #190</Link> goes in depth on how to customize the{' '}
-          <code>matplotlib</code>
+          <code>matplotlib</code>{' '}
           title. All the main types of change are descried: changing its color, adding a subtitle, using math
           formulas and so on. Give it a go!
         </p>
@@ -380,7 +380,7 @@ export default function MatplotlibPage() {
           Arrows
         </h2>
         <p>
-          Matplotlib offers built-in arrow functions like <code>annotate()</code> and
+          Matplotlib offers built-in arrow functions like <code>annotate()</code> and{' '}
           <code>FancyArrowPatch()</code>. For full customization, though, the <a href="/drawarrow">drawarrow</a>{' '}
           library is a more <b>straightforward</b> option.
         </p>

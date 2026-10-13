@@ -196,7 +196,7 @@ sns.kdeplot(data=df, x='sepal_width', bw_adjust=0.3)
   howToUse: (
     <p>
       A value close to <code>0</code> produces a very smooth graph, while a
-      value close to <code>1</code>
+      value close to <code>1</code>{' '}
       reveals more detailed variable density.
     </p>
   ),

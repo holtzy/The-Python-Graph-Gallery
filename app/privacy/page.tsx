@@ -76,7 +76,7 @@ export default function Privacy() {
           <p>
             This Site is affiliated with CMI Marketing, Inc., d/b/a Raptive (“Raptive”) for the purposes of placing
             advertising on the Site, and Raptive will collect and use certain data for advertising purposes. To learn
-            more about Raptive's data usage, click here:
+            more about Raptive's data usage, click here:{' '}
             <a href="https://www.cafemedia.com/publisher-advertising-privacy-policy">
               www.cafemedia.com/publisher-advertising-privacy-policy
             </a>

@@ -10,7 +10,7 @@ slug: "402-color-dendrogram-labels"
 ---
 
 After clustering your data and plotting a dendrogram, you probably want to **compare** the **structure** you get with your **expectations**. You can make this comparison by coloring labels according to your expectation.   
-In this example, mtcars dataset is used. It is a numeric matrix that gives the features of cars. We can **cluster** these cars, and represent their **structure** in a group by using the `dendrogram()` function of the scipy library of python. In the example, you will see how to color the labels(car names) according to their **cylinder**(the ‘cyl’ column). By coloring according to cylinder feature, it is possible to see visually if the cylinder is responsible of this structure!
+In this example, mtcars dataset is used. It is a numeric matrix that gives the features of cars. We can **cluster** these cars, and represent their **structure** in a group by using the `dendrogram()` function of the scipy library of python. In the example, you will see how to color the labels(car names) according to their **cylinder** (the ‘cyl’ column). By coloring according to cylinder feature, it is possible to see visually if the cylinder is responsible of this structure!
 
 ```python
 # Libraries

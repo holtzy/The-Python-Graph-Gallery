@@ -94,7 +94,7 @@ export default function Page() {
         </p>
         <p>
           However, it is important to consider the caveats associated to them. For instance,{' '}
-          <u>longer words</u> will t<u>ake more space</u> on the figure by construction which distorts reality.
+          <u>longer words</u> will <u>take more space</u> on the figure by construction which distorts reality.
           Moreover, it is impossible to <u>translate a font size</u> to an accurate value.
         </p>
         <WordAlternativeLogos />

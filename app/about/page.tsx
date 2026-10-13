@@ -28,7 +28,7 @@ export default function About() {
         <h2 id="How and Why">❓ How and Why this gallery</h2>
         <p>
           <u>How</u>: The python graph gallery displays about <code>400 charts</code> organize in about{' '}
-          <code>40 sections</code>
+          <code>40 sections</code>{' '}
           (families)! 😳. It showcases the most common types of chart used for data science. Each family displays
           several examples, describing the most common need of customization. Every example comes with its reproducible
           code and with some explanation 😀.

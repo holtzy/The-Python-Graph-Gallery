@@ -60,7 +60,7 @@ export default function Choropleth() {
         <p>
           <code>Folium</code> is a wrapper of the <code>Leaflet.js</code> javascript library. It brings the power of
           javascript for data visualization, but still allows to do some data wrangling with Python. Building a
-          choropleth with <code>Folium</code> is quite straightforward thanks to the
+          choropleth with <code>Folium</code> is quite straightforward thanks to the{' '}
           <code>choropleth()</code> function.
         </p>
         <iframe
@@ -82,7 +82,7 @@ export default function Choropleth() {
         </h2>
         <p>
           <code>Plotly</code> is a powerful library for <b>interactive</b> data visualization. It allows to build
-          choropleth maps with the
+          choropleth maps with the{' '}
           <code>choropleth()</code> function.
         </p>
         <p>
@@ -109,7 +109,7 @@ export default function Choropleth() {
         <p>
           <a href="https://python-graph-gallery.com/matplotlib/">Matplotlib</a> allows to build static choropleth maps
           with the <code>geopandas</code> library. The below example shows how to build a choropleth map of European
-          countries with <code>geopandas</code>
+          countries with <code>geopandas</code>{' '}
           and <code>matplotlib</code>.
         </p>
         <ChartGrid cols={2}>

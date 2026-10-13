@@ -279,7 +279,7 @@ Now, in order to add a bit of **storytelling** to the plot, we can highlight spe
 
 - We start by defining a **list of countries** that we want to highlight. We then **loop over this list** and add an annotation to the plot for each country.
 
-- The `ax.text()` function is used to add the annotation. We can specify the position of the annotation with the `x`and `y` arguments and the text with the `text` argument.
+- The `ax.text()` function is used to add the annotation. We can specify the position of the annotation with the `x` and `y` arguments and the text with the `text` argument.
 
 - Then, thanks to the `box` argument, we can add a **box around the annotation**. For example:
 

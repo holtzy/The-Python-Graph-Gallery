@@ -292,7 +292,7 @@ export default function Page() {
           need for complex data manipulation.
         </p>
         <p>
-          Its integration with <Link href="/matplotlib">Matplotlib</Link>
+          Its integration with <Link href="/matplotlib">Matplotlib</Link>{' '}
           allows for extensive customization, making it a versatile choice for
           quick data visualization tasks.
         </p>

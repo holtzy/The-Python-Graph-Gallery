@@ -229,7 +229,7 @@ export default function Timeseries() {
         </h2>
         <p>
           A set of publication ready charts for timeseries. They are made with Python and libraries like{' '}
-          <Link href="/matplotlib">Matplotlib</Link> or
+          <Link href="/matplotlib">Matplotlib</Link> or{' '}
           <Link href="/plotly">Plotly</Link> and use a high level of customization.
         </p>
         <p>

@@ -49,7 +49,7 @@ export default function Correlogram() {
               of code only.🔥
             </p>
             <p>
-              Note that all the stuff you learned in the <Link href="/scatter-plot">scatterplot</Link>
+              Note that all the stuff you learned in the <Link href="/scatter-plot">scatterplot</Link>{' '}
               and <Link href="/histogram">histogram</Link> sections can be used here.
             </p>
           </div>

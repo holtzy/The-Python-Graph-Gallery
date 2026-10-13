@@ -34,7 +34,7 @@ export default function ConnectionMap() {
         </h2>
         <p>
           <code>Basemap</code> is probably the best option to draw a connection map with <code>python</code>. It
-          provides a function called
+          provides a function called{' '}
           <code>drawgreatcircle()</code> that draws the connection using great circles. Great circles are arcs that
           gives a better appearance than straight lines.
         </p>

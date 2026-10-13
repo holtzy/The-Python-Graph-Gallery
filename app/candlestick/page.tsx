@@ -129,7 +129,7 @@ export default function Candlestick() {
         </p>
         <p>
           On the clandlestick example below, you can <b>zoom</b> by selecting a specific area on the chart or using the
-          minimap. On top of that,
+          minimap. On top of that,{' '}
           <b>hovering</b> a specific timestamp will give you all its price details.{' '}
         </p>
         <Link href="/554-custom-candle-stick-plotly" className={buttonVariants({ size: 'sm' })}>

@@ -45,7 +45,7 @@ export default function CheatSheets() {
         </p>
         <p>The Matplotlib organization itself provides several options, and Datacamp is also a great contributor.</p>
         <p>
-          Note that if you want to truely understand how matplotlib works,
+          Note that if you want to truely understand how matplotlib works,{' '}
           <a href="https://www.matplotlib-journey.com" target="_blank">
             Matplotlib Journey
           </a>{' '}

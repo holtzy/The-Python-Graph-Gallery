@@ -117,7 +117,7 @@ plt.show()
 
 ## Horizontal histogram
 
-You can return your **histogram horizontally**s by adding `orientation='horizontal'` to the `hist()` function.
+You can display your **histogram horizontally** by adding `orientation='horizontal'` to the `hist()` function.
 
 ```python
 fig, ax = plt.subplots(figsize=(5,5))

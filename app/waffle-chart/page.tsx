@@ -25,7 +25,7 @@ const chartDescription = (
       <b>equally sized squares</b> or rectangles, each colored or shaded to depict different categories or segments.
     </p>
     <p>
-      Python enables the creation of waffle charts through the <code>PyWaffle</code>
+      Python enables the creation of waffle charts through the <code>PyWaffle</code>{' '}
       library. This page offers numerous examples of charts built using the PyWaffle library, ranging from{' '}
       <b>basic</b> implementations to more <b>advanced</b> customizations.
     </p>

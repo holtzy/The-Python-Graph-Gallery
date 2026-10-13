@@ -111,7 +111,7 @@ export default function ThreeD() {
           Three-dimensional scatterplots with <code>Matplotlib</code>
         </h2>
         <p>
-          As described in the quick start section above, a three dimensional can be built with python thanks to the
+          As described in the quick start section above, a three dimensional can be built with python thanks to the{' '}
           <code>mplot3d</code> toolkit of <code>matplotlib</code>. The example below will guide you through its usage to
           get this figure:
         </p>

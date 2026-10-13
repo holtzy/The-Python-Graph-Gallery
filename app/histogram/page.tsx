@@ -328,7 +328,7 @@ export default function Page() {
           <code>plot()</code> from matplotlib.
         </p>
         <p>
-          The examples below should help you to get started with
+          The examples below should help you to get started with{' '}
           <Link href="/527-introduction-to-histogram-with-pandas"> basic pandas histograms</Link>
           .
         </p>
@@ -370,7 +370,7 @@ export default function Page() {
           histograms.
         </p>
         <p>
-          The examples below should help you to get started with
+          The examples below should help you to get started with{' '}
           <b> basic plotnine histograms</b>.
         </p>
         <ChartGrid>

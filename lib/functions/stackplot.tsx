@@ -189,7 +189,7 @@ const param6 = {
   name: 'baseline',
   description: (
     <p>
-      The type of baseline to use for stacking. Options are <code>zero</code>,
+      The type of baseline to use for stacking. Options are <code>zero</code>,{' '}
       <code>sym</code>, <code>wiggle</code>, and <code>weighted_wiggle</code>.
     </p>
   ),

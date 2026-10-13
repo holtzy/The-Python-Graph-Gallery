@@ -165,7 +165,7 @@ export default function Beeswarm() {
           to create the <b>horizontal spread</b> in the plot, ensuring they don&apos;t overlap.
         </p>
         <p>
-          Once the dot position is available, it is possible to render it using<b>matplotlib</b>:
+          Once the dot position is available, it is possible to render it using <b>matplotlib</b>:
         </p>
         <ChartGrid>
           <ChartImageContainer

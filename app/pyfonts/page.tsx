@@ -49,7 +49,7 @@ export default function Page() {
         <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-2">
           <div>
             <p>
-              pyfonts has <b>a main simple function</b>:<code>load_google_font()</code>: load a font from Google font
+              pyfonts has <b>a main simple function</b>: <code>load_google_font()</code>: load a font from Google font
               and return a matplotlib font object.
             </p>
           </div>

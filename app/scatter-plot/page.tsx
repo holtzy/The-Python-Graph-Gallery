@@ -306,7 +306,7 @@ export default function Page() {
         <p>
           The examples below should get you covered for all the most common
           problems: adding{' '}
-          <Link href="/193-annotate-matplotlib-chart">markers</Link>, adding
+          <Link href="/193-annotate-matplotlib-chart">markers</Link>, adding{' '}
           <Link href="/193-annotate-matplotlib-chart">labels</Link>, changing{' '}
           <Link href="/131-custom-a-matplotlib-scatterplot">shapes</Link> and
           more.

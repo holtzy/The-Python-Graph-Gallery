@@ -59,7 +59,7 @@ export default function Page() {
         <p>The color can be provided in multiple ways:</p>
         <ul>
           <li>
-            <b>Named colors:</b> Use the name of the color. For example, <code>red</code>,<code>blue</code>,{' '}
+            <b>Named colors:</b> Use the name of the color. For example, <code>red</code>, <code>blue</code>,{' '}
             <code>green</code>.
           </li>
           <li>
@@ -291,7 +291,7 @@ export default function Page() {
         <p>We&apos;ve built a full post on the topic, but here is a summary: </p>
         <p>
           <a href="/matplotlib">Matplotlib</a> provides a few tools that, based on a <b>list of colors</b> create a
-          colormap with it. You can create
+          colormap with it. You can create{' '}
           <b>both</b> categorical and continuous palettes.
         </p>
         <a href="/create-your-own-color-maps" className={btnSm}>
