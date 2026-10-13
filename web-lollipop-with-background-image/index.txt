@@ -1,0 +1,1414 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/09q85_ay6xdo0.js"
+3:"/_next/static/chunks/21dxsc4p3jeoz.js"
+4:"/_next/static/chunks/1d1qeiuriwpmz.js"
+5:"/_next/static/chunks/1u5pxdefkf32d.js"
+6:I[62319,["$2","$3","$4","$5"],"default"]
+7:I[39756,["$2","$3","$4","$5"],"default"]
+8:I[37457,["$2","$3","$4","$5"],"default"]
+9:"/_next/static/chunks/354p-aqxaih3m.js"
+a:I[22016,["$2","$3","$4","$5","$9"],""]
+b:I[44110,["$2","$3","$4","$5","$9"],"default"]
+19:I[68027,["$2","$3","$4","$5"],"default",1]
+:HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
+:HL["/_next/static/chunks/1ms0qnrh2aktb.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":{"n":"slug","t":"d","k":"web-lollipop-with-background-image","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":66048,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","web-lollipop-with-background-image",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/09q85_ay6xdo0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/21dxsc4p3jeoz.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1d1qeiuriwpmz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1u5pxdefkf32d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"JdxiwG_variable iGg3zq_variable antialiased","children":[["$","head",null,{"children":["$","link",null,{"rel":"sitemap","type":"application/xml","href":"/sitemap-index.xml"}]}],["$","body",null,{"children":[["$","$L6",null,{}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":[["$","h2",null,{"id":"404","children":" 😞 Oh No 😞 | 404"}],["$","p",null,{"children":"It looks like there is nothing here anymore."}],["$","p",null,{"children":["Please go back to the ",["$","$La",null,{"href":"/","children":"gallery home page"}]," and check if you can find your graph!"]}]]}],["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}],["$","div",null,{"className":"h-16 sm:h-20"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-24 border-t py-8 text-sm text-muted-foreground","children":["$","div",null,{"className":"mx-auto max-w-5xl px-5","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-4 sm:flex-row","children":[["$","div",null,{"children":["Copyright © the Python Graph Gallery ",2026]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","a","https://github.com/holtzy",{"href":"https://github.com/holtzy","aria-label":"Link to Yan Holtz Github profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 496 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"$c"}]}]}],"$Ld","$Le","$Lf"]}],"$L10"]}]}]}],"$L11","$L12"]}]]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",["$L1a","$L1b"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+1c:I[79520,["$2","$3","$4","$5"],""]
+1e:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:"ViewportBoundary"
+22:I[97367,["$2","$3","$4","$5"],"$21"]
+24:"MetadataBoundary"
+25:I[97367,["$2","$3","$4","$5"],"$24"]
+d:["$","a","https://twitter.com/R_Graph_Gallery",{"href":"https://twitter.com/R_Graph_Gallery","aria-label":"Link to Yan Holtz Twitter profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 512 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}]}]}]
+e:["$","a","https://www.linkedin.com/in/yan-holtz-2477534a/",{"href":"https://www.linkedin.com/in/yan-holtz-2477534a/","aria-label":"Link to Yan Holtz LinkedIn profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 448 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"}]}]}]
+f:["$","a","https://www.yan-holtz.com",{"href":"https://www.yan-holtz.com","aria-label":"Link to Yan Holtz Homepage","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 576 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"}]}]}]
+10:["$","div",null,{"className":"flex gap-2","children":[["$","a",null,{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE","className":"hover:text-foreground","children":"License"}],["$","span",null,{"children":"|"}],["$","$La",null,{"href":"/about","className":"hover:text-foreground","children":"About"}]]}]
+11:["$","$L1c",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-YJ2YPBMD3W","strategy":"afterInteractive"}]
+12:["$","$L1c",null,{"id":"gtag-init","strategy":"afterInteractive","children":"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YJ2YPBMD3W');"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L26"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+15:C
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]
+27:I[27201,["$2","$3","$4","$5"],"IconMark"]
+20:null
+26:[["$","title","0",{"children":"Lollipop plot with background image"}],["$","meta","1",{"name":"description","content":"This post explains how to build a custom lollipop plot in Python with an image for the background and nice annotations."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"lollipop, dumbell, seaborn, python, annotation, image, background, plot, chart"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-lollipop-with-background-image/"}],["$","meta","6",{"property":"og:title","content":"Lollipop plot with background image"}],["$","meta","7",{"property":"og:description","content":"This post explains how to build a custom lollipop plot in Python with an image for the background and nice annotations."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Lollipop plot with background image"}],["$","meta","13",{"name":"twitter:description","content":"This post explains how to build a custom lollipop plot in Python with an image for the background and nice annotations."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L27","24",{}]]
+28:I[98936,["$2","$3","$4","$5","$9"],"default"]
+29:T599,# open image
+path_bg = '../../static/graph/background.png'
+image_bg = np.array(Image.open(path_bg))
+
+# create chart with background image
+fig, ax = plt.subplots(figsize=(12,8), dpi=300)
+ax.imshow(image_bg, alpha=0.15)
+ax.set_axis_off()
+
+# create lollipop background
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="80%",
+    height="90%",
+    loc='lower center',
+    borderpad=3
+)
+
+# custom lollipop axes
+sub_ax.set_xlim(-200, 200)
+sub_ax.set_xticks([-200, -100, 0, 100, 200])
+sub_ax.set_xticklabels(['-200', '-100', '0', '100', '200'])
+sub_ax.set_yticklabels([])
+sub_ax.set_yticks([])
+sub_ax.spines[['top', 'left', 'right']].set_visible(False)
+sub_ax.patch.set_alpha(0)
+
+# add lollipop chart
+x = data['diff']
+y = data['genre']
+sub_ax.hlines(y=y, xmin=0, xmax=x, color='black')
+sub_ax.plot(x, y, 'o', color='black', zorder=2)
+
+# reference vertical line
+sub_ax.axvline(0, color='black', lw=1)
+
+# label of each genre next to the lollipop
+for i, row in enumerate(data.itertuples()):
+    genre = row.genre
+    x = row.diff * 1.1
+    y = i + 0.3
+
+    # special cases for label near the vertical line
+    if genre.startswith('Country') or genre.startswith('Punk'):
+        x -= 60
+    if genre.startswith('Soul'):
+        x += 20
+    ax_text(
+        x, y,
+        genre,
+        fontsize=6, fontweight='bold',
+        va='center', ha='center',
+        color='black',
+        zorder=3,
+        ax=sub_ax
+    )
+
+# display plot
+plt.show()2a:Te8a,# open image
+path_bg = '../../static/graph/background.png'
+image_bg = np.array(Image.open(path_bg))
+
+# create chart with background image
+fig, ax = plt.subplots(figsize=(12,8), dpi=300)
+ax.imshow(image_bg, alpha=0.15)
+ax.set_axis_off()
+
+# create lollipop background
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="80%",
+    height="90%",
+    loc='lower center',
+    borderpad=3
+)
+
+# custom lollipop axes
+sub_ax.set_xlim(-200, 200)
+sub_ax.set_xticks([-200, -100, 0, 100, 200])
+sub_ax.set_xticklabels(['-200', '-100', '0', '100', '200'])
+sub_ax.set_yticklabels([])
+sub_ax.set_yticks([])
+sub_ax.spines[['top', 'left', 'right']].set_visible(False)
+sub_ax.patch.set_alpha(0)
+
+# add lollipop chart
+x = data['diff']
+y = data['genre']
+sub_ax.hlines(y=y, xmin=0, xmax=x, color='black')
+sub_ax.plot(x, y, 'o', color='black', zorder=2)
+
+# reference vertical line
+sub_ax.axvline(0, color='black', lw=1)
+
+# label of each genre next to the lollipop
+for i, row in enumerate(data.itertuples()):
+    genre = row.genre
+    x = row.diff * 1.1
+    y = i + 0.3
+
+    # special cases for label near the vertical line
+    if genre.startswith('Country') or genre.startswith('Punk'):
+        x -= 60
+    if genre.startswith('Soul'):
+        x += 20
+    ax_text(
+        x, y,
+        genre,
+        fontsize=6, fontweight='bold',
+        va='center', ha='center',
+        color='black',
+        zorder=3,
+        ax=sub_ax
+    )
+
+# annotation with images
+text = """<Highest ranking differential>\n
+1. Aquemini - OutKast (452)
+2. The Blueprint - Jay-Z (414)
+3. Supa Dupa Fly - Missy Elliott (408)
+4. Illmatic - Nas (356)
+"""
+fig_text(
+    0.59, 0.68,
+    text,
+    fontsize=6, fontweight='bold',
+    va='center', ha='left',
+    color='black',
+    highlight_textprops=[
+        {'fontsize': 7}
+    ]
+)
+
+# credit
+text = """
+<Data>: TidyTuesday, 2024 week 19
+<Design>: Joseph Barbier
+"""
+fig_text(
+    0.79, 0.15,
+    text, color='black',
+    fontsize=6,
+    va='center', ha='left',
+    highlight_textprops=[
+        {"fontweight": 'bold'},
+        {"fontweight": 'bold'}
+    ],
+)
+
+# title
+text = "Which music genre aged the best?"
+text = textwrap.fill(text, width=30)
+fig_text(
+    0.79, 0.82,
+    text,
+    fontsize=12,
+    va='center', ha='left',
+    fontweight='bold',
+)
+
+# description1
+text = """The lollipop plot shows the average
+ranking differential of music genres
+between 2003 ranking and 2020 ranking
+of famous albums.
+For example, a value of 100 means
+that the genre is ranked 100 places
+higher in 2020 than in 2003 in the
+top 500 albums of all time of Rolling
+Stone magazine.
+"""
+text = textwrap.fill(text, width=40)
+fig_text(
+    0.79, 0.68,
+    text,
+    va='center', ha='left',
+    fontsize=10,
+    color='black',
+)
+
+# description2
+text = """Each album included in the graph
+was released before 2003. The Afrobeat
+genre is not included because it has too
+few albums in the top 500.
+"""
+text = textwrap.fill(text, width=40)
+fig_text(
+    0.79, 0.52,
+    text,
+    va='center', ha='left',
+    fontsize=10,
+    color='black',
+)
+
+# arrow
+def draw_arrow(
+   fig, tail_position, head_position,
+   color='black', lw=1, radius=0.1, tail_width=0.01,
+   head_width=5, head_length=5, invert=False,
+   **kwargs
+):
+   arrow_style = f"Simple, tail_width={tail_width}, head_width={head_width}, head_length={head_length}"
+   connection_style = f"arc3,rad={'-' if invert else ''}{radius}"
+   arrow_patch = FancyArrowPatch(
+      tail_position,
+      head_position,
+      connectionstyle=connection_style,
+      transform=fig.transFigure,
+      arrowstyle=arrow_style,
+      color=color,
+      lw=lw,
+      **kwargs,
+   )
+   fig.patches.append(arrow_patch)
+draw_arrow(fig, (0.7, 0.62), (0.7, 0.24), invert=True, radius=0.3)
+
+# display plot
+plt.show()2b:T130e,# open img of rap albums
+top_rap_album1 = '../../static/graph/AqueminiOutKast.jpg'
+image_rap1 = np.array(Image.open(top_rap_album1))
+top_rap_album2 = '../../static/graph/nas-illmatic.jpg'
+image_rap2 = np.array(Image.open(top_rap_album2))
+top_rap_album3 = '../../static/graph/jay-z-the-blueprint.jpg'
+image_rap3 = np.array(Image.open(top_rap_album3))
+top_rap_album4 = '../../static/graph/Missy_Elliott_Supa_Dupa_Fly.jpg'
+image_rap4 = np.array(Image.open(top_rap_album4))
+
+# open image
+path_bg = '../../static/graph/background.png'
+image_bg = np.array(Image.open(path_bg))
+
+# create chart with background image
+fig, ax = plt.subplots(figsize=(12,8), dpi=300)
+ax.imshow(image_bg, alpha=0.15)
+ax.set_axis_off()
+
+# create lollipop background
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="80%",
+    height="90%",
+    loc='lower center',
+    borderpad=3
+)
+
+# add images
+ax_image1 = fig.add_axes([0.58, 0.75, 0.06, 0.06], zorder=4)
+ax_image1.imshow(image_rap1)  # display
+ax_image1.set_axis_off()  # remove axis
+
+ax_image2 = fig.add_axes([0.62, 0.75, 0.06, 0.06], zorder=4)
+ax_image2.imshow(image_rap2)  # display
+ax_image2.set_axis_off()  # remove axis
+
+ax_image3 = fig.add_axes([0.655, 0.75, 0.06, 0.06], zorder=4)
+ax_image3.imshow(image_rap3)  # display
+ax_image3.set_axis_off()  # remove axis
+
+ax_image4 = fig.add_axes([0.69, 0.75, 0.06, 0.06], zorder=4)
+ax_image4.imshow(image_rap4)  # display
+ax_image4.set_axis_off()  # remove axis
+
+# custom lollipop axes
+sub_ax.set_xlim(-200, 200)
+sub_ax.set_xticks([-200, -100, 0, 100, 200])
+sub_ax.set_xticklabels(['-200', '-100', '0', '100', '200'])
+sub_ax.set_yticklabels([])
+sub_ax.set_yticks([])
+sub_ax.spines[['top', 'left', 'right']].set_visible(False)
+sub_ax.patch.set_alpha(0)
+
+# add lollipop chart
+x = data['diff']
+y = data['genre']
+sub_ax.hlines(y=y, xmin=0, xmax=x, color='black')
+sub_ax.plot(x, y, 'o', color='black', zorder=2)
+
+# reference vertical line
+sub_ax.axvline(0, color='black', lw=1)
+
+# label of each genre next to the lollipop
+for i, row in enumerate(data.itertuples()):
+    genre = row.genre
+    x = row.diff * 1.1
+    y = i + 0.3
+
+    # special cases for label near the vertical line
+    if genre.startswith('Country') or genre.startswith('Punk'):
+        x -= 60
+    if genre.startswith('Soul'):
+        x += 20
+    ax_text(
+        x, y,
+        genre,
+        fontsize=6, fontweight='bold',
+        va='center', ha='center',
+        color='black',
+        zorder=3,
+        ax=sub_ax
+    )
+
+# annotation with images
+text = """<Highest ranking differential>\n
+1. Aquemini - OutKast (452)
+2. The Blueprint - Jay-Z (414)
+3. Supa Dupa Fly - Missy Elliott (408)
+4. Illmatic - Nas (356)
+"""
+fig_text(
+    0.59, 0.68,
+    text,
+    fontsize=6, fontweight='bold',
+    va='center', ha='left',
+    color='black',
+    highlight_textprops=[
+        {'fontsize': 7}
+    ]
+)
+
+# credit
+text = """
+<Data>: TidyTuesday, 2024 week 19
+<Design>: Joseph Barbier
+"""
+fig_text(
+    0.79, 0.15,
+    text, color='black',
+    fontsize=6,
+    va='center', ha='left',
+    highlight_textprops=[
+        {"fontweight": 'bold'},
+        {"fontweight": 'bold'}
+    ],
+)
+
+# title
+text = "Which music genre aged the best?"
+text = textwrap.fill(text, width=30)
+fig_text(
+    0.79, 0.82,
+    text,
+    fontsize=12,
+    va='center', ha='left',
+    fontweight='bold',
+)
+
+# description1
+text = """The lollipop plot shows the average
+ranking differential of music genres
+between 2003 ranking and 2020 ranking
+of famous albums.
+For example, a value of 100 means
+that the genre is ranked 100 places
+higher in 2020 than in 2003 in the
+top 500 albums of all time of Rolling
+Stone magazine.
+"""
+text = textwrap.fill(text, width=40)
+fig_text(
+    0.79, 0.68,
+    text,
+    va='center', ha='left',
+    fontsize=10,
+    color='black',
+)
+
+# description2
+text = """Each album included in the graph
+was released before 2003. The Afrobeat
+genre is not included because it has too
+few albums in the top 500.
+"""
+text = textwrap.fill(text, width=40)
+fig_text(
+    0.79, 0.52,
+    text,
+    va='center', ha='left',
+    fontsize=10,
+    color='black',
+)
+
+# arrow
+def draw_arrow(
+   fig, tail_position, head_position,
+   color='black', lw=1, radius=0.1, tail_width=0.01,
+   head_width=5, head_length=5, invert=False,
+   **kwargs
+):
+   arrow_style = f"Simple, tail_width={tail_width}, head_width={head_width}, head_length={head_length}"
+   connection_style = f"arc3,rad={'-' if invert else ''}{radius}"
+   arrow_patch = FancyArrowPatch(
+      tail_position,
+      head_position,
+      connectionstyle=connection_style,
+      transform=fig.transFigure,
+      arrowstyle=arrow_style,
+      color=color,
+      lw=lw,
+      **kwargs,
+   )
+   fig.patches.append(arrow_patch)
+draw_arrow(fig, (0.7, 0.62), (0.7, 0.24), invert=True, radius=0.3)
+
+# display plot
+plt.savefig('../../static/graph/web-lollipop-with-background-image.png', dpi=300, bbox_inches='tight')
+plt.show()1d:[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Lollipop plot with background image"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Joyplot150.webp","alt":"logo of a chart:Joyplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This guide demonstrates how to craft a <b><a href='/lollipop-plot'>lollipop plot</a></b> featuring <b>an image in the background</b> and personalized annotations using <a href='/matplotlib'>matplotlib</a> and <a href='/advanced-custom-annotations-matplotlib'>highlight_text</a>.<br><br>In this detailed walkthrough, we'll begin with a fundamental <a href='/lollipop-plot'>lollipop plot</a> and incrementally integrate elements such as reference lines, images, legends, and annotations.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$La",null,{"href":"/ridgeline/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Ridgeline section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/ridgeline.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],["$","article",null,{"className":"wrapper post-content","children":["$","$L28",null,{"cells":["# main libraries\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# image in the background\nfrom PIL import Image\nfrom mpl_toolkits.axes_grid1.inset_locator import inset_axes\n\n# annotations\nfrom highlight_text import fig_text, ax_text\nfrom matplotlib.patches import FancyArrowPatch\nimport textwrap","path = 'https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/rolling_stone.csv'\ndf = pd.read_csv(path)\n\n# clean the data\nreplacements = {\n   \"Blues/Blues ROck\": \"Blues/Blues Rock\",\n   \"Rock n' Roll/Rhythm & Blues\": \"Blues/Blues Rock\"\n}\ndf['genre_clean'] = df['genre'].replace(replacements)\ndf.drop(['spotify_url', 'sort_name', 'artist_birth_year_sum', 'genre'], axis=1, inplace=True)\ndf.dropna(subset=['differential'], inplace=True)\ndf = df[df['release_year']<=2003]\ndata = df.groupby('genre_clean')['differential'].mean().sort_values()\ndata = pd.DataFrame({\n   'genre': data.index,\n   'diff': data.values\n})\ndata = data[~data['genre'].isin(['Afrobeat'])]\ndata.sort_values('diff', ascending=False, inplace=True)\n\n# show first rows\ndata.head()","# open image\npath_bg = '../../static/graph/background.png'\nimage_bg = np.array(Image.open(path_bg))\n\n# create chart with background image\nfig, ax = plt.subplots(figsize=(12,8), dpi=300)\nax.imshow(image_bg, alpha=0.15)\nax.set_axis_off()\n\n# create lollipop background\nsub_ax = inset_axes(\n    parent_axes=ax,\n    width=\"80%\",\n    height=\"90%\",\n    loc='lower center',\n    borderpad=3\n)\n\n# display plot\nplt.show()","# open image\npath_bg = '../../static/graph/background.png'\nimage_bg = np.array(Image.open(path_bg))\n\n# create chart with background image\nfig, ax = plt.subplots(figsize=(12,8), dpi=300)\nax.imshow(image_bg, alpha=0.15)\nax.set_axis_off()\n\n# create lollipop background\nsub_ax = inset_axes(\n    parent_axes=ax,\n    width=\"80%\",\n    height=\"90%\",\n    loc='lower center',\n    borderpad=3\n)\n\n# add lollipop chart\nx = data['diff']\ny = data['genre']\nsub_ax.hlines(y=y, xmin=0, xmax=x, color='black')\nsub_ax.plot(x, y, 'o', color='black', zorder=2)\n\n# display plot\nplt.show()","# open image\npath_bg = '../../static/graph/background.png'\nimage_bg = np.array(Image.open(path_bg))\n\n# create chart with background image\nfig, ax = plt.subplots(figsize=(12,8), dpi=300)\nax.imshow(image_bg, alpha=0.15)\nax.set_axis_off()\n\n# create lollipop background\nsub_ax = inset_axes(\n    parent_axes=ax,\n    width=\"80%\",\n    height=\"90%\",\n    loc='lower center',\n    borderpad=3\n)\n\n# custom lollipop axes\nsub_ax.set_xlim(-200, 200)\nsub_ax.set_xticks([-200, -100, 0, 100, 200])\nsub_ax.set_xticklabels(['-200', '-100', '0', '100', '200'])\nsub_ax.set_yticklabels([])\nsub_ax.set_yticks([])\nsub_ax.spines[['top', 'left', 'right']].set_visible(False)\nsub_ax.patch.set_alpha(0)\n\n# add lollipop chart\nx = data['diff']\ny = data['genre']\nsub_ax.hlines(y=y, xmin=0, xmax=x, color='black')\nsub_ax.plot(x, y, 'o', color='black', zorder=2)\n\n# display plot\nplt.show()","$29","$2a","$2b"],"children":"$L2c"}]}],"$L2d","$L2e","$L2f","$L30","$L31"]
+32:I[68978,["$2","$3","$4","$5","$9"],"default"]
+47:I[59351,["$2","$3","$4","$5","$9"],"default"]
+33:T781,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># main libraries</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># image in the background</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#005CC5"> PIL</span><span style="color:#D73A49"> import</span><span style="color:#24292E"> Image</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> mpl_toolkits.axes_grid1.inset_locator </span><span style="color:#D73A49">import</span><span style="color:#24292E"> inset_axes</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># annotations</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text, ax_text</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">import</span><span style="color:#24292E"> FancyArrowPatch</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> textwrap</span></span></code></pre>2c:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This graph is a ",["$","a","a-0",{"href":"/lollipop-plot","children":"lollipop plot"}],", designed to showcase a single value for each category, akin to a ",["$","a","a-1",{"href":"/barplot","children":"barplot"}]," but substituting the bar with a line. This specific instance features an appealing background and includes annotations positioned to the right of the chart."]}],"\n",["$","p","p-1",{"children":["It has been originally designed by ",["$","a","a-0",{"href":"https://www.barbierjoseph.com","children":"Joseph Barbier"}],". Thanks to him for sharing his work!"]}],"\n",["$","p","p-2",{"children":"As a teaser, here is the plot we’re gonna try building:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-lollipop-with-background-image.png?raw=true","alt":"preview","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-4",{"children":"For creating this chart, we will need a whole bunch of libraries!"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}],": to customize the appearance of the chart"]}],"\n",["$","li","li-1",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/seaborn/","children":"seaborn"}],": to create the chart"]}],"\n",["$","li","li-2",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/pandas/","children":"pandas"}],": to handle the data"]}],"\n",["$","li","li-3",{"children":[["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"highlight_text"}]," and ",["$","code","code-0",{"children":"textwrap"}],": to add text annotations"]}],"\n",["$","li","li-4",{"children":[["$","code","code-0",{"children":"PIL"}]," for the background image"]}],"\n"]}],"\n",["$","$L32","notebook-cell-0",{"index":0,"code":"# main libraries\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# image in the background\nfrom PIL import Image\nfrom mpl_toolkits.axes_grid1.inset_locator import inset_axes\n\n# annotations\nfrom highlight_text import fig_text, ax_text\nfrom matplotlib.patches import FancyArrowPatch\nimport textwrap","highlighted":"$33","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n","$L34","\n","$L35","\n","$L36","\n","$L37","$L38","\n","$L39","$L3a","\n","$L3b","$L3c","\n","$L3d","$L3e","\n","$L3f","$L40","\n","$L41","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46"]
+2d:["$","div",null,{"className":"h-16 sm:h-20"}]
+2e:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$La","violin",{"href":"/violin-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Violin150.webp","alt":"logo of a chart:Violin","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Violin"}]]}],["$","$La","density",{"href":"/density-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Density150.webp","alt":"logo of a chart:Density","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Density"}]]}],["$","$La","histogram",{"href":"/histogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Histogram150.webp","alt":"logo of a chart:Histogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Histogram"}]]}],["$","$La","boxplot",{"href":"/boxplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Box1150.webp","alt":"logo of a chart:Box1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Boxplot"}]]}],["$","$La","ridgeline",{"href":"/ridgeline/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Joyplot150.webp","alt":"logo of a chart:Joyplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Ridgeline"}]]}],["$","$La","beeswarm",{"href":"/beeswarm/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Beeswarm2Big.webp","alt":"logo of a chart:Beeswarm2Big","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Beeswarm"}]]}]]}]]}]}]
+2f:["$","div",null,{"className":"h-16 sm:h-20"}]
+30:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+31:["$","$L47",null,{}]
+34:["$","h2","h2-2",{"children":"Dataset"}]
+35:["$","p","p-5",{"children":["The data can be accessed using the ",["$","strong","strong-0",{"children":"url below"}],"."]}]
+48:T12fb,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">path </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/rolling_stone.csv'</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(path)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># clean the data</span></span>
+<span class="line"><span style="color:#24292E">replacements </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">   "Blues/Blues ROck"</span><span style="color:#24292E">: </span><span style="color:#032F62">"Blues/Blues Rock"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">   "Rock n' Roll/Rhythm &#x26; Blues"</span><span style="color:#24292E">: </span><span style="color:#032F62">"Blues/Blues Rock"</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">df[</span><span style="color:#032F62">'genre_clean'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'genre'</span><span style="color:#24292E">].replace(replacements)</span></span>
+<span class="line"><span style="color:#24292E">df.drop([</span><span style="color:#032F62">'spotify_url'</span><span style="color:#24292E">, </span><span style="color:#032F62">'sort_name'</span><span style="color:#24292E">, </span><span style="color:#032F62">'artist_birth_year_sum'</span><span style="color:#24292E">, </span><span style="color:#032F62">'genre'</span><span style="color:#24292E">], </span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df.dropna(</span><span style="color:#E36209">subset</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">'differential'</span><span style="color:#24292E">], </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'release_year'</span><span style="color:#24292E">]</span><span style="color:#D73A49">&#x3C;=</span><span style="color:#005CC5">2003</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">'genre_clean'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'differential'</span><span style="color:#24292E">].mean().sort_values()</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({</span></span>
+<span class="line"><span style="color:#032F62">   'genre'</span><span style="color:#24292E">: data.index,</span></span>
+<span class="line"><span style="color:#032F62">   'diff'</span><span style="color:#24292E">: data.values</span></span>
+<span class="line"><span style="color:#24292E">})</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#D73A49">~</span><span style="color:#24292E">data[</span><span style="color:#032F62">'genre'</span><span style="color:#24292E">].isin([</span><span style="color:#032F62">'Afrobeat'</span><span style="color:#24292E">])]</span></span>
+<span class="line"><span style="color:#24292E">data.sort_values(</span><span style="color:#032F62">'diff'</span><span style="color:#24292E">, </span><span style="color:#E36209">ascending</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># show first rows</span></span>
+<span class="line"><span style="color:#24292E">data.head()</span></span></code></pre>36:["$","$L32","notebook-cell-1",{"index":1,"code":"path = 'https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/rolling_stone.csv'\ndf = pd.read_csv(path)\n\n# clean the data\nreplacements = {\n   \"Blues/Blues ROck\": \"Blues/Blues Rock\",\n   \"Rock n' Roll/Rhythm & Blues\": \"Blues/Blues Rock\"\n}\ndf['genre_clean'] = df['genre'].replace(replacements)\ndf.drop(['spotify_url', 'sort_name', 'artist_birth_year_sum', 'genre'], axis=1, inplace=True)\ndf.dropna(subset=['differential'], inplace=True)\ndf = df[df['release_year']<=2003]\ndata = df.groupby('genre_clean')['differential'].mean().sort_values()\ndata = pd.DataFrame({\n   'genre': data.index,\n   'diff': data.values\n})\ndata = data[~data['genre'].isin(['Afrobeat'])]\ndata.sort_values('diff', ascending=False, inplace=True)\n\n# show first rows\ndata.head()","highlighted":"$48","interactive":false,"hasChart":false,"intro":"$undefined","output":"$L49"}]
+37:["$","h2","h2-3",{"children":"Add background image"}]
+4a:Tb4d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># open image</span></span>
+<span class="line"><span style="color:#24292E">path_bg </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '../../static/graph/background.png'</span></span>
+<span class="line"><span style="color:#24292E">image_bg </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(path_bg))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create chart with background image</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(image_bg, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.15</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create lollipop background</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"80%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"90%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lower center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>38:["$","$L32","notebook-cell-2",{"index":2,"code":"# open image\npath_bg = '../../static/graph/background.png'\nimage_bg = np.array(Image.open(path_bg))\n\n# create chart with background image\nfig, ax = plt.subplots(figsize=(12,8), dpi=300)\nax.imshow(image_bg, alpha=0.15)\nax.set_axis_off()\n\n# create lollipop background\nsub_ax = inset_axes(\n    parent_axes=ax,\n    width=\"80%\",\n    height=\"90%\",\n    loc='lower center',\n    borderpad=3\n)\n\n# display plot\nplt.show()","highlighted":"$4a","interactive":false,"hasChart":true,"intro":"$L4b","output":"$L4c"}]
+39:["$","h2","h2-4",{"children":"Add lollipop plot"}]
+4d:T1193,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># open image</span></span>
+<span class="line"><span style="color:#24292E">path_bg </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '../../static/graph/background.png'</span></span>
+<span class="line"><span style="color:#24292E">image_bg </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(path_bg))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create chart with background image</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(image_bg, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.15</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create lollipop background</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"80%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"90%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lower center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add lollipop chart</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'diff'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'genre'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">x, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.plot(x, y, </span><span style="color:#032F62">'o'</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3a:["$","$L32","notebook-cell-3",{"index":3,"code":"# open image\npath_bg = '../../static/graph/background.png'\nimage_bg = np.array(Image.open(path_bg))\n\n# create chart with background image\nfig, ax = plt.subplots(figsize=(12,8), dpi=300)\nax.imshow(image_bg, alpha=0.15)\nax.set_axis_off()\n\n# create lollipop background\nsub_ax = inset_axes(\n    parent_axes=ax,\n    width=\"80%\",\n    height=\"90%\",\n    loc='lower center',\n    borderpad=3\n)\n\n# add lollipop chart\nx = data['diff']\ny = data['genre']\nsub_ax.hlines(y=y, xmin=0, xmax=x, color='black')\nsub_ax.plot(x, y, 'o', color='black', zorder=2)\n\n# display plot\nplt.show()","highlighted":"$4d","interactive":false,"hasChart":true,"intro":"$L4e","output":"$L4f"}]
+3b:["$","h2","h2-5",{"children":"Custom lollipop axes"}]
+50:T19c6,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># open image</span></span>
+<span class="line"><span style="color:#24292E">path_bg </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '../../static/graph/background.png'</span></span>
+<span class="line"><span style="color:#24292E">image_bg </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(path_bg))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create chart with background image</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(image_bg, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.15</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create lollipop background</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"80%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"90%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lower center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom lollipop axes</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xticks([</span><span style="color:#D73A49">-</span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xticklabels([</span><span style="color:#032F62">'-200'</span><span style="color:#24292E">, </span><span style="color:#032F62">'-100'</span><span style="color:#24292E">, </span><span style="color:#032F62">'0'</span><span style="color:#24292E">, </span><span style="color:#032F62">'100'</span><span style="color:#24292E">, </span><span style="color:#032F62">'200'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_yticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.spines[[</span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#032F62">'right'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.patch.set_alpha(</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add lollipop chart</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'diff'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'genre'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">x, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.plot(x, y, </span><span style="color:#032F62">'o'</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3c:["$","$L32","notebook-cell-4",{"index":4,"code":"# open image\npath_bg = '../../static/graph/background.png'\nimage_bg = np.array(Image.open(path_bg))\n\n# create chart with background image\nfig, ax = plt.subplots(figsize=(12,8), dpi=300)\nax.imshow(image_bg, alpha=0.15)\nax.set_axis_off()\n\n# create lollipop background\nsub_ax = inset_axes(\n    parent_axes=ax,\n    width=\"80%\",\n    height=\"90%\",\n    loc='lower center',\n    borderpad=3\n)\n\n# custom lollipop axes\nsub_ax.set_xlim(-200, 200)\nsub_ax.set_xticks([-200, -100, 0, 100, 200])\nsub_ax.set_xticklabels(['-200', '-100', '0', '100', '200'])\nsub_ax.set_yticklabels([])\nsub_ax.set_yticks([])\nsub_ax.spines[['top', 'left', 'right']].set_visible(False)\nsub_ax.patch.set_alpha(0)\n\n# add lollipop chart\nx = data['diff']\ny = data['genre']\nsub_ax.hlines(y=y, xmin=0, xmax=x, color='black')\nsub_ax.plot(x, y, 'o', color='black', zorder=2)\n\n# display plot\nplt.show()","highlighted":"$50","interactive":false,"hasChart":true,"intro":"$L51","output":"$L52"}]
+3d:["$","h2","h2-6",{"children":"Add labels and reference line"}]
+53:T599,# open image
+path_bg = '../../static/graph/background.png'
+image_bg = np.array(Image.open(path_bg))
+
+# create chart with background image
+fig, ax = plt.subplots(figsize=(12,8), dpi=300)
+ax.imshow(image_bg, alpha=0.15)
+ax.set_axis_off()
+
+# create lollipop background
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="80%",
+    height="90%",
+    loc='lower center',
+    borderpad=3
+)
+
+# custom lollipop axes
+sub_ax.set_xlim(-200, 200)
+sub_ax.set_xticks([-200, -100, 0, 100, 200])
+sub_ax.set_xticklabels(['-200', '-100', '0', '100', '200'])
+sub_ax.set_yticklabels([])
+sub_ax.set_yticks([])
+sub_ax.spines[['top', 'left', 'right']].set_visible(False)
+sub_ax.patch.set_alpha(0)
+
+# add lollipop chart
+x = data['diff']
+y = data['genre']
+sub_ax.hlines(y=y, xmin=0, xmax=x, color='black')
+sub_ax.plot(x, y, 'o', color='black', zorder=2)
+
+# reference vertical line
+sub_ax.axvline(0, color='black', lw=1)
+
+# label of each genre next to the lollipop
+for i, row in enumerate(data.itertuples()):
+    genre = row.genre
+    x = row.diff * 1.1
+    y = i + 0.3
+
+    # special cases for label near the vertical line
+    if genre.startswith('Country') or genre.startswith('Punk'):
+        x -= 60
+    if genre.startswith('Soul'):
+        x += 20
+    ax_text(
+        x, y,
+        genre,
+        fontsize=6, fontweight='bold',
+        va='center', ha='center',
+        color='black',
+        zorder=3,
+        ax=sub_ax
+    )
+
+# display plot
+plt.show()54:T298b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># open image</span></span>
+<span class="line"><span style="color:#24292E">path_bg </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '../../static/graph/background.png'</span></span>
+<span class="line"><span style="color:#24292E">image_bg </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(path_bg))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create chart with background image</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(image_bg, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.15</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create lollipop background</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"80%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"90%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lower center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom lollipop axes</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xticks([</span><span style="color:#D73A49">-</span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xticklabels([</span><span style="color:#032F62">'-200'</span><span style="color:#24292E">, </span><span style="color:#032F62">'-100'</span><span style="color:#24292E">, </span><span style="color:#032F62">'0'</span><span style="color:#24292E">, </span><span style="color:#032F62">'100'</span><span style="color:#24292E">, </span><span style="color:#032F62">'200'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_yticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.spines[[</span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#032F62">'right'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.patch.set_alpha(</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add lollipop chart</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'diff'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'genre'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">x, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.plot(x, y, </span><span style="color:#032F62">'o'</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># reference vertical line</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axvline(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># label of each genre next to the lollipop</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, row </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(data.itertuples()):</span></span>
+<span class="line"><span style="color:#24292E">    genre </span><span style="color:#D73A49">=</span><span style="color:#24292E"> row.genre</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> row.diff </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 1.1</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 0.3</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # special cases for label near the vertical line</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> genre.startswith(</span><span style="color:#032F62">'Country'</span><span style="color:#24292E">) </span><span style="color:#D73A49">or</span><span style="color:#24292E"> genre.startswith(</span><span style="color:#032F62">'Punk'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">-=</span><span style="color:#005CC5"> 60</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> genre.startswith(</span><span style="color:#032F62">'Soul'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">+=</span><span style="color:#005CC5"> 20</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        x, y,</span></span>
+<span class="line"><span style="color:#24292E">        genre,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_ax</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3e:["$","$L32","notebook-cell-5",{"index":5,"code":"$53","highlighted":"$54","interactive":false,"hasChart":true,"intro":"$L55","output":"$L56"}]
+3f:["$","h2","h2-7",{"children":"Annotations"}]
+57:Te8a,# open image
+path_bg = '../../static/graph/background.png'
+image_bg = np.array(Image.open(path_bg))
+
+# create chart with background image
+fig, ax = plt.subplots(figsize=(12,8), dpi=300)
+ax.imshow(image_bg, alpha=0.15)
+ax.set_axis_off()
+
+# create lollipop background
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="80%",
+    height="90%",
+    loc='lower center',
+    borderpad=3
+)
+
+# custom lollipop axes
+sub_ax.set_xlim(-200, 200)
+sub_ax.set_xticks([-200, -100, 0, 100, 200])
+sub_ax.set_xticklabels(['-200', '-100', '0', '100', '200'])
+sub_ax.set_yticklabels([])
+sub_ax.set_yticks([])
+sub_ax.spines[['top', 'left', 'right']].set_visible(False)
+sub_ax.patch.set_alpha(0)
+
+# add lollipop chart
+x = data['diff']
+y = data['genre']
+sub_ax.hlines(y=y, xmin=0, xmax=x, color='black')
+sub_ax.plot(x, y, 'o', color='black', zorder=2)
+
+# reference vertical line
+sub_ax.axvline(0, color='black', lw=1)
+
+# label of each genre next to the lollipop
+for i, row in enumerate(data.itertuples()):
+    genre = row.genre
+    x = row.diff * 1.1
+    y = i + 0.3
+
+    # special cases for label near the vertical line
+    if genre.startswith('Country') or genre.startswith('Punk'):
+        x -= 60
+    if genre.startswith('Soul'):
+        x += 20
+    ax_text(
+        x, y,
+        genre,
+        fontsize=6, fontweight='bold',
+        va='center', ha='center',
+        color='black',
+        zorder=3,
+        ax=sub_ax
+    )
+
+# annotation with images
+text = """<Highest ranking differential>\n
+1. Aquemini - OutKast (452)
+2. The Blueprint - Jay-Z (414)
+3. Supa Dupa Fly - Missy Elliott (408)
+4. Illmatic - Nas (356)
+"""
+fig_text(
+    0.59, 0.68,
+    text,
+    fontsize=6, fontweight='bold',
+    va='center', ha='left',
+    color='black',
+    highlight_textprops=[
+        {'fontsize': 7}
+    ]
+)
+
+# credit
+text = """
+<Data>: TidyTuesday, 2024 week 19
+<Design>: Joseph Barbier
+"""
+fig_text(
+    0.79, 0.15,
+    text, color='black',
+    fontsize=6,
+    va='center', ha='left',
+    highlight_textprops=[
+        {"fontweight": 'bold'},
+        {"fontweight": 'bold'}
+    ],
+)
+
+# title
+text = "Which music genre aged the best?"
+text = textwrap.fill(text, width=30)
+fig_text(
+    0.79, 0.82,
+    text,
+    fontsize=12,
+    va='center', ha='left',
+    fontweight='bold',
+)
+
+# description1
+text = """The lollipop plot shows the average
+ranking differential of music genres
+between 2003 ranking and 2020 ranking
+of famous albums.
+For example, a value of 100 means
+that the genre is ranked 100 places
+higher in 2020 than in 2003 in the
+top 500 albums of all time of Rolling
+Stone magazine.
+"""
+text = textwrap.fill(text, width=40)
+fig_text(
+    0.79, 0.68,
+    text,
+    va='center', ha='left',
+    fontsize=10,
+    color='black',
+)
+
+# description2
+text = """Each album included in the graph
+was released before 2003. The Afrobeat
+genre is not included because it has too
+few albums in the top 500.
+"""
+text = textwrap.fill(text, width=40)
+fig_text(
+    0.79, 0.52,
+    text,
+    va='center', ha='left',
+    fontsize=10,
+    color='black',
+)
+
+# arrow
+def draw_arrow(
+   fig, tail_position, head_position,
+   color='black', lw=1, radius=0.1, tail_width=0.01,
+   head_width=5, head_length=5, invert=False,
+   **kwargs
+):
+   arrow_style = f"Simple, tail_width={tail_width}, head_width={head_width}, head_length={head_length}"
+   connection_style = f"arc3,rad={'-' if invert else ''}{radius}"
+   arrow_patch = FancyArrowPatch(
+      tail_position,
+      head_position,
+      connectionstyle=connection_style,
+      transform=fig.transFigure,
+      arrowstyle=arrow_style,
+      color=color,
+      lw=lw,
+      **kwargs,
+   )
+   fig.patches.append(arrow_patch)
+draw_arrow(fig, (0.7, 0.62), (0.7, 0.24), invert=True, radius=0.3)
+
+# display plot
+plt.show()58:T66e0,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># open image</span></span>
+<span class="line"><span style="color:#24292E">path_bg </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '../../static/graph/background.png'</span></span>
+<span class="line"><span style="color:#24292E">image_bg </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(path_bg))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create chart with background image</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(image_bg, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.15</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create lollipop background</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"80%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"90%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lower center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom lollipop axes</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xticks([</span><span style="color:#D73A49">-</span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xticklabels([</span><span style="color:#032F62">'-200'</span><span style="color:#24292E">, </span><span style="color:#032F62">'-100'</span><span style="color:#24292E">, </span><span style="color:#032F62">'0'</span><span style="color:#24292E">, </span><span style="color:#032F62">'100'</span><span style="color:#24292E">, </span><span style="color:#032F62">'200'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_yticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.spines[[</span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#032F62">'right'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.patch.set_alpha(</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add lollipop chart</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'diff'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'genre'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">x, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.plot(x, y, </span><span style="color:#032F62">'o'</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># reference vertical line</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axvline(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># label of each genre next to the lollipop</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, row </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(data.itertuples()):</span></span>
+<span class="line"><span style="color:#24292E">    genre </span><span style="color:#D73A49">=</span><span style="color:#24292E"> row.genre</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> row.diff </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 1.1</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 0.3</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # special cases for label near the vertical line</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> genre.startswith(</span><span style="color:#032F62">'Country'</span><span style="color:#24292E">) </span><span style="color:#D73A49">or</span><span style="color:#24292E"> genre.startswith(</span><span style="color:#032F62">'Punk'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">-=</span><span style="color:#005CC5"> 60</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> genre.startswith(</span><span style="color:#032F62">'Soul'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">+=</span><span style="color:#005CC5"> 20</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        x, y,</span></span>
+<span class="line"><span style="color:#24292E">        genre,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_ax</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># annotation with images</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """&#x3C;Highest ranking differential></span><span style="color:#005CC5">\n</span></span>
+<span class="line"><span style="color:#032F62">1. Aquemini - OutKast (452)</span></span>
+<span class="line"><span style="color:#032F62">2. The Blueprint - Jay-Z (414)</span></span>
+<span class="line"><span style="color:#032F62">3. Supa Dupa Fly - Missy Elliott (408)</span></span>
+<span class="line"><span style="color:#032F62">4. Illmatic - Nas (356)</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.59</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.68</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'fontsize'</span><span style="color:#24292E">: </span><span style="color:#005CC5">7</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Data>: TidyTuesday, 2024 week 19</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Design>: Joseph Barbier</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.79</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Which music genre aged the best?"</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> textwrap.fill(text, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">30</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.79</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.82</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># description1</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """The lollipop plot shows the average</span></span>
+<span class="line"><span style="color:#032F62">ranking differential of music genres</span></span>
+<span class="line"><span style="color:#032F62">between 2003 ranking and 2020 ranking</span></span>
+<span class="line"><span style="color:#032F62">of famous albums.</span></span>
+<span class="line"><span style="color:#032F62">For example, a value of 100 means</span></span>
+<span class="line"><span style="color:#032F62">that the genre is ranked 100 places</span></span>
+<span class="line"><span style="color:#032F62">higher in 2020 than in 2003 in the</span></span>
+<span class="line"><span style="color:#032F62">top 500 albums of all time of Rolling</span></span>
+<span class="line"><span style="color:#032F62">Stone magazine.</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> textwrap.fill(text, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.79</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.68</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># description2</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """Each album included in the graph</span></span>
+<span class="line"><span style="color:#032F62">was released before 2003. The Afrobeat</span></span>
+<span class="line"><span style="color:#032F62">genre is not included because it has too</span></span>
+<span class="line"><span style="color:#032F62">few albums in the top 500.</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> textwrap.fill(text, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.79</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.52</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># arrow</span></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> draw_arrow</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#24292E">   fig, tail_position, head_position,</span></span>
+<span class="line"><span style="color:#24292E">   color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, tail_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.01</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">   head_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">, head_length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">, invert</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#D73A49">   **</span><span style="color:#24292E">kwargs</span></span>
+<span class="line"><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">   arrow_style </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"Simple, tail_width=</span><span style="color:#005CC5">{</span><span style="color:#24292E">tail_width</span><span style="color:#005CC5">}</span><span style="color:#032F62">, head_width=</span><span style="color:#005CC5">{</span><span style="color:#24292E">head_width</span><span style="color:#005CC5">}</span><span style="color:#032F62">, head_length=</span><span style="color:#005CC5">{</span><span style="color:#24292E">head_length</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#24292E">   connection_style </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"arc3,rad=</span><span style="color:#005CC5">{</span><span style="color:#032F62">'-'</span><span style="color:#D73A49"> if</span><span style="color:#24292E"> invert </span><span style="color:#D73A49">else</span><span style="color:#032F62"> ''</span><span style="color:#005CC5">}{</span><span style="color:#24292E">radius</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#24292E">   arrow_patch </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FancyArrowPatch(</span></span>
+<span class="line"><span style="color:#24292E">      tail_position,</span></span>
+<span class="line"><span style="color:#24292E">      head_position,</span></span>
+<span class="line"><span style="color:#E36209">      connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">connection_style,</span></span>
+<span class="line"><span style="color:#E36209">      transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig.transFigure,</span></span>
+<span class="line"><span style="color:#E36209">      arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">arrow_style,</span></span>
+<span class="line"><span style="color:#E36209">      color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">      lw</span><span style="color:#D73A49">=</span><span style="color:#24292E">lw,</span></span>
+<span class="line"><span style="color:#D73A49">      **</span><span style="color:#24292E">kwargs,</span></span>
+<span class="line"><span style="color:#24292E">   )</span></span>
+<span class="line"><span style="color:#24292E">   fig.patches.append(arrow_patch)</span></span>
+<span class="line"><span style="color:#24292E">draw_arrow(fig, (</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.62</span><span style="color:#24292E">), (</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.24</span><span style="color:#24292E">), </span><span style="color:#E36209">invert</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>40:["$","$L32","notebook-cell-6",{"index":6,"code":"$57","highlighted":"$58","interactive":false,"hasChart":true,"intro":"$L59","output":"$L5a"}]
+41:["$","h2","h2-8",{"children":"Add small images for annotations"}]
+5b:T130e,# open img of rap albums
+top_rap_album1 = '../../static/graph/AqueminiOutKast.jpg'
+image_rap1 = np.array(Image.open(top_rap_album1))
+top_rap_album2 = '../../static/graph/nas-illmatic.jpg'
+image_rap2 = np.array(Image.open(top_rap_album2))
+top_rap_album3 = '../../static/graph/jay-z-the-blueprint.jpg'
+image_rap3 = np.array(Image.open(top_rap_album3))
+top_rap_album4 = '../../static/graph/Missy_Elliott_Supa_Dupa_Fly.jpg'
+image_rap4 = np.array(Image.open(top_rap_album4))
+
+# open image
+path_bg = '../../static/graph/background.png'
+image_bg = np.array(Image.open(path_bg))
+
+# create chart with background image
+fig, ax = plt.subplots(figsize=(12,8), dpi=300)
+ax.imshow(image_bg, alpha=0.15)
+ax.set_axis_off()
+
+# create lollipop background
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="80%",
+    height="90%",
+    loc='lower center',
+    borderpad=3
+)
+
+# add images
+ax_image1 = fig.add_axes([0.58, 0.75, 0.06, 0.06], zorder=4)
+ax_image1.imshow(image_rap1)  # display
+ax_image1.set_axis_off()  # remove axis
+
+ax_image2 = fig.add_axes([0.62, 0.75, 0.06, 0.06], zorder=4)
+ax_image2.imshow(image_rap2)  # display
+ax_image2.set_axis_off()  # remove axis
+
+ax_image3 = fig.add_axes([0.655, 0.75, 0.06, 0.06], zorder=4)
+ax_image3.imshow(image_rap3)  # display
+ax_image3.set_axis_off()  # remove axis
+
+ax_image4 = fig.add_axes([0.69, 0.75, 0.06, 0.06], zorder=4)
+ax_image4.imshow(image_rap4)  # display
+ax_image4.set_axis_off()  # remove axis
+
+# custom lollipop axes
+sub_ax.set_xlim(-200, 200)
+sub_ax.set_xticks([-200, -100, 0, 100, 200])
+sub_ax.set_xticklabels(['-200', '-100', '0', '100', '200'])
+sub_ax.set_yticklabels([])
+sub_ax.set_yticks([])
+sub_ax.spines[['top', 'left', 'right']].set_visible(False)
+sub_ax.patch.set_alpha(0)
+
+# add lollipop chart
+x = data['diff']
+y = data['genre']
+sub_ax.hlines(y=y, xmin=0, xmax=x, color='black')
+sub_ax.plot(x, y, 'o', color='black', zorder=2)
+
+# reference vertical line
+sub_ax.axvline(0, color='black', lw=1)
+
+# label of each genre next to the lollipop
+for i, row in enumerate(data.itertuples()):
+    genre = row.genre
+    x = row.diff * 1.1
+    y = i + 0.3
+
+    # special cases for label near the vertical line
+    if genre.startswith('Country') or genre.startswith('Punk'):
+        x -= 60
+    if genre.startswith('Soul'):
+        x += 20
+    ax_text(
+        x, y,
+        genre,
+        fontsize=6, fontweight='bold',
+        va='center', ha='center',
+        color='black',
+        zorder=3,
+        ax=sub_ax
+    )
+
+# annotation with images
+text = """<Highest ranking differential>\n
+1. Aquemini - OutKast (452)
+2. The Blueprint - Jay-Z (414)
+3. Supa Dupa Fly - Missy Elliott (408)
+4. Illmatic - Nas (356)
+"""
+fig_text(
+    0.59, 0.68,
+    text,
+    fontsize=6, fontweight='bold',
+    va='center', ha='left',
+    color='black',
+    highlight_textprops=[
+        {'fontsize': 7}
+    ]
+)
+
+# credit
+text = """
+<Data>: TidyTuesday, 2024 week 19
+<Design>: Joseph Barbier
+"""
+fig_text(
+    0.79, 0.15,
+    text, color='black',
+    fontsize=6,
+    va='center', ha='left',
+    highlight_textprops=[
+        {"fontweight": 'bold'},
+        {"fontweight": 'bold'}
+    ],
+)
+
+# title
+text = "Which music genre aged the best?"
+text = textwrap.fill(text, width=30)
+fig_text(
+    0.79, 0.82,
+    text,
+    fontsize=12,
+    va='center', ha='left',
+    fontweight='bold',
+)
+
+# description1
+text = """The lollipop plot shows the average
+ranking differential of music genres
+between 2003 ranking and 2020 ranking
+of famous albums.
+For example, a value of 100 means
+that the genre is ranked 100 places
+higher in 2020 than in 2003 in the
+top 500 albums of all time of Rolling
+Stone magazine.
+"""
+text = textwrap.fill(text, width=40)
+fig_text(
+    0.79, 0.68,
+    text,
+    va='center', ha='left',
+    fontsize=10,
+    color='black',
+)
+
+# description2
+text = """Each album included in the graph
+was released before 2003. The Afrobeat
+genre is not included because it has too
+few albums in the top 500.
+"""
+text = textwrap.fill(text, width=40)
+fig_text(
+    0.79, 0.52,
+    text,
+    va='center', ha='left',
+    fontsize=10,
+    color='black',
+)
+
+# arrow
+def draw_arrow(
+   fig, tail_position, head_position,
+   color='black', lw=1, radius=0.1, tail_width=0.01,
+   head_width=5, head_length=5, invert=False,
+   **kwargs
+):
+   arrow_style = f"Simple, tail_width={tail_width}, head_width={head_width}, head_length={head_length}"
+   connection_style = f"arc3,rad={'-' if invert else ''}{radius}"
+   arrow_patch = FancyArrowPatch(
+      tail_position,
+      head_position,
+      connectionstyle=connection_style,
+      transform=fig.transFigure,
+      arrowstyle=arrow_style,
+      color=color,
+      lw=lw,
+      **kwargs,
+   )
+   fig.patches.append(arrow_patch)
+draw_arrow(fig, (0.7, 0.62), (0.7, 0.24), invert=True, radius=0.3)
+
+# display plot
+plt.savefig('../../static/graph/web-lollipop-with-background-image.png', dpi=300, bbox_inches='tight')
+plt.show()5c:T7daf,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># open img of rap albums</span></span>
+<span class="line"><span style="color:#24292E">top_rap_album1 </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '../../static/graph/AqueminiOutKast.jpg'</span></span>
+<span class="line"><span style="color:#24292E">image_rap1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(top_rap_album1))</span></span>
+<span class="line"><span style="color:#24292E">top_rap_album2 </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '../../static/graph/nas-illmatic.jpg'</span></span>
+<span class="line"><span style="color:#24292E">image_rap2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(top_rap_album2))</span></span>
+<span class="line"><span style="color:#24292E">top_rap_album3 </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '../../static/graph/jay-z-the-blueprint.jpg'</span></span>
+<span class="line"><span style="color:#24292E">image_rap3 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(top_rap_album3))</span></span>
+<span class="line"><span style="color:#24292E">top_rap_album4 </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '../../static/graph/Missy_Elliott_Supa_Dupa_Fly.jpg'</span></span>
+<span class="line"><span style="color:#24292E">image_rap4 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(top_rap_album4))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># open image</span></span>
+<span class="line"><span style="color:#24292E">path_bg </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '../../static/graph/background.png'</span></span>
+<span class="line"><span style="color:#24292E">image_bg </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(path_bg))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create chart with background image</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(image_bg, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.15</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create lollipop background</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"80%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"90%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lower center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add images</span></span>
+<span class="line"><span style="color:#24292E">ax_image1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.add_axes([</span><span style="color:#005CC5">0.58</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.06</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.06</span><span style="color:#24292E">], </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_image1.imshow(image_rap1)  </span><span style="color:#6A737D"># display</span></span>
+<span class="line"><span style="color:#24292E">ax_image1.set_axis_off()  </span><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_image2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.add_axes([</span><span style="color:#005CC5">0.62</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.06</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.06</span><span style="color:#24292E">], </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_image2.imshow(image_rap2)  </span><span style="color:#6A737D"># display</span></span>
+<span class="line"><span style="color:#24292E">ax_image2.set_axis_off()  </span><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_image3 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.add_axes([</span><span style="color:#005CC5">0.655</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.06</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.06</span><span style="color:#24292E">], </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_image3.imshow(image_rap3)  </span><span style="color:#6A737D"># display</span></span>
+<span class="line"><span style="color:#24292E">ax_image3.set_axis_off()  </span><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_image4 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.add_axes([</span><span style="color:#005CC5">0.69</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.06</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.06</span><span style="color:#24292E">], </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_image4.imshow(image_rap4)  </span><span style="color:#6A737D"># display</span></span>
+<span class="line"><span style="color:#24292E">ax_image4.set_axis_off()  </span><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom lollipop axes</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xticks([</span><span style="color:#D73A49">-</span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_xticklabels([</span><span style="color:#032F62">'-200'</span><span style="color:#24292E">, </span><span style="color:#032F62">'-100'</span><span style="color:#24292E">, </span><span style="color:#032F62">'0'</span><span style="color:#24292E">, </span><span style="color:#032F62">'100'</span><span style="color:#24292E">, </span><span style="color:#032F62">'200'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_yticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.spines[[</span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#032F62">'right'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.patch.set_alpha(</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add lollipop chart</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'diff'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'genre'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">x, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.plot(x, y, </span><span style="color:#032F62">'o'</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># reference vertical line</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axvline(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># label of each genre next to the lollipop</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, row </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(data.itertuples()):</span></span>
+<span class="line"><span style="color:#24292E">    genre </span><span style="color:#D73A49">=</span><span style="color:#24292E"> row.genre</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> row.diff </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 1.1</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 0.3</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # special cases for label near the vertical line</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> genre.startswith(</span><span style="color:#032F62">'Country'</span><span style="color:#24292E">) </span><span style="color:#D73A49">or</span><span style="color:#24292E"> genre.startswith(</span><span style="color:#032F62">'Punk'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">-=</span><span style="color:#005CC5"> 60</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> genre.startswith(</span><span style="color:#032F62">'Soul'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">+=</span><span style="color:#005CC5"> 20</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        x, y,</span></span>
+<span class="line"><span style="color:#24292E">        genre,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_ax</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># annotation with images</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """&#x3C;Highest ranking differential></span><span style="color:#005CC5">\n</span></span>
+<span class="line"><span style="color:#032F62">1. Aquemini - OutKast (452)</span></span>
+<span class="line"><span style="color:#032F62">2. The Blueprint - Jay-Z (414)</span></span>
+<span class="line"><span style="color:#032F62">3. Supa Dupa Fly - Missy Elliott (408)</span></span>
+<span class="line"><span style="color:#032F62">4. Illmatic - Nas (356)</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.59</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.68</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'fontsize'</span><span style="color:#24292E">: </span><span style="color:#005CC5">7</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Data>: TidyTuesday, 2024 week 19</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Design>: Joseph Barbier</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.79</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Which music genre aged the best?"</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> textwrap.fill(text, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">30</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.79</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.82</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># description1</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """The lollipop plot shows the average</span></span>
+<span class="line"><span style="color:#032F62">ranking differential of music genres</span></span>
+<span class="line"><span style="color:#032F62">between 2003 ranking and 2020 ranking</span></span>
+<span class="line"><span style="color:#032F62">of famous albums.</span></span>
+<span class="line"><span style="color:#032F62">For example, a value of 100 means</span></span>
+<span class="line"><span style="color:#032F62">that the genre is ranked 100 places</span></span>
+<span class="line"><span style="color:#032F62">higher in 2020 than in 2003 in the</span></span>
+<span class="line"><span style="color:#032F62">top 500 albums of all time of Rolling</span></span>
+<span class="line"><span style="color:#032F62">Stone magazine.</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> textwrap.fill(text, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.79</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.68</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># description2</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """Each album included in the graph</span></span>
+<span class="line"><span style="color:#032F62">was released before 2003. The Afrobeat</span></span>
+<span class="line"><span style="color:#032F62">genre is not included because it has too</span></span>
+<span class="line"><span style="color:#032F62">few albums in the top 500.</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> textwrap.fill(text, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.79</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.52</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># arrow</span></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> draw_arrow</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#24292E">   fig, tail_position, head_position,</span></span>
+<span class="line"><span style="color:#24292E">   color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, tail_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.01</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">   head_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">, head_length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">, invert</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#D73A49">   **</span><span style="color:#24292E">kwargs</span></span>
+<span class="line"><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">   arrow_style </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"Simple, tail_width=</span><span style="color:#005CC5">{</span><span style="color:#24292E">tail_width</span><span style="color:#005CC5">}</span><span style="color:#032F62">, head_width=</span><span style="color:#005CC5">{</span><span style="color:#24292E">head_width</span><span style="color:#005CC5">}</span><span style="color:#032F62">, head_length=</span><span style="color:#005CC5">{</span><span style="color:#24292E">head_length</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#24292E">   connection_style </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"arc3,rad=</span><span style="color:#005CC5">{</span><span style="color:#032F62">'-'</span><span style="color:#D73A49"> if</span><span style="color:#24292E"> invert </span><span style="color:#D73A49">else</span><span style="color:#032F62"> ''</span><span style="color:#005CC5">}{</span><span style="color:#24292E">radius</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#24292E">   arrow_patch </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FancyArrowPatch(</span></span>
+<span class="line"><span style="color:#24292E">      tail_position,</span></span>
+<span class="line"><span style="color:#24292E">      head_position,</span></span>
+<span class="line"><span style="color:#E36209">      connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">connection_style,</span></span>
+<span class="line"><span style="color:#E36209">      transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig.transFigure,</span></span>
+<span class="line"><span style="color:#E36209">      arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">arrow_style,</span></span>
+<span class="line"><span style="color:#E36209">      color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">      lw</span><span style="color:#D73A49">=</span><span style="color:#24292E">lw,</span></span>
+<span class="line"><span style="color:#D73A49">      **</span><span style="color:#24292E">kwargs,</span></span>
+<span class="line"><span style="color:#24292E">   )</span></span>
+<span class="line"><span style="color:#24292E">   fig.patches.append(arrow_patch)</span></span>
+<span class="line"><span style="color:#24292E">draw_arrow(fig, (</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.62</span><span style="color:#24292E">), (</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.24</span><span style="color:#24292E">), </span><span style="color:#E36209">invert</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display plot</span></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span><span style="color:#032F62">'../../static/graph/web-lollipop-with-background-image.png'</span><span style="color:#24292E">, </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">, </span><span style="color:#E36209">bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">'tight'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>42:["$","$L32","notebook-cell-7",{"index":7,"code":"$5b","highlighted":"$5c","interactive":false,"hasChart":true,"intro":"$L5d","output":"$L5e"}]
+43:["$","h2","h2-9",{"children":"Going further"}]
+44:["$","p","p-6",{"children":["This post explains how to create a ",["$","a","a-0",{"href":"/lollipop-plot","children":"lollipop plot"}]," with ",["$","a","a-1",{"href":"/matplotlib","children":"matplotlib"}],"."]}]
+45:["$","p","p-7",{"children":"You might also be interested in"}]
+46:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":["this ",["$","a","a-0",{"href":"/web-dumbell-chart","children":"great dumbell chart"}],", which is a variation of the lollipop plot"]}],"\n",["$","li","li-1",{"children":["this ",["$","a","a-0",{"href":"/web-lollipop-plot-with-python-mario-kart-64-world-records","children":"other really cool lollipop plot"}]," about Mario Kart 64 world records"]}],"\n"]}]
+49:[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"genre"}],["$","th","th-2",{"children":"diff"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"13"}],["$","td","td-0",{"children":"Hip-Hop/Rap"}],["$","td","td-1",{"children":"156.955556"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"12"}],["$","td","td-0",{"children":"Electronic"}],["$","td","td-1",{"children":"83.222222"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"10"}],["$","td","td-0",{"children":"Indie/Alternative Rock"}],["$","td","td-1",{"children":"59.478261"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"9"}],["$","td","td-0",{"children":"Soul/Gospel/R&B"}],["$","td","td-1",{"children":"13.000000"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"8"}],["$","td","td-0",{"children":"Punk/Post-Punk/New Wave/Power Pop"}],["$","td","td-1",{"children":"-13.925926"}]]}]]}]]}],"\n"]}]}]]
+4b:[["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Load Background Image"}],": we first load a background image from a specified path and converts it into a NumPy array for manipulation."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Initialize Chart with Background"}],": A figure and its axes are then initialized using matplotlib, where the loaded image is set as the background with a reduced opacity."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Create Secondary Axes for Lollipop Chart"}],": A secondary axes area (sub_ax) is created on top of the main axes. This secondary area is intended for placing a lollipop chart and is sized and positioned to occupy the majority of the figure."]}],"\n"]}]]
+4c:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-lollipop-with-background-image/output-2.png","alt":"Lollipop plot with background image","width":1939,"height":1907,"loading":"lazy","decoding":"async"}]}]]
+4e:[["$","p","p-0",{"children":["Then we add the lollipop in the inside axes using the ",["$","code","code-0",{"children":"hlines()"}]," and ",["$","code","code-1",{"children":"plot()"}]," functions."]}],["$","p","p-1",{"children":["The ",["$","code","code-0",{"children":"hlines()"}]," function is used to ",["$","strong","strong-0",{"children":"draw the horizontal lines"}],", while the ",["$","code","code-1",{"children":"plot()"}]," function is used to draw the circles at the end of each line."]}]]
+4f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-lollipop-with-background-image/output-3.png","alt":"Lollipop plot with background image","width":2559,"height":1907,"loading":"lazy","decoding":"async"}]}]]
+51:[["$","p","p-0",{"children":["Now we customize how the inside axes look like. We ",["$","strong","strong-0",{"children":"remove"}]," the ticks, the labels, and the left, right and top spines. We also set the background color to be ",["$","strong","strong-1",{"children":"fully transparent"}],"."]}]]
+52:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-lollipop-with-background-image/output-4.png","alt":"Lollipop plot with background image","width":1939,"height":1907,"loading":"lazy","decoding":"async"}]}]]
+55:[["$","p","p-0",{"children":["We add a vertical line on the center of the chart for the 0 reference using the ",["$","code","code-0",{"children":"axvline()"}]," function."]}],["$","p","p-1",{"children":"For the labels, we:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["are ",["$","strong","strong-0",{"children":"iterating through each row"}]," of the data using enumerate to get the index and row data"]}],"\n",["$","li","li-1",{"children":["for each row, we ",["$","strong","strong-0",{"children":"extract the genre"}]," and ",["$","strong","strong-1",{"children":"calculate the position"}]," (x, y) where we want to place the label"]}],"\n",["$","li","li-2",{"children":["we ",["$","strong","strong-0",{"children":"adjust the x position"}]," for specific genres (Country, Punk, and Soul) to make sure the label appears near the vertical line."]}],"\n",["$","li","li-3",{"children":["finally, we use the ",["$","code","code-0",{"children":"ax_text()"}]," function to ",["$","strong","strong-0",{"children":"place the genre label"}]," at the specified position with a certain font size, weight, alignment, color, and z-order in the given subplot (sub_ax)."]}],"\n"]}]]
+56:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-lollipop-with-background-image/output-5.png","alt":"Lollipop plot with background image","width":1939,"height":1907,"loading":"lazy","decoding":"async"}]}]]
+59:[["$","p","p-0",{"children":["The annotations are added using the ",["$","code","code-0",{"children":"fig_text()"}]," function from the ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"highlight_text"}]," library. This function allows us to add text annotations to the figure with a specified position, font size, weight, alignment, color, and z-order."]}],["$","p","p-1",{"children":["There is no magic way to find the value of the positions. You need to ",["$","strong","strong-0",{"children":"try and adjust"}]," until you find the right position for your chart."]}]]
+5a:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-lollipop-with-background-image/output-6.png","alt":"Lollipop plot with background image","width":2919,"height":1907,"loading":"lazy","decoding":"async"}]}]]
+5d:[["$","p","p-0",{"children":["Finally, we add small images to the annotations using the ",["$","code","code-0",{"children":"PIL"}]," library. The images are loaded from a specified path and resized to fit the annotations."]}],["$","p","p-1",{"children":["Then we ",["$","strong","strong-0",{"children":"create small axes"}]," for each image with the ",["$","code","code-0",{"children":"fig.add_axes()"}]," function and display the image using the ",["$","code","code-1",{"children":"imshow()"}]," function."]}],["$","p","p-2",{"children":["$","em","em-0",{"children":["Warning: in order to open the images, you need to have them locally on your computer. You can find them in this directory of the ",["$","a","a-0",{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/tree/master/static/graph","children":"GitHub repository"}],"."]}]}]]
+5e:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-lollipop-with-background-image/output-7.png","alt":"Lollipop plot with background image","width":2919,"height":1907,"loading":"lazy","decoding":"async"}]}]]

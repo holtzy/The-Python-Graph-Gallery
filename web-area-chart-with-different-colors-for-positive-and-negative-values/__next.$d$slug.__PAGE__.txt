@@ -1,0 +1,512 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Minimalist area chart"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Area150.webp","alt":"logo of a chart:Area","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post guides you through reproducing an <a href='/area-plot'>area chart</a> with two colors for positive and negative values, and clean annotations. The process starts with a <b>basic example</b> and ends with a polished, <b>refined chart</b>. Every step provides explanations and reproducible code.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/area-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Area chart section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/area.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-area-chart-with-different-colors-for-positive-and-negative-values","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Minimalist area chart"}],["$","meta","1",{"name":"description","content":"How to create an area chart with 2 distinct colors depending on whether the values are positive or negative."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"area, chart, seaborn, matplotlib, python, arrows, annotations, highlight_text, drawarrow, pyfonts"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-area-chart-with-different-colors-for-positive-and-negative-values/"}],["$","meta","6",{"property":"og:title","content":"Minimalist area chart"}],["$","meta","7",{"property":"og:description","content":"How to create an area chart with 2 distinct colors depending on whether the values are positive or negative."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Minimalist area chart"}],["$","meta","13",{"name":"twitter:description","content":"How to create an area chart with 2 distinct colors depending on whether the values are positive or negative."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+25:I[44110,["$3","$4","$5","$6","$d"],"default"]
+26:I[59351,["$3","$4","$5","$6","$d"],"default"]
+27:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T637,font = load_google_font("Libre Baskerville")
+boldfont = load_google_font("Libre Baskerville", weight="bold")
+digit_font = load_google_font("Lato", weight="bold")
+
+fig, ax = plt.subplots(dpi=300, figsize=(10, 7))
+ax.set_axis_off()
+
+year_index = df[df["flag"]].date.values[0]
+
+# before
+color = "#335c67"
+year_index = df[df["flag"]].date.values[0]
+before_df = df[df["date"] <= year_index]
+ax.plot(before_df["date"], before_df["pop_var"], color=color)
+ax.fill_between(before_df["date"], before_df["pop_var"], alpha=0.3, color=color)
+max_year = df[df["pop_var"] == df["pop_var"].max()].date.values[0]
+max_value = df[df["pop_var"] == df["pop_var"].max()].pop_var.values[0]
+ax.scatter(x=max_year, y=max_value, color=color, s=20)
+ax.text(
+    x=max_year - 7,
+    y=max_value,
+    s=f"+{max_value:.0f}",
+    font=digit_font,
+    size=8,
+    color=color,
+)
+
+# after
+color = "#9e2a2b"
+after_df = df[df["date"] >= year_index]
+ax.plot(after_df["date"], after_df["pop_var"], color=color)
+ax.fill_between(after_df["date"], after_df["pop_var"], alpha=0.3, color=color)
+min_year = df[df["pop_var"] == df["pop_var"].min()].date.values[0]
+min_value = df[df["pop_var"] == df["pop_var"].min()].pop_var.values[0]
+ax.scatter(x=min_year, y=min_value, color=color, s=20)
+ax.text(
+    x=min_year - 5,
+    y=min_value - 70000,
+    s=f"{min_value:.0f}",
+    font=digit_font,
+    size=8,
+    color=color,
+)
+
+ax.plot([1952, 2024], [0, 0], color="black", linewidth=0.6)
+year_range = range(1960, 2021, 10)
+for year in year_range:
+    ax.text(x=year + 1, y=40000, s=f"{year}", font=boldfont, size=8, ha="center")
+
+plt.show()23:Ta52,font = load_google_font("Libre Baskerville")
+boldfont = load_google_font("Libre Baskerville", weight="bold")
+digit_font = load_google_font("Lato", weight="bold")
+arrow_props = dict(color="black", width=0.5, head_width=2, head_length=5, radius=0.2)
+
+fig, ax = plt.subplots(dpi=300, figsize=(10, 7))
+ax.set_axis_off()
+
+# before
+color = "#335c67"
+year_index = df[df["flag"]].date.values[0]
+before_df = df[df["date"] <= year_index]
+ax.plot(before_df["date"], before_df["pop_var"], color=color)
+ax.fill_between(before_df["date"], before_df["pop_var"], alpha=0.3, color=color)
+max_year = df[df["pop_var"] == df["pop_var"].max()].date.values[0]
+max_value = df[df["pop_var"] == df["pop_var"].max()].pop_var.values[0]
+ax.scatter(x=max_year, y=max_value, color=color, s=20)
+ax.text(
+    x=max_year - 7,
+    y=max_value,
+    s=f"+{max_value:.0f}",
+    font=digit_font,
+    size=8,
+    color=color,
+)
+
+# after
+color = "#9e2a2b"
+after_df = df[df["date"] >= year_index]
+ax.plot(after_df["date"], after_df["pop_var"], color=color)
+ax.fill_between(after_df["date"], after_df["pop_var"], alpha=0.3, color=color)
+min_year = df[df["pop_var"] == df["pop_var"].min()].date.values[0]
+min_value = df[df["pop_var"] == df["pop_var"].min()].pop_var.values[0]
+ax.scatter(x=min_year, y=min_value, color=color, s=20)
+ax.text(
+    x=min_year - 5,
+    y=min_value - 70000,
+    s=f"{min_value:.0f}",
+    font=digit_font,
+    size=8,
+    color=color,
+)
+
+ax.plot([1952, 2024], [0, 0], color="black", linewidth=0.6)
+year_range = range(1960, 2021, 10)
+for year in year_range:
+    ax.text(x=year + 1, y=40000, s=f"{year}", font=boldfont, size=8, ha="center")
+
+s = "Japan's population is\nin <dramatic decline>."
+fig_text(
+    x=0.45,
+    y=0.8,
+    s=s,
+    font=font,
+    highlight_textprops=[{"font": boldfont}],
+    fontsize=25,
+    ha="left",
+    va="top",
+)
+
+s = "Population variation per year between 1952 and 2024"
+fig_text(x=0.45, y=0.68, s=s, font=font, fontsize=9.8, ha="left", va="top", alpha=0.5)
+
+s = "<Graph>: barbierjoseph.com\n<Data>: macrotrends.net"
+ax_text(
+    x=1952,
+    y=-30000,
+    s=s,
+    font=font,
+    fontsize=6,
+    ha="left",
+    highlight_textprops=[{"font": boldfont}] * 2,
+)
+
+s = "2010 is the first year to record\na <fall> in the population"
+ax_text(
+    x=1978,
+    y=-210000,
+    s=s,
+    font=font,
+    fontsize=8,
+    ha="left",
+    highlight_textprops=[{"font": boldfont}],
+)
+ax_arrow(
+    tail_position=(1995, -300000), head_position=(2009, -50000), ax=ax, **arrow_props
+)
+
+plt.savefig(
+    "../../static/graph/web-area-chart-with-different-colors-for-positive-and-negative-values.png",
+    dpi=300,
+    bbox_inches="tight",
+)
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import pandas as pd\nimport matplotlib.pyplot as plt\nfrom pyfonts import load_google_font\nfrom drawarrow import ax_arrow\nfrom highlight_text import fig_text, ax_text","url = \"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/japan-population.csv\"\ndf = pd.read_csv(url)\ndf.head()","fig, ax = plt.subplots(dpi=300, figsize=(10, 7))\n\nax.plot(df[\"date\"], df[\"pop_var\"])\nax.fill_between(df[\"date\"], df[\"pop_var\"], alpha=0.3)\n\nplt.show()","fig, ax = plt.subplots(dpi=300, figsize=(10, 7))\n\nyear_index = df[df[\"flag\"]].date.values[0]\n\n# before\ncolor = \"#335c67\"\nbefore_df = df[df[\"date\"] <= year_index]\nax.plot(before_df[\"date\"], before_df[\"pop_var\"], color=color)\nax.fill_between(before_df[\"date\"], before_df[\"pop_var\"], alpha=0.3, color=color)\n\n# after\ncolor = \"#9e2a2b\"\nafter_df = df[df[\"date\"] >= year_index]\nax.plot(after_df[\"date\"], after_df[\"pop_var\"], color=color)\nax.fill_between(after_df[\"date\"], after_df[\"pop_var\"], alpha=0.3, color=color)\n\nplt.show()","$22","$23"],"children":"$L24"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","line",{"href":"/line-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Line150.webp","alt":"logo of a chart:Line","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Line chart"}]]}],["$","$Le","area",{"href":"/area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Area150.webp","alt":"logo of a chart:Area","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Area chart"}]]}],["$","$Le","stackedArea",{"href":"/stacked-area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/StackedArea150.webp","alt":"logo of a chart:StackedArea","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Stacked Area"}]]}],["$","$Le","stream",{"href":"/streamchart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Stream150.webp","alt":"logo of a chart:Stream","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Streamgraph"}]]}],["$","$Le","candlestick",{"href":"/candlestick/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CandleStick2Small.webp","alt":"logo of a chart:CandleStick2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Candlestick"}]]}],["$","$Le","timeseries",{"href":"/timeseries/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/section/time150.gif","alt":"logo of a chart:time","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Timeseries"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L25",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L26",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L27",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+20:true
+29:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2a:T44e,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pyfonts </span><span style="color:#D73A49">import</span><span style="color:#24292E"> load_google_font</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> drawarrow </span><span style="color:#D73A49">import</span><span style="color:#24292E"> ax_arrow</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text, ax_text</span></span></code></pre>24:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["An ",["$","a","a-0",{"href":"/area-plot","children":"area chart"}]," is a kind of line chart where the area between the x-axis and the line if filled in a given color. This chart shows the evolution of Japan's population change between 1952 and 2024."]}],"\n",["$","p","p-1",{"children":["This chart has been created by ",["$","a","a-0",{"href":"https://barbierjoseph.com","children":"Joseph Barbier"}],". Thanks to him for accepting sharing its work here!"]}],"\n",["$","p","p-2",{"children":"As a teaser, here is the plot we’re gonna try building:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/graph/web-area-chart-with-different-colors-for-positive-and-negative-values.png","alt":"area plot","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-4",{"children":"First, we need to load the following libraries:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"/matplotlib","children":"matplotlib"}],": for creating the plot"]}],"\n",["$","li","li-1",{"children":[["$","a","a-0",{"href":"/pandas","children":"pandas"}],": for data manipulation"]}],"\n",["$","li","li-2",{"children":[["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"highlight_text"}],": for annotations"]}],"\n",["$","li","li-3",{"children":[["$","a","a-0",{"href":"/pyfonts","children":"pyfonts"}]," for the fonts"]}],"\n",["$","li","li-4",{"children":[["$","a","a-0",{"href":"/drawarrow","children":"drawarrow"}]," for the arrows"]}],"\n"]}],"\n",["$","$L29","notebook-cell-0",{"index":0,"code":"import pandas as pd\nimport matplotlib.pyplot as plt\nfrom pyfonts import load_google_font\nfrom drawarrow import ax_arrow\nfrom highlight_text import fig_text, ax_text","highlighted":"$2a","interactive":true,"hasChart":false}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-5",{"children":["For this reproduction, we're going to retrieve the data directly from the gallery's Github repo. This means we just need to ",["$","strong","strong-0",{"children":"give the right url as an argument"}]," to pandas' ",["$","code","code-0",{"children":"read_csv()"}]," function to retrieve the data."]}],"\n",["$","$L29","notebook-cell-1",{"index":1,"code":"url = \"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/japan-population.csv\"\ndf = pd.read_csv(url)\ndf.head()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">url </span><span style=\"color:#D73A49\">=</span><span style=\"color:#032F62\"> \"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/japan-population.csv\"</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.read_csv(url)</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df.head()</span></span></code></pre>","interactive":true,"hasChart":false,"output":"$L2b"}],"\n","$L2c","$L2d","\n","$L2e","$L2f","\n","$L30","$L31","\n","$L32","$L33","\n","$L34","\n","$L35","\n","$L36"]
+28:null
+b:C
+2b:[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"date"}],["$","th","th-2",{"children":"pop_var"}],["$","th","th-3",{"children":"flag"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"1952"}],["$","td","td-1",{"children":"1238290.0"}],["$","td","td-2",{"children":"False"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"1953"}],["$","td","td-1",{"children":"1135376.0"}],["$","td","td-2",{"children":"False"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"1954"}],["$","td","td-1",{"children":"1035879.0"}],["$","td","td-2",{"children":"False"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"1955"}],["$","td","td-1",{"children":"997262.0"}],["$","td","td-2",{"children":"False"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"1956"}],["$","td","td-1",{"children":"931279.0"}],["$","td","td-2",{"children":"False"}]]}]]}]]}],"\n"]}]}]]
+2c:["$","h2","h2-3",{"children":"Simple area chart"}]
+37:T595,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.plot(df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">ax.fill_between(df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>2d:["$","$L29","notebook-cell-2",{"index":2,"code":"fig, ax = plt.subplots(dpi=300, figsize=(10, 7))\n\nax.plot(df[\"date\"], df[\"pop_var\"])\nax.fill_between(df[\"date\"], df[\"pop_var\"], alpha=0.3)\n\nplt.show()","highlighted":"$37","interactive":true,"hasChart":true,"intro":[["$","p","p-0",{"children":"An area chart consists of 2 main elements:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["the main line (added via the ",["$","code","code-0",{"children":"plot()"}]," function)"]}],"\n",["$","li","li-1",{"children":["the filled area (added via the ",["$","code","code-0",{"children":"fill_between()"}]," function, with a lower opacity)"]}],"\n"]}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-area-chart-with-different-colors-for-positive-and-negative-values/output-2.png","alt":"Minimalist area chart","width":2515,"height":1793,"loading":"lazy","decoding":"async"}]}]]}]
+2e:["$","h2","h2-4",{"children":"2 colors for positive and negative values"}]
+38:Tfb1,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">year_index </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"flag"</span><span style="color:#24292E">]].date.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># before</span></span>
+<span class="line"><span style="color:#24292E">color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#335c67"</span></span>
+<span class="line"><span style="color:#24292E">before_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">] </span><span style="color:#D73A49">&#x3C;=</span><span style="color:#24292E"> year_index]</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(before_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], before_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"><span style="color:#24292E">ax.fill_between(before_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], before_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># after</span></span>
+<span class="line"><span style="color:#24292E">color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#9e2a2b"</span></span>
+<span class="line"><span style="color:#24292E">after_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">] </span><span style="color:#D73A49">>=</span><span style="color:#24292E"> year_index]</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(after_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], after_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"><span style="color:#24292E">ax.fill_between(after_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], after_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>2f:["$","$L29","notebook-cell-3",{"index":3,"code":"fig, ax = plt.subplots(dpi=300, figsize=(10, 7))\n\nyear_index = df[df[\"flag\"]].date.values[0]\n\n# before\ncolor = \"#335c67\"\nbefore_df = df[df[\"date\"] <= year_index]\nax.plot(before_df[\"date\"], before_df[\"pop_var\"], color=color)\nax.fill_between(before_df[\"date\"], before_df[\"pop_var\"], alpha=0.3, color=color)\n\n# after\ncolor = \"#9e2a2b\"\nafter_df = df[df[\"date\"] >= year_index]\nax.plot(after_df[\"date\"], after_df[\"pop_var\"], color=color)\nax.fill_between(after_df[\"date\"], after_df[\"pop_var\"], alpha=0.3, color=color)\n\nplt.show()","highlighted":"$38","interactive":true,"hasChart":true,"intro":"$L39","output":"$L3a"}]
+30:["$","h2","h2-5",{"children":"Customize axes"}]
+3b:T637,font = load_google_font("Libre Baskerville")
+boldfont = load_google_font("Libre Baskerville", weight="bold")
+digit_font = load_google_font("Lato", weight="bold")
+
+fig, ax = plt.subplots(dpi=300, figsize=(10, 7))
+ax.set_axis_off()
+
+year_index = df[df["flag"]].date.values[0]
+
+# before
+color = "#335c67"
+year_index = df[df["flag"]].date.values[0]
+before_df = df[df["date"] <= year_index]
+ax.plot(before_df["date"], before_df["pop_var"], color=color)
+ax.fill_between(before_df["date"], before_df["pop_var"], alpha=0.3, color=color)
+max_year = df[df["pop_var"] == df["pop_var"].max()].date.values[0]
+max_value = df[df["pop_var"] == df["pop_var"].max()].pop_var.values[0]
+ax.scatter(x=max_year, y=max_value, color=color, s=20)
+ax.text(
+    x=max_year - 7,
+    y=max_value,
+    s=f"+{max_value:.0f}",
+    font=digit_font,
+    size=8,
+    color=color,
+)
+
+# after
+color = "#9e2a2b"
+after_df = df[df["date"] >= year_index]
+ax.plot(after_df["date"], after_df["pop_var"], color=color)
+ax.fill_between(after_df["date"], after_df["pop_var"], alpha=0.3, color=color)
+min_year = df[df["pop_var"] == df["pop_var"].min()].date.values[0]
+min_value = df[df["pop_var"] == df["pop_var"].min()].pop_var.values[0]
+ax.scatter(x=min_year, y=min_value, color=color, s=20)
+ax.text(
+    x=min_year - 5,
+    y=min_value - 70000,
+    s=f"{min_value:.0f}",
+    font=digit_font,
+    size=8,
+    color=color,
+)
+
+ax.plot([1952, 2024], [0, 0], color="black", linewidth=0.6)
+year_range = range(1960, 2021, 10)
+for year in year_range:
+    ax.text(x=year + 1, y=40000, s=f"{year}", font=boldfont, size=8, ha="center")
+
+plt.show()3c:T36aa,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Libre Baskerville"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">boldfont </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Libre Baskerville"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">digit_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Lato"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">year_index </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"flag"</span><span style="color:#24292E">]].date.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># before</span></span>
+<span class="line"><span style="color:#24292E">color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#335c67"</span></span>
+<span class="line"><span style="color:#24292E">year_index </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"flag"</span><span style="color:#24292E">]].date.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">before_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">] </span><span style="color:#D73A49">&#x3C;=</span><span style="color:#24292E"> year_index]</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(before_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], before_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"><span style="color:#24292E">ax.fill_between(before_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], before_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"><span style="color:#24292E">max_year </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">].max()].date.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">max_value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">].max()].pop_var.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_year, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_value, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">20</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_year </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_value,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"+</span><span style="color:#005CC5">{</span><span style="color:#24292E">max_value</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">digit_font,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># after</span></span>
+<span class="line"><span style="color:#24292E">color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#9e2a2b"</span></span>
+<span class="line"><span style="color:#24292E">after_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">] </span><span style="color:#D73A49">>=</span><span style="color:#24292E"> year_index]</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(after_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], after_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"><span style="color:#24292E">ax.fill_between(after_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], after_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"><span style="color:#24292E">min_year </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">].min()].date.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">min_value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">].min()].pop_var.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_year, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_value, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">20</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_year </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_value </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 70000</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">min_value</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">digit_font,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.plot([</span><span style="color:#005CC5">1952</span><span style="color:#24292E">, </span><span style="color:#005CC5">2024</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">year_range </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1960</span><span style="color:#24292E">, </span><span style="color:#005CC5">2021</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year </span><span style="color:#D73A49">in</span><span style="color:#24292E"> year_range:</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">year </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">40000</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">year</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#E36209">font</span><span style="color:#D73A49">=</span><span style="color:#24292E">boldfont, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>31:["$","$L29","notebook-cell-4",{"index":4,"code":"$3b","highlighted":"$3c","interactive":true,"hasChart":true,"intro":"$L3d","output":"$L3e"}]
+32:["$","h2","h2-6",{"children":"Final chart with annotations"}]
+3f:Ta52,font = load_google_font("Libre Baskerville")
+boldfont = load_google_font("Libre Baskerville", weight="bold")
+digit_font = load_google_font("Lato", weight="bold")
+arrow_props = dict(color="black", width=0.5, head_width=2, head_length=5, radius=0.2)
+
+fig, ax = plt.subplots(dpi=300, figsize=(10, 7))
+ax.set_axis_off()
+
+# before
+color = "#335c67"
+year_index = df[df["flag"]].date.values[0]
+before_df = df[df["date"] <= year_index]
+ax.plot(before_df["date"], before_df["pop_var"], color=color)
+ax.fill_between(before_df["date"], before_df["pop_var"], alpha=0.3, color=color)
+max_year = df[df["pop_var"] == df["pop_var"].max()].date.values[0]
+max_value = df[df["pop_var"] == df["pop_var"].max()].pop_var.values[0]
+ax.scatter(x=max_year, y=max_value, color=color, s=20)
+ax.text(
+    x=max_year - 7,
+    y=max_value,
+    s=f"+{max_value:.0f}",
+    font=digit_font,
+    size=8,
+    color=color,
+)
+
+# after
+color = "#9e2a2b"
+after_df = df[df["date"] >= year_index]
+ax.plot(after_df["date"], after_df["pop_var"], color=color)
+ax.fill_between(after_df["date"], after_df["pop_var"], alpha=0.3, color=color)
+min_year = df[df["pop_var"] == df["pop_var"].min()].date.values[0]
+min_value = df[df["pop_var"] == df["pop_var"].min()].pop_var.values[0]
+ax.scatter(x=min_year, y=min_value, color=color, s=20)
+ax.text(
+    x=min_year - 5,
+    y=min_value - 70000,
+    s=f"{min_value:.0f}",
+    font=digit_font,
+    size=8,
+    color=color,
+)
+
+ax.plot([1952, 2024], [0, 0], color="black", linewidth=0.6)
+year_range = range(1960, 2021, 10)
+for year in year_range:
+    ax.text(x=year + 1, y=40000, s=f"{year}", font=boldfont, size=8, ha="center")
+
+s = "Japan's population is\nin <dramatic decline>."
+fig_text(
+    x=0.45,
+    y=0.8,
+    s=s,
+    font=font,
+    highlight_textprops=[{"font": boldfont}],
+    fontsize=25,
+    ha="left",
+    va="top",
+)
+
+s = "Population variation per year between 1952 and 2024"
+fig_text(x=0.45, y=0.68, s=s, font=font, fontsize=9.8, ha="left", va="top", alpha=0.5)
+
+s = "<Graph>: barbierjoseph.com\n<Data>: macrotrends.net"
+ax_text(
+    x=1952,
+    y=-30000,
+    s=s,
+    font=font,
+    fontsize=6,
+    ha="left",
+    highlight_textprops=[{"font": boldfont}] * 2,
+)
+
+s = "2010 is the first year to record\na <fall> in the population"
+ax_text(
+    x=1978,
+    y=-210000,
+    s=s,
+    font=font,
+    fontsize=8,
+    ha="left",
+    highlight_textprops=[{"font": boldfont}],
+)
+ax_arrow(
+    tail_position=(1995, -300000), head_position=(2009, -50000), ax=ax, **arrow_props
+)
+
+plt.savefig(
+    "../../static/graph/web-area-chart-with-different-colors-for-positive-and-negative-values.png",
+    dpi=300,
+    bbox_inches="tight",
+)
+plt.show()40:T59fa,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Libre Baskerville"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">boldfont </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Libre Baskerville"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">digit_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Lato"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">arrow_props </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#E36209">head_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">head_length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># before</span></span>
+<span class="line"><span style="color:#24292E">color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#335c67"</span></span>
+<span class="line"><span style="color:#24292E">year_index </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"flag"</span><span style="color:#24292E">]].date.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">before_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">] </span><span style="color:#D73A49">&#x3C;=</span><span style="color:#24292E"> year_index]</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(before_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], before_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"><span style="color:#24292E">ax.fill_between(before_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], before_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"><span style="color:#24292E">max_year </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">].max()].date.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">max_value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">].max()].pop_var.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_year, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_value, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">20</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_year </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_value,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"+</span><span style="color:#005CC5">{</span><span style="color:#24292E">max_value</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">digit_font,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># after</span></span>
+<span class="line"><span style="color:#24292E">color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#9e2a2b"</span></span>
+<span class="line"><span style="color:#24292E">after_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">] </span><span style="color:#D73A49">>=</span><span style="color:#24292E"> year_index]</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(after_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], after_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"><span style="color:#24292E">ax.fill_between(after_df[</span><span style="color:#032F62">"date"</span><span style="color:#24292E">], after_df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">], </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color)</span></span>
+<span class="line"><span style="color:#24292E">min_year </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">].min()].date.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">min_value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"pop_var"</span><span style="color:#24292E">].min()].pop_var.values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_year, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_value, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">20</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_year </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_value </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 70000</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">min_value</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">digit_font,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.plot([</span><span style="color:#005CC5">1952</span><span style="color:#24292E">, </span><span style="color:#005CC5">2024</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">year_range </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1960</span><span style="color:#24292E">, </span><span style="color:#005CC5">2021</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year </span><span style="color:#D73A49">in</span><span style="color:#24292E"> year_range:</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">year </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">40000</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">year</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#E36209">font</span><span style="color:#D73A49">=</span><span style="color:#24292E">boldfont, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">s </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Japan's population is</span><span style="color:#005CC5">\n</span><span style="color:#032F62">in &#x3C;dramatic decline>."</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.45</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">s,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: boldfont}],</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">25</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">s </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Population variation per year between 1952 and 2024"</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.45</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.68</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#24292E">s, </span><span style="color:#E36209">font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9.8</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">s </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "&#x3C;Graph>: barbierjoseph.com</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;Data>: macrotrends.net"</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1952</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">30000</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">s,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: boldfont}] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">s </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "2010 is the first year to record</span><span style="color:#005CC5">\n</span><span style="color:#032F62">a &#x3C;fall> in the population"</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1978</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">210000</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">s,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: boldfont}],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">1995</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">300000</span><span style="color:#24292E">), </span><span style="color:#E36209">head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">2009</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">50000</span><span style="color:#24292E">), </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax, </span><span style="color:#D73A49">**</span><span style="color:#24292E">arrow_props</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span></span>
+<span class="line"><span style="color:#032F62">    "../../static/graph/web-area-chart-with-different-colors-for-positive-and-negative-values.png"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">"tight"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>33:["$","$L29","notebook-cell-5",{"index":5,"code":"$3f","highlighted":"$40","interactive":true,"hasChart":true,"intro":"$L41","output":"$L42"}]
+34:["$","h2","h2-7",{"children":"Going further"}]
+35:["$","p","p-6",{"children":"You might be interested in:"}]
+36:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":["the ",["$","a","a-0",{"href":"/area-plot","children":"area chart section"}]," of the gallery"]}],"\n",["$","li","li-1",{"children":["how to create ",["$","a","a-0",{"href":"/591-arrows-with-inflexion-point","children":"arrow with an inflexion point"}]," in a plot"]}],"\n",["$","li","li-2",{"children":["how to make a ",["$","a","a-0",{"href":"/web-stacked-area-with-inflexion-arrows","children":"beautiful stacked area chart"}]]}],"\n"]}]
+39:[["$","p","p-0",{"children":["Since there’s no built-in method to change the color based on a value, so we create ",["$","strong","strong-0",{"children":"two area charts"}],":"]}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["First chart: spans from the start date to ",["$","code","code-0",{"children":"year_index"}]," (the year is when the value drops below 0, and we find this info with the ",["$","code","code-1",{"children":"flag"}]," column)."]}],"\n",["$","li","li-1",{"children":["Second chart: spans from ",["$","code","code-0",{"children":"year_index"}]," to the end date."]}],"\n"]}],["$","p","p-1",{"children":"Apply different colors to each chart, and done!"}]]
+3a:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-area-chart-with-different-colors-for-positive-and-negative-values/output-3.png","alt":"Minimalist area chart","width":2515,"height":1793,"loading":"lazy","decoding":"async"}]}]]
+3d:[["$","p","p-0",{"children":"Enhance the plot with the following steps:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["Use ",["$","code","code-0",{"children":"ax.set_axis_off()"}]," to remove all axes."]}],"\n",["$","li","li-1",{"children":["Load two fonts: one regular, one ",["$","strong","strong-0",{"children":"bold"}]," thanks to ",["$","a","a-0",{"href":"/pyfonts","children":"pyfonts"}]]}],"\n",["$","li","li-2",{"children":["Highlight the highest and lowest values with ",["$","code","code-0",{"children":"scatter()"}]," and ",["$","code","code-1",{"children":"text()"}],"."]}],"\n",["$","li","li-3",{"children":["Use a ",["$","code","code-0",{"children":"for"}]," loop and ",["$","code","code-1",{"children":"text()"}]," to label all dates in the chart's center."]}],"\n",["$","li","li-4",{"children":"Add a horizontal black line along the x-axis."}],"\n"]}]]
+3e:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-area-chart-with-different-colors-for-positive-and-negative-values/output-4.png","alt":"Minimalist area chart","width":2385,"height":1677,"loading":"lazy","decoding":"async"}]}]]
+41:[["$","p","p-0",{"children":"All the part is done, now we just have to:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["add ",["$","strong","strong-0",{"children":"title"}],", ",["$","strong","strong-1",{"children":"subtitle"}]," and ",["$","strong","strong-2",{"children":"credit/source"}]," using ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"highlight_text"}]," and ",["$","a","a-1",{"href":"/pyfonts","children":"pyfonts"}]," for loading the fonts"]}],"\n",["$","li","li-1",{"children":["add a specific annotation about the year 2010 with an arrow from ",["$","a","a-0",{"href":"/drawarrow","children":"drawarrow"}]]}],"\n"]}]]
+42:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-area-chart-with-different-colors-for-positive-and-negative-values/output-5.png","alt":"Minimalist area chart","width":2385,"height":1677,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

@@ -1,0 +1,416 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Scatterplot with regression fit and auto-positioned labels in Matplotlib"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/ScatterPlot150.webp","alt":"logo of a chart:ScatterPlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>A custom scatterplot with an overlayed regression fit and auto-positioned labels to explore the relationship between the Corruption Perceptions Index and Human Development Index made with <code>Python</code> and <code>Matplotlib</code>. This post guides you through a beautiful and very informative scatterplot that includes a variety of custom colors, markers, and layout adjustments. The library <code>adjustText</code> is used to automatically adjust the position of labels in the plots and <code>scikit-learn</code> is used to obtain a regression fit.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/scatter-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Scatterplot section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/scatter.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-scatterplot-text-annotation-and-regression-matplotlib","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Scatterplot with regression fit and auto-positioned labels in Matplotlib"}],["$","meta","1",{"name":"description","content":"This post explains how to build a custom scatterplot with a regression fit and automatic positioned labels in Matplotlib to explore the relationship between the Corruption Perceptions Index and Human Development Index. Step by step code snippets with explanations are provided."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, matplotlib, scatterplot, annotations, repel, custom"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-scatterplot-text-annotation-and-regression-matplotlib/"}],["$","meta","6",{"property":"og:title","content":"Scatterplot with regression fit and auto-positioned labels in Matplotlib"}],["$","meta","7",{"property":"og:description","content":"This post explains how to build a custom scatterplot with a regression fit and automatic positioned labels in Matplotlib to explore the relationship between the Corruption Perceptions Index and Human Development Index. Step by step code snippets with explanations are provided."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Scatterplot with regression fit and auto-positioned labels in Matplotlib"}],["$","meta","13",{"name":"twitter:description","content":"This post explains how to build a custom scatterplot with a regression fit and automatic positioned labels in Matplotlib to explore the relationship between the Corruption Perceptions Index and Human Development Index. Step by step code snippets with explanations are provided."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+25:I[44110,["$3","$4","$5","$6","$d"],"default"]
+26:I[59351,["$3","$4","$5","$6","$d"],"default"]
+27:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T4da,# Create handles -------------------------------------------------
+# Region names with linebreaks for the long ones
+REGIONS = [
+    "Americas", "Asia Pacific", "Europe and\nCentral Asia", 
+    "Middle East\nand North Africa", "Sub-Saharan\nAfrica"
+]
+
+# Create handles for lines.
+handles = [
+    Line2D(
+        [], [], label=label, 
+        lw=0, # there's no line added, just the marker
+        marker="o", # circle marker
+        markersize=10, 
+        markerfacecolor=REGION_COLS[idx], # marker fill color
+    )
+    for idx, label in enumerate(REGIONS)
+]
+
+# Append a handle for the line
+handles += [Line2D([], [], label="y ~ log(x)", color="#696969", lw=2)]
+
+# Add legend -----------------------------------------------------
+legend = fig.legend(
+    handles=handles,
+    bbox_to_anchor=[0.5, 0.95], # Located in the top-mid of the figure.
+    fontsize=12,
+    handletextpad=0.6, # Space between text and marker/line
+    handlelength=1.4, 
+    columnspacing=1.4,
+    loc="center", 
+    ncol=6,
+    frameon=False
+)
+
+# Set transparency -----------------------------------------------
+# Iterate through first five handles and set transparency
+for i in range(5): 
+    handle = legend.legendHandles[i]
+    handle._legmarker.set_alpha(0.5)
+
+fig23:T68a,# Specify countries ----------------------------------------------
+# All the countries, in the order they appear in the dataset 
+COUNTRIES = corrupt["country"].values
+
+# Countries that are going to be highlighted
+COUNTRY_HIGHLIGHT = [
+    "Germany", "Norway", "United States", "Greece", "Singapore", 
+    "Rwanda", "Russia", "Venezuela", "Sudan", "Iraq", "Ghana", 
+    "Niger", "Chad", "Kuwait", "Qatar",     "Myanmar", "Nepal", 
+    "Chile", "Argentina", "Japan", "China"
+]
+
+
+# Add labels -----------------------------------------------------
+# Iterate through all the countries in COUNTRIES
+# `ax.text()` outputs are appended to the `TEXTS` list. 
+# This list is passed to `adjust_text()` to adjust the position of
+# the legends and add connecting lines
+TEXTS = []
+for idx, country in enumerate(COUNTRIES):
+    # Only append selected countries
+    if country in COUNTRY_HIGHLIGHT:
+        x, y = CPI[idx], HDI[idx]
+        TEXTS.append(ax.text(x, y, country, fontsize=12));
+
+# Adjust text position and add lines -----------------------------
+# 'expand_points' is a tuple with two multipliers by which to expand
+# the bounding box of texts when repelling them from points
+
+# 'arrowprops' indicates all the properties we want for the arrows
+# arrowstyle="-" means the arrow does not have a head (it's just a line!)
+adjust_text(
+    TEXTS, 
+    expand_points=(3, 3),
+    arrowprops=dict(arrowstyle="-", lw=1),
+    ax=ax
+);
+
+# Save it! -------------------------------------------------------
+# Optional:
+# ax.set_facecolor("white") # set axis background color to white
+# fig.set_facecolor("white") # set figure background color to white
+# fig.savefig("plot.png", dpi=300)
+
+figf:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\n\nfrom adjustText import adjust_text\nfrom matplotlib.lines import Line2D # for the legend\nfrom sklearn.linear_model import LinearRegression","corruption = pd.read_csv(\"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/corruption.csv\")","corrupt = corruption.query(\"year == 2015\").dropna()\ncorrupt.head()","CPI = corrupt[\"cpi\"].values\nHDI = corrupt[\"hdi\"].values","fig, ax = plt.subplots(figsize=(12, 8));\nax.scatter(CPI, HDI);","def adjust_lightness(color, amount=0.5):\n    import matplotlib.colors as mc\n    import colorsys\n    try:\n        c = mc.cnames[color]\n    except:\n        c = color\n    c = colorsys.rgb_to_hls(*mc.to_rgb(c))\n    return colorsys.hls_to_rgb(c[0], c[1] * amount, c[2])","# Okabe Ito colors\nREGION_COLS = [\"#E69F00\", \"#56B4E9\", \"#009E73\", \"#F0E442\", \"#0072B2\"]\n\n# Category values for the colors\nCATEGORY_CODES = pd.Categorical(corrupt[\"region\"]).codes\n\n# Select colors for each region according to its category.\nCOLORS = np.array(REGION_COLS)[CATEGORY_CODES]\n\n# Compute colors for the edges: simply darker versions of the original colors\nEDGECOLORS = [adjust_lightness(color, 0.6) for color in COLORS]","fig, ax = plt.subplots(figsize=(12, 8));\nax.scatter(\n    CPI, HDI, color=COLORS, edgecolors=EDGECOLORS,\n    s=80, alpha=0.5, zorder=10\n);\n# zorder = 10 is used to make sure markers are on top of the regression line added later","# Some notes: \n# * scikit-learn asks 2-dimensional arrays for X, that's why the reshape\n# * The response, y, does not need to be 2-dimensional\nX = CPI.reshape(-1, 1)\ny = HDI\n\n# Initialize linear regression object\nlinear_regressor = LinearRegression()\n\n# Fit linear regression model of HDI on the log of CPI\nlinear_regressor.fit(np.log(X), y)\n\n# Make predictions\n# * Construct a sequence of values ranging from 10 to 95 and\n#   apply logarithmic transform to them.\nx_pred = np.log(np.linspace(10, 95, num=200).reshape(-1, 1))\n\n# * Use .predict() method with the created sequence\ny_pred = linear_regressor.predict(x_pred)  \n\n# Plot regression line.\n# * Logarithmic transformation is reverted by using the exponential one.\nax.plot(np.exp(x_pred), y_pred, color=\"#696969\", lw=4)\nfig","# Set default font size to 16\nplt.rcParams.update({\"font.size\": \"16\"})\n\n# Set y limits and y ticks\nax.set_ylim(0.3, 1.05)\nax.set_yticks([0.4, 0.6, 0.8, 1.0])\n\n# Set x limits and x ticks\nax.set_xlim(10, 95)\nax.set_xticks([20, 40, 60, 80])\n\n# Remove tick marks on both x and y axes\nax.yaxis.set_tick_params(length=0)\nax.xaxis.set_tick_params(length=0)\n\n# Add grid lines, only for y axis\nax.grid(axis=\"y\")\n\n# Remove all spines but keep the bottom one\nax.spines[\"left\"].set_color(\"none\")\nax.spines[\"right\"].set_color(\"none\")\nax.spines[\"top\"].set_color(\"none\")\n\n# And finally set labels\nax.set_xlabel(\"Corruption Perceptions Index, 2015 (100 = least corrupt)\")\nax.set_ylabel(\"Human Development Index, 2015\\n(1.0 = most developed)\")\n\nfig","$22","$23"],"children":"$L24"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","scatter",{"href":"/scatter-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ScatterPlot150.webp","alt":"logo of a chart:ScatterPlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Scatterplot"}]]}],["$","$Le","heatmap",{"href":"/heatmap/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Heatmap150.webp","alt":"logo of a chart:Heatmap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Heatmap"}]]}],["$","$Le","correlogram",{"href":"/correlogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Correlogram150.webp","alt":"logo of a chart:Correlogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Correlogram"}]]}],["$","$Le","bubble",{"href":"/bubble-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/BubblePlot150.webp","alt":"logo of a chart:BubblePlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Bubble"}]]}],["$","$Le","connectedScatter",{"href":"/connected-scatter-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ScatterConnected150.webp","alt":"logo of a chart:ScatterConnected","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Connected Scatter"}]]}],["$","$Le","density2d",{"href":"/2d-density-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/2dDensity150.webp","alt":"logo of a chart:2dDensity","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"2D Density"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L25",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L26",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L27",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+20:true
+29:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2a:T55e,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> adjustText </span><span style="color:#D73A49">import</span><span style="color:#24292E"> adjust_text</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.lines </span><span style="color:#D73A49">import</span><span style="color:#24292E"> Line2D </span><span style="color:#6A737D"># for the legend</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> sklearn.linear_model </span><span style="color:#D73A49">import</span><span style="color:#24292E"> LinearRegression</span></span></code></pre>24:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This page showcases the work of ",["$","a","a-0",{"href":"https://clauswilke.com/","children":"Claus O. Wilke"}]," in his R package ",["$","a","a-1",{"href":"https://wilkelab.org/practicalgg/index.html","children":"practicalgg"}]," that contains step-by-step examples demonstrating how to get the most out of ggplot2. You can find the original ",["$","a","a-2",{"href":"https://www.r-graph-gallery.com/","children":"R"}]," code for this example ",["$","a","a-3",{"href":"https://wilkelab.org/practicalgg/articles/corruption_human_development.html","children":"here"}],"."]}],"\n",["$","p","p-1",{"children":["Thanks to him for accepting sharing his work here! Thanks also to ",["$","a","a-0",{"href":"https://tomicapretto.github.io/","children":"Tomás Capretto"}]," who translated this work from R to Python! 🙏🙏"]}],"\n",["$","p","p-2",{"children":"As a teaser, here is the plot we’re gonna try building:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-scatterplot-text-annotation-and-regression-matplotlib.png?raw=true","alt":"scatterplot","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Load libraries"}],"\n",["$","p","p-4",{"children":["In addition to Matplotlib, today's chart also uses ",["$","a","a-0",{"href":"https://github.com/Phlya/adjustText","children":["$","code","code-0",{"children":"adjustText"}]}]," to automatically adjust the position of labels in the plot, and ",["$","a","a-1",{"href":"https://scikit-learn.org/stable/","children":["$","code","code-0",{"children":"scikit-learn"}]}]," to obtain a linear regression fit."]}],"\n",["$","blockquote","blockquote-0",{"children":["\n",["$","p","p-0",{"children":["Note: the ",["$","code","code-0",{"children":"adjustText"}]," library can be installed with ",["$","code","code-1",{"children":"pip install adjustText"}]]}],"\n"]}],"\n",["$","$L29","notebook-cell-0",{"index":0,"code":"import matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\n\nfrom adjustText import adjust_text\nfrom matplotlib.lines import Line2D # for the legend\nfrom sklearn.linear_model import LinearRegression","highlighted":"$2a","interactive":true,"hasChart":false}],"\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","$L3e","\n","$L3f","\n","$L40","$L41","\n","$L42","\n","$L43","$L44","\n","$L45","\n","$L46","$L47","\n","$L48","$L49"]
+28:null
+b:C
+2b:["$","h2","h2-2",{"children":"Load and prepare data"}]
+2c:["$","p","p-5",{"children":["Today's chart uses the ",["$","a","a-0",{"href":"https://wilkelab.org/practicalgg/reference/corruption.html","children":["$","code","code-0",{"children":"corruption"}]}]," dataset in the practicalgg package. This data contains information about Corruption Perceptions Index (CPI) and Human Development Index (HDI) for 176 countries, from 2012 to 2015."]}]
+2d:["$","p","p-6",{"children":["The original source are the ",["$","a","a-0",{"href":"https://www.transparency.org/en/news/corruption-perceptions-index-2016#table","children":"Corruption Perceptions Index 2016"}]," released by ",["$","a","a-1",{"href":"https://transparency.org","children":"Transparency International"}]," and the ",["$","a","a-2",{"href":"http://hdr.undp.org/en/data#","children":"Human Development Index"}]," made available in the\n",["$","a","a-3",{"href":"http://hdr.undp.org/en/","children":"Human Development Reports"}]," by the ",["$","a","a-4",{"href":"https://www.undp.org/","children":"United Nations Development Programme"}],". These datasets were merged and made available by ",["$","a","a-5",{"href":"https://clauswilke.com/","children":"Claus O. Wilke"}]," as the ",["$","code","code-0",{"children":"corruption"}]," dataset in his ",["$","code","code-1",{"children":"practicalgg"}]," package. Thanks to Claus for all the work and making this possible!"]}]
+2e:["$","$L29","notebook-cell-1",{"index":1,"code":"corruption = pd.read_csv(\"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/corruption.csv\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">corruption </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.read_csv(</span><span style=\"color:#032F62\">\"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/corruption.csv\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false}]
+2f:["$","p","p-7",{"children":"The next step is to keep only observations for the 2015 year and drop any row that contains a missing value."}]
+30:["$","$L29","notebook-cell-2",{"index":2,"code":"corrupt = corruption.query(\"year == 2015\").dropna()\ncorrupt.head()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">corrupt </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> corruption.query(</span><span style=\"color:#032F62\">\"year == 2015\"</span><span style=\"color:#24292E\">).dropna()</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">corrupt.head()</span></span></code></pre>","interactive":true,"hasChart":false,"output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"country"}],["$","th","th-2",{"children":"region"}],["$","th","th-3",{"children":"year"}],["$","th","th-4",{"children":"cpi"}],["$","th","th-5",{"children":"iso3c"}],["$","th","th-6",{"children":"hdi"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"Denmark"}],["$","td","td-1",{"children":"Europe and Central Asia"}],["$","td","td-2",{"children":"2015"}],["$","td","td-3",{"children":"91.0"}],["$","td","td-4",{"children":"DNK"}],["$","td","td-5",{"children":"0.925"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"New Zealand"}],["$","td","td-1",{"children":"Asia Pacific"}],["$","td","td-2",{"children":"2015"}],["$","td","td-3",{"children":"91.0"}],["$","td","td-4",{"children":"NZL"}],["$","td","td-5",{"children":"0.915"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"Finland"}],["$","td","td-1",{"children":"Europe and Central Asia"}],["$","td","td-2",{"children":"2015"}],["$","td","td-3",{"children":"90.0"}],["$","td","td-4",{"children":"FIN"}],["$","td","td-5",{"children":"0.895"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"Sweden"}],["$","td","td-1",{"children":"Europe and Central Asia"}],["$","td","td-2",{"children":"2015"}],["$","td","td-3",{"children":"89.0"}],["$","td","td-4",{"children":"SWE"}],["$","td","td-5",{"children":"0.913"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"Switzerland"}],["$","td","td-1",{"children":"Europe and Central Asia"}],["$","td","td-2",{"children":"2015"}],["$","td","td-3",{"children":"86.0"}],["$","td","td-4",{"children":"CHE"}],["$","td","td-5",{"children":"0.939"}]]}]]}]]}],"\n"]}]}]]}]
+31:["$","h2","h2-3",{"children":"Basic Scatterplot"}]
+32:["$","p","p-8",{"children":"Let's get started by creating a very basic scatterplot to show the relationship between the Corruption Perceptions Index and the Human Development Index."}]
+33:["$","$L29","notebook-cell-3",{"index":3,"code":"CPI = corrupt[\"cpi\"].values\nHDI = corrupt[\"hdi\"].values","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#005CC5\">CPI</span><span style=\"color:#D73A49\"> =</span><span style=\"color:#24292E\"> corrupt[</span><span style=\"color:#032F62\">\"cpi\"</span><span style=\"color:#24292E\">].values</span></span>\n<span class=\"line\"><span style=\"color:#005CC5\">HDI</span><span style=\"color:#D73A49\"> =</span><span style=\"color:#24292E\"> corrupt[</span><span style=\"color:#032F62\">\"hdi\"</span><span style=\"color:#24292E\">].values</span></span></code></pre>","interactive":true,"hasChart":false}]
+34:["$","$L29","notebook-cell-4",{"index":4,"code":"fig, ax = plt.subplots(figsize=(12, 8));\nax.scatter(CPI, HDI);","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">fig, ax </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> plt.subplots(</span><span style=\"color:#E36209\">figsize</span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\">(</span><span style=\"color:#005CC5\">12</span><span style=\"color:#24292E\">, </span><span style=\"color:#005CC5\">8</span><span style=\"color:#24292E\">))</span><span style=\"color:#B31D28;font-style:italic\">;</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">ax.scatter(</span><span style=\"color:#005CC5\">CPI</span><span style=\"color:#24292E\">, </span><span style=\"color:#005CC5\">HDI</span><span style=\"color:#24292E\">)</span><span style=\"color:#B31D28;font-style:italic\">;</span></span></code></pre>","interactive":true,"hasChart":true,"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatterplot-text-annotation-and-regression-matplotlib/output-2.png","alt":"Scatterplot with regression fit and auto-positioned labels in Matplotlib","width":716,"height":471,"loading":"lazy","decoding":"async"}]}]]}]
+35:["$","blockquote","blockquote-1",{"children":["\n",["$","p","p-0",{"children":["It's also possible to use ",["$","code","code-0",{"children":"ax.scatter(\"cpi\", \"hdi\", data=corrupt)"}]]}],"\n"]}]
+36:["$","p","p-9",{"children":"Albeit being simple, the plot above is enough to see there's a positive association between the two indexes under study."}]
+37:["$","p","p-10",{"children":"But this is just the start, let's make it better!"}]
+38:["$","h2","h2-4",{"children":"Customize marker colors"}]
+39:["$","p","p-11",{"children":"The next step is to use a different color for each region so it is possible to see the association between the region, the Corrupt Perceptions Index, and the Human Development Index."}]
+3a:["$","p","p-12",{"children":["As its name says, the following function can be used to adjust the lightness of a color. The ",["$","code","code-0",{"children":"amount"}]," argument controls this adjustment. Values below 1 mean the color darkens, while values above 1 indicate the color is lightened."]}]
+4a:T76d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> adjust_lightness</span><span style="color:#24292E">(color, amount</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#D73A49">    import</span><span style="color:#24292E"> matplotlib.colors </span><span style="color:#D73A49">as</span><span style="color:#24292E"> mc</span></span>
+<span class="line"><span style="color:#D73A49">    import</span><span style="color:#24292E"> colorsys</span></span>
+<span class="line"><span style="color:#D73A49">    try</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        c </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mc.cnames[color]</span></span>
+<span class="line"><span style="color:#D73A49">    except</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        c </span><span style="color:#D73A49">=</span><span style="color:#24292E"> color</span></span>
+<span class="line"><span style="color:#24292E">    c </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colorsys.rgb_to_hls(</span><span style="color:#D73A49">*</span><span style="color:#24292E">mc.to_rgb(c))</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> colorsys.hls_to_rgb(c[</span><span style="color:#005CC5">0</span><span style="color:#24292E">], c[</span><span style="color:#005CC5">1</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#24292E"> amount, c[</span><span style="color:#005CC5">2</span><span style="color:#24292E">])</span></span></code></pre>3b:["$","$L29","notebook-cell-5",{"index":5,"code":"def adjust_lightness(color, amount=0.5):\n    import matplotlib.colors as mc\n    import colorsys\n    try:\n        c = mc.cnames[color]\n    except:\n        c = color\n    c = colorsys.rgb_to_hls(*mc.to_rgb(c))\n    return colorsys.hls_to_rgb(c[0], c[1] * amount, c[2])","highlighted":"$4a","interactive":true,"hasChart":false}]
+3c:["$","p","p-13",{"children":"Now let's select the colors for fill and the edges:"}]
+4b:T88c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Okabe Ito colors</span></span>
+<span class="line"><span style="color:#005CC5">REGION_COLS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#032F62">"#E69F00"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#56B4E9"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#009E73"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#F0E442"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#0072B2"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Category values for the colors</span></span>
+<span class="line"><span style="color:#005CC5">CATEGORY_CODES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> pd.Categorical(corrupt[</span><span style="color:#032F62">"region"</span><span style="color:#24292E">]).codes</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Select colors for each region according to its category.</span></span>
+<span class="line"><span style="color:#005CC5">COLORS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> np.array(</span><span style="color:#005CC5">REGION_COLS</span><span style="color:#24292E">)[</span><span style="color:#005CC5">CATEGORY_CODES</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Compute colors for the edges: simply darker versions of the original colors</span></span>
+<span class="line"><span style="color:#005CC5">EDGECOLORS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [adjust_lightness(color, </span><span style="color:#005CC5">0.6</span><span style="color:#24292E">) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> COLORS</span><span style="color:#24292E">]</span></span></code></pre>3d:["$","$L29","notebook-cell-6",{"index":6,"code":"# Okabe Ito colors\nREGION_COLS = [\"#E69F00\", \"#56B4E9\", \"#009E73\", \"#F0E442\", \"#0072B2\"]\n\n# Category values for the colors\nCATEGORY_CODES = pd.Categorical(corrupt[\"region\"]).codes\n\n# Select colors for each region according to its category.\nCOLORS = np.array(REGION_COLS)[CATEGORY_CODES]\n\n# Compute colors for the edges: simply darker versions of the original colors\nEDGECOLORS = [adjust_lightness(color, 0.6) for color in COLORS]","highlighted":"$4b","interactive":true,"hasChart":false}]
+4c:T740,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">))</span><span style="color:#B31D28;font-style:italic">;</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span></span>
+<span class="line"><span style="color:#005CC5">    CPI</span><span style="color:#24292E">, </span><span style="color:#005CC5">HDI</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">COLORS</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolors</span><span style="color:#D73A49">=</span><span style="color:#005CC5">EDGECOLORS</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">80</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span></span>
+<span class="line"><span style="color:#24292E">)</span><span style="color:#B31D28;font-style:italic">;</span></span>
+<span class="line"><span style="color:#6A737D"># zorder = 10 is used to make sure markers are on top of the regression line added later</span></span></code></pre>3e:["$","$L29","notebook-cell-7",{"index":7,"code":"fig, ax = plt.subplots(figsize=(12, 8));\nax.scatter(\n    CPI, HDI, color=COLORS, edgecolors=EDGECOLORS,\n    s=80, alpha=0.5, zorder=10\n);\n# zorder = 10 is used to make sure markers are on top of the regression line added later","highlighted":"$4c","interactive":true,"hasChart":true,"intro":[["$","p","p-0",{"children":"And make a new plot:"}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatterplot-text-annotation-and-regression-matplotlib/output-3.png","alt":"Scatterplot with regression fit and auto-positioned labels in Matplotlib","width":716,"height":471,"loading":"lazy","decoding":"async"}]}]]}]
+3f:["$","p","p-14",{"children":"Both the transparency set on the markers and the darker edge color make it easier to differentiate the different dots, especially when there is some overlap."}]
+40:["$","h2","h2-5",{"children":"Add regression line"}]
+4d:Td8e,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Some notes: </span></span>
+<span class="line"><span style="color:#6A737D"># * scikit-learn asks 2-dimensional arrays for X, that's why the reshape</span></span>
+<span class="line"><span style="color:#6A737D"># * The response, y, does not need to be 2-dimensional</span></span>
+<span class="line"><span style="color:#24292E">X </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> CPI</span><span style="color:#24292E">.reshape(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">y </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> HDI</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Initialize linear regression object</span></span>
+<span class="line"><span style="color:#24292E">linear_regressor </span><span style="color:#D73A49">=</span><span style="color:#24292E"> LinearRegression()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Fit linear regression model of HDI on the log of CPI</span></span>
+<span class="line"><span style="color:#24292E">linear_regressor.fit(np.log(X), y)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Make predictions</span></span>
+<span class="line"><span style="color:#6A737D"># * Construct a sequence of values ranging from 10 to 95 and</span></span>
+<span class="line"><span style="color:#6A737D">#   apply logarithmic transform to them.</span></span>
+<span class="line"><span style="color:#24292E">x_pred </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.log(np.linspace(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">95</span><span style="color:#24292E">, </span><span style="color:#E36209">num</span><span style="color:#D73A49">=</span><span style="color:#005CC5">200</span><span style="color:#24292E">).reshape(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># * Use .predict() method with the created sequence</span></span>
+<span class="line"><span style="color:#24292E">y_pred </span><span style="color:#D73A49">=</span><span style="color:#24292E"> linear_regressor.predict(x_pred)  </span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Plot regression line.</span></span>
+<span class="line"><span style="color:#6A737D"># * Logarithmic transformation is reverted by using the exponential one.</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(np.exp(x_pred), y_pred, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#696969"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>41:["$","$L29","notebook-cell-8",{"index":8,"code":"# Some notes: \n# * scikit-learn asks 2-dimensional arrays for X, that's why the reshape\n# * The response, y, does not need to be 2-dimensional\nX = CPI.reshape(-1, 1)\ny = HDI\n\n# Initialize linear regression object\nlinear_regressor = LinearRegression()\n\n# Fit linear regression model of HDI on the log of CPI\nlinear_regressor.fit(np.log(X), y)\n\n# Make predictions\n# * Construct a sequence of values ranging from 10 to 95 and\n#   apply logarithmic transform to them.\nx_pred = np.log(np.linspace(10, 95, num=200).reshape(-1, 1))\n\n# * Use .predict() method with the created sequence\ny_pred = linear_regressor.predict(x_pred)  \n\n# Plot regression line.\n# * Logarithmic transformation is reverted by using the exponential one.\nax.plot(np.exp(x_pred), y_pred, color=\"#696969\", lw=4)\nfig","highlighted":"$4d","interactive":true,"hasChart":true,"intro":"$L4e","output":"$L4f"}]
+42:["$","p","p-15",{"children":"Voilà! There we have our line of best fit. It certainly helps to see the relationship between the two variables in the chart."}]
+43:["$","h2","h2-6",{"children":"Customize layout"}]
+50:T10ec,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Set default font size to 16</span></span>
+<span class="line"><span style="color:#24292E">plt.rcParams.update({</span><span style="color:#032F62">"font.size"</span><span style="color:#24292E">: </span><span style="color:#032F62">"16"</span><span style="color:#24292E">})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set y limits and y ticks</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.05</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.8</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.0</span><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set x limits and x ticks</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">95</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks([</span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">40</span><span style="color:#24292E">, </span><span style="color:#005CC5">60</span><span style="color:#24292E">, </span><span style="color:#005CC5">80</span><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove tick marks on both x and y axes</span></span>
+<span class="line"><span style="color:#24292E">ax.yaxis.set_tick_params(</span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.xaxis.set_tick_params(</span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add grid lines, only for y axis</span></span>
+<span class="line"><span style="color:#24292E">ax.grid(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">"y"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove all spines but keep the bottom one</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"left"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"right"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"top"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># And finally set labels</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlabel(</span><span style="color:#032F62">"Corruption Perceptions Index, 2015 (100 = least corrupt)"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylabel(</span><span style="color:#032F62">"Human Development Index, 2015</span><span style="color:#005CC5">\n</span><span style="color:#032F62">(1.0 = most developed)"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>44:["$","$L29","notebook-cell-9",{"index":9,"code":"# Set default font size to 16\nplt.rcParams.update({\"font.size\": \"16\"})\n\n# Set y limits and y ticks\nax.set_ylim(0.3, 1.05)\nax.set_yticks([0.4, 0.6, 0.8, 1.0])\n\n# Set x limits and x ticks\nax.set_xlim(10, 95)\nax.set_xticks([20, 40, 60, 80])\n\n# Remove tick marks on both x and y axes\nax.yaxis.set_tick_params(length=0)\nax.xaxis.set_tick_params(length=0)\n\n# Add grid lines, only for y axis\nax.grid(axis=\"y\")\n\n# Remove all spines but keep the bottom one\nax.spines[\"left\"].set_color(\"none\")\nax.spines[\"right\"].set_color(\"none\")\nax.spines[\"top\"].set_color(\"none\")\n\n# And finally set labels\nax.set_xlabel(\"Corruption Perceptions Index, 2015 (100 = least corrupt)\")\nax.set_ylabel(\"Human Development Index, 2015\\n(1.0 = most developed)\")\n\nfig","highlighted":"$50","interactive":true,"hasChart":true,"intro":"$L51","output":"$L52"}]
+45:["$","p","p-16",{"children":"It's wonderful to see how some tiny adjustments add up to a much cleaner and clearer visualisation!"}]
+46:["$","h2","h2-7",{"children":"Add legends"}]
+53:T4da,# Create handles -------------------------------------------------
+# Region names with linebreaks for the long ones
+REGIONS = [
+    "Americas", "Asia Pacific", "Europe and\nCentral Asia", 
+    "Middle East\nand North Africa", "Sub-Saharan\nAfrica"
+]
+
+# Create handles for lines.
+handles = [
+    Line2D(
+        [], [], label=label, 
+        lw=0, # there's no line added, just the marker
+        marker="o", # circle marker
+        markersize=10, 
+        markerfacecolor=REGION_COLS[idx], # marker fill color
+    )
+    for idx, label in enumerate(REGIONS)
+]
+
+# Append a handle for the line
+handles += [Line2D([], [], label="y ~ log(x)", color="#696969", lw=2)]
+
+# Add legend -----------------------------------------------------
+legend = fig.legend(
+    handles=handles,
+    bbox_to_anchor=[0.5, 0.95], # Located in the top-mid of the figure.
+    fontsize=12,
+    handletextpad=0.6, # Space between text and marker/line
+    handlelength=1.4, 
+    columnspacing=1.4,
+    loc="center", 
+    ncol=6,
+    frameon=False
+)
+
+# Set transparency -----------------------------------------------
+# Iterate through first five handles and set transparency
+for i in range(5): 
+    handle = legend.legendHandles[i]
+    handle._legmarker.set_alpha(0.5)
+
+fig54:T1bdc,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create handles -------------------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># Region names with linebreaks for the long ones</span></span>
+<span class="line"><span style="color:#005CC5">REGIONS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    "Americas"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Asia Pacific"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Europe and</span><span style="color:#005CC5">\n</span><span style="color:#032F62">Central Asia"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#032F62">    "Middle East</span><span style="color:#005CC5">\n</span><span style="color:#032F62">and North Africa"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Sub-Saharan</span><span style="color:#005CC5">\n</span><span style="color:#032F62">Africa"</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create handles for lines.</span></span>
+<span class="line"><span style="color:#24292E">handles </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#24292E">    Line2D(</span></span>
+<span class="line"><span style="color:#24292E">        [], [], </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#24292E">label, </span></span>
+<span class="line"><span style="color:#E36209">        lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#6A737D"># there's no line added, just the marker</span></span>
+<span class="line"><span style="color:#E36209">        marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">"o"</span><span style="color:#24292E">, </span><span style="color:#6A737D"># circle marker</span></span>
+<span class="line"><span style="color:#E36209">        markersize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        markerfacecolor</span><span style="color:#D73A49">=</span><span style="color:#005CC5">REGION_COLS</span><span style="color:#24292E">[idx], </span><span style="color:#6A737D"># marker fill color</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> idx, label </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">REGIONS</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Append a handle for the line</span></span>
+<span class="line"><span style="color:#24292E">handles </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> [Line2D([], [], </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">"y ~ log(x)"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#696969"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">)]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add legend -----------------------------------------------------</span></span>
+<span class="line"><span style="color:#24292E">legend </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.legend(</span></span>
+<span class="line"><span style="color:#E36209">    handles</span><span style="color:#D73A49">=</span><span style="color:#24292E">handles,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_to_anchor</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.95</span><span style="color:#24292E">], </span><span style="color:#6A737D"># Located in the top-mid of the figure.</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    handletextpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Space between text and marker/line</span></span>
+<span class="line"><span style="color:#E36209">    handlelength</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.4</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    columnspacing</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    ncol</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    frameon</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set transparency -----------------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># Iterate through first five handles and set transparency</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">5</span><span style="color:#24292E">): </span></span>
+<span class="line"><span style="color:#24292E">    handle </span><span style="color:#D73A49">=</span><span style="color:#24292E"> legend.legendHandles[i]</span></span>
+<span class="line"><span style="color:#24292E">    handle._legmarker.set_alpha(</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>47:["$","$L29","notebook-cell-10",{"index":10,"code":"$53","highlighted":"$54","interactive":true,"hasChart":true,"intro":"$L55","output":"$L56"}]
+48:["$","h2","h2-8",{"children":"Add labels with no overlap"}]
+57:T68a,# Specify countries ----------------------------------------------
+# All the countries, in the order they appear in the dataset 
+COUNTRIES = corrupt["country"].values
+
+# Countries that are going to be highlighted
+COUNTRY_HIGHLIGHT = [
+    "Germany", "Norway", "United States", "Greece", "Singapore", 
+    "Rwanda", "Russia", "Venezuela", "Sudan", "Iraq", "Ghana", 
+    "Niger", "Chad", "Kuwait", "Qatar",     "Myanmar", "Nepal", 
+    "Chile", "Argentina", "Japan", "China"
+]
+
+
+# Add labels -----------------------------------------------------
+# Iterate through all the countries in COUNTRIES
+# `ax.text()` outputs are appended to the `TEXTS` list. 
+# This list is passed to `adjust_text()` to adjust the position of
+# the legends and add connecting lines
+TEXTS = []
+for idx, country in enumerate(COUNTRIES):
+    # Only append selected countries
+    if country in COUNTRY_HIGHLIGHT:
+        x, y = CPI[idx], HDI[idx]
+        TEXTS.append(ax.text(x, y, country, fontsize=12));
+
+# Adjust text position and add lines -----------------------------
+# 'expand_points' is a tuple with two multipliers by which to expand
+# the bounding box of texts when repelling them from points
+
+# 'arrowprops' indicates all the properties we want for the arrows
+# arrowstyle="-" means the arrow does not have a head (it's just a line!)
+adjust_text(
+    TEXTS, 
+    expand_points=(3, 3),
+    arrowprops=dict(arrowstyle="-", lw=1),
+    ax=ax
+);
+
+# Save it! -------------------------------------------------------
+# Optional:
+# ax.set_facecolor("white") # set axis background color to white
+# fig.set_facecolor("white") # set figure background color to white
+# fig.savefig("plot.png", dpi=300)
+
+fig58:T1cc3,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Specify countries ----------------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># All the countries, in the order they appear in the dataset </span></span>
+<span class="line"><span style="color:#005CC5">COUNTRIES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> corrupt[</span><span style="color:#032F62">"country"</span><span style="color:#24292E">].values</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Countries that are going to be highlighted</span></span>
+<span class="line"><span style="color:#005CC5">COUNTRY_HIGHLIGHT</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    "Germany"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Norway"</span><span style="color:#24292E">, </span><span style="color:#032F62">"United States"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Greece"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Singapore"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#032F62">    "Rwanda"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Russia"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Venezuela"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Sudan"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Iraq"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Ghana"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#032F62">    "Niger"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Chad"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Kuwait"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Qatar"</span><span style="color:#24292E">,     </span><span style="color:#032F62">"Myanmar"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Nepal"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#032F62">    "Chile"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Argentina"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Japan"</span><span style="color:#24292E">, </span><span style="color:#032F62">"China"</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add labels -----------------------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># Iterate through all the countries in COUNTRIES</span></span>
+<span class="line"><span style="color:#6A737D"># `ax.text()` outputs are appended to the `TEXTS` list. </span></span>
+<span class="line"><span style="color:#6A737D"># This list is passed to `adjust_text()` to adjust the position of</span></span>
+<span class="line"><span style="color:#6A737D"># the legends and add connecting lines</span></span>
+<span class="line"><span style="color:#005CC5">TEXTS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> []</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> idx, country </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">COUNTRIES</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#6A737D">    # Only append selected countries</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> country </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> COUNTRY_HIGHLIGHT</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        x, y </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> CPI</span><span style="color:#24292E">[idx], </span><span style="color:#005CC5">HDI</span><span style="color:#24292E">[idx]</span></span>
+<span class="line"><span style="color:#005CC5">        TEXTS</span><span style="color:#24292E">.append(ax.text(x, y, country, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">))</span><span style="color:#B31D28;font-style:italic">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Adjust text position and add lines -----------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># 'expand_points' is a tuple with two multipliers by which to expand</span></span>
+<span class="line"><span style="color:#6A737D"># the bounding box of texts when repelling them from points</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># 'arrowprops' indicates all the properties we want for the arrows</span></span>
+<span class="line"><span style="color:#6A737D"># arrowstyle="-" means the arrow does not have a head (it's just a line!)</span></span>
+<span class="line"><span style="color:#24292E">adjust_text(</span></span>
+<span class="line"><span style="color:#005CC5">    TEXTS</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    expand_points</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    arrowprops</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span><span style="color:#E36209">arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"-"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span><span style="color:#B31D28;font-style:italic">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Save it! -------------------------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># Optional:</span></span>
+<span class="line"><span style="color:#6A737D"># ax.set_facecolor("white") # set axis background color to white</span></span>
+<span class="line"><span style="color:#6A737D"># fig.set_facecolor("white") # set figure background color to white</span></span>
+<span class="line"><span style="color:#6A737D"># fig.savefig("plot.png", dpi=300)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>49:["$","$L29","notebook-cell-11",{"index":11,"code":"$57","highlighted":"$58","interactive":true,"hasChart":true,"intro":"$L59","output":"$L5a"}]
+4e:[["$","p","p-0",{"children":"It has been a good choice to use colors. The chart is now more beautiful and more insightful. That's great!"}],["$","p","p-1",{"children":["The next step is to add a regression line that shows the relationship between the Corruption Perceptions Index and the Human Development Index. As you may see from the chart above, the relationship is not linear. The following chunk uses ",["$","code","code-0",{"children":"scikit-learn"}]," to fit a linear regression between the logarithm of CPI (predictor) and HDI (response). Some details about the implementation are explained in the comments."]}]]
+4f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatterplot-text-annotation-and-regression-matplotlib/output-4.png","alt":"Scatterplot with regression fit and auto-positioned labels in Matplotlib","width":716,"height":471,"loading":"lazy","decoding":"async"}]}]]
+51:[["$","p","p-0",{"children":"Making a good visualization isn't just about beautiful colors and shapes. The layout is very important too. A good layout not only makes the plot more attractive, but it also makes it more informative."}]]
+52:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatterplot-text-annotation-and-regression-matplotlib/output-5.png","alt":"Scatterplot with regression fit and auto-positioned labels in Matplotlib","width":749,"height":486,"loading":"lazy","decoding":"async"}]}]]
+55:[["$","p","p-0",{"children":"What do the colors mean? What does the grey line represent? Unless you see the code used to create the plot, it's impossible to answer those questions."}],["$","p","p-1",{"children":["What's truly missing here is a ",["$","strong","strong-0",{"children":"legend"}],". Let's create one that adds circular markers as well as a line to represent the regression fit."]}]]
+56:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatterplot-text-annotation-and-regression-matplotlib/output-6.png","alt":"Scatterplot with regression fit and auto-positioned labels in Matplotlib","width":749,"height":545,"loading":"lazy","decoding":"async"}]}]]
+59:[["$","p","p-0",{"children":"The last step is to add labels to identify the countries behind some data points."}],["$","p","p-1",{"children":["It is pretty challenging to add many labels on a plot since labels tend to overlap each other, making the figure unreadable. Fortunately, the ",["$","code","code-0",{"children":"adjustText"}]," package is here to help. It provides an algorithm that will automatically place the labels for us. Let's do it!"]}]]
+5a:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatterplot-text-annotation-and-regression-matplotlib/output-7.png","alt":"Scatterplot with regression fit and auto-positioned labels in Matplotlib","width":749,"height":545,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

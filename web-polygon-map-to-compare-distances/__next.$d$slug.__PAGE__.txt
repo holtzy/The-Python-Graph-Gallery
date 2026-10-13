@@ -1,0 +1,700 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Beyond the choropleth: a polygon map"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Choropleth150.webp","alt":"logo of a chart:Choropleth","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This chart is a polygon map depicting the number of shops <b>within a 20-minute round-trip walk</b> in the province of Utrecht (the Netherlands), for each building in the province.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/choropleth-map/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Choropleth section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/choropleth.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-polygon-map-to-compare-distances","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Beyond the choropleth: a polygon map"}],["$","meta","1",{"name":"description","content":"How to create a polygon map to compare the distance to a certain point in Python with geopandas?"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"choropleth, polygon, distance, bubble, scatter, plot, matplotlib, chart, annotations, custom"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-polygon-map-to-compare-distances/"}],["$","meta","6",{"property":"og:title","content":"Beyond the choropleth: a polygon map"}],["$","meta","7",{"property":"og:description","content":"How to create a polygon map to compare the distance to a certain point in Python with geopandas?"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Beyond the choropleth: a polygon map"}],["$","meta","13",{"name":"twitter:description","content":"How to create a polygon map to compare the distance to a certain point in Python with geopandas?"}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+25:I[44110,["$3","$4","$5","$6","$d"],"default"]
+26:I[59351,["$3","$4","$5","$6","$d"],"default"]
+27:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T828,regular = {
+    "font": load_font(
+        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-Regular.ttf?raw=true"
+    )
+}
+
+bold = {
+    "font": load_font(
+        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-ExtraBold.ttf?raw=true"
+    )
+}
+
+# make counts based on labels and add the colors.
+bar_frame = (
+    utrecht.quantile_values.value_counts()
+    .reindex(labels[::-1])
+    .reset_index()
+    .assign(color=lambda x: x.quantile_values.map(color_dict))
+)
+
+# total amount of buildings so we can calculate percentages
+total_buildings = bar_frame["count"].sum()
+
+# increase the size of the plot so we can actually see something
+fig, ax = plt.subplots(figsize=(20, 15))
+
+utrecht.plot(
+    ax=ax,
+    legend=False,
+    color=utrecht.color,
+    zorder=-5,
+)
+
+ax_child = ax.inset_axes(
+    [0.65, 0.2, 0.175, 0.175],
+    zorder=10,
+    transform=fig.transFigure,
+)
+
+ax_child.barh(
+    y=bar_frame.quantile_values.astype(str).index,
+    width=bar_frame["count"],
+    color=bar_frame.color,
+)
+
+sns.despine(ax=ax_child, left=True, bottom=True)
+# remove the little dashes at the tick labels
+# remove all labels at the x axis
+ax_child.tick_params(length=0, labelbottom="off", labelsize=12)
+ax_child.set_xticklabels([], **regular)
+
+# loop over all the counts and calculate
+for i, count in enumerate(bar_frame["count"]):
+    ax_text(
+        count,
+        i,
+        f"{(count / total_buildings) * 100:,.2f}% ",
+        va="center",
+        ha="right",
+        weight="bold",
+        **bold,
+        size=16,
+        color=background,
+        ax=ax_child,
+    )
+# set the labels of the y ticks with the correct formatting
+ax_child.set_yticks(
+    [0, 1, 2, 3, 4, 5],
+    labels=labels[::-1],
+    fontweight="bold",
+    color=text_color,
+    **bold,
+    size=16,
+)
+
+fig_text(
+    x=0.7,
+    y=0.39,
+    ha="center",
+    va="bottom",
+    s="Share of amount of shops",
+    weight="bold",
+    size=18,
+    zorder=20,
+    color=text_color,
+    **bold,
+)
+
+ax_child.set_facecolor(background)
+fig.set_facecolor(background)
+ax.set_facecolor(background)23:T908,regular = {
+    "font": load_font(
+        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-Regular.ttf?raw=true"
+    )
+}
+
+bold = {
+    "font": load_font(
+        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-ExtraBold.ttf?raw=true"
+    )
+}
+
+fig, ax = plt.subplots(figsize=(20, 15))
+# remove the axis of the main map
+ax.axis("off")
+utrecht.plot(
+    ax=ax,
+    legend=False,
+    color=utrecht.color,
+    zorder=-5,
+)
+
+# create the background rectangle so the bar graph
+# is fully readable
+rect = patches.Rectangle(
+    (0.60, -0.1),
+    0.5,
+    0.5,
+    linewidth=0,
+    facecolor=background,
+    zorder=0,
+    transform=ax.transAxes,
+)
+
+ax.add_patch(rect)
+
+ax_child = ax.inset_axes(
+    [0.65, 0.2, 0.175, 0.175], zorder=10, transform=fig.transFigure
+)
+
+ax_child.barh(
+    y=bar_frame.quantile_values.astype(str).index,
+    width=bar_frame["count"],
+    color=bar_frame.color,
+)
+
+sns.despine(ax=ax_child, left=True, bottom=True)
+
+ax_child.tick_params(length=0, labelbottom="off", labelsize=12)
+ax_child.set_xticklabels([], **regular)
+
+for i, count in enumerate(bar_frame["count"]):
+    ax_text(
+        count,
+        i,
+        f"{(count / total_buildings) * 100:,.2f}% ",
+        va="center",
+        ha="right",
+        weight="bold",
+        **bold,
+        size=16,
+        color=background,
+        ax=ax_child,
+    )
+
+ax_child.set_yticks(
+    [0, 1, 2, 3, 4, 5],
+    labels=labels[::-1],
+    fontweight="bold",
+    color=text_color,
+    **bold,
+    size=16,
+)
+
+fig_text(
+    x=0.7,
+    y=0.39,
+    ha="center",
+    va="bottom",
+    s="Share of amount of shops",
+    weight="bold",
+    size=18,
+    zorder=20,
+    color=text_color,
+    **bold,
+)
+
+fig_text(
+    x=0.5,
+    y=0.88,
+    va="bottom",
+    ha="center",
+    s="How many shops are within a 20 minute roundtrip walk in Utrecht NL",
+    weight="bold",
+    size=40,
+    color=text_color,
+    **bold,
+)
+
+fig_text(
+    x=0.5,
+    y=0.10,
+    s="sources:\nVisualisation:Sebastiaan Broekema\nOpen street map© for building polygons, KvK for shop locations Walking distances calculated by isochrone distances using open route service.",
+    size=16,
+    color=text_color,
+    ha="center",
+    **regular,
+)
+
+ax_child.set_facecolor(background)
+fig.set_facecolor(background)
+ax.set_facecolor(background)f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import matplotlib.pyplot as plt\nimport seaborn as sns\nfrom highlight_text import fig_text, ax_text\nimport matplotlib.patches as patches\nimport geopandas as gpd\nimport pandas as pd\nfrom pyfonts import load_font","path = \"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/winkels_utrecht.parquet\"\npath = \"../../static/data/winkels_utrecht.parquet\"\nutrecht = gpd.read_parquet(path)\n\nutrecht.head()","utrecht.plot()","labels = [\n    \"No shops\",\n    \"1 to 5 shops\",\n    \"6 to 10 shops\",\n    \"11 to 15 shops\",\n    \"16 to 20 shops\",\n    \"20+ shops\",\n]\n\n# the final value is just some really large value because the\n# .cut method requires an upperbound to be set.\nbins = [1, 5, 10, 15, 20, 2500]\n\nutrecht = utrecht.assign(\n    quantile_values=pd.cut(utrecht.amount, bins, labels=labels[1:])\n    .astype(str)\n    .replace(\"nan\", labels[0])\n)\n\ncolors = (\"#badbdb\", \"#dedad2\", \"#e4bcad\", \"#df979e\", \"#d7658b\", \"#c80064\")\ntext_color = \"#f1f2f6\"\nbackground = \"#060C0C\"\n\n# map the labels to their respective color\ncolor_dict = {i: j for i, j in zip(labels, colors)}\n\nutrecht = utrecht.assign(color=lambda x: x.quantile_values.map(color_dict))","fig, ax = plt.subplots()\n\nutrecht.plot(color=utrecht.color, ax=ax)\n\nfig.set_facecolor(background)\nax.set_facecolor(background)\n\nplt.show()","$22","$23"],"children":"$L24"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","map",{"href":"/map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Map150.webp","alt":"logo of a chart:Map","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Map"}]]}],["$","$Le","choropleth",{"href":"/choropleth-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Choropleth150.webp","alt":"logo of a chart:Choropleth","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Choropleth"}]]}],["$","$Le","hexbin",{"href":"/hexbin-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/MapHexbin150.webp","alt":"logo of a chart:MapHexbin","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Hexbin"}]]}],["$","$Le","cartogram",{"href":"/cartogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Cartogram150.webp","alt":"logo of a chart:Cartogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Cartogram"}]]}],["$","$Le","connection",{"href":"/connection-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ConnectedMap150.webp","alt":"logo of a chart:ConnectedMap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Connection"}]]}],["$","$Le","bubbleMap",{"href":"/bubble-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/BubbleMap150.webp","alt":"logo of a chart:BubbleMap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Bubble"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L25",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L26",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L27",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+20:true
+29:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2a:T5c7,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> seaborn </span><span style="color:#D73A49">as</span><span style="color:#24292E"> sns</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text, ax_text</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">as</span><span style="color:#24292E"> patches</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> geopandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> gpd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pyfonts </span><span style="color:#D73A49">import</span><span style="color:#24292E"> load_font</span></span></code></pre>24:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["The polygons are extracted from OpenStreetMap using the ",["$","code","code-0",{"children":"pyrosm"}]," package. Travel time is calculated using OpenRouteService, and the shop locations come from a closed-source data vendor selling data from the Dutch Chamber of Commerce (KVK)."]}],"\n",["$","p","p-1",{"children":["The chart was originally made with by ",["$","a","a-0",{"href":"https://github.com/sebastiaanbroekema","children":"Sebastiaan Broekema"}],". Thanks to him for accepting sharing his work here!"]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-2",{"children":"First, here are all the imports we will use during the creation of this graph:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":"matplotlib"}],"\n",["$","li","li-1",{"children":"seaborn"}],"\n",["$","li","li-2",{"children":"highlight_text"}],"\n",["$","li","li-3",{"children":"geopandas"}],"\n",["$","li","li-4",{"children":"pandas"}],"\n",["$","li","li-5",{"children":"pyfonts"}],"\n"]}],"\n",["$","$L29","notebook-cell-0",{"index":0,"code":"import matplotlib.pyplot as plt\nimport seaborn as sns\nfrom highlight_text import fig_text, ax_text\nimport matplotlib.patches as patches\nimport geopandas as gpd\nimport pandas as pd\nfrom pyfonts import load_font","highlighted":"$2a","interactive":false,"hasChart":false}],"\n",["$","blockquote","blockquote-0",{"children":["\n",["$","p","p-0",{"children":["Note that you'll also need ",["$","code","code-0",{"children":"pyarrow"}]," to be installed, but not imported. You can install it with ",["$","code","code-1",{"children":"pip install pyarrow"}]]}],"\n"]}],"\n",["$","h2","h2-2",{"children":"The Data"}],"\n",["$","p","p-3",{"children":["Since some of the data is proprietary, the base for this graph has already been heavily trimmed down.",["$","br","br-0",{}],"\nThe dataset already contains the polygons we’ll use to plot the final result. It is stored in ",["$","strong","strong-0",{"children":"GeoParquet"}]," format, so we’ll use ",["$","strong","strong-1",{"children":"GeoPandas"}]," to read it in."]}],"\n",["$","p","p-4",{"children":["Let's take a look at the map without any formatting whatsoever. GeoPandas DataFrames automatically plot the geometries when you use the ","$L2b"," method."]}],"\n","$L2c","\n","$L2d","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","$L34","\n","$L35","\n","$L36","$L37","\n","$L38","$L39","\n","$L3a","\n","$L3b","\n","$L3c"]
+28:null
+b:C
+2b:["$","code","code-0",{"children":".plot()"}]
+2c:["$","$L29","notebook-cell-1",{"index":1,"code":"path = \"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/winkels_utrecht.parquet\"\npath = \"../../static/data/winkels_utrecht.parquet\"\nutrecht = gpd.read_parquet(path)\n\nutrecht.head()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">path </span><span style=\"color:#D73A49\">=</span><span style=\"color:#032F62\"> \"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/winkels_utrecht.parquet\"</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">path </span><span style=\"color:#D73A49\">=</span><span style=\"color:#032F62\"> \"../../static/data/winkels_utrecht.parquet\"</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">utrecht </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> gpd.read_parquet(path)</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"color:#24292E\">utrecht.head()</span></span></code></pre>","interactive":false,"hasChart":false,"output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"geometry"}],["$","th","th-2",{"children":"amount"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"POLYGON ((4.90419 52.25249, 4.90405 52.25252, ..."}],["$","td","td-1",{"children":"0.0"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"POLYGON ((5.37446 52.15335, 5.37446 52.15333, ..."}],["$","td","td-1",{"children":"20.0"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"POLYGON ((4.75665 52.30722, 4.75693 52.30695, ..."}],["$","td","td-1",{"children":"33.0"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"POLYGON ((5.36471 52.15606, 5.36466 52.15593, ..."}],["$","td","td-1",{"children":"20.0"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"POLYGON ((5.36814 52.15517, 5.36813 52.15515, ..."}],["$","td","td-1",{"children":"12.0"}]]}]]}]]}],"\n"]}]}]]}]
+2d:["$","h2","h2-3",{"children":"Default map"}]
+2e:["$","$L29","notebook-cell-2",{"index":2,"code":"utrecht.plot()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">utrecht.plot()</span></span></code></pre>","interactive":false,"hasChart":true,"intro":[["$","p","p-0",{"children":"Here is how our data look like:"}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-polygon-map-to-compare-distances/output-2.png","alt":"Beyond the choropleth: a polygon map","width":505,"height":413,"loading":"lazy","decoding":"async"}]}]]}]
+2f:["$","h2","h2-4",{"children":"Some Observations"}]
+30:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":"This small plot is not readable; you can't zoom in and see all the little details."}],"\n",["$","li","li-1",{"children":"It already takes 2 minutes to plot the graph."}],"\n",["$","li","li-2",{"children":"The color scheme is not very informative."}],"\n"]}]
+31:["$","p","p-5",{"children":"On the data side, all we need to do for this dataset is convert the number of shops into the labels we will be using."}]
+32:["$","p","p-6",{"children":"We will bin the data into groups of 5. To avoid overwhelming the viewer with too many colors, we will limit the total number of groups to 6."}]
+3d:T121f,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    "No shops"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "1 to 5 shops"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "6 to 10 shops"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "11 to 15 shops"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "16 to 20 shops"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "20+ shops"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># the final value is just some really large value because the</span></span>
+<span class="line"><span style="color:#6A737D"># .cut method requires an upperbound to be set.</span></span>
+<span class="line"><span style="color:#24292E">bins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">2500</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">utrecht </span><span style="color:#D73A49">=</span><span style="color:#24292E"> utrecht.assign(</span></span>
+<span class="line"><span style="color:#E36209">    quantile_values</span><span style="color:#D73A49">=</span><span style="color:#24292E">pd.cut(utrecht.amount, bins, </span><span style="color:#E36209">labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">labels[</span><span style="color:#005CC5">1</span><span style="color:#24292E">:])</span></span>
+<span class="line"><span style="color:#24292E">    .astype(</span><span style="color:#005CC5">str</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    .replace(</span><span style="color:#032F62">"nan"</span><span style="color:#24292E">, labels[</span><span style="color:#005CC5">0</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#032F62">"#badbdb"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#dedad2"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#e4bcad"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#df979e"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#d7658b"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#c80064"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#f1f2f6"</span></span>
+<span class="line"><span style="color:#24292E">background </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#060C0C"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># map the labels to their respective color</span></span>
+<span class="line"><span style="color:#24292E">color_dict </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {i: j </span><span style="color:#D73A49">for</span><span style="color:#24292E"> i, j </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(labels, colors)}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">utrecht </span><span style="color:#D73A49">=</span><span style="color:#24292E"> utrecht.assign(</span><span style="color:#E36209">color</span><span style="color:#D73A49">=lambda</span><span style="color:#24292E"> x: x.quantile_values.map(color_dict))</span></span></code></pre>33:["$","$L29","notebook-cell-3",{"index":3,"code":"labels = [\n    \"No shops\",\n    \"1 to 5 shops\",\n    \"6 to 10 shops\",\n    \"11 to 15 shops\",\n    \"16 to 20 shops\",\n    \"20+ shops\",\n]\n\n# the final value is just some really large value because the\n# .cut method requires an upperbound to be set.\nbins = [1, 5, 10, 15, 20, 2500]\n\nutrecht = utrecht.assign(\n    quantile_values=pd.cut(utrecht.amount, bins, labels=labels[1:])\n    .astype(str)\n    .replace(\"nan\", labels[0])\n)\n\ncolors = (\"#badbdb\", \"#dedad2\", \"#e4bcad\", \"#df979e\", \"#d7658b\", \"#c80064\")\ntext_color = \"#f1f2f6\"\nbackground = \"#060C0C\"\n\n# map the labels to their respective color\ncolor_dict = {i: j for i, j in zip(labels, colors)}\n\nutrecht = utrecht.assign(color=lambda x: x.quantile_values.map(color_dict))","highlighted":"$3d","interactive":false,"hasChart":false}]
+34:["$","$L29","notebook-cell-4",{"index":4,"code":"fig, ax = plt.subplots()\n\nutrecht.plot(color=utrecht.color, ax=ax)\n\nfig.set_facecolor(background)\nax.set_facecolor(background)\n\nplt.show()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">fig, ax </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> plt.subplots()</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"color:#24292E\">utrecht.plot(</span><span style=\"color:#E36209\">color</span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\">utrecht.color, </span><span style=\"color:#E36209\">ax</span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\">ax)</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"color:#24292E\">fig.set_facecolor(background)</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">ax.set_facecolor(background)</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"color:#24292E\">plt.show()</span></span></code></pre>","interactive":false,"hasChart":true,"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-polygon-map-to-compare-distances/output-3.png","alt":"Beyond the choropleth: a polygon map","width":505,"height":413,"loading":"lazy","decoding":"async"}]}]]}]
+35:["$","h2","h2-5",{"children":"Adding an upgraded legend"}]
+36:["$","p","p-7",{"children":["The graph now looks a lot better. However, we still have no idea what we're looking at—what do all the pretty colors mean?",["$","br","br-0",{}],"\nTo address this, we could add a simple legend: a mapping of a colored square and the label it represents. However, I want to create something more interesting."]}]
+3e:T828,regular = {
+    "font": load_font(
+        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-Regular.ttf?raw=true"
+    )
+}
+
+bold = {
+    "font": load_font(
+        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-ExtraBold.ttf?raw=true"
+    )
+}
+
+# make counts based on labels and add the colors.
+bar_frame = (
+    utrecht.quantile_values.value_counts()
+    .reindex(labels[::-1])
+    .reset_index()
+    .assign(color=lambda x: x.quantile_values.map(color_dict))
+)
+
+# total amount of buildings so we can calculate percentages
+total_buildings = bar_frame["count"].sum()
+
+# increase the size of the plot so we can actually see something
+fig, ax = plt.subplots(figsize=(20, 15))
+
+utrecht.plot(
+    ax=ax,
+    legend=False,
+    color=utrecht.color,
+    zorder=-5,
+)
+
+ax_child = ax.inset_axes(
+    [0.65, 0.2, 0.175, 0.175],
+    zorder=10,
+    transform=fig.transFigure,
+)
+
+ax_child.barh(
+    y=bar_frame.quantile_values.astype(str).index,
+    width=bar_frame["count"],
+    color=bar_frame.color,
+)
+
+sns.despine(ax=ax_child, left=True, bottom=True)
+# remove the little dashes at the tick labels
+# remove all labels at the x axis
+ax_child.tick_params(length=0, labelbottom="off", labelsize=12)
+ax_child.set_xticklabels([], **regular)
+
+# loop over all the counts and calculate
+for i, count in enumerate(bar_frame["count"]):
+    ax_text(
+        count,
+        i,
+        f"{(count / total_buildings) * 100:,.2f}% ",
+        va="center",
+        ha="right",
+        weight="bold",
+        **bold,
+        size=16,
+        color=background,
+        ax=ax_child,
+    )
+# set the labels of the y ticks with the correct formatting
+ax_child.set_yticks(
+    [0, 1, 2, 3, 4, 5],
+    labels=labels[::-1],
+    fontweight="bold",
+    color=text_color,
+    **bold,
+    size=16,
+)
+
+fig_text(
+    x=0.7,
+    y=0.39,
+    ha="center",
+    va="bottom",
+    s="Share of amount of shops",
+    weight="bold",
+    size=18,
+    zorder=20,
+    color=text_color,
+    **bold,
+)
+
+ax_child.set_facecolor(background)
+fig.set_facecolor(background)
+ax.set_facecolor(background)3f:T348c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">regular </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "font"</span><span style="color:#24292E">: load_font(</span></span>
+<span class="line"><span style="color:#032F62">        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-Regular.ttf?raw=true"</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">bold </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "font"</span><span style="color:#24292E">: load_font(</span></span>
+<span class="line"><span style="color:#032F62">        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-ExtraBold.ttf?raw=true"</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># make counts based on labels and add the colors.</span></span>
+<span class="line"><span style="color:#24292E">bar_frame </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span></span>
+<span class="line"><span style="color:#24292E">    utrecht.quantile_values.value_counts()</span></span>
+<span class="line"><span style="color:#24292E">    .reindex(labels[::</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">    .reset_index()</span></span>
+<span class="line"><span style="color:#24292E">    .assign(</span><span style="color:#E36209">color</span><span style="color:#D73A49">=lambda</span><span style="color:#24292E"> x: x.quantile_values.map(color_dict))</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># total amount of buildings so we can calculate percentages</span></span>
+<span class="line"><span style="color:#24292E">total_buildings </span><span style="color:#D73A49">=</span><span style="color:#24292E"> bar_frame[</span><span style="color:#032F62">"count"</span><span style="color:#24292E">].sum()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># increase the size of the plot so we can actually see something</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">15</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">utrecht.plot(</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    legend</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">utrecht.color,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_child </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.inset_axes(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0.65</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.175</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.175</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig.transFigure,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_child.barh(</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_frame.quantile_values.astype(</span><span style="color:#005CC5">str</span><span style="color:#24292E">).index,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_frame[</span><span style="color:#032F62">"count"</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_frame.color,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">sns.despine(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax_child, </span><span style="color:#E36209">left</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">bottom</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#6A737D"># remove the little dashes at the tick labels</span></span>
+<span class="line"><span style="color:#6A737D"># remove all labels at the x axis</span></span>
+<span class="line"><span style="color:#24292E">ax_child.tick_params(</span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">labelbottom</span><span style="color:#D73A49">=</span><span style="color:#032F62">"off"</span><span style="color:#24292E">, </span><span style="color:#E36209">labelsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_child.set_xticklabels([], </span><span style="color:#D73A49">**</span><span style="color:#24292E">regular)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># loop over all the counts and calculate</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, count </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(bar_frame[</span><span style="color:#032F62">"count"</span><span style="color:#24292E">]):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        count,</span></span>
+<span class="line"><span style="color:#24292E">        i,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">(count </span><span style="color:#D73A49">/</span><span style="color:#24292E"> total_buildings) </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 100</span><span style="color:#D73A49">:,.2f</span><span style="color:#005CC5">}</span><span style="color:#032F62">% "</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"right"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#D73A49">        **</span><span style="color:#24292E">bold,</span></span>
+<span class="line"><span style="color:#E36209">        size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">background,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax_child,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#6A737D"># set the labels of the y ticks with the correct formatting</span></span>
+<span class="line"><span style="color:#24292E">ax_child.set_yticks(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">labels[::</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">bold,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.39</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Share of amount of shops"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">18</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">20</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">bold,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_child.set_facecolor(background)</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(background)</span></span></code></pre>37:["$","$L29","notebook-cell-5",{"index":5,"code":"$3e","highlighted":"$3f","interactive":false,"hasChart":true,"intro":"$L40","output":"$L41"}]
+38:["$","h2","h2-6",{"children":"Putting It All Together: The Finishing Touches"}]
+42:T908,regular = {
+    "font": load_font(
+        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-Regular.ttf?raw=true"
+    )
+}
+
+bold = {
+    "font": load_font(
+        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-ExtraBold.ttf?raw=true"
+    )
+}
+
+fig, ax = plt.subplots(figsize=(20, 15))
+# remove the axis of the main map
+ax.axis("off")
+utrecht.plot(
+    ax=ax,
+    legend=False,
+    color=utrecht.color,
+    zorder=-5,
+)
+
+# create the background rectangle so the bar graph
+# is fully readable
+rect = patches.Rectangle(
+    (0.60, -0.1),
+    0.5,
+    0.5,
+    linewidth=0,
+    facecolor=background,
+    zorder=0,
+    transform=ax.transAxes,
+)
+
+ax.add_patch(rect)
+
+ax_child = ax.inset_axes(
+    [0.65, 0.2, 0.175, 0.175], zorder=10, transform=fig.transFigure
+)
+
+ax_child.barh(
+    y=bar_frame.quantile_values.astype(str).index,
+    width=bar_frame["count"],
+    color=bar_frame.color,
+)
+
+sns.despine(ax=ax_child, left=True, bottom=True)
+
+ax_child.tick_params(length=0, labelbottom="off", labelsize=12)
+ax_child.set_xticklabels([], **regular)
+
+for i, count in enumerate(bar_frame["count"]):
+    ax_text(
+        count,
+        i,
+        f"{(count / total_buildings) * 100:,.2f}% ",
+        va="center",
+        ha="right",
+        weight="bold",
+        **bold,
+        size=16,
+        color=background,
+        ax=ax_child,
+    )
+
+ax_child.set_yticks(
+    [0, 1, 2, 3, 4, 5],
+    labels=labels[::-1],
+    fontweight="bold",
+    color=text_color,
+    **bold,
+    size=16,
+)
+
+fig_text(
+    x=0.7,
+    y=0.39,
+    ha="center",
+    va="bottom",
+    s="Share of amount of shops",
+    weight="bold",
+    size=18,
+    zorder=20,
+    color=text_color,
+    **bold,
+)
+
+fig_text(
+    x=0.5,
+    y=0.88,
+    va="bottom",
+    ha="center",
+    s="How many shops are within a 20 minute roundtrip walk in Utrecht NL",
+    weight="bold",
+    size=40,
+    color=text_color,
+    **bold,
+)
+
+fig_text(
+    x=0.5,
+    y=0.10,
+    s="sources:\nVisualisation:Sebastiaan Broekema\nOpen street map© for building polygons, KvK for shop locations Walking distances calculated by isochrone distances using open route service.",
+    size=16,
+    color=text_color,
+    ha="center",
+    **regular,
+)
+
+ax_child.set_facecolor(background)
+fig.set_facecolor(background)
+ax.set_facecolor(background)43:T41cf,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">regular </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "font"</span><span style="color:#24292E">: load_font(</span></span>
+<span class="line"><span style="color:#032F62">        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-Regular.ttf?raw=true"</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">bold </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "font"</span><span style="color:#24292E">: load_font(</span></span>
+<span class="line"><span style="color:#032F62">        "https://github.com/hafontia-zz/Assistant/blob/master/Fonts/TTF/Assistant-ExtraBold.ttf?raw=true"</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">15</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#6A737D"># remove the axis of the main map</span></span>
+<span class="line"><span style="color:#24292E">ax.axis(</span><span style="color:#032F62">"off"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">utrecht.plot(</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    legend</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">utrecht.color,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the background rectangle so the bar graph</span></span>
+<span class="line"><span style="color:#6A737D"># is fully readable</span></span>
+<span class="line"><span style="color:#24292E">rect </span><span style="color:#D73A49">=</span><span style="color:#24292E"> patches.Rectangle(</span></span>
+<span class="line"><span style="color:#24292E">    (</span><span style="color:#005CC5">0.60</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#005CC5">    0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    facecolor</span><span style="color:#D73A49">=</span><span style="color:#24292E">background,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax.transAxes,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.add_patch(rect)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_child </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.inset_axes(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0.65</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.175</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.175</span><span style="color:#24292E">], </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig.transFigure</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_child.barh(</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_frame.quantile_values.astype(</span><span style="color:#005CC5">str</span><span style="color:#24292E">).index,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_frame[</span><span style="color:#032F62">"count"</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_frame.color,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">sns.despine(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax_child, </span><span style="color:#E36209">left</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">bottom</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_child.tick_params(</span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">labelbottom</span><span style="color:#D73A49">=</span><span style="color:#032F62">"off"</span><span style="color:#24292E">, </span><span style="color:#E36209">labelsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_child.set_xticklabels([], </span><span style="color:#D73A49">**</span><span style="color:#24292E">regular)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, count </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(bar_frame[</span><span style="color:#032F62">"count"</span><span style="color:#24292E">]):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        count,</span></span>
+<span class="line"><span style="color:#24292E">        i,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">(count </span><span style="color:#D73A49">/</span><span style="color:#24292E"> total_buildings) </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 100</span><span style="color:#D73A49">:,.2f</span><span style="color:#005CC5">}</span><span style="color:#032F62">% "</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"right"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#D73A49">        **</span><span style="color:#24292E">bold,</span></span>
+<span class="line"><span style="color:#E36209">        size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">background,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax_child,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_child.set_yticks(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">labels[::</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">bold,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.39</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Share of amount of shops"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">18</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">20</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">bold,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.88</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"How many shops are within a 20 minute roundtrip walk in Utrecht NL"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">40</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">bold,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"sources:</span><span style="color:#005CC5">\n</span><span style="color:#032F62">Visualisation:Sebastiaan Broekema</span><span style="color:#005CC5">\n</span><span style="color:#032F62">Open street map© for building polygons, KvK for shop locations Walking distances calculated by isochrone distances using open route service."</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">regular,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax_child.set_facecolor(background)</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(background)</span></span></code></pre>39:["$","$L29","notebook-cell-6",{"index":6,"code":"$42","highlighted":"$43","interactive":false,"hasChart":true,"intro":"$L44","output":"$L45"}]
+3a:["$","h2","h2-7",{"children":"Going further"}]
+3b:["$","p","p-8",{"children":"You might be interested in:"}]
+3c:["$","ul","ul-2",{"children":["\n",["$","li","li-0",{"children":["The ",["$","a","a-0",{"href":"https://python-graph-gallery.com/map/","children":"map section"}]]}],"\n",["$","li","li-1",{"children":["The ",["$","a","a-0",{"href":"https://python-graph-gallery.com/choropleth-map/","children":"choropleth map section"}]]}],"\n",["$","li","li-2",{"children":["The ",["$","a","a-0",{"href":"https://python-graph-gallery.com/hexbin-map/","children":"hexbin map section"}]]}],"\n"]}]
+40:[["$","p","p-0",{"children":["I want to make a bar graph that functions as a legend. This way, the legend not only explains the colors but also encodes additional information.",["$","br","br-0",{}],"\nThe bar graph will show the percentage of buildings that have a certain number of shops within a 20-minute round-trip walk."]}],["$","p","p-1",{"children":["To achieve this, we will insert a child axis into the plot, where we’ll create the bar graph.",["$","br","br-0",{}],"\nSince this is the first time we’re adding text to the graph, we will load the ",["$","strong","strong-0",{"children":"Assistant"}]," font using ",["$","code","code-0",{"children":"pyfonts"}],". We’ll use both the regular and bold styles."]}],["$","p","p-2",{"children":["Next, we will create the DataFrame that serves as input for the bar graph.",["$","br","br-0",{}],"\nAfter that, we will add a child axis into the main plot where the bar graph will be drawn."]}]]
+41:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-polygon-map-to-compare-distances/output-4.png","alt":"Beyond the choropleth: a polygon map","width":1433,"height":1198,"loading":"lazy","decoding":"async"}]}]]
+44:[["$","p","p-0",{"children":"Finally, we will add some finishing touches:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":"Add a title to the graph."}],"\n",["$","li","li-1",{"children":"The labels for the bar chart are overlapping some of the small towns, so we’ll add a small rectangle in that part of the graph to make the labels easier on the eyes."}],"\n",["$","li","li-2",{"children":"Add some information about who made the graph and attribution for the data."}],"\n",["$","li","li-3",{"children":"Save the graph at 1200 DPI so we can view it in very high detail."}],"\n",["$","li","li-4",{"children":"Remove the X and Y axes from the main map."}],"\n"]}]]
+45:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-polygon-map-to-compare-distances/output-5.png","alt":"Beyond the choropleth: a polygon map","width":1754,"height":1327,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

@@ -1,0 +1,1032 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Mario Kart 64 World Records with Python and Matplotlib"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>A highly customized lollipop chart showing world records for the Mario Kart 64 racing game on the Nintendo 64. Built with Python and Matplotlib. This blogpost will guide you through a very custom plot with Matplotlib, including custm fonts, custom scales, custom legends, and more!</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/lollipop-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Lollipop section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/lollipop.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-lollipop-plot-with-python-mario-kart-64-world-records","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Mario Kart 64 World Records with Python and Matplotlib"}],["$","meta","1",{"name":"description","content":"This post explains how to build a highly customized lollipop plot with Matplotlib. Step by step code snippets with explanations are provided."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, matplotlib, lollipop, custom"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-lollipop-plot-with-python-mario-kart-64-world-records/"}],["$","meta","6",{"property":"og:title","content":"Mario Kart 64 World Records with Python and Matplotlib"}],["$","meta","7",{"property":"og:description","content":"This post explains how to build a highly customized lollipop plot with Matplotlib. Step by step code snippets with explanations are provided."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Mario Kart 64 World Records with Python and Matplotlib"}],["$","meta","13",{"name":"twitter:description","content":"This post explains how to build a highly customized lollipop plot with Matplotlib. Step by step code snippets with explanations are provided."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+25:I[44110,["$3","$4","$5","$6","$d"],"default"]
+26:I[59351,["$3","$4","$5","$6","$d"],"default"]
+27:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T2347,fig, ax = plt.subplots(figsize = (15, 10))
+
+# Add segments ---------------------------------------------------
+# Dotted line connection shortcut yes/no
+ax.hlines(y="track", xmin="yes", xmax="no", color=GREY75, ls=":", data=df_connect)
+
+# Segment when shortcut==yes
+# First time we use the colormap and the normalization
+norm_diff = mc.Normalize(vmin=0, vmax=250)
+color = colormap_orange(norm_diff(df_shortcut["diff"].values))
+ax.hlines(y="track", xmin="min", xmax="max", color=color, lw=5, data=df_shortcut)
+
+# Segment when shortcut==no. Note we are overlapping lineranges
+# We use the same normalization scale.
+color = colormap_orange(norm_diff(df_longdist["diff"].values))
+ax.hlines(y="track", xmin="min", xmax="max", color=color, lw=4, data=df_longdist)
+ax.hlines(y="track", xmin="min", xmax="max", color=WHITE, lw=2, data=df_longdist)
+
+
+# Add dots -------------------------------------------------------
+## Dots when shortcut==yes – first record
+# zorder is added to ensure dots are on top
+ax.scatter(x="max", y="track", s=200, color=GREY65, edgecolors=GREY65, lw=2.5, zorder=2, data=df_shortcut)
+
+## Dots when shortcut==yes – latest record
+# This time we normalize using the range of years in the data, and use blue colormap
+norm_year = mc.Normalize(df_shortcut["year"].min(), df_shortcut["year"].max())
+color = colormap_blue(norm_year(df_shortcut["year"].values))
+ax.scatter(x="min", y="track", s=160, color=color, edgecolors=color, lw=2, zorder=2, data=df_shortcut)
+
+## Dots shortcut==no – first record
+color = colormap_blue(norm_year(df_longdist["year"].values))
+ax.scatter(x="min", y="track", s=120, color=WHITE, edgecolors=color, lw=2, zorder=2, data=df_longdist)
+
+## Dots shortcut==no – latest record
+ax.scatter(x="max", y="track", s=120, color=WHITE, edgecolors=GREY65, lw=2, zorder=2, data=df_longdist)
+
+
+# Add labels on the left side of the lollipops -------------------
+# Annotations for tracks in df_shortcut
+for row in range(df_shortcut.shape[0]):
+     ax.text(
+        df_shortcut["min"][row] - 7, 
+        df_shortcut["track"][row], 
+        df_shortcut["track"][row], 
+        ha="right", 
+        va="center",
+        size=16, 
+        color="black",
+        fontname="Atlantis"
+    )
+
+# Annotations for df_longdist, not in df_shortcut
+for row in range(df_longdist.shape[0]):
+    if df_longdist["track"][row] not in df_shortcut["track"].values:
+        ax.text(
+            df_longdist["min"][row] - 7, 
+            df_longdist["track"][row], 
+            df_longdist["track"][row], 
+            ha="right", 
+            va="center",
+            size=17,
+            color="black",
+            fontname="Atlantis",
+        )
+
+# Add labels on top of the first row of lollipops ----------------
+# These labels are used to give information about the meaning of
+# the different dots without having to use a legend.
+
+# Label dots when shortcut==yes
+df_shortcut_wario = df_shortcut.query("track == 'Wario Stadium'")
+ax.text(
+    df_shortcut_wario["min"], 
+    df_shortcut_wario["track"], 
+    "Most recent record\nwith shortcuts\n", 
+    color=BLUE,
+    ma="center",
+    va="bottom",
+    ha="center",
+    size=9,
+    fontname="Overpass"
+)
+ax.text(
+    df_shortcut_wario["max"], 
+    df_shortcut_wario["track"], 
+    "First record\nwith shortcuts\n", 
+    color=GREY50,
+    ma="center",
+    va="bottom",
+    ha="center",
+    size=9,
+    fontname="Overpass"
+)
+
+# Label dots when shortcut==no
+df_longdist_wario = df_longdist.query("track == 'Wario Stadium'")
+
+ax.text(
+    df_longdist_wario["min"] - 10, 
+    df_longdist_wario["track"], 
+    "Most recent record\nw/o shortcuts\n", 
+    color=BLUE,
+    ma="center",
+    va="bottom",
+    ha="center",
+    size=9,
+    fontname="Overpass"
+)
+ax.text(
+    df_longdist_wario["max"] + 10, 
+    df_longdist_wario["track"], 
+    "First record\nw/o shortcuts\n", 
+    color=GREY50,
+    ma="center",
+    va="bottom",
+    ha="center",
+    size=9,
+    fontname="Overpass"
+)
+
+# Customize the layout -------------------------------------------
+
+# Hide spines
+ax.spines["left"].set_visible(False)
+ax.spines["right"].set_visible(False)
+ax.spines["top"].set_visible(False)
+ax.spines["bottom"].set_visible(False)
+
+# Hide y labels
+ax.yaxis.set_visible(False)
+
+# Customize x ticks
+# * Remove x axis ticks 
+# * Put labels on both bottom and and top
+# * Customize the tick labels. Only the first has the "seconds" appended.
+ax.tick_params(axis="x", bottom=True, top=True, labelbottom=True, labeltop=True, length=0)
+xticks = np.linspace(0, 400, num=9, dtype=int).tolist()
+ax.set_xlim(-60, 400)
+ax.set_xticks(xticks)
+ax.set_xticklabels(["0 seconds"] + xticks[1:], fontname="Hydrophilia Iced", color=GREY40, size=9)
+
+# Set background color for the subplot.
+ax.set_facecolor(WHITE)
+
+
+# Add thin vertical lines to serve as guide
+# 'zorder=0' is imoprtant to they stay behind other elements in the plot.
+for xtick in xticks:
+    ax.axvline(xtick, color=GREY94, zorder=0)
+
+# Add vertical space to the vertical limit in the plot
+x0, x1, y0, y1 = plt.axis()
+plt.axis((x0, x1, y0, y1 + 0.5));
+
+
+# Add custom legends ---------------------------------------------
+
+# Legend for time difference. 
+
+# Recall the 'norm_diff()' created above.
+# Create an inset axes with a given width and height.
+cbaxes = inset_axes(
+    ax, width="0.8%", height="44%", loc=3,
+    bbox_to_anchor=(0.025, 0., 1, 1), 
+    bbox_transform=ax.transAxes
+) 
+
+cb = fig.colorbar(
+    ScalarMappable(norm=norm_diff, cmap=colormap_orange), cax=cbaxes, 
+    ticks=[0, 50, 100, 150, 200, 250]
+)
+
+# Remove the outline of the colorbar
+cb.outline.set_visible(False)
+
+# Set label, playing with labelpad to put it in the right place
+cb.set_label(
+    "Time difference between first and most recent record", 
+    labelpad=-45,
+    color=GREY40, 
+    size=10, 
+    fontname="Overpass"
+)
+
+# Remove ticks in the colorbar with 'size=0'
+cb.ax.yaxis.set_tick_params(
+    color=GREY40,
+    size=0
+)
+
+# Add ticklabels at given positions, with custom font and color
+cb.ax.yaxis.set_ticklabels(
+    [0, 50, 100, 150, 200, 250], 
+    fontname="Hydrophilia Iced", 
+    color=GREY40, 
+    size=10
+)
+
+# Legend for year
+
+# We create a custom function to put the Line2D elements into a list
+# that then goes into the 'handle' argument of the 'ax.legend()'
+years = [2016, 2017, 2018, 2019, 2020, 2021]
+def legend_dot(year):
+    line = Line2D(
+        [0], 
+        [0], 
+        marker="o",
+        markersize=10,
+        linestyle="none",
+        color=colormap_blue(norm_year(year)), 
+        label=f"{year}"
+    )
+    return line
+
+# Store the legend in a name because we use it to modify its elements
+years_legend = ax.legend(
+    title="Year of Record",
+    handles=[legend_dot(year) for year in years], 
+    loc=3, # lower left
+    bbox_to_anchor=(0.08, 0, 1, 1),
+    frameon=False
+)
+
+# Set font family, color and size to the elements in the legend
+for text in years_legend.get_texts():
+    text.set_fontfamily("Hydrophilia Iced")
+    text.set_color(GREY40)
+    text.set_fontsize(10)
+
+# Same modifications, but applied to the title.
+legend_title = years_legend.get_title()
+legend_title.set_fontname("Overpass")
+legend_title.set_color(GREY40)
+legend_title.set_fontsize(10)
+
+# The suptitle acts as the main title.
+# Play with 'x' and 'y' to get them in the place you want.
+plt.suptitle(
+    "Let's-a-Go!  You  May  Still  Have  Chances  to  Grab  a  New  World  Record  for  Mario  Kart  64",
+    fontsize=13,
+    fontname="Atlantis Headline",
+    weight="bold",
+    x = 0.457,
+    y = 0.99
+    
+)
+
+subtitle = [
+    "Most world records for Mario Kart 64 were achieved pretty recently (13 in 2020, 10 in 2021). On several tracks, the players considerably improved the time needed to complete three laps when they used shortcuts (Choco Mountain,",
+    "D.K.'s Jungle Parkway, Frappe Snowland, Luigi Raceway, Rainbow Road, Royal Raceway, Toad's Turnpike, Wario Stadium, and Yoshi Valley). Actually, for three out of these tracks the previous records were more than halved since 2020", 
+    "(Luigi Raceway, Rainbow Road, and Toad's Turnpike). Four other tracks still have no records for races with shortcuts (Moo Moo Farm, Koopa Troopa Beach, Banshee Boardwalk, and Bowser's Castle). Are there none or did nobody find", 
+    "them yet? Pretty unrealistic given the fact that since more than 24 years the game is played all around the world—but maybe you're able to find one and obtain a new world record?"
+]
+# And the axis title acts as a subtitle.
+ax.set_title(
+    "\n".join(subtitle),
+    loc="center",
+    ha="center",
+    ma="left",
+    color=GREY40,
+    fontname="Overpass",
+    fontsize=9,
+    pad=20
+)
+
+# Add legend
+fig.text(
+    0.8, .05, "Visualization: Cédric Scherer  •  Data: mkwrs.com/mk64", 
+    fontname="Overpass", 
+    fontsize=12, 
+    color=GREY55, 
+    ha="center"
+)
+
+# Set figure's background color, to match subplot background color.
+fig.patch.set_facecolor(WHITE)
+
+# Finally, save the plot!
+plt.savefig(
+    "mario-kart-64-world-records.png", 
+    facecolor=WHITE, 
+    dpi=300,
+    bbox_inches="tight",
+    pad_inches=0.3
+)f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import numpy as np\nimport pandas as pd\nimport matplotlib.colors as mc\nimport matplotlib.pyplot as plt\n\nfrom matplotlib.cm import ScalarMappable\nfrom matplotlib.lines import Line2D\nfrom mpl_toolkits.axes_grid1.inset_locator import inset_axes\nfrom palettable import cartocolors","df_records = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-05-25/records.csv')\ndf_records.head(3)","# Keep records where type is Three Lap\ndf_rank = df_records.query(\"type == 'Three Lap'\")\n\n# Keep records with the minimum time for each track\ndf_rank = df_rank.loc[df_rank.groupby(\"track\")[\"time\"].idxmin()]\n\n# Sort by descending time\ndf_rank = df_rank.sort_values(\"time\", ascending=False)\n\n# Make \"track\" ordered categorical with order given by descending times\n# This categorical type will be used to sort the tracks in the plot.\ndf_rank[\"track\"] = pd.Categorical(df_rank[\"track\"], ordered=True,  categories=df_rank[\"track\"])","# We call '.reset_index()' to avoid SettingWithCopyWarning\ndf_records_three = df_records.query(\"type == 'Three Lap'\").reset_index() \ndf_records_three[\"year\"] = pd.DatetimeIndex(df_records_three[\"date\"]).year","# First of all, for each track and shortcut, obtain the minimum and maximum\n# value of time. These represent the most recent and first records, respectively.\ndf_connect = df_records_three.groupby([\"track\", \"shortcut\"]).agg(\n    no = (\"time\", min),\n    yes = (\"time\", max)\n).reset_index()\n\n# Next, put it into long format.\n# Each row indicates the track, whether shortcuts were used, \n# if it's the current record, and the time achieved.\ndf_connect = pd.melt(\n    df_connect,\n    id_vars=[\"track\", \"shortcut\"],\n    value_vars=[\"no\", \"yes\"],\n    var_name=\"record\",\n    value_name=\"time\"\n)\n\n# The dotted line goes from the first record without shortcut (the slowest)\n# to the most recent record with shortcut (the fastest)\ndf_connect = df_connect.query(\n    \"(shortcut == 'No' and record == 'no') or (shortcut == 'Yes' and record == 'yes')\"\n)\n\n# Finally it is put in wide format, where there's only one row per track.\ndf_connect = df_connect.pivot_table(index=\"track\", columns=\"record\", values=\"time\").reset_index()","# Long dist refers to records without shortcut\ndf_longdist = df_records_three.query(\"shortcut == 'No'\")\n\n# Only keep observations referring to either the first or the most recent record, by track.\ngrouped = df_longdist.groupby(\"track\")\ndf_longdist = df_longdist.loc[pd.concat([grouped[\"time\"].idxmax(), grouped[\"time\"].idxmin()])]\n\n# Create a 'group' variable that indicates whether the record\n# refers to the first record, the one with maximum time,\n# or to the most recent record, the one with minimum time.\ndf_longdist.loc[grouped[\"time\"].idxmax(), \"group\"] = \"max\"\ndf_longdist.loc[grouped[\"time\"].idxmin(), \"group\"] = \"min\"\n\n# 'year' records the year of the most recent record\ndf_longdist[\"year\"] = df_longdist.groupby(\"track\")['year'].transform(max)\n\n# Put the data in wide format, i.e., one observation per track.\ndf_longdist = df_longdist.pivot_table(index=[\"track\", \"year\"], columns=\"group\", values=\"time\").reset_index()\ndf_longdist[\"diff\"] = df_longdist[\"max\"] - df_longdist[\"min\"]","# Same process than above, but using records where shortcut is \"Yes\"\ndf_shortcut = df_records_three.query(\"shortcut == 'Yes'\")\ngrouped = df_shortcut.groupby(\"track\")\ndf_shortcut = df_shortcut.loc[pd.concat([grouped[\"time\"].idxmax(), grouped[\"time\"].idxmin()])]\ndf_shortcut.loc[grouped[\"time\"].idxmax(), \"group\"] = \"max\"\ndf_shortcut.loc[grouped[\"time\"].idxmin(), \"group\"] = \"min\"\n\ndf_shortcut[\"year\"] = df_shortcut.groupby(\"track\")['year'].transform(max)\ndf_shortcut = df_shortcut.pivot_table(index=[\"track\", \"year\"], columns=\"group\", values=\"time\").reset_index()\ndf_shortcut[\"diff\"] = df_shortcut[\"max\"] - df_shortcut[\"min\"]","tracks_sorted = df_rank[\"track\"].dtype.categories.tolist()","# Sort df_connect\ndf_connect[\"track\"] = df_connect[\"track\"].astype(\"category\")\ndf_connect[\"track\"].cat.set_categories(tracks_sorted, inplace=True)\ndf_connect = df_connect.sort_values(\"track\")\n\n# Sort df_longdist\ndf_longdist[\"track\"] = df_longdist[\"track\"].astype(\"category\")\ndf_longdist[\"track\"].cat.set_categories(tracks_sorted, inplace=True)\ndf_longdist = df_longdist.sort_values(\"track\")\n\n# Sort df_shortcut\ndf_shortcut[\"track\"] = df_shortcut[\"track\"].astype(\"category\")\ndf_shortcut[\"track\"].cat.set_categories(tracks_sorted, inplace=True)\ndf_shortcut = df_shortcut.sort_values(\"track\")","GREY94 = \"#f0f0f0\"\nGREY75 = \"#bfbfbf\"\nGREY65 = \"#a6a6a6\"\nGREY55 = \"#8c8c8c\"\nGREY50 = \"#7f7f7f\"\nGREY40 = \"#666666\"\nLIGHT_BLUE = \"#b4d1d2\"\nDARK_BLUE = \"#242c3c\"\nBLUE = \"#4a5a7b\"\nWHITE = \"#FFFCFC\" # technically not pure white","# We have two colormaps, one for orange and other for blue\ncolormap_orange = cartocolors.sequential.RedOr_5.mpl_colormap\n\n# And we also create a new colormap using \ncolormap_blue = mc.LinearSegmentedColormap.from_list(\"blue\", [LIGHT_BLUE, DARK_BLUE], N=256)","$22"],"children":"$L23"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$Le","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$Le","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$Le","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$Le","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$Le","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$Le","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L24"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L25",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L26",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L27",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+20:true
+29:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2a:T6c9,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.colors </span><span style="color:#D73A49">as</span><span style="color:#24292E"> mc</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.cm </span><span style="color:#D73A49">import</span><span style="color:#24292E"> ScalarMappable</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.lines </span><span style="color:#D73A49">import</span><span style="color:#24292E"> Line2D</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> mpl_toolkits.axes_grid1.inset_locator </span><span style="color:#D73A49">import</span><span style="color:#24292E"> inset_axes</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> palettable </span><span style="color:#D73A49">import</span><span style="color:#24292E"> cartocolors</span></span></code></pre>23:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This page showcases the work of ",["$","a","a-0",{"href":"https://www.cedricscherer.com","children":"Cedric Scherer"}],",\nbuilt for the ",["$","a","a-1",{"href":"https://github.com/rfordatascience/tidytuesday","children":"TidyTuesday"}],"\ninitiative. You can find the original code on his github repository\n",["$","a","a-2",{"href":"https://github.com/z3tt/TidyTuesday/blob/master/R/2021_22_MarioKart.Rmd","children":"here"}],", written in ",["$","a","a-3",{"href":"https://www.r-graph-gallery.com","children":"R"}],"."]}],"\n",["$","p","p-1",{"children":["Thanks to him for accepting sharing his work here! Thanks also to ",["$","a","a-0",{"href":"https://tomicapretto.github.io/","children":"Tomás Capretto"}]," who translated this work from R to Python! 🙏🙏"]}],"\n",["$","p","p-2",{"children":"As a teaser, here is the plot we’re gonna try building:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-lollipop-plot-with-python-mario-kart-64-world-records.png?raw=true","alt":"preview final chart","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Load libraries"}],"\n",["$","p","p-4",{"children":["As always, several libraries are needed in order to build the chart. ",["$","code","code-0",{"children":"numpy"}],", ",["$","code","code-1",{"children":"pandas"}]," and ",["$","code","code-2",{"children":"matplotlib"}]," are pretty usual, but we also need some lesser known libraries like ",["$","code","code-3",{"children":"palettable"}]," to get some nice colors."]}],"\n",["$","$L29","notebook-cell-0",{"index":0,"code":"import numpy as np\nimport pandas as pd\nimport matplotlib.colors as mc\nimport matplotlib.pyplot as plt\n\nfrom matplotlib.cm import ScalarMappable\nfrom matplotlib.lines import Line2D\nfrom mpl_toolkits.axes_grid1.inset_locator import inset_axes\nfrom palettable import cartocolors","highlighted":"$2a","interactive":false,"hasChart":false}],"\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","$L47","\n","$L48","\n","$L49"]
+24:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+28:null
+b:C
+2b:["$","h2","h2-2",{"children":"Load the dataset"}]
+2c:["$","p","p-5",{"children":["Today we are going to visualize world records for the Mario Kart 64 game. The game consists of 16 individual tracks and world records can be achieved for the fastest ",["$","em","em-0",{"children":"single lap"}]," or the fastest completed race (",["$","strong","strong-0",{"children":"three laps"}],"). Also, through the years, players discovered ",["$","strong","strong-1",{"children":"shortcuts"}]," in many of the tracks.  Fortunately, shortcut and non-shortcut world records are listed separately."]}]
+2d:["$","p","p-6",{"children":["Our chart consists of a double-dumbbell plot where we visualize world record times on Mario Kart 64 with and without shortcuts. The original source of the data is ",["$","a","a-0",{"href":"https://mkwrs.com/","children":"https://mkwrs.com/"}],", which holds time trial world records for all of the Mario Kart games, but we are using the version released for the ",["$","a","a-1",{"href":"https://github.com/rfordatascience/tidytuesday","children":"TidyTuesday"}]," initiative on the week of 2021-05-25. You can find the original announcement and more information about the data ",["$","a","a-2",{"href":"https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-05-25","children":"here"}],"."]}]
+2e:["$","$L29","notebook-cell-1",{"index":1,"code":"df_records = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-05-25/records.csv')\ndf_records.head(3)","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">df_records </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.read_csv(</span><span style=\"color:#032F62\">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-05-25/records.csv'</span><span style=\"color:#24292E\">)</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df_records.head(</span><span style=\"color:#005CC5\">3</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":false,"hasChart":false,"output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"track"}],["$","th","th-2",{"children":"type"}],["$","th","th-3",{"children":"shortcut"}],["$","th","th-4",{"children":"player"}],["$","th","th-5",{"children":"system_played"}],["$","th","th-6",{"children":"date"}],["$","th","th-7",{"children":"time_period"}],["$","th","th-8",{"children":"time"}],["$","th","th-9",{"children":"record_duration"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"Luigi Raceway"}],["$","td","td-1",{"children":"Three Lap"}],["$","td","td-2",{"children":"No"}],["$","td","td-3",{"children":"Salam"}],["$","td","td-4",{"children":"NTSC"}],["$","td","td-5",{"children":"1997-02-15"}],["$","td","td-6",{"children":"2M 12.99S"}],["$","td","td-7",{"children":"132.99"}],["$","td","td-8",{"children":"1"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"Luigi Raceway"}],["$","td","td-1",{"children":"Three Lap"}],["$","td","td-2",{"children":"No"}],["$","td","td-3",{"children":"Booth"}],["$","td","td-4",{"children":"NTSC"}],["$","td","td-5",{"children":"1997-02-16"}],["$","td","td-6",{"children":"2M 9.99S"}],["$","td","td-7",{"children":"129.99"}],["$","td","td-8",{"children":"0"}]]}]]}]]}],"\n"]}]}]]}]
+2f:["$","br","br-0",{}]
+30:["$","br","br-1",{}]
+31:["$","br","br-2",{}]
+32:["$","br","br-3",{}]
+33:["$","p","p-7",{"children":["From all the columns in the data, we will only use ",["$","code","code-0",{"children":"track"}],", ",["$","code","code-1",{"children":"type"}],", ",["$","code","code-2",{"children":"shortcut"}],", ",["$","code","code-3",{"children":"date"}],", and ",["$","code","code-4",{"children":"time"}],"."]}]
+34:["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","code","code-0",{"children":"track"}]," indicates the name of the track"]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"type"}]," tells us whether the record is for single lap or a complete race"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"shortcut"}]," is a yes/no variable that identifies records where a shortcut was used"]}],"\n",["$","li","li-3",{"children":[["$","code","code-0",{"children":"date"}]," represents the date where the record was achieved"]}],"\n",["$","li","li-4",{"children":[["$","code","code-0",{"children":"time"}]," indicates how many seconds it took to complete the track"]}],"\n"]}]
+35:["$","h2","h2-3",{"children":"Prepare the dataset"}]
+36:["$","p","p-8",{"children":["Today's visualization is based on records for complete races only. Our first step is to create a ",["$","code","code-0",{"children":"pandas.DataFrame"}]," called ",["$","code","code-1",{"children":"df_rank"}]," that keeps current world records for every track."]}]
+4a:T970,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Keep records where type is Three Lap</span></span>
+<span class="line"><span style="color:#24292E">df_rank </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_records.query(</span><span style="color:#032F62">"type == 'Three Lap'"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Keep records with the minimum time for each track</span></span>
+<span class="line"><span style="color:#24292E">df_rank </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_rank.loc[df_rank.groupby(</span><span style="color:#032F62">"track"</span><span style="color:#24292E">)[</span><span style="color:#032F62">"time"</span><span style="color:#24292E">].idxmin()]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Sort by descending time</span></span>
+<span class="line"><span style="color:#24292E">df_rank </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_rank.sort_values(</span><span style="color:#032F62">"time"</span><span style="color:#24292E">, </span><span style="color:#E36209">ascending</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Make "track" ordered categorical with order given by descending times</span></span>
+<span class="line"><span style="color:#6A737D"># This categorical type will be used to sort the tracks in the plot.</span></span>
+<span class="line"><span style="color:#24292E">df_rank[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.Categorical(df_rank[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">], </span><span style="color:#E36209">ordered</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,  </span><span style="color:#E36209">categories</span><span style="color:#D73A49">=</span><span style="color:#24292E">df_rank[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">])</span></span></code></pre>37:["$","$L29","notebook-cell-2",{"index":2,"code":"# Keep records where type is Three Lap\ndf_rank = df_records.query(\"type == 'Three Lap'\")\n\n# Keep records with the minimum time for each track\ndf_rank = df_rank.loc[df_rank.groupby(\"track\")[\"time\"].idxmin()]\n\n# Sort by descending time\ndf_rank = df_rank.sort_values(\"time\", ascending=False)\n\n# Make \"track\" ordered categorical with order given by descending times\n# This categorical type will be used to sort the tracks in the plot.\ndf_rank[\"track\"] = pd.Categorical(df_rank[\"track\"], ordered=True,  categories=df_rank[\"track\"])","highlighted":"$4a","interactive":false,"hasChart":false}]
+38:["$","p","p-9",{"children":["Then we have ",["$","code","code-0",{"children":"df_records_three"}]," which holds all the records, no matter they were beaten or not. It is used to derive other data frames that used in our chart."]}]
+39:["$","$L29","notebook-cell-3",{"index":3,"code":"# We call '.reset_index()' to avoid SettingWithCopyWarning\ndf_records_three = df_records.query(\"type == 'Three Lap'\").reset_index() \ndf_records_three[\"year\"] = pd.DatetimeIndex(df_records_three[\"date\"]).year","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># We call '.reset_index()' to avoid SettingWithCopyWarning</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df_records_three </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> df_records.query(</span><span style=\"color:#032F62\">\"type == 'Three Lap'\"</span><span style=\"color:#24292E\">).reset_index() </span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df_records_three[</span><span style=\"color:#032F62\">\"year\"</span><span style=\"color:#24292E\">] </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.DatetimeIndex(df_records_three[</span><span style=\"color:#032F62\">\"date\"</span><span style=\"color:#24292E\">]).year</span></span></code></pre>","interactive":false,"hasChart":false}]
+3a:["$","p","p-10",{"children":[["$","code","code-0",{"children":"df_connect"}]," is the first data frame we derive. This one is used to add a dotted line that connects record times with and without shortcuts and will serve as a reference for their difference."]}]
+4b:T1168,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># First of all, for each track and shortcut, obtain the minimum and maximum</span></span>
+<span class="line"><span style="color:#6A737D"># value of time. These represent the most recent and first records, respectively.</span></span>
+<span class="line"><span style="color:#24292E">df_connect </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_records_three.groupby([</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#032F62">"shortcut"</span><span style="color:#24292E">]).agg(</span></span>
+<span class="line"><span style="color:#E36209">    no</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#032F62">"time"</span><span style="color:#24292E">, </span><span style="color:#005CC5">min</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    yes</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#032F62">"time"</span><span style="color:#24292E">, </span><span style="color:#005CC5">max</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">).reset_index()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Next, put it into long format.</span></span>
+<span class="line"><span style="color:#6A737D"># Each row indicates the track, whether shortcuts were used, </span></span>
+<span class="line"><span style="color:#6A737D"># if it's the current record, and the time achieved.</span></span>
+<span class="line"><span style="color:#24292E">df_connect </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.melt(</span></span>
+<span class="line"><span style="color:#24292E">    df_connect,</span></span>
+<span class="line"><span style="color:#E36209">    id_vars</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#032F62">"shortcut"</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    value_vars</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">"no"</span><span style="color:#24292E">, </span><span style="color:#032F62">"yes"</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    var_name</span><span style="color:#D73A49">=</span><span style="color:#032F62">"record"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    value_name</span><span style="color:#D73A49">=</span><span style="color:#032F62">"time"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># The dotted line goes from the first record without shortcut (the slowest)</span></span>
+<span class="line"><span style="color:#6A737D"># to the most recent record with shortcut (the fastest)</span></span>
+<span class="line"><span style="color:#24292E">df_connect </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_connect.query(</span></span>
+<span class="line"><span style="color:#032F62">    "(shortcut == 'No' and record == 'no') or (shortcut == 'Yes' and record == 'yes')"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Finally it is put in wide format, where there's only one row per track.</span></span>
+<span class="line"><span style="color:#24292E">df_connect </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_connect.pivot_table(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">"record"</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">"time"</span><span style="color:#24292E">).reset_index()</span></span></code></pre>3b:["$","$L29","notebook-cell-4",{"index":4,"code":"# First of all, for each track and shortcut, obtain the minimum and maximum\n# value of time. These represent the most recent and first records, respectively.\ndf_connect = df_records_three.groupby([\"track\", \"shortcut\"]).agg(\n    no = (\"time\", min),\n    yes = (\"time\", max)\n).reset_index()\n\n# Next, put it into long format.\n# Each row indicates the track, whether shortcuts were used, \n# if it's the current record, and the time achieved.\ndf_connect = pd.melt(\n    df_connect,\n    id_vars=[\"track\", \"shortcut\"],\n    value_vars=[\"no\", \"yes\"],\n    var_name=\"record\",\n    value_name=\"time\"\n)\n\n# The dotted line goes from the first record without shortcut (the slowest)\n# to the most recent record with shortcut (the fastest)\ndf_connect = df_connect.query(\n    \"(shortcut == 'No' and record == 'no') or (shortcut == 'Yes' and record == 'yes')\"\n)\n\n# Finally it is put in wide format, where there's only one row per track.\ndf_connect = df_connect.pivot_table(index=\"track\", columns=\"record\", values=\"time\").reset_index()","highlighted":"$4b","interactive":false,"hasChart":false}]
+3c:["$","p","p-11",{"children":["We also have ",["$","code","code-0",{"children":"df_longdist"}]," and ",["$","code","code-1",{"children":"df_shortcut"}],". Note each data frame consists of five columns: ",["$","code","code-2",{"children":"track"}],", ",["$","code","code-3",{"children":"year"}],", ",["$","code","code-4",{"children":"max"}],", ",["$","code","code-5",{"children":"min"}],", and ",["$","code","code-6",{"children":"diff"}],". ",["$","code","code-7",{"children":"year"}]," refers to the year where the current record was achieved, ",["$","code","code-8",{"children":"max"}]," is the completetion time for the first record and ",["$","code","code-9",{"children":"min"}]," is the time for the current record. ",["$","code","code-10",{"children":"diff"}]," is simply the difference between ",["$","code","code-11",{"children":"max"}]," and ",["$","code","code-12",{"children":"min"}],", i.e. a measurement of how much the first record was improved. ",["$","code","code-13",{"children":"df_shortcut"}]," and ",["$","code","code-14",{"children":"df_longdist"}]," refer to records with and without shortcuts, respectively."]}]
+4c:T10e2,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Long dist refers to records without shortcut</span></span>
+<span class="line"><span style="color:#24292E">df_longdist </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_records_three.query(</span><span style="color:#032F62">"shortcut == 'No'"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Only keep observations referring to either the first or the most recent record, by track.</span></span>
+<span class="line"><span style="color:#24292E">grouped </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_longdist.groupby(</span><span style="color:#032F62">"track"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_longdist </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_longdist.loc[pd.concat([grouped[</span><span style="color:#032F62">"time"</span><span style="color:#24292E">].idxmax(), grouped[</span><span style="color:#032F62">"time"</span><span style="color:#24292E">].idxmin()])]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create a 'group' variable that indicates whether the record</span></span>
+<span class="line"><span style="color:#6A737D"># refers to the first record, the one with maximum time,</span></span>
+<span class="line"><span style="color:#6A737D"># or to the most recent record, the one with minimum time.</span></span>
+<span class="line"><span style="color:#24292E">df_longdist.loc[grouped[</span><span style="color:#032F62">"time"</span><span style="color:#24292E">].idxmax(), </span><span style="color:#032F62">"group"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "max"</span></span>
+<span class="line"><span style="color:#24292E">df_longdist.loc[grouped[</span><span style="color:#032F62">"time"</span><span style="color:#24292E">].idxmin(), </span><span style="color:#032F62">"group"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "min"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># 'year' records the year of the most recent record</span></span>
+<span class="line"><span style="color:#24292E">df_longdist[</span><span style="color:#032F62">"year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_longdist.groupby(</span><span style="color:#032F62">"track"</span><span style="color:#24292E">)[</span><span style="color:#032F62">'year'</span><span style="color:#24292E">].transform(</span><span style="color:#005CC5">max</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Put the data in wide format, i.e., one observation per track.</span></span>
+<span class="line"><span style="color:#24292E">df_longdist </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_longdist.pivot_table(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#032F62">"year"</span><span style="color:#24292E">], </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">"group"</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">"time"</span><span style="color:#24292E">).reset_index()</span></span>
+<span class="line"><span style="color:#24292E">df_longdist[</span><span style="color:#032F62">"diff"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_longdist[</span><span style="color:#032F62">"max"</span><span style="color:#24292E">] </span><span style="color:#D73A49">-</span><span style="color:#24292E"> df_longdist[</span><span style="color:#032F62">"min"</span><span style="color:#24292E">]</span></span></code></pre>3d:["$","$L29","notebook-cell-5",{"index":5,"code":"# Long dist refers to records without shortcut\ndf_longdist = df_records_three.query(\"shortcut == 'No'\")\n\n# Only keep observations referring to either the first or the most recent record, by track.\ngrouped = df_longdist.groupby(\"track\")\ndf_longdist = df_longdist.loc[pd.concat([grouped[\"time\"].idxmax(), grouped[\"time\"].idxmin()])]\n\n# Create a 'group' variable that indicates whether the record\n# refers to the first record, the one with maximum time,\n# or to the most recent record, the one with minimum time.\ndf_longdist.loc[grouped[\"time\"].idxmax(), \"group\"] = \"max\"\ndf_longdist.loc[grouped[\"time\"].idxmin(), \"group\"] = \"min\"\n\n# 'year' records the year of the most recent record\ndf_longdist[\"year\"] = df_longdist.groupby(\"track\")['year'].transform(max)\n\n# Put the data in wide format, i.e., one observation per track.\ndf_longdist = df_longdist.pivot_table(index=[\"track\", \"year\"], columns=\"group\", values=\"time\").reset_index()\ndf_longdist[\"diff\"] = df_longdist[\"max\"] - df_longdist[\"min\"]","highlighted":"$4c","interactive":false,"hasChart":false}]
+4d:Tdb8,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Same process than above, but using records where shortcut is "Yes"</span></span>
+<span class="line"><span style="color:#24292E">df_shortcut </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_records_three.query(</span><span style="color:#032F62">"shortcut == 'Yes'"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">grouped </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_shortcut.groupby(</span><span style="color:#032F62">"track"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_shortcut </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_shortcut.loc[pd.concat([grouped[</span><span style="color:#032F62">"time"</span><span style="color:#24292E">].idxmax(), grouped[</span><span style="color:#032F62">"time"</span><span style="color:#24292E">].idxmin()])]</span></span>
+<span class="line"><span style="color:#24292E">df_shortcut.loc[grouped[</span><span style="color:#032F62">"time"</span><span style="color:#24292E">].idxmax(), </span><span style="color:#032F62">"group"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "max"</span></span>
+<span class="line"><span style="color:#24292E">df_shortcut.loc[grouped[</span><span style="color:#032F62">"time"</span><span style="color:#24292E">].idxmin(), </span><span style="color:#032F62">"group"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "min"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">df_shortcut[</span><span style="color:#032F62">"year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_shortcut.groupby(</span><span style="color:#032F62">"track"</span><span style="color:#24292E">)[</span><span style="color:#032F62">'year'</span><span style="color:#24292E">].transform(</span><span style="color:#005CC5">max</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_shortcut </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_shortcut.pivot_table(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#032F62">"year"</span><span style="color:#24292E">], </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">"group"</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">"time"</span><span style="color:#24292E">).reset_index()</span></span>
+<span class="line"><span style="color:#24292E">df_shortcut[</span><span style="color:#032F62">"diff"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_shortcut[</span><span style="color:#032F62">"max"</span><span style="color:#24292E">] </span><span style="color:#D73A49">-</span><span style="color:#24292E"> df_shortcut[</span><span style="color:#032F62">"min"</span><span style="color:#24292E">]</span></span></code></pre>3e:["$","$L29","notebook-cell-6",{"index":6,"code":"# Same process than above, but using records where shortcut is \"Yes\"\ndf_shortcut = df_records_three.query(\"shortcut == 'Yes'\")\ngrouped = df_shortcut.groupby(\"track\")\ndf_shortcut = df_shortcut.loc[pd.concat([grouped[\"time\"].idxmax(), grouped[\"time\"].idxmin()])]\ndf_shortcut.loc[grouped[\"time\"].idxmax(), \"group\"] = \"max\"\ndf_shortcut.loc[grouped[\"time\"].idxmin(), \"group\"] = \"min\"\n\ndf_shortcut[\"year\"] = df_shortcut.groupby(\"track\")['year'].transform(max)\ndf_shortcut = df_shortcut.pivot_table(index=[\"track\", \"year\"], columns=\"group\", values=\"time\").reset_index()\ndf_shortcut[\"diff\"] = df_shortcut[\"max\"] - df_shortcut[\"min\"]","highlighted":"$4d","interactive":false,"hasChart":false}]
+3f:["$","p","p-12",{"children":["All the datasets are sorted according to the order of ",["$","code","code-0",{"children":"\"track\""}]," in ",["$","code","code-1",{"children":"df_rank"}],". To do so, we first set the type of the ",["$","code","code-2",{"children":"\"track\""}]," variable equal to the categorical type in ",["$","code","code-3",{"children":"df_rank"}],", and then sort according to its levels."]}]
+40:["$","$L29","notebook-cell-7",{"index":7,"code":"tracks_sorted = df_rank[\"track\"].dtype.categories.tolist()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">tracks_sorted </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> df_rank[</span><span style=\"color:#032F62\">\"track\"</span><span style=\"color:#24292E\">].dtype.categories.tolist()</span></span></code></pre>","interactive":false,"hasChart":false}]
+4e:Td2b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Sort df_connect</span></span>
+<span class="line"><span style="color:#24292E">df_connect[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_connect[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">].astype(</span><span style="color:#032F62">"category"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_connect[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">].cat.set_categories(tracks_sorted, </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_connect </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_connect.sort_values(</span><span style="color:#032F62">"track"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Sort df_longdist</span></span>
+<span class="line"><span style="color:#24292E">df_longdist[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_longdist[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">].astype(</span><span style="color:#032F62">"category"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_longdist[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">].cat.set_categories(tracks_sorted, </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_longdist </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_longdist.sort_values(</span><span style="color:#032F62">"track"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Sort df_shortcut</span></span>
+<span class="line"><span style="color:#24292E">df_shortcut[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_shortcut[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">].astype(</span><span style="color:#032F62">"category"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_shortcut[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">].cat.set_categories(tracks_sorted, </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_shortcut </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_shortcut.sort_values(</span><span style="color:#032F62">"track"</span><span style="color:#24292E">)</span></span></code></pre>41:["$","$L29","notebook-cell-8",{"index":8,"code":"# Sort df_connect\ndf_connect[\"track\"] = df_connect[\"track\"].astype(\"category\")\ndf_connect[\"track\"].cat.set_categories(tracks_sorted, inplace=True)\ndf_connect = df_connect.sort_values(\"track\")\n\n# Sort df_longdist\ndf_longdist[\"track\"] = df_longdist[\"track\"].astype(\"category\")\ndf_longdist[\"track\"].cat.set_categories(tracks_sorted, inplace=True)\ndf_longdist = df_longdist.sort_values(\"track\")\n\n# Sort df_shortcut\ndf_shortcut[\"track\"] = df_shortcut[\"track\"].astype(\"category\")\ndf_shortcut[\"track\"].cat.set_categories(tracks_sorted, inplace=True)\ndf_shortcut = df_shortcut.sort_values(\"track\")","highlighted":"$4e","interactive":false,"hasChart":false}]
+42:["$","h2","h2-4",{"children":"Start building the chart"}]
+43:["$","p","p-13",{"children":"This highly customized plot demands a lot of code. It is a good practice to define the colors at the very beginning so we can refer to them by name."}]
+4f:T68b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#005CC5">GREY94</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#f0f0f0"</span></span>
+<span class="line"><span style="color:#005CC5">GREY75</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#bfbfbf"</span></span>
+<span class="line"><span style="color:#005CC5">GREY65</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#a6a6a6"</span></span>
+<span class="line"><span style="color:#005CC5">GREY55</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#8c8c8c"</span></span>
+<span class="line"><span style="color:#005CC5">GREY50</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#7f7f7f"</span></span>
+<span class="line"><span style="color:#005CC5">GREY40</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#666666"</span></span>
+<span class="line"><span style="color:#005CC5">LIGHT_BLUE</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#b4d1d2"</span></span>
+<span class="line"><span style="color:#005CC5">DARK_BLUE</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#242c3c"</span></span>
+<span class="line"><span style="color:#005CC5">BLUE</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#4a5a7b"</span></span>
+<span class="line"><span style="color:#005CC5">WHITE</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#FFFCFC"</span><span style="color:#6A737D"> # technically not pure white</span></span></code></pre>44:["$","$L29","notebook-cell-9",{"index":9,"code":"GREY94 = \"#f0f0f0\"\nGREY75 = \"#bfbfbf\"\nGREY65 = \"#a6a6a6\"\nGREY55 = \"#8c8c8c\"\nGREY50 = \"#7f7f7f\"\nGREY40 = \"#666666\"\nLIGHT_BLUE = \"#b4d1d2\"\nDARK_BLUE = \"#242c3c\"\nBLUE = \"#4a5a7b\"\nWHITE = \"#FFFCFC\" # technically not pure white","highlighted":"$4f","interactive":false,"hasChart":false}]
+45:["$","p","p-14",{"children":["Today we make use of the ",["$","code","code-0",{"children":"palettable"}]," library to make use of the ",["$","code","code-1",{"children":"RedOr"}]," palette, which is the one used in the original plot. We will also make use of the ",["$","code","code-2",{"children":"matplotlib.colors.Normalize"}]," class to normalize values into the (0, 1) interval before we pass it to our ",["$","code","code-3",{"children":"colormap"}]," function and ",["$","code","code-4",{"children":"matplotlib.colors.LinearSegmentedColormap"}]," to create a custom colormap for blue colors."]}]
+50:T465,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># We have two colormaps, one for orange and other for blue</span></span>
+<span class="line"><span style="color:#24292E">colormap_orange </span><span style="color:#D73A49">=</span><span style="color:#24292E"> cartocolors.sequential.RedOr_5.mpl_colormap</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># And we also create a new colormap using </span></span>
+<span class="line"><span style="color:#24292E">colormap_blue </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mc.LinearSegmentedColormap.from_list(</span><span style="color:#032F62">"blue"</span><span style="color:#24292E">, [</span><span style="color:#005CC5">LIGHT_BLUE</span><span style="color:#24292E">, </span><span style="color:#005CC5">DARK_BLUE</span><span style="color:#24292E">], </span><span style="color:#E36209">N</span><span style="color:#D73A49">=</span><span style="color:#005CC5">256</span><span style="color:#24292E">)</span></span></code></pre>46:["$","$L29","notebook-cell-10",{"index":10,"code":"# We have two colormaps, one for orange and other for blue\ncolormap_orange = cartocolors.sequential.RedOr_5.mpl_colormap\n\n# And we also create a new colormap using \ncolormap_blue = mc.LinearSegmentedColormap.from_list(\"blue\", [LIGHT_BLUE, DARK_BLUE], N=256)","highlighted":"$50","interactive":false,"hasChart":false}]
+51:T2347,fig, ax = plt.subplots(figsize = (15, 10))
+
+# Add segments ---------------------------------------------------
+# Dotted line connection shortcut yes/no
+ax.hlines(y="track", xmin="yes", xmax="no", color=GREY75, ls=":", data=df_connect)
+
+# Segment when shortcut==yes
+# First time we use the colormap and the normalization
+norm_diff = mc.Normalize(vmin=0, vmax=250)
+color = colormap_orange(norm_diff(df_shortcut["diff"].values))
+ax.hlines(y="track", xmin="min", xmax="max", color=color, lw=5, data=df_shortcut)
+
+# Segment when shortcut==no. Note we are overlapping lineranges
+# We use the same normalization scale.
+color = colormap_orange(norm_diff(df_longdist["diff"].values))
+ax.hlines(y="track", xmin="min", xmax="max", color=color, lw=4, data=df_longdist)
+ax.hlines(y="track", xmin="min", xmax="max", color=WHITE, lw=2, data=df_longdist)
+
+
+# Add dots -------------------------------------------------------
+## Dots when shortcut==yes – first record
+# zorder is added to ensure dots are on top
+ax.scatter(x="max", y="track", s=200, color=GREY65, edgecolors=GREY65, lw=2.5, zorder=2, data=df_shortcut)
+
+## Dots when shortcut==yes – latest record
+# This time we normalize using the range of years in the data, and use blue colormap
+norm_year = mc.Normalize(df_shortcut["year"].min(), df_shortcut["year"].max())
+color = colormap_blue(norm_year(df_shortcut["year"].values))
+ax.scatter(x="min", y="track", s=160, color=color, edgecolors=color, lw=2, zorder=2, data=df_shortcut)
+
+## Dots shortcut==no – first record
+color = colormap_blue(norm_year(df_longdist["year"].values))
+ax.scatter(x="min", y="track", s=120, color=WHITE, edgecolors=color, lw=2, zorder=2, data=df_longdist)
+
+## Dots shortcut==no – latest record
+ax.scatter(x="max", y="track", s=120, color=WHITE, edgecolors=GREY65, lw=2, zorder=2, data=df_longdist)
+
+
+# Add labels on the left side of the lollipops -------------------
+# Annotations for tracks in df_shortcut
+for row in range(df_shortcut.shape[0]):
+     ax.text(
+        df_shortcut["min"][row] - 7, 
+        df_shortcut["track"][row], 
+        df_shortcut["track"][row], 
+        ha="right", 
+        va="center",
+        size=16, 
+        color="black",
+        fontname="Atlantis"
+    )
+
+# Annotations for df_longdist, not in df_shortcut
+for row in range(df_longdist.shape[0]):
+    if df_longdist["track"][row] not in df_shortcut["track"].values:
+        ax.text(
+            df_longdist["min"][row] - 7, 
+            df_longdist["track"][row], 
+            df_longdist["track"][row], 
+            ha="right", 
+            va="center",
+            size=17,
+            color="black",
+            fontname="Atlantis",
+        )
+
+# Add labels on top of the first row of lollipops ----------------
+# These labels are used to give information about the meaning of
+# the different dots without having to use a legend.
+
+# Label dots when shortcut==yes
+df_shortcut_wario = df_shortcut.query("track == 'Wario Stadium'")
+ax.text(
+    df_shortcut_wario["min"], 
+    df_shortcut_wario["track"], 
+    "Most recent record\nwith shortcuts\n", 
+    color=BLUE,
+    ma="center",
+    va="bottom",
+    ha="center",
+    size=9,
+    fontname="Overpass"
+)
+ax.text(
+    df_shortcut_wario["max"], 
+    df_shortcut_wario["track"], 
+    "First record\nwith shortcuts\n", 
+    color=GREY50,
+    ma="center",
+    va="bottom",
+    ha="center",
+    size=9,
+    fontname="Overpass"
+)
+
+# Label dots when shortcut==no
+df_longdist_wario = df_longdist.query("track == 'Wario Stadium'")
+
+ax.text(
+    df_longdist_wario["min"] - 10, 
+    df_longdist_wario["track"], 
+    "Most recent record\nw/o shortcuts\n", 
+    color=BLUE,
+    ma="center",
+    va="bottom",
+    ha="center",
+    size=9,
+    fontname="Overpass"
+)
+ax.text(
+    df_longdist_wario["max"] + 10, 
+    df_longdist_wario["track"], 
+    "First record\nw/o shortcuts\n", 
+    color=GREY50,
+    ma="center",
+    va="bottom",
+    ha="center",
+    size=9,
+    fontname="Overpass"
+)
+
+# Customize the layout -------------------------------------------
+
+# Hide spines
+ax.spines["left"].set_visible(False)
+ax.spines["right"].set_visible(False)
+ax.spines["top"].set_visible(False)
+ax.spines["bottom"].set_visible(False)
+
+# Hide y labels
+ax.yaxis.set_visible(False)
+
+# Customize x ticks
+# * Remove x axis ticks 
+# * Put labels on both bottom and and top
+# * Customize the tick labels. Only the first has the "seconds" appended.
+ax.tick_params(axis="x", bottom=True, top=True, labelbottom=True, labeltop=True, length=0)
+xticks = np.linspace(0, 400, num=9, dtype=int).tolist()
+ax.set_xlim(-60, 400)
+ax.set_xticks(xticks)
+ax.set_xticklabels(["0 seconds"] + xticks[1:], fontname="Hydrophilia Iced", color=GREY40, size=9)
+
+# Set background color for the subplot.
+ax.set_facecolor(WHITE)
+
+
+# Add thin vertical lines to serve as guide
+# 'zorder=0' is imoprtant to they stay behind other elements in the plot.
+for xtick in xticks:
+    ax.axvline(xtick, color=GREY94, zorder=0)
+
+# Add vertical space to the vertical limit in the plot
+x0, x1, y0, y1 = plt.axis()
+plt.axis((x0, x1, y0, y1 + 0.5));
+
+
+# Add custom legends ---------------------------------------------
+
+# Legend for time difference. 
+
+# Recall the 'norm_diff()' created above.
+# Create an inset axes with a given width and height.
+cbaxes = inset_axes(
+    ax, width="0.8%", height="44%", loc=3,
+    bbox_to_anchor=(0.025, 0., 1, 1), 
+    bbox_transform=ax.transAxes
+) 
+
+cb = fig.colorbar(
+    ScalarMappable(norm=norm_diff, cmap=colormap_orange), cax=cbaxes, 
+    ticks=[0, 50, 100, 150, 200, 250]
+)
+
+# Remove the outline of the colorbar
+cb.outline.set_visible(False)
+
+# Set label, playing with labelpad to put it in the right place
+cb.set_label(
+    "Time difference between first and most recent record", 
+    labelpad=-45,
+    color=GREY40, 
+    size=10, 
+    fontname="Overpass"
+)
+
+# Remove ticks in the colorbar with 'size=0'
+cb.ax.yaxis.set_tick_params(
+    color=GREY40,
+    size=0
+)
+
+# Add ticklabels at given positions, with custom font and color
+cb.ax.yaxis.set_ticklabels(
+    [0, 50, 100, 150, 200, 250], 
+    fontname="Hydrophilia Iced", 
+    color=GREY40, 
+    size=10
+)
+
+# Legend for year
+
+# We create a custom function to put the Line2D elements into a list
+# that then goes into the 'handle' argument of the 'ax.legend()'
+years = [2016, 2017, 2018, 2019, 2020, 2021]
+def legend_dot(year):
+    line = Line2D(
+        [0], 
+        [0], 
+        marker="o",
+        markersize=10,
+        linestyle="none",
+        color=colormap_blue(norm_year(year)), 
+        label=f"{year}"
+    )
+    return line
+
+# Store the legend in a name because we use it to modify its elements
+years_legend = ax.legend(
+    title="Year of Record",
+    handles=[legend_dot(year) for year in years], 
+    loc=3, # lower left
+    bbox_to_anchor=(0.08, 0, 1, 1),
+    frameon=False
+)
+
+# Set font family, color and size to the elements in the legend
+for text in years_legend.get_texts():
+    text.set_fontfamily("Hydrophilia Iced")
+    text.set_color(GREY40)
+    text.set_fontsize(10)
+
+# Same modifications, but applied to the title.
+legend_title = years_legend.get_title()
+legend_title.set_fontname("Overpass")
+legend_title.set_color(GREY40)
+legend_title.set_fontsize(10)
+
+# The suptitle acts as the main title.
+# Play with 'x' and 'y' to get them in the place you want.
+plt.suptitle(
+    "Let's-a-Go!  You  May  Still  Have  Chances  to  Grab  a  New  World  Record  for  Mario  Kart  64",
+    fontsize=13,
+    fontname="Atlantis Headline",
+    weight="bold",
+    x = 0.457,
+    y = 0.99
+    
+)
+
+subtitle = [
+    "Most world records for Mario Kart 64 were achieved pretty recently (13 in 2020, 10 in 2021). On several tracks, the players considerably improved the time needed to complete three laps when they used shortcuts (Choco Mountain,",
+    "D.K.'s Jungle Parkway, Frappe Snowland, Luigi Raceway, Rainbow Road, Royal Raceway, Toad's Turnpike, Wario Stadium, and Yoshi Valley). Actually, for three out of these tracks the previous records were more than halved since 2020", 
+    "(Luigi Raceway, Rainbow Road, and Toad's Turnpike). Four other tracks still have no records for races with shortcuts (Moo Moo Farm, Koopa Troopa Beach, Banshee Boardwalk, and Bowser's Castle). Are there none or did nobody find", 
+    "them yet? Pretty unrealistic given the fact that since more than 24 years the game is played all around the world—but maybe you're able to find one and obtain a new world record?"
+]
+# And the axis title acts as a subtitle.
+ax.set_title(
+    "\n".join(subtitle),
+    loc="center",
+    ha="center",
+    ma="left",
+    color=GREY40,
+    fontname="Overpass",
+    fontsize=9,
+    pad=20
+)
+
+# Add legend
+fig.text(
+    0.8, .05, "Visualization: Cédric Scherer  •  Data: mkwrs.com/mk64", 
+    fontname="Overpass", 
+    fontsize=12, 
+    color=GREY55, 
+    ha="center"
+)
+
+# Set figure's background color, to match subplot background color.
+fig.patch.set_facecolor(WHITE)
+
+# Finally, save the plot!
+plt.savefig(
+    "mario-kart-64-world-records.png", 
+    facecolor=WHITE, 
+    dpi=300,
+    bbox_inches="tight",
+    pad_inches=0.3
+)52:Tcd77,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add segments ---------------------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># Dotted line connection shortcut yes/no</span></span>
+<span class="line"><span style="color:#24292E">ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#032F62">"yes"</span><span style="color:#24292E">, </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#032F62">"no"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY75</span><span style="color:#24292E">, </span><span style="color:#E36209">ls</span><span style="color:#D73A49">=</span><span style="color:#032F62">":"</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">df_connect)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Segment when shortcut==yes</span></span>
+<span class="line"><span style="color:#6A737D"># First time we use the colormap and the normalization</span></span>
+<span class="line"><span style="color:#24292E">norm_diff </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mc.Normalize(</span><span style="color:#E36209">vmin</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">vmax</span><span style="color:#D73A49">=</span><span style="color:#005CC5">250</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colormap_orange(norm_diff(df_shortcut[</span><span style="color:#032F62">"diff"</span><span style="color:#24292E">].values))</span></span>
+<span class="line"><span style="color:#24292E">ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#032F62">"min"</span><span style="color:#24292E">, </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#032F62">"max"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">df_shortcut)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Segment when shortcut==no. Note we are overlapping lineranges</span></span>
+<span class="line"><span style="color:#6A737D"># We use the same normalization scale.</span></span>
+<span class="line"><span style="color:#24292E">color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colormap_orange(norm_diff(df_longdist[</span><span style="color:#032F62">"diff"</span><span style="color:#24292E">].values))</span></span>
+<span class="line"><span style="color:#24292E">ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#032F62">"min"</span><span style="color:#24292E">, </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#032F62">"max"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">df_longdist)</span></span>
+<span class="line"><span style="color:#24292E">ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#032F62">"min"</span><span style="color:#24292E">, </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#032F62">"max"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">WHITE</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">df_longdist)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add dots -------------------------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D">## Dots when shortcut==yes – first record</span></span>
+<span class="line"><span style="color:#6A737D"># zorder is added to ensure dots are on top</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"max"</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY65</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolors</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY65</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2.5</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">df_shortcut)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">## Dots when shortcut==yes – latest record</span></span>
+<span class="line"><span style="color:#6A737D"># This time we normalize using the range of years in the data, and use blue colormap</span></span>
+<span class="line"><span style="color:#24292E">norm_year </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mc.Normalize(df_shortcut[</span><span style="color:#032F62">"year"</span><span style="color:#24292E">].min(), df_shortcut[</span><span style="color:#032F62">"year"</span><span style="color:#24292E">].max())</span></span>
+<span class="line"><span style="color:#24292E">color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colormap_blue(norm_year(df_shortcut[</span><span style="color:#032F62">"year"</span><span style="color:#24292E">].values))</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"min"</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">160</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">edgecolors</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">df_shortcut)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">## Dots shortcut==no – first record</span></span>
+<span class="line"><span style="color:#24292E">color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colormap_blue(norm_year(df_longdist[</span><span style="color:#032F62">"year"</span><span style="color:#24292E">].values))</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"min"</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">120</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">WHITE</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolors</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">df_longdist)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">## Dots shortcut==no – latest record</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"max"</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"track"</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">120</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">WHITE</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolors</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY65</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">df_longdist)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add labels on the left side of the lollipops -------------------</span></span>
+<span class="line"><span style="color:#6A737D"># Annotations for tracks in df_shortcut</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> row </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(df_shortcut.shape[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]):</span></span>
+<span class="line"><span style="color:#24292E">     ax.text(</span></span>
+<span class="line"><span style="color:#24292E">        df_shortcut[</span><span style="color:#032F62">"min"</span><span style="color:#24292E">][row] </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 7</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#24292E">        df_shortcut[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">][row], </span></span>
+<span class="line"><span style="color:#24292E">        df_shortcut[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">][row], </span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"right"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Atlantis"</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Annotations for df_longdist, not in df_shortcut</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> row </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(df_longdist.shape[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]):</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> df_longdist[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">][row] </span><span style="color:#D73A49">not</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> df_shortcut[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">].values:</span></span>
+<span class="line"><span style="color:#24292E">        ax.text(</span></span>
+<span class="line"><span style="color:#24292E">            df_longdist[</span><span style="color:#032F62">"min"</span><span style="color:#24292E">][row] </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 7</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#24292E">            df_longdist[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">][row], </span></span>
+<span class="line"><span style="color:#24292E">            df_longdist[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">][row], </span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"right"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">            va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">17</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Atlantis"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add labels on top of the first row of lollipops ----------------</span></span>
+<span class="line"><span style="color:#6A737D"># These labels are used to give information about the meaning of</span></span>
+<span class="line"><span style="color:#6A737D"># the different dots without having to use a legend.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Label dots when shortcut==yes</span></span>
+<span class="line"><span style="color:#24292E">df_shortcut_wario </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_shortcut.query(</span><span style="color:#032F62">"track == 'Wario Stadium'"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span></span>
+<span class="line"><span style="color:#24292E">    df_shortcut_wario[</span><span style="color:#032F62">"min"</span><span style="color:#24292E">], </span></span>
+<span class="line"><span style="color:#24292E">    df_shortcut_wario[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">], </span></span>
+<span class="line"><span style="color:#032F62">    "Most recent record</span><span style="color:#005CC5">\n</span><span style="color:#032F62">with shortcuts</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">BLUE</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ma</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Overpass"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span></span>
+<span class="line"><span style="color:#24292E">    df_shortcut_wario[</span><span style="color:#032F62">"max"</span><span style="color:#24292E">], </span></span>
+<span class="line"><span style="color:#24292E">    df_shortcut_wario[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">], </span></span>
+<span class="line"><span style="color:#032F62">    "First record</span><span style="color:#005CC5">\n</span><span style="color:#032F62">with shortcuts</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY50</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ma</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Overpass"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Label dots when shortcut==no</span></span>
+<span class="line"><span style="color:#24292E">df_longdist_wario </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_longdist.query(</span><span style="color:#032F62">"track == 'Wario Stadium'"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.text(</span></span>
+<span class="line"><span style="color:#24292E">    df_longdist_wario[</span><span style="color:#032F62">"min"</span><span style="color:#24292E">] </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 10</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#24292E">    df_longdist_wario[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">], </span></span>
+<span class="line"><span style="color:#032F62">    "Most recent record</span><span style="color:#005CC5">\n</span><span style="color:#032F62">w/o shortcuts</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">BLUE</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ma</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Overpass"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span></span>
+<span class="line"><span style="color:#24292E">    df_longdist_wario[</span><span style="color:#032F62">"max"</span><span style="color:#24292E">] </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 10</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#24292E">    df_longdist_wario[</span><span style="color:#032F62">"track"</span><span style="color:#24292E">], </span></span>
+<span class="line"><span style="color:#032F62">    "First record</span><span style="color:#005CC5">\n</span><span style="color:#032F62">w/o shortcuts</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY50</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ma</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Overpass"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Customize the layout -------------------------------------------</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Hide spines</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"left"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"right"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"top"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Hide y labels</span></span>
+<span class="line"><span style="color:#24292E">ax.yaxis.set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Customize x ticks</span></span>
+<span class="line"><span style="color:#6A737D"># * Remove x axis ticks </span></span>
+<span class="line"><span style="color:#6A737D"># * Put labels on both bottom and and top</span></span>
+<span class="line"><span style="color:#6A737D"># * Customize the tick labels. Only the first has the "seconds" appended.</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">"x"</span><span style="color:#24292E">, </span><span style="color:#E36209">bottom</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">top</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">labelbottom</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">labeltop</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">xticks </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.linspace(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">400</span><span style="color:#24292E">, </span><span style="color:#E36209">num</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">, </span><span style="color:#E36209">dtype</span><span style="color:#D73A49">=</span><span style="color:#005CC5">int</span><span style="color:#24292E">).tolist()</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">60</span><span style="color:#24292E">, </span><span style="color:#005CC5">400</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks(xticks)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels([</span><span style="color:#032F62">"0 seconds"</span><span style="color:#24292E">] </span><span style="color:#D73A49">+</span><span style="color:#24292E"> xticks[</span><span style="color:#005CC5">1</span><span style="color:#24292E">:], </span><span style="color:#E36209">fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Hydrophilia Iced"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set background color for the subplot.</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(</span><span style="color:#005CC5">WHITE</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add thin vertical lines to serve as guide</span></span>
+<span class="line"><span style="color:#6A737D"># 'zorder=0' is imoprtant to they stay behind other elements in the plot.</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> xtick </span><span style="color:#D73A49">in</span><span style="color:#24292E"> xticks:</span></span>
+<span class="line"><span style="color:#24292E">    ax.axvline(xtick, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY94</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add vertical space to the vertical limit in the plot</span></span>
+<span class="line"><span style="color:#24292E">x0, x1, y0, y1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.axis()</span></span>
+<span class="line"><span style="color:#24292E">plt.axis((x0, x1, y0, y1 </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 0.5</span><span style="color:#24292E">))</span><span style="color:#B31D28;font-style:italic">;</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add custom legends ---------------------------------------------</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Legend for time difference. </span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Recall the 'norm_diff()' created above.</span></span>
+<span class="line"><span style="color:#6A737D"># Create an inset axes with a given width and height.</span></span>
+<span class="line"><span style="color:#24292E">cbaxes </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#24292E">    ax, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"0.8%"</span><span style="color:#24292E">, </span><span style="color:#E36209">height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"44%"</span><span style="color:#24292E">, </span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_to_anchor</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.025</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">., </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">), </span></span>
+<span class="line"><span style="color:#E36209">    bbox_transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax.transAxes</span></span>
+<span class="line"><span style="color:#24292E">) </span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">cb </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.colorbar(</span></span>
+<span class="line"><span style="color:#24292E">    ScalarMappable(</span><span style="color:#E36209">norm</span><span style="color:#D73A49">=</span><span style="color:#24292E">norm_diff, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">colormap_orange), </span><span style="color:#E36209">cax</span><span style="color:#D73A49">=</span><span style="color:#24292E">cbaxes, </span></span>
+<span class="line"><span style="color:#E36209">    ticks</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">50</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">150</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#005CC5">250</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove the outline of the colorbar</span></span>
+<span class="line"><span style="color:#24292E">cb.outline.set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set label, playing with labelpad to put it in the right place</span></span>
+<span class="line"><span style="color:#24292E">cb.set_label(</span></span>
+<span class="line"><span style="color:#032F62">    "Time difference between first and most recent record"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    labelpad</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">45</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Overpass"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove ticks in the colorbar with 'size=0'</span></span>
+<span class="line"><span style="color:#24292E">cb.ax.yaxis.set_tick_params(</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add ticklabels at given positions, with custom font and color</span></span>
+<span class="line"><span style="color:#24292E">cb.ax.yaxis.set_ticklabels(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">50</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">150</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#005CC5">250</span><span style="color:#24292E">], </span></span>
+<span class="line"><span style="color:#E36209">    fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Hydrophilia Iced"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Legend for year</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># We create a custom function to put the Line2D elements into a list</span></span>
+<span class="line"><span style="color:#6A737D"># that then goes into the 'handle' argument of the 'ax.legend()'</span></span>
+<span class="line"><span style="color:#24292E">years </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">2016</span><span style="color:#24292E">, </span><span style="color:#005CC5">2017</span><span style="color:#24292E">, </span><span style="color:#005CC5">2018</span><span style="color:#24292E">, </span><span style="color:#005CC5">2019</span><span style="color:#24292E">, </span><span style="color:#005CC5">2020</span><span style="color:#24292E">, </span><span style="color:#005CC5">2021</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> legend_dot</span><span style="color:#24292E">(year):</span></span>
+<span class="line"><span style="color:#24292E">    line </span><span style="color:#D73A49">=</span><span style="color:#24292E"> Line2D(</span></span>
+<span class="line"><span style="color:#24292E">        [</span><span style="color:#005CC5">0</span><span style="color:#24292E">], </span></span>
+<span class="line"><span style="color:#24292E">        [</span><span style="color:#005CC5">0</span><span style="color:#24292E">], </span></span>
+<span class="line"><span style="color:#E36209">        marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">"o"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        markersize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"none"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colormap_blue(norm_year(year)), </span></span>
+<span class="line"><span style="color:#E36209">        label</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">year</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> line</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Store the legend in a name because we use it to modify its elements</span></span>
+<span class="line"><span style="color:#24292E">years_legend </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.legend(</span></span>
+<span class="line"><span style="color:#E36209">    title</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Year of Record"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    handles</span><span style="color:#D73A49">=</span><span style="color:#24292E">[legend_dot(year) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> year </span><span style="color:#D73A49">in</span><span style="color:#24292E"> years], </span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#6A737D"># lower left</span></span>
+<span class="line"><span style="color:#E36209">    bbox_to_anchor</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.08</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    frameon</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set font family, color and size to the elements in the legend</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> text </span><span style="color:#D73A49">in</span><span style="color:#24292E"> years_legend.get_texts():</span></span>
+<span class="line"><span style="color:#24292E">    text.set_fontfamily(</span><span style="color:#032F62">"Hydrophilia Iced"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    text.set_color(</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    text.set_fontsize(</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Same modifications, but applied to the title.</span></span>
+<span class="line"><span style="color:#24292E">legend_title </span><span style="color:#D73A49">=</span><span style="color:#24292E"> years_legend.get_title()</span></span>
+<span class="line"><span style="color:#24292E">legend_title.set_fontname(</span><span style="color:#032F62">"Overpass"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">legend_title.set_color(</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">legend_title.set_fontsize(</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># The suptitle acts as the main title.</span></span>
+<span class="line"><span style="color:#6A737D"># Play with 'x' and 'y' to get them in the place you want.</span></span>
+<span class="line"><span style="color:#24292E">plt.suptitle(</span></span>
+<span class="line"><span style="color:#032F62">    "Let's-a-Go!  You  May  Still  Have  Chances  to  Grab  a  New  World  Record  for  Mario  Kart  64"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Atlantis Headline"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 0.457</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 0.99</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">subtitle </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    "Most world records for Mario Kart 64 were achieved pretty recently (13 in 2020, 10 in 2021). On several tracks, the players considerably improved the time needed to complete three laps when they used shortcuts (Choco Mountain,"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "D.K.'s Jungle Parkway, Frappe Snowland, Luigi Raceway, Rainbow Road, Royal Raceway, Toad's Turnpike, Wario Stadium, and Yoshi Valley). Actually, for three out of these tracks the previous records were more than halved since 2020"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#032F62">    "(Luigi Raceway, Rainbow Road, and Toad's Turnpike). Four other tracks still have no records for races with shortcuts (Moo Moo Farm, Koopa Troopa Beach, Banshee Boardwalk, and Bowser's Castle). Are there none or did nobody find"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#032F62">    "them yet? Pretty unrealistic given the fact that since more than 24 years the game is played all around the world—but maybe you're able to find one and obtain a new world record?"</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#6A737D"># And the axis title acts as a subtitle.</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span></span>
+<span class="line"><span style="color:#032F62">    "</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span><span style="color:#24292E">.join(subtitle),</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ma</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Overpass"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    pad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">20</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add legend</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.8</span><span style="color:#24292E">, </span><span style="color:#005CC5">.05</span><span style="color:#24292E">, </span><span style="color:#032F62">"Visualization: Cédric Scherer  •  Data: mkwrs.com/mk64"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Overpass"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY55</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set figure's background color, to match subplot background color.</span></span>
+<span class="line"><span style="color:#24292E">fig.patch.set_facecolor(</span><span style="color:#005CC5">WHITE</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Finally, save the plot!</span></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span></span>
+<span class="line"><span style="color:#032F62">    "mario-kart-64-world-records.png"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    facecolor</span><span style="color:#D73A49">=</span><span style="color:#005CC5">WHITE</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">"tight"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    pad_inches</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>47:["$","$L29","notebook-cell-11",{"index":11,"code":"$51","highlighted":"$52","interactive":false,"hasChart":true,"intro":"$L53","output":"$L54"}]
+48:["$","h2","h2-5",{"children":"Conclusion"}]
+49:["$","p","p-15",{"children":"That was a lot of work! And many more lines of code than using R. But here we are, a pretty good looking lollipop chart showcasing the possibilities offered by Matplotlib, which are basically infinite!"}]
+53:[["$","p","p-0",{"children":[["$","code","code-0",{"children":"colormap_orange and"}]," and ",["$","code","code-1",{"children":"colormap_blue"}]," are functions now."]}]]
+54:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-lollipop-plot-with-python-mario-kart-64-world-records/output-2.png","alt":"Mario Kart 64 World Records with Python and Matplotlib","width":953,"height":693,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

@@ -1,0 +1,756 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/09q85_ay6xdo0.js"
+3:"/_next/static/chunks/21dxsc4p3jeoz.js"
+4:"/_next/static/chunks/1d1qeiuriwpmz.js"
+5:"/_next/static/chunks/1u5pxdefkf32d.js"
+6:I[62319,["$2","$3","$4","$5"],"default"]
+7:I[39756,["$2","$3","$4","$5"],"default"]
+8:I[37457,["$2","$3","$4","$5"],"default"]
+9:"/_next/static/chunks/354p-aqxaih3m.js"
+a:I[22016,["$2","$3","$4","$5","$9"],""]
+b:I[44110,["$2","$3","$4","$5","$9"],"default"]
+19:I[68027,["$2","$3","$4","$5"],"default",1]
+:HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
+:HL["/_next/static/chunks/1ms0qnrh2aktb.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":{"n":"slug","t":"d","k":"web-barplot-with-annotations-and-arrows","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":66048,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","web-barplot-with-annotations-and-arrows",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/09q85_ay6xdo0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/21dxsc4p3jeoz.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1d1qeiuriwpmz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1u5pxdefkf32d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"JdxiwG_variable iGg3zq_variable antialiased","children":[["$","head",null,{"children":["$","link",null,{"rel":"sitemap","type":"application/xml","href":"/sitemap-index.xml"}]}],["$","body",null,{"children":[["$","$L6",null,{}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":[["$","h2",null,{"id":"404","children":" 😞 Oh No 😞 | 404"}],["$","p",null,{"children":"It looks like there is nothing here anymore."}],["$","p",null,{"children":["Please go back to the ",["$","$La",null,{"href":"/","children":"gallery home page"}]," and check if you can find your graph!"]}]]}],["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}],["$","div",null,{"className":"h-16 sm:h-20"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-24 border-t py-8 text-sm text-muted-foreground","children":["$","div",null,{"className":"mx-auto max-w-5xl px-5","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-4 sm:flex-row","children":[["$","div",null,{"children":["Copyright © the Python Graph Gallery ",2026]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","a","https://github.com/holtzy",{"href":"https://github.com/holtzy","aria-label":"Link to Yan Holtz Github profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 496 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"$c"}]}]}],"$Ld","$Le","$Lf"]}],"$L10"]}]}]}],"$L11","$L12"]}]]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",["$L1a","$L1b"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+1c:I[79520,["$2","$3","$4","$5"],""]
+1e:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:"ViewportBoundary"
+22:I[97367,["$2","$3","$4","$5"],"$21"]
+24:"MetadataBoundary"
+25:I[97367,["$2","$3","$4","$5"],"$24"]
+d:["$","a","https://twitter.com/R_Graph_Gallery",{"href":"https://twitter.com/R_Graph_Gallery","aria-label":"Link to Yan Holtz Twitter profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 512 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}]}]}]
+e:["$","a","https://www.linkedin.com/in/yan-holtz-2477534a/",{"href":"https://www.linkedin.com/in/yan-holtz-2477534a/","aria-label":"Link to Yan Holtz LinkedIn profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 448 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"}]}]}]
+f:["$","a","https://www.yan-holtz.com",{"href":"https://www.yan-holtz.com","aria-label":"Link to Yan Holtz Homepage","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 576 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"}]}]}]
+10:["$","div",null,{"className":"flex gap-2","children":[["$","a",null,{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE","className":"hover:text-foreground","children":"License"}],["$","span",null,{"children":"|"}],["$","$La",null,{"href":"/about","className":"hover:text-foreground","children":"About"}]]}]
+11:["$","$L1c",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-YJ2YPBMD3W","strategy":"afterInteractive"}]
+12:["$","$L1c",null,{"id":"gtag-init","strategy":"afterInteractive","children":"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YJ2YPBMD3W');"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L26"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+15:C
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]
+27:I[27201,["$2","$3","$4","$5"],"IconMark"]
+20:null
+26:[["$","title","0",{"children":"Barplot with custom colors, annotations and arrows"}],["$","meta","1",{"name":"description","content":"How to build a barplot with custom annotations and arrows in Python"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"python, chart, matplotlib, barplot, bar chart, annotations, arrows, custom, advanced, tutorial, how to"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-barplot-with-annotations-and-arrows/"}],["$","meta","6",{"property":"og:title","content":"Barplot with custom colors, annotations and arrows"}],["$","meta","7",{"property":"og:description","content":"How to build a barplot with custom annotations and arrows in Python"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/web-barplot-with-annotations-and-arrows/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Barplot with custom colors, annotations and arrows"}],["$","meta","13",{"name":"twitter:description","content":"How to build a barplot with custom annotations and arrows in Python"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/web-barplot-with-annotations-and-arrows/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L27","24",{}]]
+28:I[98936,["$2","$3","$4","$5","$9"],"default"]
+29:T716,def cleanProjectTypes(text):
+    text = str(text)
+    text = text.lower()
+
+    # get all content before |
+    text = text.split('|')[0]
+
+    if text[:5] == 'other':
+        text = text[:5]
+
+    elif 'arts and culture' in text:
+        text = 'arts and culture'
+
+    elif 'disaster relief' in text:
+        text = text[:15]
+
+    elif text[:15] == 'case management':
+        text = 'health'
+
+    elif 'economic development' in text:
+        text = 'economic development'
+
+    elif 'environment' in text:
+        text = 'environment'
+
+    elif 'ethnographic' in text:
+        text = 'arts and culture'
+
+    elif 'health' in text:
+        text = 'health'
+
+    elif 'social justice' in text:
+        text = 'social justice'
+
+    elif 'education' in text or 'youth' in text or 'child' in text:
+        text = 'education'
+
+    return text[0].upper() + text[1:]
+
+
+# create the dataframe for the plot
+n_topic = 15
+best_contrib = df[['name', 'n_sponsored', 'project_types']].sort_values(by='n_sponsored', ascending=False)
+best_contrib['project'] = best_contrib['project_types'].apply(cleanProjectTypes)
+best_contrib.sort_values(by='n_sponsored', ascending=False, inplace=True)
+
+# other stats
+religion = best_contrib[best_contrib['project'] == 'Faith-based/religious']['n_sponsored'].sum()
+religionPart = religion / best_contrib['n_sponsored'].sum() * 100
+
+NHF = best_contrib[best_contrib['name'] == 'New Horizons Foundation Inc']['n_sponsored'].sum()
+NHFPart = NHF / best_contrib[best_contrib['project_types'] == 'Faith-based/religious']['n_sponsored'].sum() * 100
+
+art = best_contrib[best_contrib['project'] == 'Arts and culture']['n_sponsored'].sum()
+artPart = art / best_contrib['n_sponsored'].sum() * 100
+
+best_contrib = best_contrib.head(n_topic)
+best_contrib.sort_values(by='n_sponsored', ascending=True, inplace=True)2a:T4a3,# initialize the figure
+fig, ax = plt.subplots(figsize=(8, 10))
+
+# remove axis
+ax.axis('off')
+
+# colors for the plot
+colors = {
+    'Arts and culture': '#f792ad',
+    'Health': '#3fd975',
+    'Environment': '#43f79a',
+    'Bill paying': '#bd112b',
+    'Other': 'lightgrey',
+    'Faith-based/religious': '#b1f0e0',
+}
+c = [colors[category] for category in best_contrib['project']]
+background_color = 'black'
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+text_color = 'white'
+
+# create the plot
+ax.barh(best_contrib['name'], best_contrib['n_sponsored'], color=c)
+for i, (value, name) in enumerate(zip(best_contrib['n_sponsored'],
+                                      best_contrib['name'])):
+    if name.startswith('The Hektoen Institute'):
+        name = 'The Hektoen Institute'
+    elif name.startswith('From the Heart'):
+        name = 'FHP'
+    elif name.startswith('The Gotham Film'):
+        name = 'GF&M Institute'
+    ax.text(x=1, y=i, s=f' {name}',
+            ha='left', va='center', fontsize=10, color='black')
+    ax.text(x=value, y=i, s=f' {int(value)}',
+            ha='left', va='center', fontsize=10, color=text_color)
+
+# display the plot
+plt.show()2b:Tfcf,# initialize the figure
+fig, ax = plt.subplots(figsize=(14, 15))
+
+# remove axis
+ax.axis('off')
+
+# colors for the plot
+colors = {
+    'Arts and culture': '#e07a5f',
+    'Health': '#f4f1de',
+    'Bill paying': '#f2cc8f',
+    'Other': 'lightgrey',
+    'Faith-based/religious': '#81b29a',
+}
+c = [colors[category] for category in best_contrib['project']]
+background_color = '#171717'
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+text_color = 'white'
+
+# create the plot
+ax.barh(best_contrib['name'], best_contrib['n_sponsored'], color=c)
+for i, (value, name) in enumerate(zip(best_contrib['n_sponsored'],
+                                      best_contrib['name'])):
+    if name.startswith('The Hektoen Institute'):
+        name = 'The Hektoen Institute'
+    elif name.startswith('From the Heart'):
+        name = 'FHP'
+    elif name.startswith('The Gotham Film'):
+        name = 'GF&M Institute'
+    ax.text(x=10, y=i, s=f' {name}',
+            ha='left', va='center', fontsize=12, color='black')
+    ax.text(x=value, y=i, s=f' {int(value)}',
+            ha='left', va='center', fontsize=12, color=text_color)
+
+# add a title
+text = """
+Top fiscal sponsorships in terms of
+number of sponsored projects
+"""
+fig.text(x=0.155, y=0.9,
+    s=text,
+    fontsize=25, ha='left', va='center',
+    weight='bold', color=text_color
+)
+
+# credits
+text = "<Design>: Joseph Barbier\n<Data>: Fiscal Sponsor Directory (TidyTuesday)"
+ax_text(x = 730, y = -1,
+        s=text,
+        color=text_color,
+        fontsize=9,
+        highlight_textprops=[{"fontweight": 'bold'},
+                             {"fontweight": 'bold'}],
+        ax=ax)
+
+# arts annotation
+text = "<Arts and culture> represent "
+text += str(round(artPart,1))
+text += "%\nof all sponsorships, making it the top\n"
+text += "field of fiscal sponsorship."
+ax_text(x=400, y=3.5,
+    s=text, color = text_color,
+    fontsize=15, ha='left', va='center',
+    highlight_textprops=[{"color": colors['Arts and culture'],
+                          "fontweight": 'bold'}]
+)
+style = "Simple, tail_width=0.5, head_width=4, head_length=8"
+kw = dict(arrowstyle=style, color=colors['Arts and culture'])
+head_position = (680, 12)
+tail_position = (520, 4.2)
+a = patches.FancyArrowPatch(tail_position, head_position,
+                              connectionstyle="arc3,rad=.5", **kw)
+plt.gca().add_patch(a)
+head_position = (400, 8)
+tail_position = (500, 4.2)
+a = patches.FancyArrowPatch(tail_position, head_position,
+                              connectionstyle="arc3,rad=.5", **kw)
+plt.gca().add_patch(a)
+
+
+
+# religions annotation
+text = "<Religion> represents " +  str(round(religionPart,1)) + "% of all"
+text += "\nsponsorships. This is mostly due\nto the New Horizons "
+text += f"Foundations\nwith {NHFPart:.1f}% of all."
+ax_text(x=800, y=10,
+    s=text,
+    fontsize=15, ha='left', va='center',
+    color=text_color,
+    highlight_textprops=[{"color": colors['Faith-based/religious'],
+                         "fontweight": 'bold'}]
+)
+style = "Simple, tail_width=0.5, head_width=4, head_length=8"
+kw = dict(arrowstyle=style, color=colors['Faith-based/religious'])
+head_position = (900, 14)
+tail_position = (980, 11)
+a = patches.FancyArrowPatch(tail_position, head_position,
+                              connectionstyle="arc3,rad=.5", **kw)
+plt.gca().add_patch(a)
+
+
+# other annotations below
+text = "Other fields of fiscal sponsorship such\nas <Health> and <Bill paying>"
+text += " are also\nrepresented in the top sponsors."
+ax_text(x = 500, y = 1.8,
+        s=text,
+        color=text_color,
+        fontsize=15,
+        highlight_textprops=[{"color": colors['Health'], "fontweight": 'bold'},
+                             {"color": colors['Bill paying'], "fontweight": 'bold'}],
+        ax=ax)
+
+# display the plot
+xmin, xmax = ax.get_xlim()
+ymin, ymax = ax.get_ylim()
+xrange = xmax - xmin
+yrange = ymax - ymin
+ax.set_xlim(xmin - 0.05*xrange, xmax + 0.2*xrange)
+fig.savefig('../../static/graph/web-barplot-with-annotations-and-arrows-highres.png', dpi=300, bbox_inches='tight')
+plt.show()1d:[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Barplot with custom colors, annotations and arrows"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post explains how to build a <a href='https://python-graph-gallery.com/barplot/'>barplot</a> with <a href='https://python-graph-gallery.com/matplotlib/'> matplotlib</a>. It shows how to add <b>custom annotations and arrows</b> to the plot.<br>It's a step-by-step guide to reproduce it 🔥, starting with a simple chart and ending other elements making it a good example of what's possible to do with <a href='https://python-graph-gallery.com/matplotlib/'> matplotlib</a></p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$La",null,{"href":"/barplot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Barplot section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/barplot.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],["$","article",null,{"className":"wrapper post-content","children":["$","$L28",null,{"cells":["# Libraries\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport matplotlib.patches as patches  # for the arrows\n\nfrom highlight_text import ax_text, fig_text","# Open the dataset from Github\nurl = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/fiscal_sponsor_directory.csv\"\ndf = pd.read_csv(url)","$29","# initialize the figure\nfig, ax = plt.subplots(figsize=(6,8))\n\n# create the plot\nax.barh(best_contrib['name'], best_contrib['n_sponsored'], color='skyblue')\n\n# display the plot\nplt.show()","# initialize the figure\nfig, ax = plt.subplots(figsize=(8, 10))\n\n# remove axis\nax.axis('off')\n\n# create the plot\nax.barh(best_contrib['name'], best_contrib['n_sponsored'])\nfor i, (value, name) in enumerate(zip(best_contrib['n_sponsored'],\n                                      best_contrib['name'])):\n    if name.startswith('The Hektoen Institute'):\n        name = 'The Hektoen Institute'\n    elif name.startswith('From the Heart'):\n        name = 'FHP'\n    elif name.startswith('The Gotham Film'):\n        name = 'GF&M Institute'\n    ax.text(x=1, y=i, s=f' {name}',\n            ha='left', va='center', fontsize=10)\n    ax.text(x=value, y=i, s=f' {int(value)}',\n            ha='left', va='center', fontsize=10)\n\n# display the plot\nplt.show()","$2a","$2b"],"children":"$L2c"}]}],"$L2d","$L2e","$L2f","$L30","$L31"]
+32:I[68978,["$2","$3","$4","$5","$9"],"default"]
+49:I[59351,["$2","$3","$4","$5","$9"],"default"]
+33:T422,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Libraries</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">as</span><span style="color:#24292E"> patches  </span><span style="color:#6A737D"># for the arrows</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> ax_text, fig_text</span></span></code></pre>2c:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This plot is a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/barplot/","children":"barplot"}]," with ",["$","strong","strong-0",{"children":"custom annotations and circled arrows"}]," showing the number of fiscal sponsorship of the top sponsors, according to the Fiscal Sponsorship Directory."]}],"\n",["$","p","p-1",{"children":["The chart was made for the ",["$","strong","strong-0",{"children":"TidyTuesday"}]," project by ",["$","a","a-0",{"href":"https://www.barbierjoseph.com/","children":"Joseph B."}],"."]}],"\n",["$","p","p-2",{"children":"Let's see what the final picture will look like:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-barplot-with-annotations-and-arrows-highres.png?raw=true","alt":"barplot with custom annotations","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-4",{"children":"First, you need to install the following librairies:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," is used for creating the chart and add customization features"]}],"\n",["$","li","li-1",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/pandas/","children":"pandas"}]," is used to put the data into a dataframe"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"highlight_text"}]," is used to add custom annotations to the chart"]}],"\n"]}],"\n",["$","p","p-5",{"children":["Install it with ",["$","code","code-0",{"children":"pip install highlight_text"}]]}],"\n",["$","p","p-6",{"children":"And that's it!"}],"\n",["$","$L32","notebook-cell-0",{"index":0,"code":"# Libraries\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport matplotlib.patches as patches  # for the arrows\n\nfrom highlight_text import ax_text, fig_text","highlighted":"$33","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-7",{"children":["For this reproduction, we're going to retrieve the data directly from the ",["$","a","a-0",{"href":"https://python-graph-gallery.com","children":"gallery's"}]," Github repo. This means we just need to ",["$","strong","strong-0",{"children":"give the right url as an argument"}]," to pandas' ",["$","code","code-0",{"children":"read_csv()"}]," function to retrieve the data."]}],"\n",["$","$L32","notebook-cell-1",{"index":1,"code":"# Open the dataset from Github\nurl = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/fiscal_sponsor_directory.csv\"\ndf = pd.read_csv(url)","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Open the dataset from Github</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">url </span><span style=\"color:#D73A49\">=</span><span style=\"color:#032F62\"> \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/fiscal_sponsor_directory.csv\"</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.read_csv(url)</span></span></code></pre>","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n","$L34","\n","$L35","\n","$L36","\n","$L37","$L38","\n","$L39","$L3a","\n","$L3b","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","$L44","\n","$L45","\n","$L46","\n","$L47"]
+2d:["$","div",null,{"className":"h-16 sm:h-20"}]
+2e:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$La","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$La","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$La","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$La","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$La","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$La","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$La","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L48"]}]]}]]}]}]
+2f:["$","div",null,{"className":"h-16 sm:h-20"}]
+30:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+31:["$","$L49",null,{}]
+34:["$","p","p-8",{"children":["Our goal is to ",["$","strong","strong-0",{"children":"semi-automaticaly detect"}]," the main topic of each fiscal sponsor. After a bit of manual work, we can use the ",["$","code","code-0",{"children":"project_types"}]," column to create a ",["$","code","code-1",{"children":"project"}]," column with a reduced number of categories."]}]
+35:["$","p","p-9",{"children":["Then, we ",["$","strong","strong-0",{"children":"sort the data"}]," by the number of fiscal sponsorships and keep the top 15. We also compute a ",["$","strong","strong-1",{"children":"few statistics"}]," for the annotations at the end."]}]
+4a:T716,def cleanProjectTypes(text):
+    text = str(text)
+    text = text.lower()
+
+    # get all content before |
+    text = text.split('|')[0]
+
+    if text[:5] == 'other':
+        text = text[:5]
+
+    elif 'arts and culture' in text:
+        text = 'arts and culture'
+
+    elif 'disaster relief' in text:
+        text = text[:15]
+
+    elif text[:15] == 'case management':
+        text = 'health'
+
+    elif 'economic development' in text:
+        text = 'economic development'
+
+    elif 'environment' in text:
+        text = 'environment'
+
+    elif 'ethnographic' in text:
+        text = 'arts and culture'
+
+    elif 'health' in text:
+        text = 'health'
+
+    elif 'social justice' in text:
+        text = 'social justice'
+
+    elif 'education' in text or 'youth' in text or 'child' in text:
+        text = 'education'
+
+    return text[0].upper() + text[1:]
+
+
+# create the dataframe for the plot
+n_topic = 15
+best_contrib = df[['name', 'n_sponsored', 'project_types']].sort_values(by='n_sponsored', ascending=False)
+best_contrib['project'] = best_contrib['project_types'].apply(cleanProjectTypes)
+best_contrib.sort_values(by='n_sponsored', ascending=False, inplace=True)
+
+# other stats
+religion = best_contrib[best_contrib['project'] == 'Faith-based/religious']['n_sponsored'].sum()
+religionPart = religion / best_contrib['n_sponsored'].sum() * 100
+
+NHF = best_contrib[best_contrib['name'] == 'New Horizons Foundation Inc']['n_sponsored'].sum()
+NHFPart = NHF / best_contrib[best_contrib['project_types'] == 'Faith-based/religious']['n_sponsored'].sum() * 100
+
+art = best_contrib[best_contrib['project'] == 'Arts and culture']['n_sponsored'].sum()
+artPart = art / best_contrib['n_sponsored'].sum() * 100
+
+best_contrib = best_contrib.head(n_topic)
+best_contrib.sort_values(by='n_sponsored', ascending=True, inplace=True)4b:T2d64,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> cleanProjectTypes</span><span style="color:#24292E">(text):</span></span>
+<span class="line"><span style="color:#24292E">    text </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> str</span><span style="color:#24292E">(text)</span></span>
+<span class="line"><span style="color:#24292E">    text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> text.lower()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # get all content before |</span></span>
+<span class="line"><span style="color:#24292E">    text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> text.split(</span><span style="color:#032F62">'|'</span><span style="color:#24292E">)[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> text[:</span><span style="color:#005CC5">5</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'other'</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> text[:</span><span style="color:#005CC5">5</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#032F62"> 'arts and culture'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> text:</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'arts and culture'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#032F62"> 'disaster relief'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> text:</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> text[:</span><span style="color:#005CC5">15</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#24292E"> text[:</span><span style="color:#005CC5">15</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'case management'</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'health'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#032F62"> 'economic development'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> text:</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'economic development'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#032F62"> 'environment'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> text:</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'environment'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#032F62"> 'ethnographic'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> text:</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'arts and culture'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#032F62"> 'health'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> text:</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'health'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#032F62"> 'social justice'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> text:</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'social justice'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#032F62"> 'education'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> text </span><span style="color:#D73A49">or</span><span style="color:#032F62"> 'youth'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> text </span><span style="color:#D73A49">or</span><span style="color:#032F62"> 'child'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> text:</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'education'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> text[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].upper() </span><span style="color:#D73A49">+</span><span style="color:#24292E"> text[</span><span style="color:#005CC5">1</span><span style="color:#24292E">:]</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the dataframe for the plot</span></span>
+<span class="line"><span style="color:#24292E">n_topic </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 15</span></span>
+<span class="line"><span style="color:#24292E">best_contrib </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">, </span><span style="color:#032F62">'project_types'</span><span style="color:#24292E">]].sort_values(</span><span style="color:#E36209">by</span><span style="color:#D73A49">=</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">, </span><span style="color:#E36209">ascending</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">best_contrib[</span><span style="color:#032F62">'project'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> best_contrib[</span><span style="color:#032F62">'project_types'</span><span style="color:#24292E">].apply(cleanProjectTypes)</span></span>
+<span class="line"><span style="color:#24292E">best_contrib.sort_values(</span><span style="color:#E36209">by</span><span style="color:#D73A49">=</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">, </span><span style="color:#E36209">ascending</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># other stats</span></span>
+<span class="line"><span style="color:#24292E">religion </span><span style="color:#D73A49">=</span><span style="color:#24292E"> best_contrib[best_contrib[</span><span style="color:#032F62">'project'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Faith-based/religious'</span><span style="color:#24292E">][</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">].sum()</span></span>
+<span class="line"><span style="color:#24292E">religionPart </span><span style="color:#D73A49">=</span><span style="color:#24292E"> religion </span><span style="color:#D73A49">/</span><span style="color:#24292E"> best_contrib[</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">].sum() </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 100</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5">NHF</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> best_contrib[best_contrib[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'New Horizons Foundation Inc'</span><span style="color:#24292E">][</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">].sum()</span></span>
+<span class="line"><span style="color:#24292E">NHFPart </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> NHF</span><span style="color:#D73A49"> /</span><span style="color:#24292E"> best_contrib[best_contrib[</span><span style="color:#032F62">'project_types'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Faith-based/religious'</span><span style="color:#24292E">][</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">].sum() </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 100</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">art </span><span style="color:#D73A49">=</span><span style="color:#24292E"> best_contrib[best_contrib[</span><span style="color:#032F62">'project'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Arts and culture'</span><span style="color:#24292E">][</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">].sum()</span></span>
+<span class="line"><span style="color:#24292E">artPart </span><span style="color:#D73A49">=</span><span style="color:#24292E"> art </span><span style="color:#D73A49">/</span><span style="color:#24292E"> best_contrib[</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">].sum() </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 100</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">best_contrib </span><span style="color:#D73A49">=</span><span style="color:#24292E"> best_contrib.head(n_topic)</span></span>
+<span class="line"><span style="color:#24292E">best_contrib.sort_values(</span><span style="color:#E36209">by</span><span style="color:#D73A49">=</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">, </span><span style="color:#E36209">ascending</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span></code></pre>36:["$","$L32","notebook-cell-2",{"index":2,"code":"$4a","highlighted":"$4b","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+37:["$","h2","h2-3",{"children":"Basic barplot"}]
+4c:T51c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">,</span><span style="color:#005CC5">8</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">ax.barh(best_contrib[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">], best_contrib[</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'skyblue'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>38:["$","$L32","notebook-cell-3",{"index":3,"code":"# initialize the figure\nfig, ax = plt.subplots(figsize=(6,8))\n\n# create the plot\nax.barh(best_contrib['name'], best_contrib['n_sponsored'], color='skyblue')\n\n# display the plot\nplt.show()","highlighted":"$4c","interactive":true,"hasChart":true,"intro":[["$","p","p-0",{"children":["Let's start with a simple version of the plot that uses the ",["$","code","code-0",{"children":"barh()"}]," function to create the barplot"]}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-barplot-with-annotations-and-arrows/output-1.png","alt":"Barplot with custom colors, annotations and arrows","width":794,"height":659,"loading":"lazy","decoding":"async"}]}]]}]
+39:["$","h2","h2-4",{"children":"Custom axis and first annotations"}]
+4d:T151f,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"><span style="color:#24292E">ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">ax.barh(best_contrib[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">], best_contrib[</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (value, name) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(best_contrib[</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">                                      best_contrib[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">])):</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> name.startswith(</span><span style="color:#032F62">'The Hektoen Institute'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        name </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'The Hektoen Institute'</span></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#24292E"> name.startswith(</span><span style="color:#032F62">'From the Heart'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        name </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'FHP'</span></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#24292E"> name.startswith(</span><span style="color:#032F62">'The Gotham Film'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        name </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'GF&#x26;M Institute'</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">i, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">' </span><span style="color:#005CC5">{</span><span style="color:#24292E">name</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">value, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">i, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">' </span><span style="color:#005CC5">{int</span><span style="color:#24292E">(value)</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3a:["$","$L32","notebook-cell-4",{"index":4,"code":"# initialize the figure\nfig, ax = plt.subplots(figsize=(8, 10))\n\n# remove axis\nax.axis('off')\n\n# create the plot\nax.barh(best_contrib['name'], best_contrib['n_sponsored'])\nfor i, (value, name) in enumerate(zip(best_contrib['n_sponsored'],\n                                      best_contrib['name'])):\n    if name.startswith('The Hektoen Institute'):\n        name = 'The Hektoen Institute'\n    elif name.startswith('From the Heart'):\n        name = 'FHP'\n    elif name.startswith('The Gotham Film'):\n        name = 'GF&M Institute'\n    ax.text(x=1, y=i, s=f' {name}',\n            ha='left', va='center', fontsize=10)\n    ax.text(x=value, y=i, s=f' {int(value)}',\n            ha='left', va='center', fontsize=10)\n\n# display the plot\nplt.show()","highlighted":"$4d","interactive":true,"hasChart":true,"intro":"$L4e","output":"$L4f"}]
+3b:["$","h2","h2-5",{"children":"Custom colors"}]
+50:T4a3,# initialize the figure
+fig, ax = plt.subplots(figsize=(8, 10))
+
+# remove axis
+ax.axis('off')
+
+# colors for the plot
+colors = {
+    'Arts and culture': '#f792ad',
+    'Health': '#3fd975',
+    'Environment': '#43f79a',
+    'Bill paying': '#bd112b',
+    'Other': 'lightgrey',
+    'Faith-based/religious': '#b1f0e0',
+}
+c = [colors[category] for category in best_contrib['project']]
+background_color = 'black'
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+text_color = 'white'
+
+# create the plot
+ax.barh(best_contrib['name'], best_contrib['n_sponsored'], color=c)
+for i, (value, name) in enumerate(zip(best_contrib['n_sponsored'],
+                                      best_contrib['name'])):
+    if name.startswith('The Hektoen Institute'):
+        name = 'The Hektoen Institute'
+    elif name.startswith('From the Heart'):
+        name = 'FHP'
+    elif name.startswith('The Gotham Film'):
+        name = 'GF&M Institute'
+    ax.text(x=1, y=i, s=f' {name}',
+            ha='left', va='center', fontsize=10, color='black')
+    ax.text(x=value, y=i, s=f' {int(value)}',
+            ha='left', va='center', fontsize=10, color=text_color)
+
+# display the plot
+plt.show()51:T200b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"><span style="color:#24292E">ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># colors for the plot</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    'Arts and culture'</span><span style="color:#24292E">: </span><span style="color:#032F62">'#f792ad'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Health'</span><span style="color:#24292E">: </span><span style="color:#032F62">'#3fd975'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Environment'</span><span style="color:#24292E">: </span><span style="color:#032F62">'#43f79a'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Bill paying'</span><span style="color:#24292E">: </span><span style="color:#032F62">'#bd112b'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Other'</span><span style="color:#24292E">: </span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Faith-based/religious'</span><span style="color:#24292E">: </span><span style="color:#032F62">'#b1f0e0'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">c </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [colors[category] </span><span style="color:#D73A49">for</span><span style="color:#24292E"> category </span><span style="color:#D73A49">in</span><span style="color:#24292E"> best_contrib[</span><span style="color:#032F62">'project'</span><span style="color:#24292E">]]</span></span>
+<span class="line"><span style="color:#24292E">background_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'black'</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'white'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">ax.barh(best_contrib[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">], best_contrib[</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">c)</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (value, name) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(best_contrib[</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">                                      best_contrib[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">])):</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> name.startswith(</span><span style="color:#032F62">'The Hektoen Institute'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        name </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'The Hektoen Institute'</span></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#24292E"> name.startswith(</span><span style="color:#032F62">'From the Heart'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        name </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'FHP'</span></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#24292E"> name.startswith(</span><span style="color:#032F62">'The Gotham Film'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        name </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'GF&#x26;M Institute'</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">i, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">' </span><span style="color:#005CC5">{</span><span style="color:#24292E">name</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">value, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">i, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">' </span><span style="color:#005CC5">{int</span><span style="color:#24292E">(value)</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3c:["$","$L32","notebook-cell-5",{"index":5,"code":"$50","highlighted":"$51","interactive":true,"hasChart":true,"intro":"$L52","output":"$L53"}]
+3d:["$","h2","h2-6",{"children":"Annotations"}]
+3e:["$","p","p-10",{"children":["Now the last things missing are the arrows and the annotations. This is not the funniest part but it the part that will make the chart ",["$","strong","strong-0",{"children":"really stand out"}],"."]}]
+3f:["$","h3","h3-0",{"children":"Add a title"}]
+40:["$","p","p-11",{"children":["The title is added with the ",["$","code","code-0",{"children":"text()"}]," function and not the ",["$","code","code-1",{"children":"title()"}]," function because it gives us ",["$","strong","strong-0",{"children":"more customization options"}],"."]}]
+41:["$","h3","h3-1",{"children":"Add a credit"}]
+42:["$","p","p-12",{"children":["For the credit, we need the ",["$","a","a-0",{"href":"https://github.com/znstrider/highlight_text","children":"highlight_text"}]," package that makes way easier customizing annotations! We use the ",["$","code","code-0",{"children":"fig_text()"}]," function, which is similar to ",["$","code","code-1",{"children":"fig.text()"}]," but with ",["$","strong","strong-0",{"children":"more customization options"}],"."]}]
+43:["$","h3","h3-2",{"children":"Add arrows"}]
+54:Tfcf,# initialize the figure
+fig, ax = plt.subplots(figsize=(14, 15))
+
+# remove axis
+ax.axis('off')
+
+# colors for the plot
+colors = {
+    'Arts and culture': '#e07a5f',
+    'Health': '#f4f1de',
+    'Bill paying': '#f2cc8f',
+    'Other': 'lightgrey',
+    'Faith-based/religious': '#81b29a',
+}
+c = [colors[category] for category in best_contrib['project']]
+background_color = '#171717'
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+text_color = 'white'
+
+# create the plot
+ax.barh(best_contrib['name'], best_contrib['n_sponsored'], color=c)
+for i, (value, name) in enumerate(zip(best_contrib['n_sponsored'],
+                                      best_contrib['name'])):
+    if name.startswith('The Hektoen Institute'):
+        name = 'The Hektoen Institute'
+    elif name.startswith('From the Heart'):
+        name = 'FHP'
+    elif name.startswith('The Gotham Film'):
+        name = 'GF&M Institute'
+    ax.text(x=10, y=i, s=f' {name}',
+            ha='left', va='center', fontsize=12, color='black')
+    ax.text(x=value, y=i, s=f' {int(value)}',
+            ha='left', va='center', fontsize=12, color=text_color)
+
+# add a title
+text = """
+Top fiscal sponsorships in terms of
+number of sponsored projects
+"""
+fig.text(x=0.155, y=0.9,
+    s=text,
+    fontsize=25, ha='left', va='center',
+    weight='bold', color=text_color
+)
+
+# credits
+text = "<Design>: Joseph Barbier\n<Data>: Fiscal Sponsor Directory (TidyTuesday)"
+ax_text(x = 730, y = -1,
+        s=text,
+        color=text_color,
+        fontsize=9,
+        highlight_textprops=[{"fontweight": 'bold'},
+                             {"fontweight": 'bold'}],
+        ax=ax)
+
+# arts annotation
+text = "<Arts and culture> represent "
+text += str(round(artPart,1))
+text += "%\nof all sponsorships, making it the top\n"
+text += "field of fiscal sponsorship."
+ax_text(x=400, y=3.5,
+    s=text, color = text_color,
+    fontsize=15, ha='left', va='center',
+    highlight_textprops=[{"color": colors['Arts and culture'],
+                          "fontweight": 'bold'}]
+)
+style = "Simple, tail_width=0.5, head_width=4, head_length=8"
+kw = dict(arrowstyle=style, color=colors['Arts and culture'])
+head_position = (680, 12)
+tail_position = (520, 4.2)
+a = patches.FancyArrowPatch(tail_position, head_position,
+                              connectionstyle="arc3,rad=.5", **kw)
+plt.gca().add_patch(a)
+head_position = (400, 8)
+tail_position = (500, 4.2)
+a = patches.FancyArrowPatch(tail_position, head_position,
+                              connectionstyle="arc3,rad=.5", **kw)
+plt.gca().add_patch(a)
+
+
+
+# religions annotation
+text = "<Religion> represents " +  str(round(religionPart,1)) + "% of all"
+text += "\nsponsorships. This is mostly due\nto the New Horizons "
+text += f"Foundations\nwith {NHFPart:.1f}% of all."
+ax_text(x=800, y=10,
+    s=text,
+    fontsize=15, ha='left', va='center',
+    color=text_color,
+    highlight_textprops=[{"color": colors['Faith-based/religious'],
+                         "fontweight": 'bold'}]
+)
+style = "Simple, tail_width=0.5, head_width=4, head_length=8"
+kw = dict(arrowstyle=style, color=colors['Faith-based/religious'])
+head_position = (900, 14)
+tail_position = (980, 11)
+a = patches.FancyArrowPatch(tail_position, head_position,
+                              connectionstyle="arc3,rad=.5", **kw)
+plt.gca().add_patch(a)
+
+
+# other annotations below
+text = "Other fields of fiscal sponsorship such\nas <Health> and <Bill paying>"
+text += " are also\nrepresented in the top sponsors."
+ax_text(x = 500, y = 1.8,
+        s=text,
+        color=text_color,
+        fontsize=15,
+        highlight_textprops=[{"color": colors['Health'], "fontweight": 'bold'},
+                             {"color": colors['Bill paying'], "fontweight": 'bold'}],
+        ax=ax)
+
+# display the plot
+xmin, xmax = ax.get_xlim()
+ymin, ymax = ax.get_ylim()
+xrange = xmax - xmin
+yrange = ymax - ymin
+ax.set_xlim(xmin - 0.05*xrange, xmax + 0.2*xrange)
+fig.savefig('../../static/graph/web-barplot-with-annotations-and-arrows-highres.png', dpi=300, bbox_inches='tight')
+plt.show()55:T6ab9,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#005CC5">15</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"><span style="color:#24292E">ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># colors for the plot</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    'Arts and culture'</span><span style="color:#24292E">: </span><span style="color:#032F62">'#e07a5f'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Health'</span><span style="color:#24292E">: </span><span style="color:#032F62">'#f4f1de'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Bill paying'</span><span style="color:#24292E">: </span><span style="color:#032F62">'#f2cc8f'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Other'</span><span style="color:#24292E">: </span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Faith-based/religious'</span><span style="color:#24292E">: </span><span style="color:#032F62">'#81b29a'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">c </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [colors[category] </span><span style="color:#D73A49">for</span><span style="color:#24292E"> category </span><span style="color:#D73A49">in</span><span style="color:#24292E"> best_contrib[</span><span style="color:#032F62">'project'</span><span style="color:#24292E">]]</span></span>
+<span class="line"><span style="color:#24292E">background_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#171717'</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'white'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">ax.barh(best_contrib[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">], best_contrib[</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">c)</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (value, name) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(best_contrib[</span><span style="color:#032F62">'n_sponsored'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">                                      best_contrib[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">])):</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> name.startswith(</span><span style="color:#032F62">'The Hektoen Institute'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        name </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'The Hektoen Institute'</span></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#24292E"> name.startswith(</span><span style="color:#032F62">'From the Heart'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        name </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'FHP'</span></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#24292E"> name.startswith(</span><span style="color:#032F62">'The Gotham Film'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">        name </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'GF&#x26;M Institute'</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">i, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">' </span><span style="color:#005CC5">{</span><span style="color:#24292E">name</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">value, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">i, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">' </span><span style="color:#005CC5">{int</span><span style="color:#24292E">(value)</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add a title</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">Top fiscal sponsorships in terms of</span></span>
+<span class="line"><span style="color:#032F62">number of sponsored projects</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.155</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">25</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># credits</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "&#x3C;Design>: Joseph Barbier</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;Data>: Fiscal Sponsor Directory (TidyTuesday)"</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span><span style="color:#E36209">x</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 730</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49"> =</span><span style="color:#D73A49"> -</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">                             {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}],</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># arts annotation</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "&#x3C;Arts and culture> represent "</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">+=</span><span style="color:#005CC5"> str</span><span style="color:#24292E">(</span><span style="color:#005CC5">round</span><span style="color:#24292E">(artPart,</span><span style="color:#005CC5">1</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">+=</span><span style="color:#032F62"> "%</span><span style="color:#005CC5">\n</span><span style="color:#032F62">of all sponsorships, making it the top</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">+=</span><span style="color:#032F62"> "field of fiscal sponsorship."</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">400</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text, </span><span style="color:#E36209">color</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> text_color,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#032F62">'Arts and culture'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">                          "fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">style </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Simple, tail_width=0.5, head_width=4, head_length=8"</span></span>
+<span class="line"><span style="color:#24292E">kw </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">style, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#032F62">'Arts and culture'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">head_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">680</span><span style="color:#24292E">, </span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">tail_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">520</span><span style="color:#24292E">, </span><span style="color:#005CC5">4.2</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> patches.FancyArrowPatch(tail_position, head_position,</span></span>
+<span class="line"><span style="color:#E36209">                              connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"arc3,rad=.5"</span><span style="color:#24292E">, </span><span style="color:#D73A49">**</span><span style="color:#24292E">kw)</span></span>
+<span class="line"><span style="color:#24292E">plt.gca().add_patch(a)</span></span>
+<span class="line"><span style="color:#24292E">head_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">400</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">tail_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">500</span><span style="color:#24292E">, </span><span style="color:#005CC5">4.2</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> patches.FancyArrowPatch(tail_position, head_position,</span></span>
+<span class="line"><span style="color:#E36209">                              connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"arc3,rad=.5"</span><span style="color:#24292E">, </span><span style="color:#D73A49">**</span><span style="color:#24292E">kw)</span></span>
+<span class="line"><span style="color:#24292E">plt.gca().add_patch(a)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># religions annotation</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "&#x3C;Religion> represents "</span><span style="color:#D73A49"> +</span><span style="color:#005CC5">  str</span><span style="color:#24292E">(</span><span style="color:#005CC5">round</span><span style="color:#24292E">(religionPart,</span><span style="color:#005CC5">1</span><span style="color:#24292E">)) </span><span style="color:#D73A49">+</span><span style="color:#032F62"> "</span><span style="color:#005CC5">% o</span><span style="color:#032F62">f all"</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">+=</span><span style="color:#032F62"> "</span><span style="color:#005CC5">\n</span><span style="color:#032F62">sponsorships. This is mostly due</span><span style="color:#005CC5">\n</span><span style="color:#032F62">to the New Horizons "</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">+=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"Foundations</span><span style="color:#005CC5">\n</span><span style="color:#032F62">with </span><span style="color:#005CC5">{</span><span style="color:#24292E">NHFPart</span><span style="color:#D73A49">:.1f</span><span style="color:#005CC5">}</span><span style="color:#032F62">% of all."</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">800</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#032F62">'Faith-based/religious'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">                         "fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">style </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Simple, tail_width=0.5, head_width=4, head_length=8"</span></span>
+<span class="line"><span style="color:#24292E">kw </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">style, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#032F62">'Faith-based/religious'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">head_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">900</span><span style="color:#24292E">, </span><span style="color:#005CC5">14</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">tail_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">980</span><span style="color:#24292E">, </span><span style="color:#005CC5">11</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> patches.FancyArrowPatch(tail_position, head_position,</span></span>
+<span class="line"><span style="color:#E36209">                              connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"arc3,rad=.5"</span><span style="color:#24292E">, </span><span style="color:#D73A49">**</span><span style="color:#24292E">kw)</span></span>
+<span class="line"><span style="color:#24292E">plt.gca().add_patch(a)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># other annotations below</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Other fields of fiscal sponsorship such</span><span style="color:#005CC5">\n</span><span style="color:#032F62">as &#x3C;Health> and &#x3C;Bill paying>"</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">+=</span><span style="color:#032F62"> " are also</span><span style="color:#005CC5">\n</span><span style="color:#032F62">represented in the top sponsors."</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span><span style="color:#E36209">x</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 500</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 1.8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#032F62">'Health'</span><span style="color:#24292E">], </span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">                             {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#032F62">'Bill paying'</span><span style="color:#24292E">], </span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}],</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">xmin, xmax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.get_xlim()</span></span>
+<span class="line"><span style="color:#24292E">ymin, ymax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.get_ylim()</span></span>
+<span class="line"><span style="color:#E36209">xrange</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> xmax </span><span style="color:#D73A49">-</span><span style="color:#24292E"> xmin</span></span>
+<span class="line"><span style="color:#24292E">yrange </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ymax </span><span style="color:#D73A49">-</span><span style="color:#24292E"> ymin</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(xmin </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 0.05</span><span style="color:#D73A49">*</span><span style="color:#E36209">xrange</span><span style="color:#24292E">, xmax </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 0.2</span><span style="color:#D73A49">*</span><span style="color:#E36209">xrange</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.savefig(</span><span style="color:#032F62">'../../static/graph/web-barplot-with-annotations-and-arrows-highres.png'</span><span style="color:#24292E">, </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">, </span><span style="color:#E36209">bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">'tight'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>44:["$","$L32","notebook-cell-6",{"index":6,"code":"$54","highlighted":"$55","interactive":true,"hasChart":true,"intro":"$L56","output":"$L57"}]
+45:["$","h2","h2-7",{"children":"Going further"}]
+46:["$","p","p-13",{"children":["This article explains how to reproduce a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/barplot/","children":"barplot"}]," with ",["$","strong","strong-0",{"children":"custom annotations and circled arrows"}]," showing the number of fiscal sponsorship of the top sponsors, according to the Fiscal Sponsorship Directory."]}]
+47:["$","p","p-14",{"children":["For more examples of ",["$","strong","strong-0",{"children":"advanced customization"}],", check out ",["$","a","a-0",{"href":"https://python-graph-gallery.com/web-ordered-mirror-barplot/","children":"how to create a mirror barplot"}],". Also, you might be interested in ",["$","a","a-1",{"href":"https://python-graph-gallery.com/advanced-custom-annotations-matplotlib/","children":"creating advanced annotations"}],"."]}]
+48:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+4e:[["$","p","p-0",{"children":"In this step, we add a few customizations to the plot:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"remove the axis"}]," with the ",["$","code","code-0",{"children":"axis('off')"}]," function"]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"shift sponsors' names"}]," so that they are inside the bars"]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"add the number of fiscal sponsorships"}]," on the right of the bars"]}],"\n"]}],["$","p","p-1",{"children":["We mainly use the ",["$","code","code-0",{"children":"ax.text()"}]," function to add the annotations, where the ",["$","strong","strong-0",{"children":"positions"}]," are determined by the number of fiscal sponsorships."]}]]
+4f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-barplot-with-annotations-and-arrows/output-2.png","alt":"Barplot with custom colors, annotations and arrows","width":641,"height":790,"loading":"lazy","decoding":"async"}]}]]
+52:[["$","p","p-0",{"children":["Ideally, each bar would have a color according to the ",["$","code","code-0",{"children":"project"}]," column. We can use the ",["$","code","code-1",{"children":"c"}]," argument of the ",["$","code","code-2",{"children":"barh()"}]," function to do that."]}],["$","p","p-1",{"children":["But before we create a color map, we need to create a dictionary that maps each ",["$","code","code-0",{"children":"project"}]," to a color."]}],["$","p","p-2",{"children":["We'll also ",["$","strong","strong-0",{"children":"change the main theme"}]," of the chart to a dark one. For this, we use:"]}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["the ",["$","code","code-0",{"children":"set_facecolor()"}]," function to change the background color"]}],"\n"]}]]
+53:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-barplot-with-annotations-and-arrows/output-3.png","alt":"Barplot with custom colors, annotations and arrows","width":641,"height":790,"loading":"lazy","decoding":"async"}]}]]
+56:[["$","p","p-0",{"children":["We will create a custom arrow in Matplotlib by defining its style, size, and color, and then positions it on the figure using specified ",["$","strong","strong-0",{"children":"tail and head coordinates"}],". It uses a ",["$","code","code-0",{"children":"FancyArrowPatch"}]," for flexible styling, including an ",["$","strong","strong-1",{"children":"arc connection style"}],", and adds this arrow to the current plot's axes. This approach allows for detailed customization and highlighting within visual presentations, making it ideal for annotating or ",["$","strong","strong-2",{"children":"drawing attention"}]," to specific areas of a plot."]}]]
+57:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-barplot-with-annotations-and-arrows/output-4.png","alt":"Barplot with custom colors, annotations and arrows","width":1191,"height":1308,"loading":"lazy","decoding":"async"}]}]]

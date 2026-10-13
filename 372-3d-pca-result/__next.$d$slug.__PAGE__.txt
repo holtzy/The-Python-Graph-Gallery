@@ -1,0 +1,179 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+f:I[98936,["$3","$4","$5","$6","$d"],"default"]
+1a:"ViewportBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"MetadataBoundary"
+1d:I[97367,["$3","$4","$5","$6"],"$1c"]
+1e:"$Sreact.suspense"
+1f:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+10:T580,# libraries
+import pandas as pd
+import numpy as np
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+import seaborn as sns
+ 
+# Get the iris dataset
+sns.set_style("white")
+df = sns.load_dataset('iris')
+
+# create figure
+my_dpi=96
+plt.figure(figsize=(480/my_dpi, 480/my_dpi), dpi=my_dpi)
+ 
+# Keep the 'species' column appart + make it numeric for coloring
+df['species']=pd.Categorical(df['species'])
+my_color=df['species'].cat.codes
+df = df.drop('species', 1)
+ 
+# Run The PCA
+pca = PCA(n_components=3)
+pca.fit(df)
+ 
+# Store results of PCA in a data frame
+result=pd.DataFrame(pca.transform(df), columns=['PCA%i' % i for i in range(3)], index=df.index)
+ 
+# Plot initialisation
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.scatter(result['PCA0'], result['PCA1'], result['PCA2'], c=my_color, cmap="Set2_r", s=60)
+ 
+# make simple, bare axis lines through space:
+xAxisLine = ((min(result['PCA0']), max(result['PCA0'])), (0, 0), (0,0))
+ax.plot(xAxisLine[0], xAxisLine[1], xAxisLine[2], 'r')
+yAxisLine = ((0, 0), (min(result['PCA1']), max(result['PCA1'])), (0,0))
+ax.plot(yAxisLine[0], yAxisLine[1], yAxisLine[2], 'r')
+zAxisLine = ((0, 0), (0,0), (min(result['PCA2']), max(result['PCA2'])))
+ax.plot(zAxisLine[0], zAxisLine[1], zAxisLine[2], 'r')
+ 
+# label the axes
+ax.set_xlabel("PC1")
+ax.set_ylabel("PC2")
+ax.set_zlabel("PC3")
+ax.set_title("PCA on the iris data set")
+plt.show()c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"3D PCA Result"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/3d150.webp","alt":"logo of a chart:3d","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p><a href='https://python-graph-gallery.com/3d/'>3D</a> scatterplots can be useful to display the result of a <b>PCA</b>, in the case you would like to display 3 principal components. This post provides an example to show how to display PCA in your 3D plots using the sklearn library.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/3d/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"3D section"}],""]}]]}]}],["$","article",null,{"className":"wrapper post-content","children":["$","$Lf",null,{"cells":["$10"],"children":"$L11"}]}],"$L12","$L13","$L14","$L15","$L16"],["$L17"],"$L18"]}],"p":"$@19","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"372-3d-pca-result","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"3D PCA Result"}],["$","meta","1",{"name":"description","content":"Showing a PCA result in 3D scatterplot using sklearn and matplotlib"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, seaborn, matplotlib, sklearn, 3D, scatterplot, PCA"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/372-3d-pca-result/"}],["$","meta","6",{"property":"og:title","content":"3D PCA Result"}],["$","meta","7",{"property":"og:description","content":"Showing a PCA result in 3D scatterplot using sklearn and matplotlib"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/372-3d-pca-result/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"3D PCA Result"}],["$","meta","13",{"name":"twitter:description","content":"Showing a PCA result in 3D scatterplot using sklearn and matplotlib"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/372-3d-pca-result/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1f","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@20","v":null,"s":"$b"}},"a":"$@21","u":"$@22","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+23:I[68978,["$3","$4","$5","$6","$d"],"default"]
+28:I[44110,["$3","$4","$5","$6","$d"],"default"]
+29:I[59351,["$3","$4","$5","$6","$d"],"default"]
+2a:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+24:T580,# libraries
+import pandas as pd
+import numpy as np
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+import seaborn as sns
+ 
+# Get the iris dataset
+sns.set_style("white")
+df = sns.load_dataset('iris')
+
+# create figure
+my_dpi=96
+plt.figure(figsize=(480/my_dpi, 480/my_dpi), dpi=my_dpi)
+ 
+# Keep the 'species' column appart + make it numeric for coloring
+df['species']=pd.Categorical(df['species'])
+my_color=df['species'].cat.codes
+df = df.drop('species', 1)
+ 
+# Run The PCA
+pca = PCA(n_components=3)
+pca.fit(df)
+ 
+# Store results of PCA in a data frame
+result=pd.DataFrame(pca.transform(df), columns=['PCA%i' % i for i in range(3)], index=df.index)
+ 
+# Plot initialisation
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.scatter(result['PCA0'], result['PCA1'], result['PCA2'], c=my_color, cmap="Set2_r", s=60)
+ 
+# make simple, bare axis lines through space:
+xAxisLine = ((min(result['PCA0']), max(result['PCA0'])), (0, 0), (0,0))
+ax.plot(xAxisLine[0], xAxisLine[1], xAxisLine[2], 'r')
+yAxisLine = ((0, 0), (min(result['PCA1']), max(result['PCA1'])), (0,0))
+ax.plot(yAxisLine[0], yAxisLine[1], yAxisLine[2], 'r')
+zAxisLine = ((0, 0), (0,0), (min(result['PCA2']), max(result['PCA2'])))
+ax.plot(zAxisLine[0], zAxisLine[1], zAxisLine[2], 'r')
+ 
+# label the axes
+ax.set_xlabel("PC1")
+ax.set_ylabel("PC2")
+ax.set_zlabel("PC3")
+ax.set_title("PCA on the iris data set")
+plt.show()25:T2ab9,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># libraries</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> sklearn.decomposition </span><span style="color:#D73A49">import</span><span style="color:#005CC5"> PCA</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> seaborn </span><span style="color:#D73A49">as</span><span style="color:#24292E"> sns</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Get the iris dataset</span></span>
+<span class="line"><span style="color:#24292E">sns.set_style(</span><span style="color:#032F62">"white"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sns.load_dataset(</span><span style="color:#032F62">'iris'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create figure</span></span>
+<span class="line"><span style="color:#24292E">my_dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">96</span></span>
+<span class="line"><span style="color:#24292E">plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">480</span><span style="color:#D73A49">/</span><span style="color:#24292E">my_dpi, </span><span style="color:#005CC5">480</span><span style="color:#D73A49">/</span><span style="color:#24292E">my_dpi), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#24292E">my_dpi)</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Keep the 'species' column appart + make it numeric for coloring</span></span>
+<span class="line"><span style="color:#24292E">df[</span><span style="color:#032F62">'species'</span><span style="color:#24292E">]</span><span style="color:#D73A49">=</span><span style="color:#24292E">pd.Categorical(df[</span><span style="color:#032F62">'species'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">my_color</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'species'</span><span style="color:#24292E">].cat.codes</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.drop(</span><span style="color:#032F62">'species'</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Run The PCA</span></span>
+<span class="line"><span style="color:#24292E">pca </span><span style="color:#D73A49">=</span><span style="color:#24292E"> PCA(</span><span style="color:#E36209">n_components</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">pca.fit(df)</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Store results of PCA in a data frame</span></span>
+<span class="line"><span style="color:#24292E">result</span><span style="color:#D73A49">=</span><span style="color:#24292E">pd.DataFrame(pca.transform(df), </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">'PCA</span><span style="color:#005CC5">%i</span><span style="color:#032F62">'</span><span style="color:#D73A49"> %</span><span style="color:#24292E"> i </span><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">3</span><span style="color:#24292E">)], </span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#24292E">df.index)</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Plot initialisation</span></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.figure()</span></span>
+<span class="line"><span style="color:#24292E">ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.add_subplot(</span><span style="color:#005CC5">111</span><span style="color:#24292E">, </span><span style="color:#E36209">projection</span><span style="color:#D73A49">=</span><span style="color:#032F62">'3d'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(result[</span><span style="color:#032F62">'PCA0'</span><span style="color:#24292E">], result[</span><span style="color:#032F62">'PCA1'</span><span style="color:#24292E">], result[</span><span style="color:#032F62">'PCA2'</span><span style="color:#24292E">], </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#24292E">my_color, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Set2_r"</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">60</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># make simple, bare axis lines through space:</span></span>
+<span class="line"><span style="color:#24292E">xAxisLine </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ((</span><span style="color:#005CC5">min</span><span style="color:#24292E">(result[</span><span style="color:#032F62">'PCA0'</span><span style="color:#24292E">]), </span><span style="color:#005CC5">max</span><span style="color:#24292E">(result[</span><span style="color:#032F62">'PCA0'</span><span style="color:#24292E">])), (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">), (</span><span style="color:#005CC5">0</span><span style="color:#24292E">,</span><span style="color:#005CC5">0</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(xAxisLine[</span><span style="color:#005CC5">0</span><span style="color:#24292E">], xAxisLine[</span><span style="color:#005CC5">1</span><span style="color:#24292E">], xAxisLine[</span><span style="color:#005CC5">2</span><span style="color:#24292E">], </span><span style="color:#032F62">'r'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">yAxisLine </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ((</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">), (</span><span style="color:#005CC5">min</span><span style="color:#24292E">(result[</span><span style="color:#032F62">'PCA1'</span><span style="color:#24292E">]), </span><span style="color:#005CC5">max</span><span style="color:#24292E">(result[</span><span style="color:#032F62">'PCA1'</span><span style="color:#24292E">])), (</span><span style="color:#005CC5">0</span><span style="color:#24292E">,</span><span style="color:#005CC5">0</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(yAxisLine[</span><span style="color:#005CC5">0</span><span style="color:#24292E">], yAxisLine[</span><span style="color:#005CC5">1</span><span style="color:#24292E">], yAxisLine[</span><span style="color:#005CC5">2</span><span style="color:#24292E">], </span><span style="color:#032F62">'r'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">zAxisLine </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ((</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">), (</span><span style="color:#005CC5">0</span><span style="color:#24292E">,</span><span style="color:#005CC5">0</span><span style="color:#24292E">), (</span><span style="color:#005CC5">min</span><span style="color:#24292E">(result[</span><span style="color:#032F62">'PCA2'</span><span style="color:#24292E">]), </span><span style="color:#005CC5">max</span><span style="color:#24292E">(result[</span><span style="color:#032F62">'PCA2'</span><span style="color:#24292E">])))</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(zAxisLine[</span><span style="color:#005CC5">0</span><span style="color:#24292E">], zAxisLine[</span><span style="color:#005CC5">1</span><span style="color:#24292E">], zAxisLine[</span><span style="color:#005CC5">2</span><span style="color:#24292E">], </span><span style="color:#032F62">'r'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># label the axes</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlabel(</span><span style="color:#032F62">"PC1"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylabel(</span><span style="color:#032F62">"PC2"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_zlabel(</span><span style="color:#032F62">"PC3"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span><span style="color:#032F62">"PCA on the iris data set"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>11:[["$","$L23","notebook-cell-0",{"index":0,"code":"$24","highlighted":"$25","interactive":false,"hasChart":true,"intro":"$L26","output":"$L27"}]]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","colors",{"href":"/python-colors/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Colours150.webp","alt":"logo of a chart:Colours","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],false]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Colors"}]]}],["$","$Le","plotly",{"href":"/plotly/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Interactive150.webp","alt":"logo of a chart:Interactive","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],false]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Interactivity"}]]}],["$","$Le","animation",{"href":"/animation/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/section/anim150.gif","alt":"logo of a chart:anim","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],false]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Animation"}]]}],["$","$Le","cheatSheets",{"href":"/cheat-sheets/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Cheat150.webp","alt":"logo of a chart:Cheat","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],false]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Cheat sheets"}]]}],["$","$Le","caveats",{"href":"https://www.data-to-viz.com/caveats.html","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bad150.webp","alt":"logo of a chart:Bad","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],false]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Caveats"}]]}],["$","$Le","3d",{"href":"/3d/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/3d150.webp","alt":"logo of a chart:3d","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],false]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"3D"}]]}],["$","$Le","statistics",{"href":"/statistics/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Stats150.webp","alt":"logo of a chart:Stats","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],false]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Statistics"}]]}]]}]]}]}]
+14:["$","div",null,{"className":"h-16 sm:h-20"}]
+15:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L28",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+16:["$","$L29",null,{}]
+17:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+18:["$","$L2a",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@2b"}]}]
+22:true
+b:300
+26:[["$","p","p-0",{"children":"Here is an example showing how to display the result of a PCA in 3D scatterplots. Note that the 3 red lines highlighting the dimensions."}]]
+27:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/372-3d-pca-result/output-1.png","alt":"3D PCA Result","width":269,"height":259,"loading":"lazy","decoding":"async"}]}]]
+2b:null
+b:C
+21:0
+9:"$undefined"
+20:"$undefined"
+19:"$undefined"

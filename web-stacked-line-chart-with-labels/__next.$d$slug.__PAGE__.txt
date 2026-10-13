@@ -1,0 +1,669 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Stacked line chart with inline labels"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/StackedArea150.webp","alt":"logo of a chart:StackedArea","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post shows how to build a clean <a href='https://python-graph-gallery.com/stacked-area-plot/'>stacked area chart</a> using python and <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a>. The final chart is shows a huge attention to detail, making it ready for publication. It has a nice <b>color palette</b>, some very clean <b>inline labels</b>, a powerful <b>title</b> and slick <b>footer caption</b> with logos.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/stacked-area-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Stacked Area section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/stackedarea.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-stacked-line-chart-with-labels","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Stacked line chart with inline labels"}],["$","meta","1",{"name":"description","content":"Plotting basic and complex, highly customizable, stacked area charts in Python with matplotlib"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, stacked, area, matplotlib, line, labels"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-stacked-line-chart-with-labels/"}],["$","meta","6",{"property":"og:title","content":"Stacked line chart with inline labels"}],["$","meta","7",{"property":"og:description","content":"Plotting basic and complex, highly customizable, stacked area charts in Python with matplotlib"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/web-stacked-line-chart-with-labels/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Stacked line chart with inline labels"}],["$","meta","13",{"name":"twitter:description","content":"Plotting basic and complex, highly customizable, stacked area charts in Python with matplotlib"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/web-stacked-line-chart-with-labels/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+26:I[44110,["$3","$4","$5","$6","$d"],"default"]
+27:I[59351,["$3","$4","$5","$6","$d"],"default"]
+28:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T45b,# Create a pivot table to reshape the data for stacked area chart
+pivot_df = df.pivot(index='year', columns='country', values='total_wealth')
+
+# Define custom colors for the countries
+custom_colors = ["#003f5c","#2f4b7c","#665191","#a05195","#d45087","#f95d6a","#ff7c43","#ffa600"]
+
+# Smooth the lines using spline interpolation
+x_smooth = np.linspace(pivot_df.index.min(), pivot_df.index.max(), 300)
+pivot_smooth = pd.DataFrame({country: make_interp_spline(pivot_df.index, pivot_df[country])(x_smooth)
+                             for country in pivot_df.columns})
+
+# Plot the stacked area chart with smoothing and custom colors
+plt.figure(figsize=(6, 6))  # Set the figure size
+plt.stackplot(x_smooth,
+              pivot_smooth.values.T,
+              labels=pivot_smooth.columns,
+              colors=custom_colors)
+plt.xlabel('Year') # Add a label for the x-axis
+plt.ylabel('Total Wealth') # Add a label for the y-axis
+plt.title('Stacked Area Chart with Smoothing and Customized Colors') # Add a title
+plt.legend(loc='upper left') # Add a legend in the upper left corner of the plot
+
+# Show the plot
+plt.show()23:T485,# Create a pivot table to reshape the data for stacked area chart
+pivot_df = df.pivot(index='year', columns='country', values='total_wealth')
+
+# Define custom colors for the countries
+custom_colors = ["#003f5c","#2f4b7c","#665191","#a05195","#d45087","#f95d6a","#ff7c43","#ffa600"]
+
+# Define the desired order of countries
+desired_order = ["United States", "China", "Japan", "Germany", "United Kingdom", "France", "India", "Other"]
+
+# Reorder the columns of the pivot_df and custom_colors list
+pivot_df = pivot_df[desired_order]
+
+# Smooth the lines using spline interpolation
+x_smooth = np.linspace(pivot_df.index.min(), pivot_df.index.max(), 300)
+pivot_smooth = pd.DataFrame({country: make_interp_spline(pivot_df.index, pivot_df[country])(x_smooth)
+                             for country in pivot_df.columns})
+
+# Plot the stacked area chart with smoothing and custom colors
+plt.figure(figsize=(6, 6))  # Set the figure size
+plt.stackplot(x_smooth, pivot_smooth.values.T, labels=pivot_smooth.columns, colors=custom_colors)
+plt.xlabel('Year')
+plt.ylabel('Total Wealth')
+plt.title('Stacked Area Chart with Smoothing')
+plt.legend(loc='upper left')
+plt.show()24:T1a24,# Create a pivot table to reshape the data for stacked area chart
+pivot_df = df.pivot(index='year', columns='country', values='total_wealth')
+
+# Define custom colors for the countries
+custom_colors = ["#003f5c","#2f4b7c","#665191","#a05195","#d45087","#f95d6a","#ff7c43","#ffa600"]
+
+# Define the desired order of countries
+desired_order = ["United States", "China", "Japan", "Germany", "United Kingdom", "France", "India", "Other"]
+
+# Reorder the columns of the pivot_df and custom_colors list
+pivot_df = pivot_df[desired_order]
+
+# Smooth the lines using spline interpolation
+x_smooth = np.linspace(pivot_df.index.min(), pivot_df.index.max(), 300)
+pivot_smooth = pd.DataFrame({country: make_interp_spline(pivot_df.index, pivot_df[country])(x_smooth)
+                             for country in pivot_df.columns})
+
+# Plot the stacked area chart with smoothing and custom colors
+plt.figure(figsize=(8, 8))  # Set the figure size
+plt.stackplot(x_smooth, pivot_smooth.values.T, labels=pivot_smooth.columns, colors=custom_colors)
+
+# `plt.gca()` function is used to obtain a reference to the current axes on which you plot your data
+ax = plt.gca()
+
+# Annotations for the values per year
+def add_annotations_year(year):
+    """
+    Input: a year
+    Apply: add to the graph the total wealth of all countries at a given date
+           and a line from the bottom of the graph to the total value of wealth
+    """
+    
+    # Calculate total amount of wealth at a given year
+    y_end = df[df["year"]==year]["total_wealth"].sum()
+    
+    # Set values in areas where the graph does not appear
+    # Special case for 2021: we put it on the left instead of upper the line
+    if year==2021:
+        modif_xaxis = -3.3
+        modif_yaxis = 20000
+    else:
+        modif_xaxis = -1.5
+        modif_yaxis = 26000
+    
+    # Add the values, with a specific position, in bold, black and a fontsize of 10
+    plt.text(year+modif_xaxis,
+             y_end+modif_yaxis,
+             f'${y_end}M',
+             fontsize=10,
+             color='black',
+             fontweight = 'bold')
+    
+    # Add line 
+    ax.plot([year, year], # x-axis position
+            [0, y_end*1.05], # y-axis position (*1.05 is used to make a it little bit longer)
+            color='black', # Color
+            linewidth=1) # Width of the line
+    
+    # Add a point at the top of the line
+    ax.plot(year, # x-axis position
+            y_end*1.05, # y-axis position (*1.05 is used to make a it little bit longer)
+            marker='o', # Style of the point
+            markersize=5, # Size of the point
+            color='black') # Color
+
+# Add the line and the values for each of the following years
+for year in [2000,2005,2010,2015,2021]:
+    add_annotations_year(year)
+    
+# Annotations for the values per country
+def add_annotations_country(country, value_placement, amount, color):
+    """
+    Adds an annotation to a plot at a specific location with information about a country's amount in millions.
+
+    Parameters:
+        country (str): The name of the country for which the annotation is being added.
+        value_placement (float): The vertical position where the annotation will be placed on the plot.
+        amount (float): The amount in millions that will be displayed in the annotation.
+        color (str): The color of the annotation text.
+    """
+    plt.text(2021.5, value_placement, f'{country} ${amount}M', fontsize=10, color=color, fontweight='bold')
+
+# We manually define the labels, values and position that will be displayed on the right of the graph
+countries = ['Rest of the world', 'India', 'France', 'UK', 'Germany', 'Japan', 'China', 'USA']
+values_placement = [400000, 310000, 295000, 275000, 260000, 240000, 180000, 70000]
+amounts = [142841, 14225, 16159, 16261, 17489, 25692, 85107, 145793]
+custom_colors.reverse() # Makes sure the colors match the country concerned
+
+# Iterate over all countries and add the name with the right value and color
+for country, value, amount, color in zip(countries, values_placement, amounts, custom_colors):
+    add_annotations_country(country, value, amount, color)
+
+# Title of our graph 
+plt.text(2000, 320000,
+         'Aggregated \nHousehold \nWealth', # Title ('\n' allows you to go to the line)
+         fontsize=40, # High font size for style
+         color='black',
+         fontweight = 'bold')
+
+# Credits and data information
+plt.text(2000, -50000, 'Data:', fontsize=8, color='black', fontweight = 'bold')
+plt.text(2001.4, -50000, 'James Davies, Rodrigo Lluberas and Anthony Shorrocks, Credit Suisse Global Wealth Databook 2022', fontsize=8, color='black')
+plt.text(2000, -63000, 'Design:', fontsize=8, color='black', fontweight = 'bold')
+plt.text(2001.9, -63000, 'Gilbert Fontana', fontsize=8, color='black')
+
+# Images
+def add_logo(path_to_logo, text, image_bottom_left_x, image_bottom_left_y, image_width):
+    """
+    Adds a logo image and text to a plot at specific positions.
+
+    Parameters:
+        path_to_logo (str): The file path to the logo image that will be added to the plot.
+        text (str): The text to be added along with the logo.
+        image_bottom_left_x (float): The x-coordinate of the bottom-left corner of the logo image's position on the plot.
+        image_bottom_left_y (float): The y-coordinate of the bottom-left corner of the logo image's position on the plot.
+        image_width (float): The width of the logo image in the plot.
+    """
+    logo = Image.open(path_to_logo) # Open the image
+    image_array = np.array(logo) # Convert to a numpy array
+    image_height = image_width * image_array.shape[0] / image_array.shape[1]  # Calculate height based on ratio
+
+    # Add image to graph 
+    ax_image = plt.axes([image_bottom_left_x, # Position on the x-axis
+                         image_bottom_left_y, # Position on the y-axis
+                         image_width, # Image width
+                         image_height]) # Image height
+    ax_image.imshow(image_array) # Display the image
+    ax_image.axis('off') # Remove axis of the image in order to improve style
+    
+    # Add text
+    plt.text(700, # Position on the x-axis
+             image_bottom_left_y+500, # Position on the y-axis
+             text,
+             fontsize=8,
+             color='black')
+
+# Add github and twitter credentials
+add_logo("github.png", "gilbertfontana", 0.155, -0.03, 0.03)
+add_logo("twitter.png", "GilbertFontana", 0.16, -0.06, 0.02)
+
+# Remove the y-axis frame (left, right and top spines)
+ax.spines['left'].set_visible(False)
+ax.spines['right'].set_visible(False)
+ax.spines['top'].set_visible(False)
+
+# Remove the ticks and labels on the y-axis
+ax.tick_params(left=False, labelleft=False)
+
+# Display the chart
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["# Libraries\nimport matplotlib.pyplot as plt\nimport pandas as pd","# Read the Excel file into a DataFrame\nmy_path = \"~/Desktop/python graph gallery\"\ndf = pd.read_excel(f\"{my_path}/wealth_data.xlsx\")","# Create a pivot table to reshape the data for stacked area chart\npivot_df = df.pivot(index='year', columns='country', values='total_wealth')\n\n# Plot the stacked area chart with smoothing and custom colors\nplt.figure(figsize=(6, 6))  # Set the figure size\nplt.stackplot(pivot_df.index,\n              pivot_df.values.T,\n              labels=pivot_df.columns)\nplt.xlabel('Year') # Add a label for the x-axis\nplt.ylabel('Total Wealth') # Add a label for the y-axis\nplt.title('A Simple Stacked Area Chart') # Add a title\nplt.legend(loc='upper left') # Add a legend in the upper left corner of the plot\n\n# Show the plot\nplt.show()","# Libraries\nimport numpy as np\nfrom scipy.interpolate import make_interp_spline","$22","$23","# Libraries \nfrom PIL import Image # Open the image\nimport matplotlib.cm as cm # Add annotations (lines and points)","$24"],"children":"$L25"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","line",{"href":"/line-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Line150.webp","alt":"logo of a chart:Line","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Line chart"}]]}],["$","$Le","area",{"href":"/area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Area150.webp","alt":"logo of a chart:Area","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Area chart"}]]}],["$","$Le","stackedArea",{"href":"/stacked-area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/StackedArea150.webp","alt":"logo of a chart:StackedArea","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Stacked Area"}]]}],["$","$Le","stream",{"href":"/streamchart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Stream150.webp","alt":"logo of a chart:Stream","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Streamgraph"}]]}],["$","$Le","candlestick",{"href":"/candlestick/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CandleStick2Small.webp","alt":"logo of a chart:CandleStick2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Candlestick"}]]}],["$","$Le","timeseries",{"href":"/timeseries/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/section/time150.gif","alt":"logo of a chart:time","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Timeseries"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L26",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L27",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L28",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
+20:true
+2a:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+25:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This page showcases the work of ",["$","a","a-0",{"href":"https://twitter.com/GilbertFontana?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","children":"Gilbert Fontana"}],", which was originally published on ",["$","a","a-1",{"href":"https://twitter.com/GilbertFontana/status/1681734005668888601","children":"twitter"}],". The chart was originally made with ",["$","a","a-2",{"href":"https://r-graph-gallery.com/web-stacked-area-chart-inline-labels.html","children":"R"}],". This post is a translation to Python by ",["$","a","a-3",{"href":"https://www.linkedin.com/in/joseph-barbier-4ab531224/","children":"Joseph B"}],"."]}],"\n",["$","p","p-1",{"children":"Thanks to him for accepting sharing his work here!"}],"\n",["$","p","p-2",{"children":"As a teaser, here is the plot we’re gonna try building:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-stacked-line-chart-with-labels.png?raw=true","alt":"stacked area chart with python","loading":"lazy","decoding":"async"}]}],"\n",["$","p","p-4",{"children":["$","img","img-0",{"src":"/graph/web-stacked-line-chart-with-labels.png","alt":"Stacked line chart with labels","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-5",{"children":"For this tutorial, you'll need to install the following librairies:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," is the main library used for both graphics and customization."]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"pandas"}]," will be used to open and manipulate our dataset"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"numpy"}]," and ",["$","code","code-1",{"children":"scipy"}]," for ",["$","strong","strong-0",{"children":"smoothing the graph"}]]}],"\n"]}],"\n",["$","p","p-6",{"children":["In case you never used it, remember to install scipy with ",["$","code","code-0",{"children":"pip install scipy"}]]}],"\n",["$","$L2a","notebook-cell-0",{"index":0,"code":"# Libraries\nimport matplotlib.pyplot as plt\nimport pandas as pd","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Libraries</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> matplotlib.pyplot </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> plt</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> pandas </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> pd</span></span></code></pre>","interactive":false,"hasChart":false}],"\n",["$","h2","h2-2",{"children":"Load the dataset"}],"\n",["$","p","p-7",{"children":["If you want to ",["$","strong","strong-0",{"children":"reproduce"}]," the results, you can find and download the ",["$","a","a-0",{"href":"https://github.com/holtzy/R-graph-gallery/blob/master/DATA/wealth_data.xlsx","children":"dataset used on github"}],". Then, you can use the ",["$","code","code-0",{"children":"read_excel()"}]," function from ",["$","strong","strong-1",{"children":"pandas"}]," to read the file since it's in a ",["$","em","em-0",{"children":"xlsx"}]," format."]}],"\n",["$","p","p-8",{"children":[["$","strong","strong-0",{"children":"Remember to update"}]," the ",["$","code","code-0",{"children":"my_path"}]," variable to where you put the file on your computer."]}],"\n",["$","$L2a","notebook-cell-1",{"index":1,"code":"# Read the Excel file into a DataFrame\nmy_path = \"~/Desktop/python graph gallery\"\ndf = pd.read_excel(f\"{my_path}/wealth_data.xlsx\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Read the Excel file into a DataFrame</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">my_path </span><span style=\"color:#D73A49\">=</span><span style=\"color:#032F62\"> \"~/Desktop/python graph gallery\"</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.read_excel(</span><span style=\"color:#D73A49\">f</span><span style=\"color:#032F62\">\"</span><span style=\"color:#005CC5\">{</span><span style=\"color:#24292E\">my_path</span><span style=\"color:#005CC5\">}</span><span style=\"color:#032F62\">/wealth_data.xlsx\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":false,"hasChart":false}],"\n","$L2b","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","$L34","\n","$L35","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","$L3c"]
+29:null
+b:C
+2b:["$","h2","h2-3",{"children":"Basic stacked area plot"}]
+3d:Tb5c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a pivot table to reshape the data for stacked area chart</span></span>
+<span class="line"><span style="color:#24292E">pivot_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.pivot(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#032F62">'year'</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">'country'</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">'total_wealth'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Plot the stacked area chart with smoothing and custom colors</span></span>
+<span class="line"><span style="color:#24292E">plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))  </span><span style="color:#6A737D"># Set the figure size</span></span>
+<span class="line"><span style="color:#24292E">plt.stackplot(pivot_df.index,</span></span>
+<span class="line"><span style="color:#24292E">              pivot_df.values.T,</span></span>
+<span class="line"><span style="color:#E36209">              labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">pivot_df.columns)</span></span>
+<span class="line"><span style="color:#24292E">plt.xlabel(</span><span style="color:#032F62">'Year'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Add a label for the x-axis</span></span>
+<span class="line"><span style="color:#24292E">plt.ylabel(</span><span style="color:#032F62">'Total Wealth'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Add a label for the y-axis</span></span>
+<span class="line"><span style="color:#24292E">plt.title(</span><span style="color:#032F62">'A Simple Stacked Area Chart'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Add a title</span></span>
+<span class="line"><span style="color:#24292E">plt.legend(</span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'upper left'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Add a legend in the upper left corner of the plot</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>2c:["$","$L2a","notebook-cell-2",{"index":2,"code":"# Create a pivot table to reshape the data for stacked area chart\npivot_df = df.pivot(index='year', columns='country', values='total_wealth')\n\n# Plot the stacked area chart with smoothing and custom colors\nplt.figure(figsize=(6, 6))  # Set the figure size\nplt.stackplot(pivot_df.index,\n              pivot_df.values.T,\n              labels=pivot_df.columns)\nplt.xlabel('Year') # Add a label for the x-axis\nplt.ylabel('Total Wealth') # Add a label for the y-axis\nplt.title('A Simple Stacked Area Chart') # Add a title\nplt.legend(loc='upper left') # Add a legend in the upper left corner of the plot\n\n# Show the plot\nplt.show()","highlighted":"$3d","interactive":false,"hasChart":true,"intro":"$L3e","output":"$L3f"}]
+2d:["$","h2","h2-4",{"children":"Changing the colors and Smoothing the lines"}]
+2e:["$","h3","h3-0",{"children":"Modifying the colors"}]
+2f:["$","p","p-9",{"children":["In the latter chart, the colors are not very beautiful. You might want to change them to ",["$","strong","strong-0",{"children":"your own colors"}],". In order to do this, you have to define a list of colors of the ",["$","strong","strong-1",{"children":"same length as the number of labels"}]," (here it's the number of countries). Then, you just have to put ",["$","code","code-0",{"children":"colors=custom_colors"}]," when calling the ",["$","code","code-1",{"children":"stackplot"}]," function."]}]
+30:["$","h3","h3-1",{"children":"Smoothing"}]
+31:["$","p","p-10",{"children":["Smoothed data allows us to better reflect the trend and evolution of data. To smooth the data, we use ",["$","strong","strong-0",{"children":"spline interpolation"}]," from ",["$","code","code-0",{"children":"scipy"}],". It creates a new set of evenly spaced x values (",["$","code","code-1",{"children":"x_smooth"}],") that span the range of years from the minimum to the maximum year in the data."]}]
+32:["$","p","p-11",{"children":["It then applies spline interpolation ",["$","strong","strong-0",{"children":"to smooth the total wealth data for each country"}]," over these new x values. The result is stored in a new dataframe ",["$","code","code-0",{"children":"pivot_smooth"}],"."]}]
+33:["$","$L2a","notebook-cell-3",{"index":3,"code":"# Libraries\nimport numpy as np\nfrom scipy.interpolate import make_interp_spline","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Libraries</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> numpy </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> np</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">from</span><span style=\"color:#24292E\"> scipy.interpolate </span><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> make_interp_spline</span></span></code></pre>","interactive":false,"hasChart":false}]
+40:T45b,# Create a pivot table to reshape the data for stacked area chart
+pivot_df = df.pivot(index='year', columns='country', values='total_wealth')
+
+# Define custom colors for the countries
+custom_colors = ["#003f5c","#2f4b7c","#665191","#a05195","#d45087","#f95d6a","#ff7c43","#ffa600"]
+
+# Smooth the lines using spline interpolation
+x_smooth = np.linspace(pivot_df.index.min(), pivot_df.index.max(), 300)
+pivot_smooth = pd.DataFrame({country: make_interp_spline(pivot_df.index, pivot_df[country])(x_smooth)
+                             for country in pivot_df.columns})
+
+# Plot the stacked area chart with smoothing and custom colors
+plt.figure(figsize=(6, 6))  # Set the figure size
+plt.stackplot(x_smooth,
+              pivot_smooth.values.T,
+              labels=pivot_smooth.columns,
+              colors=custom_colors)
+plt.xlabel('Year') # Add a label for the x-axis
+plt.ylabel('Total Wealth') # Add a label for the y-axis
+plt.title('Stacked Area Chart with Smoothing and Customized Colors') # Add a title
+plt.legend(loc='upper left') # Add a legend in the upper left corner of the plot
+
+# Show the plot
+plt.show()41:T131c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a pivot table to reshape the data for stacked area chart</span></span>
+<span class="line"><span style="color:#24292E">pivot_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.pivot(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#032F62">'year'</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">'country'</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">'total_wealth'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define custom colors for the countries</span></span>
+<span class="line"><span style="color:#24292E">custom_colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">"#003f5c"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#2f4b7c"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#665191"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#a05195"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#d45087"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#f95d6a"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#ff7c43"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#ffa600"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Smooth the lines using spline interpolation</span></span>
+<span class="line"><span style="color:#24292E">x_smooth </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.linspace(pivot_df.index.min(), pivot_df.index.max(), </span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">pivot_smooth </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({country: make_interp_spline(pivot_df.index, pivot_df[country])(x_smooth)</span></span>
+<span class="line"><span style="color:#D73A49">                             for</span><span style="color:#24292E"> country </span><span style="color:#D73A49">in</span><span style="color:#24292E"> pivot_df.columns})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Plot the stacked area chart with smoothing and custom colors</span></span>
+<span class="line"><span style="color:#24292E">plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))  </span><span style="color:#6A737D"># Set the figure size</span></span>
+<span class="line"><span style="color:#24292E">plt.stackplot(x_smooth,</span></span>
+<span class="line"><span style="color:#24292E">              pivot_smooth.values.T,</span></span>
+<span class="line"><span style="color:#E36209">              labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">pivot_smooth.columns,</span></span>
+<span class="line"><span style="color:#E36209">              colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">custom_colors)</span></span>
+<span class="line"><span style="color:#24292E">plt.xlabel(</span><span style="color:#032F62">'Year'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Add a label for the x-axis</span></span>
+<span class="line"><span style="color:#24292E">plt.ylabel(</span><span style="color:#032F62">'Total Wealth'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Add a label for the y-axis</span></span>
+<span class="line"><span style="color:#24292E">plt.title(</span><span style="color:#032F62">'Stacked Area Chart with Smoothing and Customized Colors'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Add a title</span></span>
+<span class="line"><span style="color:#24292E">plt.legend(</span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'upper left'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Add a legend in the upper left corner of the plot</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>34:["$","$L2a","notebook-cell-4",{"index":4,"code":"$40","highlighted":"$41","interactive":false,"hasChart":true,"output":"$L42"}]
+35:["$","h2","h2-5",{"children":"Stacking order"}]
+43:T485,# Create a pivot table to reshape the data for stacked area chart
+pivot_df = df.pivot(index='year', columns='country', values='total_wealth')
+
+# Define custom colors for the countries
+custom_colors = ["#003f5c","#2f4b7c","#665191","#a05195","#d45087","#f95d6a","#ff7c43","#ffa600"]
+
+# Define the desired order of countries
+desired_order = ["United States", "China", "Japan", "Germany", "United Kingdom", "France", "India", "Other"]
+
+# Reorder the columns of the pivot_df and custom_colors list
+pivot_df = pivot_df[desired_order]
+
+# Smooth the lines using spline interpolation
+x_smooth = np.linspace(pivot_df.index.min(), pivot_df.index.max(), 300)
+pivot_smooth = pd.DataFrame({country: make_interp_spline(pivot_df.index, pivot_df[country])(x_smooth)
+                             for country in pivot_df.columns})
+
+# Plot the stacked area chart with smoothing and custom colors
+plt.figure(figsize=(6, 6))  # Set the figure size
+plt.stackplot(x_smooth, pivot_smooth.values.T, labels=pivot_smooth.columns, colors=custom_colors)
+plt.xlabel('Year')
+plt.ylabel('Total Wealth')
+plt.title('Stacked Area Chart with Smoothing')
+plt.legend(loc='upper left')
+plt.show()44:T15d6,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a pivot table to reshape the data for stacked area chart</span></span>
+<span class="line"><span style="color:#24292E">pivot_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.pivot(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#032F62">'year'</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">'country'</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">'total_wealth'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define custom colors for the countries</span></span>
+<span class="line"><span style="color:#24292E">custom_colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">"#003f5c"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#2f4b7c"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#665191"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#a05195"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#d45087"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#f95d6a"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#ff7c43"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#ffa600"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define the desired order of countries</span></span>
+<span class="line"><span style="color:#24292E">desired_order </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">"United States"</span><span style="color:#24292E">, </span><span style="color:#032F62">"China"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Japan"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Germany"</span><span style="color:#24292E">, </span><span style="color:#032F62">"United Kingdom"</span><span style="color:#24292E">, </span><span style="color:#032F62">"France"</span><span style="color:#24292E">, </span><span style="color:#032F62">"India"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Other"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Reorder the columns of the pivot_df and custom_colors list</span></span>
+<span class="line"><span style="color:#24292E">pivot_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pivot_df[desired_order]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Smooth the lines using spline interpolation</span></span>
+<span class="line"><span style="color:#24292E">x_smooth </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.linspace(pivot_df.index.min(), pivot_df.index.max(), </span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">pivot_smooth </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({country: make_interp_spline(pivot_df.index, pivot_df[country])(x_smooth)</span></span>
+<span class="line"><span style="color:#D73A49">                             for</span><span style="color:#24292E"> country </span><span style="color:#D73A49">in</span><span style="color:#24292E"> pivot_df.columns})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Plot the stacked area chart with smoothing and custom colors</span></span>
+<span class="line"><span style="color:#24292E">plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))  </span><span style="color:#6A737D"># Set the figure size</span></span>
+<span class="line"><span style="color:#24292E">plt.stackplot(x_smooth, pivot_smooth.values.T, </span><span style="color:#E36209">labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">pivot_smooth.columns, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">custom_colors)</span></span>
+<span class="line"><span style="color:#24292E">plt.xlabel(</span><span style="color:#032F62">'Year'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.ylabel(</span><span style="color:#032F62">'Total Wealth'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.title(</span><span style="color:#032F62">'Stacked Area Chart with Smoothing'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.legend(</span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'upper left'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>36:["$","$L2a","notebook-cell-5",{"index":5,"code":"$43","highlighted":"$44","interactive":false,"hasChart":true,"intro":"$L45","output":"$L46"}]
+37:["$","h2","h2-6",{"children":"Add anotation"}]
+38:["$","p","p-12",{"children":["This step can take some time, as many of the texts and annotations are added manually. We're mainly using ",["$","code","code-0",{"children":"plt.text()"}]," function from ",["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}],", which makes it ",["$","strong","strong-0",{"children":"super-easy to add text"}]," to a graph."]}]
+39:["$","p","p-13",{"children":["In order to display the Github and Twitter logos at the bottom of the graph, we need to use another library: ",["$","code","code-0",{"children":"PIL"}]," for opening the image. The latter must be ",["$","strong","strong-0",{"children":"locally stored"}]," on the computer: don't forget to ",["$","strong","strong-1",{"children":"download them"}]," (any found on the internet will do)."]}]
+3a:["$","p","p-14",{"children":["Also, in order to add lines and points, we need to import the ",["$","code","code-0",{"children":"cm"}]," module from matplotlib."]}]
+3b:["$","$L2a","notebook-cell-6",{"index":6,"code":"# Libraries \nfrom PIL import Image # Open the image\nimport matplotlib.cm as cm # Add annotations (lines and points)","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Libraries </span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">from</span><span style=\"color:#005CC5\"> PIL</span><span style=\"color:#D73A49\"> import</span><span style=\"color:#24292E\"> Image </span><span style=\"color:#6A737D\"># Open the image</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> matplotlib.cm </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> cm </span><span style=\"color:#6A737D\"># Add annotations (lines and points)</span></span></code></pre>","interactive":false,"hasChart":false}]
+47:T1a24,# Create a pivot table to reshape the data for stacked area chart
+pivot_df = df.pivot(index='year', columns='country', values='total_wealth')
+
+# Define custom colors for the countries
+custom_colors = ["#003f5c","#2f4b7c","#665191","#a05195","#d45087","#f95d6a","#ff7c43","#ffa600"]
+
+# Define the desired order of countries
+desired_order = ["United States", "China", "Japan", "Germany", "United Kingdom", "France", "India", "Other"]
+
+# Reorder the columns of the pivot_df and custom_colors list
+pivot_df = pivot_df[desired_order]
+
+# Smooth the lines using spline interpolation
+x_smooth = np.linspace(pivot_df.index.min(), pivot_df.index.max(), 300)
+pivot_smooth = pd.DataFrame({country: make_interp_spline(pivot_df.index, pivot_df[country])(x_smooth)
+                             for country in pivot_df.columns})
+
+# Plot the stacked area chart with smoothing and custom colors
+plt.figure(figsize=(8, 8))  # Set the figure size
+plt.stackplot(x_smooth, pivot_smooth.values.T, labels=pivot_smooth.columns, colors=custom_colors)
+
+# `plt.gca()` function is used to obtain a reference to the current axes on which you plot your data
+ax = plt.gca()
+
+# Annotations for the values per year
+def add_annotations_year(year):
+    """
+    Input: a year
+    Apply: add to the graph the total wealth of all countries at a given date
+           and a line from the bottom of the graph to the total value of wealth
+    """
+    
+    # Calculate total amount of wealth at a given year
+    y_end = df[df["year"]==year]["total_wealth"].sum()
+    
+    # Set values in areas where the graph does not appear
+    # Special case for 2021: we put it on the left instead of upper the line
+    if year==2021:
+        modif_xaxis = -3.3
+        modif_yaxis = 20000
+    else:
+        modif_xaxis = -1.5
+        modif_yaxis = 26000
+    
+    # Add the values, with a specific position, in bold, black and a fontsize of 10
+    plt.text(year+modif_xaxis,
+             y_end+modif_yaxis,
+             f'${y_end}M',
+             fontsize=10,
+             color='black',
+             fontweight = 'bold')
+    
+    # Add line 
+    ax.plot([year, year], # x-axis position
+            [0, y_end*1.05], # y-axis position (*1.05 is used to make a it little bit longer)
+            color='black', # Color
+            linewidth=1) # Width of the line
+    
+    # Add a point at the top of the line
+    ax.plot(year, # x-axis position
+            y_end*1.05, # y-axis position (*1.05 is used to make a it little bit longer)
+            marker='o', # Style of the point
+            markersize=5, # Size of the point
+            color='black') # Color
+
+# Add the line and the values for each of the following years
+for year in [2000,2005,2010,2015,2021]:
+    add_annotations_year(year)
+    
+# Annotations for the values per country
+def add_annotations_country(country, value_placement, amount, color):
+    """
+    Adds an annotation to a plot at a specific location with information about a country's amount in millions.
+
+    Parameters:
+        country (str): The name of the country for which the annotation is being added.
+        value_placement (float): The vertical position where the annotation will be placed on the plot.
+        amount (float): The amount in millions that will be displayed in the annotation.
+        color (str): The color of the annotation text.
+    """
+    plt.text(2021.5, value_placement, f'{country} ${amount}M', fontsize=10, color=color, fontweight='bold')
+
+# We manually define the labels, values and position that will be displayed on the right of the graph
+countries = ['Rest of the world', 'India', 'France', 'UK', 'Germany', 'Japan', 'China', 'USA']
+values_placement = [400000, 310000, 295000, 275000, 260000, 240000, 180000, 70000]
+amounts = [142841, 14225, 16159, 16261, 17489, 25692, 85107, 145793]
+custom_colors.reverse() # Makes sure the colors match the country concerned
+
+# Iterate over all countries and add the name with the right value and color
+for country, value, amount, color in zip(countries, values_placement, amounts, custom_colors):
+    add_annotations_country(country, value, amount, color)
+
+# Title of our graph 
+plt.text(2000, 320000,
+         'Aggregated \nHousehold \nWealth', # Title ('\n' allows you to go to the line)
+         fontsize=40, # High font size for style
+         color='black',
+         fontweight = 'bold')
+
+# Credits and data information
+plt.text(2000, -50000, 'Data:', fontsize=8, color='black', fontweight = 'bold')
+plt.text(2001.4, -50000, 'James Davies, Rodrigo Lluberas and Anthony Shorrocks, Credit Suisse Global Wealth Databook 2022', fontsize=8, color='black')
+plt.text(2000, -63000, 'Design:', fontsize=8, color='black', fontweight = 'bold')
+plt.text(2001.9, -63000, 'Gilbert Fontana', fontsize=8, color='black')
+
+# Images
+def add_logo(path_to_logo, text, image_bottom_left_x, image_bottom_left_y, image_width):
+    """
+    Adds a logo image and text to a plot at specific positions.
+
+    Parameters:
+        path_to_logo (str): The file path to the logo image that will be added to the plot.
+        text (str): The text to be added along with the logo.
+        image_bottom_left_x (float): The x-coordinate of the bottom-left corner of the logo image's position on the plot.
+        image_bottom_left_y (float): The y-coordinate of the bottom-left corner of the logo image's position on the plot.
+        image_width (float): The width of the logo image in the plot.
+    """
+    logo = Image.open(path_to_logo) # Open the image
+    image_array = np.array(logo) # Convert to a numpy array
+    image_height = image_width * image_array.shape[0] / image_array.shape[1]  # Calculate height based on ratio
+
+    # Add image to graph 
+    ax_image = plt.axes([image_bottom_left_x, # Position on the x-axis
+                         image_bottom_left_y, # Position on the y-axis
+                         image_width, # Image width
+                         image_height]) # Image height
+    ax_image.imshow(image_array) # Display the image
+    ax_image.axis('off') # Remove axis of the image in order to improve style
+    
+    # Add text
+    plt.text(700, # Position on the x-axis
+             image_bottom_left_y+500, # Position on the y-axis
+             text,
+             fontsize=8,
+             color='black')
+
+# Add github and twitter credentials
+add_logo("github.png", "gilbertfontana", 0.155, -0.03, 0.03)
+add_logo("twitter.png", "GilbertFontana", 0.16, -0.06, 0.02)
+
+# Remove the y-axis frame (left, right and top spines)
+ax.spines['left'].set_visible(False)
+ax.spines['right'].set_visible(False)
+ax.spines['top'].set_visible(False)
+
+# Remove the ticks and labels on the y-axis
+ax.tick_params(left=False, labelleft=False)
+
+# Display the chart
+plt.show()48:T7567,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a pivot table to reshape the data for stacked area chart</span></span>
+<span class="line"><span style="color:#24292E">pivot_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.pivot(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#032F62">'year'</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">'country'</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">'total_wealth'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define custom colors for the countries</span></span>
+<span class="line"><span style="color:#24292E">custom_colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">"#003f5c"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#2f4b7c"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#665191"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#a05195"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#d45087"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#f95d6a"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#ff7c43"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#ffa600"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define the desired order of countries</span></span>
+<span class="line"><span style="color:#24292E">desired_order </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">"United States"</span><span style="color:#24292E">, </span><span style="color:#032F62">"China"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Japan"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Germany"</span><span style="color:#24292E">, </span><span style="color:#032F62">"United Kingdom"</span><span style="color:#24292E">, </span><span style="color:#032F62">"France"</span><span style="color:#24292E">, </span><span style="color:#032F62">"India"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Other"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Reorder the columns of the pivot_df and custom_colors list</span></span>
+<span class="line"><span style="color:#24292E">pivot_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pivot_df[desired_order]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Smooth the lines using spline interpolation</span></span>
+<span class="line"><span style="color:#24292E">x_smooth </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.linspace(pivot_df.index.min(), pivot_df.index.max(), </span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">pivot_smooth </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({country: make_interp_spline(pivot_df.index, pivot_df[country])(x_smooth)</span></span>
+<span class="line"><span style="color:#D73A49">                             for</span><span style="color:#24292E"> country </span><span style="color:#D73A49">in</span><span style="color:#24292E"> pivot_df.columns})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Plot the stacked area chart with smoothing and custom colors</span></span>
+<span class="line"><span style="color:#24292E">plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">))  </span><span style="color:#6A737D"># Set the figure size</span></span>
+<span class="line"><span style="color:#24292E">plt.stackplot(x_smooth, pivot_smooth.values.T, </span><span style="color:#E36209">labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">pivot_smooth.columns, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">custom_colors)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># `plt.gca()` function is used to obtain a reference to the current axes on which you plot your data</span></span>
+<span class="line"><span style="color:#24292E">ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.gca()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Annotations for the values per year</span></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> add_annotations_year</span><span style="color:#24292E">(year):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Input: a year</span></span>
+<span class="line"><span style="color:#032F62">    Apply: add to the graph the total wealth of all countries at a given date</span></span>
+<span class="line"><span style="color:#032F62">           and a line from the bottom of the graph to the total value of wealth</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Calculate total amount of wealth at a given year</span></span>
+<span class="line"><span style="color:#24292E">    y_end </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"year"</span><span style="color:#24292E">]</span><span style="color:#D73A49">==</span><span style="color:#24292E">year][</span><span style="color:#032F62">"total_wealth"</span><span style="color:#24292E">].sum()</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Set values in areas where the graph does not appear</span></span>
+<span class="line"><span style="color:#6A737D">    # Special case for 2021: we put it on the left instead of upper the line</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> year</span><span style="color:#D73A49">==</span><span style="color:#005CC5">2021</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        modif_xaxis </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> -</span><span style="color:#005CC5">3.3</span></span>
+<span class="line"><span style="color:#24292E">        modif_yaxis </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 20000</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        modif_xaxis </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> -</span><span style="color:#005CC5">1.5</span></span>
+<span class="line"><span style="color:#24292E">        modif_yaxis </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 26000</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add the values, with a specific position, in bold, black and a fontsize of 10</span></span>
+<span class="line"><span style="color:#24292E">    plt.text(year</span><span style="color:#D73A49">+</span><span style="color:#24292E">modif_xaxis,</span></span>
+<span class="line"><span style="color:#24292E">             y_end</span><span style="color:#D73A49">+</span><span style="color:#24292E">modif_yaxis,</span></span>
+<span class="line"><span style="color:#D73A49">             f</span><span style="color:#032F62">'$</span><span style="color:#005CC5">{</span><span style="color:#24292E">y_end</span><span style="color:#005CC5">}</span><span style="color:#032F62">M'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">             fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">             color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">             fontweight</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> 'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add line </span></span>
+<span class="line"><span style="color:#24292E">    ax.plot([year, year], </span><span style="color:#6A737D"># x-axis position</span></span>
+<span class="line"><span style="color:#24292E">            [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, y_end</span><span style="color:#D73A49">*</span><span style="color:#005CC5">1.05</span><span style="color:#24292E">], </span><span style="color:#6A737D"># y-axis position (*1.05 is used to make a it little bit longer)</span></span>
+<span class="line"><span style="color:#E36209">            color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Color</span></span>
+<span class="line"><span style="color:#E36209">            linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Width of the line</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add a point at the top of the line</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(year, </span><span style="color:#6A737D"># x-axis position</span></span>
+<span class="line"><span style="color:#24292E">            y_end</span><span style="color:#D73A49">*</span><span style="color:#005CC5">1.05</span><span style="color:#24292E">, </span><span style="color:#6A737D"># y-axis position (*1.05 is used to make a it little bit longer)</span></span>
+<span class="line"><span style="color:#E36209">            marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">'o'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Style of the point</span></span>
+<span class="line"><span style="color:#E36209">            markersize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Size of the point</span></span>
+<span class="line"><span style="color:#E36209">            color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Color</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add the line and the values for each of the following years</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year </span><span style="color:#D73A49">in</span><span style="color:#24292E"> [</span><span style="color:#005CC5">2000</span><span style="color:#24292E">,</span><span style="color:#005CC5">2005</span><span style="color:#24292E">,</span><span style="color:#005CC5">2010</span><span style="color:#24292E">,</span><span style="color:#005CC5">2015</span><span style="color:#24292E">,</span><span style="color:#005CC5">2021</span><span style="color:#24292E">]:</span></span>
+<span class="line"><span style="color:#24292E">    add_annotations_year(year)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D"># Annotations for the values per country</span></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> add_annotations_country</span><span style="color:#24292E">(country, value_placement, amount, color):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Adds an annotation to a plot at a specific location with information about a country's amount in millions.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#032F62">    Parameters:</span></span>
+<span class="line"><span style="color:#032F62">        country (str): The name of the country for which the annotation is being added.</span></span>
+<span class="line"><span style="color:#032F62">        value_placement (float): The vertical position where the annotation will be placed on the plot.</span></span>
+<span class="line"><span style="color:#032F62">        amount (float): The amount in millions that will be displayed in the annotation.</span></span>
+<span class="line"><span style="color:#032F62">        color (str): The color of the annotation text.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    plt.text(</span><span style="color:#005CC5">2021.5</span><span style="color:#24292E">, value_placement, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'</span><span style="color:#005CC5">{</span><span style="color:#24292E">country</span><span style="color:#005CC5">}</span><span style="color:#032F62"> $</span><span style="color:#005CC5">{</span><span style="color:#24292E">amount</span><span style="color:#005CC5">}</span><span style="color:#032F62">M'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># We manually define the labels, values and position that will be displayed on the right of the graph</span></span>
+<span class="line"><span style="color:#24292E">countries </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'Rest of the world'</span><span style="color:#24292E">, </span><span style="color:#032F62">'India'</span><span style="color:#24292E">, </span><span style="color:#032F62">'France'</span><span style="color:#24292E">, </span><span style="color:#032F62">'UK'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Germany'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Japan'</span><span style="color:#24292E">, </span><span style="color:#032F62">'China'</span><span style="color:#24292E">, </span><span style="color:#032F62">'USA'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">values_placement </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">400000</span><span style="color:#24292E">, </span><span style="color:#005CC5">310000</span><span style="color:#24292E">, </span><span style="color:#005CC5">295000</span><span style="color:#24292E">, </span><span style="color:#005CC5">275000</span><span style="color:#24292E">, </span><span style="color:#005CC5">260000</span><span style="color:#24292E">, </span><span style="color:#005CC5">240000</span><span style="color:#24292E">, </span><span style="color:#005CC5">180000</span><span style="color:#24292E">, </span><span style="color:#005CC5">70000</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">amounts </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">142841</span><span style="color:#24292E">, </span><span style="color:#005CC5">14225</span><span style="color:#24292E">, </span><span style="color:#005CC5">16159</span><span style="color:#24292E">, </span><span style="color:#005CC5">16261</span><span style="color:#24292E">, </span><span style="color:#005CC5">17489</span><span style="color:#24292E">, </span><span style="color:#005CC5">25692</span><span style="color:#24292E">, </span><span style="color:#005CC5">85107</span><span style="color:#24292E">, </span><span style="color:#005CC5">145793</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">custom_colors.reverse() </span><span style="color:#6A737D"># Makes sure the colors match the country concerned</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Iterate over all countries and add the name with the right value and color</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> country, value, amount, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(countries, values_placement, amounts, custom_colors):</span></span>
+<span class="line"><span style="color:#24292E">    add_annotations_country(country, value, amount, color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Title of our graph </span></span>
+<span class="line"><span style="color:#24292E">plt.text(</span><span style="color:#005CC5">2000</span><span style="color:#24292E">, </span><span style="color:#005CC5">320000</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'Aggregated </span><span style="color:#005CC5">\n</span><span style="color:#032F62">Household </span><span style="color:#005CC5">\n</span><span style="color:#032F62">Wealth'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Title ('\n' allows you to go to the line)</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">40</span><span style="color:#24292E">, </span><span style="color:#6A737D"># High font size for style</span></span>
+<span class="line"><span style="color:#E36209">         color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontweight</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> 'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Credits and data information</span></span>
+<span class="line"><span style="color:#24292E">plt.text(</span><span style="color:#005CC5">2000</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">50000</span><span style="color:#24292E">, </span><span style="color:#032F62">'Data:'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> 'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.text(</span><span style="color:#005CC5">2001.4</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">50000</span><span style="color:#24292E">, </span><span style="color:#032F62">'James Davies, Rodrigo Lluberas and Anthony Shorrocks, Credit Suisse Global Wealth Databook 2022'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.text(</span><span style="color:#005CC5">2000</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">63000</span><span style="color:#24292E">, </span><span style="color:#032F62">'Design:'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> 'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.text(</span><span style="color:#005CC5">2001.9</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">63000</span><span style="color:#24292E">, </span><span style="color:#032F62">'Gilbert Fontana'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Images</span></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> add_logo</span><span style="color:#24292E">(path_to_logo, text, image_bottom_left_x, image_bottom_left_y, image_width):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Adds a logo image and text to a plot at specific positions.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#032F62">    Parameters:</span></span>
+<span class="line"><span style="color:#032F62">        path_to_logo (str): The file path to the logo image that will be added to the plot.</span></span>
+<span class="line"><span style="color:#032F62">        text (str): The text to be added along with the logo.</span></span>
+<span class="line"><span style="color:#032F62">        image_bottom_left_x (float): The x-coordinate of the bottom-left corner of the logo image's position on the plot.</span></span>
+<span class="line"><span style="color:#032F62">        image_bottom_left_y (float): The y-coordinate of the bottom-left corner of the logo image's position on the plot.</span></span>
+<span class="line"><span style="color:#032F62">        image_width (float): The width of the logo image in the plot.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    logo </span><span style="color:#D73A49">=</span><span style="color:#24292E"> Image.open(path_to_logo) </span><span style="color:#6A737D"># Open the image</span></span>
+<span class="line"><span style="color:#24292E">    image_array </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(logo) </span><span style="color:#6A737D"># Convert to a numpy array</span></span>
+<span class="line"><span style="color:#24292E">    image_height </span><span style="color:#D73A49">=</span><span style="color:#24292E"> image_width </span><span style="color:#D73A49">*</span><span style="color:#24292E"> image_array.shape[</span><span style="color:#005CC5">0</span><span style="color:#24292E">] </span><span style="color:#D73A49">/</span><span style="color:#24292E"> image_array.shape[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]  </span><span style="color:#6A737D"># Calculate height based on ratio</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Add image to graph </span></span>
+<span class="line"><span style="color:#24292E">    ax_image </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.axes([image_bottom_left_x, </span><span style="color:#6A737D"># Position on the x-axis</span></span>
+<span class="line"><span style="color:#24292E">                         image_bottom_left_y, </span><span style="color:#6A737D"># Position on the y-axis</span></span>
+<span class="line"><span style="color:#24292E">                         image_width, </span><span style="color:#6A737D"># Image width</span></span>
+<span class="line"><span style="color:#24292E">                         image_height]) </span><span style="color:#6A737D"># Image height</span></span>
+<span class="line"><span style="color:#24292E">    ax_image.imshow(image_array) </span><span style="color:#6A737D"># Display the image</span></span>
+<span class="line"><span style="color:#24292E">    ax_image.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Remove axis of the image in order to improve style</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add text</span></span>
+<span class="line"><span style="color:#24292E">    plt.text(</span><span style="color:#005CC5">700</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Position on the x-axis</span></span>
+<span class="line"><span style="color:#24292E">             image_bottom_left_y</span><span style="color:#D73A49">+</span><span style="color:#005CC5">500</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Position on the y-axis</span></span>
+<span class="line"><span style="color:#24292E">             text,</span></span>
+<span class="line"><span style="color:#E36209">             fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">             color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add github and twitter credentials</span></span>
+<span class="line"><span style="color:#24292E">add_logo(</span><span style="color:#032F62">"github.png"</span><span style="color:#24292E">, </span><span style="color:#032F62">"gilbertfontana"</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.155</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.03</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.03</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">add_logo(</span><span style="color:#032F62">"twitter.png"</span><span style="color:#24292E">, </span><span style="color:#032F62">"GilbertFontana"</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.16</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.06</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.02</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove the y-axis frame (left, right and top spines)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">'left'</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">'right'</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">'top'</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove the ticks and labels on the y-axis</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">left</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">labelleft</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Display the chart</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3c:["$","$L2a","notebook-cell-7",{"index":7,"code":"$47","highlighted":"$48","interactive":false,"hasChart":true,"output":"$L49"}]
+3e:[["$","p","p-0",{"children":["Everything start with a basic ",["$","strong","strong-0",{"children":"stacked area chart"}],". You can see many examples in the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/stacked-area-plot/","children":"stacked area chart section"}]," of the Python graph gallery, including beginner level tutorials."]}],["$","p","p-1",{"children":["The ",["$","code","code-0",{"children":"pivot()"}]," function will take the original dataframe and transform it into a new table with years as rows, countries as columns, and the ",["$","code","code-1",{"children":"total_wealth"}]," values at the intersections of years and countries."]}],["$","p","p-2",{"children":["Then we use the ",["$","code","code-0",{"children":"stackplot"}]," function from ",["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," to indicate that we want to create a stacked area chart, with years for the x axis, amounts for the y axis and separated by country (and ",["$","em","em-0",{"children":"therefore"}]," by column)."]}]]
+3f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-line-chart-with-labels/output-1.png","alt":"Stacked line chart with inline labels","width":567,"height":545,"loading":"lazy","decoding":"async"}]}]]
+42:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-line-chart-with-labels/output-2.png","alt":"Stacked line chart with inline labels","width":582,"height":545,"loading":"lazy","decoding":"async"}]}]]
+45:[["$","p","p-0",{"children":["Now that you know how to make a stacked area chart with your own colors, let's see how to ",["$","strong","strong-0",{"children":"specify the order of the labels on the chart"}],". It's actually quite simple: you create a list with the order of the labels and ",["$","strong","strong-1",{"children":"adjust your pivot_df"}]," in the same order."]}]]
+46:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-line-chart-with-labels/output-3.png","alt":"Stacked line chart with inline labels","width":567,"height":545,"loading":"lazy","decoding":"async"}]}]]
+49:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-line-chart-with-labels/output-4.png","alt":"Stacked line chart with inline labels","width":858,"height":772,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

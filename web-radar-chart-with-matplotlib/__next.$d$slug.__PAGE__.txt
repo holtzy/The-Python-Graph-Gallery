@@ -1,0 +1,377 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Radar chart with Matplotlib"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>A highly customized radar chart with custom annotations and labels to explore the palmerpenguins dataset made with <code>Python</code> and <code>Matplotlib</code>. This blogpost guides you through a step-by-step construction of a custom radar chart that includes a variety of custom colors, labels, annotations, and guides.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/radar-chart/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Spider / Radar section"}],["$","a",null,{"href":"https://www.data-to-viz.com/caveat/spider.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-radar-chart-with-matplotlib","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Radar chart with Matplotlib"}],["$","meta","1",{"name":"description","content":"This post explains how to build a highly customized radar chart with custom annotations and labels in Matplotlib to explore the palmerpenguins dataset. Step by step code snippets with explanations are provided."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, matplotlib, radarplot, radarchart, polarchart, custom"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-radar-chart-with-matplotlib/"}],["$","meta","6",{"property":"og:title","content":"Radar chart with Matplotlib"}],["$","meta","7",{"property":"og:description","content":"This post explains how to build a highly customized radar chart with custom annotations and labels in Matplotlib to explore the palmerpenguins dataset. Step by step code snippets with explanations are provided."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Radar chart with Matplotlib"}],["$","meta","13",{"name":"twitter:description","content":"This post explains how to build a highly customized radar chart with custom annotations and labels in Matplotlib to explore the palmerpenguins dataset. Step by step code snippets with explanations are provided."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+26:I[44110,["$3","$4","$5","$6","$d"],"default"]
+27:I[59351,["$3","$4","$5","$6","$d"],"default"]
+28:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T517,# Set values for the angular axis (x)
+ax.set_xticks(ANGLES[:-1])
+ax.set_xticklabels(VARIABLES, size=14)
+
+# Remove lines for radial axis (y)
+ax.set_yticks([])
+ax.yaxis.grid(False)
+ax.xaxis.grid(False)
+
+# Remove spines
+ax.spines["start"].set_color("none")
+ax.spines["polar"].set_color("none")
+
+# Add custom lines for radial axis (y) at 0, 0.5 and 1.
+ax.plot(HANGLES, H0, ls=(0, (6, 6)), c=GREY70)
+ax.plot(HANGLES, H1, ls=(0, (6, 6)), c=COLORS[2])
+ax.plot(HANGLES, H2, ls=(0, (6, 6)), c=GREY70)
+
+# Now fill the area of the circle with radius 1.
+# This create the effect of gray background.
+ax.fill(HANGLES, H2, GREY_LIGHT)
+
+# Custom guides for angular axis (x).
+# These four lines do not cross the y = 0 value, so they go from 
+# the innermost circle, to the outermost circle with radius 1.
+ax.plot([0, 0], [0, 1], lw=2, c=GREY70)
+ax.plot([np.pi, np.pi], [0, 1], lw=2, c=GREY70)
+ax.plot([np.pi / 2, np.pi / 2], [0, 1], lw=2, c=GREY70)
+ax.plot([-np.pi / 2, -np.pi / 2], [0, 1], lw=2, c=GREY70)
+
+# Add levels -----------------------------------------------------
+# These labels indicate the values of the radial axis
+PAD = 0.05
+ax.text(-0.4, 0 + PAD, "0%", size=16, fontname="Roboto")
+ax.text(-0.4, 0.5 + PAD, "50%", size=16, fontname="Roboto")
+ax.text(-0.4, 1 + PAD, "100%", size=16, fontname="Roboto")
+
+fig23:T4ed,# Create and add legends -----------------------------------------
+# Legends are made from scratch.
+
+# Iterate through species names and colors.
+# These handles contain both markers and lines.
+handles = [
+    Line2D(
+        [], [], 
+        c=color, 
+        lw=3, 
+        marker="o", 
+        markersize=8, 
+        label=species
+    )
+    for species, color in zip(SPECIES, COLORS)
+]
+
+legend = ax.legend(
+    handles=handles,
+    loc=(1, 0),       # bottom-right
+    labelspacing=1.5, # add space between labels
+    frameon=False     # don't put a frame
+)
+
+# Iterate through text elements and change their properties
+for text in legend.get_texts():
+    text.set_fontname("Roboto") # Change default font 
+    text.set_fontsize(16)       # Change default font size
+
+# Adjust tick label positions ------------------------------------
+XTICKS = ax.xaxis.get_major_ticks()
+for tick in XTICKS[0::2]:
+    tick.set_pad(X_VERTICAL_TICK_PADDING)
+    
+for tick in XTICKS[1::2]:
+    tick.set_pad(X_HORIZONTAL_TICK_PADDING)
+
+# Add title ------------------------------------------------------
+fig.suptitle(
+    "Radar Plot of Penguin Species",
+    x = 0.1,
+    y = 1,
+    ha="left",
+    fontsize=32,
+    fontname="Lobster Two",
+    color=BLUE,
+    weight="bold",    
+)
+figf:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import matplotlib.pyplot as plt\nimport numpy as np\n\nfrom matplotlib.lines import Line2D\nfrom palmerpenguins import load_penguins","penguins = load_penguins()\npenguins.head(3)","penguins = penguins.dropna()","def rescale(x):\n    return (x - np.min(x)) / np.ptp(x)","penguins_radar = (\n    penguins.groupby('species').agg(\n        avg_bill_length = (\"bill_length_mm\", np.mean),\n        avg_bill_depth = (\"bill_depth_mm\", np.mean),\n        avg_flipper_length = (\"flipper_length_mm\", np.mean),\n        avg_body_mass = (\"body_mass_g\", np.mean)\n    )\n    .apply(lambda x: rescale(x))\n    .reset_index()\n)","penguins_radar","BG_WHITE = \"#fbf9f4\"\nBLUE = \"#2a475e\"\nGREY70 = \"#b3b3b3\"\nGREY_LIGHT = \"#f2efe8\"\nCOLORS = [\"#FF5A5F\", \"#FFB400\", \"#007A87\"]","# The three species of penguins\nSPECIES = penguins_radar[\"species\"].values.tolist()\n\n# The four variables in the plot\nVARIABLES = penguins_radar.columns.tolist()[1:]\nVARIABLES_N = len(VARIABLES)\n\n# The angles at which the values of the numeric variables are placed\nANGLES = [n / VARIABLES_N * 2 * np.pi for n in range(VARIABLES_N)]\nANGLES += ANGLES[:1]\n\n# Padding used to customize the location of the tick labels\nX_VERTICAL_TICK_PADDING = 5\nX_HORIZONTAL_TICK_PADDING = 50    \n\n# Angle values going from 0 to 2*pi\nHANGLES = np.linspace(0, 2 * np.pi)\n\n# Used for the equivalent of horizontal lines in cartesian coordinates plots \n# The last one is also used to add a fill which acts a background color.\nH0 = np.zeros(len(HANGLES))\nH1 = np.ones(len(HANGLES)) * 0.5\nH2 = np.ones(len(HANGLES))","# Initialize layout ----------------------------------------------\nfig = plt.figure(figsize=(14, 10))\nax = fig.add_subplot(111, polar=True)\n\nfig.patch.set_facecolor(BG_WHITE)\nax.set_facecolor(BG_WHITE)\n\n# Rotate the \"\" 0 degrees on top. \n# There it where the first variable, avg_bill_length, will go.\nax.set_theta_offset(np.pi / 2)\nax.set_theta_direction(-1)\n\n# Setting lower limit to negative value reduces overlap\n# for values that are 0 (the minimums)\nax.set_ylim(-0.1, 1.05)\n\n# Plot lines and dots --------------------------------------------\nfor idx, species in enumerate(SPECIES):\n    values = penguins_radar.iloc[idx].drop(\"species\").values.tolist()\n    values += values[:1]\n    ax.plot(ANGLES, values, c=COLORS[idx], linewidth=4, label=species)\n    ax.scatter(ANGLES, values, s=160, c=COLORS[idx], zorder=10)","$22","$23"],"children":"$L24"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$Le","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$Le","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$Le","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$Le","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$Le","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$Le","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L25"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L26",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L27",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L28",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
+20:true
+2a:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+24:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This page showcases the work of ",["$","a","a-0",{"href":"https://tuowang.rbind.io/","children":"Tuo Wang"}]," that introduces packages to make ",["$","a","a-1",{"href":"https://ggplot2.tidyverse.org/","children":["$","code","code-0",{"children":"ggplot2"}]}]," plots more beautiful. You can find the original ",["$","a","a-2",{"href":"https://www.r-graph-gallery.com/","children":"R"}]," code on Tuo's blog ",["$","a","a-3",{"href":"https://tuowang.rbind.io","children":"here"}],"."]}],"\n",["$","p","p-1",{"children":["Thanks to him for accepting sharing his work here! Thanks also to ",["$","a","a-0",{"href":"https://tomicapretto.github.io/","children":"Tomás Capretto"}]," who translated this work from R to Python! 🙏🙏"]}],"\n",["$","p","p-2",{"children":"As a teaser, here is the plot we’re gonna try building:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-radar-chart-with-matplotlib-square.png?raw=true","alt":"scatterplot","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Load libraries"}],"\n",["$","p","p-4",{"children":["The first step is always to import some libraries. ",["$","code","code-0",{"children":"NumPy"}]," is going to be used to make some computations with arrays and ",["$","code","code-1",{"children":"load_penguins()"}]," is imported from the ",["$","code","code-2",{"children":"palmerpenguins"}]," library to have access to the popular dataset."]}],"\n",["$","$L2a","notebook-cell-0",{"index":0,"code":"import matplotlib.pyplot as plt\nimport numpy as np\n\nfrom matplotlib.lines import Line2D\nfrom palmerpenguins import load_penguins","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> matplotlib.pyplot </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> plt</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> numpy </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> np</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"color:#D73A49\">from</span><span style=\"color:#24292E\"> matplotlib.lines </span><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> Line2D</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">from</span><span style=\"color:#24292E\"> palmerpenguins </span><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> load_penguins</span></span></code></pre>","interactive":true,"hasChart":false}],"\n",["$","h2","h2-2",{"children":"Load and prepare the data"}],"\n",["$","p","p-5",{"children":["Today's data were collected and made available by ",["$","a","a-0",{"href":"https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php","children":"Dr. Kristen Gorman"}]," and the ",["$","a","a-1",{"href":"https://pallter.marine.rutgers.edu/","children":"Palmer Station, Antarctica LTER"}],", a member of the ",["$","a","a-2",{"href":"https://lternet.edu/","children":"Long Term Ecological Research Network"}],". This dataset was popularized by ",["$","a","a-3",{"href":"https://www.allisonhorst.com/","children":"Allison Horst"}]," in her R package ",["$","a","a-4",{"href":"https://allisonhorst.github.io/palmerpenguins/","children":["$","code","code-0",{"children":"palmerpenguins"}]}]," with the goal to offer an alternative to the iris dataset for data exploration and visualization."]}],"\n",["$","$L2a","notebook-cell-1",{"index":1,"code":"penguins = load_penguins()\npenguins.head(3)","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">penguins </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> load_penguins()</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">penguins.head(</span><span style=\"color:#005CC5\">3</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false,"output":"$L2b"}],"\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","$L36","\n","$L37","$L38","\n","$L39","$L3a"]
+25:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+29:null
+b:C
+2b:[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"species"}],["$","th","th-2",{"children":"island"}],["$","th","th-3",{"children":"bill_length_mm"}],["$","th","th-4",{"children":"bill_depth_mm"}],["$","th","th-5",{"children":"flipper_length_mm"}],["$","th","th-6",{"children":"body_mass_g"}],["$","th","th-7",{"children":"sex"}],["$","th","th-8",{"children":"year"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"Adelie"}],["$","td","td-1",{"children":"Torgersen"}],["$","td","td-2",{"children":"39.1"}],["$","td","td-3",{"children":"18.7"}],["$","td","td-4",{"children":"181.0"}],["$","td","td-5",{"children":"3750.0"}],["$","td","td-6",{"children":"male"}],["$","td","td-7",{"children":"2007"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"Adelie"}],["$","td","td-1",{"children":"Torgersen"}],["$","td","td-2",{"children":"39.5"}],["$","td","td-3",{"children":"17.4"}],["$","td","td-4",{"children":"186.0"}],["$","td","td-5",{"children":"3800.0"}],["$","td","td-6",{"children":"female"}],["$","td","td-7",{"children":"2007"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"Adelie"}],["$","td","td-1",{"children":"Torgersen"}],["$","td","td-2",{"children":"40.3"}],["$","td","td-3",{"children":"18.0"}],["$","td","td-4",{"children":"195.0"}],["$","td","td-5",{"children":"3250.0"}],["$","td","td-6",{"children":"female"}],["$","td","td-7",{"children":"2007"}]]}]]}]]}],"\n"]}]}]]
+2c:["$","p","p-6",{"children":["After dropping observations with missing values, it's necessary to compute the mean value for the numerical variables that will be displayed in the radar chart. Then, with the aid of the ",["$","code","code-0",{"children":"rescale()"}]," function, these summaries are rescaled to [0,1]."]}]
+2d:["$","$L2a","notebook-cell-2",{"index":2,"code":"penguins = penguins.dropna()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">penguins </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> penguins.dropna()</span></span></code></pre>","interactive":true,"hasChart":false}]
+2e:["$","$L2a","notebook-cell-3",{"index":3,"code":"def rescale(x):\n    return (x - np.min(x)) / np.ptp(x)","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#D73A49\">def</span><span style=\"color:#6F42C1\"> rescale</span><span style=\"color:#24292E\">(x):</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">    return</span><span style=\"color:#24292E\"> (x </span><span style=\"color:#D73A49\">-</span><span style=\"color:#24292E\"> np.min(x)) </span><span style=\"color:#D73A49\">/</span><span style=\"color:#24292E\"> np.ptp(x)</span></span></code></pre>","interactive":true,"hasChart":false}]
+3b:T71d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">penguins_radar </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span></span>
+<span class="line"><span style="color:#24292E">    penguins.groupby(</span><span style="color:#032F62">'species'</span><span style="color:#24292E">).agg(</span></span>
+<span class="line"><span style="color:#E36209">        avg_bill_length</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#032F62">"bill_length_mm"</span><span style="color:#24292E">, np.mean),</span></span>
+<span class="line"><span style="color:#E36209">        avg_bill_depth</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#032F62">"bill_depth_mm"</span><span style="color:#24292E">, np.mean),</span></span>
+<span class="line"><span style="color:#E36209">        avg_flipper_length</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#032F62">"flipper_length_mm"</span><span style="color:#24292E">, np.mean),</span></span>
+<span class="line"><span style="color:#E36209">        avg_body_mass</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#032F62">"body_mass_g"</span><span style="color:#24292E">, np.mean)</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    .apply(</span><span style="color:#D73A49">lambda</span><span style="color:#24292E"> x: rescale(x))</span></span>
+<span class="line"><span style="color:#24292E">    .reset_index()</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>2f:["$","$L2a","notebook-cell-4",{"index":4,"code":"penguins_radar = (\n    penguins.groupby('species').agg(\n        avg_bill_length = (\"bill_length_mm\", np.mean),\n        avg_bill_depth = (\"bill_depth_mm\", np.mean),\n        avg_flipper_length = (\"flipper_length_mm\", np.mean),\n        avg_body_mass = (\"body_mass_g\", np.mean)\n    )\n    .apply(lambda x: rescale(x))\n    .reset_index()\n)","highlighted":"$3b","interactive":true,"hasChart":false}]
+30:["$","p","p-7",{"children":"Let's have a final look to the data before starting to code."}]
+31:["$","$L2a","notebook-cell-5",{"index":5,"code":"penguins_radar","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">penguins_radar</span></span></code></pre>","interactive":true,"hasChart":false,"output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"species"}],["$","th","th-2",{"children":"avg_bill_length"}],["$","th","th-3",{"children":"avg_bill_depth"}],["$","th","th-4",{"children":"avg_flipper_length"}],["$","th","th-5",{"children":"avg_body_mass"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"Adelie"}],["$","td","td-1",{"children":"0.000000"}],["$","td","td-2",{"children":"0.978584"}],["$","td","td-3",{"children":"0.000000"}],["$","td","td-4",{"children":"0.000000"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"Chinstrap"}],["$","td","td-1",{"children":"1.000000"}],["$","td","td-2",{"children":"1.000000"}],["$","td","td-3",{"children":"0.210846"}],["$","td","td-4",{"children":"0.019422"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"Gentoo"}],["$","td","td-1",{"children":"0.873549"}],["$","td","td-2",{"children":"0.000000"}],["$","td","td-3",{"children":"1.000000"}],["$","td","td-4",{"children":"1.000000"}]]}]]}]]}],"\n"]}]}]]}]
+32:["$","h2","h2-3",{"children":"Basic radar plot"}]
+33:["$","p","p-8",{"children":"As usually, colors and other important values are declared before the code that actually produces the plot."}]
+3c:T447,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#005CC5">BG_WHITE</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#fbf9f4"</span></span>
+<span class="line"><span style="color:#005CC5">BLUE</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#2a475e"</span></span>
+<span class="line"><span style="color:#005CC5">GREY70</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#b3b3b3"</span></span>
+<span class="line"><span style="color:#005CC5">GREY_LIGHT</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#f2efe8"</span></span>
+<span class="line"><span style="color:#005CC5">COLORS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#032F62">"#FF5A5F"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#FFB400"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#007A87"</span><span style="color:#24292E">]</span></span></code></pre>34:["$","$L2a","notebook-cell-6",{"index":6,"code":"BG_WHITE = \"#fbf9f4\"\nBLUE = \"#2a475e\"\nGREY70 = \"#b3b3b3\"\nGREY_LIGHT = \"#f2efe8\"\nCOLORS = [\"#FF5A5F\", \"#FFB400\", \"#007A87\"]","highlighted":"$3c","interactive":true,"hasChart":false}]
+3d:T1130,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># The three species of penguins</span></span>
+<span class="line"><span style="color:#005CC5">SPECIES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> penguins_radar[</span><span style="color:#032F62">"species"</span><span style="color:#24292E">].values.tolist()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># The four variables in the plot</span></span>
+<span class="line"><span style="color:#005CC5">VARIABLES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> penguins_radar.columns.tolist()[</span><span style="color:#005CC5">1</span><span style="color:#24292E">:]</span></span>
+<span class="line"><span style="color:#005CC5">VARIABLES_N</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(</span><span style="color:#005CC5">VARIABLES</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># The angles at which the values of the numeric variables are placed</span></span>
+<span class="line"><span style="color:#005CC5">ANGLES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [n </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> VARIABLES_N</span><span style="color:#D73A49"> *</span><span style="color:#005CC5"> 2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi </span><span style="color:#D73A49">for</span><span style="color:#24292E"> n </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">VARIABLES_N</span><span style="color:#24292E">)]</span></span>
+<span class="line"><span style="color:#005CC5">ANGLES</span><span style="color:#D73A49"> +=</span><span style="color:#005CC5"> ANGLES</span><span style="color:#24292E">[:</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Padding used to customize the location of the tick labels</span></span>
+<span class="line"><span style="color:#005CC5">X_VERTICAL_TICK_PADDING</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 5</span></span>
+<span class="line"><span style="color:#005CC5">X_HORIZONTAL_TICK_PADDING</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 50</span><span style="color:#24292E">    </span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Angle values going from 0 to 2*pi</span></span>
+<span class="line"><span style="color:#005CC5">HANGLES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> np.linspace(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Used for the equivalent of horizontal lines in cartesian coordinates plots </span></span>
+<span class="line"><span style="color:#6A737D"># The last one is also used to add a fill which acts a background color.</span></span>
+<span class="line"><span style="color:#24292E">H0 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.zeros(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(</span><span style="color:#005CC5">HANGLES</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">H1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.ones(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(</span><span style="color:#005CC5">HANGLES</span><span style="color:#24292E">)) </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 0.5</span></span>
+<span class="line"><span style="color:#24292E">H2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.ones(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(</span><span style="color:#005CC5">HANGLES</span><span style="color:#24292E">))</span></span></code></pre>35:["$","$L2a","notebook-cell-7",{"index":7,"code":"# The three species of penguins\nSPECIES = penguins_radar[\"species\"].values.tolist()\n\n# The four variables in the plot\nVARIABLES = penguins_radar.columns.tolist()[1:]\nVARIABLES_N = len(VARIABLES)\n\n# The angles at which the values of the numeric variables are placed\nANGLES = [n / VARIABLES_N * 2 * np.pi for n in range(VARIABLES_N)]\nANGLES += ANGLES[:1]\n\n# Padding used to customize the location of the tick labels\nX_VERTICAL_TICK_PADDING = 5\nX_HORIZONTAL_TICK_PADDING = 50    \n\n# Angle values going from 0 to 2*pi\nHANGLES = np.linspace(0, 2 * np.pi)\n\n# Used for the equivalent of horizontal lines in cartesian coordinates plots \n# The last one is also used to add a fill which acts a background color.\nH0 = np.zeros(len(HANGLES))\nH1 = np.ones(len(HANGLES)) * 0.5\nH2 = np.ones(len(HANGLES))","highlighted":"$3d","interactive":true,"hasChart":false}]
+3e:T1249,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Initialize layout ----------------------------------------------</span></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.add_subplot(</span><span style="color:#005CC5">111</span><span style="color:#24292E">, </span><span style="color:#E36209">polar</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.patch.set_facecolor(</span><span style="color:#005CC5">BG_WHITE</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(</span><span style="color:#005CC5">BG_WHITE</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Rotate the "" 0 degrees on top. </span></span>
+<span class="line"><span style="color:#6A737D"># There it where the first variable, avg_bill_length, will go.</span></span>
+<span class="line"><span style="color:#24292E">ax.set_theta_offset(np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_theta_direction(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Setting lower limit to negative value reduces overlap</span></span>
+<span class="line"><span style="color:#6A737D"># for values that are 0 (the minimums)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.05</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Plot lines and dots --------------------------------------------</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> idx, species </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">SPECIES</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#24292E"> penguins_radar.iloc[idx].drop(</span><span style="color:#032F62">"species"</span><span style="color:#24292E">).values.tolist()</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> values[:</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">, values, </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#005CC5">COLORS</span><span style="color:#24292E">[idx], </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#24292E">species)</span></span>
+<span class="line"><span style="color:#24292E">    ax.scatter(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">, values, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">160</span><span style="color:#24292E">, </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#005CC5">COLORS</span><span style="color:#24292E">[idx], </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span></code></pre>36:["$","$L2a","notebook-cell-8",{"index":8,"code":"# Initialize layout ----------------------------------------------\nfig = plt.figure(figsize=(14, 10))\nax = fig.add_subplot(111, polar=True)\n\nfig.patch.set_facecolor(BG_WHITE)\nax.set_facecolor(BG_WHITE)\n\n# Rotate the \"\" 0 degrees on top. \n# There it where the first variable, avg_bill_length, will go.\nax.set_theta_offset(np.pi / 2)\nax.set_theta_direction(-1)\n\n# Setting lower limit to negative value reduces overlap\n# for values that are 0 (the minimums)\nax.set_ylim(-0.1, 1.05)\n\n# Plot lines and dots --------------------------------------------\nfor idx, species in enumerate(SPECIES):\n    values = penguins_radar.iloc[idx].drop(\"species\").values.tolist()\n    values += values[:1]\n    ax.plot(ANGLES, values, c=COLORS[idx], linewidth=4, label=species)\n    ax.scatter(ANGLES, values, s=160, c=COLORS[idx], zorder=10)","highlighted":"$3e","interactive":true,"hasChart":true,"intro":"$L3f","output":"$L40"}]
+37:["$","h2","h2-4",{"children":"Customize guides and annotations"}]
+41:T517,# Set values for the angular axis (x)
+ax.set_xticks(ANGLES[:-1])
+ax.set_xticklabels(VARIABLES, size=14)
+
+# Remove lines for radial axis (y)
+ax.set_yticks([])
+ax.yaxis.grid(False)
+ax.xaxis.grid(False)
+
+# Remove spines
+ax.spines["start"].set_color("none")
+ax.spines["polar"].set_color("none")
+
+# Add custom lines for radial axis (y) at 0, 0.5 and 1.
+ax.plot(HANGLES, H0, ls=(0, (6, 6)), c=GREY70)
+ax.plot(HANGLES, H1, ls=(0, (6, 6)), c=COLORS[2])
+ax.plot(HANGLES, H2, ls=(0, (6, 6)), c=GREY70)
+
+# Now fill the area of the circle with radius 1.
+# This create the effect of gray background.
+ax.fill(HANGLES, H2, GREY_LIGHT)
+
+# Custom guides for angular axis (x).
+# These four lines do not cross the y = 0 value, so they go from 
+# the innermost circle, to the outermost circle with radius 1.
+ax.plot([0, 0], [0, 1], lw=2, c=GREY70)
+ax.plot([np.pi, np.pi], [0, 1], lw=2, c=GREY70)
+ax.plot([np.pi / 2, np.pi / 2], [0, 1], lw=2, c=GREY70)
+ax.plot([-np.pi / 2, -np.pi / 2], [0, 1], lw=2, c=GREY70)
+
+# Add levels -----------------------------------------------------
+# These labels indicate the values of the radial axis
+PAD = 0.05
+ax.text(-0.4, 0 + PAD, "0%", size=16, fontname="Roboto")
+ax.text(-0.4, 0.5 + PAD, "50%", size=16, fontname="Roboto")
+ax.text(-0.4, 1 + PAD, "100%", size=16, fontname="Roboto")
+
+fig42:T2845,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Set values for the angular axis (x)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[:</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels(</span><span style="color:#005CC5">VARIABLES</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove lines for radial axis (y)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">ax.yaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.xaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove spines</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"start"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"polar"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add custom lines for radial axis (y) at 0, 0.5 and 1.</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(</span><span style="color:#005CC5">HANGLES</span><span style="color:#24292E">, H0, </span><span style="color:#E36209">ls</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, (</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">)), </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY70</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(</span><span style="color:#005CC5">HANGLES</span><span style="color:#24292E">, H1, </span><span style="color:#E36209">ls</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, (</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">)), </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#005CC5">COLORS</span><span style="color:#24292E">[</span><span style="color:#005CC5">2</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(</span><span style="color:#005CC5">HANGLES</span><span style="color:#24292E">, H2, </span><span style="color:#E36209">ls</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, (</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">)), </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY70</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Now fill the area of the circle with radius 1.</span></span>
+<span class="line"><span style="color:#6A737D"># This create the effect of gray background.</span></span>
+<span class="line"><span style="color:#24292E">ax.fill(</span><span style="color:#005CC5">HANGLES</span><span style="color:#24292E">, H2, </span><span style="color:#005CC5">GREY_LIGHT</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Custom guides for angular axis (x).</span></span>
+<span class="line"><span style="color:#6A737D"># These four lines do not cross the y = 0 value, so they go from </span></span>
+<span class="line"><span style="color:#6A737D"># the innermost circle, to the outermost circle with radius 1.</span></span>
+<span class="line"><span style="color:#24292E">ax.plot([</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">], </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY70</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.plot([np.pi, np.pi], [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">], </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY70</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.plot([np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">, np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">], </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY70</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.plot([</span><span style="color:#D73A49">-</span><span style="color:#24292E">np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#24292E">np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">], </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY70</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add levels -----------------------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># These labels indicate the values of the radial axis</span></span>
+<span class="line"><span style="color:#005CC5">PAD</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 0.05</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#D73A49"> +</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">, </span><span style="color:#032F62">"0%"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#E36209">fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Roboto"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.5</span><span style="color:#D73A49"> +</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">, </span><span style="color:#032F62">"50%"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#E36209">fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Roboto"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#D73A49"> +</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">, </span><span style="color:#032F62">"100%"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#E36209">fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Roboto"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>38:["$","$L2a","notebook-cell-9",{"index":9,"code":"$41","highlighted":"$42","interactive":true,"hasChart":true,"intro":"$L43","output":"$L44"}]
+39:["$","h2","h2-5",{"children":"Final chart"}]
+45:T4ed,# Create and add legends -----------------------------------------
+# Legends are made from scratch.
+
+# Iterate through species names and colors.
+# These handles contain both markers and lines.
+handles = [
+    Line2D(
+        [], [], 
+        c=color, 
+        lw=3, 
+        marker="o", 
+        markersize=8, 
+        label=species
+    )
+    for species, color in zip(SPECIES, COLORS)
+]
+
+legend = ax.legend(
+    handles=handles,
+    loc=(1, 0),       # bottom-right
+    labelspacing=1.5, # add space between labels
+    frameon=False     # don't put a frame
+)
+
+# Iterate through text elements and change their properties
+for text in legend.get_texts():
+    text.set_fontname("Roboto") # Change default font 
+    text.set_fontsize(16)       # Change default font size
+
+# Adjust tick label positions ------------------------------------
+XTICKS = ax.xaxis.get_major_ticks()
+for tick in XTICKS[0::2]:
+    tick.set_pad(X_VERTICAL_TICK_PADDING)
+    
+for tick in XTICKS[1::2]:
+    tick.set_pad(X_HORIZONTAL_TICK_PADDING)
+
+# Add title ------------------------------------------------------
+fig.suptitle(
+    "Radar Plot of Penguin Species",
+    x = 0.1,
+    y = 1,
+    ha="left",
+    fontsize=32,
+    fontname="Lobster Two",
+    color=BLUE,
+    weight="bold",    
+)
+fig46:T1d31,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create and add legends -----------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># Legends are made from scratch.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Iterate through species names and colors.</span></span>
+<span class="line"><span style="color:#6A737D"># These handles contain both markers and lines.</span></span>
+<span class="line"><span style="color:#24292E">handles </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#24292E">    Line2D(</span></span>
+<span class="line"><span style="color:#24292E">        [], [], </span></span>
+<span class="line"><span style="color:#E36209">        c</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span></span>
+<span class="line"><span style="color:#E36209">        lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">"o"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        markersize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        label</span><span style="color:#D73A49">=</span><span style="color:#24292E">species</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> species, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(</span><span style="color:#005CC5">SPECIES</span><span style="color:#24292E">, </span><span style="color:#005CC5">COLORS</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">legend </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.legend(</span></span>
+<span class="line"><span style="color:#E36209">    handles</span><span style="color:#D73A49">=</span><span style="color:#24292E">handles,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">),       </span><span style="color:#6A737D"># bottom-right</span></span>
+<span class="line"><span style="color:#E36209">    labelspacing</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.5</span><span style="color:#24292E">, </span><span style="color:#6A737D"># add space between labels</span></span>
+<span class="line"><span style="color:#E36209">    frameon</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#6A737D">     # don't put a frame</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Iterate through text elements and change their properties</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> text </span><span style="color:#D73A49">in</span><span style="color:#24292E"> legend.get_texts():</span></span>
+<span class="line"><span style="color:#24292E">    text.set_fontname(</span><span style="color:#032F62">"Roboto"</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Change default font </span></span>
+<span class="line"><span style="color:#24292E">    text.set_fontsize(</span><span style="color:#005CC5">16</span><span style="color:#24292E">)       </span><span style="color:#6A737D"># Change default font size</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Adjust tick label positions ------------------------------------</span></span>
+<span class="line"><span style="color:#005CC5">XTICKS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> ax.xaxis.get_major_ticks()</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> tick </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> XTICKS</span><span style="color:#24292E">[</span><span style="color:#005CC5">0</span><span style="color:#24292E">::</span><span style="color:#005CC5">2</span><span style="color:#24292E">]:</span></span>
+<span class="line"><span style="color:#24292E">    tick.set_pad(</span><span style="color:#005CC5">X_VERTICAL_TICK_PADDING</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> tick </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> XTICKS</span><span style="color:#24292E">[</span><span style="color:#005CC5">1</span><span style="color:#24292E">::</span><span style="color:#005CC5">2</span><span style="color:#24292E">]:</span></span>
+<span class="line"><span style="color:#24292E">    tick.set_pad(</span><span style="color:#005CC5">X_HORIZONTAL_TICK_PADDING</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add title ------------------------------------------------------</span></span>
+<span class="line"><span style="color:#24292E">fig.suptitle(</span></span>
+<span class="line"><span style="color:#032F62">    "Radar Plot of Penguin Species"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 0.1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">32</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontname</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Lobster Two"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">BLUE</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,    </span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>3a:["$","$L2a","notebook-cell-10",{"index":10,"code":"$45","highlighted":"$46","interactive":true,"hasChart":true,"intro":"$L47","output":"$L48"}]
+3f:[["$","p","p-0",{"children":["Radar charts plot data points in a circular layout. Instead of horizontal and vertical axes, it has an ",["$","strong","strong-0",{"children":"angular"}]," and a ",["$","strong","strong-1",{"children":"radial"}]," axis for ",["$","strong","strong-2",{"children":"x"}]," and ",["$","strong","strong-3",{"children":"y"}],", respectively. In this world, ",["$","strong","strong-4",{"children":"x"}]," values are given by ",["$","strong","strong-5",{"children":"angles"}]," and ",["$","strong","strong-6",{"children":"y"}]," values are a ",["$","strong","strong-7",{"children":"distance"}]," from the center of the circle."]}],["$","p","p-1",{"children":["For today's visualization, ",["$","strong","strong-0",{"children":"x"}]," axis represents the variables, and ",["$","strong","strong-1",{"children":"y"}]," axis their scaled mean. The locations for ",["$","strong","strong-2",{"children":"x"}],", given in angles, should be manually calculated and passed to matplotlib. That is what is going on in ",["$","code","code-0",{"children":"n / VARIABLES_N * 2 * np.pi"}]," in the list comprehension above. The ",["$","strong","strong-3",{"children":"y"}]," values are already given in the data frame."]}],["$","p","p-2",{"children":"Want to see how it looks like? Let's do it!"}]]
+40:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-radar-chart-with-matplotlib/output-3.png","alt":"Radar chart with Matplotlib","width":606,"height":595,"loading":"lazy","decoding":"async"}]}]]
+43:[["$","p","p-0",{"children":"The plot above looks quite nice for a start. But so many lines and labels for the axes are unnecesary (and also boring!). Let's remove these defaults and improve this chart with more beautiful custom annotations and guides."}]]
+44:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-radar-chart-with-matplotlib/output-4.png","alt":"Radar chart with Matplotlib","width":692,"height":600,"loading":"lazy","decoding":"async"}]}]]
+47:[["$","p","p-0",{"children":"Chart clutter has been drastically reduced and the plot above looks much better, that's great! But there's still room for improvement. This plot needs a good title, a legend to make the colors insightful as well as a fix for the overlap between labels and figures."}]]
+48:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-radar-chart-with-matplotlib/output-5.png","alt":"Radar chart with Matplotlib","width":813,"height":666,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

@@ -1,0 +1,1299 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Choropleth map with a customized legend"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Choropleth150.webp","alt":"logo of a chart:Choropleth","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>We will create a <a href='/choropleth-map'><b>Choropleth map</b></a> using the <a href='https://python-graph-gallery.com/matplotlib/'><b>Matplotlib</b></a> library to visualize data about <b>CO2 emissions per capita</b> across <b>Europe</b>.<br><br>This chart features a <b>unique legend</b>, <b>distinctive annotations</b>, and a <b>vibrant colormap</b>, resulting in an <b>attractive output</b>.<br><br>This post provides a <b>step-by-step guide</b> to reproduce the map, starting with a <b>basic background map</b>.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/choropleth-map/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Choropleth section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/choropleth.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-map-with-custom-legend","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Choropleth map with a customized legend"}],["$","meta","1",{"name":"description","content":"How to create a choropleth map with annotations, arrows and a beautiful legend."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"geopandas, matplotlib, map, color, plot, chart, choropleth"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-map-with-custom-legend/"}],["$","meta","6",{"property":"og:title","content":"Choropleth map with a customized legend"}],["$","meta","7",{"property":"og:description","content":"How to create a choropleth map with annotations, arrows and a beautiful legend."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Choropleth map with a customized legend"}],["$","meta","13",{"name":"twitter:description","content":"How to create a choropleth map with annotations, arrows and a beautiful legend."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+26:I[44110,["$3","$4","$5","$6","$d"],"default"]
+27:I[59351,["$3","$4","$5","$6","$d"],"default"]
+28:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T74d,# load colormap and other colors
+cmap = load_cmap("BrwnYl", cmap_type="continuous")
+background_color = "white"
+text_color = "black"
+
+# load the fonts
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(10, 10), dpi=300)
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+
+# create the plot
+data.plot(ax=ax, column="Total", cmap=cmap, edgecolor="black", linewidth=0.5)
+
+# custom axis
+ax.set_xlim(-11, 41)
+ax.set_ylim(32, 73)
+ax.set_axis_off()
+
+# compute the centroid of each country
+data_projected = data.to_crs(epsg=3035)
+data_projected["centroid"] = data_projected.geometry.centroid
+data["centroid"] = data_projected["centroid"].to_crs(data.crs)
+
+# define which countries to annotate
+countries_to_annotate = [
+    "France",
+    "Italy",
+    "Romania",
+    "Poland",
+    "Finland",
+    "Ukraine",
+    "Spain",
+    "Germany",
+    "Sweden",
+    "United Kingdom",
+    "Belarus",
+    "Norway",
+]
+
+# annotate each country
+for country in countries_to_annotate:
+    centroid = data.loc[data["name"] == country, "centroid"].values[0]
+    x, y = centroid.coords[0]
+    try:
+        x += adjustments[country][0]
+        y += adjustments[country][1]
+    except KeyError:
+        pass
+    rate = data.loc[data["name"] == country, "Total"].values[0]
+    if country == "United Kingdom":
+        country = "UK"
+    if rate > 7:
+        color_text = "white"
+    else:
+        color_text = text_color  # 'black'
+    ax_text(
+        x=x,
+        y=y,
+        s=f"<{country.upper()}>: {rate:.2f}",
+        fontsize=9,
+        font=other_font,
+        color=color_text,
+        ha="center",
+        va="center",
+        ax=ax,
+        highlight_textprops=[{"font": other_bold_font}],
+    )
+
+plt.show()23:Tcad,adjustments = {
+    "France": (10, 3),
+    "Italy": (-2.4, 2.5),
+    "Finland": (0, -2),
+    "Belarus": (0, -0.4),
+    "Ireland": (0, -1),
+    "Germany": (-0.2, 0),
+    "Poland": (0, 0.2),
+    "Sweden": (-1.2, -2.8),
+    "United Kingdom": (1, -1.5),
+    "Norway": (-4, -5.5),
+}
+
+# load colormap and other colors
+cmap = load_cmap("BrwnYl", cmap_type="continuous")
+background_color = "white"
+text_color = "black"
+
+# load the fonts
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# arrow properties
+arrow_props = dict(width=0.5, head_width=4, head_length=8, color="black")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(10, 10), dpi=300)
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+
+# create the plot
+data.plot(ax=ax, column="Total", cmap=cmap, edgecolor="black", linewidth=0.5)
+
+# custom axis
+ax.set_xlim(-11, 41)
+ax.set_ylim(32, 73)
+ax.set_axis_off()
+
+# compute the centroid of each country
+data_projected = data.to_crs(epsg=3035)
+data_projected["centroid"] = data_projected.geometry.centroid
+data["centroid"] = data_projected["centroid"].to_crs(data.crs)
+
+# define which countries to annotate
+countries_to_annotate = [
+    "France",
+    "Italy",
+    "Romania",
+    "Poland",
+    "Finland",
+    "Ukraine",
+    "Spain",
+    "Germany",
+    "Sweden",
+    "United Kingdom",
+    "Belarus",
+    "Norway",
+]
+
+# annotate each country
+for country in countries_to_annotate:
+    centroid = data.loc[data["name"] == country, "centroid"].values[0]
+    x, y = centroid.coords[0]
+    try:
+        x += adjustments[country][0]
+        y += adjustments[country][1]
+    except KeyError:
+        pass
+    rate = data.loc[data["name"] == country, "Total"].values[0]
+    if country == "United Kingdom":
+        country = "UK"
+    if rate > 7:
+        color_text = "white"
+    else:
+        color_text = text_color  # 'black'
+    ax_text(
+        x=x,
+        y=y,
+        s=f"<{country.upper()}>: {rate:.2f}",
+        fontsize=9,
+        font=other_font,
+        color=color_text,
+        ha="center",
+        va="center",
+        ax=ax,
+        highlight_textprops=[{"font": other_bold_font}],
+    )
+
+# title
+fig_text(
+    s="CO2 emissions per capita in Europe (2021)",
+    x=0.5,
+    y=0.14,
+    color=text_color,
+    fontsize=25,
+    font=font,
+    ha="center",
+    va="top",
+    ax=ax,
+)
+
+# subtitle
+fig_text(
+    s="<Unit>: metric tons | <Data>: zenodo.org | <Viz>: barbierjoseph.com",
+    x=0.5,
+    y=0.1,
+    color=text_color,
+    fontsize=14,
+    font=other_font,
+    ha="center",
+    va="top",
+    ax=ax,
+    highlight_textprops=[
+        {"font": other_bold_font},
+        {"font": other_bold_font},
+        {"font": other_bold_font},
+    ],
+)
+
+# arrows for the Luxembourg
+luxembourg_values = data.loc[data["name"] == "Luxembourg", "Total"].values[0]
+fig_arrow(
+    tail_position=(0.32, 0.7), head_position=(0.375, 0.45), radius=0.3, **arrow_props
+)
+fig_text(
+    s=f"<LUXEMBOURG>: {luxembourg_values:.2f}",
+    x=0.32,
+    y=0.71,
+    highlight_textprops=[{"font": other_bold_font}],
+    color=text_color,
+    fontsize=9,
+    font=other_font,
+    ha="center",
+    va="center",
+    fig=fig,
+)
+
+plt.show()24:T10e7,# load the colormap
+cmap = load_cmap("BrwnYl", cmap_type="continuous")
+background_color = "white"
+text_color = "black"
+
+value_ranges = [1, 3, 5, 7, 9, 11, 13, 15]
+labels = ["0-2 t", "2-4 t", "4-6 t", "6-8 t", "8-10 t", "10-12 t", "12+ t"]
+
+# load the font
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# arrow properties
+arrow_props = dict(width=0.5, head_width=4, head_length=8, color="black")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(10, 10), dpi=300)
+fig.set_facecolor(background_color)
+
+# create the plot
+data.plot(ax=ax, column="Total", cmap=cmap, edgecolor="black", linewidth=0.5)
+
+# custom axis
+ax.set_xlim(-11, 41)
+ax.set_ylim(32, 73)
+ax.set_axis_off()
+
+# define range and values for the legend
+value_ranges = [1, 3, 5, 7, 9, 11, 13, 15]
+labels = ["0-2 t", "2-4 t", "4-6 t", "6-8 t", "8-10 t", "10-12 t", "12+ t"]
+
+# parameters of the legend
+rectangle_width = 2
+rectangle_height = 1.5
+legend_x = 35
+legend_y_start = 65
+legend_y_step = 1.5
+
+# create the legend
+for i in range(len(labels)):
+    value = (
+        (value_ranges[i] + value_ranges[i + 1]) / 2 / value_ranges[-1]
+    )  # Normalize the value to [0, 1]
+    color = cmap(value)
+    ax.add_patch(
+        plt.Rectangle(
+            (legend_x, legend_y_start - i * legend_y_step),
+            rectangle_width,
+            rectangle_height,
+            color=color,
+            ec="black",
+            lw=0.6,
+        )
+    )
+    ax.text(
+        legend_x + 2.5,
+        legend_y_start - i * legend_y_step + 0.7,
+        labels[i],
+        fontsize=12,
+        fontproperties=other_font,
+        color=text_color,
+        va="center",
+    )
+
+# compute centroids and display the total
+adjustments = {
+    "France": (10, 3),
+    "Italy": (-2.4, 2.5),
+    "Finland": (0, -2),
+    "Belarus": (0, -0.4),
+    "Ireland": (0, -1),
+    "Germany": (-0.2, 0),
+    "Poland": (0, 0.2),
+    "Sweden": (-1.2, -2.8),
+    "United Kingdom": (1, -1.5),
+    "Norway": (-4, -5.5),
+}
+data_projected = data.to_crs(epsg=3035)
+data_projected["centroid"] = data_projected.geometry.centroid
+data["centroid"] = data_projected["centroid"].to_crs(data.crs)
+countries_to_annotate = data["name"].tolist()
+countries_to_annotate = [
+    "France",
+    "Italy",
+    "Romania",
+    "Poland",
+    "Finland",
+    "Ukraine",
+    "Spain",
+    "Germany",
+    "Sweden",
+    "United Kingdom",
+    "Belarus",
+    "Norway",
+]
+for country in countries_to_annotate:
+    centroid = data.loc[data["name"] == country, "centroid"].values[0]
+    x, y = centroid.coords[0]
+    try:
+        x += adjustments[country][0]
+        y += adjustments[country][1]
+    except KeyError:
+        pass
+    rate = data.loc[data["name"] == country, "Total"].values[0]
+    if country == "United Kingdom":
+        country = "UK"
+    if rate > 7:
+        color_text = "white"
+    else:
+        color_text = text_color
+    ax_text(
+        x=x,
+        y=y,
+        s=f"<{country.upper()}>: {rate:.2f}",
+        fontsize=9,
+        font=other_font,
+        color=color_text,
+        ha="center",
+        va="center",
+        ax=ax,
+        highlight_textprops=[{"font": other_bold_font}],
+    )
+
+# title
+fig_text(
+    s="CO2 emissions per capita in Europe (2021)",
+    x=0.5,
+    y=0.14,
+    color=text_color,
+    fontsize=25,
+    font=font,
+    ha="center",
+    va="top",
+    ax=ax,
+)
+
+# subtitle
+fig_text(
+    s="<Unit>: metric tons | <Data>: zenodo.org | <Viz>: barbierjoseph.com",
+    x=0.5,
+    y=0.1,
+    color=text_color,
+    fontsize=14,
+    font=other_font,
+    ha="center",
+    va="top",
+    ax=ax,
+    highlight_textprops=[
+        {"font": other_bold_font},
+        {"font": other_bold_font},
+        {"font": other_bold_font},
+    ],
+)
+
+# arrows for the Luxembourg
+luxembourg_values = data.loc[data["name"] == "Luxembourg", "Total"].values[0]
+fig_arrow(
+    tail_position=(0.32, 0.7), head_position=(0.375, 0.45), radius=0.3, **arrow_props
+)
+fig_text(
+    s=f"<LUXEMBOURG>: {luxembourg_values:.2f}",
+    x=0.32,
+    y=0.71,
+    highlight_textprops=[{"font": other_bold_font}],
+    color=text_color,
+    fontsize=9,
+    font=other_font,
+    ha="center",
+    va="center",
+    fig=fig,
+)
+
+# display the plot
+plt.savefig("../../static/graph/web-map-with-custom-legend.png", dpi=300)
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import pandas as pd\nimport geopandas as gpd\nimport matplotlib.pyplot as plt\nfrom pypalettes import load_cmap\nfrom drawarrow import fig_arrow\nfrom pyfonts import load_google_font\n\nfrom highlight_text import fig_text, ax_text","url = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/europe.geojson\"\nworld = gpd.read_file(url)\nworld.head()","url = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/co2PerCapita.csv\"\ndf = pd.read_csv(url)\n\n# merge data\ndata = world.merge(df, how=\"left\", left_on=\"name\", right_on=\"Country\")\n\n# filter to keep only specific countries\ndata = data[data[\"continent\"] == \"Europe\"]\ndata = data[~data[\"name\"].isin([\"Russia\", \"Iceland\"])]\ndata = data[data[\"Year\"] == 2021]\ndata = data[[\"name\", \"Total\", \"geometry\"]]\ndata = data.dropna()\ndata.head()","# initialize the figure\nfig, ax = plt.subplots(figsize=(10, 10), dpi=300)\n\n# create the plot\ndata.plot(ax=ax)\nplt.show()","# initialize the figure\nfig, ax = plt.subplots(figsize=(10, 10), dpi=300)\n\n# create the plot\ndata.plot(ax=ax)\n\n# custom axis\nax.set_xlim(-11, 41)\nax.set_ylim(32, 73)\nax.set_axis_off()\n\nplt.show()","# load colormap\ncmap = load_cmap(\"BrwnYl\", cmap_type=\"continuous\")\n\n# initialize the figure\nfig, ax = plt.subplots(figsize=(10, 10), dpi=300)\n\n# create the plot\ndata.plot(ax=ax, column=\"Total\", cmap=cmap, edgecolor=\"black\", linewidth=0.5)\n\n# custom axis\nax.set_xlim(-11, 41)\nax.set_ylim(32, 73)\nax.set_axis_off()\n\nplt.show()","adjustments = {\n    \"France\": (10, 3),\n    \"Italy\": (-2.4, 2.5),\n    \"Finland\": (0, -2),\n    \"Belarus\": (0, -0.4),\n    \"Ireland\": (0, -1),\n    \"Germany\": (-0.2, 0),\n    \"Poland\": (0, 0.2),\n    \"Sweden\": (-1.2, -2.8),\n    \"United Kingdom\": (1, -1.5),\n    \"Norway\": (-4, -5.5),\n}\n\n# Example\nprint(adjustments[\"France\"])","$22","$23","$24"],"children":"$L25"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","map",{"href":"/map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Map150.webp","alt":"logo of a chart:Map","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Map"}]]}],["$","$Le","choropleth",{"href":"/choropleth-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Choropleth150.webp","alt":"logo of a chart:Choropleth","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Choropleth"}]]}],["$","$Le","hexbin",{"href":"/hexbin-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/MapHexbin150.webp","alt":"logo of a chart:MapHexbin","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Hexbin"}]]}],["$","$Le","cartogram",{"href":"/cartogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Cartogram150.webp","alt":"logo of a chart:Cartogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Cartogram"}]]}],["$","$Le","connection",{"href":"/connection-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ConnectedMap150.webp","alt":"logo of a chart:ConnectedMap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Connection"}]]}],["$","$Le","bubbleMap",{"href":"/bubble-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/BubbleMap150.webp","alt":"logo of a chart:BubbleMap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Bubble"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L26",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L27",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L28",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
+20:true
+2a:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2b:T5ef,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> geopandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> gpd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pypalettes </span><span style="color:#D73A49">import</span><span style="color:#24292E"> load_cmap</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> drawarrow </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_arrow</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pyfonts </span><span style="color:#D73A49">import</span><span style="color:#24292E"> load_google_font</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text, ax_text</span></span></code></pre>25:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This plot is a ",["$","a","a-0",{"href":"/choropleth-map","children":"choropleth map"}],". It show the CO2 emissions per capita in 2021 for each country."]}],"\n",["$","p","p-1",{"children":["The chart was made by ",["$","a","a-0",{"href":"https://www.barbierjoseph.com/","children":"Joseph Barbier"}],". Thanks to him for accepting sharing his work here!"]}],"\n",["$","p","p-2",{"children":"Let's see what the final picture will look like:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/animations/evolution-europe-map-co2.gif","alt":"choropleth map with custom legend","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-4",{"children":"First, you need to install the following librairies:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"/matplotlib","children":"matplotlib"}]," is used for creating the chart and add customization features"]}],"\n",["$","li","li-1",{"children":[["$","a","a-0",{"href":"/pandas","children":"pandas"}]," and ",["$","code","code-0",{"children":"geopandas"}]," are used to put the data into a dataframe and manipulate geographical data"]}],"\n",["$","li","li-2",{"children":[["$","a","a-0",{"href":"/drawarrow","children":"drawarrow"}]," for the arrows"]}],"\n",["$","li","li-3",{"children":[["$","a","a-0",{"href":"/pyfonts","children":"pyfonts"}]," for the fonts"]}],"\n",["$","li","li-4",{"children":[["$","code","code-0",{"children":"geopandas"}],": for the geographical data"]}],"\n",["$","li","li-5",{"children":[["$","code","code-0",{"children":"highlight_text"}],": to add beautiful annotations to the chart"]}],"\n"]}],"\n",["$","p","p-5",{"children":"And that's it!"}],"\n",["$","$L2a","notebook-cell-0",{"index":0,"code":"import pandas as pd\nimport geopandas as gpd\nimport matplotlib.pyplot as plt\nfrom pypalettes import load_cmap\nfrom drawarrow import fig_arrow\nfrom pyfonts import load_google_font\n\nfrom highlight_text import fig_text, ax_text","highlighted":"$2b","interactive":true,"hasChart":false}],"\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","$L34","\n","$L35","$L36","\n","$L37","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","$L3e","\n","$L3f","$L40","\n","$L41","$L42","\n","$L43","\n","$L44","\n","$L45"]
+29:null
+b:C
+2c:["$","h2","h2-2",{"children":"Dataset"}]
+2d:["$","p","p-6",{"children":[["$","strong","strong-0",{"children":["Creating a ",["$","a","a-0",{"href":"/choropleth-map","children":"choropleth map"}]]}]," necessitates a ",["$","strong","strong-1",{"children":"dataset with geographical information"}],". For this example, we need to ",["$","strong","strong-2",{"children":"load the world map"}]," from the ",["$","a","a-0",{"href":"https://github.com/holtzy/The-Python-Graph-Gallery","children":"Gallery's repo"}],"."]}]
+2e:["$","p","p-7",{"children":["Next, we should ",["$","strong","strong-0",{"children":"load the dataset containing the values"}]," we want to represent on the map, such as ",["$","strong","strong-1",{"children":"CO2 per capita by country"}],". This dataset is also accessible in the ",["$","a","a-0",{"href":"https://github.com/holtzy/The-Python-Graph-Gallery","children":"Gallery's repo"}],"."]}]
+2f:["$","$L2a","notebook-cell-1",{"index":1,"code":"url = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/europe.geojson\"\nworld = gpd.read_file(url)\nworld.head()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">url </span><span style=\"color:#D73A49\">=</span><span style=\"color:#032F62\"> \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/europe.geojson\"</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">world </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> gpd.read_file(url)</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">world.head()</span></span></code></pre>","interactive":true,"hasChart":false,"output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"pop_est"}],["$","th","th-2",{"children":"continent"}],["$","th","th-3",{"children":"name"}],["$","th","th-4",{"children":"iso_a3"}],["$","th","th-5",{"children":"gdp_md_est"}],["$","th","th-6",{"children":"geometry"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"144373535.0"}],["$","td","td-1",{"children":"Europe"}],["$","td","td-2",{"children":"Russia"}],["$","td","td-3",{"children":"RUS"}],["$","td","td-4",{"children":"1699876"}],["$","td","td-5",{"children":"MULTIPOLYGON (((180 71.51571, 180 70.8322, 178..."}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"5347896.0"}],["$","td","td-1",{"children":"Europe"}],["$","td","td-2",{"children":"Norway"}],["$","td","td-3",{"children":"NOR"}],["$","td","td-4",{"children":"403336"}],["$","td","td-5",{"children":"MULTIPOLYGON (((15.14282 79.67431, 15.52255 80..."}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"67059887.0"}],["$","td","td-1",{"children":"Europe"}],["$","td","td-2",{"children":"France"}],["$","td","td-3",{"children":"FRA"}],["$","td","td-4",{"children":"2715518"}],["$","td","td-5",{"children":"MULTIPOLYGON (((-51.6578 4.15623, -52.24934 3...."}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"10285453.0"}],["$","td","td-1",{"children":"Europe"}],["$","td","td-2",{"children":"Sweden"}],["$","td","td-3",{"children":"SWE"}],["$","td","td-4",{"children":"530883"}],["$","td","td-5",{"children":"POLYGON ((11.02737 58.85615, 11.46827 59.43239..."}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"9466856.0"}],["$","td","td-1",{"children":"Europe"}],["$","td","td-2",{"children":"Belarus"}],["$","td","td-3",{"children":"BLR"}],["$","td","td-4",{"children":"63080"}],["$","td","td-5",{"children":"POLYGON ((28.17671 56.16913, 29.22951 55.91834..."}]]}]]}]]}],"\n"]}]}]]}]
+30:["$","br","br-0",{}]
+31:["$","p","p-8",{"children":["Now we merge this dataset with the world map with a ",["$","code","code-0",{"children":"merge"}]," function. This function will match the country names in the two datasets and add the CO2 values to the world map dataframe."]}]
+46:Tc2d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">url </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/co2PerCapita.csv"</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(url)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># merge data</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> world.merge(df, </span><span style="color:#E36209">how</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">, </span><span style="color:#E36209">left_on</span><span style="color:#D73A49">=</span><span style="color:#032F62">"name"</span><span style="color:#24292E">, </span><span style="color:#E36209">right_on</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Country"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># filter to keep only specific countries</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[data[</span><span style="color:#032F62">"continent"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "Europe"</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#D73A49">~</span><span style="color:#24292E">data[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">].isin([</span><span style="color:#032F62">"Russia"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Iceland"</span><span style="color:#24292E">])]</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[data[</span><span style="color:#032F62">"Year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#005CC5"> 2021</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Total"</span><span style="color:#24292E">, </span><span style="color:#032F62">"geometry"</span><span style="color:#24292E">]]</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.dropna()</span></span>
+<span class="line"><span style="color:#24292E">data.head()</span></span></code></pre>32:["$","$L2a","notebook-cell-2",{"index":2,"code":"url = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/co2PerCapita.csv\"\ndf = pd.read_csv(url)\n\n# merge data\ndata = world.merge(df, how=\"left\", left_on=\"name\", right_on=\"Country\")\n\n# filter to keep only specific countries\ndata = data[data[\"continent\"] == \"Europe\"]\ndata = data[~data[\"name\"].isin([\"Russia\", \"Iceland\"])]\ndata = data[data[\"Year\"] == 2021]\ndata = data[[\"name\", \"Total\", \"geometry\"]]\ndata = data.dropna()\ndata.head()","highlighted":"$46","interactive":true,"hasChart":false,"output":"$L47"}]
+33:["$","h2","h2-3",{"children":"Background map"}]
+48:T45f,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>34:["$","$L2a","notebook-cell-3",{"index":3,"code":"# initialize the figure\nfig, ax = plt.subplots(figsize=(10, 10), dpi=300)\n\n# create the plot\ndata.plot(ax=ax)\nplt.show()","highlighted":"$48","interactive":true,"hasChart":true,"intro":[["$","p","p-0",{"children":["Thanks to the ",["$","code","code-0",{"children":"geopandas"}]," library, we can easily add a ",["$","strong","strong-0",{"children":"background map"}]," to our plot by simply calling the ",["$","code","code-1",{"children":"plot()"}]," function on our ",["$","strong","strong-1",{"children":"geo dataframe"}],"."]}],["$","p","p-1",{"children":["With just a few lines of code, we can create a ",["$","strong","strong-0",{"children":"synthetic map"}]," that displays a ",["$","strong","strong-1",{"children":"European map"}],"."]}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-with-custom-legend/output-3.png","alt":"Choropleth map with a customized legend","width":2229,"height":2441,"loading":"lazy","decoding":"async"}]}]]}]
+35:["$","h2","h2-4",{"children":"Custom axis"}]
+49:T70d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">11</span><span style="color:#24292E">, </span><span style="color:#005CC5">41</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">73</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>36:["$","$L2a","notebook-cell-4",{"index":4,"code":"# initialize the figure\nfig, ax = plt.subplots(figsize=(10, 10), dpi=300)\n\n# create the plot\ndata.plot(ax=ax)\n\n# custom axis\nax.set_xlim(-11, 41)\nax.set_ylim(32, 73)\nax.set_axis_off()\n\nplt.show()","highlighted":"$49","interactive":true,"hasChart":true,"intro":[["$","p","p-0",{"children":["The next step is to ",["$","strong","strong-0",{"children":"adjust the plot's ranges"}]," (latitude and longitude) using the ",["$","code","code-0",{"children":"set_xlim()"}]," and ",["$","code","code-1",{"children":"set_ylim()"}]," functions on the axis object."]}],["$","p","p-1",{"children":["We also ",["$","strong","strong-0",{"children":"remove the spines"}]," around the map since they are not particularly useful in this context."]}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-with-custom-legend/output-4.png","alt":"Choropleth map with a customized legend","width":2259,"height":2370,"loading":"lazy","decoding":"async"}]}]]}]
+37:["$","h2","h2-5",{"children":"Choropleth map"}]
+4a:Tb47,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># load colormap</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_cmap(</span><span style="color:#032F62">"BrwnYl"</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap_type</span><span style="color:#D73A49">=</span><span style="color:#032F62">"continuous"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax, </span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Total"</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">11</span><span style="color:#24292E">, </span><span style="color:#005CC5">41</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">73</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>38:["$","$L2a","notebook-cell-5",{"index":5,"code":"# load colormap\ncmap = load_cmap(\"BrwnYl\", cmap_type=\"continuous\")\n\n# initialize the figure\nfig, ax = plt.subplots(figsize=(10, 10), dpi=300)\n\n# create the plot\ndata.plot(ax=ax, column=\"Total\", cmap=cmap, edgecolor=\"black\", linewidth=0.5)\n\n# custom axis\nax.set_xlim(-11, 41)\nax.set_ylim(32, 73)\nax.set_axis_off()\n\nplt.show()","highlighted":"$4a","interactive":true,"hasChart":true,"intro":"$L4b","output":"$L4c"}]
+39:["$","h2","h2-6",{"children":"Centroids and annotations"}]
+3a:["$","p","p-9",{"children":["The easiest way to find the center of each country is to use the ",["$","code","code-0",{"children":"centroid"}]," attribute of the ",["$","code","code-1",{"children":"geometry"}]," column in the ",["$","code","code-2",{"children":"geo dataframe"}],". These coordinates can then be used to add annotations to the map."]}]
+3b:["$","p","p-10",{"children":["Since the default font isn't very attractive, we load ",["$","strong","strong-0",{"children":"two other fonts"}],": one for the ",["$","strong","strong-1",{"children":"title"}]," and one for the ",["$","strong","strong-2",{"children":"annotations"}],". We can then use the ",["$","code","code-0",{"children":"ax_text()"}]," function from the ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":[["$","code","code-0",{"children":"highlight_text"}]," library"]}]," to add annotations to the map, and ",["$","a","a-1",{"href":"/pyfonts","children":"pyfonts"}]," to load the fonts from Github."]}]
+3c:["$","p","p-11",{"children":["Just before adding the annotations, we define an ",["$","strong","strong-0",{"children":"adjustment dictionary"}]," to help us improve the approximate position of the annotations. This is necessary because centroids aren't always ideally positioned for annotations, especially in countries with outlying islands."]}]
+4d:Tdfc,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">adjustments </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "France"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Italy"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">2.4</span><span style="color:#24292E">, </span><span style="color:#005CC5">2.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Finland"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">2</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Belarus"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Ireland"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Germany"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Poland"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Sweden"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1.2</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">2.8</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "United Kingdom"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Norway"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">5.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Example</span></span>
+<span class="line"><span style="color:#005CC5">print</span><span style="color:#24292E">(adjustments[</span><span style="color:#032F62">"France"</span><span style="color:#24292E">])</span></span></code></pre>3d:["$","$L2a","notebook-cell-6",{"index":6,"code":"adjustments = {\n    \"France\": (10, 3),\n    \"Italy\": (-2.4, 2.5),\n    \"Finland\": (0, -2),\n    \"Belarus\": (0, -0.4),\n    \"Ireland\": (0, -1),\n    \"Germany\": (-0.2, 0),\n    \"Poland\": (0, 0.2),\n    \"Sweden\": (-1.2, -2.8),\n    \"United Kingdom\": (1, -1.5),\n    \"Norway\": (-4, -5.5),\n}\n\n# Example\nprint(adjustments[\"France\"])","highlighted":"$4d","interactive":true,"hasChart":false,"output":"$L4e"}]
+4f:T74d,# load colormap and other colors
+cmap = load_cmap("BrwnYl", cmap_type="continuous")
+background_color = "white"
+text_color = "black"
+
+# load the fonts
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(10, 10), dpi=300)
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+
+# create the plot
+data.plot(ax=ax, column="Total", cmap=cmap, edgecolor="black", linewidth=0.5)
+
+# custom axis
+ax.set_xlim(-11, 41)
+ax.set_ylim(32, 73)
+ax.set_axis_off()
+
+# compute the centroid of each country
+data_projected = data.to_crs(epsg=3035)
+data_projected["centroid"] = data_projected.geometry.centroid
+data["centroid"] = data_projected["centroid"].to_crs(data.crs)
+
+# define which countries to annotate
+countries_to_annotate = [
+    "France",
+    "Italy",
+    "Romania",
+    "Poland",
+    "Finland",
+    "Ukraine",
+    "Spain",
+    "Germany",
+    "Sweden",
+    "United Kingdom",
+    "Belarus",
+    "Norway",
+]
+
+# annotate each country
+for country in countries_to_annotate:
+    centroid = data.loc[data["name"] == country, "centroid"].values[0]
+    x, y = centroid.coords[0]
+    try:
+        x += adjustments[country][0]
+        y += adjustments[country][1]
+    except KeyError:
+        pass
+    rate = data.loc[data["name"] == country, "Total"].values[0]
+    if country == "United Kingdom":
+        country = "UK"
+    if rate > 7:
+        color_text = "white"
+    else:
+        color_text = text_color  # 'black'
+    ax_text(
+        x=x,
+        y=y,
+        s=f"<{country.upper()}>: {rate:.2f}",
+        fontsize=9,
+        font=other_font,
+        color=color_text,
+        ha="center",
+        va="center",
+        ax=ax,
+        highlight_textprops=[{"font": other_bold_font}],
+    )
+
+plt.show()50:T3288,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># load colormap and other colors</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_cmap(</span><span style="color:#032F62">"BrwnYl"</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap_type</span><span style="color:#D73A49">=</span><span style="color:#032F62">"continuous"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">background_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "white"</span></span>
+<span class="line"><span style="color:#24292E">text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "black"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># load the fonts</span></span>
+<span class="line"><span style="color:#24292E">font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Bebas Neue"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"light"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_bold_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"medium"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(background_color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax, </span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Total"</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">11</span><span style="color:#24292E">, </span><span style="color:#005CC5">41</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">73</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># compute the centroid of each country</span></span>
+<span class="line"><span style="color:#24292E">data_projected </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.to_crs(</span><span style="color:#E36209">epsg</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3035</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">data_projected[</span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data_projected.geometry.centroid</span></span>
+<span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data_projected[</span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">].to_crs(data.crs)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define which countries to annotate</span></span>
+<span class="line"><span style="color:#24292E">countries_to_annotate </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    "France"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Italy"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Romania"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Poland"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Finland"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Ukraine"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Spain"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Germany"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Sweden"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "United Kingdom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Belarus"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Norway"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># annotate each country</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> country </span><span style="color:#D73A49">in</span><span style="color:#24292E"> countries_to_annotate:</span></span>
+<span class="line"><span style="color:#24292E">    centroid </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.loc[data[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country, </span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    x, y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> centroid.coords[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">    try</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> adjustments[country][</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">        y </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> adjustments[country][</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">    except</span><span style="color:#005CC5"> KeyError</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#D73A49">        pass</span></span>
+<span class="line"><span style="color:#24292E">    rate </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.loc[data[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country, </span><span style="color:#032F62">"Total"</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> country </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "United Kingdom"</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        country </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "UK"</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> rate </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 7</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        color_text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "white"</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        color_text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> text_color  </span><span style="color:#6A737D"># 'black'</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#24292E">x,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">country.upper()</span><span style="color:#005CC5">}</span><span style="color:#032F62">>: </span><span style="color:#005CC5">{</span><span style="color:#24292E">rate</span><span style="color:#D73A49">:.2f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_text,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3e:["$","$L2a","notebook-cell-7",{"index":7,"code":"$4f","highlighted":"$50","interactive":true,"hasChart":true,"output":"$L51"}]
+3f:["$","h2","h2-7",{"children":"Add title and Luxembourg"}]
+52:Tcad,adjustments = {
+    "France": (10, 3),
+    "Italy": (-2.4, 2.5),
+    "Finland": (0, -2),
+    "Belarus": (0, -0.4),
+    "Ireland": (0, -1),
+    "Germany": (-0.2, 0),
+    "Poland": (0, 0.2),
+    "Sweden": (-1.2, -2.8),
+    "United Kingdom": (1, -1.5),
+    "Norway": (-4, -5.5),
+}
+
+# load colormap and other colors
+cmap = load_cmap("BrwnYl", cmap_type="continuous")
+background_color = "white"
+text_color = "black"
+
+# load the fonts
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# arrow properties
+arrow_props = dict(width=0.5, head_width=4, head_length=8, color="black")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(10, 10), dpi=300)
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+
+# create the plot
+data.plot(ax=ax, column="Total", cmap=cmap, edgecolor="black", linewidth=0.5)
+
+# custom axis
+ax.set_xlim(-11, 41)
+ax.set_ylim(32, 73)
+ax.set_axis_off()
+
+# compute the centroid of each country
+data_projected = data.to_crs(epsg=3035)
+data_projected["centroid"] = data_projected.geometry.centroid
+data["centroid"] = data_projected["centroid"].to_crs(data.crs)
+
+# define which countries to annotate
+countries_to_annotate = [
+    "France",
+    "Italy",
+    "Romania",
+    "Poland",
+    "Finland",
+    "Ukraine",
+    "Spain",
+    "Germany",
+    "Sweden",
+    "United Kingdom",
+    "Belarus",
+    "Norway",
+]
+
+# annotate each country
+for country in countries_to_annotate:
+    centroid = data.loc[data["name"] == country, "centroid"].values[0]
+    x, y = centroid.coords[0]
+    try:
+        x += adjustments[country][0]
+        y += adjustments[country][1]
+    except KeyError:
+        pass
+    rate = data.loc[data["name"] == country, "Total"].values[0]
+    if country == "United Kingdom":
+        country = "UK"
+    if rate > 7:
+        color_text = "white"
+    else:
+        color_text = text_color  # 'black'
+    ax_text(
+        x=x,
+        y=y,
+        s=f"<{country.upper()}>: {rate:.2f}",
+        fontsize=9,
+        font=other_font,
+        color=color_text,
+        ha="center",
+        va="center",
+        ax=ax,
+        highlight_textprops=[{"font": other_bold_font}],
+    )
+
+# title
+fig_text(
+    s="CO2 emissions per capita in Europe (2021)",
+    x=0.5,
+    y=0.14,
+    color=text_color,
+    fontsize=25,
+    font=font,
+    ha="center",
+    va="top",
+    ax=ax,
+)
+
+# subtitle
+fig_text(
+    s="<Unit>: metric tons | <Data>: zenodo.org | <Viz>: barbierjoseph.com",
+    x=0.5,
+    y=0.1,
+    color=text_color,
+    fontsize=14,
+    font=other_font,
+    ha="center",
+    va="top",
+    ax=ax,
+    highlight_textprops=[
+        {"font": other_bold_font},
+        {"font": other_bold_font},
+        {"font": other_bold_font},
+    ],
+)
+
+# arrows for the Luxembourg
+luxembourg_values = data.loc[data["name"] == "Luxembourg", "Total"].values[0]
+fig_arrow(
+    tail_position=(0.32, 0.7), head_position=(0.375, 0.45), radius=0.3, **arrow_props
+)
+fig_text(
+    s=f"<LUXEMBOURG>: {luxembourg_values:.2f}",
+    x=0.32,
+    y=0.71,
+    highlight_textprops=[{"font": other_bold_font}],
+    color=text_color,
+    fontsize=9,
+    font=other_font,
+    ha="center",
+    va="center",
+    fig=fig,
+)
+
+plt.show()53:T6245,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">adjustments </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "France"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Italy"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">2.4</span><span style="color:#24292E">, </span><span style="color:#005CC5">2.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Finland"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">2</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Belarus"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Ireland"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Germany"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Poland"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Sweden"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1.2</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">2.8</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "United Kingdom"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Norway"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">5.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># load colormap and other colors</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_cmap(</span><span style="color:#032F62">"BrwnYl"</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap_type</span><span style="color:#D73A49">=</span><span style="color:#032F62">"continuous"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">background_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "white"</span></span>
+<span class="line"><span style="color:#24292E">text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "black"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># load the fonts</span></span>
+<span class="line"><span style="color:#24292E">font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Bebas Neue"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"light"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_bold_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"medium"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># arrow properties</span></span>
+<span class="line"><span style="color:#24292E">arrow_props </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#E36209">head_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#E36209">head_length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(background_color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax, </span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Total"</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">11</span><span style="color:#24292E">, </span><span style="color:#005CC5">41</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">73</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># compute the centroid of each country</span></span>
+<span class="line"><span style="color:#24292E">data_projected </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.to_crs(</span><span style="color:#E36209">epsg</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3035</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">data_projected[</span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data_projected.geometry.centroid</span></span>
+<span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data_projected[</span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">].to_crs(data.crs)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define which countries to annotate</span></span>
+<span class="line"><span style="color:#24292E">countries_to_annotate </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    "France"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Italy"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Romania"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Poland"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Finland"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Ukraine"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Spain"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Germany"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Sweden"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "United Kingdom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Belarus"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Norway"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># annotate each country</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> country </span><span style="color:#D73A49">in</span><span style="color:#24292E"> countries_to_annotate:</span></span>
+<span class="line"><span style="color:#24292E">    centroid </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.loc[data[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country, </span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    x, y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> centroid.coords[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">    try</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> adjustments[country][</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">        y </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> adjustments[country][</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">    except</span><span style="color:#005CC5"> KeyError</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#D73A49">        pass</span></span>
+<span class="line"><span style="color:#24292E">    rate </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.loc[data[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country, </span><span style="color:#032F62">"Total"</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> country </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "United Kingdom"</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        country </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "UK"</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> rate </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 7</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        color_text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "white"</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        color_text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> text_color  </span><span style="color:#6A737D"># 'black'</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#24292E">x,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">country.upper()</span><span style="color:#005CC5">}</span><span style="color:#032F62">>: </span><span style="color:#005CC5">{</span><span style="color:#24292E">rate</span><span style="color:#D73A49">:.2f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_text,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"CO2 emissions per capita in Europe (2021)"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.14</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">25</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># subtitle</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"&#x3C;Unit>: metric tons | &#x3C;Data>: zenodo.org | &#x3C;Viz>: barbierjoseph.com"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font},</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># arrows for the Luxembourg</span></span>
+<span class="line"><span style="color:#24292E">luxembourg_values </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.loc[data[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "Luxembourg"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Total"</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">fig_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.32</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.7</span><span style="color:#24292E">), </span><span style="color:#E36209">head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.375</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.45</span><span style="color:#24292E">), </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#D73A49">**</span><span style="color:#24292E">arrow_props</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"&#x3C;LUXEMBOURG>: </span><span style="color:#005CC5">{</span><span style="color:#24292E">luxembourg_values</span><span style="color:#D73A49">:.2f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.32</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.71</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>40:["$","$L2a","notebook-cell-8",{"index":8,"code":"$52","highlighted":"$53","interactive":true,"hasChart":true,"intro":"$L54","output":"$L55"}]
+41:["$","h2","h2-8",{"children":"Final Chart with Legend"}]
+56:T10e7,# load the colormap
+cmap = load_cmap("BrwnYl", cmap_type="continuous")
+background_color = "white"
+text_color = "black"
+
+value_ranges = [1, 3, 5, 7, 9, 11, 13, 15]
+labels = ["0-2 t", "2-4 t", "4-6 t", "6-8 t", "8-10 t", "10-12 t", "12+ t"]
+
+# load the font
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# arrow properties
+arrow_props = dict(width=0.5, head_width=4, head_length=8, color="black")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(10, 10), dpi=300)
+fig.set_facecolor(background_color)
+
+# create the plot
+data.plot(ax=ax, column="Total", cmap=cmap, edgecolor="black", linewidth=0.5)
+
+# custom axis
+ax.set_xlim(-11, 41)
+ax.set_ylim(32, 73)
+ax.set_axis_off()
+
+# define range and values for the legend
+value_ranges = [1, 3, 5, 7, 9, 11, 13, 15]
+labels = ["0-2 t", "2-4 t", "4-6 t", "6-8 t", "8-10 t", "10-12 t", "12+ t"]
+
+# parameters of the legend
+rectangle_width = 2
+rectangle_height = 1.5
+legend_x = 35
+legend_y_start = 65
+legend_y_step = 1.5
+
+# create the legend
+for i in range(len(labels)):
+    value = (
+        (value_ranges[i] + value_ranges[i + 1]) / 2 / value_ranges[-1]
+    )  # Normalize the value to [0, 1]
+    color = cmap(value)
+    ax.add_patch(
+        plt.Rectangle(
+            (legend_x, legend_y_start - i * legend_y_step),
+            rectangle_width,
+            rectangle_height,
+            color=color,
+            ec="black",
+            lw=0.6,
+        )
+    )
+    ax.text(
+        legend_x + 2.5,
+        legend_y_start - i * legend_y_step + 0.7,
+        labels[i],
+        fontsize=12,
+        fontproperties=other_font,
+        color=text_color,
+        va="center",
+    )
+
+# compute centroids and display the total
+adjustments = {
+    "France": (10, 3),
+    "Italy": (-2.4, 2.5),
+    "Finland": (0, -2),
+    "Belarus": (0, -0.4),
+    "Ireland": (0, -1),
+    "Germany": (-0.2, 0),
+    "Poland": (0, 0.2),
+    "Sweden": (-1.2, -2.8),
+    "United Kingdom": (1, -1.5),
+    "Norway": (-4, -5.5),
+}
+data_projected = data.to_crs(epsg=3035)
+data_projected["centroid"] = data_projected.geometry.centroid
+data["centroid"] = data_projected["centroid"].to_crs(data.crs)
+countries_to_annotate = data["name"].tolist()
+countries_to_annotate = [
+    "France",
+    "Italy",
+    "Romania",
+    "Poland",
+    "Finland",
+    "Ukraine",
+    "Spain",
+    "Germany",
+    "Sweden",
+    "United Kingdom",
+    "Belarus",
+    "Norway",
+]
+for country in countries_to_annotate:
+    centroid = data.loc[data["name"] == country, "centroid"].values[0]
+    x, y = centroid.coords[0]
+    try:
+        x += adjustments[country][0]
+        y += adjustments[country][1]
+    except KeyError:
+        pass
+    rate = data.loc[data["name"] == country, "Total"].values[0]
+    if country == "United Kingdom":
+        country = "UK"
+    if rate > 7:
+        color_text = "white"
+    else:
+        color_text = text_color
+    ax_text(
+        x=x,
+        y=y,
+        s=f"<{country.upper()}>: {rate:.2f}",
+        fontsize=9,
+        font=other_font,
+        color=color_text,
+        ha="center",
+        va="center",
+        ax=ax,
+        highlight_textprops=[{"font": other_bold_font}],
+    )
+
+# title
+fig_text(
+    s="CO2 emissions per capita in Europe (2021)",
+    x=0.5,
+    y=0.14,
+    color=text_color,
+    fontsize=25,
+    font=font,
+    ha="center",
+    va="top",
+    ax=ax,
+)
+
+# subtitle
+fig_text(
+    s="<Unit>: metric tons | <Data>: zenodo.org | <Viz>: barbierjoseph.com",
+    x=0.5,
+    y=0.1,
+    color=text_color,
+    fontsize=14,
+    font=other_font,
+    ha="center",
+    va="top",
+    ax=ax,
+    highlight_textprops=[
+        {"font": other_bold_font},
+        {"font": other_bold_font},
+        {"font": other_bold_font},
+    ],
+)
+
+# arrows for the Luxembourg
+luxembourg_values = data.loc[data["name"] == "Luxembourg", "Total"].values[0]
+fig_arrow(
+    tail_position=(0.32, 0.7), head_position=(0.375, 0.45), radius=0.3, **arrow_props
+)
+fig_text(
+    s=f"<LUXEMBOURG>: {luxembourg_values:.2f}",
+    x=0.32,
+    y=0.71,
+    highlight_textprops=[{"font": other_bold_font}],
+    color=text_color,
+    fontsize=9,
+    font=other_font,
+    ha="center",
+    va="center",
+    fig=fig,
+)
+
+# display the plot
+plt.savefig("../../static/graph/web-map-with-custom-legend.png", dpi=300)
+plt.show()57:T8297,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># load the colormap</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_cmap(</span><span style="color:#032F62">"BrwnYl"</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap_type</span><span style="color:#D73A49">=</span><span style="color:#032F62">"continuous"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">background_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "white"</span></span>
+<span class="line"><span style="color:#24292E">text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "black"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">value_ranges </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">, </span><span style="color:#005CC5">9</span><span style="color:#24292E">, </span><span style="color:#005CC5">11</span><span style="color:#24292E">, </span><span style="color:#005CC5">13</span><span style="color:#24292E">, </span><span style="color:#005CC5">15</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">"0-2 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"2-4 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"4-6 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"6-8 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"8-10 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"10-12 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"12+ t"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># load the font</span></span>
+<span class="line"><span style="color:#24292E">font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Bebas Neue"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"light"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_bold_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"medium"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># arrow properties</span></span>
+<span class="line"><span style="color:#24292E">arrow_props </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#E36209">head_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#E36209">head_length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax, </span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Total"</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">11</span><span style="color:#24292E">, </span><span style="color:#005CC5">41</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">73</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define range and values for the legend</span></span>
+<span class="line"><span style="color:#24292E">value_ranges </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">, </span><span style="color:#005CC5">9</span><span style="color:#24292E">, </span><span style="color:#005CC5">11</span><span style="color:#24292E">, </span><span style="color:#005CC5">13</span><span style="color:#24292E">, </span><span style="color:#005CC5">15</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">"0-2 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"2-4 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"4-6 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"6-8 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"8-10 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"10-12 t"</span><span style="color:#24292E">, </span><span style="color:#032F62">"12+ t"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># parameters of the legend</span></span>
+<span class="line"><span style="color:#24292E">rectangle_width </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2</span></span>
+<span class="line"><span style="color:#24292E">rectangle_height </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 1.5</span></span>
+<span class="line"><span style="color:#24292E">legend_x </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 35</span></span>
+<span class="line"><span style="color:#24292E">legend_y_start </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 65</span></span>
+<span class="line"><span style="color:#24292E">legend_y_step </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 1.5</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the legend</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(labels)):</span></span>
+<span class="line"><span style="color:#24292E">    value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span></span>
+<span class="line"><span style="color:#24292E">        (value_ranges[i] </span><span style="color:#D73A49">+</span><span style="color:#24292E"> value_ranges[i </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">]) </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#D73A49"> /</span><span style="color:#24292E"> value_ranges[</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    )  </span><span style="color:#6A737D"># Normalize the value to [0, 1]</span></span>
+<span class="line"><span style="color:#24292E">    color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> cmap(value)</span></span>
+<span class="line"><span style="color:#24292E">    ax.add_patch(</span></span>
+<span class="line"><span style="color:#24292E">        plt.Rectangle(</span></span>
+<span class="line"><span style="color:#24292E">            (legend_x, legend_y_start </span><span style="color:#D73A49">-</span><span style="color:#24292E"> i </span><span style="color:#D73A49">*</span><span style="color:#24292E"> legend_y_step),</span></span>
+<span class="line"><span style="color:#24292E">            rectangle_width,</span></span>
+<span class="line"><span style="color:#24292E">            rectangle_height,</span></span>
+<span class="line"><span style="color:#E36209">            color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">            ec</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span></span>
+<span class="line"><span style="color:#24292E">        legend_x </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 2.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">        legend_y_start </span><span style="color:#D73A49">-</span><span style="color:#24292E"> i </span><span style="color:#D73A49">*</span><span style="color:#24292E"> legend_y_step </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">        labels[i],</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontproperties</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># compute centroids and display the total</span></span>
+<span class="line"><span style="color:#24292E">adjustments </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "France"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Italy"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">2.4</span><span style="color:#24292E">, </span><span style="color:#005CC5">2.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Finland"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">2</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Belarus"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Ireland"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Germany"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Poland"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Sweden"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1.2</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">2.8</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "United Kingdom"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "Norway"</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">5.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">data_projected </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.to_crs(</span><span style="color:#E36209">epsg</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3035</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">data_projected[</span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data_projected.geometry.centroid</span></span>
+<span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data_projected[</span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">].to_crs(data.crs)</span></span>
+<span class="line"><span style="color:#24292E">countries_to_annotate </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">].tolist()</span></span>
+<span class="line"><span style="color:#24292E">countries_to_annotate </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    "France"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Italy"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Romania"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Poland"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Finland"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Ukraine"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Spain"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Germany"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Sweden"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "United Kingdom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Belarus"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Norway"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> country </span><span style="color:#D73A49">in</span><span style="color:#24292E"> countries_to_annotate:</span></span>
+<span class="line"><span style="color:#24292E">    centroid </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.loc[data[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country, </span><span style="color:#032F62">"centroid"</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    x, y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> centroid.coords[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">    try</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> adjustments[country][</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">        y </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> adjustments[country][</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">    except</span><span style="color:#005CC5"> KeyError</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#D73A49">        pass</span></span>
+<span class="line"><span style="color:#24292E">    rate </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.loc[data[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country, </span><span style="color:#032F62">"Total"</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> country </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "United Kingdom"</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        country </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "UK"</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> rate </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 7</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        color_text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "white"</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        color_text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> text_color</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#24292E">x,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">country.upper()</span><span style="color:#005CC5">}</span><span style="color:#032F62">>: </span><span style="color:#005CC5">{</span><span style="color:#24292E">rate</span><span style="color:#D73A49">:.2f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_text,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"CO2 emissions per capita in Europe (2021)"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.14</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">25</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># subtitle</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"&#x3C;Unit>: metric tons | &#x3C;Data>: zenodo.org | &#x3C;Viz>: barbierjoseph.com"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font},</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># arrows for the Luxembourg</span></span>
+<span class="line"><span style="color:#24292E">luxembourg_values </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.loc[data[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "Luxembourg"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Total"</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">fig_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.32</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.7</span><span style="color:#24292E">), </span><span style="color:#E36209">head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.375</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.45</span><span style="color:#24292E">), </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#D73A49">**</span><span style="color:#24292E">arrow_props</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"&#x3C;LUXEMBOURG>: </span><span style="color:#005CC5">{</span><span style="color:#24292E">luxembourg_values</span><span style="color:#D73A49">:.2f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.32</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.71</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span><span style="color:#032F62">"../../static/graph/web-map-with-custom-legend.png"</span><span style="color:#24292E">, </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>42:["$","$L2a","notebook-cell-9",{"index":9,"code":"$56","highlighted":"$57","interactive":true,"hasChart":true,"intro":"$L58","output":"$L59"}]
+43:["$","h2","h2-9",{"children":"Going further"}]
+44:["$","p","p-12",{"children":"You might be interested in:"}]
+45:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":["$","a","a-0",{"href":"/web-multiple-maps","children":"multiple choropleth maps on the same figure"}]}],"\n",["$","li","li-1",{"children":["how to create great ",["$","a","a-0",{"href":"/585-legend-for-categorical-data-matplotlib","children":"legends for categorical data"}]]}],"\n",["$","li","li-2",{"children":["how to create a ",["$","a","a-0",{"href":"/web-stacked-area-charts-on-a-map","children":"tile map with matplotlib"}]]}],"\n"]}]
+47:[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"name"}],["$","th","th-2",{"children":"Total"}],["$","th","th-3",{"children":"geometry"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"543"}],["$","td","td-0",{"children":"Norway"}],["$","td","td-1",{"children":"7.573273"}],["$","td","td-2",{"children":"MULTIPOLYGON (((15.14282 79.67431, 15.52255 80..."}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"815"}],["$","td","td-0",{"children":"France"}],["$","td","td-1",{"children":"4.741312"}],["$","td","td-2",{"children":"MULTIPOLYGON (((-51.6578 4.15623, -52.24934 3...."}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"1087"}],["$","td","td-0",{"children":"Sweden"}],["$","td","td-1",{"children":"3.424918"}],["$","td","td-2",{"children":"POLYGON ((11.02737 58.85615, 11.46827 59.43239..."}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"1359"}],["$","td","td-0",{"children":"Belarus"}],["$","td","td-1",{"children":"6.222741"}],["$","td","td-2",{"children":"POLYGON ((28.17671 56.16913, 29.22951 55.91834..."}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"1631"}],["$","td","td-0",{"children":"Ukraine"}],["$","td","td-1",{"children":"4.637058"}],["$","td","td-2",{"children":"POLYGON ((32.15944 52.06125, 32.41206 52.28869..."}]]}]]}]]}],"\n"]}]}]]
+4b:[["$","p","p-0",{"children":["A ",["$","a","a-0",{"href":"/choropleth-map","children":"choropleth map"}]," is distinct from a background map because it employs ",["$","strong","strong-0",{"children":"color gradients"}]," to depict data, with each country shaded according to its data value."]}],["$","p","p-1",{"children":["We initiate by loading a colormap via the ",["$","code","code-0",{"children":"load_cmap()"}]," function from the ",["$","a","a-0",{"href":"/color-palette-finder","children":"pypalettes library"}],", subsequently integrating this colormap into the plot by including ",["$","code","code-1",{"children":"cmap=cmap"}]," in the ",["$","code","code-2",{"children":"plot()"}]," function."]}],["$","p","p-2",{"children":["To enhance readability, we also define the ",["$","code","code-0",{"children":"edgecolor"}]," and ",["$","code","code-1",{"children":"linewidth"}]," of the countries."]}]]
+4c:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-with-custom-legend/output-5.png","alt":"Choropleth map with a customized legend","width":2259,"height":2370,"loading":"lazy","decoding":"async"}]}]]
+4e:[["$","pre","pre-0",{"className":"plain-output","children":["$","code","code-0",{"className":"language-text","children":"(10, 3)\n"}]}]]
+51:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-with-custom-legend/output-6.png","alt":"Choropleth map with a customized legend","width":2259,"height":2370,"loading":"lazy","decoding":"async"}]}]]
+54:[["$","p","p-0",{"children":["Since ",["$","strong","strong-0",{"children":"Luxembourg"}]," is a ",["$","strong","strong-1",{"children":"small country"}],", we ",["$","strong","strong-2",{"children":"annotate it outside"}]," of the ",["$","strong","strong-3",{"children":"map"}]," and use an ",["$","strong","strong-4",{"children":"arrow"}]," to explicitly show its ",["$","strong","strong-5",{"children":"position"}],". We use the ",["$","code","code-0",{"children":"ax_text()"}]," function from the ",["$","code","code-1",{"children":"highlight_text"}]," ",["$","strong","strong-6",{"children":"library"}]," to add the ",["$","strong","strong-7",{"children":"annotation"}],"."]}],["$","p","p-1",{"children":["The ",["$","strong","strong-0",{"children":"arrow"}]," is added using the ",["$","a","a-0",{"href":"/drawarrow","children":"drawarrow"}]," library and its ",["$","code","code-0",{"children":"fig_arrow"}]," function."]}],["$","p","p-2",{"children":["To ensure the title is perfectly aligned with the source below, simply specify ",["$","strong","strong-0",{"children":["$","code","code-0",{"children":"ha='center'"}]}]," in the ",["$","strong","strong-1",{"children":["$","code","code-0",{"children":"ax_text()"}]}]," function. This guarantees that, regardless of the title's size, it will always be centered."]}],["$","p","p-3",{"children":["In other words, by using the same ",["$","strong","strong-0",{"children":["$","code","code-0",{"children":"x"}]}]," value for both the title and the source, and setting ",["$","strong","strong-1",{"children":["$","code","code-0",{"children":"ha='center'"}]}],", the title will always be centered with the source."]}]]
+55:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-with-custom-legend/output-7.png","alt":"Choropleth map with a customized legend","width":2259,"height":2475,"loading":"lazy","decoding":"async"}]}]]
+58:[["$","p","p-0",{"children":"Creating the legend for this chart involves some straightforward steps:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Define"}]," ",["$","code","code-0",{"children":"value_ranges"}]," as a list storing the legend values: ",["$","code","code-1",{"children":"[1, 3, 5, 7, 9, 11, 13, 15]"}],"."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Define"}]," ",["$","code","code-0",{"children":"labels"}]," as a list storing the legend labels: ",["$","code","code-1",{"children":"['0-2 t', '2-4 t', '4-6 t', '6-8 t', '8-10 t', '10-12 t', '12+ t']"}],"."]}],"\n"]}],["$","p","p-1",{"children":["$","em","em-0",{"children":["Note that ",["$","code","code-0",{"children":"value_ranges"}]," contains one more element than the ",["$","code","code-1",{"children":"labels"}]," list due to the method used for color calculation."]}]}]]
+59:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-with-custom-legend/output-8.png","alt":"Choropleth map with a customized legend","width":2259,"height":2475,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

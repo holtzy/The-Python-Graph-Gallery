@@ -1,0 +1,524 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Circular barplot with Matplotlib"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>A highly customized circular barplot with custom annotations and labels to explore the hiking locations in Washington made with <code>Python</code> and <code>Matplotlib</code>. This blogpost guides you through a step-by-step construction of a custom circular barplots that includes a variety of custom color scales, labels, annotations, and guides.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/radar-chart/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Spider / Radar section"}],["$","a",null,{"href":"https://www.data-to-viz.com/caveat/spider.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-circular-barplot-with-matplotlib","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Circular barplot with Matplotlib"}],["$","meta","1",{"name":"description","content":"This post explains how to build a custom circular barlpot in Matplotlib from scratch. Step by step code snippets with explanations are provided."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, matplotlib, radarplot, radarchart, polarchart, custom"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-circular-barplot-with-matplotlib/"}],["$","meta","6",{"property":"og:title","content":"Circular barplot with Matplotlib"}],["$","meta","7",{"property":"og:description","content":"This post explains how to build a custom circular barlpot in Matplotlib from scratch. Step by step code snippets with explanations are provided."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Circular barplot with Matplotlib"}],["$","meta","13",{"name":"twitter:description","content":"This post explains how to build a custom circular barlpot in Matplotlib from scratch. Step by step code snippets with explanations are provided."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+27:I[44110,["$3","$4","$5","$6","$d"],"default"]
+28:I[59351,["$3","$4","$5","$6","$d"],"default"]
+29:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T4e7,# Some layout stuff ----------------------------------------------
+# Initialize layout in polar coordinates
+fig, ax = plt.subplots(figsize=(9, 12.6), subplot_kw={"projection": "polar"})
+
+# Set background color to white, both axis and figure.
+fig.patch.set_facecolor("white")
+ax.set_facecolor("white")
+
+ax.set_theta_offset(1.2 * np.pi / 2)
+ax.set_ylim(-1500, 3500)
+
+# Add geometries to the plot -------------------------------------
+# See the zorder to manipulate which geometries are on top
+
+# Add bars to represent the cumulative track lengths
+ax.bar(ANGLES, LENGTHS, color=COLORS, alpha=0.9, width=0.52, zorder=10)
+
+# Add dashed vertical lines. These are just references
+ax.vlines(ANGLES, 0, 3000, color=GREY12, ls=(0, (4, 4)), zorder=11)
+
+# Add dots to represent the mean gain
+ax.scatter(ANGLES, MEAN_GAIN, s=60, color=GREY12, zorder=11)
+
+
+# Add labels for the regions -------------------------------------
+# Note the 'wrap()' function.
+# The '5' means we want at most 5 consecutive letters in a word, 
+# but the 'break_long_words' means we don't want to break words 
+# longer than 5 characters.
+REGION = ["\n".join(wrap(r, 5, break_long_words=False)) for r in REGION]
+REGION
+
+# Set the labels
+ax.set_xticks(ANGLES)
+ax.set_xticklabels(REGION, size=12);23:T4ee,# Remove unnecesary guides ---------------------------------------
+
+# Remove lines for polar axis (x)
+ax.xaxis.grid(False)
+
+# Put grid lines for radial axis (y) at 0, 1000, 2000, and 3000
+ax.set_yticklabels([])
+ax.set_yticks([0, 1000, 2000, 3000])
+
+# Remove spines
+ax.spines["start"].set_color("none")
+ax.spines["polar"].set_color("none")
+
+
+# Adjust padding of the x axis labels ----------------------------
+# This is going to add extra space around the labels for the 
+# ticks of the x axis.
+XTICKS = ax.xaxis.get_major_ticks()
+for tick in XTICKS:
+    tick.set_pad(10)
+
+
+# Add custom annotations -----------------------------------------
+# The following represent the heights in the values of the y axis
+PAD = 10
+ax.text(-0.2 * np.pi / 2, 1000 + PAD, "1000", ha="center", size=12)
+ax.text(-0.2 * np.pi / 2, 2000 + PAD, "2000", ha="center", size=12)
+ax.text(-0.2 * np.pi / 2, 3000 + PAD, "3000", ha="center", size=12)
+
+
+# Add text to explain the meaning of the height of the bar and the
+# height of the dot
+ax.text(ANGLES[0], 3100, "Cummulative Length [FT]", rotation=21, 
+        ha="center", va="center", size=10, zorder=12)
+ax.text(ANGLES[0]+ 0.012, 1300, "Mean Elevation Gain\n[FASL]", rotation=-69, 
+        ha="center", va="center", size=10, zorder=12)
+fig24:T890,# Add legend -----------------------------------------------------
+
+# First, make some room for the legend and the caption in the bottom.
+fig.subplots_adjust(bottom=0.175)
+
+# Create an inset axes.
+# Width and height are given by the (0.35 and 0.01) in the 
+# bbox_to_anchor
+cbaxes = inset_axes(
+    ax, 
+    width="100%", 
+    height="100%", 
+    loc="center",
+    bbox_to_anchor=(0.325, 0.1, 0.35, 0.01),
+    bbox_transform=fig.transFigure # Note it uses the figure.
+) 
+
+# Create a new norm, which is discrete
+bounds = [0, 100, 150, 200, 250, 300]
+norm = mpl.colors.BoundaryNorm(bounds, cmap.N)
+
+# Create the colorbar
+cb = fig.colorbar(
+    ScalarMappable(norm=norm, cmap=cmap), 
+    cax=cbaxes, # Use the inset_axes created above
+    orientation = "horizontal",
+    ticks=[100, 150, 200, 250]
+)
+
+# Remove the outline of the colorbar
+cb.outline.set_visible(False)
+
+# Remove tick marks
+cb.ax.xaxis.set_tick_params(size=0)
+
+# Set legend label and move it to the top (instead of default bottom)
+cb.set_label("Amount of tracks", size=12, labelpad=-40)
+
+# Add annotations ------------------------------------------------
+
+# Make some room for the title and subtitle above.
+fig.subplots_adjust(top=0.8)
+
+# Define title, subtitle, and caption
+title = "\nHiking Locations in Washington"
+subtitle = "\n".join([
+    "This Visualisation shows the cummulative length of tracks,",
+    "the amount of tracks and the mean gain in elevation per location.\n",
+    "If you are an experienced hiker, you might want to go",
+    "to the North Cascades since there are a lot of tracks,",
+    "higher elevations and total length to overcome."
+])
+caption = "Data Visualisation by Tobias Stalder\ntobias-stalder.netlify.app\nSource: TidyX Crew (Ellis Hughes, Patrick Ward)\nLink to Data: github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-11-24/readme.md"
+
+# And finally, add them to the plot.
+fig.text(0.1, 0.93, title, fontsize=25, weight="bold", ha="left", va="baseline")
+fig.text(0.1, 0.9, subtitle, fontsize=14, ha="left", va="top")
+fig.text(0.5, 0.025, caption, fontsize=10, ha="center", va="baseline")
+
+# Note: you can use `fig.savefig("plot.png", dpi=300)` to save it with in hihg-quality.
+figf:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import matplotlib as mpl\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\n\nfrom matplotlib.cm import ScalarMappable\nfrom matplotlib.lines import Line2D\nfrom mpl_toolkits.axes_grid1.inset_locator import inset_axes\nfrom textwrap import wrap","path = 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/hike_data.csv'\ndata = pd.read_csv(path)\ndata.head()","data[\"region\"] = data[\"location\"].str.split(\"--\", n=1, expand=True)[0]\n\n# Make sure there's no leading/trailing whitespace\ndata[\"region\"] = data[\"region\"].str.strip()","# Make sure to use .astype(Float) so it is numeric.\ndata[\"length_num\"] = data[\"length\"].str.split(\" \", n=1, expand=True)[0].astype(float)","summary_stats = data.groupby([\"region\"]).agg(\n    sum_length = (\"length_num\", \"sum\"),\n    mean_gain = (\"gain\", \"mean\")\n).reset_index()\n\nsummary_stats[\"mean_gain\"] = summary_stats[\"mean_gain\"].round(0)\n\ntrackNrs = data.groupby(\"region\").size().to_frame('n').reset_index()","summary_all = pd.merge(summary_stats, trackNrs, \"left\", on = \"region\")\nsummary_all.head()","# Bars are sorted by the cumulative track length\ndf_sorted = summary_all.sort_values(\"sum_length\", ascending=False)\n\n# Values for the x axis\nANGLES = np.linspace(0.05, 2 * np.pi - 0.05, len(df_sorted), endpoint=False)\n\n# Cumulative length\nLENGTHS = df_sorted[\"sum_length\"].values\n\n# Mean gain length\nMEAN_GAIN = df_sorted[\"mean_gain\"].values\n\n# Region label\nREGION = df_sorted[\"region\"].values\n\n# Number of tracks per region\nTRACKS_N = df_sorted[\"n\"].values","GREY12 = \"#1f1f1f\"\n\n# Set default font to Bell MT\nplt.rcParams.update({\"font.family\": \"Bell MT\"})\n\n# Set default font color to GREY12\nplt.rcParams[\"text.color\"] = GREY12\n\n# The minus glyph is not available in Bell MT\n# This disables it, and uses a hyphen\nplt.rc(\"axes\", unicode_minus=False)\n\n# Colors\nCOLORS = [\"#6C5B7B\",\"#C06C84\",\"#F67280\",\"#F8B195\"]\n\n# Colormap\ncmap = mpl.colors.LinearSegmentedColormap.from_list(\"my color\", COLORS, N=256)\n\n# Normalizer\nnorm = mpl.colors.Normalize(vmin=TRACKS_N.min(), vmax=TRACKS_N.max())\n\n# Normalized colors. Each number of tracks is mapped to a color in the \n# color scale 'cmap'\nCOLORS = cmap(norm(TRACKS_N))","$22","$23","$24"],"children":"$L25"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$Le","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$Le","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$Le","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$Le","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$Le","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$Le","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L26"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L27",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L28",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L29",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@2a"}]}]
+20:true
+2b:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2c:T6ba,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib </span><span style="color:#D73A49">as</span><span style="color:#24292E"> mpl</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.cm </span><span style="color:#D73A49">import</span><span style="color:#24292E"> ScalarMappable</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.lines </span><span style="color:#D73A49">import</span><span style="color:#24292E"> Line2D</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> mpl_toolkits.axes_grid1.inset_locator </span><span style="color:#D73A49">import</span><span style="color:#24292E"> inset_axes</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> textwrap </span><span style="color:#D73A49">import</span><span style="color:#24292E"> wrap</span></span></code></pre>25:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This page showcases the work of ",["$","a","a-0",{"href":"https://tobias-stalder.netlify.app/","children":"Tobias Stadler"}],". You can find the original ",["$","a","a-1",{"href":"https://www.r-graph-gallery.com/","children":"R"}]," code on Tobias' GitHub ",["$","a","a-2",{"href":"https://github.com/toebR/Tidy-Tuesday/blob/master/hiking/script.R","children":"here"}],"."]}],"\n",["$","p","p-1",{"children":["Thanks to him for accepting sharing his work here! Thanks also to ",["$","a","a-0",{"href":"https://tomicapretto.github.io/","children":"Tomás Capretto"}]," who translated this work from R to Python! 🙏🙏"]}],"\n",["$","p","p-2",{"children":"As a teaser, here is the plot we’re gonna try building:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-circular-barplot-with-matplotlib-square.png?raw=true","alt":"preview final chart","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Load libraries"}],"\n","\n",["$","p","p-4",{"children":["Let's load libraries and utilities that are going to be used today. ",["$","a","a-0",{"href":"https://docs.python.org/3/library/textwrap.html","children":["$","code","code-0",{"children":"textwrap"}]}]," is Python built-in module that contains several utilities to wrap text. In this post, it is going to help us to split long names into multiple lines."]}],"\n",["$","$L2b","notebook-cell-0",{"index":0,"code":"import matplotlib as mpl\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\n\nfrom matplotlib.cm import ScalarMappable\nfrom matplotlib.lines import Line2D\nfrom mpl_toolkits.axes_grid1.inset_locator import inset_axes\nfrom textwrap import wrap","highlighted":"$2c","interactive":true,"hasChart":false}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","$L40","\n","$L41","\n","$L42","$L43","\n","$L44","$L45","\n","$L46"]
+26:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+2a:null
+b:C
+2d:["$","h2","h2-2",{"children":"Load and prepare the data"}]
+2e:["$","p","p-5",{"children":"This guide shows how to create a beautiful circular barplot to visualize several characteristics of hiking locations in Washington."}]
+2f:["$","p","p-6",{"children":["The data for this post comes from ",["$","a","a-0",{"href":"https://www.wta.org/go-outside/hikes?b_start:int=1","children":"Washington Trails Association"}]," courtesy of the ",["$","a","a-1",{"href":"https://github.com/thebioengineer/TidyX/tree/master/TidyTuesday_Explained/035-Rectangles","children":"TidyX crew"}],", ",["$","a","a-2",{"href":"https://twitter.com/Ellis_hughes","children":"Ellis Hughes"}]," and ",["$","a","a-3",{"href":"https://twitter.com/OSPpatrick","children":"Patrick Ward"}],". This guide uses the dataset released for the ",["$","a","a-4",{"href":"https://github.com/rfordatascience/tidytuesday","children":"TidyTuesday"}]," initiative on the week of 2020-11-24. You can find the original announcement and more information about the data ",["$","a","a-5",{"href":"https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-11-24","children":"here"}],". Thank you all for making this possible!"]}]
+30:["$","p","p-7",{"children":"Let's start by loading and exploring the first rows of the dataset."}]
+31:["$","$L2b","notebook-cell-1",{"index":1,"code":"path = 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/hike_data.csv'\ndata = pd.read_csv(path)\ndata.head()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">path </span><span style=\"color:#D73A49\">=</span><span style=\"color:#032F62\"> 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/hike_data.csv'</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">data </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.read_csv(path)</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">data.head()</span></span></code></pre>","interactive":true,"hasChart":false,"output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"name"}],["$","th","th-2",{"children":"location"}],["$","th","th-3",{"children":"length"}],["$","th","th-4",{"children":"gain"}],["$","th","th-5",{"children":"highpoint"}],["$","th","th-6",{"children":"rating"}],["$","th","th-7",{"children":"description"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"Lake Hills Greenbelt"}],["$","td","td-1",{"children":"Puget Sound and Islands -- Seattle-Tacoma Area"}],["$","td","td-2",{"children":"2.3 miles, roundtrip"}],["$","td","td-3",{"children":"50"}],["$","td","td-4",{"children":"330.0"}],["$","td","td-5",{"children":"3.67"}],["$","td","td-6",{"children":"Hike through a pastoral area first settled and..."}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"Snow Lake"}],["$","td","td-1",{"children":"Snoqualmie Region -- Snoqualmie Pass"}],["$","td","td-2",{"children":"7.2 miles, roundtrip"}],["$","td","td-3",{"children":"1800"}],["$","td","td-4",{"children":"4400.0"}],["$","td","td-5",{"children":"4.16"}],["$","td","td-6",{"children":"A relatively short and easy hike within a ston..."}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"Skookum Flats"}],["$","td","td-1",{"children":"Mount Rainier Area -- Chinook Pass - Hwy 410"}],["$","td","td-2",{"children":"7.8 miles, roundtrip"}],["$","td","td-3",{"children":"300"}],["$","td","td-4",{"children":"2550.0"}],["$","td","td-5",{"children":"3.68"}],["$","td","td-6",{"children":"Choose between a shorter or longer river walk ..."}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"Teneriffe Falls"}],["$","td","td-1",{"children":"Snoqualmie Region -- North Bend Area"}],["$","td","td-2",{"children":"5.6 miles, roundtrip"}],["$","td","td-3",{"children":"1585"}],["$","td","td-4",{"children":"2370.0"}],["$","td","td-5",{"children":"3.92"}],["$","td","td-6",{"children":"You'll work up a sweat on this easy to moderat..."}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"Twin Falls"}],["$","td","td-1",{"children":"Snoqualmie Region -- North Bend Area"}],["$","td","td-2",{"children":"2.6 miles, roundtrip"}],["$","td","td-3",{"children":"500"}],["$","td","td-4",{"children":"1000.0"}],["$","td","td-5",{"children":"4.14"}],["$","td","td-6",{"children":"Visit a trio (yes, trio) of waterfalls just of..."}]]}]]}]]}],"\n"]}]}]]}]
+32:["$","p","p-8",{"children":["The first step is to extract the ",["$","strong","strong-0",{"children":"region"}]," from the ",["$","code","code-0",{"children":"location"}]," column. This is given by the text before the ",["$","code","code-1",{"children":"\"--\""}],"."]}]
+47:T52b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">"region"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">"location"</span><span style="color:#24292E">].str.split(</span><span style="color:#032F62">"--"</span><span style="color:#24292E">, </span><span style="color:#E36209">n</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">expand</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Make sure there's no leading/trailing whitespace</span></span>
+<span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">"region"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">"region"</span><span style="color:#24292E">].str.strip()</span></span></code></pre>33:["$","$L2b","notebook-cell-2",{"index":2,"code":"data[\"region\"] = data[\"location\"].str.split(\"--\", n=1, expand=True)[0]\n\n# Make sure there's no leading/trailing whitespace\ndata[\"region\"] = data[\"region\"].str.strip()","highlighted":"$47","interactive":true,"hasChart":false}]
+34:["$","p","p-9",{"children":["A similar approach is used to extract the ",["$","strong","strong-0",{"children":"number of miles"}],"."]}]
+48:T42b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Make sure to use .astype(Float) so it is numeric.</span></span>
+<span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">"length_num"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[</span><span style="color:#032F62">"length"</span><span style="color:#24292E">].str.split(</span><span style="color:#032F62">" "</span><span style="color:#24292E">, </span><span style="color:#E36209">n</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">expand</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].astype(</span><span style="color:#005CC5">float</span><span style="color:#24292E">)</span></span></code></pre>35:["$","$L2b","notebook-cell-3",{"index":3,"code":"# Make sure to use .astype(Float) so it is numeric.\ndata[\"length_num\"] = data[\"length\"].str.split(\" \", n=1, expand=True)[0].astype(float)","highlighted":"$48","interactive":true,"hasChart":false}]
+36:["$","p","p-10",{"children":["Now it's time to compute the ",["$","strong","strong-0",{"children":"cumulative length"}]," and ",["$","strong","strong-1",{"children":"mean gain"}]," for each region, as well as recording the ",["$","strong","strong-2",{"children":"number of tracks"}]," per region."]}]
+49:T736,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">summary_stats </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.groupby([</span><span style="color:#032F62">"region"</span><span style="color:#24292E">]).agg(</span></span>
+<span class="line"><span style="color:#E36209">    sum_length</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#032F62">"length_num"</span><span style="color:#24292E">, </span><span style="color:#032F62">"sum"</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    mean_gain</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#032F62">"gain"</span><span style="color:#24292E">, </span><span style="color:#032F62">"mean"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">).reset_index()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">summary_stats[</span><span style="color:#032F62">"mean_gain"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> summary_stats[</span><span style="color:#032F62">"mean_gain"</span><span style="color:#24292E">].round(</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">trackNrs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.groupby(</span><span style="color:#032F62">"region"</span><span style="color:#24292E">).size().to_frame(</span><span style="color:#032F62">'n'</span><span style="color:#24292E">).reset_index()</span></span></code></pre>37:["$","$L2b","notebook-cell-4",{"index":4,"code":"summary_stats = data.groupby([\"region\"]).agg(\n    sum_length = (\"length_num\", \"sum\"),\n    mean_gain = (\"gain\", \"mean\")\n).reset_index()\n\nsummary_stats[\"mean_gain\"] = summary_stats[\"mean_gain\"].round(0)\n\ntrackNrs = data.groupby(\"region\").size().to_frame('n').reset_index()","highlighted":"$49","interactive":true,"hasChart":false}]
+38:["$","p","p-11",{"children":["Finally, merge ",["$","code","code-0",{"children":"summary_stats"}]," with ",["$","code","code-1",{"children":"tracksNrs"}]," to get the final dataset."]}]
+39:["$","$L2b","notebook-cell-5",{"index":5,"code":"summary_all = pd.merge(summary_stats, trackNrs, \"left\", on = \"region\")\nsummary_all.head()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">summary_all </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.merge(summary_stats, trackNrs, </span><span style=\"color:#032F62\">\"left\"</span><span style=\"color:#24292E\">, </span><span style=\"color:#E36209\">on</span><span style=\"color:#D73A49\"> =</span><span style=\"color:#032F62\"> \"region\"</span><span style=\"color:#24292E\">)</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">summary_all.head()</span></span></code></pre>","interactive":true,"hasChart":false,"output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"region"}],["$","th","th-2",{"children":"sum_length"}],["$","th","th-3",{"children":"mean_gain"}],["$","th","th-4",{"children":"n"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"Central Cascades"}],["$","td","td-1",{"children":"2130.85"}],["$","td","td-2",{"children":"2260.0"}],["$","td","td-3",{"children":"226"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"Central Washington"}],["$","td","td-1",{"children":"453.30"}],["$","td","td-2",{"children":"814.0"}],["$","td","td-3",{"children":"80"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"Eastern Washington"}],["$","td","td-1",{"children":"1333.64"}],["$","td","td-2",{"children":"1591.0"}],["$","td","td-3",{"children":"143"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"Issaquah Alps"}],["$","td","td-1",{"children":"383.11"}],["$","td","td-2",{"children":"973.0"}],["$","td","td-3",{"children":"77"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"Mount Rainier Area"}],["$","td","td-1",{"children":"1601.80"}],["$","td","td-2",{"children":"1874.0"}],["$","td","td-3",{"children":"196"}]]}]]}]]}],"\n"]}]}]]}]
+3a:["$","h2","h2-3",{"children":"Basic radar plot"}]
+3b:["$","p","p-12",{"children":["Radar charts plot data points in a circular layout. Instead of horizontal and vertical axes, it has an ",["$","strong","strong-0",{"children":"angular"}]," and a ",["$","strong","strong-1",{"children":"radial"}]," axis for ",["$","strong","strong-2",{"children":"x"}]," and ",["$","strong","strong-3",{"children":"y"}],", respectively. In this world, ",["$","strong","strong-4",{"children":"x"}]," values are given by ",["$","strong","strong-5",{"children":"angles"}]," and ",["$","strong","strong-6",{"children":"y"}]," values are a ",["$","strong","strong-7",{"children":"distance"}]," from the center of the circle."]}]
+3c:["$","p","p-13",{"children":["In the chart we're just about to build, the ",["$","strong","strong-0",{"children":"x"}]," axis will represent the ",["$","strong","strong-1",{"children":"regions"}],", and the ",["$","strong","strong-2",{"children":"y"}]," axis will represent their ",["$","strong","strong-3",{"children":"cumulative length"}]," and ",["$","strong","strong-4",{"children":"mean gain"}],". Color is going to represent the ",["$","strong","strong-5",{"children":"number of tracks"}],". Before getting started, just note the values of ",["$","strong","strong-6",{"children":"x"}],", given in angles, have to be manually calculated and passed to Matplotlib. This is what is going on in the ",["$","code","code-0",{"children":"np.linspace()"}]," that defines the ",["$","code","code-1",{"children":"ANGLES"}]," variable."]}]
+4a:Tb0b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Bars are sorted by the cumulative track length</span></span>
+<span class="line"><span style="color:#24292E">df_sorted </span><span style="color:#D73A49">=</span><span style="color:#24292E"> summary_all.sort_values(</span><span style="color:#032F62">"sum_length"</span><span style="color:#24292E">, </span><span style="color:#E36209">ascending</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Values for the x axis</span></span>
+<span class="line"><span style="color:#005CC5">ANGLES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> np.linspace(</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 0.05</span><span style="color:#24292E">, </span><span style="color:#005CC5">len</span><span style="color:#24292E">(df_sorted), </span><span style="color:#E36209">endpoint</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Cumulative length</span></span>
+<span class="line"><span style="color:#005CC5">LENGTHS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df_sorted[</span><span style="color:#032F62">"sum_length"</span><span style="color:#24292E">].values</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Mean gain length</span></span>
+<span class="line"><span style="color:#005CC5">MEAN_GAIN</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df_sorted[</span><span style="color:#032F62">"mean_gain"</span><span style="color:#24292E">].values</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Region label</span></span>
+<span class="line"><span style="color:#005CC5">REGION</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df_sorted[</span><span style="color:#032F62">"region"</span><span style="color:#24292E">].values</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Number of tracks per region</span></span>
+<span class="line"><span style="color:#005CC5">TRACKS_N</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df_sorted[</span><span style="color:#032F62">"n"</span><span style="color:#24292E">].values</span></span></code></pre>3d:["$","$L2b","notebook-cell-6",{"index":6,"code":"# Bars are sorted by the cumulative track length\ndf_sorted = summary_all.sort_values(\"sum_length\", ascending=False)\n\n# Values for the x axis\nANGLES = np.linspace(0.05, 2 * np.pi - 0.05, len(df_sorted), endpoint=False)\n\n# Cumulative length\nLENGTHS = df_sorted[\"sum_length\"].values\n\n# Mean gain length\nMEAN_GAIN = df_sorted[\"mean_gain\"].values\n\n# Region label\nREGION = df_sorted[\"region\"].values\n\n# Number of tracks per region\nTRACKS_N = df_sorted[\"n\"].values","highlighted":"$4a","interactive":true,"hasChart":false}]
+3e:["$","p","p-14",{"children":["As usually, colors and other important values are declared before the code that actually produces the plot. In addition, the following chunk also sets the default font to ",["$","strong","strong-0",{"children":"Bell MT"}],". For a step-by-step guide on how to install and load custom fonts in Matplotlib, have a look a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/custom-fonts-in-matplotlib","children":"this post"}],"."]}]
+4b:Te8f,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#005CC5">GREY12</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#1f1f1f"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set default font to Bell MT</span></span>
+<span class="line"><span style="color:#24292E">plt.rcParams.update({</span><span style="color:#032F62">"font.family"</span><span style="color:#24292E">: </span><span style="color:#032F62">"Bell MT"</span><span style="color:#24292E">})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set default font color to GREY12</span></span>
+<span class="line"><span style="color:#24292E">plt.rcParams[</span><span style="color:#032F62">"text.color"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> GREY12</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># The minus glyph is not available in Bell MT</span></span>
+<span class="line"><span style="color:#6A737D"># This disables it, and uses a hyphen</span></span>
+<span class="line"><span style="color:#24292E">plt.rc(</span><span style="color:#032F62">"axes"</span><span style="color:#24292E">, </span><span style="color:#E36209">unicode_minus</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Colors</span></span>
+<span class="line"><span style="color:#005CC5">COLORS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#032F62">"#6C5B7B"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#C06C84"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#F67280"</span><span style="color:#24292E">,</span><span style="color:#032F62">"#F8B195"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Colormap</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mpl.colors.LinearSegmentedColormap.from_list(</span><span style="color:#032F62">"my color"</span><span style="color:#24292E">, </span><span style="color:#005CC5">COLORS</span><span style="color:#24292E">, </span><span style="color:#E36209">N</span><span style="color:#D73A49">=</span><span style="color:#005CC5">256</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Normalizer</span></span>
+<span class="line"><span style="color:#24292E">norm </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mpl.colors.Normalize(</span><span style="color:#E36209">vmin</span><span style="color:#D73A49">=</span><span style="color:#005CC5">TRACKS_N</span><span style="color:#24292E">.min(), </span><span style="color:#E36209">vmax</span><span style="color:#D73A49">=</span><span style="color:#005CC5">TRACKS_N</span><span style="color:#24292E">.max())</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Normalized colors. Each number of tracks is mapped to a color in the </span></span>
+<span class="line"><span style="color:#6A737D"># color scale 'cmap'</span></span>
+<span class="line"><span style="color:#005CC5">COLORS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> cmap(norm(</span><span style="color:#005CC5">TRACKS_N</span><span style="color:#24292E">))</span></span></code></pre>3f:["$","$L2b","notebook-cell-7",{"index":7,"code":"GREY12 = \"#1f1f1f\"\n\n# Set default font to Bell MT\nplt.rcParams.update({\"font.family\": \"Bell MT\"})\n\n# Set default font color to GREY12\nplt.rcParams[\"text.color\"] = GREY12\n\n# The minus glyph is not available in Bell MT\n# This disables it, and uses a hyphen\nplt.rc(\"axes\", unicode_minus=False)\n\n# Colors\nCOLORS = [\"#6C5B7B\",\"#C06C84\",\"#F67280\",\"#F8B195\"]\n\n# Colormap\ncmap = mpl.colors.LinearSegmentedColormap.from_list(\"my color\", COLORS, N=256)\n\n# Normalizer\nnorm = mpl.colors.Normalize(vmin=TRACKS_N.min(), vmax=TRACKS_N.max())\n\n# Normalized colors. Each number of tracks is mapped to a color in the \n# color scale 'cmap'\nCOLORS = cmap(norm(TRACKS_N))","highlighted":"$4b","interactive":true,"hasChart":false}]
+4c:T4e7,# Some layout stuff ----------------------------------------------
+# Initialize layout in polar coordinates
+fig, ax = plt.subplots(figsize=(9, 12.6), subplot_kw={"projection": "polar"})
+
+# Set background color to white, both axis and figure.
+fig.patch.set_facecolor("white")
+ax.set_facecolor("white")
+
+ax.set_theta_offset(1.2 * np.pi / 2)
+ax.set_ylim(-1500, 3500)
+
+# Add geometries to the plot -------------------------------------
+# See the zorder to manipulate which geometries are on top
+
+# Add bars to represent the cumulative track lengths
+ax.bar(ANGLES, LENGTHS, color=COLORS, alpha=0.9, width=0.52, zorder=10)
+
+# Add dashed vertical lines. These are just references
+ax.vlines(ANGLES, 0, 3000, color=GREY12, ls=(0, (4, 4)), zorder=11)
+
+# Add dots to represent the mean gain
+ax.scatter(ANGLES, MEAN_GAIN, s=60, color=GREY12, zorder=11)
+
+
+# Add labels for the regions -------------------------------------
+# Note the 'wrap()' function.
+# The '5' means we want at most 5 consecutive letters in a word, 
+# but the 'break_long_words' means we don't want to break words 
+# longer than 5 characters.
+REGION = ["\n".join(wrap(r, 5, break_long_words=False)) for r in REGION]
+REGION
+
+# Set the labels
+ax.set_xticks(ANGLES)
+ax.set_xticklabels(REGION, size=12);4d:T1c5d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Some layout stuff ----------------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># Initialize layout in polar coordinates</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">9</span><span style="color:#24292E">, </span><span style="color:#005CC5">12.6</span><span style="color:#24292E">), </span><span style="color:#E36209">subplot_kw</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"projection"</span><span style="color:#24292E">: </span><span style="color:#032F62">"polar"</span><span style="color:#24292E">})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set background color to white, both axis and figure.</span></span>
+<span class="line"><span style="color:#24292E">fig.patch.set_facecolor(</span><span style="color:#032F62">"white"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(</span><span style="color:#032F62">"white"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.set_theta_offset(</span><span style="color:#005CC5">1.2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1500</span><span style="color:#24292E">, </span><span style="color:#005CC5">3500</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add geometries to the plot -------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># See the zorder to manipulate which geometries are on top</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add bars to represent the cumulative track lengths</span></span>
+<span class="line"><span style="color:#24292E">ax.bar(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">, </span><span style="color:#005CC5">LENGTHS</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">COLORS</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.9</span><span style="color:#24292E">, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.52</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add dashed vertical lines. These are just references</span></span>
+<span class="line"><span style="color:#24292E">ax.vlines(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">3000</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY12</span><span style="color:#24292E">, </span><span style="color:#E36209">ls</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, (</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#005CC5">4</span><span style="color:#24292E">)), </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">11</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add dots to represent the mean gain</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">, </span><span style="color:#005CC5">MEAN_GAIN</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">60</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY12</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">11</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add labels for the regions -------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># Note the 'wrap()' function.</span></span>
+<span class="line"><span style="color:#6A737D"># The '5' means we want at most 5 consecutive letters in a word, </span></span>
+<span class="line"><span style="color:#6A737D"># but the 'break_long_words' means we don't want to break words </span></span>
+<span class="line"><span style="color:#6A737D"># longer than 5 characters.</span></span>
+<span class="line"><span style="color:#005CC5">REGION</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#032F62">"</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span><span style="color:#24292E">.join(wrap(r, </span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#E36209">break_long_words</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> r </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> REGION</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#005CC5">REGION</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set the labels</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels(</span><span style="color:#005CC5">REGION</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span><span style="color:#B31D28;font-style:italic">;</span></span></code></pre>40:["$","$L2b","notebook-cell-8",{"index":8,"code":"$4c","highlighted":"$4d","interactive":true,"hasChart":true,"intro":"$L4e","output":"$L4f"}]
+41:["$","p","p-15",{"children":"Pretty good start! It wasn't too complicated to map the variable onto the different geometries in the plot."}]
+42:["$","h2","h2-4",{"children":"Customize guides and annotations"}]
+50:T4ee,# Remove unnecesary guides ---------------------------------------
+
+# Remove lines for polar axis (x)
+ax.xaxis.grid(False)
+
+# Put grid lines for radial axis (y) at 0, 1000, 2000, and 3000
+ax.set_yticklabels([])
+ax.set_yticks([0, 1000, 2000, 3000])
+
+# Remove spines
+ax.spines["start"].set_color("none")
+ax.spines["polar"].set_color("none")
+
+
+# Adjust padding of the x axis labels ----------------------------
+# This is going to add extra space around the labels for the 
+# ticks of the x axis.
+XTICKS = ax.xaxis.get_major_ticks()
+for tick in XTICKS:
+    tick.set_pad(10)
+
+
+# Add custom annotations -----------------------------------------
+# The following represent the heights in the values of the y axis
+PAD = 10
+ax.text(-0.2 * np.pi / 2, 1000 + PAD, "1000", ha="center", size=12)
+ax.text(-0.2 * np.pi / 2, 2000 + PAD, "2000", ha="center", size=12)
+ax.text(-0.2 * np.pi / 2, 3000 + PAD, "3000", ha="center", size=12)
+
+
+# Add text to explain the meaning of the height of the bar and the
+# height of the dot
+ax.text(ANGLES[0], 3100, "Cummulative Length [FT]", rotation=21, 
+        ha="center", va="center", size=10, zorder=12)
+ax.text(ANGLES[0]+ 0.012, 1300, "Mean Elevation Gain\n[FASL]", rotation=-69, 
+        ha="center", va="center", size=10, zorder=12)
+fig51:T2172,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Remove unnecesary guides ---------------------------------------</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove lines for polar axis (x)</span></span>
+<span class="line"><span style="color:#24292E">ax.xaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Put grid lines for radial axis (y) at 0, 1000, 2000, and 3000</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1000</span><span style="color:#24292E">, </span><span style="color:#005CC5">2000</span><span style="color:#24292E">, </span><span style="color:#005CC5">3000</span><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove spines</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"start"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"polar"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Adjust padding of the x axis labels ----------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># This is going to add extra space around the labels for the </span></span>
+<span class="line"><span style="color:#6A737D"># ticks of the x axis.</span></span>
+<span class="line"><span style="color:#005CC5">XTICKS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> ax.xaxis.get_major_ticks()</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> tick </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> XTICKS</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">    tick.set_pad(</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add custom annotations -----------------------------------------</span></span>
+<span class="line"><span style="color:#6A737D"># The following represent the heights in the values of the y axis</span></span>
+<span class="line"><span style="color:#005CC5">PAD</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 10</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">, </span><span style="color:#005CC5">1000</span><span style="color:#D73A49"> +</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">, </span><span style="color:#032F62">"1000"</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">, </span><span style="color:#005CC5">2000</span><span style="color:#D73A49"> +</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">, </span><span style="color:#032F62">"2000"</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">, </span><span style="color:#005CC5">3000</span><span style="color:#D73A49"> +</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">, </span><span style="color:#032F62">"3000"</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add text to explain the meaning of the height of the bar and the</span></span>
+<span class="line"><span style="color:#6A737D"># height of the dot</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[</span><span style="color:#005CC5">0</span><span style="color:#24292E">], </span><span style="color:#005CC5">3100</span><span style="color:#24292E">, </span><span style="color:#032F62">"Cummulative Length [FT]"</span><span style="color:#24292E">, </span><span style="color:#E36209">rotation</span><span style="color:#D73A49">=</span><span style="color:#005CC5">21</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 0.012</span><span style="color:#24292E">, </span><span style="color:#005CC5">1300</span><span style="color:#24292E">, </span><span style="color:#032F62">"Mean Elevation Gain</span><span style="color:#005CC5">\n</span><span style="color:#032F62">[FASL]"</span><span style="color:#24292E">, </span><span style="color:#E36209">rotation</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">69</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>43:["$","$L2b","notebook-cell-9",{"index":9,"code":"$50","highlighted":"$51","interactive":true,"hasChart":true,"intro":"$L52","output":"$L53"}]
+44:["$","h2","h2-5",{"children":"Final chart"}]
+54:T890,# Add legend -----------------------------------------------------
+
+# First, make some room for the legend and the caption in the bottom.
+fig.subplots_adjust(bottom=0.175)
+
+# Create an inset axes.
+# Width and height are given by the (0.35 and 0.01) in the 
+# bbox_to_anchor
+cbaxes = inset_axes(
+    ax, 
+    width="100%", 
+    height="100%", 
+    loc="center",
+    bbox_to_anchor=(0.325, 0.1, 0.35, 0.01),
+    bbox_transform=fig.transFigure # Note it uses the figure.
+) 
+
+# Create a new norm, which is discrete
+bounds = [0, 100, 150, 200, 250, 300]
+norm = mpl.colors.BoundaryNorm(bounds, cmap.N)
+
+# Create the colorbar
+cb = fig.colorbar(
+    ScalarMappable(norm=norm, cmap=cmap), 
+    cax=cbaxes, # Use the inset_axes created above
+    orientation = "horizontal",
+    ticks=[100, 150, 200, 250]
+)
+
+# Remove the outline of the colorbar
+cb.outline.set_visible(False)
+
+# Remove tick marks
+cb.ax.xaxis.set_tick_params(size=0)
+
+# Set legend label and move it to the top (instead of default bottom)
+cb.set_label("Amount of tracks", size=12, labelpad=-40)
+
+# Add annotations ------------------------------------------------
+
+# Make some room for the title and subtitle above.
+fig.subplots_adjust(top=0.8)
+
+# Define title, subtitle, and caption
+title = "\nHiking Locations in Washington"
+subtitle = "\n".join([
+    "This Visualisation shows the cummulative length of tracks,",
+    "the amount of tracks and the mean gain in elevation per location.\n",
+    "If you are an experienced hiker, you might want to go",
+    "to the North Cascades since there are a lot of tracks,",
+    "higher elevations and total length to overcome."
+])
+caption = "Data Visualisation by Tobias Stalder\ntobias-stalder.netlify.app\nSource: TidyX Crew (Ellis Hughes, Patrick Ward)\nLink to Data: github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-11-24/readme.md"
+
+# And finally, add them to the plot.
+fig.text(0.1, 0.93, title, fontsize=25, weight="bold", ha="left", va="baseline")
+fig.text(0.1, 0.9, subtitle, fontsize=14, ha="left", va="top")
+fig.text(0.5, 0.025, caption, fontsize=10, ha="center", va="baseline")
+
+# Note: you can use `fig.savefig("plot.png", dpi=300)` to save it with in hihg-quality.
+fig55:T2c2a,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Add legend -----------------------------------------------------</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># First, make some room for the legend and the caption in the bottom.</span></span>
+<span class="line"><span style="color:#24292E">fig.subplots_adjust(</span><span style="color:#E36209">bottom</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.175</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create an inset axes.</span></span>
+<span class="line"><span style="color:#6A737D"># Width and height are given by the (0.35 and 0.01) in the </span></span>
+<span class="line"><span style="color:#6A737D"># bbox_to_anchor</span></span>
+<span class="line"><span style="color:#24292E">cbaxes </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#24292E">    ax, </span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"100%"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"100%"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_to_anchor</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.325</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.35</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.01</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    bbox_transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig.transFigure </span><span style="color:#6A737D"># Note it uses the figure.</span></span>
+<span class="line"><span style="color:#24292E">) </span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create a new norm, which is discrete</span></span>
+<span class="line"><span style="color:#24292E">bounds </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">150</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#005CC5">250</span><span style="color:#24292E">, </span><span style="color:#005CC5">300</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">norm </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mpl.colors.BoundaryNorm(bounds, cmap.N)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create the colorbar</span></span>
+<span class="line"><span style="color:#24292E">cb </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.colorbar(</span></span>
+<span class="line"><span style="color:#24292E">    ScalarMappable(</span><span style="color:#E36209">norm</span><span style="color:#D73A49">=</span><span style="color:#24292E">norm, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap), </span></span>
+<span class="line"><span style="color:#E36209">    cax</span><span style="color:#D73A49">=</span><span style="color:#24292E">cbaxes, </span><span style="color:#6A737D"># Use the inset_axes created above</span></span>
+<span class="line"><span style="color:#E36209">    orientation</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "horizontal"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ticks</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">150</span><span style="color:#24292E">, </span><span style="color:#005CC5">200</span><span style="color:#24292E">, </span><span style="color:#005CC5">250</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove the outline of the colorbar</span></span>
+<span class="line"><span style="color:#24292E">cb.outline.set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove tick marks</span></span>
+<span class="line"><span style="color:#24292E">cb.ax.xaxis.set_tick_params(</span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set legend label and move it to the top (instead of default bottom)</span></span>
+<span class="line"><span style="color:#24292E">cb.set_label(</span><span style="color:#032F62">"Amount of tracks"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">labelpad</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add annotations ------------------------------------------------</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Make some room for the title and subtitle above.</span></span>
+<span class="line"><span style="color:#24292E">fig.subplots_adjust(</span><span style="color:#E36209">top</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define title, subtitle, and caption</span></span>
+<span class="line"><span style="color:#24292E">title </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "</span><span style="color:#005CC5">\n</span><span style="color:#032F62">Hiking Locations in Washington"</span></span>
+<span class="line"><span style="color:#24292E">subtitle </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span><span style="color:#24292E">.join([</span></span>
+<span class="line"><span style="color:#032F62">    "This Visualisation shows the cummulative length of tracks,"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "the amount of tracks and the mean gain in elevation per location.</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "If you are an experienced hiker, you might want to go"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "to the North Cascades since there are a lot of tracks,"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "higher elevations and total length to overcome."</span></span>
+<span class="line"><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">caption </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Data Visualisation by Tobias Stalder</span><span style="color:#005CC5">\n</span><span style="color:#032F62">tobias-stalder.netlify.app</span><span style="color:#005CC5">\n</span><span style="color:#032F62">Source: TidyX Crew (Ellis Hughes, Patrick Ward)</span><span style="color:#005CC5">\n</span><span style="color:#032F62">Link to Data: github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-11-24/readme.md"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># And finally, add them to the plot.</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.93</span><span style="color:#24292E">, title, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">25</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"baseline"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.9</span><span style="color:#24292E">, subtitle, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.025</span><span style="color:#24292E">, caption, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"baseline"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Note: you can use `fig.savefig("plot.png", dpi=300)` to save it with in hihg-quality.</span></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>45:["$","$L2b","notebook-cell-10",{"index":10,"code":"$54","highlighted":"$55","interactive":true,"hasChart":true,"intro":"$L56","output":"$L57"}]
+46:["$","p","p-16",{"children":"Simple and beautiful!"}]
+4e:[["$","p","p-0",{"children":"Excited about how to make it? Let's do it!"}]]
+4f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-circular-barplot-with-matplotlib/output-3.png","alt":"Circular barplot with Matplotlib","width":586,"height":563,"loading":"lazy","decoding":"async"}]}]]
+52:[["$","p","p-0",{"children":"The plot above looks quite nice for a start. But so many reference lines are unnecesary. Let's remove these defaults and improve this chart with custom annotations and guides."}]]
+53:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-circular-barplot-with-matplotlib/output-4.png","alt":"Circular barplot with Matplotlib","width":599,"height":575,"loading":"lazy","decoding":"async"}]}]]
+56:[["$","p","p-0",{"children":"The result looks much better! The clutter in the previous plot has dissapeared, that's great! The last step is to add a legend that makes the colors more meaningful and a good title and annotations that can easily transmit what this chart is about."}]]
+57:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-circular-barplot-with-matplotlib/output-5.png","alt":"Circular barplot with Matplotlib","width":599,"height":882,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

@@ -1,0 +1,953 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Waffle chart in time series"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Waffle2Small.webp","alt":"logo of a chart:Waffle2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post explains everything you need to know to create a <a href='https://python-graph-gallery.com/waffle-chart/'>waffle chart</a> used as a <b>time series</b> and how to apply <b>advanced customization</b>. This post explains step-by-step how to replicate it with reproducible code and explanations, using pywaffle, matplotlib and other libraries.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/waffle-chart/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Waffle section"}],["$","a",null,{"href":"https://www.data-to-viz.com","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-waffle-chart-with-groups-evolution","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Waffle chart in time series"}],["$","meta","1",{"name":"description","content":"How do you create waffle chart with multiple groups and evolution"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"waffle, pywaffle, python, matplotlib, seaborn, dataviz, visualization"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-waffle-chart-with-groups-evolution/"}],["$","meta","6",{"property":"og:title","content":"Waffle chart in time series"}],["$","meta","7",{"property":"og:description","content":"How do you create waffle chart with multiple groups and evolution"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Waffle chart in time series"}],["$","meta","13",{"name":"twitter:description","content":"How do you create waffle chart with multiple groups and evolution"}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+27:I[44110,["$3","$4","$5","$6","$d"],"default"]
+28:I[59351,["$3","$4","$5","$6","$d"],"default"]
+29:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T6f1,n_colors = df_agg["animal_type"].nunique()
+colors = load_palette("CrystalGems", keep_first_n=n_colors, shuffle=3) + ["white"]
+
+max_year_value = df_agg[df_agg["outcome_year"] == 2024]["size"].sum()
+
+ncols = df_agg["outcome_year"].nunique()
+fig, axs = plt.subplots(ncols=ncols, figsize=(16, 10))
+
+for year, ax in zip(df_agg["outcome_year"].unique(), axs):
+    values = list(df_agg[df_agg["outcome_year"] == year]["size"].values)
+    values = sorted(values, reverse=True)
+    values.append(max_year_value - sum(values))
+
+    Waffle.make_waffle(
+        ax=ax,
+        rows=50,
+        columns=10,
+        values=values,
+        vertical=True,
+        colors=colors,
+    )
+
+    ax.text(x=0.1, y=-0.04, s=f"{int(year)}", fontsize=14, ha="center")
+
+label_params = dict(
+    x=1.05,
+    size=15,
+    transform=axs[ncols - 1].transAxes,
+    clip_on=False,
+)
+axs[ncols - 1].text(y=0.24, s="Cat", color=colors[0], **label_params)
+axs[ncols - 1].text(y=0.75, s="Dog", color=colors[1], **label_params)
+axs[ncols - 1].text(y=0.96, s="Rabbit", color=colors[2], **label_params)
+axs[ncols - 1].text(y=1.02, s="Guinea Pig", color=colors[3], **label_params)
+axs[ncols - 1].text(y=0.99, s="Bird", color=colors[4], **label_params)
+fig.text(
+    x=0.56,
+    y=0.38,
+    s="Reptile",
+    size=15,
+    color=colors[5],
+)
+fig.text(
+    x=0.47,
+    y=0.45,
+    s="Other",
+    size=15,
+    color=colors[6],
+)
+
+arrow_params = dict(
+    ax=axs[ncols - 1],
+    transform=axs[ncols - 1].transAxes,
+    clip_on=False,
+)
+ax_arrow([1.04, 1.03], [0.6, 1.01], color=colors[3], radius=0.5, **arrow_params)
+fig_arrow(
+    [0.57, 0.37], [0.558, 0.31], color=colors[5], radius=0.1, clip_on=False, fig=fig
+)
+fig_arrow(
+    [0.48, 0.44], [0.45, 0.38], color=colors[6], radius=-0.3, clip_on=False, fig=fig
+)
+
+plt.show()23:T8f8,n_colors = df_agg["animal_type"].nunique()
+colors = load_palette("CrystalGems", keep_first_n=n_colors, shuffle=3) + ["white"]
+
+max_year_value = df_agg[df_agg["outcome_year"] == 2024]["size"].sum()
+
+ncols = df_agg["outcome_year"].nunique()
+fig, axs = plt.subplots(ncols=ncols, figsize=(16, 10))
+
+# Add y scale
+y_ticks = [0, 300, 600, 900, 1200, 1500]
+for y_tick in y_ticks:
+    axs[0].text(
+        x=-0.25,
+        y=y_tick / max_year_value,
+        s=f"{y_tick}",
+        size=12,
+        va="center",
+        ha="right",
+        transform=axs[0].transAxes,
+    )
+    axs[0].axhline(
+        y=y_tick / max_year_value,
+        xmin=-0.2,
+        xmax=-0.1,
+        clip_on=False,
+        color="black",
+        linewidth=0.7,
+    )
+axs[0].axvline(x=-0.03, ymax=1.05, clip_on=False, color="black", linewidth=0.7)
+
+for year, ax in zip(df_agg["outcome_year"].unique(), axs):
+    values = list(df_agg[df_agg["outcome_year"] == year]["size"].values)
+    values = sorted(values, reverse=True)
+    values.append(max_year_value - sum(values))
+
+    Waffle.make_waffle(
+        ax=ax,
+        rows=50,
+        columns=10,
+        values=values,
+        vertical=True,
+        colors=colors,
+    )
+
+    ax.text(x=0.1, y=-0.04, s=f"{int(year)}", fontsize=14, ha="center")
+
+label_params = dict(
+    x=1.05,
+    size=15,
+    transform=axs[ncols - 1].transAxes,
+    clip_on=False,
+)
+axs[ncols - 1].text(y=0.24, s="Cat", color=colors[0], **label_params)
+axs[ncols - 1].text(y=0.75, s="Dog", color=colors[1], **label_params)
+axs[ncols - 1].text(y=0.96, s="Rabbit", color=colors[2], **label_params)
+axs[ncols - 1].text(y=1.02, s="Guinea Pig", color=colors[3], **label_params)
+axs[ncols - 1].text(y=0.99, s="Bird", color=colors[4], **label_params)
+fig.text(
+    x=0.56,
+    y=0.38,
+    s="Reptile",
+    size=15,
+    color=colors[5],
+)
+fig.text(
+    x=0.47,
+    y=0.45,
+    s="Other",
+    size=15,
+    color=colors[6],
+)
+
+arrow_params = dict(
+    ax=axs[ncols - 1],
+    transform=axs[ncols - 1].transAxes,
+    clip_on=False,
+)
+ax_arrow([1.04, 1.03], [0.6, 1.01], color=colors[3], radius=0.5, **arrow_params)
+fig_arrow(
+    [0.57, 0.37], [0.558, 0.31], color=colors[5], radius=0.1, clip_on=False, fig=fig
+)
+fig_arrow(
+    [0.48, 0.44], [0.45, 0.38], color=colors[6], radius=-0.3, clip_on=False, fig=fig
+)
+
+plt.show()24:Te25,lightfont = load_google_font("Roboto", weight="light")
+regularfont = load_google_font("Roboto")
+italicfont = load_google_font("Roboto", weight="bold", italic=True)
+
+n_colors = df_agg["animal_type"].nunique()
+colors = load_palette("CrystalGems", keep_first_n=n_colors, shuffle=3) + ["white"]
+
+max_year_value = df_agg[df_agg["outcome_year"] == 2024]["size"].sum()
+
+ncols = df_agg["outcome_year"].nunique()
+fig, axs = plt.subplots(ncols=ncols, figsize=(16, 10))
+
+y_ticks = [0, 300, 600, 900, 1200, 1500]
+for y_tick in y_ticks:
+    axs[0].text(
+        x=-0.25,
+        y=y_tick / max_year_value,
+        s=f"{y_tick}",
+        size=12,
+        va="center",
+        ha="right",
+        transform=axs[0].transAxes,
+        font=lightfont,
+    )
+    axs[0].axhline(
+        y=y_tick / max_year_value,
+        xmin=-0.2,
+        xmax=-0.1,
+        clip_on=False,
+        color="black",
+        linewidth=0.7,
+    )
+axs[0].axvline(x=-0.03, ymax=1.05, clip_on=False, color="black", linewidth=0.7)
+
+
+for year, ax in zip(df_agg["outcome_year"].unique(), axs):
+    values = list(df_agg[df_agg["outcome_year"] == year]["size"].values)
+    values = sorted(values, reverse=True)
+    values.append(max_year_value - sum(values))
+
+    Waffle.make_waffle(
+        ax=ax,
+        rows=50,
+        columns=10,
+        values=values,
+        vertical=True,
+        colors=colors,
+    )
+
+    ax.text(x=0.1, y=-0.04, s=f"{int(year)}", fontsize=14, ha="center", font=lightfont)
+    adj_y = 0.03
+    ax.text(
+        x=0.03,
+        y=sum(values[:-1]) / max_year_value + adj_y,
+        s=f"{sum(values[:-1])}",
+        fontsize=15,
+        ha="center",
+        font=italicfont,
+    )
+
+label_params = dict(
+    x=1.05,
+    size=15,
+    transform=axs[ncols - 1].transAxes,
+    font=regularfont,
+    clip_on=False,
+)
+axs[ncols - 1].text(y=0.24, s="Cat", color=colors[0], **label_params)
+axs[ncols - 1].text(y=0.75, s="Dog", color=colors[1], **label_params)
+axs[ncols - 1].text(y=0.96, s="Rabbit", color=colors[2], **label_params)
+axs[ncols - 1].text(y=1.02, s="Guinea Pig", color=colors[3], **label_params)
+axs[ncols - 1].text(y=0.99, s="Bird", color=colors[4], **label_params)
+fig.text(
+    x=0.56,
+    y=0.38,
+    s="Reptile",
+    size=15,
+    font=regularfont,
+    color=colors[5],
+)
+fig.text(
+    x=0.47,
+    y=0.45,
+    s="Other",
+    size=15,
+    font=regularfont,
+    color=colors[6],
+)
+
+arrow_params = dict(
+    ax=axs[ncols - 1],
+    transform=axs[ncols - 1].transAxes,
+    clip_on=False,
+)
+ax_arrow([1.04, 1.03], [0.6, 1.01], color=colors[3], radius=0.5, **arrow_params)
+fig_arrow(
+    [0.57, 0.37], [0.558, 0.31], color=colors[5], radius=0.1, clip_on=False, fig=fig
+)
+fig_arrow(
+    [0.48, 0.44], [0.45, 0.38], color=colors[6], radius=-0.3, clip_on=False, fig=fig
+)
+
+title = """
+Number of animals adopted at the\nLong Beach animal shelter
+"""
+fig.text(x=0.14, y=0.9, s=title, size=30, font=lightfont, va="top")
+
+share_catdog = df_agg[df_agg["iscatordog"]]["size"].sum() / df_agg["size"].sum() * 100
+subtitle = f"""
+<Dogs> and <Cats> represent {share_catdog:.0f}% of all adoptions during the period
+"""
+fig_text(
+    x=0.14,
+    y=0.75,
+    s=subtitle,
+    size=18,
+    font=lightfont,
+    color="#afafaf",
+    va="top",
+    highlight_textprops=[{"color": colors[1]}, {"color": colors[0]}],
+)
+
+source_params = dict(ha="right", font=lightfont, color="#9a9a9a", size=10)
+fig.text(x=0.9, y=0.04, s="TidyTuesday - 2025-03-04", **source_params)
+fig.text(x=0.9, y=0.02, s="Viz: Joseph Barbier", **source_params)
+
+fig.savefig(
+    "../../static/graph/web-waffle-chart-with-groups-evolution.png",
+    dpi=300,
+    bbox_inches="tight",
+)
+
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import pandas as pd\nimport matplotlib.pyplot as plt\nfrom pywaffle import Waffle\nfrom pypalettes import load_palette\nfrom pyfonts import load_google_font\nfrom drawarrow import ax_arrow, fig_arrow\nfrom highlight_text import fig_text","url = \"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-03-04/longbeach.csv\"\ndf = pd.read_csv(url)\ndf[\"outcome_year\"] = pd.to_datetime(df[\"outcome_date\"]).dt.year\ndf = df[df[\"outcome_type\"] == \"adoption\"]\ndf = df[[\"outcome_year\", \"animal_type\"]]\ndf_agg = df.groupby([\"outcome_year\", \"animal_type\"], as_index=False).size()\ndf_agg = df_agg[~df_agg[\"animal_type\"].isin([\"amphibian\", \"livestock\"])]\nall_years = df_agg[\"outcome_year\"].unique()\nall_animals = df_agg[\"animal_type\"].unique()\nidx = pd.MultiIndex.from_product(\n    [all_years, all_animals], names=[\"outcome_year\", \"animal_type\"]\n)\ndf_agg = (\n    df_agg.set_index([\"outcome_year\", \"animal_type\"])\n    .reindex(idx, fill_value=0)\n    .reset_index()\n)\ndf_agg = df_agg.sort_values([\"outcome_year\", \"animal_type\"])\ndf_agg[df_agg[\"outcome_year\"] == 2024].sort_values(\"size\")\ndf_agg[\"iscatordog\"] = df_agg[\"animal_type\"].isin([\"cat\", \"dog\"])\ndf_agg.head()","n_colors = df_agg[\"animal_type\"].nunique()\ncolors = load_palette(\"CrystalGems\", keep_first_n=n_colors, shuffle=3) + [\"white\"]\n\nmax_year_value = df_agg[df_agg[\"outcome_year\"] == 2024][\"size\"].sum()\n\nncols = df_agg[\"outcome_year\"].nunique()\nfig, axs = plt.subplots(ncols=ncols, figsize=(16, 10))\n\nfor year, ax in zip(df_agg[\"outcome_year\"].unique(), axs):\n    values = list(df_agg[df_agg[\"outcome_year\"] == year][\"size\"].values)\n    values = sorted(values, reverse=True)\n    values.append(max_year_value - sum(values))\n\n    Waffle.make_waffle(\n        ax=ax,\n        rows=50,\n        columns=10,\n        values=values,\n        vertical=True,\n        colors=colors,\n    )\n\n    ax.text(x=0.1, y=-0.04, s=f\"{int(year)}\", fontsize=14, ha=\"center\")\n\nplt.show()","$22","$23","$24"],"children":"$L25"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","treemap",{"href":"/treemap/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Tree150.webp","alt":"logo of a chart:Tree","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Treemap"}]]}],["$","$Le","venn",{"href":"/venn-diagram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Venn150.webp","alt":"logo of a chart:Venn","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Venn Diagram"}]]}],["$","$Le","donut",{"href":"/donut-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Doughnut150.webp","alt":"logo of a chart:Doughnut","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Donut"}]]}],["$","$Le","pie",{"href":"/pie-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Pie150.webp","alt":"logo of a chart:Pie","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Pie Chart"}]]}],["$","$Le","dendrogram",{"href":"/dendrogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Dendrogram150.webp","alt":"logo of a chart:Dendrogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Dendrogram"}]]}],["$","$Le","circularPacking",{"href":"/circular-packing/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularPacking150.webp","alt":"logo of a chart:CircularPacking","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Packing"}]]}],["$","$Le","waffle",{"href":"/waffle-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Waffle2Small.webp","alt":"logo of a chart:Waffle2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L26"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L27",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L28",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L29",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@2a"}]}]
+20:true
+2b:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2c:T5dc,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pywaffle </span><span style="color:#D73A49">import</span><span style="color:#24292E"> Waffle</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pypalettes </span><span style="color:#D73A49">import</span><span style="color:#24292E"> load_palette</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pyfonts </span><span style="color:#D73A49">import</span><span style="color:#24292E"> load_google_font</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> drawarrow </span><span style="color:#D73A49">import</span><span style="color:#24292E"> ax_arrow, fig_arrow</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text</span></span></code></pre>2d:T15ce,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">url </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-03-04/longbeach.csv"</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(url)</span></span>
+<span class="line"><span style="color:#24292E">df[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.to_datetime(df[</span><span style="color:#032F62">"outcome_date"</span><span style="color:#24292E">]).dt.year</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"outcome_type"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "adoption"</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">, </span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">]]</span></span>
+<span class="line"><span style="color:#24292E">df_agg </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.groupby([</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">, </span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">], </span><span style="color:#E36209">as_index</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">).size()</span></span>
+<span class="line"><span style="color:#24292E">df_agg </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#D73A49">~</span><span style="color:#24292E">df_agg[</span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">].isin([</span><span style="color:#032F62">"amphibian"</span><span style="color:#24292E">, </span><span style="color:#032F62">"livestock"</span><span style="color:#24292E">])]</span></span>
+<span class="line"><span style="color:#24292E">all_years </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">].unique()</span></span>
+<span class="line"><span style="color:#24292E">all_animals </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">].unique()</span></span>
+<span class="line"><span style="color:#24292E">idx </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.MultiIndex.from_product(</span></span>
+<span class="line"><span style="color:#24292E">    [all_years, all_animals], </span><span style="color:#E36209">names</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">, </span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_agg </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span></span>
+<span class="line"><span style="color:#24292E">    df_agg.set_index([</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">, </span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">    .reindex(idx, </span><span style="color:#E36209">fill_value</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    .reset_index()</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_agg </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg.sort_values([</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">, </span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">df_agg[df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#005CC5"> 2024</span><span style="color:#24292E">].sort_values(</span><span style="color:#032F62">"size"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df_agg[</span><span style="color:#032F62">"iscatordog"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">].isin([</span><span style="color:#032F62">"cat"</span><span style="color:#24292E">, </span><span style="color:#032F62">"dog"</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">df_agg.head()</span></span></code></pre>25:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":"This plot is a waffle chart showing the evolution of the number of animals adopted at the Long Beach animal shelter."}],"\n",["$","p","p-1",{"children":["The chart was made by ",["$","a","a-0",{"href":"https://www.barbierjoseph.com/","children":"Joseph Barbier"}],". Thanks to him for accepting sharing his work here!"]}],"\n",["$","p","p-2",{"children":"Let's see what the final picture will look like:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-waffle-chart-with-groups-evolution.png?raw=true","alt":"small multiple waffle chart","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-4",{"children":"First, we need to install the following libraries:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["$","code","code-0",{"children":"pandas"}]}],"\n",["$","li","li-1",{"children":["$","code","code-0",{"children":"matplotlib"}]}],"\n",["$","li","li-2",{"children":["$","code","code-0",{"children":"pywaffle"}]}],"\n",["$","li","li-3",{"children":["$","code","code-0",{"children":"pypalettes"}]}],"\n",["$","li","li-4",{"children":["$","code","code-0",{"children":"pyfonts"}]}],"\n",["$","li","li-5",{"children":["$","code","code-0",{"children":"drawarrow"}]}],"\n",["$","li","li-6",{"children":["$","code","code-0",{"children":"highlight_text"}]}],"\n"]}],"\n",["$","$L2b","notebook-cell-0",{"index":0,"code":"import pandas as pd\nimport matplotlib.pyplot as plt\nfrom pywaffle import Waffle\nfrom pypalettes import load_palette\nfrom pyfonts import load_google_font\nfrom drawarrow import ax_arrow, fig_arrow\nfrom highlight_text import fig_text","highlighted":"$2c","interactive":true,"hasChart":false}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-5",{"children":"First of all, we need to fetch the dataset from the tidytuesday repository, and clean it a bit:"}],"\n",["$","$L2b","notebook-cell-1",{"index":1,"code":"url = \"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-03-04/longbeach.csv\"\ndf = pd.read_csv(url)\ndf[\"outcome_year\"] = pd.to_datetime(df[\"outcome_date\"]).dt.year\ndf = df[df[\"outcome_type\"] == \"adoption\"]\ndf = df[[\"outcome_year\", \"animal_type\"]]\ndf_agg = df.groupby([\"outcome_year\", \"animal_type\"], as_index=False).size()\ndf_agg = df_agg[~df_agg[\"animal_type\"].isin([\"amphibian\", \"livestock\"])]\nall_years = df_agg[\"outcome_year\"].unique()\nall_animals = df_agg[\"animal_type\"].unique()\nidx = pd.MultiIndex.from_product(\n    [all_years, all_animals], names=[\"outcome_year\", \"animal_type\"]\n)\ndf_agg = (\n    df_agg.set_index([\"outcome_year\", \"animal_type\"])\n    .reindex(idx, fill_value=0)\n    .reset_index()\n)\ndf_agg = df_agg.sort_values([\"outcome_year\", \"animal_type\"])\ndf_agg[df_agg[\"outcome_year\"] == 2024].sort_values(\"size\")\ndf_agg[\"iscatordog\"] = df_agg[\"animal_type\"].isin([\"cat\", \"dog\"])\ndf_agg.head()","highlighted":"$2d","interactive":true,"hasChart":false,"output":"$L2e"}],"\n","$L2f","$L30","\n","$L31","$L32","\n","$L33","$L34","\n","$L35","$L36","\n","$L37","\n","$L38"]
+26:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Waffle"}]
+2a:null
+b:C
+2e:[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"outcome_year"}],["$","th","th-2",{"children":"animal_type"}],["$","th","th-3",{"children":"size"}],["$","th","th-4",{"children":"iscatordog"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"2017.0"}],["$","td","td-1",{"children":"bird"}],["$","td","td-2",{"children":"1"}],["$","td","td-3",{"children":"False"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"2017.0"}],["$","td","td-1",{"children":"cat"}],["$","td","td-2",{"children":"222"}],["$","td","td-3",{"children":"True"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"2017.0"}],["$","td","td-1",{"children":"dog"}],["$","td","td-2",{"children":"205"}],["$","td","td-3",{"children":"True"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"2017.0"}],["$","td","td-1",{"children":"guinea pig"}],["$","td","td-2",{"children":"3"}],["$","td","td-3",{"children":"False"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"2017.0"}],["$","td","td-1",{"children":"other"}],["$","td","td-2",{"children":"1"}],["$","td","td-3",{"children":"False"}]]}]]}]]}],"\n"]}]}]]
+2f:["$","h2","h2-3",{"children":"Minimalist version"}]
+39:T1767,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">n_colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">].nunique()</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_palette(</span><span style="color:#032F62">"CrystalGems"</span><span style="color:#24292E">, </span><span style="color:#E36209">keep_first_n</span><span style="color:#D73A49">=</span><span style="color:#24292E">n_colors, </span><span style="color:#E36209">shuffle</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">) </span><span style="color:#D73A49">+</span><span style="color:#24292E"> [</span><span style="color:#032F62">"white"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">max_year_value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#005CC5"> 2024</span><span style="color:#24292E">][</span><span style="color:#032F62">"size"</span><span style="color:#24292E">].sum()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ncols </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">].nunique()</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#24292E">ncols, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year, ax </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">].unique(), axs):</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(df_agg[df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> year][</span><span style="color:#032F62">"size"</span><span style="color:#24292E">].values)</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> sorted</span><span style="color:#24292E">(values, </span><span style="color:#E36209">reverse</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    values.append(max_year_value </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> sum</span><span style="color:#24292E">(values))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    Waffle.make_waffle(</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">        rows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">50</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        columns</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        values</span><span style="color:#D73A49">=</span><span style="color:#24292E">values,</span></span>
+<span class="line"><span style="color:#E36209">        vertical</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.04</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{int</span><span style="color:#24292E">(year)</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>30:["$","$L2b","notebook-cell-2",{"index":2,"code":"n_colors = df_agg[\"animal_type\"].nunique()\ncolors = load_palette(\"CrystalGems\", keep_first_n=n_colors, shuffle=3) + [\"white\"]\n\nmax_year_value = df_agg[df_agg[\"outcome_year\"] == 2024][\"size\"].sum()\n\nncols = df_agg[\"outcome_year\"].nunique()\nfig, axs = plt.subplots(ncols=ncols, figsize=(16, 10))\n\nfor year, ax in zip(df_agg[\"outcome_year\"].unique(), axs):\n    values = list(df_agg[df_agg[\"outcome_year\"] == year][\"size\"].values)\n    values = sorted(values, reverse=True)\n    values.append(max_year_value - sum(values))\n\n    Waffle.make_waffle(\n        ax=ax,\n        rows=50,\n        columns=10,\n        values=values,\n        vertical=True,\n        colors=colors,\n    )\n\n    ax.text(x=0.1, y=-0.04, s=f\"{int(year)}\", fontsize=14, ha=\"center\")\n\nplt.show()","highlighted":"$39","interactive":true,"hasChart":true,"intro":"$L3a","output":"$L3b"}]
+31:["$","h2","h2-4",{"children":"Labels"}]
+3c:T6f1,n_colors = df_agg["animal_type"].nunique()
+colors = load_palette("CrystalGems", keep_first_n=n_colors, shuffle=3) + ["white"]
+
+max_year_value = df_agg[df_agg["outcome_year"] == 2024]["size"].sum()
+
+ncols = df_agg["outcome_year"].nunique()
+fig, axs = plt.subplots(ncols=ncols, figsize=(16, 10))
+
+for year, ax in zip(df_agg["outcome_year"].unique(), axs):
+    values = list(df_agg[df_agg["outcome_year"] == year]["size"].values)
+    values = sorted(values, reverse=True)
+    values.append(max_year_value - sum(values))
+
+    Waffle.make_waffle(
+        ax=ax,
+        rows=50,
+        columns=10,
+        values=values,
+        vertical=True,
+        colors=colors,
+    )
+
+    ax.text(x=0.1, y=-0.04, s=f"{int(year)}", fontsize=14, ha="center")
+
+label_params = dict(
+    x=1.05,
+    size=15,
+    transform=axs[ncols - 1].transAxes,
+    clip_on=False,
+)
+axs[ncols - 1].text(y=0.24, s="Cat", color=colors[0], **label_params)
+axs[ncols - 1].text(y=0.75, s="Dog", color=colors[1], **label_params)
+axs[ncols - 1].text(y=0.96, s="Rabbit", color=colors[2], **label_params)
+axs[ncols - 1].text(y=1.02, s="Guinea Pig", color=colors[3], **label_params)
+axs[ncols - 1].text(y=0.99, s="Bird", color=colors[4], **label_params)
+fig.text(
+    x=0.56,
+    y=0.38,
+    s="Reptile",
+    size=15,
+    color=colors[5],
+)
+fig.text(
+    x=0.47,
+    y=0.45,
+    s="Other",
+    size=15,
+    color=colors[6],
+)
+
+arrow_params = dict(
+    ax=axs[ncols - 1],
+    transform=axs[ncols - 1].transAxes,
+    clip_on=False,
+)
+ax_arrow([1.04, 1.03], [0.6, 1.01], color=colors[3], radius=0.5, **arrow_params)
+fig_arrow(
+    [0.57, 0.37], [0.558, 0.31], color=colors[5], radius=0.1, clip_on=False, fig=fig
+)
+fig_arrow(
+    [0.48, 0.44], [0.45, 0.38], color=colors[6], radius=-0.3, clip_on=False, fig=fig
+)
+
+plt.show()3d:T42c6,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">n_colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">].nunique()</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_palette(</span><span style="color:#032F62">"CrystalGems"</span><span style="color:#24292E">, </span><span style="color:#E36209">keep_first_n</span><span style="color:#D73A49">=</span><span style="color:#24292E">n_colors, </span><span style="color:#E36209">shuffle</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">) </span><span style="color:#D73A49">+</span><span style="color:#24292E"> [</span><span style="color:#032F62">"white"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">max_year_value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#005CC5"> 2024</span><span style="color:#24292E">][</span><span style="color:#032F62">"size"</span><span style="color:#24292E">].sum()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ncols </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">].nunique()</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#24292E">ncols, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year, ax </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">].unique(), axs):</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(df_agg[df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> year][</span><span style="color:#032F62">"size"</span><span style="color:#24292E">].values)</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> sorted</span><span style="color:#24292E">(values, </span><span style="color:#E36209">reverse</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    values.append(max_year_value </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> sum</span><span style="color:#24292E">(values))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    Waffle.make_waffle(</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">        rows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">50</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        columns</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        values</span><span style="color:#D73A49">=</span><span style="color:#24292E">values,</span></span>
+<span class="line"><span style="color:#E36209">        vertical</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.04</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{int</span><span style="color:#24292E">(year)</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">label_params </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].transAxes,</span></span>
+<span class="line"><span style="color:#E36209">    clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.24</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Cat"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Dog"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.96</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Rabbit"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">2</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.02</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Guinea Pig"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">3</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.99</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Bird"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">4</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.56</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.38</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Reptile"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">5</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.47</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.45</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Other"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">6</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">arrow_params </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].transAxes,</span></span>
+<span class="line"><span style="color:#E36209">    clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow([</span><span style="color:#005CC5">1.04</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.03</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.01</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">3</span><span style="color:#24292E">], </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#D73A49">**</span><span style="color:#24292E">arrow_params)</span></span>
+<span class="line"><span style="color:#24292E">fig_arrow(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0.57</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.37</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0.558</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.31</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">5</span><span style="color:#24292E">], </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_arrow(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0.48</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.44</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0.45</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.38</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">6</span><span style="color:#24292E">], </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>32:["$","$L2b","notebook-cell-3",{"index":3,"code":"$3c","highlighted":"$3d","interactive":true,"hasChart":true,"intro":"$L3e","output":"$L3f"}]
+33:["$","h2","h2-5",{"children":"y-scale"}]
+40:T8f8,n_colors = df_agg["animal_type"].nunique()
+colors = load_palette("CrystalGems", keep_first_n=n_colors, shuffle=3) + ["white"]
+
+max_year_value = df_agg[df_agg["outcome_year"] == 2024]["size"].sum()
+
+ncols = df_agg["outcome_year"].nunique()
+fig, axs = plt.subplots(ncols=ncols, figsize=(16, 10))
+
+# Add y scale
+y_ticks = [0, 300, 600, 900, 1200, 1500]
+for y_tick in y_ticks:
+    axs[0].text(
+        x=-0.25,
+        y=y_tick / max_year_value,
+        s=f"{y_tick}",
+        size=12,
+        va="center",
+        ha="right",
+        transform=axs[0].transAxes,
+    )
+    axs[0].axhline(
+        y=y_tick / max_year_value,
+        xmin=-0.2,
+        xmax=-0.1,
+        clip_on=False,
+        color="black",
+        linewidth=0.7,
+    )
+axs[0].axvline(x=-0.03, ymax=1.05, clip_on=False, color="black", linewidth=0.7)
+
+for year, ax in zip(df_agg["outcome_year"].unique(), axs):
+    values = list(df_agg[df_agg["outcome_year"] == year]["size"].values)
+    values = sorted(values, reverse=True)
+    values.append(max_year_value - sum(values))
+
+    Waffle.make_waffle(
+        ax=ax,
+        rows=50,
+        columns=10,
+        values=values,
+        vertical=True,
+        colors=colors,
+    )
+
+    ax.text(x=0.1, y=-0.04, s=f"{int(year)}", fontsize=14, ha="center")
+
+label_params = dict(
+    x=1.05,
+    size=15,
+    transform=axs[ncols - 1].transAxes,
+    clip_on=False,
+)
+axs[ncols - 1].text(y=0.24, s="Cat", color=colors[0], **label_params)
+axs[ncols - 1].text(y=0.75, s="Dog", color=colors[1], **label_params)
+axs[ncols - 1].text(y=0.96, s="Rabbit", color=colors[2], **label_params)
+axs[ncols - 1].text(y=1.02, s="Guinea Pig", color=colors[3], **label_params)
+axs[ncols - 1].text(y=0.99, s="Bird", color=colors[4], **label_params)
+fig.text(
+    x=0.56,
+    y=0.38,
+    s="Reptile",
+    size=15,
+    color=colors[5],
+)
+fig.text(
+    x=0.47,
+    y=0.45,
+    s="Other",
+    size=15,
+    color=colors[6],
+)
+
+arrow_params = dict(
+    ax=axs[ncols - 1],
+    transform=axs[ncols - 1].transAxes,
+    clip_on=False,
+)
+ax_arrow([1.04, 1.03], [0.6, 1.01], color=colors[3], radius=0.5, **arrow_params)
+fig_arrow(
+    [0.57, 0.37], [0.558, 0.31], color=colors[5], radius=0.1, clip_on=False, fig=fig
+)
+fig_arrow(
+    [0.48, 0.44], [0.45, 0.38], color=colors[6], radius=-0.3, clip_on=False, fig=fig
+)
+
+plt.show()41:T5636,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">n_colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">].nunique()</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_palette(</span><span style="color:#032F62">"CrystalGems"</span><span style="color:#24292E">, </span><span style="color:#E36209">keep_first_n</span><span style="color:#D73A49">=</span><span style="color:#24292E">n_colors, </span><span style="color:#E36209">shuffle</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">) </span><span style="color:#D73A49">+</span><span style="color:#24292E"> [</span><span style="color:#032F62">"white"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">max_year_value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#005CC5"> 2024</span><span style="color:#24292E">][</span><span style="color:#032F62">"size"</span><span style="color:#24292E">].sum()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ncols </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">].nunique()</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#24292E">ncols, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add y scale</span></span>
+<span class="line"><span style="color:#24292E">y_ticks </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">300</span><span style="color:#24292E">, </span><span style="color:#005CC5">600</span><span style="color:#24292E">, </span><span style="color:#005CC5">900</span><span style="color:#24292E">, </span><span style="color:#005CC5">1200</span><span style="color:#24292E">, </span><span style="color:#005CC5">1500</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> y_tick </span><span style="color:#D73A49">in</span><span style="color:#24292E"> y_ticks:</span></span>
+<span class="line"><span style="color:#24292E">    axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.25</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y_tick </span><span style="color:#D73A49">/</span><span style="color:#24292E"> max_year_value,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">y_tick</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"right"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].transAxes,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].axhline(</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y_tick </span><span style="color:#D73A49">/</span><span style="color:#24292E"> max_year_value,</span></span>
+<span class="line"><span style="color:#E36209">        xmin</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        xmax</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].axvline(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.03</span><span style="color:#24292E">, </span><span style="color:#E36209">ymax</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.05</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year, ax </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">].unique(), axs):</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(df_agg[df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> year][</span><span style="color:#032F62">"size"</span><span style="color:#24292E">].values)</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> sorted</span><span style="color:#24292E">(values, </span><span style="color:#E36209">reverse</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    values.append(max_year_value </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> sum</span><span style="color:#24292E">(values))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    Waffle.make_waffle(</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">        rows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">50</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        columns</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        values</span><span style="color:#D73A49">=</span><span style="color:#24292E">values,</span></span>
+<span class="line"><span style="color:#E36209">        vertical</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.04</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{int</span><span style="color:#24292E">(year)</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">label_params </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].transAxes,</span></span>
+<span class="line"><span style="color:#E36209">    clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.24</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Cat"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Dog"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.96</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Rabbit"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">2</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.02</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Guinea Pig"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">3</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.99</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Bird"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">4</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.56</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.38</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Reptile"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">5</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.47</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.45</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Other"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">6</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">arrow_params </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].transAxes,</span></span>
+<span class="line"><span style="color:#E36209">    clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow([</span><span style="color:#005CC5">1.04</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.03</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.01</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">3</span><span style="color:#24292E">], </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#D73A49">**</span><span style="color:#24292E">arrow_params)</span></span>
+<span class="line"><span style="color:#24292E">fig_arrow(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0.57</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.37</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0.558</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.31</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">5</span><span style="color:#24292E">], </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_arrow(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0.48</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.44</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0.45</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.38</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">6</span><span style="color:#24292E">], </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>34:["$","$L2b","notebook-cell-4",{"index":4,"code":"$40","highlighted":"$41","interactive":true,"hasChart":true,"intro":"$L42","output":"$L43"}]
+35:["$","h2","h2-6",{"children":"Title and fonts"}]
+44:Te25,lightfont = load_google_font("Roboto", weight="light")
+regularfont = load_google_font("Roboto")
+italicfont = load_google_font("Roboto", weight="bold", italic=True)
+
+n_colors = df_agg["animal_type"].nunique()
+colors = load_palette("CrystalGems", keep_first_n=n_colors, shuffle=3) + ["white"]
+
+max_year_value = df_agg[df_agg["outcome_year"] == 2024]["size"].sum()
+
+ncols = df_agg["outcome_year"].nunique()
+fig, axs = plt.subplots(ncols=ncols, figsize=(16, 10))
+
+y_ticks = [0, 300, 600, 900, 1200, 1500]
+for y_tick in y_ticks:
+    axs[0].text(
+        x=-0.25,
+        y=y_tick / max_year_value,
+        s=f"{y_tick}",
+        size=12,
+        va="center",
+        ha="right",
+        transform=axs[0].transAxes,
+        font=lightfont,
+    )
+    axs[0].axhline(
+        y=y_tick / max_year_value,
+        xmin=-0.2,
+        xmax=-0.1,
+        clip_on=False,
+        color="black",
+        linewidth=0.7,
+    )
+axs[0].axvline(x=-0.03, ymax=1.05, clip_on=False, color="black", linewidth=0.7)
+
+
+for year, ax in zip(df_agg["outcome_year"].unique(), axs):
+    values = list(df_agg[df_agg["outcome_year"] == year]["size"].values)
+    values = sorted(values, reverse=True)
+    values.append(max_year_value - sum(values))
+
+    Waffle.make_waffle(
+        ax=ax,
+        rows=50,
+        columns=10,
+        values=values,
+        vertical=True,
+        colors=colors,
+    )
+
+    ax.text(x=0.1, y=-0.04, s=f"{int(year)}", fontsize=14, ha="center", font=lightfont)
+    adj_y = 0.03
+    ax.text(
+        x=0.03,
+        y=sum(values[:-1]) / max_year_value + adj_y,
+        s=f"{sum(values[:-1])}",
+        fontsize=15,
+        ha="center",
+        font=italicfont,
+    )
+
+label_params = dict(
+    x=1.05,
+    size=15,
+    transform=axs[ncols - 1].transAxes,
+    font=regularfont,
+    clip_on=False,
+)
+axs[ncols - 1].text(y=0.24, s="Cat", color=colors[0], **label_params)
+axs[ncols - 1].text(y=0.75, s="Dog", color=colors[1], **label_params)
+axs[ncols - 1].text(y=0.96, s="Rabbit", color=colors[2], **label_params)
+axs[ncols - 1].text(y=1.02, s="Guinea Pig", color=colors[3], **label_params)
+axs[ncols - 1].text(y=0.99, s="Bird", color=colors[4], **label_params)
+fig.text(
+    x=0.56,
+    y=0.38,
+    s="Reptile",
+    size=15,
+    font=regularfont,
+    color=colors[5],
+)
+fig.text(
+    x=0.47,
+    y=0.45,
+    s="Other",
+    size=15,
+    font=regularfont,
+    color=colors[6],
+)
+
+arrow_params = dict(
+    ax=axs[ncols - 1],
+    transform=axs[ncols - 1].transAxes,
+    clip_on=False,
+)
+ax_arrow([1.04, 1.03], [0.6, 1.01], color=colors[3], radius=0.5, **arrow_params)
+fig_arrow(
+    [0.57, 0.37], [0.558, 0.31], color=colors[5], radius=0.1, clip_on=False, fig=fig
+)
+fig_arrow(
+    [0.48, 0.44], [0.45, 0.38], color=colors[6], radius=-0.3, clip_on=False, fig=fig
+)
+
+title = """
+Number of animals adopted at the\nLong Beach animal shelter
+"""
+fig.text(x=0.14, y=0.9, s=title, size=30, font=lightfont, va="top")
+
+share_catdog = df_agg[df_agg["iscatordog"]]["size"].sum() / df_agg["size"].sum() * 100
+subtitle = f"""
+<Dogs> and <Cats> represent {share_catdog:.0f}% of all adoptions during the period
+"""
+fig_text(
+    x=0.14,
+    y=0.75,
+    s=subtitle,
+    size=18,
+    font=lightfont,
+    color="#afafaf",
+    va="top",
+    highlight_textprops=[{"color": colors[1]}, {"color": colors[0]}],
+)
+
+source_params = dict(ha="right", font=lightfont, color="#9a9a9a", size=10)
+fig.text(x=0.9, y=0.04, s="TidyTuesday - 2025-03-04", **source_params)
+fig.text(x=0.9, y=0.02, s="Viz: Joseph Barbier", **source_params)
+
+fig.savefig(
+    "../../static/graph/web-waffle-chart-with-groups-evolution.png",
+    dpi=300,
+    bbox_inches="tight",
+)
+
+plt.show()45:T80bd,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">lightfont </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Roboto"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"light"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">regularfont </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Roboto"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">italicfont </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Roboto"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">, </span><span style="color:#E36209">italic</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">n_colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"animal_type"</span><span style="color:#24292E">].nunique()</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_palette(</span><span style="color:#032F62">"CrystalGems"</span><span style="color:#24292E">, </span><span style="color:#E36209">keep_first_n</span><span style="color:#D73A49">=</span><span style="color:#24292E">n_colors, </span><span style="color:#E36209">shuffle</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">) </span><span style="color:#D73A49">+</span><span style="color:#24292E"> [</span><span style="color:#032F62">"white"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">max_year_value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#005CC5"> 2024</span><span style="color:#24292E">][</span><span style="color:#032F62">"size"</span><span style="color:#24292E">].sum()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ncols </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">].nunique()</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#24292E">ncols, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">y_ticks </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">300</span><span style="color:#24292E">, </span><span style="color:#005CC5">600</span><span style="color:#24292E">, </span><span style="color:#005CC5">900</span><span style="color:#24292E">, </span><span style="color:#005CC5">1200</span><span style="color:#24292E">, </span><span style="color:#005CC5">1500</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> y_tick </span><span style="color:#D73A49">in</span><span style="color:#24292E"> y_ticks:</span></span>
+<span class="line"><span style="color:#24292E">    axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.25</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y_tick </span><span style="color:#D73A49">/</span><span style="color:#24292E"> max_year_value,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">y_tick</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"right"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].transAxes,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">lightfont,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].axhline(</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y_tick </span><span style="color:#D73A49">/</span><span style="color:#24292E"> max_year_value,</span></span>
+<span class="line"><span style="color:#E36209">        xmin</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        xmax</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].axvline(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.03</span><span style="color:#24292E">, </span><span style="color:#E36209">ymax</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.05</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year, ax </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">].unique(), axs):</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(df_agg[df_agg[</span><span style="color:#032F62">"outcome_year"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> year][</span><span style="color:#032F62">"size"</span><span style="color:#24292E">].values)</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> sorted</span><span style="color:#24292E">(values, </span><span style="color:#E36209">reverse</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    values.append(max_year_value </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> sum</span><span style="color:#24292E">(values))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    Waffle.make_waffle(</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">        rows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">50</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        columns</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        values</span><span style="color:#D73A49">=</span><span style="color:#24292E">values,</span></span>
+<span class="line"><span style="color:#E36209">        vertical</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.04</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{int</span><span style="color:#24292E">(year)</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">font</span><span style="color:#D73A49">=</span><span style="color:#24292E">lightfont)</span></span>
+<span class="line"><span style="color:#24292E">    adj_y </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0.03</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.03</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">sum</span><span style="color:#24292E">(values[:</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">]) </span><span style="color:#D73A49">/</span><span style="color:#24292E"> max_year_value </span><span style="color:#D73A49">+</span><span style="color:#24292E"> adj_y,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{sum</span><span style="color:#24292E">(values[:</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">])</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">italicfont,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">label_params </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].transAxes,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">regularfont,</span></span>
+<span class="line"><span style="color:#E36209">    clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.24</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Cat"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Dog"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.96</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Rabbit"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">2</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.02</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Guinea Pig"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">3</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].text(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.99</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Bird"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">4</span><span style="color:#24292E">], </span><span style="color:#D73A49">**</span><span style="color:#24292E">label_params)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.56</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.38</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Reptile"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">regularfont,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">5</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.47</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.45</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Other"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">regularfont,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">6</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">arrow_params </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[ncols </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">].transAxes,</span></span>
+<span class="line"><span style="color:#E36209">    clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow([</span><span style="color:#005CC5">1.04</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.03</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.01</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">3</span><span style="color:#24292E">], </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#D73A49">**</span><span style="color:#24292E">arrow_params)</span></span>
+<span class="line"><span style="color:#24292E">fig_arrow(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0.57</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.37</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0.558</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.31</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">5</span><span style="color:#24292E">], </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_arrow(</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">0.48</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.44</span><span style="color:#24292E">], [</span><span style="color:#005CC5">0.45</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.38</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">6</span><span style="color:#24292E">], </span><span style="color:#E36209">radius</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#E36209">fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">title </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">Number of animals adopted at the</span><span style="color:#005CC5">\n</span><span style="color:#032F62">Long Beach animal shelter</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.14</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.9</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#24292E">title, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#E36209">font</span><span style="color:#D73A49">=</span><span style="color:#24292E">lightfont, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">share_catdog </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df_agg[df_agg[</span><span style="color:#032F62">"iscatordog"</span><span style="color:#24292E">]][</span><span style="color:#032F62">"size"</span><span style="color:#24292E">].sum() </span><span style="color:#D73A49">/</span><span style="color:#24292E"> df_agg[</span><span style="color:#032F62">"size"</span><span style="color:#24292E">].sum() </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 100</span></span>
+<span class="line"><span style="color:#24292E">subtitle </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Dogs> and &#x3C;Cats> represent </span><span style="color:#005CC5">{</span><span style="color:#24292E">share_catdog</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">% of all adoptions during the period</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.14</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.75</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">subtitle,</span></span>
+<span class="line"><span style="color:#E36209">    size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">18</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">lightfont,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#afafaf"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]}, {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]}],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">source_params </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"right"</span><span style="color:#24292E">, </span><span style="color:#E36209">font</span><span style="color:#D73A49">=</span><span style="color:#24292E">lightfont, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#9a9a9a"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.9</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.04</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"TidyTuesday - 2025-03-04"</span><span style="color:#24292E">, </span><span style="color:#D73A49">**</span><span style="color:#24292E">source_params)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.9</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Viz: Joseph Barbier"</span><span style="color:#24292E">, </span><span style="color:#D73A49">**</span><span style="color:#24292E">source_params)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.savefig(</span></span>
+<span class="line"><span style="color:#032F62">    "../../static/graph/web-waffle-chart-with-groups-evolution.png"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">"tight"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>36:["$","$L2b","notebook-cell-5",{"index":5,"code":"$44","highlighted":"$45","interactive":true,"hasChart":true,"intro":"$L46","output":"$L47"}]
+37:["$","h2","h2-7",{"children":"Going further"}]
+38:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":["$","a","a-0",{"href":"/web-waffle-chart-for-time-series","children":"Another waffle chart for a time series"}]}],"\n",["$","li","li-1",{"children":["$","a","a-0",{"href":"/web-waffle-chart-as-share","children":"A waffle chart to represent shares"}]}],"\n",["$","li","li-2",{"children":["$","a","a-0",{"href":"/waffle-chart","children":"Learn more about pywaffle"}]}],"\n"]}]
+3a:[["$","p","p-0",{"children":"The core of the chart is to create a Figure with 8 Axes (one for each year)."}],["$","p","p-1",{"children":"Then, we iterate each of those Axes and add the waffle chart for this year."}],["$","p","p-2",{"children":["The main trick here is to get the total value with the year with highest sum (",["$","code","code-0",{"children":"max_year_value"}],"), and use it to fill all other years with white squares to ensure waffle charts have different sizes. Otherwise they'll have the same size and don't really make sense."]}]]
+3b:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-waffle-chart-with-groups-evolution/output-2.png","alt":"Waffle chart in time series","width":1260,"height":824,"loading":"lazy","decoding":"async"}]}]]
+3e:[["$","p","p-0",{"children":["All labels are added using the ",["$","code","code-0",{"children":"text()"}]," function, with trials and errors to find the perfect location. We also use the associate colors to serve as a legend."]}],["$","p","p-1",{"children":["The process is pretty much the same for arrows, but using ",["$","code","code-0",{"children":"ax_arrow()"}],"/",["$","code","code-1",{"children":"fig_arrow()"}],"."]}]]
+3f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-waffle-chart-with-groups-evolution/output-3.png","alt":"Waffle chart in time series","width":1378,"height":856,"loading":"lazy","decoding":"async"}]}]]
+42:[["$","p","p-0",{"children":["Due to the way ",["$","code","code-0",{"children":"PyWaffle"}]," works, we have to create the yscale line ourselves."]}],["$","p","p-1",{"children":["We use the ",["$","code","code-0",{"children":"text()"}]," function for labels, and ",["$","code","code-1",{"children":"axhline()"}]," ",["$","code","code-2",{"children":"avhline()"}]," for the lines."]}]]
+43:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-waffle-chart-with-groups-evolution/output-4.png","alt":"Waffle chart in time series","width":1453,"height":856,"loading":"lazy","decoding":"async"}]}]]
+46:[["$","p","p-0",{"children":["We use 3 variations of the Roboto font here, depending on the labels. We load them using ",["$","code","code-0",{"children":"load_google_font()"}],"."]}],["$","p","p-1",{"children":["The title/subtitle and the captions are added via ",["$","code","code-0",{"children":"text()"}],"."]}]]
+47:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-waffle-chart-with-groups-evolution/output-5.png","alt":"Waffle chart in time series","width":1436,"height":921,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

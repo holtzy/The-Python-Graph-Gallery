@@ -1,0 +1,1657 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Multiple choropleth maps"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Choropleth150.webp","alt":"logo of a chart:Choropleth","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>We will create a multiple <a href='/choropleth-map'>choropleth maps</a> with a <a href='/lollipop-plot'>lollipop plot</a> for the legend, using the <a href='/matplotlib'>Matplotlib</a> library to visualize data about happiness in Europe. The final chart contains nice annotations and cool color styling.<br><br>This post is a step-by-step guide on how to create it and provides <b>reproducible code</b>.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/choropleth-map/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Choropleth section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/choropleth.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-multiple-maps","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Multiple choropleth maps"}],["$","meta","1",{"name":"description","content":"How to create a chart with multiple choropleth maps and a lollipop plot for the legend in a single figure."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"maps, choropleth, matplotlib, color, plot, chart, background, lollipop"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-multiple-maps/"}],["$","meta","6",{"property":"og:title","content":"Multiple choropleth maps"}],["$","meta","7",{"property":"og:description","content":"How to create a chart with multiple choropleth maps and a lollipop plot for the legend in a single figure."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Multiple choropleth maps"}],["$","meta","13",{"name":"twitter:description","content":"How to create a chart with multiple choropleth maps and a lollipop plot for the legend in a single figure."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+27:I[44110,["$3","$4","$5","$6","$d"],"default"]
+28:I[59351,["$3","$4","$5","$6","$d"],"default"]
+29:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T61e,def create_gradient_colormap(colors):
+    """
+    Based on 2 color input, create a colormap of it.
+    """
+    cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+    return cmap
+
+
+def plot_map_on_ax(column, ax, cmap):
+    """
+    Add a map on a given axis.
+    """
+    data.plot(
+        column=column,
+        cmap=cmap,
+        edgecolor='black', linewidth=0.4,
+        ax=ax
+    )
+    ax.set_xlim(-13.8, 40)
+    ax.set_ylim(32, 72)
+    ax.axis('off')
+
+
+# colors for the chart
+colors = {
+    'share_Generosity': ['#c9ada7', '#4a4e69'],
+    'share_Perceptions of corruption': ['#fcbf49', '#d62828'],
+    'share_Freedom to make life choices': ['#90e0ef', '#0077b6'],
+    'share_Social support': ['#80ed99', '#38a3a5'],
+}
+background_col = '#22333b'
+
+# initialize the figure
+fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8, 10))
+axs = axs.flatten()
+
+# set background color
+fig.set_facecolor(background_col)
+axs[1].set_facecolor(background_col)
+
+# list that we use to display maps,
+# with empty values for 2 first axes
+columns = [
+    '', '',
+    'share_Generosity',
+    'share_Perceptions of corruption',
+    'share_Freedom to make life choices',
+    'share_Social support'
+]
+for i, (ax, column) in enumerate(zip(axs, columns)):
+
+    # skip first two axes (on top of the maps)
+    if i in [0, 1]:
+        continue
+
+    # create a colormap based on colors
+    cmap = create_gradient_colormap(colors[column])
+
+    # add map on the current axe
+    plot_map_on_ax(column=column, ax=ax, cmap=cmap)
+
+# display chart
+plt.tight_layout()
+plt.show()23:T9cd,def create_gradient_colormap(colors):
+    """
+    Based on 2 color input, create a colormap of it.
+    """
+    cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+    return cmap
+
+
+def plot_map_on_ax(column, ax, cmap):
+    """
+    Add a map on a given axis.
+    """
+    data.plot(
+        column=column,
+        cmap=cmap,
+        edgecolor='black', linewidth=0.4,
+        ax=ax
+    )
+    ax.set_xlim(-13.8, 40)
+    ax.set_ylim(32, 72)
+    ax.axis('off')
+
+
+# colors for the chart
+colors = {
+    'share_Generosity': ['#c9ada7', '#4a4e69'],
+    'share_Perceptions of corruption': ['#fcbf49', '#d62828'],
+    'share_Freedom to make life choices': ['#90e0ef', '#0077b6'],
+    'share_Social support': ['#80ed99', '#38a3a5'],
+}
+background_col = '#22333b'
+
+# initialize the figure
+fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8, 10))
+axs = axs.flatten()
+
+# set background color
+fig.set_facecolor(background_col)
+axs[1].set_facecolor(background_col)
+
+# list that we use to display maps,
+# with empty values for 2 first axes
+columns = [
+    '', '',
+    'share_Generosity',
+    'share_Perceptions of corruption',
+    'share_Freedom to make life choices',
+    'share_Social support'
+]
+for i, (ax, column) in enumerate(zip(axs, columns)):
+
+    # skip first two axes (on top of the maps)
+    if i in [0, 1]:
+        continue
+
+    # create a colormap based on colors
+    cmap = create_gradient_colormap(colors[column])
+
+    # add map on the current axe
+    plot_map_on_ax(column=column, ax=ax, cmap=cmap)
+
+# Lollipop plot
+min_max_df = data[columns[2:]].agg(['min', 'max']).T
+for i, col in enumerate(columns[2:]):
+
+    # colors
+    min_color = colors[col][0]
+    max_color = colors[col][1]
+
+    # filter on current column
+    subset = min_max_df.iloc[i].T
+
+    # add data points of lollipop
+    axs[1].scatter(subset['min'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=min_color)
+    axs[1].scatter(subset['max'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=max_color)
+
+# horizontal lines of lollipop
+axs[1].hlines(
+    y=range(4),
+    xmin=min_max_df['min'], xmax=min_max_df['max'],
+    color='white', linewidth=0.8, zorder=1
+)
+
+# custom lollipop axis features
+axs[1].spines[['right', 'top', 'left']].set_visible(False)
+axs[1].set_xticks([0, 10, 20, 30, 40])
+axs[1].spines['bottom'].set_color('white')
+axs[1].tick_params(axis='x', colors='white')
+axs[1].set_yticks([])
+axs[1].set_ylim(-1, 6)
+axs[1].set_xlim(-3, 33)
+
+# display chart
+plt.tight_layout()
+plt.show()24:Tcf5,def create_gradient_colormap(colors):
+    """
+    Based on 2 color input, create a colormap of it.
+    """
+    cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+    return cmap
+
+def plot_map_on_ax(column, ax, cmap):
+    """
+    Add a map on a given axis.
+    """
+    data.plot(
+        column=column,
+        cmap=cmap,
+        edgecolor='black', linewidth=0.4,
+        ax=ax
+    )
+    ax.set_xlim(-13.8, 40)
+    ax.set_ylim(32, 72)
+    ax.axis('off')
+
+# colors for the chart
+colors = {
+    'share_Generosity': ['#c9ada7', '#4a4e69'],
+    'share_Perceptions of corruption': ['#fcbf49', '#d62828'],
+    'share_Freedom to make life choices': ['#90e0ef', '#0077b6'],
+    'share_Social support': ['#80ed99', '#38a3a5'],
+}
+background_col = '#22333b'
+
+# initialize the figure
+fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8, 10))
+axs = axs.flatten()
+
+# set background color
+fig.set_facecolor(background_col)
+axs[1].set_facecolor(background_col)
+
+# list that we use to display maps,
+# with empty values for 2 first axes
+columns = [
+    '', '',
+    'share_Generosity',
+    'share_Perceptions of corruption',
+    'share_Freedom to make life choices',
+    'share_Social support'
+]
+for i, (ax, column) in enumerate(zip(axs, columns)):
+
+    # skip first two axes (on top of the maps)
+    if i in [0, 1]:
+        continue
+
+    # create a colormap based on colors
+    cmap = create_gradient_colormap(colors[column])
+
+    # add map on the current axe
+    plot_map_on_ax(column=column, ax=ax, cmap=cmap)
+
+# Lollipop plot
+min_max_df = data[columns[2:]].agg(['min', 'max']).T
+for i, col in enumerate(columns[2:]):
+
+    # colors
+    min_color = colors[col][0]
+    max_color = colors[col][1]
+
+    # filter on current column
+    subset = min_max_df.iloc[i].T
+
+    # add data points of lollipop
+    axs[1].scatter(subset['min'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=min_color)
+    axs[1].scatter(subset['max'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=max_color)
+
+# horizontal lines of lollipop
+axs[1].hlines(
+    y=range(4),
+    xmin=min_max_df['min'], xmax=min_max_df['max'],
+    color='white', linewidth=0.8, zorder=1
+)
+
+# custom lollipop axis features
+axs[1].spines[['right', 'top', 'left']].set_visible(False)
+axs[1].set_xticks([0, 10, 20, 30, 40])
+axs[1].spines['bottom'].set_color('white')
+axs[1].tick_params(axis='x', colors='white')
+axs[1].set_yticks([])
+axs[1].set_ylim(-1, 6)
+axs[1].set_xlim(-3, 33)
+
+# remove top left axis
+axs[0].set_axis_off()
+
+# title and credit
+text = """
+<What determines happiness>
+<in Europe? Well, it depends>
+
+
+<Share, in %, of happiness explained by different>
+<factors across Europe. For each country, the>
+<darker the color is, the more the factor explains>
+<happiness in this country.>
+"""
+ax_text(
+    -0.02, 0.6,
+    text,
+    ha='left', va='center',
+    fontsize=15,
+    color='black',
+    highlight_textprops=[
+        {'fontweight': 'bold',
+         'color': 'white'},
+        {'fontweight': 'bold',
+         'color': 'white'},
+
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11}
+    ],
+    ax=axs[0]
+)
+
+# display chart
+plt.tight_layout()
+plt.show()25:T15cf,def create_gradient_colormap(colors):
+    """
+    Based on 2 color input, create a colormap of it.
+    """
+    cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+    return cmap
+
+def draw_arrow(tail_position, head_position, fig, invert=False):
+    """
+    Draw a curve arrow at given tail/head position, on a figure.
+    """
+    kw = dict(
+        arrowstyle="Simple, tail_width=0.5, head_width=4, head_length=8", color="white")
+    if invert:
+        connectionstyle = "arc3,rad=-.5"
+    else:
+        connectionstyle = "arc3,rad=.5"
+    a = FancyArrowPatch(tail_position, head_position,
+                        connectionstyle=connectionstyle,
+                        transform=fig.transFigure,
+                        **kw)
+    fig.patches.append(a)
+
+def plot_map_on_ax(column, ax, cmap):
+    """
+    Add a map on a given axis.
+    """
+    data.plot(
+        column=column,
+        cmap=cmap,
+        edgecolor='black', linewidth=0.4,
+        ax=ax
+    )
+    ax.set_xlim(-13.8, 40)
+    ax.set_ylim(32, 72)
+    ax.axis('off')
+
+def path_effect_stroke(**kwargs):
+    return [path_effects.Stroke(**kwargs), path_effects.Normal()]
+pe = path_effect_stroke(linewidth=1, foreground="black")
+
+# colors for the chart
+colors = {
+    'share_Generosity': ['#c9ada7', '#4a4e69'],
+    'share_Perceptions of corruption': ['#fcbf49', '#d62828'],
+    'share_Freedom to make life choices': ['#90e0ef', '#0077b6'],
+    'share_Social support': ['#80ed99', '#38a3a5'],
+}
+background_col = '#22333b'
+
+# initialize the figure
+fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8, 10))
+axs = axs.flatten()
+
+# set background color
+fig.set_facecolor(background_col)
+axs[1].set_facecolor(background_col)
+
+# list that we use to display maps,
+# with empty values for 2 first axes
+columns = [
+    '', '',
+    'share_Generosity',
+    'share_Perceptions of corruption',
+    'share_Freedom to make life choices',
+    'share_Social support'
+]
+
+# annotation positions on the lollipop
+annotations_pos = [
+    '', '',
+    [8, 0],
+    [9, 1],
+    [15, 2],
+    [3, 3]
+]
+
+# iterate over of the 6 axes AND column names
+for i, (ax, column) in enumerate(zip(axs, columns)):
+
+    # skip first two axes (on top of the maps)
+    if i in [0, 1]:
+        continue
+
+    # create a colormap based on colors
+    cmap = create_gradient_colormap(colors[column])
+
+    # add map on the current axe
+    plot_map_on_ax(column=column, ax=ax, cmap=cmap)
+
+    # annotations below each map
+    ax_text(
+        -15, 33, # fixed position for each map
+        '<'+column[6:]+'>',
+        ha='left', va='center',
+        fontsize=9, fontweight='bold',
+        color=cmap(0.5),
+        highlight_textprops=[
+            {"path_effects": pe}
+        ], ax=ax
+    )
+
+    # annotations on lollipop
+    x, y = annotations_pos[i]
+    ax_text(
+        x, y,
+        '<'+column[6:]+'>',
+        ha='left', va='center',
+        fontweight='bold',
+        fontsize=10,
+        color=cmap(0.5),
+        highlight_textprops=[
+            {"path_effects": pe}
+        ], ax=axs[1]
+    )
+
+# Lollipop plot
+min_max_df = data[columns[2:]].agg(['min', 'max']).T
+for i, col in enumerate(columns[2:]):
+
+    # colors
+    min_color = colors[col][0]
+    max_color = colors[col][1]
+
+    # filter on current column
+    subset = min_max_df.iloc[i].T
+
+    # add data points of lollipop
+    axs[1].scatter(subset['min'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=min_color)
+    axs[1].scatter(subset['max'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=max_color)
+
+# horizontal lines of lollipop
+axs[1].hlines(
+    y=range(4),
+    xmin=min_max_df['min'], xmax=min_max_df['max'],
+    color='white', linewidth=0.8, zorder=1
+)
+
+# custom lollipop axis features
+axs[1].spines[['right', 'top', 'left']].set_visible(False)
+axs[1].set_xticks([0, 10, 20, 30, 40])
+axs[1].spines['bottom'].set_color('white')
+axs[1].tick_params(axis='x', colors='white')
+axs[1].set_yticks([])
+axs[1].set_ylim(-1, 6)
+axs[1].set_xlim(-3, 33)
+
+# remove top left axis
+axs[0].set_axis_off()
+
+# title and credit
+text = """
+<What determines happiness>
+<in Europe? Well, it depends>
+
+
+<Share, in %, of happiness explained by different>
+<factors across Europe. For each country, the>
+<darker the color is, the more the factor explains>
+<happiness in this country.>
+"""
+ax_text(
+    -0.02, 0.6,
+    text,
+    ha='left', va='center',
+    fontsize=15,
+    color='black',
+    highlight_textprops=[
+        {'fontweight': 'bold',
+         'color': 'white'},
+        {'fontweight': 'bold',
+         'color': 'white'},
+
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11}
+    ],
+    ax=axs[0]
+)
+
+# credit
+text = """
+<Design:> Joseph Barbier
+<Data:> World Happiness Report 2024
+"""
+ax_text(
+    -17.6, 25, text,
+    ha='left', va='center',
+    fontsize=6, color='white',
+    highlight_textprops=[
+        {'fontweight': 'bold'},
+        {'fontweight': 'bold'},
+    ], ax=axs[4]
+)
+
+# reduce size and change position of lollipop axe
+axs[1].set_position([0.56, 0.68, 0.2, 0.1])
+
+# legend arrows
+draw_arrow((0.7, 0.92), (0.76, 0.87), fig=fig, invert=True)
+draw_arrow((0.82, 0.92), (0.862, 0.87), fig=fig, invert=True)
+ax_text(
+    6, 4.7, 'Minimum',
+    fontsize=8, color='white',
+    ax=axs[1]
+)
+ax_text(
+    16.7, 4.8, 'Maximum',
+    fontsize=8, color='white',
+    ax=axs[1]
+)
+
+plt.tight_layout()
+fig.savefig('../../static/graph/web-multiple-maps.png', dpi=300, bbox_inches='tight')
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["# data\nimport pandas as pd\nimport geopandas as gpd\n\n# plotting\nimport matplotlib.pyplot as plt\nfrom matplotlib.colors import LinearSegmentedColormap\n\n# annotations\nimport matplotlib.patches as patches\nfrom matplotlib.patches import FancyArrowPatch\nfrom highlight_text import ax_text, fig_text\nimport matplotlib.patheffects as path_effects","# Open the dataset from Github\nurl = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/WHRreport2024.csv\"\ndf = pd.read_csv(url)\n\n# open and merge with geo data\nworld = gpd.read_file(\n    \"../../static/data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp\"\n)\neurope = world[world['CONTINENT'] == 'Europe']\ndata = europe.merge(\n    df, how='left',\n    left_on='NAME',\n    right_on='Country name'\n)\ndata = data[['geometry']+df.columns.to_list()]\ndata.dropna(inplace=True)\ndata.head(3)","def plot_map_on_ax(column, ax):\n    \"\"\"\n    Add a map on a given axis\n    \"\"\"\n    data.plot(\n        column=column,\n        edgecolor='black', linewidth=0.4,\n        ax=ax\n    )\n    ax.set_xlim(-13.8, 40)\n    ax.set_ylim(32, 72)\n    ax.axis('off')\n\n\n# initialize the figure\nfig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8, 10))\naxs = axs.flatten()\n\n# list that we use to display maps,\n# with empty values for 2 first axes\ncolumns = [\n    '', '',\n    'share_Generosity',\n    'share_Perceptions of corruption',\n    'share_Freedom to make life choices',\n    'share_Social support'\n]\nfor i, (ax, column) in enumerate(zip(axs, columns)):\n\n    # skip first two axes (on top of the maps)\n    if i in [0, 1]:\n        continue\n\n    # add map on the current axe\n    plot_map_on_ax(column=column, ax=ax)\n\n# display chart\nplt.tight_layout()\nplt.show()","$22","$23","$24","$25"],"children":"$L26"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","map",{"href":"/map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Map150.webp","alt":"logo of a chart:Map","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Map"}]]}],["$","$Le","choropleth",{"href":"/choropleth-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Choropleth150.webp","alt":"logo of a chart:Choropleth","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Choropleth"}]]}],["$","$Le","hexbin",{"href":"/hexbin-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/MapHexbin150.webp","alt":"logo of a chart:MapHexbin","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Hexbin"}]]}],["$","$Le","cartogram",{"href":"/cartogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Cartogram150.webp","alt":"logo of a chart:Cartogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Cartogram"}]]}],["$","$Le","connection",{"href":"/connection-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ConnectedMap150.webp","alt":"logo of a chart:ConnectedMap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Connection"}]]}],["$","$Le","bubbleMap",{"href":"/bubble-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/BubbleMap150.webp","alt":"logo of a chart:BubbleMap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Bubble"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L27",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L28",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L29",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@2a"}]}]
+20:true
+2b:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2c:T7d9,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># data</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> geopandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> gpd</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># plotting</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.colors </span><span style="color:#D73A49">import</span><span style="color:#24292E"> LinearSegmentedColormap</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># annotations</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">as</span><span style="color:#24292E"> patches</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">import</span><span style="color:#24292E"> FancyArrowPatch</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> ax_text, fig_text</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.patheffects </span><span style="color:#D73A49">as</span><span style="color:#24292E"> path_effects</span></span></code></pre>26:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This plot is a ",["$","strong","strong-0",{"children":"combination"}]," of multiple ",["$","a","a-0",{"href":"/choropleth-map","children":"choropleth maps"}],", with a ",["$","a","a-1",{"href":"/lollipop-plot","children":"lollipop plot"}]," as a legend. It shows the share of explained happiness of different factors across Europe."]}],"\n",["$","p","p-1",{"children":["The chart was made by ",["$","a","a-0",{"href":"https://www.barbierjoseph.com/","children":"Joseph B"}],". Thanks to him for accepting sharing his work here!"]}],"\n",["$","p","p-2",{"children":"Let's see what the final picture will look like:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-multiple-maps.png?raw=true","alt":"preview","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-4",{"children":"First, you need to load a whole bunch of libraries:"}],"\n",["$","$L2b","notebook-cell-0",{"index":0,"code":"# data\nimport pandas as pd\nimport geopandas as gpd\n\n# plotting\nimport matplotlib.pyplot as plt\nfrom matplotlib.colors import LinearSegmentedColormap\n\n# annotations\nimport matplotlib.patches as patches\nfrom matplotlib.patches import FancyArrowPatch\nfrom highlight_text import ax_text, fig_text\nimport matplotlib.patheffects as path_effects","highlighted":"$2c","interactive":false,"hasChart":false}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","$L33","\n","$L34","$L35","\n","$L36","$L37","\n","$L38","$L39","\n","$L3a","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f"]
+2a:null
+b:C
+2d:["$","h2","h2-2",{"children":"Dataset"}]
+2e:["$","p","p-5",{"children":["For this reproduction, we're going to retrieve the data directly from the gallery's Github repo. This means we just need to ",["$","strong","strong-0",{"children":"give the right url as an argument"}]," to pandas' ",["$","code","code-0",{"children":"read_csv()"}]," function to retrieve the data."]}]
+2f:["$","p","p-6",{"children":["The dataset contains ",["$","strong","strong-0",{"children":"one row per country"}]," and its associated value. The dataset has been transformed a bit, but you can find the original data ",["$","a","a-0",{"href":"https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2024","children":"here"}],"."]}]
+30:["$","p","p-7",{"children":["Note: the ",["$","code","code-0",{"children":"geometry"}]," column is used to create the shape of the countries on the map."]}]
+40:Tb4e,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Open the dataset from Github</span></span>
+<span class="line"><span style="color:#24292E">url </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/WHRreport2024.csv"</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(url)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># open and merge with geo data</span></span>
+<span class="line"><span style="color:#24292E">world </span><span style="color:#D73A49">=</span><span style="color:#24292E"> gpd.read_file(</span></span>
+<span class="line"><span style="color:#032F62">    "../../static/data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">europe </span><span style="color:#D73A49">=</span><span style="color:#24292E"> world[world[</span><span style="color:#032F62">'CONTINENT'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Europe'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> europe.merge(</span></span>
+<span class="line"><span style="color:#24292E">    df, </span><span style="color:#E36209">how</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    left_on</span><span style="color:#D73A49">=</span><span style="color:#032F62">'NAME'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    right_on</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Country name'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[[</span><span style="color:#032F62">'geometry'</span><span style="color:#24292E">]</span><span style="color:#D73A49">+</span><span style="color:#24292E">df.columns.to_list()]</span></span>
+<span class="line"><span style="color:#24292E">data.dropna(</span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">data.head(</span><span style="color:#005CC5">3</span><span style="color:#24292E">)</span></span></code></pre>31:["$","$L2b","notebook-cell-1",{"index":1,"code":"# Open the dataset from Github\nurl = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/WHRreport2024.csv\"\ndf = pd.read_csv(url)\n\n# open and merge with geo data\nworld = gpd.read_file(\n    \"../../static/data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp\"\n)\neurope = world[world['CONTINENT'] == 'Europe']\ndata = europe.merge(\n    df, how='left',\n    left_on='NAME',\n    right_on='Country name'\n)\ndata = data[['geometry']+df.columns.to_list()]\ndata.dropna(inplace=True)\ndata.head(3)","highlighted":"$40","interactive":false,"hasChart":false,"output":"$L41"}]
+32:["$","h2","h2-3",{"children":"Initiate the maps"}]
+42:T15c3,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> plot_map_on_ax</span><span style="color:#24292E">(column, ax):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Add a map on a given axis</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    data.plot(</span></span>
+<span class="line"><span style="color:#E36209">        column</span><span style="color:#D73A49">=</span><span style="color:#24292E">column,</span></span>
+<span class="line"><span style="color:#E36209">        edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">13.8</span><span style="color:#24292E">, </span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">72</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> axs.flatten()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># list that we use to display maps,</span></span>
+<span class="line"><span style="color:#6A737D"># with empty values for 2 first axes</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    ''</span><span style="color:#24292E">, </span><span style="color:#032F62">''</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Generosity'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Perceptions of corruption'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Freedom to make life choices'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Social support'</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (ax, column) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(axs, columns)):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # skip first two axes (on top of the maps)</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">]:</span></span>
+<span class="line"><span style="color:#D73A49">        continue</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add map on the current axe</span></span>
+<span class="line"><span style="color:#24292E">    plot_map_on_ax(</span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#24292E">column, </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display chart</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>33:["$","$L2b","notebook-cell-2",{"index":2,"code":"def plot_map_on_ax(column, ax):\n    \"\"\"\n    Add a map on a given axis\n    \"\"\"\n    data.plot(\n        column=column,\n        edgecolor='black', linewidth=0.4,\n        ax=ax\n    )\n    ax.set_xlim(-13.8, 40)\n    ax.set_ylim(32, 72)\n    ax.axis('off')\n\n\n# initialize the figure\nfig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8, 10))\naxs = axs.flatten()\n\n# list that we use to display maps,\n# with empty values for 2 first axes\ncolumns = [\n    '', '',\n    'share_Generosity',\n    'share_Perceptions of corruption',\n    'share_Freedom to make life choices',\n    'share_Social support'\n]\nfor i, (ax, column) in enumerate(zip(axs, columns)):\n\n    # skip first two axes (on top of the maps)\n    if i in [0, 1]:\n        continue\n\n    # add map on the current axe\n    plot_map_on_ax(column=column, ax=ax)\n\n# display chart\nplt.tight_layout()\nplt.show()","highlighted":"$42","interactive":false,"hasChart":true,"intro":"$L43","output":"$L44"}]
+34:["$","h2","h2-4",{"children":"Custom colors"}]
+45:T61e,def create_gradient_colormap(colors):
+    """
+    Based on 2 color input, create a colormap of it.
+    """
+    cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+    return cmap
+
+
+def plot_map_on_ax(column, ax, cmap):
+    """
+    Add a map on a given axis.
+    """
+    data.plot(
+        column=column,
+        cmap=cmap,
+        edgecolor='black', linewidth=0.4,
+        ax=ax
+    )
+    ax.set_xlim(-13.8, 40)
+    ax.set_ylim(32, 72)
+    ax.axis('off')
+
+
+# colors for the chart
+colors = {
+    'share_Generosity': ['#c9ada7', '#4a4e69'],
+    'share_Perceptions of corruption': ['#fcbf49', '#d62828'],
+    'share_Freedom to make life choices': ['#90e0ef', '#0077b6'],
+    'share_Social support': ['#80ed99', '#38a3a5'],
+}
+background_col = '#22333b'
+
+# initialize the figure
+fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8, 10))
+axs = axs.flatten()
+
+# set background color
+fig.set_facecolor(background_col)
+axs[1].set_facecolor(background_col)
+
+# list that we use to display maps,
+# with empty values for 2 first axes
+columns = [
+    '', '',
+    'share_Generosity',
+    'share_Perceptions of corruption',
+    'share_Freedom to make life choices',
+    'share_Social support'
+]
+for i, (ax, column) in enumerate(zip(axs, columns)):
+
+    # skip first two axes (on top of the maps)
+    if i in [0, 1]:
+        continue
+
+    # create a colormap based on colors
+    cmap = create_gradient_colormap(colors[column])
+
+    # add map on the current axe
+    plot_map_on_ax(column=column, ax=ax, cmap=cmap)
+
+# display chart
+plt.tight_layout()
+plt.show()46:T23df,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> create_gradient_colormap</span><span style="color:#24292E">(colors):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Based on 2 color input, create a colormap of it.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> LinearSegmentedColormap.from_list(</span><span style="color:#032F62">"custom_gradient"</span><span style="color:#24292E">, colors, </span><span style="color:#E36209">N</span><span style="color:#D73A49">=</span><span style="color:#005CC5">256</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> cmap</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> plot_map_on_ax</span><span style="color:#24292E">(column, ax, cmap):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Add a map on a given axis.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    data.plot(</span></span>
+<span class="line"><span style="color:#E36209">        column</span><span style="color:#D73A49">=</span><span style="color:#24292E">column,</span></span>
+<span class="line"><span style="color:#E36209">        cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">        edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">13.8</span><span style="color:#24292E">, </span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">72</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># colors for the chart</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    'share_Generosity'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#c9ada7'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#4a4e69'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Perceptions of corruption'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#fcbf49'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#d62828'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Freedom to make life choices'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#90e0ef'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#0077b6'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Social support'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#80ed99'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#38a3a5'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">background_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#22333b'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> axs.flatten()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># set background color</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_col)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_facecolor(background_col)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># list that we use to display maps,</span></span>
+<span class="line"><span style="color:#6A737D"># with empty values for 2 first axes</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    ''</span><span style="color:#24292E">, </span><span style="color:#032F62">''</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Generosity'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Perceptions of corruption'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Freedom to make life choices'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Social support'</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (ax, column) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(axs, columns)):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # skip first two axes (on top of the maps)</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">]:</span></span>
+<span class="line"><span style="color:#D73A49">        continue</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # create a colormap based on colors</span></span>
+<span class="line"><span style="color:#24292E">    cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> create_gradient_colormap(colors[column])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add map on the current axe</span></span>
+<span class="line"><span style="color:#24292E">    plot_map_on_ax(</span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#24292E">column, </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display chart</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>35:["$","$L2b","notebook-cell-3",{"index":3,"code":"$45","highlighted":"$46","interactive":false,"hasChart":true,"intro":"$L47","output":"$L48"}]
+36:["$","h2","h2-5",{"children":"Add lollipop plot"}]
+49:T9cd,def create_gradient_colormap(colors):
+    """
+    Based on 2 color input, create a colormap of it.
+    """
+    cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+    return cmap
+
+
+def plot_map_on_ax(column, ax, cmap):
+    """
+    Add a map on a given axis.
+    """
+    data.plot(
+        column=column,
+        cmap=cmap,
+        edgecolor='black', linewidth=0.4,
+        ax=ax
+    )
+    ax.set_xlim(-13.8, 40)
+    ax.set_ylim(32, 72)
+    ax.axis('off')
+
+
+# colors for the chart
+colors = {
+    'share_Generosity': ['#c9ada7', '#4a4e69'],
+    'share_Perceptions of corruption': ['#fcbf49', '#d62828'],
+    'share_Freedom to make life choices': ['#90e0ef', '#0077b6'],
+    'share_Social support': ['#80ed99', '#38a3a5'],
+}
+background_col = '#22333b'
+
+# initialize the figure
+fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8, 10))
+axs = axs.flatten()
+
+# set background color
+fig.set_facecolor(background_col)
+axs[1].set_facecolor(background_col)
+
+# list that we use to display maps,
+# with empty values for 2 first axes
+columns = [
+    '', '',
+    'share_Generosity',
+    'share_Perceptions of corruption',
+    'share_Freedom to make life choices',
+    'share_Social support'
+]
+for i, (ax, column) in enumerate(zip(axs, columns)):
+
+    # skip first two axes (on top of the maps)
+    if i in [0, 1]:
+        continue
+
+    # create a colormap based on colors
+    cmap = create_gradient_colormap(colors[column])
+
+    # add map on the current axe
+    plot_map_on_ax(column=column, ax=ax, cmap=cmap)
+
+# Lollipop plot
+min_max_df = data[columns[2:]].agg(['min', 'max']).T
+for i, col in enumerate(columns[2:]):
+
+    # colors
+    min_color = colors[col][0]
+    max_color = colors[col][1]
+
+    # filter on current column
+    subset = min_max_df.iloc[i].T
+
+    # add data points of lollipop
+    axs[1].scatter(subset['min'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=min_color)
+    axs[1].scatter(subset['max'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=max_color)
+
+# horizontal lines of lollipop
+axs[1].hlines(
+    y=range(4),
+    xmin=min_max_df['min'], xmax=min_max_df['max'],
+    color='white', linewidth=0.8, zorder=1
+)
+
+# custom lollipop axis features
+axs[1].spines[['right', 'top', 'left']].set_visible(False)
+axs[1].set_xticks([0, 10, 20, 30, 40])
+axs[1].spines['bottom'].set_color('white')
+axs[1].tick_params(axis='x', colors='white')
+axs[1].set_yticks([])
+axs[1].set_ylim(-1, 6)
+axs[1].set_xlim(-3, 33)
+
+# display chart
+plt.tight_layout()
+plt.show()4a:T42a1,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> create_gradient_colormap</span><span style="color:#24292E">(colors):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Based on 2 color input, create a colormap of it.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> LinearSegmentedColormap.from_list(</span><span style="color:#032F62">"custom_gradient"</span><span style="color:#24292E">, colors, </span><span style="color:#E36209">N</span><span style="color:#D73A49">=</span><span style="color:#005CC5">256</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> cmap</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> plot_map_on_ax</span><span style="color:#24292E">(column, ax, cmap):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Add a map on a given axis.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    data.plot(</span></span>
+<span class="line"><span style="color:#E36209">        column</span><span style="color:#D73A49">=</span><span style="color:#24292E">column,</span></span>
+<span class="line"><span style="color:#E36209">        cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">        edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">13.8</span><span style="color:#24292E">, </span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">72</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># colors for the chart</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    'share_Generosity'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#c9ada7'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#4a4e69'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Perceptions of corruption'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#fcbf49'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#d62828'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Freedom to make life choices'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#90e0ef'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#0077b6'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Social support'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#80ed99'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#38a3a5'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">background_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#22333b'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> axs.flatten()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># set background color</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_col)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_facecolor(background_col)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># list that we use to display maps,</span></span>
+<span class="line"><span style="color:#6A737D"># with empty values for 2 first axes</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    ''</span><span style="color:#24292E">, </span><span style="color:#032F62">''</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Generosity'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Perceptions of corruption'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Freedom to make life choices'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Social support'</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (ax, column) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(axs, columns)):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # skip first two axes (on top of the maps)</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">]:</span></span>
+<span class="line"><span style="color:#D73A49">        continue</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # create a colormap based on colors</span></span>
+<span class="line"><span style="color:#24292E">    cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> create_gradient_colormap(colors[column])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add map on the current axe</span></span>
+<span class="line"><span style="color:#24292E">    plot_map_on_ax(</span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#24292E">column, </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Lollipop plot</span></span>
+<span class="line"><span style="color:#24292E">min_max_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[columns[</span><span style="color:#005CC5">2</span><span style="color:#24292E">:]].agg([</span><span style="color:#032F62">'min'</span><span style="color:#24292E">, </span><span style="color:#032F62">'max'</span><span style="color:#24292E">]).T</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, col </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(columns[</span><span style="color:#005CC5">2</span><span style="color:#24292E">:]):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # colors</span></span>
+<span class="line"><span style="color:#24292E">    min_color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colors[col][</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    max_color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colors[col][</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # filter on current column</span></span>
+<span class="line"><span style="color:#24292E">    subset </span><span style="color:#D73A49">=</span><span style="color:#24292E"> min_max_df.iloc[i].T</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add data points of lollipop</span></span>
+<span class="line"><span style="color:#24292E">    axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].scatter(subset[</span><span style="color:#032F62">'min'</span><span style="color:#24292E">], i, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">160</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_color)</span></span>
+<span class="line"><span style="color:#24292E">    axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].scatter(subset[</span><span style="color:#032F62">'max'</span><span style="color:#24292E">], i, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">160</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># horizontal lines of lollipop</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].hlines(</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">range</span><span style="color:#24292E">(</span><span style="color:#005CC5">4</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    xmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_max_df[</span><span style="color:#032F62">'min'</span><span style="color:#24292E">], </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_max_df[</span><span style="color:#032F62">'max'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom lollipop axis features</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].spines[[</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_xticks([</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#005CC5">40</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].spines[</span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">'white'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">'x'</span><span style="color:#24292E">, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">33</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display chart</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>37:["$","$L2b","notebook-cell-4",{"index":4,"code":"$49","highlighted":"$4a","interactive":false,"hasChart":true,"intro":"$L4b","output":"$L4c"}]
+38:["$","h2","h2-6",{"children":"Title and description"}]
+4d:Tcf5,def create_gradient_colormap(colors):
+    """
+    Based on 2 color input, create a colormap of it.
+    """
+    cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+    return cmap
+
+def plot_map_on_ax(column, ax, cmap):
+    """
+    Add a map on a given axis.
+    """
+    data.plot(
+        column=column,
+        cmap=cmap,
+        edgecolor='black', linewidth=0.4,
+        ax=ax
+    )
+    ax.set_xlim(-13.8, 40)
+    ax.set_ylim(32, 72)
+    ax.axis('off')
+
+# colors for the chart
+colors = {
+    'share_Generosity': ['#c9ada7', '#4a4e69'],
+    'share_Perceptions of corruption': ['#fcbf49', '#d62828'],
+    'share_Freedom to make life choices': ['#90e0ef', '#0077b6'],
+    'share_Social support': ['#80ed99', '#38a3a5'],
+}
+background_col = '#22333b'
+
+# initialize the figure
+fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8, 10))
+axs = axs.flatten()
+
+# set background color
+fig.set_facecolor(background_col)
+axs[1].set_facecolor(background_col)
+
+# list that we use to display maps,
+# with empty values for 2 first axes
+columns = [
+    '', '',
+    'share_Generosity',
+    'share_Perceptions of corruption',
+    'share_Freedom to make life choices',
+    'share_Social support'
+]
+for i, (ax, column) in enumerate(zip(axs, columns)):
+
+    # skip first two axes (on top of the maps)
+    if i in [0, 1]:
+        continue
+
+    # create a colormap based on colors
+    cmap = create_gradient_colormap(colors[column])
+
+    # add map on the current axe
+    plot_map_on_ax(column=column, ax=ax, cmap=cmap)
+
+# Lollipop plot
+min_max_df = data[columns[2:]].agg(['min', 'max']).T
+for i, col in enumerate(columns[2:]):
+
+    # colors
+    min_color = colors[col][0]
+    max_color = colors[col][1]
+
+    # filter on current column
+    subset = min_max_df.iloc[i].T
+
+    # add data points of lollipop
+    axs[1].scatter(subset['min'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=min_color)
+    axs[1].scatter(subset['max'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=max_color)
+
+# horizontal lines of lollipop
+axs[1].hlines(
+    y=range(4),
+    xmin=min_max_df['min'], xmax=min_max_df['max'],
+    color='white', linewidth=0.8, zorder=1
+)
+
+# custom lollipop axis features
+axs[1].spines[['right', 'top', 'left']].set_visible(False)
+axs[1].set_xticks([0, 10, 20, 30, 40])
+axs[1].spines['bottom'].set_color('white')
+axs[1].tick_params(axis='x', colors='white')
+axs[1].set_yticks([])
+axs[1].set_ylim(-1, 6)
+axs[1].set_xlim(-3, 33)
+
+# remove top left axis
+axs[0].set_axis_off()
+
+# title and credit
+text = """
+<What determines happiness>
+<in Europe? Well, it depends>
+
+
+<Share, in %, of happiness explained by different>
+<factors across Europe. For each country, the>
+<darker the color is, the more the factor explains>
+<happiness in this country.>
+"""
+ax_text(
+    -0.02, 0.6,
+    text,
+    ha='left', va='center',
+    fontsize=15,
+    color='black',
+    highlight_textprops=[
+        {'fontweight': 'bold',
+         'color': 'white'},
+        {'fontweight': 'bold',
+         'color': 'white'},
+
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11}
+    ],
+    ax=axs[0]
+)
+
+# display chart
+plt.tight_layout()
+plt.show()4e:T5781,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> create_gradient_colormap</span><span style="color:#24292E">(colors):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Based on 2 color input, create a colormap of it.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> LinearSegmentedColormap.from_list(</span><span style="color:#032F62">"custom_gradient"</span><span style="color:#24292E">, colors, </span><span style="color:#E36209">N</span><span style="color:#D73A49">=</span><span style="color:#005CC5">256</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> cmap</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> plot_map_on_ax</span><span style="color:#24292E">(column, ax, cmap):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Add a map on a given axis.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    data.plot(</span></span>
+<span class="line"><span style="color:#E36209">        column</span><span style="color:#D73A49">=</span><span style="color:#24292E">column,</span></span>
+<span class="line"><span style="color:#E36209">        cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">        edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">13.8</span><span style="color:#24292E">, </span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">72</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># colors for the chart</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    'share_Generosity'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#c9ada7'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#4a4e69'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Perceptions of corruption'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#fcbf49'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#d62828'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Freedom to make life choices'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#90e0ef'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#0077b6'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Social support'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#80ed99'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#38a3a5'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">background_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#22333b'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> axs.flatten()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># set background color</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_col)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_facecolor(background_col)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># list that we use to display maps,</span></span>
+<span class="line"><span style="color:#6A737D"># with empty values for 2 first axes</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    ''</span><span style="color:#24292E">, </span><span style="color:#032F62">''</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Generosity'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Perceptions of corruption'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Freedom to make life choices'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Social support'</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (ax, column) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(axs, columns)):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # skip first two axes (on top of the maps)</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">]:</span></span>
+<span class="line"><span style="color:#D73A49">        continue</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # create a colormap based on colors</span></span>
+<span class="line"><span style="color:#24292E">    cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> create_gradient_colormap(colors[column])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add map on the current axe</span></span>
+<span class="line"><span style="color:#24292E">    plot_map_on_ax(</span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#24292E">column, </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Lollipop plot</span></span>
+<span class="line"><span style="color:#24292E">min_max_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[columns[</span><span style="color:#005CC5">2</span><span style="color:#24292E">:]].agg([</span><span style="color:#032F62">'min'</span><span style="color:#24292E">, </span><span style="color:#032F62">'max'</span><span style="color:#24292E">]).T</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, col </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(columns[</span><span style="color:#005CC5">2</span><span style="color:#24292E">:]):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # colors</span></span>
+<span class="line"><span style="color:#24292E">    min_color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colors[col][</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    max_color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colors[col][</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # filter on current column</span></span>
+<span class="line"><span style="color:#24292E">    subset </span><span style="color:#D73A49">=</span><span style="color:#24292E"> min_max_df.iloc[i].T</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add data points of lollipop</span></span>
+<span class="line"><span style="color:#24292E">    axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].scatter(subset[</span><span style="color:#032F62">'min'</span><span style="color:#24292E">], i, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">160</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_color)</span></span>
+<span class="line"><span style="color:#24292E">    axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].scatter(subset[</span><span style="color:#032F62">'max'</span><span style="color:#24292E">], i, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">160</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># horizontal lines of lollipop</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].hlines(</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">range</span><span style="color:#24292E">(</span><span style="color:#005CC5">4</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    xmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_max_df[</span><span style="color:#032F62">'min'</span><span style="color:#24292E">], </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_max_df[</span><span style="color:#032F62">'max'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom lollipop axis features</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].spines[[</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_xticks([</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#005CC5">40</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].spines[</span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">'white'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">'x'</span><span style="color:#24292E">, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">33</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove top left axis</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title and credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;What determines happiness></span></span>
+<span class="line"><span style="color:#032F62">&#x3C;in Europe? Well, it depends></span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#032F62">&#x3C;Share, in %, of happiness explained by different></span></span>
+<span class="line"><span style="color:#032F62">&#x3C;factors across Europe. For each country, the></span></span>
+<span class="line"><span style="color:#032F62">&#x3C;darker the color is, the more the factor explains></span></span>
+<span class="line"><span style="color:#032F62">&#x3C;happiness in this country.></span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#D73A49">    -</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.6</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'fontweight'</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'white'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'fontweight'</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'white'</span><span style="color:#24292E">},</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'fontsize'</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'fontsize'</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'fontsize'</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'fontsize'</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display chart</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>39:["$","$L2b","notebook-cell-5",{"index":5,"code":"$4d","highlighted":"$4e","interactive":false,"hasChart":true,"intro":"$L4f","output":"$L50"}]
+3a:["$","h2","h2-7",{"children":"Annotations"}]
+51:T15cf,def create_gradient_colormap(colors):
+    """
+    Based on 2 color input, create a colormap of it.
+    """
+    cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+    return cmap
+
+def draw_arrow(tail_position, head_position, fig, invert=False):
+    """
+    Draw a curve arrow at given tail/head position, on a figure.
+    """
+    kw = dict(
+        arrowstyle="Simple, tail_width=0.5, head_width=4, head_length=8", color="white")
+    if invert:
+        connectionstyle = "arc3,rad=-.5"
+    else:
+        connectionstyle = "arc3,rad=.5"
+    a = FancyArrowPatch(tail_position, head_position,
+                        connectionstyle=connectionstyle,
+                        transform=fig.transFigure,
+                        **kw)
+    fig.patches.append(a)
+
+def plot_map_on_ax(column, ax, cmap):
+    """
+    Add a map on a given axis.
+    """
+    data.plot(
+        column=column,
+        cmap=cmap,
+        edgecolor='black', linewidth=0.4,
+        ax=ax
+    )
+    ax.set_xlim(-13.8, 40)
+    ax.set_ylim(32, 72)
+    ax.axis('off')
+
+def path_effect_stroke(**kwargs):
+    return [path_effects.Stroke(**kwargs), path_effects.Normal()]
+pe = path_effect_stroke(linewidth=1, foreground="black")
+
+# colors for the chart
+colors = {
+    'share_Generosity': ['#c9ada7', '#4a4e69'],
+    'share_Perceptions of corruption': ['#fcbf49', '#d62828'],
+    'share_Freedom to make life choices': ['#90e0ef', '#0077b6'],
+    'share_Social support': ['#80ed99', '#38a3a5'],
+}
+background_col = '#22333b'
+
+# initialize the figure
+fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8, 10))
+axs = axs.flatten()
+
+# set background color
+fig.set_facecolor(background_col)
+axs[1].set_facecolor(background_col)
+
+# list that we use to display maps,
+# with empty values for 2 first axes
+columns = [
+    '', '',
+    'share_Generosity',
+    'share_Perceptions of corruption',
+    'share_Freedom to make life choices',
+    'share_Social support'
+]
+
+# annotation positions on the lollipop
+annotations_pos = [
+    '', '',
+    [8, 0],
+    [9, 1],
+    [15, 2],
+    [3, 3]
+]
+
+# iterate over of the 6 axes AND column names
+for i, (ax, column) in enumerate(zip(axs, columns)):
+
+    # skip first two axes (on top of the maps)
+    if i in [0, 1]:
+        continue
+
+    # create a colormap based on colors
+    cmap = create_gradient_colormap(colors[column])
+
+    # add map on the current axe
+    plot_map_on_ax(column=column, ax=ax, cmap=cmap)
+
+    # annotations below each map
+    ax_text(
+        -15, 33, # fixed position for each map
+        '<'+column[6:]+'>',
+        ha='left', va='center',
+        fontsize=9, fontweight='bold',
+        color=cmap(0.5),
+        highlight_textprops=[
+            {"path_effects": pe}
+        ], ax=ax
+    )
+
+    # annotations on lollipop
+    x, y = annotations_pos[i]
+    ax_text(
+        x, y,
+        '<'+column[6:]+'>',
+        ha='left', va='center',
+        fontweight='bold',
+        fontsize=10,
+        color=cmap(0.5),
+        highlight_textprops=[
+            {"path_effects": pe}
+        ], ax=axs[1]
+    )
+
+# Lollipop plot
+min_max_df = data[columns[2:]].agg(['min', 'max']).T
+for i, col in enumerate(columns[2:]):
+
+    # colors
+    min_color = colors[col][0]
+    max_color = colors[col][1]
+
+    # filter on current column
+    subset = min_max_df.iloc[i].T
+
+    # add data points of lollipop
+    axs[1].scatter(subset['min'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=min_color)
+    axs[1].scatter(subset['max'], i, zorder=2, s=160, edgecolor='black', linewidth=0.5, color=max_color)
+
+# horizontal lines of lollipop
+axs[1].hlines(
+    y=range(4),
+    xmin=min_max_df['min'], xmax=min_max_df['max'],
+    color='white', linewidth=0.8, zorder=1
+)
+
+# custom lollipop axis features
+axs[1].spines[['right', 'top', 'left']].set_visible(False)
+axs[1].set_xticks([0, 10, 20, 30, 40])
+axs[1].spines['bottom'].set_color('white')
+axs[1].tick_params(axis='x', colors='white')
+axs[1].set_yticks([])
+axs[1].set_ylim(-1, 6)
+axs[1].set_xlim(-3, 33)
+
+# remove top left axis
+axs[0].set_axis_off()
+
+# title and credit
+text = """
+<What determines happiness>
+<in Europe? Well, it depends>
+
+
+<Share, in %, of happiness explained by different>
+<factors across Europe. For each country, the>
+<darker the color is, the more the factor explains>
+<happiness in this country.>
+"""
+ax_text(
+    -0.02, 0.6,
+    text,
+    ha='left', va='center',
+    fontsize=15,
+    color='black',
+    highlight_textprops=[
+        {'fontweight': 'bold',
+         'color': 'white'},
+        {'fontweight': 'bold',
+         'color': 'white'},
+
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11},
+        {'color': 'darkgrey',
+         'fontsize': 11}
+    ],
+    ax=axs[0]
+)
+
+# credit
+text = """
+<Design:> Joseph Barbier
+<Data:> World Happiness Report 2024
+"""
+ax_text(
+    -17.6, 25, text,
+    ha='left', va='center',
+    fontsize=6, color='white',
+    highlight_textprops=[
+        {'fontweight': 'bold'},
+        {'fontweight': 'bold'},
+    ], ax=axs[4]
+)
+
+# reduce size and change position of lollipop axe
+axs[1].set_position([0.56, 0.68, 0.2, 0.1])
+
+# legend arrows
+draw_arrow((0.7, 0.92), (0.76, 0.87), fig=fig, invert=True)
+draw_arrow((0.82, 0.92), (0.862, 0.87), fig=fig, invert=True)
+ax_text(
+    6, 4.7, 'Minimum',
+    fontsize=8, color='white',
+    ax=axs[1]
+)
+ax_text(
+    16.7, 4.8, 'Maximum',
+    fontsize=8, color='white',
+    ax=axs[1]
+)
+
+plt.tight_layout()
+fig.savefig('../../static/graph/web-multiple-maps.png', dpi=300, bbox_inches='tight')
+plt.show()52:T9746,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> create_gradient_colormap</span><span style="color:#24292E">(colors):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Based on 2 color input, create a colormap of it.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> LinearSegmentedColormap.from_list(</span><span style="color:#032F62">"custom_gradient"</span><span style="color:#24292E">, colors, </span><span style="color:#E36209">N</span><span style="color:#D73A49">=</span><span style="color:#005CC5">256</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> cmap</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> draw_arrow</span><span style="color:#24292E">(tail_position, head_position, fig, invert</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Draw a curve arrow at given tail/head position, on a figure.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    kw </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Simple, tail_width=0.5, head_width=4, head_length=8"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> invert:</span></span>
+<span class="line"><span style="color:#24292E">        connectionstyle </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "arc3,rad=-.5"</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        connectionstyle </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "arc3,rad=.5"</span></span>
+<span class="line"><span style="color:#24292E">    a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FancyArrowPatch(tail_position, head_position,</span></span>
+<span class="line"><span style="color:#E36209">                        connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">connectionstyle,</span></span>
+<span class="line"><span style="color:#E36209">                        transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig.transFigure,</span></span>
+<span class="line"><span style="color:#D73A49">                        **</span><span style="color:#24292E">kw)</span></span>
+<span class="line"><span style="color:#24292E">    fig.patches.append(a)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> plot_map_on_ax</span><span style="color:#24292E">(column, ax, cmap):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Add a map on a given axis.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    data.plot(</span></span>
+<span class="line"><span style="color:#E36209">        column</span><span style="color:#D73A49">=</span><span style="color:#24292E">column,</span></span>
+<span class="line"><span style="color:#E36209">        cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">        edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">13.8</span><span style="color:#24292E">, </span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">72</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> path_effect_stroke</span><span style="color:#24292E">(</span><span style="color:#D73A49">**</span><span style="color:#24292E">kwargs):</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> [path_effects.Stroke(</span><span style="color:#D73A49">**</span><span style="color:#24292E">kwargs), path_effects.Normal()]</span></span>
+<span class="line"><span style="color:#24292E">pe </span><span style="color:#D73A49">=</span><span style="color:#24292E"> path_effect_stroke(</span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">foreground</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># colors for the chart</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    'share_Generosity'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#c9ada7'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#4a4e69'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Perceptions of corruption'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#fcbf49'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#d62828'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Freedom to make life choices'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#90e0ef'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#0077b6'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    'share_Social support'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'#80ed99'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#38a3a5'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">background_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#22333b'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> axs.flatten()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># set background color</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_col)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_facecolor(background_col)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># list that we use to display maps,</span></span>
+<span class="line"><span style="color:#6A737D"># with empty values for 2 first axes</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    ''</span><span style="color:#24292E">, </span><span style="color:#032F62">''</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Generosity'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Perceptions of corruption'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Freedom to make life choices'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'share_Social support'</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># annotation positions on the lollipop</span></span>
+<span class="line"><span style="color:#24292E">annotations_pos </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    ''</span><span style="color:#24292E">, </span><span style="color:#032F62">''</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">9</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">    [</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># iterate over of the 6 axes AND column names</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (ax, column) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(axs, columns)):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # skip first two axes (on top of the maps)</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">]:</span></span>
+<span class="line"><span style="color:#D73A49">        continue</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # create a colormap based on colors</span></span>
+<span class="line"><span style="color:#24292E">    cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> create_gradient_colormap(colors[column])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add map on the current axe</span></span>
+<span class="line"><span style="color:#24292E">    plot_map_on_ax(</span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#24292E">column, </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # annotations below each map</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#D73A49">        -</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">33</span><span style="color:#24292E">, </span><span style="color:#6A737D"># fixed position for each map</span></span>
+<span class="line"><span style="color:#032F62">        '&#x3C;'</span><span style="color:#D73A49">+</span><span style="color:#24292E">column[</span><span style="color:#005CC5">6</span><span style="color:#24292E">:]</span><span style="color:#D73A49">+</span><span style="color:#032F62">'>'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap(</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"path_effects"</span><span style="color:#24292E">: pe}</span></span>
+<span class="line"><span style="color:#24292E">        ], </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # annotations on lollipop</span></span>
+<span class="line"><span style="color:#24292E">    x, y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> annotations_pos[i]</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        x, y,</span></span>
+<span class="line"><span style="color:#032F62">        '&#x3C;'</span><span style="color:#D73A49">+</span><span style="color:#24292E">column[</span><span style="color:#005CC5">6</span><span style="color:#24292E">:]</span><span style="color:#D73A49">+</span><span style="color:#032F62">'>'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap(</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"path_effects"</span><span style="color:#24292E">: pe}</span></span>
+<span class="line"><span style="color:#24292E">        ], </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Lollipop plot</span></span>
+<span class="line"><span style="color:#24292E">min_max_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data[columns[</span><span style="color:#005CC5">2</span><span style="color:#24292E">:]].agg([</span><span style="color:#032F62">'min'</span><span style="color:#24292E">, </span><span style="color:#032F62">'max'</span><span style="color:#24292E">]).T</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, col </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(columns[</span><span style="color:#005CC5">2</span><span style="color:#24292E">:]):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # colors</span></span>
+<span class="line"><span style="color:#24292E">    min_color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colors[col][</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    max_color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> colors[col][</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # filter on current column</span></span>
+<span class="line"><span style="color:#24292E">    subset </span><span style="color:#D73A49">=</span><span style="color:#24292E"> min_max_df.iloc[i].T</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add data points of lollipop</span></span>
+<span class="line"><span style="color:#24292E">    axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].scatter(subset[</span><span style="color:#032F62">'min'</span><span style="color:#24292E">], i, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">160</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_color)</span></span>
+<span class="line"><span style="color:#24292E">    axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].scatter(subset[</span><span style="color:#032F62">'max'</span><span style="color:#24292E">], i, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">160</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># horizontal lines of lollipop</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].hlines(</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">range</span><span style="color:#24292E">(</span><span style="color:#005CC5">4</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    xmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_max_df[</span><span style="color:#032F62">'min'</span><span style="color:#24292E">], </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_max_df[</span><span style="color:#032F62">'max'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom lollipop axis features</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].spines[[</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_xticks([</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#005CC5">40</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].spines[</span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">'white'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">'x'</span><span style="color:#24292E">, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">33</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove top left axis</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">].set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title and credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;What determines happiness></span></span>
+<span class="line"><span style="color:#032F62">&#x3C;in Europe? Well, it depends></span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#032F62">&#x3C;Share, in %, of happiness explained by different></span></span>
+<span class="line"><span style="color:#032F62">&#x3C;factors across Europe. For each country, the></span></span>
+<span class="line"><span style="color:#032F62">&#x3C;darker the color is, the more the factor explains></span></span>
+<span class="line"><span style="color:#032F62">&#x3C;happiness in this country.></span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#D73A49">    -</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.6</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'fontweight'</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'white'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'fontweight'</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'white'</span><span style="color:#24292E">},</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'fontsize'</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'fontsize'</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'fontsize'</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         'fontsize'</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Design:> Joseph Barbier</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Data:> World Happiness Report 2024</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#D73A49">    -</span><span style="color:#005CC5">17.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">25</span><span style="color:#24292E">, text,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'fontweight'</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">'fontweight'</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">    ], </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">4</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># reduce size and change position of lollipop axe</span></span>
+<span class="line"><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">].set_position([</span><span style="color:#005CC5">0.56</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.68</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.1</span><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># legend arrows</span></span>
+<span class="line"><span style="color:#24292E">draw_arrow((</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.92</span><span style="color:#24292E">), (</span><span style="color:#005CC5">0.76</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.87</span><span style="color:#24292E">), </span><span style="color:#E36209">fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig, </span><span style="color:#E36209">invert</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">draw_arrow((</span><span style="color:#005CC5">0.82</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.92</span><span style="color:#24292E">), (</span><span style="color:#005CC5">0.862</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.87</span><span style="color:#24292E">), </span><span style="color:#E36209">fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig, </span><span style="color:#E36209">invert</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">    6</span><span style="color:#24292E">, </span><span style="color:#005CC5">4.7</span><span style="color:#24292E">, </span><span style="color:#032F62">'Minimum'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">    16.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">4.8</span><span style="color:#24292E">, </span><span style="color:#032F62">'Maximum'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">fig.savefig(</span><span style="color:#032F62">'../../static/graph/web-multiple-maps.png'</span><span style="color:#24292E">, </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">, </span><span style="color:#E36209">bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">'tight'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3b:["$","$L2b","notebook-cell-6",{"index":6,"code":"$51","highlighted":"$52","interactive":false,"hasChart":true,"intro":"$L53","output":"$L54"}]
+3c:["$","h2","h2-8",{"children":"Going further"}]
+3d:["$","p","p-8",{"children":["This article explains how to reproduce ",["$","strong","strong-0",{"children":"a multiple"}]," ",["$","a","a-0",{"href":"/choropleth-map","children":"choropleth maps"}]," with a ",["$","a","a-1",{"href":"/lollipop-plot","children":"lollipop plot"}]," for the legend."]}]
+3e:["$","p","p-9",{"children":"You might be interested in"}]
+3f:["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["reproducing a ",["$","a","a-0",{"href":"/web-dumbell-chart","children":"beautiful dumbell/lollipop chart"}]]}],"\n",["$","li","li-1",{"children":["how to create a fully customized ",["$","a","a-0",{"href":"/web-map-europe-with-color-by-country","children":"choropleth map"}],"."]}],"\n"]}]
+41:[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"geometry"}],["$","th","th-2",{"children":"Country name"}],["$","th","th-3",{"children":"Ladder score"}],["$","th","th-4",{"children":"upperwhisker"}],["$","th","th-5",{"children":"lowerwhisker"}],["$","th","th-6",{"children":"Dystopia + residual"}],["$","th","th-7",{"children":"Log GDP per capita"}],["$","th","th-8",{"children":"Social support"}],["$","th","th-9",{"children":"Healthy life expectancy"}],["$","th","th-10",{"children":"Freedom to make life choices"}],["$","th","th-11",{"children":"Generosity"}],["$","th","th-12",{"children":"Perceptions of corruption"}],["$","th","th-13",{"children":"share_Dystopia + residual"}],["$","th","th-14",{"children":"share_Log GDP per capita"}],["$","th","th-15",{"children":"share_Social support"}],["$","th","th-16",{"children":"share_Healthy life expectancy"}],["$","th","th-17",{"children":"share_Freedom to make life choices"}],["$","th","th-18",{"children":"share_Generosity"}],["$","th","th-19",{"children":"share_Perceptions of corruption"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"MULTIPOLYGON (((15.14282 79.67431, 15.52255 80..."}],["$","td","td-1",{"children":"Norway"}],["$","td","td-2",{"children":"7.302"}],["$","td","td-3",{"children":"7.389"}],["$","td","td-4",{"children":"7.215"}],["$","td","td-5",{"children":"1.586"}],["$","td","td-6",{"children":"1.952"}],["$","td","td-7",{"children":"1.517"}],["$","td","td-8",{"children":"0.704"}],["$","td","td-9",{"children":"0.835"}],["$","td","td-10",{"children":"0.224"}],["$","td","td-11",{"children":"0.484"}],["$","td","td-12",{"children":"21.720077"}],["$","td","td-13",{"children":"26.732402"}],["$","td","td-14",{"children":"20.775130"}],["$","td","td-15",{"children":"9.641194"}],["$","td","td-16",{"children":"11.435223"}],["$","td","td-17",{"children":"3.067653"}],["$","td","td-18",{"children":"6.628321"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"MULTIPOLYGON (((-51.65780 4.15623, -52.24934 3..."}],["$","td","td-1",{"children":"France"}],["$","td","td-2",{"children":"6.609"}],["$","td","td-3",{"children":"6.685"}],["$","td","td-4",{"children":"6.533"}],["$","td","td-5",{"children":"1.672"}],["$","td","td-6",{"children":"1.818"}],["$","td","td-7",{"children":"1.348"}],["$","td","td-8",{"children":"0.727"}],["$","td","td-9",{"children":"0.650"}],["$","td","td-10",{"children":"0.112"}],["$","td","td-11",{"children":"0.281"}],["$","td","td-12",{"children":"25.298835"}],["$","td","td-13",{"children":"27.507944"}],["$","td","td-14",{"children":"20.396429"}],["$","td","td-15",{"children":"11.000151"}],["$","td","td-16",{"children":"9.835073"}],["$","td","td-17",{"children":"1.694659"}],["$","td","td-18",{"children":"4.251778"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"POLYGON ((11.02737 58.85615, 11.46827 59.43239..."}],["$","td","td-1",{"children":"Sweden"}],["$","td","td-2",{"children":"7.344"}],["$","td","td-3",{"children":"7.422"}],["$","td","td-4",{"children":"7.267"}],["$","td","td-5",{"children":"1.658"}],["$","td","td-6",{"children":"1.878"}],["$","td","td-7",{"children":"1.501"}],["$","td","td-8",{"children":"0.724"}],["$","td","td-9",{"children":"0.838"}],["$","td","td-10",{"children":"0.221"}],["$","td","td-11",{"children":"0.524"}],["$","td","td-12",{"children":"22.576253"}],["$","td","td-13",{"children":"25.571895"}],["$","td","td-14",{"children":"20.438453"}],["$","td","td-15",{"children":"9.858388"}],["$","td","td-16",{"children":"11.410675"}],["$","td","td-17",{"children":"3.009259"}],["$","td","td-18",{"children":"7.135076"}]]}]]}]]}],"\n"]}]}]]
+43:[["$","p","p-0",{"children":["We start by creating a figure with ",["$","strong","strong-0",{"children":"3 rows and 2 columns"}],"."]}],["$","p","p-1",{"children":["Then, we add the maps, with default colors on the ",["$","strong","strong-0",{"children":"last 4 axes"}],"."]}]]
+44:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-multiple-maps/output-2.png","alt":"Multiple choropleth maps","width":790,"height":989,"loading":"lazy","decoding":"async"}]}]]
+47:[["$","p","p-0",{"children":["For this chart, we define a ",["$","code","code-0",{"children":"colors"}]," dictionnary that contains column names as keys, and a ",["$","strong","strong-0",{"children":"list of 2 colors"}]," as values. We do so in order to then create colormaps (or cmap) based on those colors, thanks to the ",["$","code","code-1",{"children":"create_gradient_colormap()"}]," function, defined below."]}],["$","p","p-1",{"children":["We also use the ",["$","code","code-0",{"children":"set_facecolor()"}]," to ",["$","strong","strong-0",{"children":"change background color"}]," of the figure and the lollipop axe. The first axe ",["$","strong","strong-1",{"children":"does not need"}]," it since it will be completly removed in the next step and will ",["$","strong","strong-2",{"children":"have the figure color"}]," as well."]}]]
+48:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-multiple-maps/output-3.png","alt":"Multiple choropleth maps","width":790,"height":989,"loading":"lazy","decoding":"async"}]}]]
+4b:[["$","p","p-0",{"children":["Making a ",["$","a","a-0",{"href":"/lollipop-plot","children":"lollipop plot"}]," can be a bit tricky in matplotlib, especially when having points on ",["$","strong","strong-0",{"children":"both side"}],"."]}],["$","p","p-1",{"children":["For this, we use the ",["$","code","code-0",{"children":"scatter()"}]," function for the points and the ",["$","code","code-1",{"children":"hlines()"}]," function for the horizontal lines."]}],["$","p","p-2",{"children":["The positions are defined thanks to the ",["$","code","code-0",{"children":"min_max_df"}],", defined in the code below. It contains ",["$","strong","strong-0",{"children":"one row per column"}]," (so 4 in total) and a column for the minimum value and one for the maximum."]}]]
+4c:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-multiple-maps/output-4.png","alt":"Multiple choropleth maps","width":790,"height":989,"loading":"lazy","decoding":"async"}]}]]
+4f:[["$","p","p-0",{"children":["The title (and the description) are displayed using the ",["$","code","code-0",{"children":"ax_text()"}]," function from the ",["$","code","code-1",{"children":"highlight_text"}]," package. For a dedicated ",["$","strong","strong-0",{"children":"explanation"}]," of how it works, ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"check this post"}],"."]}]]
+50:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-multiple-maps/output-5.png","alt":"Multiple choropleth maps","width":790,"height":990,"loading":"lazy","decoding":"async"}]}]]
+53:[["$","p","p-0",{"children":["Similar to the title, the ",["$","strong","strong-0",{"children":"annotations"}]," are displayed using the ",["$","code","code-0",{"children":"ax_text()"}]," and ",["$","code","code-1",{"children":"fig_text()"}]," function from the ",["$","code","code-2",{"children":"highlight_text"}]," package."]}],["$","p","p-1",{"children":["The ",["$","strong","strong-0",{"children":"arrows"}]," are displayed using ",["$","code","code-0",{"children":"FancyArrowPatch()"}]," function from matplotlib. We define a ",["$","code","code-1",{"children":"draw_arrow()"}]," function in order to make the code a bit easier to read when adding arrows. It just needs ",["$","strong","strong-1",{"children":"tail and head positions"}]," to add arrows on the figure."]}]]
+54:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-multiple-maps/output-6.png","alt":"Multiple choropleth maps","width":830,"height":1000,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

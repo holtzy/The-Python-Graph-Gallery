@@ -1,0 +1,598 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Circular barplot with groups in Matplotlib"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post explains how to build a <a href='https://www.data-to-viz.com/graph/circularbarplot.html'>circular barplot</a> with groups. A gap is added between groups to highlight them. Bars are labeled and group names are annotated. Step-by-step guides are provided.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/circular-barplot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Circular Barplot section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/circularbarplot.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"circular-barplot-with-groups","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Circular barplot with groups in Matplotlib"}],["$","meta","1",{"name":"description","content":"This post explains how to build a grouped circular barplot with Python and Matplotlib. A gap is added between groups, bars are labeled, group names are annotated. Step by step code snippets with explanations are provided."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, matplotlib, circular barplot, barplot, polar"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/circular-barplot-with-groups/"}],["$","meta","6",{"property":"og:title","content":"Circular barplot with groups in Matplotlib"}],["$","meta","7",{"property":"og:description","content":"This post explains how to build a grouped circular barplot with Python and Matplotlib. A gap is added between groups, bars are labeled, group names are annotated. Step by step code snippets with explanations are provided."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Circular barplot with groups in Matplotlib"}],["$","meta","13",{"name":"twitter:description","content":"This post explains how to build a grouped circular barplot with Python and Matplotlib. A gap is added between groups, bars are labeled, group names are annotated. Step by step code snippets with explanations are provided."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+27:I[44110,["$3","$4","$5","$6","$d"],"default"]
+28:I[59351,["$3","$4","$5","$6","$d"],"default"]
+29:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T413,ANGLES = np.linspace(0, 2 * np.pi, len(df), endpoint=False)
+VALUES = df["value"].values
+LABELS = df["name"].values
+
+# Determine the width of each bar. 
+# The circumference is '2 * pi', so we divide that total width over the number of bars.
+WIDTH = 2 * np.pi / len(VALUES)
+
+# Determines where to place the first bar. 
+# By default, matplotlib starts at 0 (the first bar is horizontal)
+# but here we say we want to start at pi/2 (90 deg)
+OFFSET = np.pi / 2
+
+# Initialize Figure and Axis
+fig, ax = plt.subplots(figsize=(20, 10), subplot_kw={"projection": "polar"})
+
+# Specify offset
+ax.set_theta_offset(OFFSET)
+
+# Set limits for radial (y) axis. The negative lower bound creates the whole in the middle.
+ax.set_ylim(-100, 100)
+
+# Remove all spines
+ax.set_frame_on(False)
+
+# Remove grid and tick marks
+ax.xaxis.grid(False)
+ax.yaxis.grid(False)
+ax.set_xticks([])
+ax.set_yticks([])
+
+# Add bars
+ax.bar(
+    ANGLES, VALUES, width=WIDTH, linewidth=2,
+    color="#61a4b2", edgecolor="white"
+)
+
+# Add labels
+add_labels(ANGLES, VALUES, LABELS, OFFSET, ax)23:T4d2,# Grab the group values
+GROUP = df["group"].values
+
+# Add three empty bars to the end of each group
+PAD = 3
+ANGLES_N = len(VALUES) + PAD * len(np.unique(GROUP))
+ANGLES = np.linspace(0, 2 * np.pi, num=ANGLES_N, endpoint=False)
+WIDTH = (2 * np.pi) / len(ANGLES)
+
+# Obtain size of each group
+GROUPS_SIZE = [len(i[1]) for i in df.groupby("group")]
+
+# Obtaining the right indexes is now a little more complicated
+offset = 0
+IDXS = []
+for size in GROUPS_SIZE:
+    IDXS += list(range(offset + PAD, offset + size + PAD))
+    offset += size + PAD
+
+# Same layout as above
+fig, ax = plt.subplots(figsize=(20, 10), subplot_kw={"projection": "polar"})
+
+ax.set_theta_offset(OFFSET)
+ax.set_ylim(-100, 100)
+ax.set_frame_on(False)
+ax.xaxis.grid(False)
+ax.yaxis.grid(False)
+ax.set_xticks([])
+ax.set_yticks([])
+
+# Use different colors for each group!
+GROUPS_SIZE = [len(i[1]) for i in df.groupby("group")]
+COLORS = [f"C{i}" for i, size in enumerate(GROUPS_SIZE) for _ in range(size)]
+
+# And finally add the bars. 
+# Note again the `ANGLES[IDXS]` to drop some angles that leave the space between bars.
+ax.bar(
+    ANGLES[IDXS], VALUES, width=WIDTH, color=COLORS, 
+    edgecolor="white", linewidth=2
+)
+
+add_labels(ANGLES[IDXS], VALUES, LABELS, OFFSET, ax)24:T762,# All this part is like the code above
+VALUES = df["value"].values
+LABELS = df["name"].values
+GROUP = df["group"].values
+
+PAD = 3
+ANGLES_N = len(VALUES) + PAD * len(np.unique(GROUP))
+ANGLES = np.linspace(0, 2 * np.pi, num=ANGLES_N, endpoint=False)
+WIDTH = (2 * np.pi) / len(ANGLES)
+
+GROUPS_SIZE = [len(i[1]) for i in df.groupby("group")]
+
+offset = 0
+IDXS = []
+for size in GROUPS_SIZE:
+    IDXS += list(range(offset + PAD, offset + size + PAD))
+    offset += size + PAD
+
+fig, ax = plt.subplots(figsize=(20, 10), subplot_kw={"projection": "polar"})
+ax.set_theta_offset(OFFSET)
+ax.set_ylim(-100, 100)
+ax.set_frame_on(False)
+ax.xaxis.grid(False)
+ax.yaxis.grid(False)
+ax.set_xticks([])
+ax.set_yticks([])
+
+GROUPS_SIZE = [len(i[1]) for i in df.groupby("group")]
+COLORS = [f"C{i}" for i, size in enumerate(GROUPS_SIZE) for _ in range(size)]
+
+ax.bar(
+    ANGLES[IDXS], VALUES, width=WIDTH, color=COLORS, 
+    edgecolor="white", linewidth=2
+)
+
+add_labels(ANGLES[IDXS], VALUES, LABELS, OFFSET, ax)
+
+# Extra customization below here --------------------
+
+# This iterates over the sizes of the groups adding reference
+# lines and annotations.
+
+offset = 0 
+for group, size in zip(["A", "B", "C", "D"], GROUPS_SIZE):
+    # Add line below bars
+    x1 = np.linspace(ANGLES[offset + PAD], ANGLES[offset + size + PAD - 1], num=50)
+    ax.plot(x1, [-5] * 50, color="#333333")
+    
+    # Add text to indicate group
+    ax.text(
+        np.mean(x1), -20, group, color="#333333", fontsize=14, 
+        fontweight="bold", ha="center", va="center"
+    )
+    
+    # Add reference lines at 20, 40, 60, and 80
+    x2 = np.linspace(ANGLES[offset], ANGLES[offset + PAD - 1], num=50)
+    ax.plot(x2, [20] * 50, color="#bebebe", lw=0.8)
+    ax.plot(x2, [40] * 50, color="#bebebe", lw=0.8)
+    ax.plot(x2, [60] * 50, color="#bebebe", lw=0.8)
+    ax.plot(x2, [80] * 50, color="#bebebe", lw=0.8)
+    
+    offset += size + PADf:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd","# Ensures reproducibility of random numbers\nrng = np.random.default_rng(123)","# Build a dataset\ndf = pd.DataFrame({\n    \"name\": [f\"item {i}\" for i in range(1, 51)],\n    \"value\": rng.integers(low=30, high=100, size=50),\n    \"group\": [\"A\"] * 10 + [\"B\"] * 20 + [\"C\"] * 12 + [\"D\"] * 8\n})\n\n# Show 3 first rows\ndf.head(3)","def get_label_rotation(angle, offset):\n    # Rotation must be specified in degrees :(\n    rotation = np.rad2deg(angle + offset)\n    if angle <= np.pi:\n        alignment = \"right\"\n        rotation = rotation + 180\n    else: \n        alignment = \"left\"\n    return rotation, alignment","def add_labels(angles, values, labels, offset, ax):\n    \n    # This is the space between the end of the bar and the label\n    padding = 4\n    \n    # Iterate over angles, values, and labels, to add all of them.\n    for angle, value, label, in zip(angles, values, labels):\n        angle = angle\n        \n        # Obtain text rotation and alignment\n        rotation, alignment = get_label_rotation(angle, offset)\n\n        # And finally add the text\n        ax.text(\n            x=angle, \n            y=value + padding, \n            s=label, \n            ha=alignment, \n            va=\"center\", \n            rotation=rotation, \n            rotation_mode=\"anchor\"\n        )","$22","# 3 empty bars are added \nPAD = 3\nANGLES_N = len(VALUES) + PAD\nANGLES = np.linspace(0, 2 * np.pi, num=ANGLES_N, endpoint=False)\nWIDTH = (2 * np.pi) / len(ANGLES)\n\n# The index contains non-empty bards\nIDXS = slice(0, ANGLES_N - PAD)\n\n# The layout customization is the same as above\nfig, ax = plt.subplots(figsize=(20, 10), subplot_kw={\"projection\": \"polar\"})\n\nax.set_theta_offset(OFFSET)\nax.set_ylim(-100, 100)\nax.set_frame_on(False)\nax.xaxis.grid(False)\nax.yaxis.grid(False)\nax.set_xticks([])\nax.set_yticks([])\n\n# Add bars, subsetting angles to use only those that correspond to non-empty bars\nax.bar(\n    ANGLES[IDXS], VALUES, width=WIDTH, color=\"#61a4b2\", \n    edgecolor=\"white\", linewidth=2\n)\n\nadd_labels(ANGLES[IDXS], VALUES, LABELS, OFFSET, ax)","$23","# Reorder the dataframe\ndf_sorted = (\n    df\n    .groupby([\"group\"])\n    .apply(lambda x: x.sort_values([\"value\"], ascending = False))\n    .reset_index(drop=True)\n)","VALUES = df_sorted[\"value\"].values \nLABELS = df_sorted[\"name\"].values\nGROUP = df_sorted[\"group\"].values\n\nPAD = 3\nANGLES_N = len(VALUES) + PAD * len(np.unique(GROUP))\n\nANGLES = np.linspace(0, 2 * np.pi, num=ANGLES_N, endpoint=False)\nWIDTH = (2 * np.pi) / len(ANGLES)\n\nGROUPS_SIZE = [len(i[1]) for i in df.groupby(\"group\")]\n\n\noffset = 0\nIDXS = []\nfor size in GROUPS_SIZE:\n    IDXS += list(range(offset + PAD, offset + size + PAD))\n    offset += size + PAD\n\nfig, ax = plt.subplots(figsize=(20, 10), subplot_kw={\"projection\": \"polar\"})\n\nax.set_theta_offset(OFFSET)\nax.set_ylim(-100, 100)\nax.set_frame_on(False)\nax.xaxis.grid(False)\nax.yaxis.grid(False)\nax.set_xticks([])\nax.set_yticks([])\n\nGROUPS_SIZE = [len(i[1]) for i in df.groupby(\"group\")]\nCOLORS = [f\"C{i}\" for i, size in enumerate(GROUPS_SIZE) for _ in range(size)]\n\n# Add bars to represent ...\nax.bar(\n    ANGLES[IDXS], VALUES, width=WIDTH, color=COLORS, \n    edgecolor=\"white\", linewidth=2\n)\n\nadd_labels(ANGLES[IDXS], VALUES, LABELS, OFFSET, ax)","$24"],"children":"$L25"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$Le","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$Le","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$Le","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$Le","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$Le","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$Le","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L26"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L27",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L28",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L29",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@2a"}]}]
+20:true
+2b:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2c:Tb03,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Build a dataset</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({</span></span>
+<span class="line"><span style="color:#032F62">    "name"</span><span style="color:#24292E">: [</span><span style="color:#D73A49">f</span><span style="color:#032F62">"item </span><span style="color:#005CC5">{</span><span style="color:#24292E">i</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#D73A49"> for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">51</span><span style="color:#24292E">)],</span></span>
+<span class="line"><span style="color:#032F62">    "value"</span><span style="color:#24292E">: rng.integers(</span><span style="color:#E36209">low</span><span style="color:#D73A49">=</span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#E36209">high</span><span style="color:#D73A49">=</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">50</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    "group"</span><span style="color:#24292E">: [</span><span style="color:#032F62">"A"</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 10</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> [</span><span style="color:#032F62">"B"</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 20</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> [</span><span style="color:#032F62">"C"</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 12</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> [</span><span style="color:#032F62">"D"</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 8</span></span>
+<span class="line"><span style="color:#24292E">})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show 3 first rows</span></span>
+<span class="line"><span style="color:#24292E">df.head(</span><span style="color:#005CC5">3</span><span style="color:#24292E">)</span></span></code></pre>25:[["$","p","p-0",{"children":["A ",["$","a","a-0",{"href":"https://python-graph-gallery.com/circular-barplot/","children":"circular barplot"}]," is a ",["$","a","a-1",{"href":"https://python-graph-gallery.com/barplot/","children":"barplot"}]," where bars are displayed along a circle instead of a horizontal or vertical line. This page is the continuation of ",["$","a","a-2",{"href":"https://python-graph-gallery.com/circular-barplot-basic","children":"this post"}]," on basic circular barplots and aims to teach you how to make a circular barplot with groups."]}],"\n",["$","p","p-1",{"children":"Let's import the libraries needed and generate the data needed for today's guide."}],"\n",["$","$L2b","notebook-cell-0",{"index":0,"code":"import matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> matplotlib.pyplot </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> plt</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> numpy </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> np</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> pandas </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> pd</span></span></code></pre>","interactive":true,"hasChart":false}],"\n",["$","$L2b","notebook-cell-1",{"index":1,"code":"# Ensures reproducibility of random numbers\nrng = np.random.default_rng(123)","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Ensures reproducibility of random numbers</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">rng </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> np.random.default_rng(</span><span style=\"color:#005CC5\">123</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false}],"\n",["$","$L2b","notebook-cell-2",{"index":2,"code":"# Build a dataset\ndf = pd.DataFrame({\n    \"name\": [f\"item {i}\" for i in range(1, 51)],\n    \"value\": rng.integers(low=30, high=100, size=50),\n    \"group\": [\"A\"] * 10 + [\"B\"] * 20 + [\"C\"] * 12 + [\"D\"] * 8\n})\n\n# Show 3 first rows\ndf.head(3)","highlighted":"$2c","interactive":true,"hasChart":false,"output":"$L2d"}],"\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","$L33","\n","$L34","$L35","\n","$L36","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","$L3c","\n","$L3d","$L3e"]
+26:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+2a:null
+b:C
+2d:[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"name"}],["$","th","th-2",{"children":"value"}],["$","th","th-3",{"children":"group"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"item 1"}],["$","td","td-1",{"children":"31"}],["$","td","td-2",{"children":"A"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"item 2"}],["$","td","td-1",{"children":"77"}],["$","td","td-2",{"children":"A"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"item 3"}],["$","td","td-1",{"children":"71"}],["$","td","td-2",{"children":"A"}]]}]]}]]}],"\n"]}]}]]
+2e:["$","p","p-2",{"children":"The following is a helper function that given the angle at which the bar is positioned and the offset used in the barchart, determines the rotation and alignment of the labels."}]
+3f:T648,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> get_label_rotation</span><span style="color:#24292E">(angle, offset):</span></span>
+<span class="line"><span style="color:#6A737D">    # Rotation must be specified in degrees :(</span></span>
+<span class="line"><span style="color:#24292E">    rotation </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.rad2deg(angle </span><span style="color:#D73A49">+</span><span style="color:#24292E"> offset)</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> angle </span><span style="color:#D73A49">&#x3C;=</span><span style="color:#24292E"> np.pi:</span></span>
+<span class="line"><span style="color:#24292E">        alignment </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "right"</span></span>
+<span class="line"><span style="color:#24292E">        rotation </span><span style="color:#D73A49">=</span><span style="color:#24292E"> rotation </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 180</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">: </span></span>
+<span class="line"><span style="color:#24292E">        alignment </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "left"</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> rotation, alignment</span></span></code></pre>2f:["$","$L2b","notebook-cell-3",{"index":3,"code":"def get_label_rotation(angle, offset):\n    # Rotation must be specified in degrees :(\n    rotation = np.rad2deg(angle + offset)\n    if angle <= np.pi:\n        alignment = \"right\"\n        rotation = rotation + 180\n    else: \n        alignment = \"left\"\n    return rotation, alignment","highlighted":"$3f","interactive":true,"hasChart":false}]
+30:["$","p","p-3",{"children":["And this is the function that actually adds the labels (with ",["$","code","code-0",{"children":"ax.text()"}],") to the plot:"]}]
+40:Tc1b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> add_labels</span><span style="color:#24292E">(angles, values, labels, offset, ax):</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # This is the space between the end of the bar and the label</span></span>
+<span class="line"><span style="color:#24292E">    padding </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 4</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Iterate over angles, values, and labels, to add all of them.</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> angle, value, label, </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(angles, values, labels):</span></span>
+<span class="line"><span style="color:#24292E">        angle </span><span style="color:#D73A49">=</span><span style="color:#24292E"> angle</span></span>
+<span class="line"><span style="color:#24292E">        </span></span>
+<span class="line"><span style="color:#6A737D">        # Obtain text rotation and alignment</span></span>
+<span class="line"><span style="color:#24292E">        rotation, alignment </span><span style="color:#D73A49">=</span><span style="color:#24292E"> get_label_rotation(angle, offset)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # And finally add the text</span></span>
+<span class="line"><span style="color:#24292E">        ax.text(</span></span>
+<span class="line"><span style="color:#E36209">            x</span><span style="color:#D73A49">=</span><span style="color:#24292E">angle, </span></span>
+<span class="line"><span style="color:#E36209">            y</span><span style="color:#D73A49">=</span><span style="color:#24292E">value </span><span style="color:#D73A49">+</span><span style="color:#24292E"> padding, </span></span>
+<span class="line"><span style="color:#E36209">            s</span><span style="color:#D73A49">=</span><span style="color:#24292E">label, </span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#24292E">alignment, </span></span>
+<span class="line"><span style="color:#E36209">            va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">            rotation</span><span style="color:#D73A49">=</span><span style="color:#24292E">rotation, </span></span>
+<span class="line"><span style="color:#E36209">            rotation_mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">"anchor"</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span></code></pre>31:["$","$L2b","notebook-cell-4",{"index":4,"code":"def add_labels(angles, values, labels, offset, ax):\n    \n    # This is the space between the end of the bar and the label\n    padding = 4\n    \n    # Iterate over angles, values, and labels, to add all of them.\n    for angle, value, label, in zip(angles, values, labels):\n        angle = angle\n        \n        # Obtain text rotation and alignment\n        rotation, alignment = get_label_rotation(angle, offset)\n\n        # And finally add the text\n        ax.text(\n            x=angle, \n            y=value + padding, \n            s=label, \n            ha=alignment, \n            va=\"center\", \n            rotation=rotation, \n            rotation_mode=\"anchor\"\n        )","highlighted":"$40","interactive":true,"hasChart":false}]
+32:["$","h2","h2-0",{"children":"Basic circular barplot with labels"}]
+41:T413,ANGLES = np.linspace(0, 2 * np.pi, len(df), endpoint=False)
+VALUES = df["value"].values
+LABELS = df["name"].values
+
+# Determine the width of each bar. 
+# The circumference is '2 * pi', so we divide that total width over the number of bars.
+WIDTH = 2 * np.pi / len(VALUES)
+
+# Determines where to place the first bar. 
+# By default, matplotlib starts at 0 (the first bar is horizontal)
+# but here we say we want to start at pi/2 (90 deg)
+OFFSET = np.pi / 2
+
+# Initialize Figure and Axis
+fig, ax = plt.subplots(figsize=(20, 10), subplot_kw={"projection": "polar"})
+
+# Specify offset
+ax.set_theta_offset(OFFSET)
+
+# Set limits for radial (y) axis. The negative lower bound creates the whole in the middle.
+ax.set_ylim(-100, 100)
+
+# Remove all spines
+ax.set_frame_on(False)
+
+# Remove grid and tick marks
+ax.xaxis.grid(False)
+ax.yaxis.grid(False)
+ax.set_xticks([])
+ax.set_yticks([])
+
+# Add bars
+ax.bar(
+    ANGLES, VALUES, width=WIDTH, linewidth=2,
+    color="#61a4b2", edgecolor="white"
+)
+
+# Add labels
+add_labels(ANGLES, VALUES, LABELS, OFFSET, ax)42:T1897,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#005CC5">ANGLES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> np.linspace(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi, </span><span style="color:#005CC5">len</span><span style="color:#24292E">(df), </span><span style="color:#E36209">endpoint</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#005CC5">VALUES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"value"</span><span style="color:#24292E">].values</span></span>
+<span class="line"><span style="color:#005CC5">LABELS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">].values</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Determine the width of each bar. </span></span>
+<span class="line"><span style="color:#6A737D"># The circumference is '2 * pi', so we divide that total width over the number of bars.</span></span>
+<span class="line"><span style="color:#005CC5">WIDTH</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(</span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Determines where to place the first bar. </span></span>
+<span class="line"><span style="color:#6A737D"># By default, matplotlib starts at 0 (the first bar is horizontal)</span></span>
+<span class="line"><span style="color:#6A737D"># but here we say we want to start at pi/2 (90 deg)</span></span>
+<span class="line"><span style="color:#005CC5">OFFSET</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Initialize Figure and Axis</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">subplot_kw</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"projection"</span><span style="color:#24292E">: </span><span style="color:#032F62">"polar"</span><span style="color:#24292E">})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Specify offset</span></span>
+<span class="line"><span style="color:#24292E">ax.set_theta_offset(</span><span style="color:#005CC5">OFFSET</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set limits for radial (y) axis. The negative lower bound creates the whole in the middle.</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove all spines</span></span>
+<span class="line"><span style="color:#24292E">ax.set_frame_on(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove grid and tick marks</span></span>
+<span class="line"><span style="color:#24292E">ax.xaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.yaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks([])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add bars</span></span>
+<span class="line"><span style="color:#24292E">ax.bar(</span></span>
+<span class="line"><span style="color:#005CC5">    ANGLES</span><span style="color:#24292E">, </span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">WIDTH</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#61a4b2"</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add labels</span></span>
+<span class="line"><span style="color:#24292E">add_labels(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">, </span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">, </span><span style="color:#005CC5">LABELS</span><span style="color:#24292E">, </span><span style="color:#005CC5">OFFSET</span><span style="color:#24292E">, ax)</span></span></code></pre>33:["$","$L2b","notebook-cell-5",{"index":5,"code":"$41","highlighted":"$42","interactive":true,"hasChart":true,"intro":"$L43","output":"$L44"}]
+34:["$","h2","h2-1",{"children":"Add a gap in the circle"}]
+45:T16e8,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># 3 empty bars are added </span></span>
+<span class="line"><span style="color:#005CC5">PAD</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 3</span></span>
+<span class="line"><span style="color:#005CC5">ANGLES_N</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(</span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">) </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span></span>
+<span class="line"><span style="color:#005CC5">ANGLES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> np.linspace(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi, </span><span style="color:#E36209">num</span><span style="color:#D73A49">=</span><span style="color:#005CC5">ANGLES_N</span><span style="color:#24292E">, </span><span style="color:#E36209">endpoint</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#005CC5">WIDTH</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi) </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># The index contains non-empty bards</span></span>
+<span class="line"><span style="color:#005CC5">IDXS</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> slice</span><span style="color:#24292E">(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">ANGLES_N</span><span style="color:#D73A49"> -</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># The layout customization is the same as above</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">subplot_kw</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"projection"</span><span style="color:#24292E">: </span><span style="color:#032F62">"polar"</span><span style="color:#24292E">})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.set_theta_offset(</span><span style="color:#005CC5">OFFSET</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_frame_on(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.xaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.yaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks([])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add bars, subsetting angles to use only those that correspond to non-empty bars</span></span>
+<span class="line"><span style="color:#24292E">ax.bar(</span></span>
+<span class="line"><span style="color:#005CC5">    ANGLES</span><span style="color:#24292E">[</span><span style="color:#005CC5">IDXS</span><span style="color:#24292E">], </span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">WIDTH</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#61a4b2"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">add_labels(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[</span><span style="color:#005CC5">IDXS</span><span style="color:#24292E">], </span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">, </span><span style="color:#005CC5">LABELS</span><span style="color:#24292E">, </span><span style="color:#005CC5">OFFSET</span><span style="color:#24292E">, ax)</span></span></code></pre>35:["$","$L2b","notebook-cell-6",{"index":6,"code":"# 3 empty bars are added \nPAD = 3\nANGLES_N = len(VALUES) + PAD\nANGLES = np.linspace(0, 2 * np.pi, num=ANGLES_N, endpoint=False)\nWIDTH = (2 * np.pi) / len(ANGLES)\n\n# The index contains non-empty bards\nIDXS = slice(0, ANGLES_N - PAD)\n\n# The layout customization is the same as above\nfig, ax = plt.subplots(figsize=(20, 10), subplot_kw={\"projection\": \"polar\"})\n\nax.set_theta_offset(OFFSET)\nax.set_ylim(-100, 100)\nax.set_frame_on(False)\nax.xaxis.grid(False)\nax.yaxis.grid(False)\nax.set_xticks([])\nax.set_yticks([])\n\n# Add bars, subsetting angles to use only those that correspond to non-empty bars\nax.bar(\n    ANGLES[IDXS], VALUES, width=WIDTH, color=\"#61a4b2\", \n    edgecolor=\"white\", linewidth=2\n)\n\nadd_labels(ANGLES[IDXS], VALUES, LABELS, OFFSET, ax)","highlighted":"$45","interactive":true,"hasChart":true,"intro":"$L46","output":"$L47"}]
+36:["$","h2","h2-2",{"children":"Space between groups"}]
+48:T4d2,# Grab the group values
+GROUP = df["group"].values
+
+# Add three empty bars to the end of each group
+PAD = 3
+ANGLES_N = len(VALUES) + PAD * len(np.unique(GROUP))
+ANGLES = np.linspace(0, 2 * np.pi, num=ANGLES_N, endpoint=False)
+WIDTH = (2 * np.pi) / len(ANGLES)
+
+# Obtain size of each group
+GROUPS_SIZE = [len(i[1]) for i in df.groupby("group")]
+
+# Obtaining the right indexes is now a little more complicated
+offset = 0
+IDXS = []
+for size in GROUPS_SIZE:
+    IDXS += list(range(offset + PAD, offset + size + PAD))
+    offset += size + PAD
+
+# Same layout as above
+fig, ax = plt.subplots(figsize=(20, 10), subplot_kw={"projection": "polar"})
+
+ax.set_theta_offset(OFFSET)
+ax.set_ylim(-100, 100)
+ax.set_frame_on(False)
+ax.xaxis.grid(False)
+ax.yaxis.grid(False)
+ax.set_xticks([])
+ax.set_yticks([])
+
+# Use different colors for each group!
+GROUPS_SIZE = [len(i[1]) for i in df.groupby("group")]
+COLORS = [f"C{i}" for i, size in enumerate(GROUPS_SIZE) for _ in range(size)]
+
+# And finally add the bars. 
+# Note again the `ANGLES[IDXS]` to drop some angles that leave the space between bars.
+ax.bar(
+    ANGLES[IDXS], VALUES, width=WIDTH, color=COLORS, 
+    edgecolor="white", linewidth=2
+)
+
+add_labels(ANGLES[IDXS], VALUES, LABELS, OFFSET, ax)49:T2566,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Grab the group values</span></span>
+<span class="line"><span style="color:#005CC5">GROUP</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"group"</span><span style="color:#24292E">].values</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add three empty bars to the end of each group</span></span>
+<span class="line"><span style="color:#005CC5">PAD</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 3</span></span>
+<span class="line"><span style="color:#005CC5">ANGLES_N</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(</span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">) </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#D73A49"> *</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(np.unique(</span><span style="color:#005CC5">GROUP</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#005CC5">ANGLES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> np.linspace(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi, </span><span style="color:#E36209">num</span><span style="color:#D73A49">=</span><span style="color:#005CC5">ANGLES_N</span><span style="color:#24292E">, </span><span style="color:#E36209">endpoint</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#005CC5">WIDTH</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi) </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Obtain size of each group</span></span>
+<span class="line"><span style="color:#005CC5">GROUPS_SIZE</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#005CC5">len</span><span style="color:#24292E">(i[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">"group"</span><span style="color:#24292E">)]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Obtaining the right indexes is now a little more complicated</span></span>
+<span class="line"><span style="color:#24292E">offset </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0</span></span>
+<span class="line"><span style="color:#005CC5">IDXS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> []</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> size </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> GROUPS_SIZE</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#005CC5">    IDXS</span><span style="color:#D73A49"> +=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">range</span><span style="color:#24292E">(offset </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">, offset </span><span style="color:#D73A49">+</span><span style="color:#24292E"> size </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">    offset </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> size </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Same layout as above</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">subplot_kw</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"projection"</span><span style="color:#24292E">: </span><span style="color:#032F62">"polar"</span><span style="color:#24292E">})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.set_theta_offset(</span><span style="color:#005CC5">OFFSET</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_frame_on(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.xaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.yaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks([])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Use different colors for each group!</span></span>
+<span class="line"><span style="color:#005CC5">GROUPS_SIZE</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#005CC5">len</span><span style="color:#24292E">(i[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">"group"</span><span style="color:#24292E">)]</span></span>
+<span class="line"><span style="color:#005CC5">COLORS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#D73A49">f</span><span style="color:#032F62">"C</span><span style="color:#005CC5">{</span><span style="color:#24292E">i</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#D73A49"> for</span><span style="color:#24292E"> i, size </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">GROUPS_SIZE</span><span style="color:#24292E">) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> _ </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(size)]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># And finally add the bars. </span></span>
+<span class="line"><span style="color:#6A737D"># Note again the `ANGLES[IDXS]` to drop some angles that leave the space between bars.</span></span>
+<span class="line"><span style="color:#24292E">ax.bar(</span></span>
+<span class="line"><span style="color:#005CC5">    ANGLES</span><span style="color:#24292E">[</span><span style="color:#005CC5">IDXS</span><span style="color:#24292E">], </span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">WIDTH</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">COLORS</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">add_labels(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[</span><span style="color:#005CC5">IDXS</span><span style="color:#24292E">], </span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">, </span><span style="color:#005CC5">LABELS</span><span style="color:#24292E">, </span><span style="color:#005CC5">OFFSET</span><span style="color:#24292E">, ax)</span></span></code></pre>37:["$","$L2b","notebook-cell-7",{"index":7,"code":"$48","highlighted":"$49","interactive":true,"hasChart":true,"intro":"$L4a","output":"$L4b"}]
+38:["$","h2","h2-3",{"children":"Order bars"}]
+39:["$","p","p-4",{"children":"Here observations are sorted by bar height within each group. It can be useful if your goal is to understand what are the highest / lowest observations within and across groups."}]
+3a:["$","p","p-5",{"children":"The method does not modify the code to produce the plot, it only sort values using pandas methods. Basically, you just have to add the following piece of code right after the data frame creation:"}]
+4c:T4eb,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Reorder the dataframe</span></span>
+<span class="line"><span style="color:#24292E">df_sorted </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span></span>
+<span class="line"><span style="color:#24292E">    df</span></span>
+<span class="line"><span style="color:#24292E">    .groupby([</span><span style="color:#032F62">"group"</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">    .apply(</span><span style="color:#D73A49">lambda</span><span style="color:#24292E"> x: x.sort_values([</span><span style="color:#032F62">"value"</span><span style="color:#24292E">], </span><span style="color:#E36209">ascending</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> False</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">    .reset_index(</span><span style="color:#E36209">drop</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>3b:["$","$L2b","notebook-cell-8",{"index":8,"code":"# Reorder the dataframe\ndf_sorted = (\n    df\n    .groupby([\"group\"])\n    .apply(lambda x: x.sort_values([\"value\"], ascending = False))\n    .reset_index(drop=True)\n)","highlighted":"$4c","interactive":true,"hasChart":false}]
+4d:T2497,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#005CC5">VALUES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df_sorted[</span><span style="color:#032F62">"value"</span><span style="color:#24292E">].values </span></span>
+<span class="line"><span style="color:#005CC5">LABELS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df_sorted[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">].values</span></span>
+<span class="line"><span style="color:#005CC5">GROUP</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df_sorted[</span><span style="color:#032F62">"group"</span><span style="color:#24292E">].values</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5">PAD</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 3</span></span>
+<span class="line"><span style="color:#005CC5">ANGLES_N</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(</span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">) </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#D73A49"> *</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(np.unique(</span><span style="color:#005CC5">GROUP</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5">ANGLES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> np.linspace(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi, </span><span style="color:#E36209">num</span><span style="color:#D73A49">=</span><span style="color:#005CC5">ANGLES_N</span><span style="color:#24292E">, </span><span style="color:#E36209">endpoint</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#005CC5">WIDTH</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi) </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5">GROUPS_SIZE</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#005CC5">len</span><span style="color:#24292E">(i[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">"group"</span><span style="color:#24292E">)]</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">offset </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0</span></span>
+<span class="line"><span style="color:#005CC5">IDXS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> []</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> size </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> GROUPS_SIZE</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#005CC5">    IDXS</span><span style="color:#D73A49"> +=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">range</span><span style="color:#24292E">(offset </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">, offset </span><span style="color:#D73A49">+</span><span style="color:#24292E"> size </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">    offset </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> size </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">subplot_kw</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"projection"</span><span style="color:#24292E">: </span><span style="color:#032F62">"polar"</span><span style="color:#24292E">})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.set_theta_offset(</span><span style="color:#005CC5">OFFSET</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_frame_on(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.xaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.yaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks([])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5">GROUPS_SIZE</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#005CC5">len</span><span style="color:#24292E">(i[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">"group"</span><span style="color:#24292E">)]</span></span>
+<span class="line"><span style="color:#005CC5">COLORS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#D73A49">f</span><span style="color:#032F62">"C</span><span style="color:#005CC5">{</span><span style="color:#24292E">i</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#D73A49"> for</span><span style="color:#24292E"> i, size </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">GROUPS_SIZE</span><span style="color:#24292E">) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> _ </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(size)]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add bars to represent ...</span></span>
+<span class="line"><span style="color:#24292E">ax.bar(</span></span>
+<span class="line"><span style="color:#005CC5">    ANGLES</span><span style="color:#24292E">[</span><span style="color:#005CC5">IDXS</span><span style="color:#24292E">], </span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">WIDTH</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">COLORS</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">add_labels(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[</span><span style="color:#005CC5">IDXS</span><span style="color:#24292E">], </span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">, </span><span style="color:#005CC5">LABELS</span><span style="color:#24292E">, </span><span style="color:#005CC5">OFFSET</span><span style="color:#24292E">, ax)</span></span></code></pre>3c:["$","$L2b","notebook-cell-9",{"index":9,"code":"VALUES = df_sorted[\"value\"].values \nLABELS = df_sorted[\"name\"].values\nGROUP = df_sorted[\"group\"].values\n\nPAD = 3\nANGLES_N = len(VALUES) + PAD * len(np.unique(GROUP))\n\nANGLES = np.linspace(0, 2 * np.pi, num=ANGLES_N, endpoint=False)\nWIDTH = (2 * np.pi) / len(ANGLES)\n\nGROUPS_SIZE = [len(i[1]) for i in df.groupby(\"group\")]\n\n\noffset = 0\nIDXS = []\nfor size in GROUPS_SIZE:\n    IDXS += list(range(offset + PAD, offset + size + PAD))\n    offset += size + PAD\n\nfig, ax = plt.subplots(figsize=(20, 10), subplot_kw={\"projection\": \"polar\"})\n\nax.set_theta_offset(OFFSET)\nax.set_ylim(-100, 100)\nax.set_frame_on(False)\nax.xaxis.grid(False)\nax.yaxis.grid(False)\nax.set_xticks([])\nax.set_yticks([])\n\nGROUPS_SIZE = [len(i[1]) for i in df.groupby(\"group\")]\nCOLORS = [f\"C{i}\" for i, size in enumerate(GROUPS_SIZE) for _ in range(size)]\n\n# Add bars to represent ...\nax.bar(\n    ANGLES[IDXS], VALUES, width=WIDTH, color=COLORS, \n    edgecolor=\"white\", linewidth=2\n)\n\nadd_labels(ANGLES[IDXS], VALUES, LABELS, OFFSET, ax)","highlighted":"$4d","interactive":true,"hasChart":true,"output":"$L4e"}]
+3d:["$","h2","h2-4",{"children":"Circular barchart customization"}]
+4f:T762,# All this part is like the code above
+VALUES = df["value"].values
+LABELS = df["name"].values
+GROUP = df["group"].values
+
+PAD = 3
+ANGLES_N = len(VALUES) + PAD * len(np.unique(GROUP))
+ANGLES = np.linspace(0, 2 * np.pi, num=ANGLES_N, endpoint=False)
+WIDTH = (2 * np.pi) / len(ANGLES)
+
+GROUPS_SIZE = [len(i[1]) for i in df.groupby("group")]
+
+offset = 0
+IDXS = []
+for size in GROUPS_SIZE:
+    IDXS += list(range(offset + PAD, offset + size + PAD))
+    offset += size + PAD
+
+fig, ax = plt.subplots(figsize=(20, 10), subplot_kw={"projection": "polar"})
+ax.set_theta_offset(OFFSET)
+ax.set_ylim(-100, 100)
+ax.set_frame_on(False)
+ax.xaxis.grid(False)
+ax.yaxis.grid(False)
+ax.set_xticks([])
+ax.set_yticks([])
+
+GROUPS_SIZE = [len(i[1]) for i in df.groupby("group")]
+COLORS = [f"C{i}" for i, size in enumerate(GROUPS_SIZE) for _ in range(size)]
+
+ax.bar(
+    ANGLES[IDXS], VALUES, width=WIDTH, color=COLORS, 
+    edgecolor="white", linewidth=2
+)
+
+add_labels(ANGLES[IDXS], VALUES, LABELS, OFFSET, ax)
+
+# Extra customization below here --------------------
+
+# This iterates over the sizes of the groups adding reference
+# lines and annotations.
+
+offset = 0 
+for group, size in zip(["A", "B", "C", "D"], GROUPS_SIZE):
+    # Add line below bars
+    x1 = np.linspace(ANGLES[offset + PAD], ANGLES[offset + size + PAD - 1], num=50)
+    ax.plot(x1, [-5] * 50, color="#333333")
+    
+    # Add text to indicate group
+    ax.text(
+        np.mean(x1), -20, group, color="#333333", fontsize=14, 
+        fontweight="bold", ha="center", va="center"
+    )
+    
+    # Add reference lines at 20, 40, 60, and 80
+    x2 = np.linspace(ANGLES[offset], ANGLES[offset + PAD - 1], num=50)
+    ax.plot(x2, [20] * 50, color="#bebebe", lw=0.8)
+    ax.plot(x2, [40] * 50, color="#bebebe", lw=0.8)
+    ax.plot(x2, [60] * 50, color="#bebebe", lw=0.8)
+    ax.plot(x2, [80] * 50, color="#bebebe", lw=0.8)
+    
+    offset += size + PAD50:T408d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># All this part is like the code above</span></span>
+<span class="line"><span style="color:#005CC5">VALUES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"value"</span><span style="color:#24292E">].values</span></span>
+<span class="line"><span style="color:#005CC5">LABELS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">].values</span></span>
+<span class="line"><span style="color:#005CC5">GROUP</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"group"</span><span style="color:#24292E">].values</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5">PAD</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 3</span></span>
+<span class="line"><span style="color:#005CC5">ANGLES_N</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(</span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">) </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#D73A49"> *</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(np.unique(</span><span style="color:#005CC5">GROUP</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#005CC5">ANGLES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> np.linspace(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi, </span><span style="color:#E36209">num</span><span style="color:#D73A49">=</span><span style="color:#005CC5">ANGLES_N</span><span style="color:#24292E">, </span><span style="color:#E36209">endpoint</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#005CC5">WIDTH</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#005CC5">2</span><span style="color:#D73A49"> *</span><span style="color:#24292E"> np.pi) </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5">GROUPS_SIZE</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#005CC5">len</span><span style="color:#24292E">(i[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">"group"</span><span style="color:#24292E">)]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">offset </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0</span></span>
+<span class="line"><span style="color:#005CC5">IDXS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> []</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> size </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> GROUPS_SIZE</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#005CC5">    IDXS</span><span style="color:#D73A49"> +=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">range</span><span style="color:#24292E">(offset </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">, offset </span><span style="color:#D73A49">+</span><span style="color:#24292E"> size </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">    offset </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> size </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">20</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">subplot_kw</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"projection"</span><span style="color:#24292E">: </span><span style="color:#032F62">"polar"</span><span style="color:#24292E">})</span></span>
+<span class="line"><span style="color:#24292E">ax.set_theta_offset(</span><span style="color:#005CC5">OFFSET</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_frame_on(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.xaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.yaxis.grid(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks([])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5">GROUPS_SIZE</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#005CC5">len</span><span style="color:#24292E">(i[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">"group"</span><span style="color:#24292E">)]</span></span>
+<span class="line"><span style="color:#005CC5">COLORS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#D73A49">f</span><span style="color:#032F62">"C</span><span style="color:#005CC5">{</span><span style="color:#24292E">i</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#D73A49"> for</span><span style="color:#24292E"> i, size </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">GROUPS_SIZE</span><span style="color:#24292E">) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> _ </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(size)]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.bar(</span></span>
+<span class="line"><span style="color:#005CC5">    ANGLES</span><span style="color:#24292E">[</span><span style="color:#005CC5">IDXS</span><span style="color:#24292E">], </span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">WIDTH</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">COLORS</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">add_labels(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[</span><span style="color:#005CC5">IDXS</span><span style="color:#24292E">], </span><span style="color:#005CC5">VALUES</span><span style="color:#24292E">, </span><span style="color:#005CC5">LABELS</span><span style="color:#24292E">, </span><span style="color:#005CC5">OFFSET</span><span style="color:#24292E">, ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Extra customization below here --------------------</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># This iterates over the sizes of the groups adding reference</span></span>
+<span class="line"><span style="color:#6A737D"># lines and annotations.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">offset </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0</span><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> group, size </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">([</span><span style="color:#032F62">"A"</span><span style="color:#24292E">, </span><span style="color:#032F62">"B"</span><span style="color:#24292E">, </span><span style="color:#032F62">"C"</span><span style="color:#24292E">, </span><span style="color:#032F62">"D"</span><span style="color:#24292E">], </span><span style="color:#005CC5">GROUPS_SIZE</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#6A737D">    # Add line below bars</span></span>
+<span class="line"><span style="color:#24292E">    x1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.linspace(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[offset </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#24292E">], </span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[offset </span><span style="color:#D73A49">+</span><span style="color:#24292E"> size </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#D73A49"> -</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">], </span><span style="color:#E36209">num</span><span style="color:#D73A49">=</span><span style="color:#005CC5">50</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x1, [</span><span style="color:#D73A49">-</span><span style="color:#005CC5">5</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 50</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#333333"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add text to indicate group</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span></span>
+<span class="line"><span style="color:#24292E">        np.mean(x1), </span><span style="color:#D73A49">-</span><span style="color:#005CC5">20</span><span style="color:#24292E">, group, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#333333"</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add reference lines at 20, 40, 60, and 80</span></span>
+<span class="line"><span style="color:#24292E">    x2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.linspace(</span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[offset], </span><span style="color:#005CC5">ANGLES</span><span style="color:#24292E">[offset </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span><span style="color:#D73A49"> -</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">], </span><span style="color:#E36209">num</span><span style="color:#D73A49">=</span><span style="color:#005CC5">50</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x2, [</span><span style="color:#005CC5">20</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 50</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#bebebe"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x2, [</span><span style="color:#005CC5">40</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 50</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#bebebe"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x2, [</span><span style="color:#005CC5">60</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 50</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#bebebe"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x2, [</span><span style="color:#005CC5">80</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 50</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#bebebe"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">    offset </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> size </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> PAD</span></span></code></pre>3e:["$","$L2b","notebook-cell-10",{"index":10,"code":"$4f","highlighted":"$50","interactive":true,"hasChart":true,"intro":"$L51","output":"$L52"}]
+43:[["$","p","p-0",{"children":["Before creating a circular barplot with groups, let's review how to create a circular barplot with labels at the end of each bar. First of all, let's create ",["$","code","code-0",{"children":"ANGLES"}],", which give the positions where bars are located. The ",["$","code","code-1",{"children":"VALUES"}]," array contains the heights of the bars, and ",["$","code","code-2",{"children":"LABELS"}]," stores the labels."]}]]
+44:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/circular-barplot-with-groups/output-2.png","alt":"Circular barplot with groups in Matplotlib","width":616,"height":588,"loading":"lazy","decoding":"async"}]}]]
+46:[["$","p","p-0",{"children":["The next step is to build a circular barplot with a break in the circle. Actually, the approach is just to increase the number of values in ",["$","code","code-0",{"children":"ANGLES"}],", but leaving some of them unused so it creates the gap."]}]]
+47:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/circular-barplot-with-groups/output-3.png","alt":"Circular barplot with groups in Matplotlib","width":617,"height":586,"loading":"lazy","decoding":"async"}]}]]
+4a:[["$","p","p-0",{"children":["This concept can now be used to add space between each group of the dataset. In this case, ",["$","code","code-0",{"children":"PAD"}]," empty bars are added at the end of each group."]}],["$","p","p-1",{"children":"This chart is far more insightful since it allows one to quickly compare the different groups, and to compare the value of items within each group."}]]
+4b:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/circular-barplot-with-groups/output-4.png","alt":"Circular barplot with groups in Matplotlib","width":604,"height":584,"loading":"lazy","decoding":"async"}]}]]
+4e:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/circular-barplot-with-groups/output-5.png","alt":"Circular barplot with groups in Matplotlib","width":594,"height":573,"loading":"lazy","decoding":"async"}]}]]
+51:[["$","p","p-0",{"children":"Last but not least, it is highly advisable to add some customisation to your chart. Here we add group names (A, B, C and D), and we add a scale to help compare the sizes of the bars. Voila! The code is a bit long, but the result is quite worth it!"}]]
+52:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/circular-barplot-with-groups/output-6.png","alt":"Circular barplot with groups in Matplotlib","width":604,"height":584,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

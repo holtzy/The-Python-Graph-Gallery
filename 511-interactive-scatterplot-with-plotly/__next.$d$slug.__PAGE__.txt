@@ -1,0 +1,370 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Interactive scatterplot with Plotly"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/ScatterPlot150.webp","alt":"logo of a chart:ScatterPlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post describes how to create an <b>interactive scatterplot</b> with python using the <a href='https://python-graph-gallery.com/plotly/'>plotly</a> library.<br/>Interactivity on scatterplots is very handy: it allows to <b>zoom on a specific area</b> and have a <b>tooltip</b> for data point description.<br/> This tutorial starts with a simple example and then shows how to add features such as a level of <b>grouping</b> or a <b>trend line</b>.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/scatter-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Scatterplot section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/scatter.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"511-interactive-scatterplot-with-plotly","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Interactive scatterplot with Plotly"}],["$","meta","1",{"name":"description","content":"A tutorial explaining how to build an interactive scatterplot with plotly using the plotly library"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, scatter, plot, scatterplot, plotly, interactive, trendline"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/511-interactive-scatterplot-with-plotly/"}],["$","meta","6",{"property":"og:title","content":"Interactive scatterplot with Plotly"}],["$","meta","7",{"property":"og:description","content":"A tutorial explaining how to build an interactive scatterplot with plotly using the plotly library"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Interactive scatterplot with Plotly"}],["$","meta","13",{"name":"twitter:description","content":"A tutorial explaining how to build an interactive scatterplot with plotly using the plotly library"}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+25:I[44110,["$3","$4","$5","$6","$d"],"default"]
+26:I[59351,["$3","$4","$5","$6","$d"],"default"]
+27:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T4f6,# Create a dictionary to map categories to colors
+category_colors = {
+    'Group1': 'orange',
+    'Group2': 'purple'
+}
+
+# Create the scatter plot (for the moment: a blank graph)
+fig = go.Figure()
+
+# Add the scatter trace with color based on the category_variable
+for category, color in category_colors.items():
+    category_data = df[df['categorical_variable'] == category]
+    fig.add_trace(go.Scatter(
+        x=category_data['first_variable'], # Variable in the x-axis
+        y=category_data['second_variable'], # Variable in the y-axis
+        mode='markers', # This explicitly states that we want our observations to be represented by points
+        name=category,
+        
+        # Properties associated with points 
+        marker=dict(
+            size=12,
+            color=color,
+            opacity=0.7,
+            line=dict(width=2, color='black') # Properties of the edges
+        ),
+    ))
+
+# Customize the layout and change the figure size
+fig.update_layout(
+    title='Interactive Scatter Plot with a Categorical Variable', # Title
+    xaxis_title='First Variable', # x-axis name
+    yaxis_title='Second Variable', # y-axis name
+    width=800,  # Set the width of the figure to 800 pixels
+    height=600  # Set the height of the figure to 600 pixels
+)23:T700,# Function to fit linear or polynomial trendline
+def fit_trendline(x, y, degree):
+    coeffs = np.polyfit(x, y, degree)
+    return np.polyval(coeffs, x)
+
+# Create a dictionary to map categories to colors
+category_colors = {
+    'Group1': 'orange',
+    'Group2': 'purple'
+}
+
+# Create the scatter plot (for the moment: a blank graph)
+fig = go.Figure()
+
+# Add the scatter trace with color based on the category_variable
+for category, color in category_colors.items():
+    category_data = df[df['categorical_variable'] == category]
+    fig.add_trace(go.Scatter(
+        x=category_data['first_variable'], # Variable in the x-axis
+        y=category_data['second_variable'], # Variable in the y-axis
+        mode='markers', # This explicitly states that we want our observations to be represented by points
+        name=category,
+        
+        # Properties associated with points 
+        marker=dict(
+            size=12,
+            color=color,
+            opacity=0.7,
+            line=dict(width=2, color='black') # Properties of the edges
+        ),
+    ))
+
+# Fit the data with our function
+trendline_y = fit_trendline(df['first_variable'], df['second_variable'], degree=1)
+    
+fig.add_trace(go.Scatter(
+    x=df['first_variable'],
+    y=trendline_y,
+    mode='lines',
+    line=dict(color='black', dash='solid', width=3), # Dash the line to distinguish trendlines
+    showlegend=False  # Remove trendline from the legend
+))
+
+# Customize the layout and change the figure size
+fig.update_layout(
+    title='Interactive Scatter Plot with a Categorical Variable', # Title
+    xaxis_title='First Variable', # x-axis name
+    yaxis_title='Second Variable', # y-axis name
+    width=800,  # Set the width of the figure to 800 pixels
+    height=600  # Set the height of the figure to 600 pixels
+)f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["# Libraries\nimport plotly.graph_objects as go\nimport pandas as pd\nimport numpy as np","# Generate a sample of 100 observations\nsample_size = 200\nx = np.random.uniform(30, 20, sample_size)\ny = x * 10 + np.random.normal(0, 10, sample_size)\n\n# Put the data into a pandas df\ndf = pd.DataFrame({'x': x,\n                   'y': y})","# Create the figure (for the moment: a blank graph)\nfig = go.Figure()\n\n# Add the scatter trace\nfig.add_trace(go.Scatter( \n    x=df['x'], # Variable in the x-axis\n    y=df['y'], # Variable in the y-axis\n    mode='markers', # This explicitly states that we want our observations to be represented by points\n    \n    # Properties associated with points \n    marker=dict(\n        size=12, # Size\n        color='#cb1dd1', # Color\n        opacity=0.8, # Point transparency \n        line=dict(width=1, color='black') # Properties of the edges\n    ),\n))\n\n# Customize the layout\nfig.update_layout(\n    title='Interactive Scatter Plot', # Title\n    xaxis_title='First Variable', # x-axis name\n    yaxis_title='Second Variable', # y-axis name\n    width=800,  # Set the width of the figure to 800 pixels\n    height=600,  # Set the height of the figure to 600 pixels\n)","# save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/scatterplot-plotly-basic.html\")","# Generate a sample of 100 observations\nsample_size = 200\nfirst_variable = np.random.uniform(30, 20, sample_size)\nsecond_variable = first_variable * 10 + np.random.normal(0, 10, sample_size)\ncategorical_variable = ['Group1' if i < 25 else 'Group2' for i in first_variable]\n\n# Put the data into a pandas df\ndf = pd.DataFrame({'first_variable': first_variable,\n                   'second_variable': second_variable,\n                   'categorical_variable': categorical_variable,})","$22","# save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/scatterplot-plotly-grouping.html\")","$23","# save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/scatterplot-plotly-trendline.html\")"],"children":"$L24"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","scatter",{"href":"/scatter-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ScatterPlot150.webp","alt":"logo of a chart:ScatterPlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Scatterplot"}]]}],["$","$Le","heatmap",{"href":"/heatmap/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Heatmap150.webp","alt":"logo of a chart:Heatmap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Heatmap"}]]}],["$","$Le","correlogram",{"href":"/correlogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Correlogram150.webp","alt":"logo of a chart:Correlogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Correlogram"}]]}],["$","$Le","bubble",{"href":"/bubble-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/BubblePlot150.webp","alt":"logo of a chart:BubblePlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Bubble"}]]}],["$","$Le","connectedScatter",{"href":"/connected-scatter-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ScatterConnected150.webp","alt":"logo of a chart:ScatterConnected","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Connected Scatter"}]]}],["$","$Le","density2d",{"href":"/2d-density-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/2dDensity150.webp","alt":"logo of a chart:2dDensity","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"2D Density"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L25",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L26",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L27",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+20:true
+29:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+24:[["$","h2","h2-0",{"children":"What is a scatter plot?"}],"\n",["$","p","p-0",{"children":["A ",["$","a","a-0",{"href":"https://python-graph-gallery.com/scatter-plot/","children":"scatter plot"}]," is a simple yet powerful way to visually represent ",["$","strong","strong-0",{"children":"data relationships"}]," by displaying points on a graph."]}],"\n",["$","p","p-1",{"children":["Imagine a coordinate system, where the horizontal ",["$","code","code-0",{"children":"(x) axis"}]," represents one variable, and the ",["$","code","code-1",{"children":"vertical (y)"}]," axis represents another. Each data point corresponds to a specific observation and is represented by its coordinates on the graph. By looking at the distribution of points, we can easily ",["$","strong","strong-0",{"children":"identify patterns or trends"}],", such as correlations, clusters, or outliers."]}],"\n",["$","p","p-2",{"children":["Essentially, a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/scatter-plot/","children":"scatter plot"}]," allows us to see ",["$","strong","strong-0",{"children":"how two variables might be related"}]," or influenced by each other, making it a valuable tool for understanding data and drawing insights in a visual and intuitive manner."]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-3",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/plotly/","children":"Plotly"}]," is a library designed for ",["$","strong","strong-0",{"children":"interactive visualization"}]," with python."]}],"\n",["$","p","p-4",{"children":["If you want to use plotly, you can either use the ",["$","code","code-0",{"children":"plotly.express"}]," module (",["$","code","code-1",{"children":"px"}],") or the ",["$","code","code-2",{"children":"plotly.graph_objects"}]," module (",["$","code","code-3",{"children":"go"}],"). The main difference between these modules is the ",["$","em","em-0",{"children":"\"level\""}],": the ",["$","code","code-4",{"children":"px"}]," module is easier to use (",["$","em","em-1",{"children":"high level"}],"), but if you want to do something ",["$","strong","strong-0",{"children":"very specific and need flexibility"}],", I recommend you use the ",["$","code","code-5",{"children":"go"}]," module (",["$","em","em-2",{"children":"lower level"}],")."]}],"\n",["$","p","p-5",{"children":["Don't forget to install ",["$","a","a-0",{"href":"https://python-graph-gallery.com/plotly/","children":"plotly"}]," with the ",["$","code","code-0",{"children":"pip install plotly"}]," command."]}],"\n",["$","p","p-6",{"children":["In our case, we'll use the ",["$","code","code-0",{"children":"go"}]," module (or ",["$","code","code-1",{"children":"graph_objects"}],"). We will also use ",["$","code","code-2",{"children":"numpy"}]," and ",["$","code","code-3",{"children":"pandas"}]," to ",["$","strong","strong-0",{"children":"generate data"}]," and put it into a dataframe."]}],"\n",["$","$L29","notebook-cell-0",{"index":0,"code":"# Libraries\nimport plotly.graph_objects as go\nimport pandas as pd\nimport numpy as np","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Libraries</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> plotly.graph_objects </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> go</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> pandas </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> pd</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> numpy </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> np</span></span></code></pre>","interactive":true,"hasChart":false}],"\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b"]
+28:null
+b:C
+2a:["$","h2","h2-2",{"children":"Dataset"}]
+2b:["$","p","p-7",{"children":["Since scatterplots are intended to represent 2 continuous variables, let's generate a sample of 200 randomly distributed observations using numpy and its functions ",["$","code","code-0",{"children":"random.normal()"}]," and ",["$","code","code-1",{"children":"random.uniform()"}],"."]}]
+4c:T644,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Generate a sample of 100 observations</span></span>
+<span class="line"><span style="color:#24292E">sample_size </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 200</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.uniform(</span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#005CC5">20</span><span style="color:#24292E">, sample_size)</span></span>
+<span class="line"><span style="color:#24292E">y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> x </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 10</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> np.random.normal(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, sample_size)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Put the data into a pandas df</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({</span><span style="color:#032F62">'x'</span><span style="color:#24292E">: x,</span></span>
+<span class="line"><span style="color:#032F62">                   'y'</span><span style="color:#24292E">: y})</span></span></code></pre>2c:["$","$L29","notebook-cell-1",{"index":1,"code":"# Generate a sample of 100 observations\nsample_size = 200\nx = np.random.uniform(30, 20, sample_size)\ny = x * 10 + np.random.normal(0, 10, sample_size)\n\n# Put the data into a pandas df\ndf = pd.DataFrame({'x': x,\n                   'y': y})","highlighted":"$4c","interactive":true,"hasChart":false}]
+2d:["$","h2","h2-3",{"children":"Basic scatter plot"}]
+2e:["$","p","p-8",{"children":["The following code displays a simple scatter plot, with a title and an axis name, thanks to the ",["$","code","code-0",{"children":"Scatter()"}]," function."]}]
+2f:["$","p","p-9",{"children":["The ",["$","code","code-0",{"children":"fig.add_trace(go.Scatter([...]"}]," line tells the program to ",["$","strong","strong-0",{"children":"add a new trace"}]," (data series) to a figure (",["$","code","code-1",{"children":"fig"}],") that we initiated just before. In this case, the trace is a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/scatter-plot/","children":"scatter plot"}],"."]}]
+4d:T124c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create the figure (for the moment: a blank graph)</span></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> go.Figure()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add the scatter trace</span></span>
+<span class="line"><span style="color:#24292E">fig.add_trace(go.Scatter( </span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'x'</span><span style="color:#24292E">], </span><span style="color:#6A737D"># Variable in the x-axis</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'y'</span><span style="color:#24292E">], </span><span style="color:#6A737D"># Variable in the y-axis</span></span>
+<span class="line"><span style="color:#E36209">    mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">'markers'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># This explicitly states that we want our observations to be represented by points</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Properties associated with points </span></span>
+<span class="line"><span style="color:#E36209">    marker</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Size</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'#cb1dd1'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Color</span></span>
+<span class="line"><span style="color:#E36209">        opacity</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Point transparency </span></span>
+<span class="line"><span style="color:#E36209">        line</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Properties of the edges</span></span>
+<span class="line"><span style="color:#24292E">    ),</span></span>
+<span class="line"><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Customize the layout</span></span>
+<span class="line"><span style="color:#24292E">fig.update_layout(</span></span>
+<span class="line"><span style="color:#E36209">    title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Interactive Scatter Plot'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Title</span></span>
+<span class="line"><span style="color:#E36209">    xaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'First Variable'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># x-axis name</span></span>
+<span class="line"><span style="color:#E36209">    yaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Second Variable'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># y-axis name</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">800</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Set the width of the figure to 800 pixels</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">600</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Set the height of the figure to 600 pixels</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>30:["$","$L29","notebook-cell-2",{"index":2,"code":"# Create the figure (for the moment: a blank graph)\nfig = go.Figure()\n\n# Add the scatter trace\nfig.add_trace(go.Scatter( \n    x=df['x'], # Variable in the x-axis\n    y=df['y'], # Variable in the y-axis\n    mode='markers', # This explicitly states that we want our observations to be represented by points\n    \n    # Properties associated with points \n    marker=dict(\n        size=12, # Size\n        color='#cb1dd1', # Color\n        opacity=0.8, # Point transparency \n        line=dict(width=1, color='black') # Properties of the edges\n    ),\n))\n\n# Customize the layout\nfig.update_layout(\n    title='Interactive Scatter Plot', # Title\n    xaxis_title='First Variable', # x-axis name\n    yaxis_title='Second Variable', # y-axis name\n    width=800,  # Set the width of the figure to 800 pixels\n    height=600,  # Set the height of the figure to 600 pixels\n)","highlighted":"$4d","interactive":true,"hasChart":false}]
+31:["$","p","p-10",{"children":["Now, let's save the graph in a HTML file and display it in this website using an ",["$","code","code-0",{"children":"iframe"}]]}]
+32:["$","$L29","notebook-cell-3",{"index":3,"code":"# save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/scatterplot-plotly-basic.html\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># save this file as a standalong html file:</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">fig.write_html(</span><span style=\"color:#032F62\">\"../../static/interactiveCharts/scatterplot-plotly-basic.html\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false}]
+33:["$","div","div-0",{"className":"code-snippet"}]
+34:["$","div","div-1",{"className":"cell-output","children":["$","div","div-0",{"className":"cell-output-html","children":[["$","iframe","iframe-0",{"src":"../../interactiveCharts/scatterplot-plotly-basic.html","width":800,"height":600,"title":"scatterplot with plotly","style":{"border":"none"},"children":"\n"}],"\n"]}]}]
+35:["$","p","p-11",{"children":"That's it, a first interactive scatterplot! 🔥 Try to hover markers, zoom on a specific area to understand the full potential of this chart."}]
+36:["$","h2","h2-4",{"children":"Add a grouping variable"}]
+37:["$","p","p-12",{"children":["If you want to ",["$","strong","strong-0",{"children":"display a grouping variable"}]," on a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/scatter-plot/","children":"scatter plot"}],", you can ",["$","em","em-0",{"children":"change the color"}]," of the points according to the labels of the categorical variable."]}]
+38:["$","p","p-13",{"children":["To do this with ",["$","a","a-0",{"href":"https://python-graph-gallery.com/plotly/","children":"plotly"}],", we'll need to define the colors we want for each label and then ",["$","strong","strong-0",{"children":"iterate over each label"}]," to add the associated points."]}]
+39:["$","p","p-14",{"children":["We need to ",["$","strong","strong-0",{"children":"create and add a categorical variable"}]," to our initial data set. To do this, we use a ",["$","strong","strong-1",{"children":"comprehension list"}]," which will assign the value ",["$","code","code-0",{"children":"'Group1'"}]," to observations with a value less than 25 for the ",["$","code","code-1",{"children":"first_variable"}],", ",["$","code","code-2",{"children":"'Group2'"}]," otherwise:"]}]
+4e:T99f,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Generate a sample of 100 observations</span></span>
+<span class="line"><span style="color:#24292E">sample_size </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 200</span></span>
+<span class="line"><span style="color:#24292E">first_variable </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.uniform(</span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#005CC5">20</span><span style="color:#24292E">, sample_size)</span></span>
+<span class="line"><span style="color:#24292E">second_variable </span><span style="color:#D73A49">=</span><span style="color:#24292E"> first_variable </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 10</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> np.random.normal(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, sample_size)</span></span>
+<span class="line"><span style="color:#24292E">categorical_variable </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'Group1'</span><span style="color:#D73A49"> if</span><span style="color:#24292E"> i </span><span style="color:#D73A49">&#x3C;</span><span style="color:#005CC5"> 25</span><span style="color:#D73A49"> else</span><span style="color:#032F62"> 'Group2'</span><span style="color:#D73A49"> for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> first_variable]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Put the data into a pandas df</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({</span><span style="color:#032F62">'first_variable'</span><span style="color:#24292E">: first_variable,</span></span>
+<span class="line"><span style="color:#032F62">                   'second_variable'</span><span style="color:#24292E">: second_variable,</span></span>
+<span class="line"><span style="color:#032F62">                   'categorical_variable'</span><span style="color:#24292E">: categorical_variable,})</span></span></code></pre>3a:["$","$L29","notebook-cell-4",{"index":4,"code":"# Generate a sample of 100 observations\nsample_size = 200\nfirst_variable = np.random.uniform(30, 20, sample_size)\nsecond_variable = first_variable * 10 + np.random.normal(0, 10, sample_size)\ncategorical_variable = ['Group1' if i < 25 else 'Group2' for i in first_variable]\n\n# Put the data into a pandas df\ndf = pd.DataFrame({'first_variable': first_variable,\n                   'second_variable': second_variable,\n                   'categorical_variable': categorical_variable,})","highlighted":"$4e","interactive":true,"hasChart":false}]
+3b:["$","p","p-15",{"children":["Now, let's create a scatterplot using the ",["$","code","code-0",{"children":"group"}]," variable to color the markers:"]}]
+4f:T4f6,# Create a dictionary to map categories to colors
+category_colors = {
+    'Group1': 'orange',
+    'Group2': 'purple'
+}
+
+# Create the scatter plot (for the moment: a blank graph)
+fig = go.Figure()
+
+# Add the scatter trace with color based on the category_variable
+for category, color in category_colors.items():
+    category_data = df[df['categorical_variable'] == category]
+    fig.add_trace(go.Scatter(
+        x=category_data['first_variable'], # Variable in the x-axis
+        y=category_data['second_variable'], # Variable in the y-axis
+        mode='markers', # This explicitly states that we want our observations to be represented by points
+        name=category,
+        
+        # Properties associated with points 
+        marker=dict(
+            size=12,
+            color=color,
+            opacity=0.7,
+            line=dict(width=2, color='black') # Properties of the edges
+        ),
+    ))
+
+# Customize the layout and change the figure size
+fig.update_layout(
+    title='Interactive Scatter Plot with a Categorical Variable', # Title
+    xaxis_title='First Variable', # x-axis name
+    yaxis_title='Second Variable', # y-axis name
+    width=800,  # Set the width of the figure to 800 pixels
+    height=600  # Set the height of the figure to 600 pixels
+)50:T17b4,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a dictionary to map categories to colors</span></span>
+<span class="line"><span style="color:#24292E">category_colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    'Group1'</span><span style="color:#24292E">: </span><span style="color:#032F62">'orange'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Group2'</span><span style="color:#24292E">: </span><span style="color:#032F62">'purple'</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create the scatter plot (for the moment: a blank graph)</span></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> go.Figure()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add the scatter trace with color based on the category_variable</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> category, color </span><span style="color:#D73A49">in</span><span style="color:#24292E"> category_colors.items():</span></span>
+<span class="line"><span style="color:#24292E">    category_data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'categorical_variable'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> category]</span></span>
+<span class="line"><span style="color:#24292E">    fig.add_trace(go.Scatter(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#24292E">category_data[</span><span style="color:#032F62">'first_variable'</span><span style="color:#24292E">], </span><span style="color:#6A737D"># Variable in the x-axis</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">category_data[</span><span style="color:#032F62">'second_variable'</span><span style="color:#24292E">], </span><span style="color:#6A737D"># Variable in the y-axis</span></span>
+<span class="line"><span style="color:#E36209">        mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">'markers'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># This explicitly states that we want our observations to be represented by points</span></span>
+<span class="line"><span style="color:#E36209">        name</span><span style="color:#D73A49">=</span><span style="color:#24292E">category,</span></span>
+<span class="line"><span style="color:#24292E">        </span></span>
+<span class="line"><span style="color:#6A737D">        # Properties associated with points </span></span>
+<span class="line"><span style="color:#E36209">        marker</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">            size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">            opacity</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            line</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Properties of the edges</span></span>
+<span class="line"><span style="color:#24292E">        ),</span></span>
+<span class="line"><span style="color:#24292E">    ))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Customize the layout and change the figure size</span></span>
+<span class="line"><span style="color:#24292E">fig.update_layout(</span></span>
+<span class="line"><span style="color:#E36209">    title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Interactive Scatter Plot with a Categorical Variable'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Title</span></span>
+<span class="line"><span style="color:#E36209">    xaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'First Variable'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># x-axis name</span></span>
+<span class="line"><span style="color:#E36209">    yaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Second Variable'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># y-axis name</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">800</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Set the width of the figure to 800 pixels</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">600</span><span style="color:#6A737D">  # Set the height of the figure to 600 pixels</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>3c:["$","$L29","notebook-cell-5",{"index":5,"code":"$4f","highlighted":"$50","interactive":true,"hasChart":false}]
+3d:["$","p","p-16",{"children":"Save in HTML and display:"}]
+3e:["$","$L29","notebook-cell-6",{"index":6,"code":"# save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/scatterplot-plotly-grouping.html\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># save this file as a standalong html file:</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">fig.write_html(</span><span style=\"color:#032F62\">\"../../static/interactiveCharts/scatterplot-plotly-grouping.html\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false}]
+3f:["$","div","div-2",{"className":"code-snippet"}]
+40:["$","div","div-3",{"className":"cell-output","children":["$","div","div-0",{"className":"cell-output-html","children":[["$","iframe","iframe-0",{"src":"../../interactiveCharts/scatterplot-plotly-grouping.html","width":800,"height":600,"title":"scatterplot with plotly","style":{"border":"none"},"children":"\n"}],"\n"]}]}]
+41:["$","h2","h2-5",{"children":"Add a trendline (linear or polynomial)"}]
+42:["$","p","p-17",{"children":["Adding a trendline to a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/scatter-plot/","children":"scatter plot"}]," serves the purpose of visually representing the ",["$","strong","strong-0",{"children":"overall trend or pattern"}]," in the data. It helps in understanding the general ",["$","strong","strong-1",{"children":"relationship"}]," between two variables and provides insights into how they might be related."]}]
+43:["$","p","p-18",{"children":["For this purpose, we've created a function ",["$","code","code-0",{"children":"fit_trendline()"}]," to ",["$","strong","strong-0",{"children":"fit a relationship"}]," between 2 quantitative variables, for a ",["$","strong","strong-1",{"children":"given degree"}],". A degree of 1 is equivalent to fit a ",["$","strong","strong-2",{"children":"linear"}]," relationship."]}]
+44:["$","p","p-19",{"children":["Once the data has been fitted, simply ",["$","strong","strong-0",{"children":"add the line"}]," to the graph and define a few styling parameters."]}]
+51:T700,# Function to fit linear or polynomial trendline
+def fit_trendline(x, y, degree):
+    coeffs = np.polyfit(x, y, degree)
+    return np.polyval(coeffs, x)
+
+# Create a dictionary to map categories to colors
+category_colors = {
+    'Group1': 'orange',
+    'Group2': 'purple'
+}
+
+# Create the scatter plot (for the moment: a blank graph)
+fig = go.Figure()
+
+# Add the scatter trace with color based on the category_variable
+for category, color in category_colors.items():
+    category_data = df[df['categorical_variable'] == category]
+    fig.add_trace(go.Scatter(
+        x=category_data['first_variable'], # Variable in the x-axis
+        y=category_data['second_variable'], # Variable in the y-axis
+        mode='markers', # This explicitly states that we want our observations to be represented by points
+        name=category,
+        
+        # Properties associated with points 
+        marker=dict(
+            size=12,
+            color=color,
+            opacity=0.7,
+            line=dict(width=2, color='black') # Properties of the edges
+        ),
+    ))
+
+# Fit the data with our function
+trendline_y = fit_trendline(df['first_variable'], df['second_variable'], degree=1)
+    
+fig.add_trace(go.Scatter(
+    x=df['first_variable'],
+    y=trendline_y,
+    mode='lines',
+    line=dict(color='black', dash='solid', width=3), # Dash the line to distinguish trendlines
+    showlegend=False  # Remove trendline from the legend
+))
+
+# Customize the layout and change the figure size
+fig.update_layout(
+    title='Interactive Scatter Plot with a Categorical Variable', # Title
+    xaxis_title='First Variable', # x-axis name
+    yaxis_title='Second Variable', # y-axis name
+    width=800,  # Set the width of the figure to 800 pixels
+    height=600  # Set the height of the figure to 600 pixels
+)52:T2329,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Function to fit linear or polynomial trendline</span></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> fit_trendline</span><span style="color:#24292E">(x, y, degree):</span></span>
+<span class="line"><span style="color:#24292E">    coeffs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.polyfit(x, y, degree)</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> np.polyval(coeffs, x)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create a dictionary to map categories to colors</span></span>
+<span class="line"><span style="color:#24292E">category_colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    'Group1'</span><span style="color:#24292E">: </span><span style="color:#032F62">'orange'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    'Group2'</span><span style="color:#24292E">: </span><span style="color:#032F62">'purple'</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create the scatter plot (for the moment: a blank graph)</span></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> go.Figure()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add the scatter trace with color based on the category_variable</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> category, color </span><span style="color:#D73A49">in</span><span style="color:#24292E"> category_colors.items():</span></span>
+<span class="line"><span style="color:#24292E">    category_data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'categorical_variable'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> category]</span></span>
+<span class="line"><span style="color:#24292E">    fig.add_trace(go.Scatter(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#24292E">category_data[</span><span style="color:#032F62">'first_variable'</span><span style="color:#24292E">], </span><span style="color:#6A737D"># Variable in the x-axis</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">category_data[</span><span style="color:#032F62">'second_variable'</span><span style="color:#24292E">], </span><span style="color:#6A737D"># Variable in the y-axis</span></span>
+<span class="line"><span style="color:#E36209">        mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">'markers'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># This explicitly states that we want our observations to be represented by points</span></span>
+<span class="line"><span style="color:#E36209">        name</span><span style="color:#D73A49">=</span><span style="color:#24292E">category,</span></span>
+<span class="line"><span style="color:#24292E">        </span></span>
+<span class="line"><span style="color:#6A737D">        # Properties associated with points </span></span>
+<span class="line"><span style="color:#E36209">        marker</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">            size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">            opacity</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            line</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># Properties of the edges</span></span>
+<span class="line"><span style="color:#24292E">        ),</span></span>
+<span class="line"><span style="color:#24292E">    ))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Fit the data with our function</span></span>
+<span class="line"><span style="color:#24292E">trendline_y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fit_trendline(df[</span><span style="color:#032F62">'first_variable'</span><span style="color:#24292E">], df[</span><span style="color:#032F62">'second_variable'</span><span style="color:#24292E">], </span><span style="color:#E36209">degree</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">fig.add_trace(go.Scatter(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'first_variable'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">trendline_y,</span></span>
+<span class="line"><span style="color:#E36209">    mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lines'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    line</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">dash</span><span style="color:#D73A49">=</span><span style="color:#032F62">'solid'</span><span style="color:#24292E">, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">), </span><span style="color:#6A737D"># Dash the line to distinguish trendlines</span></span>
+<span class="line"><span style="color:#E36209">    showlegend</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#6A737D">  # Remove trendline from the legend</span></span>
+<span class="line"><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Customize the layout and change the figure size</span></span>
+<span class="line"><span style="color:#24292E">fig.update_layout(</span></span>
+<span class="line"><span style="color:#E36209">    title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Interactive Scatter Plot with a Categorical Variable'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Title</span></span>
+<span class="line"><span style="color:#E36209">    xaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'First Variable'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># x-axis name</span></span>
+<span class="line"><span style="color:#E36209">    yaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Second Variable'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># y-axis name</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">800</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Set the width of the figure to 800 pixels</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">600</span><span style="color:#6A737D">  # Set the height of the figure to 600 pixels</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>45:["$","$L29","notebook-cell-7",{"index":7,"code":"$51","highlighted":"$52","interactive":true,"hasChart":false}]
+46:["$","$L29","notebook-cell-8",{"index":8,"code":"# save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/scatterplot-plotly-trendline.html\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># save this file as a standalong html file:</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">fig.write_html(</span><span style=\"color:#032F62\">\"../../static/interactiveCharts/scatterplot-plotly-trendline.html\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false}]
+47:["$","div","div-4",{"className":"code-snippet"}]
+48:["$","div","div-5",{"className":"cell-output","children":["$","div","div-0",{"className":"cell-output-html","children":[["$","iframe","iframe-0",{"src":"../../interactiveCharts/scatterplot-plotly-trendline.html","width":800,"height":600,"title":"scatterplot with plotly","style":{"border":"none"},"children":"\n"}],"\n"]}]}]
+49:["$","h2","h2-6",{"children":"Going further"}]
+4a:["$","p","p-20",{"children":["This article explains how to create an interactive scatter plot with ",["$","a","a-0",{"href":"https://python-graph-gallery.com/plotly/","children":"plotly"}]," with various customization features, such as adding a categorical variable or a trendline."]}]
+4b:["$","p","p-21",{"children":["For more examples of ",["$","strong","strong-0",{"children":"how to create or customize"}]," your scatter plots with Python, see the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/scatter-plot/","children":"scatter plot section"}],". You may also be interested in creating a ",["$","a","a-1",{"href":"https://python-graph-gallery.com/82-marginal-plot-with-seaborn/","children":"scatter plot with marginal distribution"}],"."]}]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

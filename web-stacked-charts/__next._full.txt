@@ -1,0 +1,1637 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/09q85_ay6xdo0.js"
+3:"/_next/static/chunks/21dxsc4p3jeoz.js"
+4:"/_next/static/chunks/1d1qeiuriwpmz.js"
+5:"/_next/static/chunks/1u5pxdefkf32d.js"
+6:I[62319,["$2","$3","$4","$5"],"default"]
+7:I[39756,["$2","$3","$4","$5"],"default"]
+8:I[37457,["$2","$3","$4","$5"],"default"]
+9:"/_next/static/chunks/354p-aqxaih3m.js"
+a:I[22016,["$2","$3","$4","$5","$9"],""]
+b:I[44110,["$2","$3","$4","$5","$9"],"default"]
+19:I[68027,["$2","$3","$4","$5"],"default",1]
+:HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
+:HL["/_next/static/chunks/1ms0qnrh2aktb.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":{"n":"slug","t":"d","k":"web-stacked-charts","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":66048,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","web-stacked-charts",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/09q85_ay6xdo0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/21dxsc4p3jeoz.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1d1qeiuriwpmz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1u5pxdefkf32d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"JdxiwG_variable iGg3zq_variable antialiased","children":[["$","head",null,{"children":["$","link",null,{"rel":"sitemap","type":"application/xml","href":"/sitemap-index.xml"}]}],["$","body",null,{"children":[["$","$L6",null,{}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":[["$","h2",null,{"id":"404","children":" 😞 Oh No 😞 | 404"}],["$","p",null,{"children":"It looks like there is nothing here anymore."}],["$","p",null,{"children":["Please go back to the ",["$","$La",null,{"href":"/","children":"gallery home page"}]," and check if you can find your graph!"]}]]}],["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}],["$","div",null,{"className":"h-16 sm:h-20"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-24 border-t py-8 text-sm text-muted-foreground","children":["$","div",null,{"className":"mx-auto max-w-5xl px-5","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-4 sm:flex-row","children":[["$","div",null,{"children":["Copyright © the Python Graph Gallery ",2026]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","a","https://github.com/holtzy",{"href":"https://github.com/holtzy","aria-label":"Link to Yan Holtz Github profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 496 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"$c"}]}]}],"$Ld","$Le","$Lf"]}],"$L10"]}]}]}],"$L11","$L12"]}]]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",["$L1a","$L1b"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+1c:I[79520,["$2","$3","$4","$5"],""]
+1e:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:"ViewportBoundary"
+22:I[97367,["$2","$3","$4","$5"],"$21"]
+24:"MetadataBoundary"
+25:I[97367,["$2","$3","$4","$5"],"$24"]
+d:["$","a","https://twitter.com/R_Graph_Gallery",{"href":"https://twitter.com/R_Graph_Gallery","aria-label":"Link to Yan Holtz Twitter profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 512 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}]}]}]
+e:["$","a","https://www.linkedin.com/in/yan-holtz-2477534a/",{"href":"https://www.linkedin.com/in/yan-holtz-2477534a/","aria-label":"Link to Yan Holtz LinkedIn profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 448 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"}]}]}]
+f:["$","a","https://www.yan-holtz.com",{"href":"https://www.yan-holtz.com","aria-label":"Link to Yan Holtz Homepage","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 576 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"}]}]}]
+10:["$","div",null,{"className":"flex gap-2","children":[["$","a",null,{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE","className":"hover:text-foreground","children":"License"}],["$","span",null,{"children":"|"}],["$","$La",null,{"href":"/about","className":"hover:text-foreground","children":"About"}]]}]
+11:["$","$L1c",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-YJ2YPBMD3W","strategy":"afterInteractive"}]
+12:["$","$L1c",null,{"id":"gtag-init","strategy":"afterInteractive","children":"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YJ2YPBMD3W');"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L26"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+15:C
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]
+27:I[27201,["$2","$3","$4","$5"],"IconMark"]
+20:null
+26:[["$","title","0",{"children":"Combine wordcloud and line chart"}],["$","meta","1",{"name":"description","content":"How to add a line chart on top of a wordcloud in Python. Learn how to combine two different types of charts in a single figure."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"wordcloud, matplotlib, color, plot, chart, line, background"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-stacked-charts/"}],["$","meta","6",{"property":"og:title","content":"Combine wordcloud and line chart"}],["$","meta","7",{"property":"og:description","content":"How to add a line chart on top of a wordcloud in Python. Learn how to combine two different types of charts in a single figure."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Combine wordcloud and line chart"}],["$","meta","13",{"name":"twitter:description","content":"How to add a line chart on top of a wordcloud in Python. Learn how to combine two different types of charts in a single figure."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L27","24",{}]]
+28:I[98936,["$2","$3","$4","$5","$9"],"default"]
+29:T4b0,# create a large string with all the titles
+titles_combined = ' '.join(df['name'])
+titles_combined = list(set(titles_combined.split(' ')))
+titles_combined = [word.lower() for word in titles_combined if len(word) > 3]
+to_remove = ['man', 'world']  # remove some words that are not relevant
+titles_combined = [word for word in titles_combined if word not in to_remove]
+titles_combined = ' '.join(titles_combined)
+
+# initiate a figure
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+# create the wordcloud for the background
+wordcloud = WordCloud(
+    width=800, height=600,
+    background_color='white',
+    colormap='Reds',
+    contour_width=1,
+    contour_color='black',
+    random_state=2  # fix randomness
+).generate(titles_combined)
+ax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)
+ax.set_axis_off()
+
+# create inside axe
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="70%",
+    height="50%",
+    loc='center',
+    borderpad=1
+)
+
+# compute average rating per year
+avg_rating = df.groupby('year')['rating'].mean().reset_index()
+sns.lineplot(
+    data=avg_rating,
+    x='year', y='rating',
+    color='darkred',
+    ax=sub_ax,
+    zorder=5
+)
+
+# display chart
+plt.tight_layout()
+plt.show()2a:T5e0,# create a large string with all the titles
+titles_combined = ' '.join(df['name'])
+titles_combined = list(set(titles_combined.split(' ')))
+titles_combined = [word.lower() for word in titles_combined if len(word) > 3]
+to_remove = ['man', 'world']  # remove some words that are not relevant
+titles_combined = [word for word in titles_combined if word not in to_remove]
+titles_combined = ' '.join(titles_combined)
+
+# initiate a figure
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+# create the wordcloud for the background
+wordcloud = WordCloud(
+    width=800, height=600,
+    background_color='white',
+    colormap='Reds',
+    contour_width=1,
+    contour_color='black',
+    random_state=2  # fix randomness
+).generate(titles_combined)
+ax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)
+ax.set_axis_off()
+
+# create inside axe
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="70%",
+    height="50%",
+    loc='center',
+    borderpad=1
+)
+
+# compute average rating per year
+avg_rating = df.groupby('year')['rating'].mean().reset_index()
+sns.lineplot(
+    data=avg_rating,
+    x='year', y='rating',
+    color='darkred',
+    ax=sub_ax,
+    zorder=5
+)
+
+# add scatter plot on top
+cmap = matplotlib.colormaps['Reds']
+sub_ax.scatter(
+    x=avg_rating['year'],
+    y=avg_rating['rating'],
+    cmap=cmap,
+    c=avg_rating['rating'],
+    s=70,
+    edgecolor='black',
+    linewidth=0.5,
+    zorder=10,
+)
+
+# remove background from line chart
+sub_ax.set_axis_off()
+
+# display chart
+plt.tight_layout()
+plt.show()2b:T8b2,# create a large string with all the titles
+titles_combined = ' '.join(df['name'])
+titles_combined = list(set(titles_combined.split(' ')))
+titles_combined = [word.lower() for word in titles_combined if len(word) > 3]
+to_remove = ['man', 'world']  # remove some words that are not relevant
+titles_combined = [word for word in titles_combined if word not in to_remove]
+titles_combined = ' '.join(titles_combined)
+
+# initiate a figure
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+# create the wordcloud for the background
+wordcloud = WordCloud(
+    width=800, height=600,
+    background_color='white',
+    colormap='Reds',
+    contour_width=1,
+    contour_color='black',
+    random_state=2  # fix randomness
+).generate(titles_combined)
+ax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)
+ax.set_axis_off()
+
+# create inside axe
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="70%",
+    height="50%",
+    loc='center',
+    borderpad=1
+)
+
+# compute average rating per year
+avg_rating = df.groupby('year')['rating'].mean().reset_index()
+sns.lineplot(
+    data=avg_rating,
+    x='year', y='rating',
+    color='darkred',
+    ax=sub_ax,
+    zorder=5
+)
+
+# add scatter plot on top
+cmap = matplotlib.colormaps['Reds']
+sub_ax.scatter(
+    x=avg_rating['year'],
+    y=avg_rating['rating'],
+    cmap=cmap,
+    c=avg_rating['rating'],
+    s=70,
+    edgecolor='black',
+    linewidth=0.5,
+    zorder=10,
+)
+
+# remove background from line chart
+sub_ax.set_axis_off()
+
+# display references
+max_rate = 9
+min_rate = 7
+mid_rate = 8
+sub_ax.axhline(y=max_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=min_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=mid_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.text(
+    1950, max_rate, f"{max_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, min_rate, f"{min_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, mid_rate, f"{mid_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+
+# vertical line arrow for y axis of the subax
+ax.arrow(
+    0.13, 0.24, 0, 0.53,
+    head_width=0.02, head_length=0.02,
+    fc='black', ec='black',
+    transform=ax.transAxes
+)
+
+# display chart
+plt.tight_layout()
+plt.show()2c:Tc0f,# create a large string with all the titles
+titles_combined = ' '.join(df['name'])
+titles_combined = list(set(titles_combined.split(' ')))
+titles_combined = [word.lower() for word in titles_combined if len(word) > 3]
+to_remove = ['man', 'world']  # remove some words that are not relevant
+titles_combined = [word for word in titles_combined if word not in to_remove]
+titles_combined = ' '.join(titles_combined)
+
+# initiate a figure
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+# create the wordcloud for the background
+wordcloud = WordCloud(
+    width=800, height=600,
+    background_color='white',
+    colormap='Reds',
+    contour_width=1,
+    contour_color='black',
+    random_state=2  # fix randomness
+).generate(titles_combined)
+ax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)
+ax.set_axis_off()
+
+# create inside axe
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="70%",
+    height="50%",
+    loc='center',
+    borderpad=1
+)
+
+# compute average rating per year
+avg_rating = df.groupby('year')['rating'].mean().reset_index()
+sns.lineplot(
+    data=avg_rating,
+    x='year', y='rating',
+    color='darkred',
+    ax=sub_ax,
+    zorder=5
+)
+
+# add scatter plot on top
+cmap = matplotlib.colormaps['Reds']
+sub_ax.scatter(
+    x=avg_rating['year'],
+    y=avg_rating['rating'],
+    cmap=cmap,
+    c=avg_rating['rating'],
+    s=70,
+    edgecolor='black',
+    linewidth=0.5,
+    zorder=10,
+)
+
+# remove background from line chart
+sub_ax.set_axis_off()
+
+# display references
+max_rate = 9
+min_rate = 7
+mid_rate = 8
+sub_ax.axhline(y=max_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=min_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=mid_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.text(
+    1950, max_rate, f"{max_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, min_rate, f"{min_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, mid_rate, f"{mid_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+
+# vertical line arrow for y axis of the subax
+ax.arrow(
+    0.13, 0.24, 0, 0.53,
+    head_width=0.02, head_length=0.02,
+    fc='black', ec='black',
+    transform=ax.transAxes
+)
+
+# title
+lower_bound = 1960
+upper_bound = 2019
+text = f"""
+Are movies getting <worse>?
+<Average rating per year on {df.shape[0]} movies published between {lower_bound} and {upper_bound}>
+"""
+fig_text(
+    0.5, 0.92,
+    text, color='black',
+    fontweight='bold',
+    fontsize=24,
+    highlight_textprops=[
+        {"color": 'darkred'},
+        {"fontsize": 13,
+         "color": 'darkgrey',
+         "fontweight": 'normal'}
+    ],
+    ha='center'
+)
+
+# credit
+text = """
+<About>: Background words are from movie titles
+<Data>: IMDb reviews, available at <kaggle.com/datasets/jaidalmotra/movies-review>
+<Design>: Joseph Barbier
+"""
+fig_text(
+    0.04, 0.15,
+    text, color='black',
+    fontsize=6,
+    highlight_textprops=[
+        {"fontweight": 'bold'},
+        {"fontweight": 'bold'},
+        {"fontstyle": 'italic'},
+        {"fontweight": 'bold'}
+    ],
+)
+
+# display chart
+plt.tight_layout()
+plt.show()2d:T11d0,# create a large string with all the titles
+titles_combined = ' '.join(df['name'])
+titles_combined = list(set(titles_combined.split(' ')))
+titles_combined = [word.lower() for word in titles_combined if len(word) > 3]
+to_remove = ['man', 'world']  # remove some words that are not relevant
+titles_combined = [word for word in titles_combined if word not in to_remove]
+titles_combined = ' '.join(titles_combined)
+
+# initiate a figure
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+# create the wordcloud for the background
+wordcloud = WordCloud(
+    width=800, height=600,
+    background_color='white',
+    colormap='Reds',
+    contour_width=1,
+    contour_color='black',
+    random_state=2  # fix randomness
+).generate(titles_combined)
+ax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)
+ax.set_axis_off()
+
+# create inside axe
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="70%",
+    height="50%",
+    loc='center',
+    borderpad=1
+)
+
+# compute average rating per year
+avg_rating = df.groupby('year')['rating'].mean().reset_index()
+sns.lineplot(
+    data=avg_rating,
+    x='year', y='rating',
+    color='darkred',
+    ax=sub_ax,
+    zorder=5
+)
+
+# add scatter plot on top
+cmap = matplotlib.colormaps['Reds']
+sub_ax.scatter(
+    x=avg_rating['year'],
+    y=avg_rating['rating'],
+    cmap=cmap,
+    c=avg_rating['rating'],
+    s=70,
+    edgecolor='black',
+    linewidth=0.5,
+    zorder=10,
+)
+
+# remove background from line chart
+sub_ax.set_axis_off()
+
+# display references
+max_rate = 9
+min_rate = 7
+mid_rate = 8
+sub_ax.axhline(y=max_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=min_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=mid_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.text(
+    1950, max_rate, f"{max_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, min_rate, f"{min_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, mid_rate, f"{mid_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+
+# vertical line arrow for y axis of the subax
+ax.arrow(
+    0.13, 0.24, 0, 0.53,
+    head_width=0.02, head_length=0.02,
+    fc='black', ec='black',
+    transform=ax.transAxes
+)
+
+# title
+lower_bound = 1960
+upper_bound = 2019
+text = f"""
+Are movies getting <worse>?
+<Average rating per year on {df.shape[0]} movies published between {lower_bound} and {upper_bound}>
+"""
+fig_text(
+    0.5, 0.92,
+    text, color='black',
+    fontweight='bold',
+    fontsize=24,
+    highlight_textprops=[
+        {"color": 'darkred'},
+        {"fontsize": 13,
+         "color": '#6b6b6b',
+         "fontweight": 'normal'}
+    ],
+    ha='center'
+)
+
+# credit
+text = """
+<About>: Background words are from movie titles
+<Data>: IMDb reviews, available at <kaggle.com/datasets/jaidalmotra/movies-review>
+<Design>: Joseph Barbier
+"""
+fig_text(
+    0.04, 0.15,
+    text, color='black',
+    fontsize=6,
+    highlight_textprops=[
+        {"fontweight": 'bold'},
+        {"fontweight": 'bold'},
+        {"fontstyle": 'italic'},
+        {"fontweight": 'bold'}
+    ],
+)
+
+# image of godfather
+path = 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/godfather-for-chart.png'
+image = np.array(Image.open(path))
+image = image / 255
+ax_image = fig.add_axes([0.42, 0.55, 0.1, 0.15])
+ax_image.imshow(image)  # display
+ax_image.set_axis_off()  # remove axis
+
+# text about the godfather
+godf_rate = df[df['name'].str.contains('The Godfather')]['rating'].values[0]
+ax_text(
+    1990, 9.2,
+    f"<The Godfather> with {godf_rate:.1f}/10",
+    color='black',
+    fontsize=10,
+    ha='center',
+    va='center',
+    highlight_textprops=[
+        {"fontweight": 'bold'}
+    ],
+    ax=sub_ax
+)
+
+# arrow
+
+
+def draw_arrow(tail_position, head_position, invert=False):
+    kw = dict(
+        arrowstyle="Simple, tail_width=0.5, head_width=4, head_length=8", color="k")
+    if invert:
+        connectionstyle = "arc3,rad=-.5"
+    else:
+        connectionstyle = "arc3,rad=.5"
+    a = FancyArrowPatch(tail_position, head_position,
+                        connectionstyle=connectionstyle,
+                        transform=fig.transFigure,
+                        **kw)
+    fig.patches.append(a)
+
+
+draw_arrow((0.46, 0.74), (0.33, 0.74))
+
+# highlight specific years
+sub_ax.text(
+    1966, 9.2, '1972',
+    fontsize=10, color='black'
+)
+sub_ax.text(
+    1990, 7.05, '1990',
+    fontsize=10, color='black'
+)
+sub_ax.text(
+    2018, 7.75, '2019',
+    fontsize=10, color='black'
+)
+
+# display chart
+plt.tight_layout()
+fig.savefig('../../static/graph/web-stacked-charts.png')
+plt.show()1d:[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Combine wordcloud and line chart"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>We will create a <a href='/wordcloud'>wordcloud</a> combined with a <a href='/line-chart'>line chart</a> using the <a href='/matplotlib'>Matplotlib</a> library to visualize data about movie ratings. The final contains nice annotations, an <b>image on top</b> and cool color styling.<br><br>This post is a step-by-step guide on how to create it and provides <b>reproducible code</b>.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$La",null,{"href":"/wordcloud/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Wordcloud section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/wordcloud.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],["$","article",null,{"className":"wrapper post-content","children":["$","$L28",null,{"cells":["# data\nimport numpy as np\nimport pandas as pd\nfrom PIL import Image\n\n# plot\nfrom wordcloud import WordCloud\nimport matplotlib.pyplot as plt\nimport matplotlib\nimport seaborn as sns\nfrom mpl_toolkits.axes_grid1.inset_locator import inset_axes\n\n# annotations\nfrom highlight_text import fig_text, ax_text\nfrom matplotlib.patches import FancyArrowPatch","# Open the dataset from Github\nurl = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/movies-review.csv\"\ndf = pd.read_csv(url, usecols=['name', 'year', 'type', 'rating'])\ndf.head()","# create a large string with all the titles\ntitles_combined = ' '.join(df['name'])\ntitles_combined = list(set(titles_combined.split(' ')))\ntitles_combined = [word.lower() for word in titles_combined if len(word) > 3]\nto_remove = ['man', 'world']  # remove some words that are not relevant\ntitles_combined = [word for word in titles_combined if word not in to_remove]\ntitles_combined = ' '.join(titles_combined)\n\n# initiate a figure\nfig, ax = plt.subplots(1, 1, figsize=(8, 6))\n\n# create the wordcloud for the background\nwordcloud = WordCloud(\n    width=800, height=600,\n    background_color='white',\n    colormap='Reds',\n    contour_width=1,\n    contour_color='black',\n    random_state=2  # fix randomness\n).generate(titles_combined)\nax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)\nax.set_axis_off()\n\n# display chart\nplt.tight_layout()\nplt.show()","$29","$2a","$2b","$2c","$2d"],"children":"$L2e"}]}],"$L2f","$L30","$L31","$L32","$L33"]
+34:I[68978,["$2","$3","$4","$5","$9"],"default"]
+4b:I[59351,["$2","$3","$4","$5","$9"],"default"]
+35:T8e8,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># data</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#005CC5"> PIL</span><span style="color:#D73A49"> import</span><span style="color:#24292E"> Image</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># plot</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> wordcloud </span><span style="color:#D73A49">import</span><span style="color:#24292E"> WordCloud</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> seaborn </span><span style="color:#D73A49">as</span><span style="color:#24292E"> sns</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> mpl_toolkits.axes_grid1.inset_locator </span><span style="color:#D73A49">import</span><span style="color:#24292E"> inset_axes</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># annotations</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text, ax_text</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">import</span><span style="color:#24292E"> FancyArrowPatch</span></span></code></pre>2e:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This plot is a combination of a ",["$","a","a-0",{"href":"/wordcloud","children":"wordcloud"}]," and a ",["$","a","a-1",{"href":"/line-chart","children":"line-chart"}],". It shows the evolution of the ",["$","strong","strong-0",{"children":"average rating of different movies"}]," since the 1960, with the ",["$","strong","strong-1",{"children":"title of the movies"}]," in the background for the ",["$","a","a-2",{"href":"/wordcloud","children":"wordcloud"}],"."]}],"\n",["$","p","p-1",{"children":["The chart was made by ",["$","a","a-0",{"href":"https://www.barbierjoseph.com/","children":"Joseph B."}],". Thanks to him for accepting sharing his work here!"]}],"\n",["$","p","p-2",{"children":"Let's see what the final picture will look like:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-stacked-charts.png?raw=true","alt":"wordcloud and linechart","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-4",{"children":"First, you need to load a whole bunch of libraries:"}],"\n",["$","$L34","notebook-cell-0",{"index":0,"code":"# data\nimport numpy as np\nimport pandas as pd\nfrom PIL import Image\n\n# plot\nfrom wordcloud import WordCloud\nimport matplotlib.pyplot as plt\nimport matplotlib\nimport seaborn as sns\nfrom mpl_toolkits.axes_grid1.inset_locator import inset_axes\n\n# annotations\nfrom highlight_text import fig_text, ax_text\nfrom matplotlib.patches import FancyArrowPatch","highlighted":"$35","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","$L3b","\n","$L3c","$L3d","\n","$L3e","$L3f","\n","$L40","$L41","\n","$L42","\n","$L43","$L44","\n","$L45","$L46","\n","$L47","\n","$L48","\n","$L49"]
+2f:["$","div",null,{"className":"h-16 sm:h-20"}]
+30:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$La","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$La","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$La","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$La","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$La","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$La","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$La","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L4a"]}]]}]]}]}]
+31:["$","div",null,{"className":"h-16 sm:h-20"}]
+32:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+33:["$","$L4b",null,{}]
+36:["$","h2","h2-2",{"children":"Dataset"}]
+37:["$","p","p-5",{"children":["For this reproduction, we're going to retrieve the data directly from the ",["$","a","a-0",{"href":"https://github.com/holtzy/The-Python-Graph-Gallery","children":"gallery's Github repo"}],". This means we just need to ",["$","strong","strong-0",{"children":"give the right url as an argument"}]," to pandas' ",["$","code","code-0",{"children":"read_csv()"}]," function to retrieve the data."]}]
+38:["$","p","p-6",{"children":"The dataset contains one row per movie and its rating."}]
+4c:T446,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Open the dataset from Github</span></span>
+<span class="line"><span style="color:#24292E">url </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/movies-review.csv"</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(url, </span><span style="color:#E36209">usecols</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">, </span><span style="color:#032F62">'year'</span><span style="color:#24292E">, </span><span style="color:#032F62">'type'</span><span style="color:#24292E">, </span><span style="color:#032F62">'rating'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">df.head()</span></span></code></pre>39:["$","$L34","notebook-cell-1",{"index":1,"code":"# Open the dataset from Github\nurl = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/movies-review.csv\"\ndf = pd.read_csv(url, usecols=['name', 'year', 'type', 'rating'])\ndf.head()","highlighted":"$4c","interactive":false,"hasChart":false,"intro":"$undefined","output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"name"}],["$","th","th-2",{"children":"year"}],["$","th","th-3",{"children":"rating"}],["$","th","th-4",{"children":"type"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"The Dark Knight"}],["$","td","td-1",{"children":"2008"}],["$","td","td-2",{"children":"9.0"}],["$","td","td-3",{"children":"Action"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"Pulp Fiction"}],["$","td","td-1",{"children":"1994"}],["$","td","td-2",{"children":"8.9"}],["$","td","td-3",{"children":"Crime"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"The Godfather"}],["$","td","td-1",{"children":"1972"}],["$","td","td-2",{"children":"9.2"}],["$","td","td-3",{"children":"Crime"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"Se7en"}],["$","td","td-1",{"children":"1995"}],["$","td","td-2",{"children":"8.6"}],["$","td","td-3",{"children":"Crime"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"The Silence of the Lambs"}],["$","td","td-1",{"children":"1991"}],["$","td","td-2",{"children":"8.6"}],["$","td","td-3",{"children":"Crime"}]]}]]}]]}],"\n"]}]}]]}]
+3a:["$","h2","h2-3",{"children":"Text for the wordcloud"}]
+4d:T15dc,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># create a large string with all the titles</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(df[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">set</span><span style="color:#24292E">(titles_combined.split(</span><span style="color:#032F62">' '</span><span style="color:#24292E">)))</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word.lower() </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(word) </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 3</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">to_remove </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'man'</span><span style="color:#24292E">, </span><span style="color:#032F62">'world'</span><span style="color:#24292E">]  </span><span style="color:#6A737D"># remove some words that are not relevant</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#24292E"> word </span><span style="color:#D73A49">not</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> to_remove]</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(titles_combined)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initiate a figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the wordcloud for the background</span></span>
+<span class="line"><span style="color:#24292E">wordcloud </span><span style="color:#D73A49">=</span><span style="color:#24292E"> WordCloud(</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">800</span><span style="color:#24292E">, </span><span style="color:#E36209">height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">600</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    background_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    colormap</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Reds'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    random_state</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#6A737D">  # fix randomness</span></span>
+<span class="line"><span style="color:#24292E">).generate(titles_combined)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(wordcloud, </span><span style="color:#E36209">interpolation</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bilinear'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.07</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display chart</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3b:["$","$L34","notebook-cell-2",{"index":2,"code":"# create a large string with all the titles\ntitles_combined = ' '.join(df['name'])\ntitles_combined = list(set(titles_combined.split(' ')))\ntitles_combined = [word.lower() for word in titles_combined if len(word) > 3]\nto_remove = ['man', 'world']  # remove some words that are not relevant\ntitles_combined = [word for word in titles_combined if word not in to_remove]\ntitles_combined = ' '.join(titles_combined)\n\n# initiate a figure\nfig, ax = plt.subplots(1, 1, figsize=(8, 6))\n\n# create the wordcloud for the background\nwordcloud = WordCloud(\n    width=800, height=600,\n    background_color='white',\n    colormap='Reds',\n    contour_width=1,\n    contour_color='black',\n    random_state=2  # fix randomness\n).generate(titles_combined)\nax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)\nax.set_axis_off()\n\n# display chart\nplt.tight_layout()\nplt.show()","highlighted":"$4d","interactive":false,"hasChart":true,"intro":"$L4e","output":"$L4f"}]
+3c:["$","h2","h2-4",{"children":"Line chart on top"}]
+50:T4b0,# create a large string with all the titles
+titles_combined = ' '.join(df['name'])
+titles_combined = list(set(titles_combined.split(' ')))
+titles_combined = [word.lower() for word in titles_combined if len(word) > 3]
+to_remove = ['man', 'world']  # remove some words that are not relevant
+titles_combined = [word for word in titles_combined if word not in to_remove]
+titles_combined = ' '.join(titles_combined)
+
+# initiate a figure
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+# create the wordcloud for the background
+wordcloud = WordCloud(
+    width=800, height=600,
+    background_color='white',
+    colormap='Reds',
+    contour_width=1,
+    contour_color='black',
+    random_state=2  # fix randomness
+).generate(titles_combined)
+ax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)
+ax.set_axis_off()
+
+# create inside axe
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="70%",
+    height="50%",
+    loc='center',
+    borderpad=1
+)
+
+# compute average rating per year
+avg_rating = df.groupby('year')['rating'].mean().reset_index()
+sns.lineplot(
+    data=avg_rating,
+    x='year', y='rating',
+    color='darkred',
+    ax=sub_ax,
+    zorder=5
+)
+
+# display chart
+plt.tight_layout()
+plt.show()51:T2083,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># create a large string with all the titles</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(df[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">set</span><span style="color:#24292E">(titles_combined.split(</span><span style="color:#032F62">' '</span><span style="color:#24292E">)))</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word.lower() </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(word) </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 3</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">to_remove </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'man'</span><span style="color:#24292E">, </span><span style="color:#032F62">'world'</span><span style="color:#24292E">]  </span><span style="color:#6A737D"># remove some words that are not relevant</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#24292E"> word </span><span style="color:#D73A49">not</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> to_remove]</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(titles_combined)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initiate a figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the wordcloud for the background</span></span>
+<span class="line"><span style="color:#24292E">wordcloud </span><span style="color:#D73A49">=</span><span style="color:#24292E"> WordCloud(</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">800</span><span style="color:#24292E">, </span><span style="color:#E36209">height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">600</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    background_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    colormap</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Reds'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    random_state</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#6A737D">  # fix randomness</span></span>
+<span class="line"><span style="color:#24292E">).generate(titles_combined)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(wordcloud, </span><span style="color:#E36209">interpolation</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bilinear'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.07</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create inside axe</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"70%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"50%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># compute average rating per year</span></span>
+<span class="line"><span style="color:#24292E">avg_rating </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">'year'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">].mean().reset_index()</span></span>
+<span class="line"><span style="color:#24292E">sns.lineplot(</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">'year'</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkred'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_ax,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display chart</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3d:["$","$L34","notebook-cell-3",{"index":3,"code":"$50","highlighted":"$51","interactive":false,"hasChart":true,"intro":"$L52","output":"$L53"}]
+3e:["$","h2","h2-5",{"children":"Add points on the line and remove axis"}]
+54:T5e0,# create a large string with all the titles
+titles_combined = ' '.join(df['name'])
+titles_combined = list(set(titles_combined.split(' ')))
+titles_combined = [word.lower() for word in titles_combined if len(word) > 3]
+to_remove = ['man', 'world']  # remove some words that are not relevant
+titles_combined = [word for word in titles_combined if word not in to_remove]
+titles_combined = ' '.join(titles_combined)
+
+# initiate a figure
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+# create the wordcloud for the background
+wordcloud = WordCloud(
+    width=800, height=600,
+    background_color='white',
+    colormap='Reds',
+    contour_width=1,
+    contour_color='black',
+    random_state=2  # fix randomness
+).generate(titles_combined)
+ax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)
+ax.set_axis_off()
+
+# create inside axe
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="70%",
+    height="50%",
+    loc='center',
+    borderpad=1
+)
+
+# compute average rating per year
+avg_rating = df.groupby('year')['rating'].mean().reset_index()
+sns.lineplot(
+    data=avg_rating,
+    x='year', y='rating',
+    color='darkred',
+    ax=sub_ax,
+    zorder=5
+)
+
+# add scatter plot on top
+cmap = matplotlib.colormaps['Reds']
+sub_ax.scatter(
+    x=avg_rating['year'],
+    y=avg_rating['rating'],
+    cmap=cmap,
+    c=avg_rating['rating'],
+    s=70,
+    edgecolor='black',
+    linewidth=0.5,
+    zorder=10,
+)
+
+# remove background from line chart
+sub_ax.set_axis_off()
+
+# display chart
+plt.tight_layout()
+plt.show()55:T2957,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># create a large string with all the titles</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(df[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">set</span><span style="color:#24292E">(titles_combined.split(</span><span style="color:#032F62">' '</span><span style="color:#24292E">)))</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word.lower() </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(word) </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 3</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">to_remove </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'man'</span><span style="color:#24292E">, </span><span style="color:#032F62">'world'</span><span style="color:#24292E">]  </span><span style="color:#6A737D"># remove some words that are not relevant</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#24292E"> word </span><span style="color:#D73A49">not</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> to_remove]</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(titles_combined)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initiate a figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the wordcloud for the background</span></span>
+<span class="line"><span style="color:#24292E">wordcloud </span><span style="color:#D73A49">=</span><span style="color:#24292E"> WordCloud(</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">800</span><span style="color:#24292E">, </span><span style="color:#E36209">height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">600</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    background_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    colormap</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Reds'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    random_state</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#6A737D">  # fix randomness</span></span>
+<span class="line"><span style="color:#24292E">).generate(titles_combined)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(wordcloud, </span><span style="color:#E36209">interpolation</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bilinear'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.07</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create inside axe</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"70%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"50%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># compute average rating per year</span></span>
+<span class="line"><span style="color:#24292E">avg_rating </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">'year'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">].mean().reset_index()</span></span>
+<span class="line"><span style="color:#24292E">sns.lineplot(</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">'year'</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkred'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_ax,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add scatter plot on top</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> matplotlib.colormaps[</span><span style="color:#032F62">'Reds'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.scatter(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'year'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">    c</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">70</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove background from line chart</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display chart</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3f:["$","$L34","notebook-cell-4",{"index":4,"code":"$54","highlighted":"$55","interactive":false,"hasChart":true,"intro":"$L56","output":"$L57"}]
+40:["$","h2","h2-6",{"children":"Scale and reference values"}]
+58:T8b2,# create a large string with all the titles
+titles_combined = ' '.join(df['name'])
+titles_combined = list(set(titles_combined.split(' ')))
+titles_combined = [word.lower() for word in titles_combined if len(word) > 3]
+to_remove = ['man', 'world']  # remove some words that are not relevant
+titles_combined = [word for word in titles_combined if word not in to_remove]
+titles_combined = ' '.join(titles_combined)
+
+# initiate a figure
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+# create the wordcloud for the background
+wordcloud = WordCloud(
+    width=800, height=600,
+    background_color='white',
+    colormap='Reds',
+    contour_width=1,
+    contour_color='black',
+    random_state=2  # fix randomness
+).generate(titles_combined)
+ax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)
+ax.set_axis_off()
+
+# create inside axe
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="70%",
+    height="50%",
+    loc='center',
+    borderpad=1
+)
+
+# compute average rating per year
+avg_rating = df.groupby('year')['rating'].mean().reset_index()
+sns.lineplot(
+    data=avg_rating,
+    x='year', y='rating',
+    color='darkred',
+    ax=sub_ax,
+    zorder=5
+)
+
+# add scatter plot on top
+cmap = matplotlib.colormaps['Reds']
+sub_ax.scatter(
+    x=avg_rating['year'],
+    y=avg_rating['rating'],
+    cmap=cmap,
+    c=avg_rating['rating'],
+    s=70,
+    edgecolor='black',
+    linewidth=0.5,
+    zorder=10,
+)
+
+# remove background from line chart
+sub_ax.set_axis_off()
+
+# display references
+max_rate = 9
+min_rate = 7
+mid_rate = 8
+sub_ax.axhline(y=max_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=min_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=mid_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.text(
+    1950, max_rate, f"{max_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, min_rate, f"{min_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, mid_rate, f"{mid_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+
+# vertical line arrow for y axis of the subax
+ax.arrow(
+    0.13, 0.24, 0, 0.53,
+    head_width=0.02, head_length=0.02,
+    fc='black', ec='black',
+    transform=ax.transAxes
+)
+
+# display chart
+plt.tight_layout()
+plt.show()59:T42d4,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># create a large string with all the titles</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(df[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">set</span><span style="color:#24292E">(titles_combined.split(</span><span style="color:#032F62">' '</span><span style="color:#24292E">)))</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word.lower() </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(word) </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 3</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">to_remove </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'man'</span><span style="color:#24292E">, </span><span style="color:#032F62">'world'</span><span style="color:#24292E">]  </span><span style="color:#6A737D"># remove some words that are not relevant</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#24292E"> word </span><span style="color:#D73A49">not</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> to_remove]</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(titles_combined)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initiate a figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the wordcloud for the background</span></span>
+<span class="line"><span style="color:#24292E">wordcloud </span><span style="color:#D73A49">=</span><span style="color:#24292E"> WordCloud(</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">800</span><span style="color:#24292E">, </span><span style="color:#E36209">height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">600</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    background_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    colormap</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Reds'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    random_state</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#6A737D">  # fix randomness</span></span>
+<span class="line"><span style="color:#24292E">).generate(titles_combined)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(wordcloud, </span><span style="color:#E36209">interpolation</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bilinear'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.07</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create inside axe</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"70%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"50%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># compute average rating per year</span></span>
+<span class="line"><span style="color:#24292E">avg_rating </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">'year'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">].mean().reset_index()</span></span>
+<span class="line"><span style="color:#24292E">sns.lineplot(</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">'year'</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkred'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_ax,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add scatter plot on top</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> matplotlib.colormaps[</span><span style="color:#032F62">'Reds'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.scatter(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'year'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">    c</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">70</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove background from line chart</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display references</span></span>
+<span class="line"><span style="color:#24292E">max_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 9</span></span>
+<span class="line"><span style="color:#24292E">min_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 7</span></span>
+<span class="line"><span style="color:#24292E">mid_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 8</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axhline(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_rate, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">'--'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axhline(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_rate, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">'--'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axhline(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">mid_rate, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">'--'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1950</span><span style="color:#24292E">, max_rate, </span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">max_rate</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">/10"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkgrey'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1950</span><span style="color:#24292E">, min_rate, </span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">min_rate</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">/10"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkgrey'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1950</span><span style="color:#24292E">, mid_rate, </span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">mid_rate</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">/10"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkgrey'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># vertical line arrow for y axis of the subax</span></span>
+<span class="line"><span style="color:#24292E">ax.arrow(</span></span>
+<span class="line"><span style="color:#005CC5">    0.13</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.24</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.53</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    head_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">, </span><span style="color:#E36209">head_length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">ec</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax.transAxes</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display chart</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>41:["$","$L34","notebook-cell-5",{"index":5,"code":"$58","highlighted":"$59","interactive":false,"hasChart":true,"intro":"$L5a","output":"$L5b"}]
+42:["$","p","p-7",{"children":"It's already looking better!"}]
+43:["$","h2","h2-7",{"children":"Add title and credits"}]
+5c:Tc0f,# create a large string with all the titles
+titles_combined = ' '.join(df['name'])
+titles_combined = list(set(titles_combined.split(' ')))
+titles_combined = [word.lower() for word in titles_combined if len(word) > 3]
+to_remove = ['man', 'world']  # remove some words that are not relevant
+titles_combined = [word for word in titles_combined if word not in to_remove]
+titles_combined = ' '.join(titles_combined)
+
+# initiate a figure
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+# create the wordcloud for the background
+wordcloud = WordCloud(
+    width=800, height=600,
+    background_color='white',
+    colormap='Reds',
+    contour_width=1,
+    contour_color='black',
+    random_state=2  # fix randomness
+).generate(titles_combined)
+ax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)
+ax.set_axis_off()
+
+# create inside axe
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="70%",
+    height="50%",
+    loc='center',
+    borderpad=1
+)
+
+# compute average rating per year
+avg_rating = df.groupby('year')['rating'].mean().reset_index()
+sns.lineplot(
+    data=avg_rating,
+    x='year', y='rating',
+    color='darkred',
+    ax=sub_ax,
+    zorder=5
+)
+
+# add scatter plot on top
+cmap = matplotlib.colormaps['Reds']
+sub_ax.scatter(
+    x=avg_rating['year'],
+    y=avg_rating['rating'],
+    cmap=cmap,
+    c=avg_rating['rating'],
+    s=70,
+    edgecolor='black',
+    linewidth=0.5,
+    zorder=10,
+)
+
+# remove background from line chart
+sub_ax.set_axis_off()
+
+# display references
+max_rate = 9
+min_rate = 7
+mid_rate = 8
+sub_ax.axhline(y=max_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=min_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=mid_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.text(
+    1950, max_rate, f"{max_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, min_rate, f"{min_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, mid_rate, f"{mid_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+
+# vertical line arrow for y axis of the subax
+ax.arrow(
+    0.13, 0.24, 0, 0.53,
+    head_width=0.02, head_length=0.02,
+    fc='black', ec='black',
+    transform=ax.transAxes
+)
+
+# title
+lower_bound = 1960
+upper_bound = 2019
+text = f"""
+Are movies getting <worse>?
+<Average rating per year on {df.shape[0]} movies published between {lower_bound} and {upper_bound}>
+"""
+fig_text(
+    0.5, 0.92,
+    text, color='black',
+    fontweight='bold',
+    fontsize=24,
+    highlight_textprops=[
+        {"color": 'darkred'},
+        {"fontsize": 13,
+         "color": 'darkgrey',
+         "fontweight": 'normal'}
+    ],
+    ha='center'
+)
+
+# credit
+text = """
+<About>: Background words are from movie titles
+<Data>: IMDb reviews, available at <kaggle.com/datasets/jaidalmotra/movies-review>
+<Design>: Joseph Barbier
+"""
+fig_text(
+    0.04, 0.15,
+    text, color='black',
+    fontsize=6,
+    highlight_textprops=[
+        {"fontweight": 'bold'},
+        {"fontweight": 'bold'},
+        {"fontstyle": 'italic'},
+        {"fontweight": 'bold'}
+    ],
+)
+
+# display chart
+plt.tight_layout()
+plt.show()5d:T5a8a,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># create a large string with all the titles</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(df[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">set</span><span style="color:#24292E">(titles_combined.split(</span><span style="color:#032F62">' '</span><span style="color:#24292E">)))</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word.lower() </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(word) </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 3</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">to_remove </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'man'</span><span style="color:#24292E">, </span><span style="color:#032F62">'world'</span><span style="color:#24292E">]  </span><span style="color:#6A737D"># remove some words that are not relevant</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#24292E"> word </span><span style="color:#D73A49">not</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> to_remove]</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(titles_combined)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initiate a figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the wordcloud for the background</span></span>
+<span class="line"><span style="color:#24292E">wordcloud </span><span style="color:#D73A49">=</span><span style="color:#24292E"> WordCloud(</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">800</span><span style="color:#24292E">, </span><span style="color:#E36209">height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">600</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    background_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    colormap</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Reds'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    random_state</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#6A737D">  # fix randomness</span></span>
+<span class="line"><span style="color:#24292E">).generate(titles_combined)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(wordcloud, </span><span style="color:#E36209">interpolation</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bilinear'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.07</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create inside axe</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"70%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"50%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># compute average rating per year</span></span>
+<span class="line"><span style="color:#24292E">avg_rating </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">'year'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">].mean().reset_index()</span></span>
+<span class="line"><span style="color:#24292E">sns.lineplot(</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">'year'</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkred'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_ax,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add scatter plot on top</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> matplotlib.colormaps[</span><span style="color:#032F62">'Reds'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.scatter(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'year'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">    c</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">70</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove background from line chart</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display references</span></span>
+<span class="line"><span style="color:#24292E">max_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 9</span></span>
+<span class="line"><span style="color:#24292E">min_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 7</span></span>
+<span class="line"><span style="color:#24292E">mid_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 8</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axhline(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_rate, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">'--'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axhline(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_rate, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">'--'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axhline(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">mid_rate, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">'--'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1950</span><span style="color:#24292E">, max_rate, </span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">max_rate</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">/10"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkgrey'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1950</span><span style="color:#24292E">, min_rate, </span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">min_rate</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">/10"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkgrey'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1950</span><span style="color:#24292E">, mid_rate, </span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">mid_rate</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">/10"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkgrey'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># vertical line arrow for y axis of the subax</span></span>
+<span class="line"><span style="color:#24292E">ax.arrow(</span></span>
+<span class="line"><span style="color:#005CC5">    0.13</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.24</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.53</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    head_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">, </span><span style="color:#E36209">head_length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">ec</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax.transAxes</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title</span></span>
+<span class="line"><span style="color:#24292E">lower_bound </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 1960</span></span>
+<span class="line"><span style="color:#24292E">upper_bound </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2019</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#032F62">Are movies getting &#x3C;worse>?</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Average rating per year on </span><span style="color:#005CC5">{</span><span style="color:#24292E">df.shape[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span><span style="color:#005CC5">}</span><span style="color:#032F62"> movies published between </span><span style="color:#005CC5">{</span><span style="color:#24292E">lower_bound</span><span style="color:#005CC5">}</span><span style="color:#032F62"> and </span><span style="color:#005CC5">{</span><span style="color:#24292E">upper_bound</span><span style="color:#005CC5">}</span><span style="color:#032F62">></span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.92</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">24</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkred'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontsize"</span><span style="color:#24292E">: </span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         "color"</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkgrey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         "fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'normal'</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;About>: Background words are from movie titles</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Data>: IMDb reviews, available at &#x3C;kaggle.com/datasets/jaidalmotra/movies-review></span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Design>: Joseph Barbier</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.04</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontstyle"</span><span style="color:#24292E">: </span><span style="color:#032F62">'italic'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display chart</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>44:["$","$L34","notebook-cell-6",{"index":6,"code":"$5c","highlighted":"$5d","interactive":false,"hasChart":true,"intro":"$L5e","output":"$L5f"}]
+45:["$","h2","h2-8",{"children":"Final annotations + Image of the Godfather"}]
+60:T11d0,# create a large string with all the titles
+titles_combined = ' '.join(df['name'])
+titles_combined = list(set(titles_combined.split(' ')))
+titles_combined = [word.lower() for word in titles_combined if len(word) > 3]
+to_remove = ['man', 'world']  # remove some words that are not relevant
+titles_combined = [word for word in titles_combined if word not in to_remove]
+titles_combined = ' '.join(titles_combined)
+
+# initiate a figure
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+# create the wordcloud for the background
+wordcloud = WordCloud(
+    width=800, height=600,
+    background_color='white',
+    colormap='Reds',
+    contour_width=1,
+    contour_color='black',
+    random_state=2  # fix randomness
+).generate(titles_combined)
+ax.imshow(wordcloud, interpolation='bilinear', alpha=0.07)
+ax.set_axis_off()
+
+# create inside axe
+sub_ax = inset_axes(
+    parent_axes=ax,
+    width="70%",
+    height="50%",
+    loc='center',
+    borderpad=1
+)
+
+# compute average rating per year
+avg_rating = df.groupby('year')['rating'].mean().reset_index()
+sns.lineplot(
+    data=avg_rating,
+    x='year', y='rating',
+    color='darkred',
+    ax=sub_ax,
+    zorder=5
+)
+
+# add scatter plot on top
+cmap = matplotlib.colormaps['Reds']
+sub_ax.scatter(
+    x=avg_rating['year'],
+    y=avg_rating['rating'],
+    cmap=cmap,
+    c=avg_rating['rating'],
+    s=70,
+    edgecolor='black',
+    linewidth=0.5,
+    zorder=10,
+)
+
+# remove background from line chart
+sub_ax.set_axis_off()
+
+# display references
+max_rate = 9
+min_rate = 7
+mid_rate = 8
+sub_ax.axhline(y=max_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=min_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.axhline(y=mid_rate, color='lightgrey', linestyle='--', lw=0.6)
+sub_ax.text(
+    1950, max_rate, f"{max_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, min_rate, f"{min_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+sub_ax.text(
+    1950, mid_rate, f"{mid_rate:.0f}/10",
+    fontsize=10, color='darkgrey'
+)
+
+# vertical line arrow for y axis of the subax
+ax.arrow(
+    0.13, 0.24, 0, 0.53,
+    head_width=0.02, head_length=0.02,
+    fc='black', ec='black',
+    transform=ax.transAxes
+)
+
+# title
+lower_bound = 1960
+upper_bound = 2019
+text = f"""
+Are movies getting <worse>?
+<Average rating per year on {df.shape[0]} movies published between {lower_bound} and {upper_bound}>
+"""
+fig_text(
+    0.5, 0.92,
+    text, color='black',
+    fontweight='bold',
+    fontsize=24,
+    highlight_textprops=[
+        {"color": 'darkred'},
+        {"fontsize": 13,
+         "color": '#6b6b6b',
+         "fontweight": 'normal'}
+    ],
+    ha='center'
+)
+
+# credit
+text = """
+<About>: Background words are from movie titles
+<Data>: IMDb reviews, available at <kaggle.com/datasets/jaidalmotra/movies-review>
+<Design>: Joseph Barbier
+"""
+fig_text(
+    0.04, 0.15,
+    text, color='black',
+    fontsize=6,
+    highlight_textprops=[
+        {"fontweight": 'bold'},
+        {"fontweight": 'bold'},
+        {"fontstyle": 'italic'},
+        {"fontweight": 'bold'}
+    ],
+)
+
+# image of godfather
+path = 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/godfather-for-chart.png'
+image = np.array(Image.open(path))
+image = image / 255
+ax_image = fig.add_axes([0.42, 0.55, 0.1, 0.15])
+ax_image.imshow(image)  # display
+ax_image.set_axis_off()  # remove axis
+
+# text about the godfather
+godf_rate = df[df['name'].str.contains('The Godfather')]['rating'].values[0]
+ax_text(
+    1990, 9.2,
+    f"<The Godfather> with {godf_rate:.1f}/10",
+    color='black',
+    fontsize=10,
+    ha='center',
+    va='center',
+    highlight_textprops=[
+        {"fontweight": 'bold'}
+    ],
+    ax=sub_ax
+)
+
+# arrow
+
+
+def draw_arrow(tail_position, head_position, invert=False):
+    kw = dict(
+        arrowstyle="Simple, tail_width=0.5, head_width=4, head_length=8", color="k")
+    if invert:
+        connectionstyle = "arc3,rad=-.5"
+    else:
+        connectionstyle = "arc3,rad=.5"
+    a = FancyArrowPatch(tail_position, head_position,
+                        connectionstyle=connectionstyle,
+                        transform=fig.transFigure,
+                        **kw)
+    fig.patches.append(a)
+
+
+draw_arrow((0.46, 0.74), (0.33, 0.74))
+
+# highlight specific years
+sub_ax.text(
+    1966, 9.2, '1972',
+    fontsize=10, color='black'
+)
+sub_ax.text(
+    1990, 7.05, '1990',
+    fontsize=10, color='black'
+)
+sub_ax.text(
+    2018, 7.75, '2019',
+    fontsize=10, color='black'
+)
+
+# display chart
+plt.tight_layout()
+fig.savefig('../../static/graph/web-stacked-charts.png')
+plt.show()61:T7eb6,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># create a large string with all the titles</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(df[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">set</span><span style="color:#24292E">(titles_combined.split(</span><span style="color:#032F62">' '</span><span style="color:#24292E">)))</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word.lower() </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(word) </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 3</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">to_remove </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'man'</span><span style="color:#24292E">, </span><span style="color:#032F62">'world'</span><span style="color:#24292E">]  </span><span style="color:#6A737D"># remove some words that are not relevant</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [word </span><span style="color:#D73A49">for</span><span style="color:#24292E"> word </span><span style="color:#D73A49">in</span><span style="color:#24292E"> titles_combined </span><span style="color:#D73A49">if</span><span style="color:#24292E"> word </span><span style="color:#D73A49">not</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> to_remove]</span></span>
+<span class="line"><span style="color:#24292E">titles_combined </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ' '</span><span style="color:#24292E">.join(titles_combined)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initiate a figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the wordcloud for the background</span></span>
+<span class="line"><span style="color:#24292E">wordcloud </span><span style="color:#D73A49">=</span><span style="color:#24292E"> WordCloud(</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">800</span><span style="color:#24292E">, </span><span style="color:#E36209">height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">600</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    background_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    colormap</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Reds'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    contour_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    random_state</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#6A737D">  # fix randomness</span></span>
+<span class="line"><span style="color:#24292E">).generate(titles_combined)</span></span>
+<span class="line"><span style="color:#24292E">ax.imshow(wordcloud, </span><span style="color:#E36209">interpolation</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bilinear'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.07</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create inside axe</span></span>
+<span class="line"><span style="color:#24292E">sub_ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> inset_axes(</span></span>
+<span class="line"><span style="color:#E36209">    parent_axes</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#032F62">"70%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#032F62">"50%"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    borderpad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># compute average rating per year</span></span>
+<span class="line"><span style="color:#24292E">avg_rating </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">'year'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">].mean().reset_index()</span></span>
+<span class="line"><span style="color:#24292E">sns.lineplot(</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">'year'</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkred'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_ax,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add scatter plot on top</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> matplotlib.colormaps[</span><span style="color:#032F62">'Reds'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.scatter(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'year'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">    c</span><span style="color:#D73A49">=</span><span style="color:#24292E">avg_rating[</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">70</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove background from line chart</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display references</span></span>
+<span class="line"><span style="color:#24292E">max_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 9</span></span>
+<span class="line"><span style="color:#24292E">min_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 7</span></span>
+<span class="line"><span style="color:#24292E">mid_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 8</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axhline(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_rate, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">'--'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axhline(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_rate, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">'--'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.axhline(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">mid_rate, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightgrey'</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">'--'</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1950</span><span style="color:#24292E">, max_rate, </span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">max_rate</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">/10"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkgrey'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1950</span><span style="color:#24292E">, min_rate, </span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">min_rate</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">/10"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkgrey'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1950</span><span style="color:#24292E">, mid_rate, </span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">mid_rate</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">/10"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkgrey'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># vertical line arrow for y axis of the subax</span></span>
+<span class="line"><span style="color:#24292E">ax.arrow(</span></span>
+<span class="line"><span style="color:#005CC5">    0.13</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.24</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.53</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    head_width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">, </span><span style="color:#E36209">head_length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">ec</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax.transAxes</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title</span></span>
+<span class="line"><span style="color:#24292E">lower_bound </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 1960</span></span>
+<span class="line"><span style="color:#24292E">upper_bound </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2019</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#032F62">Are movies getting &#x3C;worse>?</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Average rating per year on </span><span style="color:#005CC5">{</span><span style="color:#24292E">df.shape[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span><span style="color:#005CC5">}</span><span style="color:#032F62"> movies published between </span><span style="color:#005CC5">{</span><span style="color:#24292E">lower_bound</span><span style="color:#005CC5">}</span><span style="color:#032F62"> and </span><span style="color:#005CC5">{</span><span style="color:#24292E">upper_bound</span><span style="color:#005CC5">}</span><span style="color:#032F62">></span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.92</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">24</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: </span><span style="color:#032F62">'darkred'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontsize"</span><span style="color:#24292E">: </span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         "color"</span><span style="color:#24292E">: </span><span style="color:#032F62">'#6b6b6b'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">         "fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'normal'</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;About>: Background words are from movie titles</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Data>: IMDb reviews, available at &#x3C;kaggle.com/datasets/jaidalmotra/movies-review></span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Design>: Joseph Barbier</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.04</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontstyle"</span><span style="color:#24292E">: </span><span style="color:#032F62">'italic'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># image of godfather</span></span>
+<span class="line"><span style="color:#24292E">path </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/godfather-for-chart.png'</span></span>
+<span class="line"><span style="color:#24292E">image </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array(Image.open(path))</span></span>
+<span class="line"><span style="color:#24292E">image </span><span style="color:#D73A49">=</span><span style="color:#24292E"> image </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 255</span></span>
+<span class="line"><span style="color:#24292E">ax_image </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.add_axes([</span><span style="color:#005CC5">0.42</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.55</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.15</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">ax_image.imshow(image)  </span><span style="color:#6A737D"># display</span></span>
+<span class="line"><span style="color:#24292E">ax_image.set_axis_off()  </span><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># text about the godfather</span></span>
+<span class="line"><span style="color:#24292E">godf_rate </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'name'</span><span style="color:#24292E">].str.contains(</span><span style="color:#032F62">'The Godfather'</span><span style="color:#24292E">)][</span><span style="color:#032F62">'rating'</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">    1990</span><span style="color:#24292E">, </span><span style="color:#005CC5">9.2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#D73A49">    f</span><span style="color:#032F62">"&#x3C;The Godfather> with </span><span style="color:#005CC5">{</span><span style="color:#24292E">godf_rate</span><span style="color:#D73A49">:.1f</span><span style="color:#005CC5">}</span><span style="color:#032F62">/10"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># arrow</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> draw_arrow</span><span style="color:#24292E">(tail_position, head_position, invert</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    kw </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Simple, tail_width=0.5, head_width=4, head_length=8"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"k"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> invert:</span></span>
+<span class="line"><span style="color:#24292E">        connectionstyle </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "arc3,rad=-.5"</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        connectionstyle </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "arc3,rad=.5"</span></span>
+<span class="line"><span style="color:#24292E">    a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FancyArrowPatch(tail_position, head_position,</span></span>
+<span class="line"><span style="color:#E36209">                        connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">connectionstyle,</span></span>
+<span class="line"><span style="color:#E36209">                        transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig.transFigure,</span></span>
+<span class="line"><span style="color:#D73A49">                        **</span><span style="color:#24292E">kw)</span></span>
+<span class="line"><span style="color:#24292E">    fig.patches.append(a)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">draw_arrow((</span><span style="color:#005CC5">0.46</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.74</span><span style="color:#24292E">), (</span><span style="color:#005CC5">0.33</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.74</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># highlight specific years</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1966</span><span style="color:#24292E">, </span><span style="color:#005CC5">9.2</span><span style="color:#24292E">, </span><span style="color:#032F62">'1972'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    1990</span><span style="color:#24292E">, </span><span style="color:#005CC5">7.05</span><span style="color:#24292E">, </span><span style="color:#032F62">'1990'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sub_ax.text(</span></span>
+<span class="line"><span style="color:#005CC5">    2018</span><span style="color:#24292E">, </span><span style="color:#005CC5">7.75</span><span style="color:#24292E">, </span><span style="color:#032F62">'2019'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display chart</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">fig.savefig(</span><span style="color:#032F62">'../../static/graph/web-stacked-charts.png'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>46:["$","$L34","notebook-cell-7",{"index":7,"code":"$60","highlighted":"$61","interactive":false,"hasChart":true,"intro":"$L62","output":"$L63"}]
+47:["$","h2","h2-9",{"children":"Going further"}]
+48:["$","p","p-8",{"children":["This article explains how to reproduce ",["$","strong","strong-0",{"children":"a combination"}]," of a ",["$","a","a-0",{"href":"/wordcloud","children":"wordcloud"}]," and a ",["$","a","a-1",{"href":"/line-chart","children":"line-chart"}]," using ",["$","a","a-2",{"href":"/matplotlib","children":"matplotlib"}],"."]}]
+49:["$","p","p-9",{"children":["You might be interested in this ",["$","a","a-0",{"href":"/web-line-chart-small-multiple","children":"beautiful line chart"}]," and how to ",["$","a","a-1",{"href":"/262-wordcloud-with-specific-shape","children":"change the shape of a wordcloud"}],"."]}]
+4a:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+4e:[["$","p","p-0",{"children":"Let's start by create the background of the whole chart."}],["$","p","p-1",{"children":["For this we use the ",["$","code","code-0",{"children":"wordcloud"}]," library. We need to create a string that contains ",["$","strong","strong-0",{"children":"all the titles of the movies"}],". We will use the ",["$","code","code-1",{"children":"name"}]," column of the dataset for this."]}],["$","p","p-2",{"children":["Then, we make it ",["$","strong","strong-0",{"children":"less opaque"}]," by setting the ",["$","code","code-0",{"children":"alpha"}]," parameter to a low value."]}]]
+4f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-charts/output-2.png","alt":"Combine wordcloud and line chart","width":779,"height":590,"loading":"lazy","decoding":"async"}]}]]
+52:[["$","p","p-0",{"children":["For a dedicated post on how to ",["$","strong","strong-0",{"children":"add a chart on top of another"}],", check ",["$","a","a-0",{"href":"/how-to-add-plot-inside-plot","children":"this post"}],"."]}]]
+53:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-charts/output-3.png","alt":"Combine wordcloud and line chart","width":779,"height":590,"loading":"lazy","decoding":"async"}]}]]
+56:[["$","p","p-0",{"children":["The main interest of the ",["$","code","code-0",{"children":"wordcloud"}]," in the background is only to be ",["$","strong","strong-0",{"children":"fully visible"}],". For this, we have to remove the ",["$","strong","strong-1",{"children":"background of the axis"}]," on the top."]}],["$","p","p-1",{"children":["We also add ",["$","strong","strong-0",{"children":"individual points"}]," on the line to make it more readable. ",["$","strong","strong-1",{"children":"Colors of the dots"}]," with be proportional to the rating of the movie in order to ",["$","strong","strong-2",{"children":"highlight the pattern"}],"."]}]]
+57:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-charts/output-4.png","alt":"Combine wordcloud and line chart","width":779,"height":590,"loading":"lazy","decoding":"async"}]}]]
+5a:[["$","p","p-0",{"children":["The chart is starting to look really nice, but it lacks scale and context. We can add a ",["$","strong","strong-0",{"children":"reference lines"}]," and ",["$","strong","strong-1",{"children":"text"}]," to give more information to the reader."]}]]
+5b:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-charts/output-5.png","alt":"Combine wordcloud and line chart","width":779,"height":590,"loading":"lazy","decoding":"async"}]}]]
+5e:[["$","p","p-0",{"children":["What would be a great without its title? Let's add it to the chart thanks to ",["$","code","code-0",{"children":"highlight_text"}]," package. For a dedicated explanation of how it works, check ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"this post"}],"."]}]]
+5f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-charts/output-6.png","alt":"Combine wordcloud and line chart","width":779,"height":590,"loading":"lazy","decoding":"async"}]}]]
+62:[["$","p","p-0",{"children":["And finally, we can add some ",["$","strong","strong-0",{"children":"annotations"}]," to the chart to give more information to the reader. We can also add an ",["$","strong","strong-1",{"children":"image"}]," of the Godfather to make the chart more appealing."]}],["$","p","p-1",{"children":["For a dedicated post on ",["$","strong","strong-0",{"children":"how to add an image to a chart"}],", check ",["$","a","a-0",{"href":"/513-add-logo-matplotlib","children":"this post"}],"."]}],["$","p","p-2",{"children":["For a dedicated post on ",["$","strong","strong-0",{"children":"how to add an arrow"}],", check ",["$","a","a-0",{"href":"/how-to-create-and-custom-arrows-matplotlib","children":"this post"}],"."]}]]
+63:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-charts/output-7.png","alt":"Combine wordcloud and line chart","width":779,"height":590,"loading":"lazy","decoding":"async"}]}]]

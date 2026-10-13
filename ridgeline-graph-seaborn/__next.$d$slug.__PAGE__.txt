@@ -1,0 +1,264 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Ridgeline chart with python"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Joyplot150.webp","alt":"logo of a chart:Joyplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>A <a href='https://python-graph-gallery.com/ridgeline/'>ridgeline plot</a> (formerly called a Joyplot) allows to study the distribution of a numeric variable for several groups. Throughout the following example, we will consider average temperatures in Seattle between 1950 and 2010 and we will show how to visualize their distribution.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/ridgeline/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Ridgeline section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/ridgeline.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"ridgeline-graph-seaborn","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Ridgeline chart with python"}],["$","meta","1",{"name":"description","content":"How to draw a clean ridgeline graph with Python using Seaborn and Matplotlib."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, seaborn, ridgeline"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/ridgeline-graph-seaborn/"}],["$","meta","6",{"property":"og:title","content":"Ridgeline chart with python"}],["$","meta","7",{"property":"og:description","content":"How to draw a clean ridgeline graph with Python using Seaborn and Matplotlib."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Ridgeline chart with python"}],["$","meta","13",{"name":"twitter:description","content":"How to draw a clean ridgeline graph with Python using Seaborn and Matplotlib."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+28:I[44110,["$3","$4","$5","$6","$d"],"default"]
+29:I[59351,["$3","$4","$5","$6","$d"],"default"]
+2a:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T4c2,# getting necessary libraries
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+sns.set_theme(style="white", rc={"axes.facecolor": (0, 0, 0, 0)})
+
+# getting the data
+temp = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/2016-weather-data-seattle.csv') # we retrieve the data from plotly's GitHub repository
+temp['month'] = pd.to_datetime(temp['Date']).dt.month # we store the month in a separate column
+
+# we define a dictionnary with months that we'll use later
+month_dict = {1: 'january',
+              2: 'february',
+              3: 'march',
+              4: 'april',
+              5: 'may',
+              6: 'june',
+              7: 'july',
+              8: 'august',
+              9: 'september',
+              10: 'october',
+              11: 'november',
+              12: 'december'}
+
+# we create a 'month' column
+temp['month'] = temp['month'].map(month_dict)
+
+# we generate a pd.Serie with the mean temperature for each month (used later for colors in the FacetGrid plot), and we create a new column in temp dataframe
+month_mean_serie = temp.groupby('month')['Mean_TemperatureC'].mean()
+temp['mean_month'] = temp['month'].map(month_mean_serie)23:T69f,# we generate a color palette with Seaborn.color_palette()
+pal = sns.color_palette(palette='coolwarm', n_colors=12)
+
+# in the sns.FacetGrid class, the 'hue' argument is the one that is the one that will be represented by colors with 'palette'
+g = sns.FacetGrid(temp, row='month', hue='mean_month', aspect=15, height=0.75, palette=pal)
+
+# then we add the densities kdeplots for each month
+g.map(sns.kdeplot, 'Mean_TemperatureC',
+      bw_adjust=1, clip_on=False,
+      fill=True, alpha=1, linewidth=1.5)
+
+# here we add a white line that represents the contour of each kdeplot
+g.map(sns.kdeplot, 'Mean_TemperatureC', 
+      bw_adjust=1, clip_on=False, 
+      color="w", lw=2)
+
+# here we add a horizontal line for each plot
+g.map(plt.axhline, y=0,
+      lw=2, clip_on=False)
+
+# we loop over the FacetGrid figure axes (g.axes.flat) and add the month as text with the right color
+# notice how ax.lines[-1].get_color() enables you to access the last line's color in each matplotlib.Axes
+for i, ax in enumerate(g.axes.flat):
+    ax.text(-15, 0.02, month_dict[i+1],
+            fontweight='bold', fontsize=15,
+            color=ax.lines[-1].get_color())
+    
+# we use matplotlib.Figure.subplots_adjust() function to get the subplots to overlap
+g.fig.subplots_adjust(hspace=-0.3)
+
+# eventually we remove axes titles, yticks and spines
+g.set_titles("")
+g.set(yticks=[])
+g.despine(bottom=True, left=True)
+
+plt.setp(ax.get_xticklabels(), fontsize=15, fontweight='bold')
+plt.xlabel('Temperature in degree Celsius', fontweight='bold', fontsize=15)
+g.fig.suptitle('Daily average temperature in Seattle per month',
+               ha='right',
+               fontsize=20,
+               fontweight=20)
+
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["$22","temp.head()","$23"],"children":[["$","p","p-0",{"children":["As with Plotly, no Seaborn function enables us to directly plot a ridgeline. In order to do so, we inspired from ",["$","a","a-0",{"href":"https://seaborn.pydata.org/examples/kde_ridgeplot.html","children":"this example"}]," displayed in Seaborn documentation, that makes use of a Seaborn FacetGrid object with kdeplots to generate a ridgeline graph.\nWe adapted the data as well as some lines of code. Feel free to investigate by yourself how to customize this graph further!"]}],"\n","$L24","\n","$L25","\n","$L26","$L27"]}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","violin",{"href":"/violin-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Violin150.webp","alt":"logo of a chart:Violin","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Violin"}]]}],["$","$Le","density",{"href":"/density-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Density150.webp","alt":"logo of a chart:Density","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Density"}]]}],["$","$Le","histogram",{"href":"/histogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Histogram150.webp","alt":"logo of a chart:Histogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Histogram"}]]}],["$","$Le","boxplot",{"href":"/boxplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Box1150.webp","alt":"logo of a chart:Box1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Boxplot"}]]}],["$","$Le","ridgeline",{"href":"/ridgeline/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Joyplot150.webp","alt":"logo of a chart:Joyplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Ridgeline"}]]}],["$","$Le","beeswarm",{"href":"/beeswarm/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Beeswarm2Big.webp","alt":"logo of a chart:Beeswarm2Big","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Beeswarm"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L28",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L29",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L2a",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@2b"}]}]
+20:true
+2c:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2d:T4c2,# getting necessary libraries
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+sns.set_theme(style="white", rc={"axes.facecolor": (0, 0, 0, 0)})
+
+# getting the data
+temp = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/2016-weather-data-seattle.csv') # we retrieve the data from plotly's GitHub repository
+temp['month'] = pd.to_datetime(temp['Date']).dt.month # we store the month in a separate column
+
+# we define a dictionnary with months that we'll use later
+month_dict = {1: 'january',
+              2: 'february',
+              3: 'march',
+              4: 'april',
+              5: 'may',
+              6: 'june',
+              7: 'july',
+              8: 'august',
+              9: 'september',
+              10: 'october',
+              11: 'november',
+              12: 'december'}
+
+# we create a 'month' column
+temp['month'] = temp['month'].map(month_dict)
+
+# we generate a pd.Serie with the mean temperature for each month (used later for colors in the FacetGrid plot), and we create a new column in temp dataframe
+month_mean_serie = temp.groupby('month')['Mean_TemperatureC'].mean()
+temp['mean_month'] = temp['month'].map(month_mean_serie)2e:T196b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># getting necessary libraries</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> seaborn </span><span style="color:#D73A49">as</span><span style="color:#24292E"> sns</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#24292E">sns.set_theme(</span><span style="color:#E36209">style</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">, </span><span style="color:#E36209">rc</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"axes.facecolor"</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">)})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># getting the data</span></span>
+<span class="line"><span style="color:#24292E">temp </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(</span><span style="color:#032F62">'https://raw.githubusercontent.com/plotly/datasets/master/2016-weather-data-seattle.csv'</span><span style="color:#24292E">) </span><span style="color:#6A737D"># we retrieve the data from plotly's GitHub repository</span></span>
+<span class="line"><span style="color:#24292E">temp[</span><span style="color:#032F62">'month'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.to_datetime(temp[</span><span style="color:#032F62">'Date'</span><span style="color:#24292E">]).dt.month </span><span style="color:#6A737D"># we store the month in a separate column</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># we define a dictionnary with months that we'll use later</span></span>
+<span class="line"><span style="color:#24292E">month_dict </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span><span style="color:#005CC5">1</span><span style="color:#24292E">: </span><span style="color:#032F62">'january'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              2</span><span style="color:#24292E">: </span><span style="color:#032F62">'february'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              3</span><span style="color:#24292E">: </span><span style="color:#032F62">'march'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              4</span><span style="color:#24292E">: </span><span style="color:#032F62">'april'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              5</span><span style="color:#24292E">: </span><span style="color:#032F62">'may'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              6</span><span style="color:#24292E">: </span><span style="color:#032F62">'june'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              7</span><span style="color:#24292E">: </span><span style="color:#032F62">'july'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              8</span><span style="color:#24292E">: </span><span style="color:#032F62">'august'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              9</span><span style="color:#24292E">: </span><span style="color:#032F62">'september'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              10</span><span style="color:#24292E">: </span><span style="color:#032F62">'october'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              11</span><span style="color:#24292E">: </span><span style="color:#032F62">'november'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">              12</span><span style="color:#24292E">: </span><span style="color:#032F62">'december'</span><span style="color:#24292E">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># we create a 'month' column</span></span>
+<span class="line"><span style="color:#24292E">temp[</span><span style="color:#032F62">'month'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> temp[</span><span style="color:#032F62">'month'</span><span style="color:#24292E">].map(month_dict)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># we generate a pd.Serie with the mean temperature for each month (used later for colors in the FacetGrid plot), and we create a new column in temp dataframe</span></span>
+<span class="line"><span style="color:#24292E">month_mean_serie </span><span style="color:#D73A49">=</span><span style="color:#24292E"> temp.groupby(</span><span style="color:#032F62">'month'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'Mean_TemperatureC'</span><span style="color:#24292E">].mean()</span></span>
+<span class="line"><span style="color:#24292E">temp[</span><span style="color:#032F62">'mean_month'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> temp[</span><span style="color:#032F62">'month'</span><span style="color:#24292E">].map(month_mean_serie)</span></span></code></pre>24:["$","$L2c","notebook-cell-0",{"index":0,"code":"$2d","highlighted":"$2e","interactive":true,"hasChart":false}]
+25:["$","p","p-1",{"children":"At this point, you can have a look at what the dataframe looks like"}]
+26:["$","$L2c","notebook-cell-1",{"index":1,"code":"temp.head()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">temp.head()</span></span></code></pre>","interactive":true,"hasChart":false,"output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"Date"}],["$","th","th-2",{"children":"Max_TemperatureC"}],["$","th","th-3",{"children":"Mean_TemperatureC"}],["$","th","th-4",{"children":"Min_TemperatureC"}],["$","th","th-5",{"children":"month"}],["$","th","th-6",{"children":"mean_month"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"1/1/1948"}],["$","td","td-1",{"children":"10"}],["$","td","td-2",{"children":"8.0"}],["$","td","td-3",{"children":"7.0"}],["$","td","td-4",{"children":"january"}],["$","td","td-5",{"children":"4.493982"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"1/2/1948"}],["$","td","td-1",{"children":"6"}],["$","td","td-2",{"children":"4.0"}],["$","td","td-3",{"children":"3.0"}],["$","td","td-4",{"children":"january"}],["$","td","td-5",{"children":"4.493982"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"1/3/1948"}],["$","td","td-1",{"children":"7"}],["$","td","td-2",{"children":"4.0"}],["$","td","td-3",{"children":"2.0"}],["$","td","td-4",{"children":"january"}],["$","td","td-5",{"children":"4.493982"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"1/4/1948"}],["$","td","td-1",{"children":"7"}],["$","td","td-2",{"children":"4.0"}],["$","td","td-3",{"children":"2.0"}],["$","td","td-4",{"children":"january"}],["$","td","td-5",{"children":"4.493982"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"1/5/1948"}],["$","td","td-1",{"children":"7"}],["$","td","td-2",{"children":"3.0"}],["$","td","td-3",{"children":"0.0"}],["$","td","td-4",{"children":"january"}],["$","td","td-5",{"children":"4.493982"}]]}]]}]]}],"\n"]}]}]]}]
+2f:T69f,# we generate a color palette with Seaborn.color_palette()
+pal = sns.color_palette(palette='coolwarm', n_colors=12)
+
+# in the sns.FacetGrid class, the 'hue' argument is the one that is the one that will be represented by colors with 'palette'
+g = sns.FacetGrid(temp, row='month', hue='mean_month', aspect=15, height=0.75, palette=pal)
+
+# then we add the densities kdeplots for each month
+g.map(sns.kdeplot, 'Mean_TemperatureC',
+      bw_adjust=1, clip_on=False,
+      fill=True, alpha=1, linewidth=1.5)
+
+# here we add a white line that represents the contour of each kdeplot
+g.map(sns.kdeplot, 'Mean_TemperatureC', 
+      bw_adjust=1, clip_on=False, 
+      color="w", lw=2)
+
+# here we add a horizontal line for each plot
+g.map(plt.axhline, y=0,
+      lw=2, clip_on=False)
+
+# we loop over the FacetGrid figure axes (g.axes.flat) and add the month as text with the right color
+# notice how ax.lines[-1].get_color() enables you to access the last line's color in each matplotlib.Axes
+for i, ax in enumerate(g.axes.flat):
+    ax.text(-15, 0.02, month_dict[i+1],
+            fontweight='bold', fontsize=15,
+            color=ax.lines[-1].get_color())
+    
+# we use matplotlib.Figure.subplots_adjust() function to get the subplots to overlap
+g.fig.subplots_adjust(hspace=-0.3)
+
+# eventually we remove axes titles, yticks and spines
+g.set_titles("")
+g.set(yticks=[])
+g.despine(bottom=True, left=True)
+
+plt.setp(ax.get_xticklabels(), fontsize=15, fontweight='bold')
+plt.xlabel('Temperature in degree Celsius', fontweight='bold', fontsize=15)
+g.fig.suptitle('Daily average temperature in Seattle per month',
+               ha='right',
+               fontsize=20,
+               fontweight=20)
+
+plt.show()30:T246e,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># we generate a color palette with Seaborn.color_palette()</span></span>
+<span class="line"><span style="color:#24292E">pal </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sns.color_palette(</span><span style="color:#E36209">palette</span><span style="color:#D73A49">=</span><span style="color:#032F62">'coolwarm'</span><span style="color:#24292E">, </span><span style="color:#E36209">n_colors</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># in the sns.FacetGrid class, the 'hue' argument is the one that is the one that will be represented by colors with 'palette'</span></span>
+<span class="line"><span style="color:#24292E">g </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sns.FacetGrid(temp, </span><span style="color:#E36209">row</span><span style="color:#D73A49">=</span><span style="color:#032F62">'month'</span><span style="color:#24292E">, </span><span style="color:#E36209">hue</span><span style="color:#D73A49">=</span><span style="color:#032F62">'mean_month'</span><span style="color:#24292E">, </span><span style="color:#E36209">aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#E36209">height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#E36209">palette</span><span style="color:#D73A49">=</span><span style="color:#24292E">pal)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># then we add the densities kdeplots for each month</span></span>
+<span class="line"><span style="color:#24292E">g.map(sns.kdeplot, </span><span style="color:#032F62">'Mean_TemperatureC'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">      bw_adjust</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">      fill</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.5</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># here we add a white line that represents the contour of each kdeplot</span></span>
+<span class="line"><span style="color:#24292E">g.map(sns.kdeplot, </span><span style="color:#032F62">'Mean_TemperatureC'</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">      bw_adjust</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">      color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"w"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># here we add a horizontal line for each plot</span></span>
+<span class="line"><span style="color:#24292E">g.map(plt.axhline, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">      lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">clip_on</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># we loop over the FacetGrid figure axes (g.axes.flat) and add the month as text with the right color</span></span>
+<span class="line"><span style="color:#6A737D"># notice how ax.lines[-1].get_color() enables you to access the last line's color in each matplotlib.Axes</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, ax </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(g.axes.flat):</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.02</span><span style="color:#24292E">, month_dict[i</span><span style="color:#D73A49">+</span><span style="color:#005CC5">1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">            fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            color</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax.lines[</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">].get_color())</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D"># we use matplotlib.Figure.subplots_adjust() function to get the subplots to overlap</span></span>
+<span class="line"><span style="color:#24292E">g.fig.subplots_adjust(</span><span style="color:#E36209">hspace</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># eventually we remove axes titles, yticks and spines</span></span>
+<span class="line"><span style="color:#24292E">g.set_titles(</span><span style="color:#032F62">""</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">g.set(</span><span style="color:#E36209">yticks</span><span style="color:#D73A49">=</span><span style="color:#24292E">[])</span></span>
+<span class="line"><span style="color:#24292E">g.despine(</span><span style="color:#E36209">bottom</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">left</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.setp(ax.get_xticklabels(), </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.xlabel(</span><span style="color:#032F62">'Temperature in degree Celsius'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">g.fig.suptitle(</span><span style="color:#032F62">'Daily average temperature in Seattle per month'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">               ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'right'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">               fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">20</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">               fontweight</span><span style="color:#D73A49">=</span><span style="color:#005CC5">20</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>27:["$","$L2c","notebook-cell-2",{"index":2,"code":"$2f","highlighted":"$30","interactive":true,"hasChart":true,"intro":"$L31","output":"$L32"}]
+2b:null
+b:C
+31:[["$","p","p-0",{"children":"Eventually, we generate the ridgeline plot by first instantiating a Seaborn FacetGrid object."}]]
+32:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/ridgeline-graph-seaborn/output-2.png","alt":"Ridgeline chart with python","width":826,"height":658,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

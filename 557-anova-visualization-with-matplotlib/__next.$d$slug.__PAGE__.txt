@@ -1,0 +1,474 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+19:"ViewportBoundary"
+1a:I[97367,["$3","$4","$5","$6"],"$19"]
+1b:"MetadataBoundary"
+1c:I[97367,["$3","$4","$5","$6"],"$1b"]
+1d:"$Sreact.suspense"
+1e:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Representation of Anova on violin plots"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Violin150.webp","alt":"logo of a chart:Violin","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>The Analysis of Variance (ANOVA) is employed to <b>compare the means</b> of multiple normally distributed variables. Utilizing <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a>, you can readily generate a plot featuring <a href='https://python-graph-gallery.com/violin-plot/'>violin plots</a> or <a href='https://python-graph-gallery.com/boxplot/'>boxplots</a> for these variables on the same chart, enabling a clear depiction of the differences among them.<br>  Furthermore, by employing annotation techniques provided by <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a>, you can directly incorporate the results of ANOVA into your chart. This enhancement will render the chart <b>more informative</b> and pertinent when comparing <b>distributions among different groups or variables</b>.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/violin-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Violin section"}],"$Lf"]}]]}]}],"$L10","$L11","$L12","$L13","$L14","$L15"],["$L16"],"$L17"]}],"p":"$@18","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"557-anova-visualization-with-matplotlib","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Representation of Anova on violin plots"}],["$","meta","1",{"name":"description","content":"How to represent the results of an Anova on a matplotlib plot"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"anova, violin, boxplot, matplotlib, statistics"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/557-anova-visualization-with-matplotlib/"}],["$","meta","6",{"property":"og:title","content":"Representation of Anova on violin plots"}],["$","meta","7",{"property":"og:description","content":"How to represent the results of an Anova on a matplotlib plot"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/557-anova-visualization-with-matplotlib/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Representation of Anova on violin plots"}],["$","meta","13",{"name":"twitter:description","content":"How to represent the results of an Anova on a matplotlib plot"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/557-anova-visualization-with-matplotlib/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1e","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1f","v":null,"s":"$b"}},"a":"$@20","u":"$@21","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+22:I[98936,["$3","$4","$5","$6","$d"],"default"]
+27:I[44110,["$3","$4","$5","$6","$d"],"default"]
+28:I[59351,["$3","$4","$5","$6","$d"],"default"]
+29:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+f:["$","a",null,{"href":"https://www.data-to-viz.com/graph/violin.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]
+23:T567,# Group our dataset with our 'Group' variable
+grouped = df.groupby('category')['value']
+
+# Init a figure and axes
+fig, ax = plt.subplots(figsize=(8, 6))
+
+# Create the plot with different colors for each group
+boxplot = ax.boxplot(x=[group.values for name, group in grouped],
+                     labels=grouped.groups.keys(),
+                     patch_artist=True,
+                     medianprops={'color': 'black'}
+                    ) 
+
+# Define colors for each group
+colors = ['orange', 'purple', '#69b3a2']
+
+# Assign colors to each box in the boxplot
+for box, color in zip(boxplot['boxes'], colors):
+    box.set_facecolor(color)
+    
+# Add the p value and the t
+p_value_text = f'p-value: {p_value}'
+ax.text(0.7, 50, p_value_text, weight='bold')
+f_value_text = f'F-value: {F_statistic}'
+ax.text(0.7, 45, f_value_text, weight='bold')
+
+# Add the mean for each group
+ax.text(1.2, mean_groupA, f'Mean of Group A: {mean_groupA}', fontsize=10)
+ax.text(2.2, mean_groupB, f'Mean of Group B: {mean_groupB}', fontsize=10)
+ax.text(2, mean_groupC, f'Mean of Group C: {mean_groupC}', fontsize=10)
+
+# Add a title and axis label
+ax.set_title('One way Anova between group A, B and C')
+
+# Add a legend
+legend_labels = ['Group A', 'Group B', 'Group C']
+legend_handles = [plt.Rectangle((0,0),1,1, color=color) for color in colors]
+ax.legend(legend_handles, legend_labels)
+
+# Display it
+plt.show()24:T515,# Group our dataset with our 'Group' variable
+grouped = df.groupby('category')['value']
+
+# Init a figure and axes
+fig, ax = plt.subplots(figsize=(8, 6))
+
+# Create the plot with different colors for each group
+violins = ax.violinplot([group.values for name, group in grouped],
+                     #labels=grouped.groups.keys()
+                    ) 
+
+# Define colors for each group
+colors = ['orange', 'purple', '#69b3a2']
+
+# Assign colors to each box in the boxplot
+for violin, color in zip(violins['bodies'], colors):
+    violin.set_facecolor(color)
+    
+# Add the p value and the t
+p_value_text = f'p-value: {p_value}'
+ax.text(0.7, 50, p_value_text, weight='bold')
+F_value_text = f'F-value: {F_statistic}'
+ax.text(0.7, 45, F_value_text, weight='bold')
+
+# Add the mean for each group
+ax.text(1.25, mean_groupA, f'Mean of Group A: {mean_groupA}', fontsize=10)
+ax.text(2.25, mean_groupB, f'Mean of Group B: {mean_groupB}', fontsize=10)
+ax.text(2, mean_groupC, f'Mean of Group C: {mean_groupC}', fontsize=10)
+
+# Add a title and axis label
+ax.set_title('One way Anova between group A, B and C')
+
+# Add a legend
+legend_labels = ['Group A', 'Group B', 'Group C']
+legend_handles = [plt.Rectangle((0,0),1,1, color=color) for color in colors]
+ax.legend(legend_handles, legend_labels)
+
+# Display it
+plt.show()25:T5ed,# Group our dataset with our 'Group' variable
+grouped = df.groupby('category')['value']
+
+# Init a figure and axes
+fig, ax = plt.subplots(figsize=(8, 6))
+
+# Create the plot with different colors for each group
+violins = ax.violinplot([group.values for name, group in grouped],
+                     #labels=grouped.groups.keys()
+                    ) 
+
+# Define colors for each group
+colors = ['orange', 'purple', '#69b3a2']
+
+# Assign colors to each box in the boxplot
+for violin, color in zip(violins['bodies'], colors):
+    violin.set_facecolor(color)
+    
+# Add the p value and the t
+p_value_text = f'p-value: {p_value}'
+ax.text(0.7, 60, p_value_text)
+F_value_text = f'F-value: {F_statistic}'
+ax.text(0.7, 55, F_value_text)
+
+# Add the mean for each group
+ax.text(1.3, mean_groupA, f'Mean Group A: {mean_groupA}',
+        style='italic', fontsize=8)
+ax.text(2.3, mean_groupB, f'Mean Group B: {mean_groupB}',
+        style='italic', fontsize=8)
+ax.text(2.2, mean_groupC, f'Mean Group C: {mean_groupC}',
+        style='italic', fontsize=8)
+
+# Remove axis labels
+ax.set_xticks([])
+ax.set_yticks([])
+
+# Removes spines
+ax.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
+
+# Add a title and axis label
+ax.set_title('One way Anova\nbetween group A, B and C', weight='bold')
+
+# Add a legend
+legend_labels = ['Group A', 'Group B', 'Group C']
+legend_handles = [plt.Rectangle((0,0),1,1, color=color, alpha=0.5) for color in colors]
+ax.legend(legend_handles, legend_labels, loc='upper left')
+
+# Display it
+plt.show()10:["$","article",null,{"className":"wrapper post-content","children":["$","$L22",null,{"cells":["import pandas as pd\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport scipy.stats as stats","sample_size = 100\n\ngroupA = np.random.normal(10, 10, sample_size)\ngroupB = np.random.normal(70, 10, sample_size)\ngroupC = np.random.normal(40, 10, sample_size)\n\ncategory = ['GroupA']*sample_size + ['GroupB']*sample_size + ['GroupC']*sample_size\n\ndf = pd.DataFrame({'value': np.concatenate([groupA, groupB, groupC]),\n                   'category': category})","# groups\ngroupA = df[df['category']=='GroupA']['value']\ngroupB = df[df['category']=='GroupB']['value']\ngroupC = df[df['category']=='GroupC']['value']\n\n# Perform a paired t-test\nF_statistic, p_value = stats.f_oneway(groupA, groupB, groupC)\n\n# Get means\nmean_groupA = groupA.mean()\nmean_groupB = groupB.mean()\nmean_groupC = groupC.mean()\n\n# Print the results\nprint(\"T-statistic:\", F_statistic)\nprint(\"P-value:\", p_value)\nprint(\"Mean groupA:\", mean_groupA)\nprint(\"Mean groupB:\", mean_groupB)\nprint(\"Mean groupC:\", mean_groupC)","F_statistic = round(F_statistic,2)\np_value = round(p_value,5) # more decimal since it's a lower value in general\nmean_groupA = round(mean_groupA,2)\nmean_groupB = round(mean_groupB,2)\nmean_groupC = round(mean_groupC,2)","$23","$24","$25"],"children":"$L26"}]}]
+11:["$","div",null,{"className":"h-16 sm:h-20"}]
+12:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","violin",{"href":"/violin-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Violin150.webp","alt":"logo of a chart:Violin","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Violin"}]]}],["$","$Le","density",{"href":"/density-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Density150.webp","alt":"logo of a chart:Density","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Density"}]]}],["$","$Le","histogram",{"href":"/histogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Histogram150.webp","alt":"logo of a chart:Histogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Histogram"}]]}],["$","$Le","boxplot",{"href":"/boxplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Box1150.webp","alt":"logo of a chart:Box1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Boxplot"}]]}],["$","$Le","ridgeline",{"href":"/ridgeline/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Joyplot150.webp","alt":"logo of a chart:Joyplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Ridgeline"}]]}],["$","$Le","beeswarm",{"href":"/beeswarm/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Beeswarm2Big.webp","alt":"logo of a chart:Beeswarm2Big","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Beeswarm"}]]}]]}]]}]}]
+13:["$","div",null,{"className":"h-16 sm:h-20"}]
+14:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L27",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+15:["$","$L28",null,{}]
+16:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+17:["$","$L29",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@2a"}]}]
+21:true
+2b:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2c:T9ab,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">sample_size </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 100</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">groupA </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.normal(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, sample_size)</span></span>
+<span class="line"><span style="color:#24292E">groupB </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.normal(</span><span style="color:#005CC5">70</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, sample_size)</span></span>
+<span class="line"><span style="color:#24292E">groupC </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.normal(</span><span style="color:#005CC5">40</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, sample_size)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">category </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'GroupA'</span><span style="color:#24292E">]</span><span style="color:#D73A49">*</span><span style="color:#24292E">sample_size </span><span style="color:#D73A49">+</span><span style="color:#24292E"> [</span><span style="color:#032F62">'GroupB'</span><span style="color:#24292E">]</span><span style="color:#D73A49">*</span><span style="color:#24292E">sample_size </span><span style="color:#D73A49">+</span><span style="color:#24292E"> [</span><span style="color:#032F62">'GroupC'</span><span style="color:#24292E">]</span><span style="color:#D73A49">*</span><span style="color:#24292E">sample_size</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({</span><span style="color:#032F62">'value'</span><span style="color:#24292E">: np.concatenate([groupA, groupB, groupC]),</span></span>
+<span class="line"><span style="color:#032F62">                   'category'</span><span style="color:#24292E">: category})</span></span></code></pre>26:[["$","h2","h2-0",{"children":"Libraries"}],"\n",["$","p","p-0",{"children":"First, you need to install the following librairies:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," is used for plot creating the charts"]}],"\n",["$","li","li-1",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/pandas/","children":"pandas"}]," is used to put the data into a dataframe"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"numpy"}]," is used to generate some data"]}],"\n"]}],"\n",["$","p","p-1",{"children":["The ",["$","strong","strong-0",{"children":"Anova test"}]," will be done using ",["$","code","code-0",{"children":"scipy"}],": install it using the ",["$","code","code-1",{"children":"pip install scipy"}]," command"]}],"\n",["$","$L2b","notebook-cell-0",{"index":0,"code":"import pandas as pd\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport scipy.stats as stats","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> pandas </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> pd</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> matplotlib.pyplot </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> plt</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> numpy </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> np</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> scipy.stats </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> stats</span></span></code></pre>","interactive":true,"hasChart":false}],"\n",["$","h2","h2-1",{"children":"Dataset"}],"\n",["$","p","p-2",{"children":["Let's create a dummy dataset. Three groups are made up: ",["$","code","code-0",{"children":"A"}],", ",["$","code","code-1",{"children":"B"}]," and ",["$","code","code-2",{"children":"C"}],"."]}],"\n",["$","p","p-3",{"children":["For each of them, 100 random values are created thanks to the ",["$","code","code-0",{"children":"np.random.normal()"}]," function, but with different mean values."]}],"\n",["$","$L2b","notebook-cell-1",{"index":1,"code":"sample_size = 100\n\ngroupA = np.random.normal(10, 10, sample_size)\ngroupB = np.random.normal(70, 10, sample_size)\ngroupC = np.random.normal(40, 10, sample_size)\n\ncategory = ['GroupA']*sample_size + ['GroupB']*sample_size + ['GroupC']*sample_size\n\ndf = pd.DataFrame({'value': np.concatenate([groupA, groupB, groupC]),\n                   'category': category})","highlighted":"$2c","interactive":true,"hasChart":false}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","$L35","\n","$L36","$L37","\n","$L38","$L39","\n","$L3a","\n","$L3b","\n","$L3c"]
+2a:null
+b:C
+2d:["$","h2","h2-2",{"children":"Get statistical values"}]
+2e:["$","p","p-4",{"children":["First, we'll start by retrieving the values we want to add on the plot: the ",["$","strong","strong-0",{"children":"p value"}]," and the ",["$","strong","strong-1",{"children":"F statistic"}],". For this, we need to use the ",["$","code","code-0",{"children":"f_oneway()"}]," function from ",["$","code","code-1",{"children":"scipy"}],"."]}]
+2f:["$","p","p-5",{"children":["Also, we retrieve the ",["$","strong","strong-0",{"children":"mean"}]," of each group."]}]
+30:["$","p","p-6",{"children":["$","em","em-0",{"children":"Important: This post does not cover any statistical/math details"}]}]
+3d:Td6b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># groups</span></span>
+<span class="line"><span style="color:#24292E">groupA </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'category'</span><span style="color:#24292E">]</span><span style="color:#D73A49">==</span><span style="color:#032F62">'GroupA'</span><span style="color:#24292E">][</span><span style="color:#032F62">'value'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">groupB </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'category'</span><span style="color:#24292E">]</span><span style="color:#D73A49">==</span><span style="color:#032F62">'GroupB'</span><span style="color:#24292E">][</span><span style="color:#032F62">'value'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">groupC </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'category'</span><span style="color:#24292E">]</span><span style="color:#D73A49">==</span><span style="color:#032F62">'GroupC'</span><span style="color:#24292E">][</span><span style="color:#032F62">'value'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Perform a paired t-test</span></span>
+<span class="line"><span style="color:#24292E">F_statistic, p_value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> stats.f_oneway(groupA, groupB, groupC)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Get means</span></span>
+<span class="line"><span style="color:#24292E">mean_groupA </span><span style="color:#D73A49">=</span><span style="color:#24292E"> groupA.mean()</span></span>
+<span class="line"><span style="color:#24292E">mean_groupB </span><span style="color:#D73A49">=</span><span style="color:#24292E"> groupB.mean()</span></span>
+<span class="line"><span style="color:#24292E">mean_groupC </span><span style="color:#D73A49">=</span><span style="color:#24292E"> groupC.mean()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Print the results</span></span>
+<span class="line"><span style="color:#005CC5">print</span><span style="color:#24292E">(</span><span style="color:#032F62">"T-statistic:"</span><span style="color:#24292E">, F_statistic)</span></span>
+<span class="line"><span style="color:#005CC5">print</span><span style="color:#24292E">(</span><span style="color:#032F62">"P-value:"</span><span style="color:#24292E">, p_value)</span></span>
+<span class="line"><span style="color:#005CC5">print</span><span style="color:#24292E">(</span><span style="color:#032F62">"Mean groupA:"</span><span style="color:#24292E">, mean_groupA)</span></span>
+<span class="line"><span style="color:#005CC5">print</span><span style="color:#24292E">(</span><span style="color:#032F62">"Mean groupB:"</span><span style="color:#24292E">, mean_groupB)</span></span>
+<span class="line"><span style="color:#005CC5">print</span><span style="color:#24292E">(</span><span style="color:#032F62">"Mean groupC:"</span><span style="color:#24292E">, mean_groupC)</span></span></code></pre>31:["$","$L2b","notebook-cell-2",{"index":2,"code":"# groups\ngroupA = df[df['category']=='GroupA']['value']\ngroupB = df[df['category']=='GroupB']['value']\ngroupC = df[df['category']=='GroupC']['value']\n\n# Perform a paired t-test\nF_statistic, p_value = stats.f_oneway(groupA, groupB, groupC)\n\n# Get means\nmean_groupA = groupA.mean()\nmean_groupB = groupB.mean()\nmean_groupC = groupC.mean()\n\n# Print the results\nprint(\"T-statistic:\", F_statistic)\nprint(\"P-value:\", p_value)\nprint(\"Mean groupA:\", mean_groupA)\nprint(\"Mean groupB:\", mean_groupB)\nprint(\"Mean groupC:\", mean_groupC)","highlighted":"$3d","interactive":true,"hasChart":false,"output":"$L3e"}]
+32:["$","p","p-7",{"children":["Let's ",["$","strong","strong-0",{"children":"round them"}]," in order to make the chart ",["$","strong","strong-1",{"children":"more readable"}]," at the end"]}]
+3f:T604,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">F_statistic </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> round</span><span style="color:#24292E">(F_statistic,</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">p_value </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> round</span><span style="color:#24292E">(p_value,</span><span style="color:#005CC5">5</span><span style="color:#24292E">) </span><span style="color:#6A737D"># more decimal since it's a lower value in general</span></span>
+<span class="line"><span style="color:#24292E">mean_groupA </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> round</span><span style="color:#24292E">(mean_groupA,</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">mean_groupB </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> round</span><span style="color:#24292E">(mean_groupB,</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">mean_groupC </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> round</span><span style="color:#24292E">(mean_groupC,</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span></code></pre>33:["$","$L2b","notebook-cell-3",{"index":3,"code":"F_statistic = round(F_statistic,2)\np_value = round(p_value,5) # more decimal since it's a lower value in general\nmean_groupA = round(mean_groupA,2)\nmean_groupB = round(mean_groupB,2)\nmean_groupC = round(mean_groupC,2)","highlighted":"$3f","interactive":true,"hasChart":false}]
+34:["$","h2","h2-3",{"children":"Boxplot with statistical elements"}]
+40:T567,# Group our dataset with our 'Group' variable
+grouped = df.groupby('category')['value']
+
+# Init a figure and axes
+fig, ax = plt.subplots(figsize=(8, 6))
+
+# Create the plot with different colors for each group
+boxplot = ax.boxplot(x=[group.values for name, group in grouped],
+                     labels=grouped.groups.keys(),
+                     patch_artist=True,
+                     medianprops={'color': 'black'}
+                    ) 
+
+# Define colors for each group
+colors = ['orange', 'purple', '#69b3a2']
+
+# Assign colors to each box in the boxplot
+for box, color in zip(boxplot['boxes'], colors):
+    box.set_facecolor(color)
+    
+# Add the p value and the t
+p_value_text = f'p-value: {p_value}'
+ax.text(0.7, 50, p_value_text, weight='bold')
+f_value_text = f'F-value: {F_statistic}'
+ax.text(0.7, 45, f_value_text, weight='bold')
+
+# Add the mean for each group
+ax.text(1.2, mean_groupA, f'Mean of Group A: {mean_groupA}', fontsize=10)
+ax.text(2.2, mean_groupB, f'Mean of Group B: {mean_groupB}', fontsize=10)
+ax.text(2, mean_groupC, f'Mean of Group C: {mean_groupC}', fontsize=10)
+
+# Add a title and axis label
+ax.set_title('One way Anova between group A, B and C')
+
+# Add a legend
+legend_labels = ['Group A', 'Group B', 'Group C']
+legend_handles = [plt.Rectangle((0,0),1,1, color=color) for color in colors]
+ax.legend(legend_handles, legend_labels)
+
+# Display it
+plt.show()41:T2253,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Group our dataset with our 'Group' variable</span></span>
+<span class="line"><span style="color:#24292E">grouped </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">'category'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'value'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Init a figure and axes</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create the plot with different colors for each group</span></span>
+<span class="line"><span style="color:#24292E">boxplot </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.boxplot(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">[group.values </span><span style="color:#D73A49">for</span><span style="color:#24292E"> name, group </span><span style="color:#D73A49">in</span><span style="color:#24292E"> grouped],</span></span>
+<span class="line"><span style="color:#E36209">                     labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">grouped.groups.keys(),</span></span>
+<span class="line"><span style="color:#E36209">                     patch_artist</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">                     medianprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">'color'</span><span style="color:#24292E">: </span><span style="color:#032F62">'black'</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">                    ) </span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define colors for each group</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'orange'</span><span style="color:#24292E">, </span><span style="color:#032F62">'purple'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#69b3a2'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Assign colors to each box in the boxplot</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> box, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(boxplot[</span><span style="color:#032F62">'boxes'</span><span style="color:#24292E">], colors):</span></span>
+<span class="line"><span style="color:#24292E">    box.set_facecolor(color)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D"># Add the p value and the t</span></span>
+<span class="line"><span style="color:#24292E">p_value_text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">'p-value: </span><span style="color:#005CC5">{</span><span style="color:#24292E">p_value</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">50</span><span style="color:#24292E">, p_value_text, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">f_value_text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">'F-value: </span><span style="color:#005CC5">{</span><span style="color:#24292E">F_statistic</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">45</span><span style="color:#24292E">, f_value_text, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add the mean for each group</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">1.2</span><span style="color:#24292E">, mean_groupA, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'Mean of Group A: </span><span style="color:#005CC5">{</span><span style="color:#24292E">mean_groupA</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">2.2</span><span style="color:#24292E">, mean_groupB, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'Mean of Group B: </span><span style="color:#005CC5">{</span><span style="color:#24292E">mean_groupB</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">2</span><span style="color:#24292E">, mean_groupC, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'Mean of Group C: </span><span style="color:#005CC5">{</span><span style="color:#24292E">mean_groupC</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a title and axis label</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span><span style="color:#032F62">'One way Anova between group A, B and C'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a legend</span></span>
+<span class="line"><span style="color:#24292E">legend_labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'Group A'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Group B'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Group C'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">legend_handles </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [plt.Rectangle((</span><span style="color:#005CC5">0</span><span style="color:#24292E">,</span><span style="color:#005CC5">0</span><span style="color:#24292E">),</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> color </span><span style="color:#D73A49">in</span><span style="color:#24292E"> colors]</span></span>
+<span class="line"><span style="color:#24292E">ax.legend(legend_handles, legend_labels)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Display it</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>35:["$","$L2b","notebook-cell-4",{"index":4,"code":"$40","highlighted":"$41","interactive":true,"hasChart":true,"intro":"$L42","output":"$L43"}]
+36:["$","h2","h2-4",{"children":"Violin plot with statistical elements"}]
+44:T515,# Group our dataset with our 'Group' variable
+grouped = df.groupby('category')['value']
+
+# Init a figure and axes
+fig, ax = plt.subplots(figsize=(8, 6))
+
+# Create the plot with different colors for each group
+violins = ax.violinplot([group.values for name, group in grouped],
+                     #labels=grouped.groups.keys()
+                    ) 
+
+# Define colors for each group
+colors = ['orange', 'purple', '#69b3a2']
+
+# Assign colors to each box in the boxplot
+for violin, color in zip(violins['bodies'], colors):
+    violin.set_facecolor(color)
+    
+# Add the p value and the t
+p_value_text = f'p-value: {p_value}'
+ax.text(0.7, 50, p_value_text, weight='bold')
+F_value_text = f'F-value: {F_statistic}'
+ax.text(0.7, 45, F_value_text, weight='bold')
+
+# Add the mean for each group
+ax.text(1.25, mean_groupA, f'Mean of Group A: {mean_groupA}', fontsize=10)
+ax.text(2.25, mean_groupB, f'Mean of Group B: {mean_groupB}', fontsize=10)
+ax.text(2, mean_groupC, f'Mean of Group C: {mean_groupC}', fontsize=10)
+
+# Add a title and axis label
+ax.set_title('One way Anova between group A, B and C')
+
+# Add a legend
+legend_labels = ['Group A', 'Group B', 'Group C']
+legend_handles = [plt.Rectangle((0,0),1,1, color=color) for color in colors]
+ax.legend(legend_handles, legend_labels)
+
+# Display it
+plt.show()45:T1f9d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Group our dataset with our 'Group' variable</span></span>
+<span class="line"><span style="color:#24292E">grouped </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">'category'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'value'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Init a figure and axes</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create the plot with different colors for each group</span></span>
+<span class="line"><span style="color:#24292E">violins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.violinplot([group.values </span><span style="color:#D73A49">for</span><span style="color:#24292E"> name, group </span><span style="color:#D73A49">in</span><span style="color:#24292E"> grouped],</span></span>
+<span class="line"><span style="color:#6A737D">                     #labels=grouped.groups.keys()</span></span>
+<span class="line"><span style="color:#24292E">                    ) </span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define colors for each group</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'orange'</span><span style="color:#24292E">, </span><span style="color:#032F62">'purple'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#69b3a2'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Assign colors to each box in the boxplot</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> violin, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(violins[</span><span style="color:#032F62">'bodies'</span><span style="color:#24292E">], colors):</span></span>
+<span class="line"><span style="color:#24292E">    violin.set_facecolor(color)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D"># Add the p value and the t</span></span>
+<span class="line"><span style="color:#24292E">p_value_text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">'p-value: </span><span style="color:#005CC5">{</span><span style="color:#24292E">p_value</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">50</span><span style="color:#24292E">, p_value_text, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">F_value_text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">'F-value: </span><span style="color:#005CC5">{</span><span style="color:#24292E">F_statistic</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">45</span><span style="color:#24292E">, F_value_text, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add the mean for each group</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">1.25</span><span style="color:#24292E">, mean_groupA, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'Mean of Group A: </span><span style="color:#005CC5">{</span><span style="color:#24292E">mean_groupA</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">2.25</span><span style="color:#24292E">, mean_groupB, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'Mean of Group B: </span><span style="color:#005CC5">{</span><span style="color:#24292E">mean_groupB</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">2</span><span style="color:#24292E">, mean_groupC, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'Mean of Group C: </span><span style="color:#005CC5">{</span><span style="color:#24292E">mean_groupC</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a title and axis label</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span><span style="color:#032F62">'One way Anova between group A, B and C'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a legend</span></span>
+<span class="line"><span style="color:#24292E">legend_labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'Group A'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Group B'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Group C'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">legend_handles </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [plt.Rectangle((</span><span style="color:#005CC5">0</span><span style="color:#24292E">,</span><span style="color:#005CC5">0</span><span style="color:#24292E">),</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> color </span><span style="color:#D73A49">in</span><span style="color:#24292E"> colors]</span></span>
+<span class="line"><span style="color:#24292E">ax.legend(legend_handles, legend_labels)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Display it</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>37:["$","$L2b","notebook-cell-5",{"index":5,"code":"$44","highlighted":"$45","interactive":true,"hasChart":true,"output":"$L46"}]
+38:["$","h2","h2-5",{"children":"Customized violin plot with statistics"}]
+47:T5ed,# Group our dataset with our 'Group' variable
+grouped = df.groupby('category')['value']
+
+# Init a figure and axes
+fig, ax = plt.subplots(figsize=(8, 6))
+
+# Create the plot with different colors for each group
+violins = ax.violinplot([group.values for name, group in grouped],
+                     #labels=grouped.groups.keys()
+                    ) 
+
+# Define colors for each group
+colors = ['orange', 'purple', '#69b3a2']
+
+# Assign colors to each box in the boxplot
+for violin, color in zip(violins['bodies'], colors):
+    violin.set_facecolor(color)
+    
+# Add the p value and the t
+p_value_text = f'p-value: {p_value}'
+ax.text(0.7, 60, p_value_text)
+F_value_text = f'F-value: {F_statistic}'
+ax.text(0.7, 55, F_value_text)
+
+# Add the mean for each group
+ax.text(1.3, mean_groupA, f'Mean Group A: {mean_groupA}',
+        style='italic', fontsize=8)
+ax.text(2.3, mean_groupB, f'Mean Group B: {mean_groupB}',
+        style='italic', fontsize=8)
+ax.text(2.2, mean_groupC, f'Mean Group C: {mean_groupC}',
+        style='italic', fontsize=8)
+
+# Remove axis labels
+ax.set_xticks([])
+ax.set_yticks([])
+
+# Removes spines
+ax.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
+
+# Add a title and axis label
+ax.set_title('One way Anova\nbetween group A, B and C', weight='bold')
+
+# Add a legend
+legend_labels = ['Group A', 'Group B', 'Group C']
+legend_handles = [plt.Rectangle((0,0),1,1, color=color, alpha=0.5) for color in colors]
+ax.legend(legend_handles, legend_labels, loc='upper left')
+
+# Display it
+plt.show()48:T25fc,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Group our dataset with our 'Group' variable</span></span>
+<span class="line"><span style="color:#24292E">grouped </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.groupby(</span><span style="color:#032F62">'category'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'value'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Init a figure and axes</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create the plot with different colors for each group</span></span>
+<span class="line"><span style="color:#24292E">violins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.violinplot([group.values </span><span style="color:#D73A49">for</span><span style="color:#24292E"> name, group </span><span style="color:#D73A49">in</span><span style="color:#24292E"> grouped],</span></span>
+<span class="line"><span style="color:#6A737D">                     #labels=grouped.groups.keys()</span></span>
+<span class="line"><span style="color:#24292E">                    ) </span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define colors for each group</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'orange'</span><span style="color:#24292E">, </span><span style="color:#032F62">'purple'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#69b3a2'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Assign colors to each box in the boxplot</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> violin, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(violins[</span><span style="color:#032F62">'bodies'</span><span style="color:#24292E">], colors):</span></span>
+<span class="line"><span style="color:#24292E">    violin.set_facecolor(color)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D"># Add the p value and the t</span></span>
+<span class="line"><span style="color:#24292E">p_value_text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">'p-value: </span><span style="color:#005CC5">{</span><span style="color:#24292E">p_value</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">60</span><span style="color:#24292E">, p_value_text)</span></span>
+<span class="line"><span style="color:#24292E">F_value_text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">'F-value: </span><span style="color:#005CC5">{</span><span style="color:#24292E">F_statistic</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">55</span><span style="color:#24292E">, F_value_text)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add the mean for each group</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">1.3</span><span style="color:#24292E">, mean_groupA, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'Mean Group A: </span><span style="color:#005CC5">{</span><span style="color:#24292E">mean_groupA</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        style</span><span style="color:#D73A49">=</span><span style="color:#032F62">'italic'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">2.3</span><span style="color:#24292E">, mean_groupB, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'Mean Group B: </span><span style="color:#005CC5">{</span><span style="color:#24292E">mean_groupB</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        style</span><span style="color:#D73A49">=</span><span style="color:#032F62">'italic'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.text(</span><span style="color:#005CC5">2.2</span><span style="color:#24292E">, mean_groupC, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'Mean Group C: </span><span style="color:#005CC5">{</span><span style="color:#24292E">mean_groupC</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        style</span><span style="color:#D73A49">=</span><span style="color:#032F62">'italic'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove axis labels</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks([])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Removes spines</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[[</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a title and axis label</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span><span style="color:#032F62">'One way Anova</span><span style="color:#005CC5">\n</span><span style="color:#032F62">between group A, B and C'</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a legend</span></span>
+<span class="line"><span style="color:#24292E">legend_labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'Group A'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Group B'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Group C'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">legend_handles </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [plt.Rectangle((</span><span style="color:#005CC5">0</span><span style="color:#24292E">,</span><span style="color:#005CC5">0</span><span style="color:#24292E">),</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> color </span><span style="color:#D73A49">in</span><span style="color:#24292E"> colors]</span></span>
+<span class="line"><span style="color:#24292E">ax.legend(legend_handles, legend_labels, </span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">'upper left'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Display it</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>39:["$","$L2b","notebook-cell-6",{"index":6,"code":"$47","highlighted":"$48","interactive":true,"hasChart":true,"output":"$L49"}]
+3a:["$","h2","h2-6",{"children":"Going further"}]
+3b:["$","p","p-8",{"children":["This post explains how to represent the ",["$","strong","strong-0",{"children":"results of an Anova"}]," in a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/violin-plot/","children":"violin plot"}]," and a ",["$","a","a-1",{"href":"https://python-graph-gallery.com/boxplot/","children":"boxplot"}],"."]}]
+3c:["$","p","p-9",{"children":["For more examples of ",["$","strong","strong-0",{"children":"charts with statistics"}],", see the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/statistics/","children":"statistics section"}],". You may also be interested in how to ",["$","a","a-1",{"href":"https://python-graph-gallery.com/551-student-t-test-visualization","children":"represent Student t-test results"}],"."]}]
+3e:[["$","pre","pre-0",{"className":"plain-output","children":["$","code","code-0",{"className":"language-text","children":"T-statistic: 960.8980055803397\nP-value: 2.0225642197230424e-130\nMean groupA: 8.745526783582141\nMean groupB: 70.56101076624377\nMean groupC: 40.310280651985394\n"}]}]]
+42:[["$","p","p-0",{"children":["Now let's use the stats we got above and add them to the plot of ",["$","a","a-0",{"href":"https://python-graph-gallery.com/boxplot/","children":"boxplots"}]," of each group using the ",["$","code","code-0",{"children":"text()"}]," function from ",["$","a","a-1",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}],"."]}],["$","p","p-1",{"children":["For this graph, we'll also add the ",["$","strong","strong-0",{"children":"average of each group"}]," next to its associated ",["$","a","a-0",{"href":"https://python-graph-gallery.com/boxplot/","children":"boxplot"}],"."]}]]
+43:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/557-anova-visualization-with-matplotlib/output-1.png","alt":"Representation of Anova on violin plots","width":667,"height":526,"loading":"lazy","decoding":"async"}]}]]
+46:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/557-anova-visualization-with-matplotlib/output-2.png","alt":"Representation of Anova on violin plots","width":667,"height":526,"loading":"lazy","decoding":"async"}]}]]
+49:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/557-anova-visualization-with-matplotlib/output-3.png","alt":"Representation of Anova on violin plots","width":640,"height":519,"loading":"lazy","decoding":"async"}]}]]
+20:0
+9:"$undefined"
+1f:"$undefined"
+18:"$undefined"

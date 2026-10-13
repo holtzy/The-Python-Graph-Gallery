@@ -1,0 +1,394 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/09q85_ay6xdo0.js"
+3:"/_next/static/chunks/21dxsc4p3jeoz.js"
+4:"/_next/static/chunks/1d1qeiuriwpmz.js"
+5:"/_next/static/chunks/1u5pxdefkf32d.js"
+6:I[62319,["$2","$3","$4","$5"],"default"]
+7:I[39756,["$2","$3","$4","$5"],"default"]
+8:I[37457,["$2","$3","$4","$5"],"default"]
+9:"/_next/static/chunks/354p-aqxaih3m.js"
+a:I[22016,["$2","$3","$4","$5","$9"],""]
+b:I[44110,["$2","$3","$4","$5","$9"],"default"]
+19:I[68027,["$2","$3","$4","$5"],"default",1]
+:HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
+:HL["/_next/static/chunks/1ms0qnrh2aktb.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":{"n":"slug","t":"d","k":"circular-barplot-basic","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":66048,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","circular-barplot-basic",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/09q85_ay6xdo0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/21dxsc4p3jeoz.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1d1qeiuriwpmz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1u5pxdefkf32d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"JdxiwG_variable iGg3zq_variable antialiased","children":[["$","head",null,{"children":["$","link",null,{"rel":"sitemap","type":"application/xml","href":"/sitemap-index.xml"}]}],["$","body",null,{"children":[["$","$L6",null,{}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":[["$","h2",null,{"id":"404","children":" 😞 Oh No 😞 | 404"}],["$","p",null,{"children":"It looks like there is nothing here anymore."}],["$","p",null,{"children":["Please go back to the ",["$","$La",null,{"href":"/","children":"gallery home page"}]," and check if you can find your graph!"]}]]}],["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}],["$","div",null,{"className":"h-16 sm:h-20"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-24 border-t py-8 text-sm text-muted-foreground","children":["$","div",null,{"className":"mx-auto max-w-5xl px-5","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-4 sm:flex-row","children":[["$","div",null,{"children":["Copyright © the Python Graph Gallery ",2026]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","a","https://github.com/holtzy",{"href":"https://github.com/holtzy","aria-label":"Link to Yan Holtz Github profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 496 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"$c"}]}]}],"$Ld","$Le","$Lf"]}],"$L10"]}]}]}],"$L11","$L12"]}]]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",["$L1a","$L1b"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+1c:I[79520,["$2","$3","$4","$5"],""]
+1e:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:"ViewportBoundary"
+22:I[97367,["$2","$3","$4","$5"],"$21"]
+24:"MetadataBoundary"
+25:I[97367,["$2","$3","$4","$5"],"$24"]
+d:["$","a","https://twitter.com/R_Graph_Gallery",{"href":"https://twitter.com/R_Graph_Gallery","aria-label":"Link to Yan Holtz Twitter profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 512 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}]}]}]
+e:["$","a","https://www.linkedin.com/in/yan-holtz-2477534a/",{"href":"https://www.linkedin.com/in/yan-holtz-2477534a/","aria-label":"Link to Yan Holtz LinkedIn profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 448 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"}]}]}]
+f:["$","a","https://www.yan-holtz.com",{"href":"https://www.yan-holtz.com","aria-label":"Link to Yan Holtz Homepage","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 576 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"}]}]}]
+10:["$","div",null,{"className":"flex gap-2","children":[["$","a",null,{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE","className":"hover:text-foreground","children":"License"}],["$","span",null,{"children":"|"}],["$","$La",null,{"href":"/about","className":"hover:text-foreground","children":"About"}]]}]
+11:["$","$L1c",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-YJ2YPBMD3W","strategy":"afterInteractive"}]
+12:["$","$L1c",null,{"id":"gtag-init","strategy":"afterInteractive","children":"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YJ2YPBMD3W');"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L26"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+15:C
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]
+27:I[27201,["$2","$3","$4","$5"],"IconMark"]
+20:null
+26:[["$","title","0",{"children":"Most basic circular barplot with Python and Matplotlib"}],["$","meta","1",{"name":"description","content":"Plotting a basic circular barplot with matplotlib"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, seaborn, matplotlib, kdeplot, subplot, polar, bar"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/circular-barplot-basic/"}],["$","meta","6",{"property":"og:title","content":"Most basic circular barplot with Python and Matplotlib"}],["$","meta","7",{"property":"og:description","content":"Plotting a basic circular barplot with matplotlib"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/circular-barplot-basic/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Most basic circular barplot with Python and Matplotlib"}],["$","meta","13",{"name":"twitter:description","content":"Plotting a basic circular barplot with matplotlib"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/circular-barplot-basic/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L27","24",{}]]
+28:I[98936,["$2","$3","$4","$5","$9"],"default"]
+29:T7ac,# import pandas for data wrangling
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Build a dataset
+df = pd.DataFrame(
+        {
+            'Name': ['item ' + str(i) for i in list(range(1, 51)) ],
+            'Value': np.random.randint(low=10, high=100, size=50)
+        })
+
+# Reorder the dataframe
+df = df.sort_values(by=['Value'])
+
+# initialize the figure
+plt.figure(figsize=(20,10))
+ax = plt.subplot(111, polar=True)
+plt.axis('off')
+
+# Constants = parameters controling the plot layout:
+upperLimit = 100
+lowerLimit = 30
+labelPadding = 4
+
+# Compute max and min in the dataset
+max = df['Value'].max()
+
+# Let's compute heights: they are a conversion of each item value in those new coordinates
+# In our example, 0 in the dataset will be converted to the lowerLimit (10)
+# The maximum will be converted to the upperLimit (100)
+slope = (max - lowerLimit) / max
+heights = slope * df.Value + lowerLimit
+
+# Compute the width of each bar. In total we have 2*Pi = 360°
+width = 2*np.pi / len(df.index)
+
+# Compute the angle each bar is centered on:
+indexes = list(range(1, len(df.index)+1))
+angles = [element * width for element in indexes]
+angles
+
+# Draw bars
+bars = ax.bar(
+    x=angles, 
+    height=heights, 
+    width=width, 
+    bottom=lowerLimit,
+    linewidth=2, 
+    edgecolor="white",
+    color="#61a4b2",
+)
+
+# Add labels
+for bar, angle, height, label in zip(bars,angles, heights, df["Name"]):
+
+    # Labels are rotated. Rotation must be specified in degrees :(
+    rotation = np.rad2deg(angle)
+
+    # Flip some labels upside down
+    alignment = ""
+    if angle >= np.pi/2 and angle < 3*np.pi/2:
+        alignment = "right"
+        rotation = rotation + 180
+    else: 
+        alignment = "left"
+
+    # Finally add the labels
+    ax.text(
+        x=angle, 
+        y=lowerLimit + bar.get_height() + labelPadding, 
+        s=label, 
+        ha=alignment, 
+        va='center', 
+        rotation=rotation, 
+        rotation_mode="anchor")1d:[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Most basic circular barplot with Python and Matplotlib"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post explains how to build a basic circular barplot with Python and the Matplotlib library.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$La",null,{"href":"/circular-barplot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Circular Barplot section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/circularbarplot.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],["$","article",null,{"className":"wrapper post-content","children":["$","$L28",null,{"cells":["# Import matplotlib\nimport matplotlib.pyplot as plt\n\n# Initialize plot with polar coordinates.\nplt.subplot(111, polar=True);","# import numpy to get the value of Pi\nimport numpy as np\n\n# Add a bar in the polar coordinates\nplt.subplot(111, polar=True);\nplt.bar(x=0, height=10, width=np.pi/2, bottom=5);","# import pandas for data wrangling\nimport pandas as pd\n\n# Build a dataset\ndf = pd.DataFrame(\n        {\n            'Name': ['item ' + str(i) for i in list(range(1, 51)) ],\n            'Value': np.random.randint(low=10, high=100, size=50)\n        })\n\n# Show 3 first rows\ndf.head(3)","# set figure size\nplt.figure(figsize=(20,10))\n\n# plot polar axis\nax = plt.subplot(111, polar=True)\n\n# remove grid\nplt.axis('off')\n\n# Set the coordinates limits\nupperLimit = 100\nlowerLimit = 30\n\n# Compute max and min in the dataset\nmax = df['Value'].max()\n\n# Let's compute heights: they are a conversion of each item value in those new coordinates\n# In our example, 0 in the dataset will be converted to the lowerLimit (10)\n# The maximum will be converted to the upperLimit (100)\nslope = (max - lowerLimit) / max\nheights = slope * df.Value + lowerLimit\n\n# Compute the width of each bar. In total we have 2*Pi = 360°\nwidth = 2*np.pi / len(df.index)\n\n# Compute the angle each bar is centered on:\nindexes = list(range(1, len(df.index)+1))\nangles = [element * width for element in indexes]\nangles\n\n# Draw bars\nbars = ax.bar(\n    x=angles, \n    height=heights, \n    width=width, \n    bottom=lowerLimit,\n    linewidth=2, \n    edgecolor=\"white\")","# initialize the figure\nplt.figure(figsize=(20,10))\nax = plt.subplot(111, polar=True)\nplt.axis('off')\n\n# Draw bars\nbars = ax.bar(\n    x=angles, \n    height=heights, \n    width=width, \n    bottom=lowerLimit,\n    linewidth=2, \n    edgecolor=\"white\",\n    color=\"#61a4b2\",\n)\n\n# little space between the bar and the label\nlabelPadding = 4\n\n# Add labels\nfor bar, angle, height, label in zip(bars,angles, heights, df[\"Name\"]):\n\n    # Labels are rotated. Rotation must be specified in degrees :(\n    rotation = np.rad2deg(angle)\n\n    # Flip some labels upside down\n    alignment = \"\"\n    if angle >= np.pi/2 and angle < 3*np.pi/2:\n        alignment = \"right\"\n        rotation = rotation + 180\n    else: \n        alignment = \"left\"\n\n    # Finally add the labels\n    ax.text(\n        x=angle, \n        y=lowerLimit + bar.get_height() + labelPadding, \n        s=label, \n        ha=alignment, \n        va='center', \n        rotation=rotation, \n        rotation_mode=\"anchor\")","$29"],"children":"$L2a"}]}],"$L2b","$L2c","$L2d","$L2e","$L2f"]
+30:I[68978,["$2","$3","$4","$5","$9"],"default"]
+3f:I[59351,["$2","$3","$4","$5","$9"],"default"]
+31:T680,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># import numpy to get the value of Pi</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a bar in the polar coordinates</span></span>
+<span class="line"><span style="color:#24292E">plt.subplot(</span><span style="color:#005CC5">111</span><span style="color:#24292E">, </span><span style="color:#E36209">polar</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span><span style="color:#B31D28;font-style:italic">;</span></span>
+<span class="line"><span style="color:#24292E">plt.bar(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">height</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#24292E">np.pi</span><span style="color:#D73A49">/</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">bottom</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">)</span><span style="color:#B31D28;font-style:italic">;</span></span></code></pre>2a:[["$","h2","h2-0",{"children":"❄️ Polar coordinates"}],["$","$L30","notebook-cell-0",{"index":0,"code":"# Import matplotlib\nimport matplotlib.pyplot as plt\n\n# Initialize plot with polar coordinates.\nplt.subplot(111, polar=True);","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Import matplotlib</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> matplotlib.pyplot </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> plt</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"color:#6A737D\"># Initialize plot with polar coordinates.</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">plt.subplot(</span><span style=\"color:#005CC5\">111</span><span style=\"color:#24292E\">, </span><span style=\"color:#E36209\">polar</span><span style=\"color:#D73A49\">=</span><span style=\"color:#005CC5\">True</span><span style=\"color:#24292E\">)</span><span style=\"color:#B31D28;font-style:italic\">;</span></span></code></pre>","interactive":true,"hasChart":true,"intro":[["$","p","p-0",{"children":["Building a circular barplot requires using polar coordinates instead of the more usual cartesian coordinates. This kind of representation is accessible through the ",["$","code","code-0",{"children":"polar"}]," parameter of the ",["$","code","code-1",{"children":"subplot()"}]," function of ",["$","code","code-2",{"children":"matplotlib"}],". Let's initialize a chart that uses polar coordinates:"]}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/circular-barplot-basic/output-1.png","alt":"Most basic circular barplot with Python and Matplotlib","width":277,"height":269,"loading":"lazy","decoding":"async"}]}]]}],["$","$L30","notebook-cell-1",{"index":1,"code":"# import numpy to get the value of Pi\nimport numpy as np\n\n# Add a bar in the polar coordinates\nplt.subplot(111, polar=True);\nplt.bar(x=0, height=10, width=np.pi/2, bottom=5);","highlighted":"$31","interactive":true,"hasChart":true,"intro":"$L32","output":"$L33"}],"\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","$L39","\n","$L3a","$L3b","\n","$L3c","$L3d"]
+2b:["$","div",null,{"className":"h-16 sm:h-20"}]
+2c:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$La","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$La","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$La","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$La","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$La","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$La","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$La","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L3e"]}]]}]]}]}]
+2d:["$","div",null,{"className":"h-16 sm:h-20"}]
+2e:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+2f:["$","$L3f",null,{}]
+32:[["$","p","p-0",{"children":["Now let's add a bar to this figure. This is gonna be done through the usual ",["$","code","code-0",{"children":"bar()"}]," function. The same usual parameter must be provided, but they have some different meanings:"]}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","code","code-0",{"children":"x"}],": angle of the center of the section we're adding."]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"height"}]," and ",["$","code","code-1",{"children":"bottom"}],": are a bit like the ",["$","code","code-2",{"children":"ylim"}]," values. They control the thickness of the section"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"width"}],": angle of the section"]}],"\n"]}]]
+33:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/circular-barplot-basic/output-2.png","alt":"Most basic circular barplot with Python and Matplotlib","width":277,"height":269,"loading":"lazy","decoding":"async"}]}]]
+34:["$","blockquote","blockquote-0",{"children":["\n",["$","p","p-0",{"children":"Note: angles are provided in radians. Remember that 0 degrees is 0 radians. 180 degrees is Pi radians. And so on."}],"\n"]}]
+35:["$","h2","h2-1",{"children":"📍 Data"}]
+36:["$","p","p-0",{"children":"Let's build a basic dataset with 2 columns. The first column provide a name for each item of the dataset. The second column provides a numeric value for the item:"}]
+40:T906,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># import pandas for data wrangling</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Build a dataset</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame(</span></span>
+<span class="line"><span style="color:#24292E">        {</span></span>
+<span class="line"><span style="color:#032F62">            'Name'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'item '</span><span style="color:#D73A49"> +</span><span style="color:#005CC5"> str</span><span style="color:#24292E">(i) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">51</span><span style="color:#24292E">)) ],</span></span>
+<span class="line"><span style="color:#032F62">            'Value'</span><span style="color:#24292E">: np.random.randint(</span><span style="color:#E36209">low</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">high</span><span style="color:#D73A49">=</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">50</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">        })</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show 3 first rows</span></span>
+<span class="line"><span style="color:#24292E">df.head(</span><span style="color:#005CC5">3</span><span style="color:#24292E">)</span></span></code></pre>37:["$","$L30","notebook-cell-2",{"index":2,"code":"# import pandas for data wrangling\nimport pandas as pd\n\n# Build a dataset\ndf = pd.DataFrame(\n        {\n            'Name': ['item ' + str(i) for i in list(range(1, 51)) ],\n            'Value': np.random.randint(low=10, high=100, size=50)\n        })\n\n# Show 3 first rows\ndf.head(3)","highlighted":"$40","interactive":true,"hasChart":false,"intro":"$undefined","output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"Name"}],["$","th","th-2",{"children":"Value"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"item 1"}],"$L41"]}],"$L42","$L43"]}]]}],"\n"]}]}]]}]
+38:["$","h2","h2-2",{"children":"📊 Circular Barplot"}]
+44:T171f,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># set figure size</span></span>
+<span class="line"><span style="color:#24292E">plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">20</span><span style="color:#24292E">,</span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># plot polar axis</span></span>
+<span class="line"><span style="color:#24292E">ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplot(</span><span style="color:#005CC5">111</span><span style="color:#24292E">, </span><span style="color:#E36209">polar</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove grid</span></span>
+<span class="line"><span style="color:#24292E">plt.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set the coordinates limits</span></span>
+<span class="line"><span style="color:#24292E">upperLimit </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 100</span></span>
+<span class="line"><span style="color:#24292E">lowerLimit </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 30</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Compute max and min in the dataset</span></span>
+<span class="line"><span style="color:#005CC5">max</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'Value'</span><span style="color:#24292E">].max()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Let's compute heights: they are a conversion of each item value in those new coordinates</span></span>
+<span class="line"><span style="color:#6A737D"># In our example, 0 in the dataset will be converted to the lowerLimit (10)</span></span>
+<span class="line"><span style="color:#6A737D"># The maximum will be converted to the upperLimit (100)</span></span>
+<span class="line"><span style="color:#24292E">slope </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">max</span><span style="color:#D73A49"> -</span><span style="color:#24292E"> lowerLimit) </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> max</span></span>
+<span class="line"><span style="color:#24292E">heights </span><span style="color:#D73A49">=</span><span style="color:#24292E"> slope </span><span style="color:#D73A49">*</span><span style="color:#24292E"> df.Value </span><span style="color:#D73A49">+</span><span style="color:#24292E"> lowerLimit</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Compute the width of each bar. In total we have 2*Pi = 360°</span></span>
+<span class="line"><span style="color:#24292E">width </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2</span><span style="color:#D73A49">*</span><span style="color:#24292E">np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df.index)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Compute the angle each bar is centered on:</span></span>
+<span class="line"><span style="color:#24292E">indexes </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">len</span><span style="color:#24292E">(df.index)</span><span style="color:#D73A49">+</span><span style="color:#005CC5">1</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">angles </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [element </span><span style="color:#D73A49">*</span><span style="color:#24292E"> width </span><span style="color:#D73A49">for</span><span style="color:#24292E"> element </span><span style="color:#D73A49">in</span><span style="color:#24292E"> indexes]</span></span>
+<span class="line"><span style="color:#24292E">angles</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Draw bars</span></span>
+<span class="line"><span style="color:#24292E">bars </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.bar(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">angles, </span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#24292E">heights, </span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#24292E">width, </span></span>
+<span class="line"><span style="color:#E36209">    bottom</span><span style="color:#D73A49">=</span><span style="color:#24292E">lowerLimit,</span></span>
+<span class="line"><span style="color:#E36209">    linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">)</span></span></code></pre>39:["$","$L30","notebook-cell-3",{"index":3,"code":"# set figure size\nplt.figure(figsize=(20,10))\n\n# plot polar axis\nax = plt.subplot(111, polar=True)\n\n# remove grid\nplt.axis('off')\n\n# Set the coordinates limits\nupperLimit = 100\nlowerLimit = 30\n\n# Compute max and min in the dataset\nmax = df['Value'].max()\n\n# Let's compute heights: they are a conversion of each item value in those new coordinates\n# In our example, 0 in the dataset will be converted to the lowerLimit (10)\n# The maximum will be converted to the upperLimit (100)\nslope = (max - lowerLimit) / max\nheights = slope * df.Value + lowerLimit\n\n# Compute the width of each bar. In total we have 2*Pi = 360°\nwidth = 2*np.pi / len(df.index)\n\n# Compute the angle each bar is centered on:\nindexes = list(range(1, len(df.index)+1))\nangles = [element * width for element in indexes]\nangles\n\n# Draw bars\nbars = ax.bar(\n    x=angles, \n    height=heights, \n    width=width, \n    bottom=lowerLimit,\n    linewidth=2, \n    edgecolor=\"white\")","highlighted":"$44","interactive":true,"hasChart":true,"intro":"$L45","output":"$L46"}]
+3a:["$","h2","h2-3",{"children":"🏷️ Add labels"}]
+47:T19d5,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">20</span><span style="color:#24292E">,</span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplot(</span><span style="color:#005CC5">111</span><span style="color:#24292E">, </span><span style="color:#E36209">polar</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Draw bars</span></span>
+<span class="line"><span style="color:#24292E">bars </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.bar(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">angles, </span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#24292E">heights, </span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#24292E">width, </span></span>
+<span class="line"><span style="color:#E36209">    bottom</span><span style="color:#D73A49">=</span><span style="color:#24292E">lowerLimit,</span></span>
+<span class="line"><span style="color:#E36209">    linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#61a4b2"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># little space between the bar and the label</span></span>
+<span class="line"><span style="color:#24292E">labelPadding </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 4</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add labels</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> bar, angle, height, label </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(bars,angles, heights, df[</span><span style="color:#032F62">"Name"</span><span style="color:#24292E">]):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Labels are rotated. Rotation must be specified in degrees :(</span></span>
+<span class="line"><span style="color:#24292E">    rotation </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.rad2deg(angle)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Flip some labels upside down</span></span>
+<span class="line"><span style="color:#24292E">    alignment </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ""</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> angle </span><span style="color:#D73A49">>=</span><span style="color:#24292E"> np.pi</span><span style="color:#D73A49">/</span><span style="color:#005CC5">2</span><span style="color:#D73A49"> and</span><span style="color:#24292E"> angle </span><span style="color:#D73A49">&#x3C;</span><span style="color:#005CC5"> 3</span><span style="color:#D73A49">*</span><span style="color:#24292E">np.pi</span><span style="color:#D73A49">/</span><span style="color:#005CC5">2</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        alignment </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "right"</span></span>
+<span class="line"><span style="color:#24292E">        rotation </span><span style="color:#D73A49">=</span><span style="color:#24292E"> rotation </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 180</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">: </span></span>
+<span class="line"><span style="color:#24292E">        alignment </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "left"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Finally add the labels</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#24292E">angle, </span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">lowerLimit </span><span style="color:#D73A49">+</span><span style="color:#24292E"> bar.get_height() </span><span style="color:#D73A49">+</span><span style="color:#24292E"> labelPadding, </span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#24292E">label, </span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#24292E">alignment, </span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        rotation</span><span style="color:#D73A49">=</span><span style="color:#24292E">rotation, </span></span>
+<span class="line"><span style="color:#E36209">        rotation_mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">"anchor"</span><span style="color:#24292E">)</span></span></code></pre>3b:["$","$L30","notebook-cell-4",{"index":4,"code":"# initialize the figure\nplt.figure(figsize=(20,10))\nax = plt.subplot(111, polar=True)\nplt.axis('off')\n\n# Draw bars\nbars = ax.bar(\n    x=angles, \n    height=heights, \n    width=width, \n    bottom=lowerLimit,\n    linewidth=2, \n    edgecolor=\"white\",\n    color=\"#61a4b2\",\n)\n\n# little space between the bar and the label\nlabelPadding = 4\n\n# Add labels\nfor bar, angle, height, label in zip(bars,angles, heights, df[\"Name\"]):\n\n    # Labels are rotated. Rotation must be specified in degrees :(\n    rotation = np.rad2deg(angle)\n\n    # Flip some labels upside down\n    alignment = \"\"\n    if angle >= np.pi/2 and angle < 3*np.pi/2:\n        alignment = \"right\"\n        rotation = rotation + 180\n    else: \n        alignment = \"left\"\n\n    # Finally add the labels\n    ax.text(\n        x=angle, \n        y=lowerLimit + bar.get_height() + labelPadding, \n        s=label, \n        ha=alignment, \n        va='center', \n        rotation=rotation, \n        rotation_mode=\"anchor\")","highlighted":"$47","interactive":true,"hasChart":true,"intro":"$L48","output":"$L49"}]
+3c:["$","h2","h2-4",{"children":"↕️ Reordering"}]
+4a:T7ac,# import pandas for data wrangling
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Build a dataset
+df = pd.DataFrame(
+        {
+            'Name': ['item ' + str(i) for i in list(range(1, 51)) ],
+            'Value': np.random.randint(low=10, high=100, size=50)
+        })
+
+# Reorder the dataframe
+df = df.sort_values(by=['Value'])
+
+# initialize the figure
+plt.figure(figsize=(20,10))
+ax = plt.subplot(111, polar=True)
+plt.axis('off')
+
+# Constants = parameters controling the plot layout:
+upperLimit = 100
+lowerLimit = 30
+labelPadding = 4
+
+# Compute max and min in the dataset
+max = df['Value'].max()
+
+# Let's compute heights: they are a conversion of each item value in those new coordinates
+# In our example, 0 in the dataset will be converted to the lowerLimit (10)
+# The maximum will be converted to the upperLimit (100)
+slope = (max - lowerLimit) / max
+heights = slope * df.Value + lowerLimit
+
+# Compute the width of each bar. In total we have 2*Pi = 360°
+width = 2*np.pi / len(df.index)
+
+# Compute the angle each bar is centered on:
+indexes = list(range(1, len(df.index)+1))
+angles = [element * width for element in indexes]
+angles
+
+# Draw bars
+bars = ax.bar(
+    x=angles, 
+    height=heights, 
+    width=width, 
+    bottom=lowerLimit,
+    linewidth=2, 
+    edgecolor="white",
+    color="#61a4b2",
+)
+
+# Add labels
+for bar, angle, height, label in zip(bars,angles, heights, df["Name"]):
+
+    # Labels are rotated. Rotation must be specified in degrees :(
+    rotation = np.rad2deg(angle)
+
+    # Flip some labels upside down
+    alignment = ""
+    if angle >= np.pi/2 and angle < 3*np.pi/2:
+        alignment = "right"
+        rotation = rotation + 180
+    else: 
+        alignment = "left"
+
+    # Finally add the labels
+    ax.text(
+        x=angle, 
+        y=lowerLimit + bar.get_height() + labelPadding, 
+        s=label, 
+        ha=alignment, 
+        va='center', 
+        rotation=rotation, 
+        rotation_mode="anchor")4b:T31e0,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># import pandas for data wrangling</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Build a dataset</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame(</span></span>
+<span class="line"><span style="color:#24292E">        {</span></span>
+<span class="line"><span style="color:#032F62">            'Name'</span><span style="color:#24292E">: [</span><span style="color:#032F62">'item '</span><span style="color:#D73A49"> +</span><span style="color:#005CC5"> str</span><span style="color:#24292E">(i) </span><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">51</span><span style="color:#24292E">)) ],</span></span>
+<span class="line"><span style="color:#032F62">            'Value'</span><span style="color:#24292E">: np.random.randint(</span><span style="color:#E36209">low</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">high</span><span style="color:#D73A49">=</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">50</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">        })</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Reorder the dataframe</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.sort_values(</span><span style="color:#E36209">by</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">'Value'</span><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">20</span><span style="color:#24292E">,</span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplot(</span><span style="color:#005CC5">111</span><span style="color:#24292E">, </span><span style="color:#E36209">polar</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Constants = parameters controling the plot layout:</span></span>
+<span class="line"><span style="color:#24292E">upperLimit </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 100</span></span>
+<span class="line"><span style="color:#24292E">lowerLimit </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 30</span></span>
+<span class="line"><span style="color:#24292E">labelPadding </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 4</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Compute max and min in the dataset</span></span>
+<span class="line"><span style="color:#005CC5">max</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'Value'</span><span style="color:#24292E">].max()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Let's compute heights: they are a conversion of each item value in those new coordinates</span></span>
+<span class="line"><span style="color:#6A737D"># In our example, 0 in the dataset will be converted to the lowerLimit (10)</span></span>
+<span class="line"><span style="color:#6A737D"># The maximum will be converted to the upperLimit (100)</span></span>
+<span class="line"><span style="color:#24292E">slope </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">max</span><span style="color:#D73A49"> -</span><span style="color:#24292E"> lowerLimit) </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> max</span></span>
+<span class="line"><span style="color:#24292E">heights </span><span style="color:#D73A49">=</span><span style="color:#24292E"> slope </span><span style="color:#D73A49">*</span><span style="color:#24292E"> df.Value </span><span style="color:#D73A49">+</span><span style="color:#24292E"> lowerLimit</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Compute the width of each bar. In total we have 2*Pi = 360°</span></span>
+<span class="line"><span style="color:#24292E">width </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2</span><span style="color:#D73A49">*</span><span style="color:#24292E">np.pi </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df.index)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Compute the angle each bar is centered on:</span></span>
+<span class="line"><span style="color:#24292E">indexes </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> list</span><span style="color:#24292E">(</span><span style="color:#005CC5">range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">len</span><span style="color:#24292E">(df.index)</span><span style="color:#D73A49">+</span><span style="color:#005CC5">1</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">angles </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [element </span><span style="color:#D73A49">*</span><span style="color:#24292E"> width </span><span style="color:#D73A49">for</span><span style="color:#24292E"> element </span><span style="color:#D73A49">in</span><span style="color:#24292E"> indexes]</span></span>
+<span class="line"><span style="color:#24292E">angles</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Draw bars</span></span>
+<span class="line"><span style="color:#24292E">bars </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.bar(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">angles, </span></span>
+<span class="line"><span style="color:#E36209">    height</span><span style="color:#D73A49">=</span><span style="color:#24292E">heights, </span></span>
+<span class="line"><span style="color:#E36209">    width</span><span style="color:#D73A49">=</span><span style="color:#24292E">width, </span></span>
+<span class="line"><span style="color:#E36209">    bottom</span><span style="color:#D73A49">=</span><span style="color:#24292E">lowerLimit,</span></span>
+<span class="line"><span style="color:#E36209">    linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#61a4b2"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add labels</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> bar, angle, height, label </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(bars,angles, heights, df[</span><span style="color:#032F62">"Name"</span><span style="color:#24292E">]):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Labels are rotated. Rotation must be specified in degrees :(</span></span>
+<span class="line"><span style="color:#24292E">    rotation </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.rad2deg(angle)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Flip some labels upside down</span></span>
+<span class="line"><span style="color:#24292E">    alignment </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ""</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> angle </span><span style="color:#D73A49">>=</span><span style="color:#24292E"> np.pi</span><span style="color:#D73A49">/</span><span style="color:#005CC5">2</span><span style="color:#D73A49"> and</span><span style="color:#24292E"> angle </span><span style="color:#D73A49">&#x3C;</span><span style="color:#005CC5"> 3</span><span style="color:#D73A49">*</span><span style="color:#24292E">np.pi</span><span style="color:#D73A49">/</span><span style="color:#005CC5">2</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        alignment </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "right"</span></span>
+<span class="line"><span style="color:#24292E">        rotation </span><span style="color:#D73A49">=</span><span style="color:#24292E"> rotation </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 180</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">: </span></span>
+<span class="line"><span style="color:#24292E">        alignment </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "left"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Finally add the labels</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#24292E">angle, </span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">lowerLimit </span><span style="color:#D73A49">+</span><span style="color:#24292E"> bar.get_height() </span><span style="color:#D73A49">+</span><span style="color:#24292E"> labelPadding, </span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#24292E">label, </span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#24292E">alignment, </span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">        rotation</span><span style="color:#D73A49">=</span><span style="color:#24292E">rotation, </span></span>
+<span class="line"><span style="color:#E36209">        rotation_mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">"anchor"</span><span style="color:#24292E">)</span></span></code></pre>3d:["$","$L30","notebook-cell-5",{"index":5,"code":"$4a","highlighted":"$4b","interactive":true,"hasChart":true,"intro":"$L4c","output":"$L4d"}]
+3e:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+41:["$","td","td-1",{"children":"25"}]
+42:["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"item 2"}],["$","td","td-1",{"children":"42"}]]}]
+43:["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"item 3"}],["$","td","td-1",{"children":"13"}]]}]
+45:[["$","p","p-0",{"children":"Let's build a very basic circular barplot from this dataset. Each item will be represented as a bar."}]]
+46:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/circular-barplot-basic/output-4.png","alt":"Most basic circular barplot with Python and Matplotlib","width":557,"height":558,"loading":"lazy","decoding":"async"}]}]]
+48:[["$","p","p-0",{"children":"The above chart looks not too bad, but is pretty useless without labels. Labels are pretty tricky to add and you have to remember some basic trigonometry concepts in order to get it right."}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["the ",["$","code","code-0",{"children":"text()"}]," function has a handy ",["$","code","code-1",{"children":"rotation"}]," parameter. This parameter expect degrees, not radians. Fortunately, ",["$","code","code-2",{"children":"numpy"}]," has a handy ",["$","code","code-3",{"children":"rad2deg()"}]," function."]}],"\n",["$","li","li-1",{"children":["labels must be flipped by 180 on the left side of the figure for readability. It also means that their alignment must be reversed (",["$","code","code-0",{"children":"ha"}]," parameter)"]}],"\n"]}]]
+49:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/circular-barplot-basic/output-5.png","alt":"Most basic circular barplot with Python and Matplotlib","width":629,"height":603,"loading":"lazy","decoding":"async"}]}]]
+4c:[["$","p","p-0",{"children":["Last but not least, a bar chart is always ",["$","a","a-0",{"href":"https://www.data-to-viz.com/caveat/order_data.html","children":"more insightful when ordered"}],". It allows to understand each item rank much quicker. To do so, you simply have to reorder the initial dataframe with the ",["$","code","code-0",{"children":"sort_values()"}]," function and run the same code."]}],["$","p","p-1",{"children":"Let's check the complete code:"}]]
+4d:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/circular-barplot-basic/output-6.png","alt":"Most basic circular barplot with Python and Matplotlib","width":594,"height":563,"loading":"lazy","decoding":"async"}]}]]

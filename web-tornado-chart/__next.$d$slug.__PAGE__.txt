@@ -1,0 +1,333 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"How to create a tornado chart with matplotlib"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>A <b>tornado chart</b> can be created using a combination of broken horizontal <a href='https://python-graph-gallery.com/barplot/'>bar charts</a> <code>broken_barh()</code> in matplotlib.<br>Credit to <i>Marijn van Vliet</i> and <i>eitanlees</i> for code at <a href='https://stackoverflow.com/questions/32132773/a-tornado-chart-and-p10-p90-in-python-matplotlib' target='_blank'>stackoverflow</a>.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/barplot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Barplot section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/barplot.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-tornado-chart","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"How to create a tornado chart with matplotlib"}],["$","meta","1",{"name":"description","content":"How to create a tornado chart using matplotlib"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"tornado, chart, plot, matplotlib, python"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-tornado-chart/"}],["$","meta","6",{"property":"og:title","content":"How to create a tornado chart with matplotlib"}],["$","meta","7",{"property":"og:description","content":"How to create a tornado chart using matplotlib"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/web-tornado-chart/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"How to create a tornado chart with matplotlib"}],["$","meta","13",{"name":"twitter:description","content":"How to create a tornado chart using matplotlib"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/web-tornado-chart/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+25:I[44110,["$3","$4","$5","$6","$d"],"default"]
+26:I[59351,["$3","$4","$5","$6","$d"],"default"]
+27:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:Ta69,def tornado_chart(labels, midpoint, low_values, high_values, title="<Low> VS <High> values"):
+    """
+    Parameters
+    ----------
+    labels : np.array()
+        List of label titles used to identify the variables, y-axis of bar
+        chart. The lengh of labels is used to itereate through to generate 
+        the bar charts.
+    midpoint : float
+        Center value for bar charts to extend from. In sensitivity analysis
+        this is often the 'neutral' or 'default' model output.
+    low_values : np.array()
+        An np.array of the model output resulting from the low variable 
+        selection. Same length and order as label_range. 
+    high_values : np.array()
+        An np.array of the model output resulting from the high variable
+        selection. Same length and order as label_range.
+    """
+    
+    color_low = '#e1ceff'
+    color_high = '#ff6262'
+    
+    ys = range(len(data['Labels']))[::1] # iterate through # of labels
+    
+    for y, low_value, high_value in zip(ys, low_values, high_values):
+    
+        low_width = midpoint - low_value
+        high_width = high_value - midpoint
+    
+        plt.broken_barh(
+            [
+                (low_value, low_width),
+                (midpoint, high_width)
+            ],
+            (y-0.4, 0.8), # thickness of bars and their offset
+            facecolors = [color_low, color_high],
+            edgecolors = ['black', 'black'],
+            linewidth = 0.5
+            )
+        
+        offset = 2 # offset value labels from end of bar
+        
+        if high_value > low_value:
+            x_high = midpoint + high_width + offset 
+            x_low = midpoint - low_width - offset
+        else:
+            x_high = midpoint + high_width - offset
+            x_low = midpoint - low_width + offset
+
+        plt.text(x_high, y, str(high_value), va='center', ha='center')
+        plt.text(x_low, y, str(low_value), va='center', ha='center')
+    
+    plt.axvline(midpoint, color='black', linewidth = 1)
+
+    # set axis lines on or off
+    ax = plt.gca() 
+    ax.spines[['right', 'left', 'top']].set_visible(False)
+    ax.set_yticks([])
+    
+    # build legend 
+    ax_text(x = midpoint, y = len(labels),
+            s=title,
+            color='black',
+            fontsize=15,
+            va='center',
+            ha='center',
+            highlight_textprops=[{"color": color_low, "fontweight": 'bold'},
+                                 {"color": color_high, "fontweight": 'bold'}],
+            ax=ax)
+    
+    plt.xlabel('Model output')
+    plt.yticks(ys, labels)
+    plt.xlim(0,40)
+    plt.ylim(-0.5, len(labels)-0.5)
+    plt.tick_params(left = False)
+    plt.show()
+    
+    returnf:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["# libraries\nimport matplotlib.pyplot as plt\nfrom matplotlib.lines import Line2D\nfrom highlight_text import ax_text\nimport numpy as np\nimport pandas as pd","# data for chart\nlabels = np.char.array([\n    \"Variable 1\\n 1.0 - 5.0\",\n    \"Variable 2\\n 11% - 15%\",\n    \"Variable 3\\n $200 - $300\",\n    \"Variable 4\\n $12 - $14\",\n    \"Variable 5\\n Off - On\",\n    \"Variable 6\\n Low - High\",\n])\n\nmidpoint = 20\n\n# data values\nlow_values = np.array([ # value order corresponds to label order\n    19.5,\n    18,\n    15.5,\n    12,\n    32.5,\n    4 \n])\n\nhigh_values = np.array([\n    20.5,\n    22,\n    24.5,\n    28,\n    7.5,\n    36\n])\n\nvar_effect = np.abs(high_values - low_values)/midpoint\n\ndata = pd.DataFrame({'Labels': labels,\n                     'Low values': low_values,\n                     'High values': high_values,\n                     'Variable effect' : var_effect\n                    })\n\n# sorts effect high to low (adjust to preference)\ndata = data.sort_values(\n    'Variable effect',\n    ascending=True,\n    inplace=False,\n    ignore_index=False,\n    key=None\n)","$22","tornado_chart(labels, midpoint, data['Low values'], data['High values'])"],"children":"$L23"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$Le","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$Le","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$Le","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$Le","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$Le","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$Le","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L24"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L25",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L26",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L27",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+20:true
+29:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2a:T480,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># libraries</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.lines </span><span style="color:#D73A49">import</span><span style="color:#24292E"> Line2D</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> ax_text</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span></code></pre>2b:T177c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># data for chart</span></span>
+<span class="line"><span style="color:#24292E">labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.char.array([</span></span>
+<span class="line"><span style="color:#032F62">    "Variable 1</span><span style="color:#005CC5">\n</span><span style="color:#032F62"> 1.0 - 5.0"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Variable 2</span><span style="color:#005CC5">\n</span><span style="color:#032F62"> 11</span><span style="color:#005CC5">% - 15%</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Variable 3</span><span style="color:#005CC5">\n</span><span style="color:#032F62"> $200 - $300"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Variable 4</span><span style="color:#005CC5">\n</span><span style="color:#032F62"> $12 - $14"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Variable 5</span><span style="color:#005CC5">\n</span><span style="color:#032F62"> Off - On"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Variable 6</span><span style="color:#005CC5">\n</span><span style="color:#032F62"> Low - High"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">midpoint </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 20</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># data values</span></span>
+<span class="line"><span style="color:#24292E">low_values </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array([ </span><span style="color:#6A737D"># value order corresponds to label order</span></span>
+<span class="line"><span style="color:#005CC5">    19.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    18</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    15.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    32.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    4</span><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">high_values </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.array([</span></span>
+<span class="line"><span style="color:#005CC5">    20.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    22</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    24.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    28</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    7.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    36</span></span>
+<span class="line"><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">var_effect </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.abs(high_values </span><span style="color:#D73A49">-</span><span style="color:#24292E"> low_values)</span><span style="color:#D73A49">/</span><span style="color:#24292E">midpoint</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({</span><span style="color:#032F62">'Labels'</span><span style="color:#24292E">: labels,</span></span>
+<span class="line"><span style="color:#032F62">                     'Low values'</span><span style="color:#24292E">: low_values,</span></span>
+<span class="line"><span style="color:#032F62">                     'High values'</span><span style="color:#24292E">: high_values,</span></span>
+<span class="line"><span style="color:#032F62">                     'Variable effect'</span><span style="color:#24292E"> : var_effect</span></span>
+<span class="line"><span style="color:#24292E">                    })</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># sorts effect high to low (adjust to preference)</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.sort_values(</span></span>
+<span class="line"><span style="color:#032F62">    'Variable effect'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ascending</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ignore_index</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    key</span><span style="color:#D73A49">=</span><span style="color:#005CC5">None</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>23:[["$","h2","h2-0",{"children":"Libraries"}],"\n",["$","p","p-0",{"children":"First, we need to install the following libraries:"}],"\n",["$","$L29","notebook-cell-0",{"index":0,"code":"# libraries\nimport matplotlib.pyplot as plt\nfrom matplotlib.lines import Line2D\nfrom highlight_text import ax_text\nimport numpy as np\nimport pandas as pd","highlighted":"$2a","interactive":true,"hasChart":false}],"\n",["$","h2","h2-1",{"children":"Dataset"}],"\n",["$","p","p-1",{"children":["The dataset is set up to compare the effects of six different variables, each with a specific range or description (like \"1.0 - 5.0\" or \"",["$","span","span-0",{"className":"katex","children":[["$","span","span-0",{"className":"katex-mathml","children":["$","math","math-0",{"xmlns":"http://www.w3.org/1998/Math/MathML","children":["$","semantics","semantics-0",{"children":[["$","mrow","mrow-0",{"children":[["$","mn","mn-0",{"children":"200"}],["$","mo","mo-0",{"children":"−"}]]}],["$","annotation","annotation-0",{"encoding":"application/x-tex","children":"200 - "}]]}]}]}],["$","span","span-1",{"className":"katex-html","aria-hidden":"true","children":["$","span","span-0",{"className":"base","children":[["$","span","span-0",{"className":"strut","style":{"height":"0.7278em","verticalAlign":"-0.0833em"}}],["$","span","span-1",{"className":"mord","children":"200"}],["$","span","span-2",{"className":"mord","children":"−"}]]}]}]]}],"300\"). It includes ",["$","strong","strong-0",{"children":"low and high values"}]," for each variable and calculates the ",["$","strong","strong-1",{"children":"effect of each variable"}]," based on the difference between these values, ",["$","strong","strong-2",{"children":"relative to a midpoint"}]," of 20. The data is then organized to show the variables' effects from lowest to highest."]}],"\n",["$","$L29","notebook-cell-1",{"index":1,"code":"# data for chart\nlabels = np.char.array([\n    \"Variable 1\\n 1.0 - 5.0\",\n    \"Variable 2\\n 11% - 15%\",\n    \"Variable 3\\n $200 - $300\",\n    \"Variable 4\\n $12 - $14\",\n    \"Variable 5\\n Off - On\",\n    \"Variable 6\\n Low - High\",\n])\n\nmidpoint = 20\n\n# data values\nlow_values = np.array([ # value order corresponds to label order\n    19.5,\n    18,\n    15.5,\n    12,\n    32.5,\n    4 \n])\n\nhigh_values = np.array([\n    20.5,\n    22,\n    24.5,\n    28,\n    7.5,\n    36\n])\n\nvar_effect = np.abs(high_values - low_values)/midpoint\n\ndata = pd.DataFrame({'Labels': labels,\n                     'Low values': low_values,\n                     'High values': high_values,\n                     'Variable effect' : var_effect\n                    })\n\n# sorts effect high to low (adjust to preference)\ndata = data.sort_values(\n    'Variable effect',\n    ascending=True,\n    inplace=False,\n    ignore_index=False,\n    key=None\n)","highlighted":"$2b","interactive":true,"hasChart":false}],"\n","$L2c","\n","$L2d","\n","$L2e","$L2f","\n","$L30","\n","$L31","\n","$L32"]
+24:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+28:null
+b:C
+2c:["$","h2","h2-2",{"children":"Tornado chart"}]
+2d:["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Set Colors"}],": It defines two colors, one for the low values and another for the high values."]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Prepare Y-Axis"}],": It calculates the positions on the y-axis for each variable label using the ",["$","code","code-0",{"children":"range"}]," function."]}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Loop Through Variables"}],": For each variable (using ",["$","code","code-0",{"children":"zip"}]," to iterate through ",["$","code","code-1",{"children":"ys"}],", ",["$","code","code-2",{"children":"low_values"}],", and ",["$","code","code-3",{"children":"high_values"}]," together), the function calculates the widths of the bars extending to the left and right from the midpoint (for low and high values, respectively) and then draws these bars using ",["$","code","code-4",{"children":"plt.broken_barh"}],"."]}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Text Labels for Values"}],": The function adds text labels to the ends of the bars to indicate the numerical values for the low and high inputs."]}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Midpoint Line"}],": Draws a vertical line at the ",["$","code","code-0",{"children":"midpoint"}]," value to visually anchor the bars."]}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Axis Formatting"}],": Adjusts the visibility of the axis spines and ticks, aiming to simplify and clean up the chart's appearance."]}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Legend"}],": Adds a legend to the chart to indicate which color represents low values and which represents high values."]}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Labels and Limits"}],": Sets the labels for the x-axis and y-axis, the tick marks for the y-axis, and the chart's x and y limits."]}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Display Chart"}],": Finally, it prepares the chart for display with ",["$","code","code-0",{"children":"plt.show"}],", though it's worth noting the code should actually call ",["$","code","code-1",{"children":"plt.show()"}]," to display the chart when the function is used."]}],"\n"]}],"\n"]}]
+33:Ta69,def tornado_chart(labels, midpoint, low_values, high_values, title="<Low> VS <High> values"):
+    """
+    Parameters
+    ----------
+    labels : np.array()
+        List of label titles used to identify the variables, y-axis of bar
+        chart. The lengh of labels is used to itereate through to generate 
+        the bar charts.
+    midpoint : float
+        Center value for bar charts to extend from. In sensitivity analysis
+        this is often the 'neutral' or 'default' model output.
+    low_values : np.array()
+        An np.array of the model output resulting from the low variable 
+        selection. Same length and order as label_range. 
+    high_values : np.array()
+        An np.array of the model output resulting from the high variable
+        selection. Same length and order as label_range.
+    """
+    
+    color_low = '#e1ceff'
+    color_high = '#ff6262'
+    
+    ys = range(len(data['Labels']))[::1] # iterate through # of labels
+    
+    for y, low_value, high_value in zip(ys, low_values, high_values):
+    
+        low_width = midpoint - low_value
+        high_width = high_value - midpoint
+    
+        plt.broken_barh(
+            [
+                (low_value, low_width),
+                (midpoint, high_width)
+            ],
+            (y-0.4, 0.8), # thickness of bars and their offset
+            facecolors = [color_low, color_high],
+            edgecolors = ['black', 'black'],
+            linewidth = 0.5
+            )
+        
+        offset = 2 # offset value labels from end of bar
+        
+        if high_value > low_value:
+            x_high = midpoint + high_width + offset 
+            x_low = midpoint - low_width - offset
+        else:
+            x_high = midpoint + high_width - offset
+            x_low = midpoint - low_width + offset
+
+        plt.text(x_high, y, str(high_value), va='center', ha='center')
+        plt.text(x_low, y, str(low_value), va='center', ha='center')
+    
+    plt.axvline(midpoint, color='black', linewidth = 1)
+
+    # set axis lines on or off
+    ax = plt.gca() 
+    ax.spines[['right', 'left', 'top']].set_visible(False)
+    ax.set_yticks([])
+    
+    # build legend 
+    ax_text(x = midpoint, y = len(labels),
+            s=title,
+            color='black',
+            fontsize=15,
+            va='center',
+            ha='center',
+            highlight_textprops=[{"color": color_low, "fontweight": 'bold'},
+                                 {"color": color_high, "fontweight": 'bold'}],
+            ax=ax)
+    
+    plt.xlabel('Model output')
+    plt.yticks(ys, labels)
+    plt.xlim(0,40)
+    plt.ylim(-0.5, len(labels)-0.5)
+    plt.tick_params(left = False)
+    plt.show()
+    
+    return34:T3490,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> tornado_chart</span><span style="color:#24292E">(labels, midpoint, low_values, high_values, title</span><span style="color:#D73A49">=</span><span style="color:#032F62">"&#x3C;Low> VS &#x3C;High> values"</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Parameters</span></span>
+<span class="line"><span style="color:#032F62">    ----------</span></span>
+<span class="line"><span style="color:#032F62">    labels : np.array()</span></span>
+<span class="line"><span style="color:#032F62">        List of label titles used to identify the variables, y-axis of bar</span></span>
+<span class="line"><span style="color:#032F62">        chart. The lengh of labels is used to itereate through to generate </span></span>
+<span class="line"><span style="color:#032F62">        the bar charts.</span></span>
+<span class="line"><span style="color:#032F62">    midpoint : float</span></span>
+<span class="line"><span style="color:#032F62">        Center value for bar charts to extend from. In sensitivity analysis</span></span>
+<span class="line"><span style="color:#032F62">        this is often the 'neutral' or 'default' model output.</span></span>
+<span class="line"><span style="color:#032F62">    low_values : np.array()</span></span>
+<span class="line"><span style="color:#032F62">        An np.array of the model output resulting from the low variable </span></span>
+<span class="line"><span style="color:#032F62">        selection. Same length and order as label_range. </span></span>
+<span class="line"><span style="color:#032F62">    high_values : np.array()</span></span>
+<span class="line"><span style="color:#032F62">        An np.array of the model output resulting from the high variable</span></span>
+<span class="line"><span style="color:#032F62">        selection. Same length and order as label_range.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">    color_low </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#e1ceff'</span></span>
+<span class="line"><span style="color:#24292E">    color_high </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#ff6262'</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">    ys </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(data[</span><span style="color:#032F62">'Labels'</span><span style="color:#24292E">]))[::</span><span style="color:#005CC5">1</span><span style="color:#24292E">] </span><span style="color:#6A737D"># iterate through # of labels</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> y, low_value, high_value </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(ys, low_values, high_values):</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">        low_width </span><span style="color:#D73A49">=</span><span style="color:#24292E"> midpoint </span><span style="color:#D73A49">-</span><span style="color:#24292E"> low_value</span></span>
+<span class="line"><span style="color:#24292E">        high_width </span><span style="color:#D73A49">=</span><span style="color:#24292E"> high_value </span><span style="color:#D73A49">-</span><span style="color:#24292E"> midpoint</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">        plt.broken_barh(</span></span>
+<span class="line"><span style="color:#24292E">            [</span></span>
+<span class="line"><span style="color:#24292E">                (low_value, low_width),</span></span>
+<span class="line"><span style="color:#24292E">                (midpoint, high_width)</span></span>
+<span class="line"><span style="color:#24292E">            ],</span></span>
+<span class="line"><span style="color:#24292E">            (y</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.8</span><span style="color:#24292E">), </span><span style="color:#6A737D"># thickness of bars and their offset</span></span>
+<span class="line"><span style="color:#E36209">            facecolors</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [color_low, color_high],</span></span>
+<span class="line"><span style="color:#E36209">            edgecolors</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> [</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#032F62">'black'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">            linewidth</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 0.5</span></span>
+<span class="line"><span style="color:#24292E">            )</span></span>
+<span class="line"><span style="color:#24292E">        </span></span>
+<span class="line"><span style="color:#24292E">        offset </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2</span><span style="color:#6A737D"> # offset value labels from end of bar</span></span>
+<span class="line"><span style="color:#24292E">        </span></span>
+<span class="line"><span style="color:#D73A49">        if</span><span style="color:#24292E"> high_value </span><span style="color:#D73A49">></span><span style="color:#24292E"> low_value:</span></span>
+<span class="line"><span style="color:#24292E">            x_high </span><span style="color:#D73A49">=</span><span style="color:#24292E"> midpoint </span><span style="color:#D73A49">+</span><span style="color:#24292E"> high_width </span><span style="color:#D73A49">+</span><span style="color:#24292E"> offset </span></span>
+<span class="line"><span style="color:#24292E">            x_low </span><span style="color:#D73A49">=</span><span style="color:#24292E"> midpoint </span><span style="color:#D73A49">-</span><span style="color:#24292E"> low_width </span><span style="color:#D73A49">-</span><span style="color:#24292E"> offset</span></span>
+<span class="line"><span style="color:#D73A49">        else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">            x_high </span><span style="color:#D73A49">=</span><span style="color:#24292E"> midpoint </span><span style="color:#D73A49">+</span><span style="color:#24292E"> high_width </span><span style="color:#D73A49">-</span><span style="color:#24292E"> offset</span></span>
+<span class="line"><span style="color:#24292E">            x_low </span><span style="color:#D73A49">=</span><span style="color:#24292E"> midpoint </span><span style="color:#D73A49">-</span><span style="color:#24292E"> low_width </span><span style="color:#D73A49">+</span><span style="color:#24292E"> offset</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">        plt.text(x_high, y, </span><span style="color:#005CC5">str</span><span style="color:#24292E">(high_value), </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">        plt.text(x_low, y, </span><span style="color:#005CC5">str</span><span style="color:#24292E">(low_value), </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">    plt.axvline(midpoint, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # set axis lines on or off</span></span>
+<span class="line"><span style="color:#24292E">    ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.gca() </span></span>
+<span class="line"><span style="color:#24292E">    ax.spines[[</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#032F62">'top'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # build legend </span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span><span style="color:#E36209">x</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> midpoint, </span><span style="color:#E36209">y</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(labels),</span></span>
+<span class="line"><span style="color:#E36209">            s</span><span style="color:#D73A49">=</span><span style="color:#24292E">title,</span></span>
+<span class="line"><span style="color:#E36209">            color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_low, </span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">                                 {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_high, </span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}],</span></span>
+<span class="line"><span style="color:#E36209">            ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">    plt.xlabel(</span><span style="color:#032F62">'Model output'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    plt.yticks(ys, labels)</span></span>
+<span class="line"><span style="color:#24292E">    plt.xlim(</span><span style="color:#005CC5">0</span><span style="color:#24292E">,</span><span style="color:#005CC5">40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    plt.ylim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">len</span><span style="color:#24292E">(labels)</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    plt.tick_params(</span><span style="color:#E36209">left</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    plt.show()</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#D73A49">    return</span></span></code></pre>2e:["$","$L29","notebook-cell-2",{"index":2,"code":"$33","highlighted":"$34","interactive":true,"hasChart":false}]
+2f:["$","$L29","notebook-cell-3",{"index":3,"code":"tornado_chart(labels, midpoint, data['Low values'], data['High values'])","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">tornado_chart(labels, midpoint, data[</span><span style=\"color:#032F62\">'Low values'</span><span style=\"color:#24292E\">], data[</span><span style=\"color:#032F62\">'High values'</span><span style=\"color:#24292E\">])</span></span></code></pre>","interactive":true,"hasChart":true,"intro":[["$","p","p-0",{"children":"Then, we just have to call our function with the data to create the chart:"}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-tornado-chart/output-1.png","alt":"How to create a tornado chart with matplotlib","width":614,"height":479,"loading":"lazy","decoding":"async"}]}]]}]
+30:["$","h2","h2-3",{"children":"Going further"}]
+31:["$","p","p-2",{"children":["This article explains how to create a tornado chart, which is just an example of a more advanced ",["$","a","a-0",{"href":"https://python-graph-gallery.com/barplot","children":"barplot"}],"."]}]
+32:["$","p","p-3",{"children":["For more examples of ",["$","strong","strong-0",{"children":"advanced customization"}],", check out the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/barplot","children":"barplot section"}],". Also, you might be interested in ",["$","a","a-1",{"href":"https://python-graph-gallery.com/web-population-pyramid/","children":"populzyion pyramid chart"}],", which is a very similar type of charts!"]}]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

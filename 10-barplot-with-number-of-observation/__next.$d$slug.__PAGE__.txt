@@ -1,0 +1,162 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Barplot with number of observation"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post explains how to display the <b>number of observation</b> per group on a <a href='http://python-graph-gallery.com/barplot/'>barplot</a>. Just use the text() function of <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a> to add the label one by one in a loop.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/barplot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Barplot section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/barplot.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"10-barplot-with-number-of-observation","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Barplot with number of observation"}],["$","meta","1",{"name":"description","content":"Showing labels of each bar in a barplot using matplotlib"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, seaborn, matplotlib, barplot, label"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/10-barplot-with-number-of-observation/"}],["$","meta","6",{"property":"og:title","content":"Barplot with number of observation"}],["$","meta","7",{"property":"og:description","content":"Showing labels of each bar in a barplot using matplotlib"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/10-barplot-with-number-of-observation/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Barplot with number of observation"}],["$","meta","13",{"name":"twitter:description","content":"Showing labels of each bar in a barplot using matplotlib"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/10-barplot-with-number-of-observation/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+23:I[68978,["$3","$4","$5","$6","$d"],"default"]
+29:I[44110,["$3","$4","$5","$6","$d"],"default"]
+2a:I[59351,["$3","$4","$5","$6","$d"],"default"]
+2b:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T503,# library
+import matplotlib.pyplot as plt
+ 
+# Create bars
+barWidth = 0.9
+bars1 = [3, 3, 1]
+bars2 = [4, 2, 3]
+bars3 = [4, 6, 7, 10, 4, 4]
+bars4 = bars1 + bars2 + bars3
+ 
+# The X position of bars
+r1 = [1,5,9]
+r2 = [2,6,10]
+r3 = [3,4,7,8,11,12]
+r4 = r1 + r2 + r3
+ 
+# Create barplot
+plt.bar(r1, bars1, width = barWidth, color = (0.3,0.1,0.4,0.6), label='Alone')
+plt.bar(r2, bars2, width = barWidth, color = (0.3,0.5,0.4,0.6), label='With Himself')
+plt.bar(r3, bars3, width = barWidth, color = (0.3,0.9,0.4,0.6), label='With other genotype')
+# Note: the barplot could be created easily. See the barplot section for other examples.
+ 
+# Create legend
+plt.legend()
+ 
+# Text below each barplot with a rotation at 90°
+plt.xticks([r + barWidth for r in range(len(r4))], ['DD', 'with himself', 'with DC', 'with Silur', 'DC', 'with himself', 'with DD', 'with Silur', 'Silur', 'with himself', 'with DD', 'with DC'], rotation=90)
+ 
+# Create labels
+label = ['n = 6', 'n = 25', 'n = 13', 'n = 36', 'n = 30', 'n = 11', 'n = 16', 'n = 37', 'n = 14', 'n = 4', 'n = 31', 'n = 34']
+ 
+# Text on the top of each bar
+for i in range(len(r4)):
+    plt.text(x = r4[i]-0.5 , y = bars4[i]+0.1, s = label[i], size = 6)
+
+# Adjust the margins
+plt.subplots_adjust(bottom= 0.2, top = 0.98)
+ 
+# Show graphic
+plt.show()24:T503,# library
+import matplotlib.pyplot as plt
+ 
+# Create bars
+barWidth = 0.9
+bars1 = [3, 3, 1]
+bars2 = [4, 2, 3]
+bars3 = [4, 6, 7, 10, 4, 4]
+bars4 = bars1 + bars2 + bars3
+ 
+# The X position of bars
+r1 = [1,5,9]
+r2 = [2,6,10]
+r3 = [3,4,7,8,11,12]
+r4 = r1 + r2 + r3
+ 
+# Create barplot
+plt.bar(r1, bars1, width = barWidth, color = (0.3,0.1,0.4,0.6), label='Alone')
+plt.bar(r2, bars2, width = barWidth, color = (0.3,0.5,0.4,0.6), label='With Himself')
+plt.bar(r3, bars3, width = barWidth, color = (0.3,0.9,0.4,0.6), label='With other genotype')
+# Note: the barplot could be created easily. See the barplot section for other examples.
+ 
+# Create legend
+plt.legend()
+ 
+# Text below each barplot with a rotation at 90°
+plt.xticks([r + barWidth for r in range(len(r4))], ['DD', 'with himself', 'with DC', 'with Silur', 'DC', 'with himself', 'with DD', 'with Silur', 'Silur', 'with himself', 'with DD', 'with DC'], rotation=90)
+ 
+# Create labels
+label = ['n = 6', 'n = 25', 'n = 13', 'n = 36', 'n = 30', 'n = 11', 'n = 16', 'n = 37', 'n = 14', 'n = 4', 'n = 31', 'n = 34']
+ 
+# Text on the top of each bar
+for i in range(len(r4)):
+    plt.text(x = r4[i]-0.5 , y = bars4[i]+0.1, s = label[i], size = 6)
+
+# Adjust the margins
+plt.subplots_adjust(bottom= 0.2, top = 0.98)
+ 
+# Show graphic
+plt.show()25:T2ddd,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># library</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Create bars</span></span>
+<span class="line"><span style="color:#24292E">barWidth </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0.9</span></span>
+<span class="line"><span style="color:#24292E">bars1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">bars2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">bars3 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#005CC5">4</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">bars4 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> bars1 </span><span style="color:#D73A49">+</span><span style="color:#24292E"> bars2 </span><span style="color:#D73A49">+</span><span style="color:#24292E"> bars3</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># The X position of bars</span></span>
+<span class="line"><span style="color:#24292E">r1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span><span style="color:#005CC5">5</span><span style="color:#24292E">,</span><span style="color:#005CC5">9</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">r2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">2</span><span style="color:#24292E">,</span><span style="color:#005CC5">6</span><span style="color:#24292E">,</span><span style="color:#005CC5">10</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">r3 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">3</span><span style="color:#24292E">,</span><span style="color:#005CC5">4</span><span style="color:#24292E">,</span><span style="color:#005CC5">7</span><span style="color:#24292E">,</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span><span style="color:#005CC5">11</span><span style="color:#24292E">,</span><span style="color:#005CC5">12</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">r4 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> r1 </span><span style="color:#D73A49">+</span><span style="color:#24292E"> r2 </span><span style="color:#D73A49">+</span><span style="color:#24292E"> r3</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Create barplot</span></span>
+<span class="line"><span style="color:#24292E">plt.bar(r1, bars1, </span><span style="color:#E36209">width</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> barWidth, </span><span style="color:#E36209">color</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">,</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">,</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">), </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Alone'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.bar(r2, bars2, </span><span style="color:#E36209">width</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> barWidth, </span><span style="color:#E36209">color</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">,</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">), </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">'With Himself'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.bar(r3, bars3, </span><span style="color:#E36209">width</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> barWidth, </span><span style="color:#E36209">color</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">,</span><span style="color:#005CC5">0.9</span><span style="color:#24292E">,</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">), </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">'With other genotype'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#6A737D"># Note: the barplot could be created easily. See the barplot section for other examples.</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Create legend</span></span>
+<span class="line"><span style="color:#24292E">plt.legend()</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Text below each barplot with a rotation at 90°</span></span>
+<span class="line"><span style="color:#24292E">plt.xticks([r </span><span style="color:#D73A49">+</span><span style="color:#24292E"> barWidth </span><span style="color:#D73A49">for</span><span style="color:#24292E"> r </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(r4))], [</span><span style="color:#032F62">'DD'</span><span style="color:#24292E">, </span><span style="color:#032F62">'with himself'</span><span style="color:#24292E">, </span><span style="color:#032F62">'with DC'</span><span style="color:#24292E">, </span><span style="color:#032F62">'with Silur'</span><span style="color:#24292E">, </span><span style="color:#032F62">'DC'</span><span style="color:#24292E">, </span><span style="color:#032F62">'with himself'</span><span style="color:#24292E">, </span><span style="color:#032F62">'with DD'</span><span style="color:#24292E">, </span><span style="color:#032F62">'with Silur'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Silur'</span><span style="color:#24292E">, </span><span style="color:#032F62">'with himself'</span><span style="color:#24292E">, </span><span style="color:#032F62">'with DD'</span><span style="color:#24292E">, </span><span style="color:#032F62">'with DC'</span><span style="color:#24292E">], </span><span style="color:#E36209">rotation</span><span style="color:#D73A49">=</span><span style="color:#005CC5">90</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Create labels</span></span>
+<span class="line"><span style="color:#24292E">label </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'n = 6'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 25'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 13'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 36'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 30'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 11'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 16'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 37'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 14'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 4'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 31'</span><span style="color:#24292E">, </span><span style="color:#032F62">'n = 34'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Text on the top of each bar</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(r4)):</span></span>
+<span class="line"><span style="color:#24292E">    plt.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> r4[i]</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.5</span><span style="color:#24292E"> , </span><span style="color:#E36209">y</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> bars4[i]</span><span style="color:#D73A49">+</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> label[i], </span><span style="color:#E36209">size</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 6</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Adjust the margins</span></span>
+<span class="line"><span style="color:#24292E">plt.subplots_adjust(</span><span style="color:#E36209">bottom</span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0.2</span><span style="color:#24292E">, </span><span style="color:#E36209">top</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 0.98</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Show graphic</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["$22"],"children":[["$","p","p-0",{"children":["The following example shows how to display the number of observation per group on a barplot. ",["$","code","code-0",{"children":"bar()"}]," function of matplotlib is used to draw barplot with the following arguments:"]}],["$","$L23","notebook-cell-0",{"index":0,"code":"$24","highlighted":"$25","interactive":true,"hasChart":true,"intro":"$L26","output":"$L27"}]]}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$Le","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$Le","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$Le","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$Le","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$Le","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$Le","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L28"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L29",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L2a",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L2b",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@2c"}]}]
+20:true
+b:300
+26:[["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","code","code-0",{"children":"x"}]," : The x coordinates of the bars."]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"height"}]," : The height(s) of the bars."]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"width"}]," : The width(s) of the bars."]}],"\n",["$","li","li-3",{"children":[["$","code","code-0",{"children":"color"}]," : The colors of the bar faces."]}],"\n",["$","li","li-4",{"children":[["$","code","code-0",{"children":"label"}]," : The labels of the bars."]}],"\n"]}],["$","p","p-0",{"children":["Note that, ",["$","code","code-0",{"children":"legend()"}]," function is used to add a legend, ",["$","code","code-1",{"children":"xticks()"}]," function is used to add labels of bars to the x axis, and ",["$","code","code-2",{"children":"text()"}]," function is used to add text on the top of each bar."]}],["$","p","p-1",{"children":["If you need to add the number of observation on top of each bar, it means that you have ",["$","strong","strong-0",{"children":"several observation per group"}],". In this case, barplot is probably not the most appropriate method for visualising your data! Indeed, all the information behind each bar is ",["$","strong","strong-1",{"children":"lost"}],"."]}],["$","p","p-2",{"children":["You should probably try to use a ",["$","a","a-0",{"href":"http://python-graph-gallery.com/violin-plot/","children":"violin plot"}]," or a ",["$","a","a-1",{"href":"http://python-graph-gallery.com/boxplot/","children":"boxplot"}],". Another solution can be to add ",["$","a","a-2",{"href":"http://python-graph-gallery.com/8-add-confidence-interval-on-barplot/","children":"error bars"}]," at the top of each bar."]}]]
+27:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/10-barplot-with-number-of-observation/output-1.png","alt":"Barplot with number of observation","width":1630,"height":1465,"loading":"lazy","decoding":"async"}]}]]
+28:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+2c:null
+b:C
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

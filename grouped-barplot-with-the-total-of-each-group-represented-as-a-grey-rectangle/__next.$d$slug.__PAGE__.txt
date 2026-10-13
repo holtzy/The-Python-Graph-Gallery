@@ -1,0 +1,487 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Grouped barplot with the total represented in the background"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>In this post, we'll see how to create a grouped <a href='/barplot'>barplot</a> with the total of each subgroup in the background and how to customize it to make it look nice</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/barplot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Barplot section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/barplot.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Grouped barplot with the total represented in the background"}],["$","meta","1",{"name":"description","content":"How to create a grouped barplot with the total of each subgroup in the background"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, matplotlib, barplot, barchart, grouped, stacked, total"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle/"}],["$","meta","6",{"property":"og:title","content":"Grouped barplot with the total represented in the background"}],["$","meta","7",{"property":"og:description","content":"How to create a grouped barplot with the total of each subgroup in the background"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Grouped barplot with the total represented in the background"}],["$","meta","13",{"name":"twitter:description","content":"How to create a grouped barplot with the total of each subgroup in the background"}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+26:I[44110,["$3","$4","$5","$6","$d"],"default"]
+27:I[59351,["$3","$4","$5","$6","$d"],"default"]
+28:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T4e6,from highlight_text import fig_text
+
+pivot_df = data.pivot(index="category", columns="sub_category", values="value")
+totals = pivot_df.sum(axis=1)
+
+fig, ax = plt.subplots(figsize=(7, 5))
+
+bar_width = 0.25
+x = np.arange(len(pivot_df.index))
+colors = ["#E0AC2B", "#E85252", "#6689C6"]
+x = np.arange(len(pivot_df.index))
+
+ax.bar(x, totals, width=bar_width * 3.5, color="#E0E0E0", zorder=0)
+
+for i, sub_cat in enumerate(pivot_df.columns):
+    ax.bar(
+        x + (i - 1) * bar_width,
+        pivot_df[sub_cat],
+        width=bar_width,
+        zorder=1,
+        color=colors[i],
+    )
+
+ax.set_xticks(x)
+ax.set_xticklabels(pivot_df.index)
+ax.set_yticks(list(range(0, 801, 100)))
+ax.spines[["top", "right", "bottom"]].set_visible(False)
+ax.tick_params(axis="x", size=0, pad=10)
+ax.tick_params(axis="y", labelsize=8)
+
+fig.text(x=0.12, y=1, s="Regions - Revenue by Segment", size=14)
+fig_text(
+    x=0.12,
+    y=0.97,
+    s="<Consumer> <Corporate Home> <Office>",
+    highlight_textprops=[
+        {"color": colors[0]},
+        {"color": colors[1]},
+        {"color": colors[2]},
+    ],
+)
+
+fig.savefig(
+    "../../static/graph/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-2.png",
+    dpi=100,
+    bbox_inches="tight",
+)
+plt.show()23:T65b,pivot_df = data.pivot(index="category", columns="sub_category", values="value")
+totals = pivot_df.sum(axis=1)
+
+fig, ax = plt.subplots(figsize=(7, 5))
+
+bar_width = 0.25
+x = np.arange(len(pivot_df.index))
+colors = ["#E0AC2B", "#E85252", "#6689C6"]
+
+ax.bar(x, totals, width=bar_width * 3.5, color="#E0E0E0", zorder=0)
+
+for i, sub_cat in enumerate(pivot_df.columns):
+    values = pivot_df[sub_cat]
+    ax.bar(
+        x + (i - 1) * bar_width,
+        values,
+        width=bar_width,
+        zorder=1,
+        color=colors[i],
+    )
+    for j, val in enumerate(values):
+        ax.text(
+            x[j] + (i - 1) * bar_width,
+            val + 5,
+            f"{val:.0f}",
+            ha="center",
+            va="bottom",
+            fontsize=8,
+        )
+
+for i, total in enumerate(totals):
+    ax.text(
+        x[i],
+        total + 10,
+        f"{total:.0f}",
+        ha="center",
+        va="bottom",
+        fontsize=9,
+        color="#555555",
+    )
+
+ax.set_xticks(x)
+ax.set_xticklabels(pivot_df.index)
+ax.set_yticks(list(range(0, 801, 100)))
+ax.spines[["top", "right", "bottom"]].set_visible(False)
+ax.tick_params(axis="x", size=0, pad=10)
+ax.tick_params(axis="y", labelsize=8)
+
+fig.text(x=0.12, y=1, s="Regions - Revenue by Segment", size=14)
+fig_text(
+    x=0.12,
+    y=0.97,
+    s="<Consumer> <Corporate Home> <Office>",
+    highlight_textprops=[
+        {"color": colors[0]},
+        {"color": colors[1]},
+        {"color": colors[2]},
+    ],
+)
+
+fig.savefig(
+    "../../static/graph/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-3.png",
+    dpi=100,
+    bbox_inches="tight",
+)
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\n\ndata = pd.DataFrame(\n    {\n        \"value\": [364, 232, 143, 357, 204, 131, 254, 158, 91, 196, 122, 74],\n        \"category\": [\n            \"West\",\n            \"West\",\n            \"West\",\n            \"East\",\n            \"East\",\n            \"East\",\n            \"Central\",\n            \"Central\",\n            \"Central\",\n            \"South\",\n            \"South\",\n            \"South\",\n        ],\n        \"sub_category\": [\n            \"Consumer\",\n            \"Corporate\",\n            \"Home office\",\n            \"Consumer\",\n            \"Corporate\",\n            \"Home office\",\n            \"Consumer\",\n            \"Corporate\",\n            \"Home office\",\n            \"Consumer\",\n            \"Corporate\",\n            \"Home office\",\n        ],\n    }\n)\n\ncat_order = [\"West\", \"East\", \"Central\", \"South\"]\ndata[\"category\"] = pd.Categorical(data[\"category\"], categories=cat_order, ordered=True)\ndata = data.sort_values([\"category\", \"value\"], ascending=[True, False])","data","pivot_df = data.pivot(index=\"category\", columns=\"sub_category\", values=\"value\")\n\nfig, ax = plt.subplots(figsize=(7, 5))\n\nbar_width = 0.25\nx = np.arange(len(pivot_df.index))\nfor i, sub_cat in enumerate(pivot_df.columns):\n    ax.bar(x + i * bar_width, pivot_df[sub_cat], width=bar_width, label=sub_cat)\n\nax.set_xlabel(\"Category\")\nax.set_ylabel(\"Value\")\nax.set_title(\"Regions - Revenue by Segment\", loc=\"left\")\nax.set_xticks(x + bar_width / 2)\nax.set_xticklabels(pivot_df.index)\nax.legend(title=\"Sub Category\")\n\nplt.show()","pivot_df = data.pivot(index=\"category\", columns=\"sub_category\", values=\"value\")\ntotals = pivot_df.sum(axis=1)\n\nfig, ax = plt.subplots(figsize=(7, 5))\n\nbar_width = 0.25\nx = np.arange(len(pivot_df.index))\n\nax.bar(x, totals, width=bar_width * 3.5, color=\"lightgrey\", zorder=0, label=\"Total\")\n\nfor i, sub_cat in enumerate(pivot_df.columns):\n    ax.bar(\n        x + (i - 1) * bar_width,\n        pivot_df[sub_cat],\n        width=bar_width,\n        label=sub_cat,\n        zorder=1,\n    )\n\nax.set_xlabel(\"Category\")\nax.set_ylabel(\"Value\")\nax.set_title(\"Regions - Revenue by Segment\", loc=\"left\")\nax.set_xticks(x)\nax.set_xticklabels(pivot_df.index)\nax.legend(title=\"Sub Category\")\n\nfig.savefig(\n    \"../../static/graph/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle.png\",\n    dpi=100,\n    bbox_inches=\"tight\",\n)\nplt.show()","$22","$23"],"children":"$L24"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$Le","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$Le","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$Le","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$Le","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$Le","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$Le","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L25"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L26",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L27",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L28",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
+20:true
+2a:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2b:T1b4c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame(</span></span>
+<span class="line"><span style="color:#24292E">    {</span></span>
+<span class="line"><span style="color:#032F62">        "value"</span><span style="color:#24292E">: [</span><span style="color:#005CC5">364</span><span style="color:#24292E">, </span><span style="color:#005CC5">232</span><span style="color:#24292E">, </span><span style="color:#005CC5">143</span><span style="color:#24292E">, </span><span style="color:#005CC5">357</span><span style="color:#24292E">, </span><span style="color:#005CC5">204</span><span style="color:#24292E">, </span><span style="color:#005CC5">131</span><span style="color:#24292E">, </span><span style="color:#005CC5">254</span><span style="color:#24292E">, </span><span style="color:#005CC5">158</span><span style="color:#24292E">, </span><span style="color:#005CC5">91</span><span style="color:#24292E">, </span><span style="color:#005CC5">196</span><span style="color:#24292E">, </span><span style="color:#005CC5">122</span><span style="color:#24292E">, </span><span style="color:#005CC5">74</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">        "category"</span><span style="color:#24292E">: [</span></span>
+<span class="line"><span style="color:#032F62">            "West"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "West"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "West"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "East"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "East"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "East"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Central"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Central"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Central"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "South"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "South"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "South"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">        ],</span></span>
+<span class="line"><span style="color:#032F62">        "sub_category"</span><span style="color:#24292E">: [</span></span>
+<span class="line"><span style="color:#032F62">            "Consumer"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Corporate"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Home office"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Consumer"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Corporate"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Home office"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Consumer"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Corporate"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Home office"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Consumer"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Corporate"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">            "Home office"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">        ],</span></span>
+<span class="line"><span style="color:#24292E">    }</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">cat_order </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">"West"</span><span style="color:#24292E">, </span><span style="color:#032F62">"East"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Central"</span><span style="color:#24292E">, </span><span style="color:#032F62">"South"</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">"category"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.Categorical(data[</span><span style="color:#032F62">"category"</span><span style="color:#24292E">], </span><span style="color:#E36209">categories</span><span style="color:#D73A49">=</span><span style="color:#24292E">cat_order, </span><span style="color:#E36209">ordered</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.sort_values([</span><span style="color:#032F62">"category"</span><span style="color:#24292E">, </span><span style="color:#032F62">"value"</span><span style="color:#24292E">], </span><span style="color:#E36209">ascending</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#005CC5">False</span><span style="color:#24292E">])</span></span></code></pre>24:[["$","h2","h2-0",{"children":"The data"}],"\n",["$","p","p-0",{"children":"Let's get started by importing libraries and loading the data"}],"\n",["$","$L2a","notebook-cell-0",{"index":0,"code":"import matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\n\ndata = pd.DataFrame(\n    {\n        \"value\": [364, 232, 143, 357, 204, 131, 254, 158, 91, 196, 122, 74],\n        \"category\": [\n            \"West\",\n            \"West\",\n            \"West\",\n            \"East\",\n            \"East\",\n            \"East\",\n            \"Central\",\n            \"Central\",\n            \"Central\",\n            \"South\",\n            \"South\",\n            \"South\",\n        ],\n        \"sub_category\": [\n            \"Consumer\",\n            \"Corporate\",\n            \"Home office\",\n            \"Consumer\",\n            \"Corporate\",\n            \"Home office\",\n            \"Consumer\",\n            \"Corporate\",\n            \"Home office\",\n            \"Consumer\",\n            \"Corporate\",\n            \"Home office\",\n        ],\n    }\n)\n\ncat_order = [\"West\", \"East\", \"Central\", \"South\"]\ndata[\"category\"] = pd.Categorical(data[\"category\"], categories=cat_order, ordered=True)\ndata = data.sort_values([\"category\", \"value\"], ascending=[True, False])","highlighted":"$2b","interactive":true,"hasChart":false}],"\n","$L2c","\n","$L2d","\n","$L2e","$L2f","\n","$L30","$L31","\n","$L32","$L33","\n","$L34","$L35","\n","$L36","\n","$L37"]
+25:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+29:null
+b:C
+2c:["$","p","p-1",{"children":"The dataset looks like this:"}]
+2d:["$","$L2a","notebook-cell-1",{"index":1,"code":"data","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">data</span></span></code></pre>","interactive":true,"hasChart":false,"output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"value"}],["$","th","th-2",{"children":"category"}],["$","th","th-3",{"children":"sub_category"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"364"}],["$","td","td-1",{"children":"West"}],["$","td","td-2",{"children":"Consumer"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"232"}],["$","td","td-1",{"children":"West"}],["$","td","td-2",{"children":"Corporate"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"143"}],["$","td","td-1",{"children":"West"}],["$","td","td-2",{"children":"Home office"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"357"}],["$","td","td-1",{"children":"East"}],["$","td","td-2",{"children":"Consumer"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"204"}],["$","td","td-1",{"children":"East"}],["$","td","td-2",{"children":"Corporate"}]]}],["$","tr","tr-5",{"children":[["$","th","th-0",{"children":"5"}],["$","td","td-0",{"children":"131"}],["$","td","td-1",{"children":"East"}],["$","td","td-2",{"children":"Home office"}]]}],["$","tr","tr-6",{"children":[["$","th","th-0",{"children":"6"}],["$","td","td-0",{"children":"254"}],["$","td","td-1",{"children":"Central"}],["$","td","td-2",{"children":"Consumer"}]]}],["$","tr","tr-7",{"children":[["$","th","th-0",{"children":"7"}],["$","td","td-0",{"children":"158"}],["$","td","td-1",{"children":"Central"}],["$","td","td-2",{"children":"Corporate"}]]}],["$","tr","tr-8",{"children":[["$","th","th-0",{"children":"8"}],["$","td","td-0",{"children":"91"}],["$","td","td-1",{"children":"Central"}],["$","td","td-2",{"children":"Home office"}]]}],["$","tr","tr-9",{"children":[["$","th","th-0",{"children":"9"}],["$","td","td-0",{"children":"196"}],["$","td","td-1",{"children":"South"}],["$","td","td-2",{"children":"Consumer"}]]}],["$","tr","tr-10",{"children":[["$","th","th-0",{"children":"10"}],["$","td","td-0",{"children":"122"}],["$","td","td-1",{"children":"South"}],["$","td","td-2",{"children":"Corporate"}]]}],["$","tr","tr-11",{"children":[["$","th","th-0",{"children":"11"}],["$","td","td-0",{"children":"74"}],["$","td","td-1",{"children":"South"}],["$","td","td-2",{"children":"Home office"}]]}]]}]]}],"\n"]}]}]]}]
+2e:["$","h2","h2-1",{"children":"Default grouped barplot"}]
+38:Te6e,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">pivot_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.pivot(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#032F62">"category"</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">"sub_category"</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">"value"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">7</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">bar_width </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0.25</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(pivot_df.index))</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, sub_cat </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(pivot_df.columns):</span></span>
+<span class="line"><span style="color:#24292E">    ax.bar(x </span><span style="color:#D73A49">+</span><span style="color:#24292E"> i </span><span style="color:#D73A49">*</span><span style="color:#24292E"> bar_width, pivot_df[sub_cat], </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_width, </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_cat)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.set_xlabel(</span><span style="color:#032F62">"Category"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylabel(</span><span style="color:#032F62">"Value"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span><span style="color:#032F62">"Regions - Revenue by Segment"</span><span style="color:#24292E">, </span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks(x </span><span style="color:#D73A49">+</span><span style="color:#24292E"> bar_width </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels(pivot_df.index)</span></span>
+<span class="line"><span style="color:#24292E">ax.legend(</span><span style="color:#E36209">title</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Sub Category"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>2f:["$","$L2a","notebook-cell-2",{"index":2,"code":"pivot_df = data.pivot(index=\"category\", columns=\"sub_category\", values=\"value\")\n\nfig, ax = plt.subplots(figsize=(7, 5))\n\nbar_width = 0.25\nx = np.arange(len(pivot_df.index))\nfor i, sub_cat in enumerate(pivot_df.columns):\n    ax.bar(x + i * bar_width, pivot_df[sub_cat], width=bar_width, label=sub_cat)\n\nax.set_xlabel(\"Category\")\nax.set_ylabel(\"Value\")\nax.set_title(\"Regions - Revenue by Segment\", loc=\"left\")\nax.set_xticks(x + bar_width / 2)\nax.set_xticklabels(pivot_df.index)\nax.legend(title=\"Sub Category\")\n\nplt.show()","highlighted":"$38","interactive":true,"hasChart":true,"intro":"$L39","output":"$L3a"}]
+30:["$","h2","h2-2",{"children":"Total values in the background"}]
+3b:T1719,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">pivot_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.pivot(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#032F62">"category"</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">"sub_category"</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">"value"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">totals </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pivot_df.sum(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">7</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">bar_width </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0.25</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(pivot_df.index))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.bar(x, totals, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_width </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 3.5</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"lightgrey"</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Total"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, sub_cat </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(pivot_df.columns):</span></span>
+<span class="line"><span style="color:#24292E">    ax.bar(</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">+</span><span style="color:#24292E"> (i </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">) </span><span style="color:#D73A49">*</span><span style="color:#24292E"> bar_width,</span></span>
+<span class="line"><span style="color:#24292E">        pivot_df[sub_cat],</span></span>
+<span class="line"><span style="color:#E36209">        width</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_width,</span></span>
+<span class="line"><span style="color:#E36209">        label</span><span style="color:#D73A49">=</span><span style="color:#24292E">sub_cat,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.set_xlabel(</span><span style="color:#032F62">"Category"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylabel(</span><span style="color:#032F62">"Value"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span><span style="color:#032F62">"Regions - Revenue by Segment"</span><span style="color:#24292E">, </span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks(x)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels(pivot_df.index)</span></span>
+<span class="line"><span style="color:#24292E">ax.legend(</span><span style="color:#E36209">title</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Sub Category"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.savefig(</span></span>
+<span class="line"><span style="color:#032F62">    "../../static/graph/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle.png"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">100</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">"tight"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>31:["$","$L2a","notebook-cell-3",{"index":3,"code":"pivot_df = data.pivot(index=\"category\", columns=\"sub_category\", values=\"value\")\ntotals = pivot_df.sum(axis=1)\n\nfig, ax = plt.subplots(figsize=(7, 5))\n\nbar_width = 0.25\nx = np.arange(len(pivot_df.index))\n\nax.bar(x, totals, width=bar_width * 3.5, color=\"lightgrey\", zorder=0, label=\"Total\")\n\nfor i, sub_cat in enumerate(pivot_df.columns):\n    ax.bar(\n        x + (i - 1) * bar_width,\n        pivot_df[sub_cat],\n        width=bar_width,\n        label=sub_cat,\n        zorder=1,\n    )\n\nax.set_xlabel(\"Category\")\nax.set_ylabel(\"Value\")\nax.set_title(\"Regions - Revenue by Segment\", loc=\"left\")\nax.set_xticks(x)\nax.set_xticklabels(pivot_df.index)\nax.legend(title=\"Sub Category\")\n\nfig.savefig(\n    \"../../static/graph/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle.png\",\n    dpi=100,\n    bbox_inches=\"tight\",\n)\nplt.show()","highlighted":"$3b","interactive":true,"hasChart":true,"intro":"$L3c","output":"$L3d"}]
+32:["$","h2","h2-3",{"children":"Customization"}]
+3e:T4e6,from highlight_text import fig_text
+
+pivot_df = data.pivot(index="category", columns="sub_category", values="value")
+totals = pivot_df.sum(axis=1)
+
+fig, ax = plt.subplots(figsize=(7, 5))
+
+bar_width = 0.25
+x = np.arange(len(pivot_df.index))
+colors = ["#E0AC2B", "#E85252", "#6689C6"]
+x = np.arange(len(pivot_df.index))
+
+ax.bar(x, totals, width=bar_width * 3.5, color="#E0E0E0", zorder=0)
+
+for i, sub_cat in enumerate(pivot_df.columns):
+    ax.bar(
+        x + (i - 1) * bar_width,
+        pivot_df[sub_cat],
+        width=bar_width,
+        zorder=1,
+        color=colors[i],
+    )
+
+ax.set_xticks(x)
+ax.set_xticklabels(pivot_df.index)
+ax.set_yticks(list(range(0, 801, 100)))
+ax.spines[["top", "right", "bottom"]].set_visible(False)
+ax.tick_params(axis="x", size=0, pad=10)
+ax.tick_params(axis="y", labelsize=8)
+
+fig.text(x=0.12, y=1, s="Regions - Revenue by Segment", size=14)
+fig_text(
+    x=0.12,
+    y=0.97,
+    s="<Consumer> <Corporate Home> <Office>",
+    highlight_textprops=[
+        {"color": colors[0]},
+        {"color": colors[1]},
+        {"color": colors[2]},
+    ],
+)
+
+fig.savefig(
+    "../../static/graph/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-2.png",
+    dpi=100,
+    bbox_inches="tight",
+)
+plt.show()3f:T266b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">pivot_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.pivot(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#032F62">"category"</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">"sub_category"</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">"value"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">totals </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pivot_df.sum(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">7</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">bar_width </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0.25</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(pivot_df.index))</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">"#E0AC2B"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#E85252"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#6689C6"</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(pivot_df.index))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.bar(x, totals, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_width </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 3.5</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#E0E0E0"</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, sub_cat </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(pivot_df.columns):</span></span>
+<span class="line"><span style="color:#24292E">    ax.bar(</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">+</span><span style="color:#24292E"> (i </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">) </span><span style="color:#D73A49">*</span><span style="color:#24292E"> bar_width,</span></span>
+<span class="line"><span style="color:#24292E">        pivot_df[sub_cat],</span></span>
+<span class="line"><span style="color:#E36209">        width</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_width,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[i],</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks(x)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels(pivot_df.index)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks(</span><span style="color:#005CC5">list</span><span style="color:#24292E">(</span><span style="color:#005CC5">range</span><span style="color:#24292E">(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">801</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">)))</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[[</span><span style="color:#032F62">"top"</span><span style="color:#24292E">, </span><span style="color:#032F62">"right"</span><span style="color:#24292E">, </span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">"x"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">pad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">"y"</span><span style="color:#24292E">, </span><span style="color:#E36209">labelsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.12</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Regions - Revenue by Segment"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.97</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"&#x3C;Consumer> &#x3C;Corporate Home> &#x3C;Office>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">2</span><span style="color:#24292E">]},</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.savefig(</span></span>
+<span class="line"><span style="color:#032F62">    "../../static/graph/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-2.png"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">100</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">"tight"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>33:["$","$L2a","notebook-cell-4",{"index":4,"code":"$3e","highlighted":"$3f","interactive":true,"hasChart":true,"intro":"$L40","output":"$L41"}]
+34:["$","h2","h2-4",{"children":"Label values"}]
+42:T65b,pivot_df = data.pivot(index="category", columns="sub_category", values="value")
+totals = pivot_df.sum(axis=1)
+
+fig, ax = plt.subplots(figsize=(7, 5))
+
+bar_width = 0.25
+x = np.arange(len(pivot_df.index))
+colors = ["#E0AC2B", "#E85252", "#6689C6"]
+
+ax.bar(x, totals, width=bar_width * 3.5, color="#E0E0E0", zorder=0)
+
+for i, sub_cat in enumerate(pivot_df.columns):
+    values = pivot_df[sub_cat]
+    ax.bar(
+        x + (i - 1) * bar_width,
+        values,
+        width=bar_width,
+        zorder=1,
+        color=colors[i],
+    )
+    for j, val in enumerate(values):
+        ax.text(
+            x[j] + (i - 1) * bar_width,
+            val + 5,
+            f"{val:.0f}",
+            ha="center",
+            va="bottom",
+            fontsize=8,
+        )
+
+for i, total in enumerate(totals):
+    ax.text(
+        x[i],
+        total + 10,
+        f"{total:.0f}",
+        ha="center",
+        va="bottom",
+        fontsize=9,
+        color="#555555",
+    )
+
+ax.set_xticks(x)
+ax.set_xticklabels(pivot_df.index)
+ax.set_yticks(list(range(0, 801, 100)))
+ax.spines[["top", "right", "bottom"]].set_visible(False)
+ax.tick_params(axis="x", size=0, pad=10)
+ax.tick_params(axis="y", labelsize=8)
+
+fig.text(x=0.12, y=1, s="Regions - Revenue by Segment", size=14)
+fig_text(
+    x=0.12,
+    y=0.97,
+    s="<Consumer> <Corporate Home> <Office>",
+    highlight_textprops=[
+        {"color": colors[0]},
+        {"color": colors[1]},
+        {"color": colors[2]},
+    ],
+)
+
+fig.savefig(
+    "../../static/graph/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-3.png",
+    dpi=100,
+    bbox_inches="tight",
+)
+plt.show()43:T3323,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">pivot_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.pivot(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#032F62">"category"</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">"sub_category"</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">"value"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">totals </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pivot_df.sum(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">7</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">bar_width </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0.25</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(pivot_df.index))</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">"#E0AC2B"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#E85252"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#6689C6"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.bar(x, totals, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_width </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 3.5</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#E0E0E0"</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, sub_cat </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(pivot_df.columns):</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pivot_df[sub_cat]</span></span>
+<span class="line"><span style="color:#24292E">    ax.bar(</span></span>
+<span class="line"><span style="color:#24292E">        x </span><span style="color:#D73A49">+</span><span style="color:#24292E"> (i </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">) </span><span style="color:#D73A49">*</span><span style="color:#24292E"> bar_width,</span></span>
+<span class="line"><span style="color:#24292E">        values,</span></span>
+<span class="line"><span style="color:#E36209">        width</span><span style="color:#D73A49">=</span><span style="color:#24292E">bar_width,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[i],</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> j, val </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(values):</span></span>
+<span class="line"><span style="color:#24292E">        ax.text(</span></span>
+<span class="line"><span style="color:#24292E">            x[j] </span><span style="color:#D73A49">+</span><span style="color:#24292E"> (i </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">) </span><span style="color:#D73A49">*</span><span style="color:#24292E"> bar_width,</span></span>
+<span class="line"><span style="color:#24292E">            val </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#D73A49">            f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">val</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, total </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(totals):</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span></span>
+<span class="line"><span style="color:#24292E">        x[i],</span></span>
+<span class="line"><span style="color:#24292E">        total </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">total</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"#555555"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks(x)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels(pivot_df.index)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks(</span><span style="color:#005CC5">list</span><span style="color:#24292E">(</span><span style="color:#005CC5">range</span><span style="color:#24292E">(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">801</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">)))</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[[</span><span style="color:#032F62">"top"</span><span style="color:#24292E">, </span><span style="color:#032F62">"right"</span><span style="color:#24292E">, </span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">"x"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#E36209">pad</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">"y"</span><span style="color:#24292E">, </span><span style="color:#E36209">labelsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.12</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Regions - Revenue by Segment"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.97</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"&#x3C;Consumer> &#x3C;Corporate Home> &#x3C;Office>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">2</span><span style="color:#24292E">]},</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.savefig(</span></span>
+<span class="line"><span style="color:#032F62">    "../../static/graph/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle-3.png"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">100</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">"tight"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>35:["$","$L2a","notebook-cell-5",{"index":5,"code":"$42","highlighted":"$43","interactive":true,"hasChart":true,"intro":"$L44","output":"$L45"}]
+36:["$","h2","h2-5",{"children":"Going further"}]
+37:["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["Learn more about ",["$","a","a-0",{"href":"https://python-graph-gallery.com/barplot/","children":"barplots"}]]}],"\n",["$","li","li-1",{"children":["How to create a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/12-stacked-barplot-with-matplotlib/","children":"stacked barplot"}]]}],"\n",["$","li","li-2",{"children":["How to create a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/13-percent-stacked-barplot/","children":"percent stacked barplot"}]]}],"\n"]}]
+39:[["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","code","code-0",{"children":"pivot_df"}]," reshapes the data so that each row is a ",["$","strong","strong-0",{"children":"category"}]," and each column is a ",["$","strong","strong-1",{"children":"sub-category"}],"."]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"x"}]," gives the base x-positions for the categories."]}],"\n",["$","li","li-2",{"children":["The ",["$","code","code-0",{"children":"for"}]," loop goes through each ",["$","strong","strong-0",{"children":"sub-category"}]," and offsets its bars horizontally using ",["$","code","code-1",{"children":"i * bar_width"}]," so they appear grouped."]}],"\n",["$","li","li-3",{"children":["Each ",["$","code","code-0",{"children":"ax.bar()"}]," call draws one set of bars (for one sub-category) at the correct shifted position."]}],"\n"]}]]
+3a:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle/output-2.png","alt":"Grouped barplot with the total represented in the background","width":618,"height":470,"loading":"lazy","decoding":"async"}]}]]
+3c:[["$","p","p-0",{"children":["This version adds ",["$","strong","strong-0",{"children":"total bars"}]," behind the grouped bars."]}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["It first calculates ",["$","code","code-0",{"children":"totals"}]," for each category (sum across sub-categories)."]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"ax.bar(x, totals, ...)"}]," draws ",["$","strong","strong-0",{"children":"wide, light grey bars"}]," as a background, showing the total per category."]}],"\n",["$","li","li-2",{"children":["The ",["$","code","code-0",{"children":"for"}]," loop then overlays the ",["$","strong","strong-0",{"children":"narrower, colored bars"}]," for each sub-category, centered around each category position."]}],"\n"]}],["$","p","p-1",{"children":["So while both use a loop to draw grouped bars, ",["$","strong","strong-0",{"children":"this one also visualizes the total"}],", making it easier to compare individual sub-category values to the whole. The offset ",["$","code","code-0",{"children":"(i - 0.5) * bar_width"}]," ensures the grouped bars are centered over the total bar."]}]]
+3d:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle/output-3.png","alt":"Grouped barplot with the total represented in the background","width":618,"height":470,"loading":"lazy","decoding":"async"}]}]]
+40:[["$","p","p-0",{"children":"Let's make it look nicer!"}]]
+41:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle/output-4.png","alt":"Grouped barplot with the total represented in the background","width":593,"height":507,"loading":"lazy","decoding":"async"}]}]]
+44:[["$","p","p-0",{"children":["The very last step in improving this graph is to add the values for each sub-category and each overall category. The key is to use ",["$","code","code-0",{"children":"for"}]," loops to dynamically add these labels."]}]]
+45:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/grouped-barplot-with-the-total-of-each-group-represented-as-a-grey-rectangle/output-5.png","alt":"Grouped barplot with the total represented in the background","width":593,"height":507,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

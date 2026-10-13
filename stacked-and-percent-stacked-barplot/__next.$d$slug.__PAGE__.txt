@@ -1,0 +1,238 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Stacked and Percent Stacked Barplot using Seaborn"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post explains how to draw a <b>stacked barplot</b> and a <b>percent stacked barplot</b> using the barplot() function of <a href='http://python-graph-gallery.com/seaborn/'>seaborn</a> library.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/barplot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Barplot section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/barplot.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"stacked-and-percent-stacked-barplot","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Stacked and Percent Stacked Barplot using Seaborn"}],["$","meta","1",{"name":"description","content":"How to plot a stacked and percent sctacked barplot using seaborn"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, seaborn, matplotlib, barplot, stacked, percent stacked"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/stacked-and-percent-stacked-barplot/"}],["$","meta","6",{"property":"og:title","content":"Stacked and Percent Stacked Barplot using Seaborn"}],["$","meta","7",{"property":"og:description","content":"How to plot a stacked and percent sctacked barplot using seaborn"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/stacked-and-percent-stacked-barplot/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Stacked and Percent Stacked Barplot using Seaborn"}],["$","meta","13",{"name":"twitter:description","content":"How to plot a stacked and percent sctacked barplot using seaborn"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/stacked-and-percent-stacked-barplot/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+24:I[68978,["$3","$4","$5","$6","$d"],"default"]
+2c:I[44110,["$3","$4","$5","$6","$d"],"default"]
+2d:I[59351,["$3","$4","$5","$6","$d"],"default"]
+2e:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T419,# import libraries
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+
+# load dataset
+tips = sns.load_dataset("tips")
+
+# set plot style: grey grid in the background:
+sns.set_theme(style="darkgrid")
+
+# set the figure size
+plt.figure(figsize=(14, 14))
+
+# top bar -> sum all values(smoker=No and smoker=Yes) to find y position of the bars
+total = tips.groupby('day')['total_bill'].sum().reset_index()
+
+# bar chart 1 -> top bars (group of 'smoker=No')
+bar1 = sns.barplot(x="day",  y="total_bill", data=total, color='darkblue')
+
+# bottom bar ->  take only smoker=Yes values from the data
+smoker = tips[tips.smoker=='Yes']
+
+# bar chart 2 -> bottom bars (group of 'smoker=Yes')
+bar2 = sns.barplot(x="day", y="total_bill", data=smoker, estimator=sum, ci=None,  color='lightblue')
+
+# add legend
+top_bar = mpatches.Patch(color='darkblue', label='smoker = No')
+bottom_bar = mpatches.Patch(color='lightblue', label='smoker = Yes')
+plt.legend(handles=[top_bar, bottom_bar])
+
+# show the graph
+plt.show()23:T42b,# import libraries
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+
+# load dataset
+tips = sns.load_dataset("tips")
+
+# set the figure size
+plt.figure(figsize=(14, 14))
+
+# from raw value to percentage
+total = tips.groupby('day')['total_bill'].sum().reset_index()
+smoker = tips[tips.smoker=='Yes'].groupby('day')['total_bill'].sum().reset_index()
+smoker['total_bill'] = [i / j * 100 for i,j in zip(smoker['total_bill'], total['total_bill'])]
+total['total_bill'] = [i / j * 100 for i,j in zip(total['total_bill'], total['total_bill'])]
+
+# bar chart 1 -> top bars (group of 'smoker=No')
+bar1 = sns.barplot(x="day",  y="total_bill", data=total, color='darkblue')
+
+# bar chart 2 -> bottom bars (group of 'smoker=Yes')
+bar2 = sns.barplot(x="day", y="total_bill", data=smoker, color='lightblue')
+
+# add legend
+top_bar = mpatches.Patch(color='darkblue', label='smoker = No')
+bottom_bar = mpatches.Patch(color='lightblue', label='smoker = Yes')
+plt.legend(handles=[top_bar, bottom_bar])
+
+# show the graph
+plt.show()25:T419,# import libraries
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+
+# load dataset
+tips = sns.load_dataset("tips")
+
+# set plot style: grey grid in the background:
+sns.set_theme(style="darkgrid")
+
+# set the figure size
+plt.figure(figsize=(14, 14))
+
+# top bar -> sum all values(smoker=No and smoker=Yes) to find y position of the bars
+total = tips.groupby('day')['total_bill'].sum().reset_index()
+
+# bar chart 1 -> top bars (group of 'smoker=No')
+bar1 = sns.barplot(x="day",  y="total_bill", data=total, color='darkblue')
+
+# bottom bar ->  take only smoker=Yes values from the data
+smoker = tips[tips.smoker=='Yes']
+
+# bar chart 2 -> bottom bars (group of 'smoker=Yes')
+bar2 = sns.barplot(x="day", y="total_bill", data=smoker, estimator=sum, ci=None,  color='lightblue')
+
+# add legend
+top_bar = mpatches.Patch(color='darkblue', label='smoker = No')
+bottom_bar = mpatches.Patch(color='lightblue', label='smoker = Yes')
+plt.legend(handles=[top_bar, bottom_bar])
+
+# show the graph
+plt.show()26:T1979,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># import libraries</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> seaborn </span><span style="color:#D73A49">as</span><span style="color:#24292E"> sns</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">as</span><span style="color:#24292E"> mpatches</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># load dataset</span></span>
+<span class="line"><span style="color:#24292E">tips </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sns.load_dataset(</span><span style="color:#032F62">"tips"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># set plot style: grey grid in the background:</span></span>
+<span class="line"><span style="color:#24292E">sns.set_theme(</span><span style="color:#E36209">style</span><span style="color:#D73A49">=</span><span style="color:#032F62">"darkgrid"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># set the figure size</span></span>
+<span class="line"><span style="color:#24292E">plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#005CC5">14</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># top bar -> sum all values(smoker=No and smoker=Yes) to find y position of the bars</span></span>
+<span class="line"><span style="color:#24292E">total </span><span style="color:#D73A49">=</span><span style="color:#24292E"> tips.groupby(</span><span style="color:#032F62">'day'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'total_bill'</span><span style="color:#24292E">].sum().reset_index()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># bar chart 1 -> top bars (group of 'smoker=No')</span></span>
+<span class="line"><span style="color:#24292E">bar1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sns.barplot(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"day"</span><span style="color:#24292E">,  </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"total_bill"</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">total, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkblue'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># bottom bar ->  take only smoker=Yes values from the data</span></span>
+<span class="line"><span style="color:#24292E">smoker </span><span style="color:#D73A49">=</span><span style="color:#24292E"> tips[tips.smoker</span><span style="color:#D73A49">==</span><span style="color:#032F62">'Yes'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># bar chart 2 -> bottom bars (group of 'smoker=Yes')</span></span>
+<span class="line"><span style="color:#24292E">bar2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sns.barplot(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"day"</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"total_bill"</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">smoker, </span><span style="color:#E36209">estimator</span><span style="color:#D73A49">=</span><span style="color:#005CC5">sum</span><span style="color:#24292E">, </span><span style="color:#E36209">ci</span><span style="color:#D73A49">=</span><span style="color:#005CC5">None</span><span style="color:#24292E">,  </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightblue'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add legend</span></span>
+<span class="line"><span style="color:#24292E">top_bar </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mpatches.Patch(</span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkblue'</span><span style="color:#24292E">, </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">'smoker = No'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">bottom_bar </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mpatches.Patch(</span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightblue'</span><span style="color:#24292E">, </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">'smoker = Yes'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.legend(</span><span style="color:#E36209">handles</span><span style="color:#D73A49">=</span><span style="color:#24292E">[top_bar, bottom_bar])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># show the graph</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["$22","$23"],"children":[["$","h2","h2-0",{"children":"Stacked Barplot"}],["$","$L24","notebook-cell-0",{"index":0,"code":"$25","highlighted":"$26","interactive":true,"hasChart":true,"intro":"$L27","output":"$L28"}],"\n","$L29","$L2a"]}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$Le","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$Le","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$Le","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$Le","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$Le","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$Le","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L2b"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L2c",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L2d",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L2e",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@2f"}]}]
+20:true
+b:300
+27:[["$","p","p-0",{"children":["In ",["$","strong","strong-0",{"children":"stacked barplot"}],", subgroups are displayed as bars on top of each other. Although ",["$","code","code-0",{"children":"barplot()"}]," function doesn't have a parameter to draw stacked bars, you can plot a stacked bar chart by putting the bar charts on top of each other like in the example below:"]}]]
+28:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/stacked-and-percent-stacked-barplot/output-1.png","alt":"Stacked and Percent Stacked Barplot using Seaborn","width":843,"height":808,"loading":"lazy","decoding":"async"}]}]]
+29:["$","h2","h2-1",{"children":"Percent Stacked Bar Chart"}]
+30:T42b,# import libraries
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+
+# load dataset
+tips = sns.load_dataset("tips")
+
+# set the figure size
+plt.figure(figsize=(14, 14))
+
+# from raw value to percentage
+total = tips.groupby('day')['total_bill'].sum().reset_index()
+smoker = tips[tips.smoker=='Yes'].groupby('day')['total_bill'].sum().reset_index()
+smoker['total_bill'] = [i / j * 100 for i,j in zip(smoker['total_bill'], total['total_bill'])]
+total['total_bill'] = [i / j * 100 for i,j in zip(total['total_bill'], total['total_bill'])]
+
+# bar chart 1 -> top bars (group of 'smoker=No')
+bar1 = sns.barplot(x="day",  y="total_bill", data=total, color='darkblue')
+
+# bar chart 2 -> bottom bars (group of 'smoker=Yes')
+bar2 = sns.barplot(x="day", y="total_bill", data=smoker, color='lightblue')
+
+# add legend
+top_bar = mpatches.Patch(color='darkblue', label='smoker = No')
+bottom_bar = mpatches.Patch(color='lightblue', label='smoker = Yes')
+plt.legend(handles=[top_bar, bottom_bar])
+
+# show the graph
+plt.show()31:T1ca8,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># import libraries</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> seaborn </span><span style="color:#D73A49">as</span><span style="color:#24292E"> sns</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">as</span><span style="color:#24292E"> mpatches</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># load dataset</span></span>
+<span class="line"><span style="color:#24292E">tips </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sns.load_dataset(</span><span style="color:#032F62">"tips"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># set the figure size</span></span>
+<span class="line"><span style="color:#24292E">plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#005CC5">14</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># from raw value to percentage</span></span>
+<span class="line"><span style="color:#24292E">total </span><span style="color:#D73A49">=</span><span style="color:#24292E"> tips.groupby(</span><span style="color:#032F62">'day'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'total_bill'</span><span style="color:#24292E">].sum().reset_index()</span></span>
+<span class="line"><span style="color:#24292E">smoker </span><span style="color:#D73A49">=</span><span style="color:#24292E"> tips[tips.smoker</span><span style="color:#D73A49">==</span><span style="color:#032F62">'Yes'</span><span style="color:#24292E">].groupby(</span><span style="color:#032F62">'day'</span><span style="color:#24292E">)[</span><span style="color:#032F62">'total_bill'</span><span style="color:#24292E">].sum().reset_index()</span></span>
+<span class="line"><span style="color:#24292E">smoker[</span><span style="color:#032F62">'total_bill'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [i </span><span style="color:#D73A49">/</span><span style="color:#24292E"> j </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 100</span><span style="color:#D73A49"> for</span><span style="color:#24292E"> i,j </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(smoker[</span><span style="color:#032F62">'total_bill'</span><span style="color:#24292E">], total[</span><span style="color:#032F62">'total_bill'</span><span style="color:#24292E">])]</span></span>
+<span class="line"><span style="color:#24292E">total[</span><span style="color:#032F62">'total_bill'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [i </span><span style="color:#D73A49">/</span><span style="color:#24292E"> j </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 100</span><span style="color:#D73A49"> for</span><span style="color:#24292E"> i,j </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(total[</span><span style="color:#032F62">'total_bill'</span><span style="color:#24292E">], total[</span><span style="color:#032F62">'total_bill'</span><span style="color:#24292E">])]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># bar chart 1 -> top bars (group of 'smoker=No')</span></span>
+<span class="line"><span style="color:#24292E">bar1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sns.barplot(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"day"</span><span style="color:#24292E">,  </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"total_bill"</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">total, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkblue'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># bar chart 2 -> bottom bars (group of 'smoker=Yes')</span></span>
+<span class="line"><span style="color:#24292E">bar2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sns.barplot(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"day"</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"total_bill"</span><span style="color:#24292E">, </span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">smoker, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightblue'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add legend</span></span>
+<span class="line"><span style="color:#24292E">top_bar </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mpatches.Patch(</span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'darkblue'</span><span style="color:#24292E">, </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">'smoker = No'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">bottom_bar </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mpatches.Patch(</span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightblue'</span><span style="color:#24292E">, </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">'smoker = Yes'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.legend(</span><span style="color:#E36209">handles</span><span style="color:#D73A49">=</span><span style="color:#24292E">[top_bar, bottom_bar])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># show the graph</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>2a:["$","$L24","notebook-cell-1",{"index":1,"code":"$30","highlighted":"$31","interactive":true,"hasChart":true,"intro":"$L32","output":"$L33"}]
+2b:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+2f:null
+b:C
+32:[["$","p","p-0",{"children":"In percent stacked chart, bars are again displayed on top of each other, and they represent the proportion of each subgroup in the whole."}]]
+33:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/stacked-and-percent-stacked-barplot/output-2.png","alt":"Stacked and Percent Stacked Barplot using Seaborn","width":837,"height":808,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

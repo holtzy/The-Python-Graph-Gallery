@@ -1,0 +1,998 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Scatter plot with custom labels and annotations"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/ScatterPlot150.webp","alt":"logo of a chart:ScatterPlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>In this post, we'll learn how to create a <a href='/scatter-plot'>scatter plot</a> with a <b>custom colormap</b>, <b>specific annotations</b>, and <b>highlighted countries</b>. We'll use the Global Ecological Footprint dataset to visualize the <b>ecological footprint</b> and <b>biocapacity</b> of countries.<br><br>This <b>step-by-step guide</b> starts with the most simple version of the <a href='/scatter-plot'>scatter plot</a> and <b>iteratively</b> adds features until it results in a <b>real-life, beautiful example</b> of data visualization made with <a href='/matplotlib'>matplotlib</a>.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/scatter-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Scatterplot section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/scatter.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-scatter-with-customized-annotations","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Scatter plot with custom labels and annotations"}],["$","meta","1",{"name":"description","content":"Scatter plot with specific highlight and annotations, and custom colors"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"scatter, bubble, chart, matplotlib, plot, python, data visualization, annotation, custom, features"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-scatter-with-customized-annotations/"}],["$","meta","6",{"property":"og:title","content":"Scatter plot with custom labels and annotations"}],["$","meta","7",{"property":"og:description","content":"Scatter plot with specific highlight and annotations, and custom colors"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Scatter plot with custom labels and annotations"}],["$","meta","13",{"name":"twitter:description","content":"Scatter plot with specific highlight and annotations, and custom colors"}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+25:I[44110,["$3","$4","$5","$6","$d"],"default"]
+26:I[59351,["$3","$4","$5","$6","$d"],"default"]
+27:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:Tafb,def create_gradient_colormap(colors):
+   cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+   return cmap
+
+# font
+personal_path = '/Users/josephbarbier/Library/Fonts/'
+font_path = personal_path + 'FiraSans-Light.ttf'
+font = FontProperties(fname=font_path)
+bold_font = FontProperties(fname=personal_path + 'FiraSans-Medium.ttf')
+
+# parameters
+colors = ['#136f63', '#c1121f']
+cmap = create_gradient_colormap(colors)
+background_color = '#333533'
+text_color = 'white'
+light_text_color = '#adb5bd'
+x_col = 'biocapacity'
+y_col = 'footprint'
+c = 'earthsRequired'
+
+fig, ax = plt.subplots(figsize=(10, 8), dpi=500)
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+ax.spines[['top', 'right']].set_visible(False)
+ax.spines['bottom'].set_color(light_text_color)
+ax.spines['left'].set_color(light_text_color)
+ax.tick_params(axis='x', colors=light_text_color)
+ax.tick_params(axis='y', colors=light_text_color)
+
+ax.scatter(
+   df[x_col],
+   df[y_col],
+   c=df[c],
+   s=150,
+   cmap=cmap,
+   edgecolor='white',
+   alpha=0.7,
+   marker='s',
+   linewidth=0.4
+)
+
+# title
+qatar_color = cmap(df.loc[df['country'] == 'Qatar', c].values[0]/df[c].max())
+luxembourg_color = cmap(df.loc[df['country'] == 'Luxembourg', c].values[0]/df[c].max())
+qatar_earths = df.loc[df['country'] == 'Qatar', 'earthsRequired'].values[0]
+luxembourg_earths = df.loc[df['country'] == 'Luxembourg', 'earthsRequired'].values[0]
+text = f"""
+<Qatar> and <Luxembourg> have the highest ecological\n<footprint>, in spite of having one the lowest <biocapacity>
+"""
+fig_text(
+   0.26,
+   0.9,
+   text,
+   fontsize=18,
+   color=text_color,
+   font=font,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font},
+      {'font':bold_font},
+      {'font':bold_font, 'color':colors[1]},
+      {'font':bold_font, 'color':colors[0]}
+   ],
+   ax=ax
+)
+text = f"""
+If everyone lived like Qatar, we would need <{qatar_earths:.1f} Earths> to sustain the world.
+"""
+fig_text(
+   0.26,
+   0.82,
+   text,
+   fontsize=12,
+   color=text_color,
+   font=font,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font}
+   ],
+   ax=ax
+)
+
+# credit and about
+text = """
+Global Ecological Footprint 2023. Footprint and Biocapacity are in global hectares per person.
+<Visualization:> barbierjoseph.com
+"""
+fig_text(
+   0.12,
+   0.05,
+   text,
+   fontsize=7,
+   font=font,
+   color=text_color,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font}
+   ],
+   ax=ax
+)
+
+# label for axis
+fig_text(
+   0.85, 0.08,
+   'Biocapacity'.upper(),
+   fontsize=12,
+   font=bold_font,
+   color=colors[0],
+   ha='center',
+   va='top',
+   ax=ax
+)
+fig_text(
+   0.1, 0.9,
+   'Footprint'.upper(),
+   fontsize=12,
+   font=bold_font,
+   color=colors[1],
+   ha='left',
+   va='center',
+   ax=ax
+)
+
+plt.show()23:Tefd,def create_gradient_colormap(colors):
+   cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+   return cmap
+
+# parameters
+colors = ['#136f63', '#db3a34']
+colors = ['#136f63', '#c1121f']
+cmap = create_gradient_colormap(colors)
+background_color = '#333533'
+text_color = 'white'
+light_text_color = '#adb5bd'
+countries_to_annote = [
+   'Australia', 'Bolivia', 'Canada',
+   'Gabon', 'Brazil', 'Argentina',
+   'Estonia', 'Luxembourg', 'Qatar',
+   'United States of America',
+   'Lithuania', 'Russian Federation',
+]
+x_col = 'biocapacity'
+y_col = 'footprint'
+c = 'earthsRequired'
+
+# font
+personal_path = '/Users/josephbarbier/Library/Fonts/'
+font_path = personal_path + 'FiraSans-Light.ttf'
+font = FontProperties(fname=font_path)
+bold_font = FontProperties(fname=personal_path + 'FiraSans-Medium.ttf')
+
+fig, ax = plt.subplots(figsize=(10, 8), dpi=500)
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+ax.spines[['top', 'right']].set_visible(False)
+ax.spines['bottom'].set_color(light_text_color)
+ax.spines['left'].set_color(light_text_color)
+ax.tick_params(axis='x', colors=light_text_color)
+ax.tick_params(axis='y', colors=light_text_color)
+ax.set_xticks([0, 5, 10, 15])
+ax.set_yticks([0, 5, 10, 15])
+ax.set_xlim(0, 18)
+ax.set_ylim(0, 16)
+
+scatter = ax.scatter(
+   df[x_col],
+   df[y_col],
+   c=df[c],
+   s=150,
+   cmap=cmap,
+   edgecolor='white',
+   alpha=0.7,
+   marker='s',
+   linewidth=0.4
+)
+
+labels = []
+for country in countries_to_annote:
+   x = df.loc[df['country'] == country, x_col].values[0]
+   y = df.loc[df['country'] == country, y_col].values[0]
+   color = text_color
+   if country == 'United States of America':
+      country = 'USA'
+   text = ax.text(
+      x-0.11,
+      y+0.8,
+      country.upper(),
+      fontsize=8,
+      font=bold_font,
+      color=color,
+      alpha=0.5,
+      ha='left',
+      va='top',
+      zorder=10,
+      bbox=dict(facecolor='grey', edgecolor='none', alpha=0.2)
+   )
+   labels.append(text)
+
+adjust_text(
+   labels,
+   ax=ax
+)
+
+# title
+qatar_color = cmap(df.loc[df['country'] == 'Qatar', c].values[0]/df[c].max())
+luxembourg_color = cmap(df.loc[df['country'] == 'Luxembourg', c].values[0]/df[c].max())
+qatar_earths = df.loc[df['country'] == 'Qatar', 'earthsRequired'].values[0]
+luxembourg_earths = df.loc[df['country'] == 'Luxembourg', 'earthsRequired'].values[0]
+text = f"""
+<Qatar> and <Luxembourg> have the highest ecological\n<footprint>, in spite of having one the lowest <biocapacity>
+"""
+fig_text(
+   0.26,
+   0.9,
+   text,
+   fontsize=18,
+   color=text_color,
+   font=font,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font},
+      {'font':bold_font},
+      {'font':bold_font, 'color':colors[1]},
+      {'font':bold_font, 'color':colors[0]}
+   ],
+   ax=ax
+)
+text = f"""
+If everyone lived like Qatar, we would need <{qatar_earths:.1f} Earths> to sustain the world.
+"""
+fig_text(
+   0.26,
+   0.82,
+   text,
+   fontsize=12,
+   color=text_color,
+   font=font,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font}
+   ],
+   ax=ax
+)
+
+# credit and about
+text = """
+Global Ecological Footprint 2023. Footprint and Biocapacity are in global hectares per person.
+<Visualization:> barbierjoseph.com
+"""
+fig_text(
+   0.12,
+   0.05,
+   text,
+   fontsize=7,
+   font=font,
+   color=text_color,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font}
+   ],
+   ax=ax
+)
+
+# label for axis
+fig_text(
+   0.85, 0.08,
+   'Biocapacity'.upper(),
+   fontsize=12,
+   font=bold_font,
+   color=colors[0],
+   ha='center',
+   va='top',
+   ax=ax
+)
+fig_text(
+   0.1, 0.9,
+   'Footprint'.upper(),
+   fontsize=12,
+   font=bold_font,
+   color=colors[1],
+   ha='left',
+   va='center',
+   ax=ax
+)
+
+plt.savefig('../../static/graph/web-scatter-with-customized-annotations.png', bbox_inches='tight', dpi=500)
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["# Libraries\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom matplotlib.colors import LinearSegmentedColormap\nfrom highlight_text import fig_text\nfrom adjustText import adjust_text\nfrom matplotlib.font_manager import FontProperties","url = 'https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/footprint.csv'\ndf = pd.read_csv(url)\ndf = df[df['biocapacity']< 60]\ndf.head()","# parameters\nx_col = 'biocapacity'\ny_col = 'footprint'\nc = 'earthsRequired'\n\nfig, ax = plt.subplots(figsize=(10, 8), dpi=500)\n\nax.scatter(\n   df[x_col],\n   df[y_col],\n   c=df[c],\n   s=150,\n   edgecolor='white',\n   alpha=0.7,\n   marker='s',\n   linewidth=0.4\n)\n\nplt.show()","def create_gradient_colormap(colors):\n   cmap = LinearSegmentedColormap.from_list(\"custom_gradient\", colors, N=256)\n   return cmap\n\ncolors = ['#136f63', '#c1121f']\ncmap = create_gradient_colormap(colors)\ncmap","# parameters\nbackground_color = '#333533'\ntext_color = 'white'\nlight_text_color = '#adb5bd'\nx_col = 'biocapacity'\ny_col = 'footprint'\nc = 'earthsRequired'\n\nfig, ax = plt.subplots(figsize=(10, 8), dpi=500)\nfig.set_facecolor(background_color)\nax.set_facecolor(background_color)\nax.spines[['top', 'right']].set_visible(False)\nax.spines['bottom'].set_color(light_text_color)\nax.spines['left'].set_color(light_text_color)\nax.tick_params(axis='x', colors=light_text_color)\nax.tick_params(axis='y', colors=light_text_color)\n\nax.scatter(\n   df[x_col],\n   df[y_col],\n   c=df[c],\n   s=150,\n   cmap=cmap,\n   edgecolor='white',\n   alpha=0.7,\n   marker='s',\n   linewidth=0.4\n)\n\nplt.show()","$22","$23"],"children":"$L24"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","scatter",{"href":"/scatter-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ScatterPlot150.webp","alt":"logo of a chart:ScatterPlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Scatterplot"}]]}],["$","$Le","heatmap",{"href":"/heatmap/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Heatmap150.webp","alt":"logo of a chart:Heatmap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Heatmap"}]]}],["$","$Le","correlogram",{"href":"/correlogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Correlogram150.webp","alt":"logo of a chart:Correlogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Correlogram"}]]}],["$","$Le","bubble",{"href":"/bubble-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/BubblePlot150.webp","alt":"logo of a chart:BubblePlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Bubble"}]]}],["$","$Le","connectedScatter",{"href":"/connected-scatter-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ScatterConnected150.webp","alt":"logo of a chart:ScatterConnected","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Connected Scatter"}]]}],["$","$Le","density2d",{"href":"/2d-density-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/2dDensity150.webp","alt":"logo of a chart:2dDensity","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"2D Density"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L25",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L26",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L27",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+20:true
+29:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2a:T57c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Libraries</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.colors </span><span style="color:#D73A49">import</span><span style="color:#24292E"> LinearSegmentedColormap</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> adjustText </span><span style="color:#D73A49">import</span><span style="color:#24292E"> adjust_text</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.font_manager </span><span style="color:#D73A49">import</span><span style="color:#24292E"> FontProperties</span></span></code></pre>24:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This plot is a ",["$","a","a-0",{"href":"/scatter-plot","children":"scatter plot"}]," showing the relationship between the footprint and the biocapacity of different countries."]}],"\n",["$","p","p-1",{"children":["It was made by ",["$","a","a-0",{"href":"https://www.barbierjoseph.com/","children":"Joseph Barbier"}],". Thanks to him for accepting sharing his work here!"]}],"\n",["$","p","p-2",{"children":"Let's see what the final picture will look like:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-scatter-with-customized-annotations.png?raw=true","alt":"scatter plot with annotations","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-4",{"children":"First, we need to install the following librairies:"}],"\n",["$","$L29","notebook-cell-0",{"index":0,"code":"# Libraries\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom matplotlib.colors import LinearSegmentedColormap\nfrom highlight_text import fig_text\nfrom adjustText import adjust_text\nfrom matplotlib.font_manager import FontProperties","highlighted":"$2a","interactive":false,"hasChart":false}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-5",{"children":["For this reproduction, we're going to retrieve the data directly from the ",["$","a","a-0",{"href":"https://github.com/holtzy/The-Python-Graph-Gallery","children":"gallery's Github repo"}],". This means we just need to ",["$","strong","strong-0",{"children":"give the right url as an argument"}]," to pandas' ",["$","code","code-0",{"children":"read_csv()"}]," function to retrieve the data."]}],"\n",["$","$L29","notebook-cell-1",{"index":1,"code":"url = 'https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/footprint.csv'\ndf = pd.read_csv(url)\ndf = df[df['biocapacity']< 60]\ndf.head()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">url </span><span style=\"color:#D73A49\">=</span><span style=\"color:#032F62\"> 'https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/footprint.csv'</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.read_csv(url)</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> df[df[</span><span style=\"color:#032F62\">'biocapacity'</span><span style=\"color:#24292E\">]</span><span style=\"color:#D73A49\">&#x3C;</span><span style=\"color:#005CC5\"> 60</span><span style=\"color:#24292E\">]</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df.head()</span></span></code></pre>","interactive":false,"hasChart":false,"output":"$L2b"}],"\n","$L2c","$L2d","\n","$L2e","$L2f","$L30","\n","$L31","$L32","\n","$L33","$L34","\n","$L35","\n","$L36","\n","$L37"]
+28:null
+b:C
+2b:[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"lifexp"}],["$","th","th-2",{"children":"country"}],["$","th","th-3",{"children":"region"}],["$","th","th-4",{"children":"gdpCapita"}],["$","th","th-5",{"children":"populationMillions"}],["$","th","th-6",{"children":"footprint"}],["$","th","th-7",{"children":"biocapacity"}],["$","th","th-8",{"children":"ecoReserve"}],["$","th","th-9",{"children":"earthsRequired"}],["$","th","th-10",{"children":"ratio"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"76.0"}],["$","td","td-1",{"children":"Albania"}],["$","td","td-2",{"children":"Other Europe"}],["$","td","td-3",{"children":"14889.0"}],["$","td","td-4",{"children":"2.9"}],["$","td","td-5",{"children":"2.1"}],["$","td","td-6",{"children":"1.176752"}],["$","td","td-7",{"children":"-0.894486"}],["$","td","td-8",{"children":"1.371485"}],["$","td","td-9",{"children":"1.784573"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"62.0"}],["$","td","td-1",{"children":"Angola"}],["$","td","td-2",{"children":"Africa"}],["$","td","td-3",{"children":"6304.0"}],["$","td","td-4",{"children":"35.0"}],["$","td","td-5",{"children":"0.9"}],["$","td","td-6",{"children":"1.588191"}],["$","td","td-7",{"children":"0.730346"}],["$","td","td-8",{"children":"0.568029"}],["$","td","td-9",{"children":"0.566682"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"75.0"}],["$","td","td-1",{"children":"Argentina"}],["$","td","td-2",{"children":"South America"}],["$","td","td-3",{"children":"22117.0"}],["$","td","td-4",{"children":"46.0"}],["$","td","td-5",{"children":"3.2"}],["$","td","td-6",{"children":"5.231663"}],["$","td","td-7",{"children":"2.011045"}],["$","td","td-8",{"children":"2.132556"}],["$","td","td-9",{"children":"0.611660"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"83.0"}],["$","td","td-1",{"children":"Australia"}],["$","td","td-2",{"children":"Asia-Pacific"}],["$","td","td-3",{"children":"53053.0"}],["$","td","td-4",{"children":"26.1"}],["$","td","td-5",{"children":"5.8"}],["$","td","td-6",{"children":"11.021401"}],["$","td","td-7",{"children":"5.244362"}],["$","td","td-8",{"children":"3.825307"}],["$","td","td-9",{"children":"0.526249"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"81.0"}],["$","td","td-1",{"children":"Austria"}],["$","td","td-2",{"children":"EU-27"}],["$","td","td-3",{"children":"55460.0"}],["$","td","td-4",{"children":"9.1"}],["$","td","td-5",{"children":"5.6"}],["$","td","td-6",{"children":"2.893775"}],["$","td","td-7",{"children":"-2.732866"}],["$","td","td-8",{"children":"3.725721"}],["$","td","td-9",{"children":"1.935189"}]]}]]}]]}],"\n"]}]}]]
+2c:["$","h2","h2-3",{"children":"Basic scatter plot"}]
+38:Ta61,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># parameters</span></span>
+<span class="line"><span style="color:#24292E">x_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'biocapacity'</span></span>
+<span class="line"><span style="color:#24292E">y_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'footprint'</span></span>
+<span class="line"><span style="color:#24292E">c </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'earthsRequired'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">500</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span></span>
+<span class="line"><span style="color:#24292E">   df[x_col],</span></span>
+<span class="line"><span style="color:#24292E">   df[y_col],</span></span>
+<span class="line"><span style="color:#E36209">   c</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[c],</span></span>
+<span class="line"><span style="color:#E36209">   s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">150</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">'s'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>2d:["$","$L29","notebook-cell-2",{"index":2,"code":"# parameters\nx_col = 'biocapacity'\ny_col = 'footprint'\nc = 'earthsRequired'\n\nfig, ax = plt.subplots(figsize=(10, 8), dpi=500)\n\nax.scatter(\n   df[x_col],\n   df[y_col],\n   c=df[c],\n   s=150,\n   edgecolor='white',\n   alpha=0.7,\n   marker='s',\n   linewidth=0.4\n)\n\nplt.show()","highlighted":"$38","interactive":false,"hasChart":true,"intro":[["$","p","p-0",{"children":["The core of the chart is simply based on the ",["$","code","code-0",{"children":"scatter()"}]," funtion from ",["$","a","a-0",{"href":"/matplotlib","children":"matplotlib"}],". You can learn more about it in the ",["$","a","a-1",{"href":"/scatter-plot","children":"dedicated section"}]," of the gallery."]}]],"output":"$L39"}]
+2e:["$","h2","h2-4",{"children":"Custom colors"}]
+3a:T55d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> create_gradient_colormap</span><span style="color:#24292E">(colors):</span></span>
+<span class="line"><span style="color:#24292E">   cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> LinearSegmentedColormap.from_list(</span><span style="color:#032F62">"custom_gradient"</span><span style="color:#24292E">, colors, </span><span style="color:#E36209">N</span><span style="color:#D73A49">=</span><span style="color:#005CC5">256</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">   return</span><span style="color:#24292E"> cmap</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'#136f63'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#c1121f'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> create_gradient_colormap(colors)</span></span>
+<span class="line"><span style="color:#24292E">cmap</span></span></code></pre>2f:["$","$L29","notebook-cell-3",{"index":3,"code":"def create_gradient_colormap(colors):\n   cmap = LinearSegmentedColormap.from_list(\"custom_gradient\", colors, N=256)\n   return cmap\n\ncolors = ['#136f63', '#c1121f']\ncmap = create_gradient_colormap(colors)\ncmap","highlighted":"$3a","interactive":false,"hasChart":true,"intro":[["$","p","p-0",{"children":["We first want to create a ",["$","code","code-0",{"children":"cmap"}]," that will be used with the ",["$","code","code-1",{"children":"earthsRequired"}]," column. This column will be used to ",["$","strong","strong-0",{"children":"color the points"}]," of the ",["$","a","a-0",{"href":"/scatter-plot","children":"scatter plot"}],". Thanks to its ",["$","code","code-2",{"children":"LinearSegmentedColormap"}]," class, the ",["$","code","code-3",{"children":"matplotlib.colors"}]," module allows us to ",["$","strong","strong-1",{"children":"create a custom colormap"}],". We can then use it with the ",["$","code","code-4",{"children":"scatter()"}]," function by setting the ",["$","code","code-5",{"children":"c"}]," argument to the column we want to use for the colors."]}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatter-with-customized-annotations/output-3.png","alt":"Scatter plot with custom labels and annotations","width":512,"height":64,"loading":"lazy","decoding":"async"}]}]]}]
+3b:T12f5,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># parameters</span></span>
+<span class="line"><span style="color:#24292E">background_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#333533'</span></span>
+<span class="line"><span style="color:#24292E">text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'white'</span></span>
+<span class="line"><span style="color:#24292E">light_text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#adb5bd'</span></span>
+<span class="line"><span style="color:#24292E">x_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'biocapacity'</span></span>
+<span class="line"><span style="color:#24292E">y_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'footprint'</span></span>
+<span class="line"><span style="color:#24292E">c </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'earthsRequired'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">500</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[[</span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'right'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">].set_color(light_text_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">'left'</span><span style="color:#24292E">].set_color(light_text_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">'x'</span><span style="color:#24292E">, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">light_text_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">'y'</span><span style="color:#24292E">, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">light_text_color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span></span>
+<span class="line"><span style="color:#24292E">   df[x_col],</span></span>
+<span class="line"><span style="color:#24292E">   df[y_col],</span></span>
+<span class="line"><span style="color:#E36209">   c</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[c],</span></span>
+<span class="line"><span style="color:#E36209">   s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">150</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">   edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">'s'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>30:["$","$L29","notebook-cell-4",{"index":4,"code":"# parameters\nbackground_color = '#333533'\ntext_color = 'white'\nlight_text_color = '#adb5bd'\nx_col = 'biocapacity'\ny_col = 'footprint'\nc = 'earthsRequired'\n\nfig, ax = plt.subplots(figsize=(10, 8), dpi=500)\nfig.set_facecolor(background_color)\nax.set_facecolor(background_color)\nax.spines[['top', 'right']].set_visible(False)\nax.spines['bottom'].set_color(light_text_color)\nax.spines['left'].set_color(light_text_color)\nax.tick_params(axis='x', colors=light_text_color)\nax.tick_params(axis='y', colors=light_text_color)\n\nax.scatter(\n   df[x_col],\n   df[y_col],\n   c=df[c],\n   s=150,\n   cmap=cmap,\n   edgecolor='white',\n   alpha=0.7,\n   marker='s',\n   linewidth=0.4\n)\n\nplt.show()","highlighted":"$3b","interactive":false,"hasChart":true,"intro":"$L3c","output":"$L3d"}]
+31:["$","h2","h2-5",{"children":"Title and labels"}]
+3e:Tafb,def create_gradient_colormap(colors):
+   cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+   return cmap
+
+# font
+personal_path = '/Users/josephbarbier/Library/Fonts/'
+font_path = personal_path + 'FiraSans-Light.ttf'
+font = FontProperties(fname=font_path)
+bold_font = FontProperties(fname=personal_path + 'FiraSans-Medium.ttf')
+
+# parameters
+colors = ['#136f63', '#c1121f']
+cmap = create_gradient_colormap(colors)
+background_color = '#333533'
+text_color = 'white'
+light_text_color = '#adb5bd'
+x_col = 'biocapacity'
+y_col = 'footprint'
+c = 'earthsRequired'
+
+fig, ax = plt.subplots(figsize=(10, 8), dpi=500)
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+ax.spines[['top', 'right']].set_visible(False)
+ax.spines['bottom'].set_color(light_text_color)
+ax.spines['left'].set_color(light_text_color)
+ax.tick_params(axis='x', colors=light_text_color)
+ax.tick_params(axis='y', colors=light_text_color)
+
+ax.scatter(
+   df[x_col],
+   df[y_col],
+   c=df[c],
+   s=150,
+   cmap=cmap,
+   edgecolor='white',
+   alpha=0.7,
+   marker='s',
+   linewidth=0.4
+)
+
+# title
+qatar_color = cmap(df.loc[df['country'] == 'Qatar', c].values[0]/df[c].max())
+luxembourg_color = cmap(df.loc[df['country'] == 'Luxembourg', c].values[0]/df[c].max())
+qatar_earths = df.loc[df['country'] == 'Qatar', 'earthsRequired'].values[0]
+luxembourg_earths = df.loc[df['country'] == 'Luxembourg', 'earthsRequired'].values[0]
+text = f"""
+<Qatar> and <Luxembourg> have the highest ecological\n<footprint>, in spite of having one the lowest <biocapacity>
+"""
+fig_text(
+   0.26,
+   0.9,
+   text,
+   fontsize=18,
+   color=text_color,
+   font=font,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font},
+      {'font':bold_font},
+      {'font':bold_font, 'color':colors[1]},
+      {'font':bold_font, 'color':colors[0]}
+   ],
+   ax=ax
+)
+text = f"""
+If everyone lived like Qatar, we would need <{qatar_earths:.1f} Earths> to sustain the world.
+"""
+fig_text(
+   0.26,
+   0.82,
+   text,
+   fontsize=12,
+   color=text_color,
+   font=font,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font}
+   ],
+   ax=ax
+)
+
+# credit and about
+text = """
+Global Ecological Footprint 2023. Footprint and Biocapacity are in global hectares per person.
+<Visualization:> barbierjoseph.com
+"""
+fig_text(
+   0.12,
+   0.05,
+   text,
+   fontsize=7,
+   font=font,
+   color=text_color,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font}
+   ],
+   ax=ax
+)
+
+# label for axis
+fig_text(
+   0.85, 0.08,
+   'Biocapacity'.upper(),
+   fontsize=12,
+   font=bold_font,
+   color=colors[0],
+   ha='center',
+   va='top',
+   ax=ax
+)
+fig_text(
+   0.1, 0.9,
+   'Footprint'.upper(),
+   fontsize=12,
+   font=bold_font,
+   color=colors[1],
+   ha='left',
+   va='center',
+   ax=ax
+)
+
+plt.show()3f:T4f61,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> create_gradient_colormap</span><span style="color:#24292E">(colors):</span></span>
+<span class="line"><span style="color:#24292E">   cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> LinearSegmentedColormap.from_list(</span><span style="color:#032F62">"custom_gradient"</span><span style="color:#24292E">, colors, </span><span style="color:#E36209">N</span><span style="color:#D73A49">=</span><span style="color:#005CC5">256</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">   return</span><span style="color:#24292E"> cmap</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># font</span></span>
+<span class="line"><span style="color:#24292E">personal_path </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '/Users/josephbarbier/Library/Fonts/'</span></span>
+<span class="line"><span style="color:#24292E">font_path </span><span style="color:#D73A49">=</span><span style="color:#24292E"> personal_path </span><span style="color:#D73A49">+</span><span style="color:#032F62"> 'FiraSans-Light.ttf'</span></span>
+<span class="line"><span style="color:#24292E">font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FontProperties(</span><span style="color:#E36209">fname</span><span style="color:#D73A49">=</span><span style="color:#24292E">font_path)</span></span>
+<span class="line"><span style="color:#24292E">bold_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FontProperties(</span><span style="color:#E36209">fname</span><span style="color:#D73A49">=</span><span style="color:#24292E">personal_path </span><span style="color:#D73A49">+</span><span style="color:#032F62"> 'FiraSans-Medium.ttf'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># parameters</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'#136f63'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#c1121f'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> create_gradient_colormap(colors)</span></span>
+<span class="line"><span style="color:#24292E">background_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#333533'</span></span>
+<span class="line"><span style="color:#24292E">text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'white'</span></span>
+<span class="line"><span style="color:#24292E">light_text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#adb5bd'</span></span>
+<span class="line"><span style="color:#24292E">x_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'biocapacity'</span></span>
+<span class="line"><span style="color:#24292E">y_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'footprint'</span></span>
+<span class="line"><span style="color:#24292E">c </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'earthsRequired'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">500</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[[</span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'right'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">].set_color(light_text_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">'left'</span><span style="color:#24292E">].set_color(light_text_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">'x'</span><span style="color:#24292E">, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">light_text_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">'y'</span><span style="color:#24292E">, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">light_text_color)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span></span>
+<span class="line"><span style="color:#24292E">   df[x_col],</span></span>
+<span class="line"><span style="color:#24292E">   df[y_col],</span></span>
+<span class="line"><span style="color:#E36209">   c</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[c],</span></span>
+<span class="line"><span style="color:#E36209">   s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">150</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">   edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">'s'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title</span></span>
+<span class="line"><span style="color:#24292E">qatar_color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> cmap(df.loc[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Qatar'</span><span style="color:#24292E">, c].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span><span style="color:#D73A49">/</span><span style="color:#24292E">df[c].max())</span></span>
+<span class="line"><span style="color:#24292E">luxembourg_color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> cmap(df.loc[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Luxembourg'</span><span style="color:#24292E">, c].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span><span style="color:#D73A49">/</span><span style="color:#24292E">df[c].max())</span></span>
+<span class="line"><span style="color:#24292E">qatar_earths </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.loc[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Qatar'</span><span style="color:#24292E">, </span><span style="color:#032F62">'earthsRequired'</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">luxembourg_earths </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.loc[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Luxembourg'</span><span style="color:#24292E">, </span><span style="color:#032F62">'earthsRequired'</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Qatar> and &#x3C;Luxembourg> have the highest ecological</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;footprint>, in spite of having one the lowest &#x3C;biocapacity></span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">   0.26</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">   0.9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">   text,</span></span>
+<span class="line"><span style="color:#E36209">   fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">18</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">   font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">   ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'top'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font},</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font},</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font, </span><span style="color:#032F62">'color'</span><span style="color:#24292E">:colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]},</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font, </span><span style="color:#032F62">'color'</span><span style="color:#24292E">:colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]}</span></span>
+<span class="line"><span style="color:#24292E">   ],</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#032F62">If everyone lived like Qatar, we would need &#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">qatar_earths</span><span style="color:#D73A49">:.1f</span><span style="color:#005CC5">}</span><span style="color:#032F62"> Earths> to sustain the world.</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">   0.26</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">   0.82</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">   text,</span></span>
+<span class="line"><span style="color:#E36209">   fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">   font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">   ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'top'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font}</span></span>
+<span class="line"><span style="color:#24292E">   ],</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># credit and about</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">Global Ecological Footprint 2023. Footprint and Biocapacity are in global hectares per person.</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Visualization:> barbierjoseph.com</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">   0.12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">   0.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">   text,</span></span>
+<span class="line"><span style="color:#E36209">   fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">   color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">   ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'top'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font}</span></span>
+<span class="line"><span style="color:#24292E">   ],</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># label for axis</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">   0.85</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.08</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">   'Biocapacity'</span><span style="color:#24292E">.upper(),</span></span>
+<span class="line"><span style="color:#E36209">   fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   font</span><span style="color:#D73A49">=</span><span style="color:#24292E">bold_font,</span></span>
+<span class="line"><span style="color:#E36209">   color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">   ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'top'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">   0.1</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">   'Footprint'</span><span style="color:#24292E">.upper(),</span></span>
+<span class="line"><span style="color:#E36209">   fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   font</span><span style="color:#D73A49">=</span><span style="color:#24292E">bold_font,</span></span>
+<span class="line"><span style="color:#E36209">   color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">   ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>32:["$","$L29","notebook-cell-5",{"index":5,"code":"$3e","highlighted":"$3f","interactive":false,"hasChart":true,"intro":"$L40","output":"$L41"}]
+33:["$","h2","h2-6",{"children":"Highlight specific countries"}]
+42:Tefd,def create_gradient_colormap(colors):
+   cmap = LinearSegmentedColormap.from_list("custom_gradient", colors, N=256)
+   return cmap
+
+# parameters
+colors = ['#136f63', '#db3a34']
+colors = ['#136f63', '#c1121f']
+cmap = create_gradient_colormap(colors)
+background_color = '#333533'
+text_color = 'white'
+light_text_color = '#adb5bd'
+countries_to_annote = [
+   'Australia', 'Bolivia', 'Canada',
+   'Gabon', 'Brazil', 'Argentina',
+   'Estonia', 'Luxembourg', 'Qatar',
+   'United States of America',
+   'Lithuania', 'Russian Federation',
+]
+x_col = 'biocapacity'
+y_col = 'footprint'
+c = 'earthsRequired'
+
+# font
+personal_path = '/Users/josephbarbier/Library/Fonts/'
+font_path = personal_path + 'FiraSans-Light.ttf'
+font = FontProperties(fname=font_path)
+bold_font = FontProperties(fname=personal_path + 'FiraSans-Medium.ttf')
+
+fig, ax = plt.subplots(figsize=(10, 8), dpi=500)
+fig.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+ax.spines[['top', 'right']].set_visible(False)
+ax.spines['bottom'].set_color(light_text_color)
+ax.spines['left'].set_color(light_text_color)
+ax.tick_params(axis='x', colors=light_text_color)
+ax.tick_params(axis='y', colors=light_text_color)
+ax.set_xticks([0, 5, 10, 15])
+ax.set_yticks([0, 5, 10, 15])
+ax.set_xlim(0, 18)
+ax.set_ylim(0, 16)
+
+scatter = ax.scatter(
+   df[x_col],
+   df[y_col],
+   c=df[c],
+   s=150,
+   cmap=cmap,
+   edgecolor='white',
+   alpha=0.7,
+   marker='s',
+   linewidth=0.4
+)
+
+labels = []
+for country in countries_to_annote:
+   x = df.loc[df['country'] == country, x_col].values[0]
+   y = df.loc[df['country'] == country, y_col].values[0]
+   color = text_color
+   if country == 'United States of America':
+      country = 'USA'
+   text = ax.text(
+      x-0.11,
+      y+0.8,
+      country.upper(),
+      fontsize=8,
+      font=bold_font,
+      color=color,
+      alpha=0.5,
+      ha='left',
+      va='top',
+      zorder=10,
+      bbox=dict(facecolor='grey', edgecolor='none', alpha=0.2)
+   )
+   labels.append(text)
+
+adjust_text(
+   labels,
+   ax=ax
+)
+
+# title
+qatar_color = cmap(df.loc[df['country'] == 'Qatar', c].values[0]/df[c].max())
+luxembourg_color = cmap(df.loc[df['country'] == 'Luxembourg', c].values[0]/df[c].max())
+qatar_earths = df.loc[df['country'] == 'Qatar', 'earthsRequired'].values[0]
+luxembourg_earths = df.loc[df['country'] == 'Luxembourg', 'earthsRequired'].values[0]
+text = f"""
+<Qatar> and <Luxembourg> have the highest ecological\n<footprint>, in spite of having one the lowest <biocapacity>
+"""
+fig_text(
+   0.26,
+   0.9,
+   text,
+   fontsize=18,
+   color=text_color,
+   font=font,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font},
+      {'font':bold_font},
+      {'font':bold_font, 'color':colors[1]},
+      {'font':bold_font, 'color':colors[0]}
+   ],
+   ax=ax
+)
+text = f"""
+If everyone lived like Qatar, we would need <{qatar_earths:.1f} Earths> to sustain the world.
+"""
+fig_text(
+   0.26,
+   0.82,
+   text,
+   fontsize=12,
+   color=text_color,
+   font=font,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font}
+   ],
+   ax=ax
+)
+
+# credit and about
+text = """
+Global Ecological Footprint 2023. Footprint and Biocapacity are in global hectares per person.
+<Visualization:> barbierjoseph.com
+"""
+fig_text(
+   0.12,
+   0.05,
+   text,
+   fontsize=7,
+   font=font,
+   color=text_color,
+   ha='left',
+   va='top',
+   highlight_textprops=[
+      {'font':bold_font}
+   ],
+   ax=ax
+)
+
+# label for axis
+fig_text(
+   0.85, 0.08,
+   'Biocapacity'.upper(),
+   fontsize=12,
+   font=bold_font,
+   color=colors[0],
+   ha='center',
+   va='top',
+   ax=ax
+)
+fig_text(
+   0.1, 0.9,
+   'Footprint'.upper(),
+   fontsize=12,
+   font=bold_font,
+   color=colors[1],
+   ha='left',
+   va='center',
+   ax=ax
+)
+
+plt.savefig('../../static/graph/web-scatter-with-customized-annotations.png', bbox_inches='tight', dpi=500)
+plt.show()43:T6f3d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> create_gradient_colormap</span><span style="color:#24292E">(colors):</span></span>
+<span class="line"><span style="color:#24292E">   cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> LinearSegmentedColormap.from_list(</span><span style="color:#032F62">"custom_gradient"</span><span style="color:#24292E">, colors, </span><span style="color:#E36209">N</span><span style="color:#D73A49">=</span><span style="color:#005CC5">256</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">   return</span><span style="color:#24292E"> cmap</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># parameters</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'#136f63'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#db3a34'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'#136f63'</span><span style="color:#24292E">, </span><span style="color:#032F62">'#c1121f'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> create_gradient_colormap(colors)</span></span>
+<span class="line"><span style="color:#24292E">background_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#333533'</span></span>
+<span class="line"><span style="color:#24292E">text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'white'</span></span>
+<span class="line"><span style="color:#24292E">light_text_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '#adb5bd'</span></span>
+<span class="line"><span style="color:#24292E">countries_to_annote </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">   'Australia'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Bolivia'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Canada'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">   'Gabon'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Brazil'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Argentina'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">   'Estonia'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Luxembourg'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Qatar'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">   'United States of America'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">   'Lithuania'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Russian Federation'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">x_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'biocapacity'</span></span>
+<span class="line"><span style="color:#24292E">y_col </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'footprint'</span></span>
+<span class="line"><span style="color:#24292E">c </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'earthsRequired'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># font</span></span>
+<span class="line"><span style="color:#24292E">personal_path </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '/Users/josephbarbier/Library/Fonts/'</span></span>
+<span class="line"><span style="color:#24292E">font_path </span><span style="color:#D73A49">=</span><span style="color:#24292E"> personal_path </span><span style="color:#D73A49">+</span><span style="color:#032F62"> 'FiraSans-Light.ttf'</span></span>
+<span class="line"><span style="color:#24292E">font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FontProperties(</span><span style="color:#E36209">fname</span><span style="color:#D73A49">=</span><span style="color:#24292E">font_path)</span></span>
+<span class="line"><span style="color:#24292E">bold_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FontProperties(</span><span style="color:#E36209">fname</span><span style="color:#D73A49">=</span><span style="color:#24292E">personal_path </span><span style="color:#D73A49">+</span><span style="color:#032F62"> 'FiraSans-Medium.ttf'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">500</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[[</span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'right'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">].set_color(light_text_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">'left'</span><span style="color:#24292E">].set_color(light_text_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">'x'</span><span style="color:#24292E">, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">light_text_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">'y'</span><span style="color:#24292E">, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">light_text_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks([</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">15</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">15</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">18</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">16</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">scatter </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.scatter(</span></span>
+<span class="line"><span style="color:#24292E">   df[x_col],</span></span>
+<span class="line"><span style="color:#24292E">   df[y_col],</span></span>
+<span class="line"><span style="color:#E36209">   c</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[c],</span></span>
+<span class="line"><span style="color:#E36209">   s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">150</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">   edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">'s'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> []</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> country </span><span style="color:#D73A49">in</span><span style="color:#24292E"> countries_to_annote:</span></span>
+<span class="line"><span style="color:#24292E">   x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.loc[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country, x_col].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">   y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.loc[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country, y_col].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">   color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> text_color</span></span>
+<span class="line"><span style="color:#D73A49">   if</span><span style="color:#24292E"> country </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'United States of America'</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">      country </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'USA'</span></span>
+<span class="line"><span style="color:#24292E">   text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> ax.text(</span></span>
+<span class="line"><span style="color:#24292E">      x</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.11</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">      y</span><span style="color:#D73A49">+</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">      country.upper(),</span></span>
+<span class="line"><span style="color:#E36209">      fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">      font</span><span style="color:#D73A49">=</span><span style="color:#24292E">bold_font,</span></span>
+<span class="line"><span style="color:#E36209">      color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">      alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">      ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">      va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'top'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">      zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">      bbox</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span><span style="color:#E36209">facecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'grey'</span><span style="color:#24292E">, </span><span style="color:#E36209">edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'none'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">   )</span></span>
+<span class="line"><span style="color:#24292E">   labels.append(text)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">adjust_text(</span></span>
+<span class="line"><span style="color:#24292E">   labels,</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title</span></span>
+<span class="line"><span style="color:#24292E">qatar_color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> cmap(df.loc[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Qatar'</span><span style="color:#24292E">, c].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span><span style="color:#D73A49">/</span><span style="color:#24292E">df[c].max())</span></span>
+<span class="line"><span style="color:#24292E">luxembourg_color </span><span style="color:#D73A49">=</span><span style="color:#24292E"> cmap(df.loc[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Luxembourg'</span><span style="color:#24292E">, c].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span><span style="color:#D73A49">/</span><span style="color:#24292E">df[c].max())</span></span>
+<span class="line"><span style="color:#24292E">qatar_earths </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.loc[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Qatar'</span><span style="color:#24292E">, </span><span style="color:#032F62">'earthsRequired'</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">luxembourg_earths </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.loc[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> 'Luxembourg'</span><span style="color:#24292E">, </span><span style="color:#032F62">'earthsRequired'</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Qatar> and &#x3C;Luxembourg> have the highest ecological</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;footprint>, in spite of having one the lowest &#x3C;biocapacity></span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">   0.26</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">   0.9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">   text,</span></span>
+<span class="line"><span style="color:#E36209">   fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">18</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">   font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">   ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'top'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font},</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font},</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font, </span><span style="color:#032F62">'color'</span><span style="color:#24292E">:colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">]},</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font, </span><span style="color:#032F62">'color'</span><span style="color:#24292E">:colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]}</span></span>
+<span class="line"><span style="color:#24292E">   ],</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#032F62">If everyone lived like Qatar, we would need &#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">qatar_earths</span><span style="color:#D73A49">:.1f</span><span style="color:#005CC5">}</span><span style="color:#032F62"> Earths> to sustain the world.</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">   0.26</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">   0.82</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">   text,</span></span>
+<span class="line"><span style="color:#E36209">   fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">   font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">   ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'top'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font}</span></span>
+<span class="line"><span style="color:#24292E">   ],</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># credit and about</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">Global Ecological Footprint 2023. Footprint and Biocapacity are in global hectares per person.</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Visualization:> barbierjoseph.com</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">   0.12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">   0.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">   text,</span></span>
+<span class="line"><span style="color:#E36209">   fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">   color</span><span style="color:#D73A49">=</span><span style="color:#24292E">text_color,</span></span>
+<span class="line"><span style="color:#E36209">   ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'top'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">      {</span><span style="color:#032F62">'font'</span><span style="color:#24292E">:bold_font}</span></span>
+<span class="line"><span style="color:#24292E">   ],</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># label for axis</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">   0.85</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.08</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">   'Biocapacity'</span><span style="color:#24292E">.upper(),</span></span>
+<span class="line"><span style="color:#E36209">   fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   font</span><span style="color:#D73A49">=</span><span style="color:#24292E">bold_font,</span></span>
+<span class="line"><span style="color:#E36209">   color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">   ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'top'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">   0.1</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">   'Footprint'</span><span style="color:#24292E">.upper(),</span></span>
+<span class="line"><span style="color:#E36209">   fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   font</span><span style="color:#D73A49">=</span><span style="color:#24292E">bold_font,</span></span>
+<span class="line"><span style="color:#E36209">   color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">   ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">   ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span><span style="color:#032F62">'../../static/graph/web-scatter-with-customized-annotations.png'</span><span style="color:#24292E">, </span><span style="color:#E36209">bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">'tight'</span><span style="color:#24292E">, </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">500</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>34:["$","$L29","notebook-cell-6",{"index":6,"code":"$42","highlighted":"$43","interactive":false,"hasChart":true,"intro":"$L44","output":"$L45"}]
+35:["$","h2","h2-7",{"children":"Going further"}]
+36:["$","p","p-6",{"children":"You might be interested in:"}]
+37:["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["creating a ",["$","a","a-0",{"href":"/web-bubble-plot-with-annotations-and-custom-features","children":"bubble plot"}]," with specific highlight and difference marker size"]}],"\n",["$","li","li-1",{"children":["a scatter plot where ",["$","a","a-0",{"href":"/web-scatterplot-with-images-in-circles","children":"dots are images"}]]}],"\n",["$","li","li-2",{"children":["adding a ",["$","a","a-0",{"href":"/556-visualize-linear-regression","children":"regression line"}]," to the scatter plot"]}],"\n"]}]
+39:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatter-with-customized-annotations/output-2.png","alt":"Scatter plot with custom labels and annotations","width":4111,"height":3295,"loading":"lazy","decoding":"async"}]}]]
+3c:[["$","p","p-0",{"children":["Once we have our colormap, we define other colors that will be used for the ",["$","strong","strong-0",{"children":"annotations"}]," and the ",["$","strong","strong-1",{"children":"spines"}]," of the plot."]}]]
+3d:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatter-with-customized-annotations/output-4.png","alt":"Scatter plot with custom labels and annotations","width":4111,"height":3295,"loading":"lazy","decoding":"async"}]}]]
+40:[["$","p","p-0",{"children":["Now that we have the main components of the plot, we can add simple annotations. This mainly relies on the ",["$","code","code-0",{"children":"fig_text()"}]," from the ",["$","code","code-1",{"children":"highlight_text"}]," package. You can ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"learn more about it"}]," in the gallery."]}]]
+41:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatter-with-customized-annotations/output-5.png","alt":"Scatter plot with custom labels and annotations","width":4151,"height":3773,"loading":"lazy","decoding":"async"}]}]]
+44:[["$","p","p-0",{"children":["Now, in order to add a bit of ",["$","strong","strong-0",{"children":"storytelling"}]," to the plot, we can highlight specific countries. This is done by adding a ",["$","strong","strong-1",{"children":"label"}]," next to the point of interest."]}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":["We start by defining a ",["$","strong","strong-0",{"children":"list of countries"}]," that we want to highlight. We then ",["$","strong","strong-1",{"children":"loop over this list"}]," and add an annotation to the plot for each country."]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":["The ",["$","code","code-0",{"children":"ax.text()"}]," function is used to add the annotation. We can specify the position of the annotation with the ",["$","code","code-1",{"children":"x"}]," and ",["$","code","code-2",{"children":"y"}]," arguments and the text with the ",["$","code","code-3",{"children":"text"}]," argument."]}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":["Then, thanks to the ",["$","code","code-0",{"children":"box"}]," argument, we can add a ",["$","strong","strong-0",{"children":"box around the annotation"}],". For example:"]}],"\n"]}],"\n"]}],["$","p","p-1",{"children":[["$","code","code-0",{"children":"bbox=dict(facecolor='grey', edgecolor='none', alpha=0.2)"}]," will create a grey box with a 0.2 transparency around the annotation."]}]]
+45:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-scatter-with-customized-annotations/output-6.png","alt":"Scatter plot with custom labels and annotations","width":4151,"height":3773,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

@@ -1,0 +1,731 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/09q85_ay6xdo0.js"
+3:"/_next/static/chunks/21dxsc4p3jeoz.js"
+4:"/_next/static/chunks/1d1qeiuriwpmz.js"
+5:"/_next/static/chunks/1u5pxdefkf32d.js"
+6:I[62319,["$2","$3","$4","$5"],"default"]
+7:I[39756,["$2","$3","$4","$5"],"default"]
+8:I[37457,["$2","$3","$4","$5"],"default"]
+9:"/_next/static/chunks/354p-aqxaih3m.js"
+a:I[22016,["$2","$3","$4","$5","$9"],""]
+b:I[44110,["$2","$3","$4","$5","$9"],"default"]
+19:I[68027,["$2","$3","$4","$5"],"default",1]
+:HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
+:HL["/_next/static/chunks/1ms0qnrh2aktb.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":{"n":"slug","t":"d","k":"web-time-series-and-facetting-with-matplotlib","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":66048,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","web-time-series-and-facetting-with-matplotlib",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/09q85_ay6xdo0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/21dxsc4p3jeoz.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1d1qeiuriwpmz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1u5pxdefkf32d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"JdxiwG_variable iGg3zq_variable antialiased","children":[["$","head",null,{"children":["$","link",null,{"rel":"sitemap","type":"application/xml","href":"/sitemap-index.xml"}]}],["$","body",null,{"children":[["$","$L6",null,{}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":[["$","h2",null,{"id":"404","children":" 😞 Oh No 😞 | 404"}],["$","p",null,{"children":"It looks like there is nothing here anymore."}],["$","p",null,{"children":["Please go back to the ",["$","$La",null,{"href":"/","children":"gallery home page"}]," and check if you can find your graph!"]}]]}],["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}],["$","div",null,{"className":"h-16 sm:h-20"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-24 border-t py-8 text-sm text-muted-foreground","children":["$","div",null,{"className":"mx-auto max-w-5xl px-5","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-4 sm:flex-row","children":[["$","div",null,{"children":["Copyright © the Python Graph Gallery ",2026]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","a","https://github.com/holtzy",{"href":"https://github.com/holtzy","aria-label":"Link to Yan Holtz Github profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 496 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"$c"}]}]}],"$Ld","$Le","$Lf"]}],"$L10"]}]}]}],"$L11","$L12"]}]]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",["$L1a","$L1b"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+1c:I[79520,["$2","$3","$4","$5"],""]
+1e:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:"ViewportBoundary"
+22:I[97367,["$2","$3","$4","$5"],"$21"]
+24:"MetadataBoundary"
+25:I[97367,["$2","$3","$4","$5"],"$24"]
+d:["$","a","https://twitter.com/R_Graph_Gallery",{"href":"https://twitter.com/R_Graph_Gallery","aria-label":"Link to Yan Holtz Twitter profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 512 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}]}]}]
+e:["$","a","https://www.linkedin.com/in/yan-holtz-2477534a/",{"href":"https://www.linkedin.com/in/yan-holtz-2477534a/","aria-label":"Link to Yan Holtz LinkedIn profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 448 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"}]}]}]
+f:["$","a","https://www.yan-holtz.com",{"href":"https://www.yan-holtz.com","aria-label":"Link to Yan Holtz Homepage","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 576 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"}]}]}]
+10:["$","div",null,{"className":"flex gap-2","children":[["$","a",null,{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE","className":"hover:text-foreground","children":"License"}],["$","span",null,{"children":"|"}],["$","$La",null,{"href":"/about","className":"hover:text-foreground","children":"About"}]]}]
+11:["$","$L1c",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-YJ2YPBMD3W","strategy":"afterInteractive"}]
+12:["$","$L1c",null,{"id":"gtag-init","strategy":"afterInteractive","children":"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YJ2YPBMD3W');"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L26"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+15:C
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]
+27:I[27201,["$2","$3","$4","$5"],"IconMark"]
+20:null
+26:[["$","title","0",{"children":"Time series with filled area and custom facetting in Matplotlib"}],["$","meta","1",{"name":"description","content":"This post explains how to build multiple lineplots with filled areas with a customized layout to explore the evolution of animal rescues across different boroughs in London. Step by step code snippets with explanations are provided."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, matplotlib, lineplots, timeseries, areafill, custom, layout"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-time-series-and-facetting-with-matplotlib/"}],["$","meta","6",{"property":"og:title","content":"Time series with filled area and custom facetting in Matplotlib"}],["$","meta","7",{"property":"og:description","content":"This post explains how to build multiple lineplots with filled areas with a customized layout to explore the evolution of animal rescues across different boroughs in London. Step by step code snippets with explanations are provided."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Time series with filled area and custom facetting in Matplotlib"}],["$","meta","13",{"name":"twitter:description","content":"This post explains how to build multiple lineplots with filled areas with a customized layout to explore the evolution of animal rescues across different boroughs in London. Step by step code snippets with explanations are provided."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L27","24",{}]]
+28:I[98936,["$2","$3","$4","$5","$9"],"default"]
+29:T42b,# Initialize figure and axis
+fig, ax = plt.subplots(figsize=(8, 5))
+
+# Let's say we select the borough named "Enfield" 
+df = rescues_borough[rescues_borough["name"] == "Enfield"]
+
+# YEAR represents the x-axis
+YEAR = df["cal_year"].values
+# There are two variables for the y-axis:
+# the count for the cat rescues, and the count for non-cat rescues.
+CAT = df["Cat"].values
+NOT_CAT = df["Not_Cat"].values
+
+# Add lines
+ax.plot(YEAR, CAT, color=BLUE)
+ax.plot(YEAR, NOT_CAT, color=PINK)
+
+# Add fill between the two lines.
+# Two `fill_between` calls are needed to have two different colors.
+# First, a fill when CAT is larger than NOT_CAT
+ax.fill_between(
+    YEAR, CAT, NOT_CAT, where=(CAT > NOT_CAT), 
+    interpolate=True, color=BLUE_LIGHT, alpha=0.3
+)
+
+# Then, a fill when CAT is not larger than NOT_CAT
+ax.fill_between(
+    YEAR, CAT, NOT_CAT, where=(CAT <= NOT_CAT),
+    interpolate=True, color=PINK_LIGHT, alpha=0.3
+);
+
+# Note:
+# Setting `interpolate` to `True` calculates the intersection point
+# between the two lines and extends the filled region up to this point.2a:T4ef,# Change the background color of both the axis and the figure
+ax.set_facecolor(BACKGROUND)
+fig.set_facecolor(BACKGROUND)
+
+# Customize x-axis ticks 
+# Note there are both major and minor ticks.
+xticks = [2010, 2015, 2020]
+ax.set_xticks(xticks) # major ticks
+ax.set_xticks([2012.5, 2017.5], minor=True)
+# Set a grey color for the labels
+ax.set_xticklabels(xticks, color=GREY40)
+
+# Customize y-axis ticks. 
+# Also uses both minor and major ticks
+yticks = [0, 10, 20]
+ax.set_yticks(yticks)
+ax.set_yticks([5, 15, 25], minor=True)
+ax.set_yticklabels(yticks, color=GREY40)
+# Also set a slightly larger range for the y-axis limit.
+ax.set_ylim((-1, 26))
+
+# Add grid lines.
+# Note minor and major lines have different styles applied.
+ax.grid(which="minor", lw=0.4, alpha=0.4)
+ax.grid(which="major", lw=0.8, alpha=0.4)
+
+# Remove tick marks by setting their length to zero on both axis.
+ax.yaxis.set_tick_params(which="both", length=0)
+ax.xaxis.set_tick_params(which="both", length=0)
+
+# Remove all the spines by setting their color to "none"
+ax.spines["left"].set_color("none")
+ax.spines["bottom"].set_color("none")
+ax.spines["right"].set_color("none")
+ax.spines["top"].set_color("none")
+
+# And finally add the title
+ax.set_title("Enfield", weight="bold", color=GREY20)
+
+fig2b:T60c,## Here's a summary of the meaning of the arguments in the function
+# x: array of values for the year
+# y1: array of values for the number of cat rescues
+# y2: array of values for the number of non-cat rescues
+# name: name of the borough
+# ax: the Matplotlib axis where to plot
+
+def single_plot(x, y1, y2, name, ax):
+    
+    ax.plot(x, y1, color=BLUE)
+    ax.plot(x, y2, color=PINK)
+
+    ax.fill_between(
+        x, y1, y2, where=(y1 > y2), 
+        interpolate=True, color=BLUE_LIGHT, alpha=0.3
+    )
+
+    ax.fill_between(
+        x, y1, y2, where=(y1 <= y2),
+        interpolate=True, color=PINK_LIGHT, alpha=0.3
+    );
+
+    ax.set_facecolor(BACKGROUND)
+    fig.set_facecolor(BACKGROUND)
+
+
+    xticks = [2010, 2015, 2020]
+    ax.set_xticks(xticks)
+    ax.set_xticks([2012.5, 2017.5], minor=True)
+    # added a 'size' argument
+    ax.set_xticklabels(xticks, color=GREY40, size=10)
+
+    yticks = [0, 10, 20]
+    ax.set_yticks(yticks)
+    ax.set_yticks([5, 15, 25], minor=True)
+    # added a 'size' argument
+    ax.set_yticklabels(yticks, color=GREY40, size=10)
+    ax.set_ylim((-1, 26))
+
+    ax.grid(which="minor", lw=0.4, alpha=0.4)
+    ax.grid(which="major", lw=0.8, alpha=0.4)
+    
+    ax.yaxis.set_tick_params(which="both", length=0)
+    ax.xaxis.set_tick_params(which="both", length=0)
+    
+    ax.spines["left"].set_color("none")
+    ax.spines["bottom"].set_color("none")
+    ax.spines["right"].set_color("none")
+    ax.spines["top"].set_color("none")
+    # added a 'size' argument
+    ax.set_title(name, weight="bold", size=9, color=GREY20)2c:T74e,# Create handles for lines.
+handles = [
+    Line2D([], [], c=color, lw=1.2, label=label)
+    for label, color in zip(["cats", "other"], [BLUE, PINK])
+]
+
+# Add legend for the lines
+fig.legend(
+    handles=handles,
+    loc=(0.75, 0.94), # This coord is bottom-left corner
+    ncol=2,           # 1 row, 2 columns layout
+    columnspacing=1,  # Space between columns
+    handlelength=1.2, # Line length
+    frameon=False     # No frame
+)
+
+
+# Create handles for the area fill with `patches.Patch()`
+cats = patches.Patch(facecolor=BLUE_LIGHT, alpha=0.3, label="more cats")
+other = patches.Patch(facecolor=PINK_LIGHT, alpha=0.3, label="more other")
+
+fig.legend(
+    handles=[cats, other],
+    loc=(0.75, 0.9), # This coord is bottom-left corner
+    ncol=2,          # 1 row, 2 columns layout
+    columnspacing=1, # Space between columns
+    handlelength=2,  # Area length
+    handleheight=2,  # Area height
+    frameon=False,   # No frame
+)
+
+# Title
+# Note the horizontal alignment, vertical alignment and multiline alignment values.
+# They are not casual!
+fig.text(
+    x=0.05, y=0.975, s="Rescues of\ncats vs other animals by\nthe London fire brigade\n2009-2020",
+    color=GREY25, fontsize=26, fontfamily="KyivType Sans", fontweight="bold",
+    ha="left", # 'x' is the left limit of the title
+    va="top",  # 'y' is the top limit of the title
+    ma="left"  # multiple lines are aligned to the left
+)
+
+# Add caption
+fig.text(
+    x=0.95, y=0.025, s="Source: London.gov · Graphic: Georgios Karamanis", 
+    fontsize=11, 
+    ha="right",   # 'x' is the right location of the caption
+    va="baseline" # 'y' is the base location of the caption
+)
+
+# Last but not least, customize the margin and space within subplots
+fig.subplots_adjust(left=0.05, right=0.95, bottom=0.05, top=0.95, hspace=0.3, wspace=0.08)
+fig
+
+#fig.savefig("plot.png", dpi=320) # to save it in high quality1d:[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Time series with filled area and custom facetting in Matplotlib"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/section/time150.gif","alt":"logo of a chart:time","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>Multiple lineplots with filled areas with a customized layout to explore the evolution of animal rescues across different boroughs in London made with <code>Python</code> and <code>Matplotlib</code>. This blogpost guides you step-by-step through the construction of all the components of beautiful-looking lineplots with filled areas and how to put them into an unusual but creative layout.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$La",null,{"href":"/timeseries/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Timeseries section"}],["$","a",null,{"href":"https://www.data-to-viz.com","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],["$","article",null,{"className":"wrapper post-content","children":["$","$L28",null,{"cells":["import matplotlib.patches as patches # for the legend\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\n\nfrom matplotlib.lines import Line2D # for the legend","plt.rcParams.update({\"font.family\": \"Fira Sans Compressed\"})","# Read data\nanimal_rescues = pd.read_csv(\"https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-06-29/animal_rescues.csv\")\n\n# Capitalize the type of animal\nanimal_rescues[\"animal_group_parent\"] = animal_rescues[\"animal_group_parent\"].str.capitalize()\n\n# Explore first observations\nanimal_rescues.head()","gb_london_boroughs_grid = pd.read_csv(\"https://raw.githubusercontent.com/hafen/grid-designer/master/grids/gb_london_boroughs_grid.csv\")\n\nborough_names = gb_london_boroughs_grid.rename(columns={\"code_ons\": \"borough_code\"})\nborough_names.head()","# Keep rescues that happeend before 2021\nrescues_borough = animal_rescues.query(\"cal_year < 2021\").reset_index()\n\n# We're interested on whether it is a Cat or another type of animal.\nrescues_borough[\"animal_group_parent\"] = np.where(\n    rescues_borough[\"animal_group_parent\"] == \"Cat\", \"Cat\", \"Not_Cat\"\n)\n\n# Count the number of rescues per year, borough, and type fo animal\nrescues_borough = (\n    rescues_borough.groupby([\"cal_year\", \"borough_code\", \"animal_group_parent\"])\n    .size()\n    .to_frame(\"n\")\n    .reset_index()\n)\n\n# Make the dataset wider. \n# There is one column for the number of cat rescues, and\n# another column for the number of other animal rescues\nrescues_borough = rescues_borough.pivot(\n    index=[\"cal_year\", \"borough_code\"], \n    columns=\"animal_group_parent\", \n    values=\"n\"\n).reset_index()\n\n# Merge the data with the info about the grid layout\nrescues_borough = pd.merge(rescues_borough, borough_names, how=\"left\", on=\"borough_code\")\nrescues_borough = rescues_borough.dropna(subset=[\"name\"])","rescues_borough[\"row\"] -= 1\nrescues_borough[\"col\"] -= 1","df_idxs = rescues_borough[[\"row\", \"col\", \"name\"]].drop_duplicates()\nNAMES = df_idxs[\"name\"].values\nROWS = df_idxs[\"row\"].values.astype(int)\nCOLS = df_idxs[\"col\"].values.astype(int)","print(f\"Borough: {NAMES[0]}, row: {ROWS[0]}, col: {COLS[0]}\")","BLUE = \"#3D85F7\"\nBLUE_LIGHT = \"#5490FF\"\nPINK = \"#C32E5A\"\nPINK_LIGHT = \"#D34068\"\nGREY40 = \"#666666\"\nGREY25 = \"#404040\"\nGREY20 = \"#333333\"\nBACKGROUND = \"#F5F4EF\"","$29","$2a","$2b","NROW = len(rescues_borough[\"row\"].unique())\nNCOL = len(rescues_borough[\"col\"].unique())","fig, axes = plt.subplots(NROW, NCOL, figsize=(12, 10), sharex=True, sharey=True)\n\nfor i, name in enumerate(NAMES):\n    # Select data for the borough in 'name'\n    df = rescues_borough[rescues_borough[\"name\"] == name]\n    \n    # Take axis out of the axes array\n    ax = axes[ROWS[i], COLS[i]]\n    \n    # Take values for x, y1 and y2.\n    YEAR = df[\"cal_year\"].values\n    CAT = df[\"Cat\"].values\n    NOT_CAT = df[\"Not_Cat\"].values\n    \n    # Plot it!\n    single_plot(YEAR, CAT, NOT_CAT, name, ax)","# Itereate trough rows\nfor i in range(7):\n    # Iterate through columns\n    for j in range(8):\n        # Since we've added lines, we can check whether the plot is not empty by\n        # checking whether the axis contains lines.\n        # If it contains lines, we continue looping without removing the axis.\n        if axes[i, j].lines:\n            continue\n        # If it does not contain lines, remove it!\n        else:\n            axes[i, j].remove()\nfig","# Go through panels in a rowwise manner, from left to right.\nfor i in range(7):\n    first_in_row = True\n    for j in range(8):\n        # Enable tick labels in the first panel in the row that is not empty.\n        if first_in_row and axes[i, j].lines:\n            axes[i, j].yaxis.set_tick_params(labelleft=True)\n            first_in_row = False\n\n\n# Go through panels in a columnwise manner, from bottom to top.\nfor j in range(8):\n    first_in_col = True\n    for i in reversed(range(7)): # note the 'reversed()'\n        # Enable tick labels in the first panel in the column that is not empty.\n        if first_in_col and axes[i, j].lines:\n            axes[i, j].xaxis.set_tick_params(labelbottom=True)\n            first_in_col = False\n\nfig","$2c"],"children":"$L2d"}]}],"$L2e","$L2f","$L30","$L31","$L32"]
+33:I[68978,["$2","$3","$4","$5","$9"],"default"]
+59:I[59351,["$2","$3","$4","$5","$9"],"default"]
+34:T4bc,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">as</span><span style="color:#24292E"> patches </span><span style="color:#6A737D"># for the legend</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.lines </span><span style="color:#D73A49">import</span><span style="color:#24292E"> Line2D </span><span style="color:#6A737D"># for the legend</span></span></code></pre>2d:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This page showcases the work of ",["$","a","a-0",{"href":"https://karaman.is","children":"Georgios Karamanis"}],",\nbuilt for the ",["$","a","a-1",{"href":"https://github.com/rfordatascience/tidytuesday","children":"TidyTuesday"}],"\ninitiative. You can find the original code on his github repository\n",["$","a","a-2",{"href":"https://github.com/gkaramanis/tidytuesday/blob/master/2021/2021-week26/animal-rescues.R","children":"here"}],", written in ",["$","a","a-3",{"href":"https://www.r-graph-gallery.com","children":"R"}],"."]}],"\n",["$","p","p-1",{"children":["Thanks to him for accepting sharing his work here! Thanks also to ",["$","a","a-0",{"href":"https://tomicapretto.github.io/","children":"Tomás Capretto"}]," who translated this work from R to Python! 🙏🙏"]}],"\n",["$","p","p-2",{"children":"As a teaser, here is the plot we’re gonna try building:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-time-series-and-facetting-with-matplotlib-square.png?raw=true","alt":"preview final chart","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Load libraries"}],"\n",["$","p","p-4",{"children":"Let's load libraries and utilities that are going to be used today."}],"\n",["$","$L33","notebook-cell-0",{"index":0,"code":"import matplotlib.patches as patches # for the legend\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\n\nfrom matplotlib.lines import Line2D # for the legend","highlighted":"$34","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n",["$","p","p-5",{"children":["The following sets the default font to ",["$","code","code-0",{"children":"\"Fira Sans Compressed\""}],". This post also makes use of the font ",["$","code","code-1",{"children":"\"KyivType Sans\""}]," later. For a step-by-step guide on how to install and load custom fonts in Matplotlib, have a look at ",["$","a","a-0",{"href":"https://python-graph-gallery.com/custom-fonts-in-matplotlib","children":"this post"}],"."]}],"\n",["$","$L33","notebook-cell-1",{"index":1,"code":"plt.rcParams.update({\"font.family\": \"Fira Sans Compressed\"})","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">plt.rcParams.update({</span><span style=\"color:#032F62\">\"font.family\"</span><span style=\"color:#24292E\">: </span><span style=\"color:#032F62\">\"Fira Sans Compressed\"</span><span style=\"color:#24292E\">})</span></span></code></pre>","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","$L47","\n","$L48","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","$L51","\n","$L52","\n","$L53","$L54","$L55","\n","$L56","\n","$L57","$L58"]
+2e:["$","div",null,{"className":"h-16 sm:h-20"}]
+2f:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$La","line",{"href":"/line-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Line150.webp","alt":"logo of a chart:Line","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Line chart"}]]}],["$","$La","area",{"href":"/area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Area150.webp","alt":"logo of a chart:Area","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Area chart"}]]}],["$","$La","stackedArea",{"href":"/stacked-area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/StackedArea150.webp","alt":"logo of a chart:StackedArea","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Stacked Area"}]]}],["$","$La","stream",{"href":"/streamchart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Stream150.webp","alt":"logo of a chart:Stream","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Streamgraph"}]]}],["$","$La","candlestick",{"href":"/candlestick/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CandleStick2Small.webp","alt":"logo of a chart:CandleStick2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Candlestick"}]]}],["$","$La","timeseries",{"href":"/timeseries/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/section/time150.gif","alt":"logo of a chart:time","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Timeseries"}]]}]]}]]}]}]
+30:["$","div",null,{"className":"h-16 sm:h-20"}]
+31:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+32:["$","$L59",null,{}]
+35:["$","h2","h2-2",{"children":"Load the dataset"}]
+36:["$","p","p-6",{"children":"This guide shows how to create a highly customized and beautiful multi-panel lineplot to visualize the evolution of animal rescues by the London fire brigade for the different boroughs in the city."}]
+37:["$","p","p-7",{"children":["The data for this post originally comes from ",["$","a","a-0",{"href":"https://data.london.gov.uk/dataset/animal-rescue-incidents-attended-by-lfb","children":"London.gov"}]," by way of ",["$","a","a-1",{"href":"https://www.data-is-plural.com/","children":"Data is Plural"}]," and ",["$","a","a-2",{"href":"https://karaman.is","children":"Georgios Karamanis"}],". This guide uses the dataset released for the ",["$","a","a-3",{"href":"https://github.com/rfordatascience/tidytuesday","children":"TidyTuesday"}]," initiative on the week of 2021-06-29. You can find the original announcement and more information about the data ",["$","a","a-4",{"href":"https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-06-29/readme.md","children":"here"}],". Thank you all for making this work possible!"]}]
+5a:T4b8,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Read data</span></span>
+<span class="line"><span style="color:#24292E">animal_rescues </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(</span><span style="color:#032F62">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-06-29/animal_rescues.csv"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Capitalize the type of animal</span></span>
+<span class="line"><span style="color:#24292E">animal_rescues[</span><span style="color:#032F62">"animal_group_parent"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> animal_rescues[</span><span style="color:#032F62">"animal_group_parent"</span><span style="color:#24292E">].str.capitalize()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Explore first observations</span></span>
+<span class="line"><span style="color:#24292E">animal_rescues.head()</span></span></code></pre>38:["$","$L33","notebook-cell-2",{"index":2,"code":"# Read data\nanimal_rescues = pd.read_csv(\"https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-06-29/animal_rescues.csv\")\n\n# Capitalize the type of animal\nanimal_rescues[\"animal_group_parent\"] = animal_rescues[\"animal_group_parent\"].str.capitalize()\n\n# Explore first observations\nanimal_rescues.head()","highlighted":"$5a","interactive":true,"hasChart":false,"intro":"$undefined","output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"incident_number"}],["$","th","th-2",{"children":"date_time_of_call"}],["$","th","th-3",{"children":"cal_year"}],["$","th","th-4",{"children":"fin_year"}],["$","th","th-5",{"children":"type_of_incident"}],["$","th","th-6",{"children":"pump_count"}],["$","th","th-7",{"children":"pump_hours_total"}],["$","th","th-8",{"children":"hourly_notional_cost"}],["$","th","th-9",{"children":"incident_notional_cost"}],["$","th","th-10",{"children":"final_description"}],["$","th","th-11",{"children":"..."}],["$","th","th-12",{"children":"uprn"}],["$","th","th-13",{"children":"street"}],["$","th","th-14",{"children":"usrn"}],["$","th","th-15",{"children":"postcode_district"}],["$","th","th-16",{"children":"easting_m"}],["$","th","th-17",{"children":"northing_m"}],["$","th","th-18",{"children":"easting_rounded"}],["$","th","th-19",{"children":"northing_rounded"}],["$","th","th-20",{"children":"latitude"}],["$","th","th-21",{"children":"longitude"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"139091.0"}],["$","td","td-1",{"children":"01/01/2009 03:01"}],["$","td","td-2",{"children":"2009"}],["$","td","td-3",{"children":"2008/09"}],["$","td","td-4",{"children":"Special Service"}],["$","td","td-5",{"children":"1.0"}],["$","td","td-6",{"children":"2.0"}],["$","td","td-7",{"children":"255"}],["$","td","td-8",{"children":"510.0"}],["$","td","td-9",{"children":"Redacted"}],["$","td","td-10",{"children":"..."}],["$","td","td-11",{"children":"NaN"}],["$","td","td-12",{"children":"Waddington Way"}],["$","td","td-13",{"children":"20500146.0"}],["$","td","td-14",{"children":"SE19"}],["$","td","td-15",{"children":"NaN"}],"$L5b","$L5c","$L5d","$L5e","$L5f"]}],"$L60","$L61","$L62","$L63"]}]]}],"\n","$L64","\n"]}]}]]}]
+39:["$","p","p-8",{"children":["The original work, made in ",["$","a","a-0",{"href":"https://www.r-graph-gallery.com","children":"R"}],", uses a library called ",["$","a","a-1",{"href":"https://hafen.github.io/geofacet/","children":["$","code","code-0",{"children":"geofacet"}]}]," that imports grid layouts from the ",["$","a","a-2",{"href":"https://github.com/hafen/grid-designer","children":"grid-designer"}]," repository. This repository has a lot of different grid layouts that represent the actual geographical layout of a large variety of neighborhoods within cities, cities within states, or even states within countries. Given that each borough in London represents a panel in today's viz, we import the file named ",["$","code","code-0",{"children":"gb_london_boroughs_grid"}]," which represents the layout of the boroughs in London."]}]
+3a:["$","$L33","notebook-cell-3",{"index":3,"code":"gb_london_boroughs_grid = pd.read_csv(\"https://raw.githubusercontent.com/hafen/grid-designer/master/grids/gb_london_boroughs_grid.csv\")\n\nborough_names = gb_london_boroughs_grid.rename(columns={\"code_ons\": \"borough_code\"})\nborough_names.head()","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">gb_london_boroughs_grid </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.read_csv(</span><span style=\"color:#032F62\">\"https://raw.githubusercontent.com/hafen/grid-designer/master/grids/gb_london_boroughs_grid.csv\"</span><span style=\"color:#24292E\">)</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"color:#24292E\">borough_names </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> gb_london_boroughs_grid.rename(</span><span style=\"color:#E36209\">columns</span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\">{</span><span style=\"color:#032F62\">\"code_ons\"</span><span style=\"color:#24292E\">: </span><span style=\"color:#032F62\">\"borough_code\"</span><span style=\"color:#24292E\">})</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">borough_names.head()</span></span></code></pre>","interactive":true,"hasChart":false,"intro":"$undefined","output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"row"}],["$","th","th-2",{"children":"col"}],["$","th","th-3",{"children":"borough_code"}],["$","th","th-4",{"children":"name"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"4"}],["$","td","td-1",{"children":"5"}],["$","td","td-2",{"children":"E09000001"}],["$","td","td-3",{"children":"City of London"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"4"}],["$","td","td-1",{"children":"8"}],["$","td","td-2",{"children":"E09000002"}],["$","td","td-3",{"children":"Barking and Dagenham"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"2"}],["$","td","td-1",{"children":"4"}],["$","td","td-2",{"children":"E09000003"}],["$","td","td-3",{"children":"Barnet"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"5"}],["$","td","td-1",{"children":"8"}],["$","td","td-2",{"children":"E09000004"}],["$","td","td-3",{"children":"Bexley"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"3"}],["$","td","td-1",{"children":"3"}],["$","td","td-2",{"children":"E09000005"}],["$","td","td-3",{"children":"Brent"}]]}]]}]]}],"\n"]}]}]]}]
+3b:["$","p","p-9",{"children":"Let's process the data a little:"}]
+65:T1234,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Keep rescues that happeend before 2021</span></span>
+<span class="line"><span style="color:#24292E">rescues_borough </span><span style="color:#D73A49">=</span><span style="color:#24292E"> animal_rescues.query(</span><span style="color:#032F62">"cal_year &#x3C; 2021"</span><span style="color:#24292E">).reset_index()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># We're interested on whether it is a Cat or another type of animal.</span></span>
+<span class="line"><span style="color:#24292E">rescues_borough[</span><span style="color:#032F62">"animal_group_parent"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.where(</span></span>
+<span class="line"><span style="color:#24292E">    rescues_borough[</span><span style="color:#032F62">"animal_group_parent"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "Cat"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Cat"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Not_Cat"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Count the number of rescues per year, borough, and type fo animal</span></span>
+<span class="line"><span style="color:#24292E">rescues_borough </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span></span>
+<span class="line"><span style="color:#24292E">    rescues_borough.groupby([</span><span style="color:#032F62">"cal_year"</span><span style="color:#24292E">, </span><span style="color:#032F62">"borough_code"</span><span style="color:#24292E">, </span><span style="color:#032F62">"animal_group_parent"</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">    .size()</span></span>
+<span class="line"><span style="color:#24292E">    .to_frame(</span><span style="color:#032F62">"n"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    .reset_index()</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Make the dataset wider. </span></span>
+<span class="line"><span style="color:#6A737D"># There is one column for the number of cat rescues, and</span></span>
+<span class="line"><span style="color:#6A737D"># another column for the number of other animal rescues</span></span>
+<span class="line"><span style="color:#24292E">rescues_borough </span><span style="color:#D73A49">=</span><span style="color:#24292E"> rescues_borough.pivot(</span></span>
+<span class="line"><span style="color:#E36209">    index</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">"cal_year"</span><span style="color:#24292E">, </span><span style="color:#032F62">"borough_code"</span><span style="color:#24292E">], </span></span>
+<span class="line"><span style="color:#E36209">    columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">"animal_group_parent"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    values</span><span style="color:#D73A49">=</span><span style="color:#032F62">"n"</span></span>
+<span class="line"><span style="color:#24292E">).reset_index()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Merge the data with the info about the grid layout</span></span>
+<span class="line"><span style="color:#24292E">rescues_borough </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.merge(rescues_borough, borough_names, </span><span style="color:#E36209">how</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">, </span><span style="color:#E36209">on</span><span style="color:#D73A49">=</span><span style="color:#032F62">"borough_code"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">rescues_borough </span><span style="color:#D73A49">=</span><span style="color:#24292E"> rescues_borough.dropna(</span><span style="color:#E36209">subset</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">])</span></span></code></pre>3c:["$","$L33","notebook-cell-4",{"index":4,"code":"# Keep rescues that happeend before 2021\nrescues_borough = animal_rescues.query(\"cal_year < 2021\").reset_index()\n\n# We're interested on whether it is a Cat or another type of animal.\nrescues_borough[\"animal_group_parent\"] = np.where(\n    rescues_borough[\"animal_group_parent\"] == \"Cat\", \"Cat\", \"Not_Cat\"\n)\n\n# Count the number of rescues per year, borough, and type fo animal\nrescues_borough = (\n    rescues_borough.groupby([\"cal_year\", \"borough_code\", \"animal_group_parent\"])\n    .size()\n    .to_frame(\"n\")\n    .reset_index()\n)\n\n# Make the dataset wider. \n# There is one column for the number of cat rescues, and\n# another column for the number of other animal rescues\nrescues_borough = rescues_borough.pivot(\n    index=[\"cal_year\", \"borough_code\"], \n    columns=\"animal_group_parent\", \n    values=\"n\"\n).reset_index()\n\n# Merge the data with the info about the grid layout\nrescues_borough = pd.merge(rescues_borough, borough_names, how=\"left\", on=\"borough_code\")\nrescues_borough = rescues_borough.dropna(subset=[\"name\"])","highlighted":"$65","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+3d:["$","p","p-10",{"children":["The next step is to subtract 1 from the ",["$","code","code-0",{"children":"\"row\""}]," and ",["$","code","code-1",{"children":"\"col\""}]," columns. This is needed because the grid imported is 1-base indexed, while Python is 0-base indexed."]}]
+3e:["$","$L33","notebook-cell-5",{"index":5,"code":"rescues_borough[\"row\"] -= 1\nrescues_borough[\"col\"] -= 1","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">rescues_borough[</span><span style=\"color:#032F62\">\"row\"</span><span style=\"color:#24292E\">] </span><span style=\"color:#D73A49\">-=</span><span style=\"color:#005CC5\"> 1</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">rescues_borough[</span><span style=\"color:#032F62\">\"col\"</span><span style=\"color:#24292E\">] </span><span style=\"color:#D73A49\">-=</span><span style=\"color:#005CC5\"> 1</span></span></code></pre>","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+3f:["$","p","p-11",{"children":"Now, let's create three arrays of values. The first is going to represent the name of the borough, the second represents the row position for that borough, and the last one represents the column position."}]
+66:T55c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">df_idxs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> rescues_borough[[</span><span style="color:#032F62">"row"</span><span style="color:#24292E">, </span><span style="color:#032F62">"col"</span><span style="color:#24292E">, </span><span style="color:#032F62">"name"</span><span style="color:#24292E">]].drop_duplicates()</span></span>
+<span class="line"><span style="color:#005CC5">NAMES</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df_idxs[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">].values</span></span>
+<span class="line"><span style="color:#005CC5">ROWS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df_idxs[</span><span style="color:#032F62">"row"</span><span style="color:#24292E">].values.astype(</span><span style="color:#005CC5">int</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#005CC5">COLS</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df_idxs[</span><span style="color:#032F62">"col"</span><span style="color:#24292E">].values.astype(</span><span style="color:#005CC5">int</span><span style="color:#24292E">)</span></span></code></pre>40:["$","$L33","notebook-cell-6",{"index":6,"code":"df_idxs = rescues_borough[[\"row\", \"col\", \"name\"]].drop_duplicates()\nNAMES = df_idxs[\"name\"].values\nROWS = df_idxs[\"row\"].values.astype(int)\nCOLS = df_idxs[\"col\"].values.astype(int)","highlighted":"$66","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+41:["$","p","p-12",{"children":"It's going to be clearer with an example:"}]
+42:["$","$L33","notebook-cell-7",{"index":7,"code":"print(f\"Borough: {NAMES[0]}, row: {ROWS[0]}, col: {COLS[0]}\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#005CC5\">print</span><span style=\"color:#24292E\">(</span><span style=\"color:#D73A49\">f</span><span style=\"color:#032F62\">\"Borough: </span><span style=\"color:#005CC5\">{NAMES</span><span style=\"color:#24292E\">[</span><span style=\"color:#005CC5\">0</span><span style=\"color:#24292E\">]</span><span style=\"color:#005CC5\">}</span><span style=\"color:#032F62\">, row: </span><span style=\"color:#005CC5\">{ROWS</span><span style=\"color:#24292E\">[</span><span style=\"color:#005CC5\">0</span><span style=\"color:#24292E\">]</span><span style=\"color:#005CC5\">}</span><span style=\"color:#032F62\">, col: </span><span style=\"color:#005CC5\">{COLS</span><span style=\"color:#24292E\">[</span><span style=\"color:#005CC5\">0</span><span style=\"color:#24292E\">]</span><span style=\"color:#005CC5\">}</span><span style=\"color:#032F62\">\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false,"intro":"$undefined","output":[["$","pre","pre-0",{"className":"plain-output","children":["$","code","code-0",{"className":"language-text","children":"Borough: Barking and Dagenham, row: 3, col: 7\n"}]}]]}]
+43:["$","p","p-13",{"children":"which means the borough named \"Barking and Dagenham\" is going to be located in the panel given by the intersection of the fourth row and eighth column."}]
+44:["$","h2","h2-3",{"children":"Basic lineplot"}]
+45:["$","p","p-14",{"children":"As usual, let's get started by defining some colors that are going to be used throughout the whole chart."}]
+67:T523,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#005CC5">BLUE</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#3D85F7"</span></span>
+<span class="line"><span style="color:#005CC5">BLUE_LIGHT</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#5490FF"</span></span>
+<span class="line"><span style="color:#005CC5">PINK</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#C32E5A"</span></span>
+<span class="line"><span style="color:#005CC5">PINK_LIGHT</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#D34068"</span></span>
+<span class="line"><span style="color:#005CC5">GREY40</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#666666"</span></span>
+<span class="line"><span style="color:#005CC5">GREY25</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#404040"</span></span>
+<span class="line"><span style="color:#005CC5">GREY20</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#333333"</span></span>
+<span class="line"><span style="color:#005CC5">BACKGROUND</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "#F5F4EF"</span></span></code></pre>46:["$","$L33","notebook-cell-8",{"index":8,"code":"BLUE = \"#3D85F7\"\nBLUE_LIGHT = \"#5490FF\"\nPINK = \"#C32E5A\"\nPINK_LIGHT = \"#D34068\"\nGREY40 = \"#666666\"\nGREY25 = \"#404040\"\nGREY20 = \"#333333\"\nBACKGROUND = \"#F5F4EF\"","highlighted":"$67","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+68:T42b,# Initialize figure and axis
+fig, ax = plt.subplots(figsize=(8, 5))
+
+# Let's say we select the borough named "Enfield" 
+df = rescues_borough[rescues_borough["name"] == "Enfield"]
+
+# YEAR represents the x-axis
+YEAR = df["cal_year"].values
+# There are two variables for the y-axis:
+# the count for the cat rescues, and the count for non-cat rescues.
+CAT = df["Cat"].values
+NOT_CAT = df["Not_Cat"].values
+
+# Add lines
+ax.plot(YEAR, CAT, color=BLUE)
+ax.plot(YEAR, NOT_CAT, color=PINK)
+
+# Add fill between the two lines.
+# Two `fill_between` calls are needed to have two different colors.
+# First, a fill when CAT is larger than NOT_CAT
+ax.fill_between(
+    YEAR, CAT, NOT_CAT, where=(CAT > NOT_CAT), 
+    interpolate=True, color=BLUE_LIGHT, alpha=0.3
+)
+
+# Then, a fill when CAT is not larger than NOT_CAT
+ax.fill_between(
+    YEAR, CAT, NOT_CAT, where=(CAT <= NOT_CAT),
+    interpolate=True, color=PINK_LIGHT, alpha=0.3
+);
+
+# Note:
+# Setting `interpolate` to `True` calculates the intersection point
+# between the two lines and extends the filled region up to this point.69:T1821,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Initialize figure and axis</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Let's say we select the borough named "Enfield" </span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> rescues_borough[rescues_borough[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "Enfield"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># YEAR represents the x-axis</span></span>
+<span class="line"><span style="color:#005CC5">YEAR</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"cal_year"</span><span style="color:#24292E">].values</span></span>
+<span class="line"><span style="color:#6A737D"># There are two variables for the y-axis:</span></span>
+<span class="line"><span style="color:#6A737D"># the count for the cat rescues, and the count for non-cat rescues.</span></span>
+<span class="line"><span style="color:#005CC5">CAT</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"Cat"</span><span style="color:#24292E">].values</span></span>
+<span class="line"><span style="color:#005CC5">NOT_CAT</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"Not_Cat"</span><span style="color:#24292E">].values</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add lines</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(</span><span style="color:#005CC5">YEAR</span><span style="color:#24292E">, </span><span style="color:#005CC5">CAT</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">BLUE</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(</span><span style="color:#005CC5">YEAR</span><span style="color:#24292E">, </span><span style="color:#005CC5">NOT_CAT</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">PINK</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add fill between the two lines.</span></span>
+<span class="line"><span style="color:#6A737D"># Two `fill_between` calls are needed to have two different colors.</span></span>
+<span class="line"><span style="color:#6A737D"># First, a fill when CAT is larger than NOT_CAT</span></span>
+<span class="line"><span style="color:#24292E">ax.fill_between(</span></span>
+<span class="line"><span style="color:#005CC5">    YEAR</span><span style="color:#24292E">, </span><span style="color:#005CC5">CAT</span><span style="color:#24292E">, </span><span style="color:#005CC5">NOT_CAT</span><span style="color:#24292E">, </span><span style="color:#E36209">where</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">CAT</span><span style="color:#D73A49"> ></span><span style="color:#005CC5"> NOT_CAT</span><span style="color:#24292E">), </span></span>
+<span class="line"><span style="color:#E36209">    interpolate</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">BLUE_LIGHT</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Then, a fill when CAT is not larger than NOT_CAT</span></span>
+<span class="line"><span style="color:#24292E">ax.fill_between(</span></span>
+<span class="line"><span style="color:#005CC5">    YEAR</span><span style="color:#24292E">, </span><span style="color:#005CC5">CAT</span><span style="color:#24292E">, </span><span style="color:#005CC5">NOT_CAT</span><span style="color:#24292E">, </span><span style="color:#E36209">where</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">CAT</span><span style="color:#D73A49"> &#x3C;=</span><span style="color:#005CC5"> NOT_CAT</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    interpolate</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">PINK_LIGHT</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span></span>
+<span class="line"><span style="color:#24292E">)</span><span style="color:#B31D28;font-style:italic">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Note:</span></span>
+<span class="line"><span style="color:#6A737D"># Setting `interpolate` to `True` calculates the intersection point</span></span>
+<span class="line"><span style="color:#6A737D"># between the two lines and extends the filled region up to this point.</span></span></code></pre>47:["$","$L33","notebook-cell-9",{"index":9,"code":"$68","highlighted":"$69","interactive":true,"hasChart":true,"intro":"$L6a","output":"$L6b"}]
+48:["$","h2","h2-4",{"children":"Customize layout"}]
+6c:T4ef,# Change the background color of both the axis and the figure
+ax.set_facecolor(BACKGROUND)
+fig.set_facecolor(BACKGROUND)
+
+# Customize x-axis ticks 
+# Note there are both major and minor ticks.
+xticks = [2010, 2015, 2020]
+ax.set_xticks(xticks) # major ticks
+ax.set_xticks([2012.5, 2017.5], minor=True)
+# Set a grey color for the labels
+ax.set_xticklabels(xticks, color=GREY40)
+
+# Customize y-axis ticks. 
+# Also uses both minor and major ticks
+yticks = [0, 10, 20]
+ax.set_yticks(yticks)
+ax.set_yticks([5, 15, 25], minor=True)
+ax.set_yticklabels(yticks, color=GREY40)
+# Also set a slightly larger range for the y-axis limit.
+ax.set_ylim((-1, 26))
+
+# Add grid lines.
+# Note minor and major lines have different styles applied.
+ax.grid(which="minor", lw=0.4, alpha=0.4)
+ax.grid(which="major", lw=0.8, alpha=0.4)
+
+# Remove tick marks by setting their length to zero on both axis.
+ax.yaxis.set_tick_params(which="both", length=0)
+ax.xaxis.set_tick_params(which="both", length=0)
+
+# Remove all the spines by setting their color to "none"
+ax.spines["left"].set_color("none")
+ax.spines["bottom"].set_color("none")
+ax.spines["right"].set_color("none")
+ax.spines["top"].set_color("none")
+
+# And finally add the title
+ax.set_title("Enfield", weight="bold", color=GREY20)
+
+fig6d:T1e10,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Change the background color of both the axis and the figure</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(</span><span style="color:#005CC5">BACKGROUND</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(</span><span style="color:#005CC5">BACKGROUND</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Customize x-axis ticks </span></span>
+<span class="line"><span style="color:#6A737D"># Note there are both major and minor ticks.</span></span>
+<span class="line"><span style="color:#24292E">xticks </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">2010</span><span style="color:#24292E">, </span><span style="color:#005CC5">2015</span><span style="color:#24292E">, </span><span style="color:#005CC5">2020</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks(xticks) </span><span style="color:#6A737D"># major ticks</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticks([</span><span style="color:#005CC5">2012.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">2017.5</span><span style="color:#24292E">], </span><span style="color:#E36209">minor</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#6A737D"># Set a grey color for the labels</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels(xticks, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Customize y-axis ticks. </span></span>
+<span class="line"><span style="color:#6A737D"># Also uses both minor and major ticks</span></span>
+<span class="line"><span style="color:#24292E">yticks </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">20</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks(yticks)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticks([</span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">25</span><span style="color:#24292E">], </span><span style="color:#E36209">minor</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticklabels(yticks, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#6A737D"># Also set a slightly larger range for the y-axis limit.</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim((</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">26</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add grid lines.</span></span>
+<span class="line"><span style="color:#6A737D"># Note minor and major lines have different styles applied.</span></span>
+<span class="line"><span style="color:#24292E">ax.grid(</span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"minor"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.grid(</span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"major"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove tick marks by setting their length to zero on both axis.</span></span>
+<span class="line"><span style="color:#24292E">ax.yaxis.set_tick_params(</span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"both"</span><span style="color:#24292E">, </span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.xaxis.set_tick_params(</span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"both"</span><span style="color:#24292E">, </span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove all the spines by setting their color to "none"</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"left"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"right"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"top"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># And finally add the title</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span><span style="color:#032F62">"Enfield"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY20</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>49:["$","$L33","notebook-cell-10",{"index":10,"code":"$6c","highlighted":"$6d","interactive":true,"hasChart":true,"intro":"$L6e","output":"$L6f"}]
+4a:["$","p","p-15",{"children":"A great step forward!"}]
+4b:["$","h2","h2-5",{"children":"Multi panel plot"}]
+4c:["$","p","p-16",{"children":"The original plot is made of many of plots like the one above. So far, we've successfully replicated only a single panel (or subplot in Matplotlib's jargon). All of that can be reused in this section."}]
+4d:["$","p","p-17",{"children":"Let's start by defining a function that encapsulates all the steps performed above. Some comments are added to explain little changes."}]
+70:T60c,## Here's a summary of the meaning of the arguments in the function
+# x: array of values for the year
+# y1: array of values for the number of cat rescues
+# y2: array of values for the number of non-cat rescues
+# name: name of the borough
+# ax: the Matplotlib axis where to plot
+
+def single_plot(x, y1, y2, name, ax):
+    
+    ax.plot(x, y1, color=BLUE)
+    ax.plot(x, y2, color=PINK)
+
+    ax.fill_between(
+        x, y1, y2, where=(y1 > y2), 
+        interpolate=True, color=BLUE_LIGHT, alpha=0.3
+    )
+
+    ax.fill_between(
+        x, y1, y2, where=(y1 <= y2),
+        interpolate=True, color=PINK_LIGHT, alpha=0.3
+    );
+
+    ax.set_facecolor(BACKGROUND)
+    fig.set_facecolor(BACKGROUND)
+
+
+    xticks = [2010, 2015, 2020]
+    ax.set_xticks(xticks)
+    ax.set_xticks([2012.5, 2017.5], minor=True)
+    # added a 'size' argument
+    ax.set_xticklabels(xticks, color=GREY40, size=10)
+
+    yticks = [0, 10, 20]
+    ax.set_yticks(yticks)
+    ax.set_yticks([5, 15, 25], minor=True)
+    # added a 'size' argument
+    ax.set_yticklabels(yticks, color=GREY40, size=10)
+    ax.set_ylim((-1, 26))
+
+    ax.grid(which="minor", lw=0.4, alpha=0.4)
+    ax.grid(which="major", lw=0.8, alpha=0.4)
+    
+    ax.yaxis.set_tick_params(which="both", length=0)
+    ax.xaxis.set_tick_params(which="both", length=0)
+    
+    ax.spines["left"].set_color("none")
+    ax.spines["bottom"].set_color("none")
+    ax.spines["right"].set_color("none")
+    ax.spines["top"].set_color("none")
+    # added a 'size' argument
+    ax.set_title(name, weight="bold", size=9, color=GREY20)71:T2896,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D">## Here's a summary of the meaning of the arguments in the function</span></span>
+<span class="line"><span style="color:#6A737D"># x: array of values for the year</span></span>
+<span class="line"><span style="color:#6A737D"># y1: array of values for the number of cat rescues</span></span>
+<span class="line"><span style="color:#6A737D"># y2: array of values for the number of non-cat rescues</span></span>
+<span class="line"><span style="color:#6A737D"># name: name of the borough</span></span>
+<span class="line"><span style="color:#6A737D"># ax: the Matplotlib axis where to plot</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> single_plot</span><span style="color:#24292E">(x, y1, y2, name, ax):</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x, y1, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">BLUE</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x, y2, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">PINK</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    ax.fill_between(</span></span>
+<span class="line"><span style="color:#24292E">        x, y1, y2, </span><span style="color:#E36209">where</span><span style="color:#D73A49">=</span><span style="color:#24292E">(y1 </span><span style="color:#D73A49">></span><span style="color:#24292E"> y2), </span></span>
+<span class="line"><span style="color:#E36209">        interpolate</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">BLUE_LIGHT</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    ax.fill_between(</span></span>
+<span class="line"><span style="color:#24292E">        x, y1, y2, </span><span style="color:#E36209">where</span><span style="color:#D73A49">=</span><span style="color:#24292E">(y1 </span><span style="color:#D73A49">&#x3C;=</span><span style="color:#24292E"> y2),</span></span>
+<span class="line"><span style="color:#E36209">        interpolate</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">PINK_LIGHT</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span></span>
+<span class="line"><span style="color:#24292E">    )</span><span style="color:#B31D28;font-style:italic">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    ax.set_facecolor(</span><span style="color:#005CC5">BACKGROUND</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    fig.set_facecolor(</span><span style="color:#005CC5">BACKGROUND</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    xticks </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">2010</span><span style="color:#24292E">, </span><span style="color:#005CC5">2015</span><span style="color:#24292E">, </span><span style="color:#005CC5">2020</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticks(xticks)</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticks([</span><span style="color:#005CC5">2012.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">2017.5</span><span style="color:#24292E">], </span><span style="color:#E36209">minor</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#6A737D">    # added a 'size' argument</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticklabels(xticks, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    yticks </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#005CC5">20</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_yticks(yticks)</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_yticks([</span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">25</span><span style="color:#24292E">], </span><span style="color:#E36209">minor</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#6A737D">    # added a 'size' argument</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_yticklabels(yticks, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY40</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_ylim((</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">26</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    ax.grid(</span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"minor"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.grid(</span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"major"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">    ax.yaxis.set_tick_params(</span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"both"</span><span style="color:#24292E">, </span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.xaxis.set_tick_params(</span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"both"</span><span style="color:#24292E">, </span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#24292E">    ax.spines[</span><span style="color:#032F62">"left"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.spines[</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.spines[</span><span style="color:#032F62">"right"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    ax.spines[</span><span style="color:#032F62">"top"</span><span style="color:#24292E">].set_color(</span><span style="color:#032F62">"none"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#6A737D">    # added a 'size' argument</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_title(name, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY20</span><span style="color:#24292E">)</span></span></code></pre>4e:["$","$L33","notebook-cell-11",{"index":11,"code":"$70","highlighted":"$71","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+4f:["$","p","p-18",{"children":["Before starting, it's important to determine the number of rows and columns in the multipanel layout. This can be determined by the length of unique values for ",["$","code","code-0",{"children":"\"row\""}]," and ",["$","code","code-1",{"children":"\"col\""}]," in ",["$","code","code-2",{"children":"rescues_borough"}],"."]}]
+50:["$","$L33","notebook-cell-12",{"index":12,"code":"NROW = len(rescues_borough[\"row\"].unique())\nNCOL = len(rescues_borough[\"col\"].unique())","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#005CC5\">NROW</span><span style=\"color:#D73A49\"> =</span><span style=\"color:#005CC5\"> len</span><span style=\"color:#24292E\">(rescues_borough[</span><span style=\"color:#032F62\">\"row\"</span><span style=\"color:#24292E\">].unique())</span></span>\n<span class=\"line\"><span style=\"color:#005CC5\">NCOL</span><span style=\"color:#D73A49\"> =</span><span style=\"color:#005CC5\"> len</span><span style=\"color:#24292E\">(rescues_borough[</span><span style=\"color:#032F62\">\"col\"</span><span style=\"color:#24292E\">].unique())</span></span></code></pre>","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+72:Tdd1,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">fig, axes </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">NROW</span><span style="color:#24292E">, </span><span style="color:#005CC5">NCOL</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">), </span><span style="color:#E36209">sharex</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">sharey</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, name </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">NAMES</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#6A737D">    # Select data for the borough in 'name'</span></span>
+<span class="line"><span style="color:#24292E">    df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> rescues_borough[rescues_borough[</span><span style="color:#032F62">"name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> name]</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Take axis out of the axes array</span></span>
+<span class="line"><span style="color:#24292E">    ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> axes[</span><span style="color:#005CC5">ROWS</span><span style="color:#24292E">[i], </span><span style="color:#005CC5">COLS</span><span style="color:#24292E">[i]]</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Take values for x, y1 and y2.</span></span>
+<span class="line"><span style="color:#005CC5">    YEAR</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"cal_year"</span><span style="color:#24292E">].values</span></span>
+<span class="line"><span style="color:#005CC5">    CAT</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"Cat"</span><span style="color:#24292E">].values</span></span>
+<span class="line"><span style="color:#005CC5">    NOT_CAT</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"Not_Cat"</span><span style="color:#24292E">].values</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Plot it!</span></span>
+<span class="line"><span style="color:#24292E">    single_plot(</span><span style="color:#005CC5">YEAR</span><span style="color:#24292E">, </span><span style="color:#005CC5">CAT</span><span style="color:#24292E">, </span><span style="color:#005CC5">NOT_CAT</span><span style="color:#24292E">, name, ax)</span></span></code></pre>51:["$","$L33","notebook-cell-13",{"index":13,"code":"fig, axes = plt.subplots(NROW, NCOL, figsize=(12, 10), sharex=True, sharey=True)\n\nfor i, name in enumerate(NAMES):\n    # Select data for the borough in 'name'\n    df = rescues_borough[rescues_borough[\"name\"] == name]\n    \n    # Take axis out of the axes array\n    ax = axes[ROWS[i], COLS[i]]\n    \n    # Take values for x, y1 and y2.\n    YEAR = df[\"cal_year\"].values\n    CAT = df[\"Cat\"].values\n    NOT_CAT = df[\"Not_Cat\"].values\n    \n    # Plot it!\n    single_plot(YEAR, CAT, NOT_CAT, name, ax)","highlighted":"$72","interactive":true,"hasChart":true,"intro":"$undefined","output":"$L73"}]
+52:["$","p","p-19",{"children":"What a change! There's so much going on here. The first thing to note is that not only the plots were added in the right place, but they also look exactly like the ones we're trying to replicate. That's a great start!"}]
+53:["$","h2","h2-6",{"children":"Remove empty panels"}]
+74:T738,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Itereate trough rows</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">7</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#6A737D">    # Iterate through columns</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> j </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#6A737D">        # Since we've added lines, we can check whether the plot is not empty by</span></span>
+<span class="line"><span style="color:#6A737D">        # checking whether the axis contains lines.</span></span>
+<span class="line"><span style="color:#6A737D">        # If it contains lines, we continue looping without removing the axis.</span></span>
+<span class="line"><span style="color:#D73A49">        if</span><span style="color:#24292E"> axes[i, j].lines:</span></span>
+<span class="line"><span style="color:#D73A49">            continue</span></span>
+<span class="line"><span style="color:#6A737D">        # If it does not contain lines, remove it!</span></span>
+<span class="line"><span style="color:#D73A49">        else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">            axes[i, j].remove()</span></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>54:["$","$L33","notebook-cell-14",{"index":14,"code":"# Itereate trough rows\nfor i in range(7):\n    # Iterate through columns\n    for j in range(8):\n        # Since we've added lines, we can check whether the plot is not empty by\n        # checking whether the axis contains lines.\n        # If it contains lines, we continue looping without removing the axis.\n        if axes[i, j].lines:\n            continue\n        # If it does not contain lines, remove it!\n        else:\n            axes[i, j].remove()\nfig","highlighted":"$74","interactive":true,"hasChart":true,"intro":[["$","p","p-0",{"children":["On the other hand, there are many empty panels that shouldn't stay there. Fortunately, there's a method called ",["$","code","code-0",{"children":".remove()"}]," that does exactly what its name says: call ",["$","code","code-1",{"children":"ax.remove()"}]," and the axis selected will be removed from the plot. Let's do it!"]}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-time-series-and-facetting-with-matplotlib/output-6.png","alt":"Time series with filled area and custom facetting in Matplotlib","width":699,"height":585,"loading":"lazy","decoding":"async"}]}]]}]
+75:Te5c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Go through panels in a rowwise manner, from left to right.</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">7</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    first_in_row </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> True</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> j </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#6A737D">        # Enable tick labels in the first panel in the row that is not empty.</span></span>
+<span class="line"><span style="color:#D73A49">        if</span><span style="color:#24292E"> first_in_row </span><span style="color:#D73A49">and</span><span style="color:#24292E"> axes[i, j].lines:</span></span>
+<span class="line"><span style="color:#24292E">            axes[i, j].yaxis.set_tick_params(</span><span style="color:#E36209">labelleft</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">            first_in_row </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> False</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Go through panels in a columnwise manner, from bottom to top.</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> j </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    first_in_col </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> True</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> reversed</span><span style="color:#24292E">(</span><span style="color:#005CC5">range</span><span style="color:#24292E">(</span><span style="color:#005CC5">7</span><span style="color:#24292E">)): </span><span style="color:#6A737D"># note the 'reversed()'</span></span>
+<span class="line"><span style="color:#6A737D">        # Enable tick labels in the first panel in the column that is not empty.</span></span>
+<span class="line"><span style="color:#D73A49">        if</span><span style="color:#24292E"> first_in_col </span><span style="color:#D73A49">and</span><span style="color:#24292E"> axes[i, j].lines:</span></span>
+<span class="line"><span style="color:#24292E">            axes[i, j].xaxis.set_tick_params(</span><span style="color:#E36209">labelbottom</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">            first_in_col </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> False</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig</span></span></code></pre>55:["$","$L33","notebook-cell-15",{"index":15,"code":"# Go through panels in a rowwise manner, from left to right.\nfor i in range(7):\n    first_in_row = True\n    for j in range(8):\n        # Enable tick labels in the first panel in the row that is not empty.\n        if first_in_row and axes[i, j].lines:\n            axes[i, j].yaxis.set_tick_params(labelleft=True)\n            first_in_row = False\n\n\n# Go through panels in a columnwise manner, from bottom to top.\nfor j in range(8):\n    first_in_col = True\n    for i in reversed(range(7)): # note the 'reversed()'\n        # Enable tick labels in the first panel in the column that is not empty.\n        if first_in_col and axes[i, j].lines:\n            axes[i, j].xaxis.set_tick_params(labelbottom=True)\n            first_in_col = False\n\nfig","highlighted":"$75","interactive":true,"hasChart":true,"intro":"$L76","output":"$L77"}]
+56:["$","p","p-20",{"children":"Isn't it amazing to see all the details one can customize with Matplotlib?"}]
+57:["$","h2","h2-7",{"children":"Add legends and annotations"}]
+78:T74e,# Create handles for lines.
+handles = [
+    Line2D([], [], c=color, lw=1.2, label=label)
+    for label, color in zip(["cats", "other"], [BLUE, PINK])
+]
+
+# Add legend for the lines
+fig.legend(
+    handles=handles,
+    loc=(0.75, 0.94), # This coord is bottom-left corner
+    ncol=2,           # 1 row, 2 columns layout
+    columnspacing=1,  # Space between columns
+    handlelength=1.2, # Line length
+    frameon=False     # No frame
+)
+
+
+# Create handles for the area fill with `patches.Patch()`
+cats = patches.Patch(facecolor=BLUE_LIGHT, alpha=0.3, label="more cats")
+other = patches.Patch(facecolor=PINK_LIGHT, alpha=0.3, label="more other")
+
+fig.legend(
+    handles=[cats, other],
+    loc=(0.75, 0.9), # This coord is bottom-left corner
+    ncol=2,          # 1 row, 2 columns layout
+    columnspacing=1, # Space between columns
+    handlelength=2,  # Area length
+    handleheight=2,  # Area height
+    frameon=False,   # No frame
+)
+
+# Title
+# Note the horizontal alignment, vertical alignment and multiline alignment values.
+# They are not casual!
+fig.text(
+    x=0.05, y=0.975, s="Rescues of\ncats vs other animals by\nthe London fire brigade\n2009-2020",
+    color=GREY25, fontsize=26, fontfamily="KyivType Sans", fontweight="bold",
+    ha="left", # 'x' is the left limit of the title
+    va="top",  # 'y' is the top limit of the title
+    ma="left"  # multiple lines are aligned to the left
+)
+
+# Add caption
+fig.text(
+    x=0.95, y=0.025, s="Source: London.gov · Graphic: Georgios Karamanis", 
+    fontsize=11, 
+    ha="right",   # 'x' is the right location of the caption
+    va="baseline" # 'y' is the base location of the caption
+)
+
+# Last but not least, customize the margin and space within subplots
+fig.subplots_adjust(left=0.05, right=0.95, bottom=0.05, top=0.95, hspace=0.3, wspace=0.08)
+fig
+
+#fig.savefig("plot.png", dpi=320) # to save it in high quality79:T2e20,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create handles for lines.</span></span>
+<span class="line"><span style="color:#24292E">handles </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#24292E">    Line2D([], [], </span><span style="color:#E36209">c</span><span style="color:#D73A49">=</span><span style="color:#24292E">color, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.2</span><span style="color:#24292E">, </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#24292E">label)</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> label, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">([</span><span style="color:#032F62">"cats"</span><span style="color:#24292E">, </span><span style="color:#032F62">"other"</span><span style="color:#24292E">], [</span><span style="color:#005CC5">BLUE</span><span style="color:#24292E">, </span><span style="color:#005CC5">PINK</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add legend for the lines</span></span>
+<span class="line"><span style="color:#24292E">fig.legend(</span></span>
+<span class="line"><span style="color:#E36209">    handles</span><span style="color:#D73A49">=</span><span style="color:#24292E">handles,</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.94</span><span style="color:#24292E">), </span><span style="color:#6A737D"># This coord is bottom-left corner</span></span>
+<span class="line"><span style="color:#E36209">    ncol</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,           </span><span style="color:#6A737D"># 1 row, 2 columns layout</span></span>
+<span class="line"><span style="color:#E36209">    columnspacing</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Space between columns</span></span>
+<span class="line"><span style="color:#E36209">    handlelength</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1.2</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Line length</span></span>
+<span class="line"><span style="color:#E36209">    frameon</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#6A737D">     # No frame</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create handles for the area fill with `patches.Patch()`</span></span>
+<span class="line"><span style="color:#24292E">cats </span><span style="color:#D73A49">=</span><span style="color:#24292E"> patches.Patch(</span><span style="color:#E36209">facecolor</span><span style="color:#D73A49">=</span><span style="color:#005CC5">BLUE_LIGHT</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">"more cats"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other </span><span style="color:#D73A49">=</span><span style="color:#24292E"> patches.Patch(</span><span style="color:#E36209">facecolor</span><span style="color:#D73A49">=</span><span style="color:#005CC5">PINK_LIGHT</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">label</span><span style="color:#D73A49">=</span><span style="color:#032F62">"more other"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.legend(</span></span>
+<span class="line"><span style="color:#E36209">    handles</span><span style="color:#D73A49">=</span><span style="color:#24292E">[cats, other],</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.9</span><span style="color:#24292E">), </span><span style="color:#6A737D"># This coord is bottom-left corner</span></span>
+<span class="line"><span style="color:#E36209">    ncol</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,          </span><span style="color:#6A737D"># 1 row, 2 columns layout</span></span>
+<span class="line"><span style="color:#E36209">    columnspacing</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Space between columns</span></span>
+<span class="line"><span style="color:#E36209">    handlelength</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Area length</span></span>
+<span class="line"><span style="color:#E36209">    handleheight</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Area height</span></span>
+<span class="line"><span style="color:#E36209">    frameon</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,   </span><span style="color:#6A737D"># No frame</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Title</span></span>
+<span class="line"><span style="color:#6A737D"># Note the horizontal alignment, vertical alignment and multiline alignment values.</span></span>
+<span class="line"><span style="color:#6A737D"># They are not casual!</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.975</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Rescues of</span><span style="color:#005CC5">\n</span><span style="color:#032F62">cats vs other animals by</span><span style="color:#005CC5">\n</span><span style="color:#032F62">the London fire brigade</span><span style="color:#005CC5">\n</span><span style="color:#032F62">2009-2020"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#005CC5">GREY25</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">26</span><span style="color:#24292E">, </span><span style="color:#E36209">fontfamily</span><span style="color:#D73A49">=</span><span style="color:#032F62">"KyivType Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">, </span><span style="color:#6A737D"># 'x' is the left limit of the title</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># 'y' is the top limit of the title</span></span>
+<span class="line"><span style="color:#E36209">    ma</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#6A737D">  # multiple lines are aligned to the left</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add caption</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.95</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.025</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Source: London.gov · Graphic: Georgios Karamanis"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">11</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"right"</span><span style="color:#24292E">,   </span><span style="color:#6A737D"># 'x' is the right location of the caption</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"baseline"</span><span style="color:#6A737D"> # 'y' is the base location of the caption</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Last but not least, customize the margin and space within subplots</span></span>
+<span class="line"><span style="color:#24292E">fig.subplots_adjust(</span><span style="color:#E36209">left</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">, </span><span style="color:#E36209">right</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.95</span><span style="color:#24292E">, </span><span style="color:#E36209">bottom</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">, </span><span style="color:#E36209">top</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.95</span><span style="color:#24292E">, </span><span style="color:#E36209">hspace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#E36209">wspace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.08</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">#fig.savefig("plot.png", dpi=320) # to save it in high quality</span></span></code></pre>58:["$","$L33","notebook-cell-16",{"index":16,"code":"$78","highlighted":"$79","interactive":true,"hasChart":true,"intro":"$L7a","output":"$L7b"}]
+5b:["$","td","td-16",{"children":"NaN"}]
+5c:["$","td","td-17",{"children":"532350"}]
+5d:["$","td","td-18",{"children":"170050"}]
+5e:["$","td","td-19",{"children":"NaN"}]
+5f:["$","td","td-20",{"children":"NaN"}]
+60:["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"275091.0"}],["$","td","td-1",{"children":"01/01/2009 08:51"}],["$","td","td-2",{"children":"2009"}],["$","td","td-3",{"children":"2008/09"}],["$","td","td-4",{"children":"Special Service"}],["$","td","td-5",{"children":"1.0"}],["$","td","td-6",{"children":"1.0"}],["$","td","td-7",{"children":"255"}],["$","td","td-8",{"children":"255.0"}],["$","td","td-9",{"children":"Redacted"}],["$","td","td-10",{"children":"..."}],["$","td","td-11",{"children":"NaN"}],["$","td","td-12",{"children":"Grasmere Road"}],["$","td","td-13",{"children":"NaN"}],["$","td","td-14",{"children":"SE25"}],["$","td","td-15",{"children":"534785.0"}],["$","td","td-16",{"children":"167546.0"}],["$","td","td-17",{"children":"534750"}],["$","td","td-18",{"children":"167550"}],["$","td","td-19",{"children":"51.390954"}],["$","td","td-20",{"children":"-0.064167"}]]}]
+61:["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"2075091.0"}],["$","td","td-1",{"children":"04/01/2009 10:07"}],["$","td","td-2",{"children":"2009"}],["$","td","td-3",{"children":"2008/09"}],["$","td","td-4",{"children":"Special Service"}],["$","td","td-5",{"children":"1.0"}],["$","td","td-6",{"children":"1.0"}],["$","td","td-7",{"children":"255"}],["$","td","td-8",{"children":"255.0"}],["$","td","td-9",{"children":"Redacted"}],["$","td","td-10",{"children":"..."}],["$","td","td-11",{"children":"NaN"}],["$","td","td-12",{"children":"Mill Lane"}],["$","td","td-13",{"children":"NaN"}],["$","td","td-14",{"children":"SM5"}],["$","td","td-15",{"children":"528041.0"}],["$","td","td-16",{"children":"164923.0"}],["$","td","td-17",{"children":"528050"}],["$","td","td-18",{"children":"164950"}],["$","td","td-19",{"children":"51.368941"}],["$","td","td-20",{"children":"-0.161985"}]]}]
+62:["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"2872091.0"}],["$","td","td-1",{"children":"05/01/2009 12:27"}],["$","td","td-2",{"children":"2009"}],["$","td","td-3",{"children":"2008/09"}],["$","td","td-4",{"children":"Special Service"}],["$","td","td-5",{"children":"1.0"}],["$","td","td-6",{"children":"1.0"}],["$","td","td-7",{"children":"255"}],["$","td","td-8",{"children":"255.0"}],["$","td","td-9",{"children":"Redacted"}],["$","td","td-10",{"children":"..."}],["$","td","td-11",{"children":"1.000210e+11"}],["$","td","td-12",{"children":"Park Lane"}],["$","td","td-13",{"children":"21401484.0"}],["$","td","td-14",{"children":"UB9"}],["$","td","td-15",{"children":"504689.0"}],["$","td","td-16",{"children":"190685.0"}],["$","td","td-17",{"children":"504650"}],["$","td","td-18",{"children":"190650"}],["$","td","td-19",{"children":"51.605283"}],["$","td","td-20",{"children":"-0.489684"}]]}]
+63:["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"3553091.0"}],["$","td","td-1",{"children":"06/01/2009 15:23"}],["$","td","td-2",{"children":"2009"}],["$","td","td-3",{"children":"2008/09"}],["$","td","td-4",{"children":"Special Service"}],["$","td","td-5",{"children":"1.0"}],["$","td","td-6",{"children":"1.0"}],["$","td","td-7",{"children":"255"}],["$","td","td-8",{"children":"255.0"}],["$","td","td-9",{"children":"Redacted"}],["$","td","td-10",{"children":"..."}],["$","td","td-11",{"children":"NaN"}],["$","td","td-12",{"children":"Swindon Lane"}],["$","td","td-13",{"children":"21300122.0"}],["$","td","td-14",{"children":"RM3"}],["$","td","td-15",{"children":"NaN"}],["$","td","td-16",{"children":"NaN"}],["$","td","td-17",{"children":"554650"}],["$","td","td-18",{"children":"192350"}],["$","td","td-19",{"children":"NaN"}],["$","td","td-20",{"children":"NaN"}]]}]
+64:["$","p","p-0",{"children":"5 rows × 31 columns"}]
+6a:[["$","p","p-0",{"children":"As you may recall from above, today's chart consists of several lineplots that are set in a very custom layout. Let's start by trying to create only one of the subplots in the figure. This will be very helpful to understand all the tricks and details behind this wonderful chart."}]]
+6b:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-time-series-and-facetting-with-matplotlib/output-3.png","alt":"Time series with filled area and custom facetting in Matplotlib","width":483,"height":303,"loading":"lazy","decoding":"async"}]}]]
+6e:[["$","p","p-0",{"children":"The chart above is a good start. Not too hard, not too impressive. The subplots in the original chart look much better. Let's improve this one too!"}],["$","p","p-1",{"children":"This step consists of tweaking many details in the layout. Have a look at the comments to follow along step-by-step!"}]]
+6f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-time-series-and-facetting-with-matplotlib/output-4.png","alt":"Time series with filled area and custom facetting in Matplotlib","width":473,"height":316,"loading":"lazy","decoding":"async"}]}]]
+73:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-time-series-and-facetting-with-matplotlib/output-5.png","alt":"Time series with filled area and custom facetting in Matplotlib","width":705,"height":588,"loading":"lazy","decoding":"async"}]}]]
+76:[["$","p","p-0",{"children":"Nice move! Removing the empty axes had a noticeably positive effect on the plot. However, if you compare the chart obtained so far with the one introduced above, you may notice that tick labels are missing in many panels."}],["$","p","p-1",{"children":["By default, when ",["$","code","code-0",{"children":"sharex=True"}]," and ",["$","code","code-1",{"children":"sharey=True"}]," are set, Matplotlib only uses y-tick labels for the panels on the first column and x-tick labels for the panel on the bottom row. This actually makes a lot of sense in a normal rectangular layout since repeating the same labels on every panel would only result in unnecessary clutter."]}],["$","p","p-2",{"children":["But this isn't just a rectangular layout and we want tick labels back in very custom locations. In this case, they are not going to be placed in the panels on the first column or last row. They are going to be located in the panels on the first column or last row that ",["$","strong","strong-0",{"children":"isn't empty"}],"."]}]]
+77:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-time-series-and-facetting-with-matplotlib/output-7.png","alt":"Time series with filled area and custom facetting in Matplotlib","width":702,"height":585,"loading":"lazy","decoding":"async"}]}]]
+7a:[["$","p","p-0",{"children":"The chart above is just one step away from being finished. This last step is about adding a good-looking title, a legend to tell the readers how to read the lines and the filled areas, and adjusting the margin and space between subplots."}]]
+7b:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-time-series-and-facetting-with-matplotlib/output-8.png","alt":"Time series with filled area and custom facetting in Matplotlib","width":809,"height":700,"loading":"lazy","decoding":"async"}]}]]

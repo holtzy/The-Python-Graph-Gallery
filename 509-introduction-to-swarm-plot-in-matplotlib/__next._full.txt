@@ -1,0 +1,870 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/09q85_ay6xdo0.js"
+3:"/_next/static/chunks/21dxsc4p3jeoz.js"
+4:"/_next/static/chunks/1d1qeiuriwpmz.js"
+5:"/_next/static/chunks/1u5pxdefkf32d.js"
+6:I[62319,["$2","$3","$4","$5"],"default"]
+7:I[39756,["$2","$3","$4","$5"],"default"]
+8:I[37457,["$2","$3","$4","$5"],"default"]
+9:"/_next/static/chunks/354p-aqxaih3m.js"
+a:I[22016,["$2","$3","$4","$5","$9"],""]
+b:I[44110,["$2","$3","$4","$5","$9"],"default"]
+19:I[68027,["$2","$3","$4","$5"],"default",1]
+:HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
+:HL["/_next/static/chunks/1ms0qnrh2aktb.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":{"n":"slug","t":"d","k":"509-introduction-to-swarm-plot-in-matplotlib","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":66048,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","509-introduction-to-swarm-plot-in-matplotlib",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/09q85_ay6xdo0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/21dxsc4p3jeoz.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1d1qeiuriwpmz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1u5pxdefkf32d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"JdxiwG_variable iGg3zq_variable antialiased","children":[["$","head",null,{"children":["$","link",null,{"rel":"sitemap","type":"application/xml","href":"/sitemap-index.xml"}]}],["$","body",null,{"children":[["$","$L6",null,{}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":[["$","h2",null,{"id":"404","children":" 😞 Oh No 😞 | 404"}],["$","p",null,{"children":"It looks like there is nothing here anymore."}],["$","p",null,{"children":["Please go back to the ",["$","$La",null,{"href":"/","children":"gallery home page"}]," and check if you can find your graph!"]}]]}],["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}],["$","div",null,{"className":"h-16 sm:h-20"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-24 border-t py-8 text-sm text-muted-foreground","children":["$","div",null,{"className":"mx-auto max-w-5xl px-5","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-4 sm:flex-row","children":[["$","div",null,{"children":["Copyright © the Python Graph Gallery ",2026]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","a","https://github.com/holtzy",{"href":"https://github.com/holtzy","aria-label":"Link to Yan Holtz Github profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 496 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"$c"}]}]}],"$Ld","$Le","$Lf"]}],"$L10"]}]}]}],"$L11","$L12"]}]]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",["$L1a","$L1b"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+1c:I[79520,["$2","$3","$4","$5"],""]
+1e:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:"ViewportBoundary"
+22:I[97367,["$2","$3","$4","$5"],"$21"]
+24:"MetadataBoundary"
+25:I[97367,["$2","$3","$4","$5"],"$24"]
+d:["$","a","https://twitter.com/R_Graph_Gallery",{"href":"https://twitter.com/R_Graph_Gallery","aria-label":"Link to Yan Holtz Twitter profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 512 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}]}]}]
+e:["$","a","https://www.linkedin.com/in/yan-holtz-2477534a/",{"href":"https://www.linkedin.com/in/yan-holtz-2477534a/","aria-label":"Link to Yan Holtz LinkedIn profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 448 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"}]}]}]
+f:["$","a","https://www.yan-holtz.com",{"href":"https://www.yan-holtz.com","aria-label":"Link to Yan Holtz Homepage","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 576 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"}]}]}]
+10:["$","div",null,{"className":"flex gap-2","children":[["$","a",null,{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE","className":"hover:text-foreground","children":"License"}],["$","span",null,{"children":"|"}],["$","$La",null,{"href":"/about","className":"hover:text-foreground","children":"About"}]]}]
+11:["$","$L1c",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-YJ2YPBMD3W","strategy":"afterInteractive"}]
+12:["$","$L1c",null,{"id":"gtag-init","strategy":"afterInteractive","children":"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YJ2YPBMD3W');"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L26"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+15:C
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]
+27:I[27201,["$2","$3","$4","$5"],"IconMark"]
+20:null
+26:[["$","title","0",{"children":"Basic beeswarm plots using Matplotlib"}],["$","meta","1",{"name":"description","content":"Plotting basic beeswarm plots using Matplotlib, for one or more groups, with our own functions."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"python, chart, swarm, plot, matplotlib, beeswarm"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/509-introduction-to-swarm-plot-in-matplotlib/"}],["$","meta","6",{"property":"og:title","content":"Basic beeswarm plots using Matplotlib"}],["$","meta","7",{"property":"og:description","content":"Plotting basic beeswarm plots using Matplotlib, for one or more groups, with our own functions."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/509-introduction-to-swarm-plot-in-matplotlib/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Basic beeswarm plots using Matplotlib"}],["$","meta","13",{"name":"twitter:description","content":"Plotting basic beeswarm plots using Matplotlib, for one or more groups, with our own functions."}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/509-introduction-to-swarm-plot-in-matplotlib/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L27","24",{}]]
+28:I[98936,["$2","$3","$4","$5","$9"],"default"]
+29:Tb1d,def simple_beeswarm(y, nbins=None):
+
+    # Convert y to a NumPy array
+    y = np.asarray(y)
+
+    # Calculate the number of bins if not provided
+    if nbins is None:
+        nbins = len(y) // 6
+
+    # Get upper and lower bounds of the data
+    x = np.zeros(len(y))
+    ylo = np.min(y)
+    yhi = np.max(y)
+
+    # Calculate the size of each bin based on the number of bins
+    dy = (yhi - ylo) / nbins
+
+    # Calculate the upper bounds of each bin using linspace
+    ybins = np.linspace(ylo + dy, yhi - dy, nbins - 1)
+
+    # Divide the indices into bins
+    i = np.arange(len(y))
+    ibs = [0] * nbins  # List to store indices for each bin
+    ybs = [0] * nbins  # List to store values for each bin
+    nmax = 0  # Variable to store the maximum number of data points in a bin
+    for j, ybin in enumerate(ybins):
+
+        # Create a boolean mask for elements that are less than or equal to the bin upper bound
+        f = y <= ybin
+
+        # Store the indices and values that belong to this bin
+        ibs[j], ybs[j] = i[f], y[f]
+
+        # Update nmax with the maximum number of elements in a bin so far
+        nmax = max(nmax, len(ibs[j]))
+
+        # Update i and y by excluding the elements already added to the current bin
+        f = ~f
+        i, y = i[f], y[f]
+
+    # Add the remaining elements to the last bin
+    ibs[-1], ybs[-1] = i, y
+    nmax = max(nmax, len(ibs[-1]))
+
+    # Assign x indices to the data points in each bin
+    dx = 1 / (nmax // 2)
+
+    for i, y in zip(ibs, ybs):
+        if len(i) > 1:
+
+            # Determine the index to start from based on whether the bin has an even or odd number of elements
+            j = len(i) % 2
+
+            # Sort the indices in the bin based on the corresponding values
+            i = i[np.argsort(y)]
+
+            # Separate the indices into two groups, 'a' and 'b'
+            a = i[j::2]
+            b = i[j+1::2]
+
+            # Assign x values to the 'a' group using positive values and to the 'b' group using negative values
+            x[a] = (0.5 + j / 3 + np.arange(len(b))) * dx
+            x[b] = (0.5 + j / 3 + np.arange(len(b))) * -dx
+
+    return x
+
+
+# Create a figure with a size of 2 inches (width) by 4 inches (height)
+fig = plt.figure(figsize=(2, 4))
+
+# Adjust the subplots so that they fit nicely within the figure
+fig.subplots_adjust(0.2, 0.2, 1.2, 1.2)
+
+# Add a single subplot (axes) to the figure
+ax = fig.add_subplot(1, 1, 1)
+ax.get_xaxis().set_visible(False)  # Mask the x-axis
+
+# Use the previously defined 'simple_beeswarm' function to get the x-axis positions for the beeswarm plot
+y = df['numerical_variable']
+x = simple_beeswarm(y)
+
+# Plot the data points using circles 'o' at the calculated x and y positions
+ax.plot(x, y, 'o')
+
+# Set axis labels and a title
+ax.set_ylabel("Y Axis Label")
+ax.set_title("Simple Beeswarm Plot")
+
+# Show the plot
+plt.show()2a:T9db,def simple_beeswarm2(y, nbins=None, width=1.):
+    """
+    Returns x coordinates for the points in ``y``, so that plotting ``x`` and
+    ``y`` results in a bee swarm plot.
+    """
+
+    # Convert y to a numpy array to ensure it is compatible with numpy functions
+    y = np.asarray(y)
+
+    # If nbins is not provided, calculate a suitable number of bins based on data length
+    if nbins is None:
+        # nbins = len(y) // 6
+        nbins = np.ceil(len(y) / 6).astype(int)
+
+    # Get the histogram of y and the corresponding bin edges
+    nn, ybins = np.histogram(y, bins=nbins)
+
+    # Find the maximum count in any bin to be used in calculating the x positions
+    nmax = nn.max()
+
+    # Create an array of zeros with the same length as y, to store x-coordinates
+    x = np.zeros(len(y))
+
+    # Divide indices of y-values into corresponding bins
+    ibs = []
+    for ymin, ymax in zip(ybins[:-1], ybins[1:]):
+
+        # Find the indices where y falls within the current bin
+        i = np.nonzero((y > ymin) * (y <= ymax))[0]
+        ibs.append(i)
+
+    # Assign x-coordinates to the points in each bin
+    dx = width / (nmax // 2)
+
+    for i in ibs:
+        yy = y[i]
+        if len(i) > 1:
+
+            # Determine the starting index (j) based on the number of elements in the bin
+            j = len(i) % 2
+
+            # Sort the indices based on their corresponding y-values
+            i = i[np.argsort(yy)]
+
+            # Separate the indices into two halves (a and b) for arranging the points
+            a = i[j::2]
+            b = i[j+1::2]
+
+            # Assign x-coordinates to points in each half of the bin
+            x[a] = (0.5 + j / 3 + np.arange(len(b))) * dx
+            x[b] = (0.5 + j / 3 + np.arange(len(b))) * -dx
+
+    return x
+
+
+fig, ax = plt.subplots(1, 1, figsize=(6, 8))
+ax.get_xaxis().set_visible(False)  # Mask the x-axis
+
+# Display each group:
+count = 0
+labels = ''
+for group in df['categorical_variable'].unique():
+
+    # Subset only observation from the group
+    y = df[df['categorical_variable'] == group]['numerical_variable']
+
+    # Get position of the observations
+    x = simple_beeswarm2(y, width=0.25)
+
+    # Plot
+    ax.plot(x+count, y, 'o')
+
+    # Moves each group 1 unit to the right for the next iteration (avoid overlapping)
+    count += 1
+
+# Add title and axis name
+plt.title('Beeswarm plot made with matplotlib')
+ax.set_ylabel("Y Axis Label")
+
+# Add a legend with the name of each distinct label
+ax.legend(df['categorical_variable'].unique())
+
+# Display the chart
+plt.show()2b:Taae,def simple_beeswarm2(y, nbins=None, width=1.):
+    """
+    Returns x coordinates for the points in ``y``, so that plotting ``x`` and
+    ``y`` results in a bee swarm plot.
+    """
+
+    # Convert y to a numpy array to ensure it is compatible with numpy functions
+    y = np.asarray(y)
+
+    # If nbins is not provided, calculate a suitable number of bins based on data length
+    if nbins is None:
+        # nbins = len(y) // 6
+        nbins = np.ceil(len(y) / 6).astype(int)
+
+    # Get the histogram of y and the corresponding bin edges
+    nn, ybins = np.histogram(y, bins=nbins)
+
+    # Find the maximum count in any bin to be used in calculating the x positions
+    nmax = nn.max()
+
+    # Create an array of zeros with the same length as y, to store x-coordinates
+    x = np.zeros(len(y))
+
+    # Divide indices of y-values into corresponding bins
+    ibs = []
+    for ymin, ymax in zip(ybins[:-1], ybins[1:]):
+
+        # Find the indices where y falls within the current bin
+        i = np.nonzero((y > ymin) * (y <= ymax))[0]
+        ibs.append(i)
+
+    # Assign x-coordinates to the points in each bin
+    dx = width / (nmax // 2)
+
+    for i in ibs:
+        yy = y[i]
+        if len(i) > 1:
+
+            # Determine the starting index (j) based on the number of elements in the bin
+            j = len(i) % 2
+
+            # Sort the indices based on their corresponding y-values
+            i = i[np.argsort(yy)]
+
+            # Separate the indices into two halves (a and b) for arranging the points
+            a = i[j::2]
+            b = i[j+1::2]
+
+            # Assign x-coordinates to points in each half of the bin
+            x[a] = (0.5 + j / 3 + np.arange(len(b))) * dx
+            x[b] = (0.5 + j / 3 + np.arange(len(b))) * -dx
+
+    return x
+
+
+fig, ax = plt.subplots(1, 1, figsize=(6, 8))
+ax.get_xaxis().set_visible(False)  # Mask the x-axis
+
+# Display each group:
+count = 1
+boxplot_data = []
+for group in df['categorical_variable'].unique():
+
+    # Subset only observation from the group
+    y = df[df['categorical_variable'] == group]['numerical_variable']
+
+    # Get position of the observations
+    x = simple_beeswarm2(y, width=0.25)
+
+    # Plot
+    ax.plot(x+count, y, 'o')
+
+    # Moves each group 1 unit to the right for the next iteration (avoid overlapping)
+    count += 1
+    # Add the values of the group to the `boxplot_data` variable
+    boxplot_data.append(y)
+
+# Add the boxplots
+ax.boxplot(boxplot_data,
+           widths=0.5,  # Boxplots width
+           )
+
+# Add title and axis name
+plt.title('Beeswarm plot and Boxplots, made with matplotlib')
+ax.set_ylabel("Y Axis Label")
+
+# Add a legend with the name of each distinct label
+ax.legend(df['categorical_variable'].unique())
+
+# Display the chart
+plt.show()1d:[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Basic beeswarm plots using Matplotlib"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Beeswarm2Big.webp","alt":"logo of a chart:Beeswarm2Big","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post describes how to create a <b>basic beeswarm plots</b> using <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a>. To do this, we have created our own functions suggested by <a href='https://stackoverflow.com/users/6151828/roger-vadim'>Roger Vadim</a> and <a href='https://stackoverflow.com/users/423420/michael-clerx'>Michael Clerx</a> on <a href='https://stackoverflow.com/questions/36153410/how-to-create-a-swarm-plot-with-matplotlib'>this blog post</a>, since matplotlib does not offer a function for this type of graph.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$La",null,{"href":"/beeswarm/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Beeswarm section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],["$","article",null,{"className":"wrapper post-content","children":["$","$L28",null,{"cells":["# Libraries\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd","# Random variables following a normal distribution\nsample_size = 100  # Define the size of the random data samples.\n# Generate data points for 'Group 1'\ndata_group1 = np.random.normal(loc=100, scale=30, size=sample_size)\n# Generate data points for 'Group 2'\ndata_group2 = np.random.normal(loc=130, scale=30, size=sample_size)\n# Concatenate the data to create a combined dataset\ndata_combined = np.concatenate([data_group1, data_group2])\n# List that indicates the category for each data point\ncategory_feature = ['Group1'] * sample_size + ['Group2'] * sample_size\n\n# Store this data into a pandas df\ndf = pd.DataFrame({'numerical_variable': data_combined,\n                   'categorical_variable': category_feature})","$29","$2a","$2b"],"children":"$L2c"}]}],"$L2d","$L2e","$L2f","$L30","$L31"]
+32:I[68978,["$2","$3","$4","$5","$9"],"default"]
+3f:I[59351,["$2","$3","$4","$5","$9"],"default"]
+2c:[["$","h2","h2-0",{"children":"What is a beeswarm plot?"}],"\n",["$","p","p-0",{"children":["Imagine you want to know how your friends' height is distributed. To do this, you can use a ",["$","strong","strong-0",{"children":"swarm plot"}],", which is a visual way of seeing individual data points (in this case, the height of your friends) and how they are distributed, with ",["$","strong","strong-1",{"children":"no two data points overlapping"}]," and all forming a neat line from shortest to tallest. It allows you to ",["$","strong","strong-2",{"children":"quickly understand"}]," the extent and distribution of data without losing any information."]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-1",{"children":["Since ",["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," does not have a function for beeswarm plot, we will need to create our own. We will use (",["$","em","em-0",{"children":"slightly modified"}],") functions suggested by ",["$","a","a-1",{"href":"https://stackoverflow.com/users/423420/michael-clerx","children":"MichaelClerx"}]," and ",["$","a","a-2",{"href":"https://stackoverflow.com/users/6151828/roger-vadim","children":"Roger Vadim"}]," on Stackoverflow ",["$","a","a-3",{"href":"https://stackoverflow.com/questions/36153410/how-to-create-a-swarm-plot-with-matplotlib","children":"here"}],"."]}],"\n",["$","p","p-2",{"children":"First, you need to install the following librairies:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," is used for plot customization purposes and display the chart"]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"numpy"}]," is used to generate some data and create the chart"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"pandas"}]," is used to create a datafram from the numpy generated data"]}],"\n"]}],"\n",["$","$L32","notebook-cell-0",{"index":0,"code":"# Libraries\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Libraries</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> matplotlib.pyplot </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> plt</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> numpy </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> np</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> pandas </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> pd</span></span></code></pre>","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-3",{"children":"First, we need to create data with 2 groups. To do this, we take the following steps:"}],"\n",["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":["Define the ",["$","strong","strong-0",{"children":"sample size"}]," per group. Given that we have two groups, there will be 50 people in each, for a total of 100."]}],"\n",["$","li","li-1",{"children":["Create the data for each group (here, we give them a different mean with ",["$","code","code-0",{"children":"loc=100"}]," VS ",["$","code","code-1",{"children":"loc=130"}],", in order to have sufficiently different groups)"]}],"\n",["$","li","li-2",{"children":["Create the list containing the ",["$","strong","strong-0",{"children":"group name"}]," for each observation"]}],"\n",["$","li","li-3",{"children":["Put all this data into a ","$L33"," dataframe"]}],"\n"]}],"\n","$L34","\n","$L35","\n","$L36","$L37","\n","$L38","$L39","\n","$L3a","$L3b","\n","$L3c","\n","$L3d","\n","$L3e"]
+2d:["$","div",null,{"className":"h-16 sm:h-20"}]
+2e:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$La","violin",{"href":"/violin-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Violin150.webp","alt":"logo of a chart:Violin","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Violin"}]]}],["$","$La","density",{"href":"/density-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Density150.webp","alt":"logo of a chart:Density","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Density"}]]}],["$","$La","histogram",{"href":"/histogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Histogram150.webp","alt":"logo of a chart:Histogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Histogram"}]]}],["$","$La","boxplot",{"href":"/boxplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Box1150.webp","alt":"logo of a chart:Box1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Boxplot"}]]}],["$","$La","ridgeline",{"href":"/ridgeline/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Joyplot150.webp","alt":"logo of a chart:Joyplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Ridgeline"}]]}],["$","$La","beeswarm",{"href":"/beeswarm/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Beeswarm2Big.webp","alt":"logo of a chart:Beeswarm2Big","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Beeswarm"}]]}]]}]]}]}]
+2f:["$","div",null,{"className":"h-16 sm:h-20"}]
+30:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+31:["$","$L3f",null,{}]
+33:["$","code","code-0",{"children":"pandas"}]
+34:["$","p","p-4",{"children":["The categorical variable will only be used to ",["$","strong","strong-0",{"children":"represent the distribution of several groups"}]," on the same graph."]}]
+40:Tcfb,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Random variables following a normal distribution</span></span>
+<span class="line"><span style="color:#24292E">sample_size </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 100</span><span style="color:#6A737D">  # Define the size of the random data samples.</span></span>
+<span class="line"><span style="color:#6A737D"># Generate data points for 'Group 1'</span></span>
+<span class="line"><span style="color:#24292E">data_group1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.normal(</span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#E36209">scale</span><span style="color:#D73A49">=</span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#24292E">sample_size)</span></span>
+<span class="line"><span style="color:#6A737D"># Generate data points for 'Group 2'</span></span>
+<span class="line"><span style="color:#24292E">data_group2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.normal(</span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#005CC5">130</span><span style="color:#24292E">, </span><span style="color:#E36209">scale</span><span style="color:#D73A49">=</span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#24292E">sample_size)</span></span>
+<span class="line"><span style="color:#6A737D"># Concatenate the data to create a combined dataset</span></span>
+<span class="line"><span style="color:#24292E">data_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.concatenate([data_group1, data_group2])</span></span>
+<span class="line"><span style="color:#6A737D"># List that indicates the category for each data point</span></span>
+<span class="line"><span style="color:#24292E">category_feature </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'Group1'</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#24292E"> sample_size </span><span style="color:#D73A49">+</span><span style="color:#24292E"> [</span><span style="color:#032F62">'Group2'</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#24292E"> sample_size</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Store this data into a pandas df</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({</span><span style="color:#032F62">'numerical_variable'</span><span style="color:#24292E">: data_combined,</span></span>
+<span class="line"><span style="color:#032F62">                   'categorical_variable'</span><span style="color:#24292E">: category_feature})</span></span></code></pre>35:["$","$L32","notebook-cell-1",{"index":1,"code":"# Random variables following a normal distribution\nsample_size = 100  # Define the size of the random data samples.\n# Generate data points for 'Group 1'\ndata_group1 = np.random.normal(loc=100, scale=30, size=sample_size)\n# Generate data points for 'Group 2'\ndata_group2 = np.random.normal(loc=130, scale=30, size=sample_size)\n# Concatenate the data to create a combined dataset\ndata_combined = np.concatenate([data_group1, data_group2])\n# List that indicates the category for each data point\ncategory_feature = ['Group1'] * sample_size + ['Group2'] * sample_size\n\n# Store this data into a pandas df\ndf = pd.DataFrame({'numerical_variable': data_combined,\n                   'categorical_variable': category_feature})","highlighted":"$40","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+36:["$","h2","h2-3",{"children":"Basic beeswarm plot"}]
+41:Tb1d,def simple_beeswarm(y, nbins=None):
+
+    # Convert y to a NumPy array
+    y = np.asarray(y)
+
+    # Calculate the number of bins if not provided
+    if nbins is None:
+        nbins = len(y) // 6
+
+    # Get upper and lower bounds of the data
+    x = np.zeros(len(y))
+    ylo = np.min(y)
+    yhi = np.max(y)
+
+    # Calculate the size of each bin based on the number of bins
+    dy = (yhi - ylo) / nbins
+
+    # Calculate the upper bounds of each bin using linspace
+    ybins = np.linspace(ylo + dy, yhi - dy, nbins - 1)
+
+    # Divide the indices into bins
+    i = np.arange(len(y))
+    ibs = [0] * nbins  # List to store indices for each bin
+    ybs = [0] * nbins  # List to store values for each bin
+    nmax = 0  # Variable to store the maximum number of data points in a bin
+    for j, ybin in enumerate(ybins):
+
+        # Create a boolean mask for elements that are less than or equal to the bin upper bound
+        f = y <= ybin
+
+        # Store the indices and values that belong to this bin
+        ibs[j], ybs[j] = i[f], y[f]
+
+        # Update nmax with the maximum number of elements in a bin so far
+        nmax = max(nmax, len(ibs[j]))
+
+        # Update i and y by excluding the elements already added to the current bin
+        f = ~f
+        i, y = i[f], y[f]
+
+    # Add the remaining elements to the last bin
+    ibs[-1], ybs[-1] = i, y
+    nmax = max(nmax, len(ibs[-1]))
+
+    # Assign x indices to the data points in each bin
+    dx = 1 / (nmax // 2)
+
+    for i, y in zip(ibs, ybs):
+        if len(i) > 1:
+
+            # Determine the index to start from based on whether the bin has an even or odd number of elements
+            j = len(i) % 2
+
+            # Sort the indices in the bin based on the corresponding values
+            i = i[np.argsort(y)]
+
+            # Separate the indices into two groups, 'a' and 'b'
+            a = i[j::2]
+            b = i[j+1::2]
+
+            # Assign x values to the 'a' group using positive values and to the 'b' group using negative values
+            x[a] = (0.5 + j / 3 + np.arange(len(b))) * dx
+            x[b] = (0.5 + j / 3 + np.arange(len(b))) * -dx
+
+    return x
+
+
+# Create a figure with a size of 2 inches (width) by 4 inches (height)
+fig = plt.figure(figsize=(2, 4))
+
+# Adjust the subplots so that they fit nicely within the figure
+fig.subplots_adjust(0.2, 0.2, 1.2, 1.2)
+
+# Add a single subplot (axes) to the figure
+ax = fig.add_subplot(1, 1, 1)
+ax.get_xaxis().set_visible(False)  # Mask the x-axis
+
+# Use the previously defined 'simple_beeswarm' function to get the x-axis positions for the beeswarm plot
+y = df['numerical_variable']
+x = simple_beeswarm(y)
+
+# Plot the data points using circles 'o' at the calculated x and y positions
+ax.plot(x, y, 'o')
+
+# Set axis labels and a title
+ax.set_ylabel("Y Axis Label")
+ax.set_title("Simple Beeswarm Plot")
+
+# Show the plot
+plt.show()42:T3884,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> simple_beeswarm</span><span style="color:#24292E">(y, nbins</span><span style="color:#D73A49">=</span><span style="color:#005CC5">None</span><span style="color:#24292E">):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Convert y to a NumPy array</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.asarray(y)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Calculate the number of bins if not provided</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> nbins </span><span style="color:#D73A49">is</span><span style="color:#005CC5"> None</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        nbins </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(y) </span><span style="color:#D73A49">//</span><span style="color:#005CC5"> 6</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Get upper and lower bounds of the data</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.zeros(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(y))</span></span>
+<span class="line"><span style="color:#24292E">    ylo </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.min(y)</span></span>
+<span class="line"><span style="color:#24292E">    yhi </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.max(y)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Calculate the size of each bin based on the number of bins</span></span>
+<span class="line"><span style="color:#24292E">    dy </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (yhi </span><span style="color:#D73A49">-</span><span style="color:#24292E"> ylo) </span><span style="color:#D73A49">/</span><span style="color:#24292E"> nbins</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Calculate the upper bounds of each bin using linspace</span></span>
+<span class="line"><span style="color:#24292E">    ybins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.linspace(ylo </span><span style="color:#D73A49">+</span><span style="color:#24292E"> dy, yhi </span><span style="color:#D73A49">-</span><span style="color:#24292E"> dy, nbins </span><span style="color:#D73A49">-</span><span style="color:#005CC5"> 1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Divide the indices into bins</span></span>
+<span class="line"><span style="color:#24292E">    i </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(y))</span></span>
+<span class="line"><span style="color:#24292E">    ibs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#24292E"> nbins  </span><span style="color:#6A737D"># List to store indices for each bin</span></span>
+<span class="line"><span style="color:#24292E">    ybs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#24292E"> nbins  </span><span style="color:#6A737D"># List to store values for each bin</span></span>
+<span class="line"><span style="color:#24292E">    nmax </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0</span><span style="color:#6A737D">  # Variable to store the maximum number of data points in a bin</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> j, ybin </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(ybins):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Create a boolean mask for elements that are less than or equal to the bin upper bound</span></span>
+<span class="line"><span style="color:#24292E">        f </span><span style="color:#D73A49">=</span><span style="color:#24292E"> y </span><span style="color:#D73A49">&#x3C;=</span><span style="color:#24292E"> ybin</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Store the indices and values that belong to this bin</span></span>
+<span class="line"><span style="color:#24292E">        ibs[j], ybs[j] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[f], y[f]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Update nmax with the maximum number of elements in a bin so far</span></span>
+<span class="line"><span style="color:#24292E">        nmax </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> max</span><span style="color:#24292E">(nmax, </span><span style="color:#005CC5">len</span><span style="color:#24292E">(ibs[j]))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Update i and y by excluding the elements already added to the current bin</span></span>
+<span class="line"><span style="color:#24292E">        f </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> ~</span><span style="color:#24292E">f</span></span>
+<span class="line"><span style="color:#24292E">        i, y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[f], y[f]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Add the remaining elements to the last bin</span></span>
+<span class="line"><span style="color:#24292E">    ibs[</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">], ybs[</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i, y</span></span>
+<span class="line"><span style="color:#24292E">    nmax </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> max</span><span style="color:#24292E">(nmax, </span><span style="color:#005CC5">len</span><span style="color:#24292E">(ibs[</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">]))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Assign x indices to the data points in each bin</span></span>
+<span class="line"><span style="color:#24292E">    dx </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 1</span><span style="color:#D73A49"> /</span><span style="color:#24292E"> (nmax </span><span style="color:#D73A49">//</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> i, y </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(ibs, ybs):</span></span>
+<span class="line"><span style="color:#D73A49">        if</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(i) </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 1</span><span style="color:#24292E">:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Determine the index to start from based on whether the bin has an even or odd number of elements</span></span>
+<span class="line"><span style="color:#24292E">            j </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(i) </span><span style="color:#D73A49">%</span><span style="color:#005CC5"> 2</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Sort the indices in the bin based on the corresponding values</span></span>
+<span class="line"><span style="color:#24292E">            i </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[np.argsort(y)]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Separate the indices into two groups, 'a' and 'b'</span></span>
+<span class="line"><span style="color:#24292E">            a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[j::</span><span style="color:#005CC5">2</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">            b </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[j</span><span style="color:#D73A49">+</span><span style="color:#005CC5">1</span><span style="color:#24292E">::</span><span style="color:#005CC5">2</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Assign x values to the 'a' group using positive values and to the 'b' group using negative values</span></span>
+<span class="line"><span style="color:#24292E">            x[a] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.5</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> j </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 3</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(b))) </span><span style="color:#D73A49">*</span><span style="color:#24292E"> dx</span></span>
+<span class="line"><span style="color:#24292E">            x[b] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.5</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> j </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 3</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(b))) </span><span style="color:#D73A49">*</span><span style="color:#D73A49"> -</span><span style="color:#24292E">dx</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> x</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create a figure with a size of 2 inches (width) by 4 inches (height)</span></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.figure(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#005CC5">4</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Adjust the subplots so that they fit nicely within the figure</span></span>
+<span class="line"><span style="color:#24292E">fig.subplots_adjust(</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a single subplot (axes) to the figure</span></span>
+<span class="line"><span style="color:#24292E">ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> fig.add_subplot(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.get_xaxis().set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)  </span><span style="color:#6A737D"># Mask the x-axis</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Use the previously defined 'simple_beeswarm' function to get the x-axis positions for the beeswarm plot</span></span>
+<span class="line"><span style="color:#24292E">y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'numerical_variable'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> simple_beeswarm(y)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Plot the data points using circles 'o' at the calculated x and y positions</span></span>
+<span class="line"><span style="color:#24292E">ax.plot(x, y, </span><span style="color:#032F62">'o'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Set axis labels and a title</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylabel(</span><span style="color:#032F62">"Y Axis Label"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span><span style="color:#032F62">"Simple Beeswarm Plot"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>37:["$","$L32","notebook-cell-2",{"index":2,"code":"$41","highlighted":"$42","interactive":true,"hasChart":true,"intro":"$L43","output":"$L44"}]
+38:["$","h2","h2-4",{"children":"Beeswarm plot with multiple groups"}]
+45:T9db,def simple_beeswarm2(y, nbins=None, width=1.):
+    """
+    Returns x coordinates for the points in ``y``, so that plotting ``x`` and
+    ``y`` results in a bee swarm plot.
+    """
+
+    # Convert y to a numpy array to ensure it is compatible with numpy functions
+    y = np.asarray(y)
+
+    # If nbins is not provided, calculate a suitable number of bins based on data length
+    if nbins is None:
+        # nbins = len(y) // 6
+        nbins = np.ceil(len(y) / 6).astype(int)
+
+    # Get the histogram of y and the corresponding bin edges
+    nn, ybins = np.histogram(y, bins=nbins)
+
+    # Find the maximum count in any bin to be used in calculating the x positions
+    nmax = nn.max()
+
+    # Create an array of zeros with the same length as y, to store x-coordinates
+    x = np.zeros(len(y))
+
+    # Divide indices of y-values into corresponding bins
+    ibs = []
+    for ymin, ymax in zip(ybins[:-1], ybins[1:]):
+
+        # Find the indices where y falls within the current bin
+        i = np.nonzero((y > ymin) * (y <= ymax))[0]
+        ibs.append(i)
+
+    # Assign x-coordinates to the points in each bin
+    dx = width / (nmax // 2)
+
+    for i in ibs:
+        yy = y[i]
+        if len(i) > 1:
+
+            # Determine the starting index (j) based on the number of elements in the bin
+            j = len(i) % 2
+
+            # Sort the indices based on their corresponding y-values
+            i = i[np.argsort(yy)]
+
+            # Separate the indices into two halves (a and b) for arranging the points
+            a = i[j::2]
+            b = i[j+1::2]
+
+            # Assign x-coordinates to points in each half of the bin
+            x[a] = (0.5 + j / 3 + np.arange(len(b))) * dx
+            x[b] = (0.5 + j / 3 + np.arange(len(b))) * -dx
+
+    return x
+
+
+fig, ax = plt.subplots(1, 1, figsize=(6, 8))
+ax.get_xaxis().set_visible(False)  # Mask the x-axis
+
+# Display each group:
+count = 0
+labels = ''
+for group in df['categorical_variable'].unique():
+
+    # Subset only observation from the group
+    y = df[df['categorical_variable'] == group]['numerical_variable']
+
+    # Get position of the observations
+    x = simple_beeswarm2(y, width=0.25)
+
+    # Plot
+    ax.plot(x+count, y, 'o')
+
+    # Moves each group 1 unit to the right for the next iteration (avoid overlapping)
+    count += 1
+
+# Add title and axis name
+plt.title('Beeswarm plot made with matplotlib')
+ax.set_ylabel("Y Axis Label")
+
+# Add a legend with the name of each distinct label
+ax.legend(df['categorical_variable'].unique())
+
+# Display the chart
+plt.show()46:T3223,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> simple_beeswarm2</span><span style="color:#24292E">(y, nbins</span><span style="color:#D73A49">=</span><span style="color:#005CC5">None</span><span style="color:#24292E">, width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">.):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Returns x coordinates for the points in ``y``, so that plotting ``x`` and</span></span>
+<span class="line"><span style="color:#032F62">    ``y`` results in a bee swarm plot.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Convert y to a numpy array to ensure it is compatible with numpy functions</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.asarray(y)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # If nbins is not provided, calculate a suitable number of bins based on data length</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> nbins </span><span style="color:#D73A49">is</span><span style="color:#005CC5"> None</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#6A737D">        # nbins = len(y) // 6</span></span>
+<span class="line"><span style="color:#24292E">        nbins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.ceil(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(y) </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 6</span><span style="color:#24292E">).astype(</span><span style="color:#005CC5">int</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Get the histogram of y and the corresponding bin edges</span></span>
+<span class="line"><span style="color:#24292E">    nn, ybins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.histogram(y, </span><span style="color:#E36209">bins</span><span style="color:#D73A49">=</span><span style="color:#24292E">nbins)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Find the maximum count in any bin to be used in calculating the x positions</span></span>
+<span class="line"><span style="color:#24292E">    nmax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> nn.max()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Create an array of zeros with the same length as y, to store x-coordinates</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.zeros(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(y))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Divide indices of y-values into corresponding bins</span></span>
+<span class="line"><span style="color:#24292E">    ibs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> []</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> ymin, ymax </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(ybins[:</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">], ybins[</span><span style="color:#005CC5">1</span><span style="color:#24292E">:]):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Find the indices where y falls within the current bin</span></span>
+<span class="line"><span style="color:#24292E">        i </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.nonzero((y </span><span style="color:#D73A49">></span><span style="color:#24292E"> ymin) </span><span style="color:#D73A49">*</span><span style="color:#24292E"> (y </span><span style="color:#D73A49">&#x3C;=</span><span style="color:#24292E"> ymax))[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">        ibs.append(i)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Assign x-coordinates to the points in each bin</span></span>
+<span class="line"><span style="color:#24292E">    dx </span><span style="color:#D73A49">=</span><span style="color:#24292E"> width </span><span style="color:#D73A49">/</span><span style="color:#24292E"> (nmax </span><span style="color:#D73A49">//</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> ibs:</span></span>
+<span class="line"><span style="color:#24292E">        yy </span><span style="color:#D73A49">=</span><span style="color:#24292E"> y[i]</span></span>
+<span class="line"><span style="color:#D73A49">        if</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(i) </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 1</span><span style="color:#24292E">:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Determine the starting index (j) based on the number of elements in the bin</span></span>
+<span class="line"><span style="color:#24292E">            j </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(i) </span><span style="color:#D73A49">%</span><span style="color:#005CC5"> 2</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Sort the indices based on their corresponding y-values</span></span>
+<span class="line"><span style="color:#24292E">            i </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[np.argsort(yy)]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Separate the indices into two halves (a and b) for arranging the points</span></span>
+<span class="line"><span style="color:#24292E">            a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[j::</span><span style="color:#005CC5">2</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">            b </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[j</span><span style="color:#D73A49">+</span><span style="color:#005CC5">1</span><span style="color:#24292E">::</span><span style="color:#005CC5">2</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Assign x-coordinates to points in each half of the bin</span></span>
+<span class="line"><span style="color:#24292E">            x[a] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.5</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> j </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 3</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(b))) </span><span style="color:#D73A49">*</span><span style="color:#24292E"> dx</span></span>
+<span class="line"><span style="color:#24292E">            x[b] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.5</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> j </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 3</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(b))) </span><span style="color:#D73A49">*</span><span style="color:#D73A49"> -</span><span style="color:#24292E">dx</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> x</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">ax.get_xaxis().set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)  </span><span style="color:#6A737D"># Mask the x-axis</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Display each group:</span></span>
+<span class="line"><span style="color:#24292E">count </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0</span></span>
+<span class="line"><span style="color:#24292E">labels </span><span style="color:#D73A49">=</span><span style="color:#032F62"> ''</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> group </span><span style="color:#D73A49">in</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'categorical_variable'</span><span style="color:#24292E">].unique():</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Subset only observation from the group</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'categorical_variable'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> group][</span><span style="color:#032F62">'numerical_variable'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Get position of the observations</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> simple_beeswarm2(y, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.25</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Plot</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x</span><span style="color:#D73A49">+</span><span style="color:#24292E">count, y, </span><span style="color:#032F62">'o'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Moves each group 1 unit to the right for the next iteration (avoid overlapping)</span></span>
+<span class="line"><span style="color:#24292E">    count </span><span style="color:#D73A49">+=</span><span style="color:#005CC5"> 1</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add title and axis name</span></span>
+<span class="line"><span style="color:#24292E">plt.title(</span><span style="color:#032F62">'Beeswarm plot made with matplotlib'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylabel(</span><span style="color:#032F62">"Y Axis Label"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a legend with the name of each distinct label</span></span>
+<span class="line"><span style="color:#24292E">ax.legend(df[</span><span style="color:#032F62">'categorical_variable'</span><span style="color:#24292E">].unique())</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Display the chart</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>39:["$","$L32","notebook-cell-3",{"index":3,"code":"$45","highlighted":"$46","interactive":true,"hasChart":true,"intro":"$L47","output":"$L48"}]
+3a:["$","h2","h2-5",{"children":"Bonus: add boxplots for better vizualisation"}]
+49:Taae,def simple_beeswarm2(y, nbins=None, width=1.):
+    """
+    Returns x coordinates for the points in ``y``, so that plotting ``x`` and
+    ``y`` results in a bee swarm plot.
+    """
+
+    # Convert y to a numpy array to ensure it is compatible with numpy functions
+    y = np.asarray(y)
+
+    # If nbins is not provided, calculate a suitable number of bins based on data length
+    if nbins is None:
+        # nbins = len(y) // 6
+        nbins = np.ceil(len(y) / 6).astype(int)
+
+    # Get the histogram of y and the corresponding bin edges
+    nn, ybins = np.histogram(y, bins=nbins)
+
+    # Find the maximum count in any bin to be used in calculating the x positions
+    nmax = nn.max()
+
+    # Create an array of zeros with the same length as y, to store x-coordinates
+    x = np.zeros(len(y))
+
+    # Divide indices of y-values into corresponding bins
+    ibs = []
+    for ymin, ymax in zip(ybins[:-1], ybins[1:]):
+
+        # Find the indices where y falls within the current bin
+        i = np.nonzero((y > ymin) * (y <= ymax))[0]
+        ibs.append(i)
+
+    # Assign x-coordinates to the points in each bin
+    dx = width / (nmax // 2)
+
+    for i in ibs:
+        yy = y[i]
+        if len(i) > 1:
+
+            # Determine the starting index (j) based on the number of elements in the bin
+            j = len(i) % 2
+
+            # Sort the indices based on their corresponding y-values
+            i = i[np.argsort(yy)]
+
+            # Separate the indices into two halves (a and b) for arranging the points
+            a = i[j::2]
+            b = i[j+1::2]
+
+            # Assign x-coordinates to points in each half of the bin
+            x[a] = (0.5 + j / 3 + np.arange(len(b))) * dx
+            x[b] = (0.5 + j / 3 + np.arange(len(b))) * -dx
+
+    return x
+
+
+fig, ax = plt.subplots(1, 1, figsize=(6, 8))
+ax.get_xaxis().set_visible(False)  # Mask the x-axis
+
+# Display each group:
+count = 1
+boxplot_data = []
+for group in df['categorical_variable'].unique():
+
+    # Subset only observation from the group
+    y = df[df['categorical_variable'] == group]['numerical_variable']
+
+    # Get position of the observations
+    x = simple_beeswarm2(y, width=0.25)
+
+    # Plot
+    ax.plot(x+count, y, 'o')
+
+    # Moves each group 1 unit to the right for the next iteration (avoid overlapping)
+    count += 1
+    # Add the values of the group to the `boxplot_data` variable
+    boxplot_data.append(y)
+
+# Add the boxplots
+ax.boxplot(boxplot_data,
+           widths=0.5,  # Boxplots width
+           )
+
+# Add title and axis name
+plt.title('Beeswarm plot and Boxplots, made with matplotlib')
+ax.set_ylabel("Y Axis Label")
+
+# Add a legend with the name of each distinct label
+ax.legend(df['categorical_variable'].unique())
+
+# Display the chart
+plt.show()4a:T350a,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> simple_beeswarm2</span><span style="color:#24292E">(y, nbins</span><span style="color:#D73A49">=</span><span style="color:#005CC5">None</span><span style="color:#24292E">, width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">.):</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#032F62">    Returns x coordinates for the points in ``y``, so that plotting ``x`` and</span></span>
+<span class="line"><span style="color:#032F62">    ``y`` results in a bee swarm plot.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Convert y to a numpy array to ensure it is compatible with numpy functions</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.asarray(y)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # If nbins is not provided, calculate a suitable number of bins based on data length</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> nbins </span><span style="color:#D73A49">is</span><span style="color:#005CC5"> None</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#6A737D">        # nbins = len(y) // 6</span></span>
+<span class="line"><span style="color:#24292E">        nbins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.ceil(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(y) </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 6</span><span style="color:#24292E">).astype(</span><span style="color:#005CC5">int</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Get the histogram of y and the corresponding bin edges</span></span>
+<span class="line"><span style="color:#24292E">    nn, ybins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.histogram(y, </span><span style="color:#E36209">bins</span><span style="color:#D73A49">=</span><span style="color:#24292E">nbins)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Find the maximum count in any bin to be used in calculating the x positions</span></span>
+<span class="line"><span style="color:#24292E">    nmax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> nn.max()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Create an array of zeros with the same length as y, to store x-coordinates</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.zeros(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(y))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Divide indices of y-values into corresponding bins</span></span>
+<span class="line"><span style="color:#24292E">    ibs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> []</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> ymin, ymax </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(ybins[:</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">], ybins[</span><span style="color:#005CC5">1</span><span style="color:#24292E">:]):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Find the indices where y falls within the current bin</span></span>
+<span class="line"><span style="color:#24292E">        i </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.nonzero((y </span><span style="color:#D73A49">></span><span style="color:#24292E"> ymin) </span><span style="color:#D73A49">*</span><span style="color:#24292E"> (y </span><span style="color:#D73A49">&#x3C;=</span><span style="color:#24292E"> ymax))[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">        ibs.append(i)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Assign x-coordinates to the points in each bin</span></span>
+<span class="line"><span style="color:#24292E">    dx </span><span style="color:#D73A49">=</span><span style="color:#24292E"> width </span><span style="color:#D73A49">/</span><span style="color:#24292E"> (nmax </span><span style="color:#D73A49">//</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#24292E"> ibs:</span></span>
+<span class="line"><span style="color:#24292E">        yy </span><span style="color:#D73A49">=</span><span style="color:#24292E"> y[i]</span></span>
+<span class="line"><span style="color:#D73A49">        if</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(i) </span><span style="color:#D73A49">></span><span style="color:#005CC5"> 1</span><span style="color:#24292E">:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Determine the starting index (j) based on the number of elements in the bin</span></span>
+<span class="line"><span style="color:#24292E">            j </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(i) </span><span style="color:#D73A49">%</span><span style="color:#005CC5"> 2</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Sort the indices based on their corresponding y-values</span></span>
+<span class="line"><span style="color:#24292E">            i </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[np.argsort(yy)]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Separate the indices into two halves (a and b) for arranging the points</span></span>
+<span class="line"><span style="color:#24292E">            a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[j::</span><span style="color:#005CC5">2</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">            b </span><span style="color:#D73A49">=</span><span style="color:#24292E"> i[j</span><span style="color:#D73A49">+</span><span style="color:#005CC5">1</span><span style="color:#24292E">::</span><span style="color:#005CC5">2</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">            # Assign x-coordinates to points in each half of the bin</span></span>
+<span class="line"><span style="color:#24292E">            x[a] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.5</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> j </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 3</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(b))) </span><span style="color:#D73A49">*</span><span style="color:#24292E"> dx</span></span>
+<span class="line"><span style="color:#24292E">            x[b] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.5</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> j </span><span style="color:#D73A49">/</span><span style="color:#005CC5"> 3</span><span style="color:#D73A49"> +</span><span style="color:#24292E"> np.arange(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(b))) </span><span style="color:#D73A49">*</span><span style="color:#D73A49"> -</span><span style="color:#24292E">dx</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> x</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">ax.get_xaxis().set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)  </span><span style="color:#6A737D"># Mask the x-axis</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Display each group:</span></span>
+<span class="line"><span style="color:#24292E">count </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 1</span></span>
+<span class="line"><span style="color:#24292E">boxplot_data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> []</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> group </span><span style="color:#D73A49">in</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'categorical_variable'</span><span style="color:#24292E">].unique():</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Subset only observation from the group</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'categorical_variable'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> group][</span><span style="color:#032F62">'numerical_variable'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Get position of the observations</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> simple_beeswarm2(y, </span><span style="color:#E36209">width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.25</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Plot</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x</span><span style="color:#D73A49">+</span><span style="color:#24292E">count, y, </span><span style="color:#032F62">'o'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Moves each group 1 unit to the right for the next iteration (avoid overlapping)</span></span>
+<span class="line"><span style="color:#24292E">    count </span><span style="color:#D73A49">+=</span><span style="color:#005CC5"> 1</span></span>
+<span class="line"><span style="color:#6A737D">    # Add the values of the group to the `boxplot_data` variable</span></span>
+<span class="line"><span style="color:#24292E">    boxplot_data.append(y)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add the boxplots</span></span>
+<span class="line"><span style="color:#24292E">ax.boxplot(boxplot_data,</span></span>
+<span class="line"><span style="color:#E36209">           widths</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Boxplots width</span></span>
+<span class="line"><span style="color:#24292E">           )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add title and axis name</span></span>
+<span class="line"><span style="color:#24292E">plt.title(</span><span style="color:#032F62">'Beeswarm plot and Boxplots, made with matplotlib'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylabel(</span><span style="color:#032F62">"Y Axis Label"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a legend with the name of each distinct label</span></span>
+<span class="line"><span style="color:#24292E">ax.legend(df[</span><span style="color:#032F62">'categorical_variable'</span><span style="color:#24292E">].unique())</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Display the chart</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3b:["$","$L32","notebook-cell-4",{"index":4,"code":"$49","highlighted":"$4a","interactive":true,"hasChart":true,"intro":"$L4b","output":"$L4c"}]
+3c:["$","h2","h2-6",{"children":"Going further"}]
+3d:["$","p","p-5",{"children":["This article explains how to create a beeswarm plot with ",["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," with various customization features, such as plotting multiple groups or adding a boxplot beneath the main plot."]}]
+3e:["$","p","p-6",{"children":["For more examples of ",["$","strong","strong-0",{"children":"how to create or customize"}]," your beeswarm plots with Python, see the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/beeswarm/","children":"beeswarm plot section"}],". You may also be interested in creating a ",["$","a","a-1",{"href":"https://python-graph-gallery.com/505-introduction-to-swarm-plot-in-seaborn/","children":"beeswarm plot with Seaborn"}],"."]}]
+43:[["$","p","p-0",{"children":["The following code is a function that displays a simple ",["$","code","code-0",{"children":"bee swarm"}]," graphic, with a title and an axis name."]}],["$","p","p-1",{"children":["The main steps of the function involve ",["$","strong","strong-0",{"children":"dividing the data into bins"}]," based on the provided number of bins or a default value, calculating the upper bounds for each bin, and then arranging the data points in each bin to ",["$","strong","strong-1",{"children":"create the horizontal spread"}]," in the plot, ensuring they don't overlap."]}],["$","p","p-2",{"children":["The function ultimately returns the array ",["$","code","code-0",{"children":"x"}],", which contains the x positions of the data points for the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/beeswarm/","children":"beeswarm plot"}],"."]}],["$","p","p-3",{"children":["Once we have defined our function, the code sets up the ",["$","code","code-0",{"children":"figure"}],", ",["$","code","code-1",{"children":"subplot"}],", hides the x-axis, calculates the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/beeswarm/","children":"beeswarm plot"}]," using ",["$","code","code-2",{"children":"simple_beeswarm()"}],", and then displays the plot using ",["$","code","code-3",{"children":"plt.show()"}],". All these steps are necessary to create and show the beeswarm plot."]}]]
+44:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/509-introduction-to-swarm-plot-in-matplotlib/output-1.png","alt":"Basic beeswarm plots using Matplotlib","width":275,"height":445,"loading":"lazy","decoding":"async"}]}]]
+47:[["$","p","p-0",{"children":["In order to represent the distribution of several groups with a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/beeswarm/","children":"beeswarm plot"}],", we add a ",["$","code","code-0",{"children":"width"}]," argument to the original function."]}],["$","p","p-1",{"children":["Both functions (",["$","code","code-0",{"children":"simple_beeswarm()"}]," and ",["$","code","code-1",{"children":"simple_beeswarm2()"}],") create bee swarm plots to avoid overlapping points with the same values."]}],["$","p","p-2",{"children":["However, ",["$","strong","strong-0",{"children":"they differ in their approach to dividing data into bins"}],":"]}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","code","code-0",{"children":"simple_beeswarm"}]," uses a manual calculation of bins boundaries"]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"simple_beeswarm2"}]," uses the numpy histogram (",["$","code","code-1",{"children":"np.histogram()"}],")"]}],"\n"]}],["$","p","p-3",{"children":["In addition, ",["$","code","code-0",{"children":"simple_beeswarm2()"}]," lets you control the width of the bins with the ",["$","strong","strong-0",{"children":"width parameter"}],", while ",["$","code","code-1",{"children":"simple_beeswarm()"}]," uses a default number of bins and divides the data according to the size of each bin."]}],["$","p","p-4",{"children":["In this variant, in order to ",["$","strong","strong-0",{"children":"represent several groups"}]," on the same graph, we use a ",["$","code","code-0",{"children":"for"}]," loop to ",["$","strong","strong-1",{"children":"iterate through the distinct labels"}]," present in the categorical variable, ",["$","strong","strong-2",{"children":"create a subset"}]," of the relevant observations and display their distribution."]}]]
+48:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/509-introduction-to-swarm-plot-in-matplotlib/output-2.png","alt":"Basic beeswarm plots using Matplotlib","width":540,"height":661,"loading":"lazy","decoding":"async"}]}]]
+4b:[["$","p","p-0",{"children":["To get an even clearer idea of the distribution of your data, it may be useful to add ",["$","a","a-0",{"href":"https://python-graph-gallery.com/boxplot/","children":"box plots"}]," under the beeswarm plots, as suggested in the original function by Roger Vadim."]}],["$","p","p-1",{"children":"It's actually quite simple, with each iteration on the separate labels of the categorical variable:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["we ",["$","strong","strong-0",{"children":"collect the values"}]," of the group in question"]}],"\n",["$","li","li-1",{"children":["we ",["$","strong","strong-0",{"children":"add them to a list"}]," we've just initialized (",["$","code","code-0",{"children":"boxplot_data"}],")"]}],"\n"]}],["$","p","p-2",{"children":["We then display the boxplots using the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," function ",["$","code","code-0",{"children":"boxplot()"}],"."]}]]
+4c:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/509-introduction-to-swarm-plot-in-matplotlib/output-3.png","alt":"Basic beeswarm plots using Matplotlib","width":540,"height":661,"loading":"lazy","decoding":"async"}]}]]

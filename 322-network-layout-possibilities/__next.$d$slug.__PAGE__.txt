@@ -1,0 +1,152 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Network Layout Possibilities"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Network150.webp","alt":"logo of a chart:Network","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>Charts in post <a href='https://python-graph-gallery.com/320-basic-network-from-pandas-data-frame/'>#320</a> and <a href='https://python-graph-gallery.com/321-custom-networkx-graph-appearance/'>#321</a> explain how to draw a <b>basic network chart</b> and customize its appearance. The next step is to control the <b>layout</b> of your network. This post describes how to do it and provides several examples which different layout algorithms applied.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/network-chart/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Network section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/network.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"322-network-layout-possibilities","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Network Layout Possibilities"}],["$","meta","1",{"name":"description","content":"What are the layout algorithms and how to use them in a network chart in python"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, seaborn, matplotlib, network, layout"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/322-network-layout-possibilities/"}],["$","meta","6",{"property":"og:title","content":"Network Layout Possibilities"}],["$","meta","7",{"property":"og:description","content":"What are the layout algorithms and how to use them in a network chart in python"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/322-network-layout-possibilities/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Network Layout Possibilities"}],["$","meta","13",{"name":"twitter:description","content":"What are the layout algorithms and how to use them in a network chart in python"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/322-network-layout-possibilities/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+23:I[68978,["$3","$4","$5","$6","$d"],"default"]
+28:I[44110,["$3","$4","$5","$6","$d"],"default"]
+29:I[59351,["$3","$4","$5","$6","$d"],"default"]
+2a:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T42f,# libraries
+import pandas as pd
+import numpy as np
+import networkx as nx
+import matplotlib.pyplot as plt
+ 
+# Build a dataframe with your connections
+df = pd.DataFrame({ 'from':['A', 'B', 'C','A','E','F','E','G','G','D','F'], 'to':['D', 'A', 'E','C','A','F','G','D','B','G','C']})
+df
+ 
+# Build your graph
+G=nx.from_pandas_edgelist(df, 'from', 'to')
+ 
+# Fruchterman Reingold
+nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", pos=nx.fruchterman_reingold_layout(G))
+plt.title("fruchterman_reingold")
+plt.show()
+ 
+# Circular
+nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", pos=nx.circular_layout(G))
+plt.title("circular")
+plt.show()
+ 
+# Random
+nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", pos=nx.random_layout(G))
+plt.title("random")
+plt.show()
+ 
+# Spectral
+nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", pos=nx.spectral_layout(G))
+plt.title("spectral")
+plt.show()
+ 
+# Spring
+nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", pos=nx.spring_layout(G))
+plt.title("spring")
+plt.show()24:T42f,# libraries
+import pandas as pd
+import numpy as np
+import networkx as nx
+import matplotlib.pyplot as plt
+ 
+# Build a dataframe with your connections
+df = pd.DataFrame({ 'from':['A', 'B', 'C','A','E','F','E','G','G','D','F'], 'to':['D', 'A', 'E','C','A','F','G','D','B','G','C']})
+df
+ 
+# Build your graph
+G=nx.from_pandas_edgelist(df, 'from', 'to')
+ 
+# Fruchterman Reingold
+nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", pos=nx.fruchterman_reingold_layout(G))
+plt.title("fruchterman_reingold")
+plt.show()
+ 
+# Circular
+nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", pos=nx.circular_layout(G))
+plt.title("circular")
+plt.show()
+ 
+# Random
+nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", pos=nx.random_layout(G))
+plt.title("random")
+plt.show()
+ 
+# Spectral
+nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", pos=nx.spectral_layout(G))
+plt.title("spectral")
+plt.show()
+ 
+# Spring
+nx.draw(G, with_labels=True, node_size=1500, node_color="skyblue", pos=nx.spring_layout(G))
+plt.title("spring")
+plt.show()25:T2257,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># libraries</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> networkx </span><span style="color:#D73A49">as</span><span style="color:#24292E"> nx</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Build a dataframe with your connections</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({ </span><span style="color:#032F62">'from'</span><span style="color:#24292E">:[</span><span style="color:#032F62">'A'</span><span style="color:#24292E">, </span><span style="color:#032F62">'B'</span><span style="color:#24292E">, </span><span style="color:#032F62">'C'</span><span style="color:#24292E">,</span><span style="color:#032F62">'A'</span><span style="color:#24292E">,</span><span style="color:#032F62">'E'</span><span style="color:#24292E">,</span><span style="color:#032F62">'F'</span><span style="color:#24292E">,</span><span style="color:#032F62">'E'</span><span style="color:#24292E">,</span><span style="color:#032F62">'G'</span><span style="color:#24292E">,</span><span style="color:#032F62">'G'</span><span style="color:#24292E">,</span><span style="color:#032F62">'D'</span><span style="color:#24292E">,</span><span style="color:#032F62">'F'</span><span style="color:#24292E">], </span><span style="color:#032F62">'to'</span><span style="color:#24292E">:[</span><span style="color:#032F62">'D'</span><span style="color:#24292E">, </span><span style="color:#032F62">'A'</span><span style="color:#24292E">, </span><span style="color:#032F62">'E'</span><span style="color:#24292E">,</span><span style="color:#032F62">'C'</span><span style="color:#24292E">,</span><span style="color:#032F62">'A'</span><span style="color:#24292E">,</span><span style="color:#032F62">'F'</span><span style="color:#24292E">,</span><span style="color:#032F62">'G'</span><span style="color:#24292E">,</span><span style="color:#032F62">'D'</span><span style="color:#24292E">,</span><span style="color:#032F62">'B'</span><span style="color:#24292E">,</span><span style="color:#032F62">'G'</span><span style="color:#24292E">,</span><span style="color:#032F62">'C'</span><span style="color:#24292E">]})</span></span>
+<span class="line"><span style="color:#24292E">df</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Build your graph</span></span>
+<span class="line"><span style="color:#24292E">G</span><span style="color:#D73A49">=</span><span style="color:#24292E">nx.from_pandas_edgelist(df, </span><span style="color:#032F62">'from'</span><span style="color:#24292E">, </span><span style="color:#032F62">'to'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Fruchterman Reingold</span></span>
+<span class="line"><span style="color:#24292E">nx.draw(G, </span><span style="color:#E36209">with_labels</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">node_size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1500</span><span style="color:#24292E">, </span><span style="color:#E36209">node_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"skyblue"</span><span style="color:#24292E">, </span><span style="color:#E36209">pos</span><span style="color:#D73A49">=</span><span style="color:#24292E">nx.fruchterman_reingold_layout(G))</span></span>
+<span class="line"><span style="color:#24292E">plt.title(</span><span style="color:#032F62">"fruchterman_reingold"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Circular</span></span>
+<span class="line"><span style="color:#24292E">nx.draw(G, </span><span style="color:#E36209">with_labels</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">node_size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1500</span><span style="color:#24292E">, </span><span style="color:#E36209">node_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"skyblue"</span><span style="color:#24292E">, </span><span style="color:#E36209">pos</span><span style="color:#D73A49">=</span><span style="color:#24292E">nx.circular_layout(G))</span></span>
+<span class="line"><span style="color:#24292E">plt.title(</span><span style="color:#032F62">"circular"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Random</span></span>
+<span class="line"><span style="color:#24292E">nx.draw(G, </span><span style="color:#E36209">with_labels</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">node_size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1500</span><span style="color:#24292E">, </span><span style="color:#E36209">node_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"skyblue"</span><span style="color:#24292E">, </span><span style="color:#E36209">pos</span><span style="color:#D73A49">=</span><span style="color:#24292E">nx.random_layout(G))</span></span>
+<span class="line"><span style="color:#24292E">plt.title(</span><span style="color:#032F62">"random"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Spectral</span></span>
+<span class="line"><span style="color:#24292E">nx.draw(G, </span><span style="color:#E36209">with_labels</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">node_size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1500</span><span style="color:#24292E">, </span><span style="color:#E36209">node_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"skyblue"</span><span style="color:#24292E">, </span><span style="color:#E36209">pos</span><span style="color:#D73A49">=</span><span style="color:#24292E">nx.spectral_layout(G))</span></span>
+<span class="line"><span style="color:#24292E">plt.title(</span><span style="color:#032F62">"spectral"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span>
+<span class="line"><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#6A737D"># Spring</span></span>
+<span class="line"><span style="color:#24292E">nx.draw(G, </span><span style="color:#E36209">with_labels</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">node_size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1500</span><span style="color:#24292E">, </span><span style="color:#E36209">node_color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"skyblue"</span><span style="color:#24292E">, </span><span style="color:#E36209">pos</span><span style="color:#D73A49">=</span><span style="color:#24292E">nx.spring_layout(G))</span></span>
+<span class="line"><span style="color:#24292E">plt.title(</span><span style="color:#032F62">"spring"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["$22"],"children":[["$","$L23","notebook-cell-0",{"index":0,"code":"$24","highlighted":"$25","interactive":true,"hasChart":true,"intro":"$L26","output":"$L27"}]]}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","chordDiagram",{"href":"/chord-diagram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Chord150.webp","alt":"logo of a chart:Chord","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Chord Diagram"}]]}],["$","$Le","network",{"href":"/network-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Network150.webp","alt":"logo of a chart:Network","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Network"}]]}],["$","$Le","sankey",{"href":"/sankey-diagram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Sankey150.webp","alt":"logo of a chart:Sankey","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Sankey"}]]}],["$","$Le","arc",{"href":"/arc-diagram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Arc150.webp","alt":"logo of a chart:Arc","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Arc Diagram"}]]}],["$","$Le","edgeBundling",{"href":"/hierarchical-edge-bundling/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bundle150.webp","alt":"logo of a chart:Bundle","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Edge Bundling"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L28",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L29",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L2a",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@2b"}]}]
+20:true
+b:300
+26:[["$","p","p-0",{"children":["There is actually an algorithm that calculates the most ",["$","strong","strong-0",{"children":"optimal position"}]," of each node. Several algorithms have been developed and are proposed by NetworkX. This page illustrates this concept by taking the same small dataset and applying different layout algorithms on it. If you have no idea which one is the best for you, just let the function to use the default! (It will be the fruchterman Reingold solution). Read more about it with ",["$","code","code-0",{"children":"help(nx.layout)"}],"."]}]]
+27:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/322-network-layout-possibilities/output-1.png","alt":"Network Layout Possibilities","width":446,"height":318,"loading":"lazy","decoding":"async"}]}],["$","p","p-1",{"children":["$","img","img-0",{"src":"/posts/322-network-layout-possibilities/output-2.png","alt":"Network Layout Possibilities","width":446,"height":318,"loading":"lazy","decoding":"async"}]}],["$","p","p-2",{"children":["$","img","img-0",{"src":"/posts/322-network-layout-possibilities/output-3.png","alt":"Network Layout Possibilities","width":446,"height":318,"loading":"lazy","decoding":"async"}]}],["$","p","p-3",{"children":["$","img","img-0",{"src":"/posts/322-network-layout-possibilities/output-4.png","alt":"Network Layout Possibilities","width":446,"height":318,"loading":"lazy","decoding":"async"}]}],["$","p","p-4",{"children":["$","img","img-0",{"src":"/posts/322-network-layout-possibilities/output-5.png","alt":"Network Layout Possibilities","width":446,"height":318,"loading":"lazy","decoding":"async"}]}]]
+2b:null
+b:C
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

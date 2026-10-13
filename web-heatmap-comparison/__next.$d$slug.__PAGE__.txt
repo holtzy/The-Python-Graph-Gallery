@@ -1,0 +1,877 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Double heatmap with custom annotations"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Heatmap150.webp","alt":"logo of a chart:Heatmap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p><a href='https://python-graph-gallery.com/heatmap/'>Heatmaps</a> can be a great way to visualize evolution through time. This post shows how to create a <b>double heatmap</b>, one normal and one normalized, with annotations using <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a> and <a href='https://python-graph-gallery.com/seaborn/'>seaborn</a>.<br><br>We will create a <b>step-by-step</b> guide to build the plot, starting with a very simple heatmap and ending with a <b>fully customized one</b>.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/heatmap/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Heatmap section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/heatmap.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-heatmap-comparison","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Double heatmap with custom annotations"}],["$","meta","1",{"name":"description","content":"How to create a double heatmap with annotations using matplotlib and seaborn"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"heatmap, seaborn, matplotlib, python, double heatmap, annotations, highlight_text"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-heatmap-comparison/"}],["$","meta","6",{"property":"og:title","content":"Double heatmap with custom annotations"}],["$","meta","7",{"property":"og:description","content":"How to create a double heatmap with annotations using matplotlib and seaborn"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Double heatmap with custom annotations"}],["$","meta","13",{"name":"twitter:description","content":"How to create a double heatmap with annotations using matplotlib and seaborn"}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+25:I[44110,["$3","$4","$5","$6","$d"],"default"]
+26:I[59351,["$3","$4","$5","$6","$d"],"default"]
+27:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T6fd,# create a custom colormap
+cmap = mcolors.LinearSegmentedColormap.from_list("", ["#2a9d8f", "#e9c46a", "#e76f51"])
+
+fig, axs = plt.subplots(ncols=2, figsize=(16, 10))
+
+# iterate over the datasets
+for i, data in enumerate([heatmap_data, heatmap_data_norm]):
+    
+    # plot the heatmap
+    sns.heatmap(
+        data,
+        ax=axs[i],
+        cmap=cmap,
+        cbar=False
+    )
+
+    # remove the axis
+    axs[i].set_axis_off()
+
+    # add the region names
+    for j,region in enumerate(data.index):
+        axs[i].text(
+            0.4, # x axis position
+            j+0.5, # y axis position
+            f"{region}", # text
+            ha='left',
+            va='center',
+            fontsize=17,
+            fontweight='light',
+        )
+
+    # description of each heatmap
+    if i==0: # first heatmap
+        text = "Consommation d'énergie"
+    else: # second heatmap
+        text = "Consommation d'énergie par habitant"
+    ax_text(
+        0, 12.4,
+        f"<{text}>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+
+    # date for reference
+    ax_text(
+        0, -0.2,
+        "<2011>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+    ax_text(
+        10, -0.2,
+        "<2021>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+
+# save and show
+plt.savefig('../../static/graph/web-heatmap-comparison-4.png', bbox_inches='tight')
+plt.show()23:T114b,# create a custom colormap
+cmap = mcolors.LinearSegmentedColormap.from_list("", ["#2a9d8f", "#e9c46a", "#e76f51"])
+
+fig, axs = plt.subplots(ncols=2, figsize=(16, 10))
+
+# iterate over the datasets
+for i, data in enumerate([heatmap_data, heatmap_data_norm]):
+    
+    # plot the heatmap
+    sns.heatmap(
+        data,
+        ax=axs[i],
+        cmap=cmap,
+        cbar=False
+    )
+
+    # remove the axis
+    axs[i].set_axis_off()
+
+    # add the region names
+    for j,region in enumerate(data.index):
+        axs[i].text(
+            0.4, # x axis position
+            j+0.5, # y axis position
+            f"{region}", # text
+            ha='left',
+            va='center',
+            fontsize=17,
+            fontweight='light',
+        )
+
+    # description of each heatmap
+    if i==0: # first heatmap
+        text = "Consommation d'énergie"
+    else: # second heatmap
+        text = "Consommation d'énergie par habitant"
+    ax_text(
+        0, 12.4,
+        f"<{text}>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+
+    # date for reference
+    ax_text(
+        0, -0.2,
+        "<2011>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+    ax_text(
+        10, -0.2,
+        "<2021>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+
+# title
+text = "L'île de France pollue t'elle vraiment <plus> ?"
+ax_text(
+    0, -4,
+    text,
+    ha='left', va='center',
+    fontsize=24, fontweight='bold',
+    color='black',
+    highlight_textprops=[
+        {"color": "#e76f51"}
+    ],
+    ax=axs[0]
+)
+
+# subtitle
+text = "Consommation d'énergie et consommation d'énergie par habitant, de 2011 à 2021, par région (or Corse et territoires d'outre-mer)"
+ax_text(
+    0, -3.5,
+    text,
+    ha='left', va='center',
+    fontsize=14, 
+    color='grey',
+    ax=axs[0]
+)
+
+# credit source
+text = """
+<Design>: Joseph Barbier   <Données>: data.gouv.fr
+Consommation de gaz et d'électricité en France, mesuré en MWh. Les données sont agrégées par région et par année.
+La population moyenne de 2008 et 2024 est utilisée pour normaliser la consommation d'énergie par habitant.
+Améliorer ce graphique: <https://github.com/y-sunflower/Small-Projects/tree/main/conso-france>
+"""
+ax_text(
+    0, 13.9,
+    text,
+    ha='left', va='center',
+    fontsize=10, fontweight='light',
+    color='black',
+    highlight_textprops=[
+        {"fontweight": "bold"},
+        {"fontweight": "bold"},
+        {"fontweight": "bold"}
+    ],
+    ax=axs[0]
+)
+
+# left explanation
+text = "Dans l'absolu, <l'Île-de-France>\nest la région avec la plus\n<haute consommation d'énergie>"
+ax_text(
+    4, -1.7,
+    text,
+    ha='left', va='center',
+    fontsize=15, fontweight='light',
+    color='black',
+    highlight_textprops=[
+        {"fontweight": "bold"},
+        {"color": "#e76f51", "fontweight": "bold"}
+    ],
+    ax=axs[0]
+)
+
+# right explanation
+text = "Relativement à son nombre d'habitants,\n<l'Île-de-France> est une région avec\n<consommation d'énergie par habitant>\n<plutôt faible>"
+ax_text(
+    12, -1.7,
+    text,
+    ha='left', va='center',
+    fontsize=15, fontweight='light',
+    color='black',
+    highlight_textprops=[
+        {"fontweight": "bold"},
+        {"color": "#2a9d8f", "fontweight": "bold"},
+        {"color": "#2a9d8f", "fontweight": "bold"}
+    ],
+    ax=axs[0]
+)
+
+# arrows
+def draw_arrow(tail_position, head_position, invert=False):
+    kw = dict(arrowstyle="Simple, tail_width=0.5, head_width=4, head_length=8", color="k")
+    if invert:
+        connectionstyle = "arc3,rad=-.5"
+    else:
+        connectionstyle = "arc3,rad=.5"
+    a = FancyArrowPatch(tail_position, head_position,
+                                connectionstyle=connectionstyle,
+                                transform=fig.transFigure,
+                                **kw)
+    fig.patches.append(a)
+
+draw_arrow((0.25, 1.01), (0.17, 0.91))
+draw_arrow((0.77, 1.01), (0.82, 0.91), invert=True)
+
+# save and show
+plt.savefig('../../static/graph/web-heatmap-comparison-5.png', bbox_inches='tight')
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["import matplotlib.pyplot as plt\nfrom matplotlib.patches import FancyArrowPatch\nimport matplotlib.colors as mcolors\nimport seaborn as sns\nimport pandas as pd\nfrom highlight_text import ax_text","path = 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/heatmap_data.csv'\nheatmap_data = pd.read_csv(path, index_col=0)\n\npath = 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/heatmap_data_norm.csv'\nheatmap_data_norm = pd.read_csv(path, index_col=0)","fig, axs = plt.subplots(ncols=2, figsize=(16, 10))\n\n# iterate over the datasets\nfor i, data in enumerate([heatmap_data, heatmap_data_norm]):\n    \n    # plot the heatmap\n    sns.heatmap(\n        data,\n        ax=axs[i],\n        cbar=False\n    )\n\n# save and show\nplt.savefig('../../static/graph/web-heatmap-comparison-1.png', bbox_inches='tight')\nplt.show()","# create a custom colormap\ncmap = mcolors.LinearSegmentedColormap.from_list(\"\", [\"#2a9d8f\", \"#e9c46a\", \"#e76f51\"])\n\nfig, axs = plt.subplots(ncols=2, figsize=(16, 10))\n\n# iterate over the datasets\nfor i, data in enumerate([heatmap_data, heatmap_data_norm]):\n    \n    # plot the heatmap\n    sns.heatmap(\n        data,\n        ax=axs[i],\n        cmap=cmap,\n        cbar=False\n    )\n\n    # remove the axis\n    axs[i].set_axis_off()\n\n# save and show\nplt.savefig('../../static/graph/web-heatmap-comparison-2.png', bbox_inches='tight')\nplt.show()","# create a custom colormap\ncmap = mcolors.LinearSegmentedColormap.from_list(\"\", [\"#2a9d8f\", \"#e9c46a\", \"#e76f51\"])\n\nfig, axs = plt.subplots(ncols=2, figsize=(16, 10))\n\n# iterate over the datasets\nfor i, data in enumerate([heatmap_data, heatmap_data_norm]):\n    \n    # plot the heatmap\n    sns.heatmap(\n        data,\n        ax=axs[i],\n        cmap=cmap,\n        cbar=False\n    )\n\n    # remove the axis\n    axs[i].set_axis_off()\n\n    # add the region names\n    for j,region in enumerate(data.index):\n        axs[i].text(\n            0.4, # x axis position\n            j+0.5, # y axis position\n            f\"{region}\", # text\n            ha='left',\n            va='center',\n            fontsize=17,\n            fontweight='light',\n        )\n\n# save and show\nplt.savefig('../../static/graph/web-heatmap-comparison-3.png', bbox_inches='tight')\nplt.show()","$22","$23"],"children":"$L24"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","scatter",{"href":"/scatter-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ScatterPlot150.webp","alt":"logo of a chart:ScatterPlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Scatterplot"}]]}],["$","$Le","heatmap",{"href":"/heatmap/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Heatmap150.webp","alt":"logo of a chart:Heatmap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Heatmap"}]]}],["$","$Le","correlogram",{"href":"/correlogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Correlogram150.webp","alt":"logo of a chart:Correlogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Correlogram"}]]}],["$","$Le","bubble",{"href":"/bubble-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/BubblePlot150.webp","alt":"logo of a chart:BubblePlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Bubble"}]]}],["$","$Le","connectedScatter",{"href":"/connected-scatter-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ScatterConnected150.webp","alt":"logo of a chart:ScatterConnected","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Connected Scatter"}]]}],["$","$Le","density2d",{"href":"/2d-density-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/2dDensity150.webp","alt":"logo of a chart:2dDensity","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"2D Density"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L25",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L26",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L27",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+20:true
+29:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2a:T50f,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">import</span><span style="color:#24292E"> FancyArrowPatch</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.colors </span><span style="color:#D73A49">as</span><span style="color:#24292E"> mcolors</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> seaborn </span><span style="color:#D73A49">as</span><span style="color:#24292E"> sns</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> ax_text</span></span></code></pre>24:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/heatmap/","children":"Heatmap"}]," is a graphical representation of data where the individual values contained in a matrix are represented as colors. This is very useful to display the ",["$","strong","strong-0",{"children":"concentration of values"}]," between two dimensions, without looking at the individual values."]}],"\n",["$","p","p-1",{"children":["This chart has been created by ",["$","a","a-0",{"href":"https://barbierjoseph.com","children":"Joseph Barbier"}],". Thanks to him for accepting sharing its work here!"]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-2",{"children":"First, we need to install the following libraries:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}],": for plot customization"]}],"\n",["$","li","li-1",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/seaborn/","children":"seaborn"}],": for creating the plot"]}],"\n",["$","li","li-2",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/pandas/","children":"pandas"}],": for data manipulation"]}],"\n",["$","li","li-3",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/advanced-custom-annotations-matplotlib/","children":"highlight_text"}],": for annotations"]}],"\n"]}],"\n",["$","$L29","notebook-cell-0",{"index":0,"code":"import matplotlib.pyplot as plt\nfrom matplotlib.patches import FancyArrowPatch\nimport matplotlib.colors as mcolors\nimport seaborn as sns\nimport pandas as pd\nfrom highlight_text import ax_text","highlighted":"$2a","interactive":true,"hasChart":false}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-3",{"children":["The type of data needed when creating a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/heatmap/","children":"heatmap"}]," is a ",["$","strong","strong-0",{"children":"matrix"}],". Each individual cell in the matrix ",["$","strong","strong-1",{"children":"represents a value"}]," that will be visualized using a color scale."]}],"\n",["$","p","p-4",{"children":"In this post we need 2 datasets:"}],"\n",["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"original"}]," heatmap"]}],"\n",["$","li","li-1",{"children":["$L2b"," heatmap"]}],"\n"]}],"\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c"]
+28:null
+b:C
+2b:["$","strong","strong-0",{"children":"normalized"}]
+4d:T4ee,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">path </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/heatmap_data.csv'</span></span>
+<span class="line"><span style="color:#24292E">heatmap_data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(path, </span><span style="color:#E36209">index_col</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">path </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/heatmap_data_norm.csv'</span></span>
+<span class="line"><span style="color:#24292E">heatmap_data_norm </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(path, </span><span style="color:#E36209">index_col</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span></code></pre>2c:["$","$L29","notebook-cell-1",{"index":1,"code":"path = 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/heatmap_data.csv'\nheatmap_data = pd.read_csv(path, index_col=0)\n\npath = 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/heatmap_data_norm.csv'\nheatmap_data_norm = pd.read_csv(path, index_col=0)","highlighted":"$4d","interactive":true,"hasChart":false}]
+2d:["$","h2","h2-3",{"children":"Simple double heatmap"}]
+2e:["$","p","p-5",{"children":["We start by creating a ",["$","strong","strong-0",{"children":"figure with 2 subplots"}],"."]}]
+2f:["$","p","p-6",{"children":["The first subplot will contain the ",["$","strong","strong-0",{"children":"original heatmap"}],", and the second subplot will contain the ",["$","strong","strong-1",{"children":"normalized heatmap"}],"."]}]
+30:["$","p","p-7",{"children":["We use the ",["$","code","code-0",{"children":"heatmap()"}]," function from ",["$","a","a-0",{"href":"https://python-graph-gallery.com/seaborn/","children":"seaborn"}]," to create the heatmaps."]}]
+4e:T8cd,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># iterate over the datasets</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, data </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">([heatmap_data, heatmap_data_norm]):</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # plot the heatmap</span></span>
+<span class="line"><span style="color:#24292E">    sns.heatmap(</span></span>
+<span class="line"><span style="color:#24292E">        data,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i],</span></span>
+<span class="line"><span style="color:#E36209">        cbar</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># save and show</span></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span><span style="color:#032F62">'../../static/graph/web-heatmap-comparison-1.png'</span><span style="color:#24292E">, </span><span style="color:#E36209">bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">'tight'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>31:["$","$L29","notebook-cell-2",{"index":2,"code":"fig, axs = plt.subplots(ncols=2, figsize=(16, 10))\n\n# iterate over the datasets\nfor i, data in enumerate([heatmap_data, heatmap_data_norm]):\n    \n    # plot the heatmap\n    sns.heatmap(\n        data,\n        ax=axs[i],\n        cbar=False\n    )\n\n# save and show\nplt.savefig('../../static/graph/web-heatmap-comparison-1.png', bbox_inches='tight')\nplt.show()","highlighted":"$4e","interactive":true,"hasChart":false}]
+32:["$","p","p-8",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-heatmap-comparison-1.png?raw=true","alt":"preview","loading":"lazy","decoding":"async"}]}]
+33:["$","h2","h2-4",{"children":"Custom color map and remove axis"}]
+34:["$","p","p-9",{"children":["The next step is to customize the ",["$","strong","strong-0",{"children":"color map"}]," and ",["$","strong","strong-1",{"children":"remove"}]," the axis."]}]
+35:["$","ul","ul-2",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":["the ",["$","strong","strong-0",{"children":"colormap"}]," is created using the ",["$","code","code-0",{"children":"LinearSegmentedColormap.from_list()"}]," function, and then we pass it as an argument to the ",["$","code","code-1",{"children":"cmap"}]," parameter of the ",["$","code","code-2",{"children":"heatmap()"}]," function"]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":["the ",["$","strong","strong-0",{"children":"axis"}]," is removed using the ",["$","code","code-0",{"children":"set_axis_off()"}]," function"]}],"\n"]}],"\n"]}]
+4f:Tc8e,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># create a custom colormap</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mcolors.LinearSegmentedColormap.from_list(</span><span style="color:#032F62">""</span><span style="color:#24292E">, [</span><span style="color:#032F62">"#2a9d8f"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#e9c46a"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#e76f51"</span><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># iterate over the datasets</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, data </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">([heatmap_data, heatmap_data_norm]):</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # plot the heatmap</span></span>
+<span class="line"><span style="color:#24292E">    sns.heatmap(</span></span>
+<span class="line"><span style="color:#24292E">        data,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i],</span></span>
+<span class="line"><span style="color:#E36209">        cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">        cbar</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # remove the axis</span></span>
+<span class="line"><span style="color:#24292E">    axs[i].set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># save and show</span></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span><span style="color:#032F62">'../../static/graph/web-heatmap-comparison-2.png'</span><span style="color:#24292E">, </span><span style="color:#E36209">bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">'tight'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>36:["$","$L29","notebook-cell-3",{"index":3,"code":"# create a custom colormap\ncmap = mcolors.LinearSegmentedColormap.from_list(\"\", [\"#2a9d8f\", \"#e9c46a\", \"#e76f51\"])\n\nfig, axs = plt.subplots(ncols=2, figsize=(16, 10))\n\n# iterate over the datasets\nfor i, data in enumerate([heatmap_data, heatmap_data_norm]):\n    \n    # plot the heatmap\n    sns.heatmap(\n        data,\n        ax=axs[i],\n        cmap=cmap,\n        cbar=False\n    )\n\n    # remove the axis\n    axs[i].set_axis_off()\n\n# save and show\nplt.savefig('../../static/graph/web-heatmap-comparison-2.png', bbox_inches='tight')\nplt.show()","highlighted":"$4f","interactive":true,"hasChart":false}]
+37:["$","p","p-10",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-heatmap-comparison-2.png?raw=true","alt":"preview","loading":"lazy","decoding":"async"}]}]
+38:["$","h2","h2-5",{"children":"Add region labels"}]
+39:["$","p","p-11",{"children":["The next step is to add ",["$","strong","strong-0",{"children":"region labels"}]," to the heatmaps."]}]
+3a:["$","p","p-12",{"children":["For this, we ",["$","strong","strong-0",{"children":"iterate over the index"}]," of the dataset (where the region names are stored) and add the text to the plot using the ",["$","code","code-0",{"children":"text()"}]," function. We have to specify:"]}]
+3b:["$","ul","ul-3",{"children":["\n",["$","li","li-0",{"children":["the ",["$","strong","strong-0",{"children":"x"}]," and ",["$","strong","strong-1",{"children":"y"}]," coordinates"]}],"\n",["$","li","li-1",{"children":["the ",["$","strong","strong-0",{"children":"text"}]," to display"]}],"\n",["$","li","li-2",{"children":["the ",["$","strong","strong-0",{"children":"horizontal alignment"}]]}],"\n",["$","li","li-3",{"children":["the ",["$","strong","strong-0",{"children":"vertical alignment"}]]}],"\n",["$","li","li-4",{"children":["the ",["$","strong","strong-0",{"children":"font size"}]]}],"\n",["$","li","li-5",{"children":["the ",["$","strong","strong-0",{"children":"font weight"}]]}],"\n"]}]
+3c:["$","p","p-13",{"children":[["$","em","em-0",{"children":"Warning"}],": make sure ",["$","strong","strong-0",{"children":"both"}]," of the heatmaps have the ",["$","strong","strong-1",{"children":"same region names in the same order"}],", otherwise the labels will not match the regions."]}]
+50:T1475,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># create a custom colormap</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mcolors.LinearSegmentedColormap.from_list(</span><span style="color:#032F62">""</span><span style="color:#24292E">, [</span><span style="color:#032F62">"#2a9d8f"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#e9c46a"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#e76f51"</span><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># iterate over the datasets</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, data </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">([heatmap_data, heatmap_data_norm]):</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # plot the heatmap</span></span>
+<span class="line"><span style="color:#24292E">    sns.heatmap(</span></span>
+<span class="line"><span style="color:#24292E">        data,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i],</span></span>
+<span class="line"><span style="color:#E36209">        cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">        cbar</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # remove the axis</span></span>
+<span class="line"><span style="color:#24292E">    axs[i].set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add the region names</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> j,region </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(data.index):</span></span>
+<span class="line"><span style="color:#24292E">        axs[i].text(</span></span>
+<span class="line"><span style="color:#005CC5">            0.4</span><span style="color:#24292E">, </span><span style="color:#6A737D"># x axis position</span></span>
+<span class="line"><span style="color:#24292E">            j</span><span style="color:#D73A49">+</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#6A737D"># y axis position</span></span>
+<span class="line"><span style="color:#D73A49">            f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">region</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#6A737D"># text</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">17</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># save and show</span></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span><span style="color:#032F62">'../../static/graph/web-heatmap-comparison-3.png'</span><span style="color:#24292E">, </span><span style="color:#E36209">bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">'tight'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3d:["$","$L29","notebook-cell-4",{"index":4,"code":"# create a custom colormap\ncmap = mcolors.LinearSegmentedColormap.from_list(\"\", [\"#2a9d8f\", \"#e9c46a\", \"#e76f51\"])\n\nfig, axs = plt.subplots(ncols=2, figsize=(16, 10))\n\n# iterate over the datasets\nfor i, data in enumerate([heatmap_data, heatmap_data_norm]):\n    \n    # plot the heatmap\n    sns.heatmap(\n        data,\n        ax=axs[i],\n        cmap=cmap,\n        cbar=False\n    )\n\n    # remove the axis\n    axs[i].set_axis_off()\n\n    # add the region names\n    for j,region in enumerate(data.index):\n        axs[i].text(\n            0.4, # x axis position\n            j+0.5, # y axis position\n            f\"{region}\", # text\n            ha='left',\n            va='center',\n            fontsize=17,\n            fontweight='light',\n        )\n\n# save and show\nplt.savefig('../../static/graph/web-heatmap-comparison-3.png', bbox_inches='tight')\nplt.show()","highlighted":"$50","interactive":true,"hasChart":false}]
+3e:["$","p","p-14",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-heatmap-comparison-3.png?raw=true","alt":"preview","loading":"lazy","decoding":"async"}]}]
+3f:["$","h2","h2-6",{"children":"Add legend"}]
+40:["$","p","p-15",{"children":["Now let's add a ",["$","strong","strong-0",{"children":"legend"}]," to the heatmaps so that it's more understandable."]}]
+41:["$","p","p-16",{"children":["We add both ",["$","code","code-0",{"children":"Consommation d'énergie"}]," and ",["$","code","code-1",{"children":"Consommation d'énergie par habitant"}]," to the legend using the ",["$","code","code-2",{"children":"text()"}]," function."]}]
+51:T6fd,# create a custom colormap
+cmap = mcolors.LinearSegmentedColormap.from_list("", ["#2a9d8f", "#e9c46a", "#e76f51"])
+
+fig, axs = plt.subplots(ncols=2, figsize=(16, 10))
+
+# iterate over the datasets
+for i, data in enumerate([heatmap_data, heatmap_data_norm]):
+    
+    # plot the heatmap
+    sns.heatmap(
+        data,
+        ax=axs[i],
+        cmap=cmap,
+        cbar=False
+    )
+
+    # remove the axis
+    axs[i].set_axis_off()
+
+    # add the region names
+    for j,region in enumerate(data.index):
+        axs[i].text(
+            0.4, # x axis position
+            j+0.5, # y axis position
+            f"{region}", # text
+            ha='left',
+            va='center',
+            fontsize=17,
+            fontweight='light',
+        )
+
+    # description of each heatmap
+    if i==0: # first heatmap
+        text = "Consommation d'énergie"
+    else: # second heatmap
+        text = "Consommation d'énergie par habitant"
+    ax_text(
+        0, 12.4,
+        f"<{text}>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+
+    # date for reference
+    ax_text(
+        0, -0.2,
+        "<2011>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+    ax_text(
+        10, -0.2,
+        "<2021>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+
+# save and show
+plt.savefig('../../static/graph/web-heatmap-comparison-4.png', bbox_inches='tight')
+plt.show()52:T3009,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># create a custom colormap</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mcolors.LinearSegmentedColormap.from_list(</span><span style="color:#032F62">""</span><span style="color:#24292E">, [</span><span style="color:#032F62">"#2a9d8f"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#e9c46a"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#e76f51"</span><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># iterate over the datasets</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, data </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">([heatmap_data, heatmap_data_norm]):</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # plot the heatmap</span></span>
+<span class="line"><span style="color:#24292E">    sns.heatmap(</span></span>
+<span class="line"><span style="color:#24292E">        data,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i],</span></span>
+<span class="line"><span style="color:#E36209">        cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">        cbar</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # remove the axis</span></span>
+<span class="line"><span style="color:#24292E">    axs[i].set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add the region names</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> j,region </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(data.index):</span></span>
+<span class="line"><span style="color:#24292E">        axs[i].text(</span></span>
+<span class="line"><span style="color:#005CC5">            0.4</span><span style="color:#24292E">, </span><span style="color:#6A737D"># x axis position</span></span>
+<span class="line"><span style="color:#24292E">            j</span><span style="color:#D73A49">+</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#6A737D"># y axis position</span></span>
+<span class="line"><span style="color:#D73A49">            f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">region</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#6A737D"># text</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">17</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # description of each heatmap</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> i</span><span style="color:#D73A49">==</span><span style="color:#005CC5">0</span><span style="color:#24292E">: </span><span style="color:#6A737D"># first heatmap</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Consommation d'énergie"</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">: </span><span style="color:#6A737D"># second heatmap</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Consommation d'énergie par habitant"</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">        0</span><span style="color:#24292E">, </span><span style="color:#005CC5">12.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">text</span><span style="color:#005CC5">}</span><span style="color:#032F62">>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"style"</span><span style="color:#24292E">: </span><span style="color:#032F62">"italic"</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">        ],</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # date for reference</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">        0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">        "&#x3C;2011>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"style"</span><span style="color:#24292E">: </span><span style="color:#032F62">"italic"</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">        ],</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">        10</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">        "&#x3C;2021>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"style"</span><span style="color:#24292E">: </span><span style="color:#032F62">"italic"</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">        ],</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># save and show</span></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span><span style="color:#032F62">'../../static/graph/web-heatmap-comparison-4.png'</span><span style="color:#24292E">, </span><span style="color:#E36209">bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">'tight'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>42:["$","$L29","notebook-cell-5",{"index":5,"code":"$51","highlighted":"$52","interactive":true,"hasChart":false}]
+43:["$","p","p-17",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-heatmap-comparison-4.png?raw=true","alt":"preview","loading":"lazy","decoding":"async"}]}]
+44:["$","p","p-18",{"children":"We have the main components of the plot! It only misses a title and a bunch of annotations."}]
+45:["$","h2","h2-7",{"children":"Final chart with annotations"}]
+46:["$","p","p-19",{"children":["All annotations relies on the ",["$","code","code-0",{"children":"ax_text()"}]," function from the ",["$","code","code-1",{"children":"highlight_text"}]," library. In this ",["$","a","a-0",{"href":"https://python-graph-gallery.com/advanced-custom-annotations-matplotlib/","children":"post"}]," we explain ",["$","strong","strong-0",{"children":"how to use it"}]," in detail."]}]
+47:["$","p","p-20",{"children":["The arrows are created using the ",["$","code","code-0",{"children":"FancyArrowPatch()"}]," function from ",["$","code","code-1",{"children":"matplotlib.patches"}],". You can ",["$","strong","strong-0",{"children":"learn more"}]," about them in this ",["$","a","a-0",{"href":"https://python-graph-gallery.com/how-to-create-and-custom-arrows-matplotlib/","children":"post"}],"."]}]
+53:T114b,# create a custom colormap
+cmap = mcolors.LinearSegmentedColormap.from_list("", ["#2a9d8f", "#e9c46a", "#e76f51"])
+
+fig, axs = plt.subplots(ncols=2, figsize=(16, 10))
+
+# iterate over the datasets
+for i, data in enumerate([heatmap_data, heatmap_data_norm]):
+    
+    # plot the heatmap
+    sns.heatmap(
+        data,
+        ax=axs[i],
+        cmap=cmap,
+        cbar=False
+    )
+
+    # remove the axis
+    axs[i].set_axis_off()
+
+    # add the region names
+    for j,region in enumerate(data.index):
+        axs[i].text(
+            0.4, # x axis position
+            j+0.5, # y axis position
+            f"{region}", # text
+            ha='left',
+            va='center',
+            fontsize=17,
+            fontweight='light',
+        )
+
+    # description of each heatmap
+    if i==0: # first heatmap
+        text = "Consommation d'énergie"
+    else: # second heatmap
+        text = "Consommation d'énergie par habitant"
+    ax_text(
+        0, 12.4,
+        f"<{text}>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+
+    # date for reference
+    ax_text(
+        0, -0.2,
+        "<2011>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+    ax_text(
+        10, -0.2,
+        "<2021>",
+        ha='left', va='center',
+        fontsize=12, fontweight='light',
+        color='black',
+        highlight_textprops=[
+            {"style": "italic"}
+        ],
+        ax=axs[i]
+    )
+
+# title
+text = "L'île de France pollue t'elle vraiment <plus> ?"
+ax_text(
+    0, -4,
+    text,
+    ha='left', va='center',
+    fontsize=24, fontweight='bold',
+    color='black',
+    highlight_textprops=[
+        {"color": "#e76f51"}
+    ],
+    ax=axs[0]
+)
+
+# subtitle
+text = "Consommation d'énergie et consommation d'énergie par habitant, de 2011 à 2021, par région (or Corse et territoires d'outre-mer)"
+ax_text(
+    0, -3.5,
+    text,
+    ha='left', va='center',
+    fontsize=14, 
+    color='grey',
+    ax=axs[0]
+)
+
+# credit source
+text = """
+<Design>: Joseph Barbier   <Données>: data.gouv.fr
+Consommation de gaz et d'électricité en France, mesuré en MWh. Les données sont agrégées par région et par année.
+La population moyenne de 2008 et 2024 est utilisée pour normaliser la consommation d'énergie par habitant.
+Améliorer ce graphique: <https://github.com/y-sunflower/Small-Projects/tree/main/conso-france>
+"""
+ax_text(
+    0, 13.9,
+    text,
+    ha='left', va='center',
+    fontsize=10, fontweight='light',
+    color='black',
+    highlight_textprops=[
+        {"fontweight": "bold"},
+        {"fontweight": "bold"},
+        {"fontweight": "bold"}
+    ],
+    ax=axs[0]
+)
+
+# left explanation
+text = "Dans l'absolu, <l'Île-de-France>\nest la région avec la plus\n<haute consommation d'énergie>"
+ax_text(
+    4, -1.7,
+    text,
+    ha='left', va='center',
+    fontsize=15, fontweight='light',
+    color='black',
+    highlight_textprops=[
+        {"fontweight": "bold"},
+        {"color": "#e76f51", "fontweight": "bold"}
+    ],
+    ax=axs[0]
+)
+
+# right explanation
+text = "Relativement à son nombre d'habitants,\n<l'Île-de-France> est une région avec\n<consommation d'énergie par habitant>\n<plutôt faible>"
+ax_text(
+    12, -1.7,
+    text,
+    ha='left', va='center',
+    fontsize=15, fontweight='light',
+    color='black',
+    highlight_textprops=[
+        {"fontweight": "bold"},
+        {"color": "#2a9d8f", "fontweight": "bold"},
+        {"color": "#2a9d8f", "fontweight": "bold"}
+    ],
+    ax=axs[0]
+)
+
+# arrows
+def draw_arrow(tail_position, head_position, invert=False):
+    kw = dict(arrowstyle="Simple, tail_width=0.5, head_width=4, head_length=8", color="k")
+    if invert:
+        connectionstyle = "arc3,rad=-.5"
+    else:
+        connectionstyle = "arc3,rad=.5"
+    a = FancyArrowPatch(tail_position, head_position,
+                                connectionstyle=connectionstyle,
+                                transform=fig.transFigure,
+                                **kw)
+    fig.patches.append(a)
+
+draw_arrow((0.25, 1.01), (0.17, 0.91))
+draw_arrow((0.77, 1.01), (0.82, 0.91), invert=True)
+
+# save and show
+plt.savefig('../../static/graph/web-heatmap-comparison-5.png', bbox_inches='tight')
+plt.show()54:T7137,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># create a custom colormap</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mcolors.LinearSegmentedColormap.from_list(</span><span style="color:#032F62">""</span><span style="color:#24292E">, [</span><span style="color:#032F62">"#2a9d8f"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#e9c46a"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#e76f51"</span><span style="color:#24292E">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># iterate over the datasets</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, data </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">([heatmap_data, heatmap_data_norm]):</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # plot the heatmap</span></span>
+<span class="line"><span style="color:#24292E">    sns.heatmap(</span></span>
+<span class="line"><span style="color:#24292E">        data,</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i],</span></span>
+<span class="line"><span style="color:#E36209">        cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap,</span></span>
+<span class="line"><span style="color:#E36209">        cbar</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # remove the axis</span></span>
+<span class="line"><span style="color:#24292E">    axs[i].set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # add the region names</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> j,region </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(data.index):</span></span>
+<span class="line"><span style="color:#24292E">        axs[i].text(</span></span>
+<span class="line"><span style="color:#005CC5">            0.4</span><span style="color:#24292E">, </span><span style="color:#6A737D"># x axis position</span></span>
+<span class="line"><span style="color:#24292E">            j</span><span style="color:#D73A49">+</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#6A737D"># y axis position</span></span>
+<span class="line"><span style="color:#D73A49">            f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">region</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#6A737D"># text</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">17</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # description of each heatmap</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> i</span><span style="color:#D73A49">==</span><span style="color:#005CC5">0</span><span style="color:#24292E">: </span><span style="color:#6A737D"># first heatmap</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Consommation d'énergie"</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">: </span><span style="color:#6A737D"># second heatmap</span></span>
+<span class="line"><span style="color:#24292E">        text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Consommation d'énergie par habitant"</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">        0</span><span style="color:#24292E">, </span><span style="color:#005CC5">12.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">text</span><span style="color:#005CC5">}</span><span style="color:#032F62">>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"style"</span><span style="color:#24292E">: </span><span style="color:#032F62">"italic"</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">        ],</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # date for reference</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">        0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">        "&#x3C;2011>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"style"</span><span style="color:#24292E">: </span><span style="color:#032F62">"italic"</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">        ],</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">        10</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">        "&#x3C;2021>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"style"</span><span style="color:#24292E">: </span><span style="color:#032F62">"italic"</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">        ],</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[i]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "L'île de France pollue t'elle vraiment &#x3C;plus> ?"</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">24</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: </span><span style="color:#032F62">"#e76f51"</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># subtitle</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Consommation d'énergie et consommation d'énergie par habitant, de 2011 à 2021, par région (or Corse et territoires d'outre-mer)"</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">3.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'grey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># credit source</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Design>: Joseph Barbier   &#x3C;Données>: data.gouv.fr</span></span>
+<span class="line"><span style="color:#032F62">Consommation de gaz et d'électricité en France, mesuré en MWh. Les données sont agrégées par région et par année.</span></span>
+<span class="line"><span style="color:#032F62">La population moyenne de 2008 et 2024 est utilisée pour normaliser la consommation d'énergie par habitant.</span></span>
+<span class="line"><span style="color:#032F62">Améliorer ce graphique: &#x3C;https://github.com/y-sunflower/Small-Projects/tree/main/conso-france></span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0</span><span style="color:#24292E">, </span><span style="color:#005CC5">13.9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"bold"</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"bold"</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"bold"</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># left explanation</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Dans l'absolu, &#x3C;l'Île-de-France></span><span style="color:#005CC5">\n</span><span style="color:#032F62">est la région avec la plus</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;haute consommation d'énergie>"</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">    4</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"bold"</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: </span><span style="color:#032F62">"#e76f51"</span><span style="color:#24292E">, </span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"bold"</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># right explanation</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Relativement à son nombre d'habitants,</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;l'Île-de-France> est une région avec</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;consommation d'énergie par habitant></span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;plutôt faible>"</span></span>
+<span class="line"><span style="color:#24292E">ax_text(</span></span>
+<span class="line"><span style="color:#005CC5">    12</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1.7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'light'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"bold"</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: </span><span style="color:#032F62">"#2a9d8f"</span><span style="color:#24292E">, </span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"bold"</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: </span><span style="color:#032F62">"#2a9d8f"</span><span style="color:#24292E">, </span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"bold"</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">axs[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># arrows</span></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> draw_arrow</span><span style="color:#24292E">(tail_position, head_position, invert</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    kw </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Simple, tail_width=0.5, head_width=4, head_length=8"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"k"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> invert:</span></span>
+<span class="line"><span style="color:#24292E">        connectionstyle </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "arc3,rad=-.5"</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        connectionstyle </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "arc3,rad=.5"</span></span>
+<span class="line"><span style="color:#24292E">    a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FancyArrowPatch(tail_position, head_position,</span></span>
+<span class="line"><span style="color:#E36209">                                connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">connectionstyle,</span></span>
+<span class="line"><span style="color:#E36209">                                transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig.transFigure,</span></span>
+<span class="line"><span style="color:#D73A49">                                **</span><span style="color:#24292E">kw)</span></span>
+<span class="line"><span style="color:#24292E">    fig.patches.append(a)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">draw_arrow((</span><span style="color:#005CC5">0.25</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.01</span><span style="color:#24292E">), (</span><span style="color:#005CC5">0.17</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.91</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">draw_arrow((</span><span style="color:#005CC5">0.77</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.01</span><span style="color:#24292E">), (</span><span style="color:#005CC5">0.82</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.91</span><span style="color:#24292E">), </span><span style="color:#E36209">invert</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># save and show</span></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span><span style="color:#032F62">'../../static/graph/web-heatmap-comparison-5.png'</span><span style="color:#24292E">, </span><span style="color:#E36209">bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">'tight'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>48:["$","$L29","notebook-cell-6",{"index":6,"code":"$53","highlighted":"$54","interactive":true,"hasChart":false}]
+49:["$","p","p-21",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-heatmap-comparison-5.png?raw=true","alt":"preview","loading":"lazy","decoding":"async"}]}]
+4a:["$","h2","h2-8",{"children":"Going further"}]
+4b:["$","p","p-22",{"children":["This post shows how to create a ",["$","strong","strong-0",{"children":"double heatmap"}]," with ",["$","strong","strong-1",{"children":"annotations"}]," using ",["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," and ",["$","a","a-1",{"href":"https://python-graph-gallery.com/seaborn/","children":"seaborn"}],"."]}]
+4c:["$","p","p-23",{"children":["For more examples of ",["$","strong","strong-0",{"children":"advanced customization"}],", check out ",["$","a","a-0",{"href":"https://python-graph-gallery.com/web-ridgeline-by-text/","children":"how to create a beautiful legend"}]," and this ",["$","a","a-1",{"href":"https://python-graph-gallery.com/heatmap-for-timeseries-matplotlib/","children":"really nice heatmap for time series"}],"."]}]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

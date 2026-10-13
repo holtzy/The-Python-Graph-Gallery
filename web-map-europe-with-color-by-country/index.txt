@@ -1,0 +1,538 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/09q85_ay6xdo0.js"
+3:"/_next/static/chunks/21dxsc4p3jeoz.js"
+4:"/_next/static/chunks/1d1qeiuriwpmz.js"
+5:"/_next/static/chunks/1u5pxdefkf32d.js"
+6:I[62319,["$2","$3","$4","$5"],"default"]
+7:I[39756,["$2","$3","$4","$5"],"default"]
+8:I[37457,["$2","$3","$4","$5"],"default"]
+9:"/_next/static/chunks/354p-aqxaih3m.js"
+a:I[22016,["$2","$3","$4","$5","$9"],""]
+b:I[44110,["$2","$3","$4","$5","$9"],"default"]
+19:I[68027,["$2","$3","$4","$5"],"default",1]
+:HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
+:HL["/_next/static/chunks/1ms0qnrh2aktb.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":{"n":"slug","t":"d","k":"web-map-europe-with-color-by-country","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":66048,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","web-map-europe-with-color-by-country",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/09q85_ay6xdo0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/21dxsc4p3jeoz.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1d1qeiuriwpmz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1u5pxdefkf32d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"JdxiwG_variable iGg3zq_variable antialiased","children":[["$","head",null,{"children":["$","link",null,{"rel":"sitemap","type":"application/xml","href":"/sitemap-index.xml"}]}],["$","body",null,{"children":[["$","$L6",null,{}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":[["$","h2",null,{"id":"404","children":" 😞 Oh No 😞 | 404"}],["$","p",null,{"children":"It looks like there is nothing here anymore."}],["$","p",null,{"children":["Please go back to the ",["$","$La",null,{"href":"/","children":"gallery home page"}]," and check if you can find your graph!"]}]]}],["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}],["$","div",null,{"className":"h-16 sm:h-20"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-24 border-t py-8 text-sm text-muted-foreground","children":["$","div",null,{"className":"mx-auto max-w-5xl px-5","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-4 sm:flex-row","children":[["$","div",null,{"children":["Copyright © the Python Graph Gallery ",2026]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","a","https://github.com/holtzy",{"href":"https://github.com/holtzy","aria-label":"Link to Yan Holtz Github profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 496 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"$c"}]}]}],"$Ld","$Le","$Lf"]}],"$L10"]}]}]}],"$L11","$L12"]}]]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",["$L1a","$L1b"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+1c:I[79520,["$2","$3","$4","$5"],""]
+1e:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:"ViewportBoundary"
+22:I[97367,["$2","$3","$4","$5"],"$21"]
+24:"MetadataBoundary"
+25:I[97367,["$2","$3","$4","$5"],"$24"]
+d:["$","a","https://twitter.com/R_Graph_Gallery",{"href":"https://twitter.com/R_Graph_Gallery","aria-label":"Link to Yan Holtz Twitter profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 512 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}]}]}]
+e:["$","a","https://www.linkedin.com/in/yan-holtz-2477534a/",{"href":"https://www.linkedin.com/in/yan-holtz-2477534a/","aria-label":"Link to Yan Holtz LinkedIn profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 448 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"}]}]}]
+f:["$","a","https://www.yan-holtz.com",{"href":"https://www.yan-holtz.com","aria-label":"Link to Yan Holtz Homepage","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 576 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"}]}]}]
+10:["$","div",null,{"className":"flex gap-2","children":[["$","a",null,{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE","className":"hover:text-foreground","children":"License"}],["$","span",null,{"children":"|"}],["$","$La",null,{"href":"/about","className":"hover:text-foreground","children":"About"}]]}]
+11:["$","$L1c",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-YJ2YPBMD3W","strategy":"afterInteractive"}]
+12:["$","$L1c",null,{"id":"gtag-init","strategy":"afterInteractive","children":"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YJ2YPBMD3W');"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L26"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+15:C
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]
+27:I[27201,["$2","$3","$4","$5"],"IconMark"]
+20:null
+26:[["$","title","0",{"children":"Map with country specific colors and annotations"}],["$","meta","1",{"name":"description","content":"How to create a choropleth map using the matplotlib and geopandas library with one color per country"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"geopandas, matplotlib, map, color, plot, chart, choropleth"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-map-europe-with-color-by-country/"}],["$","meta","6",{"property":"og:title","content":"Map with country specific colors and annotations"}],["$","meta","7",{"property":"og:description","content":"How to create a choropleth map using the matplotlib and geopandas library with one color per country"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/web-map-europe-with-color-by-country/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Map with country specific colors and annotations"}],["$","meta","13",{"name":"twitter:description","content":"How to create a choropleth map using the matplotlib and geopandas library with one color per country"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/web-map-europe-with-color-by-country/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L27","24",{}]]
+28:I[98936,["$2","$3","$4","$5","$9"],"default"]
+29:Tfdc,# initialize the figure
+fig, ax = plt.subplots(figsize=(15, 10))
+
+# define colors
+cmap = cm.Reds
+min_rate, max_rate = 2, 12
+norm = mcolors.Normalize(vmin=min_rate, vmax=max_rate)
+
+# create the plot
+data.plot(column='Cancer', cmap=cmap, norm=norm,
+          edgecolor='black', linewidth=0.2, ax=ax)
+
+# custom axis
+ax.set_xlim(-15, 35)
+ax.set_ylim(32, 72)
+ax.axis('off')
+
+# add a title
+year = 2019
+wave = 8
+fig.text(0.2, 0.75, 'Has a doctor ever told you\nthat you had a cancer?',
+         fontsize=22, fontweight='bold', fontfamily='serif')
+fig.text(0.2, 0.68, f'Proportion of people over 50 years old answering "Yes"\nto this question: an overview of disparities in Europe.',
+         fontsize=11, fontweight='ultralight', fontfamily='serif')
+
+# add credit source at the bottom
+text = "<Design>: Joseph Barbier\n<Data>: SHARE Survey"
+fig_text(0.7, 0.08,
+         s=text,
+         color='black',
+         fontsize=9,
+         highlight_textprops=[{"fontweight": 'bold'},
+                              {"fontweight": 'bold'}],
+         ax=ax)
+
+# bloc of text on the right
+fig.text(0.72, 0.51, 'Even geographical neighbors\ncan have very different rates',
+         fontsize=10,
+         fontweight='ultralight',
+         verticalalignment='center',
+         fontfamily='DejaVu Sans')
+style = "Simple, tail_width=0.5, head_width=4, head_length=8"
+kw = dict(arrowstyle=style, color="k")
+tail_position = (0.8, 0.54)
+head_position = (0.73, 0.63)
+a = patches.FancyArrowPatch(tail_position, head_position,
+                            connectionstyle="arc3,rad=.5",
+                            transform=fig.transFigure,
+                            **kw)
+plt.gca().add_patch(a)
+
+# bloc of text on the bottom
+fig.text(0.35, 0.14, 'Southern countries seem\nto have lower rates than\nnorthern ones',
+         fontsize=10,
+         fontweight='ultralight',
+         verticalalignment='center',
+         fontfamily='DejaVu Sans')
+style = "Simple, tail_width=0.5, head_width=4, head_length=8"
+kw = dict(arrowstyle=style, color="k")
+tail_position = (0.48, 0.14)
+head_position = (0.61, 0.22)
+a = patches.FancyArrowPatch(tail_position, head_position,
+                            connectionstyle="arc3,rad=.5",
+                            transform=fig.transFigure,
+                            **kw)
+plt.gca().add_patch(a)
+
+# compute centroids for annotations
+data_projected = data.to_crs(epsg=3035)
+data_projected['centroid'] = data_projected.geometry.centroid
+data['centroid'] = data_projected['centroid'].to_crs(data.crs)
+countries_to_annotate = ['France', 'Italy', 'Romania',
+                         'Lithuania', 'Finland', 'Estonia',
+                         'Latvia', 'Spain', 'Germany',
+                         'Sweden']
+adjustments = {
+    'France': (9, 3),
+    'Italy': (-2.4, 2),
+    'Lithuania': (0, -0.6),
+    'Finland': (0, -2.5),
+    'Romania': (0, -0.5),
+    'Bulgaria': (0, -0.6),
+    'Greece': (-1.2, -0.8),
+    'Croatia': (0, -1),
+    'Cyprus': (0, -1),
+    'Ireland': (0, -1),
+    'Malta': (0, -1),
+    'Slovenia': (0, -1),
+    'Slovakia': (-0.7, -0.8),
+    'Estonia': (0, -0.7),
+    'Latvia': (0, -0.5),
+    'Belgium': (0, -0.7),
+    'Austria': (0, -1),
+    'Spain': (0, -1),
+    'Portugal': (-0.5, -1),
+    'Luxembourg': (0, -1),
+    'Germany': (-0.2, 0),
+    'Hungary': (-0.3, -1),
+    'Czechia': (0, -1),
+    'Poland': (0, -1),
+    'Sweden': (-1.5, -1),
+    'Denmark': (0, -1),
+    'Netherlands': (0, 0),
+    'United Kingdom': (0, -1),
+    'Switzerland': (0, -0.5),
+}
+# annotate countries
+for country in countries_to_annotate:
+
+    # get centroid
+    centroid = data.loc[data['NAME'] == country, 'centroid'].values[0]
+    x, y = centroid.coords[0]
+
+    # get corrections
+    x += adjustments[country][0]
+    y += adjustments[country][1]
+
+    # get rate and annotate
+    rate = data.loc[data['NAME'] == country, 'Cancer'].values[0]
+    ax.annotate(f'{country[:3]} {rate}%', (x, y), textcoords="offset points", xytext=(5, 5),
+                ha='center', fontsize=8, fontfamily='DejaVu Sans', color='black')
+
+# display the plot
+plt.tight_layout()
+plt.show()1d:[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Map with country specific colors and annotations"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Choropleth150.webp","alt":"logo of a chart:Choropleth","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p><p>We will create a <a href='https://python-graph-gallery.com/choropleth-map/'><b>Choropleth map</b> </a> using the <a href='https://python-graph-gallery.com/matplotlib/'>Matplotlib</a> library to visualize data about <i>countries and their cancer rate</i>. We will also use the <code>Geopandas</code> package in order to manipulate geographical data.<br> It was produced by <a href='https://www.barbierjoseph.com'>Joseph Barbier</a>. </p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$La",null,{"href":"/choropleth-map/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Choropleth section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/choropleth.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],["$","article",null,{"className":"wrapper post-content","children":["$","$L28",null,{"cells":["# plot\nimport matplotlib.pyplot as plt\nimport matplotlib.cm as cm\nimport matplotlib.colors as mcolors\nimport matplotlib.patches as patches\nfrom highlight_text import fig_text\n\n# data\nimport pandas as pd\nimport geopandas as gpd","# Open the dataset from Github\nurl = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/cancer_rate.csv\"\ncancer_rates = pd.read_csv(url)","# world map (Replace with your path)\nworld = gpd.read_file(\n    \"../../static/data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp\")\n\n# filter on europe only\neurope = world[world['CONTINENT'] == 'Europe']","data = europe.merge(cancer_rates, how='left',\n                    left_on='NAME', right_on='Country')\ndata.dropna(subset=['Cancer'], inplace=True)\ndata['Cancer'] = round(data['Cancer']*100, 1)","# initialize the figure\nfig, ax = plt.subplots(1, 1, figsize=(8, 8))\n\n# create the plot\ndata.plot(ax=ax)\n\n# custom axis\nax.set_xlim(-15, 35)\nax.set_ylim(32, 72)\n\n# display the plot\nplt.tight_layout()\nplt.show()","# initialize the figure\nfig, ax = plt.subplots(1, 1, figsize=(8, 8))\n\n# create the plot\ndata.plot(ax=ax)\n\n# custom axis\nax.set_xlim(-15, 35)\nax.set_ylim(32, 72)\nax.axis('off')\n\n# display the plot\nplt.tight_layout()\nplt.show()","# initialize the figure\nfig, ax = plt.subplots(1, 1, figsize=(8, 8))\n\n# define colors\ncmap = cm.Reds\nmin_rate, max_rate = 2, 12\nnorm = mcolors.Normalize(vmin=min_rate, vmax=max_rate)\n\n# create the plot\ndata.plot(column='Cancer', cmap=cmap, norm=norm, ax=ax)\n\n# custom axis\nax.set_xlim(-15, 35)\nax.set_ylim(32, 72)\nax.axis('off')\n\n# display the plot\nplt.tight_layout()\nplt.show()","# initialize the figure\nfig, ax = plt.subplots(1, 1, figsize=(8, 8))\n\n# define colors\ncmap = cm.Reds\nmin_rate, max_rate = 2, 12\nnorm = mcolors.Normalize(vmin=min_rate, vmax=max_rate)\n\n# create the plot\ndata.plot(column='Cancer', cmap=cmap, norm=norm,\n          edgecolor='black', linewidth=0.2, ax=ax)\n\n# custom axis\nax.set_xlim(-15, 35)\nax.set_ylim(32, 72)\nax.axis('off')\n\n# display the plot\nplt.tight_layout()\nplt.show()","$29"],"children":"$L2a"}]}],"$L2b","$L2c","$L2d","$L2e","$L2f"]
+30:I[68978,["$2","$3","$4","$5","$9"],"default"]
+53:I[59351,["$2","$3","$4","$5","$9"],"default"]
+31:T66c,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># plot</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.cm </span><span style="color:#D73A49">as</span><span style="color:#24292E"> cm</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.colors </span><span style="color:#D73A49">as</span><span style="color:#24292E"> mcolors</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">as</span><span style="color:#24292E"> patches</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># data</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> geopandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> gpd</span></span></code></pre>2a:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This plot is a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/choropleth-map/","children":"Choropleth map"}],". It shows the cancer rate per country is various European countries using the SHARE Survey data."]}],"\n",["$","p","p-1",{"children":["The chart was made by ",["$","a","a-0",{"href":"https://www.barbierjoseph.com/","children":"Joseph B."}],". Thanks to him for accepting sharing his work here!"]}],"\n",["$","p","p-2",{"children":"Let's see what the final picture will look like:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-map-europe-with-color-by-country-highres.png?raw=true","alt":"choropleth map with color gradient","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-4",{"children":"First, you need to install the following librairies:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," is used for creating the chart and add customization features"]}],"\n",["$","li","li-1",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/pandas/","children":"pandas"}]," and ",["$","code","code-0",{"children":"geopandas"}]," are used to put the data into a dataframe and manipulate geographical data"]}],"\n"]}],"\n",["$","p","p-5",{"children":"And that's it!"}],"\n",["$","$L30","notebook-cell-0",{"index":0,"code":"# plot\nimport matplotlib.pyplot as plt\nimport matplotlib.cm as cm\nimport matplotlib.colors as mcolors\nimport matplotlib.patches as patches\nfrom highlight_text import fig_text\n\n# data\nimport pandas as pd\nimport geopandas as gpd","highlighted":"$31","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-6",{"children":["For this reproduction, we're going to retrieve the data directly from the ","$L32",". This means we just need to ","$L33"," to pandas' ","$L34"," function to retrieve the data."]}],"\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","$L3d","\n","$L3e","$L3f","\n","$L40","$L41","\n","$L42","\n","$L43","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","$L4f","\n","$L50","\n","$L51","\n","$L52"]
+2b:["$","div",null,{"className":"h-16 sm:h-20"}]
+2c:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$La","map",{"href":"/map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Map150.webp","alt":"logo of a chart:Map","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Map"}]]}],["$","$La","choropleth",{"href":"/choropleth-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Choropleth150.webp","alt":"logo of a chart:Choropleth","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Choropleth"}]]}],["$","$La","hexbin",{"href":"/hexbin-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/MapHexbin150.webp","alt":"logo of a chart:MapHexbin","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Hexbin"}]]}],["$","$La","cartogram",{"href":"/cartogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Cartogram150.webp","alt":"logo of a chart:Cartogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Cartogram"}]]}],["$","$La","connection",{"href":"/connection-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ConnectedMap150.webp","alt":"logo of a chart:ConnectedMap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Connection"}]]}],["$","$La","bubbleMap",{"href":"/bubble-map/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/BubbleMap150.webp","alt":"logo of a chart:BubbleMap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Bubble"}]]}]]}]]}]}]
+2d:["$","div",null,{"className":"h-16 sm:h-20"}]
+2e:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+2f:["$","$L53",null,{}]
+32:["$","a","a-0",{"href":"https://github.com/holtzy/The-Python-Graph-Gallery","children":"gallery's Github repo"}]
+33:["$","strong","strong-0",{"children":"give the right url as an argument"}]
+34:["$","code","code-0",{"children":"read_csv()"}]
+35:["$","p","p-7",{"children":"The dataset contains one row per country and the associated cancer rate."}]
+36:["$","$L30","notebook-cell-1",{"index":1,"code":"# Open the dataset from Github\nurl = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/cancer_rate.csv\"\ncancer_rates = pd.read_csv(url)","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Open the dataset from Github</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">url </span><span style=\"color:#D73A49\">=</span><span style=\"color:#032F62\"> \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/cancer_rate.csv\"</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">cancer_rates </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.read_csv(url)</span></span></code></pre>","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+37:["$","h2","h2-3",{"children":"Get map positions"}]
+38:["$","p","p-8",{"children":["Since our dataset contains only the country name and the cancer rate, we need to find a way to get actual country shape to put in our plot. For this we need to load a mapping dataset that you can get at ",["$","a","a-0",{"href":"https://www.naturalearthdata.com/downloads/110m-cultural-vectors/","children":"Natural Earth Data"}]," (",["$","code","code-0",{"children":"Download countries"}]," button). Then unzip it and get the ",["$","code","code-1",{"children":".shp"}]," file and load it."]}]
+39:["$","$L30","notebook-cell-2",{"index":2,"code":"# world map (Replace with your path)\nworld = gpd.read_file(\n    \"../../static/data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp\")\n\n# filter on europe only\neurope = world[world['CONTINENT'] == 'Europe']","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># world map (Replace with your path)</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">world </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> gpd.read_file(</span></span>\n<span class=\"line\"><span style=\"color:#032F62\">    \"../../static/data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp\"</span><span style=\"color:#24292E\">)</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"color:#6A737D\"># filter on europe only</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">europe </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> world[world[</span><span style=\"color:#032F62\">'CONTINENT'</span><span style=\"color:#24292E\">] </span><span style=\"color:#D73A49\">==</span><span style=\"color:#032F62\"> 'Europe'</span><span style=\"color:#24292E\">]</span></span></code></pre>","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+3a:["$","p","p-9",{"children":"Once we get that file, we need to merge it with our actual dataset:"}]
+54:T6c6,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> europe.merge(cancer_rates, </span><span style="color:#E36209">how</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">                    left_on</span><span style="color:#D73A49">=</span><span style="color:#032F62">'NAME'</span><span style="color:#24292E">, </span><span style="color:#E36209">right_on</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Country'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">data.dropna(</span><span style="color:#E36209">subset</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">'Cancer'</span><span style="color:#24292E">], </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">'Cancer'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> round</span><span style="color:#24292E">(data[</span><span style="color:#032F62">'Cancer'</span><span style="color:#24292E">]</span><span style="color:#D73A49">*</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span></code></pre>3b:["$","$L30","notebook-cell-3",{"index":3,"code":"data = europe.merge(cancer_rates, how='left',\n                    left_on='NAME', right_on='Country')\ndata.dropna(subset=['Cancer'], inplace=True)\ndata['Cancer'] = round(data['Cancer']*100, 1)","highlighted":"$54","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+3c:["$","h2","h2-4",{"children":"Background map"}]
+55:T759,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">35</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">72</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3d:["$","$L30","notebook-cell-4",{"index":4,"code":"# initialize the figure\nfig, ax = plt.subplots(1, 1, figsize=(8, 8))\n\n# create the plot\ndata.plot(ax=ax)\n\n# custom axis\nax.set_xlim(-15, 35)\nax.set_ylim(32, 72)\n\n# display the plot\nplt.tight_layout()\nplt.show()","highlighted":"$55","interactive":false,"hasChart":true,"intro":[["$","p","p-0",{"children":["Thanks to the ",["$","code","code-0",{"children":"geopandas"}]," library, we can easily add a ",["$","strong","strong-0",{"children":"background map"}]," to our plot. We just need to call the ",["$","code","code-1",{"children":"plot()"}]," function on our ",["$","code","code-2",{"children":"geo dataframe"}],"."]}],["$","p","p-1",{"children":["With just a few lines of code, we can create a ",["$","strong","strong-0",{"children":"syntetic map"}]," that shows a European map."]}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-europe-with-color-by-country/output-1.png","alt":"Map with country specific colors and annotations","width":790,"height":779,"loading":"lazy","decoding":"async"}]}]]}]
+3e:["$","h2","h2-5",{"children":"Custom the axis"}]
+56:T7eb,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">35</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">72</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3f:["$","$L30","notebook-cell-5",{"index":5,"code":"# initialize the figure\nfig, ax = plt.subplots(1, 1, figsize=(8, 8))\n\n# create the plot\ndata.plot(ax=ax)\n\n# custom axis\nax.set_xlim(-15, 35)\nax.set_ylim(32, 72)\nax.axis('off')\n\n# display the plot\nplt.tight_layout()\nplt.show()","highlighted":"$56","interactive":false,"hasChart":true,"intro":[["$","p","p-0",{"children":["When we create map, we are generally ",["$","strong","strong-0",{"children":"not interested in the axis"}]," because the map itself contains all the information. For this, we use the ",["$","code","code-0",{"children":"axis('off')"}]," function to remove the axis."]}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-europe-with-color-by-country/output-2.png","alt":"Map with country specific colors and annotations","width":790,"height":782,"loading":"lazy","decoding":"async"}]}]]}]
+40:["$","h2","h2-6",{"children":"Color the map"}]
+57:Tcda,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define colors</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> cm.Reds</span></span>
+<span class="line"><span style="color:#24292E">min_rate, max_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">, </span><span style="color:#005CC5">12</span></span>
+<span class="line"><span style="color:#24292E">norm </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mcolors.Normalize(</span><span style="color:#E36209">vmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_rate, </span><span style="color:#E36209">vmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_rate)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Cancer'</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap, </span><span style="color:#E36209">norm</span><span style="color:#D73A49">=</span><span style="color:#24292E">norm, </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">35</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">72</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>41:["$","$L30","notebook-cell-6",{"index":6,"code":"# initialize the figure\nfig, ax = plt.subplots(1, 1, figsize=(8, 8))\n\n# define colors\ncmap = cm.Reds\nmin_rate, max_rate = 2, 12\nnorm = mcolors.Normalize(vmin=min_rate, vmax=max_rate)\n\n# create the plot\ndata.plot(column='Cancer', cmap=cmap, norm=norm, ax=ax)\n\n# custom axis\nax.set_xlim(-15, 35)\nax.set_ylim(32, 72)\nax.axis('off')\n\n# display the plot\nplt.tight_layout()\nplt.show()","highlighted":"$57","interactive":false,"hasChart":true,"intro":"$L58","output":"$L59"}]
+42:["$","p","p-10",{"children":"It's already looking better!"}]
+43:["$","h2","h2-7",{"children":"Custom other colors"}]
+5a:Te38,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define colors</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> cm.Reds</span></span>
+<span class="line"><span style="color:#24292E">min_rate, max_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">, </span><span style="color:#005CC5">12</span></span>
+<span class="line"><span style="color:#24292E">norm </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mcolors.Normalize(</span><span style="color:#E36209">vmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_rate, </span><span style="color:#E36209">vmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_rate)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Cancer'</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap, </span><span style="color:#E36209">norm</span><span style="color:#D73A49">=</span><span style="color:#24292E">norm,</span></span>
+<span class="line"><span style="color:#E36209">          edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">35</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">72</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>44:["$","$L30","notebook-cell-7",{"index":7,"code":"# initialize the figure\nfig, ax = plt.subplots(1, 1, figsize=(8, 8))\n\n# define colors\ncmap = cm.Reds\nmin_rate, max_rate = 2, 12\nnorm = mcolors.Normalize(vmin=min_rate, vmax=max_rate)\n\n# create the plot\ndata.plot(column='Cancer', cmap=cmap, norm=norm,\n          edgecolor='black', linewidth=0.2, ax=ax)\n\n# custom axis\nax.set_xlim(-15, 35)\nax.set_ylim(32, 72)\nax.axis('off')\n\n# display the plot\nplt.tight_layout()\nplt.show()","highlighted":"$5a","interactive":false,"hasChart":true,"intro":"$L5b","output":"$L5c"}]
+45:["$","h2","h2-8",{"children":"Annotations"}]
+46:["$","p","p-11",{"children":["Annotations is probably the ",["$","strong","strong-0",{"children":"most important part"}]," of nice visualizations! Unfortunately, it's also a part that takes a lot of time and code 😅."]}]
+47:["$","h3","h3-0",{"children":"Add country names"}]
+48:["$","p","p-12",{"children":["In this code, we'll automate adding the country name to the map. This is done with a ",["$","code","code-0",{"children":"for"}]," loop that goes through each country and adds the name to the map. However, adding all countries is not relevant, so we'll select a few countries to add to the map."]}]
+49:["$","p","p-13",{"children":["In order to define where to put the name, we use the ",["$","code","code-0",{"children":"centroid"}]," attribute of the ",["$","code","code-1",{"children":"geometry"}]," column of the ",["$","code","code-2",{"children":"geo"}]," dataframe. This gives us the ",["$","strong","strong-0",{"children":"center of the country"}],". This is a good proxy for the country's position, but we'll also ",["$","strong","strong-1",{"children":"manually add a correction"}]," to the position to make it look better."]}]
+4a:["$","h3","h3-1",{"children":"Add a title"}]
+4b:["$","p","p-14",{"children":["The title is added with the ",["$","code","code-0",{"children":"text()"}]," function and not the ",["$","code","code-1",{"children":"title()"}]," function because it gives us ",["$","strong","strong-0",{"children":"more customization options"}],"."]}]
+4c:["$","h3","h3-2",{"children":"Add a credit"}]
+4d:["$","p","p-15",{"children":["For the credit, we need the ",["$","a","a-0",{"href":"https://github.com/znstrider/highlight_text","children":"highlight_text"}]," package that makes way easier customizing annotations! We use the ",["$","code","code-0",{"children":"fig_text()"}]," function, which is similar to ",["$","code","code-1",{"children":"fig.text()"}]," but with ",["$","strong","strong-0",{"children":"more customization options"}],"."]}]
+4e:["$","h3","h3-3",{"children":"Add arrows"}]
+5d:Tfdc,# initialize the figure
+fig, ax = plt.subplots(figsize=(15, 10))
+
+# define colors
+cmap = cm.Reds
+min_rate, max_rate = 2, 12
+norm = mcolors.Normalize(vmin=min_rate, vmax=max_rate)
+
+# create the plot
+data.plot(column='Cancer', cmap=cmap, norm=norm,
+          edgecolor='black', linewidth=0.2, ax=ax)
+
+# custom axis
+ax.set_xlim(-15, 35)
+ax.set_ylim(32, 72)
+ax.axis('off')
+
+# add a title
+year = 2019
+wave = 8
+fig.text(0.2, 0.75, 'Has a doctor ever told you\nthat you had a cancer?',
+         fontsize=22, fontweight='bold', fontfamily='serif')
+fig.text(0.2, 0.68, f'Proportion of people over 50 years old answering "Yes"\nto this question: an overview of disparities in Europe.',
+         fontsize=11, fontweight='ultralight', fontfamily='serif')
+
+# add credit source at the bottom
+text = "<Design>: Joseph Barbier\n<Data>: SHARE Survey"
+fig_text(0.7, 0.08,
+         s=text,
+         color='black',
+         fontsize=9,
+         highlight_textprops=[{"fontweight": 'bold'},
+                              {"fontweight": 'bold'}],
+         ax=ax)
+
+# bloc of text on the right
+fig.text(0.72, 0.51, 'Even geographical neighbors\ncan have very different rates',
+         fontsize=10,
+         fontweight='ultralight',
+         verticalalignment='center',
+         fontfamily='DejaVu Sans')
+style = "Simple, tail_width=0.5, head_width=4, head_length=8"
+kw = dict(arrowstyle=style, color="k")
+tail_position = (0.8, 0.54)
+head_position = (0.73, 0.63)
+a = patches.FancyArrowPatch(tail_position, head_position,
+                            connectionstyle="arc3,rad=.5",
+                            transform=fig.transFigure,
+                            **kw)
+plt.gca().add_patch(a)
+
+# bloc of text on the bottom
+fig.text(0.35, 0.14, 'Southern countries seem\nto have lower rates than\nnorthern ones',
+         fontsize=10,
+         fontweight='ultralight',
+         verticalalignment='center',
+         fontfamily='DejaVu Sans')
+style = "Simple, tail_width=0.5, head_width=4, head_length=8"
+kw = dict(arrowstyle=style, color="k")
+tail_position = (0.48, 0.14)
+head_position = (0.61, 0.22)
+a = patches.FancyArrowPatch(tail_position, head_position,
+                            connectionstyle="arc3,rad=.5",
+                            transform=fig.transFigure,
+                            **kw)
+plt.gca().add_patch(a)
+
+# compute centroids for annotations
+data_projected = data.to_crs(epsg=3035)
+data_projected['centroid'] = data_projected.geometry.centroid
+data['centroid'] = data_projected['centroid'].to_crs(data.crs)
+countries_to_annotate = ['France', 'Italy', 'Romania',
+                         'Lithuania', 'Finland', 'Estonia',
+                         'Latvia', 'Spain', 'Germany',
+                         'Sweden']
+adjustments = {
+    'France': (9, 3),
+    'Italy': (-2.4, 2),
+    'Lithuania': (0, -0.6),
+    'Finland': (0, -2.5),
+    'Romania': (0, -0.5),
+    'Bulgaria': (0, -0.6),
+    'Greece': (-1.2, -0.8),
+    'Croatia': (0, -1),
+    'Cyprus': (0, -1),
+    'Ireland': (0, -1),
+    'Malta': (0, -1),
+    'Slovenia': (0, -1),
+    'Slovakia': (-0.7, -0.8),
+    'Estonia': (0, -0.7),
+    'Latvia': (0, -0.5),
+    'Belgium': (0, -0.7),
+    'Austria': (0, -1),
+    'Spain': (0, -1),
+    'Portugal': (-0.5, -1),
+    'Luxembourg': (0, -1),
+    'Germany': (-0.2, 0),
+    'Hungary': (-0.3, -1),
+    'Czechia': (0, -1),
+    'Poland': (0, -1),
+    'Sweden': (-1.5, -1),
+    'Denmark': (0, -1),
+    'Netherlands': (0, 0),
+    'United Kingdom': (0, -1),
+    'Switzerland': (0, -0.5),
+}
+# annotate countries
+for country in countries_to_annotate:
+
+    # get centroid
+    centroid = data.loc[data['NAME'] == country, 'centroid'].values[0]
+    x, y = centroid.coords[0]
+
+    # get corrections
+    x += adjustments[country][0]
+    y += adjustments[country][1]
+
+    # get rate and annotate
+    rate = data.loc[data['NAME'] == country, 'Cancer'].values[0]
+    ax.annotate(f'{country[:3]} {rate}%', (x, y), textcoords="offset points", xytext=(5, 5),
+                ha='center', fontsize=8, fontfamily='DejaVu Sans', color='black')
+
+# display the plot
+plt.tight_layout()
+plt.show()5e:T7349,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define colors</span></span>
+<span class="line"><span style="color:#24292E">cmap </span><span style="color:#D73A49">=</span><span style="color:#24292E"> cm.Reds</span></span>
+<span class="line"><span style="color:#24292E">min_rate, max_rate </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">, </span><span style="color:#005CC5">12</span></span>
+<span class="line"><span style="color:#24292E">norm </span><span style="color:#D73A49">=</span><span style="color:#24292E"> mcolors.Normalize(</span><span style="color:#E36209">vmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">min_rate, </span><span style="color:#E36209">vmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">max_rate)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the plot</span></span>
+<span class="line"><span style="color:#24292E">data.plot(</span><span style="color:#E36209">column</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Cancer'</span><span style="color:#24292E">, </span><span style="color:#E36209">cmap</span><span style="color:#D73A49">=</span><span style="color:#24292E">cmap, </span><span style="color:#E36209">norm</span><span style="color:#D73A49">=</span><span style="color:#24292E">norm,</span></span>
+<span class="line"><span style="color:#E36209">          edgecolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># custom axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlim(</span><span style="color:#D73A49">-</span><span style="color:#005CC5">15</span><span style="color:#24292E">, </span><span style="color:#005CC5">35</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylim(</span><span style="color:#005CC5">32</span><span style="color:#24292E">, </span><span style="color:#005CC5">72</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.axis(</span><span style="color:#032F62">'off'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add a title</span></span>
+<span class="line"><span style="color:#24292E">year </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2019</span></span>
+<span class="line"><span style="color:#24292E">wave </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 8</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.75</span><span style="color:#24292E">, </span><span style="color:#032F62">'Has a doctor ever told you</span><span style="color:#005CC5">\n</span><span style="color:#032F62">that you had a cancer?'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">22</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontfamily</span><span style="color:#D73A49">=</span><span style="color:#032F62">'serif'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.68</span><span style="color:#24292E">, </span><span style="color:#D73A49">f</span><span style="color:#032F62">'Proportion of people over 50 years old answering "Yes"</span><span style="color:#005CC5">\n</span><span style="color:#032F62">to this question: an overview of disparities in Europe.'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">11</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'ultralight'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontfamily</span><span style="color:#D73A49">=</span><span style="color:#032F62">'serif'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add credit source at the bottom</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "&#x3C;Design>: Joseph Barbier</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;Data>: SHARE Survey"</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.08</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text,</span></span>
+<span class="line"><span style="color:#E36209">         color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">9</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">},</span></span>
+<span class="line"><span style="color:#24292E">                              {</span><span style="color:#032F62">"fontweight"</span><span style="color:#24292E">: </span><span style="color:#032F62">'bold'</span><span style="color:#24292E">}],</span></span>
+<span class="line"><span style="color:#E36209">         ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># bloc of text on the right</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.72</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.51</span><span style="color:#24292E">, </span><span style="color:#032F62">'Even geographical neighbors</span><span style="color:#005CC5">\n</span><span style="color:#032F62">can have very different rates'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'ultralight'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         verticalalignment</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontfamily</span><span style="color:#D73A49">=</span><span style="color:#032F62">'DejaVu Sans'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">style </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Simple, tail_width=0.5, head_width=4, head_length=8"</span></span>
+<span class="line"><span style="color:#24292E">kw </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">style, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"k"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">tail_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.54</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">head_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.73</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.63</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> patches.FancyArrowPatch(tail_position, head_position,</span></span>
+<span class="line"><span style="color:#E36209">                            connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"arc3,rad=.5"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">                            transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig.transFigure,</span></span>
+<span class="line"><span style="color:#D73A49">                            **</span><span style="color:#24292E">kw)</span></span>
+<span class="line"><span style="color:#24292E">plt.gca().add_patch(a)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># bloc of text on the bottom</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.35</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.14</span><span style="color:#24292E">, </span><span style="color:#032F62">'Southern countries seem</span><span style="color:#005CC5">\n</span><span style="color:#032F62">to have lower rates than</span><span style="color:#005CC5">\n</span><span style="color:#032F62">northern ones'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'ultralight'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         verticalalignment</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontfamily</span><span style="color:#D73A49">=</span><span style="color:#032F62">'DejaVu Sans'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">style </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Simple, tail_width=0.5, head_width=4, head_length=8"</span></span>
+<span class="line"><span style="color:#24292E">kw </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">style, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"k"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">tail_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.48</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.14</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">head_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.61</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.22</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">a </span><span style="color:#D73A49">=</span><span style="color:#24292E"> patches.FancyArrowPatch(tail_position, head_position,</span></span>
+<span class="line"><span style="color:#E36209">                            connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"arc3,rad=.5"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">                            transform</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig.transFigure,</span></span>
+<span class="line"><span style="color:#D73A49">                            **</span><span style="color:#24292E">kw)</span></span>
+<span class="line"><span style="color:#24292E">plt.gca().add_patch(a)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># compute centroids for annotations</span></span>
+<span class="line"><span style="color:#24292E">data_projected </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.to_crs(</span><span style="color:#E36209">epsg</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3035</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">data_projected[</span><span style="color:#032F62">'centroid'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data_projected.geometry.centroid</span></span>
+<span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">'centroid'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data_projected[</span><span style="color:#032F62">'centroid'</span><span style="color:#24292E">].to_crs(data.crs)</span></span>
+<span class="line"><span style="color:#24292E">countries_to_annotate </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'France'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Italy'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Romania'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">                         'Lithuania'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Finland'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Estonia'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">                         'Latvia'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Spain'</span><span style="color:#24292E">, </span><span style="color:#032F62">'Germany'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">                         'Sweden'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">adjustments </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    'France'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">9</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Italy'</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">2.4</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Lithuania'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Finland'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">2.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Romania'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Bulgaria'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Greece'</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1.2</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Croatia'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Cyprus'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Ireland'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Malta'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Slovenia'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Slovakia'</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Estonia'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Latvia'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Belgium'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Austria'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Spain'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Portugal'</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Luxembourg'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Germany'</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Hungary'</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.3</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Czechia'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Poland'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Sweden'</span><span style="color:#24292E">: (</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1.5</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Denmark'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Netherlands'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'United Kingdom'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#032F62">    'Switzerland'</span><span style="color:#24292E">: (</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#6A737D"># annotate countries</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> country </span><span style="color:#D73A49">in</span><span style="color:#24292E"> countries_to_annotate:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # get centroid</span></span>
+<span class="line"><span style="color:#24292E">    centroid </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.loc[data[</span><span style="color:#032F62">'NAME'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country, </span><span style="color:#032F62">'centroid'</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    x, y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> centroid.coords[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # get corrections</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> adjustments[country][</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">+=</span><span style="color:#24292E"> adjustments[country][</span><span style="color:#005CC5">1</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # get rate and annotate</span></span>
+<span class="line"><span style="color:#24292E">    rate </span><span style="color:#D73A49">=</span><span style="color:#24292E"> data.loc[data[</span><span style="color:#032F62">'NAME'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country, </span><span style="color:#032F62">'Cancer'</span><span style="color:#24292E">].values[</span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    ax.annotate(</span><span style="color:#D73A49">f</span><span style="color:#032F62">'</span><span style="color:#005CC5">{</span><span style="color:#24292E">country[:</span><span style="color:#005CC5">3</span><span style="color:#24292E">]</span><span style="color:#005CC5">}</span><span style="color:#005CC5"> {</span><span style="color:#24292E">rate</span><span style="color:#005CC5">}</span><span style="color:#032F62">%'</span><span style="color:#24292E">, (x, y), </span><span style="color:#E36209">textcoords</span><span style="color:#D73A49">=</span><span style="color:#032F62">"offset points"</span><span style="color:#24292E">, </span><span style="color:#E36209">xytext</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">                ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#E36209">fontfamily</span><span style="color:#D73A49">=</span><span style="color:#032F62">'DejaVu Sans'</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>4f:["$","$L30","notebook-cell-8",{"index":8,"code":"$5d","highlighted":"$5e","interactive":false,"hasChart":true,"intro":"$L5f","output":"$L60"}]
+50:["$","h2","h2-9",{"children":"Going further"}]
+51:["$","p","p-16",{"children":["This article explains how to reproduce a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/choropleth-map/","children":"choropleth map"}]," with annotations, colormap and nice features."]}]
+52:["$","p","p-17",{"children":["For more examples of ",["$","strong","strong-0",{"children":"advanced customization"}]," in map, check out ",["$","a","a-0",{"href":"https://python-graph-gallery.com/choropleth-map-geopandas-python/","children":"choropleth map of America"}],". Also, you might be interested in ",["$","a","a-1",{"href":"https://python-graph-gallery.com/292-choropleth-map-with-folium/","children":"creating interactive map"}]," with Folium."]}]
+58:[["$","p","p-0",{"children":["In this chart, the color of the country will be used to display the value of the rate. For that we need to use a colormap. In our case, we will also ",["$","strong","strong-0",{"children":"normalize"}]," it, meaning that we will use a ",["$","strong","strong-1",{"children":"color gradient"}]," that goes (more or less) from the minimum to the maximum value of our dataset. This ensures that the ",["$","strong","strong-2",{"children":"color is representative"}]," of the data."]}],["$","p","p-1",{"children":"For this, we use the:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["add a ",["$","code","code-0",{"children":"column"}]," argument to specify the column to use for the color"]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"cmap"}]," argument (we will use a white to red gradient)"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"vmin"}]," and ",["$","code","code-1",{"children":"vmax"}]," arguments to set the ",["$","strong","strong-0",{"children":"color scale"}]," limits"]}],"\n"]}]]
+59:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-europe-with-color-by-country/output-3.png","alt":"Map with country specific colors and annotations","width":790,"height":782,"loading":"lazy","decoding":"async"}]}]]
+5b:[["$","p","p-0",{"children":["What makes a map look good is not the only the color of the countries, but also adding a thin ",["$","strong","strong-0",{"children":"border"}]," to each country. This is also a way of illustrating the ",["$","strong","strong-1",{"children":"lack of data"}]," for some countries."]}],["$","p","p-1",{"children":"This is done with:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["the ",["$","code","code-0",{"children":"edgecolor"}]," argument for the ",["$","strong","strong-0",{"children":"color"}]]}],"\n",["$","li","li-1",{"children":["the ",["$","code","code-0",{"children":"linewidth"}]," argument for the ",["$","strong","strong-0",{"children":"width"}]]}],"\n"]}]]
+5c:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-europe-with-color-by-country/output-4.png","alt":"Map with country specific colors and annotations","width":790,"height":782,"loading":"lazy","decoding":"async"}]}]]
+5f:[["$","p","p-0",{"children":["We will create a custom arrow in Matplotlib by defining its style, size, and color, and then positions it on the figure using specified ",["$","strong","strong-0",{"children":"tail and head coordinates"}],". It uses a ",["$","code","code-0",{"children":"FancyArrowPatch"}]," for flexible styling, including an ",["$","strong","strong-1",{"children":"arc connection style"}],", and adds this arrow to the current plot's axes. This approach allows for detailed customization and highlighting within visual presentations, making it ideal for annotating or ",["$","strong","strong-2",{"children":"drawing attention"}]," to specific areas of a plot."]}]]
+60:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-map-europe-with-color-by-country/output-5.png","alt":"Map with country specific colors and annotations","width":1008,"height":962,"loading":"lazy","decoding":"async"}]}]]

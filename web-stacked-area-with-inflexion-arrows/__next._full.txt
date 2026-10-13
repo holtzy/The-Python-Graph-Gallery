@@ -1,0 +1,1304 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/09q85_ay6xdo0.js"
+3:"/_next/static/chunks/21dxsc4p3jeoz.js"
+4:"/_next/static/chunks/1d1qeiuriwpmz.js"
+5:"/_next/static/chunks/1u5pxdefkf32d.js"
+6:I[62319,["$2","$3","$4","$5"],"default"]
+7:I[39756,["$2","$3","$4","$5"],"default"]
+8:I[37457,["$2","$3","$4","$5"],"default"]
+9:"/_next/static/chunks/354p-aqxaih3m.js"
+a:I[22016,["$2","$3","$4","$5","$9"],""]
+b:I[44110,["$2","$3","$4","$5","$9"],"default"]
+19:I[68027,["$2","$3","$4","$5"],"default",1]
+:HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
+:HL["/_next/static/chunks/1ms0qnrh2aktb.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":{"n":"slug","t":"d","k":"web-stacked-area-with-inflexion-arrows","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":66048,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","web-stacked-area-with-inflexion-arrows",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/09q85_ay6xdo0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/21dxsc4p3jeoz.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1d1qeiuriwpmz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1u5pxdefkf32d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"JdxiwG_variable iGg3zq_variable antialiased","children":[["$","head",null,{"children":["$","link",null,{"rel":"sitemap","type":"application/xml","href":"/sitemap-index.xml"}]}],["$","body",null,{"children":[["$","$L6",null,{}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":[["$","h2",null,{"id":"404","children":" 😞 Oh No 😞 | 404"}],["$","p",null,{"children":"It looks like there is nothing here anymore."}],["$","p",null,{"children":["Please go back to the ",["$","$La",null,{"href":"/","children":"gallery home page"}]," and check if you can find your graph!"]}]]}],["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}],["$","div",null,{"className":"h-16 sm:h-20"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-24 border-t py-8 text-sm text-muted-foreground","children":["$","div",null,{"className":"mx-auto max-w-5xl px-5","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-4 sm:flex-row","children":[["$","div",null,{"children":["Copyright © the Python Graph Gallery ",2026]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","a","https://github.com/holtzy",{"href":"https://github.com/holtzy","aria-label":"Link to Yan Holtz Github profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 496 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"$c"}]}]}],"$Ld","$Le","$Lf"]}],"$L10"]}]}]}],"$L11","$L12"]}]]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",["$L1a","$L1b"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+1c:I[79520,["$2","$3","$4","$5"],""]
+1e:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:"ViewportBoundary"
+22:I[97367,["$2","$3","$4","$5"],"$21"]
+24:"MetadataBoundary"
+25:I[97367,["$2","$3","$4","$5"],"$24"]
+d:["$","a","https://twitter.com/R_Graph_Gallery",{"href":"https://twitter.com/R_Graph_Gallery","aria-label":"Link to Yan Holtz Twitter profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 512 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}]}]}]
+e:["$","a","https://www.linkedin.com/in/yan-holtz-2477534a/",{"href":"https://www.linkedin.com/in/yan-holtz-2477534a/","aria-label":"Link to Yan Holtz LinkedIn profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 448 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"}]}]}]
+f:["$","a","https://www.yan-holtz.com",{"href":"https://www.yan-holtz.com","aria-label":"Link to Yan Holtz Homepage","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 576 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"}]}]}]
+10:["$","div",null,{"className":"flex gap-2","children":[["$","a",null,{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE","className":"hover:text-foreground","children":"License"}],["$","span",null,{"children":"|"}],["$","$La",null,{"href":"/about","className":"hover:text-foreground","children":"About"}]]}]
+11:["$","$L1c",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-YJ2YPBMD3W","strategy":"afterInteractive"}]
+12:["$","$L1c",null,{"id":"gtag-init","strategy":"afterInteractive","children":"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YJ2YPBMD3W');"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L26"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+15:C
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]
+27:I[27201,["$2","$3","$4","$5"],"IconMark"]
+20:null
+26:[["$","title","0",{"children":"Stacked area chart with inline labels and arrows"}],["$","meta","1",{"name":"description","content":"How to create stacked area chart with inline labels and arrows with an inflexion point in Python with matplotlib"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"stacked area, seaborn, matplotlib, python, arrows, annotations, highlight_text, inflexion"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-stacked-area-with-inflexion-arrows/"}],["$","meta","6",{"property":"og:title","content":"Stacked area chart with inline labels and arrows"}],["$","meta","7",{"property":"og:description","content":"How to create stacked area chart with inline labels and arrows with an inflexion point in Python with matplotlib"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Stacked area chart with inline labels and arrows"}],["$","meta","13",{"name":"twitter:description","content":"How to create stacked area chart with inline labels and arrows with an inflexion point in Python with matplotlib"}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L27","24",{}]]
+28:I[98936,["$2","$3","$4","$5","$9"],"default"]
+29:T42c,# initialize the figure
+fig, ax = plt.subplots(figsize=(14, 7), dpi=300)
+ax.set_axis_off()
+
+# define the x-axis variable and order the columns
+columns = df.sum().sort_values().index.to_list()
+x = df.index
+
+# defines color map and mapping with columns
+colors = load_palette("Dali")
+color_mapping = {
+    "Flood": colors[4],
+    "Volcanic activity": colors[0],
+    "Wildfire": colors[6],
+    "Drought": colors[7],
+    "Extreme temperature": colors[5],
+    "Wet mass movement": colors[3],
+    "Earthquake": colors[2],
+    "Extreme weather": colors[1],
+}
+colors = [color_mapping[col] for col in columns]
+
+# create the stacked area plot
+areas = np.stack(df[columns].values, axis=-1)
+ax.stackplot(x, areas, colors=colors)
+
+# add label for the x-axis
+for year in range(1960, 2030, 10):
+    ax_text(x=year, y=-10, s=f"{year}", va="top", ha="left", fontsize=13, color="grey")
+
+# add label for the y-axis
+for value in range(100, 400, 100):
+    ax_text(
+        x=1960, y=value, s=f"{value}", va="center", ha="left", fontsize=13, color="grey"
+    )
+
+# display the plot
+plt.show()2a:T7e4,# set up the font properties
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(14, 7), dpi=300)
+ax.set_axis_off()
+
+# define the x-axis variable and order the columns
+columns = df.sum().sort_values().index.to_list()
+x = df.index
+
+# defines color map and mapping with columns
+colors = load_palette("Dali")
+color_mapping = {
+    "Flood": colors[4],
+    "Volcanic activity": colors[0],
+    "Wildfire": colors[6],
+    "Drought": colors[7],
+    "Extreme temperature": colors[5],
+    "Wet mass movement": colors[3],
+    "Earthquake": colors[2],
+    "Extreme weather": colors[1],
+}
+colors = [color_mapping[col] for col in columns]
+
+# create the stacked area plot
+areas = np.stack(df[columns].values, axis=-1)
+ax.stackplot(x, areas, colors=colors)
+
+# add label for the x-axis
+for year in range(1960, 2030, 10):
+    ax_text(
+        x=year,
+        y=-10,
+        s=f"{year}",
+        va="top",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+
+# add label for the y-axis
+for value in range(100, 400, 100):
+    ax_text(
+        x=1960,
+        y=value,
+        s=f"{value}",
+        va="center",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+
+# add title
+fig_text(
+    s="More than 1 natural disaster occurs\n<every day> since the 21st century",
+    x=0.16,
+    y=0.83,
+    fontsize=24,
+    ha="left",
+    va="top",
+    color="black",
+    font=other_font,
+    fig=fig,
+    highlight_textprops=[{"font": other_bold_font}],
+)
+
+# source and credit
+text = """
+<Design>: barbierjoseph.com
+<Data>: EM-DAT, CRED / UCLouvain (2024)
+"""
+fig_text(
+    s=text,
+    x=0.16,
+    y=0.05,
+    fontsize=10,
+    ha="left",
+    va="top",
+    color="black",
+    fontproperties=other_font,
+    highlight_textprops=[{"font": other_bold_font}, {"font": other_bold_font}],
+)
+
+# display the plot
+plt.show()2b:T9bb,# set up the font properties
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(14, 7), dpi=300)
+ax.set_axis_off()
+
+# define the x-axis variable and order the columns
+columns = df.sum().sort_values().index.to_list()
+x = df.index
+
+# defines color map and mapping with columns
+colors = load_palette("Dali")
+color_mapping = {
+    "Flood": colors[4],
+    "Volcanic activity": colors[0],
+    "Wildfire": colors[6],
+    "Drought": colors[7],
+    "Extreme temperature": colors[5],
+    "Wet mass movement": colors[3],
+    "Earthquake": colors[2],
+    "Extreme weather": colors[1],
+}
+colors = [color_mapping[col] for col in columns]
+
+# create the stacked area plot
+areas = np.stack(df[columns].values, axis=-1)
+ax.stackplot(x, areas, colors=colors)
+
+# add label for the x-axis
+for year in range(1960, 2030, 10):
+    ax_text(
+        x=year,
+        y=-10,
+        s=f"{year}",
+        va="top",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+
+# add label for the y-axis
+for value in range(100, 400, 100):
+    ax_text(
+        x=1960,
+        y=value,
+        s=f"{value}",
+        va="center",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+    ax.plot([1963, 2023], [value, value], color="grey", lw=0.1)
+
+# add title
+fig_text(
+    s="More than 1 natural disaster occurs\n<every day> since the 21st century",
+    x=0.16,
+    y=0.83,
+    fontsize=24,
+    ha="left",
+    va="top",
+    color="black",
+    font=other_font,
+    fig=fig,
+    highlight_textprops=[{"font": other_bold_font}],
+)
+
+# source and credit
+text = """
+<Design>: barbierjoseph.com
+<Data>: EM-DAT, CRED / UCLouvain (2024)
+"""
+fig_text(
+    s=text,
+    x=0.16,
+    y=0.05,
+    fontsize=10,
+    ha="left",
+    va="top",
+    color="black",
+    fontproperties=other_font,
+    highlight_textprops=[{"font": other_bold_font}, {"font": other_bold_font}],
+)
+
+# add inline labels
+y_pos = [330, 220, 180, 100, 70, 30, -10, -30]
+for i in range(len(y_pos)):
+    country = columns[::-1][i]
+    val_2023 = int(df.loc[2023, country])
+    ax_text(
+        x=2030,
+        y=y_pos[i],
+        s=f"{country.upper()} - {val_2023} disasters in 2023",
+        va="center",
+        ha="left",
+        font=other_bold_font,
+        fontsize=12,
+        color=colors[7 - i],
+    )
+
+# display the plot
+plt.show()2c:Te9f,# set up the font properties
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(14, 7), dpi=300)
+ax.set_axis_off()
+
+# define the x-axis variable and order the columns
+columns = df.sum().sort_values().index.to_list()
+x = df.index
+
+# defines color map and mapping with columns
+colors = load_palette("Dali")
+color_mapping = {
+    "Flood": colors[4],
+    "Volcanic activity": colors[0],
+    "Wildfire": colors[6],
+    "Drought": colors[7],
+    "Extreme temperature": colors[5],
+    "Wet mass movement": colors[3],
+    "Earthquake": colors[2],
+    "Extreme weather": colors[1],
+}
+colors = [color_mapping[col] for col in columns]
+
+# create the stacked area plot
+areas = np.stack(df[columns].values, axis=-1)
+ax.stackplot(x, areas, colors=colors)
+
+# add label for the x-axis
+for year in range(1960, 2030, 10):
+    ax_text(
+        x=year,
+        y=-10,
+        s=f"{year}",
+        va="top",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+
+# add label for the y-axis
+for value in range(100, 400, 100):
+    ax_text(
+        x=1960,
+        y=value,
+        s=f"{value}",
+        va="center",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+    ax.plot([1963, 2023], [value, value], color="grey", lw=0.1)
+
+# add title
+fig_text(
+    s="More than 1 natural disaster occurs\n<every day> since the 21st century",
+    x=0.16,
+    y=0.83,
+    fontsize=24,
+    ha="left",
+    va="top",
+    color="black",
+    font=other_font,
+    fig=fig,
+    highlight_textprops=[{"font": other_bold_font}],
+)
+
+# source and credit
+text = """
+<Design>: barbierjoseph.com
+<Data>: EM-DAT, CRED / UCLouvain (2024)
+"""
+fig_text(
+    s=text,
+    x=0.16,
+    y=0.05,
+    fontsize=10,
+    ha="left",
+    va="top",
+    color="black",
+    fontproperties=other_font,
+    highlight_textprops=[{"font": other_bold_font}, {"font": other_bold_font}],
+)
+
+# add inline labels
+y_pos = [330, 220, 180, 100, 70, 30, -10, -30]
+for i in range(len(y_pos)):
+    country = columns[::-1][i]
+    val_2023 = int(df.loc[2023, country])
+    ax_text(
+        x=2030,
+        y=y_pos[i],
+        s=f"{country.upper()} - {val_2023} disasters in 2023",
+        va="center",
+        ha="left",
+        font=other_bold_font,
+        fontsize=12,
+        color=colors[7 - i],
+    )
+
+# add inflexion arrows
+x_axis_start = 2023
+x_axis_end = 2030
+radius = 10
+arrow_props = {"clip_on": False, "color": "black", "fill_head": False}
+ax_arrow(
+    tail_position=(x_axis_start, 330), head_position=(x_axis_end, 330), **arrow_props
+)
+ax_arrow(
+    tail_position=(x_axis_start, 220), head_position=(x_axis_end, 220), **arrow_props
+)
+ax_arrow(
+    tail_position=(x_axis_start, 90),
+    head_position=(x_axis_end, 180),
+    inflection_position=(2040, 180),
+    **arrow_props,
+)
+ax_arrow(
+    tail_position=(x_axis_start, 60),
+    head_position=(x_axis_end, 100),
+    inflection_position=(2040, 100),
+    **arrow_props,
+)
+ax_arrow(
+    tail_position=(x_axis_start, 45),
+    head_position=(x_axis_end, 70),
+    inflection_position=(2040, 70),
+    **arrow_props,
+)
+ax_arrow(
+    tail_position=(x_axis_start, 30), head_position=(x_axis_end, 30), **arrow_props
+)
+ax_arrow(
+    tail_position=(x_axis_start, 20),
+    head_position=(x_axis_end, -10),
+    inflection_position=(2040, -10),
+    **arrow_props,
+)
+ax_arrow(
+    tail_position=(x_axis_start, 4),
+    head_position=(x_axis_end, -30),
+    inflection_position=(2040, -30),
+    **arrow_props,
+)
+
+plt.savefig(
+    "../../static/graph/web-stacked-area-with-inflexion-arrows.png",
+    bbox_inches="tight",
+    dpi=300,
+)
+plt.show()1d:[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Stacked area chart with inline labels and arrows"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/StackedArea150.webp","alt":"logo of a chart:StackedArea","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p><a href='/stacked-area-plot'>Stacked area charts</a> are an excellent way to display the <b>evolution of a variable</b> across different categories.<br><br>This post explains how to combine this type of chart with a custom color palette, detailed annotations, <b>inline labels</b>, and arrows with an <b>inflection point</b>. The process is described step-by-step, starting from a <b>basic example</b> to the <b>final chart</b> with reproducible code.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$La",null,{"href":"/stacked-area-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Stacked Area section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/stackedarea.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],["$","article",null,{"className":"wrapper post-content","children":["$","$L28",null,{"cells":["import pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nfrom pypalettes import load_palette\nfrom highlight_text import fig_text, ax_text\nfrom pyfonts import load_google_font\nfrom drawarrow import ax_arrow","url = \"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/disaster-events.csv\"\ndf = pd.read_csv(url)\n\n\ndef remove_agg_rows(entity: str):\n    if entity.lower().startswith(\"all disasters\"):\n        return False\n    else:\n        return True\n\n\ndf = df.replace(\"Dry mass movement\", \"Drought\")\ndf = df[df[\"Entity\"].apply(remove_agg_rows)]\ndf = df[~df[\"Entity\"].isin([\"Fog\", \"Glacial lake outburst flood\"])]\ndf = df.pivot_table(index=\"Entity\", columns=\"Year\", values=\"Disasters\").T\ndf.loc[1900, :] = df.loc[1900, :].fillna(0)\ndf = df[df.index >= 1960]\ndf = df[df.index <= 2023]\ndf = df.interpolate(axis=1)\ndf.head()","# initialize the figure\nfig, ax = plt.subplots(figsize=(14, 7), dpi=300)\n\n# define the x-axis variable and order the columns\ncolumns = df.sum().sort_values().index.to_list()\nx = df.index\n\n# create the stacked area plot\nareas = np.stack(df[columns].values, axis=-1)\nax.stackplot(x, areas)\n\n# display the plot\nplt.show()","# initialize the figure\nfig, ax = plt.subplots(figsize=(14, 7), dpi=300)\nax.set_axis_off()\n\n# define the x-axis variable and order the columns\ncolumns = df.sum().sort_values().index.to_list()\nx = df.index\n\n# create the stacked area plot\nareas = np.stack(df[columns].values, axis=-1)\nax.stackplot(x, areas)\n\n# add label for the x-axis\nfor year in range(1960, 2030, 10):\n    ax_text(x=year, y=-10, s=f\"{year}\", va=\"top\", ha=\"left\", fontsize=13, color=\"grey\")\n\n# add label for the y-axis\nfor value in range(100, 400, 100):\n    ax_text(\n        x=1960, y=value, s=f\"{value}\", va=\"center\", ha=\"left\", fontsize=13, color=\"grey\"\n    )\n\n# display the plot\nplt.show()","$29","$2a","$2b","$2c"],"children":"$L2d"}]}],"$L2e","$L2f","$L30","$L31","$L32"]
+33:I[68978,["$2","$3","$4","$5","$9"],"default"]
+48:I[59351,["$2","$3","$4","$5","$9"],"default"]
+34:T5d1,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pypalettes </span><span style="color:#D73A49">import</span><span style="color:#24292E"> load_palette</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text, ax_text</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pyfonts </span><span style="color:#D73A49">import</span><span style="color:#24292E"> load_google_font</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> drawarrow </span><span style="color:#D73A49">import</span><span style="color:#24292E"> ax_arrow</span></span></code></pre>2d:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":[["$","a","a-0",{"href":"/stacked-area-plot","children":"Stacked area chart"}]," is a graphical representation of data that shows the composition of a variable over time. The area between the x-axis and the lines is ",["$","strong","strong-0",{"children":"filled"}]," with colors to represent ",["$","strong","strong-1",{"children":"different categories"}]," of data."]}],"\n",["$","p","p-1",{"children":["The following example shows the ",["$","strong","strong-0",{"children":"evolution of natural disasters"}]," over the years by type of disaster."]}],"\n",["$","p","p-2",{"children":["This chart has been created by ",["$","a","a-0",{"href":"https://barbierjoseph.com","children":"Joseph Barbier"}],". Thanks to him for accepting sharing its work here!"]}],"\n",["$","p","p-3",{"children":"As a teaser, here is the plot we’re gonna try building:"}],"\n",["$","p","p-4",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-stacked-area-with-inflexion-arrows.png?raw=true","alt":"stacked area chart","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-5",{"children":"First, we need to install the following libraries:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"/matplotlib","children":"matplotlib"}],": for plot customization"]}],"\n",["$","li","li-1",{"children":[["$","a","a-0",{"href":"/seaborn","children":"seaborn"}],": for creating the plot"]}],"\n",["$","li","li-2",{"children":[["$","a","a-0",{"href":"/pandas","children":"pandas"}],": for data manipulation"]}],"\n",["$","li","li-3",{"children":[["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"highlight_text"}],": for annotations"]}],"\n",["$","li","li-4",{"children":[["$","a","a-0",{"href":"/color-palette-finder","children":"pypalettes"}],": for the colors of the plot"]}],"\n",["$","li","li-5",{"children":[["$","a","a-0",{"href":"/pyfonts","children":"pyfonts"}],": for the fonts"]}],"\n",["$","li","li-6",{"children":[["$","a","a-0",{"href":"/drawarrow","children":"drawarrow"}],": for the arrows with an inflection point"]}],"\n"]}],"\n",["$","$L33","notebook-cell-0",{"index":0,"code":"import pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nfrom pypalettes import load_palette\nfrom highlight_text import fig_text, ax_text\nfrom pyfonts import load_google_font\nfrom drawarrow import ax_arrow","highlighted":"$34","interactive":true,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","$L3a","\n","$L3b","$L3c","\n","$L3d","$L3e","\n","$L3f","$L40","\n","$L41","$L42","\n","$L43","$L44","\n","$L45","\n","$L46","\n","$L47"]
+2e:["$","div",null,{"className":"h-16 sm:h-20"}]
+2f:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$La","line",{"href":"/line-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Line150.webp","alt":"logo of a chart:Line","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Line chart"}]]}],["$","$La","area",{"href":"/area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Area150.webp","alt":"logo of a chart:Area","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Area chart"}]]}],["$","$La","stackedArea",{"href":"/stacked-area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/StackedArea150.webp","alt":"logo of a chart:StackedArea","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Stacked Area"}]]}],["$","$La","stream",{"href":"/streamchart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Stream150.webp","alt":"logo of a chart:Stream","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Streamgraph"}]]}],["$","$La","candlestick",{"href":"/candlestick/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CandleStick2Small.webp","alt":"logo of a chart:CandleStick2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Candlestick"}]]}],["$","$La","timeseries",{"href":"/timeseries/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/section/time150.gif","alt":"logo of a chart:time","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Timeseries"}]]}]]}]]}]}]
+30:["$","div",null,{"className":"h-16 sm:h-20"}]
+31:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+32:["$","$L48",null,{}]
+35:["$","h2","h2-2",{"children":"Dataset"}]
+36:["$","p","p-6",{"children":["The type of data needed when creating a ",["$","a","a-0",{"href":"/stacked-area-plot","children":"stacked area chart"}]," is a ",["$","strong","strong-0",{"children":"time series"}],"."]}]
+37:["$","p","p-7",{"children":["Specifically, our dataset needs a column for the ",["$","strong","strong-0",{"children":"time variable"}]," (usually the x-axis) and a column for each ",["$","strong","strong-1",{"children":"category"}]," we want to represent (usually the y-axis). In this case, we have one column per disaster type."]}]
+49:T1104,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">url </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/disaster-events.csv"</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(url)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> remove_agg_rows</span><span style="color:#24292E">(entity: </span><span style="color:#005CC5">str</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> entity.lower().startswith(</span><span style="color:#032F62">"all disasters"</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#D73A49">        return</span><span style="color:#005CC5"> False</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#D73A49">        return</span><span style="color:#005CC5"> True</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.replace(</span><span style="color:#032F62">"Dry mass movement"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Drought"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"Entity"</span><span style="color:#24292E">].apply(remove_agg_rows)]</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#D73A49">~</span><span style="color:#24292E">df[</span><span style="color:#032F62">"Entity"</span><span style="color:#24292E">].isin([</span><span style="color:#032F62">"Fog"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Glacial lake outburst flood"</span><span style="color:#24292E">])]</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.pivot_table(</span><span style="color:#E36209">index</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Entity"</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Year"</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Disasters"</span><span style="color:#24292E">).T</span></span>
+<span class="line"><span style="color:#24292E">df.loc[</span><span style="color:#005CC5">1900</span><span style="color:#24292E">, :] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.loc[</span><span style="color:#005CC5">1900</span><span style="color:#24292E">, :].fillna(</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df.index </span><span style="color:#D73A49">>=</span><span style="color:#005CC5"> 1960</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df.index </span><span style="color:#D73A49">&#x3C;=</span><span style="color:#005CC5"> 2023</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.interpolate(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df.head()</span></span></code></pre>38:["$","$L33","notebook-cell-1",{"index":1,"code":"url = \"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/disaster-events.csv\"\ndf = pd.read_csv(url)\n\n\ndef remove_agg_rows(entity: str):\n    if entity.lower().startswith(\"all disasters\"):\n        return False\n    else:\n        return True\n\n\ndf = df.replace(\"Dry mass movement\", \"Drought\")\ndf = df[df[\"Entity\"].apply(remove_agg_rows)]\ndf = df[~df[\"Entity\"].isin([\"Fog\", \"Glacial lake outburst flood\"])]\ndf = df.pivot_table(index=\"Entity\", columns=\"Year\", values=\"Disasters\").T\ndf.loc[1900, :] = df.loc[1900, :].fillna(0)\ndf = df[df.index >= 1960]\ndf = df[df.index <= 2023]\ndf = df.interpolate(axis=1)\ndf.head()","highlighted":"$49","interactive":true,"hasChart":false,"intro":"$undefined","output":"$L4a"}]
+39:["$","h2","h2-3",{"children":"Simple stacked area"}]
+4b:T77f,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define the x-axis variable and order the columns</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.sum().sort_values().index.to_list()</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.index</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the stacked area plot</span></span>
+<span class="line"><span style="color:#24292E">areas </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.stack(df[columns].values, </span><span style="color:#E36209">axis</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.stackplot(x, areas)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3a:["$","$L33","notebook-cell-2",{"index":2,"code":"# initialize the figure\nfig, ax = plt.subplots(figsize=(14, 7), dpi=300)\n\n# define the x-axis variable and order the columns\ncolumns = df.sum().sort_values().index.to_list()\nx = df.index\n\n# create the stacked area plot\nareas = np.stack(df[columns].values, axis=-1)\nax.stackplot(x, areas)\n\n# display the plot\nplt.show()","highlighted":"$4b","interactive":true,"hasChart":true,"intro":[["$","p","p-0",{"children":["This first version of the plot is made via the ",["$","code","code-0",{"children":"ax.stackplot()"}]," function from ",["$","a","a-0",{"href":"/matplotlib","children":"matplotlib"}],". It is the ",["$","strong","strong-0",{"children":"simplest way"}]," to create a ",["$","a","a-1",{"href":"/stacked-area-plot","children":"stacked area chart"}]]}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-area-with-inflexion-arrows/output-2.png","alt":"Stacked area chart with inline labels and arrows","width":3423,"height":1748,"loading":"lazy","decoding":"async"}]}]]}]
+3b:["$","h2","h2-4",{"children":"Custom axes"}]
+4c:T1662,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define the x-axis variable and order the columns</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.sum().sort_values().index.to_list()</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.index</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the stacked area plot</span></span>
+<span class="line"><span style="color:#24292E">areas </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.stack(df[columns].values, </span><span style="color:#E36209">axis</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.stackplot(x, areas)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add label for the x-axis</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1960</span><span style="color:#24292E">, </span><span style="color:#005CC5">2030</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">year, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">year</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add label for the y-axis</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> value </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">400</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1960</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">value, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">value</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3c:["$","$L33","notebook-cell-3",{"index":3,"code":"# initialize the figure\nfig, ax = plt.subplots(figsize=(14, 7), dpi=300)\nax.set_axis_off()\n\n# define the x-axis variable and order the columns\ncolumns = df.sum().sort_values().index.to_list()\nx = df.index\n\n# create the stacked area plot\nareas = np.stack(df[columns].values, axis=-1)\nax.stackplot(x, areas)\n\n# add label for the x-axis\nfor year in range(1960, 2030, 10):\n    ax_text(x=year, y=-10, s=f\"{year}\", va=\"top\", ha=\"left\", fontsize=13, color=\"grey\")\n\n# add label for the y-axis\nfor value in range(100, 400, 100):\n    ax_text(\n        x=1960, y=value, s=f\"{value}\", va=\"center\", ha=\"left\", fontsize=13, color=\"grey\"\n    )\n\n# display the plot\nplt.show()","highlighted":"$4c","interactive":true,"hasChart":true,"intro":"$L4d","output":"$L4e"}]
+3d:["$","h2","h2-5",{"children":"Custom the colors"}]
+4f:T42c,# initialize the figure
+fig, ax = plt.subplots(figsize=(14, 7), dpi=300)
+ax.set_axis_off()
+
+# define the x-axis variable and order the columns
+columns = df.sum().sort_values().index.to_list()
+x = df.index
+
+# defines color map and mapping with columns
+colors = load_palette("Dali")
+color_mapping = {
+    "Flood": colors[4],
+    "Volcanic activity": colors[0],
+    "Wildfire": colors[6],
+    "Drought": colors[7],
+    "Extreme temperature": colors[5],
+    "Wet mass movement": colors[3],
+    "Earthquake": colors[2],
+    "Extreme weather": colors[1],
+}
+colors = [color_mapping[col] for col in columns]
+
+# create the stacked area plot
+areas = np.stack(df[columns].values, axis=-1)
+ax.stackplot(x, areas, colors=colors)
+
+# add label for the x-axis
+for year in range(1960, 2030, 10):
+    ax_text(x=year, y=-10, s=f"{year}", va="top", ha="left", fontsize=13, color="grey")
+
+# add label for the y-axis
+for value in range(100, 400, 100):
+    ax_text(
+        x=1960, y=value, s=f"{value}", va="center", ha="left", fontsize=13, color="grey"
+    )
+
+# display the plot
+plt.show()50:T2084,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define the x-axis variable and order the columns</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.sum().sort_values().index.to_list()</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.index</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># defines color map and mapping with columns</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_palette(</span><span style="color:#032F62">"Dali"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">color_mapping </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "Flood"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">4</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Volcanic activity"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Wildfire"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">6</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Drought"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">7</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Extreme temperature"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">5</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Wet mass movement"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">3</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Earthquake"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">2</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Extreme weather"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [color_mapping[col] </span><span style="color:#D73A49">for</span><span style="color:#24292E"> col </span><span style="color:#D73A49">in</span><span style="color:#24292E"> columns]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the stacked area plot</span></span>
+<span class="line"><span style="color:#24292E">areas </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.stack(df[columns].values, </span><span style="color:#E36209">axis</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.stackplot(x, areas, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add label for the x-axis</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1960</span><span style="color:#24292E">, </span><span style="color:#005CC5">2030</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#24292E">year, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">year</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add label for the y-axis</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> value </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">400</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1960</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">value, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">value</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">, </span><span style="color:#E36209">ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3e:["$","$L33","notebook-cell-4",{"index":4,"code":"$4f","highlighted":"$50","interactive":true,"hasChart":true,"intro":"$L51","output":"$L52"}]
+3f:["$","h2","h2-6",{"children":"Add title and source with custom fonts"}]
+53:T7e4,# set up the font properties
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(14, 7), dpi=300)
+ax.set_axis_off()
+
+# define the x-axis variable and order the columns
+columns = df.sum().sort_values().index.to_list()
+x = df.index
+
+# defines color map and mapping with columns
+colors = load_palette("Dali")
+color_mapping = {
+    "Flood": colors[4],
+    "Volcanic activity": colors[0],
+    "Wildfire": colors[6],
+    "Drought": colors[7],
+    "Extreme temperature": colors[5],
+    "Wet mass movement": colors[3],
+    "Earthquake": colors[2],
+    "Extreme weather": colors[1],
+}
+colors = [color_mapping[col] for col in columns]
+
+# create the stacked area plot
+areas = np.stack(df[columns].values, axis=-1)
+ax.stackplot(x, areas, colors=colors)
+
+# add label for the x-axis
+for year in range(1960, 2030, 10):
+    ax_text(
+        x=year,
+        y=-10,
+        s=f"{year}",
+        va="top",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+
+# add label for the y-axis
+for value in range(100, 400, 100):
+    ax_text(
+        x=1960,
+        y=value,
+        s=f"{value}",
+        va="center",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+
+# add title
+fig_text(
+    s="More than 1 natural disaster occurs\n<every day> since the 21st century",
+    x=0.16,
+    y=0.83,
+    fontsize=24,
+    ha="left",
+    va="top",
+    color="black",
+    font=other_font,
+    fig=fig,
+    highlight_textprops=[{"font": other_bold_font}],
+)
+
+# source and credit
+text = """
+<Design>: barbierjoseph.com
+<Data>: EM-DAT, CRED / UCLouvain (2024)
+"""
+fig_text(
+    s=text,
+    x=0.16,
+    y=0.05,
+    fontsize=10,
+    ha="left",
+    va="top",
+    color="black",
+    fontproperties=other_font,
+    highlight_textprops=[{"font": other_bold_font}, {"font": other_bold_font}],
+)
+
+# display the plot
+plt.show()54:T3a41,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># set up the font properties</span></span>
+<span class="line"><span style="color:#24292E">font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Bebas Neue"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"light"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_bold_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"medium"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define the x-axis variable and order the columns</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.sum().sort_values().index.to_list()</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.index</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># defines color map and mapping with columns</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_palette(</span><span style="color:#032F62">"Dali"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">color_mapping </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "Flood"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">4</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Volcanic activity"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Wildfire"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">6</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Drought"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">7</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Extreme temperature"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">5</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Wet mass movement"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">3</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Earthquake"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">2</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Extreme weather"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [color_mapping[col] </span><span style="color:#D73A49">for</span><span style="color:#24292E"> col </span><span style="color:#D73A49">in</span><span style="color:#24292E"> columns]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the stacked area plot</span></span>
+<span class="line"><span style="color:#24292E">areas </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.stack(df[columns].values, </span><span style="color:#E36209">axis</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.stackplot(x, areas, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add label for the x-axis</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1960</span><span style="color:#24292E">, </span><span style="color:#005CC5">2030</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#24292E">year,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">year</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add label for the y-axis</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> value </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">400</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1960</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">value,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">value</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add title</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"More than 1 natural disaster occurs</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;every day> since the 21st century"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.83</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">24</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">    fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># source and credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Design>: barbierjoseph.com</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Data>: EM-DAT, CRED / UCLouvain (2024)</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontproperties</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}, {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>40:["$","$L33","notebook-cell-5",{"index":5,"code":"$53","highlighted":"$54","interactive":true,"hasChart":true,"intro":"$L55","output":"$L56"}]
+41:["$","h2","h2-7",{"children":"Reference lines and inline labels"}]
+57:T9bb,# set up the font properties
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(14, 7), dpi=300)
+ax.set_axis_off()
+
+# define the x-axis variable and order the columns
+columns = df.sum().sort_values().index.to_list()
+x = df.index
+
+# defines color map and mapping with columns
+colors = load_palette("Dali")
+color_mapping = {
+    "Flood": colors[4],
+    "Volcanic activity": colors[0],
+    "Wildfire": colors[6],
+    "Drought": colors[7],
+    "Extreme temperature": colors[5],
+    "Wet mass movement": colors[3],
+    "Earthquake": colors[2],
+    "Extreme weather": colors[1],
+}
+colors = [color_mapping[col] for col in columns]
+
+# create the stacked area plot
+areas = np.stack(df[columns].values, axis=-1)
+ax.stackplot(x, areas, colors=colors)
+
+# add label for the x-axis
+for year in range(1960, 2030, 10):
+    ax_text(
+        x=year,
+        y=-10,
+        s=f"{year}",
+        va="top",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+
+# add label for the y-axis
+for value in range(100, 400, 100):
+    ax_text(
+        x=1960,
+        y=value,
+        s=f"{value}",
+        va="center",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+    ax.plot([1963, 2023], [value, value], color="grey", lw=0.1)
+
+# add title
+fig_text(
+    s="More than 1 natural disaster occurs\n<every day> since the 21st century",
+    x=0.16,
+    y=0.83,
+    fontsize=24,
+    ha="left",
+    va="top",
+    color="black",
+    font=other_font,
+    fig=fig,
+    highlight_textprops=[{"font": other_bold_font}],
+)
+
+# source and credit
+text = """
+<Design>: barbierjoseph.com
+<Data>: EM-DAT, CRED / UCLouvain (2024)
+"""
+fig_text(
+    s=text,
+    x=0.16,
+    y=0.05,
+    fontsize=10,
+    ha="left",
+    va="top",
+    color="black",
+    fontproperties=other_font,
+    highlight_textprops=[{"font": other_bold_font}, {"font": other_bold_font}],
+)
+
+# add inline labels
+y_pos = [330, 220, 180, 100, 70, 30, -10, -30]
+for i in range(len(y_pos)):
+    country = columns[::-1][i]
+    val_2023 = int(df.loc[2023, country])
+    ax_text(
+        x=2030,
+        y=y_pos[i],
+        s=f"{country.upper()} - {val_2023} disasters in 2023",
+        va="center",
+        ha="left",
+        font=other_bold_font,
+        fontsize=12,
+        color=colors[7 - i],
+    )
+
+# display the plot
+plt.show()58:T4b15,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># set up the font properties</span></span>
+<span class="line"><span style="color:#24292E">font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Bebas Neue"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"light"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_bold_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"medium"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define the x-axis variable and order the columns</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.sum().sort_values().index.to_list()</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.index</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># defines color map and mapping with columns</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_palette(</span><span style="color:#032F62">"Dali"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">color_mapping </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "Flood"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">4</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Volcanic activity"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Wildfire"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">6</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Drought"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">7</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Extreme temperature"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">5</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Wet mass movement"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">3</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Earthquake"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">2</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Extreme weather"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [color_mapping[col] </span><span style="color:#D73A49">for</span><span style="color:#24292E"> col </span><span style="color:#D73A49">in</span><span style="color:#24292E"> columns]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the stacked area plot</span></span>
+<span class="line"><span style="color:#24292E">areas </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.stack(df[columns].values, </span><span style="color:#E36209">axis</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.stackplot(x, areas, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add label for the x-axis</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1960</span><span style="color:#24292E">, </span><span style="color:#005CC5">2030</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#24292E">year,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">year</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add label for the y-axis</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> value </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">400</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1960</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">value,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">value</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot([</span><span style="color:#005CC5">1963</span><span style="color:#24292E">, </span><span style="color:#005CC5">2023</span><span style="color:#24292E">], [value, value], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add title</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"More than 1 natural disaster occurs</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;every day> since the 21st century"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.83</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">24</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">    fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># source and credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Design>: barbierjoseph.com</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Data>: EM-DAT, CRED / UCLouvain (2024)</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontproperties</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}, {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add inline labels</span></span>
+<span class="line"><span style="color:#24292E">y_pos </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">330</span><span style="color:#24292E">, </span><span style="color:#005CC5">220</span><span style="color:#24292E">, </span><span style="color:#005CC5">180</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">70</span><span style="color:#24292E">, </span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">30</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(y_pos)):</span></span>
+<span class="line"><span style="color:#24292E">    country </span><span style="color:#D73A49">=</span><span style="color:#24292E"> columns[::</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#24292E">    val_2023 </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> int</span><span style="color:#24292E">(df.loc[</span><span style="color:#005CC5">2023</span><span style="color:#24292E">, country])</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2030</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y_pos[i],</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">country.upper()</span><span style="color:#005CC5">}</span><span style="color:#032F62"> - </span><span style="color:#005CC5">{</span><span style="color:#24292E">val_2023</span><span style="color:#005CC5">}</span><span style="color:#032F62"> disasters in 2023"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_bold_font,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">7</span><span style="color:#D73A49"> -</span><span style="color:#24292E"> i],</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># display the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>42:["$","$L33","notebook-cell-6",{"index":6,"code":"$57","highlighted":"$58","interactive":true,"hasChart":true,"intro":"$L59","output":"$L5a"}]
+43:["$","h2","h2-8",{"children":"Arrows with inflexion points"}]
+5b:Te9f,# set up the font properties
+font = load_google_font("Bebas Neue")
+other_font = load_google_font("Fira Sans", weight="light")
+other_bold_font = load_google_font("Fira Sans", weight="medium")
+
+# initialize the figure
+fig, ax = plt.subplots(figsize=(14, 7), dpi=300)
+ax.set_axis_off()
+
+# define the x-axis variable and order the columns
+columns = df.sum().sort_values().index.to_list()
+x = df.index
+
+# defines color map and mapping with columns
+colors = load_palette("Dali")
+color_mapping = {
+    "Flood": colors[4],
+    "Volcanic activity": colors[0],
+    "Wildfire": colors[6],
+    "Drought": colors[7],
+    "Extreme temperature": colors[5],
+    "Wet mass movement": colors[3],
+    "Earthquake": colors[2],
+    "Extreme weather": colors[1],
+}
+colors = [color_mapping[col] for col in columns]
+
+# create the stacked area plot
+areas = np.stack(df[columns].values, axis=-1)
+ax.stackplot(x, areas, colors=colors)
+
+# add label for the x-axis
+for year in range(1960, 2030, 10):
+    ax_text(
+        x=year,
+        y=-10,
+        s=f"{year}",
+        va="top",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+
+# add label for the y-axis
+for value in range(100, 400, 100):
+    ax_text(
+        x=1960,
+        y=value,
+        s=f"{value}",
+        va="center",
+        ha="left",
+        fontsize=13,
+        font=font,
+        color="grey",
+    )
+    ax.plot([1963, 2023], [value, value], color="grey", lw=0.1)
+
+# add title
+fig_text(
+    s="More than 1 natural disaster occurs\n<every day> since the 21st century",
+    x=0.16,
+    y=0.83,
+    fontsize=24,
+    ha="left",
+    va="top",
+    color="black",
+    font=other_font,
+    fig=fig,
+    highlight_textprops=[{"font": other_bold_font}],
+)
+
+# source and credit
+text = """
+<Design>: barbierjoseph.com
+<Data>: EM-DAT, CRED / UCLouvain (2024)
+"""
+fig_text(
+    s=text,
+    x=0.16,
+    y=0.05,
+    fontsize=10,
+    ha="left",
+    va="top",
+    color="black",
+    fontproperties=other_font,
+    highlight_textprops=[{"font": other_bold_font}, {"font": other_bold_font}],
+)
+
+# add inline labels
+y_pos = [330, 220, 180, 100, 70, 30, -10, -30]
+for i in range(len(y_pos)):
+    country = columns[::-1][i]
+    val_2023 = int(df.loc[2023, country])
+    ax_text(
+        x=2030,
+        y=y_pos[i],
+        s=f"{country.upper()} - {val_2023} disasters in 2023",
+        va="center",
+        ha="left",
+        font=other_bold_font,
+        fontsize=12,
+        color=colors[7 - i],
+    )
+
+# add inflexion arrows
+x_axis_start = 2023
+x_axis_end = 2030
+radius = 10
+arrow_props = {"clip_on": False, "color": "black", "fill_head": False}
+ax_arrow(
+    tail_position=(x_axis_start, 330), head_position=(x_axis_end, 330), **arrow_props
+)
+ax_arrow(
+    tail_position=(x_axis_start, 220), head_position=(x_axis_end, 220), **arrow_props
+)
+ax_arrow(
+    tail_position=(x_axis_start, 90),
+    head_position=(x_axis_end, 180),
+    inflection_position=(2040, 180),
+    **arrow_props,
+)
+ax_arrow(
+    tail_position=(x_axis_start, 60),
+    head_position=(x_axis_end, 100),
+    inflection_position=(2040, 100),
+    **arrow_props,
+)
+ax_arrow(
+    tail_position=(x_axis_start, 45),
+    head_position=(x_axis_end, 70),
+    inflection_position=(2040, 70),
+    **arrow_props,
+)
+ax_arrow(
+    tail_position=(x_axis_start, 30), head_position=(x_axis_end, 30), **arrow_props
+)
+ax_arrow(
+    tail_position=(x_axis_start, 20),
+    head_position=(x_axis_end, -10),
+    inflection_position=(2040, -10),
+    **arrow_props,
+)
+ax_arrow(
+    tail_position=(x_axis_start, 4),
+    head_position=(x_axis_end, -30),
+    inflection_position=(2040, -30),
+    **arrow_props,
+)
+
+plt.savefig(
+    "../../static/graph/web-stacked-area-with-inflexion-arrows.png",
+    bbox_inches="tight",
+    dpi=300,
+)
+plt.show()5c:T6e84,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># set up the font properties</span></span>
+<span class="line"><span style="color:#24292E">font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Bebas Neue"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"light"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">other_bold_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Fira Sans"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"medium"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># initialize the figure</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">14</span><span style="color:#24292E">, </span><span style="color:#005CC5">7</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># define the x-axis variable and order the columns</span></span>
+<span class="line"><span style="color:#24292E">columns </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.sum().sort_values().index.to_list()</span></span>
+<span class="line"><span style="color:#24292E">x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.index</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># defines color map and mapping with columns</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_palette(</span><span style="color:#032F62">"Dali"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">color_mapping </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "Flood"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">4</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Volcanic activity"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">0</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Wildfire"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">6</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Drought"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">7</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Extreme temperature"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">5</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Wet mass movement"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">3</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Earthquake"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">2</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "Extreme weather"</span><span style="color:#24292E">: colors[</span><span style="color:#005CC5">1</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [color_mapping[col] </span><span style="color:#D73A49">for</span><span style="color:#24292E"> col </span><span style="color:#D73A49">in</span><span style="color:#24292E"> columns]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># create the stacked area plot</span></span>
+<span class="line"><span style="color:#24292E">areas </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.stack(df[columns].values, </span><span style="color:#E36209">axis</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.stackplot(x, areas, </span><span style="color:#E36209">colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add label for the x-axis</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> year </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">1960</span><span style="color:#24292E">, </span><span style="color:#005CC5">2030</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#24292E">year,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">year</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add label for the y-axis</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> value </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">400</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1960</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">value,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">value</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot([</span><span style="color:#005CC5">1963</span><span style="color:#24292E">, </span><span style="color:#005CC5">2023</span><span style="color:#24292E">], [value, value], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"grey"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add title</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"More than 1 natural disaster occurs</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;every day> since the 21st century"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.83</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">24</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">    fig</span><span style="color:#D73A49">=</span><span style="color:#24292E">fig,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># source and credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> """</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Design>: barbierjoseph.com</span></span>
+<span class="line"><span style="color:#032F62">&#x3C;Data>: EM-DAT, CRED / UCLouvain (2024)</span></span>
+<span class="line"><span style="color:#032F62">"""</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text,</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.16</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"top"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontproperties</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_font,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}, {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: other_bold_font}],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add inline labels</span></span>
+<span class="line"><span style="color:#24292E">y_pos </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">330</span><span style="color:#24292E">, </span><span style="color:#005CC5">220</span><span style="color:#24292E">, </span><span style="color:#005CC5">180</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">70</span><span style="color:#24292E">, </span><span style="color:#005CC5">30</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">30</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(</span><span style="color:#005CC5">len</span><span style="color:#24292E">(y_pos)):</span></span>
+<span class="line"><span style="color:#24292E">    country </span><span style="color:#D73A49">=</span><span style="color:#24292E"> columns[::</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#24292E">    val_2023 </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> int</span><span style="color:#24292E">(df.loc[</span><span style="color:#005CC5">2023</span><span style="color:#24292E">, country])</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2030</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#24292E">y_pos[i],</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#D73A49">f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">country.upper()</span><span style="color:#005CC5">}</span><span style="color:#032F62"> - </span><span style="color:#005CC5">{</span><span style="color:#24292E">val_2023</span><span style="color:#005CC5">}</span><span style="color:#032F62"> disasters in 2023"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">other_bold_font,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors[</span><span style="color:#005CC5">7</span><span style="color:#D73A49"> -</span><span style="color:#24292E"> i],</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add inflexion arrows</span></span>
+<span class="line"><span style="color:#24292E">x_axis_start </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2023</span></span>
+<span class="line"><span style="color:#24292E">x_axis_end </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2030</span></span>
+<span class="line"><span style="color:#24292E">radius </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 10</span></span>
+<span class="line"><span style="color:#24292E">arrow_props </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span><span style="color:#032F62">"clip_on"</span><span style="color:#24292E">: </span><span style="color:#005CC5">False</span><span style="color:#24292E">, </span><span style="color:#032F62">"color"</span><span style="color:#24292E">: </span><span style="color:#032F62">"black"</span><span style="color:#24292E">, </span><span style="color:#032F62">"fill_head"</span><span style="color:#24292E">: </span><span style="color:#005CC5">False</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_start, </span><span style="color:#005CC5">330</span><span style="color:#24292E">), </span><span style="color:#E36209">head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_end, </span><span style="color:#005CC5">330</span><span style="color:#24292E">), </span><span style="color:#D73A49">**</span><span style="color:#24292E">arrow_props</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_start, </span><span style="color:#005CC5">220</span><span style="color:#24292E">), </span><span style="color:#E36209">head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_end, </span><span style="color:#005CC5">220</span><span style="color:#24292E">), </span><span style="color:#D73A49">**</span><span style="color:#24292E">arrow_props</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_start, </span><span style="color:#005CC5">90</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_end, </span><span style="color:#005CC5">180</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    inflection_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">2040</span><span style="color:#24292E">, </span><span style="color:#005CC5">180</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">arrow_props,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_start, </span><span style="color:#005CC5">60</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_end, </span><span style="color:#005CC5">100</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    inflection_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">2040</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">arrow_props,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_start, </span><span style="color:#005CC5">45</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_end, </span><span style="color:#005CC5">70</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    inflection_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">2040</span><span style="color:#24292E">, </span><span style="color:#005CC5">70</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">arrow_props,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_start, </span><span style="color:#005CC5">30</span><span style="color:#24292E">), </span><span style="color:#E36209">head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_end, </span><span style="color:#005CC5">30</span><span style="color:#24292E">), </span><span style="color:#D73A49">**</span><span style="color:#24292E">arrow_props</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_start, </span><span style="color:#005CC5">20</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_end, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">10</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    inflection_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">2040</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">10</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">arrow_props,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax_arrow(</span></span>
+<span class="line"><span style="color:#E36209">    tail_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_start, </span><span style="color:#005CC5">4</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    head_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(x_axis_end, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">30</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">    inflection_position</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">2040</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">30</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">arrow_props,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span></span>
+<span class="line"><span style="color:#032F62">    "../../static/graph/web-stacked-area-with-inflexion-arrows.png"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_inches</span><span style="color:#D73A49">=</span><span style="color:#032F62">"tight"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>44:["$","$L33","notebook-cell-7",{"index":7,"code":"$5b","highlighted":"$5c","interactive":true,"hasChart":true,"intro":"$L5d","output":"$L5e"}]
+45:["$","h2","h2-9",{"children":"Going further"}]
+46:["$","p","p-8",{"children":"You might be interested in:"}]
+47:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":["the ",["$","a","a-0",{"href":"/stacked-area-plot","children":"stacked area chart section"}]," of the gallery"]}],"\n",["$","li","li-1",{"children":["how to create ",["$","a","a-0",{"href":"/drawarrow","children":"arrow with an inflexion point"}]," in a plot"]}],"\n",["$","li","li-2",{"children":["how to use ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"the highlight_text package"}]," to add annotations to a plot"]}],"\n",["$","li","li-3",{"children":["how to create ",["$","a","a-0",{"href":"/web-streamchart-with-matplotlib","children":"beaufitul streamgraphs"}]]}],"\n",["$","li","li-4",{"children":["this ",["$","a","a-0",{"href":"/web-small-multiple-with-highlights","children":"small multiple line chart"}]]}],"\n"]}]
+4a:[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":[["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{"children":"Entity"}],["$","th","th-1",{"children":"Drought"}],["$","th","th-2",{"children":"Earthquake"}],["$","th","th-3",{"children":"Extreme temperature"}],["$","th","th-4",{"children":"Extreme weather"}],["$","th","th-5",{"children":"Flood"}],["$","th","th-6",{"children":"Volcanic activity"}],["$","th","th-7",{"children":"Wet mass movement"}],["$","th","th-8",{"children":"Wildfire"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"Year"}],["$","th","th-1",{}],["$","th","th-2",{}],["$","th","th-3",{}],["$","th","th-4",{}],["$","th","th-5",{}],["$","th","th-6",{}],["$","th","th-7",{}],["$","th","th-8",{}]]}]]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"1960"}],["$","td","td-0",{"children":"1.0"}],["$","td","td-1",{"children":"8.0"}],["$","td","td-2",{"children":"14.0"}],["$","td","td-3",{"children":"20.0"}],["$","td","td-4",{"children":"8.0"}],["$","td","td-5",{"children":"1.0"}],["$","td","td-6",{"children":"2.0"}],["$","td","td-7",{"children":"2.0"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1961"}],["$","td","td-0",{"children":"1.0"}],["$","td","td-1",{"children":"3.0"}],["$","td","td-2",{"children":"1.0"}],["$","td","td-3",{"children":"14.0"}],["$","td","td-4",{"children":"9.0"}],["$","td","td-5",{"children":"5.5"}],["$","td","td-6",{"children":"2.0"}],["$","td","td-7",{"children":"2.0"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"1962"}],["$","td","td-0",{"children":"1.0"}],["$","td","td-1",{"children":"4.0"}],["$","td","td-2",{"children":"1.0"}],["$","td","td-3",{"children":"13.0"}],["$","td","td-4",{"children":"8.0"}],["$","td","td-5",{"children":"5.0"}],["$","td","td-6",{"children":"2.0"}],["$","td","td-7",{"children":"2.0"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"1963"}],["$","td","td-0",{"children":"1.0"}],["$","td","td-1",{"children":"3.0"}],["$","td","td-2",{"children":"2.0"}],["$","td","td-3",{"children":"21.0"}],["$","td","td-4",{"children":"8.0"}],["$","td","td-5",{"children":"3.0"}],["$","td","td-6",{"children":"2.0"}],["$","td","td-7",{"children":"2.0"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"1964"}],["$","td","td-0",{"children":"8.0"}],["$","td","td-1",{"children":"7.0"}],["$","td","td-2",{"children":"14.5"}],["$","td","td-3",{"children":"22.0"}],["$","td","td-4",{"children":"22.0"}],["$","td","td-5",{"children":"1.0"}],["$","td","td-6",{"children":"1.0"}],["$","td","td-7",{"children":"1.0"}]]}]]}]]}],"\n"]}]}]]
+4d:[["$","p","p-0",{"children":["Since default axes are not very attractive, we start by ",["$","strong","strong-0",{"children":"removing them"}]," with the ",["$","code","code-0",{"children":"ax.set_axis_off()"}]," function."]}],["$","p","p-1",{"children":["The x and y labels will be displayed using the ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"highlight_text"}]," package, which ",["$","strong","strong-0",{"children":"simplifies"}]," the process of adding text annotations to a plot."]}],["$","p","p-2",{"children":["In practice, we use ",["$","code","code-0",{"children":"for"}]," loops to ",["$","strong","strong-0",{"children":"add the labels"}]," to the plot with the desired values."]}]]
+4e:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-area-with-inflexion-arrows/output-3.png","alt":"Stacked area chart with inline labels and arrows","width":3315,"height":1780,"loading":"lazy","decoding":"async"}]}]]
+51:[["$","p","p-0",{"children":["The palette used is from the ",["$","a","a-0",{"href":"/introduction-to-pypalettes","children":"pypalettes"}]," library. We use its ",["$","code","code-0",{"children":"load_cmap()"}]," function to get a list of colors (in hexadecimal format) that we will use to fill the areas."]}],["$","p","p-1",{"children":["We add an additional step to manually define a ",["$","strong","strong-0",{"children":"mapping between colors and the columns"}],". For example, we want natural disasters related to ",["$","strong","strong-1",{"children":"floods to be blue"}],", and those about ",["$","strong","strong-2",{"children":"volcanoes to be red"}],", etc. ",["$","em","em-0",{"children":"Unfortunately"}],", there is no magic way to do this other than manually defining a ",["$","strong","strong-3",{"children":"dictionary"}]," (named ",["$","code","code-0",{"children":"color_mapping"}]," in this case)."]}],["$","p","p-2",{"children":["Then, we simply specify the ",["$","code","code-0",{"children":"colors"}]," parameter of the ",["$","code","code-1",{"children":"ax.stackplot()"}]," function with the list of colors we want to use."]}]]
+52:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-area-with-inflexion-arrows/output-4.png","alt":"Stacked area chart with inline labels and arrows","width":3315,"height":1780,"loading":"lazy","decoding":"async"}]}]]
+55:[["$","p","p-0",{"children":["The next step is to ",["$","strong","strong-0",{"children":"add a title and a source"}]," to the plot. We use the ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"highlight_text"}]," package to achieve this because it allows for different ",["$","strong","strong-1",{"children":"text styling within the same string"}],"."]}],["$","p","p-1",{"children":["However, before doing this, we ",["$","strong","strong-0",{"children":"load 2 custom fonts"}]," thanks to ",["$","a","a-0",{"href":"/pyfonts","children":"pyfonts"}]," to ensure a ",["$","strong","strong-1",{"children":"better-looking title and source"}],"."]}],["$","p","p-2",{"children":["Finally, we use the ",["$","code","code-0",{"children":"fig_text()"}]," function from the ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"highlight_text"}]," package to add the ",["$","strong","strong-0",{"children":"title and source"}]," to the plot."]}]]
+56:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-area-with-inflexion-arrows/output-5.png","alt":"Stacked area chart with inline labels and arrows","width":3315,"height":1953,"loading":"lazy","decoding":"async"}]}]]
+59:[["$","p","p-0",{"children":["Instead of using the ",["$","strong","strong-0",{"children":"default matplotlib legend"}]," (called with ",["$","code","code-0",{"children":"ax.legend()"}],"), we add ",["$","strong","strong-1",{"children":"inline labels"}]," to the right of the chart that have the same colors as the areas. We use the ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"highlight_text"}]," package to achieve this."]}],["$","p","p-1",{"children":["As before, finding the ",["$","strong","strong-0",{"children":"position of the labels"}]," requires ",["$","strong","strong-1",{"children":"trial and error"}],"."]}]]
+5a:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-area-with-inflexion-arrows/output-6.png","alt":"Stacked area chart with inline labels and arrows","width":4542,"height":1953,"loading":"lazy","decoding":"async"}]}]]
+5d:[["$","p","p-0",{"children":["And finally, we add ",["$","strong","strong-0",{"children":"arrows to the plot"}]," that point to the ",["$","strong","strong-1",{"children":"inflexion points"}],". This method effectively highlights ",["$","strong","strong-2",{"children":"which areas"}]," correspond to ",["$","strong","strong-3",{"children":"which disasters"}],". This is possible thanks to the ",["$","a","a-0",{"href":"/drawarrow","children":"drawarrow library"}],"."]}]]
+5e:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-stacked-area-with-inflexion-arrows/output-7.png","alt":"Stacked area chart with inline labels and arrows","width":4542,"height":1953,"loading":"lazy","decoding":"async"}]}]]

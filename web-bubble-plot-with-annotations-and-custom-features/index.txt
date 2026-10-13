@@ -1,0 +1,429 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/09q85_ay6xdo0.js"
+3:"/_next/static/chunks/21dxsc4p3jeoz.js"
+4:"/_next/static/chunks/1d1qeiuriwpmz.js"
+5:"/_next/static/chunks/1u5pxdefkf32d.js"
+6:I[62319,["$2","$3","$4","$5"],"default"]
+7:I[39756,["$2","$3","$4","$5"],"default"]
+8:I[37457,["$2","$3","$4","$5"],"default"]
+9:"/_next/static/chunks/354p-aqxaih3m.js"
+a:I[22016,["$2","$3","$4","$5","$9"],""]
+b:I[44110,["$2","$3","$4","$5","$9"],"default"]
+19:I[68027,["$2","$3","$4","$5"],"default",1]
+:HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
+:HL["/_next/static/chunks/1ms0qnrh2aktb.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":{"n":"slug","t":"d","k":"web-bubble-plot-with-annotations-and-custom-features","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":66048,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","web-bubble-plot-with-annotations-and-custom-features",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/09q85_ay6xdo0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/21dxsc4p3jeoz.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1d1qeiuriwpmz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1u5pxdefkf32d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"JdxiwG_variable iGg3zq_variable antialiased","children":[["$","head",null,{"children":["$","link",null,{"rel":"sitemap","type":"application/xml","href":"/sitemap-index.xml"}]}],["$","body",null,{"children":[["$","$L6",null,{}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":[["$","h2",null,{"id":"404","children":" 😞 Oh No 😞 | 404"}],["$","p",null,{"children":"It looks like there is nothing here anymore."}],["$","p",null,{"children":["Please go back to the ",["$","$La",null,{"href":"/","children":"gallery home page"}]," and check if you can find your graph!"]}]]}],["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}],["$","div",null,{"className":"h-16 sm:h-20"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-24 border-t py-8 text-sm text-muted-foreground","children":["$","div",null,{"className":"mx-auto max-w-5xl px-5","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-4 sm:flex-row","children":[["$","div",null,{"children":["Copyright © the Python Graph Gallery ",2026]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","a","https://github.com/holtzy",{"href":"https://github.com/holtzy","aria-label":"Link to Yan Holtz Github profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 496 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"$c"}]}]}],"$Ld","$Le","$Lf"]}],"$L10"]}]}]}],"$L11","$L12"]}]]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",["$L1a","$L1b"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+1c:I[79520,["$2","$3","$4","$5"],""]
+1e:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:"ViewportBoundary"
+22:I[97367,["$2","$3","$4","$5"],"$21"]
+24:"MetadataBoundary"
+25:I[97367,["$2","$3","$4","$5"],"$24"]
+d:["$","a","https://twitter.com/R_Graph_Gallery",{"href":"https://twitter.com/R_Graph_Gallery","aria-label":"Link to Yan Holtz Twitter profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 512 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}]}]}]
+e:["$","a","https://www.linkedin.com/in/yan-holtz-2477534a/",{"href":"https://www.linkedin.com/in/yan-holtz-2477534a/","aria-label":"Link to Yan Holtz LinkedIn profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 448 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"}]}]}]
+f:["$","a","https://www.yan-holtz.com",{"href":"https://www.yan-holtz.com","aria-label":"Link to Yan Holtz Homepage","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 576 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"}]}]}]
+10:["$","div",null,{"className":"flex gap-2","children":[["$","a",null,{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE","className":"hover:text-foreground","children":"License"}],["$","span",null,{"children":"|"}],["$","$La",null,{"href":"/about","className":"hover:text-foreground","children":"About"}]]}]
+11:["$","$L1c",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-YJ2YPBMD3W","strategy":"afterInteractive"}]
+12:["$","$L1c",null,{"id":"gtag-init","strategy":"afterInteractive","children":"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YJ2YPBMD3W');"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L26"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+15:C
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]
+27:I[27201,["$2","$3","$4","$5"],"IconMark"]
+20:null
+26:[["$","title","0",{"children":"Bubble plot with specific annotations and customization"}],["$","meta","1",{"name":"description","content":"How to create a scatter plot with size of the markers based on a variable and with custom features"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"bubble, scatter, plot, matplotlib, chart, annotations, custom"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-bubble-plot-with-annotations-and-custom-features/"}],["$","meta","6",{"property":"og:title","content":"Bubble plot with specific annotations and customization"}],["$","meta","7",{"property":"og:description","content":"How to create a scatter plot with size of the markers based on a variable and with custom features"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/web-bubble-plot-with-annotations-and-custom-features/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Bubble plot with specific annotations and customization"}],["$","meta","13",{"name":"twitter:description","content":"How to create a scatter plot with size of the markers based on a variable and with custom features"}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/web-bubble-plot-with-annotations-and-custom-features/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L27","24",{}]]
+28:I[98936,["$2","$3","$4","$5","$9"],"default"]
+29:T8ed,# Init the figure and axe
+fig, ax = plt.subplots(figsize=(6, 6))
+
+# Define country to circle
+country_to_circle = [
+    "Norway",
+    "Singapore",
+    "U.S.",
+    "Czech Republic",
+    "Qatar",
+    "Bahrain",
+    "Somalia",
+    "Sudan",
+    "India",
+    "Trinidad and Tobago",
+    "Chad",
+]
+
+# Define the edgecolors according to the list
+edgecolors = circle_countries(country_to_circle)
+
+# Create the plot
+ax.scatter(
+    df["&nbsp;"],  # x-axis
+    df["&nbsp;.1"],  # y-axis
+    s=df["CO2 per Capita"] * 10,  # size of the bubble (put on a higher scale with *10)
+    c=df["Color"],
+    edgecolor=edgecolors,
+    linewidths=0.6,
+    marker="s",
+    zorder=2,
+)
+
+# Add country names on top on each marker
+add_country_name(country_to_circle)
+
+# Add title
+title = "The countries with the highest vulnerability to climate change\nhave the lowest CO2 emissions"
+fig.text(
+    0,
+    0.97,  # relative postion
+    title,
+    fontsize=11,  # High font size for style
+    ha="left",  # align to the left
+    family="dejavu sans",
+    weight="bold",
+)
+
+# Add subtitle
+subtitle = "All countries sorted by their vulnerability and readiness to climate change. The size shows the CO2 emission\nper person in that country"
+fig.text(
+    0,
+    0.92,  # relative postion
+    subtitle,
+    fontsize=8,  # High font size for style
+    ha="left",  # align to the left
+    family="dejavu sans",
+    multialignment="left",
+)
+
+# Add reference lines
+ax.axvline(0.43, color="gray", linestyle="--", linewidth=0.7, alpha=0.4)
+ax.axhline(0.41, color="gray", linestyle="--", linewidth=0.7, alpha=0.4)
+
+# Remove the spines (border lines) and scale from the chart
+ax.spines["top"].set_visible(False)
+ax.spines["right"].set_visible(False)
+ax.spines["bottom"].set_visible(False)
+ax.spines["left"].set_visible(False)
+ax.set_xticklabels([])
+ax.set_yticklabels([])
+ax.tick_params(axis="both", which="both", length=0)
+
+# Add labels
+fig.text(0.1, 0.45, "High readiness", color="silver", size=8)
+fig.text(0.1, 0.4, "Low readiness", color="silver", size=8)
+
+# Add arrows around labels
+arrowprops = dict(arrowstyle="->", color="silver", lw=0.4)
+ax.annotate("", xy=(0.25, 0.32), xytext=(0.25, 0.37), arrowprops=arrowprops)
+ax.annotate("", xy=(0.25, 0.5), xytext=(0.25, 0.45), arrowprops=arrowprops)
+
+# Show the plot
+plt.show()1d:[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Bubble plot with specific annotations and customization"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/BubblePlot150.webp","alt":"logo of a chart:BubblePlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>We will create a <a href='https://python-graph-gallery.com/bubble-plot/'><b>bubble plot</b> </a> using the <a href='https://python-graph-gallery.com/matplotlib/'>Matplotlib</a> library to visualize data about <i>countries and their CO2 emissions as well as vulnerability to climate change</i>.<br> It was originally produced by <a href='https://blog.datawrapper.de/climate-risk-readiness-responsibility/'>Data Wraper</a>. Here we will reproduce a <b>static version</b> (no interactions) in Python of the original one.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$La",null,{"href":"/bubble-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Bubble section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/bubble.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],["$","article",null,{"className":"wrapper post-content","children":["$","$L28",null,{"cells":["# Libraries\nimport matplotlib.pyplot as plt\nimport pandas as pd","url = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/data-CO2.csv\"\ndf = pd.read_csv(url)","# Init the figure and axe\nfig, ax = plt.subplots(figsize=(6, 6))\n\n# Create the plot\nax.scatter(\n    df[\"&nbsp;\"],  # x-axis\n    df[\"&nbsp;.1\"],  # y-axis\n    s=df[\"CO2 per Capita\"] * 10,  # size of the bubble (put on a higher scale with *10)\n)\n\n# Add title\nax.set_title(\n    \"The countries with the highest vulnerability to climate change\\nhave the lowest CO2 emissions\",\n    weight=\"bold\",\n)\nax.set_xlabel(\"Vulnerability\")\nax.set_ylabel(\"Readiness\")\n\n# Show the plot\nplt.show()","# Init the figure and axe\nfig, ax = plt.subplots(figsize=(6, 6))\n\n# Create the plot\nax.scatter(\n    df[\"&nbsp;\"],  # x-axis\n    df[\"&nbsp;.1\"],  # y-axis\n    s=df[\"CO2 per Capita\"] * 10,  # size of the bubble (put on a higher scale with *10)\n    c=df[\"Color\"],\n)\n\n# Add title\nax.set_title(\n    \"The countries with the highest vulnerability to climate change\\nhave the lowest CO2 emissions\",\n    weight=\"bold\",\n)\nax.set_xlabel(\"Vulnerability\")\nax.set_ylabel(\n    \"Readiness\",\n    rotation=0,  # shift it horizontally\n)\n\n# Remove the spines (border lines) and scale from the chart\nax.spines[\"top\"].set_visible(False)\nax.spines[\"right\"].set_visible(False)\nax.spines[\"bottom\"].set_visible(False)\nax.spines[\"left\"].set_visible(False)\nax.set_xticklabels([])\nax.set_yticklabels([])\nax.tick_params(axis=\"both\", which=\"both\", length=0)\n\n# Show the plot\nplt.show()","# Init the figure and axe\nfig, ax = plt.subplots(figsize=(6, 6))\n\n# Create the plot\nax.scatter(\n    df[\"&nbsp;\"],  # x-axis\n    df[\"&nbsp;.1\"],  # y-axis\n    s=df[\"CO2 per Capita\"] * 10,  # size of the bubble (put on a higher scale with *10)\n    c=df[\"Color\"],\n    marker=\"s\",\n)\n\n# Add title\nax.set_title(\n    \"The countries with the highest vulnerability to climate change\\nhave the lowest CO2 emissions\",\n    weight=\"bold\",\n)\n\n# Add reference lines\nax.axvline(0.43, color=\"gray\", linestyle=\"--\", linewidth=0.7, alpha=0.4)\nax.axhline(0.41, color=\"gray\", linestyle=\"--\", linewidth=0.7, alpha=0.4)\n\n# Remove the spines (border lines) and scale from the chart\nax.spines[\"top\"].set_visible(False)\nax.spines[\"right\"].set_visible(False)\nax.spines[\"bottom\"].set_visible(False)\nax.spines[\"left\"].set_visible(False)\nax.set_xticklabels([])\nax.set_yticklabels([])\nax.tick_params(axis=\"both\", which=\"both\", length=0)\n\n# Show the plot\nplt.show()","def circle_countries(country_names: list):\n    # Init the edge color parameter with its default value: same as font color\n    df[\"EdgeColor\"] = df[\"Color\"]\n\n    # Change the edge color of the countries in the list\n    df.loc[df[\"Name\"].isin(country_names), \"EdgeColor\"] = \"black\"\n\n    return df[\"EdgeColor\"]","def add_country_name(country_names: list):\n    # Iterate over each country name\n    for country_name in country_names:\n        # Find position of the country on the axes\n        x_axis = df.loc[df[\"Name\"] == country_name, \"&nbsp;\"]\n        y_axis = df.loc[df[\"Name\"] == country_name, \"&nbsp;.1\"]\n\n        # Add the text at the right position, slighly shift to the top for lisibility\n        ax.text(\n            x_axis,\n            y_axis + 0.025,  # position\n            country_name,  # label\n            size=6,  # size of the text\n            ha=\"center\",  # align the text\n        )","$29"],"children":"$L2a"}]}],"$L2b","$L2c","$L2d","$L2e","$L2f"]
+30:I[68978,["$2","$3","$4","$5","$9"],"default"]
+43:I[59351,["$2","$3","$4","$5","$9"],"default"]
+31:Tb32,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Init the figure and axe</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create the plot</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span></span>
+<span class="line"><span style="color:#24292E">    df[</span><span style="color:#032F62">"&#x26;nbsp;"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># x-axis</span></span>
+<span class="line"><span style="color:#24292E">    df[</span><span style="color:#032F62">"&#x26;nbsp;.1"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># y-axis</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">"CO2 per Capita"</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 10</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># size of the bubble (put on a higher scale with *10)</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add title</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span></span>
+<span class="line"><span style="color:#032F62">    "The countries with the highest vulnerability to climate change</span><span style="color:#005CC5">\n</span><span style="color:#032F62">have the lowest CO2 emissions"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlabel(</span><span style="color:#032F62">"Vulnerability"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylabel(</span><span style="color:#032F62">"Readiness"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>2a:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This plot is a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/bubble-plot/","children":"bubble plot"}],". It shows the relation between CO2 emission, vulnerability and readiness to climate change. The size of the bubble is the CO2 emission per habitant in the country."]}],"\n",["$","p","p-1",{"children":["The chart was originally made with ",["$","a","a-0",{"href":"https://www.react-graph-gallery.com","children":"React"}],". This post is a translation to Python by ",["$","a","a-1",{"href":"https://www.barbierjoseph.com","children":"Joseph B."}],"."]}],"\n",["$","p","p-2",{"children":"Thanks to him for accepting sharing his work here!"}],"\n",["$","p","p-3",{"children":"Let's see what the final picture will look like:"}],"\n",["$","p","p-4",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-bubble-plot-with-annotations-and-custom-features.png?raw=true","alt":"preview final chart","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-5",{"children":"First, you need to install the following librairies:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," is used for creating the chart and add customization features"]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"pandas"}]," is used to put the data into a dataframe"]}],"\n"]}],"\n",["$","p","p-6",{"children":"And that's it!"}],"\n",["$","$L30","notebook-cell-0",{"index":0,"code":"# Libraries\nimport matplotlib.pyplot as plt\nimport pandas as pd","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Libraries</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> matplotlib.pyplot </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> plt</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> pandas </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> pd</span></span></code></pre>","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-7",{"children":["For this reproduction, we're going to retrieve the data directly from the ",["$","a","a-0",{"href":"https://github.com/holtzy/The-Python-Graph-Gallery","children":"gallery's Github repo"}],". This means we just need to ",["$","strong","strong-0",{"children":"give the right url as an argument"}]," to pandas' ",["$","code","code-0",{"children":"read_csv()"}]," function to retrieve the data."]}],"\n",["$","$L30","notebook-cell-1",{"index":1,"code":"url = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/data-CO2.csv\"\ndf = pd.read_csv(url)","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#24292E\">url </span><span style=\"color:#D73A49\">=</span><span style=\"color:#032F62\"> \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/data-CO2.csv\"</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">df </span><span style=\"color:#D73A49\">=</span><span style=\"color:#24292E\"> pd.read_csv(url)</span></span></code></pre>","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n",["$","h2","h2-3",{"children":"Bubble plot with default layout"}],["$","$L30","notebook-cell-2",{"index":2,"code":"# Init the figure and axe\nfig, ax = plt.subplots(figsize=(6, 6))\n\n# Create the plot\nax.scatter(\n    df[\"&nbsp;\"],  # x-axis\n    df[\"&nbsp;.1\"],  # y-axis\n    s=df[\"CO2 per Capita\"] * 10,  # size of the bubble (put on a higher scale with *10)\n)\n\n# Add title\nax.set_title(\n    \"The countries with the highest vulnerability to climate change\\nhave the lowest CO2 emissions\",\n    weight=\"bold\",\n)\nax.set_xlabel(\"Vulnerability\")\nax.set_ylabel(\"Readiness\")\n\n# Show the plot\nplt.show()","highlighted":"$31","interactive":false,"hasChart":true,"intro":"$L32","output":"$L33"}],"\n","$L34","$L35","\n","$L36","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","$L3f","\n","$L40","\n","$L41","\n","$L42"]
+2b:["$","div",null,{"className":"h-16 sm:h-20"}]
+2c:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$La","scatter",{"href":"/scatter-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ScatterPlot150.webp","alt":"logo of a chart:ScatterPlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Scatterplot"}]]}],["$","$La","heatmap",{"href":"/heatmap/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Heatmap150.webp","alt":"logo of a chart:Heatmap","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Heatmap"}]]}],["$","$La","correlogram",{"href":"/correlogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Correlogram150.webp","alt":"logo of a chart:Correlogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Correlogram"}]]}],["$","$La","bubble",{"href":"/bubble-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/BubblePlot150.webp","alt":"logo of a chart:BubblePlot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Bubble"}]]}],["$","$La","connectedScatter",{"href":"/connected-scatter-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/ScatterConnected150.webp","alt":"logo of a chart:ScatterConnected","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Connected Scatter"}]]}],["$","$La","density2d",{"href":"/2d-density-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/2dDensity150.webp","alt":"logo of a chart:2dDensity","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"2D Density"}]]}]]}]]}]}]
+2d:["$","div",null,{"className":"h-16 sm:h-20"}]
+2e:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+2f:["$","$L43",null,{}]
+32:[["$","p","p-0",{"children":["We'll start by creating a ",["$","strong","strong-0",{"children":"\"simple\" graph"}],", with little customization in order to be progressive. We will create a basic bubble plot, which is just a ",["$","strong","strong-1",{"children":"more sophisticated"}]," ",["$","a","a-0",{"href":"https://python-graph-gallery.com/scatter-plot/","children":"scatter plot"}],"."]}]]
+33:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-bubble-plot-with-annotations-and-custom-features/output-1.png","alt":"Bubble plot with specific annotations and customization","width":605,"height":568,"loading":"lazy","decoding":"async"}]}]]
+34:["$","h2","h2-4",{"children":"Custom color and improve layout"}]
+44:T1469,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Init the figure and axe</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create the plot</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span></span>
+<span class="line"><span style="color:#24292E">    df[</span><span style="color:#032F62">"&#x26;nbsp;"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># x-axis</span></span>
+<span class="line"><span style="color:#24292E">    df[</span><span style="color:#032F62">"&#x26;nbsp;.1"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># y-axis</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">"CO2 per Capita"</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 10</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># size of the bubble (put on a higher scale with *10)</span></span>
+<span class="line"><span style="color:#E36209">    c</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">"Color"</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add title</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span></span>
+<span class="line"><span style="color:#032F62">    "The countries with the highest vulnerability to climate change</span><span style="color:#005CC5">\n</span><span style="color:#032F62">have the lowest CO2 emissions"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xlabel(</span><span style="color:#032F62">"Vulnerability"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_ylabel(</span></span>
+<span class="line"><span style="color:#032F62">    "Readiness"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    rotation</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># shift it horizontally</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove the spines (border lines) and scale from the chart</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"top"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"right"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"left"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">"both"</span><span style="color:#24292E">, </span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"both"</span><span style="color:#24292E">, </span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>35:["$","$L30","notebook-cell-3",{"index":3,"code":"# Init the figure and axe\nfig, ax = plt.subplots(figsize=(6, 6))\n\n# Create the plot\nax.scatter(\n    df[\"&nbsp;\"],  # x-axis\n    df[\"&nbsp;.1\"],  # y-axis\n    s=df[\"CO2 per Capita\"] * 10,  # size of the bubble (put on a higher scale with *10)\n    c=df[\"Color\"],\n)\n\n# Add title\nax.set_title(\n    \"The countries with the highest vulnerability to climate change\\nhave the lowest CO2 emissions\",\n    weight=\"bold\",\n)\nax.set_xlabel(\"Vulnerability\")\nax.set_ylabel(\n    \"Readiness\",\n    rotation=0,  # shift it horizontally\n)\n\n# Remove the spines (border lines) and scale from the chart\nax.spines[\"top\"].set_visible(False)\nax.spines[\"right\"].set_visible(False)\nax.spines[\"bottom\"].set_visible(False)\nax.spines[\"left\"].set_visible(False)\nax.set_xticklabels([])\nax.set_yticklabels([])\nax.tick_params(axis=\"both\", which=\"both\", length=0)\n\n# Show the plot\nplt.show()","highlighted":"$44","interactive":false,"hasChart":true,"intro":"$L45","output":"$L46"}]
+36:["$","h2","h2-5",{"children":"Update markers type and add reference lines"}]
+47:T18f5,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Init the figure and axe</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create the plot</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span></span>
+<span class="line"><span style="color:#24292E">    df[</span><span style="color:#032F62">"&#x26;nbsp;"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># x-axis</span></span>
+<span class="line"><span style="color:#24292E">    df[</span><span style="color:#032F62">"&#x26;nbsp;.1"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># y-axis</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">"CO2 per Capita"</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 10</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># size of the bubble (put on a higher scale with *10)</span></span>
+<span class="line"><span style="color:#E36209">    c</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">"Color"</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">"s"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add title</span></span>
+<span class="line"><span style="color:#24292E">ax.set_title(</span></span>
+<span class="line"><span style="color:#032F62">    "The countries with the highest vulnerability to climate change</span><span style="color:#005CC5">\n</span><span style="color:#032F62">have the lowest CO2 emissions"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add reference lines</span></span>
+<span class="line"><span style="color:#24292E">ax.axvline(</span><span style="color:#005CC5">0.43</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"gray"</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"--"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.axhline(</span><span style="color:#005CC5">0.41</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"gray"</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"--"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove the spines (border lines) and scale from the chart</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"top"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"right"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"left"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">"both"</span><span style="color:#24292E">, </span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"both"</span><span style="color:#24292E">, </span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>37:["$","$L30","notebook-cell-4",{"index":4,"code":"# Init the figure and axe\nfig, ax = plt.subplots(figsize=(6, 6))\n\n# Create the plot\nax.scatter(\n    df[\"&nbsp;\"],  # x-axis\n    df[\"&nbsp;.1\"],  # y-axis\n    s=df[\"CO2 per Capita\"] * 10,  # size of the bubble (put on a higher scale with *10)\n    c=df[\"Color\"],\n    marker=\"s\",\n)\n\n# Add title\nax.set_title(\n    \"The countries with the highest vulnerability to climate change\\nhave the lowest CO2 emissions\",\n    weight=\"bold\",\n)\n\n# Add reference lines\nax.axvline(0.43, color=\"gray\", linestyle=\"--\", linewidth=0.7, alpha=0.4)\nax.axhline(0.41, color=\"gray\", linestyle=\"--\", linewidth=0.7, alpha=0.4)\n\n# Remove the spines (border lines) and scale from the chart\nax.spines[\"top\"].set_visible(False)\nax.spines[\"right\"].set_visible(False)\nax.spines[\"bottom\"].set_visible(False)\nax.spines[\"left\"].set_visible(False)\nax.set_xticklabels([])\nax.set_yticklabels([])\nax.tick_params(axis=\"both\", which=\"both\", length=0)\n\n# Show the plot\nplt.show()","highlighted":"$47","interactive":false,"hasChart":true,"intro":"$L48","output":"$L49"}]
+38:["$","p","p-8",{"children":"The chart is starting to look really nice! It's time to add the annotations and finish it!"}]
+39:["$","h2","h2-6",{"children":"Circle some countries and add annotations"}]
+3a:["$","p","p-9",{"children":["The most complex part of this section is to ",["$","strong","strong-0",{"children":"automate the process of surrounding a country"}],"."]}]
+3b:["$","p","p-10",{"children":["To do this, we create a ",["$","code","code-0",{"children":"circle_countries()"}]," function that takes as argument a ",["$","strong","strong-0",{"children":"list of country names"}]," and returns the associated list of border colors (",["$","code","code-1",{"children":"'black'"}]," for the countries in the list, ",["$","code","code-2",{"children":"default"}]," otherwise)."]}]
+4a:T5da,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> circle_countries</span><span style="color:#24292E">(country_names: </span><span style="color:#005CC5">list</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#6A737D">    # Init the edge color parameter with its default value: same as font color</span></span>
+<span class="line"><span style="color:#24292E">    df[</span><span style="color:#032F62">"EdgeColor"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"Color"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Change the edge color of the countries in the list</span></span>
+<span class="line"><span style="color:#24292E">    df.loc[df[</span><span style="color:#032F62">"Name"</span><span style="color:#24292E">].isin(country_names), </span><span style="color:#032F62">"EdgeColor"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "black"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"EdgeColor"</span><span style="color:#24292E">]</span></span></code></pre>3c:["$","$L30","notebook-cell-5",{"index":5,"code":"def circle_countries(country_names: list):\n    # Init the edge color parameter with its default value: same as font color\n    df[\"EdgeColor\"] = df[\"Color\"]\n\n    # Change the edge color of the countries in the list\n    df.loc[df[\"Name\"].isin(country_names), \"EdgeColor\"] = \"black\"\n\n    return df[\"EdgeColor\"]","highlighted":"$4a","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+3d:["$","p","p-11",{"children":["Then we create a ",["$","code","code-0",{"children":"add_country_name()"}]," function that will ",["$","strong","strong-0",{"children":"add the name of the country"}]," on top of its marker. Our function will ",["$","strong","strong-1",{"children":"iterate over each name"}]," in the country names list, ",["$","strong","strong-2",{"children":"find their position"}]," on the chart using ",["$","code","code-1",{"children":"loc()"}]," function and ",["$","strong","strong-3",{"children":"add their name"}]," at this position thanks to the ",["$","code","code-2",{"children":"text()"}]," function."]}]
+4b:Tb1d,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> add_country_name</span><span style="color:#24292E">(country_names: </span><span style="color:#005CC5">list</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#6A737D">    # Iterate over each country name</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> country_name </span><span style="color:#D73A49">in</span><span style="color:#24292E"> country_names:</span></span>
+<span class="line"><span style="color:#6A737D">        # Find position of the country on the axes</span></span>
+<span class="line"><span style="color:#24292E">        x_axis </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.loc[df[</span><span style="color:#032F62">"Name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country_name, </span><span style="color:#032F62">"&#x26;nbsp;"</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">        y_axis </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.loc[df[</span><span style="color:#032F62">"Name"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> country_name, </span><span style="color:#032F62">"&#x26;nbsp;.1"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Add the text at the right position, slighly shift to the top for lisibility</span></span>
+<span class="line"><span style="color:#24292E">        ax.text(</span></span>
+<span class="line"><span style="color:#24292E">            x_axis,</span></span>
+<span class="line"><span style="color:#24292E">            y_axis </span><span style="color:#D73A49">+</span><span style="color:#005CC5"> 0.025</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># position</span></span>
+<span class="line"><span style="color:#24292E">            country_name,  </span><span style="color:#6A737D"># label</span></span>
+<span class="line"><span style="color:#E36209">            size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">6</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># size of the text</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># align the text</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span></code></pre>3e:["$","$L30","notebook-cell-6",{"index":6,"code":"def add_country_name(country_names: list):\n    # Iterate over each country name\n    for country_name in country_names:\n        # Find position of the country on the axes\n        x_axis = df.loc[df[\"Name\"] == country_name, \"&nbsp;\"]\n        y_axis = df.loc[df[\"Name\"] == country_name, \"&nbsp;.1\"]\n\n        # Add the text at the right position, slighly shift to the top for lisibility\n        ax.text(\n            x_axis,\n            y_axis + 0.025,  # position\n            country_name,  # label\n            size=6,  # size of the text\n            ha=\"center\",  # align the text\n        )","highlighted":"$4b","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+4c:T8ed,# Init the figure and axe
+fig, ax = plt.subplots(figsize=(6, 6))
+
+# Define country to circle
+country_to_circle = [
+    "Norway",
+    "Singapore",
+    "U.S.",
+    "Czech Republic",
+    "Qatar",
+    "Bahrain",
+    "Somalia",
+    "Sudan",
+    "India",
+    "Trinidad and Tobago",
+    "Chad",
+]
+
+# Define the edgecolors according to the list
+edgecolors = circle_countries(country_to_circle)
+
+# Create the plot
+ax.scatter(
+    df["&nbsp;"],  # x-axis
+    df["&nbsp;.1"],  # y-axis
+    s=df["CO2 per Capita"] * 10,  # size of the bubble (put on a higher scale with *10)
+    c=df["Color"],
+    edgecolor=edgecolors,
+    linewidths=0.6,
+    marker="s",
+    zorder=2,
+)
+
+# Add country names on top on each marker
+add_country_name(country_to_circle)
+
+# Add title
+title = "The countries with the highest vulnerability to climate change\nhave the lowest CO2 emissions"
+fig.text(
+    0,
+    0.97,  # relative postion
+    title,
+    fontsize=11,  # High font size for style
+    ha="left",  # align to the left
+    family="dejavu sans",
+    weight="bold",
+)
+
+# Add subtitle
+subtitle = "All countries sorted by their vulnerability and readiness to climate change. The size shows the CO2 emission\nper person in that country"
+fig.text(
+    0,
+    0.92,  # relative postion
+    subtitle,
+    fontsize=8,  # High font size for style
+    ha="left",  # align to the left
+    family="dejavu sans",
+    multialignment="left",
+)
+
+# Add reference lines
+ax.axvline(0.43, color="gray", linestyle="--", linewidth=0.7, alpha=0.4)
+ax.axhline(0.41, color="gray", linestyle="--", linewidth=0.7, alpha=0.4)
+
+# Remove the spines (border lines) and scale from the chart
+ax.spines["top"].set_visible(False)
+ax.spines["right"].set_visible(False)
+ax.spines["bottom"].set_visible(False)
+ax.spines["left"].set_visible(False)
+ax.set_xticklabels([])
+ax.set_yticklabels([])
+ax.tick_params(axis="both", which="both", length=0)
+
+# Add labels
+fig.text(0.1, 0.45, "High readiness", color="silver", size=8)
+fig.text(0.1, 0.4, "Low readiness", color="silver", size=8)
+
+# Add arrows around labels
+arrowprops = dict(arrowstyle="->", color="silver", lw=0.4)
+ax.annotate("", xy=(0.25, 0.32), xytext=(0.25, 0.37), arrowprops=arrowprops)
+ax.annotate("", xy=(0.25, 0.5), xytext=(0.25, 0.45), arrowprops=arrowprops)
+
+# Show the plot
+plt.show()4d:T3cb6,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Init the figure and axe</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define country to circle</span></span>
+<span class="line"><span style="color:#24292E">country_to_circle </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span></span>
+<span class="line"><span style="color:#032F62">    "Norway"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Singapore"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "U.S."</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Czech Republic"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Qatar"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Bahrain"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Somalia"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Sudan"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "India"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Trinidad and Tobago"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">    "Chad"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Define the edgecolors according to the list</span></span>
+<span class="line"><span style="color:#24292E">edgecolors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> circle_countries(country_to_circle)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Create the plot</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(</span></span>
+<span class="line"><span style="color:#24292E">    df[</span><span style="color:#032F62">"&#x26;nbsp;"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># x-axis</span></span>
+<span class="line"><span style="color:#24292E">    df[</span><span style="color:#032F62">"&#x26;nbsp;.1"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># y-axis</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">"CO2 per Capita"</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 10</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># size of the bubble (put on a higher scale with *10)</span></span>
+<span class="line"><span style="color:#E36209">    c</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">"Color"</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">    edgecolor</span><span style="color:#D73A49">=</span><span style="color:#24292E">edgecolors,</span></span>
+<span class="line"><span style="color:#E36209">    linewidths</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.6</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">"s"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add country names on top on each marker</span></span>
+<span class="line"><span style="color:#24292E">add_country_name(country_to_circle)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add title</span></span>
+<span class="line"><span style="color:#24292E">title </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "The countries with the highest vulnerability to climate change</span><span style="color:#005CC5">\n</span><span style="color:#032F62">have the lowest CO2 emissions"</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#005CC5">    0</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    0.97</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># relative postion</span></span>
+<span class="line"><span style="color:#24292E">    title,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">11</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># High font size for style</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># align to the left</span></span>
+<span class="line"><span style="color:#E36209">    family</span><span style="color:#D73A49">=</span><span style="color:#032F62">"dejavu sans"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add subtitle</span></span>
+<span class="line"><span style="color:#24292E">subtitle </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "All countries sorted by their vulnerability and readiness to climate change. The size shows the CO2 emission</span><span style="color:#005CC5">\n</span><span style="color:#032F62">per person in that country"</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span></span>
+<span class="line"><span style="color:#005CC5">    0</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    0.92</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># relative postion</span></span>
+<span class="line"><span style="color:#24292E">    subtitle,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># High font size for style</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># align to the left</span></span>
+<span class="line"><span style="color:#E36209">    family</span><span style="color:#D73A49">=</span><span style="color:#032F62">"dejavu sans"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    multialignment</span><span style="color:#D73A49">=</span><span style="color:#032F62">"left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add reference lines</span></span>
+<span class="line"><span style="color:#24292E">ax.axvline(</span><span style="color:#005CC5">0.43</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"gray"</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"--"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.axhline(</span><span style="color:#005CC5">0.41</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"gray"</span><span style="color:#24292E">, </span><span style="color:#E36209">linestyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"--"</span><span style="color:#24292E">, </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.7</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove the spines (border lines) and scale from the chart</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"top"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"right"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"bottom"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.spines[</span><span style="color:#032F62">"left"</span><span style="color:#24292E">].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_xticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">ax.set_yticklabels([])</span></span>
+<span class="line"><span style="color:#24292E">ax.tick_params(</span><span style="color:#E36209">axis</span><span style="color:#D73A49">=</span><span style="color:#032F62">"both"</span><span style="color:#24292E">, </span><span style="color:#E36209">which</span><span style="color:#D73A49">=</span><span style="color:#032F62">"both"</span><span style="color:#24292E">, </span><span style="color:#E36209">length</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add labels</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.45</span><span style="color:#24292E">, </span><span style="color:#032F62">"High readiness"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"silver"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.4</span><span style="color:#24292E">, </span><span style="color:#032F62">"Low readiness"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"silver"</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add arrows around labels</span></span>
+<span class="line"><span style="color:#24292E">arrowprops </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">arrowstyle</span><span style="color:#D73A49">=</span><span style="color:#032F62">"->"</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"silver"</span><span style="color:#24292E">, </span><span style="color:#E36209">lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.annotate(</span><span style="color:#032F62">""</span><span style="color:#24292E">, </span><span style="color:#E36209">xy</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.25</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.32</span><span style="color:#24292E">), </span><span style="color:#E36209">xytext</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.25</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.37</span><span style="color:#24292E">), </span><span style="color:#E36209">arrowprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">arrowprops)</span></span>
+<span class="line"><span style="color:#24292E">ax.annotate(</span><span style="color:#032F62">""</span><span style="color:#24292E">, </span><span style="color:#E36209">xy</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.25</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.5</span><span style="color:#24292E">), </span><span style="color:#E36209">xytext</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.25</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.45</span><span style="color:#24292E">), </span><span style="color:#E36209">arrowprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">arrowprops)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3f:["$","$L30","notebook-cell-7",{"index":7,"code":"$4c","highlighted":"$4d","interactive":false,"hasChart":true,"intro":"$L4e","output":"$L4f"}]
+40:["$","h2","h2-7",{"children":"Going further"}]
+41:["$","p","p-12",{"children":["This article explains how to reproduce a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/bubble-plot/","children":"bubble plot"}]," with annotations, custom colors and nice features."]}]
+42:["$","p","p-13",{"children":["For more examples of ",["$","strong","strong-0",{"children":"advanced customization"}]," in bubble plot, check out this ",["$","a","a-0",{"href":"https://python-graph-gallery.com/web-scatterplot-astronaut/","children":"other very nice plot"}],". Also, you might be interested in ",["$","a","a-1",{"href":"https://python-graph-gallery.com/web-scatterplot-text-annotation-and-regression-matplotlib/","children":"adding text without overlapping"}]," to your chart."]}]
+45:[["$","p","p-0",{"children":["In order to change the color, we just have to add to the ",["$","code","code-0",{"children":"c"}]," argument with the name of the column containing the colors, which is ",["$","code","code-1",{"children":"'Color'"}]," in our case."]}],["$","p","p-1",{"children":["Then, we ",["$","strong","strong-0",{"children":"remove the spines and ticks"}]," from the chart in order to make it nicer"]}]]
+46:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-bubble-plot-with-annotations-and-custom-features/output-2.png","alt":"Bubble plot with specific annotations and customization","width":605,"height":544,"loading":"lazy","decoding":"async"}]}]]
+48:[["$","p","p-0",{"children":["To respect the original work, we're now going to change the ",["$","strong","strong-0",{"children":"style of the markers"}]," to square and add ",["$","strong","strong-1",{"children":"reference lines"}]," in the middle of the graphic."]}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"change the marker type"}],": put ",["$","code","code-0",{"children":"marker='s'"}]," when calling the ",["$","code","code-1",{"children":"scatter()"}]," function"]}],"\n",["$","li","li-1",{"children":["add ",["$","strong","strong-0",{"children":"reference lines"}],": use the ",["$","code","code-0",{"children":"axvline()"}]," and ",["$","code","code-1",{"children":"axhline()"}]," functions and specify the relative position, color, style, width and opacity"]}],"\n"]}]]
+49:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-bubble-plot-with-annotations-and-custom-features/output-3.png","alt":"Bubble plot with specific annotations and customization","width":605,"height":519,"loading":"lazy","decoding":"async"}]}]]
+4e:[["$","p","p-0",{"children":["Then, we add the last ",["$","strong","strong-0",{"children":"annotations"}]," such as the ",["$","code","code-0",{"children":"labels"}],", ",["$","code","code-1",{"children":"title"}]," and the ",["$","code","code-2",{"children":"arrows"}]," using ",["$","code","code-3",{"children":"text()"}]," and ",["$","code","code-4",{"children":"annotate()"}]," functions."]}]]
+4f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-bubble-plot-with-annotations-and-custom-features/output-4.png","alt":"Bubble plot with specific annotations and customization","width":625,"height":565,"loading":"lazy","decoding":"async"}]}]]

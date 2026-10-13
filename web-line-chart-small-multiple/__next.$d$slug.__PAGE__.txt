@@ -1,0 +1,780 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Line chart with small multiple"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Line150.webp","alt":"logo of a chart:Line","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post explains how to build a small multiple <a href='https://python-graph-gallery.com/line-chart/'>line chart</a> with <a href='https://python-graph-gallery.com/matplotlib/'> matplotlib</a>. For each panel, all groups are displayed but faded out. The code is a reproduction, initially built in R by Gilbert Fontana. <br>We will, step by step, explain how to create a beautiful line chart, add annotations and specify customization features.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/line-chart/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Line chart section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/line.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-line-chart-small-multiple","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Line chart with small multiple"}],["$","meta","1",{"name":"description","content":"How to build a small multiple line chart, with annotations, built with matplotlib."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, linechart, plot, line, matplotlib, small, multiples, annotation"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-line-chart-small-multiple/"}],["$","meta","6",{"property":"og:title","content":"Line chart with small multiple"}],["$","meta","7",{"property":"og:description","content":"How to build a small multiple line chart, with annotations, built with matplotlib."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://python-graph-gallery.com/posts/web-line-chart-small-multiple/output-1.png"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Line chart with small multiple"}],["$","meta","13",{"name":"twitter:description","content":"How to build a small multiple line chart, with annotations, built with matplotlib."}],["$","meta","14",{"name":"twitter:image","content":"https://python-graph-gallery.com/posts/web-line-chart-small-multiple/output-1.png"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+26:I[44110,["$3","$4","$5","$6","$d"],"default"]
+27:I[59351,["$3","$4","$5","$6","$d"],"default"]
+28:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T515,# Create a colormap with a color for each country
+num_countries = len(df['country'].unique())
+colors = plt.cm.get_cmap('tab10', num_countries)
+
+# Init a 3x3 charts
+fig, ax = plt.subplots(nrows=3, ncols=3, figsize=(6, 10))
+
+# Plot each group in the subplots
+for i, (group, ax) in enumerate(zip(df['country'].unique(), ax.flatten())):
+
+    # Filter for the group
+    filtered_df = df[df['country'] == group]
+    other_groups = df['country'].unique()[df['country'].unique() != group]
+    
+    # Plot other groups with lighter colors 
+    for other_group in other_groups:
+
+        # Filter observations that are not in the group
+        other_y = df['value'][df['country'] == other_group]
+        other_x = df['Time'][df['country'] == other_group]
+
+        # Display the other observations with less opacity
+        ax.plot(other_x, other_y, color=colors(i))
+
+    # Plot the line of the group
+    x = filtered_df['Time']
+    y = filtered_df['value']
+    ax.plot(x, y, color='black')
+
+    # Removes spines
+    ax.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
+
+    # Remove axis labels
+    ax.set_yticks([])
+    ax.set_xticks([])
+    
+    # Add a bold title to each subplot
+    ax.set_title(f'{group}', fontsize=12)
+
+# Adjust layout and spacing
+plt.tight_layout()
+
+# Show the plot
+plt.show()23:T5c0,# Create a colormap with a color for each country
+num_countries = len(df['country'].unique())
+colors = plt.cm.get_cmap('tab10', num_countries)
+
+# Init a 3x3 charts
+fig, ax = plt.subplots(nrows=3, ncols=3, figsize=(8, 12))
+
+# Plot each group in the subplots
+for i, (group, ax) in enumerate(zip(df['country'].unique(), ax.flatten())):
+
+    # Filter for the group
+    filtered_df = df[df['country'] == group]
+    x = filtered_df['Time']
+    y = filtered_df['value']
+
+    # Set the background color for each subplot
+    ax.set_facecolor('seashell')
+    fig.set_facecolor('seashell')
+    
+    # Plot the line
+    ax.plot(x, y, color=colors(i))
+    
+    # Plot other groups with lighter colors (alpha argument)
+    other_groups = df['country'].unique()[df['country'].unique() != group]
+    for other_group in other_groups:
+
+        # Filter observations that are not in the group
+        other_y = df['value'][df['country'] == other_group]
+        other_x = df['Time'][df['country'] == other_group]
+
+        # Display the other observations with less opacity (alpha=0.2)
+        ax.plot(other_x, other_y, color=colors(i), alpha=0.2)
+
+    # Removes spines
+    ax.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
+    
+    # Add a bold title to each subplot
+    ax.set_title(f'{group}', fontsize=12, fontweight='bold')
+    
+    # Remove axis labels
+    ax.set_yticks([])
+    ax.set_xticks([])
+
+# Adjust layout and spacing
+plt.tight_layout()
+
+# Show the plot
+plt.show()24:T123d,# Create a colormap with a color for each country
+num_countries = len(df['country'].unique())
+colors = plt.cm.get_cmap('tab10', num_countries)
+
+# Init a 3x3 charts
+fig, ax = plt.subplots(nrows=3, ncols=3, figsize=(8, 12))
+
+# Add a big title on top of the entire chart
+fig.suptitle('\nConsumer \nConfidence \nAround the \nWorld\n\n', # Title ('\n' allows you to go to the line),
+             fontsize=40,
+             fontweight='bold', 
+             x=0.05, # Shift the text to the left
+             ha='left' # Align the text to the left
+            )
+
+# Add a paragraph of text on the right of the title
+paragraph_text = (
+    "The consumer confidence indicator\n"
+    "provided an indication of future\n"
+    "developments of households'.\n"
+    "consumption and saving. An\n"
+    "indicator above 100 signals a boost\n"
+    "in the consumers' confidence\n"
+    "towards the future economic\n"
+    "situation. Values below 100 indicate\n"
+    "a pessimistic attitude towards future\n"
+    "developments in the economy,\n"
+    "possibly resulting in a tendency to\n"
+    "save more and consume less. During\n"
+    "2022, the consuer confidence\n"
+    "indicators have declined in many\n"
+    "major economies around the world.\n"
+)
+fig.text(0.55, 0.9, # Position
+         paragraph_text, # Content
+         fontsize=12,
+         va='top', # Put the paragraph at the top of the chart
+         ha='left', # Align the text to the left
+        )
+
+# Plot each group in the subplots
+for i, (group, ax) in enumerate(zip(df['country'].unique(), ax.flatten())):
+
+    # Filter for the group
+    filtered_df = df[df['country'] == group]
+    x = filtered_df['Time']
+    y = filtered_df['value']
+
+    # Get last value (according to 'Time') for the group
+    sorted_df = filtered_df.sort_values(by='Time')
+    last_value = sorted_df.iloc[-1]['value']
+    last_date = sorted_df.iloc[-1]['Time']
+
+    # Set the background color for each subplot
+    ax.set_facecolor('seashell')
+    fig.set_facecolor('seashell')
+    
+    # Plot the line
+    ax.plot(x, y, color=colors(i))
+    
+    # Add the final value
+    ax.plot(last_date, # x-axis position
+            last_value, # y-axis position
+            marker='o', # Style of the point
+            markersize=5, # Size of the point
+            color=colors(i), # Color
+           )
+    
+    # Add the text of the value
+    ax.text(last_date,
+             last_value*1.005, # slightly shift up
+             f'{round(last_value)}', # round for more lisibility
+             fontsize=7,
+             color=colors(i), # color
+             fontweight='bold',
+           )
+
+    # Add the 100 on the left
+    ax.text(sorted_df.iloc[0]['Time'] - pd.Timedelta(days=300), # shift the position to the left
+             100,
+             '100',
+             fontsize=10,
+             color='black',)
+
+    # Add line 
+    sorted_df = df.sort_values(by='Time')
+    start_x_position = sorted_df.iloc[0]['Time']
+    end_x_position = sorted_df.iloc[-1]['Time']
+    ax.plot([start_x_position, end_x_position], # x-axis position
+            [100, 100], # y-axis position (constant position)
+            color='black', # Color
+            alpha=0.8, # Opacity
+            linewidth=0.8, # width of the line
+           )
+    
+    # Plot other groups with lighter colors (alpha argument)
+    other_groups = df['country'].unique()[df['country'].unique() != group]
+    for other_group in other_groups:
+
+        # Filter observations that are not in the group
+        other_y = df['value'][df['country'] == other_group]
+        other_x = df['Time'][df['country'] == other_group]
+
+        # Display the other observations with less opacity (alpha=0.2)
+        ax.plot(other_x, other_y, color=colors(i), alpha=0.2)
+
+    # Removes spines
+    ax.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
+    
+    # Add a bold title to each subplot
+    ax.set_title(f'{group}', fontsize=12, fontweight='bold')
+    
+    # Remove axis labels
+    ax.set_yticks([])
+    ax.set_xticks([])
+
+# Add a credit section at the bottom of the chart
+fig.text(0.0, -0.01, # position
+         "Design:", # text
+         fontsize=10,
+         va='bottom',
+         ha='left',
+         fontweight='bold',)
+fig.text(0.1, -0.01, # position
+         "Gilbert Fontana", # text
+         fontsize=10,
+         va='bottom',
+         ha='left')
+fig.text(0.0, -0.025, # position
+         "Data:", # text
+         fontsize=10,
+         va='bottom',
+         ha='left',
+         fontweight='bold',)
+fig.text(0.07, -0.025, # position
+         "OECD, 2022",
+         fontsize=10,
+         va='bottom',
+         ha='left')
+
+# Adjust layout and spacing
+plt.tight_layout()
+
+# Show the plot
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["# Libraries\nimport matplotlib.pyplot as plt\nimport pandas as pd\nimport datetime","# Open the dataset from Github\nurl = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/dataConsumerConfidence.csv\"\ndf = pd.read_csv(url)\n\n# Reshape the DataFrame using pivot longer\ndf = df.melt(id_vars=['Time'], var_name='country', value_name='value')\n\n# Convert to time format\ndf['Time'] = pd.to_datetime(df['Time'], format='%b-%Y')\n\n# Remove rows with missing values (only one row)\ndf = df.dropna()","$22","$23","$24","sample_size = 100  # Define the size of the random data samples.\ndata_group1 = np.random.normal(loc=2, scale=2, size=sample_size) # Generate data points for 'Group 1'\ndata_group2 = np.random.normal(loc=5, scale=2, size=sample_size) # Generate data points for 'Group 2'\ndata_combined = np.concatenate([data_group1, data_group2]) # Concatenate the data to create a combined dataset\ncategory_feature = ['Group 1'] * sample_size + ['Group 2'] * sample_size # List that indicates the category for each data point"],"children":"$L25"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","line",{"href":"/line-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Line150.webp","alt":"logo of a chart:Line","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Line chart"}]]}],["$","$Le","area",{"href":"/area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Area150.webp","alt":"logo of a chart:Area","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Area chart"}]]}],["$","$Le","stackedArea",{"href":"/stacked-area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/StackedArea150.webp","alt":"logo of a chart:StackedArea","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Stacked Area"}]]}],["$","$Le","stream",{"href":"/streamchart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Stream150.webp","alt":"logo of a chart:Stream","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Streamgraph"}]]}],["$","$Le","candlestick",{"href":"/candlestick/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CandleStick2Small.webp","alt":"logo of a chart:CandleStick2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Candlestick"}]]}],["$","$Le","timeseries",{"href":"/timeseries/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/section/time150.gif","alt":"logo of a chart:time","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Timeseries"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L26",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L27",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L28",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
+20:true
+2a:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+25:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This page showcases the work of ",["$","a","a-0",{"href":"https://www.linkedin.com/in/gilbertfontana/","children":"Gilbert Fontana"}],", initially published in the ",["$","a","a-1",{"href":"https://www.visualcapitalist.com/cp/charting-the-global-decline-in-consumer-confidence/","children":"Visual Capitalist"}],"."]}],"\n",["$","p","p-1",{"children":["This plot is a ",["$","a","a-0",{"href":"https://www.data-to-viz.com/graph/line.html","children":"small multiple line chart"}],". It shows the evolution of a metric (the consumer confidence around the world) in the last few years. Each item of the small multiple provides the evolution of a specific country."]}],"\n",["$","p","p-2",{"children":["Interestingly, all other countries are displayed too, but ",["$","strong","strong-0",{"children":"nicely faded out"}],". As a retult, the evolution of the target country is obvious, and it’s possible to ",["$","strong","strong-1",{"children":"put it in perspective"}]," with other countries."]}],"\n",["$","p","p-3",{"children":["The chart was originally made with ",["$","a","a-0",{"href":"https://r-graph-gallery.com","children":"R"}],". This post is a translation to Python by ",["$","a","a-1",{"href":"https://www.linkedin.com/in/joseph-barbier-4ab531224/","children":"Joseph B."}],"."]}],"\n",["$","p","p-4",{"children":"Thanks to him for accepting sharing his work here!"}],"\n",["$","p","p-5",{"children":"Let's see what the final picture will look like:"}],"\n",["$","p","p-6",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-line-chart-small-multiple.png?raw=true","alt":"Line chart with small multiple made with Python","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-7",{"children":"First, you need to install the following librairies:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," is used for creating the chart and add customization features"]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"pandas"}]," is used to put the data into a dataframe"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"datetime"}]," is used for dealing with the date format of our time variable"]}],"\n"]}],"\n",["$","p","p-8",{"children":"And that's it!"}],"\n",["$","$L2a","notebook-cell-0",{"index":0,"code":"# Libraries\nimport matplotlib.pyplot as plt\nimport pandas as pd\nimport datetime","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Libraries</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> matplotlib.pyplot </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> plt</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> pandas </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> pd</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> datetime</span></span></code></pre>","interactive":false,"hasChart":false}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-9",{"children":["For this reproduction, we're going to retrieve the data directly from the ",["$","a","a-0",{"href":"https://python-graph-gallery.com","children":"gallery's"}]," Github repo. This means we just need to ",["$","strong","strong-0",{"children":"give the right url as an argument"}]," to pandas' ",["$","code","code-0",{"children":"read_csv()"}]," function to retrieve the data."]}],"\n","$L2b","\n","$L2c","\n","$L2d","$L2e","\n","$L2f","$L30","\n","$L31","\n","$L32","\n","$L33","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38"]
+29:null
+b:C
+2b:["$","p","p-10",{"children":["Next, we use the ",["$","code","code-0",{"children":"melt()"}]," function to switch ",["$","strong","strong-0",{"children":"from one country per column"}]," to a ",["$","strong","strong-1",{"children":"single column with concatenated countries"}],", while keeping the values in the original ",["$","code","code-1",{"children":"Time"}]," variable."]}]
+39:T916,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Open the dataset from Github</span></span>
+<span class="line"><span style="color:#24292E">url </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/dataConsumerConfidence.csv"</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(url)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Reshape the DataFrame using pivot longer</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.melt(</span><span style="color:#E36209">id_vars</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">], </span><span style="color:#E36209">var_name</span><span style="color:#D73A49">=</span><span style="color:#032F62">'country'</span><span style="color:#24292E">, </span><span style="color:#E36209">value_name</span><span style="color:#D73A49">=</span><span style="color:#032F62">'value'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Convert to time format</span></span>
+<span class="line"><span style="color:#24292E">df[</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.to_datetime(df[</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">], </span><span style="color:#E36209">format</span><span style="color:#D73A49">=</span><span style="color:#032F62">'</span><span style="color:#005CC5">%b</span><span style="color:#032F62">-%Y'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Remove rows with missing values (only one row)</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.dropna()</span></span></code></pre>2c:["$","$L2a","notebook-cell-1",{"index":1,"code":"# Open the dataset from Github\nurl = \"https://raw.githubusercontent.com/holtzy/the-python-graph-gallery/master/static/data/dataConsumerConfidence.csv\"\ndf = pd.read_csv(url)\n\n# Reshape the DataFrame using pivot longer\ndf = df.melt(id_vars=['Time'], var_name='country', value_name='value')\n\n# Convert to time format\ndf['Time'] = pd.to_datetime(df['Time'], format='%b-%Y')\n\n# Remove rows with missing values (only one row)\ndf = df.dropna()","highlighted":"$39","interactive":false,"hasChart":false}]
+2d:["$","h2","h2-3",{"children":"Basic 3x3 line chart with small multiples"}]
+3a:T515,# Create a colormap with a color for each country
+num_countries = len(df['country'].unique())
+colors = plt.cm.get_cmap('tab10', num_countries)
+
+# Init a 3x3 charts
+fig, ax = plt.subplots(nrows=3, ncols=3, figsize=(6, 10))
+
+# Plot each group in the subplots
+for i, (group, ax) in enumerate(zip(df['country'].unique(), ax.flatten())):
+
+    # Filter for the group
+    filtered_df = df[df['country'] == group]
+    other_groups = df['country'].unique()[df['country'].unique() != group]
+    
+    # Plot other groups with lighter colors 
+    for other_group in other_groups:
+
+        # Filter observations that are not in the group
+        other_y = df['value'][df['country'] == other_group]
+        other_x = df['Time'][df['country'] == other_group]
+
+        # Display the other observations with less opacity
+        ax.plot(other_x, other_y, color=colors(i))
+
+    # Plot the line of the group
+    x = filtered_df['Time']
+    y = filtered_df['value']
+    ax.plot(x, y, color='black')
+
+    # Removes spines
+    ax.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
+
+    # Remove axis labels
+    ax.set_yticks([])
+    ax.set_xticks([])
+    
+    # Add a bold title to each subplot
+    ax.set_title(f'{group}', fontsize=12)
+
+# Adjust layout and spacing
+plt.tight_layout()
+
+# Show the plot
+plt.show()3b:T1cb4,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a colormap with a color for each country</span></span>
+<span class="line"><span style="color:#24292E">num_countries </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique())</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.cm.get_cmap(</span><span style="color:#032F62">'tab10'</span><span style="color:#24292E">, num_countries)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Init a 3x3 charts</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">6</span><span style="color:#24292E">, </span><span style="color:#005CC5">10</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Plot each group in the subplots</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (group, ax) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique(), ax.flatten())):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Filter for the group</span></span>
+<span class="line"><span style="color:#24292E">    filtered_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> group]</span></span>
+<span class="line"><span style="color:#24292E">    other_groups </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique()[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique() </span><span style="color:#D73A49">!=</span><span style="color:#24292E"> group]</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Plot other groups with lighter colors </span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> other_group </span><span style="color:#D73A49">in</span><span style="color:#24292E"> other_groups:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Filter observations that are not in the group</span></span>
+<span class="line"><span style="color:#24292E">        other_y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'value'</span><span style="color:#24292E">][df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> other_group]</span></span>
+<span class="line"><span style="color:#24292E">        other_x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">][df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> other_group]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Display the other observations with less opacity</span></span>
+<span class="line"><span style="color:#24292E">        ax.plot(other_x, other_y, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors(i))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Plot the line of the group</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> filtered_df[</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> filtered_df[</span><span style="color:#032F62">'value'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x, y, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Removes spines</span></span>
+<span class="line"><span style="color:#24292E">    ax.spines[[</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Remove axis labels</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticks([])</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add a bold title to each subplot</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_title(</span><span style="color:#D73A49">f</span><span style="color:#032F62">'</span><span style="color:#005CC5">{</span><span style="color:#24292E">group</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Adjust layout and spacing</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>2e:["$","$L2a","notebook-cell-2",{"index":2,"code":"$3a","highlighted":"$3b","interactive":false,"hasChart":true,"intro":"$L3c","output":"$L3d"}]
+2f:["$","h2","h2-4",{"children":"Add an opacity parameter and improve style"}]
+3e:T5c0,# Create a colormap with a color for each country
+num_countries = len(df['country'].unique())
+colors = plt.cm.get_cmap('tab10', num_countries)
+
+# Init a 3x3 charts
+fig, ax = plt.subplots(nrows=3, ncols=3, figsize=(8, 12))
+
+# Plot each group in the subplots
+for i, (group, ax) in enumerate(zip(df['country'].unique(), ax.flatten())):
+
+    # Filter for the group
+    filtered_df = df[df['country'] == group]
+    x = filtered_df['Time']
+    y = filtered_df['value']
+
+    # Set the background color for each subplot
+    ax.set_facecolor('seashell')
+    fig.set_facecolor('seashell')
+    
+    # Plot the line
+    ax.plot(x, y, color=colors(i))
+    
+    # Plot other groups with lighter colors (alpha argument)
+    other_groups = df['country'].unique()[df['country'].unique() != group]
+    for other_group in other_groups:
+
+        # Filter observations that are not in the group
+        other_y = df['value'][df['country'] == other_group]
+        other_x = df['Time'][df['country'] == other_group]
+
+        # Display the other observations with less opacity (alpha=0.2)
+        ax.plot(other_x, other_y, color=colors(i), alpha=0.2)
+
+    # Removes spines
+    ax.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
+    
+    # Add a bold title to each subplot
+    ax.set_title(f'{group}', fontsize=12, fontweight='bold')
+    
+    # Remove axis labels
+    ax.set_yticks([])
+    ax.set_xticks([])
+
+# Adjust layout and spacing
+plt.tight_layout()
+
+# Show the plot
+plt.show()3f:T1ff7,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a colormap with a color for each country</span></span>
+<span class="line"><span style="color:#24292E">num_countries </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique())</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.cm.get_cmap(</span><span style="color:#032F62">'tab10'</span><span style="color:#24292E">, num_countries)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Init a 3x3 charts</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">12</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Plot each group in the subplots</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (group, ax) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique(), ax.flatten())):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Filter for the group</span></span>
+<span class="line"><span style="color:#24292E">    filtered_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> group]</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> filtered_df[</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> filtered_df[</span><span style="color:#032F62">'value'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Set the background color for each subplot</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_facecolor(</span><span style="color:#032F62">'seashell'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    fig.set_facecolor(</span><span style="color:#032F62">'seashell'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Plot the line</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x, y, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors(i))</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Plot other groups with lighter colors (alpha argument)</span></span>
+<span class="line"><span style="color:#24292E">    other_groups </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique()[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique() </span><span style="color:#D73A49">!=</span><span style="color:#24292E"> group]</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> other_group </span><span style="color:#D73A49">in</span><span style="color:#24292E"> other_groups:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Filter observations that are not in the group</span></span>
+<span class="line"><span style="color:#24292E">        other_y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'value'</span><span style="color:#24292E">][df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> other_group]</span></span>
+<span class="line"><span style="color:#24292E">        other_x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">][df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> other_group]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Display the other observations with less opacity (alpha=0.2)</span></span>
+<span class="line"><span style="color:#24292E">        ax.plot(other_x, other_y, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors(i), </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Removes spines</span></span>
+<span class="line"><span style="color:#24292E">    ax.spines[[</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add a bold title to each subplot</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_title(</span><span style="color:#D73A49">f</span><span style="color:#032F62">'</span><span style="color:#005CC5">{</span><span style="color:#24292E">group</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Remove axis labels</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticks([])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Adjust layout and spacing</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>30:["$","$L2a","notebook-cell-3",{"index":3,"code":"$3e","highlighted":"$3f","interactive":false,"hasChart":true,"intro":"$L40","output":"$L41"}]
+31:["$","p","p-11",{"children":"The graph is starting to look really interesting, and gives us a lot of information about consumer confidence in these countries over time!"}]
+32:["$","h2","h2-5",{"children":"Add annotations"}]
+33:["$","p","p-12",{"children":["Adding annotations is really what takes ",["$","strong","strong-0",{"children":"your graphics to the next level"}],", but it can also be time-consuming. Even if this step adds a lot of lines of code, don't be afraid of it, because ",["$","strong","strong-1",{"children":"there's nothing complicated"}]," about it!"]}]
+42:T123d,# Create a colormap with a color for each country
+num_countries = len(df['country'].unique())
+colors = plt.cm.get_cmap('tab10', num_countries)
+
+# Init a 3x3 charts
+fig, ax = plt.subplots(nrows=3, ncols=3, figsize=(8, 12))
+
+# Add a big title on top of the entire chart
+fig.suptitle('\nConsumer \nConfidence \nAround the \nWorld\n\n', # Title ('\n' allows you to go to the line),
+             fontsize=40,
+             fontweight='bold', 
+             x=0.05, # Shift the text to the left
+             ha='left' # Align the text to the left
+            )
+
+# Add a paragraph of text on the right of the title
+paragraph_text = (
+    "The consumer confidence indicator\n"
+    "provided an indication of future\n"
+    "developments of households'.\n"
+    "consumption and saving. An\n"
+    "indicator above 100 signals a boost\n"
+    "in the consumers' confidence\n"
+    "towards the future economic\n"
+    "situation. Values below 100 indicate\n"
+    "a pessimistic attitude towards future\n"
+    "developments in the economy,\n"
+    "possibly resulting in a tendency to\n"
+    "save more and consume less. During\n"
+    "2022, the consuer confidence\n"
+    "indicators have declined in many\n"
+    "major economies around the world.\n"
+)
+fig.text(0.55, 0.9, # Position
+         paragraph_text, # Content
+         fontsize=12,
+         va='top', # Put the paragraph at the top of the chart
+         ha='left', # Align the text to the left
+        )
+
+# Plot each group in the subplots
+for i, (group, ax) in enumerate(zip(df['country'].unique(), ax.flatten())):
+
+    # Filter for the group
+    filtered_df = df[df['country'] == group]
+    x = filtered_df['Time']
+    y = filtered_df['value']
+
+    # Get last value (according to 'Time') for the group
+    sorted_df = filtered_df.sort_values(by='Time')
+    last_value = sorted_df.iloc[-1]['value']
+    last_date = sorted_df.iloc[-1]['Time']
+
+    # Set the background color for each subplot
+    ax.set_facecolor('seashell')
+    fig.set_facecolor('seashell')
+    
+    # Plot the line
+    ax.plot(x, y, color=colors(i))
+    
+    # Add the final value
+    ax.plot(last_date, # x-axis position
+            last_value, # y-axis position
+            marker='o', # Style of the point
+            markersize=5, # Size of the point
+            color=colors(i), # Color
+           )
+    
+    # Add the text of the value
+    ax.text(last_date,
+             last_value*1.005, # slightly shift up
+             f'{round(last_value)}', # round for more lisibility
+             fontsize=7,
+             color=colors(i), # color
+             fontweight='bold',
+           )
+
+    # Add the 100 on the left
+    ax.text(sorted_df.iloc[0]['Time'] - pd.Timedelta(days=300), # shift the position to the left
+             100,
+             '100',
+             fontsize=10,
+             color='black',)
+
+    # Add line 
+    sorted_df = df.sort_values(by='Time')
+    start_x_position = sorted_df.iloc[0]['Time']
+    end_x_position = sorted_df.iloc[-1]['Time']
+    ax.plot([start_x_position, end_x_position], # x-axis position
+            [100, 100], # y-axis position (constant position)
+            color='black', # Color
+            alpha=0.8, # Opacity
+            linewidth=0.8, # width of the line
+           )
+    
+    # Plot other groups with lighter colors (alpha argument)
+    other_groups = df['country'].unique()[df['country'].unique() != group]
+    for other_group in other_groups:
+
+        # Filter observations that are not in the group
+        other_y = df['value'][df['country'] == other_group]
+        other_x = df['Time'][df['country'] == other_group]
+
+        # Display the other observations with less opacity (alpha=0.2)
+        ax.plot(other_x, other_y, color=colors(i), alpha=0.2)
+
+    # Removes spines
+    ax.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
+    
+    # Add a bold title to each subplot
+    ax.set_title(f'{group}', fontsize=12, fontweight='bold')
+    
+    # Remove axis labels
+    ax.set_yticks([])
+    ax.set_xticks([])
+
+# Add a credit section at the bottom of the chart
+fig.text(0.0, -0.01, # position
+         "Design:", # text
+         fontsize=10,
+         va='bottom',
+         ha='left',
+         fontweight='bold',)
+fig.text(0.1, -0.01, # position
+         "Gilbert Fontana", # text
+         fontsize=10,
+         va='bottom',
+         ha='left')
+fig.text(0.0, -0.025, # position
+         "Data:", # text
+         fontsize=10,
+         va='bottom',
+         ha='left',
+         fontweight='bold',)
+fig.text(0.07, -0.025, # position
+         "OECD, 2022",
+         fontsize=10,
+         va='bottom',
+         ha='left')
+
+# Adjust layout and spacing
+plt.tight_layout()
+
+# Show the plot
+plt.show()43:T65e2,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a colormap with a color for each country</span></span>
+<span class="line"><span style="color:#24292E">num_countries </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique())</span></span>
+<span class="line"><span style="color:#24292E">colors </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.cm.get_cmap(</span><span style="color:#032F62">'tab10'</span><span style="color:#24292E">, num_countries)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Init a 3x3 charts</span></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">12</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a big title on top of the entire chart</span></span>
+<span class="line"><span style="color:#24292E">fig.suptitle(</span><span style="color:#032F62">'</span><span style="color:#005CC5">\n</span><span style="color:#032F62">Consumer </span><span style="color:#005CC5">\n</span><span style="color:#032F62">Confidence </span><span style="color:#005CC5">\n</span><span style="color:#032F62">Around the </span><span style="color:#005CC5">\n</span><span style="color:#032F62">World</span><span style="color:#005CC5">\n\n</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Title ('\n' allows you to go to the line),</span></span>
+<span class="line"><span style="color:#E36209">             fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">40</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">             fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#E36209">             x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Shift the text to the left</span></span>
+<span class="line"><span style="color:#E36209">             ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#6A737D"> # Align the text to the left</span></span>
+<span class="line"><span style="color:#24292E">            )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a paragraph of text on the right of the title</span></span>
+<span class="line"><span style="color:#24292E">paragraph_text </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span></span>
+<span class="line"><span style="color:#032F62">    "The consumer confidence indicator</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "provided an indication of future</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "developments of households'.</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "consumption and saving. An</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "indicator above 100 signals a boost</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "in the consumers' confidence</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "towards the future economic</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "situation. Values below 100 indicate</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "a pessimistic attitude towards future</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "developments in the economy,</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "possibly resulting in a tendency to</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "save more and consume less. During</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "2022, the consuer confidence</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "indicators have declined in many</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#032F62">    "major economies around the world.</span><span style="color:#005CC5">\n</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.55</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.9</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Position</span></span>
+<span class="line"><span style="color:#24292E">         paragraph_text, </span><span style="color:#6A737D"># Content</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Put the paragraph at the top of the chart</span></span>
+<span class="line"><span style="color:#E36209">         ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Align the text to the left</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Plot each group in the subplots</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i, (group, ax) </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> enumerate</span><span style="color:#24292E">(</span><span style="color:#005CC5">zip</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique(), ax.flatten())):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Filter for the group</span></span>
+<span class="line"><span style="color:#24292E">    filtered_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> group]</span></span>
+<span class="line"><span style="color:#24292E">    x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> filtered_df[</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> filtered_df[</span><span style="color:#032F62">'value'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Get last value (according to 'Time') for the group</span></span>
+<span class="line"><span style="color:#24292E">    sorted_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> filtered_df.sort_values(</span><span style="color:#E36209">by</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    last_value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sorted_df.iloc[</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">][</span><span style="color:#032F62">'value'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    last_date </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sorted_df.iloc[</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">][</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Set the background color for each subplot</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_facecolor(</span><span style="color:#032F62">'seashell'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    fig.set_facecolor(</span><span style="color:#032F62">'seashell'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Plot the line</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(x, y, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors(i))</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add the final value</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot(last_date, </span><span style="color:#6A737D"># x-axis position</span></span>
+<span class="line"><span style="color:#24292E">            last_value, </span><span style="color:#6A737D"># y-axis position</span></span>
+<span class="line"><span style="color:#E36209">            marker</span><span style="color:#D73A49">=</span><span style="color:#032F62">'o'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Style of the point</span></span>
+<span class="line"><span style="color:#E36209">            markersize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Size of the point</span></span>
+<span class="line"><span style="color:#E36209">            color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors(i), </span><span style="color:#6A737D"># Color</span></span>
+<span class="line"><span style="color:#24292E">           )</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add the text of the value</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(last_date,</span></span>
+<span class="line"><span style="color:#24292E">             last_value</span><span style="color:#D73A49">*</span><span style="color:#005CC5">1.005</span><span style="color:#24292E">, </span><span style="color:#6A737D"># slightly shift up</span></span>
+<span class="line"><span style="color:#D73A49">             f</span><span style="color:#032F62">'</span><span style="color:#005CC5">{round</span><span style="color:#24292E">(last_value)</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># round for more lisibility</span></span>
+<span class="line"><span style="color:#E36209">             fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">7</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">             color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors(i), </span><span style="color:#6A737D"># color</span></span>
+<span class="line"><span style="color:#E36209">             fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">           )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Add the 100 on the left</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(sorted_df.iloc[</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">] </span><span style="color:#D73A49">-</span><span style="color:#24292E"> pd.Timedelta(</span><span style="color:#E36209">days</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">), </span><span style="color:#6A737D"># shift the position to the left</span></span>
+<span class="line"><span style="color:#005CC5">             100</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">             '100'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">             fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">             color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">,)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Add line </span></span>
+<span class="line"><span style="color:#24292E">    sorted_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df.sort_values(</span><span style="color:#E36209">by</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    start_x_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sorted_df.iloc[</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    end_x_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> sorted_df.iloc[</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">][</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    ax.plot([start_x_position, end_x_position], </span><span style="color:#6A737D"># x-axis position</span></span>
+<span class="line"><span style="color:#24292E">            [</span><span style="color:#005CC5">100</span><span style="color:#24292E">, </span><span style="color:#005CC5">100</span><span style="color:#24292E">], </span><span style="color:#6A737D"># y-axis position (constant position)</span></span>
+<span class="line"><span style="color:#E36209">            color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Color</span></span>
+<span class="line"><span style="color:#E36209">            alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">, </span><span style="color:#6A737D"># Opacity</span></span>
+<span class="line"><span style="color:#E36209">            linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.8</span><span style="color:#24292E">, </span><span style="color:#6A737D"># width of the line</span></span>
+<span class="line"><span style="color:#24292E">           )</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Plot other groups with lighter colors (alpha argument)</span></span>
+<span class="line"><span style="color:#24292E">    other_groups </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique()[df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">].unique() </span><span style="color:#D73A49">!=</span><span style="color:#24292E"> group]</span></span>
+<span class="line"><span style="color:#D73A49">    for</span><span style="color:#24292E"> other_group </span><span style="color:#D73A49">in</span><span style="color:#24292E"> other_groups:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Filter observations that are not in the group</span></span>
+<span class="line"><span style="color:#24292E">        other_y </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'value'</span><span style="color:#24292E">][df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> other_group]</span></span>
+<span class="line"><span style="color:#24292E">        other_x </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'Time'</span><span style="color:#24292E">][df[</span><span style="color:#032F62">'country'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> other_group]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        # Display the other observations with less opacity (alpha=0.2)</span></span>
+<span class="line"><span style="color:#24292E">        ax.plot(other_x, other_y, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">colors(i), </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # Removes spines</span></span>
+<span class="line"><span style="color:#24292E">    ax.spines[[</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#032F62">'top'</span><span style="color:#24292E">, </span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">]].set_visible(</span><span style="color:#005CC5">False</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Add a bold title to each subplot</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_title(</span><span style="color:#D73A49">f</span><span style="color:#032F62">'</span><span style="color:#005CC5">{</span><span style="color:#24292E">group</span><span style="color:#005CC5">}</span><span style="color:#032F62">'</span><span style="color:#24292E">, </span><span style="color:#E36209">fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">, </span><span style="color:#E36209">fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # Remove axis labels</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_yticks([])</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticks([])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Add a credit section at the bottom of the chart</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.01</span><span style="color:#24292E">, </span><span style="color:#6A737D"># position</span></span>
+<span class="line"><span style="color:#032F62">         "Design:"</span><span style="color:#24292E">, </span><span style="color:#6A737D"># text</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.01</span><span style="color:#24292E">, </span><span style="color:#6A737D"># position</span></span>
+<span class="line"><span style="color:#032F62">         "Gilbert Fontana"</span><span style="color:#24292E">, </span><span style="color:#6A737D"># text</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.0</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.025</span><span style="color:#24292E">, </span><span style="color:#6A737D"># position</span></span>
+<span class="line"><span style="color:#032F62">         "Data:"</span><span style="color:#24292E">, </span><span style="color:#6A737D"># text</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontweight</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bold'</span><span style="color:#24292E">,)</span></span>
+<span class="line"><span style="color:#24292E">fig.text(</span><span style="color:#005CC5">0.07</span><span style="color:#24292E">, </span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.025</span><span style="color:#24292E">, </span><span style="color:#6A737D"># position</span></span>
+<span class="line"><span style="color:#032F62">         "OECD, 2022"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'bottom'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">         ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Adjust layout and spacing</span></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Show the plot</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>34:["$","$L2a","notebook-cell-4",{"index":4,"code":"$42","highlighted":"$43","interactive":false,"hasChart":true,"intro":"$L44","output":"$L45"}]
+46:Ta05,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">sample_size </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 100</span><span style="color:#6A737D">  # Define the size of the random data samples.</span></span>
+<span class="line"><span style="color:#24292E">data_group1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.normal(</span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">scale</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#24292E">sample_size) </span><span style="color:#6A737D"># Generate data points for 'Group 1'</span></span>
+<span class="line"><span style="color:#24292E">data_group2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.normal(</span><span style="color:#E36209">loc</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#E36209">scale</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#24292E">sample_size) </span><span style="color:#6A737D"># Generate data points for 'Group 2'</span></span>
+<span class="line"><span style="color:#24292E">data_combined </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.concatenate([data_group1, data_group2]) </span><span style="color:#6A737D"># Concatenate the data to create a combined dataset</span></span>
+<span class="line"><span style="color:#24292E">category_feature </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'Group 1'</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#24292E"> sample_size </span><span style="color:#D73A49">+</span><span style="color:#24292E"> [</span><span style="color:#032F62">'Group 2'</span><span style="color:#24292E">] </span><span style="color:#D73A49">*</span><span style="color:#24292E"> sample_size </span><span style="color:#6A737D"># List that indicates the category for each data point</span></span></code></pre>35:["$","$L2a","notebook-cell-5",{"index":5,"code":"sample_size = 100  # Define the size of the random data samples.\ndata_group1 = np.random.normal(loc=2, scale=2, size=sample_size) # Generate data points for 'Group 1'\ndata_group2 = np.random.normal(loc=5, scale=2, size=sample_size) # Generate data points for 'Group 2'\ndata_combined = np.concatenate([data_group1, data_group2]) # Concatenate the data to create a combined dataset\ncategory_feature = ['Group 1'] * sample_size + ['Group 2'] * sample_size # List that indicates the category for each data point","highlighted":"$46","interactive":false,"hasChart":false}]
+36:["$","h2","h2-6",{"children":"Going further"}]
+37:["$","p","p-13",{"children":["This article explains how to reproduce a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/line-chart/","children":"line chart"}]," with small multiples, originally design by Gilbert Fontana."]}]
+38:["$","p","p-14",{"children":["For more examples of ",["$","strong","strong-0",{"children":"advanced customization"}],", check out this ",["$","a","a-0",{"href":"https://python-graph-gallery.com/web-stacked-line-chart-with-labels/","children":"other reproduction of Fontana"}],"'s work. Also, you might be interested in ",["$","a","a-1",{"href":"https://python-graph-gallery.com/513-add-logo-matplotlib/","children":"adding an image/logo"}]," to your chart."]}]
+3c:[["$","p","p-0",{"children":["We'll start by creating a \"simple\" graph, with little customization in order to be progressive. Since the final graph is a ",["$","strong","strong-0",{"children":"3x3 graph"}],", we initialize the sub-graphs with 3 rows and 3 columns. Then, on each sub-plot, we display ",["$","strong","strong-1",{"children":"the same line graph"}]," but with different colors."]}],["$","p","p-1",{"children":["Only the country of interest will have a fixed color: ",["$","em","em-0",{"children":"black"}],". To do this, we iterate over all the distinct categories in the ",["$","code","code-0",{"children":"df['country']"}]," variable."]}],["$","p","p-2",{"children":["To get a different color for each sub-graph, we use ",["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}],"'s ",["$","code","code-0",{"children":"tab10"}]," color map."]}],["$","p","p-3",{"children":["For greater readability, we ",["$","strong","strong-0",{"children":"remove most axes and labels"}],". When dealing with small multiples like here, labels on axes can ",["$","strong","strong-1",{"children":"add confusion"}]," without being really useful. Later on, we'll add a ",["$","strong","strong-2",{"children":"reference line"}]," to help give visibility without adding too much text."]}]]
+3d:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-line-chart-small-multiple/output-1.png","alt":"Line chart with small multiple","width":590,"height":990,"loading":"lazy","decoding":"async"}]}]]
+40:[["$","p","p-0",{"children":["As you can see, putting the color of the main country in black does not lead to something very beautiful or easy to read. We want something that ",["$","strong","strong-0",{"children":"showcases the main country"}]," while retaining information from other countries, and the answer to this is ",["$","code","code-0",{"children":"opacity"}],"!."]}],["$","p","p-1",{"children":["When we add things in a ",["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," chart, we can change the ",["$","code","code-0",{"children":"alpha"}]," argument, which is just an opacity argument. In our case, we will just put this parameter lower when plotting the ",["$","code","code-1",{"children":"other_group"}]," line chart, which is actually very easy."]}],["$","p","p-2",{"children":["Also, we change the figure color and background to ",["$","code","code-0",{"children":"seashell"}]," so that the graphics blend in better than on a white background."]}]]
+41:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-line-chart-small-multiple/output-2.png","alt":"Line chart with small multiple","width":790,"height":1190,"loading":"lazy","decoding":"async"}]}]]
+44:[["$","p","p-0",{"children":"In our case, here are the annotations we had :"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":"Reference line at 100"}],"\n",["$","li","li-1",{"children":"Title and description of the metric studied"}],"\n",["$","li","li-2",{"children":"Point and value of metric at last date"}],"\n",["$","li","li-3",{"children":"Credit and data source"}],"\n"]}],["$","p","p-1",{"children":["We're mainly using ",["$","code","code-0",{"children":"text()"}]," function from ",["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}],", which makes it ",["$","strong","strong-0",{"children":"super-easy to add text"}]," to a graph."]}],["$","p","p-2",{"children":"Technical details:"}],["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":["We use ",["$","code","code-0",{"children":"x - pd.Timedelta(days=300)"}]," to place the '100' further to the left (300 days to the left), but as the x-axis is in datetime format, we can't use only integers."]}],"\n",["$","li","li-1",{"children":"The position of the reference lines is calculated so that it starts at the first available date and ends at the last available date. To do this, we sort the data frame and obtain the first and last rows."}],"\n",["$","li","li-2",{"children":["The credit positions are determined through ",["$","strong","strong-0",{"children":"trial and error"}]," (i.e. I tried different positions until I found the right one)."]}],"\n"]}]]
+45:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-line-chart-small-multiple/output-3.png","alt":"Line chart with small multiple","width":803,"height":1226,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

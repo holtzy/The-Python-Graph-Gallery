@@ -1,0 +1,392 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Line chart with Plotly"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Line150.webp","alt":"logo of a chart:Line","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post describes how to create a <b>line chart</b> using <a href='https://python-graph-gallery.com/plotly/'>Plotly</a>. You'll see how to change the <b>chart style</b> and display <b>several lines</b> at once. More info in the <a href='https://python-graph-gallery.com/line-chart/'>line chart section</a>.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/line-chart/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Line chart section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/line.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"514-interactive-line-chart-plotly","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Line chart with Plotly"}],["$","meta","1",{"name":"description","content":"Plotting basic line chart using Plotly, for one or more variables, with different customisation features."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, line, plot, linechart, plotly"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/514-interactive-line-chart-plotly/"}],["$","meta","6",{"property":"og:title","content":"Line chart with Plotly"}],["$","meta","7",{"property":"og:description","content":"Plotting basic line chart using Plotly, for one or more variables, with different customisation features."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Line chart with Plotly"}],["$","meta","13",{"name":"twitter:description","content":"Plotting basic line chart using Plotly, for one or more variables, with different customisation features."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+25:I[44110,["$3","$4","$5","$6","$d"],"default"]
+26:I[59351,["$3","$4","$5","$6","$d"],"default"]
+27:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T400,# Create a line chart using Plotly graph objects
+fig = go.Figure()
+
+fig.add_trace(go.Scatter(
+    x=df['date'],  # x-axis
+    y=df['value1'],  # y-axis
+    mode='lines+markers',  # Connect data points with lines and add markers
+    name='Line',  # Name in the legend
+
+    marker=dict(
+        symbol='circle',    # Change the marker symbol to a circle
+        size=10,            # Set the marker size
+        color='#cb1dd1'),       # Set the marker color
+
+    line=dict(
+        color='#dea4e0',        # Change the line color to red
+        width=2,                # Set the line width
+    )
+))
+
+# Layout parameters
+fig.update_layout(
+    title='Customized Line Chart',  # Title
+    xaxis_title='X Axis Label',  # y-axis name
+    yaxis_title='Y Axis Label',  # x-axis name
+    xaxis_tickangle=45,  # Set the x-axis label angle
+    showlegend=True,     # Display the legend
+    plot_bgcolor='white',  # Set the plot background color
+    # Set the paper (outside plot area) background color
+    paper_bgcolor='lightgray',
+)23:T829,# Create a line chart using Plotly graph objects
+fig = go.Figure()
+
+# Variable 1
+fig.add_trace(go.Scatter(
+    x=df['date'],  # x-axis
+    y=df['value1'],  # y-axis
+    mode='lines+markers',  # Connect data points with lines and add markers
+    name='Line1',  # Name in the legend
+
+    marker=dict(
+        symbol='square',    # Change the marker symbol to a circle
+        size=10,            # Set the marker size
+        color='red'),       # Set the marker color
+
+    line=dict(
+        color='blue',        # Change the line color to red
+        width=5)             # Set the line width
+))
+
+# Variable 2
+fig.add_trace(go.Scatter(
+    x=df['date'],  # x-axis
+    y=df['value2'],  # y-axis
+    mode='lines+markers',  # Connect data points with lines and add markers
+    name='Line2',  # Name in the legend
+
+    marker=dict(
+        symbol='circle',    # Change the marker symbol to a circle
+        size=7,            # Set the marker size
+        color='purple'),       # Set the marker color
+
+    line=dict(
+        color='orange',        # Change the line color to red
+        width=8)             # Set the line width
+))
+
+# Variable 3
+fig.add_trace(go.Scatter(
+    x=df['date'],  # x-axis
+    y=df['value3'],  # y-axis
+    mode='lines+markers',  # Connect data points with lines and add markers
+    name='Line3',  # Name in the legend
+
+    marker=dict(
+        symbol='diamond',    # Change the marker symbol to a circle
+        size=15,            # Set the marker size
+        color='yellow'),       # Set the marker color
+
+    line=dict(
+        color='green',        # Change the line color to red
+        width=4)             # Set the line width
+))
+
+# Layout parameters
+fig.update_layout(
+    title='Customized Line Chart',  # Title
+    xaxis_title='X Axis Label',  # y-axis name
+    yaxis_title='Y Axis Label',  # x-axis name
+    xaxis_tickangle=45,  # Set the x-axis label angle
+    showlegend=True,     # Display the legend
+    plot_bgcolor='white',  # Set the plot background color
+    # Set the paper (outside plot area) background color
+    paper_bgcolor='lightblue',
+)f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["# Libraries\nimport plotly.graph_objects as go\nimport numpy as np\nimport pandas as pd","# Init an empty list that will stores the dates\ndates = []\n\n# Iterates over our range and add the value to the list\nstart = 1990\nend = 2022\nfor date in range(start, end):\n    dates.append(str(date))\n\n# Generate random steps (+1 or -1) with equal probabilities\nrandom_steps = np.random.choice([-1, 1], size=end-start, p=[0.5, 0.5])\n# Calculate the cumulative sum\nrandom_walk1 = np.cumsum(random_steps)\n\nrandom_steps = np.random.choice([-1, 1], size=end-start, p=[0.5, 0.5])\nrandom_walk2 = np.cumsum(random_steps)\n\nrandom_steps = np.random.choice([-1, 1], size=end-start, p=[0.5, 0.5])\nrandom_walk3 = np.cumsum(random_steps)\n\ndf = pd.DataFrame({'date': dates,\n                   'value1': random_walk1,\n                   'value2': random_walk2,\n                   'value3': random_walk3, })","# Create a line chart using Plotly graph objects\nfig = go.Figure()\n\nfig.add_trace(go.Scatter(\n    x=df['date'],  # x-axis\n    y=df['value1'],  # y-axis\n    mode='lines',  # Connect data points with lines\n    name='Line'  # Name in the legend\n))\n\n# Layout parameters\nfig.update_layout(\n    title='Line Chart Example',  # Title\n    xaxis_title='X Axis Label',  # y-axis name\n    yaxis_title='Y Axis Label',  # x-axis name\n    xaxis_tickangle=45,  # Set the x-axis label angle\n    showlegend=True,     # Display the legend\n)","# save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/linechart-plotly-basic.html\")","$22","# save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/linechart-plotly-custom.html\")","$23","# save this file as a standalong html file:\nfig.write_html(\n    \"../../static/interactiveCharts/linechart-plotly-multigroup.html\")"],"children":"$L24"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","line",{"href":"/line-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Line150.webp","alt":"logo of a chart:Line","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Line chart"}]]}],["$","$Le","area",{"href":"/area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Area150.webp","alt":"logo of a chart:Area","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Area chart"}]]}],["$","$Le","stackedArea",{"href":"/stacked-area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/StackedArea150.webp","alt":"logo of a chart:StackedArea","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Stacked Area"}]]}],["$","$Le","stream",{"href":"/streamchart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Stream150.webp","alt":"logo of a chart:Stream","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Streamgraph"}]]}],["$","$Le","candlestick",{"href":"/candlestick/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CandleStick2Small.webp","alt":"logo of a chart:CandleStick2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Candlestick"}]]}],["$","$Le","timeseries",{"href":"/timeseries/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/section/time150.gif","alt":"logo of a chart:time","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Timeseries"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L25",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L26",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L27",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+20:true
+29:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+24:[["$","h2","h2-0",{"children":"About line chart"}],"\n",["$","p","p-0",{"children":["A ",["$","a","a-0",{"href":"https://python-graph-gallery.com/line-chart/","children":"line chart"}],", also known as a line graph, is a type of data ",["$","strong","strong-0",{"children":"visualization"}]," that displays information as a series of data points connected by ",["$","strong","strong-1",{"children":"straight line segments"}],". It is commonly used to show the ",["$","strong","strong-2",{"children":"trend"}]," or ",["$","strong","strong-3",{"children":"pattern"}]," of data over a continuous interval, such as time."]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-1",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/plotly/","children":"Plotly"}]," is a library designed for ",["$","strong","strong-0",{"children":"interactive visualization"}]," with python. If you want to use plotly, you can either use the ",["$","code","code-0",{"children":"plotly.express"}]," module (",["$","code","code-1",{"children":"px"}],") or the ",["$","code","code-2",{"children":"plotly.graph_objects"}]," module (",["$","code","code-3",{"children":"go"}],"). The main difference between these modules is the ",["$","em","em-0",{"children":"\"level\""}],": the ",["$","code","code-4",{"children":"px"}]," module is easier to use (",["$","em","em-1",{"children":"high level"}],"), but if you want to do something ",["$","strong","strong-1",{"children":"very specific and need flexibility"}],", I recommend you use the ",["$","code","code-5",{"children":"go"}]," module (",["$","em","em-2",{"children":"lower level"}],")."]}],"\n",["$","p","p-2",{"children":["Don't forget to install ",["$","a","a-0",{"href":"https://python-graph-gallery.com/plotly/","children":"plotly"}]," with the ",["$","code","code-0",{"children":"pip install plotly"}]," command."]}],"\n",["$","p","p-3",{"children":["In our case, we'll use the ",["$","code","code-0",{"children":"go"}]," module (or ",["$","code","code-1",{"children":"graph_objects"}],"). We will also use ",["$","code","code-2",{"children":"numpy"}]," and ",["$","code","code-3",{"children":"pandas"}]," to ",["$","strong","strong-0",{"children":"generate data"}]," and put it into a dataframe."]}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/seaborn/","children":"plotlty"}]," is used for creating the chart witht the ",["$","code","code-0",{"children":"Scatter()"}]," function"]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"numpy"}]," is used to generate some data"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"pandas"}]," is used to put the data into a dataframe"]}],"\n"]}],"\n",["$","$L29","notebook-cell-0",{"index":0,"code":"# Libraries\nimport plotly.graph_objects as go\nimport numpy as np\nimport pandas as pd","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># Libraries</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> plotly.graph_objects </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> go</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> numpy </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> np</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> pandas </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> pd</span></span></code></pre>","interactive":true,"hasChart":false}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-4",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/line-chart/","children":"Line chart"}]," are generally used to represent ",["$","strong","strong-0",{"children":"variations over time"}],", but they don't have to be. For example, you can look at ","$L2a","."]}],"\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44"]
+28:null
+b:C
+2a:["$","a","a-1",{"href":"https://python-graph-gallery.com/connected-scatter-plot/","children":"connected scatter plots"}]
+2b:["$","p","p-5",{"children":["In our case, however, we need to generate dates. To do this, we will simply use a ",["$","code","code-0",{"children":"for"}]," loop and generate annual data, ",["$","em","em-0",{"children":"from 1990 to 2022"}],"."]}]
+2c:["$","p","p-6",{"children":["Then we generate a ",["$","strong","strong-0",{"children":"random walk"}]," (which is just a variable that has a ",["$","em","em-0",{"children":"0.5"}]," chance of going up (+1) and a ",["$","em","em-1",{"children":"0.5"}]," chance of going down (-1), and calculate the ",["$","strong","strong-1",{"children":"cumulative amount"}],"). (We're doing this ",["$","strong","strong-2",{"children":"three times"}]," because we'll be displaying several variables in a single graph at the end)."]}]
+45:T13c0,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Init an empty list that will stores the dates</span></span>
+<span class="line"><span style="color:#24292E">dates </span><span style="color:#D73A49">=</span><span style="color:#24292E"> []</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Iterates over our range and add the value to the list</span></span>
+<span class="line"><span style="color:#24292E">start </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 1990</span></span>
+<span class="line"><span style="color:#24292E">end </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 2022</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> date </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(start, end):</span></span>
+<span class="line"><span style="color:#24292E">    dates.append(</span><span style="color:#005CC5">str</span><span style="color:#24292E">(date))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Generate random steps (+1 or -1) with equal probabilities</span></span>
+<span class="line"><span style="color:#24292E">random_steps </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.choice([</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">], </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#24292E">end</span><span style="color:#D73A49">-</span><span style="color:#24292E">start, </span><span style="color:#E36209">p</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.5</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#6A737D"># Calculate the cumulative sum</span></span>
+<span class="line"><span style="color:#24292E">random_walk1 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.cumsum(random_steps)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">random_steps </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.choice([</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">], </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#24292E">end</span><span style="color:#D73A49">-</span><span style="color:#24292E">start, </span><span style="color:#E36209">p</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.5</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">random_walk2 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.cumsum(random_steps)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">random_steps </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.random.choice([</span><span style="color:#D73A49">-</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">], </span><span style="color:#E36209">size</span><span style="color:#D73A49">=</span><span style="color:#24292E">end</span><span style="color:#D73A49">-</span><span style="color:#24292E">start, </span><span style="color:#E36209">p</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.5</span><span style="color:#24292E">])</span></span>
+<span class="line"><span style="color:#24292E">random_walk3 </span><span style="color:#D73A49">=</span><span style="color:#24292E"> np.cumsum(random_steps)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({</span><span style="color:#032F62">'date'</span><span style="color:#24292E">: dates,</span></span>
+<span class="line"><span style="color:#032F62">                   'value1'</span><span style="color:#24292E">: random_walk1,</span></span>
+<span class="line"><span style="color:#032F62">                   'value2'</span><span style="color:#24292E">: random_walk2,</span></span>
+<span class="line"><span style="color:#032F62">                   'value3'</span><span style="color:#24292E">: random_walk3, })</span></span></code></pre>2d:["$","$L29","notebook-cell-1",{"index":1,"code":"# Init an empty list that will stores the dates\ndates = []\n\n# Iterates over our range and add the value to the list\nstart = 1990\nend = 2022\nfor date in range(start, end):\n    dates.append(str(date))\n\n# Generate random steps (+1 or -1) with equal probabilities\nrandom_steps = np.random.choice([-1, 1], size=end-start, p=[0.5, 0.5])\n# Calculate the cumulative sum\nrandom_walk1 = np.cumsum(random_steps)\n\nrandom_steps = np.random.choice([-1, 1], size=end-start, p=[0.5, 0.5])\nrandom_walk2 = np.cumsum(random_steps)\n\nrandom_steps = np.random.choice([-1, 1], size=end-start, p=[0.5, 0.5])\nrandom_walk3 = np.cumsum(random_steps)\n\ndf = pd.DataFrame({'date': dates,\n                   'value1': random_walk1,\n                   'value2': random_walk2,\n                   'value3': random_walk3, })","highlighted":"$45","interactive":true,"hasChart":false}]
+2e:["$","h2","h2-3",{"children":"Basic line chart"}]
+2f:["$","p","p-7",{"children":["The following code displays a simple line chart built wiht ",["$","a","a-0",{"href":"https://python-graph-gallery.com/plotly/","children":"Plotly"}],", with a title and an axis name, thanks to the ",["$","code","code-0",{"children":"Scatter()"}]," function."]}]
+46:Tbce,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a line chart using Plotly graph objects</span></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> go.Figure()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.add_trace(go.Scatter(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'date'</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># x-axis</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'value1'</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># y-axis</span></span>
+<span class="line"><span style="color:#E36209">    mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lines'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Connect data points with lines</span></span>
+<span class="line"><span style="color:#E36209">    name</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Line'</span><span style="color:#6A737D">  # Name in the legend</span></span>
+<span class="line"><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Layout parameters</span></span>
+<span class="line"><span style="color:#24292E">fig.update_layout(</span></span>
+<span class="line"><span style="color:#E36209">    title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Line Chart Example'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Title</span></span>
+<span class="line"><span style="color:#E36209">    xaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'X Axis Label'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># y-axis name</span></span>
+<span class="line"><span style="color:#E36209">    yaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Y Axis Label'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># x-axis name</span></span>
+<span class="line"><span style="color:#E36209">    xaxis_tickangle</span><span style="color:#D73A49">=</span><span style="color:#005CC5">45</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Set the x-axis label angle</span></span>
+<span class="line"><span style="color:#E36209">    showlegend</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,     </span><span style="color:#6A737D"># Display the legend</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>30:["$","$L29","notebook-cell-2",{"index":2,"code":"# Create a line chart using Plotly graph objects\nfig = go.Figure()\n\nfig.add_trace(go.Scatter(\n    x=df['date'],  # x-axis\n    y=df['value1'],  # y-axis\n    mode='lines',  # Connect data points with lines\n    name='Line'  # Name in the legend\n))\n\n# Layout parameters\nfig.update_layout(\n    title='Line Chart Example',  # Title\n    xaxis_title='X Axis Label',  # y-axis name\n    yaxis_title='Y Axis Label',  # x-axis name\n    xaxis_tickangle=45,  # Set the x-axis label angle\n    showlegend=True,     # Display the legend\n)","highlighted":"$46","interactive":true,"hasChart":false}]
+31:["$","$L29","notebook-cell-3",{"index":3,"code":"# save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/linechart-plotly-basic.html\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># save this file as a standalong html file:</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">fig.write_html(</span><span style=\"color:#032F62\">\"../../static/interactiveCharts/linechart-plotly-basic.html\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false}]
+32:["$","div","div-0",{"className":"code-snippet"}]
+33:["$","div","div-1",{"className":"cell-output","children":["$","div","div-0",{"className":"cell-output-html","children":[["$","iframe","iframe-0",{"src":"../../interactiveCharts/linechart-plotly-basic.html","width":800,"height":600,"title":"scatterplot with plotly","style":{"border":"none"},"children":"\n"}],"\n"]}]}]
+34:["$","h2","h2-4",{"children":"Add customization features"}]
+35:["$","p","p-8",{"children":["In this section, we will see how to add some different ",["$","strong","strong-0",{"children":"customization features"}]," that will make the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/line-chart/","children":"line chart"}]," more aesthetic."]}]
+36:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"add markers"}],": we change the ",["$","code","code-0",{"children":"mode"}]," argument from ",["$","code","code-1",{"children":"'lines'"}]," to ",["$","code","code-2",{"children":"'lines+markers'"}]]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"specify markers style"}],": the ",["$","code","code-0",{"children":"symbol"}]," (must be in the following list: ",["$","code","code-1",{"children":"'circle'"}],", ",["$","code","code-2",{"children":"'square'"}],", ",["$","code","code-3",{"children":"'diamond'"}],", ",["$","code","code-4",{"children":"'cross'"}],", ",["$","code","code-5",{"children":"'x'"}],", ",["$","code","code-6",{"children":"'star'"}],"), the ",["$","code","code-7",{"children":"size"}]," and the ",["$","code","code-8",{"children":"color"}],"."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"specify line style"}],": the ",["$","code","code-0",{"children":"color"}]," and the ",["$","code","code-1",{"children":"width"}]]}],"\n"]}]
+47:T400,# Create a line chart using Plotly graph objects
+fig = go.Figure()
+
+fig.add_trace(go.Scatter(
+    x=df['date'],  # x-axis
+    y=df['value1'],  # y-axis
+    mode='lines+markers',  # Connect data points with lines and add markers
+    name='Line',  # Name in the legend
+
+    marker=dict(
+        symbol='circle',    # Change the marker symbol to a circle
+        size=10,            # Set the marker size
+        color='#cb1dd1'),       # Set the marker color
+
+    line=dict(
+        color='#dea4e0',        # Change the line color to red
+        width=2,                # Set the line width
+    )
+))
+
+# Layout parameters
+fig.update_layout(
+    title='Customized Line Chart',  # Title
+    xaxis_title='X Axis Label',  # y-axis name
+    yaxis_title='Y Axis Label',  # x-axis name
+    xaxis_tickangle=45,  # Set the x-axis label angle
+    showlegend=True,     # Display the legend
+    plot_bgcolor='white',  # Set the plot background color
+    # Set the paper (outside plot area) background color
+    paper_bgcolor='lightgray',
+)48:T153e,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a line chart using Plotly graph objects</span></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> go.Figure()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.add_trace(go.Scatter(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'date'</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># x-axis</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'value1'</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># y-axis</span></span>
+<span class="line"><span style="color:#E36209">    mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lines+markers'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Connect data points with lines and add markers</span></span>
+<span class="line"><span style="color:#E36209">    name</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Line'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Name in the legend</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E36209">    marker</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        symbol</span><span style="color:#D73A49">=</span><span style="color:#032F62">'circle'</span><span style="color:#24292E">,    </span><span style="color:#6A737D"># Change the marker symbol to a circle</span></span>
+<span class="line"><span style="color:#E36209">        size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,            </span><span style="color:#6A737D"># Set the marker size</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'#cb1dd1'</span><span style="color:#24292E">),       </span><span style="color:#6A737D"># Set the marker color</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E36209">    line</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'#dea4e0'</span><span style="color:#24292E">,        </span><span style="color:#6A737D"># Change the line color to red</span></span>
+<span class="line"><span style="color:#E36209">        width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,                </span><span style="color:#6A737D"># Set the line width</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Layout parameters</span></span>
+<span class="line"><span style="color:#24292E">fig.update_layout(</span></span>
+<span class="line"><span style="color:#E36209">    title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Customized Line Chart'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Title</span></span>
+<span class="line"><span style="color:#E36209">    xaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'X Axis Label'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># y-axis name</span></span>
+<span class="line"><span style="color:#E36209">    yaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Y Axis Label'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># x-axis name</span></span>
+<span class="line"><span style="color:#E36209">    xaxis_tickangle</span><span style="color:#D73A49">=</span><span style="color:#005CC5">45</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Set the x-axis label angle</span></span>
+<span class="line"><span style="color:#E36209">    showlegend</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,     </span><span style="color:#6A737D"># Display the legend</span></span>
+<span class="line"><span style="color:#E36209">    plot_bgcolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Set the plot background color</span></span>
+<span class="line"><span style="color:#6A737D">    # Set the paper (outside plot area) background color</span></span>
+<span class="line"><span style="color:#E36209">    paper_bgcolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightgray'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>37:["$","$L29","notebook-cell-4",{"index":4,"code":"$47","highlighted":"$48","interactive":true,"hasChart":false}]
+38:["$","$L29","notebook-cell-5",{"index":5,"code":"# save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/linechart-plotly-custom.html\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># save this file as a standalong html file:</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">fig.write_html(</span><span style=\"color:#032F62\">\"../../static/interactiveCharts/linechart-plotly-custom.html\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false}]
+39:["$","div","div-2",{"className":"code-snippet"}]
+3a:["$","div","div-3",{"className":"cell-output","children":["$","div","div-0",{"className":"cell-output-html","children":[["$","iframe","iframe-0",{"src":"../../interactiveCharts/linechart-plotly-custom.html","width":800,"height":600,"title":"line chart with plotly","style":{"border":"none"},"children":"\n"}],"\n"]}]}]
+3b:["$","h2","h2-5",{"children":"Line chart with mutliple variables"}]
+3c:["$","p","p-9",{"children":["It's quite common to want to have ",["$","strong","strong-0",{"children":"several lines in a single graph"}],". In practice, all you need to do is write the ",["$","code","code-0",{"children":"add_trace()"}]," with ",["$","code","code-1",{"children":"go.Scatter()"}]," function code several times (",["$","strong","strong-1",{"children":"one for each variable"}],")."]}]
+3d:["$","p","p-10",{"children":["This allows us to ",["$","strong","strong-0",{"children":"easily specify"}]," the parameters of each variable and ensure that the graph has a very ",["$","strong","strong-1",{"children":"precise style"}],"."]}]
+49:T829,# Create a line chart using Plotly graph objects
+fig = go.Figure()
+
+# Variable 1
+fig.add_trace(go.Scatter(
+    x=df['date'],  # x-axis
+    y=df['value1'],  # y-axis
+    mode='lines+markers',  # Connect data points with lines and add markers
+    name='Line1',  # Name in the legend
+
+    marker=dict(
+        symbol='square',    # Change the marker symbol to a circle
+        size=10,            # Set the marker size
+        color='red'),       # Set the marker color
+
+    line=dict(
+        color='blue',        # Change the line color to red
+        width=5)             # Set the line width
+))
+
+# Variable 2
+fig.add_trace(go.Scatter(
+    x=df['date'],  # x-axis
+    y=df['value2'],  # y-axis
+    mode='lines+markers',  # Connect data points with lines and add markers
+    name='Line2',  # Name in the legend
+
+    marker=dict(
+        symbol='circle',    # Change the marker symbol to a circle
+        size=7,            # Set the marker size
+        color='purple'),       # Set the marker color
+
+    line=dict(
+        color='orange',        # Change the line color to red
+        width=8)             # Set the line width
+))
+
+# Variable 3
+fig.add_trace(go.Scatter(
+    x=df['date'],  # x-axis
+    y=df['value3'],  # y-axis
+    mode='lines+markers',  # Connect data points with lines and add markers
+    name='Line3',  # Name in the legend
+
+    marker=dict(
+        symbol='diamond',    # Change the marker symbol to a circle
+        size=15,            # Set the marker size
+        color='yellow'),       # Set the marker color
+
+    line=dict(
+        color='green',        # Change the line color to red
+        width=4)             # Set the line width
+))
+
+# Layout parameters
+fig.update_layout(
+    title='Customized Line Chart',  # Title
+    xaxis_title='X Axis Label',  # y-axis name
+    yaxis_title='Y Axis Label',  # x-axis name
+    xaxis_tickangle=45,  # Set the x-axis label angle
+    showlegend=True,     # Display the legend
+    plot_bgcolor='white',  # Set the plot background color
+    # Set the paper (outside plot area) background color
+    paper_bgcolor='lightblue',
+)4a:T2cb7,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Create a line chart using Plotly graph objects</span></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> go.Figure()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Variable 1</span></span>
+<span class="line"><span style="color:#24292E">fig.add_trace(go.Scatter(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'date'</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># x-axis</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'value1'</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># y-axis</span></span>
+<span class="line"><span style="color:#E36209">    mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lines+markers'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Connect data points with lines and add markers</span></span>
+<span class="line"><span style="color:#E36209">    name</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Line1'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Name in the legend</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E36209">    marker</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        symbol</span><span style="color:#D73A49">=</span><span style="color:#032F62">'square'</span><span style="color:#24292E">,    </span><span style="color:#6A737D"># Change the marker symbol to a circle</span></span>
+<span class="line"><span style="color:#E36209">        size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,            </span><span style="color:#6A737D"># Set the marker size</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'red'</span><span style="color:#24292E">),       </span><span style="color:#6A737D"># Set the marker color</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E36209">    line</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'blue'</span><span style="color:#24292E">,        </span><span style="color:#6A737D"># Change the line color to red</span></span>
+<span class="line"><span style="color:#E36209">        width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">5</span><span style="color:#24292E">)             </span><span style="color:#6A737D"># Set the line width</span></span>
+<span class="line"><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Variable 2</span></span>
+<span class="line"><span style="color:#24292E">fig.add_trace(go.Scatter(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'date'</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># x-axis</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'value2'</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># y-axis</span></span>
+<span class="line"><span style="color:#E36209">    mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lines+markers'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Connect data points with lines and add markers</span></span>
+<span class="line"><span style="color:#E36209">    name</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Line2'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Name in the legend</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E36209">    marker</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        symbol</span><span style="color:#D73A49">=</span><span style="color:#032F62">'circle'</span><span style="color:#24292E">,    </span><span style="color:#6A737D"># Change the marker symbol to a circle</span></span>
+<span class="line"><span style="color:#E36209">        size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">7</span><span style="color:#24292E">,            </span><span style="color:#6A737D"># Set the marker size</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'purple'</span><span style="color:#24292E">),       </span><span style="color:#6A737D"># Set the marker color</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E36209">    line</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'orange'</span><span style="color:#24292E">,        </span><span style="color:#6A737D"># Change the line color to red</span></span>
+<span class="line"><span style="color:#E36209">        width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">)             </span><span style="color:#6A737D"># Set the line width</span></span>
+<span class="line"><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Variable 3</span></span>
+<span class="line"><span style="color:#24292E">fig.add_trace(go.Scatter(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'date'</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># x-axis</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'value3'</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># y-axis</span></span>
+<span class="line"><span style="color:#E36209">    mode</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lines+markers'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Connect data points with lines and add markers</span></span>
+<span class="line"><span style="color:#E36209">    name</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Line3'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Name in the legend</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E36209">    marker</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        symbol</span><span style="color:#D73A49">=</span><span style="color:#032F62">'diamond'</span><span style="color:#24292E">,    </span><span style="color:#6A737D"># Change the marker symbol to a circle</span></span>
+<span class="line"><span style="color:#E36209">        size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">15</span><span style="color:#24292E">,            </span><span style="color:#6A737D"># Set the marker size</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'yellow'</span><span style="color:#24292E">),       </span><span style="color:#6A737D"># Set the marker color</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E36209">    line</span><span style="color:#D73A49">=</span><span style="color:#005CC5">dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'green'</span><span style="color:#24292E">,        </span><span style="color:#6A737D"># Change the line color to red</span></span>
+<span class="line"><span style="color:#E36209">        width</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">)             </span><span style="color:#6A737D"># Set the line width</span></span>
+<span class="line"><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Layout parameters</span></span>
+<span class="line"><span style="color:#24292E">fig.update_layout(</span></span>
+<span class="line"><span style="color:#E36209">    title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Customized Line Chart'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Title</span></span>
+<span class="line"><span style="color:#E36209">    xaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'X Axis Label'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># y-axis name</span></span>
+<span class="line"><span style="color:#E36209">    yaxis_title</span><span style="color:#D73A49">=</span><span style="color:#032F62">'Y Axis Label'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># x-axis name</span></span>
+<span class="line"><span style="color:#E36209">    xaxis_tickangle</span><span style="color:#D73A49">=</span><span style="color:#005CC5">45</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Set the x-axis label angle</span></span>
+<span class="line"><span style="color:#E36209">    showlegend</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,     </span><span style="color:#6A737D"># Display the legend</span></span>
+<span class="line"><span style="color:#E36209">    plot_bgcolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'white'</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># Set the plot background color</span></span>
+<span class="line"><span style="color:#6A737D">    # Set the paper (outside plot area) background color</span></span>
+<span class="line"><span style="color:#E36209">    paper_bgcolor</span><span style="color:#D73A49">=</span><span style="color:#032F62">'lightblue'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>3e:["$","$L29","notebook-cell-6",{"index":6,"code":"$49","highlighted":"$4a","interactive":true,"hasChart":false}]
+3f:["$","$L29","notebook-cell-7",{"index":7,"code":"# save this file as a standalong html file:\nfig.write_html(\n    \"../../static/interactiveCharts/linechart-plotly-multigroup.html\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># save this file as a standalong html file:</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">fig.write_html(</span></span>\n<span class=\"line\"><span style=\"color:#032F62\">    \"../../static/interactiveCharts/linechart-plotly-multigroup.html\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false}]
+40:["$","div","div-4",{"className":"code-snippet"}]
+41:["$","div","div-5",{"className":"cell-output","children":["$","div","div-0",{"className":"cell-output-html","children":[["$","iframe","iframe-0",{"src":"../../interactiveCharts/linechart-plotly-multigroup.html","width":800,"height":600,"title":"line chart with plotly","style":{"border":"none"},"children":"\n"}],"\n"]}]}]
+42:["$","h2","h2-6",{"children":"Going further"}]
+43:["$","p","p-11",{"children":["This article explains how to create a basic line chart with ",["$","a","a-0",{"href":"https://python-graph-gallery.com/plotly/","children":"Plotly"}]," with various customization features, such as ",["$","strong","strong-0",{"children":"changing color"}],", overall ",["$","strong","strong-1",{"children":"style"}]," or display ",["$","strong","strong-2",{"children":"multiple lines"}],"."]}]
+44:["$","p","p-12",{"children":["For more examples of ",["$","strong","strong-0",{"children":"how to create or customize"}]," your line charts with Python, see the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/line-chart/","children":"line chart section"}],". You may also be interested in creating an ",["$","a","a-1",{"href":"https://python-graph-gallery.com/area-plot/","children":"area chart"}],"."]}]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

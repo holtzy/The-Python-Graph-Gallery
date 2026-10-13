@@ -1,0 +1,350 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Waffle chart with custom style"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Waffle2Small.webp","alt":"logo of a chart:Waffle2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This post explains how to reproduce a <a href='waffle-chart'>waffle chart</a> and how to customize it. This post explains step-by-step how to replicate it with reproducible code and explanations</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/waffle-chart/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Waffle section"}],["$","a",null,{"href":"https://www.data-to-viz.com","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-waffle-chart-as-share","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Waffle chart with custom style"}],["$","meta","1",{"name":"description","content":"How to build a waffle chart, with custom colors and fonts with matplotlib."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, waffle chart, plot, waffle, matplotlib, font"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-waffle-chart-as-share/"}],["$","meta","6",{"property":"og:title","content":"Waffle chart with custom style"}],["$","meta","7",{"property":"og:description","content":"How to build a waffle chart, with custom colors and fonts with matplotlib."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Waffle chart with custom style"}],["$","meta","13",{"name":"twitter:description","content":"How to build a waffle chart, with custom colors and fonts with matplotlib."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+3c:I[44110,["$3","$4","$5","$6","$d"],"default"]
+3d:I[59351,["$3","$4","$5","$6","$d"],"default"]
+3e:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T68f,font_title = load_google_font("Staatliches")
+font_credit = load_google_font("Raleway", weight="light")
+bold_font_credit = load_google_font("Raleway", weight="bold")
+
+background_color = "#222725"
+pink = "#f72585"
+dark_pink = "#7a0325"
+
+number_of_bars = len(df)  # one bar per continent
+
+# Init the whole figure and axes
+fig, axs = plt.subplots(nrows=number_of_bars, ncols=1, figsize=(8, 8), dpi=300)
+fig.set_facecolor(background_color)
+ax.set_facecolor("white")
+
+
+# Iterate over each bar and create it
+for (i, row), ax in zip(df.iterrows(), axs):
+    share = row["percent"]
+    values = [share, 100 - share]
+
+    Waffle.make_waffle(
+        ax=ax,
+        rows=4,
+        columns=25,
+        values=values,
+        colors=[pink, dark_pink],
+    )
+
+    text = f"{row['lab']}"
+    ax.text(
+        x=-0.4,
+        y=0.5,
+        s=text,
+        font=bold_font_credit,
+        color="white",
+        rotation=90,
+        ha="center",
+        va="center",
+        fontsize=13,
+    )
+    text = f"{share}%"
+    ax.text(
+        x=-0.2,
+        y=0.5,
+        s=text,
+        font=font_credit,
+        color="white",
+        rotation=90,
+        ha="center",
+        va="center",
+        fontsize=13,
+    )
+
+fig_text(
+    x=0.05,
+    y=0.95,
+    s="SHARE OF CEREALS USED AS <ANIMAL FEEDS>",
+    highlight_textprops=[{"color": pink}],
+    color="white",
+    fontsize=22,
+    font=font_title,
+)
+fig_text(
+    x=0.05,
+    y=0.05,
+    s="<Data> OWID (year 2021) | <Plot> Benjamin Nowak",
+    font=font_credit,
+    color="white",
+    fontsize=10,
+    highlight_textprops=[{"font": bold_font_credit}] * 2,
+)
+
+plt.savefig("../../static/graph/web-waffle-chart-as-share.png", dpi=300)
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["# Libraries\nimport matplotlib.pyplot as plt\nimport pandas as pd\nfrom pywaffle import Waffle\nfrom highlight_text import fig_text\nfrom pyfonts import load_google_font","path = \"https://raw.githubusercontent.com/holtzy/R-graph-gallery/master/DATA/share-cereals.csv\"\ndf = pd.read_csv(path)\n\n\ndef remove_html_tag(s):\n    return s.split(\"</b>\")[0][3:]\n\n\ndf[\"lab\"] = df[\"lab\"].apply(remove_html_tag)\ndf = df[df[\"type\"] == \"feed\"]\ndf.reset_index(inplace=True)\ndf","number_of_bars = len(df)  # one bar per continent\n\n# Init the whole figure and axes\nfig, axs = plt.subplots(nrows=number_of_bars, ncols=1, figsize=(8, 8))\n\n# Iterate over each bar and create it\nfor (i, row), ax in zip(df.iterrows(), axs):\n    share = row[\"percent\"]\n    values = [share, 100 - share]\n\n    Waffle.make_waffle(ax=ax, rows=4, columns=25, values=values)\n\nplt.show()","background_color = \"#222725\"\npink = \"#f72585\"\ndark_pink = \"#7a0325\"\n\nnumber_of_bars = len(df)  # one bar per continent\n\n# Init the whole figure and axes\nfig, axs = plt.subplots(nrows=number_of_bars, ncols=1, figsize=(8, 8))\nfig.set_facecolor(background_color)\n\n\n# Iterate over each bar and create it\nfor (i, row), ax in zip(df.iterrows(), axs):\n    share = row[\"percent\"]\n    values = [share, 100 - share]\n\n    Waffle.make_waffle(\n        ax=ax,\n        rows=4,\n        columns=25,\n        values=values,\n        colors=[pink, dark_pink],\n    )\n\nplt.show()","$22"],"children":[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This page showcases the work of ","$L23"," who originally ","$L24",". This post is a translation to Python by ","$L25",".\nThanks to him for accepting sharing his work here!"]}],"\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","$L32","\n","$L33","$L34","\n","$L35","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a"]}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","treemap",{"href":"/treemap/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Tree150.webp","alt":"logo of a chart:Tree","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Treemap"}]]}],["$","$Le","venn",{"href":"/venn-diagram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Venn150.webp","alt":"logo of a chart:Venn","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Venn Diagram"}]]}],["$","$Le","donut",{"href":"/donut-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Doughnut150.webp","alt":"logo of a chart:Doughnut","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Donut"}]]}],["$","$Le","pie",{"href":"/pie-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Pie150.webp","alt":"logo of a chart:Pie","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Pie Chart"}]]}],["$","$Le","dendrogram",{"href":"/dendrogram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Dendrogram150.webp","alt":"logo of a chart:Dendrogram","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Dendrogram"}]]}],["$","$Le","circularPacking",{"href":"/circular-packing/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularPacking150.webp","alt":"logo of a chart:CircularPacking","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Packing"}]]}],["$","$Le","waffle",{"href":"/waffle-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Waffle2Small.webp","alt":"logo of a chart:Waffle2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L3b"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L3c",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L3d",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L3e",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@3f"}]}]
+20:true
+40:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+23:["$","a","a-0",{"href":"https://x.com/BjnNowak","children":"Benjamin Nowak"}]
+24:["$","a","a-1",{"href":"https://r-graph-gallery.com/web-waffle-chart-share.html","children":"made the chart with R"}]
+25:["$","a","a-2",{"href":"https://barbierjoseph.com","children":"Joseph Barbier"}]
+26:["$","p","p-1",{"children":"Let's see what the final picture will look like:"}]
+27:["$","p","p-2",{"children":["$","img","img-0",{"src":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/graph/web-waffle-chart-as-share.png?raw=true","alt":"small multiple waffle chart","loading":"lazy","decoding":"async"}]}]
+28:["$","h2","h2-1",{"children":"Libraries"}]
+29:["$","p","p-3",{"children":"First, you need to install the following librairies:"}]
+2a:["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","a","a-0",{"href":"https://python-graph-gallery.com/matplotlib/","children":"matplotlib"}]," is used for creating the chart and add customization features"]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"pandas"}]," is used to put the data into a dataframe"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"datetime"}]," is used for dealing with the date format of our time variable"]}],"\n"]}]
+2b:["$","p","p-4",{"children":"And that's it!"}]
+41:T48b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Libraries</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> matplotlib.pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pywaffle </span><span style="color:#D73A49">import</span><span style="color:#24292E"> Waffle</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> highlight_text </span><span style="color:#D73A49">import</span><span style="color:#24292E"> fig_text</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> pyfonts </span><span style="color:#D73A49">import</span><span style="color:#24292E"> load_google_font</span></span></code></pre>2c:["$","$L40","notebook-cell-0",{"index":0,"code":"# Libraries\nimport matplotlib.pyplot as plt\nimport pandas as pd\nfrom pywaffle import Waffle\nfrom highlight_text import fig_text\nfrom pyfonts import load_google_font","highlighted":"$41","interactive":true,"hasChart":false}]
+2d:["$","h2","h2-2",{"children":"Dataset"}]
+2e:["$","p","p-5",{"children":["For this reproduction, we're going to retrieve the data directly from the ",["$","a","a-0",{"href":"https://python-graph-gallery.com","children":"gallery's"}]," Github repo. This means we just need to ",["$","strong","strong-0",{"children":"give the right url as an argument"}]," to pandas' ",["$","code","code-0",{"children":"read_csv()"}]," function to retrieve the data."]}]
+2f:["$","p","p-6",{"children":["Next, we use the ",["$","code","code-0",{"children":"melt()"}]," function to switch ",["$","strong","strong-0",{"children":"from one country per column"}]," to a ",["$","strong","strong-1",{"children":"single column with concatenated countries"}],", while keeping the values in the original ",["$","code","code-1",{"children":"Time"}]," variable."]}]
+42:T7fa,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">path </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "https://raw.githubusercontent.com/holtzy/R-graph-gallery/master/DATA/share-cereals.csv"</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(path)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> remove_html_tag</span><span style="color:#24292E">(s):</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> s.split(</span><span style="color:#032F62">"&#x3C;/b>"</span><span style="color:#24292E">)[</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#005CC5">3</span><span style="color:#24292E">:]</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">df[</span><span style="color:#032F62">"lab"</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"lab"</span><span style="color:#24292E">].apply(remove_html_tag)</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">"type"</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "feed"</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">df.reset_index(</span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df</span></span></code></pre>30:["$","$L40","notebook-cell-1",{"index":1,"code":"path = \"https://raw.githubusercontent.com/holtzy/R-graph-gallery/master/DATA/share-cereals.csv\"\ndf = pd.read_csv(path)\n\n\ndef remove_html_tag(s):\n    return s.split(\"</b>\")[0][3:]\n\n\ndf[\"lab\"] = df[\"lab\"].apply(remove_html_tag)\ndf = df[df[\"type\"] == \"feed\"]\ndf.reset_index(inplace=True)\ndf","highlighted":"$42","interactive":true,"hasChart":false,"output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"index"}],["$","th","th-2",{"children":"lab"}],["$","th","th-3",{"children":"type"}],["$","th","th-4",{"children":"percent"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"0"}],["$","td","td-1",{"children":"Africa"}],["$","td","td-2",{"children":"feed"}],["$","td","td-3",{"children":"21"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"2"}],["$","td","td-1",{"children":"Americas"}],["$","td","td-2",{"children":"feed"}],["$","td","td-3",{"children":"53"}]]}],"$L43","$L44","$L45"]}]]}],"\n"]}]}]]}]
+31:["$","h2","h2-3",{"children":"Basic waffle chart"}]
+46:Tadf,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">number_of_bars </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df)  </span><span style="color:#6A737D"># one bar per continent</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Init the whole figure and axes</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#24292E">number_of_bars, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Iterate over each bar and create it</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> (i, row), ax </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(df.iterrows(), axs):</span></span>
+<span class="line"><span style="color:#24292E">    share </span><span style="color:#D73A49">=</span><span style="color:#24292E"> row[</span><span style="color:#032F62">"percent"</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [share, </span><span style="color:#005CC5">100</span><span style="color:#D73A49"> -</span><span style="color:#24292E"> share]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    Waffle.make_waffle(</span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax, </span><span style="color:#E36209">rows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#E36209">columns</span><span style="color:#D73A49">=</span><span style="color:#005CC5">25</span><span style="color:#24292E">, </span><span style="color:#E36209">values</span><span style="color:#D73A49">=</span><span style="color:#24292E">values)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>32:["$","$L40","notebook-cell-2",{"index":2,"code":"number_of_bars = len(df)  # one bar per continent\n\n# Init the whole figure and axes\nfig, axs = plt.subplots(nrows=number_of_bars, ncols=1, figsize=(8, 8))\n\n# Iterate over each bar and create it\nfor (i, row), ax in zip(df.iterrows(), axs):\n    share = row[\"percent\"]\n    values = [share, 100 - share]\n\n    Waffle.make_waffle(ax=ax, rows=4, columns=25, values=values)\n\nplt.show()","highlighted":"$46","interactive":true,"hasChart":true,"intro":"$L47","output":"$L48"}]
+33:["$","h2","h2-4",{"children":"Custom colors"}]
+49:Teb4,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">background_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#222725"</span></span>
+<span class="line"><span style="color:#24292E">pink </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#f72585"</span></span>
+<span class="line"><span style="color:#24292E">dark_pink </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#7a0325"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">number_of_bars </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df)  </span><span style="color:#6A737D"># one bar per continent</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Init the whole figure and axes</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#24292E">number_of_bars, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_color)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Iterate over each bar and create it</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> (i, row), ax </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(df.iterrows(), axs):</span></span>
+<span class="line"><span style="color:#24292E">    share </span><span style="color:#D73A49">=</span><span style="color:#24292E"> row[</span><span style="color:#032F62">"percent"</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [share, </span><span style="color:#005CC5">100</span><span style="color:#D73A49"> -</span><span style="color:#24292E"> share]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    Waffle.make_waffle(</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">        rows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        columns</span><span style="color:#D73A49">=</span><span style="color:#005CC5">25</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        values</span><span style="color:#D73A49">=</span><span style="color:#24292E">values,</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">[pink, dark_pink],</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>34:["$","$L40","notebook-cell-3",{"index":3,"code":"background_color = \"#222725\"\npink = \"#f72585\"\ndark_pink = \"#7a0325\"\n\nnumber_of_bars = len(df)  # one bar per continent\n\n# Init the whole figure and axes\nfig, axs = plt.subplots(nrows=number_of_bars, ncols=1, figsize=(8, 8))\nfig.set_facecolor(background_color)\n\n\n# Iterate over each bar and create it\nfor (i, row), ax in zip(df.iterrows(), axs):\n    share = row[\"percent\"]\n    values = [share, 100 - share]\n\n    Waffle.make_waffle(\n        ax=ax,\n        rows=4,\n        columns=25,\n        values=values,\n        colors=[pink, dark_pink],\n    )\n\nplt.show()","highlighted":"$49","interactive":true,"hasChart":true,"intro":"$L4a","output":"$L4b"}]
+35:["$","h2","h2-5",{"children":"Title and credit"}]
+4c:T68f,font_title = load_google_font("Staatliches")
+font_credit = load_google_font("Raleway", weight="light")
+bold_font_credit = load_google_font("Raleway", weight="bold")
+
+background_color = "#222725"
+pink = "#f72585"
+dark_pink = "#7a0325"
+
+number_of_bars = len(df)  # one bar per continent
+
+# Init the whole figure and axes
+fig, axs = plt.subplots(nrows=number_of_bars, ncols=1, figsize=(8, 8), dpi=300)
+fig.set_facecolor(background_color)
+ax.set_facecolor("white")
+
+
+# Iterate over each bar and create it
+for (i, row), ax in zip(df.iterrows(), axs):
+    share = row["percent"]
+    values = [share, 100 - share]
+
+    Waffle.make_waffle(
+        ax=ax,
+        rows=4,
+        columns=25,
+        values=values,
+        colors=[pink, dark_pink],
+    )
+
+    text = f"{row['lab']}"
+    ax.text(
+        x=-0.4,
+        y=0.5,
+        s=text,
+        font=bold_font_credit,
+        color="white",
+        rotation=90,
+        ha="center",
+        va="center",
+        fontsize=13,
+    )
+    text = f"{share}%"
+    ax.text(
+        x=-0.2,
+        y=0.5,
+        s=text,
+        font=font_credit,
+        color="white",
+        rotation=90,
+        ha="center",
+        va="center",
+        fontsize=13,
+    )
+
+fig_text(
+    x=0.05,
+    y=0.95,
+    s="SHARE OF CEREALS USED AS <ANIMAL FEEDS>",
+    highlight_textprops=[{"color": pink}],
+    color="white",
+    fontsize=22,
+    font=font_title,
+)
+fig_text(
+    x=0.05,
+    y=0.05,
+    s="<Data> OWID (year 2021) | <Plot> Benjamin Nowak",
+    font=font_credit,
+    color="white",
+    fontsize=10,
+    highlight_textprops=[{"font": bold_font_credit}] * 2,
+)
+
+plt.savefig("../../static/graph/web-waffle-chart-as-share.png", dpi=300)
+plt.show()4d:T3234,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">font_title </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Staatliches"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">font_credit </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Raleway"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"light"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">bold_font_credit </span><span style="color:#D73A49">=</span><span style="color:#24292E"> load_google_font(</span><span style="color:#032F62">"Raleway"</span><span style="color:#24292E">, </span><span style="color:#E36209">weight</span><span style="color:#D73A49">=</span><span style="color:#032F62">"bold"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">background_color </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#222725"</span></span>
+<span class="line"><span style="color:#24292E">pink </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#f72585"</span></span>
+<span class="line"><span style="color:#24292E">dark_pink </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#7a0325"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">number_of_bars </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df)  </span><span style="color:#6A737D"># one bar per continent</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Init the whole figure and axes</span></span>
+<span class="line"><span style="color:#24292E">fig, axs </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">nrows</span><span style="color:#D73A49">=</span><span style="color:#24292E">number_of_bars, </span><span style="color:#E36209">ncols</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">), </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig.set_facecolor(background_color)</span></span>
+<span class="line"><span style="color:#24292E">ax.set_facecolor(</span><span style="color:#032F62">"white"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Iterate over each bar and create it</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> (i, row), ax </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">(df.iterrows(), axs):</span></span>
+<span class="line"><span style="color:#24292E">    share </span><span style="color:#D73A49">=</span><span style="color:#24292E"> row[</span><span style="color:#032F62">"percent"</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    values </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [share, </span><span style="color:#005CC5">100</span><span style="color:#D73A49"> -</span><span style="color:#24292E"> share]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    Waffle.make_waffle(</span></span>
+<span class="line"><span style="color:#E36209">        ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax,</span></span>
+<span class="line"><span style="color:#E36209">        rows</span><span style="color:#D73A49">=</span><span style="color:#005CC5">4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        columns</span><span style="color:#D73A49">=</span><span style="color:#005CC5">25</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        values</span><span style="color:#D73A49">=</span><span style="color:#24292E">values,</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">[pink, dark_pink],</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">    text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">row[</span><span style="color:#032F62">'lab'</span><span style="color:#24292E">]</span><span style="color:#005CC5">}</span><span style="color:#032F62">"</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">bold_font_credit,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        rotation</span><span style="color:#D73A49">=</span><span style="color:#005CC5">90</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#24292E">    text </span><span style="color:#D73A49">=</span><span style="color:#D73A49"> f</span><span style="color:#032F62">"</span><span style="color:#005CC5">{</span><span style="color:#24292E">share</span><span style="color:#005CC5">}</span><span style="color:#032F62">%"</span></span>
+<span class="line"><span style="color:#24292E">    ax.text(</span></span>
+<span class="line"><span style="color:#E36209">        x</span><span style="color:#D73A49">=-</span><span style="color:#005CC5">0.2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        s</span><span style="color:#D73A49">=</span><span style="color:#24292E">text,</span></span>
+<span class="line"><span style="color:#E36209">        font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font_credit,</span></span>
+<span class="line"><span style="color:#E36209">        color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        rotation</span><span style="color:#D73A49">=</span><span style="color:#005CC5">90</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        va</span><span style="color:#D73A49">=</span><span style="color:#032F62">"center"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.95</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"SHARE OF CEREALS USED AS &#x3C;ANIMAL FEEDS>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: pink}],</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">22</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font_title,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.05</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    s</span><span style="color:#D73A49">=</span><span style="color:#032F62">"&#x3C;Data> OWID (year 2021) | &#x3C;Plot> Benjamin Nowak"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    font</span><span style="color:#D73A49">=</span><span style="color:#24292E">font_credit,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">"white"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[{</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: bold_font_credit}] </span><span style="color:#D73A49">*</span><span style="color:#005CC5"> 2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.savefig(</span><span style="color:#032F62">"../../static/graph/web-waffle-chart-as-share.png"</span><span style="color:#24292E">, </span><span style="color:#E36209">dpi</span><span style="color:#D73A49">=</span><span style="color:#005CC5">300</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>36:["$","$L40","notebook-cell-4",{"index":4,"code":"$4c","highlighted":"$4d","interactive":true,"hasChart":true,"intro":"$L4e","output":"$L4f"}]
+37:["$","h2","h2-6",{"children":"Going further"}]
+38:["$","p","p-7",{"children":["This article explains how to reproduce a ",["$","a","a-0",{"href":"/waffle-chart","children":"waffle chart"}]," with custom colors and fonts."]}]
+39:["$","p","p-8",{"children":"You might be interested by:"}]
+3a:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":["the ",["$","a","a-0",{"href":"/waffle-chart","children":"waffle chart section"}]]}],"\n",["$","li","li-1",{"children":["how to ",["$","a","a-0",{"href":"/558-waffle-bar-chart","children":"customize block style"}]]}],"\n",["$","li","li-2",{"children":["how to use waffle charts ",["$","a","a-0",{"href":"/web-waffle-with-small-multiples","children":"to describe London boroughs"}]]}],"\n"]}]
+3b:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Waffle"}]
+3f:null
+b:C
+43:["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"4"}],["$","td","td-1",{"children":"Asia"}],["$","td","td-2",{"children":"feed"}],["$","td","td-3",{"children":"32"}]]}]
+44:["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"6"}],["$","td","td-1",{"children":"Europe"}],["$","td","td-2",{"children":"feed"}],["$","td","td-3",{"children":"66"}]]}]
+45:["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"8"}],["$","td","td-1",{"children":"Oceania"}],["$","td","td-2",{"children":"feed"}],["$","td","td-3",{"children":"59"}]]}]
+47:[["$","p","p-0",{"children":"In order to create the following chart, we:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":"determine how many charts to create based on the number of rows in the DataFrame"}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":"set up a figure with multiple subplots, one for each row of data (5)"}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":["for ",["$","strong","strong-0",{"children":"each row"}]," in the DataFrame:"]}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":"It extracts the share."}],"\n",["$","li","li-1",{"children":"It creates a waffle chart showing this share."}],"\n"]}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":["each waffle chart uses a ",["$","strong","strong-0",{"children":"4x25 grid"}]," (100 squares total) to represent the percentage."]}],"\n"]}],"\n"]}]]
+48:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-waffle-chart-as-share/output-2.png","alt":"Waffle chart with custom style","width":640,"height":636,"loading":"lazy","decoding":"async"}]}]]
+4a:[["$","p","p-0",{"children":["The colors are changed thanks tot he ",["$","code","code-0",{"children":"colors"}]," argument in ",["$","code","code-1",{"children":"Waffle.make_waffle()"}],", and the ",["$","code","code-2",{"children":"set_facecolor()"}]," for the background"]}],["$","p","p-1",{"children":["$","em","em-0",{"children":"Note: the colors used are slightly different from the original colors."}]}]]
+4b:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-waffle-chart-as-share/output-3.png","alt":"Waffle chart with custom style","width":640,"height":636,"loading":"lazy","decoding":"async"}]}]]
+4e:[["$","p","p-0",{"children":"In order to add annotation, we need 2 new tools:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","code","code-0",{"children":"pyfonts"}]," to load the fonts"]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"highlight_text"}]," to custom the text style"]}],"\n"]}],["$","p","p-1",{"children":[["$","code","code-0",{"children":"highlight_text"}]," provides the ",["$","code","code-1",{"children":"fig_text()"}]," and ",["$","code","code-2",{"children":"ax_text()"}]," functions (you can learn in ",["$","a","a-0",{"href":"/advanced-custom-annotations-matplotlib","children":"this post"}]," that extensively describes how they work.)"]}]]
+4f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-waffle-chart-as-share/output-4.png","alt":"Waffle chart with custom style","width":2116,"height":2294,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

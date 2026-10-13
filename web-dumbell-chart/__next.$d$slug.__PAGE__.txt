@@ -1,0 +1,971 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Dumbell chart with custom annotations"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>A <a href='https://python-graph-gallery.com/lollipop-plot/'>lollipop chart</a> is a type of chart that is a variation of a barplot, where the bars are replaced by <b>dots and lines</b>. This example shows how to create a <b>dumbell chart</b>, which differs from a lollipop chart by having lines connecting the dots.<br><br>In this post, we will reproduce a complex version of a dumbell chart, with step-by-step <b>explanations</b> and <b>code snippets</b>.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/lollipop-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Lollipop section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/lollipop.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"web-dumbell-chart","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Dumbell chart with custom annotations"}],["$","meta","1",{"name":"description","content":"How to create dumbelle, or lollipop, chart in Python with matplotlib. A dumbell chart is a variation of a barplot, where the bars are replaced by dots and lines."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"lollipop, chart, plot, matplotlib, python, dumbell"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-dumbell-chart/"}],["$","meta","6",{"property":"og:title","content":"Dumbell chart with custom annotations"}],["$","meta","7",{"property":"og:description","content":"How to create dumbelle, or lollipop, chart in Python with matplotlib. A dumbell chart is a variation of a barplot, where the bars are replaced by dots and lines."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Dumbell chart with custom annotations"}],["$","meta","13",{"name":"twitter:description","content":"How to create dumbelle, or lollipop, chart in Python with matplotlib. A dumbell chart is a variation of a barplot, where the bars are replaced by dots and lines."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+27:I[44110,["$3","$4","$5","$6","$d"],"default"]
+28:I[59351,["$3","$4","$5","$6","$d"],"default"]
+29:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T4fe,color_lose, color_win = "#EFAC00", "#28A87D"
+
+fig, ax = plt.subplots(figsize=(7,5))
+
+# horizontal lines
+my_range = range(df['team'].nunique())
+ax.hlines(y=my_range, xmin=df['lost'], xmax=df['won'], color='grey', alpha=0.4)
+
+# points
+ax.scatter(df['lost'], my_range, color=color_lose, zorder=2, s=80)
+ax.scatter(df['won'], my_range, color=color_win, zorder=2, s=80)
+
+# add team names
+n = len(df)
+for i in range(df['team'].nunique()):
+
+    # losses
+    losses = df['lost'][i]
+    ax_text(
+        losses-0.012, i,
+        f"<{df['lost'][i]*100:.0f}%>",
+        ha='right', va='center',
+        highlight_textprops=[
+            {"color": color_lose,
+             "weight": "light"}]
+    )
+
+    # wins
+    wins = df['won'][i]
+    ax_text(
+        wins+0.012, i,
+        f"<{df['won'][i]*100:.0f}%>",
+        ha='left', va='center',
+        highlight_textprops=[
+            {"color": color_win,
+             "weight": "light"}]
+    )
+
+    # team names
+    team_name = df['team'][i]
+    ax_text(0.1, i,
+            f"<{team_name}>",
+            ha='right', va='center',
+            highlight_textprops=[
+                {"color": "black",
+                 "weight": "light",
+                 "size": 12}]
+        )
+    
+# remove axis
+ax.set_axis_off()
+
+plt.tight_layout()
+plt.show()23:T662,color_lose, color_win = "#EFAC00", "#28A87D"
+color_lose_dark, color_win_dark = "#aa7c05", "#1e8563"
+
+fig, ax = plt.subplots(figsize=(7,5))
+
+# horizontal lines
+my_range = range(df['team'].nunique())
+ax.hlines(y=my_range, xmin=df['lost'], xmax=df['won'], color='grey', alpha=0.4)
+
+# points
+ax.scatter(df['lost'], my_range, color=color_lose, zorder=3, s=80)
+ax.scatter(df['won'], my_range, color=color_win, zorder=2, s=80)
+
+# add team names
+n = len(df)
+for i in range(df['team'].nunique()):
+    
+    # team names
+    team_name = df['team'][i]
+    if team_name == "FC Bayern München":
+        weight = "bold"
+        bayern_munch = df[df['team'] == team_name]
+        ax.hlines(y=i, xmin=bayern_munch['lost'], xmax=bayern_munch['won'], linewidth=2, color='black', zorder=1)
+
+    else:
+        weight = "normal"
+    ax_text(0.1, i,
+            f"<{team_name}>",
+            ha='right', va='center',
+            highlight_textprops=[
+                {"color": "black",
+                 "fontweight": weight,
+                 "size": 12}
+            ]
+        )
+
+    # losses
+    losses = df['lost'][i]
+    ax_text(
+        losses-0.016, i,
+        f"<{df['lost'][i]*100:.0f}%>",
+        ha='right', va='center',
+        highlight_textprops=[
+            {"color": color_lose_dark,
+             "weight": weight}
+        ]
+    )
+
+    # wins
+    wins = df['won'][i]
+    ax_text(
+        wins+0.016, i,
+        f"<{df['won'][i]*100:.0f}%>",
+        ha='left', va='center',
+        highlight_textprops=[
+            {"color": color_win_dark,
+             "weight": weight}]
+    )
+
+# remove axis
+ax.set_axis_off()
+
+plt.tight_layout()
+plt.show()24:Tf7c,color_lose, color_win = "#EFAC00", "#28A87D"
+color_lose_dark, color_win_dark = "#aa7c05", "#1e8563"
+
+fig, ax = plt.subplots(figsize=(7,5))
+
+# horizontal lines
+my_range = range(df['team'].nunique())
+ax.hlines(y=my_range, xmin=df['lost'], xmax=df['won'], color='grey', alpha=0.4)
+
+# points
+ax.scatter(df['lost'], my_range, color=color_lose, zorder=2, s=80)
+ax.scatter(df['won'], my_range, color=color_win, zorder=2, s=80)
+
+# add team names
+n = len(df)
+for i in range(df['team'].nunique()):
+    
+    # team names
+    team_name = df['team'][i]
+    if team_name == "FC Bayern München":
+        font = grotesk_font_bold
+        bayern_munch = df[df['team'] == team_name]
+        ax.hlines(y=i, xmin=bayern_munch['lost'], xmax=bayern_munch['won'], linewidth=2, color='black', zorder=1)
+
+    else:
+        font = grotesk_font
+    ax_text(0.1, i,
+            f"<{team_name}>",
+            ha='right', va='center',
+            fontproperties=grotesk_font,
+            highlight_textprops=[
+                {"color": "black",
+                 "font": font,
+                 "size": 12}
+            ]
+        )
+
+    # losses
+    losses = df['lost'][i]
+    ax_text(
+        losses-0.016, i,
+        f"<{df['lost'][i]*100:.0f}%>",
+        ha='right', va='center',
+        fontproperties=grotesk_font,
+        highlight_textprops=[
+            {"color": color_lose_dark,
+             "font": font}
+        ]
+    )
+
+    # wins
+    wins = df['won'][i]
+    ax_text(
+        wins+0.016, i,
+        f"<{df['won'][i]*100:.0f}%>",
+        ha='left', va='center',
+        fontproperties=grotesk_font,
+        highlight_textprops=[
+            {"color": color_win_dark,
+             "font": font}]
+    )
+
+# title
+text = "Among the ten teams with the most Bundesliga matches,\n<Bayern Munich has the> <lowest loss> <and> <highest win> <rates>"
+fig_text(
+    0.05, 1,
+    text,
+    fontsize=20,
+    fontproperties=grotesk_font,
+    ha='left', va='center',
+    highlight_textprops=[
+        {"font": grotesk_font_bold},
+        {"color": color_lose_dark,
+         "font": grotesk_font_bold},
+        {"font": grotesk_font_bold},
+        {"color": color_win_dark,
+         "font": grotesk_font_bold},
+        {"font": grotesk_font_bold},
+    ]
+)
+
+# legend annotation
+text = '<matches lost>'
+fig_text(
+    0.38, 0.8,
+    text,
+    fontsize=13,
+    ha='center', va='center',
+    highlight_textprops=[
+        {"color": color_lose,
+         "font": pally_font_bold}
+    ]
+)
+text = '<matches won>'
+fig_text(
+    0.76, 0.8,
+    text,
+    fontsize=13,
+    ha='center', va='center',
+    highlight_textprops=[
+        {"color": color_win,
+         "font": pally_font_bold}
+    ]
+)
+
+# credit
+text = "<Graphic: Cédric Scherer · Source: kicker.de ·> Teams are ranked according to the number of Bundesliga matches they have played so far"
+fig_text(
+    0.05, 0.04,
+    text,
+    fontsize=8,
+    fontproperties=grotesk_font,
+    color='grey',
+    ha='left', va='center',
+    highlight_textprops=[
+        {"font": grotesk_font_bold}
+    ]
+)
+
+# remove axis
+ax.set_axis_off()
+
+# note about Frankfurt
+text = "<Frankfurt> is the only team listed\nthat <lost more games (37.3%)>\nthan <they have won (36.8%)>"
+fig_text(
+    0.75, 0.2,
+    text,
+    fontsize=12,
+    color='grey',
+    fontproperties=grotesk_font,
+    ha='left', va='center',
+    highlight_textprops=[
+        {"font": pally_font_bold},
+        {"color": color_lose_dark,
+         "font": pally_font_bold},
+        {"color": color_win_dark,
+         "font": pally_font_bold}
+    ]
+)
+
+# arrow
+from matplotlib.patches import FancyArrowPatch
+arrow_style = "Simple, tail_width=0.5, head_width=4, head_length=8"
+connection_style = "arc3,rad=.3"
+arrow_properties = {
+    "arrowstyle": arrow_style,
+    "color": "grey",
+}
+tail_position = (0.62, 1.6)
+head_position = (0.43, 3)
+arrow = FancyArrowPatch(
+    tail_position, head_position,
+    connectionstyle=connection_style,
+    **arrow_properties
+)
+ax.add_patch(arrow)
+
+plt.tight_layout()
+plt.show()f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["# libraries\nimport matplotlib.pyplot as plt\nfrom highlight_text import ax_text, fig_text\nimport pandas as pd","df = pd.DataFrame({\n    \"team\": [\"FC Bayern München\", \"SV Werder Bremen\", \"Borussia Dortmund\", \"VfB Stuttgart\", \n             \"Borussia M'gladbach\", \"Hamburger SV\", \"Eintracht Frankfurt\",\n             \"FC Schalke 04\", \"1. FC Köln\", \"Bayer 04 Leverkusen\"],\n    \"matches\": [2000, 1992, 1924, 1924, 1898, 1866, 1856, 1832, 1754, 1524],\n    \"won\": [1206, 818, 881, 782, 763, 746, 683, 700, 674, 669],\n    \"lost\": [363, 676, 563, 673, 636, 625, 693, 669, 628, 447]\n})\n\ndf['won'] = df['won'] / df['matches']\ndf['lost'] = df['lost'] / df['matches']\ndf.sort_values(by='matches', inplace=True)\ndf.reset_index(drop=True, inplace=True)\ndf.head()","fig, ax = plt.subplots(figsize=(8,5))\n\n# horizontal lines\nmy_range = range(df['team'].nunique())\nax.hlines(y=my_range, xmin=df['lost'], xmax=df['won'], color='grey', alpha=0.4)\n\n# points\nax.scatter(df['lost'], my_range, zorder=2)\nax.scatter(df['won'], my_range, zorder=2)\n\nplt.show()","color_lose, color_win = \"#EFAC00\", \"#28A87D\"\n\nfig, ax = plt.subplots(figsize=(8,5))\n\n# horizontal lines\nmy_range = range(df['team'].nunique())\nax.hlines(y=my_range, xmin=df['lost'], xmax=df['won'], color='grey', alpha=0.4)\n\n# points\nax.scatter(df['lost'], my_range, color=color_lose, zorder=2, s=80)\nax.scatter(df['won'], my_range, color=color_win, zorder=2, s=80)\n\n# remove axis\nax.set_axis_off()\n\nplt.show()","$22","$23","# find path to font\nfrom matplotlib import font_manager\nfor fontpath in font_manager.findSystemFonts(fontpaths=None, fontext='ttf'):\n    if 'grotesk' in fontpath.lower():\n        print(fontpath)\n\n# get font properties\nfrom matplotlib.font_manager import FontProperties\npersonal_path = '/Users/josephbarbier/Library/Fonts/'\n\n# font\nfont_path = personal_path + 'FamiljenGrotesk-VariableFont_wght.ttf'\ngrotesk_font = FontProperties(fname=font_path)\n\n# bold font\nfont_path_bold = personal_path + 'FamiljenGrotesk-Bold.ttf'\ngrotesk_font_bold = FontProperties(fname=font_path_bold)","# find path to font\nfrom matplotlib import font_manager\nfor fontpath in font_manager.findSystemFonts(fontpaths=None, fontext='ttf'):\n    if 'pally' in fontpath.lower():\n        print(fontpath)\n\n# get font properties\nfrom matplotlib.font_manager import FontProperties\npersonal_path = '/Users/josephbarbier/Library/Fonts/'\n\n# font\nfont_path = personal_path + 'Pally-Regular.otf'\npally_font = FontProperties(fname=font_path)\n\n# bold font\nfont_path_bold = personal_path + 'Pally-Bold.otf'\npally_font_bold = FontProperties(fname=font_path_bold)","$24"],"children":"$L25"}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","barplot",{"href":"/barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bar150.webp","alt":"logo of a chart:Bar","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Barplot"}]]}],["$","$Le","radar",{"href":"/radar-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Spider150.webp","alt":"logo of a chart:Spider","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Spider / Radar"}]]}],["$","$Le","wordcloud",{"href":"/wordcloud/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Wordcloud150.webp","alt":"logo of a chart:Wordcloud","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Wordcloud"}]]}],["$","$Le","parallel",{"href":"/parallel-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Parallel1150.webp","alt":"logo of a chart:Parallel1","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Parallel"}]]}],["$","$Le","lollipop",{"href":"/lollipop-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Lollipop150.webp","alt":"logo of a chart:Lollipop","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Lollipop"}]]}],["$","$Le","circularBarplot",{"href":"/circular-barplot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CircularBarplot150.webp","alt":"logo of a chart:CircularBarplot","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Circular Barplot"}]]}],["$","$Le","table",{"href":"/table/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/TableBig.webp","alt":"logo of a chart:TableBig","width":473,"height":473,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],"$L26"]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L27",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L28",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L29",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@2a"}]}]
+20:true
+2b:I[68978,["$3","$4","$5","$6","$d"],"default"]
+b:300
+2c:T1683,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.DataFrame({</span></span>
+<span class="line"><span style="color:#032F62">    "team"</span><span style="color:#24292E">: [</span><span style="color:#032F62">"FC Bayern München"</span><span style="color:#24292E">, </span><span style="color:#032F62">"SV Werder Bremen"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Borussia Dortmund"</span><span style="color:#24292E">, </span><span style="color:#032F62">"VfB Stuttgart"</span><span style="color:#24292E">, </span></span>
+<span class="line"><span style="color:#032F62">             "Borussia M'gladbach"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Hamburger SV"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Eintracht Frankfurt"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">             "FC Schalke 04"</span><span style="color:#24292E">, </span><span style="color:#032F62">"1. FC Köln"</span><span style="color:#24292E">, </span><span style="color:#032F62">"Bayer 04 Leverkusen"</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "matches"</span><span style="color:#24292E">: [</span><span style="color:#005CC5">2000</span><span style="color:#24292E">, </span><span style="color:#005CC5">1992</span><span style="color:#24292E">, </span><span style="color:#005CC5">1924</span><span style="color:#24292E">, </span><span style="color:#005CC5">1924</span><span style="color:#24292E">, </span><span style="color:#005CC5">1898</span><span style="color:#24292E">, </span><span style="color:#005CC5">1866</span><span style="color:#24292E">, </span><span style="color:#005CC5">1856</span><span style="color:#24292E">, </span><span style="color:#005CC5">1832</span><span style="color:#24292E">, </span><span style="color:#005CC5">1754</span><span style="color:#24292E">, </span><span style="color:#005CC5">1524</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "won"</span><span style="color:#24292E">: [</span><span style="color:#005CC5">1206</span><span style="color:#24292E">, </span><span style="color:#005CC5">818</span><span style="color:#24292E">, </span><span style="color:#005CC5">881</span><span style="color:#24292E">, </span><span style="color:#005CC5">782</span><span style="color:#24292E">, </span><span style="color:#005CC5">763</span><span style="color:#24292E">, </span><span style="color:#005CC5">746</span><span style="color:#24292E">, </span><span style="color:#005CC5">683</span><span style="color:#24292E">, </span><span style="color:#005CC5">700</span><span style="color:#24292E">, </span><span style="color:#005CC5">674</span><span style="color:#24292E">, </span><span style="color:#005CC5">669</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#032F62">    "lost"</span><span style="color:#24292E">: [</span><span style="color:#005CC5">363</span><span style="color:#24292E">, </span><span style="color:#005CC5">676</span><span style="color:#24292E">, </span><span style="color:#005CC5">563</span><span style="color:#24292E">, </span><span style="color:#005CC5">673</span><span style="color:#24292E">, </span><span style="color:#005CC5">636</span><span style="color:#24292E">, </span><span style="color:#005CC5">625</span><span style="color:#24292E">, </span><span style="color:#005CC5">693</span><span style="color:#24292E">, </span><span style="color:#005CC5">669</span><span style="color:#24292E">, </span><span style="color:#005CC5">628</span><span style="color:#24292E">, </span><span style="color:#005CC5">447</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">})</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">] </span><span style="color:#D73A49">/</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'matches'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">] </span><span style="color:#D73A49">/</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'matches'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">df.sort_values(</span><span style="color:#E36209">by</span><span style="color:#D73A49">=</span><span style="color:#032F62">'matches'</span><span style="color:#24292E">, </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df.reset_index(</span><span style="color:#E36209">drop</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">, </span><span style="color:#E36209">inplace</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">df.head()</span></span></code></pre>25:[["$","h2","h2-0",{"children":"About"}],"\n",["$","p","p-0",{"children":["This chart displays the ",["$","strong","strong-0",{"children":"percentage of wins and losses"}]," of football teams with a ",["$","a","a-0",{"href":"/lollipop-plot","children":"lollipop chart"}],", originally created by ",["$","a","a-1",{"href":"https://www.cedricscherer.com/","children":"Cédric Scherer"}]," in R. You can find the R version ",["$","a","a-2",{"href":"https://r-graph-gallery.com/web-dumbell-chart.html","children":"here"}],"."]}],"\n",["$","p","p-1",{"children":["This post is a reproduction of it in Python by ",["$","a","a-0",{"href":"https://barbierjoseph.com","children":"Joseph Barbier"}],"."]}],"\n",["$","p","p-2",{"children":"As a teaser, here is the chart we will reproduce:"}],"\n",["$","p","p-3",{"children":["$","img","img-0",{"src":"https://r-graph-gallery.com/img/graph/web-dumbell-chart-original.png?raw=true","alt":"preview final chart","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-1",{"children":"Libraries"}],"\n",["$","p","p-4",{"children":"First, we need to install the following libraries:"}],"\n",["$","$L2b","notebook-cell-0",{"index":0,"code":"# libraries\nimport matplotlib.pyplot as plt\nfrom highlight_text import ax_text, fig_text\nimport pandas as pd","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># libraries</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> matplotlib.pyplot </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> plt</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">from</span><span style=\"color:#24292E\"> highlight_text </span><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> ax_text, fig_text</span></span>\n<span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> pandas </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> pd</span></span></code></pre>","interactive":false,"hasChart":false}],"\n",["$","h2","h2-2",{"children":"Dataset"}],"\n",["$","p","p-5",{"children":["We start by ",["$","strong","strong-0",{"children":"manually creating"}]," the dataset and put it in a pandas dataframe."]}],"\n",["$","p","p-6",{"children":["Then we just need to to divide the number of wins and losses by the total number of games to get the ",["$","strong","strong-0",{"children":"win/loss rate"}],"."]}],"\n",["$","$L2b","notebook-cell-1",{"index":1,"code":"df = pd.DataFrame({\n    \"team\": [\"FC Bayern München\", \"SV Werder Bremen\", \"Borussia Dortmund\", \"VfB Stuttgart\", \n             \"Borussia M'gladbach\", \"Hamburger SV\", \"Eintracht Frankfurt\",\n             \"FC Schalke 04\", \"1. FC Köln\", \"Bayer 04 Leverkusen\"],\n    \"matches\": [2000, 1992, 1924, 1924, 1898, 1866, 1856, 1832, 1754, 1524],\n    \"won\": [1206, 818, 881, 782, 763, 746, 683, 700, 674, 669],\n    \"lost\": [363, 676, 563, 673, 636, 625, 693, 669, 628, 447]\n})\n\ndf['won'] = df['won'] / df['matches']\ndf['lost'] = df['lost'] / df['matches']\ndf.sort_values(by='matches', inplace=True)\ndf.reset_index(drop=True, inplace=True)\ndf.head()","highlighted":"$2c","interactive":false,"hasChart":false,"output":"$L2d"}],"\n","$L2e","$L2f","\n","$L30","$L31","\n","$L32","$L33","\n","$L34","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","$L3c","\n","$L3d","\n","$L3e","\n","$L3f"]
+26:["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Table"}]
+2a:null
+b:C
+2d:[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"team"}],["$","th","th-2",{"children":"matches"}],["$","th","th-3",{"children":"won"}],["$","th","th-4",{"children":"lost"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"0"}],["$","td","td-0",{"children":"Bayer 04 Leverkusen"}],["$","td","td-1",{"children":"1524"}],["$","td","td-2",{"children":"0.438976"}],["$","td","td-3",{"children":"0.293307"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"1"}],["$","td","td-0",{"children":"1. FC Köln"}],["$","td","td-1",{"children":"1754"}],["$","td","td-2",{"children":"0.384265"}],["$","td","td-3",{"children":"0.358039"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"2"}],["$","td","td-0",{"children":"FC Schalke 04"}],["$","td","td-1",{"children":"1832"}],["$","td","td-2",{"children":"0.382096"}],["$","td","td-3",{"children":"0.365175"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"3"}],["$","td","td-0",{"children":"Eintracht Frankfurt"}],["$","td","td-1",{"children":"1856"}],["$","td","td-2",{"children":"0.367996"}],["$","td","td-3",{"children":"0.373384"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"4"}],["$","td","td-0",{"children":"Hamburger SV"}],["$","td","td-1",{"children":"1866"}],["$","td","td-2",{"children":"0.399786"}],["$","td","td-3",{"children":"0.334941"}]]}]]}]]}],"\n"]}]}]]
+2e:["$","h2","h2-3",{"children":"Most simple lollipop chart"}]
+40:Ta2a,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span><span style="color:#005CC5">5</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># horizontal lines</span></span>
+<span class="line"><span style="color:#24292E">my_range </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">].nunique())</span></span>
+<span class="line"><span style="color:#24292E">ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">my_range, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'grey'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># points</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], my_range, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], my_range, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>2f:["$","$L2b","notebook-cell-2",{"index":2,"code":"fig, ax = plt.subplots(figsize=(8,5))\n\n# horizontal lines\nmy_range = range(df['team'].nunique())\nax.hlines(y=my_range, xmin=df['lost'], xmax=df['won'], color='grey', alpha=0.4)\n\n# points\nax.scatter(df['lost'], my_range, zorder=2)\nax.scatter(df['won'], my_range, zorder=2)\n\nplt.show()","highlighted":"$40","interactive":false,"hasChart":true,"intro":[["$","p","p-0",{"children":["Since there is no direct way to create a lollipop chart in matplotlib, we need to ",["$","strong","strong-0",{"children":"create it ourselves"}],"."]}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":["The code will simply ",["$","strong","strong-0",{"children":"plot individual lines"}]," for each team using the ","$L41"," function and then ","$L42"," on top of it using the ","$L43"," function."]}],"\n"]}],"\n","$L44","\n","$L45","\n"]}]],"output":"$L46"}]
+30:["$","h2","h2-4",{"children":"Custom style"}]
+47:Te09,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">color_lose, color_win </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#EFAC00"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#28A87D"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span><span style="color:#005CC5">5</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># horizontal lines</span></span>
+<span class="line"><span style="color:#24292E">my_range </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">].nunique())</span></span>
+<span class="line"><span style="color:#24292E">ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">my_range, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'grey'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># points</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], my_range, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_lose, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">80</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], my_range, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_win, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">80</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>31:["$","$L2b","notebook-cell-3",{"index":3,"code":"color_lose, color_win = \"#EFAC00\", \"#28A87D\"\n\nfig, ax = plt.subplots(figsize=(8,5))\n\n# horizontal lines\nmy_range = range(df['team'].nunique())\nax.hlines(y=my_range, xmin=df['lost'], xmax=df['won'], color='grey', alpha=0.4)\n\n# points\nax.scatter(df['lost'], my_range, color=color_lose, zorder=2, s=80)\nax.scatter(df['won'], my_range, color=color_win, zorder=2, s=80)\n\n# remove axis\nax.set_axis_off()\n\nplt.show()","highlighted":"$47","interactive":false,"hasChart":true,"intro":"$L48","output":"$L49"}]
+32:["$","h2","h2-5",{"children":"Add team names and values"}]
+4a:T4fe,color_lose, color_win = "#EFAC00", "#28A87D"
+
+fig, ax = plt.subplots(figsize=(7,5))
+
+# horizontal lines
+my_range = range(df['team'].nunique())
+ax.hlines(y=my_range, xmin=df['lost'], xmax=df['won'], color='grey', alpha=0.4)
+
+# points
+ax.scatter(df['lost'], my_range, color=color_lose, zorder=2, s=80)
+ax.scatter(df['won'], my_range, color=color_win, zorder=2, s=80)
+
+# add team names
+n = len(df)
+for i in range(df['team'].nunique()):
+
+    # losses
+    losses = df['lost'][i]
+    ax_text(
+        losses-0.012, i,
+        f"<{df['lost'][i]*100:.0f}%>",
+        ha='right', va='center',
+        highlight_textprops=[
+            {"color": color_lose,
+             "weight": "light"}]
+    )
+
+    # wins
+    wins = df['won'][i]
+    ax_text(
+        wins+0.012, i,
+        f"<{df['won'][i]*100:.0f}%>",
+        ha='left', va='center',
+        highlight_textprops=[
+            {"color": color_win,
+             "weight": "light"}]
+    )
+
+    # team names
+    team_name = df['team'][i]
+    ax_text(0.1, i,
+            f"<{team_name}>",
+            ha='right', va='center',
+            highlight_textprops=[
+                {"color": "black",
+                 "weight": "light",
+                 "size": 12}]
+        )
+    
+# remove axis
+ax.set_axis_off()
+
+plt.tight_layout()
+plt.show()4b:T285a,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">color_lose, color_win </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#EFAC00"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#28A87D"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">7</span><span style="color:#24292E">,</span><span style="color:#005CC5">5</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># horizontal lines</span></span>
+<span class="line"><span style="color:#24292E">my_range </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">].nunique())</span></span>
+<span class="line"><span style="color:#24292E">ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">my_range, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'grey'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># points</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], my_range, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_lose, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">80</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], my_range, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_win, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">80</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add team names</span></span>
+<span class="line"><span style="color:#24292E">n </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df)</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">].nunique()):</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # losses</span></span>
+<span class="line"><span style="color:#24292E">    losses </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        losses</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.012</span><span style="color:#24292E">, i,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">][i]</span><span style="color:#D73A49">*</span><span style="color:#005CC5">100</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">%>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_lose,</span></span>
+<span class="line"><span style="color:#032F62">             "weight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"light"</span><span style="color:#24292E">}]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # wins</span></span>
+<span class="line"><span style="color:#24292E">    wins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        wins</span><span style="color:#D73A49">+</span><span style="color:#005CC5">0.012</span><span style="color:#24292E">, i,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">][i]</span><span style="color:#D73A49">*</span><span style="color:#005CC5">100</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">%>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_win,</span></span>
+<span class="line"><span style="color:#032F62">             "weight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"light"</span><span style="color:#24292E">}]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # team names</span></span>
+<span class="line"><span style="color:#24292E">    team_name </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, i,</span></span>
+<span class="line"><span style="color:#D73A49">            f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">team_name</span><span style="color:#005CC5">}</span><span style="color:#032F62">>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">                {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: </span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">                 "weight"</span><span style="color:#24292E">: </span><span style="color:#032F62">"light"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">                 "size"</span><span style="color:#24292E">: </span><span style="color:#005CC5">12</span><span style="color:#24292E">}]</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>33:["$","$L2b","notebook-cell-4",{"index":4,"code":"$4a","highlighted":"$4b","interactive":false,"hasChart":true,"intro":"$L4c","output":"$L4d"}]
+34:["$","h2","h2-6",{"children":"Colors details"}]
+4e:T662,color_lose, color_win = "#EFAC00", "#28A87D"
+color_lose_dark, color_win_dark = "#aa7c05", "#1e8563"
+
+fig, ax = plt.subplots(figsize=(7,5))
+
+# horizontal lines
+my_range = range(df['team'].nunique())
+ax.hlines(y=my_range, xmin=df['lost'], xmax=df['won'], color='grey', alpha=0.4)
+
+# points
+ax.scatter(df['lost'], my_range, color=color_lose, zorder=3, s=80)
+ax.scatter(df['won'], my_range, color=color_win, zorder=2, s=80)
+
+# add team names
+n = len(df)
+for i in range(df['team'].nunique()):
+    
+    # team names
+    team_name = df['team'][i]
+    if team_name == "FC Bayern München":
+        weight = "bold"
+        bayern_munch = df[df['team'] == team_name]
+        ax.hlines(y=i, xmin=bayern_munch['lost'], xmax=bayern_munch['won'], linewidth=2, color='black', zorder=1)
+
+    else:
+        weight = "normal"
+    ax_text(0.1, i,
+            f"<{team_name}>",
+            ha='right', va='center',
+            highlight_textprops=[
+                {"color": "black",
+                 "fontweight": weight,
+                 "size": 12}
+            ]
+        )
+
+    # losses
+    losses = df['lost'][i]
+    ax_text(
+        losses-0.016, i,
+        f"<{df['lost'][i]*100:.0f}%>",
+        ha='right', va='center',
+        highlight_textprops=[
+            {"color": color_lose_dark,
+             "weight": weight}
+        ]
+    )
+
+    # wins
+    wins = df['won'][i]
+    ax_text(
+        wins+0.016, i,
+        f"<{df['won'][i]*100:.0f}%>",
+        ha='left', va='center',
+        highlight_textprops=[
+            {"color": color_win_dark,
+             "weight": weight}]
+    )
+
+# remove axis
+ax.set_axis_off()
+
+plt.tight_layout()
+plt.show()4f:T312f,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">color_lose, color_win </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#EFAC00"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#28A87D"</span></span>
+<span class="line"><span style="color:#24292E">color_lose_dark, color_win_dark </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#aa7c05"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#1e8563"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">7</span><span style="color:#24292E">,</span><span style="color:#005CC5">5</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># horizontal lines</span></span>
+<span class="line"><span style="color:#24292E">my_range </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">].nunique())</span></span>
+<span class="line"><span style="color:#24292E">ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">my_range, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'grey'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># points</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], my_range, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_lose, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">80</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], my_range, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_win, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">80</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add team names</span></span>
+<span class="line"><span style="color:#24292E">n </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df)</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">].nunique()):</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # team names</span></span>
+<span class="line"><span style="color:#24292E">    team_name </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> team_name </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "FC Bayern München"</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        weight </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "bold"</span></span>
+<span class="line"><span style="color:#24292E">        bayern_munch </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> team_name]</span></span>
+<span class="line"><span style="color:#24292E">        ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">i, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">bayern_munch[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">bayern_munch[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        weight </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "normal"</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, i,</span></span>
+<span class="line"><span style="color:#D73A49">            f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">team_name</span><span style="color:#005CC5">}</span><span style="color:#032F62">>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">                {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: </span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">                 "fontweight"</span><span style="color:#24292E">: weight,</span></span>
+<span class="line"><span style="color:#032F62">                 "size"</span><span style="color:#24292E">: </span><span style="color:#005CC5">12</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">            ]</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # losses</span></span>
+<span class="line"><span style="color:#24292E">    losses </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        losses</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.016</span><span style="color:#24292E">, i,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">][i]</span><span style="color:#D73A49">*</span><span style="color:#005CC5">100</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">%>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_lose_dark,</span></span>
+<span class="line"><span style="color:#032F62">             "weight"</span><span style="color:#24292E">: weight}</span></span>
+<span class="line"><span style="color:#24292E">        ]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # wins</span></span>
+<span class="line"><span style="color:#24292E">    wins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        wins</span><span style="color:#D73A49">+</span><span style="color:#005CC5">0.016</span><span style="color:#24292E">, i,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">][i]</span><span style="color:#D73A49">*</span><span style="color:#005CC5">100</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">%>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_win_dark,</span></span>
+<span class="line"><span style="color:#032F62">             "weight"</span><span style="color:#24292E">: weight}]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>35:["$","$L2b","notebook-cell-5",{"index":5,"code":"$4e","highlighted":"$4f","interactive":false,"hasChart":true,"intro":"$L50","output":"$L51"}]
+36:["$","h2","h2-7",{"children":"Title and annotations"}]
+37:["$","p","p-7",{"children":["Now that we have the core of the chart, we only need to add a few ",["$","strong","strong-0",{"children":"annotations"}],". Since the original chart has some specific fonts, we have to define them before:"]}]
+38:["$","p","p-8",{"children":["First we load the ",["$","code","code-0",{"children":"Familjen Grotesk"}]," font:"]}]
+52:Tbea,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># find path to font</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib </span><span style="color:#D73A49">import</span><span style="color:#24292E"> font_manager</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> fontpath </span><span style="color:#D73A49">in</span><span style="color:#24292E"> font_manager.findSystemFonts(</span><span style="color:#E36209">fontpaths</span><span style="color:#D73A49">=</span><span style="color:#005CC5">None</span><span style="color:#24292E">, </span><span style="color:#E36209">fontext</span><span style="color:#D73A49">=</span><span style="color:#032F62">'ttf'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#032F62"> 'grotesk'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> fontpath.lower():</span></span>
+<span class="line"><span style="color:#005CC5">        print</span><span style="color:#24292E">(fontpath)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># get font properties</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.font_manager </span><span style="color:#D73A49">import</span><span style="color:#24292E"> FontProperties</span></span>
+<span class="line"><span style="color:#24292E">personal_path </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '/Users/josephbarbier/Library/Fonts/'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># font</span></span>
+<span class="line"><span style="color:#24292E">font_path </span><span style="color:#D73A49">=</span><span style="color:#24292E"> personal_path </span><span style="color:#D73A49">+</span><span style="color:#032F62"> 'FamiljenGrotesk-VariableFont_wght.ttf'</span></span>
+<span class="line"><span style="color:#24292E">grotesk_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FontProperties(</span><span style="color:#E36209">fname</span><span style="color:#D73A49">=</span><span style="color:#24292E">font_path)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># bold font</span></span>
+<span class="line"><span style="color:#24292E">font_path_bold </span><span style="color:#D73A49">=</span><span style="color:#24292E"> personal_path </span><span style="color:#D73A49">+</span><span style="color:#032F62"> 'FamiljenGrotesk-Bold.ttf'</span></span>
+<span class="line"><span style="color:#24292E">grotesk_font_bold </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FontProperties(</span><span style="color:#E36209">fname</span><span style="color:#D73A49">=</span><span style="color:#24292E">font_path_bold)</span></span></code></pre>39:["$","$L2b","notebook-cell-6",{"index":6,"code":"# find path to font\nfrom matplotlib import font_manager\nfor fontpath in font_manager.findSystemFonts(fontpaths=None, fontext='ttf'):\n    if 'grotesk' in fontpath.lower():\n        print(fontpath)\n\n# get font properties\nfrom matplotlib.font_manager import FontProperties\npersonal_path = '/Users/josephbarbier/Library/Fonts/'\n\n# font\nfont_path = personal_path + 'FamiljenGrotesk-VariableFont_wght.ttf'\ngrotesk_font = FontProperties(fname=font_path)\n\n# bold font\nfont_path_bold = personal_path + 'FamiljenGrotesk-Bold.ttf'\ngrotesk_font_bold = FontProperties(fname=font_path_bold)","highlighted":"$52","interactive":false,"hasChart":false,"output":"$L53"}]
+3a:["$","p","p-9",{"children":["Then we load the ",["$","code","code-0",{"children":"Pally"}]," font:"]}]
+54:Tbc6,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># find path to font</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib </span><span style="color:#D73A49">import</span><span style="color:#24292E"> font_manager</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> fontpath </span><span style="color:#D73A49">in</span><span style="color:#24292E"> font_manager.findSystemFonts(</span><span style="color:#E36209">fontpaths</span><span style="color:#D73A49">=</span><span style="color:#005CC5">None</span><span style="color:#24292E">, </span><span style="color:#E36209">fontext</span><span style="color:#D73A49">=</span><span style="color:#032F62">'ttf'</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#032F62"> 'pally'</span><span style="color:#D73A49"> in</span><span style="color:#24292E"> fontpath.lower():</span></span>
+<span class="line"><span style="color:#005CC5">        print</span><span style="color:#24292E">(fontpath)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># get font properties</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.font_manager </span><span style="color:#D73A49">import</span><span style="color:#24292E"> FontProperties</span></span>
+<span class="line"><span style="color:#24292E">personal_path </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '/Users/josephbarbier/Library/Fonts/'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># font</span></span>
+<span class="line"><span style="color:#24292E">font_path </span><span style="color:#D73A49">=</span><span style="color:#24292E"> personal_path </span><span style="color:#D73A49">+</span><span style="color:#032F62"> 'Pally-Regular.otf'</span></span>
+<span class="line"><span style="color:#24292E">pally_font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FontProperties(</span><span style="color:#E36209">fname</span><span style="color:#D73A49">=</span><span style="color:#24292E">font_path)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># bold font</span></span>
+<span class="line"><span style="color:#24292E">font_path_bold </span><span style="color:#D73A49">=</span><span style="color:#24292E"> personal_path </span><span style="color:#D73A49">+</span><span style="color:#032F62"> 'Pally-Bold.otf'</span></span>
+<span class="line"><span style="color:#24292E">pally_font_bold </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FontProperties(</span><span style="color:#E36209">fname</span><span style="color:#D73A49">=</span><span style="color:#24292E">font_path_bold)</span></span></code></pre>3b:["$","$L2b","notebook-cell-7",{"index":7,"code":"# find path to font\nfrom matplotlib import font_manager\nfor fontpath in font_manager.findSystemFonts(fontpaths=None, fontext='ttf'):\n    if 'pally' in fontpath.lower():\n        print(fontpath)\n\n# get font properties\nfrom matplotlib.font_manager import FontProperties\npersonal_path = '/Users/josephbarbier/Library/Fonts/'\n\n# font\nfont_path = personal_path + 'Pally-Regular.otf'\npally_font = FontProperties(fname=font_path)\n\n# bold font\nfont_path_bold = personal_path + 'Pally-Bold.otf'\npally_font_bold = FontProperties(fname=font_path_bold)","highlighted":"$54","interactive":false,"hasChart":false,"output":"$L55"}]
+56:Tf7c,color_lose, color_win = "#EFAC00", "#28A87D"
+color_lose_dark, color_win_dark = "#aa7c05", "#1e8563"
+
+fig, ax = plt.subplots(figsize=(7,5))
+
+# horizontal lines
+my_range = range(df['team'].nunique())
+ax.hlines(y=my_range, xmin=df['lost'], xmax=df['won'], color='grey', alpha=0.4)
+
+# points
+ax.scatter(df['lost'], my_range, color=color_lose, zorder=2, s=80)
+ax.scatter(df['won'], my_range, color=color_win, zorder=2, s=80)
+
+# add team names
+n = len(df)
+for i in range(df['team'].nunique()):
+    
+    # team names
+    team_name = df['team'][i]
+    if team_name == "FC Bayern München":
+        font = grotesk_font_bold
+        bayern_munch = df[df['team'] == team_name]
+        ax.hlines(y=i, xmin=bayern_munch['lost'], xmax=bayern_munch['won'], linewidth=2, color='black', zorder=1)
+
+    else:
+        font = grotesk_font
+    ax_text(0.1, i,
+            f"<{team_name}>",
+            ha='right', va='center',
+            fontproperties=grotesk_font,
+            highlight_textprops=[
+                {"color": "black",
+                 "font": font,
+                 "size": 12}
+            ]
+        )
+
+    # losses
+    losses = df['lost'][i]
+    ax_text(
+        losses-0.016, i,
+        f"<{df['lost'][i]*100:.0f}%>",
+        ha='right', va='center',
+        fontproperties=grotesk_font,
+        highlight_textprops=[
+            {"color": color_lose_dark,
+             "font": font}
+        ]
+    )
+
+    # wins
+    wins = df['won'][i]
+    ax_text(
+        wins+0.016, i,
+        f"<{df['won'][i]*100:.0f}%>",
+        ha='left', va='center',
+        fontproperties=grotesk_font,
+        highlight_textprops=[
+            {"color": color_win_dark,
+             "font": font}]
+    )
+
+# title
+text = "Among the ten teams with the most Bundesliga matches,\n<Bayern Munich has the> <lowest loss> <and> <highest win> <rates>"
+fig_text(
+    0.05, 1,
+    text,
+    fontsize=20,
+    fontproperties=grotesk_font,
+    ha='left', va='center',
+    highlight_textprops=[
+        {"font": grotesk_font_bold},
+        {"color": color_lose_dark,
+         "font": grotesk_font_bold},
+        {"font": grotesk_font_bold},
+        {"color": color_win_dark,
+         "font": grotesk_font_bold},
+        {"font": grotesk_font_bold},
+    ]
+)
+
+# legend annotation
+text = '<matches lost>'
+fig_text(
+    0.38, 0.8,
+    text,
+    fontsize=13,
+    ha='center', va='center',
+    highlight_textprops=[
+        {"color": color_lose,
+         "font": pally_font_bold}
+    ]
+)
+text = '<matches won>'
+fig_text(
+    0.76, 0.8,
+    text,
+    fontsize=13,
+    ha='center', va='center',
+    highlight_textprops=[
+        {"color": color_win,
+         "font": pally_font_bold}
+    ]
+)
+
+# credit
+text = "<Graphic: Cédric Scherer · Source: kicker.de ·> Teams are ranked according to the number of Bundesliga matches they have played so far"
+fig_text(
+    0.05, 0.04,
+    text,
+    fontsize=8,
+    fontproperties=grotesk_font,
+    color='grey',
+    ha='left', va='center',
+    highlight_textprops=[
+        {"font": grotesk_font_bold}
+    ]
+)
+
+# remove axis
+ax.set_axis_off()
+
+# note about Frankfurt
+text = "<Frankfurt> is the only team listed\nthat <lost more games (37.3%)>\nthan <they have won (36.8%)>"
+fig_text(
+    0.75, 0.2,
+    text,
+    fontsize=12,
+    color='grey',
+    fontproperties=grotesk_font,
+    ha='left', va='center',
+    highlight_textprops=[
+        {"font": pally_font_bold},
+        {"color": color_lose_dark,
+         "font": pally_font_bold},
+        {"color": color_win_dark,
+         "font": pally_font_bold}
+    ]
+)
+
+# arrow
+from matplotlib.patches import FancyArrowPatch
+arrow_style = "Simple, tail_width=0.5, head_width=4, head_length=8"
+connection_style = "arc3,rad=.3"
+arrow_properties = {
+    "arrowstyle": arrow_style,
+    "color": "grey",
+}
+tail_position = (0.62, 1.6)
+head_position = (0.43, 3)
+arrow = FancyArrowPatch(
+    tail_position, head_position,
+    connectionstyle=connection_style,
+    **arrow_properties
+)
+ax.add_patch(arrow)
+
+plt.tight_layout()
+plt.show()57:T6749,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">color_lose, color_win </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#EFAC00"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#28A87D"</span></span>
+<span class="line"><span style="color:#24292E">color_lose_dark, color_win_dark </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "#aa7c05"</span><span style="color:#24292E">, </span><span style="color:#032F62">"#1e8563"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">7</span><span style="color:#24292E">,</span><span style="color:#005CC5">5</span><span style="color:#24292E">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># horizontal lines</span></span>
+<span class="line"><span style="color:#24292E">my_range </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">].nunique())</span></span>
+<span class="line"><span style="color:#24292E">ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">my_range, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'grey'</span><span style="color:#24292E">, </span><span style="color:#E36209">alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># points</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], my_range, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_lose, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">80</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.scatter(df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], my_range, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#24292E">color_win, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">s</span><span style="color:#D73A49">=</span><span style="color:#005CC5">80</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># add team names</span></span>
+<span class="line"><span style="color:#24292E">n </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> len</span><span style="color:#24292E">(df)</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> i </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> range</span><span style="color:#24292E">(df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">].nunique()):</span></span>
+<span class="line"><span style="color:#24292E">    </span></span>
+<span class="line"><span style="color:#6A737D">    # team names</span></span>
+<span class="line"><span style="color:#24292E">    team_name </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#24292E"> team_name </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "FC Bayern München"</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> grotesk_font_bold</span></span>
+<span class="line"><span style="color:#24292E">        bayern_munch </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[df[</span><span style="color:#032F62">'team'</span><span style="color:#24292E">] </span><span style="color:#D73A49">==</span><span style="color:#24292E"> team_name]</span></span>
+<span class="line"><span style="color:#24292E">        ax.hlines(</span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#24292E">i, </span><span style="color:#E36209">xmin</span><span style="color:#D73A49">=</span><span style="color:#24292E">bayern_munch[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">], </span><span style="color:#E36209">xmax</span><span style="color:#D73A49">=</span><span style="color:#24292E">bayern_munch[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">], </span><span style="color:#E36209">linewidth</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#E36209">color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'black'</span><span style="color:#24292E">, </span><span style="color:#E36209">zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">        font </span><span style="color:#D73A49">=</span><span style="color:#24292E"> grotesk_font</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span><span style="color:#005CC5">0.1</span><span style="color:#24292E">, i,</span></span>
+<span class="line"><span style="color:#D73A49">            f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">team_name</span><span style="color:#005CC5">}</span><span style="color:#032F62">>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">            fontproperties</span><span style="color:#D73A49">=</span><span style="color:#24292E">grotesk_font,</span></span>
+<span class="line"><span style="color:#E36209">            highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">                {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: </span><span style="color:#032F62">"black"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">                 "font"</span><span style="color:#24292E">: font,</span></span>
+<span class="line"><span style="color:#032F62">                 "size"</span><span style="color:#24292E">: </span><span style="color:#005CC5">12</span><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">            ]</span></span>
+<span class="line"><span style="color:#24292E">        )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # losses</span></span>
+<span class="line"><span style="color:#24292E">    losses </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        losses</span><span style="color:#D73A49">-</span><span style="color:#005CC5">0.016</span><span style="color:#24292E">, i,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">df[</span><span style="color:#032F62">'lost'</span><span style="color:#24292E">][i]</span><span style="color:#D73A49">*</span><span style="color:#005CC5">100</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">%>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'right'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontproperties</span><span style="color:#D73A49">=</span><span style="color:#24292E">grotesk_font,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_lose_dark,</span></span>
+<span class="line"><span style="color:#032F62">             "font"</span><span style="color:#24292E">: font}</span></span>
+<span class="line"><span style="color:#24292E">        ]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # wins</span></span>
+<span class="line"><span style="color:#24292E">    wins </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">][i]</span></span>
+<span class="line"><span style="color:#24292E">    ax_text(</span></span>
+<span class="line"><span style="color:#24292E">        wins</span><span style="color:#D73A49">+</span><span style="color:#005CC5">0.016</span><span style="color:#24292E">, i,</span></span>
+<span class="line"><span style="color:#D73A49">        f</span><span style="color:#032F62">"&#x3C;</span><span style="color:#005CC5">{</span><span style="color:#24292E">df[</span><span style="color:#032F62">'won'</span><span style="color:#24292E">][i]</span><span style="color:#D73A49">*</span><span style="color:#005CC5">100</span><span style="color:#D73A49">:.0f</span><span style="color:#005CC5">}</span><span style="color:#032F62">%>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        fontproperties</span><span style="color:#D73A49">=</span><span style="color:#24292E">grotesk_font,</span></span>
+<span class="line"><span style="color:#E36209">        highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">            {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_win_dark,</span></span>
+<span class="line"><span style="color:#032F62">             "font"</span><span style="color:#24292E">: font}]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># title</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Among the ten teams with the most Bundesliga matches,</span><span style="color:#005CC5">\n</span><span style="color:#032F62">&#x3C;Bayern Munich has the> &#x3C;lowest loss> &#x3C;and> &#x3C;highest win> &#x3C;rates>"</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.05</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">20</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontproperties</span><span style="color:#D73A49">=</span><span style="color:#24292E">grotesk_font,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: grotesk_font_bold},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_lose_dark,</span></span>
+<span class="line"><span style="color:#032F62">         "font"</span><span style="color:#24292E">: grotesk_font_bold},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: grotesk_font_bold},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_win_dark,</span></span>
+<span class="line"><span style="color:#032F62">         "font"</span><span style="color:#24292E">: grotesk_font_bold},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: grotesk_font_bold},</span></span>
+<span class="line"><span style="color:#24292E">    ]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># legend annotation</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '&#x3C;matches lost>'</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.38</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_lose,</span></span>
+<span class="line"><span style="color:#032F62">         "font"</span><span style="color:#24292E">: pally_font_bold}</span></span>
+<span class="line"><span style="color:#24292E">    ]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> '&#x3C;matches won>'</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.76</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">13</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_win,</span></span>
+<span class="line"><span style="color:#032F62">         "font"</span><span style="color:#24292E">: pally_font_bold}</span></span>
+<span class="line"><span style="color:#24292E">    ]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># credit</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "&#x3C;Graphic: Cédric Scherer · Source: kicker.de ·> Teams are ranked according to the number of Bundesliga matches they have played so far"</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.05</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.04</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontproperties</span><span style="color:#D73A49">=</span><span style="color:#24292E">grotesk_font,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'grey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: grotesk_font_bold}</span></span>
+<span class="line"><span style="color:#24292E">    ]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># remove axis</span></span>
+<span class="line"><span style="color:#24292E">ax.set_axis_off()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># note about Frankfurt</span></span>
+<span class="line"><span style="color:#24292E">text </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "&#x3C;Frankfurt> is the only team listed</span><span style="color:#005CC5">\n</span><span style="color:#032F62">that &#x3C;lost more games (37.3%)></span><span style="color:#005CC5">\n</span><span style="color:#032F62">than &#x3C;they have won (36.8%)>"</span></span>
+<span class="line"><span style="color:#24292E">fig_text(</span></span>
+<span class="line"><span style="color:#005CC5">    0.75</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    text,</span></span>
+<span class="line"><span style="color:#E36209">    fontsize</span><span style="color:#D73A49">=</span><span style="color:#005CC5">12</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    color</span><span style="color:#D73A49">=</span><span style="color:#032F62">'grey'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    fontproperties</span><span style="color:#D73A49">=</span><span style="color:#24292E">grotesk_font,</span></span>
+<span class="line"><span style="color:#E36209">    ha</span><span style="color:#D73A49">=</span><span style="color:#032F62">'left'</span><span style="color:#24292E">, </span><span style="color:#E36209">va</span><span style="color:#D73A49">=</span><span style="color:#032F62">'center'</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    highlight_textprops</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"font"</span><span style="color:#24292E">: pally_font_bold},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_lose_dark,</span></span>
+<span class="line"><span style="color:#032F62">         "font"</span><span style="color:#24292E">: pally_font_bold},</span></span>
+<span class="line"><span style="color:#24292E">        {</span><span style="color:#032F62">"color"</span><span style="color:#24292E">: color_win_dark,</span></span>
+<span class="line"><span style="color:#032F62">         "font"</span><span style="color:#24292E">: pally_font_bold}</span></span>
+<span class="line"><span style="color:#24292E">    ]</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># arrow</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib.patches </span><span style="color:#D73A49">import</span><span style="color:#24292E"> FancyArrowPatch</span></span>
+<span class="line"><span style="color:#24292E">arrow_style </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "Simple, tail_width=0.5, head_width=4, head_length=8"</span></span>
+<span class="line"><span style="color:#24292E">connection_style </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "arc3,rad=.3"</span></span>
+<span class="line"><span style="color:#24292E">arrow_properties </span><span style="color:#D73A49">=</span><span style="color:#24292E"> {</span></span>
+<span class="line"><span style="color:#032F62">    "arrowstyle"</span><span style="color:#24292E">: arrow_style,</span></span>
+<span class="line"><span style="color:#032F62">    "color"</span><span style="color:#24292E">: </span><span style="color:#032F62">"grey"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">}</span></span>
+<span class="line"><span style="color:#24292E">tail_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.62</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.6</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">head_position </span><span style="color:#D73A49">=</span><span style="color:#24292E"> (</span><span style="color:#005CC5">0.43</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">arrow </span><span style="color:#D73A49">=</span><span style="color:#24292E"> FancyArrowPatch(</span></span>
+<span class="line"><span style="color:#24292E">    tail_position, head_position,</span></span>
+<span class="line"><span style="color:#E36209">    connectionstyle</span><span style="color:#D73A49">=</span><span style="color:#24292E">connection_style,</span></span>
+<span class="line"><span style="color:#D73A49">    **</span><span style="color:#24292E">arrow_properties</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">ax.add_patch(arrow)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.tight_layout()</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3c:["$","$L2b","notebook-cell-8",{"index":8,"code":"$56","highlighted":"$57","interactive":false,"hasChart":true,"intro":"$L58","output":"$L59"}]
+3d:["$","h2","h2-8",{"children":"Going further"}]
+3e:["$","p","p-10",{"children":["This article explains how to create a ",["$","a","a-0",{"href":"/lollipop-plot","children":"lollipop chart"}]," in matplotlib."]}]
+3f:["$","p","p-11",{"children":["You might also be interested in this ",["$","a","a-0",{"href":"/web-lollipop-plot-with-python-mario-kart-64-world-records","children":"other beautiful dumbell chart"}]," and more generally by how to create ",["$","a","a-1",{"href":"/advanced-custom-annotations-matplotlib","children":"beautiful annotations in matplotlib"}]]}]
+41:["$","code","code-0",{"children":"hlines()"}]
+42:["$","strong","strong-1",{"children":"plot data points"}]
+43:["$","code","code-1",{"children":"scatter()"}]
+44:["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":["The ",["$","code","code-0",{"children":"hlines()"}]," function needs the y-coordinates (which simply is ",["$","code","code-1",{"children":"0"}],",",["$","code","code-2",{"children":"1"}],",",["$","code","code-3",{"children":"2"}],",...,",["$","code","code-4",{"children":"n"}],", where ",["$","code","code-5",{"children":"n"}]," is the number of team minus 1) and the x-coordinates (which is the win/loss rate)."]}],"\n"]}]
+45:["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":["The ",["$","code","code-0",{"children":"zorder"}]," parameter is used to make sure the data points are ",["$","strong","strong-0",{"children":"plotted on top"}]," of the lines."]}],"\n"]}]
+46:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-dumbell-chart/output-2.png","alt":"Dumbell chart with custom annotations","width":658,"height":428,"loading":"lazy","decoding":"async"}]}]]
+48:[["$","p","p-0",{"children":"Let's add the following features to the chart:"}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":["define ",["$","code","code-0",{"children":"color_lose"}]," and ",["$","code","code-1",{"children":"color_win"}]," to ",["$","strong","strong-0",{"children":"color"}]," the lollipop chart"]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":["change the ",["$","strong","strong-0",{"children":"size of the data points"}]," with the ",["$","code","code-0",{"children":"s"}]," argument"]}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"remove the axis"}]," with ",["$","code","code-0",{"children":"ax.set_axis_off()"}]]}],"\n"]}],"\n"]}]]
+49:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-dumbell-chart/output-3.png","alt":"Dumbell chart with custom annotations","width":640,"height":405,"loading":"lazy","decoding":"async"}]}]]
+4c:[["$","p","p-0",{"children":["Now we want to add the ",["$","strong","strong-0",{"children":"team names"}]," and the ",["$","strong","strong-1",{"children":"percentage of wins and losses"}]," to the chart."]}],["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":["In practice we ",["$","strong","strong-0",{"children":"iterate over the teams"}]," with a ",["$","code","code-0",{"children":"for"}]," loop and add the text with the ",["$","code","code-1",{"children":"ax_text()"}]," function."]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Text formatting"}]," such as colors and boldness is done thanks to the ",["$","a","a-0",{"href":"https://python-graph-gallery.com/advanced-custom-annotations-matplotlib/","children":"highlight_text package"}]]}],"\n"]}],"\n"]}]]
+4d:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-dumbell-chart/output-4.png","alt":"Dumbell chart with custom annotations","width":673,"height":490,"loading":"lazy","decoding":"async"}]}]]
+50:[["$","p","p-0",{"children":["In the original post, there is not only yellow and green, but also a ",["$","strong","strong-0",{"children":"darker version of these colors"}],". Even if this may sound like a detail, it is actually an ",["$","strong","strong-1",{"children":"important feature"}]," of the chart since it makes it easier to read values."]}],["$","p","p-1",{"children":["With that, we take the opportunity to define a ",["$","strong","strong-0",{"children":"special case"}]," (with a ",["$","code","code-0",{"children":"if"}]," statement during the loop) for the ",["$","code","code-1",{"children":"FC Bayern München"}]," team that we want to highlight. We add a darker horizontal line and a ",["$","strong","strong-1",{"children":"bold team name"}],"."]}]]
+51:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-dumbell-chart/output-5.png","alt":"Dumbell chart with custom annotations","width":670,"height":490,"loading":"lazy","decoding":"async"}]}]]
+53:[["$","pre","pre-0",{"className":"plain-output","children":["$","code","code-0",{"className":"language-text","children":"/Users/josephbarbier/Library/Fonts/FamiljenGrotesk-VariableFont_wght.ttf\n/Users/josephbarbier/Library/Fonts/FamiljenGrotesk-SemiBold.ttf\n/Users/josephbarbier/Library/Fonts/FamiljenGrotesk-Bold.ttf\n"}]}]]
+55:[["$","pre","pre-0",{"className":"plain-output","children":["$","code","code-0",{"className":"language-text","children":"/Users/josephbarbier/Library/Fonts/Pally-Regular.otf\n/Users/josephbarbier/Library/Fonts/Pally-Bold.otf\n/Users/josephbarbier/Library/Fonts/Pally-Medium.otf\n"}]}]]
+58:[["$","p","p-0",{"children":["Other annotations are added with the ",["$","code","code-0",{"children":"ax_text()"}]," function. The positionings are ",["$","strong","strong-0",{"children":"defined through trial and error"}]," until it looks good."]}]]
+59:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-dumbell-chart/output-6.png","alt":"Dumbell chart with custom annotations","width":746,"height":542,"loading":"lazy","decoding":"async"}]}]]
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"

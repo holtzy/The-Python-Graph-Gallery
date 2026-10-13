@@ -1,0 +1,931 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/09q85_ay6xdo0.js"
+3:"/_next/static/chunks/21dxsc4p3jeoz.js"
+4:"/_next/static/chunks/1d1qeiuriwpmz.js"
+5:"/_next/static/chunks/1u5pxdefkf32d.js"
+6:I[62319,["$2","$3","$4","$5"],"default"]
+7:I[39756,["$2","$3","$4","$5"],"default"]
+8:I[37457,["$2","$3","$4","$5"],"default"]
+9:"/_next/static/chunks/354p-aqxaih3m.js"
+a:I[22016,["$2","$3","$4","$5","$9"],""]
+b:I[44110,["$2","$3","$4","$5","$9"],"default"]
+19:I[68027,["$2","$3","$4","$5"],"default",1]
+:HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
+:HL["/_next/static/chunks/1ms0qnrh2aktb.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":{"n":"slug","t":"d","k":"web-overlapped-area-chart-with-zoom-outsets","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":66048,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","web-overlapped-area-chart-with-zoom-outsets",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/09q85_ay6xdo0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/21dxsc4p3jeoz.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1d1qeiuriwpmz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1u5pxdefkf32d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"JdxiwG_variable iGg3zq_variable antialiased","children":[["$","head",null,{"children":["$","link",null,{"rel":"sitemap","type":"application/xml","href":"/sitemap-index.xml"}]}],["$","body",null,{"children":[["$","$L6",null,{}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":[["$","h2",null,{"id":"404","children":" 😞 Oh No 😞 | 404"}],["$","p",null,{"children":"It looks like there is nothing here anymore."}],["$","p",null,{"children":["Please go back to the ",["$","$La",null,{"href":"/","children":"gallery home page"}]," and check if you can find your graph!"]}]]}],["$","div",null,{"className":"h-16 sm:h-20"}],["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}],["$","div",null,{"className":"h-16 sm:h-20"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-24 border-t py-8 text-sm text-muted-foreground","children":["$","div",null,{"className":"mx-auto max-w-5xl px-5","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-4 sm:flex-row","children":[["$","div",null,{"children":["Copyright © the Python Graph Gallery ",2026]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","a","https://github.com/holtzy",{"href":"https://github.com/holtzy","aria-label":"Link to Yan Holtz Github profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 496 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"$c"}]}]}],"$Ld","$Le","$Lf"]}],"$L10"]}]}]}],"$L11","$L12"]}]]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",["$L1a","$L1b"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+1c:I[79520,["$2","$3","$4","$5"],""]
+1e:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:"ViewportBoundary"
+22:I[97367,["$2","$3","$4","$5"],"$21"]
+24:"MetadataBoundary"
+25:I[97367,["$2","$3","$4","$5"],"$24"]
+d:["$","a","https://twitter.com/R_Graph_Gallery",{"href":"https://twitter.com/R_Graph_Gallery","aria-label":"Link to Yan Holtz Twitter profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 512 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}]}]}]
+e:["$","a","https://www.linkedin.com/in/yan-holtz-2477534a/",{"href":"https://www.linkedin.com/in/yan-holtz-2477534a/","aria-label":"Link to Yan Holtz LinkedIn profile","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 448 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"}]}]}]
+f:["$","a","https://www.yan-holtz.com",{"href":"https://www.yan-holtz.com","aria-label":"Link to Yan Holtz Homepage","className":"text-muted-foreground hover:text-foreground","children":["$","svg",null,{"viewBox":"0 0 576 512","width":18,"height":18,"aria-hidden":"true","focusable":"false","children":["$","path",null,{"fill":"currentColor","d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"}]}]}]
+10:["$","div",null,{"className":"flex gap-2","children":[["$","a",null,{"href":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE","className":"hover:text-foreground","children":"License"}],["$","span",null,{"children":"|"}],["$","$La",null,{"href":"/about","className":"hover:text-foreground","children":"About"}]]}]
+11:["$","$L1c",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-YJ2YPBMD3W","strategy":"afterInteractive"}]
+12:["$","$L1c",null,{"id":"gtag-init","strategy":"afterInteractive","children":"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YJ2YPBMD3W');"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L26"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1kk9e42h0mua1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1ms0qnrh2aktb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+15:C
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]
+27:I[27201,["$2","$3","$4","$5"],"IconMark"]
+20:null
+26:[["$","title","0",{"children":"Overlapped Area Chart with Zoom Outsets"}],["$","meta","1",{"name":"description","content":"Creating an multiscale overlapped area plot visualization of time series data using matplotlib's stackplot in conjunction with the outset package, which allows us to add zoom panels showing regions of interest in greater detail."}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"python, chart, overlapped, area, matplotlib, line, multiscale, faceted, outset, zoom"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/web-overlapped-area-chart-with-zoom-outsets/"}],["$","meta","6",{"property":"og:title","content":"Overlapped Area Chart with Zoom Outsets"}],["$","meta","7",{"property":"og:description","content":"Creating an multiscale overlapped area plot visualization of time series data using matplotlib's stackplot in conjunction with the outset package, which allows us to add zoom panels showing regions of interest in greater detail."}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Overlapped Area Chart with Zoom Outsets"}],["$","meta","13",{"name":"twitter:description","content":"Creating an multiscale overlapped area plot visualization of time series data using matplotlib's stackplot in conjunction with the outset package, which allows us to add zoom panels showing regions of interest in greater detail."}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L27","24",{}]]
+1d:[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Overlapped Area Chart with Zoom Outsets"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Area150.webp","alt":"logo of a chart:Area","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>In this tutorial, we will be composing a four-panel plot for <b>multiscale visualization</b> of rainfall time series data in Texas. We'll need to tackle two key challenges into visualizing this rainfall time series: dealing with <b>scrunched axes scales</b> and co-visualizing <b>dueling readings</b> from two rain gauges.<br><br>To address these challenges, we will <ul><li> use <a href='/area-plot'>matplotlib's stackplot</a> with a transparency effect to create an overlapped area plot that elegantly shows agreement/disagreement between the gauges</li><li> use the <a href='https://github.com/mmore500/outset'>outset package</a> to add <b>panels zooming</b> in on areas of interest in the primary plot</li></ul></p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$La",null,{"href":"/area-plot/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Area chart section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/area.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$L28","$L29","$L2a","$L2b","$L2c","$L2d"]
+2e:I[98936,["$2","$3","$4","$5","$9"],"default"]
+36:I[59351,["$2","$3","$4","$5","$9"],"default"]
+2f:T423,grid = otst.OutsetGrid(  # initialize axes grid manager
+    data=[
+        # (x0, y0, x1, y1) regions to outset
+        (71.6, 0, 72.2, 2),  # little shower around day 72
+        (59, 0, 90, 0.2),  # all light precipitation events
+        (81.3, 0, 82.2, 16),  # big rainstorm around day 82
+    ],
+    x="Time",
+    y="Precipitation (mm)",  # label axes
+    aspect=2,  # make subplots wide
+    col_wrap=2,  # wrap subplots into a 2x2 grid
+    # styling for zoom indicator annotations, discussed later
+    marqueeplot_kws={"frame_outer_pad": 0, "mark_glyph_kws": {"zorder": 11}},
+    marqueeplot_source_kws={"zorder": 10, "frame_face_kws": {"zorder": 10}},
+)
+
+# draw semi-transparent filled lineplot on all axes for each lysimeter
+for y, color in zip([nwls, swls], ["fuchsia", "aquamarine"]):
+    grid.broadcast(
+        plt.stackplot,
+        march_df["Decimal DOY"],  # all kwargs below forwarded to plotter...
+        march_df[y],
+        colors=[color],
+        alpha=0.4,
+        edgecolor=color,
+        labels=[y],
+        lw=2,
+        zorder=10,
+    )30:T4d9,grid = otst.OutsetGrid(  # initialize axes grid manager
+    data=[
+        # (x0, y0, x1, y1) regions to outset
+        (71.6, 0, 72.2, 2),  # little shower around day 72
+        (59, 0, 90, 0.2),  # all light precipitation events
+        (81.3, 0, 82.2, 16),  # big rainstorm around day 82
+    ],
+    x="Time",
+    y="Precipitation (mm)",  # label axes
+    aspect=2,  # make subplots wide
+    col_wrap=2,  # wrap subplots into a 2x2 grid
+    # styling for zoom indicator annotations, discussed later
+    marqueeplot_kws={"frame_outer_pad": 0, "mark_glyph_kws": {"zorder": 11}},
+    marqueeplot_source_kws={"zorder": 10, "frame_face_kws": {"zorder": 10}},
+)
+
+# draw semi-transparent filled lineplot on all axes for each lysimeter
+for y, color in zip([nwls, swls], ["fuchsia", "aquamarine"]):
+    grid.broadcast(
+        plt.stackplot,
+        march_df["Decimal DOY"],  # all kwargs below forwarded to plotter...
+        march_df[y],
+        colors=[color],
+        alpha=0.4,
+        edgecolor=color,
+        labels=[y],
+        lw=2,
+        zorder=10,
+    )
+
+# draw "marquee' zoom indicators showing correspondences between main plot
+# and outset plots
+grid.marqueeplot(equalize_aspect=False)  # allow axes aspect ratios to vary
+plt.show()31:T554,# helper function
+def to_dt(day_of_year: float, year: int = 2019) -> datetime:
+    """Convert decimal day of the year to a datetime object."""
+    return datetime(year=year, month=1, day=1) + timedelta(days=day_of_year)
+
+
+def format_tick_value(
+    prev_value: typing.Optional[mpl_text.Text],
+    value: mpl_text.Text,
+) -> str:
+    """Create human-readable timestamp to replace a numeric axes tick.
+
+    Adjust date string content based on whether previous tick is a different
+    calendar day than the current tick.
+    """
+    decimal_doy = float(value.get_text())
+    prev_decimal_doy = opyt.apply_if(prev_value, lambda x: float(x.get_text()))
+
+    # if the previous tick is the same day as this tick...
+    # (note: first tick has no previous tick, so prev_decimal_day is None)
+    if int(decimal_doy) == opyt.apply_if(prev_decimal_doy, int):
+        # ... then just label with time of day
+        return to_dt(decimal_doy).strftime("%H:%M")
+    # otherwise, if prev tick is different day AND this tick near midnight...
+    elif decimal_doy % 1.0 < 1 / 24:
+        # ... then just label date and not time of day
+        return to_dt(decimal_doy).strftime("%b %-d")
+    # otherwise, prev tick is different day and this tick NOT near midnight...
+    else:
+        # ... label with time of day AND date
+        return to_dt(decimal_doy).strftime("%H:%M\n%b %-d")32:T7b8,grid = otst.OutsetGrid(  # initialize axes grid manager
+    data=[
+        # (x0, y0, x1, y1) regions to outset
+        (71.6, 0, 72.2, 2),  # little shower around day 72
+        (59, 0, 90, 0.2),  # all light precipitation events
+        (81.3, 0, 82.2, 16),  # big rainstorm around day 82
+    ],
+    x="Time",
+    y="Precipitation (mm)",  # label axes
+    aspect=2,  # make subplots wide
+    col_wrap=2,  # wrap subplots into a 2x2 grid
+    # styling for zoom indicator annotations, discussed later
+    marqueeplot_kws={"frame_outer_pad": 0, "mark_glyph_kws": {"zorder": 11}},
+    marqueeplot_source_kws={"zorder": 10, "frame_face_kws": {"zorder": 10}},
+)
+
+# draw semi-transparent filled lineplot on all axes for each lysimeter
+for y, color in zip([nwls, swls], ["fuchsia", "aquamarine"]):
+    grid.broadcast(
+        plt.stackplot,
+        march_df["Decimal DOY"],  # all kwargs below forwarded to plotter...
+        march_df[y],
+        colors=[color],
+        alpha=0.4,
+        edgecolor=color,
+        labels=[y],
+        lw=2,
+        zorder=10,
+    )
+
+# draw "marquee' zoom indicators showing correspondences between main plot
+# and outset plots
+grid.marqueeplot(equalize_aspect=False)  # allow axes aspect ratios to vary
+
+for ax in grid.axes.flat:  # iterate over all axes in grid
+    # first, filter x ticks to keep only ticks that are within axes limits
+    ax.set_xticks(
+        [val for val in ax.get_xticks() if np.clip(val, *ax.get_xlim()) == val]
+    )
+    # second, map format_tick_value over tick positions to make tick timestamps
+    new_tick_labels = it.starmap(
+        format_tick_value,  # mapped function
+        # ... taking sequential tick pairs as arguments,
+        # front-padded with None (first tick has no preceding tick)
+        it.pairwise((None, *ax.get_xticklabels())),
+    )
+    # third, replace existing tick labels with new timestamp tick labels
+    ax.set_xticklabels([*new_tick_labels])  # make list b/c mpl rejects iters
+
+plt.show()33:T871,grid = otst.OutsetGrid(  # initialize axes grid manager
+    data=[
+        # (x0, y0, x1, y1) regions to outset
+        (71.6, 0, 72.2, 2),  # little shower around day 72
+        (59, 0, 90, 0.2),  # all light precipitation events
+        (81.3, 0, 82.2, 16),  # big rainstorm around day 82
+    ],
+    x="Time",
+    y="Precipitation (mm)",  # label axes
+    aspect=2,  # make subplots wide
+    col_wrap=2,  # wrap subplots into a 2x2 grid
+    # styling for zoom indicator annotations, discussed later
+    marqueeplot_kws={"frame_outer_pad": 0, "mark_glyph_kws": {"zorder": 11}},
+    marqueeplot_source_kws={"zorder": 10, "frame_face_kws": {"zorder": 10}},
+)
+
+# draw semi-transparent filled lineplot on all axes for each lysimeter
+for y, color in zip([nwls, swls], ["fuchsia", "aquamarine"]):
+    grid.broadcast(
+        plt.stackplot,
+        march_df["Decimal DOY"],  # all kwargs below forwarded to plotter...
+        march_df[y],
+        colors=[color],
+        alpha=0.4,
+        edgecolor=color,
+        labels=[y],
+        lw=2,
+        zorder=10,
+    )
+
+# draw "marquee' zoom indicators showing correspondences between main plot
+# and outset plots
+grid.marqueeplot(equalize_aspect=False)  # allow axes aspect ratios to vary
+
+for ax in grid.axes.flat:  # iterate over all axes in grid
+    # first, filter x ticks to keep only ticks that are within axes limits
+    ax.set_xticks(
+        [val for val in ax.get_xticks() if np.clip(val, *ax.get_xlim()) == val]
+    )
+    # second, map format_tick_value over tick positions to make tick timestamps
+    new_tick_labels = it.starmap(
+        format_tick_value,  # mapped function
+        # ... taking sequential tick pairs as arguments,
+        # front-padded with None (first tick has no preceding tick)
+        it.pairwise((None, *ax.get_xticklabels())),
+    )
+    # third, replace existing tick labels with new timestamp tick labels
+    ax.set_xticklabels([*new_tick_labels])  # make list b/c mpl rejects iters
+
+grid.source_axes.legend(  # add legend to primary axes
+    loc="upper left",
+    bbox_to_anchor=(0.02, 1.0),  # legend positioning
+    frameon=True,  # styling: turn on legend frame
+)
+
+plt.show()34:Ta39,grid = otst.OutsetGrid(  # initialize axes grid manager
+    data=[
+        # (x0, y0, x1, y1) regions to outset
+        (71.6, 0, 72.2, 2),  # little shower around day 72
+        (59, 0, 90, 0.2),  # all light precipitation events
+        (81.3, 0, 82.2, 16),  # big rainstorm around day 82
+    ],
+    x="Time",
+    y="Precipitation (mm)",  # label axes
+    aspect=2,  # make subplots wide
+    col_wrap=2,  # wrap subplots into a 2x2 grid
+    # styling for zoom indicator annotations, discussed later
+    marqueeplot_kws={"frame_outer_pad": 0, "mark_glyph_kws": {"zorder": 11}},
+    marqueeplot_source_kws={"zorder": 10, "frame_face_kws": {"zorder": 10}},
+)
+
+# draw semi-transparent filled lineplot on all axes for each lysimeter
+for y, color in zip([nwls, swls], ["fuchsia", "aquamarine"]):
+    grid.broadcast(
+        plt.stackplot,
+        march_df["Decimal DOY"],  # all kwargs below forwarded to plotter...
+        march_df[y],
+        colors=[color],
+        alpha=0.4,
+        edgecolor=color,
+        labels=[y],
+        lw=2,
+        zorder=10,
+    )
+
+# draw "marquee' zoom indicators showing correspondences between main plot
+# and outset plots
+grid.marqueeplot(equalize_aspect=False)  # allow axes aspect ratios to vary
+
+for ax in grid.axes.flat:  # iterate over all axes in grid
+    # first, filter x ticks to keep only ticks that are within axes limits
+    ax.set_xticks(
+        [val for val in ax.get_xticks() if np.clip(val, *ax.get_xlim()) == val]
+    )
+    # second, map format_tick_value over tick positions to make tick timestamps
+    new_tick_labels = it.starmap(
+        format_tick_value,  # mapped function
+        # ... taking sequential tick pairs as arguments,
+        # front-padded with None (first tick has no preceding tick)
+        it.pairwise((None, *ax.get_xticklabels())),
+    )
+    # third, replace existing tick labels with new timestamp tick labels
+    ax.set_xticklabels([*new_tick_labels])  # make list b/c mpl rejects iters
+
+grid.source_axes.legend(  # add legend to primary axes
+    loc="upper left",
+    bbox_to_anchor=(0.02, 1.0),  # legend positioning
+    frameon=True,  # styling: turn on legend frame
+)
+
+otst.inset_outsets(
+    grid,
+    insets=otst_util.layout_corner_insets(
+        3,  # three insets
+        "NW",  # arrange in upper-left corner
+        inset_margin_size=(0.02, 0),  # allow closer to main axes bounds
+        inset_grid_size=(0.67, 0.9),  # grow to take up available space
+    ),
+    equalize_aspect=False,
+)
+sns.move_legend(  # move legend centered above figure
+    grid.source_axes, "lower center", bbox_to_anchor=(0.5, 1.1), ncol=2
+)
+
+plt.show()28:["$","article",null,{"className":"wrapper post-content","children":["$","$L2e",null,{"cells":["from datetime import datetime, timedelta\nimport itertools as it\nimport typing\n\nfrom matplotlib import pyplot as plt\nfrom matplotlib import text as mpl_text\nimport numpy as np\nimport outset as otst\nfrom outset import util as otst_util\nimport opytional as opyt\nimport pandas as pd\nimport seaborn as sns","# download data\ndf = pd.read_csv(\"https://osf.io/6mx3e/download\")\n\nnwls = \"NW Lysimeter\\n(35.18817624°N, -102.09791°W)\"\nswls = \"SW Lysimeter\\n(35.18613985°N, -102.0979187°W)\"\ndf[nwls], df[swls] = df[\"NW precip in mm\"], df[\"SW precip in mm\"]\n\n# filter down to just data from March 2019\nmarch_df = df[np.clip(df[\"Decimal DOY\"], 59, 90) == df[\"Decimal DOY\"]]\nmarch_df.head()  # show snippet of dataframe content","fig, ax = plt.subplots(figsize=(8,6))\nsns.lineplot(data=march_df, x=\"Decimal DOY\", y=\"NW precip in mm\", ax=ax)\nsns.lineplot(data=march_df, x=\"Decimal DOY\", y=\"SW precip in mm\", ax=ax)\nplt.show()","grid = otst.OutsetGrid(  # initialize axes grid manager\n    data=[\n        # (x0, y0, x1, y1) regions to outset\n        (71.6, 0, 72.2, 2),  # little shower around day 72\n        (59, 0, 90, 0.2),  # all light precipitation events\n        (81.3, 0, 82.2, 16),  # big rainstorm around day 82\n    ],\n    x=\"Time\",\n    y=\"Precipitation (mm)\",  # label axes\n    aspect=2,  # make subplots wide\n    col_wrap=2,  # wrap subplots into a 2x2 grid\n    # styling for zoom indicator annotations, discussed later\n    marqueeplot_kws={\"frame_outer_pad\": 0, \"mark_glyph_kws\": {\"zorder\": 11}},\n    marqueeplot_source_kws={\"zorder\": 10, \"frame_face_kws\": {\"zorder\": 10}},\n)","$2f","$30","$31","$32","$33","$34"],"children":"$L35"}]}]
+29:["$","div",null,{"className":"h-16 sm:h-20"}]
+2a:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$La","line",{"href":"/line-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Line150.webp","alt":"logo of a chart:Line","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Line chart"}]]}],["$","$La","area",{"href":"/area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Area150.webp","alt":"logo of a chart:Area","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Area chart"}]]}],["$","$La","stackedArea",{"href":"/stacked-area-plot/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/StackedArea150.webp","alt":"logo of a chart:StackedArea","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Stacked Area"}]]}],["$","$La","stream",{"href":"/streamchart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Stream150.webp","alt":"logo of a chart:Stream","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Streamgraph"}]]}],["$","$La","candlestick",{"href":"/candlestick/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/CandleStick2Small.webp","alt":"logo of a chart:CandleStick2","width":114,"height":114,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Candlestick"}]]}],["$","$La","timeseries",{"href":"/timeseries/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/section/time150.gif","alt":"logo of a chart:time","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Timeseries"}]]}]]}]]}]}]
+2b:["$","div",null,{"className":"h-16 sm:h-20"}]
+2c:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$Lb",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+2d:["$","$L36",null,{}]
+37:I[68978,["$2","$3","$4","$5","$9"],"default"]
+38:T960,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> datetime </span><span style="color:#D73A49">import</span><span style="color:#24292E"> datetime, timedelta</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> itertools </span><span style="color:#D73A49">as</span><span style="color:#24292E"> it</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> typing</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib </span><span style="color:#D73A49">import</span><span style="color:#24292E"> pyplot </span><span style="color:#D73A49">as</span><span style="color:#24292E"> plt</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> matplotlib </span><span style="color:#D73A49">import</span><span style="color:#24292E"> text </span><span style="color:#D73A49">as</span><span style="color:#24292E"> mpl_text</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> numpy </span><span style="color:#D73A49">as</span><span style="color:#24292E"> np</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> outset </span><span style="color:#D73A49">as</span><span style="color:#24292E"> otst</span></span>
+<span class="line"><span style="color:#D73A49">from</span><span style="color:#24292E"> outset </span><span style="color:#D73A49">import</span><span style="color:#24292E"> util </span><span style="color:#D73A49">as</span><span style="color:#24292E"> otst_util</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> opytional </span><span style="color:#D73A49">as</span><span style="color:#24292E"> opyt</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> pandas </span><span style="color:#D73A49">as</span><span style="color:#24292E"> pd</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> seaborn </span><span style="color:#D73A49">as</span><span style="color:#24292E"> sns</span></span></code></pre>35:[["$","h1","h1-0",{"children":"Overlapped Area Chart with Zoom Outsets"}],"\n",["$","p","p-0",{"children":["In this tutorial, we will be composing a four-panel plot for multiscale visualization of rainfall time series data in Texas made available by ",["$","a","a-0",{"href":"https://doi.org/10.15482/USDA.ADC/1528713","children":"Evett et al. via the USDA"}],".\nOur data comprises recordings from a pair of rain gauges positioned in opposite corners of the study area."]}],"\n",["$","p","p-1",{"children":["We'll need to tackle two key challenges into visualizing this rainfall time series: ",["$","em","em-0",{"children":"1)"}]," dealing with scrunched time/rainfall scales and ",["$","em","em-1",{"children":"2)"}]," co-visualizing dueling readings from our twin gauges."]}],"\n",["$","h3","h3-0",{"children":"Challenge 1"}],"\n",["$","p","p-2",{"children":["To address the first challenge, we will use ",["$","code","code-0",{"children":"matplotlib"}],"'s ",["$","code","code-1",{"children":"stackplot"}]," to create area plots with a transparency (\"alpha\") effect.\n(For those unfamiliar, area plots are line plots with the area between the line and the x-axis filled in.)\nBecause the gauges mostly agree, the majority of plotted area will be overlap from both gauges.\nHowever, where they differ one area plot will show through."]}],"\n",["$","h3","h3-1",{"children":"Challenge 2"}],"\n",["$","p","p-3",{"children":"The second challenge in visualizing this data arises because, in the particular study area, large amounts of rain falls in short spurts.\nSo, when we zoom out to see the whole month and the maximum rainfall rate, large spikes in the data cause the rest of the data to be scrunched into obscurity."}],"\n",["$","p","p-4",{"children":["To plot our data without losing information about low-magnitude rainfall and the short-time events, we will use the ",["$","code","code-0",{"children":"outset"}]," package draw supplementary views of the data at alternate magnifications.\nThese auxiliary plots will be combined with the main plot (overall view) as an axes grid."]}],"\n",["$","p","p-5",{"children":"Here's a sneak peek at the visualization we'll be building:"}],"\n",["$","p","p-6",{"children":["$","img","img-0",{"src":"https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/80d2c1281cac1e0152c056048645f897fcc9e83a/static/graph/web-overlapped-area-chart-with-zoom-outsets.png","alt":"Overlapped Area Chart with Zoom Outsets","loading":"lazy","decoding":"async"}]}],"\n",["$","h2","h2-0",{"children":"Libraries"}],"\n",["$","p","p-7",{"children":"Begin by importing necessary packages."}],"\n",["$","p","p-8",{"children":"Notably:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","code","code-0",{"children":"datetime"}]," for converting the month and day values from day-of-year"]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"pandas"}]," for data management"]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"matplotlib"}]," for plotting area charts using ",["$","code","code-1",{"children":"stackplot"}]]}],"\n",["$","li","li-3",{"children":[["$","code","code-0",{"children":"outset"}]," for managing multi-zoom grid and zoom indicators"]}],"\n"]}],"\n",["$","$L37","notebook-cell-0",{"index":0,"code":"from datetime import datetime, timedelta\nimport itertools as it\nimport typing\n\nfrom matplotlib import pyplot as plt\nfrom matplotlib import text as mpl_text\nimport numpy as np\nimport outset as otst\nfrom outset import util as otst_util\nimport opytional as opyt\nimport pandas as pd\nimport seaborn as sns","highlighted":"$38","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}],"\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","$L3e","\n","$L3f","\n","$L40","\n","$L41","$L42","\n","$L43","$L44","\n","$L45","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","$L4b","\n","$L4c","$L4d","\n","$L4e","$L4f","\n","$L50","\n","$L51","\n","$L52","\n","$L53","\n","$L54"]
+39:["$","p","p-9",{"children":"To install dependencies for this exercise,"}]
+3a:["$","div","div-0",{"className":"code-snippet"}]
+3b:["$","h2","h2-1",{"children":"Data Preparation"}]
+3c:["$","p","p-10",{"children":"Next, fetch our data and do a little work on it: rename columns and subset data down to just the month of March."}]
+55:T861,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># download data</span></span>
+<span class="line"><span style="color:#24292E">df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> pd.read_csv(</span><span style="color:#032F62">"https://osf.io/6mx3e/download"</span><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">nwls </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "NW Lysimeter</span><span style="color:#005CC5">\n</span><span style="color:#032F62">(35.18817624°N, -102.09791°W)"</span></span>
+<span class="line"><span style="color:#24292E">swls </span><span style="color:#D73A49">=</span><span style="color:#032F62"> "SW Lysimeter</span><span style="color:#005CC5">\n</span><span style="color:#032F62">(35.18613985°N, -102.0979187°W)"</span></span>
+<span class="line"><span style="color:#24292E">df[nwls], df[swls] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"NW precip in mm"</span><span style="color:#24292E">], df[</span><span style="color:#032F62">"SW precip in mm"</span><span style="color:#24292E">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># filter down to just data from March 2019</span></span>
+<span class="line"><span style="color:#24292E">march_df </span><span style="color:#D73A49">=</span><span style="color:#24292E"> df[np.clip(df[</span><span style="color:#032F62">"Decimal DOY"</span><span style="color:#24292E">], </span><span style="color:#005CC5">59</span><span style="color:#24292E">, </span><span style="color:#005CC5">90</span><span style="color:#24292E">) </span><span style="color:#D73A49">==</span><span style="color:#24292E"> df[</span><span style="color:#032F62">"Decimal DOY"</span><span style="color:#24292E">]]</span></span>
+<span class="line"><span style="color:#24292E">march_df.head()  </span><span style="color:#6A737D"># show snippet of dataframe content</span></span></code></pre>3d:["$","$L37","notebook-cell-1",{"index":1,"code":"# download data\ndf = pd.read_csv(\"https://osf.io/6mx3e/download\")\n\nnwls = \"NW Lysimeter\\n(35.18817624°N, -102.09791°W)\"\nswls = \"SW Lysimeter\\n(35.18613985°N, -102.0979187°W)\"\ndf[nwls], df[swls] = df[\"NW precip in mm\"], df[\"SW precip in mm\"]\n\n# filter down to just data from March 2019\nmarch_df = df[np.clip(df[\"Decimal DOY\"], 59, 90) == df[\"Decimal DOY\"]]\nmarch_df.head()  # show snippet of dataframe content","highlighted":"$55","interactive":false,"hasChart":false,"intro":"$undefined","output":[["$","div","div-0",{"className":"cell-output-html","children":["$","div","div-0",{"children":["\n",["$","style","style-0",{"scoped":true,"children":"\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n"}],"\n",["$","table","table-0",{"border":1,"className":"dataframe","children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"style":{"textAlign":"right"},"children":[["$","th","th-0",{}],["$","th","th-1",{"children":"Year"}],["$","th","th-2",{"children":"Decimal DOY"}],["$","th","th-3",{"children":"NW dew/frost in mm"}],["$","th","th-4",{"children":"SW dew/frost in mm"}],["$","th","th-5",{"children":"NW precip in mm"}],"$L56","$L57","$L58","$L59","$L5a","$L5b","$L5c"]}]}],"$L5d"]}],"\n"]}]}]]}]
+5e:T731,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">fig, ax </span><span style="color:#D73A49">=</span><span style="color:#24292E"> plt.subplots(</span><span style="color:#E36209">figsize</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">8</span><span style="color:#24292E">,</span><span style="color:#005CC5">6</span><span style="color:#24292E">))</span></span>
+<span class="line"><span style="color:#24292E">sns.lineplot(</span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">march_df, </span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Decimal DOY"</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"NW precip in mm"</span><span style="color:#24292E">, </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"><span style="color:#24292E">sns.lineplot(</span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">march_df, </span><span style="color:#E36209">x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Decimal DOY"</span><span style="color:#24292E">, </span><span style="color:#E36209">y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"SW precip in mm"</span><span style="color:#24292E">, </span><span style="color:#E36209">ax</span><span style="color:#D73A49">=</span><span style="color:#24292E">ax)</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>3e:["$","$L37","notebook-cell-2",{"index":2,"code":"fig, ax = plt.subplots(figsize=(8,6))\nsns.lineplot(data=march_df, x=\"Decimal DOY\", y=\"NW precip in mm\", ax=ax)\nsns.lineplot(data=march_df, x=\"Decimal DOY\", y=\"SW precip in mm\", ax=ax)\nplt.show()","highlighted":"$5e","interactive":false,"hasChart":true,"intro":[["$","p","p-0",{"children":"Here's a preliminary look at the time series."}]],"output":[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-overlapped-area-chart-with-zoom-outsets/output-2.png","alt":"Overlapped Area Chart with Zoom Outsets","width":686,"height":525,"loading":"lazy","decoding":"async"}]}]]}]
+3f:["$","p","p-11",{"children":"We've certainly got some work to do to nice this up!"}]
+40:["$","p","p-12",{"children":["Our visualization will focus on showing three details that are difficult to make out in a naive visualization ",["$","em","em-0",{"children":"1)"}]," a little shower around day 72, ",["$","em","em-1",{"children":"2)"}]," the big rainstorm around day 82, and ",["$","em","em-2",{"children":"3)"}]," light precipitation events over the course of the entire month.\nWe'll create a zoom panel to show each of these components."]}]
+41:["$","h1","h1-1",{"children":"Create Axes Grid"}]
+5f:T1045,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">grid </span><span style="color:#D73A49">=</span><span style="color:#24292E"> otst.OutsetGrid(  </span><span style="color:#6A737D"># initialize axes grid manager</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#6A737D">        # (x0, y0, x1, y1) regions to outset</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">71.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">72.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># little shower around day 72</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">59</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">90</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># all light precipitation events</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">81.3</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">82.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">16</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># big rainstorm around day 82</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Time"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Precipitation (mm)"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># label axes</span></span>
+<span class="line"><span style="color:#E36209">    aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># make subplots wide</span></span>
+<span class="line"><span style="color:#E36209">    col_wrap</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># wrap subplots into a 2x2 grid</span></span>
+<span class="line"><span style="color:#6A737D">    # styling for zoom indicator annotations, discussed later</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"frame_outer_pad"</span><span style="color:#24292E">: </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#032F62">"mark_glyph_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_source_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#032F62">"frame_face_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#24292E">)</span></span></code></pre>42:["$","$L37","notebook-cell-3",{"index":3,"code":"grid = otst.OutsetGrid(  # initialize axes grid manager\n    data=[\n        # (x0, y0, x1, y1) regions to outset\n        (71.6, 0, 72.2, 2),  # little shower around day 72\n        (59, 0, 90, 0.2),  # all light precipitation events\n        (81.3, 0, 82.2, 16),  # big rainstorm around day 82\n    ],\n    x=\"Time\",\n    y=\"Precipitation (mm)\",  # label axes\n    aspect=2,  # make subplots wide\n    col_wrap=2,  # wrap subplots into a 2x2 grid\n    # styling for zoom indicator annotations, discussed later\n    marqueeplot_kws={\"frame_outer_pad\": 0, \"mark_glyph_kws\": {\"zorder\": 11}},\n    marqueeplot_source_kws={\"zorder\": 10, \"frame_face_kws\": {\"zorder\": 10}},\n)","highlighted":"$5f","interactive":false,"hasChart":true,"intro":"$L60","output":"$L61"}]
+43:["$","h2","h2-2",{"children":"Set Up Plot Content"}]
+62:T423,grid = otst.OutsetGrid(  # initialize axes grid manager
+    data=[
+        # (x0, y0, x1, y1) regions to outset
+        (71.6, 0, 72.2, 2),  # little shower around day 72
+        (59, 0, 90, 0.2),  # all light precipitation events
+        (81.3, 0, 82.2, 16),  # big rainstorm around day 82
+    ],
+    x="Time",
+    y="Precipitation (mm)",  # label axes
+    aspect=2,  # make subplots wide
+    col_wrap=2,  # wrap subplots into a 2x2 grid
+    # styling for zoom indicator annotations, discussed later
+    marqueeplot_kws={"frame_outer_pad": 0, "mark_glyph_kws": {"zorder": 11}},
+    marqueeplot_source_kws={"zorder": 10, "frame_face_kws": {"zorder": 10}},
+)
+
+# draw semi-transparent filled lineplot on all axes for each lysimeter
+for y, color in zip([nwls, swls], ["fuchsia", "aquamarine"]):
+    grid.broadcast(
+        plt.stackplot,
+        march_df["Decimal DOY"],  # all kwargs below forwarded to plotter...
+        march_df[y],
+        colors=[color],
+        alpha=0.4,
+        edgecolor=color,
+        labels=[y],
+        lw=2,
+        zorder=10,
+    )63:T1898,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">grid </span><span style="color:#D73A49">=</span><span style="color:#24292E"> otst.OutsetGrid(  </span><span style="color:#6A737D"># initialize axes grid manager</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#6A737D">        # (x0, y0, x1, y1) regions to outset</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">71.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">72.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># little shower around day 72</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">59</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">90</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># all light precipitation events</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">81.3</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">82.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">16</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># big rainstorm around day 82</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Time"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Precipitation (mm)"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># label axes</span></span>
+<span class="line"><span style="color:#E36209">    aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># make subplots wide</span></span>
+<span class="line"><span style="color:#E36209">    col_wrap</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># wrap subplots into a 2x2 grid</span></span>
+<span class="line"><span style="color:#6A737D">    # styling for zoom indicator annotations, discussed later</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"frame_outer_pad"</span><span style="color:#24292E">: </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#032F62">"mark_glyph_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_source_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#032F62">"frame_face_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># draw semi-transparent filled lineplot on all axes for each lysimeter</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> y, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">([nwls, swls], [</span><span style="color:#032F62">"fuchsia"</span><span style="color:#24292E">, </span><span style="color:#032F62">"aquamarine"</span><span style="color:#24292E">]):</span></span>
+<span class="line"><span style="color:#24292E">    grid.broadcast(</span></span>
+<span class="line"><span style="color:#24292E">        plt.stackplot,</span></span>
+<span class="line"><span style="color:#24292E">        march_df[</span><span style="color:#032F62">"Decimal DOY"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># all kwargs below forwarded to plotter...</span></span>
+<span class="line"><span style="color:#24292E">        march_df[y],</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">[color],</span></span>
+<span class="line"><span style="color:#E36209">        alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        edgecolor</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">        labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">[y],</span></span>
+<span class="line"><span style="color:#E36209">        lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span></code></pre>44:["$","$L37","notebook-cell-4",{"index":4,"code":"$62","highlighted":"$63","interactive":false,"hasChart":true,"intro":"$L64","output":"$L65"}]
+45:["$","h1","h1-2",{"children":"Add Zoom Indicators"}]
+66:T4d9,grid = otst.OutsetGrid(  # initialize axes grid manager
+    data=[
+        # (x0, y0, x1, y1) regions to outset
+        (71.6, 0, 72.2, 2),  # little shower around day 72
+        (59, 0, 90, 0.2),  # all light precipitation events
+        (81.3, 0, 82.2, 16),  # big rainstorm around day 82
+    ],
+    x="Time",
+    y="Precipitation (mm)",  # label axes
+    aspect=2,  # make subplots wide
+    col_wrap=2,  # wrap subplots into a 2x2 grid
+    # styling for zoom indicator annotations, discussed later
+    marqueeplot_kws={"frame_outer_pad": 0, "mark_glyph_kws": {"zorder": 11}},
+    marqueeplot_source_kws={"zorder": 10, "frame_face_kws": {"zorder": 10}},
+)
+
+# draw semi-transparent filled lineplot on all axes for each lysimeter
+for y, color in zip([nwls, swls], ["fuchsia", "aquamarine"]):
+    grid.broadcast(
+        plt.stackplot,
+        march_df["Decimal DOY"],  # all kwargs below forwarded to plotter...
+        march_df[y],
+        colors=[color],
+        alpha=0.4,
+        edgecolor=color,
+        labels=[y],
+        lw=2,
+        zorder=10,
+    )
+
+# draw "marquee' zoom indicators showing correspondences between main plot
+# and outset plots
+grid.marqueeplot(equalize_aspect=False)  # allow axes aspect ratios to vary
+plt.show()67:T1b0b,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">grid </span><span style="color:#D73A49">=</span><span style="color:#24292E"> otst.OutsetGrid(  </span><span style="color:#6A737D"># initialize axes grid manager</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#6A737D">        # (x0, y0, x1, y1) regions to outset</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">71.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">72.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># little shower around day 72</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">59</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">90</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># all light precipitation events</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">81.3</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">82.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">16</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># big rainstorm around day 82</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Time"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Precipitation (mm)"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># label axes</span></span>
+<span class="line"><span style="color:#E36209">    aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># make subplots wide</span></span>
+<span class="line"><span style="color:#E36209">    col_wrap</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># wrap subplots into a 2x2 grid</span></span>
+<span class="line"><span style="color:#6A737D">    # styling for zoom indicator annotations, discussed later</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"frame_outer_pad"</span><span style="color:#24292E">: </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#032F62">"mark_glyph_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_source_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#032F62">"frame_face_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># draw semi-transparent filled lineplot on all axes for each lysimeter</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> y, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">([nwls, swls], [</span><span style="color:#032F62">"fuchsia"</span><span style="color:#24292E">, </span><span style="color:#032F62">"aquamarine"</span><span style="color:#24292E">]):</span></span>
+<span class="line"><span style="color:#24292E">    grid.broadcast(</span></span>
+<span class="line"><span style="color:#24292E">        plt.stackplot,</span></span>
+<span class="line"><span style="color:#24292E">        march_df[</span><span style="color:#032F62">"Decimal DOY"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># all kwargs below forwarded to plotter...</span></span>
+<span class="line"><span style="color:#24292E">        march_df[y],</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">[color],</span></span>
+<span class="line"><span style="color:#E36209">        alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        edgecolor</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">        labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">[y],</span></span>
+<span class="line"><span style="color:#E36209">        lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># draw "marquee' zoom indicators showing correspondences between main plot</span></span>
+<span class="line"><span style="color:#6A737D"># and outset plots</span></span>
+<span class="line"><span style="color:#24292E">grid.marqueeplot(</span><span style="color:#E36209">equalize_aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)  </span><span style="color:#6A737D"># allow axes aspect ratios to vary</span></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>46:["$","$L37","notebook-cell-5",{"index":5,"code":"$66","highlighted":"$67","interactive":false,"hasChart":true,"intro":"$L68","output":"$L69"}]
+47:["$","h2","h2-3",{"children":"Replace Numeric Tick Labels with Human-readable Timestamps"}]
+48:["$","p","p-13",{"children":"We're almost there!\nBut the x-axis tick labels are still numeric \"day of year\" values, which is not very intuitive.\nI don't know off the top of my head what day 42 of the year corresponds to, do you?"}]
+49:["$","p","p-14",{"children":"Let's fix that.\nTo replace the existing tick labels with timestamps, we'll define a function that takes a numeric day of the year and returns a human-readable timestamp.\nWe'll always include the time of day, but we'll only include the date on between-day transitions.\nWe'll also need a helper function to convert numeric day of the year to a Python datetime object."}]
+6a:T554,# helper function
+def to_dt(day_of_year: float, year: int = 2019) -> datetime:
+    """Convert decimal day of the year to a datetime object."""
+    return datetime(year=year, month=1, day=1) + timedelta(days=day_of_year)
+
+
+def format_tick_value(
+    prev_value: typing.Optional[mpl_text.Text],
+    value: mpl_text.Text,
+) -> str:
+    """Create human-readable timestamp to replace a numeric axes tick.
+
+    Adjust date string content based on whether previous tick is a different
+    calendar day than the current tick.
+    """
+    decimal_doy = float(value.get_text())
+    prev_decimal_doy = opyt.apply_if(prev_value, lambda x: float(x.get_text()))
+
+    # if the previous tick is the same day as this tick...
+    # (note: first tick has no previous tick, so prev_decimal_day is None)
+    if int(decimal_doy) == opyt.apply_if(prev_decimal_doy, int):
+        # ... then just label with time of day
+        return to_dt(decimal_doy).strftime("%H:%M")
+    # otherwise, if prev tick is different day AND this tick near midnight...
+    elif decimal_doy % 1.0 < 1 / 24:
+        # ... then just label date and not time of day
+        return to_dt(decimal_doy).strftime("%b %-d")
+    # otherwise, prev tick is different day and this tick NOT near midnight...
+    else:
+        # ... label with time of day AND date
+        return to_dt(decimal_doy).strftime("%H:%M\n%b %-d")6b:T15e8,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#6A737D"># helper function</span></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> to_dt</span><span style="color:#24292E">(day_of_year: </span><span style="color:#005CC5">float</span><span style="color:#24292E">, year: </span><span style="color:#005CC5">int</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 2019</span><span style="color:#24292E">) -> datetime:</span></span>
+<span class="line"><span style="color:#032F62">    """Convert decimal day of the year to a datetime object."""</span></span>
+<span class="line"><span style="color:#D73A49">    return</span><span style="color:#24292E"> datetime(</span><span style="color:#E36209">year</span><span style="color:#D73A49">=</span><span style="color:#24292E">year, </span><span style="color:#E36209">month</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#E36209">day</span><span style="color:#D73A49">=</span><span style="color:#005CC5">1</span><span style="color:#24292E">) </span><span style="color:#D73A49">+</span><span style="color:#24292E"> timedelta(</span><span style="color:#E36209">days</span><span style="color:#D73A49">=</span><span style="color:#24292E">day_of_year)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">def</span><span style="color:#6F42C1"> format_tick_value</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#24292E">    prev_value: typing.Optional[mpl_text.Text],</span></span>
+<span class="line"><span style="color:#24292E">    value: mpl_text.Text,</span></span>
+<span class="line"><span style="color:#24292E">) -> </span><span style="color:#005CC5">str</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#032F62">    """Create human-readable timestamp to replace a numeric axes tick.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#032F62">    Adjust date string content based on whether previous tick is a different</span></span>
+<span class="line"><span style="color:#032F62">    calendar day than the current tick.</span></span>
+<span class="line"><span style="color:#032F62">    """</span></span>
+<span class="line"><span style="color:#24292E">    decimal_doy </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> float</span><span style="color:#24292E">(value.get_text())</span></span>
+<span class="line"><span style="color:#24292E">    prev_decimal_doy </span><span style="color:#D73A49">=</span><span style="color:#24292E"> opyt.apply_if(prev_value, </span><span style="color:#D73A49">lambda</span><span style="color:#24292E"> x: </span><span style="color:#005CC5">float</span><span style="color:#24292E">(x.get_text()))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # if the previous tick is the same day as this tick...</span></span>
+<span class="line"><span style="color:#6A737D">    # (note: first tick has no previous tick, so prev_decimal_day is None)</span></span>
+<span class="line"><span style="color:#D73A49">    if</span><span style="color:#005CC5"> int</span><span style="color:#24292E">(decimal_doy) </span><span style="color:#D73A49">==</span><span style="color:#24292E"> opyt.apply_if(prev_decimal_doy, </span><span style="color:#005CC5">int</span><span style="color:#24292E">):</span></span>
+<span class="line"><span style="color:#6A737D">        # ... then just label with time of day</span></span>
+<span class="line"><span style="color:#D73A49">        return</span><span style="color:#24292E"> to_dt(decimal_doy).strftime(</span><span style="color:#032F62">"%H:%M"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#6A737D">    # otherwise, if prev tick is different day AND this tick near midnight...</span></span>
+<span class="line"><span style="color:#D73A49">    elif</span><span style="color:#24292E"> decimal_doy </span><span style="color:#D73A49">%</span><span style="color:#005CC5"> 1.0</span><span style="color:#D73A49"> &#x3C;</span><span style="color:#005CC5"> 1</span><span style="color:#D73A49"> /</span><span style="color:#005CC5"> 24</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#6A737D">        # ... then just label date and not time of day</span></span>
+<span class="line"><span style="color:#D73A49">        return</span><span style="color:#24292E"> to_dt(decimal_doy).strftime(</span><span style="color:#032F62">"</span><span style="color:#005CC5">%b</span><span style="color:#005CC5"> %-d</span><span style="color:#032F62">"</span><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#6A737D">    # otherwise, prev tick is different day and this tick NOT near midnight...</span></span>
+<span class="line"><span style="color:#D73A49">    else</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#6A737D">        # ... label with time of day AND date</span></span>
+<span class="line"><span style="color:#D73A49">        return</span><span style="color:#24292E"> to_dt(decimal_doy).strftime(</span><span style="color:#032F62">"%H:%M</span><span style="color:#005CC5">\n%b</span><span style="color:#005CC5"> %-d</span><span style="color:#032F62">"</span><span style="color:#24292E">)</span></span></code></pre>4a:["$","$L37","notebook-cell-6",{"index":6,"code":"$6a","highlighted":"$6b","interactive":false,"hasChart":false,"intro":"$undefined","output":"$undefined"}]
+6c:T7b8,grid = otst.OutsetGrid(  # initialize axes grid manager
+    data=[
+        # (x0, y0, x1, y1) regions to outset
+        (71.6, 0, 72.2, 2),  # little shower around day 72
+        (59, 0, 90, 0.2),  # all light precipitation events
+        (81.3, 0, 82.2, 16),  # big rainstorm around day 82
+    ],
+    x="Time",
+    y="Precipitation (mm)",  # label axes
+    aspect=2,  # make subplots wide
+    col_wrap=2,  # wrap subplots into a 2x2 grid
+    # styling for zoom indicator annotations, discussed later
+    marqueeplot_kws={"frame_outer_pad": 0, "mark_glyph_kws": {"zorder": 11}},
+    marqueeplot_source_kws={"zorder": 10, "frame_face_kws": {"zorder": 10}},
+)
+
+# draw semi-transparent filled lineplot on all axes for each lysimeter
+for y, color in zip([nwls, swls], ["fuchsia", "aquamarine"]):
+    grid.broadcast(
+        plt.stackplot,
+        march_df["Decimal DOY"],  # all kwargs below forwarded to plotter...
+        march_df[y],
+        colors=[color],
+        alpha=0.4,
+        edgecolor=color,
+        labels=[y],
+        lw=2,
+        zorder=10,
+    )
+
+# draw "marquee' zoom indicators showing correspondences between main plot
+# and outset plots
+grid.marqueeplot(equalize_aspect=False)  # allow axes aspect ratios to vary
+
+for ax in grid.axes.flat:  # iterate over all axes in grid
+    # first, filter x ticks to keep only ticks that are within axes limits
+    ax.set_xticks(
+        [val for val in ax.get_xticks() if np.clip(val, *ax.get_xlim()) == val]
+    )
+    # second, map format_tick_value over tick positions to make tick timestamps
+    new_tick_labels = it.starmap(
+        format_tick_value,  # mapped function
+        # ... taking sequential tick pairs as arguments,
+        # front-padded with None (first tick has no preceding tick)
+        it.pairwise((None, *ax.get_xticklabels())),
+    )
+    # third, replace existing tick labels with new timestamp tick labels
+    ax.set_xticklabels([*new_tick_labels])  # make list b/c mpl rejects iters
+
+plt.show()6d:T24bc,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">grid </span><span style="color:#D73A49">=</span><span style="color:#24292E"> otst.OutsetGrid(  </span><span style="color:#6A737D"># initialize axes grid manager</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#6A737D">        # (x0, y0, x1, y1) regions to outset</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">71.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">72.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># little shower around day 72</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">59</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">90</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># all light precipitation events</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">81.3</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">82.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">16</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># big rainstorm around day 82</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Time"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Precipitation (mm)"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># label axes</span></span>
+<span class="line"><span style="color:#E36209">    aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># make subplots wide</span></span>
+<span class="line"><span style="color:#E36209">    col_wrap</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># wrap subplots into a 2x2 grid</span></span>
+<span class="line"><span style="color:#6A737D">    # styling for zoom indicator annotations, discussed later</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"frame_outer_pad"</span><span style="color:#24292E">: </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#032F62">"mark_glyph_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_source_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#032F62">"frame_face_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># draw semi-transparent filled lineplot on all axes for each lysimeter</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> y, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">([nwls, swls], [</span><span style="color:#032F62">"fuchsia"</span><span style="color:#24292E">, </span><span style="color:#032F62">"aquamarine"</span><span style="color:#24292E">]):</span></span>
+<span class="line"><span style="color:#24292E">    grid.broadcast(</span></span>
+<span class="line"><span style="color:#24292E">        plt.stackplot,</span></span>
+<span class="line"><span style="color:#24292E">        march_df[</span><span style="color:#032F62">"Decimal DOY"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># all kwargs below forwarded to plotter...</span></span>
+<span class="line"><span style="color:#24292E">        march_df[y],</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">[color],</span></span>
+<span class="line"><span style="color:#E36209">        alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        edgecolor</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">        labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">[y],</span></span>
+<span class="line"><span style="color:#E36209">        lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># draw "marquee' zoom indicators showing correspondences between main plot</span></span>
+<span class="line"><span style="color:#6A737D"># and outset plots</span></span>
+<span class="line"><span style="color:#24292E">grid.marqueeplot(</span><span style="color:#E36209">equalize_aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)  </span><span style="color:#6A737D"># allow axes aspect ratios to vary</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> ax </span><span style="color:#D73A49">in</span><span style="color:#24292E"> grid.axes.flat:  </span><span style="color:#6A737D"># iterate over all axes in grid</span></span>
+<span class="line"><span style="color:#6A737D">    # first, filter x ticks to keep only ticks that are within axes limits</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticks(</span></span>
+<span class="line"><span style="color:#24292E">        [val </span><span style="color:#D73A49">for</span><span style="color:#24292E"> val </span><span style="color:#D73A49">in</span><span style="color:#24292E"> ax.get_xticks() </span><span style="color:#D73A49">if</span><span style="color:#24292E"> np.clip(val, </span><span style="color:#D73A49">*</span><span style="color:#24292E">ax.get_xlim()) </span><span style="color:#D73A49">==</span><span style="color:#24292E"> val]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#6A737D">    # second, map format_tick_value over tick positions to make tick timestamps</span></span>
+<span class="line"><span style="color:#24292E">    new_tick_labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> it.starmap(</span></span>
+<span class="line"><span style="color:#24292E">        format_tick_value,  </span><span style="color:#6A737D"># mapped function</span></span>
+<span class="line"><span style="color:#6A737D">        # ... taking sequential tick pairs as arguments,</span></span>
+<span class="line"><span style="color:#6A737D">        # front-padded with None (first tick has no preceding tick)</span></span>
+<span class="line"><span style="color:#24292E">        it.pairwise((</span><span style="color:#005CC5">None</span><span style="color:#24292E">, </span><span style="color:#D73A49">*</span><span style="color:#24292E">ax.get_xticklabels())),</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#6A737D">    # third, replace existing tick labels with new timestamp tick labels</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticklabels([</span><span style="color:#D73A49">*</span><span style="color:#24292E">new_tick_labels])  </span><span style="color:#6A737D"># make list b/c mpl rejects iters</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>4b:["$","$L37","notebook-cell-7",{"index":7,"code":"$6c","highlighted":"$6d","interactive":false,"hasChart":true,"intro":"$L6e","output":"$L6f"}]
+4c:["$","h2","h2-4",{"children":"Final Details"}]
+70:T871,grid = otst.OutsetGrid(  # initialize axes grid manager
+    data=[
+        # (x0, y0, x1, y1) regions to outset
+        (71.6, 0, 72.2, 2),  # little shower around day 72
+        (59, 0, 90, 0.2),  # all light precipitation events
+        (81.3, 0, 82.2, 16),  # big rainstorm around day 82
+    ],
+    x="Time",
+    y="Precipitation (mm)",  # label axes
+    aspect=2,  # make subplots wide
+    col_wrap=2,  # wrap subplots into a 2x2 grid
+    # styling for zoom indicator annotations, discussed later
+    marqueeplot_kws={"frame_outer_pad": 0, "mark_glyph_kws": {"zorder": 11}},
+    marqueeplot_source_kws={"zorder": 10, "frame_face_kws": {"zorder": 10}},
+)
+
+# draw semi-transparent filled lineplot on all axes for each lysimeter
+for y, color in zip([nwls, swls], ["fuchsia", "aquamarine"]):
+    grid.broadcast(
+        plt.stackplot,
+        march_df["Decimal DOY"],  # all kwargs below forwarded to plotter...
+        march_df[y],
+        colors=[color],
+        alpha=0.4,
+        edgecolor=color,
+        labels=[y],
+        lw=2,
+        zorder=10,
+    )
+
+# draw "marquee' zoom indicators showing correspondences between main plot
+# and outset plots
+grid.marqueeplot(equalize_aspect=False)  # allow axes aspect ratios to vary
+
+for ax in grid.axes.flat:  # iterate over all axes in grid
+    # first, filter x ticks to keep only ticks that are within axes limits
+    ax.set_xticks(
+        [val for val in ax.get_xticks() if np.clip(val, *ax.get_xlim()) == val]
+    )
+    # second, map format_tick_value over tick positions to make tick timestamps
+    new_tick_labels = it.starmap(
+        format_tick_value,  # mapped function
+        # ... taking sequential tick pairs as arguments,
+        # front-padded with None (first tick has no preceding tick)
+        it.pairwise((None, *ax.get_xticklabels())),
+    )
+    # third, replace existing tick labels with new timestamp tick labels
+    ax.set_xticklabels([*new_tick_labels])  # make list b/c mpl rejects iters
+
+grid.source_axes.legend(  # add legend to primary axes
+    loc="upper left",
+    bbox_to_anchor=(0.02, 1.0),  # legend positioning
+    frameon=True,  # styling: turn on legend frame
+)
+
+plt.show()71:T28cd,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">grid </span><span style="color:#D73A49">=</span><span style="color:#24292E"> otst.OutsetGrid(  </span><span style="color:#6A737D"># initialize axes grid manager</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#6A737D">        # (x0, y0, x1, y1) regions to outset</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">71.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">72.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># little shower around day 72</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">59</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">90</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># all light precipitation events</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">81.3</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">82.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">16</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># big rainstorm around day 82</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Time"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Precipitation (mm)"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># label axes</span></span>
+<span class="line"><span style="color:#E36209">    aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># make subplots wide</span></span>
+<span class="line"><span style="color:#E36209">    col_wrap</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># wrap subplots into a 2x2 grid</span></span>
+<span class="line"><span style="color:#6A737D">    # styling for zoom indicator annotations, discussed later</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"frame_outer_pad"</span><span style="color:#24292E">: </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#032F62">"mark_glyph_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_source_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#032F62">"frame_face_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># draw semi-transparent filled lineplot on all axes for each lysimeter</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> y, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">([nwls, swls], [</span><span style="color:#032F62">"fuchsia"</span><span style="color:#24292E">, </span><span style="color:#032F62">"aquamarine"</span><span style="color:#24292E">]):</span></span>
+<span class="line"><span style="color:#24292E">    grid.broadcast(</span></span>
+<span class="line"><span style="color:#24292E">        plt.stackplot,</span></span>
+<span class="line"><span style="color:#24292E">        march_df[</span><span style="color:#032F62">"Decimal DOY"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># all kwargs below forwarded to plotter...</span></span>
+<span class="line"><span style="color:#24292E">        march_df[y],</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">[color],</span></span>
+<span class="line"><span style="color:#E36209">        alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        edgecolor</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">        labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">[y],</span></span>
+<span class="line"><span style="color:#E36209">        lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># draw "marquee' zoom indicators showing correspondences between main plot</span></span>
+<span class="line"><span style="color:#6A737D"># and outset plots</span></span>
+<span class="line"><span style="color:#24292E">grid.marqueeplot(</span><span style="color:#E36209">equalize_aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)  </span><span style="color:#6A737D"># allow axes aspect ratios to vary</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> ax </span><span style="color:#D73A49">in</span><span style="color:#24292E"> grid.axes.flat:  </span><span style="color:#6A737D"># iterate over all axes in grid</span></span>
+<span class="line"><span style="color:#6A737D">    # first, filter x ticks to keep only ticks that are within axes limits</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticks(</span></span>
+<span class="line"><span style="color:#24292E">        [val </span><span style="color:#D73A49">for</span><span style="color:#24292E"> val </span><span style="color:#D73A49">in</span><span style="color:#24292E"> ax.get_xticks() </span><span style="color:#D73A49">if</span><span style="color:#24292E"> np.clip(val, </span><span style="color:#D73A49">*</span><span style="color:#24292E">ax.get_xlim()) </span><span style="color:#D73A49">==</span><span style="color:#24292E"> val]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#6A737D">    # second, map format_tick_value over tick positions to make tick timestamps</span></span>
+<span class="line"><span style="color:#24292E">    new_tick_labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> it.starmap(</span></span>
+<span class="line"><span style="color:#24292E">        format_tick_value,  </span><span style="color:#6A737D"># mapped function</span></span>
+<span class="line"><span style="color:#6A737D">        # ... taking sequential tick pairs as arguments,</span></span>
+<span class="line"><span style="color:#6A737D">        # front-padded with None (first tick has no preceding tick)</span></span>
+<span class="line"><span style="color:#24292E">        it.pairwise((</span><span style="color:#005CC5">None</span><span style="color:#24292E">, </span><span style="color:#D73A49">*</span><span style="color:#24292E">ax.get_xticklabels())),</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#6A737D">    # third, replace existing tick labels with new timestamp tick labels</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticklabels([</span><span style="color:#D73A49">*</span><span style="color:#24292E">new_tick_labels])  </span><span style="color:#6A737D"># make list b/c mpl rejects iters</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">grid.source_axes.legend(  </span><span style="color:#6A737D"># add legend to primary axes</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">"upper left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_to_anchor</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.0</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># legend positioning</span></span>
+<span class="line"><span style="color:#E36209">    frameon</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># styling: turn on legend frame</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>4d:["$","$L37","notebook-cell-8",{"index":8,"code":"$70","highlighted":"$71","interactive":false,"hasChart":true,"intro":"$L72","output":"$L73"}]
+4e:["$","h2","h2-5",{"children":"Want Insets Instead?"}]
+74:Ta39,grid = otst.OutsetGrid(  # initialize axes grid manager
+    data=[
+        # (x0, y0, x1, y1) regions to outset
+        (71.6, 0, 72.2, 2),  # little shower around day 72
+        (59, 0, 90, 0.2),  # all light precipitation events
+        (81.3, 0, 82.2, 16),  # big rainstorm around day 82
+    ],
+    x="Time",
+    y="Precipitation (mm)",  # label axes
+    aspect=2,  # make subplots wide
+    col_wrap=2,  # wrap subplots into a 2x2 grid
+    # styling for zoom indicator annotations, discussed later
+    marqueeplot_kws={"frame_outer_pad": 0, "mark_glyph_kws": {"zorder": 11}},
+    marqueeplot_source_kws={"zorder": 10, "frame_face_kws": {"zorder": 10}},
+)
+
+# draw semi-transparent filled lineplot on all axes for each lysimeter
+for y, color in zip([nwls, swls], ["fuchsia", "aquamarine"]):
+    grid.broadcast(
+        plt.stackplot,
+        march_df["Decimal DOY"],  # all kwargs below forwarded to plotter...
+        march_df[y],
+        colors=[color],
+        alpha=0.4,
+        edgecolor=color,
+        labels=[y],
+        lw=2,
+        zorder=10,
+    )
+
+# draw "marquee' zoom indicators showing correspondences between main plot
+# and outset plots
+grid.marqueeplot(equalize_aspect=False)  # allow axes aspect ratios to vary
+
+for ax in grid.axes.flat:  # iterate over all axes in grid
+    # first, filter x ticks to keep only ticks that are within axes limits
+    ax.set_xticks(
+        [val for val in ax.get_xticks() if np.clip(val, *ax.get_xlim()) == val]
+    )
+    # second, map format_tick_value over tick positions to make tick timestamps
+    new_tick_labels = it.starmap(
+        format_tick_value,  # mapped function
+        # ... taking sequential tick pairs as arguments,
+        # front-padded with None (first tick has no preceding tick)
+        it.pairwise((None, *ax.get_xticklabels())),
+    )
+    # third, replace existing tick labels with new timestamp tick labels
+    ax.set_xticklabels([*new_tick_labels])  # make list b/c mpl rejects iters
+
+grid.source_axes.legend(  # add legend to primary axes
+    loc="upper left",
+    bbox_to_anchor=(0.02, 1.0),  # legend positioning
+    frameon=True,  # styling: turn on legend frame
+)
+
+otst.inset_outsets(
+    grid,
+    insets=otst_util.layout_corner_insets(
+        3,  # three insets
+        "NW",  # arrange in upper-left corner
+        inset_margin_size=(0.02, 0),  # allow closer to main axes bounds
+        inset_grid_size=(0.67, 0.9),  # grow to take up available space
+    ),
+    equalize_aspect=False,
+)
+sns.move_legend(  # move legend centered above figure
+    grid.source_axes, "lower center", bbox_to_anchor=(0.5, 1.1), ncol=2
+)
+
+plt.show()75:T32b4,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">grid </span><span style="color:#D73A49">=</span><span style="color:#24292E"> otst.OutsetGrid(  </span><span style="color:#6A737D"># initialize axes grid manager</span></span>
+<span class="line"><span style="color:#E36209">    data</span><span style="color:#D73A49">=</span><span style="color:#24292E">[</span></span>
+<span class="line"><span style="color:#6A737D">        # (x0, y0, x1, y1) regions to outset</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">71.6</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">72.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># little shower around day 72</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">59</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">90</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.2</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># all light precipitation events</span></span>
+<span class="line"><span style="color:#24292E">        (</span><span style="color:#005CC5">81.3</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">82.2</span><span style="color:#24292E">, </span><span style="color:#005CC5">16</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># big rainstorm around day 82</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#E36209">    x</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Time"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    y</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Precipitation (mm)"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># label axes</span></span>
+<span class="line"><span style="color:#E36209">    aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># make subplots wide</span></span>
+<span class="line"><span style="color:#E36209">    col_wrap</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># wrap subplots into a 2x2 grid</span></span>
+<span class="line"><span style="color:#6A737D">    # styling for zoom indicator annotations, discussed later</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"frame_outer_pad"</span><span style="color:#24292E">: </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#032F62">"mark_glyph_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">11</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#E36209">    marqueeplot_source_kws</span><span style="color:#D73A49">=</span><span style="color:#24292E">{</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">, </span><span style="color:#032F62">"frame_face_kws"</span><span style="color:#24292E">: {</span><span style="color:#032F62">"zorder"</span><span style="color:#24292E">: </span><span style="color:#005CC5">10</span><span style="color:#24292E">}},</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># draw semi-transparent filled lineplot on all axes for each lysimeter</span></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> y, color </span><span style="color:#D73A49">in</span><span style="color:#005CC5"> zip</span><span style="color:#24292E">([nwls, swls], [</span><span style="color:#032F62">"fuchsia"</span><span style="color:#24292E">, </span><span style="color:#032F62">"aquamarine"</span><span style="color:#24292E">]):</span></span>
+<span class="line"><span style="color:#24292E">    grid.broadcast(</span></span>
+<span class="line"><span style="color:#24292E">        plt.stackplot,</span></span>
+<span class="line"><span style="color:#24292E">        march_df[</span><span style="color:#032F62">"Decimal DOY"</span><span style="color:#24292E">],  </span><span style="color:#6A737D"># all kwargs below forwarded to plotter...</span></span>
+<span class="line"><span style="color:#24292E">        march_df[y],</span></span>
+<span class="line"><span style="color:#E36209">        colors</span><span style="color:#D73A49">=</span><span style="color:#24292E">[color],</span></span>
+<span class="line"><span style="color:#E36209">        alpha</span><span style="color:#D73A49">=</span><span style="color:#005CC5">0.4</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        edgecolor</span><span style="color:#D73A49">=</span><span style="color:#24292E">color,</span></span>
+<span class="line"><span style="color:#E36209">        labels</span><span style="color:#D73A49">=</span><span style="color:#24292E">[y],</span></span>
+<span class="line"><span style="color:#E36209">        lw</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">        zorder</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># draw "marquee' zoom indicators showing correspondences between main plot</span></span>
+<span class="line"><span style="color:#6A737D"># and outset plots</span></span>
+<span class="line"><span style="color:#24292E">grid.marqueeplot(</span><span style="color:#E36209">equalize_aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">)  </span><span style="color:#6A737D"># allow axes aspect ratios to vary</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49">for</span><span style="color:#24292E"> ax </span><span style="color:#D73A49">in</span><span style="color:#24292E"> grid.axes.flat:  </span><span style="color:#6A737D"># iterate over all axes in grid</span></span>
+<span class="line"><span style="color:#6A737D">    # first, filter x ticks to keep only ticks that are within axes limits</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticks(</span></span>
+<span class="line"><span style="color:#24292E">        [val </span><span style="color:#D73A49">for</span><span style="color:#24292E"> val </span><span style="color:#D73A49">in</span><span style="color:#24292E"> ax.get_xticks() </span><span style="color:#D73A49">if</span><span style="color:#24292E"> np.clip(val, </span><span style="color:#D73A49">*</span><span style="color:#24292E">ax.get_xlim()) </span><span style="color:#D73A49">==</span><span style="color:#24292E"> val]</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#6A737D">    # second, map format_tick_value over tick positions to make tick timestamps</span></span>
+<span class="line"><span style="color:#24292E">    new_tick_labels </span><span style="color:#D73A49">=</span><span style="color:#24292E"> it.starmap(</span></span>
+<span class="line"><span style="color:#24292E">        format_tick_value,  </span><span style="color:#6A737D"># mapped function</span></span>
+<span class="line"><span style="color:#6A737D">        # ... taking sequential tick pairs as arguments,</span></span>
+<span class="line"><span style="color:#6A737D">        # front-padded with None (first tick has no preceding tick)</span></span>
+<span class="line"><span style="color:#24292E">        it.pairwise((</span><span style="color:#005CC5">None</span><span style="color:#24292E">, </span><span style="color:#D73A49">*</span><span style="color:#24292E">ax.get_xticklabels())),</span></span>
+<span class="line"><span style="color:#24292E">    )</span></span>
+<span class="line"><span style="color:#6A737D">    # third, replace existing tick labels with new timestamp tick labels</span></span>
+<span class="line"><span style="color:#24292E">    ax.set_xticklabels([</span><span style="color:#D73A49">*</span><span style="color:#24292E">new_tick_labels])  </span><span style="color:#6A737D"># make list b/c mpl rejects iters</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">grid.source_axes.legend(  </span><span style="color:#6A737D"># add legend to primary axes</span></span>
+<span class="line"><span style="color:#E36209">    loc</span><span style="color:#D73A49">=</span><span style="color:#032F62">"upper left"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    bbox_to_anchor</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.0</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># legend positioning</span></span>
+<span class="line"><span style="color:#E36209">    frameon</span><span style="color:#D73A49">=</span><span style="color:#005CC5">True</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># styling: turn on legend frame</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">otst.inset_outsets(</span></span>
+<span class="line"><span style="color:#24292E">    grid,</span></span>
+<span class="line"><span style="color:#E36209">    insets</span><span style="color:#D73A49">=</span><span style="color:#24292E">otst_util.layout_corner_insets(</span></span>
+<span class="line"><span style="color:#005CC5">        3</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># three insets</span></span>
+<span class="line"><span style="color:#032F62">        "NW"</span><span style="color:#24292E">,  </span><span style="color:#6A737D"># arrange in upper-left corner</span></span>
+<span class="line"><span style="color:#E36209">        inset_margin_size</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.02</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># allow closer to main axes bounds</span></span>
+<span class="line"><span style="color:#E36209">        inset_grid_size</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.67</span><span style="color:#24292E">, </span><span style="color:#005CC5">0.9</span><span style="color:#24292E">),  </span><span style="color:#6A737D"># grow to take up available space</span></span>
+<span class="line"><span style="color:#24292E">    ),</span></span>
+<span class="line"><span style="color:#E36209">    equalize_aspect</span><span style="color:#D73A49">=</span><span style="color:#005CC5">False</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"><span style="color:#24292E">sns.move_legend(  </span><span style="color:#6A737D"># move legend centered above figure</span></span>
+<span class="line"><span style="color:#24292E">    grid.source_axes, </span><span style="color:#032F62">"lower center"</span><span style="color:#24292E">, </span><span style="color:#E36209">bbox_to_anchor</span><span style="color:#D73A49">=</span><span style="color:#24292E">(</span><span style="color:#005CC5">0.5</span><span style="color:#24292E">, </span><span style="color:#005CC5">1.1</span><span style="color:#24292E">), </span><span style="color:#E36209">ncol</span><span style="color:#D73A49">=</span><span style="color:#005CC5">2</span></span>
+<span class="line"><span style="color:#24292E">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">plt.show()</span></span></code></pre>4f:["$","$L37","notebook-cell-9",{"index":9,"code":"$74","highlighted":"$75","interactive":false,"hasChart":true,"intro":"$L76","output":"$L77"}]
+50:["$","h2","h2-6",{"children":"Going Further"}]
+51:["$","p","p-15",{"children":["You can read more about area chart in the ",["$","a","a-0",{"href":"/area-plot","children":"dedicated section"}]," of the gallery."]}]
+52:["$","p","p-16",{"children":["You can learn more about the ",["$","code","code-0",{"children":"outset"}]," package in the ",["$","a","a-0",{"href":"https://mmore500.com/outset/","children":"official documentation"}]]}]
+53:["$","h2","h2-7",{"children":"Authorship"}]
+54:["$","p","p-17",{"children":["This tutorial is contributed by ",["$","a","a-0",{"href":"https://mmore500.com/","children":"Matthew Andres Moreno"}],", the ",["$","code","code-0",{"children":"outset"}]," library author. You can find him on Twitter as ",["$","a","a-1",{"href":"https://twitter.com/morenomatthewa","children":"@MorenoMatthewA"}]," and on GitHub as ",["$","a","a-2",{"href":"https://github.com/mmore500/","children":"@mmore500"}],"."]}]
+56:["$","th","th-6",{"children":"SW precip in mm"}]
+57:["$","th","th-7",{"children":"NW irrig. in mm"}]
+58:["$","th","th-8",{"children":"SW irrig. in mm"}]
+59:["$","th","th-9",{"children":"NW ET in mm"}]
+5a:["$","th","th-10",{"children":"SW ET in mm"}]
+5b:["$","th","th-11",{"children":"NW Lysimeter\\n(35.18817624°N, -102.09791°W)"}]
+5c:["$","th","th-12",{"children":"SW Lysimeter\\n(35.18613985°N, -102.0979187°W)"}]
+5d:["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"5568"}],["$","td","td-0",{"children":"2019"}],["$","td","td-1",{"children":"59.010417"}],["$","td","td-2",{"children":"0.005681"}],["$","td","td-3",{"children":"0.000000"}],["$","td","td-4",{"children":"0.0"}],["$","td","td-5",{"children":"0.0"}],["$","td","td-6",{"children":"0.0"}],["$","td","td-7",{"children":"0.0"}],["$","td","td-8",{"children":"-0.001523"}],["$","td","td-9",{"children":"-0.005245"}],["$","td","td-10",{"children":"0.0"}],["$","td","td-11",{"children":"0.0"}]]}],["$","tr","tr-1",{"children":[["$","th","th-0",{"children":"5569"}],["$","td","td-0",{"children":"2019"}],["$","td","td-1",{"children":"59.020833"}],["$","td","td-2",{"children":"0.000000"}],["$","td","td-3",{"children":"0.000000"}],["$","td","td-4",{"children":"0.0"}],["$","td","td-5",{"children":"0.0"}],["$","td","td-6",{"children":"0.0"}],["$","td","td-7",{"children":"0.0"}],["$","td","td-8",{"children":"0.018815"}],["$","td","td-9",{"children":"-0.005285"}],["$","td","td-10",{"children":"0.0"}],["$","td","td-11",{"children":"0.0"}]]}],["$","tr","tr-2",{"children":[["$","th","th-0",{"children":"5570"}],["$","td","td-0",{"children":"2019"}],["$","td","td-1",{"children":"59.031250"}],["$","td","td-2",{"children":"0.000000"}],["$","td","td-3",{"children":"0.000000"}],["$","td","td-4",{"children":"0.0"}],["$","td","td-5",{"children":"0.0"}],["$","td","td-6",{"children":"0.0"}],["$","td","td-7",{"children":"0.0"}],["$","td","td-8",{"children":"-0.009881"}],["$","td","td-9",{"children":"0.002503"}],["$","td","td-10",{"children":"0.0"}],["$","td","td-11",{"children":"0.0"}]]}],["$","tr","tr-3",{"children":[["$","th","th-0",{"children":"5571"}],["$","td","td-0",{"children":"2019"}],["$","td","td-1",{"children":"59.041667"}],["$","td","td-2",{"children":"0.000000"}],["$","td","td-3",{"children":"0.002464"}],["$","td","td-4",{"children":"0.0"}],["$","td","td-5",{"children":"0.0"}],["$","td","td-6",{"children":"0.0"}],["$","td","td-7",{"children":"0.0"}],["$","td","td-8",{"children":"-0.006134"}],["$","td","td-9",{"children":"0.002146"}],["$","td","td-10",{"children":"0.0"}],["$","td","td-11",{"children":"0.0"}]]}],["$","tr","tr-4",{"children":[["$","th","th-0",{"children":"5572"}],["$","td","td-0",{"children":"2019"}],["$","td","td-1",{"children":"59.052083"}],["$","td","td-2",{"children":"0.000000"}],["$","td","td-3",{"children":"0.000000"}],["$","td","td-4",{"children":"0.0"}],["$","td","td-5",{"children":"0.0"}],["$","td","td-6",{"children":"0.0"}],["$","td","td-7",{"children":"0.0"}],["$","td","td-8",{"children":"0.005352"}],["$","td","td-9",{"children":"0.000119"}],["$","td","td-10",{"children":"0.0"}],["$","td","td-11",{"children":"0.0"}]]}]]}]
+60:[["$","p","p-0",{"children":["Our first plotting step is to initialize an ",["$","code","code-0",{"children":"outset.OutsetGrid"}]," to manage content and layout of our planned axes grid.\nThis class operates analogously to seaborn's ",["$","a","a-0",{"href":"https://seaborn.pydata.org/generated/seaborn.FacetGrid.html","children":["$","code","code-0",{"children":"FacetGrid"}]}],", if you're familiar with that."]}],["$","p","p-1",{"children":["We'll provide a list of the main plot regions we want to magnify through the ",["$","code","code-0",{"children":"data"}]," kwarg.\nOther kwargs provide styling and layout information, including how we want plots to be shaped and how many columns we want to have."]}]]
+61:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-overlapped-area-chart-with-zoom-outsets/output-3.png","alt":"Overlapped Area Chart with Zoom Outsets","width":1189,"height":589,"loading":"lazy","decoding":"async"}]}]]
+64:[["$","p","p-0",{"children":"Next, we'll set up the content of our plots --- overlapped area plots showing the two rain gauges' readings."}],["$","p","p-1",{"children":["Matplotlib's ",["$","a","a-0",{"href":"https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.stackplot.html","children":["$","code","code-0",{"children":"stackplot"}]}]," is designed to create area plots with areas \"stacked\" on top of each other instead of overlapping.\nTo get an overlap, we'll call ",["$","code","code-0",{"children":"stackplot"}]," twice so that each \"stack\" contains only one of our variables."]}],["$","p","p-2",{"children":["We will use ",["$","code","code-0",{"children":"OutsetGrid.broadcast"}]," to draw the same content across all four axes in our grid.\nThis method takes a plotter function as its first argument then calls it with subsequent arguments forwarded to it on each axis."]}]]
+65:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-overlapped-area-chart-with-zoom-outsets/output-4.png","alt":"Overlapped Area Chart with Zoom Outsets","width":1189,"height":589,"loading":"lazy","decoding":"async"}]}]]
+68:[["$","p","p-0",{"children":["Now it's time to add zoom indicator boxes, a.k.a. ",["$","code","code-0",{"children":"outset"}]," \"marquees,\" to show how the scales of our auxiliary plots relate to the scale of the main plot.\nNote that we pass a kwarg to allow aspect ratios to vary between the main plot and outset plots.\nThat way, zoom areas can be expanded along their smaller dimension to take full advantage of available space."]}]]
+69:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-overlapped-area-chart-with-zoom-outsets/output-5.png","alt":"Overlapped Area Chart with Zoom Outsets","width":1181,"height":588,"loading":"lazy","decoding":"async"}]}]]
+6e:[["$","p","p-0",{"children":"With this out of the way, we can loop over the axes in our grid and perform the label replacement."}]]
+6f:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-overlapped-area-chart-with-zoom-outsets/output-6.png","alt":"Overlapped Area Chart with Zoom Outsets","width":1185,"height":604,"loading":"lazy","decoding":"async"}]}]]
+72:[["$","p","p-0",{"children":"The last order of business is to add a legend to the upper left corner of the main plot."}]]
+73:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-overlapped-area-chart-with-zoom-outsets/output-7.png","alt":"Overlapped Area Chart with Zoom Outsets","width":1185,"height":604,"loading":"lazy","decoding":"async"}]}]]
+76:[["$","p","p-0",{"children":["Just call ",["$","code","code-0",{"children":"outset.inset_outsets"}],"!\nIn this case, we'll also use ",["$","code","code-1",{"children":"outset.util.layout_inset_axes"}]," to tweak inset sizing and positioning."]}]]
+77:[["$","p","p-0",{"children":["$","img","img-0",{"src":"/posts/web-overlapped-area-chart-with-zoom-outsets/output-8.png","alt":"Overlapped Area Chart with Zoom Outsets","width":631,"height":318,"loading":"lazy","decoding":"async"}]}]]

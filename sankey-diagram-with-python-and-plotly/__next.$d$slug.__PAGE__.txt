@@ -1,0 +1,173 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/09q85_ay6xdo0.js"
+4:"/_next/static/chunks/21dxsc4p3jeoz.js"
+5:"/_next/static/chunks/1d1qeiuriwpmz.js"
+6:"/_next/static/chunks/1u5pxdefkf32d.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/354p-aqxaih3m.js"
+e:I[22016,["$3","$4","$5","$6","$d"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5","$6"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5","$6"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"w-full pt-12 pb-6 sm:pt-20","children":[["$","div",null,{"className":"flex items-center justify-between gap-6","children":[["$","h1",null,{"children":"Sankey Diagram with Python and Plotly"}],["$","div",null,{"className":"w-16 min-w-16 sm:w-20 sm:min-w-20","children":["$","img",null,{"src":"/thumbs/section/Sankey150.webp","alt":"logo of a chart:Sankey","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}]}]]}],["$","div",null,{"className":"title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15"}],["$","div",null,{"className":"mt-6","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>This blogpost describes how to build a Sankey Diagram with <code>Python</code> and the <code>Plotly</code> library. It starts with basic examples based on various input formats and then explain how to apply the most common customisations.</p>"}}]}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-2","children":[["$","$Le",null,{"href":"/sankey-diagram/","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"Sankey section"}],["$","a",null,{"href":"https://www.data-to-viz.com/graph/sankey.html","className":"group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","children":"About this chart"}]]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"sankey-diagram-with-python-and-plotly","s":["2d-density-plot","3d","about","all-charts","animation","arc-diagram","area-plot","barplot","beeswarm","best-dataviz-packages","best-python-chart-examples","boxplot","bubble-map","bubble-plot","candlestick","cartogram","cheat-sheets","chord-diagram","choropleth-map","circular-barplot","circular-packing","color-palette-finder","connected-scatter-plot","connection-map","correlogram","dendrogram","density-plot","donut-plot","drawarrow","heatmap","hexbin-map","hierarchical-edge-bundling","histogram","line-chart","lollipop-plot","map","matplotlib","network-chart","pandas","parallel-plot","pie-plot","plotly","plotnine","pyfonts","python-colors","radar-chart","ridgeline","sankey-diagram","scatter-plot","seaborn","stacked-area-plot","statistics","streamchart","table","timeseries","treemap","venn-diagram","violin-plot","waffle-chart","wordcloud"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#cb1dd1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Sankey Diagram with Python and Plotly"}],["$","meta","1",{"name":"description","content":"same as description but shorter"}],["$","meta","2",{"name":"author","content":"Yan Holtz"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"python, chart, plot, seaborn, matplotlib, kdeplot"}],["$","link","5",{"rel":"canonical","href":"https://python-graph-gallery.com/sankey-diagram-with-python-and-plotly/"}],["$","meta","6",{"property":"og:title","content":"Sankey Diagram with Python and Plotly"}],["$","meta","7",{"property":"og:description","content":"same as description but shorter"}],["$","meta","8",{"property":"og:site_name","content":"The Python Graph Gallery"}],["$","meta","9",{"property":"og:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:site","content":"@R_Graph_Gallery"}],["$","meta","12",{"name":"twitter:title","content":"Sankey Diagram with Python and Plotly"}],["$","meta","13",{"name":"twitter:description","content":"same as description but shorter"}],["$","meta","14",{"name":"twitter:image","content":"https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"}],["$","link","15",{"rel":"icon","href":"/favicon-32x32.png","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/icons/icon-48x48.png","sizes":"48x48"}],["$","link","17",{"rel":"apple-touch-icon","href":"/icons/icon-72x72.png","sizes":"72x72"}],["$","link","18",{"rel":"apple-touch-icon","href":"/icons/icon-96x96.png","sizes":"96x96"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/icon-144x144.png","sizes":"144x144"}],["$","link","20",{"rel":"apple-touch-icon","href":"/icons/icon-192x192.png","sizes":"192x192"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icons/icon-256x256.png","sizes":"256x256"}],["$","link","22",{"rel":"apple-touch-icon","href":"/icons/icon-384x384.png","sizes":"384x384"}],["$","link","23",{"rel":"apple-touch-icon","href":"/icons/icon-512x512.png","sizes":"512x512"}],["$","$L1d","24",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$b"}},"a":"$@1f","u":"$@20","b":"iC--qS1eQ-6JHpTJ3K1Kc"}
+21:I[98936,["$3","$4","$5","$6","$d"],"default"]
+23:I[68978,["$3","$4","$5","$6","$d"],"default"]
+38:I[44110,["$3","$4","$5","$6","$d"],"default"]
+39:I[59351,["$3","$4","$5","$6","$d"],"default"]
+3a:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+22:T5d0,import plotly.graph_objects as go
+import urllib, json
+
+url = 'https://raw.githubusercontent.com/plotly/plotly.js/master/test/image/mocks/sankey_energy.json'
+response = urllib.request.urlopen(url)
+data = json.loads(response.read())
+
+# override gray link colors with 'source' colors
+opacity = 0.4
+# change 'magenta' to its 'rgba' value to add opacity
+data['data'][0]['node']['color'] = ['rgba(255,0,255, 0.8)' if color == "magenta" else color for color in data['data'][0]['node']['color']]
+data['data'][0]['link']['color'] = [data['data'][0]['node']['color'][src].replace("0.8", str(opacity))
+                                    for src in data['data'][0]['link']['source']]
+
+fig = go.Figure(data=[go.Sankey(
+    valueformat = ".0f",
+    valuesuffix = "TWh",
+    # Define nodes
+    node = dict(
+      pad = 15,
+      thickness = 15,
+      line = dict(color = "black", width = 0.5),
+      label =  data['data'][0]['node']['label'],
+      color =  data['data'][0]['node']['color']
+    ),
+    # Add links
+    link = dict(
+      source =  data['data'][0]['link']['source'],
+      target =  data['data'][0]['link']['target'],
+      value =  data['data'][0]['link']['value'],
+      label =  data['data'][0]['link']['label'],
+      color =  data['data'][0]['link']['color']
+))])
+
+fig.update_layout(title_text="Energy forecast for 2050<br>Source: Department of Energy & Climate Change, Tom Counsell via <a href='https://bost.ocks.org/mike/sankey/'>Mike Bostock</a>",
+                  font_size=10)24:T658,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">source </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">1</span><span style="color:#24292E">, </span><span style="color:#005CC5">0</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">target </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">4</span><span style="color:#24292E">, </span><span style="color:#005CC5">5</span><span style="color:#24292E">, </span><span style="color:#005CC5">4</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">value </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#005CC5">2</span><span style="color:#24292E">, </span><span style="color:#005CC5">8</span><span style="color:#24292E">, </span><span style="color:#005CC5">4</span><span style="color:#24292E">]</span></span></code></pre>f:["$","article",null,{"className":"wrapper post-content","children":["$","$L21",null,{"cells":["source = [0, 0, 1, 1, 0]\ntarget = [2, 3, 4, 5, 4]\nvalue = [8, 2, 2, 8, 4]","import plotly.graph_objects as go","link = dict(source = source, target = target, value = value)\ndata = go.Sankey(link = link)\n\nfig = go.Figure(data)\n\nfig.show()","# If you need to save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/sankey-diagram-plotly1.html\")","$22","# If you need to save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/sankey-diagram-plotly-real.html\")"],"children":[["$","h2","h2-0",{"children":"The Data"}],"\n",["$","p","p-0",{"children":"What kind of data do we need"}],"\n",["$","$L23","notebook-cell-0",{"index":0,"code":"source = [0, 0, 1, 1, 0]\ntarget = [2, 3, 4, 5, 4]\nvalue = [8, 2, 2, 8, 4]","highlighted":"$24","interactive":true,"hasChart":false}],"\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37"]}]}]
+10:["$","div",null,{"className":"h-16 sm:h-20"}]
+11:["$","div",null,{"className":"wrapper","children":["$","div",null,{"className":"pb-4","children":[["$","h2",null,{"id":"Related charts","children":"Related chart types"}],["$","div",null,{"className":"grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7","children":[["$","$Le","chordDiagram",{"href":"/chord-diagram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Chord150.webp","alt":"logo of a chart:Chord","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Chord Diagram"}]]}],["$","$Le","network",{"href":"/network-chart/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Network150.webp","alt":"logo of a chart:Network","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Network"}]]}],["$","$Le","sankey",{"href":"/sankey-diagram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Sankey150.webp","alt":"logo of a chart:Sankey","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Sankey"}]]}],["$","$Le","arc",{"href":"/arc-diagram/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Arc150.webp","alt":"logo of a chart:Arc","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Arc Diagram"}]]}],["$","$Le","edgeBundling",{"href":"/hierarchical-edge-bundling/","className":"group block no-underline","children":[["$","div",null,{"className":"relative","children":[["$","img",null,{"src":"/thumbs/section/Bundle150.webp","alt":"logo of a chart:Bundle","width":150,"height":150,"loading":"lazy","className":"h-auto w-full"}],["$","div",null,{"className":"absolute inset-0 rounded-full bg-foreground opacity-0 transition-opacity duration-200 group-hover:opacity-10"}]]}],["$","p",null,{"className":"!mt-1 text-center text-xs leading-4 text-muted-foreground group-hover:text-foreground","children":"Edge Bundling"}]]}]]}]]}]}]
+12:["$","div",null,{"className":"h-16 sm:h-20"}]
+13:["$","div",null,{"className":"wrapper","children":["$","section",null,{"className":"grid grid-cols-1 items-center gap-8 rounded-xl border p-6 sm:p-8 md:grid-cols-5","children":[["$","div",null,{"className":"md:col-span-3","children":[["$","h2",null,{"id":"Edit this page","className":"!mt-0 !border-b-0 !pb-0 !text-2xl","children":"🚨 Grab the Data To Viz poster!"}],["$","p",null,{"children":["Do you know all the chart types? Do you know which one you should pick? I made a"," ",["$","b",null,{"children":"decision tree"}]," that answers those questions. You can download it for free!"]}],["$","$L38",null,{"form":"poster","buttonLabel":"Get the poster","className":"mt-6"}]]}],["$","img",null,{"src":"/img/poster_small.png","alt":"dataviz decision tree poster","width":900,"loading":"lazy","className":"h-auto w-full rounded-md border md:col-span-2"}]]}]}]
+14:["$","$L39",null,{}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/354p-aqxaih3m.js","async":true}]
+16:["$","$L3a",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@3b"}]}]
+20:true
+b:300
+25:["$","h2","h2-1",{"children":["Most basic Sankey diagram with ",["$","code","code-0",{"children":"Plotly"}]]}]
+26:["$","p","p-1",{"children":"Once that we have the data, the first step is to load the library"}]
+27:["$","$L23","notebook-cell-1",{"index":1,"code":"import plotly.graph_objects as go","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#D73A49\">import</span><span style=\"color:#24292E\"> plotly.graph_objects </span><span style=\"color:#D73A49\">as</span><span style=\"color:#24292E\"> go</span></span></code></pre>","interactive":true,"hasChart":false}]
+28:["$","p","p-2",{"children":"Now let's use it to plot the Sanke"}]
+3c:T4aa,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#24292E">link </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">source</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> source, </span><span style="color:#E36209">target</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> target, </span><span style="color:#E36209">value</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> value)</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> go.Sankey(</span><span style="color:#E36209">link</span><span style="color:#D73A49"> =</span><span style="color:#24292E"> link)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> go.Figure(data)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.show()</span></span></code></pre>29:["$","$L23","notebook-cell-2",{"index":2,"code":"link = dict(source = source, target = target, value = value)\ndata = go.Sankey(link = link)\n\nfig = go.Figure(data)\n\nfig.show()","highlighted":"$3c","interactive":true,"hasChart":false}]
+2a:["$","p","p-3",{"children":["Note that you can save this chart to a standalone file thanks to the write.html() function. It is then possible to render it in any html document using an ",["$","code","code-0",{"children":"iframe"}]]}]
+2b:["$","$L23","notebook-cell-3",{"index":3,"code":"# If you need to save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/sankey-diagram-plotly1.html\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># If you need to save this file as a standalong html file:</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">fig.write_html(</span><span style=\"color:#032F62\">\"../../static/interactiveCharts/sankey-diagram-plotly1.html\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false}]
+2c:["$","div","div-0",{"className":"code-snippet"}]
+2d:["$","div","div-1",{"className":"cell-output","children":["$","div","div-0",{"className":"cell-output-html","children":[["$","iframe","iframe-0",{"src":"../../interactiveCharts/sankey-diagram-plotly1.html","width":800,"height":600,"title":"ridgeline chart with plotly","style":{"border":"none"}}],"\n"]}]}]
+2e:["$","h2","h2-2",{"children":"Basic customization"}]
+2f:["$","p","p-4",{"children":"This section needs to be edited. Sorry for the inconvenience 😔"}]
+30:["$","h2","h2-3",{"children":"Real life Sankey diagram"}]
+31:["$","p","p-5",{"children":["This is the example coming from the ",["$","a","a-0",{"href":"https://plotly.com/python/sankey-diagram/","children":"plotly documentation"}],", in order to see how plotly behaves with a real life dataset!"]}]
+3d:T5d0,import plotly.graph_objects as go
+import urllib, json
+
+url = 'https://raw.githubusercontent.com/plotly/plotly.js/master/test/image/mocks/sankey_energy.json'
+response = urllib.request.urlopen(url)
+data = json.loads(response.read())
+
+# override gray link colors with 'source' colors
+opacity = 0.4
+# change 'magenta' to its 'rgba' value to add opacity
+data['data'][0]['node']['color'] = ['rgba(255,0,255, 0.8)' if color == "magenta" else color for color in data['data'][0]['node']['color']]
+data['data'][0]['link']['color'] = [data['data'][0]['node']['color'][src].replace("0.8", str(opacity))
+                                    for src in data['data'][0]['link']['source']]
+
+fig = go.Figure(data=[go.Sankey(
+    valueformat = ".0f",
+    valuesuffix = "TWh",
+    # Define nodes
+    node = dict(
+      pad = 15,
+      thickness = 15,
+      line = dict(color = "black", width = 0.5),
+      label =  data['data'][0]['node']['label'],
+      color =  data['data'][0]['node']['color']
+    ),
+    # Add links
+    link = dict(
+      source =  data['data'][0]['link']['source'],
+      target =  data['data'][0]['link']['target'],
+      value =  data['data'][0]['link']['value'],
+      label =  data['data'][0]['link']['label'],
+      color =  data['data'][0]['link']['color']
+))])
+
+fig.update_layout(title_text="Energy forecast for 2050<br>Source: Department of Energy & Climate Change, Tom Counsell via <a href='https://bost.ocks.org/mike/sankey/'>Mike Bostock</a>",
+                  font_size=10)3e:T27a3,<pre class="shiki github-light" style="background-color:#fff;color:#24292e" tabindex="0"><code><span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> plotly.graph_objects </span><span style="color:#D73A49">as</span><span style="color:#24292E"> go</span></span>
+<span class="line"><span style="color:#D73A49">import</span><span style="color:#24292E"> urllib, json</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">url </span><span style="color:#D73A49">=</span><span style="color:#032F62"> 'https://raw.githubusercontent.com/plotly/plotly.js/master/test/image/mocks/sankey_energy.json'</span></span>
+<span class="line"><span style="color:#24292E">response </span><span style="color:#D73A49">=</span><span style="color:#24292E"> urllib.request.urlopen(url)</span></span>
+<span class="line"><span style="color:#24292E">data </span><span style="color:#D73A49">=</span><span style="color:#24292E"> json.loads(response.read())</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># override gray link colors with 'source' colors</span></span>
+<span class="line"><span style="color:#24292E">opacity </span><span style="color:#D73A49">=</span><span style="color:#005CC5"> 0.4</span></span>
+<span class="line"><span style="color:#6A737D"># change 'magenta' to its 'rgba' value to add opacity</span></span>
+<span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'node'</span><span style="color:#24292E">][</span><span style="color:#032F62">'color'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [</span><span style="color:#032F62">'rgba(255,0,255, 0.8)'</span><span style="color:#D73A49"> if</span><span style="color:#24292E"> color </span><span style="color:#D73A49">==</span><span style="color:#032F62"> "magenta"</span><span style="color:#D73A49"> else</span><span style="color:#24292E"> color </span><span style="color:#D73A49">for</span><span style="color:#24292E"> color </span><span style="color:#D73A49">in</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'node'</span><span style="color:#24292E">][</span><span style="color:#032F62">'color'</span><span style="color:#24292E">]]</span></span>
+<span class="line"><span style="color:#24292E">data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'link'</span><span style="color:#24292E">][</span><span style="color:#032F62">'color'</span><span style="color:#24292E">] </span><span style="color:#D73A49">=</span><span style="color:#24292E"> [data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'node'</span><span style="color:#24292E">][</span><span style="color:#032F62">'color'</span><span style="color:#24292E">][src].replace(</span><span style="color:#032F62">"0.8"</span><span style="color:#24292E">, </span><span style="color:#005CC5">str</span><span style="color:#24292E">(opacity))</span></span>
+<span class="line"><span style="color:#D73A49">                                    for</span><span style="color:#24292E"> src </span><span style="color:#D73A49">in</span><span style="color:#24292E"> data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'link'</span><span style="color:#24292E">][</span><span style="color:#032F62">'source'</span><span style="color:#24292E">]]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig </span><span style="color:#D73A49">=</span><span style="color:#24292E"> go.Figure(</span><span style="color:#E36209">data</span><span style="color:#D73A49">=</span><span style="color:#24292E">[go.Sankey(</span></span>
+<span class="line"><span style="color:#E36209">    valueformat</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> ".0f"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">    valuesuffix</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "TWh"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#6A737D">    # Define nodes</span></span>
+<span class="line"><span style="color:#E36209">    node</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">      pad</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">      thickness</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 15</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">      line</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span><span style="color:#E36209">color</span><span style="color:#D73A49"> =</span><span style="color:#032F62"> "black"</span><span style="color:#24292E">, </span><span style="color:#E36209">width</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> 0.5</span><span style="color:#24292E">),</span></span>
+<span class="line"><span style="color:#E36209">      label</span><span style="color:#D73A49"> =</span><span style="color:#24292E">  data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'node'</span><span style="color:#24292E">][</span><span style="color:#032F62">'label'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">      color</span><span style="color:#D73A49"> =</span><span style="color:#24292E">  data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'node'</span><span style="color:#24292E">][</span><span style="color:#032F62">'color'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">    ),</span></span>
+<span class="line"><span style="color:#6A737D">    # Add links</span></span>
+<span class="line"><span style="color:#E36209">    link</span><span style="color:#D73A49"> =</span><span style="color:#005CC5"> dict</span><span style="color:#24292E">(</span></span>
+<span class="line"><span style="color:#E36209">      source</span><span style="color:#D73A49"> =</span><span style="color:#24292E">  data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'link'</span><span style="color:#24292E">][</span><span style="color:#032F62">'source'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">      target</span><span style="color:#D73A49"> =</span><span style="color:#24292E">  data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'link'</span><span style="color:#24292E">][</span><span style="color:#032F62">'target'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">      value</span><span style="color:#D73A49"> =</span><span style="color:#24292E">  data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'link'</span><span style="color:#24292E">][</span><span style="color:#032F62">'value'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">      label</span><span style="color:#D73A49"> =</span><span style="color:#24292E">  data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'link'</span><span style="color:#24292E">][</span><span style="color:#032F62">'label'</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#E36209">      color</span><span style="color:#D73A49"> =</span><span style="color:#24292E">  data[</span><span style="color:#032F62">'data'</span><span style="color:#24292E">][</span><span style="color:#005CC5">0</span><span style="color:#24292E">][</span><span style="color:#032F62">'link'</span><span style="color:#24292E">][</span><span style="color:#032F62">'color'</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#24292E">))])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">fig.update_layout(</span><span style="color:#E36209">title_text</span><span style="color:#D73A49">=</span><span style="color:#032F62">"Energy forecast for 2050&#x3C;br>Source: Department of Energy &#x26; Climate Change, Tom Counsell via &#x3C;a href='https://bost.ocks.org/mike/sankey/'>Mike Bostock&#x3C;/a>"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#E36209">                  font_size</span><span style="color:#D73A49">=</span><span style="color:#005CC5">10</span><span style="color:#24292E">)</span></span></code></pre>32:["$","$L23","notebook-cell-4",{"index":4,"code":"$3d","highlighted":"$3e","interactive":true,"hasChart":false}]
+33:["$","p","p-6",{"children":"Save the figure in html format"}]
+34:["$","$L23","notebook-cell-5",{"index":5,"code":"# If you need to save this file as a standalong html file:\nfig.write_html(\"../../static/interactiveCharts/sankey-diagram-plotly-real.html\")","highlighted":"<pre class=\"shiki github-light\" style=\"background-color:#fff;color:#24292e\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6A737D\"># If you need to save this file as a standalong html file:</span></span>\n<span class=\"line\"><span style=\"color:#24292E\">fig.write_html(</span><span style=\"color:#032F62\">\"../../static/interactiveCharts/sankey-diagram-plotly-real.html\"</span><span style=\"color:#24292E\">)</span></span></code></pre>","interactive":true,"hasChart":false}]
+35:["$","p","p-7",{"children":"Render it as an iframe"}]
+36:["$","div","div-2",{"className":"code-snippet"}]
+37:["$","div","div-3",{"className":"cell-output","children":["$","div","div-0",{"className":"cell-output-html","children":[["$","iframe","iframe-0",{"src":"../../interactiveCharts/sankey-diagram-plotly-real.html","width":800,"height":600,"title":"ridgeline chart with plotly","style":{"border":"none"}}],"\n"]}]}]
+3b:null
+b:C
+1f:0
+9:"$undefined"
+1e:"$undefined"
+17:"$undefined"
