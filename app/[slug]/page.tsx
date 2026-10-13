@@ -11,9 +11,14 @@ import { getAllPostSlugs, getPost } from '@/lib/posts';
 import { renderPost } from '@/lib/render-post';
 import { buildMetadata } from '@/lib/seo';
 import { SITE_URL } from '@/lib/site';
+import { getLastModified, postJsonLd } from '@/lib/jsonld';
+import JsonLd from '@/components/JsonLd';
 
 // One page per post of content/posts/. Fully static.
 export const dynamicParams = false;
+
+// Posts that must not appear in search engines (they stay reachable)
+const NOINDEX_SLUGS = ['basic-template'];
 
 export function generateStaticParams() {
   return getAllPostSlugs().map((slug) => ({ slug }));
@@ -32,6 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: post.keywords,
     path: `/${slug}/`,
     image: hasImage ? `${SITE_URL}/posts/${slug}/output-1.png` : undefined,
+    noindex: NOINDEX_SLUGS.includes(slug),
   });
 }
 
@@ -45,8 +51,19 @@ export default async function PostPage({ params }: Props) {
     interactive: post.interactive !== false,
   });
 
+  const hasImage = fs.existsSync(path.join(post.dir, 'output-1.png'));
+  const jsonLd = postJsonLd({
+    slug,
+    title: post.title,
+    description: post.seoDescription || post.title,
+    chartType: post.chartType,
+    image: hasImage ? `${SITE_URL}/posts/${slug}/output-1.png` : undefined,
+    dateModified: getLastModified(`content/posts/${slug}/index.md`),
+  });
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <div className="wrapper">
         <TitleAndDescription title={post.title} description={'<p>' + post.description + '</p>'} chartType={post.chartType} />
       </div>

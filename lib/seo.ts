@@ -8,6 +8,8 @@ type SeoProps = {
   image?: string;
   // Path of the page, e.g. "/barplot/". Used for the canonical url.
   path: string;
+  // Ask search engines not to index the page (links are still followed)
+  noindex?: boolean;
 };
 
 // Builds the <head> tags of a page.
@@ -19,6 +21,7 @@ export function buildMetadata({
   keywords,
   image,
   path,
+  noindex,
 }: SeoProps): Metadata {
   const description = seoDescription || 'How to build a chart with Python';
   const canonical = path.endsWith('/') ? path : path + '/';
@@ -28,6 +31,7 @@ export function buildMetadata({
     authors: [{ name: 'Yan Holtz' }],
     keywords: keywords || 'python, chart, graph, code, viz, dataviz',
     alternates: { canonical },
+    ...(noindex && { robots: { index: false, follow: true } }),
     openGraph: {
       siteName: SITE_NAME,
       title,

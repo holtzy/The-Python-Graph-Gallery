@@ -71,21 +71,41 @@ const remarkPostDirectives = (postDir: string) => () => (tree: MdastRoot) => {
 };
 
 // ---------- rehype: images, scripts
+//
+// - local charts (./output-3.png) are served as webp, with a srcset (see scripts/prepare-assets.ts)
+// - images without alt text get a descriptive one: "<post title>: <title of the section>"
 const rehypePostAssets =
   (slug: string, postDir: string, title: string) => () => async (tree: HastRoot) => {
-    const images: Element[] = [];
+    const images: { img: Element; section?: string }[] = [];
+    let section: string | undefined;
+    // Number of images already seen in each section, to make their alt text unique
+    const perSection: Record<string, number> = {};
+
+    // Document order: remember the last section title seen before each image
     visit(tree, 'element', (node: Element, index, parent: any) => {
       // Scripts of html outputs (plotly, bokeh...) were never executed on the site: drop them.
       if (node.tagName === 'script') {
         parent.children.splice(index, 1);
         return [SKIP, index];
       }
-      if (node.tagName === 'img') images.push(node);
+      if (node.tagName === 'h2' || node.tagName === 'h3') {
+        section = getText(node).replace(/\s+/g, ' ').trim();
+        return SKIP;
+      }
+      if (node.tagName === 'img') images.push({ img: node, section });
     });
 
-    let outputCount = 0;
+    // Alt texts first, in document order (numbering must be stable)
+    for (const { img, section } of images) {
+      if (img.properties.alt) continue;
+      const key = section ?? '';
+      perSection[key] = (perSection[key] ?? 0) + 1;
+      const base = section && section.toLowerCase() !== title.toLowerCase() ? `${title}: ${section}` : title;
+      img.properties.alt = perSection[key] > 1 ? `${base} (${perSection[key]})` : base;
+    }
+
     await Promise.all(
-      images.map(async (img) => {
+      images.map(async ({ img }) => {
         const src = String(img.properties.src ?? '');
         if (src.startsWith('./') || !/^(https?:|\/|data:)/.test(src)) {
           const file = src.replace(/^\.\//, '');
@@ -94,13 +114,17 @@ const rehypePostAssets =
             const meta = await sharp(path.join(postDir, file)).metadata();
             img.properties.width = meta.width;
             img.properties.height = meta.height;
+            if (/\.png$/i.test(file)) {
+              const base = `/posts/${slug}/${file.replace(/\.png$/i, '')}`;
+              img.properties.src = `${base}-800.webp`;
+              if ((meta.width ?? 0) > 800) {
+                img.properties.srcSet = `${base}-800.webp 800w, ${base}-1600.webp 1600w`;
+                img.properties.sizes = '(min-width: 820px) 780px, 100vw';
+              }
+            }
           } catch {
             // missing file: keep the img as is
           }
-        }
-        if (!img.properties.alt) {
-          outputCount++;
-          img.properties.alt = title;
         }
         img.properties.loading = 'lazy';
         img.properties.decoding = 'async';
