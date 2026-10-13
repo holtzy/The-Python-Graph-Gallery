@@ -5,7 +5,8 @@ import { trackEvent } from '@/components/KitForm';
 import { cn } from '@/lib/utils';
 import DatavizCaveatsMagnet from './DatavizCaveatsMagnet';
 
-type MagnetProps = { chartType?: string };
+// compact: smaller version, for the blog posts
+type MagnetProps = { chartType?: string; compact?: boolean };
 
 // All the lead magnets. A spot shows one of them, picked at random.
 const MAGNETS: { name: string; Component: React.ComponentType<MagnetProps> }[] = [
@@ -17,7 +18,7 @@ const MAGNETS: { name: string; Component: React.ComponentType<MagnetProps> }[] =
 // It is drawn above the fixed table of content (z-10), which disappears behind the band while scrolling.
 // Google Analytics receives a "lead_magnet_view" event when the spot is seen, and a "generate_lead"
 // event when someone subscribes: compare them to get the conversion rate of each magnet.
-export default function LeadMagnetSpot({ chartType, className }: MagnetProps & { className?: string }) {
+export default function LeadMagnetSpot({ chartType, compact, className }: MagnetProps & { className?: string }) {
   // The html is static: the first magnet is rendered at build time, the random pick happens in the browser
   const [index, setIndex] = useState(0);
   const ref = useRef<HTMLElement>(null);
@@ -44,8 +45,8 @@ export default function LeadMagnetSpot({ chartType, className }: MagnetProps & {
   }, [name]);
 
   return (
-    <aside ref={ref} className={cn('wrapper relative z-10 bg-muted py-14 sm:py-20', className)} data-lead-magnet={name}>
-      <Component chartType={chartType} />
+    <aside ref={ref} className={cn('wrapper relative z-10 bg-muted', compact ? 'py-8 sm:py-10' : 'py-14 sm:py-20', className)} data-lead-magnet={name}>
+      <Component chartType={chartType} compact={compact} />
     </aside>
   );
 }

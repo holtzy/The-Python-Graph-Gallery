@@ -18,13 +18,35 @@ const FAN = [
 
 // Lead magnet: the deck of 25 dataviz caveat cards, offered in exchange for an email.
 // The card on top of the deck matches the chart type of the page (or is random).
-export default function DatavizCaveatsMagnet({ chartType }: { chartType?: string }) {
+export default function DatavizCaveatsMagnet({ chartType, compact }: { chartType?: string; compact?: boolean }) {
   const matching = caveatForChartType(chartType);
   // Pages without a matching card get a random one, picked in the browser (the html is static)
   const [top, setTop] = useState<Caveat>(matching ?? DATAVIZ_CAVEATS[4]);
   useEffect(() => {
     if (!matching) setTop(DATAVIZ_CAVEATS[Math.floor(Math.random() * DATAVIZ_CAVEATS.length)]);
   }, [matching]);
+
+  // Compact version (blog posts): small deck on the left, no h2 (it would change the outline of the post)
+  if (compact) {
+    return (
+      <div className="grid items-center gap-8 sm:grid-cols-[176px_1fr]">
+        <div className="ml-3 hidden h-[165px] w-[176px] sm:block">
+          <div className="origin-top-left scale-[0.55]">
+            <CardDeck top={top} sticker={false} />
+          </div>
+        </div>
+        <div>
+          <p className="!m-0 text-xl font-semibold tracking-tight">⚠️ Avoid the 25 most common dataviz mistakes</p>
+          <p className="!mt-2 text-muted-foreground">
+            The dataviz caveats I see the most, as a deck of 25 cards: a chart that is not ideal, and a better
+            alternative. Free.
+          </p>
+          <KitForm form="datavizCaveats" buttonLabel="Send me the cards" className="mt-4" />
+          <p className="!mt-2 text-xs text-muted-foreground">I respect your privacy. Unsubscribe anytime.</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="grid items-center gap-10 md:grid-cols-[1fr_320px] md:gap-6">
@@ -46,7 +68,7 @@ export default function DatavizCaveatsMagnet({ chartType }: { chartType?: string
   );
 }
 
-function CardDeck({ top }: { top: Caveat }) {
+function CardDeck({ top, sticker = true }: { top: Caveat; sticker?: boolean }) {
   const others = DECK_IDS.filter((id) => id !== top.id)
     .slice(0, 4)
     .map((id) => DATAVIZ_CAVEATS.find((c) => c.id === id)!);
@@ -78,13 +100,15 @@ function CardDeck({ top }: { top: Caveat }) {
         );
       })}
       {/* Sticker */}
-      <div className="absolute top-0 right-2 z-20 grid size-16 rotate-12 place-items-center rounded-full bg-foreground text-center text-[11px] leading-tight font-semibold text-background shadow-md">
-        <span>
-          25
-          <br />
-          cards
-        </span>
-      </div>
+      {sticker && (
+        <div className="absolute top-0 right-2 z-20 grid size-16 rotate-12 place-items-center rounded-full bg-foreground text-center text-[11px] leading-tight font-semibold text-background shadow-md">
+          <span>
+            25
+            <br />
+            cards
+          </span>
+        </div>
+      )}
     </div>
   );
 }

@@ -16,6 +16,7 @@ import type { Root as HastRoot, Element, ElementContent } from 'hast';
 import type { Root as MdastRoot } from 'mdast';
 import { highlightCode } from './highlight';
 import CodeCell from '@/components/post/CodeCell';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 
 // Renders the markdown body of a post into React elements, at build time.
 //
@@ -260,9 +261,30 @@ const rehypeHighlightOthers = () => async (tree: HastRoot) => {
   await Promise.all(pending);
 };
 
+// Place of the lead magnet in a post: before its middle section (h2),
+// or after the first chart when the post has less than 2 sections, or at the end.
+function insertLeadMagnet(tree: HastRoot, cells: PostCell[]) {
+  const marker: Element = { type: 'element', tagName: 'lead-magnet', properties: {}, children: [] };
+  const isEl = (n: HastRoot['children'][number], tag: string): n is Element => n.type === 'element' && n.tagName === tag;
+  const h2s = tree.children.flatMap((n, i) => (isEl(n, 'h2') ? [i] : []));
+  if (h2s.length >= 2) {
+    tree.children.splice(h2s[Math.floor(h2s.length / 2)], 0, marker);
+    return;
+  }
+  const firstChart = tree.children.findIndex((n) => isEl(n, 'notebook-cell') && cells[Number(n.properties.dataIndex)]?.hasChart);
+  if (firstChart >= 0 && firstChart < tree.children.length - 1) tree.children.splice(firstChart + 1, 0, marker);
+  else tree.children.push(marker);
+}
+
 export async function renderPost(
   body: string,
-  { slug, dir, title, interactive = true }: { slug: string; dir: string; title: string; interactive?: boolean }
+  {
+    slug,
+    dir,
+    title,
+    chartType,
+    interactive = true,
+  }: { slug: string; dir: string; title: string; chartType?: string; interactive?: boolean }
 ) {
   const cells: PostCell[] = [];
 
@@ -296,6 +318,8 @@ export async function renderPost(
     return SKIP;
   });
 
+  insertLeadMagnet(tree, cells);
+
   const toReact = (node: HastRoot | Element) =>
     toJsxRuntime(node as HastRoot, {
       Fragment,
@@ -304,6 +328,7 @@ export async function renderPost(
       components: {
         'cell-intro': (props: any) => <>{props.children}</>,
         'cell-output': (props: any) => <>{props.children}</>,
+        'lead-magnet': () => <LeadMagnetSpot chartType={chartType} compact className="full-bleed my-14" />,
         'notebook-cell': (props: any) => {
           const cell = cells[Number(props['data-index'])];
           return (

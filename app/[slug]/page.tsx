@@ -49,6 +49,7 @@ export default async function PostPage({ params }: Props) {
     slug,
     dir: post.dir,
     title: post.title,
+    chartType: post.chartType,
     interactive: post.interactive !== false,
   });
 
