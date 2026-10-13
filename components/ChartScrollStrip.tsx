@@ -9,16 +9,12 @@ export type StripChart = {
   alt?: string;
 };
 
-// A full width horizontal strip of chart cards, scrollable horizontally.
-// It must be placed in a .wrapper: it breaks out of the content column but stays aligned with it.
+// A full width horizontal strip of chart cards, scrollable horizontally, fading on both sides.
+// It must be placed in a .wrapper: it breaks out of the content column to span the full page width.
 export default function ChartScrollStrip({ charts }: { charts: StripChart[] }) {
   return (
-    <div className="full-bleed">
-      <div
-        className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 noScrollBar"
-        // Align the first card with the content column (780px wide, the wrapper already has a 20px padding)
-        style={{ paddingInline: 'max(0px, calc((100% - 780px) / 2))', scrollPaddingInline: 'max(0px, calc((100% - 780px) / 2))' }}
-      >
+    <div className="full-bleed relative">
+      <div className="flex snap-x gap-4 overflow-x-auto px-4 pb-4 noScrollBar">
         {charts.map((chart, i) => (
           <Link key={chart.link + i} href={'/' + chart.link} className="group w-56 shrink-0 snap-start sm:w-64">
             <div className="overflow-hidden rounded-lg border bg-white">
@@ -35,6 +31,9 @@ export default function ChartScrollStrip({ charts }: { charts: StripChart[] }) {
           </Link>
         ))}
       </div>
+      {/* Fading edges */}
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-background to-transparent sm:w-32" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-background to-transparent sm:w-32" />
     </div>
   );
 }

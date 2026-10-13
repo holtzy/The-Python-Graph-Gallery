@@ -155,8 +155,9 @@
   grid-column: 2;
 }
 .full-bleed {
-  width: 100%;
   grid-column: 1 / 4;
+  /* also cancel the side padding of the wrapper: goes from edge to edge of the screen */
+  margin-inline: -20px;
 }
 /* Links and buttons placed directly in the column keep their natural width (grid items stretch by default) */
 .wrapper > a,
@@ -179,7 +180,7 @@ main h1 {
   @apply text-4xl font-extrabold tracking-tight text-balance lg:text-5xl;
 }
 main h2 {
-  @apply mt-14 mb-4 scroll-mt-20 border-b pb-2 text-3xl font-semibold tracking-tight;
+  @apply mt-20 mb-5 scroll-mt-20 border-b pb-3 text-3xl font-semibold tracking-tight sm:mt-28;
 }
 main h3 {
   @apply mt-10 mb-2 scroll-mt-20 text-xl font-semibold tracking-tight;
