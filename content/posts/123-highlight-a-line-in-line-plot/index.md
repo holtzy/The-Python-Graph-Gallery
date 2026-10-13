@@ -1,6 +1,6 @@
 ---
 title: "Highlight a line in line plot"
-description: "In order to avoid the creation of a <a href='https://python-graph-gallery.com/124-spaghetti-plot/'>spaghetti plot</a>, it is a good practice to highlight the group(s) that interests you the most in your <a href='http://python-graph-gallery.com/line-chart/'>line chart</a>. It allows the reader to understand your point quickly, instead of struggling to decipher hundreds of lines. This post will show how to highight a line in a line chart using matplotlib."
+description: "In order to avoid the creation of a <a href='https://python-graph-gallery.com/124-spaghetti-plot/'>spaghetti plot</a>, it is a good practice to highlight the group(s) that interests you the most in your <a href='http://python-graph-gallery.com/line-chart/'>line chart</a>. It allows the reader to understand your point quickly, instead of struggling to decipher hundreds of lines. This post will show how to highlight a line in a line chart using matplotlib."
 seoDescription: "How to highlight one line in a multi-line plot using matplotlib"
 keywords: "python, chart, plot, seaborn, matplotlib, line"
 family: "evolution"

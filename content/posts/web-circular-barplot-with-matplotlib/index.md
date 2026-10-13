@@ -1,7 +1,7 @@
 ---
 title: "Circular barplot with Matplotlib"
 description: "A highly customized circular barplot with custom annotations and labels to explore the hiking locations in Washington made with <code>Python</code> and <code>Matplotlib</code>. This blogpost guides you through a step-by-step construction of a custom circular barplots that includes a variety of custom color scales, labels, annotations, and guides."
-seoDescription: "This post explains how to build a custom circular barlpot in Matplotlib from scratch. Step by step code snippets with explanations are provided."
+seoDescription: "This post explains how to build a custom circular barplot in Matplotlib from scratch. Step by step code snippets with explanations are provided."
 keywords: "python, chart, plot, matplotlib, radarplot, radarchart, polarchart, custom"
 family: "ranking"
 chartType: "radar"

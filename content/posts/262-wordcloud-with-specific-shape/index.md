@@ -1,5 +1,5 @@
 ---
-title: "Generate worcloud with a specific shape"
+title: "Generate wordcloud with a specific shape"
 description: "In a <a href='/261-custom-python-wordcloud'>previous post</a>, we saw how to customize a <a href='/wordcloud'>wordcloud plot</a>.<br><br>This post aims to generate a wordcloud with a <b>specific shape</b> in python using the image of your choice.<br><br>For this, we will use the <code>mask</code> parameter of the <code>WordCloud</code> function from the <code>wordcloud</code> library. Let's see how to do it!"
 seoDescription: "How to generate a wordcloud with a specific shape"
 keywords: "python, chart, plot, seaborn, matplotlib, wordcloud, text, shape, mask, text mining, dataviz, data visualization"

@@ -1,6 +1,6 @@
 ---
 title: "Custom legends in Matplotlib"
-description: "This post explains how to <b>customize the legend</b> on a chart with <a href='https://python-graph-gallery.com/matplotlib'>matplotlib</a>.<br><br>It provides many examples covering the most common use cases like controling the <b>legend location</b>, adding a legend title or customizing the legend <b>markers and labels</b>."
+description: "This post explains how to <b>customize the legend</b> on a chart with <a href='https://python-graph-gallery.com/matplotlib'>matplotlib</a>.<br><br>It provides many examples covering the most common use cases like controlling the <b>legend location</b>, adding a legend title or customizing the legend <b>markers and labels</b>."
 seoDescription: "This post explains how to add and customize the legend on a chart made with Python and Matplotlib. Step by step code snippets with explanations are provided."
 keywords: "python, chart, plot, matplotlib, scatterplot, legend, custom legend, custom"
 family: "correlation"

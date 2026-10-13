@@ -19,7 +19,7 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/story/MapConnection.html'>connection map</a> allows to show the connection between several positions on a map. The link between 2 places can be drawn with a straight line, or more commonly using <code>great circles</code>: the shortest route between them. The earth beeing a sphere, it results in arcs that give a really pleasant look to the map.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/story/MapConnection.html'>connection map</a> allows to show the connection between several positions on a map. The link between 2 places can be drawn with a straight line, or more commonly using <code>great circles</code>: the shortest route between them. The earth being a sphere, it results in arcs that give a really pleasant look to the map.</p>";
 
 export default function ConnectionMap() {
   return (

@@ -1,8 +1,8 @@
 ---
 title: "Barplot with table underneath"
-description: "Description: <b>Creating chart with a table</b>  is a useful way to add more context to a chart. <a href='https://python-graph-gallery.com/matplotlib/'>Matplotlib</a> allows you to present information in a table underneath a <a href='https://python-graph-gallery.com/barplot/'>barplpot</a> <b>very easily</b>.<br>  In this post we'll how to leverage <a href='https://python-graph-gallery.com/matplotlib/'>Matplotlib</a> code to create a stacked bar plot with the values in a <b>table below the plot</b>."
+description: "Description: <b>Creating chart with a table</b>  is a useful way to add more context to a chart. <a href='https://python-graph-gallery.com/matplotlib/'>Matplotlib</a> allows you to present information in a table underneath a <a href='https://python-graph-gallery.com/barplot/'>barplot</a> <b>very easily</b>.<br>  In this post we'll how to leverage <a href='https://python-graph-gallery.com/matplotlib/'>Matplotlib</a> code to create a stacked bar plot with the values in a <b>table below the plot</b>."
 seoDescription: "How to create a barplot with a table underneath"
-keywords: "barplot, table, staked, matplotlib"
+keywords: "barplot, table, stacked, matplotlib"
 family: "ranking"
 chartType: "table"
 slug: "552-table-combined-with-plot"

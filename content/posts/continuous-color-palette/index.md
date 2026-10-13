@@ -1,6 +1,6 @@
 ---
 title: "Use, customize and create continuous palettes in Matplotlib"
-description: "This post explains how to use <a href='/matplotlib'>matplotlib</a> <b>continuous palettes</b>, how to use them in practice and how to <b>create your own</b>.<br><br>Matplotlib has built-in tools that make it easy to use continous palettes by having a set of <b>predefined palettes</b> and functions to create <b>custom ones</b>."
+description: "This post explains how to use <a href='/matplotlib'>matplotlib</a> <b>continuous palettes</b>, how to use them in practice and how to <b>create your own</b>.<br><br>Matplotlib has built-in tools that make it easy to use continuous palettes by having a set of <b>predefined palettes</b> and functions to create <b>custom ones</b>."
 seoDescription: "This post explains how to use matplotlib categorical palettes, how to use them in practice and how to create your own."
 keywords: "python, chart, plot, seaborn, matplotlib, color, cmap, colormap, custom, continuous, sequential, diverging, palette"
 family: "general"

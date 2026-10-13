@@ -2,7 +2,7 @@
 title: "Circle Packing Chart with Multi-Level Hierarchy"
 description: "This post explains how to build a <a href='https://python-graph-gallery.com/circular-packing'>circle packing chart</a> with several levels of hierarchy. It uses the <code>circlize</code> library to compute the bubble position, and <code>matplotlib</code> for the rendering."
 seoDescription: "Plotting a multi-level circle packing chart in python"
-keywords: "python, chart, plot, seaborn, matplotlib, kdeplot, density, ciclify, circular packing chart, multi-level hierarchy"
+keywords: "python, chart, plot, seaborn, matplotlib, kdeplot, density, circlify, circular packing chart, multi-level hierarchy"
 family: "partOfAWhole"
 chartType: "circularPacking"
 slug: "circular-packing-several-levels-of-hierarchy"

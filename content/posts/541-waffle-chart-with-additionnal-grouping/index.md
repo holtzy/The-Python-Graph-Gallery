@@ -1,5 +1,5 @@
 ---
-title: "Waffle chart with additionnal grouping"
+title: "Waffle chart with additional grouping"
 description: "A <a href='https://python-graph-gallery.com/waffle-chart/'>waffle chart</a> is a graphical representation of data points in a dataset, where individual data points are represented by <b>small squares</b> on a two-dimensional grid. This type of plot allows us to visualize the <b>distribution of categorical data</b> by showing the proportion or count of each category within the grid.<br> <a href='https://python-graph-gallery.com/matplotlib/'>Matplotlib</a> and <b>Pywaffle</b> allows us to create <a href='https://python-graph-gallery.com/waffle-chart/'>waffle</a> charts easily. You can check this <a href='https://python-graph-gallery.com/503-waffle-chart-introduction/'>introduction to waffle charts</a>. In this post, we will explore how to leverage Matplotlib to <b>customize waffle charts</b> with a grouping variable."
 seoDescription: "How to create a waffle chart with additional grouping"
 keywords: "waffle, grouping, matplotlib, chart, plot"

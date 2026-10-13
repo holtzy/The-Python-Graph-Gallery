@@ -1,7 +1,7 @@
 ---
 title: "Mirror Density and Histogram Chart"
-description: "It is a challange to compare the distribution of two variables in the same figure. This post shows how to tackle it with the mirror density and histogram charts using the <a href='http://python-graph-gallery.com/seaborn/'>seaborn</a> and <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a> libraries."
-seoDescription: "Plotting mirror denstiy and histogram charts to compare the distribution of two variables"
+description: "It is a challenge to compare the distribution of two variables in the same figure. This post shows how to tackle it with the mirror density and histogram charts using the <a href='http://python-graph-gallery.com/seaborn/'>seaborn</a> and <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a> libraries."
+seoDescription: "Plotting mirror density and histogram charts to compare the distribution of two variables"
 keywords: "python, chart, plot, seaborn, matplotlib, kdeplot, density, histogram"
 family: "distribution"
 chartType: "density"

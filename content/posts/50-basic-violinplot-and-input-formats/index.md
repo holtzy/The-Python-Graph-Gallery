@@ -1,6 +1,6 @@
 ---
 title: "Basic violinplots and input formats"
-description: "This post aims at describing how to realize basic violinplots. It explains how your input must be formated and which seaborn functions are to be used. Three input formats exist to draw a violinplot: one numerical variable only, one variable and several groups, and several variables."
+description: "This post aims at describing how to realize basic violinplots. It explains how your input must be formatted and which seaborn functions are to be used. Three input formats exist to draw a violinplot: one numerical variable only, one variable and several groups, and several variables."
 seoDescription: "How to draw basic violinplots with seaborn."
 keywords: "python, chart, plot, seaborn, matplotlib, violin"
 family: "distribution"

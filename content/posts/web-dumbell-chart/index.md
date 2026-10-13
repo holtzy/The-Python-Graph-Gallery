@@ -1,8 +1,8 @@
 ---
-title: "Dumbell chart with custom annotations"
-description: "A <a href='https://python-graph-gallery.com/lollipop-plot/'>lollipop chart</a> is a type of chart that is a variation of a barplot, where the bars are replaced by <b>dots and lines</b>. This example shows how to create a <b>dumbell chart</b>, which differs from a lollipop chart by having lines connecting the dots.<br><br>In this post, we will reproduce a complex version of a dumbell chart, with step-by-step <b>explanations</b> and <b>code snippets</b>."
-seoDescription: "How to create dumbelle, or lollipop, chart in Python with matplotlib. A dumbell chart is a variation of a barplot, where the bars are replaced by dots and lines."
-keywords: "lollipop, chart, plot, matplotlib, python, dumbell"
+title: "Dumbbell chart with custom annotations"
+description: "A <a href='https://python-graph-gallery.com/lollipop-plot/'>lollipop chart</a> is a type of chart that is a variation of a barplot, where the bars are replaced by <b>dots and lines</b>. This example shows how to create a <b>dumbbell chart</b>, which differs from a lollipop chart by having lines connecting the dots.<br><br>In this post, we will reproduce a complex version of a dumbbell chart, with step-by-step <b>explanations</b> and <b>code snippets</b>."
+seoDescription: "How to create dumbbell, or lollipop, chart in Python with matplotlib. A dumbbell chart is a variation of a barplot, where the bars are replaced by dots and lines."
+keywords: "lollipop, chart, plot, matplotlib, python, dumbbell"
 family: "ranking"
 chartType: "lollipop"
 interactive: false

@@ -1,7 +1,7 @@
 ---
 title: "Baseline options for stacked area chart"
 description: "This post shows how to customize <b>baseline</b> feature of a stacked area plot built with the <b<stackplot()</b> function of matplotlib."
-seoDescription: "Customizing baseline in a sctacked area plot using matplotlib"
+seoDescription: "Customizing baseline in a stacked area plot using matplotlib"
 keywords: "python, chart, plot, seaborn, matplotlib, stackplot, stacked area, baseline"
 family: "evolution"
 chartType: "stackedArea"

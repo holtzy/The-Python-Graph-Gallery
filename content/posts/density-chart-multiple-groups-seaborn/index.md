@@ -1,7 +1,7 @@
 ---
 title: "Density Chart with Multiple Groups"
 description: "This post shows how to compare the distribution of several variables with density charts using the <b>kdeplot()</b> function of <a href='http://python-graph-gallery.com/seaborn/'>seaborn</a> library. Here are a few examples with descriptions."
-seoDescription: "Plotting multiple groups on a denstiy chart with annotations using seaborn"
+seoDescription: "Plotting multiple groups on a density chart with annotations using seaborn"
 keywords: "python, chart, plot, seaborn, matplotlib, kdeplot, density, stack"
 family: "distribution"
 chartType: "density"

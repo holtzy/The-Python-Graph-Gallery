@@ -1,6 +1,6 @@
 ---
 title: "Manhattan Plot with Python and Matplotlib"
-description: "This post explains how to build a <b>manhattan plot</b> using <code>python</code> and <code>matplotlib</code>. A manhattan plot is commonly used by geneticians for genome-wide association study."
+description: "This post explains how to build a <b>manhattan plot</b> using <code>python</code> and <code>matplotlib</code>. A manhattan plot is commonly used by geneticists for genome-wide association study."
 seoDescription: "How to draw a manhattan plot with python and matplotlib for genetics analysis"
 keywords: "python, chart, plot, seaborn, matplotlib, scatterplot, manhattan, genetics, gwas"
 family: "correlation"

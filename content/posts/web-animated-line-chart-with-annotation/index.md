@@ -1,7 +1,7 @@
 ---
 title: "Animation with text that highlights important events"
 description: "<p><strong>Animation</strong> serves as a dynamic medium for storytelling, and <a href='/matplotlib'><strong>Matplotlib</strong></a> offers specialized tools for this purpose.</p><p>In this tutorial, we'll craft an <a href='/animation'><strong>animation</strong></a> featuring a <a href='/stacked-area-plot'><strong>stacked area chart</strong></a>. It includes <strong>persistent text</strong> that underscores pivotal moments. Expect the final visualization to be adorned with precise annotations and stylish color choices.</p><p>This guide is structured to be a comprehensive walkthrough, complete with <strong>executable code</strong> that you can replicate.</p>"
-seoDescription: "How to create an animation of a stacked area chart with matplotlib that dislays a text throughout the animation and highlights important events."
+seoDescription: "How to create an animation of a stacked area chart with matplotlib that displays a text throughout the animation and highlights important events."
 keywords: "animation, gif, area, matplotlib, stacked, stack, color, plot, chart, background, text"
 family: "general"
 chartType: "animation"

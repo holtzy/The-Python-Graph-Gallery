@@ -1,7 +1,7 @@
 ---
 title: "Stacked Barplot using Matplotlib"
 description: "As the groups and subgroups can be displayed in a grouped bar plot with a side by side bars, they can also be displayed in stacked bars. This post provides a reproducible code to plot a stacked barplot using matplotlib."
-seoDescription: "Plotting a sctacked bar plot using matplotlib"
+seoDescription: "Plotting a stacked bar plot using matplotlib"
 keywords: "python, chart, plot, seaborn, matplotlib, barplot, stacked barplot"
 family: "distribution"
 chartType: "barplot"

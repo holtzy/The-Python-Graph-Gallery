@@ -1,6 +1,6 @@
 ---
 title: "Express and Graph Objects: the 2 plotly APIs"
-description: "<a href='https://python-graph-gallery.com/plotly'>Plotly</a> is the best python library for interactive charts.<br/>It comes with 2 distincts APIs: <b>plotly express</b> and <b>plotly graph objects</b>.<br/>This post explains how to build an interactive <a href='https://python-graph-gallery.com/barplot'>barplot</a> using both APIs. It allows to understand their pros and cons and make the right choice for you project."
+description: "<a href='https://python-graph-gallery.com/plotly'>Plotly</a> is the best python library for interactive charts.<br/>It comes with 2 distinct APIs: <b>plotly express</b> and <b>plotly graph objects</b>.<br/>This post explains how to build an interactive <a href='https://python-graph-gallery.com/barplot'>barplot</a> using both APIs. It allows to understand their pros and cons and make the right choice for you project."
 seoDescription: "Description of the plotly express and plotly graph objects APIs of the plotly library for interactive data visualization."
 keywords: "python, chart, plotly, plot, express, graph-objects, interactive, barplot"
 family: "general"

@@ -1,6 +1,6 @@
 ---
 title: "How to insert an image into a Matplotlib chart"
-description: "This post explains how to insert an image into your <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a> plot using the <code>PIL</code> and <code>io</code> libraries.<br/>Two use cases are considered: your image beeing <b>stored locally</b> or somewhere <b>on the web</b>."
+description: "This post explains how to insert an image into your <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a> plot using the <code>PIL</code> and <code>io</code> libraries.<br/>Two use cases are considered: your image being <b>stored locally</b> or somewhere <b>on the web</b>."
 seoDescription: "Learn how to insert an image into your matplotlib plot using the PIL and io libraries"
 keywords: "python, chart, image, plot, logo, add"
 family: "general"

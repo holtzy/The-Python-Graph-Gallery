@@ -20,7 +20,7 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/lollipop.html'>lollipop chart</a> is an alernative to the more usual <a href='https://python-graph-gallery.com/barplot'>barplot</a>. <code>Python</code> allows to build lollipops thanks to the <code>matplotlib</code> library, as shown in the examples below. The strategy here is to use the <code>stem()</code> function or to hack the <code>vline()</code> function depending on your input format.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/lollipop.html'>lollipop chart</a> is an alternative to the more usual <a href='https://python-graph-gallery.com/barplot'>barplot</a>. <code>Python</code> allows to build lollipops thanks to the <code>matplotlib</code> library, as shown in the examples below. The strategy here is to use the <code>stem()</code> function or to hack the <code>vline()</code> function depending on your input format.</p>";
 
 const quickCode = `# Create a dataframe
 import pandas as pd

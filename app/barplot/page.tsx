@@ -37,7 +37,7 @@ const chartDescription = (
     </p>
     <p>
       Note that this page also provides guidelines on how to build{' '}
-      <b>stacked</b> and <b>grouped</b> barplot, 2 common variatons useful when
+      <b>stacked</b> and <b>grouped</b> barplot, 2 common variations useful when
       several levels of grouping are available.
     </p>
   </>

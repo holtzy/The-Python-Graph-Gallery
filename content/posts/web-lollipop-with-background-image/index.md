@@ -2,7 +2,7 @@
 title: "Lollipop plot with background image"
 description: "This guide demonstrates how to craft a <b><a href='/lollipop-plot'>lollipop plot</a></b> featuring <b>an image in the background</b> and personalized annotations using <a href='/matplotlib'>matplotlib</a> and <a href='/advanced-custom-annotations-matplotlib'>highlight_text</a>.<br><br>In this detailed walkthrough, we'll begin with a fundamental <a href='/lollipop-plot'>lollipop plot</a> and incrementally integrate elements such as reference lines, images, legends, and annotations."
 seoDescription: "This post explains how to build a custom lollipop plot in Python with an image for the background and nice annotations."
-keywords: "lollipop, dumbell, seaborn, python, annotation, image, background, plot, chart"
+keywords: "lollipop, dumbbell, seaborn, python, annotation, image, background, plot, chart"
 family: "distribution"
 chartType: "ridgeline"
 interactive: false

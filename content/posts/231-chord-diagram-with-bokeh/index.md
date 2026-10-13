@@ -1,6 +1,6 @@
 ---
 title: "Chord Diagram with Bokeh"
-description: "A <b>chord chart</b> is used for representing the relationships between data points. Each data points are arranged into a <b>circle</b> and their relationships are displayed with <b>chords</b>. This post describes how to draw a chord chart using <b>bokeh</b> library of pyhton."
+description: "A <b>chord chart</b> is used for representing the relationships between data points. Each data points are arranged into a <b>circle</b> and their relationships are displayed with <b>chords</b>. This post describes how to draw a chord chart using <b>bokeh</b> library of python."
 seoDescription: "Drawing a chord chart using bokeh library of python"
 keywords: "python, chart, plot, seaborn, matplotlib, bokeh, chord"
 family: "flow"

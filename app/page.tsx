@@ -15,7 +15,7 @@ import { listOfBestCharts } from '@/lib/list-of-best-charts';
 export const metadata: Metadata = buildMetadata({
   title: 'Python Graph Gallery',
   seoDescription:
-    'The Python Graph Gallery displays hundreds of charts made with Python, always with explanation and reproduciible code',
+    'The Python Graph Gallery displays hundreds of charts made with Python, always with explanation and reproducible code',
   path: '/',
 });
 

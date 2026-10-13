@@ -26,7 +26,7 @@ const chartDescription = (
     <p>
       A <a href="https://www.data-to-viz.com/graph/line.html">line chart</a>{' '}
       displays the <b>evolution</b> of one or several <b>numeric variables</b>.
-      It is often used to represend <Link href="/timeseries">time series</Link>.
+      It is often used to represent <Link href="/timeseries">time series</Link>.
     </p>
     <p>
       The line chart is one of the <b>most common</b> chart type. As a result,

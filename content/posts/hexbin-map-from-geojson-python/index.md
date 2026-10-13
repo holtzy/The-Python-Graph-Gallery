@@ -1,6 +1,6 @@
 ---
 title: "Hexbin map from geoJson file with Python"
-description: "A hexbin map displays every region as a hexagone. This post shows how to load a <code>geoJson</code> file containing the hexagone coordinates and use it to build a map with python"
+description: "A hexbin map displays every region as a hexagon. This post shows how to load a <code>geoJson</code> file containing the hexagon coordinates and use it to build a map with python"
 seoDescription: "How to build a hexbin map from a geoJson file with python and geopandas"
 keywords: "python, chart, plot, seaborn, matplotlib, map, hexbin, geojson"
 family: "map"

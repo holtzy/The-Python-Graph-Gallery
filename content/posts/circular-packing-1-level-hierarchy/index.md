@@ -2,7 +2,7 @@
 title: "Basic Circle Packing Chart"
 description: "This post explains how to build a simple <a href='https://python-graph-gallery.com/circular-packing'>circle packing</a> chart with Python. It uses the <code>circlify</code> library to compute the circle positions, and <code>matplotlib</code> for the rendering. It considers a dataset with only 1 level of hierarchy. See <a href='https://python-graph-gallery.com/circular-packing-several-levels-of-hierarchy'>here</a> if you have several levels."
 seoDescription: "Plotting a basic circle packing chart with one level of hierarchy in python"
-keywords: "python, chart, plot, seaborn, matplotlib, kdeplot, density, ciclify, circular packing chart"
+keywords: "python, chart, plot, seaborn, matplotlib, kdeplot, density, circlify, circular packing chart"
 family: "partOfAWhole"
 chartType: "circularPacking"
 slug: "circular-packing-1-level-hierarchy"

@@ -1,6 +1,6 @@
 ---
 title: "Custom scatterplot with annotations in Matplotlib"
-description: "A chart made of a scatterplot with variable color, shape, and opacity, and several annotations to explore the relationship between relationship between the characteristics of astronauts and space missions made with <code>Python</code> and <code>Matplotlib</code>. This post guides you through a beautiful and very informative scatterplot that includes a variety of custom colors, sies, annotations, and layout adjustments. The library <code>flexitext</code> is used to draw text with multiple formats."
+description: "A chart made of a scatterplot with variable color, shape, and opacity, and several annotations to explore the relationship between relationship between the characteristics of astronauts and space missions made with <code>Python</code> and <code>Matplotlib</code>. This post guides you through a beautiful and very informative scatterplot that includes a variety of custom colors, sizes, annotations, and layout adjustments. The library <code>flexitext</code> is used to draw text with multiple formats."
 seoDescription: "This post explains how to build a custom scatterplot with varying color, transparency, and size in Matplotlib to explore the relationship between the characteristics of astronauts and space missions. Step by step code snippets with explanations are provided."
 keywords: "python, chart, plot, matplotlib, scatterplot, annotations, arrows, shapes, colors, custom"
 family: "correlation"

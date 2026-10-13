@@ -1,6 +1,6 @@
 ---
-title: "How to add hatchs and patterns in Matplotlib"
-description: "<p><strong>Hatchs and patterns</strong> significantly enhance the informational depth of your charts. This post delves into the process of incorporating <strong>hatchs and patterns</strong> into your <a href='/matplotlib'>Matplotlib</a> plots.<br><br>Learn how to design a <a href='/boxplot'>boxplot</a>, a <a href='/barplot'>barplot</a>, a <a href='/histogram'>histogram</a> and an <a href='/area-plot'>area chart</a> with unique <strong>hatchs and colors</strong> for each group, and explore customization techniques for both <strong>hatchs</strong> and <strong>colors</strong>.</p>"
+title: "How to add hatches and patterns in Matplotlib"
+description: "<p><strong>Hatches and patterns</strong> significantly enhance the informational depth of your charts. This post delves into the process of incorporating <strong>hatches and patterns</strong> into your <a href='/matplotlib'>Matplotlib</a> plots.<br><br>Learn how to design a <a href='/boxplot'>boxplot</a>, a <a href='/barplot'>barplot</a>, a <a href='/histogram'>histogram</a> and an <a href='/area-plot'>area chart</a> with unique <strong>hatches and colors</strong> for each group, and explore customization techniques for both <strong>hatches</strong> and <strong>colors</strong>.</p>"
 seoDescription: "How to create a customized streamgraph with Python and Matplotlib, with colors, order and smoothing. This post explains how to create a streamgraph and how to customize it."
 keywords: "hatch, pattern, matplotlib, python, tutorial, seaborn, plot, boxplot, boxplot color, boxplot pattern, boxplot hatch"
 family: "general"

@@ -1,6 +1,6 @@
 ---
 title: "Grouped linecharts in multiple panels with Matplotlib"
-description: "This post shows how to create a grouped lineplot with replicates in a multi panel layout to explore the associaton between numerical variables for different groups in <code>Python</code> and <code>Matplotlib</code>. This blogpost guides you through all the steps, from the data preparation to the final layout customizations which includes text with multiple formats."
+description: "This post shows how to create a grouped lineplot with replicates in a multi panel layout to explore the association between numerical variables for different groups in <code>Python</code> and <code>Matplotlib</code>. This blogpost guides you through all the steps, from the data preparation to the final layout customizations which includes text with multiple formats."
 seoDescription: "This post explains how to build custom lineplots for multiple groups with replicates in a multi-panel layout in Matplotlib. Step by step code snippets with explanations are provided."
 keywords: "python, chart, plot, matplotlib, lineplot, linechart, grouped lineplot, uncertainty, custom"
 family: "evolution"

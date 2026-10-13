@@ -20,7 +20,7 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const chartDescription =
-  "<p>This section explains how to build a <a href='https://www.data-to-viz.com/graph/density2d.html'>2d density chart</a> or a <a href='https://www.data-to-viz.com/graph/density2d.html'>2d histogram</a> with python. Those chart types allow to visualize the combined distribution of two quantitative variables. They can be build with <code>Matplotlib</code> or <code>Seaborn</code>.</p>";
+  "<p>This section explains how to build a <a href='https://www.data-to-viz.com/graph/density2d.html'>2d density chart</a> or a <a href='https://www.data-to-viz.com/graph/density2d.html'>2d histogram</a> with python. Those chart types allow to visualize the combined distribution of two quantitative variables. They can be built with <code>Matplotlib</code> or <code>Seaborn</code>.</p>";
 
 export default function TwoDDensityPlot() {
   return (

@@ -1,7 +1,7 @@
 ---
 title: "Custom python wordcloud"
 description: "While the <a href='http://python-graph-gallery.com/260-basic-wordcloud/'>previous post</a> explains how to create a <b>basic wordcloud</b>, this post shows how to make <b>customizations</b> to it."
-seoDescription: "Making custimizations to a wordcloud in python"
+seoDescription: "Making customizations to a wordcloud in python"
 keywords: "python, chart, plot, seaborn, matplotlib, wordcloud"
 family: "ranking"
 chartType: "wordcloud"

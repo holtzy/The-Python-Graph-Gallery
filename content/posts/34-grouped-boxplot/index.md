@@ -1,6 +1,6 @@
 ---
 title: "Boxplot with both groups and subgroups"
-description: "Drawing a grouped boxplot with <a href='https://python-graph-gallery.com/seaborn/'>Seaborn</a> is a common way to show the <b>distribution of mutliple groups</b> for a variable.<br> In this post, we'll detail how to create these <a href='https://python-graph-gallery.com/boxplot/'>boxplots</a> and how to <b>customize</b> them."
+description: "Drawing a grouped boxplot with <a href='https://python-graph-gallery.com/seaborn/'>Seaborn</a> is a common way to show the <b>distribution of multiple groups</b> for a variable.<br> In this post, we'll detail how to create these <a href='https://python-graph-gallery.com/boxplot/'>boxplots</a> and how to <b>customize</b> them."
 seoDescription: "How to draw grouped boxplots with Seaborn"
 keywords: "python, chart, plot, seaborn, matplotlib, boxplot"
 family: "distribution"

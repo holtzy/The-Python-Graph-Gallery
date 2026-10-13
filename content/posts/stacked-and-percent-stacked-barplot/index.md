@@ -1,7 +1,7 @@
 ---
 title: "Stacked and Percent Stacked Barplot using Seaborn"
 description: "This post explains how to draw a <b>stacked barplot</b> and a <b>percent stacked barplot</b> using the barplot() function of <a href='http://python-graph-gallery.com/seaborn/'>seaborn</a> library."
-seoDescription: "How to plot a stacked and percent sctacked barplot using seaborn"
+seoDescription: "How to plot a stacked and percent stacked barplot using seaborn"
 keywords: "python, chart, plot, seaborn, matplotlib, barplot, stacked, percent stacked"
 family: "ranking"
 chartType: "barplot"

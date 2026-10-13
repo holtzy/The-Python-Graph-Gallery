@@ -1,6 +1,6 @@
 ---
 title: "Percent stacked barplot"
-description: "The previous post shows how to generate a <a href='https://python-graph-gallery.com/stacked-barplot/'>stacked barplot</a> using matplotlib. This post explains how you can modify your sctacked barplot to display bars as a percent bars consists of different percentages of subgroups."
+description: "The previous post shows how to generate a <a href='https://python-graph-gallery.com/stacked-barplot/'>stacked barplot</a> using matplotlib. This post explains how you can modify your stacked barplot to display bars as a percent bars consists of different percentages of subgroups."
 seoDescription: "How to plot a percent stacked plot using matplotlib"
 keywords: "python, chart, plot, seaborn, matplotlib, barplot"
 family: "distribution"

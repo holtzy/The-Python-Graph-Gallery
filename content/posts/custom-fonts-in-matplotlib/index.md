@@ -1,7 +1,7 @@
 ---
 title: "Custom fonts in Python and Matplotlib"
-description: "A blogpost showing how to use <b>custom fonts</b> in Python and <a href='/matplotlib'>Matplotlib</a>. This blogpost contains a step-by-step guide showing how to make fonts accesible by <a href='/matplotlib'>Matplotlib</a> and a examples with <b>multiple fonts</b>."
-seoDescription: "This post explains how to import fonts in Matplotlib and use them to create better-looking visualizations. Step by step instructions on how to install fonts and make them accesible to matplotlib are provided."
+description: "A blogpost showing how to use <b>custom fonts</b> in Python and <a href='/matplotlib'>Matplotlib</a>. This blogpost contains a step-by-step guide showing how to make fonts accessible by <a href='/matplotlib'>Matplotlib</a> and a examples with <b>multiple fonts</b>."
+seoDescription: "This post explains how to import fonts in Matplotlib and use them to create better-looking visualizations. Step by step instructions on how to install fonts and make them accessible to matplotlib are provided."
 keywords: "python, chart, plot, seaborn, matplotlib, font, fonts, custom"
 family: "general"
 chartType: "cheatSheets"

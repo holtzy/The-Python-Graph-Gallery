@@ -1,6 +1,6 @@
 ---
 title: "Control rug and density on a Seaborn histogram"
-description: "By default, the hisplot function of <a href='https://python-graph-gallery.com/seaborn/'>Seaborn</a> plots an histogram without a density curve (see <a href='https://python-graph-gallery.com/20-basic-histogram-seaborn/'>histogram with seaborn</a>). You can easily add the latter by setting the <code>kde</code> argument to True. You can also control the presence of rugs using <code>rug=True</code>. You can customize rug and density as presented below."
+description: "By default, the histplot function of <a href='https://python-graph-gallery.com/seaborn/'>Seaborn</a> plots an histogram without a density curve (see <a href='https://python-graph-gallery.com/20-basic-histogram-seaborn/'>histogram with seaborn</a>). You can easily add the latter by setting the <code>kde</code> argument to True. You can also control the presence of rugs using <code>rug=True</code>. You can customize rug and density as presented below."
 seoDescription: "How to customize density and rug on a histogram with Seaborn"
 keywords: "python, chart, plot, seaborn, histogram"
 family: "distribution"

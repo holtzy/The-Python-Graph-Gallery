@@ -1,6 +1,6 @@
 ---
 title: "Heatmap and Radial Barchart with Matplotlib"
-description: "This post shows how to create a vizualisation that is made of a heatmap and several radial barcharts arranged in a highly customized multi panel layout in <code>Python</code> and <code>Matplotlib</code>. This blogpost walks you through all the involved steps, from the data preparation to the final layout customizations."
+description: "This post shows how to create a visualization that is made of a heatmap and several radial barcharts arranged in a highly customized multi panel layout in <code>Python</code> and <code>Matplotlib</code>. This blogpost walks you through all the involved steps, from the data preparation to the final layout customizations."
 seoDescription: "This post explains how to create a custom visualization that is made of one heatmap and multiple radial barcharts in Matplotlib. Step by step code snippets with explanations are provided."
 keywords: "python, chart, plot, matplotlib, heatmap, barchart, custom"
 family: "ranking"

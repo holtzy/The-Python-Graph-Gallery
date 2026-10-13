@@ -1,6 +1,6 @@
 ---
 title: "Available colors in Matplotlib"
-description: "A blogpost showing how to use <b>use colors</b> in Python and <a href='/matplotlib'>matplotlib</a>.<br><br>This blogpost explains how to use <b>hexadecimal</b> color codes, <b>pre-defined color</b> names, <b>RGB</b> tuples, and <b>RGBA</b> tuples in <a href='/matplotlib'>matplotlib</a>. The blogpost also shows the full list of <b>available color</b> names and short color names in <a href='/matplotlib'>matplotlib</a>."
+description: "A blogpost showing how to <b>use colors</b> in Python and <a href='/matplotlib'>matplotlib</a>.<br><br>This blogpost explains how to use <b>hexadecimal</b> color codes, <b>pre-defined color</b> names, <b>RGB</b> tuples, and <b>RGBA</b> tuples in <a href='/matplotlib'>matplotlib</a>. The blogpost also shows the full list of <b>available color</b> names and short color names in <a href='/matplotlib'>matplotlib</a>."
 seoDescription: "This post explains how to use hexadecimal color codes, pre-defined color names, RGB tuples, and RGBA tuples in Matplotlib. The post also shows the full list of available color names and short color names in Matplotlib."
 keywords: "python, chart, plot, seaborn, matplotlib, font, fonts, custom"
 family: "general"

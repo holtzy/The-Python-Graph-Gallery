@@ -35,7 +35,7 @@ plt.show()
 `;
 
 const chartDescription =
-  "<p>A <a href='https://www.data-to-viz.com/graph/parallel.html'>parallel plot</a> plot allows to compare the feature of several individual observations (series) on a set of numeric variables. Interestingly, <code>Pandas</code> is probably the best way to plot a parallel coordinate plot with python. <code>Plotly</code> is a good alternative to plot interactive versions though.</p>";
+  "<p>A <a href='https://www.data-to-viz.com/graph/parallel.html'>parallel plot</a> allows to compare the feature of several individual observations (series) on a set of numeric variables. Interestingly, <code>Pandas</code> is probably the best way to plot a parallel coordinate plot with python. <code>Plotly</code> is a good alternative to plot interactive versions though.</p>";
 
 export default function Parallel() {
   return (

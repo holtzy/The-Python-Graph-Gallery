@@ -1,6 +1,6 @@
 ---
 title: "Lineplot and Stacked area chart in Matplotlib"
-description: "A custom vizualisation that combines a lineplot with a stacked area chart to explore the evolution of child labour made with <code>Python</code> and <code>Matplotlib</code>. This blogpost guides you through a step-by-step construction of every aspect of the plot, including a variety of custom color annotations, labels, and more!"
+description: "A custom visualization that combines a lineplot with a stacked area chart to explore the evolution of child labour made with <code>Python</code> and <code>Matplotlib</code>. This blogpost guides you through a step-by-step construction of every aspect of the plot, including a variety of custom color annotations, labels, and more!"
 seoDescription: "This post explains how to build lineplots and stacked area charts from scratch in Matplotlib with a customized layout. Step by step code snippets with explanations are provided."
 keywords: "python, chart, plot, matplotlib, lineplot, evolution, stacked area, custom"
 family: "evolution"

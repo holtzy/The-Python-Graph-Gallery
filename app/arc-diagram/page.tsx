@@ -18,7 +18,7 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const chartDescription =
-  "<p>An <a href='https://www.data-to-viz.com/graph/arc.html'>arc diagram</a> is a special kind of <a href='https://python-graph-gallery.com/network-chart/'>network graph</a>. It is consituted by <u>nodes</u> that represent entities and by <u>links</u> that show relationships between entities. In arc diagrams, nodes are displayed along a single axis and links are represented with arcs.";
+  "<p>An <a href='https://www.data-to-viz.com/graph/arc.html'>arc diagram</a> is a special kind of <a href='https://python-graph-gallery.com/network-chart/'>network graph</a>. It is constituted by <u>nodes</u> that represent entities and by <u>links</u> that show relationships between entities. In arc diagrams, nodes are displayed along a single axis and links are represented with arcs.";
 
 export default function Page() {
   return (

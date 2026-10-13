@@ -1,6 +1,6 @@
 ---
 title: "Mario Kart 64 World Records with Python and Matplotlib"
-description: "A highly customized lollipop chart showing world records for the Mario Kart 64 racing game on the Nintendo 64. Built with Python and Matplotlib. This blogpost will guide you through a very custom plot with Matplotlib, including custm fonts, custom scales, custom legends, and more!"
+description: "A highly customized lollipop chart showing world records for the Mario Kart 64 racing game on the Nintendo 64. Built with Python and Matplotlib. This blogpost will guide you through a very custom plot with Matplotlib, including custom fonts, custom scales, custom legends, and more!"
 seoDescription: "This post explains how to build a highly customized lollipop plot with Matplotlib. Step by step code snippets with explanations are provided."
 keywords: "python, chart, plot, matplotlib, lollipop, custom"
 family: "ranking"

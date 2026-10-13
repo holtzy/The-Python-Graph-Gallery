@@ -1,7 +1,7 @@
 ---
 title: "Scatterplot with labels and text repel in Matplotlib"
 description: "A custom scatterplot with auto-positioned labels to explore the palmerpenguins dataset made with <code>Python</code> and <code>Matplotlib</code>. This blogpost guides you through a highly customized scatterplot that includes a variety of custom colors, markers, and fonts. The library <code>adjustText</code> is used to automatically adjust the position of labels in the plots."
-seoDescription: "This post explains how to build a highly customized scatterplot with repealed annotations in Matplotlib to explore the palmerpenguins dataset. Step by step code snippets with explanations are provided."
+seoDescription: "This post explains how to build a highly customized scatterplot with repelled annotations in Matplotlib to explore the palmerpenguins dataset. Step by step code snippets with explanations are provided."
 keywords: "python, chart, plot, matplotlib, scatterplot, annotations, repel, custom"
 family: "correlation"
 chartType: "scatter"

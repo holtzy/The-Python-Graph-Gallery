@@ -1,6 +1,6 @@
 ---
 title: "How to remove axis in Matplotlib"
-description: "The aim of this post is to show you how to remove certain axis from a vizualisation that is made up of multiple subplots. To do so, we build a pairplot or correlogram from scratch and show how to remove empty axis from the final chart."
+description: "The aim of this post is to show you how to remove certain axis from a visualization that is made up of multiple subplots. To do so, we build a pairplot or correlogram from scratch and show how to remove empty axis from the final chart."
 seoDescription: "Remove specific axis from Matplotlib charts with multiple panels."
 keywords: "python, chart, plot, matplotlib, pairplot, correlogram, correlation, remove axis"
 family: "correlation"

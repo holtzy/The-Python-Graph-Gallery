@@ -1,7 +1,7 @@
 ---
 title: "Lollipop plot with 2 groups"
 description: "If you have several groups and 2 observations for each group, it may be better to display the observation values side by side on the same line, by only showing their differences instead of displaying the values on different lines. This post provides an example that shows these variations on a <a href='http://python-graph-gallery.com/lollipop-plot/'>lollipop plot</a>."
-seoDescription: "Plotting a lolliop chart with several groups and multiple observations for each group"
+seoDescription: "Plotting a lollipop chart with several groups and multiple observations for each group"
 keywords: "python, chart, plot, seaborn, matplotlib, lollipop, hlines, scatter"
 family: "ranking"
 chartType: "lollipop"

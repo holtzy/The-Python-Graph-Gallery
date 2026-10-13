@@ -1,6 +1,6 @@
 ---
 title: "Grouped Barplot"
-description: "A <b>grouped barplot</b> is used when you have several groups, and subgroups of these groups. The example in this post shows how to build a grouped barplor using the bar() function of <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a> library."
+description: "A <b>grouped barplot</b> is used when you have several groups, and subgroups of these groups. The example in this post shows how to build a grouped barplot using the bar() function of <a href='https://python-graph-gallery.com/matplotlib/'>matplotlib</a> library."
 seoDescription: "Plotting a grouped barplot using matplotlib"
 keywords: "python, chart, plot, seaborn, matplotlib, bar, grouped"
 family: "ranking"
