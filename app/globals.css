@@ -196,9 +196,7 @@ main h5 {
 }
 main h2 code,
 main h3 code {
-  background: none !important;
-  padding: 0 !important;
-  font-size: 0.9em !important;
+  @apply rounded-md bg-muted px-[0.3em] py-[0.05em] font-mono text-[0.85em] font-medium;
 }
 
 /* inline code only (code blocks are <pre><code>) */
