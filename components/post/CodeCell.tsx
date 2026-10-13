@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { LoaderCircle, Pencil, Play, RotateCcw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import CopyButton from '@/components/CopyButton';
+import AiCodeHint from '@/components/lead-magnets/AiCodeHint';
 import { cn } from '@/lib/utils';
 import { usePostRuntime, type CellOutput } from './PostRuntime';
 
@@ -66,6 +67,7 @@ export default function CodeCell({
         ) : (
           <div className="overflow-x-auto px-4 py-3" dangerouslySetInnerHTML={{ __html: highlighted }} />
         )}
+        {!isEditing && <AiCodeHint className="absolute top-2 right-[76px] z-10" />}
       </div>
 
       {interactive && (
