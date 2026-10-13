@@ -180,7 +180,12 @@ main h1 {
   @apply text-4xl font-extrabold tracking-tight text-balance lg:text-5xl;
 }
 main h2 {
-  @apply mt-20 mb-5 scroll-mt-20 border-b pb-3 text-3xl font-semibold tracking-tight sm:mt-28;
+  @apply mt-20 mb-4 scroll-mt-20 border-b border-border/50 pb-2 text-3xl font-semibold tracking-tight sm:mt-28;
+}
+/* The element right after a title does not add its own top margin */
+main h2 + *,
+main h3 + * {
+  margin-top: 0 !important;
 }
 main h3 {
   @apply mt-10 mb-2 scroll-mt-20 text-xl font-semibold tracking-tight;
