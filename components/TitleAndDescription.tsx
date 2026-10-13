@@ -27,7 +27,7 @@ export default function TitleAndDescription({ title, description, chartType }: T
       </div>
 
       {/* Short line under the title, growing on page load */}
-      <div className="title-underline mt-6 h-[2px] w-20 rounded-full bg-foreground/15" />
+      <div className="title-underline mt-6 h-[2px] w-full max-w-[400px] rounded-full bg-foreground/15" />
 
       <div className="mt-6">
         {typeof description === 'string' ? <div dangerouslySetInnerHTML={{ __html: description }} /> : description}
