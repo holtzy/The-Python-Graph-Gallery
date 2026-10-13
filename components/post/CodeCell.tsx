@@ -67,12 +67,11 @@ export default function CodeCell({
         ) : (
           <div className="overflow-x-auto px-4 py-3" dangerouslySetInnerHTML={{ __html: highlighted }} />
         )}
-        {!isEditing && <AiCodeHint className="absolute top-2 right-[76px] z-10" />}
       </div>
 
-      {interactive && (
-        <div className="mt-3 flex flex-wrap items-center gap-2">
-          {isEditing ? (
+      <div className="mt-3 flex flex-wrap items-center gap-2">
+        {interactive &&
+          (isEditing ? (
             <>
               <Button onClick={() => run(index)} disabled={isRunning}>
                 {isRunning ? <LoaderCircle className="animate-spin" /> : <Play />}
@@ -89,12 +88,12 @@ export default function CodeCell({
             <Button onClick={() => setIsEditing(true)}>
               <Pencil /> Edit code
             </Button>
-          )}
-          {isRunning && (
-            <span className="flex items-center gap-2 text-sm text-muted-foreground">{cellRun.message}</span>
-          )}
-        </div>
-      )}
+          ))}
+        {isRunning && (
+          <span className="flex items-center gap-2 text-sm text-muted-foreground">{cellRun.message}</span>
+        )}
+        <AiCodeHint className="ml-auto" />
+      </div>
 
       {cellRun?.status === 'error' && (
         <div className="mt-3 rounded-lg border border-destructive/30 bg-destructive/5 p-3">

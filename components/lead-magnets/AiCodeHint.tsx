@@ -6,8 +6,7 @@ import KitForm, { trackEvent } from '@/components/KitForm';
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog';
 import { cn } from '@/lib/utils';
 
-// Lead magnet shown on code blocks: a discrete message, visible when the block is hovered
-// (the block needs the "group" class), opening a modal offering the "Dataviz AI kit".
+// Lead magnet shown below code blocks: a discrete sentence opening a modal offering the "Dataviz AI kit".
 export default function AiCodeHint({ className }: { className?: string }) {
   const [open, setOpen] = useState(false);
 
@@ -22,12 +21,12 @@ export default function AiCodeHint({ className }: { className?: string }) {
         type="button"
         onClick={() => onOpenChange(true)}
         className={cn(
-          'flex h-7 items-center gap-1.5 rounded-md border bg-background px-2 text-xs text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100 hover:text-foreground focus-visible:opacity-100',
+          'flex items-center gap-1.5 text-sm text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline',
           className
         )}
       >
-        <Sparkles size={13} />
-        Still copy-pasting? Let AI write it
+        <Sparkles size={14} />
+        Still copy-pasting code? Let AI write it for you
       </button>
 
       <Dialog open={open} onOpenChange={onOpenChange}>
