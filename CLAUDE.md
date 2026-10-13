@@ -1,6 +1,6 @@
 # The Python Graph Gallery
 
-Static website (https://python-graph-gallery.com) built with Next.js (App Router, `output: 'export'`), Tailwind CSS v4, TypeScript and shadcn/ui. Deployed to GitHub Pages automatically: every push to `master` runs `.github/workflows/deploy.yml` (build, SEO check against the live site, push of `out/` to the `gh-pages` branch). The deploy is blocked if a live page would disappear; put `[allow-page-removal]` in the commit message to remove a page on purpose. `npm run deploy` still deploys manually.
+Static website (https://python-graph-gallery.com) built with Next.js (App Router, `output: 'export'`), Tailwind CSS v4, TypeScript and shadcn/ui. Deployed to GitHub Pages automatically: every push to `master` runs `.github/workflows/deploy.yml` (build, then push of `out/` to the `gh-pages` branch). `npm run deploy` still deploys manually.
 
 ## Commands
 

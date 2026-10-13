@@ -187,6 +187,3 @@ public/posts/
 public/thumbs/
 lib/generated/
 
-# CI
-/.seo-baseline
-seo-diff.txt

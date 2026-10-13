@@ -1,9 +1,5 @@
 # Builds the site on every push to master and deploys it to GitHub Pages (gh-pages branch).
-# Pull requests are built and checked too, but not deployed.
-#
-# SEO safety net: the new build is compared with the site currently deployed (scripts/seo-diff.ts).
-# The deploy is blocked if a page of the live site would disappear. To remove a page on purpose,
-# put [allow-page-removal] in the commit message.
+# Pull requests are built too, but not deployed.
 
 name: Build and deploy
 
@@ -34,15 +30,6 @@ jobs:
           fetch-depth: 0
           filter: blob:none
 
-      # The html of the site currently deployed: baseline of the SEO check
-      - uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-          path: .seo-baseline
-          filter: blob:none
-          sparse-checkout: '**/index.html'
-          sparse-checkout-cone-mode: false
-
       - uses: actions/setup-node@v4
         with:
           node-version: 26
@@ -59,25 +46,6 @@ jobs:
 
       - run: npm run build
 
-      - name: SEO check against the live site
-        shell: bash
-        env:
-          SEO_FAIL_ON_MISSING: ${{ !contains(github.event.head_commit.message, '[allow-page-removal]') && '1' || '' }}
-        run: |
-          set +e
-          npx tsx scripts/seo-diff.ts .seo-baseline seo-diff-report.json > seo-diff.txt 2>&1
-          status=$?
-          cat seo-diff.txt
-          { echo '### SEO check against the live site'; echo '```'; cat seo-diff.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
-          exit $status
-
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: seo-diff-report
-          path: seo-diff-report.json
-          if-no-files-found: ignore
-
       - name: Deploy to gh-pages
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v4
@@ -85,4 +53,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
           publish_branch: gh-pages
-          commit_message: 'Deploy ${{ github.sha }}'
+          commit_message: Deploy

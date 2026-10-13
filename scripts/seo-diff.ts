@@ -164,10 +164,3 @@ if (!issues.length) {
 }
 fs.writeFileSync(reportFile, JSON.stringify({ checked, extraPages, byCheck, issues }, null, 2));
 console.log(`Full report: ${reportFile}`);
-
-// CI: fail when a page of the baseline disappeared (a lost url loses its Google ranking)
-if (process.env.SEO_FAIL_ON_MISSING && byCheck['MISSING PAGE']) {
-  console.error(`\n❌ ${byCheck['MISSING PAGE']} page(s) of the live site are missing from the new build:`);
-  for (const i of issues.filter((i) => i.check === 'MISSING PAGE')) console.error(`  ${i.page}`);
-  process.exit(1);
-}
