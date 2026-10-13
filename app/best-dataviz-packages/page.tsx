@@ -96,7 +96,7 @@ const logoInteractive: LogoLinkProps[] = [
 // Grid of library logos
 const LogoGrid = ({ logos }: { logos: LogoLinkProps[] }) => (
   <div className="wrapper my-6">
-    <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
+    <div className="grid grid-cols-3 gap-x-1 gap-y-3 sm:grid-cols-4 md:grid-cols-6">
       {logos.map((logo, index) => (
         <LogoLink key={index} {...logo} />
       ))}

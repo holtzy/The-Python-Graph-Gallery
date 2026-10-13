@@ -13,24 +13,23 @@ export type LogoLinkProps = {
 };
 
 // A library logo with its name, linking to its page. Meant to be placed in a grid.
-export default function LogoLink({ imgPath, url, altText, name, height, width, disabled }: LogoLinkProps) {
+export default function LogoLink({ imgPath, url, altText, name, disabled }: LogoLinkProps) {
   const content = (
     <>
-      <div className="flex h-[130px] items-center justify-center">
+      <div className="flex aspect-square items-center justify-center">
         <img
           src={imgPath}
           alt={altText}
           loading="lazy"
-          className="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105"
-          style={{ height: height || 'auto', width: width || 'auto' }}
+          className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
         />
       </div>
-      <div className="mt-2 text-base text-foreground">{name}</div>
+      <div className="mt-1 text-sm text-muted-foreground group-hover:text-foreground">{name}</div>
     </>
   );
 
   const className = cn(
-    'group block rounded-md p-2 text-center no-underline',
+    'group block rounded-md p-1 text-center no-underline',
     disabled && 'pointer-events-none grayscale'
   );
 
