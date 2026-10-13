@@ -14,7 +14,7 @@ export default async function CodeChunk({ children, language = 'python', hasWhit
   const code = children.replace(/\n+$/, '');
   const html = await highlightCode(code, language);
   return (
-    <div className="my-6">
+    <div className="group/code my-6">
       <div className={cn('group relative rounded-lg border', hasWhiteBackground ? 'bg-background' : 'bg-muted/40')}>
         <CopyButton text={code} className="absolute top-2 right-2 opacity-0 transition-opacity group-hover:opacity-100" />
         <div className="overflow-x-auto px-4 py-3" dangerouslySetInnerHTML={{ __html: html }} />

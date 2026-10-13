@@ -1,12 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-import { Play, Sparkles } from 'lucide-react';
+import { Play } from 'lucide-react';
 import KitForm, { trackEvent } from '@/components/KitForm';
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog';
 import { cn } from '@/lib/utils';
 
-// Lead magnet shown below code blocks: a discrete sentence opening a modal offering a video demo of agentic coding (+ my AI skills as a bonus).
+// Lead magnet shown below code blocks: a discrete sentence, visible when the code block is hovered
+// (its container needs the "group/code" class; always visible on touch screens) opening a modal offering a video demo of agentic coding (+ my AI skills as a bonus).
 export default function AiCodeHint({ className }: { className?: string }) {
   const [open, setOpen] = useState(false);
 
@@ -21,11 +22,11 @@ export default function AiCodeHint({ className }: { className?: string }) {
         type="button"
         onClick={() => onOpenChange(true)}
         className={cn(
-          'flex items-center gap-1.5 text-sm text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline',
+          'flex items-center gap-1.5 text-sm text-muted-foreground underline-offset-4 opacity-0 transition hover:text-foreground hover:underline focus-visible:opacity-100 group-hover/code:opacity-100 [@media(hover:none)]:opacity-100',
           className
         )}
       >
-        <Sparkles size={14} />
+        <span aria-hidden>✨</span>
         Still copy-pasting code? Let AI write it for you
       </button>
 

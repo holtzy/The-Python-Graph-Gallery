@@ -54,7 +54,7 @@ export default function CodeCell({
     cellRun?.status === 'done' && cellRun.outputs ? <RuntimeOutputs outputs={cellRun.outputs} /> : output;
 
   const codeBlock = (
-    <div>
+    <div className="group/code">
       <div className="group relative rounded-lg border bg-muted/40">
         <CopyButton
           text={currentCode}
