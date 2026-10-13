@@ -9,8 +9,6 @@ export default function Footer() {
         <div>Copyright © the Python Graph Gallery {new Date().getFullYear()}</div>
         <SocialMediaButtons />
         <div className="flex gap-2">
-          <Link href="/privacy" className="hover:text-foreground">Privacy</Link>
-          <span>|</span>
           <a href="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/LICENSE" className="hover:text-foreground">
             License
           </a>
