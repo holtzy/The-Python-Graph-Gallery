@@ -3,7 +3,6 @@ import Link from 'next/link';
 import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
-import Parallax from '@/components/Parallax';
 import MatplotlibJourneyPromo from '@/components/MatplotlibJourneyPromo';
 import ChartScrollStrip, { type StripChart } from '@/components/ChartScrollStrip';
 import { Matplotlib, Pandas, Plotly, Plotnine, Seaborn } from '@/components/MiscellaneousLogos';
@@ -221,32 +220,6 @@ export default function Home() {
       </div>
 
       <Spacing />
-
-      <Parallax
-        imgLink="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/asset/dataviz-inspiration-overview.png?raw=true"
-        height={300}
-        opacity={0.3}
-      >
-        <div className="flex min-h-[300px] items-center justify-center px-4 py-10">
-          <div className="max-w-[600px] text-center">
-            <h2 className="!mt-0 !border-b-0">Love beautiful charts?</h2>
-            <p>
-              The Python Graph Gallery complements{' '}
-              <a href="https://www.dataviz-inspiration.com" target="_blank">
-                dataviz-Inspiration.com
-              </a>
-              , a website featuring hundreds of my favorite data visualization projects.
-            </p>
-            <a
-              href="https://www.dataviz-inspiration.com"
-              target="_blank"
-              className={buttonVariants({ size: 'lg', className: 'mt-6' })}
-            >
-              Get some inspiration
-            </a>
-          </div>
-        </div>
-      </Parallax>
 
       <MatplotlibJourneyPromo>
         <a href="https://www.matplotlib-journey.com">Matplotlib Journey</a> is an interactive online course crafted to
