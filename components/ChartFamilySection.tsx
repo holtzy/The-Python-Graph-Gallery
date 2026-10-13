@@ -33,7 +33,7 @@ export default function ChartFamilySection({ chartFamily, variant = 'related' }:
           {TITLES[chartFamily]}
         </h3>
       )}
-      <div className="grid grid-cols-4 gap-x-4 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7">
+      <div className="grid grid-cols-4 gap-x-1 gap-y-3 pt-3 sm:grid-cols-6 md:grid-cols-7">
         {charts.map((chart) => (
           <SectionLogoWithOverlay
             key={chart.id}
