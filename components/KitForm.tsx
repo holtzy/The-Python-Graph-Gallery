@@ -9,8 +9,7 @@ export const KIT_FORMS = {
   newsletter: { id: '6500196', success: 'Success! Now check your email to confirm your subscription.' },
   cheatSheet: { id: '7902489', success: 'Success! Check your emails for confirmation now.' },
   poster: { id: '7902961', success: 'Poster sent! Check your spam folder just in case.' },
-  // TODO: id of the Kit form "Dataviz AI kit" (modal opened from the code blocks)
-  aiKit: { id: 'TODO', success: 'Done! Check your emails: your Dataviz AI kit is on its way.' },
+  aiKit: { id: '10040340', success: 'Done! Check your emails: the video is on its way.' },
   inspiration: { id: '10040254', success: 'Done! Check your emails: the list of 300 dataviz projects is on its way.' },
   datavizCaveats: { id: '10039805', success: 'Done! Check your emails: the link to the 25 cards is on its way.' },
 } as const;
