@@ -29,7 +29,7 @@ export default function ChartFamilySection({ chartFamily, variant = 'related' }:
       {variant === 'related' ? (
         <h2 id="Related charts">Related chart types</h2>
       ) : (
-        <h3 className="!mt-6 !mb-0 border-b pb-1.5 !text-base !font-medium !tracking-normal text-muted-foreground">
+        <h3 className="!mt-6 !mb-0 !text-base !font-medium !tracking-normal text-muted-foreground">
           {TITLES[chartFamily]}
         </h3>
       )}
