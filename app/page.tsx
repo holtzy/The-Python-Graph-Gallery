@@ -9,6 +9,8 @@ import ChartScrollStrip, { type StripChart } from '@/components/ChartScrollStrip
 import { Matplotlib, Pandas, Plotly, Plotnine, Seaborn } from '@/components/MiscellaneousLogos';
 import { buttonVariants } from '@/components/ui/button';
 import { buildMetadata } from '@/lib/seo';
+import { websiteJsonLd } from '@/lib/jsonld';
+import JsonLd from '@/components/JsonLd';
 import { getGraphImage } from '@/lib/images';
 import { listOfBestCharts } from '@/lib/list-of-best-charts';
 
@@ -90,6 +92,8 @@ const bestCharts: StripChart[] = listOfBestCharts.map((chart) => ({
 export default function Home() {
   return (
     <>
+      <JsonLd data={websiteJsonLd()} />
+
       {/* Hero */}
       <section className="relative">
         <div className="mx-auto flex max-w-2xl flex-col items-center px-5 pt-24 pb-28 text-center sm:pt-36 sm:pb-36">

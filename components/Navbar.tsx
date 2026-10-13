@@ -17,6 +17,7 @@ import { Sheet, SheetContent, SheetTitle, SheetTrigger } from './ui/sheet';
 import { Button } from './ui/button';
 import AllChartsModal from './AllChartsModal';
 import KitForm from './KitForm';
+import SearchCommand from './SearchCommand';
 import { LIBRARIES, MATPLOTLIB_TOPICS, RELATED, SEABORN_TOPICS, TOP_LINKS, type NavItem } from './nav-links';
 import { cn } from '@/lib/utils';
 
@@ -125,10 +126,13 @@ export default function Navbar() {
             </NavigationMenuList>
           </NavigationMenu>
 
-          <Button size="sm" onClick={() => setIsSubscribeOpen(true)}>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <SearchCommand />
+          <Button size="sm" className="hidden lg:inline-flex" onClick={() => setIsSubscribeOpen(true)}>
             Subscribe
           </Button>
-        </div>
 
         {/* Mobile */}
         <Sheet>
@@ -164,6 +168,7 @@ export default function Navbar() {
             </div>
           </SheetContent>
         </Sheet>
+        </div>
       </nav>
 
       <AllChartsModal open={isChartModalOpen} onOpenChange={setIsChartModalOpen} />
