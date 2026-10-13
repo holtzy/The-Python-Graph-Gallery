@@ -1,5 +1,5 @@
 :HL["/_next/static/chunks/1kk9e42h0mua1.css","style"]
-:HL["/_next/static/chunks/3101simel7wr8.css","style"]
+:HL["/_next/static/chunks/1tpm4dahh5-8g.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/img/MatplotlibSmall.png","image"]
@@ -8,4 +8,4 @@
 :HL["/img/PandasSmallClean.png","image"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"line-chart","h":64,"c":"$Q2"}]]
-0:{"b":"DJfGQ0RFBvjzjLpcCH9vB","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"bbvoef3Gt9vtUyRJGvevI","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
