@@ -14,6 +14,7 @@ const MAGNETS: { name: string; Component: React.ComponentType<MagnetProps> }[] =
 
 // A place of a page where a lead magnet is displayed: a full width grey band.
 // Use it outside of any .wrapper: it is a .wrapper itself.
+// It is drawn above the fixed table of content (z-10), which disappears behind the band while scrolling.
 // Google Analytics receives a "lead_magnet_view" event when the spot is seen, and a "generate_lead"
 // event when someone subscribes: compare them to get the conversion rate of each magnet.
 export default function LeadMagnetSpot({ chartType, className }: MagnetProps & { className?: string }) {
@@ -43,7 +44,7 @@ export default function LeadMagnetSpot({ chartType, className }: MagnetProps & {
   }, [name]);
 
   return (
-    <aside ref={ref} className={cn('wrapper bg-muted py-14 sm:py-20', className)} data-lead-magnet={name}>
+    <aside ref={ref} className={cn('wrapper relative z-10 bg-muted py-14 sm:py-20', className)} data-lead-magnet={name}>
       <Component chartType={chartType} />
     </aside>
   );

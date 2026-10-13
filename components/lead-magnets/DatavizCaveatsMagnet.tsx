@@ -36,6 +36,7 @@ export default function DatavizCaveatsMagnet({ chartType }: { chartType?: string
         </p>
         <p className="text-muted-foreground">Get the full deck for free:</p>
         <KitForm form="datavizCaveats" buttonLabel="Send me the cards" className="mt-4" />
+        <p className="!mt-3 text-xs text-muted-foreground">I respect your privacy. Unsubscribe anytime.</p>
       </div>
 
       <div className="order-first md:order-none">
