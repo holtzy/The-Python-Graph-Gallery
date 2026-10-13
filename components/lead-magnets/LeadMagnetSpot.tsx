@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { trackEvent } from '@/components/KitForm';
+import { cn } from '@/lib/utils';
 import DatavizCaveatsMagnet from './DatavizCaveatsMagnet';
 
 type MagnetProps = { chartType?: string };
@@ -11,7 +12,8 @@ const MAGNETS: { name: string; Component: React.ComponentType<MagnetProps> }[] =
   { name: 'dataviz-caveats', Component: DatavizCaveatsMagnet },
 ];
 
-// A place of a page where a lead magnet is displayed.
+// A place of a page where a lead magnet is displayed: a full width grey band.
+// Use it outside of any .wrapper: it is a .wrapper itself.
 // Google Analytics receives a "lead_magnet_view" event when the spot is seen, and a "generate_lead"
 // event when someone subscribes: compare them to get the conversion rate of each magnet.
 export default function LeadMagnetSpot({ chartType, className }: MagnetProps & { className?: string }) {
@@ -41,7 +43,7 @@ export default function LeadMagnetSpot({ chartType, className }: MagnetProps & {
   }, [name]);
 
   return (
-    <aside ref={ref} className={className} data-lead-magnet={name}>
+    <aside ref={ref} className={cn('wrapper bg-muted py-14 sm:py-20', className)} data-lead-magnet={name}>
       <Component chartType={chartType} />
     </aside>
   );

@@ -131,9 +131,7 @@ export default function ViolinPlot() {
 
       <Spacing />
 
-      <div className="wrapper">
-        <LeadMagnetSpot chartType="violin" />
-      </div>
+      <LeadMagnetSpot chartType="violin" />
 
       <Spacing />
 

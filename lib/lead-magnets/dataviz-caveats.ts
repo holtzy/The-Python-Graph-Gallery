@@ -1,6 +1,5 @@
 // The 25 dataviz caveat cards (source: https://github.com/holtzy/dataviz-caveat-flashcards).
-// Images are in public/lead-magnets/dataviz-caveats/: <file>-horiz.webp (1600px), <file>-horiz-800.webp
-// and <file>-vert.webp (720px, mobile).
+// Images (portrait version, 720x1440) are in public/lead-magnets/dataviz-caveats/<file>-vert.webp
 
 export type Caveat = {
   id: string;

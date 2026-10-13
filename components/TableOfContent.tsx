@@ -16,14 +16,14 @@ const headingText = (node: HTMLElement) => {
   return text || node.id;
 };
 
-// Table of content listing the h2 of the page, on the right of the content column.
+// Table of content listing the h2 of the page (except the ones with data-toc-ignore, e.g. lead magnets), on the right of the content column.
 // Only visible on large screens.
 export default function TableOfContent() {
   const [headings, setHeadings] = useState<Heading[]>([]);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
-    const nodes = Array.from(document.querySelectorAll<HTMLElement>('main h2'));
+    const nodes = Array.from(document.querySelectorAll<HTMLElement>('main h2:not([data-toc-ignore])'));
     setHeadings(nodes.map((node) => ({ title: headingText(node), node })));
   }, []);
 

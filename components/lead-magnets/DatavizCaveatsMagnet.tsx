@@ -4,38 +4,85 @@ import { useEffect, useState } from 'react';
 import KitForm from '@/components/KitForm';
 import { CAVEATS_IMG_DIR, DATAVIZ_CAVEATS, caveatForChartType, type Caveat } from '@/lib/lead-magnets/dataviz-caveats';
 
-// Lead magnet: shows one dataviz caveat card (the one matching the chart type of the page,
-// or a random one) and offers the link to all 25 cards in exchange for an email.
+// Cards shown behind the top card of the deck: some of the most telling caveats
+const DECK_IDS = ['13', '03', '19', '09', '24'];
+
+// Position of the 5 cards of the fanned deck (the middle one is on top)
+const FAN = [
+  { rotate: -14, x: -50, y: 14 },
+  { rotate: -7, x: -25, y: 4 },
+  { rotate: 0, x: 0, y: 0 },
+  { rotate: 7, x: 25, y: 4 },
+  { rotate: 14, x: 50, y: 14 },
+];
+
+// Lead magnet: the deck of 25 dataviz caveat cards, offered in exchange for an email.
+// The card on top of the deck matches the chart type of the page (or is random).
 export default function DatavizCaveatsMagnet({ chartType }: { chartType?: string }) {
   const matching = caveatForChartType(chartType);
   // Pages without a matching card get a random one, picked in the browser (the html is static)
-  const [caveat, setCaveat] = useState<Caveat>(matching ?? DATAVIZ_CAVEATS[0]);
+  const [top, setTop] = useState<Caveat>(matching ?? DATAVIZ_CAVEATS[4]);
   useEffect(() => {
-    if (!matching) setCaveat(DATAVIZ_CAVEATS[Math.floor(Math.random() * DATAVIZ_CAVEATS.length)]);
+    if (!matching) setTop(DATAVIZ_CAVEATS[Math.floor(Math.random() * DATAVIZ_CAVEATS.length)]);
   }, [matching]);
 
-  const src = `${CAVEATS_IMG_DIR}/${caveat.file}-horiz`;
+  return (
+    <div className="grid items-center gap-10 md:grid-cols-[1fr_320px] md:gap-6">
+      <div>
+        <h2 data-toc-ignore className="!mt-0">⚠️ Avoid the 25 most common dataviz mistakes</h2>
+        <p>
+          Boxplots hiding information, pie charts, cut axes, spaghetti charts... I gathered the 25 dataviz caveats
+          I see the most as a deck of cards. Each card shows a chart that is not ideal, and a better alternative.
+        </p>
+        <p className="text-muted-foreground">Get the full deck for free:</p>
+        <KitForm form="datavizCaveats" buttonLabel="Send me the cards" className="mt-4" />
+      </div>
+
+      <div className="order-first md:order-none">
+        <CardDeck top={top} />
+      </div>
+    </div>
+  );
+}
+
+function CardDeck({ top }: { top: Caveat }) {
+  const others = DECK_IDS.filter((id) => id !== top.id)
+    .slice(0, 4)
+    .map((id) => DATAVIZ_CAVEATS.find((c) => c.id === id)!);
+  const cards = [others[0], others[1], top, others[2], others[3]];
 
   return (
-    <div className="rounded-xl border p-4 sm:p-6">
-      <img
-        src={`${src}-800.webp`}
-        srcSet={`${src}-800.webp 800w, ${src}.webp 1600w`}
-        sizes="(min-width: 820px) 730px, 100vw"
-        width={1600}
-        height={1000}
-        loading="lazy"
-        alt={`Dataviz caveat: ${caveat.title}`}
-        className="h-auto w-full rounded-lg border"
-      />
-      <div className="mt-6 px-1 sm:mt-8">
-        <p className="!m-0 text-sm text-muted-foreground">Dataviz caveat {caveat.id} of 25</p>
-        <p className="!mt-1 text-2xl font-semibold tracking-tight">Avoid the 25 most common dataviz mistakes</p>
-        <p className="!mt-3 text-muted-foreground">
-          This card is one of the 25 dataviz caveats I collected over the years: what is not ideal, and what to do
-          instead. Enter your email and I'll send you the link to all of them.
-        </p>
-        <KitForm form="datavizCaveats" buttonLabel="Get the 25 cards" className="mt-5" />
+    <div className="group relative mx-auto h-[300px] w-[320px]" aria-label="Preview of the dataviz caveat cards">
+      {cards.map((card, i) => {
+        const { rotate, x, y } = FAN[i];
+        const isTop = i === 2;
+        return (
+          <img
+            key={card.id}
+            src={`${CAVEATS_IMG_DIR}/${card.file}-vert.webp`}
+            width={720}
+            height={1440}
+            loading="lazy"
+            alt={isTop ? `Dataviz caveat card: ${card.title}` : ''}
+            className="absolute bottom-0 left-1/2 -ml-[68px] h-[272px] w-[136px] origin-bottom rounded-lg bg-white shadow-[0_6px_20px_rgba(0,0,0,0.14)] ring-1 ring-black/10 [transform:var(--fan)] transition-transform duration-300 ease-out group-hover:[transform:var(--spread)]"
+            style={
+              {
+                zIndex: isTop ? 10 : 5 - Math.abs(i - 2),
+                '--fan': `translate(${x}px, ${y}px) rotate(${rotate}deg) scale(${isTop ? 1.06 : 1})`,
+                // On hover, the deck opens a bit more
+                '--spread': `translate(${x * 1.1}px, ${y * 1.3 - (isTop ? 10 : 0)}px) rotate(${rotate * 1.2}deg) scale(${isTop ? 1.1 : 1})`,
+              } as React.CSSProperties
+            }
+          />
+        );
+      })}
+      {/* Sticker */}
+      <div className="absolute top-0 right-2 z-20 grid size-16 rotate-12 place-items-center rounded-full bg-foreground text-center text-[11px] leading-tight font-semibold text-background shadow-md">
+        <span>
+          25
+          <br />
+          cards
+        </span>
       </div>
     </div>
   );
