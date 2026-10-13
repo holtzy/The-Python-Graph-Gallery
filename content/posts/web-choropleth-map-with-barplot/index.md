@@ -33,7 +33,7 @@ import unicodedata
 Here we need to load 2 datasets:
 
 - one with **map data** (shape of the Belgium). You can find it [here](https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/data/belgium.json).
-- one with **data for each county**. You can find it [here](belgium-unemployment.csv).
+- one with **data for each county**. You can find it [here](/data/belgium-unemployment.csv).
 
 And then we merge them.
 

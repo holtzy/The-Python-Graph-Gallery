@@ -136,7 +136,7 @@ export default function Page() {
       <div className="wrapper">
         <h2 id="Gallery">Bar plot with plotnine</h2>
         <p>
-          <a href="/bar-plot">Bar plots</a> are a great way to visualize the relationship between a categorical
+          <a href="/barplot/">Bar plots</a> are a great way to visualize the relationship between a categorical
           variable and a numerical one. The <code>plotnine</code> library makes it easy thanks to its{' '}
           <code>geom_bar()</code> function.
         </p>

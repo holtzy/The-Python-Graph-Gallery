@@ -32,7 +32,7 @@ from palmerpenguins import load_penguins
 
 ## Load and prepare the data
 
-The dataset used today was collected and made available by [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) and the [Palmer Station, Antarctica LTER](https://pal.lternet.edu/), a member of the [Long Term Ecological Research Network](https://lternet.edu/). This dataset was popularized by [Allison Horst](https://www.allisonhorst.com/) in her R package [`palmerpenguins`](https://allisonhorst.github.io/palmerpenguins/) with the goal to offer an alternative to the iris dataset for data exploration and visualization.
+The dataset used today was collected and made available by [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) and the [Palmer Station, Antarctica LTER](https://pallter.marine.rutgers.edu/), a member of the [Long Term Ecological Research Network](https://lternet.edu/). This dataset was popularized by [Allison Horst](https://www.allisonhorst.com/) in her R package [`palmerpenguins`](https://allisonhorst.github.io/palmerpenguins/) with the goal to offer an alternative to the iris dataset for data exploration and visualization.
 
 ```python
 penguins = load_penguins()
@@ -321,7 +321,7 @@ In this example, a customized jitter is used. A t-student distribution is used i
 
 ## Bonus: What is the Silverman bandwidth?
 
-If you compare the plot obtained above with the [original one](https://tuowang.rbind.io/post/2021-03-25-ggplot2-extensions/7.png), you'll notice the violins don't look exactly the same. That's because of the bandwidth. The bandwidth determines the smoothness of the density estimation used in the violinplot. With `bw_method = "silverman"` matplotlib is instructed to compute the bandwidth via Silverman's rule, because that is what is used in ggplot2.
+If you compare the plot obtained above with the [original one](https://tuowang.rbind.io/), you'll notice the violins don't look exactly the same. That's because of the bandwidth. The bandwidth determines the smoothness of the density estimation used in the violinplot. With `bw_method = "silverman"` matplotlib is instructed to compute the bandwidth via Silverman's rule, because that is what is used in ggplot2.
 
 So why the results don't look the same? Is there a random component there?
 

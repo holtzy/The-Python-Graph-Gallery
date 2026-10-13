@@ -111,4 +111,4 @@ pd.concat([df, agg_metrics]).style.pipe(custom_table)
 
 This post explains how to create a simple custom table with [pandas](https://python-graph-gallery.com/pandas/).
 
-For more examples of **how to create or customize** your tables, see the [table section](https://python-graph-gallery.com/table/). You may also be interested in how to [add HTML and CCS to your table](https://python-graph-gallery.com/5xx-pandas-table-with-html-and-css/).
+For more examples of **how to create or customize** your tables, see the [table section](https://python-graph-gallery.com/table/). You may also be interested in how to [build beautiful tables with great_tables](https://python-graph-gallery.com/585-introduction-great-tables/).

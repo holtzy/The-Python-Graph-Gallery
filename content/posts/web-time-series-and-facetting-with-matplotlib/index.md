@@ -10,7 +10,7 @@ slug: "web-time-series-and-facetting-with-matplotlib"
 
 ## About
 
-This page showcases the work of [Georgios Karamanis](https://www.karaman.is), 
+This page showcases the work of [Georgios Karamanis](https://karaman.is), 
 built for the [TidyTuesday](https://github.com/rfordatascience/tidytuesday) 
 initiative. You can find the original code on his github repository 
 [here](https://github.com/gkaramanis/tidytuesday/blob/master/2021/2021-week26/animal-rescues.R), written in [R](https://www.r-graph-gallery.com).
@@ -46,7 +46,7 @@ plt.rcParams.update({"font.family": "Fira Sans Compressed"})
 This guide shows how to create a highly customized and beautiful multi-panel lineplot to visualize the evolution of animal rescues by the London fire brigade for the different boroughs in the city.
 
 
-The data for this post originally comes from [London.gov](https://data.london.gov.uk/dataset/animal-rescue-incidents-attended-by-lfb) by way of [Data is Plural](https://www.data-is-plural.com/) and [Georgios Karamanis](https://www.karaman.is). This guide uses the dataset released for the [TidyTuesday](https://github.com/rfordatascience/tidytuesday) initiative on the week of 2021-06-29. You can find the original announcement and more information about the data [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-06-29/readme.md). Thank you all for making this work possible!
+The data for this post originally comes from [London.gov](https://data.london.gov.uk/dataset/animal-rescue-incidents-attended-by-lfb) by way of [Data is Plural](https://www.data-is-plural.com/) and [Georgios Karamanis](https://karaman.is). This guide uses the dataset released for the [TidyTuesday](https://github.com/rfordatascience/tidytuesday) initiative on the week of 2021-06-29. You can find the original announcement and more information about the data [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-06-29/readme.md). Thank you all for making this work possible!
 
 ```python
 # Read data

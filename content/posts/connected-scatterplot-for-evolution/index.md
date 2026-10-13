@@ -116,6 +116,6 @@ What a nice way to visualize the evolution of the number of people named Ashley 
 
 ## Going further
 
-This post explains how to create a [connected scatterplot](http://python-graph-gallery.com/connected-scatterplot/) with [matplotlib](http://python-graph-gallery.com/matplotlib/).
+This post explains how to create a [connected scatterplot](http://python-graph-gallery.com/connected-scatter-plot/) with [matplotlib](http://python-graph-gallery.com/matplotlib/).
 
 You might be interested in how to reproduce this [beautiful connected scatter plot](http://python-graph-gallery.com/web-highlighted-lineplot-with-faceting/) and how to create [multiple connected scatter plots](http://python-graph-gallery.com/508-connected-scatter-plot-seaborn/) on the same chart.

@@ -10,7 +10,7 @@ slug: "web-lemurs-parallel-chart"
 
 ## About
 
-This page showcases the work of [Georgios Karamanis](https://www.karaman.is), 
+This page showcases the work of [Georgios Karamanis](https://karaman.is), 
 built for the [TidyTuesday](https://github.com/rfordatascience/tidytuesday) 
 initiative. You can find the original code on his github repository 
 [here](https://github.com/gkaramanis/tidytuesday/blob/master/2021/2021-week34/lemurs.R), written in [R](https://www.r-graph-gallery.com).

@@ -13,7 +13,7 @@ slug: "593-customize-bubble-map-with-folium"
 
 For creating this chart, we will need to load the following libraries:
 
-- [folium](/folium) for plotting the chart
+- [folium](https://python-visualization.github.io/folium/) for plotting the chart
 - [pandas](/pandas) for loading the data
 - `numpy` for some calculations
 

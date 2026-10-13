@@ -125,5 +125,5 @@ Browse the [color palette finder](/color-palette-finder) to find your dream pale
 ### Related
 
 - the [color section of the gallery](/python-colors)
-- discover the [continuous palettes](/available-continuous-palettes) available in Matplotlib
+- discover the [continuous palettes](/continuous-color-palette/) available in Matplotlib
 - available [named colors](/available-colors-in-matplotlib) in Matplotlib

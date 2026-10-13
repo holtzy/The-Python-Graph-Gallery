@@ -63,7 +63,7 @@ plt.show()
 
 ## Create your own categorical colormap
 
-For creating [categorical palettes](categorical-color-palette), you have to use the `ListedColormap()` class. Here's how you can create one:
+For creating [categorical palettes](/categorical-color-palette/), you have to use the `ListedColormap()` class. Here's how you can create one:
 
 ```python
 from matplotlib.colors import ListedColormap

@@ -217,7 +217,7 @@ export default function Page() {
               star!)
             </li>
             <li>
-              Learn more on <a href="custom-fonts-in-matplotlib">how matplotlib handle fonts</a>
+              Learn more on <a href="/custom-fonts-in-matplotlib/">how matplotlib handle fonts</a>
             </li>
             <li>
               How to <a href="/drawarrow">draw arrows in matplotlib</a>

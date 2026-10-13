@@ -62,7 +62,7 @@ Here we are, we've loaded a `geoJson` file, transformed it into a `geopandas dat
 
 ## Going further
 
-This post explains how to create a [map](/map.html) from a `geoJSON` file.
+This post explains how to create a [map](/map/) from a `geoJSON` file.
 
 You might be interested in:
 

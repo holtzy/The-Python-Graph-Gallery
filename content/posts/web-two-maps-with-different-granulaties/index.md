@@ -16,7 +16,7 @@ First, we need to install the following libraries:
 - [matplotlib](/matplotlib): for plot customization
 - [pandas](/pandas): for data manipulation
 - [geopandas](/597-introduction-to-geopandas): for geodata manipulation and plotting
-- [pypalettes](/intoduction-to-pypalettes): for the colors
+- [pypalettes](/introduction-to-pypalettes/): for the colors
 - [pyfonts](/pyfonts): for the fonts
 
 ```python

@@ -62,7 +62,7 @@ plt.show()
 ![](./output-2.png)
 :::
 
-You can also import a [palette](https://www.r-graph-gallery.com/38-rcolorbrewers-palettes/) using the [Palettable utility](https://jiffyclub.github.io/palettable/). See the [matplotlib](http://python-graph-gallery.com/matplotlib/) color page for more info!
+You can also import a [palette](https://r-graph-gallery.com/38-rcolorbrewers-palettes.html) using the [Palettable utility](https://jiffyclub.github.io/palettable/). See the [matplotlib](http://python-graph-gallery.com/matplotlib/) color page for more info!
 
 ```python
 # library

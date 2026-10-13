@@ -40,7 +40,7 @@ data.head()
 
 Let's start by building the **background map** of our bubble map thanks to the `basemap` library. The `basemap` library allows to load the boundaries of **any region of the world** without having to load a `shapefile` or a `geojson` file.
 
-You can read more about this step in the [map section](https://www.python-graph-gallery/map) of the gallery.
+You can read more about this step in the [map section](https://python-graph-gallery.com/map/) of the gallery.
 
 ```python
 # Initialize the background map
