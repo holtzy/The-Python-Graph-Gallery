@@ -9,6 +9,7 @@ import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { Matplotlib, Seaborn } from '@/components/MiscellaneousLogos';
 import { buildMetadata } from '@/lib/seo';
 
@@ -115,6 +116,10 @@ export default function AreaPlot() {
           </Link>
         </div>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="area" />
 
       <Spacing />
 

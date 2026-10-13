@@ -9,6 +9,7 @@ import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import FunctionExploration from '@/components/FunctionExploration';
 import { Seaborn, Matplotlib, Pandas, Plotnine, Plotly } from '@/components/MiscellaneousLogos';
 import { barplot } from '@/lib/functions/barplot';
@@ -289,6 +290,10 @@ export default function Page() {
           />
         </ChartGrid>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="barplot" />
 
       <Spacing />
 

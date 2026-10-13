@@ -9,6 +9,7 @@ import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import FunctionExploration from '@/components/FunctionExploration';
 import { Matplotlib, Seaborn } from '@/components/MiscellaneousLogos';
 import { scatterplot } from '@/lib/functions/scatterplot';
@@ -95,6 +96,10 @@ export default function Page() {
           />
         </ChartGrid>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="bubble" />
 
       <Spacing />
 

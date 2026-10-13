@@ -5,6 +5,7 @@ import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { buttonVariants } from '@/components/ui/button';
 import { buildMetadata } from '@/lib/seo';
 
@@ -48,6 +49,10 @@ export default function Page() {
           <li>Build a Python library allowing to build them! I would love to share it here! 😊</li>
         </ul>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="edgeBundling" />
 
       <Spacing />
 

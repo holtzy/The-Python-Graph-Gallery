@@ -9,6 +9,7 @@ import CodeChunk from '@/components/CodeChunk';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -81,6 +82,10 @@ export default function Page() {
         </div>
         <CodeChunk>{quickCode}</CodeChunk>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="waffle" />
 
       <Spacing />
 

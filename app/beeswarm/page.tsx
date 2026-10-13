@@ -10,6 +10,7 @@ import FunctionExploration from '@/components/FunctionExploration';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { Matplotlib, Seaborn } from '@/components/MiscellaneousLogos';
 import { swarmplot } from '@/lib/functions/swarmplot';
 import { buildMetadata } from '@/lib/seo';
@@ -110,6 +111,10 @@ export default function Beeswarm() {
           that has a dedicated article.
         </p>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="beeswarm" />
 
       <Spacing />
 

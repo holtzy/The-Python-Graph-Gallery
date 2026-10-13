@@ -9,6 +9,7 @@ import CodeChunk from '@/components/CodeChunk';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { Matplotlib } from '@/components/MiscellaneousLogos';
 import { buttonVariants } from '@/components/ui/button';
 import { buildMetadata } from '@/lib/seo';
@@ -75,6 +76,10 @@ export default function Page() {
           Matplotlib-venn documentation
         </a>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="venn" />
 
       <Spacing />
 

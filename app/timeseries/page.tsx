@@ -9,6 +9,7 @@ import CodeChunk from '@/components/CodeChunk';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { Matplotlib } from '@/components/MiscellaneousLogos';
 import { buildMetadata } from '@/lib/seo';
 
@@ -151,6 +152,10 @@ export default function Timeseries() {
           </Link>
         </div>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="timeseries" />
 
       <Spacing />
 

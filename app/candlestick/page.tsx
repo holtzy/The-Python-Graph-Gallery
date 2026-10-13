@@ -9,6 +9,7 @@ import CodeChunk from '@/components/CodeChunk';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { Matplotlib, Plotly } from '@/components/MiscellaneousLogos';
 import { buttonVariants } from '@/components/ui/button';
 import { buildMetadata } from '@/lib/seo';
@@ -84,6 +85,10 @@ export default function Candlestick() {
         </div>
         <CodeChunk>{quickCode}</CodeChunk>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="candlestick" />
 
       <Spacing />
 

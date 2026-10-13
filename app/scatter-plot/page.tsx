@@ -9,6 +9,7 @@ import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import FunctionExploration from '@/components/FunctionExploration';
 import { buttonVariants } from '@/components/ui/button';
 import { Matplotlib, Pandas, Plotly, Plotnine, Seaborn } from '@/components/MiscellaneousLogos';
@@ -290,6 +291,10 @@ export default function Page() {
         </div>
         <CodeChunk>{quickCodeMatplotlib}</CodeChunk>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="scatter" />
 
       <Spacing />
 

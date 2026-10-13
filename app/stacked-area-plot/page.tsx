@@ -10,6 +10,7 @@ import FunctionExploration from '@/components/FunctionExploration';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { Matplotlib, Pandas } from '@/components/MiscellaneousLogos';
 import { buttonVariants } from '@/components/ui/button';
 import { stackplot } from '@/lib/functions/stackplot';
@@ -160,6 +161,10 @@ export default function StackedAreaPlot() {
           />
         </ChartGrid>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="stackedArea" />
 
       <Spacing />
 

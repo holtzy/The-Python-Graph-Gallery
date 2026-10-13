@@ -8,6 +8,7 @@ import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { Matplotlib } from '@/components/MiscellaneousLogos';
 import { buildMetadata } from '@/lib/seo';
 
@@ -61,6 +62,10 @@ export default function CircularBarplot() {
           </Link>
         </div>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="circularBarplot" />
 
       <Spacing />
 

@@ -8,6 +8,7 @@ import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { buttonVariants } from '@/components/ui/button';
 import { buildMetadata } from '@/lib/seo';
 
@@ -77,6 +78,10 @@ export default function BubbleMap() {
           <ChartImage imgName={'projection_maps'} caption={'Change projection in maps'} />
         </Link>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="bubbleMap" />
 
       <Spacing />
 

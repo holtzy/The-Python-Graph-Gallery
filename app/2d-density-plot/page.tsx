@@ -8,6 +8,7 @@ import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { Matplotlib, Seaborn } from '@/components/MiscellaneousLogos';
 import { buttonVariants } from '@/components/ui/button';
 import { buildMetadata } from '@/lib/seo';
@@ -122,6 +123,10 @@ export default function TwoDDensityPlot() {
           />
         </ChartGrid>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="density2d" />
 
       <Spacing />
 

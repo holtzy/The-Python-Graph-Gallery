@@ -9,6 +9,7 @@ import CodeChunk from '@/components/CodeChunk';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import SectionLogoWithOverlay from '@/components/SectionLogoWithOverlay';
 import { chartTypesInfo } from '@/lib/sectionDescriptions';
 import { fullUrlToInternalLink } from '@/lib/site';
@@ -99,6 +100,10 @@ export default function Page() {
         </p>
         <WordAlternativeLogos />
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="wordcloud" />
 
       <Spacing />
 

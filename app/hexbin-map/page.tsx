@@ -8,6 +8,7 @@ import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -46,6 +47,10 @@ export default function HexbinMap() {
           </li>
         </ul>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="hexbin" />
 
       <Spacing />
 

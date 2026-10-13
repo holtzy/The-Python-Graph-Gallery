@@ -8,6 +8,7 @@ import ChartFamilySection from '@/components/ChartFamilySection';
 import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
+import LeadMagnetSpot from '@/components/lead-magnets/LeadMagnetSpot';
 import { Matplotlib } from '@/components/MiscellaneousLogos';
 import { buttonVariants } from '@/components/ui/button';
 import { buildMetadata } from '@/lib/seo';
@@ -46,6 +47,10 @@ export default function Page() {
           Circlify documentation
         </a>
       </div>
+
+      <Spacing />
+
+      <LeadMagnetSpot chartType="circularPacking" />
 
       <Spacing />
 
