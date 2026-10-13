@@ -82,4 +82,4 @@ Once everything is ready, commit, push, and open a pull request on Github.
 
 ### Deploy
 
-`npm run deploy` builds the site and publishes the `out/` folder to the `gh-pages` branch. Before deploying a big change, `npm run seo-diff -- <folder-of-the-previous-build>` checks that urls, titles, descriptions, headings and links are unchanged.
+Every push to `master` builds and deploys the site automatically (GitHub Action `.github/workflows/deploy.yml`). Pull requests are built and checked but not deployed. The deploy is blocked if a page of the live site would disappear (add `[allow-page-removal]` to the commit message to remove a page on purpose). `npm run deploy` deploys manually from your machine. Before deploying a big change, `npm run seo-diff -- <folder-of-the-previous-build>` checks that urls, titles, descriptions, headings and links are unchanged.

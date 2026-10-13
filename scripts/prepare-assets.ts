@@ -61,6 +61,7 @@ async function convertPostImages() {
   const worker = async () => {
     while (queue.length) {
       const { src, destDir, name } = queue.shift()!;
+      fs.mkdirSync(destDir, { recursive: true });
       const targets = [
         ...POST_IMAGE_WIDTHS.map((w) => ({ file: `${name}-${w}.webp`, width: w })),
         { file: `${name}-thumb.webp`, width: 480 },

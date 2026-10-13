@@ -1,0 +1,88 @@
+# Builds the site on every push to master and deploys it to GitHub Pages (gh-pages branch).
+# Pull requests are built and checked too, but not deployed.
+#
+# SEO safety net: the new build is compared with the site currently deployed (scripts/seo-diff.ts).
+# The deploy is blocked if a page of the live site would disappear. To remove a page on purpose,
+# put [allow-page-removal] in the commit message.
+
+name: Build and deploy
+
+on:
+  push:
+    branches: [master]
+    paths-ignore: ['README.md', 'CLAUDE.md', 'AGENTS.md', 'LICENSE']
+  pull_request:
+    paths-ignore: ['README.md', 'CLAUDE.md', 'AGENTS.md', 'LICENSE']
+  workflow_dispatch:
+
+# One run at a time per branch; a newer push cancels the pending one
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      # Full history (for the last modification dates of the sitemap), without the file contents of old commits
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+
+      # The html of the site currently deployed: baseline of the SEO check
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: .seo-baseline
+          filter: blob:none
+          sparse-checkout: '**/index.html'
+          sparse-checkout-cone-mode: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+          cache: npm
+
+      - run: npm ci
+
+      - name: Next.js build cache
+        uses: actions/cache@v4
+        with:
+          path: .next/cache
+          key: nextjs-${{ hashFiles('package-lock.json') }}-${{ github.sha }}
+          restore-keys: nextjs-${{ hashFiles('package-lock.json') }}-
+
+      - run: npm run build
+
+      - name: SEO check against the live site
+        shell: bash
+        env:
+          SEO_FAIL_ON_MISSING: ${{ !contains(github.event.head_commit.message, '[allow-page-removal]') && '1' || '' }}
+        run: |
+          set +e
+          npx tsx scripts/seo-diff.ts .seo-baseline seo-diff-report.json > seo-diff.txt 2>&1
+          status=$?
+          cat seo-diff.txt
+          { echo '### SEO check against the live site'; echo '```'; cat seo-diff.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          exit $status
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: seo-diff-report
+          path: seo-diff-report.json
+          if-no-files-found: ignore
+
+      - name: Deploy to gh-pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+          publish_branch: gh-pages
+          commit_message: 'Deploy ${{ github.sha }}'
