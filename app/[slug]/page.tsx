@@ -7,7 +7,8 @@ import Contact from '@/components/Contact';
 import Spacing from '@/components/Spacing';
 import TableOfContent from '@/components/TableOfContent';
 import PostRuntime from '@/components/post/PostRuntime';
-import { getAllPostSlugs, getPost } from '@/lib/posts';
+import { getAllPostSlugs, getPost, getRelatedPosts } from '@/lib/posts';
+import RelatedPosts from '@/components/RelatedPosts';
 import { renderPost } from '@/lib/render-post';
 import { buildMetadata } from '@/lib/seo';
 import { SITE_URL } from '@/lib/site';
@@ -72,7 +73,9 @@ export default async function PostPage({ params }: Props) {
         <PostRuntime cells={cells}>{content}</PostRuntime>
       </article>
 
-      <Spacing />
+      <div className="wrapper">
+        <RelatedPosts posts={getRelatedPosts(slug)} />
+      </div>
 
       <div className="wrapper">
         <ChartFamilySection chartFamily={post.family} />
