@@ -30,24 +30,35 @@ type KitFormProps = {
 export default function KitForm({ form: formName, buttonLabel = 'Subscribe', className }: KitFormProps) {
   const { id, success } = KIT_FORMS[formName];
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [error, setError] = useState<string | null>(null);
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const form = e.currentTarget;
+    // The page of the sign-up: Kit shows it as the "referrer" of the subscriber
+    form.referrer.value = window.location.href;
     setStatus('loading');
+    let res: Response;
     try {
-      const res = await fetch(`https://app.kit.com/forms/${id}/subscriptions`, {
+      res = await fetch(`https://app.kit.com/forms/${id}/subscriptions`, {
         method: 'POST',
         headers: { Accept: 'application/json' },
         body: new FormData(form),
       });
-      setStatus(res.ok ? 'success' : 'error');
-      if (res.ok) trackEvent('generate_lead', { form: formName });
     } catch {
-      // The request was blocked (network, CORS...): fall back to a regular form submission on Kit
-      form.target = '_blank';
+      // The request was blocked (ad blocker, network...): regular form submission on Kit, in the same tab
+      // (a new tab opened after an async call would be blocked as a popup)
       form.submit();
-      setStatus('idle');
+      return;
+    }
+    // Kit answers 200 even when the subscription fails: read its status
+    const data = await res.json().catch(() => null);
+    if (res.ok && data?.status !== 'failed') {
+      setStatus('success');
+      trackEvent('generate_lead', { form: formName });
+    } else {
+      setStatus('error');
+      setError(data?.errors?.messages?.[0] ?? null);
     }
   };
 
@@ -62,6 +73,7 @@ export default function KitForm({ form: formName, buttonLabel = 'Subscribe', cla
       onSubmit={onSubmit}
       className={cn('flex w-full max-w-md flex-col gap-2 sm:flex-row', className)}
     >
+      <input type="hidden" name="referrer" />
       <input
         type="email"
         name="email_address"
@@ -74,7 +86,9 @@ export default function KitForm({ form: formName, buttonLabel = 'Subscribe', cla
         {status === 'loading' ? '...' : buttonLabel}
       </Button>
       {status === 'error' && (
-        <p className="text-sm text-destructive sm:basis-full">Something went wrong, please try again.</p>
+        <p className="text-sm text-destructive sm:basis-full">
+          {error ? `${error}. Please try again.` : 'Something went wrong, please try again.'}
+        </p>
       )}
     </form>
   );
