@@ -16,7 +16,7 @@ const FAN = [
   { rotate: 14, x: 50, y: 14 },
 ];
 
-// Lead magnet: the deck of 25 dataviz caveat cards, offered in exchange for an email.
+// Lead magnet: the deck of 61 dataviz caveat cards, offered in exchange for an email.
 // The card on top of the deck matches the chart type of the page (or is random).
 export default function DatavizCaveatsMagnet({ chartType, compact }: { chartType?: string; compact?: boolean }) {
   const matching = caveatForChartType(chartType);
@@ -36,9 +36,9 @@ export default function DatavizCaveatsMagnet({ chartType, compact }: { chartType
           </div>
         </div>
         <div>
-          <p className="!m-0 text-xl font-semibold tracking-tight">⚠️ Avoid the 25 most common dataviz mistakes</p>
+          <p className="!m-0 text-xl font-semibold tracking-tight">⚠️ Avoid the 61 most common dataviz mistakes</p>
           <p className="!mt-2 text-muted-foreground">
-            The dataviz caveats I see the most, as a deck of 25 cards: a chart that is not ideal, and a better
+            The dataviz caveats I see the most, as a deck of 61 cards: a chart that is not ideal, and a better
             alternative. Free.
           </p>
           <KitForm form="datavizCaveats" buttonLabel="Send me the cards" className="mt-4" />
@@ -51,9 +51,9 @@ export default function DatavizCaveatsMagnet({ chartType, compact }: { chartType
   return (
     <div className="grid items-center gap-10 md:grid-cols-[1fr_320px] md:gap-6">
       <div>
-        <h2 data-toc-ignore className="!mt-0">⚠️ Avoid the 25 most common dataviz mistakes</h2>
+        <h2 data-toc-ignore className="!mt-0">⚠️ Avoid the 61 most common dataviz mistakes</h2>
         <p>
-          Boxplots hiding information, pie charts, cut axes, spaghetti charts... I gathered the 25 dataviz caveats
+          Boxplots hiding information, pie charts, cut axes, spaghetti charts... I gathered the 61 dataviz caveats
           I see the most as a deck of cards. Each card shows a chart that is not ideal, and a better alternative.
         </p>
         <p className="text-muted-foreground">Get the full deck for free:</p>
@@ -103,7 +103,7 @@ function CardDeck({ top, sticker = true }: { top: Caveat; sticker?: boolean }) {
       {sticker && (
         <div className="absolute top-0 right-2 z-20 grid size-16 rotate-12 place-items-center rounded-full bg-foreground text-center text-[11px] leading-tight font-semibold text-background shadow-md">
           <span>
-            25
+            61
             <br />
             cards
           </span>

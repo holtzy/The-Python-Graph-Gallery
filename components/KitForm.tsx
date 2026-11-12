@@ -11,7 +11,7 @@ export const KIT_FORMS = {
   poster: { id: '7902961', success: 'Poster sent! Check your spam folder just in case.' },
   aiKit: { id: '10040340', success: 'Done! Check your emails: the video is on its way.' },
   inspiration: { id: '10040254', success: 'Done! Check your emails: the list of 300 dataviz projects is on its way.' },
-  datavizCaveats: { id: '10039805', success: 'Done! Check your emails: the link to the 25 cards is on its way.' },
+  datavizCaveats: { id: '10039805', success: 'Done! Check your emails: the link to the 61 cards is on its way.' },
 } as const;
 
 // Google Analytics event (gtag is loaded in app/layout.tsx)
